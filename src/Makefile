@@ -105,6 +105,34 @@ xfst-kom.bin: ../bin/xfst-kom.bin
 	@xfst -utf8 < ../../tmp/xfst-kom-script
 	@rm -f ../../tmp/xfst-kom-script
 
+# Into this place in the makefile, I need to call the xml2lexc script, in
+# order to build my lexc lexicon files.
+
+noun-kom-lex.txt: kom-lex.xml
+	@echo
+	@echo "*** Building noun-kom-lex.txt ***" ;
+	@echo
+	@cat kom-lex.xml | perl ../script/xml2lexc > noun-kom-lex.txt
+
+verb-kom-lex.txt: kom-lex.xml
+	@echo
+	@echo "*** Building noun-kom-lex.txt ***" ;
+	@echo
+	@cat kom-lex.xml | perl ../script/xml2lexc > verb-kom-lex.txt
+
+adj-kom-lex.txt: kom-lex.xml
+	@echo
+	@echo "*** Building noun-kom-lex.txt ***" ;
+	@echo
+	@cat kom-lex.xml | perl ../script/xml2lexc > adj-kom-lex.txt
+
+adv-kom-lex.txt: kom-lex.xml
+	@echo
+	@echo "*** Building noun-kom-lex.txt ***" ;
+	@echo
+	@cat kom-lex.xml | perl ../script/xml2lexc > adv-kom-lex.txt
+
+
 clean:
 	@rm -f ../bin/*.bin ../bin/*.fst ../bin/*.save
 
