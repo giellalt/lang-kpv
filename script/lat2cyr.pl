@@ -14,10 +14,12 @@ while (<>)
 
 # Trigraphs
 
+    s/*e2/Э/g ;
     s/\*e3//g ;
     s/\*i3//g ;
     s/\*i2//g ;
     s/\*s4/Ш/g ;
+    s/\*s5/Щ/g ;
     s/\*z4/Ж/g ;
     s/\*c4/Ч/g ;
     s/\*a1/Я/g ;
@@ -57,9 +59,11 @@ while (<>)
 # Then other digraphs
 
     s/e3//g ;
+    s/e/э/g ;
     s/i3/і/g ;
     s/i2//g ;
     s/s4/ш/g ;
+    s/s/щ/g ;
     s/z4/ж/g ;
     s/c4/ч/g ;
     s/a1/я/g ;
@@ -85,13 +89,12 @@ while (<>)
     s/n/ч/g ;
     s/o/о/g ;
     s/p/п/g ;
-    s/q//g ;
     s/r/р/g ;
     s/s/с/g ;
     s/t/т/g ;
     s/u/у/g ;
     s/v/в/g ;
-    s/w//g ;
+    s/w/ъ/g ;
     s/x//g ;
     s/y/ы/g ;
     s/z/з/g ;
@@ -116,13 +119,12 @@ while (<>)
     s/N/Н/g ;
     s/O/О/g ;
     s/P/П/g ;
-    s/Q//g ;
     s/R/Р/g ;
     s/S/С/g ;
     s/T/Т/g ;
     s/U/У/g ;
     s/V/В/g ;
-    s/W//g ;
+    s/W/Ъ/g ;
     s/X/Х/g ;
     s/Y/Ы/g ;
     s/Z/З/g ;
