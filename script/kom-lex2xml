@@ -1,0 +1,69 @@
+#!/usr/bin/perl -w
+use strict;
+
+# use Perl module XML::Twig for XML-handling
+# http://www.xmltwig.com/
+use XML::Twig;
+
+# Create an XML tree for the lexicon
+my $twig = new XML::Twig;
+# The root element. Name??
+my $lex = XML::Twig::Elt->new('lex');
+
+while(<>) {
+
+	if ($_ =~ /^([\w\*]+)\s+(\w+)\s+(\".*\")\s?\;$/) {
+
+		my $lemma_text = $1;
+		my $contlex_text = $2;
+
+		# The article-part is processed as separate block later
+		my $rest = $3;
+
+		# Create a new entry and paste it to the XML-tree.
+		my $entry = XML::Twig::Elt->new('entry');
+		$entry->paste('last_child', $lex);
+
+		# Create entries to the other strings and
+		# add them under entry.
+
+		# Add here the character conversion for $lemma_text
+		my $lemma = XML::Twig::Elt->new('lemma');
+		$lemma->set_text($lemma_text);
+		$lemma->paste('last_child', $entry);
+
+		# Create empty token for stem
+		my $stem = XML::Twig::Elt->new('stem');
+		$stem->paste('last_child', $entry);
+		
+		my $contlex = XML::Twig::Elt->new('contlex');
+		$contlex->set_text($contlex_text);		
+		$contlex->paste('last_child', $entry);
+		
+		if ($rest =~ /^(\"(\<.*?\>)?\s+(\w+)\s+.*\")$/) {
+
+            #mihin vapaaehtoinen syntaktinen tieto tulee?
+			my $POS_text = $3;
+			my $article_text = $1;
+
+			my $POS = XML::Twig::Elt->new('POS');
+			$POS->set_text($POS_text);
+			$POS->paste('last_child', $entry);
+			
+			#Add here the character conversion script for $article_text
+			my $article = XML::Twig::Elt->new('article');
+			$article->set_text($article_text);		
+			$article->paste('last_child', $entry);
+		}
+		
+	}
+}
+
+# The xml specifications, name of dtd-file and root node.
+print qq|<?xml version="1.0"?>|;
+print qq|<!DOCTYPE lex SYSTEM "lex.dtd" > |;
+
+# If pretty print not set, prints everything to its own line
+# there are other options too.
+$twig->set_pretty_print('record');
+$lex->print( );
