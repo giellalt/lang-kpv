@@ -3,6 +3,10 @@ use strict;
 
 #Convert xml files to lexc.
 
+# The command line to use for this file is:
+# script$ cat ../src/kom-lex.xml | perl kom-lex2xml > test
+# where kom-lex.xml is the inputfile and test is the output xml file.
+
 # use Perl module XML::Twig for XML-handling
 # http://www.xmltwig.com/
 use XML::Twig;
@@ -13,11 +17,11 @@ my $lexicon = "Noun1";
 # Create an XML tree for the lexicon
 my $twig = new XML::Twig;
 # Parse the xml-file
-$twig->parsefile( "kom-lex-xml.xml");
-my $root = $twig->root;
+$twig->parsefile( "test");  # here comes the output file name, change it.
+my $root = $twig->root;     # Get the root of the twig.
 
 # Get all the entries
-my @entries = $root->children;
+my @entries = $root->children;  # The children of the root node are called "entries"
 
 print "LEXICON Noun\n\n";
 
