@@ -1,0 +1,58 @@
+!LEXICON YNYVERB
+!COMMONFORMS ;
+!:y LONGFORMS ;
+
+LEXICON V
++V:%^Inf Finiteforms ;
+
+
+LEXICON Finiteforms        !Gives linking vowels for 3 tenses
++Ind+Fut:%>а PresPret1 ;   ! Future, Present and Preterite1
++Ind+Prs:%>а PresPret1 ;
++Ind+Prt1:%>і PresPret1 ;
++Ind+Fut:%>а P3 ;
++Ind+Prs:%>ӧ P3 ;
++Ind+Prt1:%>і P3 ;
++Ind+Prt2:%>ӧм Pret2a ;
+
+LEXICON PresPret1  ! First and second person
++Sg1:%> K ; 
++Sg2:%>н K ;
++Pl1:%>м K ; 
++Pl1:%>мӧ K ; !
++Pl1:%>мӧй K ; !
++Pl2:%>нныд K ;
++Pl2:%>д K ; 
+
+LEXICON P3         
+:%>с PresPret1-SgPl3 ;
+:%>ӧ PresPret1-SgPl3 ; 
+:%>с PL3 ;
+
+LEXICON PresPret1-SgPl3
+  SG3 ; 
+  PL3 ;
+  
+LEXICON SG3
++Sg3:%> K ;
+  
+LEXICON PL3
++Pl3:%>ны K;
+
+LEXICON Pret2a
+:а PRET2-linkki-a ; 
+   PRET2PL2 ; 
+   PL3 ;   ! for continuation in different persons. 
+                  !Could also have used the homonymic participle
+                  ! as point of departure
+
+LEXICON PRET2PL2
++Sg2:%>ыд K ;
++Pl2:%>ныд K ;
++Pl2:%>ныдӧсь K ; !224
+
+LEXICON PRET2-linkki-a
++Sg1:%> K ;
++Sg3:%> K ;
++Pl1:%>ӧсь K ;
++Pl3:%>ӧсь K ;

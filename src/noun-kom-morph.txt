@@ -1,0 +1,146 @@
+LEXICON N
++N+Sg: CASEPOSSLEX ;
++N+Pl:%>ъяс CASEPOSSLEX ;
+
+LEXICON PI-N                 ! This is for the deviant plural of the only irregular
++N+Sg: CASEPOSSLEX ;         ! Komi noun, which is пи, boy. It has ян as plural
++N+Pl:%>ян CASEPOSSLEX ;     ! marker.
+
+
+LEXICON CASEPOSSLEX
+ POSSFIRST ;         ! Cases  with  Px  first
+ CASEFIRST ;         ! Cases  with  Cx  first
+ ACCLEX ;            ! The  last  lexica  are
+ APRLEX ;            ! cases  with  idiosyncratic
+ CARLEX ;            ! Px--Cx  order. APRLEX is for the parallel forms
+ ELALEX ;
+ LOCLEX ;            ! Ill, Ine and Ins have the same Px behaviour.
+ +A: DERIVEDADJ ;    ! Deriving prenominal adjectives, республикаса
+
+
+
+LEXICON DERIVEDADJ
++Ine:%>са PredMonLex ;     
++Car:%>тӧм PredMonLex ;
++HabObj:%>а PredMonLex ;
+
+LEXICON PredMonLex
+ # ;      ! Singular predicative
+ :ӧсь # ; ! Plural predicative.
+                     
+ 
+! Section for Px first
+! --------------------
+                    
+LEXICON POSSFIRST
+SGPOSSFIRST ;        ! Splitting  in  Sg  and  Pl  Px
+PLPOSSFIRST ;
+CASELAST  ;          ! Allowing  for  skipping  the  Px
+
+LEXICON SGPOSSFIRST
++PxSg1:%>ӧй CASELAST;
++PxSg2:%>ыд CASELAST;
++PxSg3:%>ыз CASELAST;
+
+LEXICON PLPOSSFIRST
++PxPl1:%>ным CASELAST;
++PxPl2:%>ныд CASELAST;
++PxPl3:%>ныз CASELAST;
+
+LEXICON CASELAST
++Nom: K ; 
++Gen:%>лӧн K ; 
++Abl:%>лысь K ;
++Dat:%>лы K ;
++Com:%>кӧд K ;               !svoed
++Cns:%>ла K ; ! consecutive  !dostig
+
+
+
+
+! Section for idiosyncratic cases
+! -------------------------------
+
+! Accusative differs from all the others, it is thus listed here.
+
+LEXICON ACCLEX
++Acc:%>ӧс K ;
+!+PxSg1+Acc:%>ӧс  K ;
++PxSg2+Acc:%>тӧ  K ;
++PxSg3+Acc:%>сӧ  K ;
++PxPl1+Acc:%>нымӧс  K ;
++PxPl2+Acc:%>нытӧ  K ;
++PxPl3+Acc:%>нысӧ  K ;
+
+
+! These are idiosyncratic parallel forms for Apr
+! The ordinary forms are found in the CASEFIRST 
+! lexicon below.
+
+LEXICON APRLEX  
++PxSg1+Apr:%>ӧйлань K ;
++PxPl1+Apr:%>нымлань K ;
++PxPl2+Apr:%>ныдлань K ;
++PxPl3+Apr:%>ныслань K ;
+
+LEXICON  ELALEX
++Ela:%>ысь K ;
++Ela:%>сь  SGPOSSLAST ;
++Ela:%>ысь  PLPOSSLAST  ;
+
+
+! For caritive, Sg is idiosyncratic, but Pl is like for
+! the other POSSLAST cases.
+
+LEXICON CARLEX
++Car:%>тӧг  K ;          ! caritive     !lysh
++Car+PxSg1:%>ӧйтӧг K ;
++Car+PxSg2:%>тӧгыд K ;
++Car+PxSg3:%>тӧгыс K ;
++Car:%>тӧг PLPOSSLAST ; 
+
+
+! This is the lexicon for illative, inessive and instrumental
+LEXICON LOCLEX
++Ill:%>ӧ K ;                  !vstup      ! Absolutive declension
++Ine:%>ын K ;                 !mestn
++Ins:%>ӧн K ;  ! instrumental !tvor
++Ill: LOCPX ;                            ! Possessive declension
++Ine: LOCPX ;
++Ins:%>н LOCPX ;
+
+LEXICON LOCPX
++PxSg1:>ам K ;
++PxSg2:>ад K ;
++PxSg3:>ас K ;
+ :%>а PLPOSSLAST  ;
+
+
+
+! The section for case first
+! --------------------------
+
+LEXICON CASEFIRST
++Apr:%>лань POSSLAST;               !pribl            ! Approximative
++Egr:%>сянь POSSLAST;               !otdal            1 Egressive
++Tra:%>ті POSSLAST;                 !pereh -ti -ӧd    ! Translative
++Prl:%>ӧд POSSLAST;                 !pereh -ti -ӧd    ! Prolative
++Ter:%>ӧдз POSSLAST;                !pred             ! Terminative
+
+LEXICON POSSLAST
+ K ;                                ! Absolutive declension
+SGPOSSLAST ;                        ! Possessive declension
+PLPOSSLAST ;
+
+LEXICON SGPOSSLAST
++PxSg1:%>ым K ;
++PxSg2:%>ыд K ;
++PxSg3:%>ыс K ;
+
+LEXICON PLPOSSLAST
++PxPl1:%>ным K ;
++PxPl2:%>ныд K ;
++PxPl3:%>ныс K ;
+
+
+ 

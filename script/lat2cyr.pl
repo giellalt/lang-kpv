@@ -1,0 +1,69 @@
+#!/usr/bin/perl -w
+
+# lat to cyr
+
+while (<>)
+{
+    s/a//g ;
+    s/b//g ;
+    s/c//g ;
+    s/d//g ;
+    s/e//g ;
+    s/f//g ;
+    s/g//g ;
+    s/h//g ;
+    s/i//g ;
+    s/j//g ;
+    s/k//g ;
+    s/l//g ;
+    s/m//g ;
+    s/n//g ;
+    s/o//g ;
+    s/p//g ;
+    s/q//g ;
+    s/r//g ;
+    s/s//g ;
+    s/t//g ;
+    s/u//g ;
+    s/v//g ;
+    s/w//g ;
+    s/x//g ;
+    s/y//g ;
+    s/z//g ;
+    s/e3//g ;
+    s/i3//g ;
+    s/i2//g ;
+    s/s4//g ;
+    s/z4//g ;
+    s/c4//g ;
+    s/a1//g ;
+    s/u1//g ;
+    s/o1//g ;
+    s///g ;
+    s///g ;
+    s///g ;
+    s///g ;
+    s///g ;
+    s///g ;
+    s///g ;
+    s///g ;
+    s///g ;
+    s///g ;
+    s///g ;
+    s///g ;
+    s///g ;
+    s///g ;
+    s///g ;
+    s///g ;
+    s///g ;
+    s///g ;
+    s///g ;
+    s///g ;
+    s///g ;
+    s///g ;
+    s///g ;
+    s///g ;
+    s///g ;
+    s///g ;
+    s///g ;
+    

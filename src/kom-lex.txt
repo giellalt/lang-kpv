@@ -1,0 +1,89 @@
+Multichar_Symbols
+
+! POS
++N +V +A 
+!+Adv +CC +CS +Interj +Pron +Num
+
+! Verbal MSP
++Prs +Fut +Prt1 +Prt2 +Prf +PrfIpf +HstPrf +PluPrf +HstPluPrf
++Ind +Imp +Cond +Opt
++Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
++Inf
++Pos +Neg +ConNeg
+
+! Nominal MSP
++Sg +Pl
++Nom +Gen +Abl +Dat +Com +Cns 
++Acc +Ins +Ine +Ill 
++Ela +Car +Egr +Tra  +Apr +Ter
+!+Abe +Adc +Prl ! not in use!
++HabObj
+
++PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
+
+! Declearing symbols for morphophonology
+
+к2 м2 т2 К2 М2 Т2 %>
+^Inf
+
+! Key lexicon
+
+LEXICON Root
+Noun ;
+Verb ;
+!Adjective ;         ! These  other  parts  of  speech  have
+!Adverb ;            ! not  been  added  yet.. When  added,, the  
+!Conjunction ;       ! makefile  should  be  updated  accordingly.
+!Subjunction ;
+!Interjection ;
+!Numeral ;
+!Pronoun ;
+!Postposition ;
+!Punctuation ;
+
+
+
+! I include some small lexica here
+! waiting for own files, or perhaps they could stay here
+
+
+!LEXICON Numeral
+!odÔg NUMBERSUF ;
+!kyk:kykt2 NUMBERSUF ;
+!kuin':kuin't2 NUMBERSUF ;
+!n'yl' NUMBERSUF ;
+!vit' NUMBERSUF ;
+!kuat' NUMBERSUF ;
+!siz'ym NUMBERSUF ;
+!t‚mys NUMBERSUF ;
+!ykmys NUMBERSUF ;
+!das NUMBERSUF ;
+!kyz' NUMBERSUF ;
+!kuamyn NUMBERSUF ;
+!n'yl'don NUMBERSUF ;
+!vit'ton NUMBERSUF ;
+!kuat'ton NUMBERSUF ;
+!siz'ymdon NUMBERSUF ;
+!t‚myston NUMBERSUF ;
+!ykmyston NUMBERSUF ;
+!s˚ NUMBERSUF ;
+!s˚rs NUMBERSUF ;
+!million NUMBERSUF ;
+!milliard NUMBERSUF ;
+
+!LEXICON NUMBERSUF
+!+Num: K;
+!+Num:%> NOUNSUF ;
+!+Num:%> ORDINAL ;
+
+!LEXICON ORDINAL
+!+Ord:ÍtÔ K;
+
+
+
+LEXICON K
++Clt:%-а #;
++Clt:%-ӧ #;
++Clt:%>тӧ #;
++Clt:%>сӧ #;
+# ; 

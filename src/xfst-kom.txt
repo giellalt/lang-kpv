@@ -1,0 +1,168 @@
+
+!  This file is a script for the Xerox xfst interface.
+!  It gives the morphophonological rules for Komi.
+
+clear stack
+
+
+! Definition section !
+! ================== !
+
+
+echo << THE DEFININTIONS >>
+
+echo << defining Vow >>
+
+define Vow [ а | и | і | о | ӧ | у | ы | э 
+           | А | И | І | О | Ӧ | У | Ы | Э
+           | я | и | е | ё | ю ];
+
+define PalVow  [ е | ё | ю | я         ! Cns-initial vowels
+               | Е | Ё | Ю | Я ];
+
+echo << defining Cns >>
+define Cns [ б | в | г | д | ж | з 
+           | Б | В | Г | Д | Ж | З 
+           | й | к | л | м | н | п | р | с | т | ф | х | ц 
+           | Й | К | Л | М | Н | П | Р | С | Т | Ф | Х | Ц 
+           | ч | ш | щ | ъ | ь 
+           | Ч | Ш | Щ | Ъ | Ь 
+           | к2 | м2 | т2 
+           | К2 | М2 | Т2 ] ;
+
+define CnsNotSoft [ б | в | г | д | ж | з 
+                  | Б | В | Г | Д | Ж | З 
+                  | й | к | л | м | н | п | р | с | т | ф | х | ц 
+                  | Й | К | Л | М | Н | П | Р | С | Т | Ф | Х | Ц 
+                  | ч | ш | щ | ъ | к2 | м2 | т2
+                  | Ч | Ш | Щ | Ъ | К2 | М2 | Т2 ] ;
+                  
+define CnsBeforeCyri [ б | в | г | ж | й | к | м | п        ! Only certain cons. are
+                     | Б | Б | Г | Ж | Й | К | М | П        ! allowed before Cyr i 
+                     | р | ф | х | ч | ш | щ | к2 | м2 | т2       
+                     | Р | Ф | Х | Ч | Ш | Щ | К2 | М2 | Т2 ];   
+
+define Letter [ Vow | Cns ] ;      
+
+define Syll [ ( Cns ) ( Cns ) Vow ( Cns ) ( Cns ) ] ;      ! Hmm, not needed now.
+
+echo << defining Boundary >>
+
+define Boundary %> ;
+
+
+
+! Rule section !
+! ============ !
+
+
+
+echo << defining the rules >>
+
+
+! Vowel shifts
+! ------------
+
+
+define InfDeletion   н ы %^Inf -> 0 ;  
+ ! Thus, all infinitives may be added as such in the lexicon, and then
+ ! stripped for their suffix here.
+
+define LtoV [ л -> в || _ [ .#. | %> Cns ] ] ;
+ ! These words are underlyingly l, and changed to v.
+
+
+! Paragogic consonants
+! --------------------
+
+  ! These are consonants that are visible in front of vowel-initial suffixes.
+  ! Here, we say that 
+
+define mDeletion м -> 0 || н _  [ .#. | %> Cns ] ;
+  ! син - синмыс
+
+define kDeletion к -> 0 || [ с | ш | с ь | ч] _ [.#. | %> Cns] ; 
+    !воск:воскыс вос:воскыс вос:восыс
+
+define tDeletion т -> 0 || п _ [.#. | %> Cns] ;
+
+define jDeletion й -> 0 || [б | в | г | д | ж | з | к | м | н | п | р | т | с]
+                             _ [.#. | %> Cns] ;
+
+define lDeletion л -> 0 || л _  ь       [ .#. | %> Cns ] ;
+  ! вакуль
+  
+define dDeletion д -> 0 || д _ [ь | з]  [ .#. | %> Cns ] ;
+  ! видз
+  
+define WeakVowDeletion ы -> 0 || \[ н ы ] _ %> Vow ;
+ ! anything but "ny" may preceede the deleted segment.
+ ! Consider this: "ы:0" ы:0 <=> V1: + C:* _ %+: V1 ;
+
+define HardMarkDeletion ъ -> 0 || [ Vow (й) | ь ] %> _ ;
+ 
+
+define HardMarkPalatalisation ъ -> ь || [ д з | ч ] %> _ ;
+
+
+define VowelPalatalisation  а -> я, о -> ё, у -> ю  || 
+                            [~[ [ з | ч ] | д з ]] [ ь | й ] Vow* %> _ ;
+
+define iPalatalisation і -> и || [ Vow | CnsBeforeCyri | ь | д з ] %> _ ;
+
+
+define SoftMarkDeletion ь -> 0 || _ %> [ я | ё | ю | и ] ;
+  ! Here we delete the soft mark that caused the change to palatalising vowels
+  ! in the rules VowelPalatalisation and iPalatalisation.
+
+echo << defining cleanup rules >>
+
+define Cleanup ӧ2 -> ӧ, е2 -> е, о2 -> о, к2 -> к, м2 -> м, т2 -> т ;
+
+define BoundaryDeletion [ %> -> 0 ] ;
+
+define Deletion [ %@ -> 0 ] ;
+
+
+! Then we compose the different rules. !
+! ==================================== !
+
+echo << composing different parts >>
+
+read regex [ 
+InfDeletion
+.o.
+LtoV
+.o.
+mDeletion
+.o.
+kDeletion
+.o.
+tDeletion
+.o.
+jDeletion
+.o.
+lDeletion
+.o.
+dDeletion
+.o.
+WeakVowDeletion
+.o.
+HardMarkDeletion
+.o.
+HardMarkPalatalisation
+.o.
+VowelPalatalisation
+.o.
+iPalatalisation
+.o.
+SoftMarkDeletion
+.o.
+Cleanup
+.o.
+BoundaryDeletion
+.o.
+Deletion 
+] ;
+
+
