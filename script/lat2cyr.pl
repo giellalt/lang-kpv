@@ -15,9 +15,9 @@ while (<>)
 # Trigraphs
 
     s/*e2/Э/g ;
-    s/\*e3//g ;
-    s/\*i3//g ;
-    s/\*i2//g ;
+    s/\*e3/Ӧ/g ;
+    s/\*i3/Ю/g ;
+    s/\*i2/І/g ;
     s/\*s4/Ш/g ;
     s/\*s5/Щ/g ;
     s/\*z4/Ж/g ;
@@ -45,23 +45,22 @@ while (<>)
     s/\*n/Н/g ;
     s/\*o/О/g ;
     s/\*p/П/g ;
-    s/\*q//g ;
     s/\*r/Р/g ;
     s/\*s/\*С/g ;
     s/\*t/Т/g ;
     s/\*u/У/g ;
     s/\*v/В/g ;
-    s/\*w//g ;
+    s/\*w/Ъ/g ;
     s/\*x/Х/g ;
-    s/\*y/Ы/g ;
+    s/\*y/Ь/g ;
     s/\*z/З/g ;
 
 # Then other digraphs
 
-    s/e3//g ;
+    s/e3/ӧ/g ;
     s/e/э/g ;
-    s/i3/і/g ;
-    s/i2//g ;
+    s/i3/ю/g ;
+    s/i2/і/g ;
     s/s4/ш/g ;
     s/s/щ/g ;
     s/z4/ж/g ;
@@ -86,7 +85,7 @@ while (<>)
     s/k/к/g ;
     s/l/л/g ;
     s/m/м/g ;
-    s/n/ч/g ;
+    s/n/н/g ;
     s/o/о/g ;
     s/p/п/g ;
     s/r/р/g ;
@@ -95,8 +94,8 @@ while (<>)
     s/u/у/g ;
     s/v/в/g ;
     s/w/ъ/g ;
-    s/x//g ;
-    s/y/ы/g ;
+    s/x/х/g ;
+    s/y/ь/g ;
     s/z/з/g ;
     
     
@@ -126,7 +125,7 @@ while (<>)
     s/V/В/g ;
     s/W/Ъ/g ;
     s/X/Х/g ;
-    s/Y/Ы/g ;
+    s/Y/ь/g ;
     s/Z/З/g ;
     
 print ;    
