@@ -6,8 +6,11 @@
  <!ELEMENT stem (#PCDATA) >
  <!ELEMENT contlex (#PCDATA) >
  <!ELEMENT POS (#PCDATA) >
- <!ELEMENT article (EG?, ENG?, FIN?, ) >
+ <!ELEMENT article (DOM+, SCI+, SYNO?, DER+, SEE?, ABBR?, ACRON?,
+           ANT?, BIB?, CF?, COMM?, CONN?, DIAL?, MSP?, 
+           PRO?, PROP?, SPELL?, SYN?, EG?, ENG?, FIN? ) >
   <!ELEMENT EG (KOMI, ENG, FIN) >
+
  <!ELEMENT KOMI (#PCDATA) >
  <!ELEMENT ENG (#PCDATA) >
  <!ELEMENT FIN (#PCDATA) >
@@ -24,13 +27,12 @@
  <!ELEMENT COMM (#PCDATA) >
  <!ELEMENT CONN (#PCDATA) >
  <!ELEMENT DIAL (#PCDATA) >
- <!ELEMENT METEOR (#PCDATA) >
  <!ELEMENT MSP (#PCDATA) >
  <!ELEMENT PRO (#PCDATA) >
  <!ELEMENT PROP (#PCDATA) >
  <!ELEMENT SPELL (#PCDATA) >
  <!ELEMENT SYN (#PCDATA) >
- <!ELEMENT V-al (#PCDATA) >
+
 
 
 <!-- old dtd, for reference: 
