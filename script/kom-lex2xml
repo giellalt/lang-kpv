@@ -7,8 +7,9 @@ use XML::Twig;
 
 # Create an XML tree for the lexicon
 my $twig = new XML::Twig;
+
 # The root element. Name??
-my $lex = XML::Twig::Elt->new('lex');
+my $dict = XML::Twig::Elt->new('dict');
 
 while(<>) {
 
@@ -23,7 +24,7 @@ while(<>) {
 
 		# Create a new entry and paste it to the XML-tree.
 		my $entry = XML::Twig::Elt->new('entry');
-		$entry->paste('last_child', $lex);
+		$entry->paste('last_child', $dict);
 
 		# Create entries to the other strings and
 		# add them under entry.
@@ -42,11 +43,11 @@ while(<>) {
 		$contlex->paste('last_child', $entry);
 
 		# Check the regular expression!!
-		if ($rest =~ /^(\"(\<.*?\>)?\s+(\w+)\s+.*\")$/) {
+		if ($rest =~ /^\"\s+(\w)\s+(.*\")$/) {
 
             #mihin vapaaehtoinen syntaktinen tieto tulee?
-			my $POS_text = $3;
-			my $article_text = $1;
+			my $POS_text = $1;
+			my $article_text = $2;
 
 			my $POS = XML::Twig::Elt->new('POS');
 			$POS->set_text($POS_text);
@@ -64,9 +65,9 @@ while(<>) {
 # The xml specifications, name of dtd-file and root node.
 # Change the encoding when moving to utf-8!!
 print qq|<?xml version="1.0" encoding='iso-8859-1'?>|;
-print qq|<!DOCTYPE lex SYSTEM "lex.dtd" > |;
+print qq|<!DOCTYPE dict SYSTEM "dict.dtd" > |;
 
 # If pretty print not set, prints everything to its own line
 # there are other options too.
 $twig->set_pretty_print('record');
-$lex->print( );
+$dict->print( );
