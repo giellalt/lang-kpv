@@ -12,6 +12,7 @@ my $lex = XML::Twig::Elt->new('lex');
 
 while(<>) {
 
+	# Check the regular expression!!
 	if ($_ =~ /^([\w\*]+)\s+(\w+)\s+(\".*\")\s?\;$/) {
 
 		my $lemma_text = $1;
@@ -39,7 +40,8 @@ while(<>) {
 		my $contlex = XML::Twig::Elt->new('contlex');
 		$contlex->set_text($contlex_text);		
 		$contlex->paste('last_child', $entry);
-		
+
+		# Check the regular expression!!
 		if ($rest =~ /^(\"(\<.*?\>)?\s+(\w+)\s+.*\")$/) {
 
             #mihin vapaaehtoinen syntaktinen tieto tulee?
@@ -51,8 +53,6 @@ while(<>) {
 			$POS->paste('last_child', $entry);
 			
 			#Add here the character conversion script for $article_text
-			$article_text = s/\</&lt/;
-			$article_text = s/\>/&gt/;
 			my $article = XML::Twig::Elt->new('article');
 			$article->set_text($article_text);		
 			$article->paste('last_child', $entry);
