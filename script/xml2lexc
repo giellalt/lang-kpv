@@ -1,0 +1,51 @@
+#!/usr/bin/perl -w
+use strict;
+
+#Convert xml files to lexc.
+
+# use Perl module XML::Twig for XML-handling
+# http://www.xmltwig.com/
+use XML::Twig;
+
+# The lexicon
+my $lexicon = "Noun1";
+
+# Create an XML tree for the lexicon
+my $twig = new XML::Twig;
+# Parse the xml-file
+$twig->parsefile( "kom-lex-xml.xml");
+my $root = $twig->root;
+
+# Get all the entries
+my @entries = $root->children;
+
+print "LEXICON Noun\n\n";
+
+foreach my $entry (@entries) {
+
+	# If contlex is the right one, process the rest of the entry
+	my $contlex_text = $entry->first_child( 'contlex')->text;
+	if ($contlex_text =~ /$lexicon/) {
+
+		# Get the values of the fields.
+		my $lemma_text="";
+		if ($entry->first_child('lemma')) {
+			$lemma_text = $entry->first_child( 'lemma')->text;
+		}
+		my $stem_text="";
+		if ($entry->first_child('stem')) {
+			$stem_text = $entry->first_child( 'stem')->text;
+		}
+		my $article_text = "";
+		if ($entry->first_child('article')) {
+			$article_text = $entry->first_child( 'article')->text;
+		}
+		# TODO: process $article_text here
+		if ($stem_text) {
+			print "$lemma_text:$stem_text $contlex_text $article_text \;\n";
+		}
+		else {
+			print "$lemma_text $contlex_text  $article_text \;\n";
+		}
+	}
+}
