@@ -14,7 +14,7 @@ while (<>)
 
 # Trigraphs
 
-    s/*e2/Э/g ;
+    s/\*e2/Э/g ;
     s/\*e3/Ӧ/g ;
     s/\*i3/Ю/g ;
     s/\*i2/І/g ;
