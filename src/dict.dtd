@@ -1,0 +1,48 @@
+<!ELEMENT dict (entry+) >
+
+
+<!ELEMENT entry (lemma, stem?, contlex, POS, article?) >
+ <!ELEMENT lemma (#PCDATA) >
+ <!ELEMENT stem (#PCDATA) >
+ <!ELEMENT contlex (#PCDATA) >
+ <!ELEMENT POS (#PCDATA) >
+ <!ELEMENT article (EG?, ENG?, FIN?, ) >
+  <!ELEMENT EG (KOMI, ENG, FIN) >
+ <!ELEMENT KOMI (#PCDATA) >
+ <!ELEMENT ENG (#PCDATA) >
+ <!ELEMENT FIN (#PCDATA) >
+ <!ELEMENT DOM (#PCDATA) >
+ <!ELEMENT SCI (#PCDATA) >
+ <!ELEMENT SYNO (#PCDATA) >
+ <!ELEMENT DER (#PCDATA) >
+ <!ELEMENT SEE (#PCDATA) >
+ <!ELEMENT ABBR (#PCDATA) >
+ <!ELEMENT ACRON (#PCDATA) >
+ <!ELEMENT ANT (#PCDATA) >
+ <!ELEMENT BIB (#PCDATA) >
+ <!ELEMENT CF (#PCDATA) >
+ <!ELEMENT COMM (#PCDATA) >
+ <!ELEMENT CONN (#PCDATA) >
+ <!ELEMENT DIAL (#PCDATA) >
+ <!ELEMENT METEOR (#PCDATA) >
+ <!ELEMENT MSP (#PCDATA) >
+ <!ELEMENT PRO (#PCDATA) >
+ <!ELEMENT PROP (#PCDATA) >
+ <!ELEMENT SPELL (#PCDATA) >
+ <!ELEMENT SYN (#PCDATA) >
+ <!ELEMENT V-al (#PCDATA) >
+
+
+<!-- old dtd, for reference: 
+
+   <!ELEMENT trans (#PCDATA)>
+   <!ELEMENT grammtrans (consgradation?, stem?, attr?, government?)>
+    <!ELEMENT consgradation (#PCDATA)>
+    <!ELEMENT stem (#PCDATA)>
+    <!ELEMENT attr (#PCDATA)>
+    <!ELEMENT government (#PCDATA)>
+  <!ELEMENT comment (#PCDATA)>
+  <!ELEMENT exgroup (ex, extrans)>
+   <!ELEMENT ex (#PCDATA)>
+   <!ELEMENT extrans (#PCDATA)>
+-->
