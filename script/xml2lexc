@@ -36,9 +36,11 @@ if (!$output_file || !$contlex_name || !$lexicon_name || !$lex_file) {
 # The name of the contlex, the lexicon and the result file
 # Are stored in a hash of arrays. Each element of the hash
 # is prosessed at a time. not implemented.
+# the idea is that the contlex specifies the output_file name which
+# is selected for each entry again.
 # my %lexicons = (
-#				noun => ["Noun1", "Noun", "noun-kom-lex.txt"],
-#				verb => ["Verb1", "Verb", "verb-kom-lex.txt"],
+#				Noun1 => ["Noun", "noun-kom-lex.txt"],
+#				Verb1 => ["Verb", "verb-kom-lex.txt"],
 #				);
 
 }
