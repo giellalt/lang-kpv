@@ -111,6 +111,13 @@ sub store_xml {
 					#Call lat2cyr.pl
 					$value_text = `echo $value_text | perl lat2cyr.pl`;
 				}
+				if ($dom_text =~ /FIN/) {
+					#For the shell, backslash all the alphanumeric chars.
+					$value_text = quotemeta $value_text;
+					
+					#Call 7bit-utf8.pl
+					$value_text = `echo $value_text | perl 7bit-utf8.pl`;
+				}
 				$feat->set_text($value_text);
 				$feat->paste('last_child', $$xml_ref);
 			}
