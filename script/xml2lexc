@@ -6,24 +6,65 @@ use strict;
 # The command line to use for this file is:
 # script$ cat ../src/kom-lex.xml | perl kom-lex2xml > test
 # where kom-lex.xml is the inputfile and test is the output xml file.
+# The available options:
+# --output=<name of the lex-file>
+# --contlex=<name of the contlex>
+# --lexicon=<name of the lexicon>
+# --lex_file=<name of the xml lex>
 
 # use Perl module XML::Twig for XML-handling
 # http://www.xmltwig.com/
 use XML::Twig;
 
-# The lexicon
-my $lexicon = "Noun1";
+# permit named arguments
+use Getopt::Long;
+
+my $output_file;  #e.g. noun-kom-lex.txt
+my $contlex_name; #e.g. Noun1
+my $lexicon_name; #e.g. Noun
+my $lex_file;      # kom-lex.xml
+
+GetOptions ("output=s" => \$output_file,
+			"contlex=s" => \$contlex_name,
+			"lexicon=s" => \$lexicon_name,
+			"lex_file=s" => \$lex_file) ;
+
+if (!$output_file || !$contlex_name || !$lexicon_name || !$lex_file) {
+	die "Specify command-line parameters to xml2lexc! $!";
+
+# Alternatively,
+# The name of the contlex, the lexicon and the result file
+# Are stored in a hash of arrays. Each element of the hash
+# is prosessed at a time. not implemented.
+# my %lexicons = (
+#				noun => ["Noun1", "Noun", "noun-kom-lex.txt"],
+#				verb => ["Verb1", "Verb", "verb-kom-lex.txt"],
+#				);
+
+}
+
+# There will be 6 lexicons built from the original xml-file.
+# So, for POS is N, V, A, POSTP, INTERJ, CONJ, 
+# we need a routine to build 
+# noun-kom-lex.txt
+# verb-kom-lex.txt
+# adj-kom-lex.txt
+# postp-kom-lex.txt
+# interj-kom-lex.txt
+# conj-kom-lex.txt
+
 
 # Create an XML tree for the lexicon
 my $twig = new XML::Twig;
 # Parse the xml-file
-$twig->parsefile( "test");  # here comes the output file name, change it.
+$twig->parsefile($lex_file);  # here comes the input file name
 my $root = $twig->root;     # Get the root of the twig.
 
 # Get all the entries
 my @entries = $root->children;  # The children of the root node are called "entries"
 
-print "LEXICON Noun\n\n";
+open LEX, ">:utf8", "$output_file" or die "Cant open the file: $!\n";
+print LEX "LEXICON $lexicon_name\n\n";
 
 foreach my $entry (@entries) {
 
@@ -31,7 +72,7 @@ foreach my $entry (@entries) {
         # Take the text out of the contlex node (the my clause)
         # and check it against the $lexicon variable set above (the if clause)
 	my $contlex_text = $entry->first_child( 'contlex')->text;  
-	if ($contlex_text =~ /$lexicon/) {                         
+	if ($contlex_text =~ /$contlex_name/) {                         
 
 		# Get the values of the fields.
 		my $lemma_text="";
@@ -42,12 +83,13 @@ foreach my $entry (@entries) {
 		if ($entry->first_child('stem')) {
 			$stem_text = $entry->first_child( 'stem')->text;
 		}
-		my $article_text = "";
-		if ($entry->first_child('article')) {
-			$article_text = $entry->first_child( 'article')->text;
+		my $eng_text = "";
+		if (my $article = $entry->first_child('article')) {
+			if ($article->first_child('ENG')) {
+				$eng_text = $article->first_child( 'ENG')->text;
+			}
 		}
-		# TODO: process $article_text here
-
+		
 # Specification:
 # From the article field, we actually need only the content of the <ENG> tag 
 # that is the daughter of the <article> tag (and not the <ENG> thag that is
@@ -58,102 +100,10 @@ foreach my $entry (@entries) {
 # lemma_text contlex_text "text_from_ENG_tag" ;
 
 		if ($stem_text) {
-			print "$lemma_text:$stem_text $contlex_text $article_text \;\n";
+			print LEX "$lemma_text:$stem_text $contlex_text \"$eng_text\" \;\n";
 		}
 		else {
-			print "$lemma_text $contlex_text  $article_text \;\n";
-		}
-	}
-}
-
-
-# Then, I take it that the same must be done for each lexical tag 
-# we want to process
-# Below, I sketch what I suspect should be done.
-
-__END__
-
-# I do not know how to teach this script file how to parse more than one
-# file.
-# Basically, we need to extract nouns, verbs, and adjectives from the xml
-# file via this twig script. 
-
-# So, for POS is N, V, A, POSTP, INTERJ, CONJ, 
-# we need a routine to build 
-# noun-kom-lex.txt
-# verb-kom-lex.txt
-# adj-kom-lex.txt
-# postp-kom-lex.txt
-# interj-kom-lex.txt
-# conj-kom-lex.txt
-
-# which takes POS as my $lexicon = "noun";
-# etc., and contlex as contlex.
-
-# Should we copy the routine above 6 times, or should we interleave it:
-
-
-# If interleave, how should it be done? Like this?
-
-# The lexica
-
-my $nounlex = "N";       # Or should the all have one
-my $verblex = "V";       # variable name?
-my $adjlex = "A";
-my $advlex = "ADV";
-my $postplex = "POSTP";
-my $interjlex = "INTERJ";
-my $conjlex = "CONJ";
-
-# Create an XML tree for the lexica
-my $twig = new XML::Twig;   # one? several?
-# Parse the xml-file
-$twig->parsefile( "test");  # How to get 7 different files
-my $root = $twig->root;     # Get the root of the twig.
-
-# Get all the entries
-
-# The lexicon
-my $lexicon = "Noun1";
-
-# Create an XML tree for the lexicon
-my $twig = new XML::Twig;
-# Parse the xml-file
-$twig->parsefile( "test");  # here comes the output file name, change it.
-my $root = $twig->root;     # Get the root of the twig.
-
-# Get all the entries
-my @entries = $root->children;  # The children of the root node are called "entries"
-
-print "LEXICON Noun\n\n";
-
-foreach my $entry (@entries) {
-
-	# If contlex is the right one, process the rest of the entry
-        # Take the text out of the contlex node (the my clause)
-        # and check it against the $lexicon variable set above (the if clause)
-	my $contlex_text = $entry->first_child( 'contlex')->text;  
-	if ($contlex_text =~ /$lexicon/) {                         
-
-		# Get the values of the fields.
-		my $lemma_text="";
-		if ($entry->first_child('lemma')) {
-			$lemma_text = $entry->first_child( 'lemma')->text;
-		}
-		my $stem_text="";
-		if ($entry->first_child('stem')) {
-			$stem_text = $entry->first_child( 'stem')->text;
-		}
-		my $article_text = "";
-		if ($entry->first_child('article')) {
-			$article_text = $entry->first_child( 'article')->text;
-		}
-		# TODO: process $article_text here
-		if ($stem_text) {
-			print "$lemma_text:$stem_text $contlex_text $article_text \;\n";
-		}
-		else {
-			print "$lemma_text $contlex_text  $article_text \;\n";
+			print LEX "$lemma_text $contlex_text  \"$eng_text\" \;\n";
 		}
 	}
 }
