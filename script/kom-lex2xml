@@ -51,6 +51,8 @@ while(<>) {
 			$POS->paste('last_child', $entry);
 			
 			#Add here the character conversion script for $article_text
+			$article_text = s/\</&lt/;
+			$article_text = s/\>/&gt/;
 			my $article = XML::Twig::Elt->new('article');
 			$article->set_text($article_text);		
 			$article->paste('last_child', $entry);
@@ -60,7 +62,8 @@ while(<>) {
 }
 
 # The xml specifications, name of dtd-file and root node.
-print qq|<?xml version="1.0"?>|;
+# Change the encoding when moving to utf-8!!
+print qq|<?xml version="1.0" encoding='iso-8859-1'?>|;
 print qq|<!DOCTYPE lex SYSTEM "lex.dtd" > |;
 
 # If pretty print not set, prints everything to its own line
