@@ -112,7 +112,7 @@ noun-kom-lex.txt: kom-lex.xml
 	@echo
 	@echo "*** Building noun-kom-lex.txt ***" ;
 	@echo
-	@cat kom-lex.xml | perl ../script/xml2lexc > noun-kom-lex.txt
+	@perl ../script/xml2lexc --contlex="Noun1" --lexicon="Noun" --output=$@ --lex_file=$<
 
 verb-kom-lex.txt: kom-lex.xml
 	@echo
