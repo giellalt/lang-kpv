@@ -80,8 +80,7 @@ while(<>) {
 }
 
 # The xml specifications, name of dtd-file and root node.
-# Change the encoding when moving to utf-8!!
-print qq|<?xml version="1.0" encoding='iso-8859-1'?>|;
+print qq|<?xml version="1.0" encoding='utf-8'?>|;
 print qq|<!DOCTYPE dict SYSTEM "dict.dtd" > |;
 
 # If pretty print not set, prints everything to its own line
