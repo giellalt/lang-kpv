@@ -106,7 +106,6 @@ sub store_xml {
 				my $feat = XML::Twig::Elt->new($dom_text);
 
 				if ($dom_text =~ /DER|KOMI|SYNO|SEE/) {
-					print "JEE:$dom_text\n";
 					#For the shell, backslash all the alphanumeric chars.
 					$value_text = quotemeta $value_text;
 					
