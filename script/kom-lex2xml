@@ -29,7 +29,11 @@ while(<>) {
 		# Create entries to the other strings and
 		# add them under entry.
 
-		# Add here the character conversion for $lemma_text
+		# The character conversion for $lemma_text
+		#For the shell, backslash all the alphanumeric chars.
+		$lemma_text = quotemeta $lemma_text;
+		$lemma_text = `echo $lemma_text | perl lat2cyr.pl`;
+
 		my $lemma = XML::Twig::Elt->new('lemma');
 		$lemma->set_text($lemma_text);
 		$lemma->paste('last_child', $entry);
@@ -43,22 +47,35 @@ while(<>) {
 		$contlex->paste('last_child', $entry);
 
 		# Check the regular expression!!
-		if ($rest =~ /^\"\s+(\w)\s+(.*\")$/) {
+		if ($rest =~ /^\"\s*(\w+?)\s+(.*)\"\s*$/) {
 
-            #mihin vapaaehtoinen syntaktinen tieto tulee?
 			my $POS_text = $1;
 			my $article_text = $2;
 
 			my $POS = XML::Twig::Elt->new('POS');
 			$POS->set_text($POS_text);
 			$POS->paste('last_child', $entry);
-			
-			#Add here the character conversion script for $article_text
+
+			#Create article
 			my $article = XML::Twig::Elt->new('article');
-			$article->set_text($article_text);		
+			
+			#Split $article_text to parts.
+			#Take first EG-parts, if there are some
+			if ($article_text =~ s/ EG \[(.*)\]\]//g) {
+				#Create EG
+				my $eg = XML::Twig::Elt->new('EG');
+
+				my $in_eg = $1;
+				store_xml($in_eg, \$eg);
+
+				# Paste EG to the tree.
+				$eg->paste('last_child', $article);
+			}
+			store_xml($article_text, \$article);
+
+			# Paste article to the tree.
 			$article->paste('last_child', $entry);
-		}
-		
+		}		
 	}
 }
 
@@ -71,3 +88,44 @@ print qq|<!DOCTYPE dict SYSTEM "dict.dtd" > |;
 # there are other options too.
 $twig->set_pretty_print('record');
 $dict->print( );
+
+
+sub store_xml {
+	my ($article_text, $xml_ref) = @_;
+
+	#Split the article to blocks which contain one value.
+	my @entries = split(/\]/, $article_text);
+	for my $ent (@entries) {
+		if ($ent) {
+			my ($features, $value_text) = split(/\[/,$ent);
+			my @domains = split(/ /, $features);
+			my $dom_text = pop @domains;
+			
+			# Process the feature with value.
+			if ($dom_text) {
+				my $feat = XML::Twig::Elt->new($dom_text);
+
+				if ($dom_text =~ /DER|KOMI|SYNO|SEE/) {
+					print "JEE:$dom_text\n";
+					#For the shell, backslash all the alphanumeric chars.
+					$value_text = quotemeta $value_text;
+					
+					#Call lat2cyr.pl
+					$value_text = `echo $value_text | perl lat2cyr.pl`;
+				}
+				$feat->set_text($value_text);
+				$feat->paste('last_child', $$xml_ref);
+			}
+
+			#Process rest features (those without values)
+			for my $d (@domains) {
+				if ($d) {
+					my $dom = XML::Twig::Elt->new('DOM');
+					$dom->set_text($d);		
+					$dom->paste('last_child', $$xml_ref);
+				}
+			}
+		}
+	}
+}
+
