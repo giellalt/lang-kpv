@@ -1,6 +1,18 @@
 # This is a makefile that builds the Komi morphological parser
 # *****************************************************************
 
+# Search for prerequisites from the bin-directory.
+SHELL = /bin/sh
+.SUFFIXES:
+
+LANG = kom
+
+VPATH=../bin
+LEXS = $(patsubst %,%-$(LANG)-lex.txt,$(shell perl ../script/xml2lexc --pos_list --lex_file=kom-lex.xml))
+
+cur-dir   := $(shell pwd)
+bin-dir   := $(subst src,bin,$(cur-dir))
+
 
 # This is a preliminary file that builds a Komi Sami parser based upon
 # xfst and not twolc.
@@ -34,6 +46,7 @@ kom.fst: ../bin/kom.fst
 	quit \n" > ../../tmp/kom-fst-script
 	@xfst -utf8 < ../../tmp/kom-fst-script
 	@rm -f ../../tmp/kom-fst-script
+
 
 
 # The second goal is to build the caseconv.fst file
@@ -79,17 +92,17 @@ kom.save: ../bin/kom.save
 
 
 kom-lex.save: ../bin/kom-lex.save
-../bin/kom-lex.save: kom-lex.txt noun-kom-morph.txt noun-kom-lex.txt \
-	verb-kom-lex.txt verb-kom-morph.txt
+../bin/kom-lex.save: kom-lex.txt noun-kom-morph.txt verb-kom-morph.txt $(LEXS)
 	@echo
 	@echo "*** Building kom-lex.save ***" ;
 	@echo
-	printf "compile-source kom-lex.txt noun-kom-morph.txt noun-kom-lex.txt \
-	verb-kom-lex.txt verb-kom-morph.txt \n\
+	printf "compile-source $^ \n\
 	save-source ../bin/kom-lex.save \n\
 	quit \n" > ../../tmp/kom-lex-save-script
 	@lexc -utf8 < ../../tmp/kom-lex-save-script
 	rm -f ../../tmp/kom-lex-save-script
+
+
 
 # The second goal is to build xfst-kom.bin
 # This goal depends on xfst-kom.txt
@@ -105,36 +118,20 @@ xfst-kom.bin: ../bin/xfst-kom.bin
 	@xfst -utf8 < ../../tmp/xfst-kom-script
 	@rm -f ../../tmp/xfst-kom-script
 
-# Into this place in the makefile, I need to call the xml2lexc script, in
-# order to build my lexc lexicon files.
 
-noun-kom-lex.txt: kom-lex.xml
-	@echo
-	@echo "*** Building noun-kom-lex.txt ***" ;
-	@echo
-	@perl ../script/xml2lexc --contlex="Noun1" --lexicon="Noun" --output=$@ --lex_file=$<
+# Call the xml2lexc script, in order to build the lexc lexicon files.
 
-verb-kom-lex.txt: kom-lex.xml
+all-kom-lex: kom-lex.xml
 	@echo
-	@echo "*** Building noun-kom-lex.txt ***" ;
+	@echo "*** Building komi lexicons ***" ;
 	@echo
-	@cat kom-lex.xml | perl ../script/xml2lexc > verb-kom-lex.txt
+	@perl ../script/xml2lexc --out_dir=$(bin-dir) --lex_file=$<
 
-adj-kom-lex.txt: kom-lex.xml
-	@echo
-	@echo "*** Building noun-kom-lex.txt ***" ;
-	@echo
-	@cat kom-lex.xml | perl ../script/xml2lexc > adj-kom-lex.txt
-
-adv-kom-lex.txt: kom-lex.xml
-	@echo
-	@echo "*** Building noun-kom-lex.txt ***" ;
-	@echo
-	@cat kom-lex.xml | perl ../script/xml2lexc > adv-kom-lex.txt
 
 
 clean:
-	@rm -f ../bin/*.bin ../bin/*.fst ../bin/*.save
+	@rm -f ../bin/*.bin ../bin/*.fst ../bin/*.save ../bin/*-lex.txt
+
 
 
 
