@@ -3,14 +3,17 @@ use strict;
 
 #Convert xml files to lexc.
 
-# The command line to use for this file is:
-# script$ cat ../src/kom-lex.xml | perl kom-lex2xml > test
-# where kom-lex.xml is the inputfile and test is the output xml file.
-# The available options:
-# --output=<name of the lex-file>
-# --contlex=<name of the contlex>
-# --lexicon=<name of the lexicon>
-# --lex_file=<name of the xml lex>
+sub print_help {
+	print "Usage: xml2lexc [OPTIONS]\n";
+	print "The available options:\n";
+	print "    --lex_file=<name of the xml lex file>\n";
+	print "    --output=<name of the lex-file> \n";
+	print "    --out_dir=<name of the output directory> \n";
+	print "    --pos=<pos tag>\n";
+	print "    --lexicon=<names of the lexicon>\n";
+	print "    --pos_list \tlist all the pos-tags in file lex_file\n";
+	print "    --help     \tthis help and exit\n";
+};
 
 # use Perl module XML::Twig for XML-handling
 # http://www.xmltwig.com/
@@ -20,40 +23,29 @@ use XML::Twig;
 use Getopt::Long;
 
 my $output_file;  #e.g. noun-kom-lex.txt
-my $contlex_name; #e.g. Noun1
+my $pos_name=''; # e.g. N
 my $lexicon_name; #e.g. Noun
 my $lex_file;      # kom-lex.xml
+my $output_dir;
+my $help = '';
+my $pos_list = '';
+
+# If the output file name is not given, the extenstion that is added
+# to pos to form the file name, e.g. N-kom-lex.txt
+my $extension = "-kom-lex.txt";
 
 GetOptions ("output=s" => \$output_file,
-			"contlex=s" => \$contlex_name,
 			"lexicon=s" => \$lexicon_name,
-			"lex_file=s" => \$lex_file) ;
+			"pos=s" => \$pos_name,
+			"out_dir=s" => \$output_dir,
+			"lex_file=s" => \$lex_file,
+			"help" => \$help,
+			"pos_list" => \$pos_list) ;
 
-if (!$output_file || !$contlex_name || !$lexicon_name || !$lex_file) {
-	die "Specify command-line parameters to xml2lexc! $!";
-
-# Alternatively,
-# The name of the contlex, the lexicon and the result file
-# Are stored in a hash of arrays. Each element of the hash
-# is prosessed at a time. not implemented.
-# the idea is that the contlex specifies the output_file name which
-# is selected for each entry again.
-# my %lexicons = (
-#				Noun1 => ["Noun", "noun-kom-lex.txt"],
-#				Verb1 => ["Verb", "verb-kom-lex.txt"],
-#				);
-
+if ($help) {
+	print_help;
+	exit 1;
 }
-
-# There will be 6 lexicons built from the original xml-file.
-# So, for POS is N, V, A, POSTP, INTERJ, CONJ, 
-# we need a routine to build 
-# noun-kom-lex.txt
-# verb-kom-lex.txt
-# adj-kom-lex.txt
-# postp-kom-lex.txt
-# interj-kom-lex.txt
-# conj-kom-lex.txt
 
 
 # Create an XML tree for the lexicon
@@ -62,51 +54,116 @@ my $twig = new XML::Twig;
 $twig->parsefile($lex_file);  # here comes the input file name
 my $root = $twig->root;     # Get the root of the twig.
 
-# Get all the entries
-my @entries = $root->children;  # The children of the root node are called "entries"
+if ($pos_list) {
 
-open LEX, ">:utf8", "$output_file" or die "Cant open the file: $!\n";
-print LEX "LEXICON $lexicon_name\n\n";
-
-foreach my $entry (@entries) {
-
-	# If contlex is the right one, process the rest of the entry
-        # Take the text out of the contlex node (the my clause)
-        # and check it against the $lexicon variable set above (the if clause)
-	my $contlex_text = $entry->first_child( 'contlex')->text;  
-	if ($contlex_text =~ /$contlex_name/) {                         
-
-		# Get the values of the fields.
-		my $lemma_text="";
-		if ($entry->first_child('lemma')) {
-			$lemma_text = $entry->first_child( 'lemma')->text;
-		}
-		my $stem_text="";
-		if ($entry->first_child('stem')) {
-			$stem_text = $entry->first_child( 'stem')->text;
-		}
-		my $eng_text = "";
-		if (my $article = $entry->first_child('article')) {
-			if ($article->first_child('ENG')) {
-				$eng_text = $article->first_child( 'ENG')->text;
-			}
-		}
+	my %pos;
+	
+    # Get all the entries
+	my @entries = $root->children;  # The children of the root node are called "entries"
+	foreach my $entry (@entries) {
 		
+		# If pos-tag is the right one, process the rest of the entry
+		my $pos_text = $entry->first_child( 'POS' )->text;
+		
+		$pos{$pos_text} += 1;
+	}
+	
+	for my $ket (keys %pos) {
+		print "$ket ";
+	}
+}
+
+elsif ( $pos_name ) { &generate_pos($pos_name); }
+else { &generate_all; }
+
+sub generate_all {
+
+	my %pos; 
+	# Get all the entries
+	my @entries = $root->children;  # The children of the root node are called "entries"
+
+	foreach my $entry (@entries) {
+		my $pos_text = $entry->first_child( 'POS' )->text;	
+		$pos{$pos_text} += 1;
+	}
+	for my $pos_name (keys %pos) {
+		&generate_pos($pos_name);
+	}
+}
+
+sub generate_pos {
+	
+	my ($pos) = shift @_;
+
+	return if (! $pos );
+	my $output;
+	if (! $output_file ) {
+		chomp $pos;
+		$output = $output_dir . "/" . $pos . $extension;
+		print "$output\n";
+	}
+	else { $output = $output_file; }
+
+	my $lex_fh = &print_start($output, $pos, $lex_file);
+
+    # Get all the entries
+	my @entries = $root->children;  # The children of the root node are called "entries"
+
+	foreach my $entry (@entries) {
+
+		# If pos-tag is the right one, process the rest of the entry
+		my $pos_text = $entry->first_child( 'POS' )->text;
+		if ( $pos eq $pos_text ) {
+			
+			# Get the values of the fields.
+			my $lemma_text="";
+			if ($entry->first_child('lemma')) {
+				$lemma_text = $entry->first_child( 'lemma')->text;
+			}
+			my $stem_text="";
+			if ($entry->first_child('stem')) {
+				$stem_text = $entry->first_child( 'stem')->text;
+			}
+			my $eng_text = "";
+			if (my $article = $entry->first_child('article')) {
+				if ($article->first_child('ENG')) {
+					$eng_text = $article->first_child( 'ENG')->text;
+				}
+			}
 # Specification:
 # From the article field, we actually need only the content of the <ENG> tag 
 # that is the daughter of the <article> tag (and not the <ENG> thag that is
-# the daughter of the <EG> tag). The content of this ENG tag should be written
+# the daughter of the <EG> tag). The content of this ENG tag is written
 # within double quotes. The line should thus be:
 # lemma_text:stem_text contlex_text "text_from_ENG_tag" ;
 # or eventually, if there is no stem_text, 
 # lemma_text contlex_text "text_from_ENG_tag" ;
 
-		if ($stem_text) {
-			print LEX "$lemma_text:$stem_text $contlex_text \"$eng_text\" \;\n";
-		}
-		else {
-			print LEX "$lemma_text $contlex_text  \"$eng_text\" \;\n";
+			my $contlex_text = $entry->first_child( 'contlex')->text;  
+			if ($stem_text) {
+				print $lex_fh "$lemma_text:$stem_text $contlex_text \"$eng_text\" \;\n";
+			}
+			else {
+				print $lex_fh "$lemma_text $contlex_text  \"$eng_text\" \;\n";
+			}
 		}
 	}
+	close $lex_fh;
 }
 
+sub print_start{
+
+	my ($output, $pos, $lex_file) = @_;
+	
+	open my $lex_fh, ">:utf8", "$output" or die "Cant open the file: $!\n";
+	print $lex_fh "! ========================================================================== !\n";
+	print $lex_fh "!                     $pos lexicon                           \n";
+	print $lex_fh "! ========================================================================== !\n";
+	print $lex_fh "!\n";
+	print $lex_fh "! Automatically generated from $lex_file by script xml2lexc\n";
+	print $lex_fh "! xml2lexc is called from Makefile\n";
+	print $lex_fh "! DO NOT EDIT! \n\n\n";
+	print $lex_fh "LEXICON $pos\n\n";
+	
+	return $lex_fh;
+}
