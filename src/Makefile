@@ -92,11 +92,11 @@ kom.save: ../bin/kom.save
 
 
 kom-lex.save: ../bin/kom-lex.save
-../bin/kom-lex.save: kom-lex.txt noun-kom-morph.txt verb-kom-morph.txt $(LEXS)
+../bin/kom-lex.save: kom-lex.txt noun-kom-morph.txt verb-kom-morph.txt all-kom-lex
 	@echo
 	@echo "*** Building kom-lex.save ***" ;
 	@echo
-	printf "compile-source $^ \n\
+	printf "compile-source $(addprefix ../bin/,$(LEXS)) $(subst all-kom-lex,,$^) \n\
 	save-source ../bin/kom-lex.save \n\
 	quit \n" > ../../tmp/kom-lex-save-script
 	@lexc -utf8 < ../../tmp/kom-lex-save-script
