@@ -109,11 +109,11 @@ LEXICON LOCLEX
 +Ine: LOCPX ;
 +Ins:%>н LOCPX ;
 
-LEXICON LOCPX
-+PxSg1:>ам K ;
-+PxSg2:>ад K ;
-+PxSg3:>ас K ;
- :%>а PLPOSSLAST  ;
+!LEXICON LOCPX
+!+PxSg1:>ам K ;
+!+PxSg2:>ад K ;
+!+PxSg3:>ас K ;
+! :%>а PLPOSSLAST  ;
 
 
 
@@ -128,7 +128,7 @@ LEXICON CASEFIRST
 +Ter:%>ӧдз POSSLAST;                !pred             ! Terminative
 
 LEXICON POSSLAST
- K ;                                ! Absolutive declension
+K ;                                ! Absolutive declension
 SGPOSSLAST ;                        ! Possessive declension
 PLPOSSLAST ;
 
