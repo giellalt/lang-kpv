@@ -5,10 +5,10 @@
 SHELL = /bin/sh
 .SUFFIXES:
 
-LANG = kom
+lg = kom
 
 VPATH=../bin
-LEXS = $(patsubst %,%-$(LANG)-lex.txt,$(shell perl ../script/xml2lexc --pos_list --lex_file=kom-lex.xml))
+LEXS = $(patsubst %,%-$(lg)-lex.txt,$(shell perl ../script/xml2lexc --pos_list --lex_file=kom-lex.xml))
 
 cur-dir   := $(shell pwd)
 bin-dir   := $(subst src,bin,$(cur-dir))
