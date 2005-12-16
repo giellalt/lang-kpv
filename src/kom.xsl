@@ -52,7 +52,7 @@
   <xsl:apply-templates select="FIN"/>
   <xsl:apply-templates select="EG"/>
   <!--
-   <xsl:if test="not([last()])">
+  <xsl:if test="not([last()])">
     <xsl:text>;</xsl:text>
    </xsl:if> -->
 </xsl:template>
