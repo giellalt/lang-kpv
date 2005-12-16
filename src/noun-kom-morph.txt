@@ -1,11 +1,45 @@
-LEXICON N
+LEXICON Noun1
 +N+Sg: CASEPOSSLEX ;
 +N+Pl:%>ъяс CASEPOSSLEX ;
 
-LEXICON PI-N                 ! This is for the deviant plural of the only irregular
-+N+Sg: CASEPOSSLEX ;         ! Komi noun, which is пи, boy. It has ян as plural
-+N+Pl:%>ян CASEPOSSLEX ;     ! marker.
+LEXICON NounLA
+# ;
 
+LEXICON Noun2
+# ;
+
+LEXICON NounSG
+# ;
+
+LEXICON NounPi
+# ;
+
+LEXICON NounMort
+# ;
+
+LEXICON ACRON
+# ;
+
+LEXICON NounPL
+# ;
+
+LEXICON NounPOSS
+# ;
+
+LEXICON NounSUBJ
+# ;
+
+
+!LEXICON PI-N                 ! This is for the deviant plural of the only irregular
+!+N+Sg: CASEPOSSLEX ;         ! Komi noun, which is пи, boy. It has ян as plural
+!+N+Pl:%>ян CASEPOSSLEX ;     ! marker.
+
+
+LEXICON NounOBJ
+# ;
+
+LEXICON NounDET
+# ;
 
 LEXICON CASEPOSSLEX
  POSSFIRST ;         ! Cases  with  Px  first
