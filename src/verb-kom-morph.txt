@@ -16,7 +16,7 @@
 !      1 Verbve3c4
 !      1 VConjVow
 !      1 VConjCons
-!      1 V2
+!      1 V2   
 
 !      8 End1
 !      1 End2
@@ -31,36 +31,38 @@ LEXICON Verb1 ! яйсявны
 +V:%^Inf Finiteforms ;
 
 
-LEXICON V2
-# ;
+! Awaiting real analyses, I direct the other verb lexica to Verb1.
+
+LEXICON V2 ! контрактуйтны ! one member, typo for Verb2?
+ Verb1 ;
 
 LEXICON Verb3 ! ярмыны
 Verb1 ;
 
-LEXICON Verb2 ! янӧдны
+LEXICON Verb2 ! янӧдны, контролируйтны
 Verb1 ;
 
 
-LEXICON Verb
-# ;
+LEXICON Verb ! ёдавны, 3 members.
+ Verb1 ;
 
 LEXICON Vdz4i3k
-# ;
+ Verb1 ;
 
 LEXICON VerbPRT
-# ;
+ Verb1 ;
 
-LEXICON DoubleVerb1
-# ;
+LEXICON DoubleVerb1 !This is very dubious in this system.
+ Verb1 ;
 
 LEXICON VConjVow
-# ;
+ Verb1 ;
 
 LEXICON VConjCons
-# ;
+ Verb1 ;
 
 LEXICON Verbve3c4
-# ;
+ Verb1 ;
 
 
 

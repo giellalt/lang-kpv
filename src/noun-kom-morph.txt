@@ -1,45 +1,103 @@
-LEXICON Noun1
+! ============================= !
+!  Nominal morphological lexica !
+! ============================= !
+
+
+
+
+! ========== !
+! Adjectives !
+! ========== !
+
+! Here are the adjs:
+
+!   1394 Adj
+!      3 End2
+!      3 End1
+
+! They probably need their own file adj-kom-morph.txt. 
+! Or, they could be treated on a par with nouns, with a small comparative twist
+! on their own.
+! While awaiting the decision, I simply terminate them here.
+
+LEXICON Adj
+ # ;
+
+
+
+! ===== !
+! Nouns !
+! ===== !
+
+
+! The present N-lex lexicon looks like this:
+
+!   8877 Noun1
+!     42 NounPL
+!     42 ACRON
+!     36 NounPi
+!     10 NounMort
+!      8 NounSG
+!      6 N          ! These are probably errouneous for Noun1
+!      4 NounPOSS
+!      4 End1       ! These may have the wrong POS (should not be N)
+!      3 A
+!      2 NounSUBJ
+!      2 NounLA
+!      1 Verb1
+!      1 Noun2
+
+
+LEXICON Noun1 ! Basic nouns.
 +N+Sg: CASEPOSSLEX ;
 +N+Pl:%>ъяс CASEPOSSLEX ;
 
-LEXICON NounLA
+LEXICON Noun2 ! перъянін
+ Noun1 ; ! Since I don't know what Noun2 is, I send it to Noun1.
+! Note that a noun like песласянін is Noun1 !
+
+LEXICON NounLA ! ӧтила
 # ;
 
-LEXICON Noun2
+LEXICON NounSG ! морт
 # ;
 
-LEXICON NounSG
+LEXICON NounPi ! пи These have a unique  pl marker ян.
++N+Sg: CASEPOSSLEX ;        
++N+Pl:%>ян CASEPOSSLEX ;    
+
+
+LEXICON NounMort ! арта_ These all end in uncerscore, and are suspicious.
 # ;
 
-LEXICON NounPi
+LEXICON ACRON ! А*С*СР ! АТП Note the inconcistencies in the star use.
 # ;
 
-LEXICON NounMort
+LEXICON NounPL ! бедьторъяс
+# ;
+! Very many plural nouns do not have this tag. We could change яс-final
+! nouns from Noun1 to NounPL, I guess.
+
+LEXICON NounPOSS ! чой
 # ;
 
-LEXICON ACRON
+LEXICON NounSUBJ ! дыш
 # ;
-
-LEXICON NounPL
-# ;
-
-LEXICON NounPOSS
-# ;
-
-LEXICON NounSUBJ
-# ;
-
-
-!LEXICON PI-N                 ! This is for the deviant plural of the only irregular
-!+N+Sg: CASEPOSSLEX ;         ! Komi noun, which is пи, boy. It has ян as plural
-!+N+Pl:%>ян CASEPOSSLEX ;     ! marker.
-
 
 LEXICON NounOBJ
 # ;
 
 LEXICON NounDET
 # ;
+
+
+
+
+
+! =================== !
+! Inflectional lexica !
+! =================== !
+
 
 LEXICON CASEPOSSLEX
  POSSFIRST ;         ! Cases  with  Px  first
@@ -99,7 +157,7 @@ LEXICON CASELAST
 
 LEXICON ACCLEX
 +Acc:%>ӧс K ;
-!+PxSg1+Acc:%>ӧс  K ;
+!+PxSg1+Acc:%>ӧс  K ; ! Error here! Check.
 +PxSg2+Acc:%>тӧ  K ;
 +PxSg3+Acc:%>сӧ  K ;
 +PxPl1+Acc:%>нымӧс  K ;
@@ -143,11 +201,12 @@ LEXICON LOCLEX
 +Ine: LOCPX ;
 +Ins:%>н LOCPX ;
 
-!LEXICON LOCPX
-!+PxSg1:>ам K ;
-!+PxSg2:>ад K ;
-!+PxSg3:>ас K ;
-! :%>а PLPOSSLAST  ;
+LEXICON LOCPX
+ +PxSg1:>ам K ;
+ +PxSg2:>ад K ;
+ +PxSg3:>ас K ;
+  :%>а PLPOSSLAST  ;
+
 
 
 
@@ -162,7 +221,7 @@ LEXICON CASEFIRST
 +Ter:%>ӧдз POSSLAST;                !pred             ! Terminative
 
 LEXICON POSSLAST
-K ;                                ! Absolutive declension
+K ;                                 ! Absolutive declension
 SGPOSSLAST ;                        ! Possessive declension
 PLPOSSLAST ;
 
@@ -175,6 +234,3 @@ LEXICON PLPOSSLAST
 +PxPl1:%>ным K ;
 +PxPl2:%>ныд K ;
 +PxPl3:%>ныс K ;
-
-
- 

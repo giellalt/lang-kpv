@@ -70,6 +70,36 @@ VNEG ;
 ! ================================================== !
 
 
+
+! ============ !
+! Postp lexica !
+! ============ !
+
+LEXICON POSTP1a
+# ;
+
+LEXICON POSTP1
+# ;
+
+
+! =========== !
+! CARD lexica !
+! =========== !
+
+LEXICON CARD
+# ;
+
+LEXICON CARD2
+# ;
+
+LEXICON CARD2b
+# ;
+
+
+! ==================================== !
+! Lexica called End, whatever they are !
+! ==================================== !
+
 LEXICON End1
 # ;
 
@@ -84,29 +114,10 @@ LEXICON End2
 
 
 
-LEXICON CARD
-# ;
 
-
-
-
-LEXICON POSTP1a
-# ;
-
-LEXICON POSTP1
-# ;
-
-LEXICON CARD2
-# ;
-
-LEXICON CARD2b
-# ;
-
-
-LEXICON LOCPX
-# ;
-
-
+! ======= !
+! Clitics !
+! ======= !
 
 LEXICON K
 +Clt:%-а #;
