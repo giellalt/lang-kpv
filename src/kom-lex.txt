@@ -65,52 +65,29 @@ V ;
 VNEG ;
 
 
-
-! I include some small lexica here
-! waiting for own files, or perhaps they could stay here
-
-
+! ================================================== !
+! These lexica are common to several parts of speech !
+! ================================================== !
 
 
 LEXICON End1
 # ;
-LEXICON End2
-# ;
-
-
-
-
 
 LEXICON End1a
-# ;
-
-
-LEXICON CARD
 # ;
 
 LEXICON END1
 # ;
 
-LEXICON PRON4b
+LEXICON End2
 # ;
 
-LEXICON PRONdz4i3k
+
+
+LEXICON CARD
 # ;
 
-LEXICON PRON4
-# ;
 
-LEXICON PRON3
-# ;
-
-LEXICON PRONPL12
-# ;
-
-LEXICON PRONSG12
-# ;
-
-LEXICON CARD2b
-# ;
 
 
 LEXICON POSTP1a
@@ -120,6 +97,9 @@ LEXICON POSTP1
 # ;
 
 LEXICON CARD2
+# ;
+
+LEXICON CARD2b
 # ;
 
 
