@@ -92,7 +92,8 @@ kom.save: ../bin/kom.save
 
 
 kom-lex.save: ../bin/kom-lex.save
-../bin/kom-lex.save: kom-lex.txt noun-kom-morph.txt verb-kom-morph.txt all-kom-lex
+../bin/kom-lex.save: kom-lex.txt noun-kom-morph.txt verb-kom-morph.txt \
+	pron-kom-morph.txt all-kom-lex
 	@echo
 	@echo "*** Building kom-lex.save ***" ;
 	@echo
