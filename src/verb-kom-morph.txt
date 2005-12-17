@@ -1,5 +1,45 @@
+! ========================================================================== !
+!                               Verbal morphology                            !
+! ========================================================================== !
+
+!   Here are the verbal continuation lexica, ordered according to frequency
+!   in the V-kom-lex.txt file.
+
+!   1714 Verb1
+!   1495 Verb3
+!   1495 Verb2
+!     15 NounOBJ
+!     13 NounSUBJ
+!      3 Verb
+!      2 VerbPRT
+!      2 DoubleVerb1
+!      1 Verbve3c4
+!      1 VConjVow
+!      1 VConjCons
+!      1 V2
+
+!      8 End1
+!      1 End2
+!      1 End1a
+
+
+! ============================= !
+! Verbal continuation sublexica !
+! ============================= !
+
+LEXICON Verb1 ! яйсявны
++V:%^Inf Finiteforms ;
+
+
 LEXICON V2
 # ;
+
+LEXICON Verb3 ! ярмыны
+Verb1 ;
+
+LEXICON Verb2 ! янӧдны
+Verb1 ;
+
 
 LEXICON Verb
 # ;
@@ -22,14 +62,6 @@ LEXICON VConjCons
 LEXICON Verbve3c4
 # ;
 
-LEXICON Verb3
-Verb1 ;
-
-LEXICON Verb2
-Verb1 ;
-
-LEXICON Verb1
-+V:%^Inf Finiteforms ;
 
 
 LEXICON Finiteforms        !Gives linking vowels for 3 tenses
