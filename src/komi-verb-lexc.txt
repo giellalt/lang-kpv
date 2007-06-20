@@ -1,0 +1,149 @@
+Multichar_Symbols
+
+к6
+л6
+
+!This is the epsilon tag given when the marker is a zero, 
+!as in the Sg Conneg
+Z1
+
+! tags
++1Sg
++2Sg
++3Sg
++1Pl
++2Pl
++3Pl
++CliticDzhik
++CliticKody
++CliticMoz
++Conneg
++Fut
++Ger
++Inf
+!Intransitive Verb used with 3Sg Past
++IV
++Neg
++NoClitic
++Obj
++Past
++Perf
+!Infinitive form with no reference to person "ны"
++Positive
++Pres
++Sg
++Subj
+
+
+LEXICON Root
+!Verbs of Negation
+ог+Pres+Neg+1Sg:ог Clitic ;
+он+Pres+Neg+2Sg:он Clitic ;
+оз+Pres+Neg+3Sg:оз Clitic ;
+огӧ+Pres+Neg+1Pl:огӧ Clitic ;
+онӧ+Pres+Neg+2Pl:онӧ Clitic ;
+огӧй+Pres+Neg+1Pl:огӧй Clitic ;
+онӧй+Pres+Neg+2Pl:онӧй Clitic ;
+оз+Pres+Neg+3Pl:оз Clitic ;
+
+!Past Neg
+эг+Past+Neg+1Sg:эг Clitic ;
+эн+Past+Neg+2Sg:эн Clitic ;
+эз+Past+Neg+3Sg:эз Clitic ;
+эг+Past+Neg+1Pl:эг Clitic ;
+эн+Past+Neg+2Pl:эн Clitic ;
+эгӧ+Past+Neg+1Pl:эгӧ Clitic ;
+энӧ+Past+Neg+2Pl:энӧ Clitic ;
+эз+Past+Neg+3Pl:эз Clitic ;
+
+ Verb1 ;
+ Verb2 ;
+ Verb3 ;
+
+
+LEXICON Verb1
+ Finite ;
+ Infinite ;
+
+LEXICON Verb2
+ Finite ;
+ Infinite ;
+
+LEXICON Verb3
+ Finite ;
+ Infinite ;
+
+
+!
+!KM:239
+LEXICON Finite 
+! Present
++Pres+1Sg:^а Clitic ;
++Pres+2Sg:^ан Clitic ;
++Pres+3Sg:^ӧ Clitic ;
++Pres+1Pl:^ам Clitic ;
++Pres+1Pl:^амӧй Clitic ;
++Pres+2Pl:^анныд Clitic ;
++Pres+2Pl:^ад Clitic ;
++Pres+3Pl:^ӧны Clitic ;
++Conneg+Sg:^Z1 # ;
++Conneg+1Pl:^ӧ # ;
++Conneg+2Pl:^ӧ # ;
++Conneg+1Pl:^ӧй # ;
++Conneg+2Pl:^ӧй # ;
++Conneg+3Pl:^ны # ;
+
+!Future
++Fut+3Sg:^ас Clitic ;
++Fut+3Pl:^асны Clitic ;
+
+
+!Past
++Past+1Sg:^і Clitic ;
++Past+2Sg:^ін Clitic ;
++Past+3Sg:^іс Clitic ;
++IV+Past+3Sg:^і Clitic ;
++Past+1Pl:^ім Clitic ;
++Past+1Pl:^імӧй Clitic ;
++Past+2Pl:^інныд Clitic ;
++Past+2Pl:^ід Clitic ;
++Past+3Pl:^існы Clitic ;
+
+!Perfect
++Perf+1Sg:^ӧма Clitic ;
++Perf+2Sg:^ӧмыд Clitic ;
++Perf+3Sg:^ӧма Clitic ;
++Perf+1Pl:^ӧмаӧсь Clitic ;
++Perf+2Pl:^ӧмныд Clitic ;
++Perf+3Pl:^ӧмаӧсь Clitic ;
+!KM:251
++Perf+3Pl:^ӧмась Clitic ;
++Perf+2Pl:^ӧмныдӧсь Clitic ;
++Perf+3Pl:^ӧмны Clitic ;
+
+LEXICON Infinite
++Inf+Positive:ны Clitic ;
++Inf+Subj+1Sg:ным Clitic ;
++Inf+Subj+2Sg:ныд Clitic ;
++Inf+Subj+3Sg:ныс Clitic ;
++Inf+Obj+2Sg:нытӧ Clitic ;
++Inf+Obj+3Sg:нысӧ Clitic ;
++Inf+Subj+1Pl:ным Clitic ;
++Inf+Subj+2Pl:ныд Clitic ;
++Inf+Subj+3Pl:ныс Clitic ;
++Inf+Obj+2Pl:нытӧ Clitic ;
++Inf+Obj+3Pl:нысӧ Clitic ;
+
+!
+!LEXICON Gerund
+!
+
+LEXICON Clitic
+!KM:311
++CliticDzhik:джык # ;
+!KM:312
++CliticKody:кодь # ;
++CliticMoz:моз # ;
++NoClitic # ;
+
+END
