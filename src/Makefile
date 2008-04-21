@@ -21,7 +21,7 @@ bin-dir   := $(subst src,bin,$(cur-dir))
 # It is dependent upon kom.save
 
 ikom.fst: ../bin/ikom.fst
-../bin/ikom.fst: ../bin/kom.fst
+../bin/ikom.fst: ../bin/kom.fst all-kom-lex
 	@echo
 	@echo "*** Building the inverse ikom.fst ***"
 	@echo
@@ -93,7 +93,7 @@ kom.save: ../bin/kom.save
 
 kom-lex.save: ../bin/kom-lex.save
 ../bin/kom-lex.save: kom-lex.txt noun-kom-morph.txt verb-kom-morph.txt \
-	pron-kom-morph.txt closed-kom-lex.txt all-kom-lex
+	pron-kom-morph.txt closed-kom-lex.txt kom-lex.xml all-kom-lex
 	@echo
 	@echo "*** Building kom-lex.save ***" ;
 	@echo
