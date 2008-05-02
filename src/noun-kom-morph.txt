@@ -21,7 +21,7 @@
 ! While awaiting the decision, I simply terminate them here.
 
 LEXICON Adj
- # ;
++A:  # ;
 
 
 
@@ -57,10 +57,10 @@ LEXICON Noun2 ! перъянін
 ! Note that a noun like песласянін is Noun1 !
 
 LEXICON NounLA ! ӧтила
-# ;
+Noun1 ; ! to be changed.
 
 LEXICON NounSG ! морт
-# ;
+Noun1 ; ! to be changed.
 
 LEXICON NounPi ! пи These have a unique  pl marker ян.
 +N+Sg: CASEPOSSLEX ;        

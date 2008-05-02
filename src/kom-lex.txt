@@ -2,7 +2,7 @@ Multichar_Symbols
 
 ! POS
 +N +V +A 
-!+Adv +CC +CS +Interj +Pron +Num
++Adv +CC +CS +Interj +Pron +Num +Pcle
 
 ! Verbal MSP
 +Prs +Fut +Prt1 +Prt2 +Prf +PrfIpf +HstPrf +PluPrf +HstPluPrf
@@ -112,7 +112,29 @@ LEXICON END1
 LEXICON End2
 # ;
 
+LEXICON EndConj
++CC: # ;
 
+LEXICON EndPart
++Pcle: # ;
+
+LEXICON EndRefl
++Pron+Refl: # ;
+
+LEXICON EndInterj
++Interj: # ;
+
+LEXICON EndNeg
++Neg: # ;
+
+LEXICON EndVNeg
++V+Neg: # ; ! This shall not be taken from the dict.
+
+LEXICON EndIndef
++Pron+Indef: # ;
+
+LEXICON EndA
++A: # ;
 
 
 ! ======= !
