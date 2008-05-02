@@ -1,7 +1,7 @@
 <!ELEMENT dict (entry+) >
 
 
-<!ELEMENT entry (lemma, stem?, contlex, POS, article?) >
+<!ELEMENT entry (lemma, stem?, contlex, POS, article*) >
  <!ELEMENT lemma (#PCDATA) >
  <!ELEMENT stem (#PCDATA) >
  <!ELEMENT contlex (#PCDATA) >
