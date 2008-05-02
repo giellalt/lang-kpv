@@ -1,29 +1,46 @@
+Multichar_Symbols
+
+! tags
++Abe !тӧм
++Abl
++Acc
++Apr
++Car !тӧг
++Cns
++Comp
++Dat
++Egr
++Ela
++Gen
++HabObj
++Ill
++Ine
++Instr
++Kom
++Nom
++Poss1Pl
++Poss2Pl
++Poss3Pl
++Poss1Sg
++Poss2Sg
++Poss3Sg
++Prl
++Temp
++Ter
++Tra
+
+
+
 ! ============================= !
-!  Nominal morphological lexica !
+!  Noun morphological lexica !
 ! ============================= !
+! ===== !
+! Adjs  !
+! ===== !
 
-
-
-
-! ========== !
-! Adjectives !
-! ========== !
-
-! Here are the adjs:
-
-!   1394 Adj
-!      3 End2
-!      3 End1
-
-! They probably need their own file adj-kom-morph.txt. 
-! Or, they could be treated on a par with nouns, with a small comparative twist
-! on their own.
-! While awaiting the decision, I simply terminate them here.
 
 LEXICON Adj
-+A:  # ;
-
-
+PredMonLex ;
 
 ! ===== !
 ! Nouns !
@@ -32,35 +49,30 @@ LEXICON Adj
 
 ! The present N-lex lexicon looks like this:
 
-!   8877 Noun1
+!   8884 Noun1
 !     42 NounPL
 !     42 ACRON
 !     36 NounPi
 !     10 NounMort
 !      8 NounSG
-!      6 N          ! These are probably errouneous for Noun1
 !      4 NounPOSS
 !      4 End1       ! These may have the wrong POS (should not be N)
 !      3 A
 !      2 NounSUBJ
 !      2 NounLA
 !      1 Verb1
-!      1 Noun2
+
 
 
 LEXICON Noun1 ! Basic nouns.
 +N+Sg: CASEPOSSLEX ;
 +N+Pl:%>ъяс CASEPOSSLEX ;
 
-LEXICON Noun2 ! перъянін
- Noun1 ; ! Since I don't know what Noun2 is, I send it to Noun1.
-! Note that a noun like песласянін is Noun1 !
-
 LEXICON NounLA ! ӧтила
-Noun1 ; ! to be changed.
+# ;
 
 LEXICON NounSG ! морт
-Noun1 ; ! to be changed.
+# ;
 
 LEXICON NounPi ! пи These have a unique  pl marker ян.
 +N+Sg: CASEPOSSLEX ;        
@@ -98,139 +110,256 @@ LEXICON NounDET
 ! Inflectional lexica !
 ! =================== !
 
+!
+!All nouns follow one contlex "Noun1"
+!to begin with here is simply a list of all variant
+!with no more variants beyond:
+! Numbers
+!Case + Poss or Poss+Case
+!
 
 LEXICON CASEPOSSLEX
- POSSFIRST ;         ! Cases  with  Px  first
- CASEFIRST ;         ! Cases  with  Cx  first
- ACCLEX ;            ! The  last  lexica  are
- APRLEX ;            ! cases  with  idiosyncratic
- CARLEX ;            ! Px--Cx  order. APRLEX is for the parallel forms
- ELALEX ;
- LOCLEX ;            ! Ill, Ine and Ins have the same Px behaviour.
- +A: DERIVEDADJ ;    ! Deriving prenominal adjectives, республикаса
++Nom: K ;
++Acc: K ;
++Gen:%>лӧн K ;
++Abl:%>лысь K ;
++Dat:%>лы K ;
++Acc:%>ӧс K ;
++Instr:%>ӧн K ;
++Kom:%>кӧд K ;
++Car:%>тӧг K ;
++Cns:%>ла K ;
++Comp:%>ся K ;
++Ine:%>ын K ;
++Ela:%>ысь K ;
++Ill:%>ӧ K ;
++Apr:%>лань K ;
++Egr:%>сянь K ;
++Prl:%>ӧд K ;
++Tra:%>ті K ;
++Ter:%>ӧдз K ;
++Apr+Ine:%>ланьын K ;
++Apr+Ela:%>ланьысь K ;
++Apr+Ill:%>ланьӧ K ;
++Apr+Egr:%>ланьсянь K ;
++Apr+Prl:%>ланьӧд K ;
++Apr+Tra:%>ланьті K ;
++Apr+Ter:%>ланьӧдз K ;
+
+!1SG
++Poss1Sg+Nom:%>ӧй K ;
++Poss1Sg+Gen:%>ӧйлӧн K ;
++Poss1Sg+Abl:%>ӧйлысь K ;
++Poss1Sg+Dat:%>ӧйлы K ;
++Poss1Sg+Acc:%>ӧс K ;
+
++Instr+Poss1Sg:%>нам K ;
+
++Poss1Sg+Kom:%>ӧйкӧд K ;
++Poss1Sg+Car:%>ӧйтӧг K ;
++Poss1Sg+Cns:%>ӧйла K ;
++Poss1Sg+Comp:%>ӧйся K ;
+
++Ine+Poss1Sg:%>ам K ;
++Ela+Poss1Sg:%>сьым K ;
++Ill+Poss1Sg:%>ам K ;
+
++Poss1Sg+Apr:%>ӧйлань K ;
++Poss1Sg+Egr:%>ӧйсянь K ;
+
++Prl+Poss1Sg:%>ӧдым K ;
++Tra+Poss1Sg:%>тіым K ;
++Ter+Poss1Sg:%>ӧдзым K ;
++Apr+Ine+Poss1Sg:%>ланям K ;
++Apr+Ela+Poss1Sg:%>ланьсьым K ;
++Apr+Ill+Poss1Sg:%>ланям K ;
+
++Poss1Sg+Apr+Egr:%>ӧйланьсянь K ;
+
++Apr+Prl+Poss1Sg:%>ланьӧдым K ;
++Apr+Tra+Poss1Sg:%>ланьтіым K ;
++Apr+Ter+Poss1Sg:%>ланьӧдзым K ;
+
+!2SG
++Poss2Sg+Nom:%>ыд K ;
++Poss2Sg+Gen:%>ыдлӧн K ;
++Poss2Sg+Abl:%>ыдлысь K ;
++Poss2Sg+Dat:%>ыдлы K ;
++Poss2Sg+Acc:%>тӧ K ;
+
++Instr+Poss2Sg:%>над K ;
+
++Poss2Sg+Kom:%>ыдкӧд K ;
+
++Car+Poss2Sg:%>тӧгыд K ;
+
++Poss2Sg+Cns:%>ыдла K ;
+
++Comp+Poss2Sg:%>сяыд K ;
++Ine+Poss2Sg:%>ад K ;
++Ela+Poss2Sg:%>сьыд K ;
++Ill+Poss2Sg:%>ад K ;
++Apr+Poss2Sg:%>ланьыд K ;
++Egr+Poss2Sg:%>сяньыд K ;
++Prl+Poss2Sg:%>ӧдыд K ;
++Tra+Poss2Sg:%>тіыд K ;
++Ter+Poss2Sg:%>ӧдзыд K ;
++Apr+Ine+Poss2Sg:%>ланяд K ;
++Apr+Ela+Poss2Sg:%>ланьсьыд K ;
++Apr+Ill+Poss2Sg:%>ланяд K ;
++Apr+Egr+Poss2Sg:%>ланьсяньыд K ;
++Apr+Prl+Poss2Sg:%>ланьӧдыд K ;
++Apr+Tra+Poss2Sg:%>ланьтіыд K ;
++Apr+Ter+Poss2Sg:%>ланьӧдзыд K ;
+
+
+!3SG
++Poss3Sg+Nom:%>ыс K ;
++Poss3Sg+Gen:%>ыслӧн K ;
++Poss3Sg+Abl:%>ыслысь K ;
++Poss3Sg+Dat:%>ыслы K ;
++Poss3Sg+Acc:%>сӧ K ;
+
++Instr+Poss3Sg:%>нас K ;
+
++Poss3Sg+Kom:%>ыскӧд K ;
+
++Car+Poss3Sg:%>тӧгыс K ;
+
++Poss3Sg+Cns:%>ысла K ;
+
++Comp+Poss3Sg:%>сяыс K ;
++Ine+Poss3Sg:%>ас K ;
++Ela+Poss3Sg:%>сьыс K ;
++Ill+Poss3Sg:%>ас K ;
++Apr+Poss3Sg:%>ланьыс K ;
++Egr+Poss3Sg:%>сяньыс K ;
++Prl+Poss3Sg:%>ӧдыс K ;
++Tra+Poss3Sg:%>тіыс K ;
++Ter+Poss3Sg:%>ӧдзыс K ;
++Apr+Ine+Poss3Sg:%>ланяс K ;
++Apr+Ela+Poss3Sg:%>ланьсьыс K ;
++Apr+Ill+Poss3Sg:%>ланяс K ;
++Apr+Egr+Poss3Sg:%>ланьсяньыс K ;
++Apr+Prl+Poss3Sg:%>ланьӧдыс K ;
++Apr+Tra+Poss3Sg:%>ланьтіыс K ;
++Apr+Ter+Poss3Sg:%>ланьӧдзыc K ;
+
+
+
+!1PL
++Poss1Pl+Nom:%>ным K ;
++Poss1Pl+Gen:%>нымлӧн K ;
++Poss1Pl+Abl:%>нымлысь K ;
++Poss1Pl+Dat:%>нымлы K ;
++Poss1Pl+Acc:%>нымӧс K ;
+
++Instr+Poss1Pl:%>наным K ;
+
++Poss1Pl+Kom:%>нымкӧд K ;
+
++Car+Poss1Pl:%>тӧгным K ;
+
++Poss1Pl+Cns:%>нымла K ;
+
++Comp+Poss1Pl:%>сяным K ;
++Ine+Poss1Pl:%>аным K ;
++Ela+Poss1Pl:%>сьыным K ;
++Ill+Poss1Pl:%>аным K ;
++Apr+Poss1Pl:%>ланьным K ;
++Egr+Poss1Pl:%>сяньным K ;
++Prl+Poss1Pl:%>ӧдным K ;
++Tra+Poss1Pl:%>тіным K ;
++Ter+Poss1Pl:%>ӧдзным K ;
++Apr+Ine+Poss1Pl:%>ланяным K ;
++Apr+Ela+Poss1Pl:%>ланьсьыным K ;
++Apr+Ill+Poss1Pl:%>ланяным K ;
++Apr+Egr+Poss1Pl:%>ланьсяньным K ;
++Apr+Prl+Poss1Pl:%>ланьӧдным K ;
++Apr+Tra+Poss1Pl:%>ланьтіным K ;
++Apr+Ter+Poss1Pl:%>ланьӧдзным K ;
+
+!2PL
++Poss2Pl+Nom:%>ныд K ;
++Poss2Pl+Gen:%>ныдлӧн K ;
++Poss2Pl+Abl:%>ныдлысь K ;
++Poss2Pl+Dat:%>ныдлы K ;
++Poss2Pl+Acc:%>ныдтӧ K ;
+
++Instr+Poss2Pl:%>наныд K ;
+
++Poss2Pl+Kom:%>ныдкӧд K ;
+
++Car+Poss2Pl:%>тӧгныд K ;
+
++Poss2Pl+Cns:%>ныдла K ;
+
++Comp+Poss2Pl:%>сяныд K ;
++Ine+Poss2Pl:%>аныд K ;
++Ela+Poss2Pl:%>сьыныд K ;
++Ill+Poss2Pl:%>аныд K ;
++Poss2Pl+Apr:%>ныдлань K ;
++Egr+Poss2Pl:%>сяньныд K ;
++Prl+Poss2Pl:%>ӧдныд K ;
++Tra+Poss2Pl:%>тіныд K ;
++Ter+Poss2Pl:%>ӧдзныд K ;
++Apr+Ine+Poss2Pl:%>ланяныд K ;
++Apr+Ela+Poss2Pl:%>ланьсьыныд K ;
++Apr+Ill+Poss2Pl:%>ланяныд K ;
++Apr+Egr+Poss2Pl:%>ланьсяньныд K ;
++Apr+Prl+Poss2Pl:%>ланьӧдныд K ;
++Apr+Tra+Poss2Pl:%>ланьтіныд K ;
++Apr+Ter+Poss2Pl:%>ланьӧдзныд K ;
+
+!3PL
++Poss3Pl+Nom:%>ныс K ;
++Poss3Pl+Gen:%>ныслӧн K ;
++Poss3Pl+Abl:%>ныслысь K ;
++Poss3Pl+Dat:%>ныслы K ;
++Poss3Pl+Acc:%>нысӧ K ;
+
++Instr+Poss3Pl:%>наныс K ;
+
++Poss3Pl+Kom:%>ныскӧд K ;
+
++Car+Poss3Pl:%>тӧгныс K ;
+
++Poss3Pl+Cns:%>нысла K ;
+
++Comp+Poss3Pl:%>сяныс K ;
++Ine+Poss3Pl:%>аныс K ;
++Ela+Poss3Pl:%>сьыныс K ;
++Ill+Poss3Pl:%>аныс K ;
++Poss3Pl+Apr:%>ныслань K ;
++Apr+Poss3Pl:%>ланьныс K ;
++Egr+Poss3Pl:%>сяньныс K ;
++Prl+Poss3Pl:%>ӧдныс K ;
++Tra+Poss3Pl:%>тіныс K ;
++Ter+Poss3Pl:%>ӧдзныс K ;
++Apr+Ine+Poss3Pl:%>ланяныс K ;
++Apr+Ela+Poss3Pl:%>ланьсьыныс K ;
++Apr+Ill+Poss3Pl:%>ланяныс K ;
++Apr+Egr+Poss3Pl:%>ланьсяньныс K ;
++Apr+Prl+Poss3Pl:%>ланьӧдныс K ;
++Apr+Tra+Poss3Pl:%>ланьтіныс K ;
++Apr+Ter+Poss3Pl:%>ланьӧдзныс K ;
+
++A: DERIVEDADJ ;    ! Deriving prenominal adjectives, республикаса
 
 
 
 LEXICON DERIVEDADJ
 +Ine:%>са PredMonLex ;     
-+Car:%>тӧм PredMonLex ;
++Abe:%>тӧм PredMonLex ;
 +HabObj:%>а PredMonLex ;
++Temp:%>ся PredMonLex ;     
 
 LEXICON PredMonLex
- # ;      ! Singular predicative
- :ӧсь # ; ! Plural predicative.
+ K ;      ! Singular predicative
+ :ӧсь K ; ! Plural predicative.
                      
  
-! Section for Px first
-! --------------------
-                    
-LEXICON POSSFIRST
-SGPOSSFIRST ;        ! Splitting  in  Sg  and  Pl  Px
-PLPOSSFIRST ;
-CASELAST  ;          ! Allowing  for  skipping  the  Px
 
-LEXICON SGPOSSFIRST
-+PxSg1:%>ӧй CASELAST;
-+PxSg2:%>ыд CASELAST;
-+PxSg3:%>ыз CASELAST;
+LEXICON K ! Clitics
+# ;
 
-LEXICON PLPOSSFIRST
-+PxPl1:%>ным CASELAST;
-+PxPl2:%>ныд CASELAST;
-+PxPl3:%>ныз CASELAST;
-
-LEXICON CASELAST
-+Nom: K ; 
-+Gen:%>лӧн K ; 
-+Abl:%>лысь K ;
-+Dat:%>лы K ;
-+Com:%>кӧд K ;               !svoed
-+Cns:%>ла K ; ! consecutive  !dostig
-
-
-
-
-! Section for idiosyncratic cases
-! -------------------------------
-
-! Accusative differs from all the others, it is thus listed here.
-
-LEXICON ACCLEX
-+Acc:%>ӧс K ;
-!+PxSg1+Acc:%>ӧс  K ; ! Error here! Check.
-+PxSg2+Acc:%>тӧ  K ;
-+PxSg3+Acc:%>сӧ  K ;
-+PxPl1+Acc:%>нымӧс  K ;
-+PxPl2+Acc:%>нытӧ  K ;
-+PxPl3+Acc:%>нысӧ  K ;
-
-
-! These are idiosyncratic parallel forms for Apr
-! The ordinary forms are found in the CASEFIRST 
-! lexicon below.
-
-LEXICON APRLEX  
-+PxSg1+Apr:%>ӧйлань K ;
-+PxPl1+Apr:%>нымлань K ;
-+PxPl2+Apr:%>ныдлань K ;
-+PxPl3+Apr:%>ныслань K ;
-
-LEXICON  ELALEX
-+Ela:%>ысь K ;
-+Ela:%>сь  SGPOSSLAST ;
-+Ela:%>ысь  PLPOSSLAST  ;
-
-
-! For caritive, Sg is idiosyncratic, but Pl is like for
-! the other POSSLAST cases.
-
-LEXICON CARLEX
-+Car:%>тӧг  K ;          ! caritive     !lysh
-+Car+PxSg1:%>ӧйтӧг K ;
-+Car+PxSg2:%>тӧгыд K ;
-+Car+PxSg3:%>тӧгыс K ;
-+Car:%>тӧг PLPOSSLAST ; 
-
-
-! This is the lexicon for illative, inessive and instrumental
-LEXICON LOCLEX
-+Ill:%>ӧ K ;                  !vstup      ! Absolutive declension
-+Ine:%>ын K ;                 !mestn
-+Ins:%>ӧн K ;  ! instrumental !tvor
-+Ill: LOCPX ;                            ! Possessive declension
-+Ine: LOCPX ;
-+Ins:%>н LOCPX ;
-
-LEXICON LOCPX
- +PxSg1:%>ам K ;
- +PxSg2:%>ад K ;
- +PxSg3:%>ас K ;
-  :%>а PLPOSSLAST  ;
-
-
-
-
-! The section for case first
-! --------------------------
-
-LEXICON CASEFIRST
-+Apr:%>лань POSSLAST;               !pribl            ! Approximative
-+Egr:%>сянь POSSLAST;               !otdal            1 Egressive
-+Tra:%>ті POSSLAST;                 !pereh -ti -ӧd    ! Translative
-+Prl:%>ӧд POSSLAST;                 !pereh -ti -ӧd    ! Prolative
-+Ter:%>ӧдз POSSLAST;                !pred             ! Terminative
-
-LEXICON POSSLAST
-K ;                                 ! Absolutive declension
-SGPOSSLAST ;                        ! Possessive declension
-PLPOSSLAST ;
-
-LEXICON SGPOSSLAST
-+PxSg1:%>ым K ;
-+PxSg2:%>ыд K ;
-+PxSg3:%>ыс K ;
-
-LEXICON PLPOSSLAST
-+PxPl1:%>ным K ;
-+PxPl2:%>ныд K ;
-+PxPl3:%>ныс K ;
