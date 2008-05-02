@@ -91,6 +91,7 @@ kom.save: ../bin/kom.save
 	@rm -f ../../tmp/kom-save-script
 
 
+kom-lex.save: kom-lex.xml
 kom-lex.save: ../bin/kom-lex.save
 ../bin/kom-lex.save: kom-lex.txt noun-kom-morph.txt verb-kom-morph.txt \
 	pron-kom-morph.txt closed-kom-lex.txt all-kom-lex
