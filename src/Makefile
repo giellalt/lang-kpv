@@ -1,5 +1,6 @@
-# This is a makefile that builds the Komi morphological parser
-# *****************************************************************
+# ***************************************************************** #
+#   This is a makefile that builds the Komi morphological parser    #
+# ***************************************************************** #
 
 # Search for prerequisites from the bin-directory.
 SHELL = /bin/sh
@@ -14,7 +15,7 @@ cur-dir   := $(shell pwd)
 bin-dir   := $(subst src,bin,$(cur-dir))
 
 
-# This is a preliminary file that builds a Komi Sami parser based upon
+# This is a preliminary file that builds a Komi parser based upon
 # xfst and not twolc.
 
 # Here we build the final generator , an inverted transducer of the analyzer.
