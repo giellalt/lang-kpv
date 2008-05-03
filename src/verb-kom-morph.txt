@@ -74,7 +74,7 @@ LEXICON Finiteforms        !Gives linking vowels for 3 tenses
 Non-finiteforms ;
 
 LEXICON Non-finiteforms
-!346
+! Page 346 in the Komi grammar X.
 +MYST:%>мысьт K ;
 +MYS:%>мысь K ;
 +IG:%>іг K ;
@@ -106,18 +106,14 @@ LEXICON Non-finiteforms
 +TODZ:%>тӧдз PossessiveSuffixes ;
 
 LEXICON PossessiveSuffixes
-+NoPoss: K ;
 +PxSg1:%>ым K ;
-+PxSg2:%>ыд K ;
-+PxSg3:%>ыс K ;
-+PxPl1:%>ным K ;
-+PxPl2:%>ныд K ;
-+PxPl3:%>ныс K ;
+            PossessiveSuffixes_NoSg1 ;
+
 
 LEXICON PossessiveSuffixes_NoSg1
-+NoPoss: K ;
-+PxSg2:%>ыд K ;
-+PxSg3:%>ыс K ;
++NoPoss:     K ;
++PxSg2:%>ыд  K ;
++PxSg3:%>ыс  K ;
 +PxPl1:%>ным K ;
 +PxPl2:%>ныд K ;
 +PxPl3:%>ныс K ;
