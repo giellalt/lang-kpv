@@ -1,42 +1,3 @@
-Multichar_Symbols
-
-! tags
-+AN
-+ANA
-+ANAA
-+Car
-+CHOZH
-+Fut
-+IG
-+Ill
-+Ind
-+Instr
-+KEZHLO
-+MOZ
-+MYS
-+MYST
-+OM
-+Pl
-+Pl1
-+Pl2
-+Pl3
-+Poss1Sg
-+Poss2Sg
-+Poss3Sg
-+Poss1Pl
-+Poss2Pl
-+Poss3Pl
-+Prs
-+Prt1
-+Prt2
-+Sg1
-+Sg2
-+Sg3
-
-+SOR
-+TODZ
-+TYR
-+TYRJI
 
 ! ========================================================================== !
 !                               Verbal morphology                            !
@@ -124,12 +85,12 @@ LEXICON Non-finiteforms
 +IG+Instr:%>ігӧн PossessiveSuffixes_NoSg1 ;
 !351 Pl
 +IG+Pl+Instr:%>ігъясӧн PossessiveSuffixes_NoSg1 ;
-+IG+Ill+Poss1Sg:%>ігам K ;
-+IG+Ill+Poss2Sg:%>ігад K ;
-+IG+Ill+Poss3Sg:%>ігас K ;
-+IG+Ill+Poss1Pl:%>іганым K ;
-+IG+Ill+Poss2Pl:%>іганыд K ;
-+IG+Ill+Poss3Pl:%>іганыс K ;
++IG+Ill+PxSg1:%>ігам K ;
++IG+Ill+PxSg2:%>ігад K ;
++IG+Ill+PxSg3:%>ігас K ;
++IG+Ill+PxPl1:%>іганым K ;
++IG+Ill+PxPl2:%>іганыд K ;
++IG+Ill+PxPl3:%>іганыс K ;
 +IG+MOZ:%>ігмоз PossessiveSuffixes ;
 +IG+SOR:%>ігсор K ;
 +IG+TYR:%>ігтыр K ;
@@ -146,20 +107,20 @@ LEXICON Non-finiteforms
 
 LEXICON PossessiveSuffixes
 +NoPoss: K ;
-+Poss1Sg:%>ым K ;
-+Poss2Sg:%>ыд K ;
-+Poss3Sg:%>ыс K ;
-+Poss1Pl:%>ным K ;
-+Poss2Pl:%>ныд K ;
-+Poss3Pl:%>ныс K ;
++PxSg1:%>ым K ;
++PxSg2:%>ыд K ;
++PxSg3:%>ыс K ;
++PxPl1:%>ным K ;
++PxPl2:%>ныд K ;
++PxPl3:%>ныс K ;
 
 LEXICON PossessiveSuffixes_NoSg1
 +NoPoss: K ;
-+Poss2Sg:%>ыд K ;
-+Poss3Sg:%>ыс K ;
-+Poss1Pl:%>ным K ;
-+Poss2Pl:%>ныд K ;
-+Poss3Pl:%>ныс K ;
++PxSg2:%>ыд K ;
++PxSg3:%>ыс K ;
++PxPl1:%>ным K ;
++PxPl2:%>ныд K ;
++PxPl3:%>ныс K ;
 
 
 LEXICON PresPret1  ! First and second person
