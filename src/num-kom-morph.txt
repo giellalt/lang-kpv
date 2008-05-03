@@ -1,36 +1,3 @@
-Multichar_Symbols
-
-! tags
-+Abe !тӧм
-+Abl
-+Acc
-+Apr
-+Car !тӧг
-+Card
-+Cns
-+Coll
-+Comp
-+Dat
-+Egr
-+Ela
-+Gen
-+HabObj
-+Ill
-+Ine
-+Instr
-+Kom
-+Nom
-+Ord
-+Poss1Pl
-+Poss2Pl
-+Poss3Pl
-+Poss1Sg
-+Poss2Sg
-+Poss3Sg
-+Prl
-+Temp
-+Ter
-+Tra
 
 
 
@@ -64,7 +31,7 @@ LEXICON Noun1 ! Basic nouns.
 !to begin with here is simply a list of all variant
 !with no more variants beyond:
 ! Numbers
-!Case + Poss or Poss+Case
+!Case + Px or Px+Case
 !
 
 LEXICON NumCASEPOSSLEX
@@ -74,7 +41,7 @@ LEXICON NumCASEPOSSLEX
 +Dat:%>лы K ;
 +Acc:%>сӧ K ;
 +Instr:%>ӧн K ;
-+Kom:%>кӧд K ;
++Com:%>кӧд K ;
 +Car:%>тӧг K ;
 +Cns:%>ла K ;
 +Comp:%>ся K ;
@@ -89,146 +56,146 @@ LEXICON NumCASEPOSSLEX
 !149
 
 !1SG
-+Poss1Sg+Nom:%>ӧй K ;
-+Poss1Sg+Gen:%>ӧйлӧн K ;
-+Poss1Sg+Abl:%>ӧйлысь K ;
-+Poss1Sg+Dat:%>ӧйлы K ;
-+Poss1Sg+Acc:%>ӧс K ;
++PxSg1+Nom:%>ӧй K ;
++PxSg1+Gen:%>ӧйлӧн K ;
++PxSg1+Abl:%>ӧйлысь K ;
++PxSg1+Dat:%>ӧйлы K ;
++PxSg1+Acc:%>ӧс K ;
 
-+Instr+Poss1Sg:%>нам K ;
++Instr+PxSg1:%>нам K ;
 
-+Poss1Sg+Kom:%>ӧйкӧд K ;
-+Poss1Sg+Car:%>ӧйтӧг K ;
-+Poss1Sg+Cns:%>ӧйла K ;
++PxSg1+Com:%>ӧйкӧд K ;
++PxSg1+Car:%>ӧйтӧг K ;
++PxSg1+Cns:%>ӧйла K ;
 
-+Ine+Poss1Sg:%>ам K ;
-+Ela+Poss1Sg:%>сьым K ;
-+Ill+Poss1Sg:%>ам K ;
++Ine+PxSg1:%>ам K ;
++Ela+PxSg1:%>сьым K ;
++Ill+PxSg1:%>ам K ;
 
-+Poss1Sg+Apr:%>ӧйлань K ;
-+Poss1Sg+Egr:%>ӧйсянь K ;
++PxSg1+Apr:%>ӧйлань K ;
++PxSg1+Egr:%>ӧйсянь K ;
 
-+Prl+Poss1Sg:%>ӧдым K ;
-+Ter+Poss1Sg:%>ӧдзым K ;
++Prl+PxSg1:%>ӧдым K ;
++Ter+PxSg1:%>ӧдзым K ;
 
 !2SG
-+Poss2Sg+Nom:%>ыд K ;
-+Poss2Sg+Gen:%>ыдлӧн K ;
-+Poss2Sg+Abl:%>ыдлысь K ;
-+Poss2Sg+Dat:%>ыдлы K ;
-+Poss2Sg+Acc:%>тӧ K ;
++PxSg2+Nom:%>ыд K ;
++PxSg2+Gen:%>ыдлӧн K ;
++PxSg2+Abl:%>ыдлысь K ;
++PxSg2+Dat:%>ыдлы K ;
++PxSg2+Acc:%>тӧ K ;
 
-+Instr+Poss2Sg:%>над K ;
++Instr+PxSg2:%>над K ;
 
-+Poss2Sg+Kom:%>ыдкӧд K ;
++PxSg2+Com:%>ыдкӧд K ;
 
-+Car+Poss2Sg:%>тӧгыд K ;
++Car+PxSg2:%>тӧгыд K ;
 
-+Poss2Sg+Cns:%>ыдла K ;
++PxSg2+Cns:%>ыдла K ;
 
-+Ine+Poss2Sg:%>ад K ;
-+Ela+Poss2Sg:%>сьыд K ;
-+Ill+Poss2Sg:%>ад K ;
-+Poss2Sg+Apr:%>ыдлань K ;
-+Poss2Sg+Egr:%>ыдсянь K ;
-+Prl+Poss2Sg:%>ӧдыд K ;
-+Ter+Poss2Sg:%>ӧдзыд K ;
++Ine+PxSg2:%>ад K ;
++Ela+PxSg2:%>сьыд K ;
++Ill+PxSg2:%>ад K ;
++PxSg2+Apr:%>ыдлань K ;
++PxSg2+Egr:%>ыдсянь K ;
++Prl+PxSg2:%>ӧдыд K ;
++Ter+PxSg2:%>ӧдзыд K ;
 
 
 !3SG
-+Poss3Sg+Nom:%>ыс K ;
-+Poss3Sg+Gen:%>ыслӧн K ;
-+Poss3Sg+Abl:%>ыслысь K ;
-+Poss3Sg+Dat:%>ыслы K ;
-+Poss3Sg+Acc:%>сӧ K ;
++PxSg3+Nom:%>ыс K ;
++PxSg3+Gen:%>ыслӧн K ;
++PxSg3+Abl:%>ыслысь K ;
++PxSg3+Dat:%>ыслы K ;
++PxSg3+Acc:%>сӧ K ;
 
-+Instr+Poss3Sg:%>нас K ;
++Instr+PxSg3:%>нас K ;
 
-+Poss3Sg+Kom:%>ыскӧд K ;
++PxSg3+Com:%>ыскӧд K ;
 
-+Poss3Sg+Car:%>ыстӧг K ;
++PxSg3+Car:%>ыстӧг K ;
 
-+Poss3Sg+Cns:%>ысла K ;
++PxSg3+Cns:%>ысла K ;
 
-+Ine+Poss3Sg:%>ас K ;
-+Ela+Poss3Sg:%>сьыс K ;
-+Ill+Poss3Sg:%>ас K ;
-+Poss3Sg+Apr:%>ыслань K ;
-+Poss3Sg+Egr:%>ыссянь K ;
-+Prl+Poss3Sg:%>ӧдыс K ;
-+Ter+Poss3Sg:%>ӧдзыс K ;
++Ine+PxSg3:%>ас K ;
++Ela+PxSg3:%>сьыс K ;
++Ill+PxSg3:%>ас K ;
++PxSg3+Apr:%>ыслань K ;
++PxSg3+Egr:%>ыссянь K ;
++Prl+PxSg3:%>ӧдыс K ;
++Ter+PxSg3:%>ӧдзыс K ;
 
 
 !1PL
-+Poss1Pl+Nom:%>ным K ;
-+Poss1Pl+Gen:%>нымлӧн K ;
-+Poss1Pl+Abl:%>нымлысь K ;
-+Poss1Pl+Dat:%>нымлы K ;
-+Poss1Pl+Acc:%>нымӧс K ;
++PxPl1+Nom:%>ным K ;
++PxPl1+Gen:%>нымлӧн K ;
++PxPl1+Abl:%>нымлысь K ;
++PxPl1+Dat:%>нымлы K ;
++PxPl1+Acc:%>нымӧс K ;
 
-+Instr+Poss1Pl:%>наным K ;
++Instr+PxPl1:%>наным K ;
 
-+Poss1Pl+Kom:%>нымкӧд K ;
++PxPl1+Com:%>нымкӧд K ;
 
-+Poss1Pl+Car:%>нымтӧг K ;
++PxPl1+Car:%>нымтӧг K ;
 
-+Poss1Pl+Cns:%>нымла K ;
++PxPl1+Cns:%>нымла K ;
 
-+Ine+Poss1Pl:%>аным K ;
-+Ela+Poss1Pl:%>сьыным K ;
-+Ill+Poss1Pl:%>аным K ;
-+Poss1Pl+Apr:%>нымлань K ;
-+Poss1Pl+Egr:%>нымсянь K ;
-+Prl+Poss1Pl:%>ӧдным K ;
-+Ter+Poss1Pl:%>ӧдзным K ;
++Ine+PxPl1:%>аным K ;
++Ela+PxPl1:%>сьыным K ;
++Ill+PxPl1:%>аным K ;
++PxPl1+Apr:%>нымлань K ;
++PxPl1+Egr:%>нымсянь K ;
++Prl+PxPl1:%>ӧдным K ;
++Ter+PxPl1:%>ӧдзным K ;
 
 !2PL
-+Poss2Pl+Nom:%>ныд K ;
-+Poss2Pl+Gen:%>ныдлӧн K ;
-+Poss2Pl+Abl:%>ныдлысь K ;
-+Poss2Pl+Dat:%>ныдлы K ;
-+Poss2Pl+Acc:%>ныдтӧ K ;
++PxPl2+Nom:%>ныд K ;
++PxPl2+Gen:%>ныдлӧн K ;
++PxPl2+Abl:%>ныдлысь K ;
++PxPl2+Dat:%>ныдлы K ;
++PxPl2+Acc:%>ныдтӧ K ;
 
-+Instr+Poss2Pl:%>наныд K ;
++Instr+PxPl2:%>наныд K ;
 
-+Poss2Pl+Kom:%>ныдкӧд K ;
++PxPl2+Com:%>ныдкӧд K ;
 
-+Poss2Pl+Car:%>ныдтӧг K ;
++PxPl2+Car:%>ныдтӧг K ;
 
-+Poss2Pl+Cns:%>ныдла K ;
++PxPl2+Cns:%>ныдла K ;
 
-+Ine+Poss2Pl:%>аныд K ;
-+Ela+Poss2Pl:%>сьыныд K ;
-+Ill+Poss2Pl:%>аныд K ;
-+Poss2Pl+Apr:%>ныдлань K ;
-+Poss2Pl+Egr:%>ныдсянь K ;
-+Prl+Poss2Pl:%>ӧдныд K ;
-+Ter+Poss2Pl:%>ӧдзныд K ;
++Ine+PxPl2:%>аныд K ;
++Ela+PxPl2:%>сьыныд K ;
++Ill+PxPl2:%>аныд K ;
++PxPl2+Apr:%>ныдлань K ;
++PxPl2+Egr:%>ныдсянь K ;
++Prl+PxPl2:%>ӧдныд K ;
++Ter+PxPl2:%>ӧдзныд K ;
 
 
 !3PL
-+Poss3Pl+Nom:%>ныс K ;
-+Poss3Pl+Gen:%>ныслӧн K ;
-+Poss3Pl+Abl:%>ныслысь K ;
-+Poss3Pl+Dat:%>ныслы K ;
-+Poss3Pl+Acc:%>нысӧ K ;
++PxPl3+Nom:%>ныс K ;
++PxPl3+Gen:%>ныслӧн K ;
++PxPl3+Abl:%>ныслысь K ;
++PxPl3+Dat:%>ныслы K ;
++PxPl3+Acc:%>нысӧ K ;
 
-+Instr+Poss3Pl:%>наныс K ;
++Instr+PxPl3:%>наныс K ;
 
-+Poss3Pl+Kom:%>ныскӧд K ;
++PxPl3+Com:%>ныскӧд K ;
 
-+Poss3Pl+Car:%>ныстӧг K ;
++PxPl3+Car:%>ныстӧг K ;
 
-+Poss3Pl+Cns:%>нысла K ;
++PxPl3+Cns:%>нысла K ;
 
-+Ine+Poss3Pl:%>аныс K ;
-+Ela+Poss3Pl:%>сьыныс K ;
-+Ill+Poss3Pl:%>аныс K ;
-+Poss3Pl+Apr:%>ныслань K ;
-+Poss3Pl+Apr:%>ныслань K ;
-+Poss3Pl+Egr:%>ныссянь K ;
-+Prl+Poss3Pl:%>ӧдныс K ;
-+Ter+Poss3Pl:%>ӧдзныс K ;
++Ine+PxPl3:%>аныс K ;
++Ela+PxPl3:%>сьыныс K ;
++Ill+PxPl3:%>аныс K ;
++PxPl3+Apr:%>ныслань K ;
++PxPl3+Apr:%>ныслань K ;
++PxPl3+Egr:%>ныссянь K ;
++Prl+PxPl3:%>ӧдныс K ;
++Ter+PxPl3:%>ӧдзныс K ;
 
 
 

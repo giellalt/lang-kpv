@@ -5,7 +5,8 @@ Multichar_Symbols
 +Adv +CC +CS +Interj +Pron +Num +Pcle
 
 ! Verbal MSP
-+Prs +Fut +Prt1 +Prt2 +Prf +PrfIpf +HstPrf +PluPrf +HstPluPrf
++Prs +Fut +Fut1 +Prt1 +Prt2 +Prf
++PrfIpf +HstPrf +PluPrf +HstPluPrf
 +Ind +Imp +Cond +Opt
 +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
 +Inf
@@ -15,11 +16,24 @@ Multichar_Symbols
 +Sg +Pl
 +Nom +Gen +Abl +Dat +Com +Cns 
 +Acc +Ins +Ine +Ill 
-+Ela +Car +Egr +Tra  +Apr +Ter
-!+Abe +Adc +Prl ! not in use!
++Ela +rCar +Egr +Tra  +Apr +Ter
++Abe +Prl
+!+Adc  ! not in use!
 +HabObj
++Egr +Instr
 
 +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
+
++Card
++Cns ! What is this?
++Coll
++Comp
+
+! +Kom !instead it is +Com
++Ord
++Temp
+
+
 
 ! tags
 +AN
