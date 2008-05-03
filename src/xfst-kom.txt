@@ -48,7 +48,8 @@ define Syll [ ( Cns ) ( Cns ) Vow ( Cns ) ( Cns ) ] ;      ! Hmm, not needed now
 echo << defining Boundary >>
 
 define Boundary %> ;
-
+define Diacritics %^Inf ;
+define Dummy [ Boundary | Diacritics ] ;
 
 
 ! Rule section !
@@ -63,7 +64,7 @@ echo << defining the rules >>
 ! ------------
 
 
-define InfDeletion   н ы %^Inf -> 0 ;  
+define InfDeletion  [ н ы %^Inf -> 0 ] ;  
  ! Thus, all infinitives may be added as such in the lexicon, and then
  ! stripped for their suffix here.
 
@@ -118,10 +119,9 @@ echo << defining cleanup rules >>
 
 define Cleanup ӧ2 -> ӧ, е2 -> е, о2 -> о, к2 -> к, м2 -> м, т2 -> т ;
 
-define BoundaryDeletion [ %> -> 0 ] ;
-
 define Deletion [ %@ -> 0 ] ;
 
+define DummyDeletion [ Dummy -> 0 ] ;
 
 ! Then we compose the different rules. !
 ! ==================================== !
@@ -159,9 +159,9 @@ SoftMarkDeletion
 .o.
 Cleanup
 .o.
-BoundaryDeletion
+Deletion
 .o.
-Deletion 
+DummyDeletion 
 ] ;
 
 
