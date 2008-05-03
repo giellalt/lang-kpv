@@ -8,7 +8,7 @@ SHELL = /bin/sh
 lg = kom
 
 VPATH=../bin
-LEXS = $(patsubst %,%-$(lg)-lex.txt,$(shell perl ../script/xml2lexc --pos_list --lex_file=kom-lex.xml))
+LEXS = $(patsubst %,../bin/%-$(lg)-lex.txt,$(shell perl ../script/xml2lexc --pos_list --lex_file=kom-lex.xml))
 
 cur-dir   := $(shell pwd)
 bin-dir   := $(subst src,bin,$(cur-dir))
@@ -21,7 +21,7 @@ bin-dir   := $(subst src,bin,$(cur-dir))
 # It is dependent upon kom.save
 
 ikom.fst: ../bin/ikom.fst
-../bin/ikom.fst: ../bin/kom.fst all-kom-lex
+../bin/ikom.fst: ../bin/kom.fst
 	@echo
 	@echo "*** Building the inverse ikom.fst ***"
 	@echo
@@ -91,14 +91,14 @@ kom.save: ../bin/kom.save
 	@rm -f ../../tmp/kom-save-script
 
 
-kom-lex.save: kom-lex.xml
+kom-lex.save: 
 kom-lex.save: ../bin/kom-lex.save
-../bin/kom-lex.save: kom-lex.txt noun-kom-morph.txt verb-kom-morph.txt \
-	pron-kom-morph.txt closed-kom-lex.txt all-kom-lex
+../bin/kom-lex.save: $(LEXS) kom-lex.txt noun-kom-morph.txt verb-kom-morph.txt \
+	pron-kom-morph.txt closed-kom-lex.txt 
 	@echo
 	@echo "*** Building kom-lex.save ***" ;
 	@echo
-	printf "compile-source $(addprefix ../bin/,$(LEXS)) $(subst all-kom-lex,,$^) \n\
+	printf "compile-source $^ \n\
 	save-source ../bin/kom-lex.save \n\
 	quit \n" > ../../tmp/kom-lex-save-script
 	@lexc -utf8 < ../../tmp/kom-lex-save-script
@@ -122,8 +122,7 @@ xfst-kom.bin: ../bin/xfst-kom.bin
 
 
 # Call the xml2lexc script, in order to build the lexc lexicon files.
-
-all-kom-lex: kom-lex.xml
+../bin/%-kom-lex.txt: kom-lex.xml
 	@echo
 	@echo "*** Building komi lexicons ***" ;
 	@echo
