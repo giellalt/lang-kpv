@@ -1,3 +1,43 @@
+Multichar_Symbols
+
+! tags
++AN
++ANA
++ANAA
++Car
++CHOZH
++Fut
++IG
++Ill
++Ind
++Instr
++KEZHLO
++MOZ
++MYS
++MYST
++OM
++Pl
++Pl1
++Pl2
++Pl3
++Poss1Sg
++Poss2Sg
++Poss3Sg
++Poss1Pl
++Poss2Pl
++Poss3Pl
++Prs
++Prt1
++Prt2
++Sg1
++Sg2
++Sg3
+
++SOR
++TODZ
++TYR
++TYRJI
+
 ! ========================================================================== !
 !                               Verbal morphology                            !
 ! ========================================================================== !
@@ -33,8 +73,6 @@ LEXICON Verb1 ! яйсявны
 
 ! Awaiting real analyses, I direct the other verb lexica to Verb1.
 
-LEXICON V2 ! контрактуйтны ! one member, typo for Verb2?
- Verb1 ;
 
 LEXICON Verb3 ! ярмыны. Ending in -ыны.
 Verb1 ;
@@ -42,9 +80,6 @@ Verb1 ;
 LEXICON Verb2 ! янӧдны, контролируйтны. Ending in -дны, -тны.
 Verb1 ;
 
-
-LEXICON Verb ! ёдавны, 3 members.
- Verb1 ;
 
 LEXICON Vdz4i3k
  Verb1 ;
@@ -74,6 +109,58 @@ LEXICON Finiteforms        !Gives linking vowels for 3 tenses
 +Ind+Prs:%>ӧ P3 ;
 +Ind+Prt1:%>і P3 ;
 +Ind+Prt2:%>ӧм Pret2a ;
+
+Non-finiteforms ;
+
+LEXICON Non-finiteforms
+!346
++MYST:%>мысьт K ;
++MYS:%>мысь K ;
++IG:%>іг K ;
+!352 Pl
++IG+Pl:%>ігъяс K ;
++IG+Ill:%>ігӧ K ;
++IG+Pl+Ill:%>ігъясӧ K ;
++IG+Instr:%>ігӧн PossessiveSuffixes_NoSg1 ;
+!351 Pl
++IG+Pl+Instr:%>ігъясӧн PossessiveSuffixes_NoSg1 ;
++IG+Ill+Poss1Sg:%>ігам K ;
++IG+Ill+Poss2Sg:%>ігад K ;
++IG+Ill+Poss3Sg:%>ігас K ;
++IG+Ill+Poss1Pl:%>іганым K ;
++IG+Ill+Poss2Pl:%>іганыд K ;
++IG+Ill+Poss3Pl:%>іганыс K ;
++IG+MOZ:%>ігмоз PossessiveSuffixes ;
++IG+SOR:%>ігсор K ;
++IG+TYR:%>ігтыр K ;
++IG+TYRJI:%>ігтырйи K ;
++IG+CHOZH:%>ігчӧж K ;
++IG+KOSTI:%>ігкості PossessiveSuffixes ;
++ANA:%>ана K ;
++ANAA:%>анаа K ;
++AN+MOZ:%>анмоз K ;
++Car:%>тӧг PossessiveSuffixes ;
++OM+Instr:%>ӧмӧн K ;
++IG+KEZHLO:%>ігкежлӧ K ;
++TODZ:%>тӧдз PossessiveSuffixes ;
+
+LEXICON PossessiveSuffixes
++NoPoss: K ;
++Poss1Sg:%>ым K ;
++Poss2Sg:%>ыд K ;
++Poss3Sg:%>ыс K ;
++Poss1Pl:%>ным K ;
++Poss2Pl:%>ныд K ;
++Poss3Pl:%>ныс K ;
+
+LEXICON PossessiveSuffixes_NoSg1
++NoPoss: K ;
++Poss2Sg:%>ыд K ;
++Poss3Sg:%>ыс K ;
++Poss1Pl:%>ным K ;
++Poss2Pl:%>ныд K ;
++Poss3Pl:%>ныс K ;
+
 
 LEXICON PresPret1  ! First and second person
 +Sg1:%> K ; 
