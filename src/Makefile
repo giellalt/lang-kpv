@@ -14,6 +14,18 @@ LEXS = $(patsubst %,../bin/%-$(lg)-lex.txt,$(shell perl ../script/xml2lexc --pos
 cur-dir   := $(shell pwd)
 bin-dir   := $(subst src,bin,$(cur-dir))
 
+XFST = xfst -utf8
+#XFST = fst -utf8
+LEXC = lexc -utf8
+
+ifeq (victorio.uit.no, $(shell hostname))
+XFST = /opt/sami/xerox/c-fsm/ix86-linux2.6-gcc3.4/bin/fst -utf8
+LEXC = /opt/sami/xerox/bin/lexc -utf8
+TWOLC = /opt/sami/xerox/bin/twolc -utf8
+endif
+
+
+
 
 # This is a preliminary file that builds a Komi parser based upon
 # xfst and not twolc.
@@ -30,7 +42,7 @@ ikom.fst: ../bin/ikom.fst
 	invert net \n\
 	save stack ../bin/ikom.fst \n\
 	quit \n" > ../../tmp/ikom-fst-script
-	@xfst -utf8 < ../../tmp/ikom-fst-script
+	$(XFST) < ../../tmp/ikom-fst-script
 	@rm -f ../../tmp/ikom-fst-script
 
 
@@ -45,7 +57,7 @@ kom.fst: ../bin/kom.fst
 	[@\"../bin/caseconv.fst\"]] ; \n\
 	save stack ../bin/kom.fst \n\
 	quit \n" > ../../tmp/kom-fst-script
-	@xfst -utf8 < ../../tmp/kom-fst-script
+	$(XFST) < ../../tmp/kom-fst-script
 	@rm -f ../../tmp/kom-fst-script
 
 
@@ -61,7 +73,7 @@ caseconv.fst: ../bin/caseconv.fst
 	@printf "read regex < case.regex \n\
 	save stack ../bin/caseconv.fst \n\
 	quit \n" > ../../tmp/caseconv-script
-	@xfst -utf8 < ../../tmp/caseconv-script
+	$(XFST) < ../../tmp/caseconv-script
 	@rm -f ../../tmp/caseconv-script
 
 
@@ -75,7 +87,7 @@ tok.fst: ../bin/tok.fst
 	@printf "source tok.txt \n\
 	save stack ../bin/tok.fst \n\
 	quit \n" > ../../tmp/tok-script
-	@xfst -utf8 < ../../tmp/tok-script
+	$(XFST) < ../../tmp/tok-script
 	@rm -f ../../tmp/tok-script
 
 
@@ -88,7 +100,7 @@ kom.save: ../bin/kom.save
 	[@\"../bin/xfst-kom.bin\"]] ; \n\
 	save stack ../bin/kom.save \n\
 	quit \n" > ../../tmp/kom-save-script
-	@xfst -utf8 < ../../tmp/kom-save-script
+	$(XFST) < ../../tmp/kom-save-script
 	@rm -f ../../tmp/kom-save-script
 
 
@@ -102,7 +114,7 @@ pron-kom-morph.txt closed-kom-lex.txt punct-kom-lex.txt
 	printf "compile-source $^ \n\
 	save-source ../bin/kom-lex.save \n\
 	quit \n" > ../../tmp/kom-lex-save-script
-	@lexc -utf8 < ../../tmp/kom-lex-save-script
+	$(LEXC) < ../../tmp/kom-lex-save-script
 	rm -f ../../tmp/kom-lex-save-script
 
 
@@ -118,7 +130,7 @@ xfst-kom.bin: ../bin/xfst-kom.bin
 	@printf "source xfst-kom.txt \n\
 	save stack ../bin/xfst-kom.bin \n\
 	quit \n" > ../../tmp/xfst-kom-script
-	@xfst -utf8 < ../../tmp/xfst-kom-script
+	$(XFST) < ../../tmp/xfst-kom-script
 	@rm -f ../../tmp/xfst-kom-script
 
 
@@ -167,7 +179,7 @@ clean:
 #	[@\"../bin/tag-order.fst\"]] ; \n\
 #	save stack ../bin/kom.save \n\
 #	quit \n" > ../../tmp/kom-fst-script
-#	@xfst -utf8 < ../../tmp/kom-fst-script
+#	$(XFST) < ../../tmp/kom-fst-script
 #	@rm -f ../../tmp/kom-fst-script
 
 
@@ -183,7 +195,7 @@ clean:
 #	@printf "read regex < tag-order.regex \n\
 #	save stack ../bin/tag-order.fst \n\
 #	quit \n" > ../../tmp/tag-order-script
-#	@xfst -utf8 < ../../tmp/tag-order-script
+#	$(XFST) < ../../tmp/tag-order-script
 #	@rm -f ../../tmp/tag-order-script
 
 
@@ -196,5 +208,5 @@ clean:
 #	[@\"../bin/xfst-kom.bin\"]] ; \n\
 #	save stack ../bin/kom-raw.save \n\
 #	quit \n" > ../../tmp/kom-raw-save-script
-#	@xfst -utf8 < ../../tmp/kom-raw-save-script
+#	$(XFST) < ../../tmp/kom-raw-save-script
 #	@rm -f ../../tmp/kom-raw-save-script
