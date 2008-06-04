@@ -16,3 +16,8 @@ print;
 # At present, it
 # does not name already named rules
 
+# Quasicode:
+# Take all lemma entries
+# Keep first letter and first letter after blank
+# Change the rest to small cyrillic, in a tr fashion
+# Print the resulting xml file
