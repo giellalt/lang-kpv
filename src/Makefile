@@ -8,7 +8,10 @@ SHELL = /bin/sh
 
 lg = kom
 
+#XMLFILES = kom-lex.xml MaleNicknames4kom-lex.xml Placenames4kom-lex.xml
+
 VPATH=../bin
+#LEXS = $(patsubst %,../bin/%-$(lg)-lex.txt,$(shell perl ../script/xml2lexc --pos_list --lex_file=$(XMLFILES)))
 LEXS = $(patsubst %,../bin/%-$(lg)-lex.txt,$(shell perl ../script/xml2lexc --pos_list --lex_file=kom-lex.xml))
 
 cur-dir   := $(shell pwd)
@@ -107,7 +110,7 @@ kom.save: ../bin/kom.save
 kom-lex.save: 
 kom-lex.save: ../bin/kom-lex.save
 ../bin/kom-lex.save: kom-lex.txt $(LEXS) noun-kom-morph.txt verb-kom-morph.txt \
-pron-kom-morph.txt closed-kom-lex.txt punct-kom-lex.txt
+pron-kom-morph.txt punct-kom-lex.txt # closed-kom-lex.txt 
 	@echo
 	@echo "*** Building kom-lex.save ***" ;
 	@echo
