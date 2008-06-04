@@ -99,7 +99,8 @@ SDW ;
 SUPERL ;
 VDER ; 
 V ;
-VNEG ;
+VERBNEGATIVE ;
+!VNEG ;
 
 
 ! ================================================== !
@@ -138,16 +139,16 @@ LEXICON CARD2b
 ! ==================================== !
 
 LEXICON End1
-# ;
++Adv: # ; ! from nowhere
 
 LEXICON End1a
-# ;
+Adv: # ;
 
-LEXICON END1
-# ;
+!LEXICON END1
+!# ;
 
 LEXICON End2
-# ;
++Adv: # ;
 
 LEXICON EndConj
 +CC: # ;
@@ -161,11 +162,11 @@ LEXICON EndRefl
 LEXICON EndInterj
 +Interj: # ;
 
-LEXICON EndNeg
-+Neg: # ;
+LEXICON EndNeg 
++Adv+Neg: # ; ! абу
 
-LEXICON EndVNeg
-+V+Neg: # ; ! This shall not be taken from the dict.
+!LEXICON EndVNeg
+!+V+Neg: # ; ! This shall not be taken from the dict.
 
 LEXICON EndIndef
 +Pron+Indef: # ;

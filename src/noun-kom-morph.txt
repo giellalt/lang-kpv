@@ -9,7 +9,7 @@
 
 
 LEXICON Adj
-PredMonLex ;
++A: PredMonLex ;
 
 ! ===== !
 ! Nouns !
@@ -38,10 +38,10 @@ LEXICON Noun1 ! Basic nouns.
 +N+Pl:%>ъяс CASEPOSSLEX ;
 
 LEXICON NounLA ! ӧтила
-# ;
++N: # ;
 
 LEXICON NounSG ! морт
-# ;
++N: # ;
 
 LEXICON NounPi ! пи These have a unique  pl marker ян.
 +N+Sg: CASEPOSSLEX ;        
@@ -49,10 +49,10 @@ LEXICON NounPi ! пи These have a unique  pl marker ян.
 
 
 LEXICON NounMort ! арта_ These all end in uncerscore, and are suspicious.
-# ;
++N: # ;
 
 LEXICON ACRON ! А*С*СР ! АТП Note the inconcistencies in the star use.
-# ;
++N+ACR: # ;
 
 LEXICON NounPL ! бедьторъяс
 # ;
@@ -60,16 +60,16 @@ LEXICON NounPL ! бедьторъяс
 ! nouns from Noun1 to NounPL, I guess.
 
 LEXICON NounPOSS ! чой
-# ;
++N: # ;
 
 LEXICON NounSUBJ ! дыш
-# ;
++N: # ;
 
 LEXICON NounOBJ
-# ;
++N: # ;
 
 LEXICON NounDET
-# ;
++N: # ;
 
 
 

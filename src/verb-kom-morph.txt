@@ -28,6 +28,31 @@
 ! Verbal continuation sublexica !
 ! ============================= !
 
+! Closed class verbs
+
+LEXICON VERBNEGATIVE
+!Verbs of Negation
+ог+V+Prs+Neg+1Sg:ог K ;
+он+V+Prs+Neg+2Sg:он K ;
+оз+V+Prs+Neg+3Sg:оз K ;
+огӧ+V+Prs+Neg+1Pl:огӧ K ;
+онӧ+V+Prs+Neg+2Pl:онӧ K ;
+огӧй+V+Prs+Neg+1Pl:огӧй K ;
+онӧй+V+Prs+Neg+2Pl:онӧй K ;
+оз+V+Prs+Neg+3Pl:оз K ;
+
+!Past Neg
+эг+V+Prt+Neg+1Sg:эг K ;
+эн+V+Prt+Neg+2Sg:эн K ;
+эз+V+Prt+Neg+3Sg:эз K ;
+эг+V+Prt+Neg+1Pl:эг K ;
+эн+V+Prt+Neg+2Pl:эн K ;
+эгӧ+V+Prt+Neg+1Pl:эгӧ K ;
+энӧ+V+Prt+Neg+2Pl:энӧ K ;
+эз+V+Prt+Neg+3Pl:эз K ;
+
+
+
 LEXICON Verb1 ! яйсявны
 +V:%^Inf  Finiteforms ;
 
