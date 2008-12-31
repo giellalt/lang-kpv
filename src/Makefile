@@ -17,9 +17,9 @@ LEXS = $(patsubst %,../bin/%-$(lg)-lex.txt,$(shell perl ../script/xml2lexc --pos
 cur-dir   := $(shell pwd)
 bin-dir   := $(subst src,bin,$(cur-dir))
 
-XFST = xfst -utf8
-#XFST = fst -utf8
-LEXC = lexc -utf8
+XFST = xfst 
+#XFST = fst 
+LEXC = lexc 
 
 ifeq (victorio.uit.no, $(shell hostname))
 XFST = /opt/sami/xerox/c-fsm/ix86-linux2.6-gcc3.4/bin/fst -utf8
