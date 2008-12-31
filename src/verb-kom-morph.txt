@@ -88,13 +88,14 @@ LEXICON Verbve3c4
 
 
 LEXICON Finiteforms        !Gives linking vowels for 3 tenses
-+Ind+Fut:%>а PresPret1 ;   ! Future, Present and Preterite1
-+Ind+Prs:%>а PresPret1 ;
-+Ind+Prt1:%>і PresPret1 ;
-+Ind+Fut:%>а P3 ;
-+Ind+Prs:%>ӧ P3 ;
-+Ind+Prt1:%>і P3 ;
+                           ! Future, Present and Preterite1
++Ind+Prs:%>а   PresPret1 ;
++Ind+Prs:%>ӧ   P3 ;
++Ind+Prt1:%>і  PresPret1 ;
++Ind+Prt1:%>іс P3 ;
 +Ind+Prt2:%>ӧм Pret2a ;
++Ind+Fut:%>а   PresPret1 ;   
++Ind+Fut:%>ас  P3 ;
 
 Non-finiteforms ;
 
@@ -145,25 +146,23 @@ LEXICON PossessiveSuffixes_NoSg1
 
 
 LEXICON PresPret1  ! First and second person
-+Sg1:%> K ; 
-+Sg2:%>н K ;
-+Pl1:%>м K ; 
-+Pl1:%>мӧ K ; !
-+Pl1:%>мӧй K ; !
++Sg1:       K ; 
++Sg2:%>н    K ;
++Pl1:%>м    K ; 
++Pl1:%>мӧ   K ; !SUB?
++Pl1:%>мӧй  K ; !SUB?
 +Pl2:%>нныд K ;
-+Pl2:%>д K ; 
++Pl2:%>д    K ; !SUB?
 
 LEXICON P3         
-:%>с PresPret1-SgPl3 ;
-:%>ӧ PresPret1-SgPl3 ; 
-:%>с PL3 ;
+     PresPret1-SgPl3 ; 
 
 LEXICON PresPret1-SgPl3
   SG3 ; 
   PL3 ;
   
 LEXICON SG3
-+Sg3:%> K ;
++Sg3:    K ;
   
 LEXICON PL3
 +Pl3:%>ны K;
@@ -176,12 +175,12 @@ LEXICON Pret2a
                   ! as point of departure
 
 LEXICON PRET2PL2
-+Sg2:%>ыд K ;
-+Pl2:%>ныд K ;
++Sg2:%>ыд     K ;
++Pl2:%>ныд    K ;
 +Pl2:%>ныдӧсь K ; !224
 
 LEXICON PRET2-linkki-a
-+Sg1:%> K ;
-+Sg3:%> K ;
++Sg1:      K ;
++Sg3:      K ;
 +Pl1:%>ӧсь K ;
 +Pl3:%>ӧсь K ;
