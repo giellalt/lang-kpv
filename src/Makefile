@@ -52,17 +52,31 @@ ikom.fst: ../bin/ikom.fst
 # This goal is to build the final analyser. It depends on all the files.
 
 kom.fst: ../bin/kom.fst
-../bin/kom.fst: ../bin/kom.save ../bin/caseconv.fst ../bin/tok.fst 
+../bin/kom.fst: ../bin/kom.save ../bin/caseconv.fst ../bin/tok.fst ../../../gt/common/bin/spellrelax.fst
 	@echo
 	@echo "*** Building kom.fst ***" ;
 	@echo
 	@printf "read regex [[@\"../bin/kom.save\"] .o. \
-	[@\"../bin/caseconv.fst\"]] ; \n\
+	[@\"../bin/caseconv.fst\"] .o. \
+	[@\"../../../gt/common/bin/spellrelax.fst\"]] ; \n\
 	save stack ../bin/kom.fst \n\
 	quit \n" > ../../tmp/kom-fst-script
 	$(XFST) < ../../tmp/kom-fst-script
 	@rm -f ../../tmp/kom-fst-script
 
+
+# This goal is to allow for Scandinavian ä/æ and ö/ø mix
+spellrelax: spellrelax.fst
+spellrelax.fst: ../../../gt/common/bin/spellrelax.fst
+../../../gt/common/bin/spellrelax.fst: ../../../gt/common/src/spellrelax.regex
+	@echo
+	@echo "*** Building spellrelax.fst ***" ;
+	@echo
+	@printf "read regex < $< \n\
+	save stack $@ \n\
+	quit \n" > ../../tmp/spellrelax-script
+	$(XFST) < ../../tmp/spellrelax-script
+	@rm -f ../../tmp/spellrelax-script
 
 
 # The second goal is to build the caseconv.fst file
@@ -158,7 +172,7 @@ clean:
 # This goal depends on a bunch of lexicon files
 
 # This block shal be added to the dependency files below:
-#       adj-kom-lex.txt \
+#	adj-kom-lex.txt \
 #	adv-kom-lex.txt \
 #	pron-kom-lex.txt \
 #	punct-kom-lex.txt \
