@@ -8,12 +8,12 @@ Multichar_Symbols
 Z1
 
 ! tags
-+1Sg
-+2Sg
-+3Sg
-+1Pl
-+2Pl
-+3Pl
++Sg1
++Sg2
++Sg3
++Pl1
++Pl2
++Pl3
 +CliticDzhik
 +CliticKody
 +CliticMoz
@@ -110,29 +110,29 @@ LEXICON Finite
 +Past+3Pl:^існы Clitic ;
 
 !Perfect
-+Perf+1Sg:^ӧма Clitic ;
-+Perf+2Sg:^ӧмыд Clitic ;
-+Perf+3Sg:^ӧма Clitic ;
-+Perf+1Pl:^ӧмаӧсь Clitic ;
-+Perf+2Pl:^ӧмныд Clitic ;
-+Perf+3Pl:^ӧмаӧсь Clitic ;
++Perf+Sg1:^ӧма Clitic ;
++Perf+Sg2:^ӧмыд Clitic ;
++Perf+Sg3:^ӧма Clitic ;
++Perf+Pl1:^ӧмаӧсь Clitic ;
++Perf+Pl2:^ӧмныд Clitic ;
++Perf+Pl3:^ӧмаӧсь Clitic ;
 !KM:251
-+Perf+3Pl:^ӧмась Clitic ;
-+Perf+2Pl:^ӧмныдӧсь Clitic ;
-+Perf+3Pl:^ӧмны Clitic ;
++Perf+Pl1:^ӧмась Clitic ;
++Perf+Pl2:^ӧмныдӧсь Clitic ;
++Perf+Pl3:^ӧмны Clitic ;
 
 LEXICON Infinite
 +Inf+Positive:ны Clitic ;
-+Inf+Subj+1Sg:ным Clitic ;
-+Inf+Subj+2Sg:ныд Clitic ;
-+Inf+Subj+3Sg:ныс Clitic ;
-+Inf+Obj+2Sg:нытӧ Clitic ;
-+Inf+Obj+3Sg:нысӧ Clitic ;
-+Inf+Subj+1Pl:ным Clitic ;
-+Inf+Subj+2Pl:ныд Clitic ;
-+Inf+Subj+3Pl:ныс Clitic ;
-+Inf+Obj+2Pl:нытӧ Clitic ;
-+Inf+Obj+3Pl:нысӧ Clitic ;
++Inf+Subj+Sg1:ным Clitic ;
++Inf+Subj+Sg2:ныд Clitic ;
++Inf+Subj+Sg3:ныс Clitic ;
++Inf+Obj+Sg2:нытӧ Clitic ;
++Inf+Obj+Sg3:нысӧ Clitic ;
++Inf+Subj+Pl1:ным Clitic ;
++Inf+Subj+Pl2:ныд Clitic ;
++Inf+Subj+Pl3:ныс Clitic ;
++Inf+Obj+Pl2:нытӧ Clitic ;
++Inf+Obj+Pl3:нысӧ Clitic ;
 
 !
 !LEXICON Gerund
