@@ -32,24 +32,24 @@
 
 LEXICON VERBNEGATIVE
 !Verbs of Negation
-ог+V+Prs+Neg+1Sg:ог K ;
-он+V+Prs+Neg+2Sg:он K ;
-оз+V+Prs+Neg+3Sg:оз K ;
-огӧ+V+Prs+Neg+1Pl:огӧ K ;
-онӧ+V+Prs+Neg+2Pl:онӧ K ;
-огӧй+V+Prs+Neg+1Pl:огӧй K ;
-онӧй+V+Prs+Neg+2Pl:онӧй K ;
-оз+V+Prs+Neg+3Pl:оз K ;
+ог+V+Prs+Neg+Sg1:ог K ;
+он+V+Prs+Neg+Sg2:он K ;
+оз+V+Prs+Neg+Sg3:оз K ;
+огӧ+V+Prs+Neg+Pl1:огӧ K ;
+онӧ+V+Prs+Neg+Pl2:онӧ K ;
+огӧй+V+Prs+Neg+Pl1:огӧй K ;
+онӧй+V+Prs+Neg+Pl2:онӧй K ;
+оз+V+Prs+Neg+Pl3:оз K ;
 
 !Past Neg
-эг+V+Prt+Neg+1Sg:эг K ;
-эн+V+Prt+Neg+2Sg:эн K ;
-эз+V+Prt+Neg+3Sg:эз K ;
-эг+V+Prt+Neg+1Pl:эг K ;
-эн+V+Prt+Neg+2Pl:эн K ;
-эгӧ+V+Prt+Neg+1Pl:эгӧ K ;
-энӧ+V+Prt+Neg+2Pl:энӧ K ;
-эз+V+Prt+Neg+3Pl:эз K ;
+эг+V+Prt+Neg+Sg1:эг K ;
+эн+V+Prt+Neg+Sg2:эн K ;
+эз+V+Prt+Neg+Sg3:эз K ;
+эг+V+Prt+Neg+Pl1:эг K ;
+эн+V+Prt+Neg+Pl2:эн K ;
+эгӧ+V+Prt+Neg+Pl1:эгӧ K ;
+энӧ+V+Prt+Neg+Pl2:энӧ K ;
+эз+V+Prt+Neg+Pl3:эз K ;
 
 
 
@@ -58,13 +58,15 @@ LEXICON Verb1 ! яйсявны
 
 
 ! Awaiting real analyses, I direct the other verb lexica to Verb1.
-
++V+Inf:%>ни K ;
 
 LEXICON Verb3 ! ярмыны. Ending in -ыны.
 Verb1 ;
++V+Inf:%>ыни K ;
 
 LEXICON Verb2 ! янӧдны, контролируйтны. Ending in -дны, -тны.
 Verb1 ;
++V+Inf:%>ни K ;
 
 
 LEXICON Vdz4i3k
@@ -105,17 +107,17 @@ LEXICON Non-finiteforms
 +IG:%>іг K ;
 !352 Pl
 +IG+Pl:%>ігъяс K ;
-+IG+Ill:%>ігӧ K ;
 +IG+Pl+Ill:%>ігъясӧ K ;
-+IG+Instr:%>ігӧн PossessiveSuffixes_NoSg1 ;
-!351 Pl
 +IG+Pl+Instr:%>ігъясӧн PossessiveSuffixes_NoSg1 ;
++IG+Ill:%>ігӧ K ;
 +IG+Ill+PxSg1:%>ігам K ;
 +IG+Ill+PxSg2:%>ігад K ;
 +IG+Ill+PxSg3:%>ігас K ;
 +IG+Ill+PxPl1:%>іганым K ;
 +IG+Ill+PxPl2:%>іганыд K ;
 +IG+Ill+PxPl3:%>іганыс K ;
++IG+Instr:%>ігӧн PossessiveSuffixes_NoSg1 ;
+!351 Pl
 +IG+MOZ:%>ігмоз PossessiveSuffixes ;
 +IG+SOR:%>ігсор K ;
 +IG+TYR:%>ігтыр K ;
