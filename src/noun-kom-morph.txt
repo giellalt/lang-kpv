@@ -38,10 +38,10 @@ LEXICON Noun1 ! Basic nouns.
 +N+Pl:%>ъяс CASEPOSSLEX ;
 
 LEXICON NounLA ! ӧтила
-+N: # ;
+Noun1 ; ! Difference betw Noun1 and NounLA still to be documented.
 
-LEXICON NounSG ! морт
-+N: # ;
+LEXICON NounSG ! м орт
++N+Sg: CASEPOSSLEX ;
 
 LEXICON NounPi ! пи These have a unique  pl marker ян.
 +N+Sg: CASEPOSSLEX ;        
@@ -59,14 +59,8 @@ LEXICON NounPL ! бедьторъяс
 ! Very many plural nouns do not have this tag. We could change яс-final
 ! nouns from Noun1 to NounPL, I guess.
 
-LEXICON NounPOSS ! чой
-+N: # ;
-
-LEXICON NounSUBJ ! дыш
-+N: # ;
-
-LEXICON NounOBJ
-+N: # ;
+LEXICON NounPOSS ! чой niece, nephew
+Noun1 ; ! Declension to be determined.
 
 LEXICON NounDET
 +N: # ;
