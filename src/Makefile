@@ -124,7 +124,7 @@ kom.save: ../bin/kom.save
 kom-lex.save: 
 kom-lex.save: ../bin/kom-lex.save
 ../bin/kom-lex.save: kom-lex.txt $(LEXS) noun-kom-morph.txt verb-kom-morph.txt \
-pron-kom-morph.txt punct-kom-lex.txt # closed-kom-lex.txt 
+pron-kom-morph.txt punct-kom-lex.txt num-kom-morph.txt # closed-kom-lex.txt 
 	@echo
 	@echo "*** Building kom-lex.save ***" ;
 	@echo
