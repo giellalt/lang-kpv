@@ -10,14 +10,23 @@
 
 
 LEXICON NUM
-+Card: NumCASEPOSSLEX ;
+CARD ;
 !+Ord:%>ӧд ;
-+Coll:%>нан NumCASEPOSSLEX ;
++Num+Coll:%>нан NumCASEPOSSLEX ;
 
 
-LEXICON Noun1 ! Basic nouns.
-+N+Sg: CASEPOSSLEX ;
-+N+Pl:%>ъяс CASEPOSSLEX ;
+! =========== !
+! CARD lexica !
+! =========== !
+
+LEXICON CARD
++Num+Card: NumCASEPOSSLEX ;
+
+LEXICON CARD2
+# ;
+
+LEXICON CARD2b
+# ;
 
 
 
