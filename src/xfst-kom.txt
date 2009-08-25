@@ -36,11 +36,12 @@ define CnsNotSoft [ б | в | г | д | ж | з
                   | ч | ш | щ | ъ | к2 | м2 | т2
                   | Ч | Ш | Щ | Ъ | К2 | М2 | Т2 ] ;
                   
-define CnsBeforeCyri [ б | в | г | ж | й | к | м | п        ! Only certain cons. are
-                     | Б | Б | Г | Ж | Й | К | М | П        ! allowed before Cyr i 
+define CnsBeforeCyri [ б | в | г | ж | й | к | м | п  
+                     | Б | Б | Г | Ж | Й | К | М | П       
                      | р | ф | х | ч | ш | щ | к2 | м2 | т2       
-                     | Р | Ф | Х | Ч | Ш | Щ | К2 | М2 | Т2 ];   
-
+                     | Р | Ф | Х | Ч | Ш | Щ | К2 | М2 | Т2 ] ;   
+                     ! Only certain cons. are allowed before Cyr i 
+      
 define Letter [ Vow | Cns ] ;      
 
 define Syll [ ( Cns ) ( Cns ) Vow ( Cns ) ( Cns ) ] ;      ! Hmm, not needed now.
@@ -67,6 +68,8 @@ echo << defining the rules >>
 define InfDeletion  [ н ы %^Inf -> 0 ] ;  
  ! Thus, all infinitives may be added as such in the lexicon, and then
  ! stripped for their suffix here.
+ 
+define InfMarkDeletion %^Inf -> 0 ; 
 
 define LtoV [ л -> в || _ [ .#. | %> Cns ] ] ;
  ! These words are underlyingly l, and changed to v.
@@ -130,6 +133,8 @@ echo << composing different parts >>
 
 read regex [ 
 InfDeletion
+.o.
+InfMarkDeletion
 .o.
 LtoV
 .o.
