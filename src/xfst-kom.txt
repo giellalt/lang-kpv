@@ -105,7 +105,6 @@ define WeakVowDeletion ы -> 0 || \[ н ы ] _ %> Vow ;
 define HardMarkDeletion ъ -> 0 || [ Vow (й) | ь ] %> _ ;
  
 
-define HardMarkPalatalisation ъ -> ь || [ д з | ч ] %> _ ;
 
 
 define VowelPalatalisation  а -> я, о -> ё, у -> ю  || 
@@ -117,6 +116,8 @@ define iPalatalisation і -> и || [ Vow | CnsBeforeCyri | ь | д з ] %> _ ;
 define SoftMarkDeletion ь -> 0 || _ %> [ я | ё | ю | и ] ;
   ! Here we delete the soft mark that caused the change to palatalising vowels
   ! in the rules VowelPalatalisation and iPalatalisation.
+
+define HardMarkPalatalisation ъ -> ь || [ д з | ч ] %> _ ;
 
 echo << defining cleanup rules >>
 
@@ -152,8 +153,6 @@ dDeletion
 .o.
 WeakVowDeletion
 .o.
-HardMarkDeletion
-.o.
 HardMarkPalatalisation
 .o.
 VowelPalatalisation
@@ -161,6 +160,8 @@ VowelPalatalisation
 iPalatalisation
 .o.
 SoftMarkDeletion
+.o.
+HardMarkDeletion
 .o.
 Cleanup
 .o.
