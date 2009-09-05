@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="quali
+fied">
+
+<!-- definition of simple elements -->
+<xs:element name="abbr" type="xs:string"/>
+<xs:element name="acron" type="xs:string"/>
+<xs:element name="dom" type="xs:string"/>
+<xs:element name="isa" type="xs:string"/>
+<xs:element name="komi" type="xs:string"/>
+<xs:element name="lemma" type="xs:string"/>
+<xs:element name="msp" type="xs:string"/>
+<xs:element name="sci" type="xs:string"/>
+<xs:element name="stem" type="xs:string"/>
+<xs:element name="syn" type="xs:string"/>
+<xs:element name="syno" type="xs:string"/>
+<xs:element name="variant" type="xs:string"/>
+
+
+
+<!-- definition of complex elements -->
+
+<xs:element name="article">
+  <xs:complexType>
+    <xs:choice>
+
+      <xs:complexType>
+	<xs:sequence>
+	  <xs:complexType maxOccurs="unbounded" minOccurs="0">
+	    <xs:sequence>
+	      <xs:element ref="der" maxOccurs="1" minOccurs="0"/>
+	      <xs:element ref="dom" maxOccurs="1" minOccurs="0"/>
+	      <xs:element ref="dial" maxOccurs="1" minOccurs="0"/>
+	      <xs:element ref="isa" maxOccurs="1" minOccurs="0"/>
+	      <xs:element ref="syn" maxOccurs="unbounded" minOccurs="0"/>
+	    </xs:sequence>
+	  </xs:complexType>
+	  <xs:complexType>
+	    <xs:sequence>
+	      <xs:element ref="eng"/>
+	      <xs:element ref="fin"/>
+	      <xs:element ref="sci" maxOccurs="1" minOccurs="0"/>
+	    </xs:sequence>
+	  </xs:complexType>
+	  <xs:complexType maxOccurs="unbounded" minOccurs="0">
+	    <xs:sequence>
+	      <xs:element ref="cf" maxOccurs="1" minOccurs="0"/>
+	      <xs:element ref="msp" maxOccurs="1" minOccurs="0"/>
+	      <xs:element ref="pro" maxOccurs="1" minOccurs="0"/>
+	      <xs:element ref="see" maxOccurs="1" minOccurs="0"/>
+	      <xs:element ref="syno" maxOccurs="1" minOccurs="0"/>
+	    </xs:sequence>
+	  </xs:complexType>
+	</xs:sequence>
+      </xs:complexType>
+
+      <xs:complexType>
+	<xs:sequence>
+	  <xs:element ref="eg" maxOccurs="unbounded" minOccurs="1"/>
+	</xs:sequence>
+      </xs:complexType>
+
+    </xs:choice>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="cf" mixed="true">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="choice"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="choice">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="variant" maxOccurs="unbound"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+
+<xs:element name="der">
+  <xs:complexType>
+    <xs:choice>
+      <xs:complexType>
+	<xs:sequence>
+	  
+	</xs:sequence>
+      </xs:complexType>
+      <xs:complexType>
+	<xs:sequence>
+	  <xs:element ref="variant" maxOccurs="unbound"/>
+	</xs:sequence>
+      </xs:complexType>
+    </xs:choice>
+  </xs:complexType>
+</xs:element>
+
+
+<xs:element name="eg">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="komi"/>
+      <xs:element ref="eng"/>
+      <xs:element ref="fin"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="eng" mixed="true">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="choice"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="entryGroup">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="entry" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="entry">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="lemma"/>
+      <xs:element ref="stem"/>
+      <xs:element ref="contlex"/>
+      <xs:element ref="pos"/>
+      <xs:element ref="article" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="fin" mixed="true">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="choice"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="pro" mixed="true">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="choice"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+
+
+<!-- definition of complex elements with mixed='true' -->
+<xs:element name="sent">
+  <xs:complexType mixed="true">
+    <xs:sequence maxOccurs="unbounded">
+      <xs:element ref="punct" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element ref="br" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element ref="emp" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="contlex">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ACRON"/>
+      <xs:enumeration value="Adj"/>
+      <xs:enumeration value="ADV"/>
+      <xs:enumeration value="CARD2b"/>
+      <xs:enumeration value="CARD2"/>
+      <xs:enumeration value="CARD"/>
+      <xs:enumeration value="DoubleVerb1"/>
+      <xs:enumeration value="End1a"/>
+      <xs:enumeration value="End1"/>
+      <xs:enumeration value="End2"/>
+      <xs:enumeration value="EndA"/>
+      <xs:enumeration value="EndConj"/>
+      <xs:enumeration value="EndIndef"/>
+      <xs:enumeration value="EndInteRJ"/>
+      <xs:enumeration value="EndNeg"/>
+      <xs:enumeration value="EndPart"/>
+      <xs:enumeration value="EndRefl"/>
+      <xs:enumeration value="F"/>
+      <xs:enumeration value="Noun1"/>
+      <xs:enumeration value="NounDET"/>
+      <xs:enumeration value="NounLA"/>
+      <xs:enumeration value="NounMort"/>
+      <xs:enumeration value="NounOBJ"/>
+      <xs:enumeration value="NounPi"/>
+      <xs:enumeration value="NounPL"/>
+      <xs:enumeration value="NounPOSS"/>
+      <xs:enumeration value="NounSG"/>
+      <xs:enumeration value="NounSUBJ"/>
+      <xs:enumeration value="NUM"/>
+      <xs:enumeration value="POSTP1a"/>
+      <xs:enumeration value="POSTP"/>
+      <xs:enumeration value="PRON3"/>
+      <xs:enumeration value="PRON4b"/>
+      <xs:enumeration value="PRON4"/>
+      <xs:enumeration value="PRON"/>
+      <xs:enumeration value="PRONdz4i3k"/>
+      <xs:enumeration value="PRONPL12"/>
+      <xs:enumeration value="PRONSG12"/>
+      <xs:enumeration value="VConjCons"/>
+      <xs:enumeration value="VConjVow"/>
+      <xs:enumeration value="Vdz4i3k"/>
+      <xs:enumeration value="Verb1"/>
+      <xs:enumeration value="Verb2"/>
+      <xs:enumeration value="Verb3"/>
+      <xs:enumeration value="VerbPRT"/>
+      <xs:enumeration value="Verbve3c4"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+
+<xs:element name="pos">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ADV"/>
+      <xs:enumeration value="ADVROOT"/>
+      <xs:enumeration value="A"/>
+      <xs:enumeration value="CONJ"/>
+      <xs:enumeration value="CONJ-ADVERSATIVE"/>
+      <xs:enumeration value="DEM"/>
+      <xs:enumeration value="F"/>
+      <xs:enumeration value="GER"/>
+      <xs:enumeration value="IDIOM"/>
+      <xs:enumeration value="INDEF"/>
+      <xs:enumeration value="INTERJ"/>
+      <xs:enumeration value="INTER"/>
+      <xs:enumeration value="NEG"/>
+      <xs:enumeration value="NN"/>
+      <xs:enumeration value="N"/>
+      <xs:enumeration value="NUM"/>
+      <xs:enumeration value="ONOM"/>
+      <xs:enumeration value="ORD"/>
+      <xs:enumeration value="PART"/>
+      <xs:enumeration value="PERS"/>
+      <xs:enumeration value="POSTP"/>
+      <xs:enumeration value="PRON"/>
+      <xs:enumeration value="PROP"/>
+      <xs:enumeration value="QUANT"/>
+      <xs:enumeration value="REFL"/>
+      <xs:enumeration value="REL"/>
+      <xs:enumeration value="SUPERL"/>
+      <xs:enumeration value="VDER"/>
+      <xs:enumeration value="V"/>
+      <xs:enumeration value="VNEG"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+
+
+<!-- Actual dict -->
+<xs:element name="dict">
+<xs:complexType>
+    <xs:sequence>
+      <xs:element ref="entryGroup" maxOccurs="unbounded" minOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+
+</xs:schema>
