@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <xs:import namespace="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="xsi.xsd"/>
+  <xs:element name="dict">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="entryGroup"/>
+      </xs:sequence>
+      <xs:attribute ref="xsi:noNamespaceSchemaLocation" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="entryGroup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="entry"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="entry">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="lemma"/>
+        <xs:element ref="stem"/>
+        <xs:element ref="contlex"/>
+        <xs:element ref="pos"/>
+        <xs:element maxOccurs="unbounded" ref="article"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="lemma" type="xs:NCName"/>
+  <xs:element name="stem">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="choice"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="contlex" type="xs:NCName"/>
+  <xs:element name="pos" type="xs:NCName"/>
+  <xs:element name="article">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice minOccurs="0">
+          <xs:element ref="BIB"/>
+          <xs:element ref="COMM"/>
+          <xs:element ref="SPELL"/>
+          <xs:element ref="abbr"/>
+          <xs:element ref="acron"/>
+        </xs:choice>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="eng"/>
+          <xs:element ref="fin"/>
+          <xs:element ref="ANT"/>
+          <xs:element ref="CONN"/>
+          <xs:element ref="cf"/>
+          <xs:element ref="der"/>
+          <xs:element ref="dial"/>
+          <xs:element ref="dom"/>
+          <xs:element ref="eg"/>
+          <xs:element ref="isa"/>
+          <xs:element ref="msp"/>
+          <xs:element ref="pro"/>
+          <xs:element ref="sci"/>
+          <xs:element ref="syn"/>
+        </xs:choice>
+        <xs:choice minOccurs="0">
+          <xs:element ref="see"/>
+          <xs:element ref="syno"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BIB" type="xs:string"/>
+  <xs:element name="COMM" type="xs:string"/>
+  <xs:element name="SPELL" type="xs:string"/>
+  <xs:element name="abbr" type="xs:string"/>
+  <xs:element name="acron" type="xs:string"/>
+  <xs:element name="ANT" type="xs:NCName"/>
+  <xs:element name="CONN" type="xs:string"/>
+  <xs:element name="cf">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="choice"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="der">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="choice"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dial">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="choice"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dom" type="xs:string"/>
+  <xs:element name="eg">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="eng"/>
+        <xs:element ref="fin"/>
+        <xs:element ref="komi"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="komi" type="xs:string"/>
+  <xs:element name="isa">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="choice"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="msp" type="xs:string"/>
+  <xs:element name="pro">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="choice"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sci">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="choice"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="syn">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="choice"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="see">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="choice"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="syno">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="choice"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="choice">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="variant"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="variant" type="xs:string"/>
+  <xs:element name="fin">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="choice"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="eng">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="choice"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
