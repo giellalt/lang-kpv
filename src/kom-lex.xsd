@@ -41,16 +41,15 @@
     <xs:complexType>
       <xs:sequence>
         <xs:choice minOccurs="0">
-          <xs:element ref="BIB"/>
           <xs:element ref="COMM"/>
-          <xs:element ref="SPELL"/>
+          <xs:element ref="spell"/>
           <xs:element ref="abbr"/>
           <xs:element ref="acron"/>
         </xs:choice>
         <xs:choice minOccurs="0" maxOccurs="unbounded">
           <xs:element ref="eng"/>
           <xs:element ref="fin"/>
-          <xs:element ref="ANT"/>
+          <xs:element ref="ant"/>
           <xs:element ref="CONN"/>
           <xs:element ref="cf"/>
           <xs:element ref="der"/>
@@ -70,12 +69,11 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  <xs:element name="BIB" type="xs:string"/>
   <xs:element name="COMM" type="xs:string"/>
-  <xs:element name="SPELL" type="xs:string"/>
+  <xs:element name="spell" type="xs:string"/>
   <xs:element name="abbr" type="xs:string"/>
   <xs:element name="acron" type="xs:string"/>
-  <xs:element name="ANT" type="xs:NCName"/>
+  <xs:element name="ant" type="xs:NCName"/>
   <xs:element name="CONN" type="xs:string"/>
   <xs:element name="cf">
     <xs:complexType mixed="true">
