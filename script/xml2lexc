@@ -63,7 +63,7 @@ if ($pos_list) {
 	foreach my $entry (@entries) {
 		
 		# If pos-tag is the right one, process the rest of the entry
-		my $pos_text = $entry->first_child( 'POS' )->text;
+		my $pos_text = $entry->first_child( 'pos' )->text;
 		
 		$pos{$pos_text} += 1;
 	}
@@ -83,7 +83,7 @@ sub generate_all {
 	my @entries = $root->children;  # The children of the root node are called "entries"
 
 	foreach my $entry (@entries) {
-		my $pos_text = $entry->first_child( 'POS' )->text;	
+		my $pos_text = $entry->first_child( 'pos' )->text;	
 		$pos{$pos_text} += 1;
 	}
 	for my $pos_name (keys %pos) {
@@ -112,7 +112,7 @@ sub generate_pos {
 	foreach my $entry (@entries) {
 
 		# If pos-tag is the right one, process the rest of the entry
-		my $pos_text = $entry->first_child( 'POS' )->text;
+		my $pos_text = $entry->first_child( 'pos' )->text;
 		if ( $pos eq $pos_text ) {
 			
 			# Get the values of the fields.
