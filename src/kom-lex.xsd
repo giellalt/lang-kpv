@@ -60,6 +60,7 @@
           <xs:element ref="msp"/>
           <xs:element ref="pro"/>
           <xs:element ref="sci"/>
+          <xs:element ref="sem"/>
           <xs:element ref="syn"/>
         </xs:choice>
         <xs:choice minOccurs="0">
@@ -73,7 +74,7 @@
   <xs:element name="spell" type="xs:string"/>
   <xs:element name="abbr" type="xs:string"/>
   <xs:element name="acron" type="xs:string"/>
-  <xs:element name="ant" type="xs:NCName"/>
+  <xs:element name="ant" type="xs:string"/>
   <xs:element name="CONN" type="xs:string"/>
   <xs:element name="cf">
     <xs:complexType mixed="true">
@@ -121,6 +122,14 @@
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="choice"/>
       </xs:sequence>
     </xs:complexType>
+  </xs:element>
+  <xs:element name="sem">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="+COUNT"/>
+        <xs:enumeration value="-COUNT"/>
+      </xs:restriction>
+    </xs:simpleType>
   </xs:element>
   <xs:element name="sci">
     <xs:complexType mixed="true">
