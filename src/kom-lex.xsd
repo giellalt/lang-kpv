@@ -56,11 +56,13 @@
           <xs:element ref="dom"/>
           <xs:element ref="eg"/>
           <xs:element ref="isa"/>
+          <xs:element ref="lhand"/>
           <xs:element ref="msp"/>
           <xs:element ref="pro"/>
           <xs:element ref="sci"/>
           <xs:element ref="sem"/>
           <xs:element ref="syn"/>
+          <xs:element ref="usage"/>
         </xs:choice>
         <xs:choice minOccurs="0">
           <xs:element ref="see"/>
@@ -113,6 +115,7 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="lhand" type="xs:string"/>
   <xs:element name="msp" type="xs:string"/>
   <xs:element name="pro">
     <xs:complexType mixed="true">
@@ -120,14 +123,6 @@
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="choice"/>
       </xs:sequence>
     </xs:complexType>
-  </xs:element>
-  <xs:element name="sem">
-    <xs:simpleType>
-      <xs:restriction base="xs:string">
-        <xs:enumeration value="+COUNT"/>
-        <xs:enumeration value="-COUNT"/>
-      </xs:restriction>
-    </xs:simpleType>
   </xs:element>
   <xs:element name="sci">
     <xs:complexType mixed="true">
@@ -150,12 +145,34 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="sem">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="+COUNT"/>
+        <xs:enumeration value="-COUNT"/>
+        <xs:enumeration value="COMP"/>
+        <xs:enumeration value="INVOL"/>
+        <xs:enumeration value="RECIP"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
   <xs:element name="syno">
     <xs:complexType mixed="true">
       <xs:sequence>
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="choice"/>
       </xs:sequence>
     </xs:complexType>
+  </xs:element>
+  <xs:element name="usage">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="COLLOQ"/>
+        <xs:enumeration value="FIG"/>
+        <xs:enumeration value="HIST"/>
+        <xs:enumeration value="MOTHERESE"/>
+        <xs:enumeration value="NEOL"/>
+      </xs:restriction>
+    </xs:simpleType>
   </xs:element>
   <xs:element name="choice">
     <xs:complexType>
