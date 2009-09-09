@@ -41,7 +41,6 @@
     <xs:complexType>
       <xs:sequence>
         <xs:choice minOccurs="0">
-          <xs:element ref="COMM"/>
           <xs:element ref="spell"/>
           <xs:element ref="abbr"/>
           <xs:element ref="acron"/>
@@ -70,7 +69,6 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  <xs:element name="COMM" type="xs:string"/>
   <xs:element name="spell" type="xs:string"/>
   <xs:element name="abbr" type="xs:string"/>
   <xs:element name="acron" type="xs:string"/>
