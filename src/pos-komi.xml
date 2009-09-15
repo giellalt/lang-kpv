@@ -1,45 +1,181 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <entries>
-<entry><name lang="en">adjective</name><name lang="fi">adjektiivi</name><label>A</label></entry>
-<entry><name lang="en">superlative adjective</name><name lang="fi">superlatiivi adjektiivi</name><label>A-SUPERL</label></entry>
-<entry><name lang="en">adverb</name><name lang="fi">adverbi</name><label>ADV</label></entry>
-<entry><name lang="en">adverb root</name><name lang="fi">adverbijuuri</name><label>ADVROOT</label></entry>
-<entry><name lang="en">superlative adverb</name><name lang="fi">superlatiivi adverbi</name><label>ADV-SUPERL</label></entry>
-<entry><name lang="en">conjunction</name><name lang="fi">konjunktio</name><label>CONJ</label></entry>
-<entry><name lang="en">adversative conjunction</name><name lang="fi">adversatiivikonjunktio</name><label>CONJ-ADVERSATIVE</label></entry>
-<entry><name lang="en">polar conjunction</name><name lang="fi">polaarinen konjunktio</name><label>CONJ-NEG</label></entry>
-<entry><name lang="en">foreign word</name><name lang="fi">toiskielinen sana</name><label>F</label></entry>
-<entry><name lang="en">gerund</name><name lang="fi">gerundi</name><label>GER</label></entry>
-<entry><name lang="en">idiom</name><name lang="fi">idiomi</name><label>IDIOM</label></entry>
-<entry><name lang="en">interjection</name><name lang="fi">interjektio</name><label>INTERJ</label></entry>
-<entry><name lang="en">noun</name><name lang="fi">substantiivi</name><label>N</label></entry>
-<entry><name lang="en">abstract noun</name><name lang="fi">abstraktiivinen substantiivi</name><label>N-ABSTR</label></entry>
-<entry><name lang="en">number</name><name lang="fi">numero</name><label>NUM</label></entry>
-<entry><name lang="en">ordinal number</name><name lang="fi">järjestysluku</name><label>NUM-ORD</label></entry>
-<entry><name lang="en">particle</name><name lang="fi">partikkeli</name><label>PART</label></entry>
-<entry><name lang="en">interrogative particle</name><name lang="fi">kysymyspartikkeli</name><label>PART-INTER</label></entry>
-<entry><name lang="en">polar particle</name><name lang="fi">polaarinen partikkeli</name><label>PART-NEG</label></entry>
-<entry><name lang="en">onomatopoeic particle</name><name lang="fi">onomatopoeettinen partikkeli</name><label>PART-ONOM</label></entry>
-<entry><name lang="en">superlative particle</name><name lang="fi">superlatiivipartikkeli</name><label>PART-SUPERL</label></entry>
-<entry><name lang="en">postposition</name><name lang="fi">postpositio</name><label>POSTP</label></entry>
-<entry><name lang="en">demonstrative pronoun</name><name lang="fi">demonstratiivipronomini</name><label>PRON-DEM</label></entry>
-<entry><name lang="en">indefinite pronoun</name><name lang="fi">indefiniittipronomini</name><label>PRON-INDEF</label></entry>
-<entry><name lang="en">interrogative pronoun</name><name lang="fi">kysymyspronomini</name><label>PRON-INTER</label></entry>
-<entry><name lang="en">polar pronoun</name><name lang="fi">polarinen pronomini</name><label>PRON-NEG</label></entry>
-<entry><name lang="en">personal pronoun</name><name lang="fi">persoonapronomini</name><label>PRON-PERS</label></entry>
-<entry><name lang="en">quantifying pronoun</name><name lang="fi">kvantifioiva pronomini</name><label>PRON-Q</label></entry>
-<entry><name lang="en">reflexive pronoun</name><name lang="fi">refleksiivipronomini</name><label>PRON-REFL</label></entry>
-<entry><name lang="en">relative pronoun</name><name lang="fi">relatiivipronomini</name><label>PRON-REL</label></entry>
-<entry><name lang="en">proper noun</name><name lang="fi">propri</name><label>PROP</label></entry>
-<entry><name lang="en">quantor</name><name lang="fi">quantori</name><label>QUANT</label></entry>
-<entry><name lang="en">verb</name><name lang="fi">verbi</name><label>V</label></entry>
-<entry><name lang="en">verbal derivation</name><name lang="fi">deverbaalinen</name><label>VDER</label></entry>
-<entry><name lang="en">durative verb</name><name lang="fi">duratiiviverbi</name><label>V-DUR</label></entry>
-<entry><name lang="en">frequentative verb</name><name lang="fi">frekventatiiviverbi</name><label>V-FREQ</label></entry>
-<entry><name lang="en">instantaneous verb</name><name lang="fi">instantiiviverbi</name><label>V-INST</label></entry>
-<entry><name lang="en">verb of negation</name><name lang="fi">kieltoverbi</name><label>VNEG</label></entry>
-<entry><name lang="en">reflexive verb</name><name lang="fi">refleksiiviverbi</name><label>V-REFL</label></entry>
-
-
-
+  <pos label="A">
+    <name lang="en">adjective</name>
+    <name lang="fi">adjektiivi</name>
+    <types>
+      <type label="SUPERL">
+	<name lang="en" loc="left" pType="phrase">superlative</name>
+	<name lang="fi" loc="left" pType="phrase">superlatiivi</name>
+      </type>
+    </types>
+  </pos>
+  <pos label="ADV">
+    <name lang="en">adverb</name>
+    <name lang="fi">adverbi</name>
+    <types>
+      <type label="ROOT">
+	<name lang="en" loc="right" pType="phrase">root</name>
+	<name lang="fi" loc="right" pType="compound">juuri</name>
+      </type>
+      <type label="SUPERL">
+	<name lang="en" loc="left" pType="phrase">superlative</name>
+	<name lang="fi" loc="left" pType="phrase">superlatiivi</name>
+      </type>
+    </types>
+  </pos>
+  <pos label="CONJ">
+    <name lang="en">conjunction</name>
+    <name lang="fi">konjunktio</name>
+    <types>
+      <type label="ADVERS">
+	<name lang="en" loc="left" pType="phrase">adversative</name>
+	<name lang="fi" loc="left" pType="compound">adversatiivi</name>
+      </type>
+      <type label="NEG">
+	<name lang="en" loc="left" pType="phrase">polar</name>
+	<name lang="fi" loc="left" pType="phrase">polaarinen</name>
+      </type>
+    </types>
+  </pos>
+  <pos label="F">
+    <name lang="en">foreign word</name>
+    <name lang="fi">toiskielinen sana</name>
+  </pos>
+  <pos label="GER">
+    <name lang="en">gerund</name>
+    <name lang="fi">gerundi</name>
+  </pos>
+  <pos label="IDIOM">
+    <name lang="en">idiom</name>
+    <name lang="fi">idiomi</name>
+  </pos>
+  <pos label="INTERJ">
+    <name lang="en">interjection</name>
+    <name lang="fi">interjektio</name>
+  </pos>
+  <pos label="N">
+    <name lang="en">noun</name>
+    <name lang="fi">substantiivi</name>
+    <types>
+      <type label="ABSTR">
+	<name lang="en" loc="left" pType="phrase">abstract</name>
+	<name lang="fi" loc="left" pType="phrase">abstraktiivinen</name>
+      </type>
+      <type label="PROP">
+	<name lang="en" loc="left" pType="phrase">proper</name>
+	<name lang="fi" pType="suppletive">propri</name>
+      </type>
+    </types>
+  </pos>
+  <pos label="NUM">
+    <name lang="en">number</name>
+    <name lang="fi">numero</name>
+    <types>
+      <type label="ORD">
+	<name lang="en" loc="left" pType="phrase">ordinal</name>
+	<name lang="fi" pType="suppletive">järjestysluku</name>
+      </type>
+    </types>
+  </pos>
+  <pos label="PART">
+    <name lang="en">particle</name>
+    <name lang="fi">partikkeli</name>
+    <types>
+      <type label="INTER">
+	<name lang="en" loc="left" pType="phrase">interrogative</name>
+	<name lang="fi" loc="left" pType="compound">kysymy</name>
+      </type>
+      <type label="NEG">
+	<name lang="en" loc="left" pType="phrase">polar</name>
+	<name lang="fi" loc="left" pType="phrase">polaarinen</name>
+      </type>
+      <type label="ONOM">
+	<name lang="en" loc="left" pType="phrase">onomatopoeic</name>
+	<name lang="fi" loc="left" pType="phrase">onomatopoeettinen</name>
+      </type>
+      <type label="SUPERL">
+	<name lang="en" loc="left" pType="phrase">superlative</name>
+	<name lang="fi" loc="left" pType="compound">superlatiivi</name>
+      </type>
+    </types>
+  </pos>
+  <pos label="POSTP">
+    <name lang="en">postposition</name>
+    <name lang="fi">postpositio</name>
+  </pos>
+  
+  <pos label="PRON">
+    <name lang="en">pronoun</name>
+    <name lang="fi">pronomini</name>
+    <types>
+      <type label="PERS">
+	<name lang="en" loc="left" pType="phrase">personal</name>
+	<name lang="fi" loc="left" pType="compound">persoona</name>
+      </type>
+      <type label="DEM">
+	<name lang="en" loc="left" pType="phrase">demonstrative</name>
+	<name lang="fi" loc="left" pType="compound">demonstratiivi</name>
+      </type>
+      <type label="INDEF">
+	<name lang="en" loc="left" pType="phrase">indefinite</name>
+	<name lang="fi" loc="left" pType="compound">indefiniitti</name>
+      </type>
+      <type label="INTER">
+	<name lang="en" loc="left" pType="phrase">interrogative</name>
+	<name lang="fi" loc="left" pType="compound">kysymys</name>
+      </type>
+      <type label="REFL">
+	<name lang="en" loc="left" pType="phrase">reflexive</name>
+	<name lang="fi" loc="left" pType="compound">refleksiivi</name>
+      </type>
+      <type label="REL">
+	<name lang="en" loc="left" pType="phrase">relative</name>
+	<name lang="fi" loc="left" pType="compound">relatiivi</name>
+      </type>
+      <type label="NEG">
+	<name lang="en" loc="left" pType="phrase">polar</name>
+	<name lang="fi" loc="left" pType="phrase">polarinen</name>
+      </type>
+      <type label="Q">
+	<name lang="en" loc="left" pType="phrase">quantifying</name>
+	<name lang="fi" loc="left" pType="phrase">kvantifioiva</name>
+      </type>
+    </types>
+  </pos>
+  <pos label="QUANT">
+    <name lang="en">quantor</name>
+    <name lang="fi">quantori</name>
+  </pos>
+  <pos label="VDER">
+    <name lang="en">verbal derivation</name>
+    <name lang="fi">deverbaalinen</name>
+  </pos>
+  <pos label="V">
+    <name lang="en">verb</name>
+    <name lang="fi">verb</name>
+    <types>
+      <type label="DUR">
+	<name lang="en" loc="left" pType="phrase">durative</name>
+	<name lang="fi" loc="left" pType="compound">duratiivi</name>
+      </type>
+      <type label="FREQ">
+	<name lang="en" loc="left" pType="phrase">frequentative</name>
+	<name lang="fi" loc="left" pType="compound">frekventatiivi</name>
+      </type>
+      <type label="INST">
+	<name lang="en" loc="left" pType="phrase">instantaneous</name>
+	<name lang="fi" loc="left" pType="compound">instantiivi</name>
+      </type>
+      <type label="NEG">
+	<name lang="en" loc="right" pType="phrase">of negation</name>
+	<name lang="fi" loc="left" pType="compound">kielto</name>
+      </type>
+      <type label="REFL">
+	<name lang="en" loc="left" pType="phrase">reflexive</name>
+	<name lang="fi" loc="left" pType="compound">refleksiivi</name>
+      </type>
+    </types>
+  </pos>
 </entries>
+
