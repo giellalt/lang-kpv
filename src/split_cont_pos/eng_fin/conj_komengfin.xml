@@ -139,7 +139,7 @@
          </fin>
       </article>
    </entry>
-   <entry lemma="кӧть" art_count="1">
+   <entry lemma="кӧть" art_count="1" state="xxx">
       <lemma>кӧть</lemma>
       <stem/>
       <contlex>End1</contlex>
@@ -176,7 +176,7 @@
          </fin>
       </article>
    </entry>
-   <entry lemma="либӧ" art_count="1">
+   <entry lemma="либӧ" art_count="1" state="xxx">
       <lemma>либӧ</lemma>
       <stem/>
       <contlex>End1</contlex>
@@ -394,6 +394,42 @@
                <variant/>
             </choice>
          </cf>
+      </article>
+   </entry>
+   <entry lemma="за" art_count="1">
+      <lemma>за</lemma>
+      <stem/>
+      <contlex>EndConj</contlex>
+      <pos>CONJ-ADVERSATIVE</pos>
+      <article>
+         <eng>
+            <choice>
+               <variant>but</variant>
+            </choice>
+         </eng>
+         <fin>
+            <choice>
+               <variant>mutta</variant>
+            </choice>
+         </fin>
+      </article>
+   </entry>
+   <entry lemma="ни" art_count="1">
+      <lemma>ни</lemma>
+      <stem/>
+      <contlex>End1</contlex>
+      <pos>CONJ-NEG</pos>
+      <article>
+         <eng>
+            <choice>
+               <variant>nor</variant>
+            </choice>
+         </eng>
+         <fin>
+            <choice>
+               <variant>eikä</variant>
+            </choice>
+         </fin>
       </article>
    </entry>
 </dict>
