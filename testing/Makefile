@@ -96,7 +96,6 @@ clean:
 		  *.aresult \
 		  *.summary \
 		  *.ptest \
-		  *paradigm \
 		  *.tgz	\
 		  *~ \
 		  $(TEMP)/*test-script
@@ -177,8 +176,62 @@ n-paradigm: n-para.ptest savefile
 	@xfst -utf8 < $(TEMP)/$@-gtest-script > $(WORD).paradigm
 	@rm -f $(TEMP)/$@-gtest-script
 	@rm -f $<
-	@less $(WORD).paradigm
+#	@less $(WORD).paradigm
 
+# NUM
+# =====
+
+# Create all the noun test file bases:
+num-%.testbase: num-%.txt noun-codes.txt
+	@echo
+	@echo "*** Creating the test base for num-$*.txt ***"
+	@echo
+	@rm -f $@
+	$(UMASK) && \
+	$(BINDIR)/merge-codesNumforms.pl num-codes.txt $< > $@
+	@chmod 660 $@
+
+# Finally, we concatenate all *.greports
+num-g.summary: $(NumGenFiles)
+	@cat $^ > $@
+	@echo
+	@echo "*** All num word form generation testing is done.      ***"
+	@echo "*** The concatenated reports are stored in $@. ***"
+	@echo
+#	@less $@
+
+# Finally, we concatenate all *.areports:
+num-a.summary: $(NumAnaFiles)
+	@cat $^ > $@
+	@echo
+	@echo "*** All num word form analysis testing is done.        ***"
+	@echo "*** The concatenated reports are stored in $@. ***"
+	@echo
+#	@less $@
+
+# Create noun paradigm generation input file:
+num-para.ptest: noun-codes.txt
+	@echo
+	@echo "*** Creating the num paradigm input file for '$(WORD)' ***"
+	@echo
+	@rm -f $@
+	$(UMASK) && \
+	$(BINDIR)/merge-codesNword.pl $< $(WORD) > $@
+	@chmod 660 $@
+
+# Paradigm generation:
+.PHONY: num-paradigm
+num-paradigm: num-para.ptest savefile
+	@echo
+	@echo "*** Running the paradigm generator for '$(WORD)' ***"
+	@echo
+	@printf "load $(SAVEFILE) \n\
+	apply down <$< \n\
+	quit \n" > $(TEMP)/$@-gtest-script
+	@xfst -utf8 < $(TEMP)/$@-gtest-script > $(WORD).paradigm
+	@rm -f $(TEMP)/$@-gtest-script
+	@rm -f $<
+#	@less $(WORD).paradigm
 
 # VERBS
 # =====
@@ -232,7 +285,7 @@ v-paradigm: v-para.ptest savefile
 	@xfst -utf8 < $(TEMP)/$@-gtest-script > $(WORD).paradigm
 	@rm -f $(TEMP)/$@-gtest-script
 	@rm -f $<
-	@less $(WORD).paradigm
+#	@less $(WORD).paradigm
 
 
 # ADJECTIVES
@@ -287,7 +340,7 @@ a-paradigm: a-para.ptest savefile
 	@xfst -utf8 < $(TEMP)/$@-gtest-script > $(WORD).paradigm
 	@rm -f $(TEMP)/$@-gtest-script
 	@rm -f $<
-	@less $(WORD).paradigm
+#	@less $(WORD).paradigm
 
 
 # POS-independent parts:
