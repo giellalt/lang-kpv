@@ -182,7 +182,7 @@ n-paradigm: n-para.ptest savefile
 # =====
 
 # Create all the noun test file bases:
-num-%.testbase: num-%.txt noun-codes.txt
+num-%.testbase: num-%.txt num-codes.txt
 	@echo
 	@echo "*** Creating the test base for num-$*.txt ***"
 	@echo
@@ -210,7 +210,7 @@ num-a.summary: $(NumAnaFiles)
 #	@less $@
 
 # Create noun paradigm generation input file:
-num-para.ptest: noun-codes.txt
+num-para.ptest: num-codes.txt
 	@echo
 	@echo "*** Creating the num paradigm input file for '$(WORD)' ***"
 	@echo
