@@ -22,6 +22,8 @@ Multichar_Symbols
 +HabObj
 +Egr +Instr
 
++Refl
+
 +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
 
 +Card
@@ -95,7 +97,7 @@ PROP ;
 QUANT ;
 REFL ;
 REL ;
-SDW ;
+!SDW ;
 SUPERL ;
 VDER ; 
 V ;
@@ -130,7 +132,7 @@ LEXICON End1
 +Adv: # ; ! from nowhere
 
 LEXICON End1a
-Adv: # ;
++Adv: # ;
 
 !LEXICON END1
 !# ;
