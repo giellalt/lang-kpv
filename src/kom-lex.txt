@@ -4,7 +4,7 @@ Multichar_Symbols
 
 ! POS
 +N +V +A 
-+Adv +CC +CS +Interj +Pron +Num +Pcle +Clt
++Adv +CC +CS +Interj +Pron +Num +Pcle +Clt +Po
 
 ! Verbal MSP
 +Prs +Fut +Fut1 +Prt1 +Prt2 +Prf
@@ -143,11 +143,14 @@ VNEG ;
 ! Postp lexica !
 ! ============ !
 
+LEXICON POSTP
++Po: # ;
+
 LEXICON POSTP1a
-# ;
++Po: # ;
 
 LEXICON POSTP1
-# ;
++Po: # ;
 
 
 
@@ -193,6 +196,23 @@ LEXICON EndA
 +A: # ;
 
 
+
+! Other lexica
+
+LEXICON CONJ
++CC: # ;
+
+
+LEXICON SUPERL
++Err: # ;
+
+LEXICON PART-SUPERL
++Err: # ;
+
+LEXICON ORD
++Err: # ;
+
+
 ! ======= !
 ! Clitics !
 ! ======= !
@@ -208,36 +228,14 @@ LEXICON K
 
 
 ! List of missing lexica
-
-LEXICON VERBNEGATIVE
-+Err: # ;
+! These should be fixed.
 
 LEXICON V-REFL
 +Err: # ;
 
-LEXICON SUPERL
+LEXICON NEG
 +Err: # ;
 
-LEXICON REL
-+Err: # ;
-
-LEXICON REFL
-+Err: # ;
-
-LEXICON PRON
-+Err: # ;
-
-LEXICON POSTP
-+Err: # ;
-
-LEXICON PERS
-+Err: # ;
-
-LEXICON PART-SUPERL
-+Err: # ;
-
-LEXICON ORD
-+Err: # ;
 
 LEXICON ONOM
 +Err: # ;
@@ -245,111 +243,10 @@ LEXICON ONOM
 LEXICON NN
 +Err: # ;
 
-LEXICON NEG
-+Err: # ;
-
-LEXICON INTER
-+Err: # ;
-
-LEXICON INDEF
-+Err: # ;
-
 LEXICON F
 +Err: # ;
 
-LEXICON DEM
+LEXICON ADV-SUPERL
 +Err: # ;
 
-LEXICON Punctuation
-+Err: # ;
-
-LEXICON Adj
-+Err: # ;
-
-LEXICON Vdz4i3k
-+Err: # ;
-
-LEXICON PRON4b
-+Err: # ;
-
-LEXICON NounLA
-+Err: # ;
-
-LEXICON NounOBJ
-+Err: # ;
-
-LEXICON Verb2
-+Err: # ;
-
-LEXICON NounSG
-+Err: # ;
-
-LEXICON NounPi
-+Err: # ;
-
-LEXICON NounMort
-+Err: # ;
-
-LEXICON ACRON
-+Err: # ;
-
-LEXICON NounPL
-+Err: # ;
-
-LEXICON Noun1
-+Err: # ;
-
-LEXICON NounPOSS
-+Err: # ;
-
-LEXICON NounSUBJ
-+Err: # ;
-
-LEXICON CARD
-+Err: # ;
-
-LEXICON PRONdz4i3k
-+Err: # ;
-
-LEXICON NounDET
-+Err: # ;
-
-LEXICON PRON3
-+Err: # ;
-
-LEXICON PRON4
-+Err: # ;
-
-LEXICON CARD2b
-+Err: # ;
-
-LEXICON PRONPL12
-+Err: # ;
-
-LEXICON PRONSG12
-+Err: # ;
-
-LEXICON CARD2
-+Err: # ;
-
-LEXICON VConjCons
-+Err: # ;
-
-LEXICON Verb1
-+Err: # ;
-
-LEXICON Verb3
-+Err: # ;
-
-LEXICON VerbPRT
-+Err: # ;
-
-LEXICON DoubleVerb1
-+Err: # ;
-
-LEXICON VConjVow
-+Err: # ;
-
-LEXICON Verbve3c4
-+Err: # ;
 
