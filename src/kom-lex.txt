@@ -1,5 +1,7 @@
 Multichar_Symbols
 
++Err ! marking missing lexica
+
 ! POS
 +N +V +A 
 +Adv +CC +CS +Interj +Pron +Num +Pcle +Clt
@@ -72,61 +74,61 @@ Multichar_Symbols
 LEXICON Root
 Punctuation ;
 
-A				 ;
-A-SUPERL		 ;
-AD-A			 ;
-ADV				 ;
-ADV-SUPERL		 ;
-ADVROOT			 ;
-ATTR			 ;
-CONJ			 ;
+A ;
+A-SUPERL ;
+AD-A ;
+ADV ;
+ADV-SUPERL ;
+ADVROOT ;
+ATTR ;
+CONJ ;
 CONJ-ADVERSATIVE ;
-CONJ-NEG		 ;
-DEM				 ;
-F				 ;
-GER				 ;
-IDIOM			 ;
-INDEF			 ;
-INTER			 ;
-INTERJ			 ;
-N				 ;
-N-ABSTR			 ;
-NEG				 ;
-NN				 ;
-NUM				 ;
-NUM-ORD			 ;
-ONOM			 ;
-ORD				 ;
-PART			 ;
-PART-INTER		 ;
-PART-NEG		 ;
-PART-ONOM		 ;
-PART-SUPERL		 ;
-PERS			 ;
-POSTP			 ;
-PRON			 ;
-PRON-DEM		 ;
-PRON-INDEF		 ;
-PRON-INTER		 ;
-PRON-NEG		 ;
-PRON-PERS		 ;
-PRON-Q			 ;
-PRON-REFL		 ;
-PRON-REL		 ;
-PROP			 ;
-QUANT			 ;
-REFL			 ;
-REL				 ;
-SUPERL			 ;
-V				 ;
-V-AUX			 ;
-V-DUR			 ;
-V-FREQ			 ;
-V-INST			 ;
-V-REFL			 ;
-VDER			 ;
-VERBNEGATIVE	 ;
-VNEG			 ;
+CONJ-NEG ;
+DEM ;
+F ;
+GER ;
+IDIOM ;
+INDEF ;
+INTER ;
+INTERJ ;
+N ;
+N-ABSTR ;
+NEG ;
+NN ;
+NUM ;
+NUM-ORD ;
+ONOM ;
+ORD ;
+PART ;
+PART-INTER ;
+PART-NEG ;
+PART-ONOM ;
+PART-SUPERL ;
+PERS ;
+POSTP ;
+PRON ;
+PRON-DEM ;
+PRON-INDEF ;
+PRON-INTER ;
+PRON-NEG ;
+PRON-PERS ;
+PRON-Q ;
+PRON-REFL ;
+PRON-REL ;
+PROP ;
+QUANT ;
+REFL ;
+REL ;
+SUPERL ;
+V ;
+V-AUX ;
+V-DUR ;
+V-FREQ ;
+V-INST ;
+V-REFL ;
+VDER ;
+VERBNEGATIVE ;
+VNEG ;
 
 
 
@@ -202,4 +204,152 @@ LEXICON K
 +Clt:%>тӧ # ;
 +Clt:%>сӧ # ;
 
+
+
+
+! List of missing lexica
+
+LEXICON VERBNEGATIVE
++Err: # ;
+
+LEXICON V-REFL
++Err: # ;
+
+LEXICON SUPERL
++Err: # ;
+
+LEXICON REL
++Err: # ;
+
+LEXICON REFL
++Err: # ;
+
+LEXICON PRON
++Err: # ;
+
+LEXICON POSTP
++Err: # ;
+
+LEXICON PERS
++Err: # ;
+
+LEXICON PART-SUPERL
++Err: # ;
+
+LEXICON ORD
++Err: # ;
+
+LEXICON ONOM
++Err: # ;
+
+LEXICON NN
++Err: # ;
+
+LEXICON NEG
++Err: # ;
+
+LEXICON INTER
++Err: # ;
+
+LEXICON INDEF
++Err: # ;
+
+LEXICON F
++Err: # ;
+
+LEXICON DEM
++Err: # ;
+
+LEXICON Punctuation
++Err: # ;
+
+LEXICON Adj
++Err: # ;
+
+LEXICON Vdz4i3k
++Err: # ;
+
+LEXICON PRON4b
++Err: # ;
+
+LEXICON NounLA
++Err: # ;
+
+LEXICON NounOBJ
++Err: # ;
+
+LEXICON Verb2
++Err: # ;
+
+LEXICON NounSG
++Err: # ;
+
+LEXICON NounPi
++Err: # ;
+
+LEXICON NounMort
++Err: # ;
+
+LEXICON ACRON
++Err: # ;
+
+LEXICON NounPL
++Err: # ;
+
+LEXICON Noun1
++Err: # ;
+
+LEXICON NounPOSS
++Err: # ;
+
+LEXICON NounSUBJ
++Err: # ;
+
+LEXICON CARD
++Err: # ;
+
+LEXICON PRONdz4i3k
++Err: # ;
+
+LEXICON NounDET
++Err: # ;
+
+LEXICON PRON3
++Err: # ;
+
+LEXICON PRON4
++Err: # ;
+
+LEXICON CARD2b
++Err: # ;
+
+LEXICON PRONPL12
++Err: # ;
+
+LEXICON PRONSG12
++Err: # ;
+
+LEXICON CARD2
++Err: # ;
+
+LEXICON VConjCons
++Err: # ;
+
+LEXICON Verb1
++Err: # ;
+
+LEXICON Verb3
++Err: # ;
+
+LEXICON VerbPRT
++Err: # ;
+
+LEXICON DoubleVerb1
++Err: # ;
+
+LEXICON VConjVow
++Err: # ;
+
+LEXICON Verbve3c4
++Err: # ;
 
