@@ -12,7 +12,51 @@ lg = kom
 
 VPATH=../bin
 #LEXS = $(patsubst %,../bin/%-$(lg)-lex.txt,$(shell perl ../script/xml2lexc --pos_list --lex_file=$(XMLFILES)))
-LEXS = $(patsubst %,../bin/%-$(lg)-lex.txt,$(shell perl ../script/xml2lexc --pos_list --lex_file=kom-lex.xml))
+## LEXS = $(patsubst %,../bin/%-$(lg)-lex.txt,$(shell perl ../script/xml2lexc --pos_list --lex_file=kom-lex.xml))
+
+LEXS = A-SUPERL-kom-lex.txt	 \
+A-kom-lex.txt				 \
+AD-A-kom-lex.txt			 \
+ADV-SUPERL-kom-lex.txt		 \
+ADV-kom-lex.txt				 \
+ADVROOT-kom-lex.txt			 \
+ATTR-kom-lex.txt			 \
+CONJ-ADVERSATIVE-kom-lex.txt \
+CONJ-NEG-kom-lex.txt		 \
+CONJ-kom-lex.txt			 \
+GER-kom-lex.txt				 \
+IDIOM-kom-lex.txt			 \
+INTERJ-kom-lex.txt			 \
+N-ABSTR-kom-lex.txt			 \
+N-kom-lex.txt				 \
+NUM-ORD-kom-lex.txt			 \
+NUM-kom-lex.txt				 \
+PART-INTER-kom-lex.txt		 \
+PART-NEG-kom-lex.txt		 \
+PART-ONOM-kom-lex.txt		 \
+PART-SUPERL-kom-lex.txt		 \
+PART-kom-lex.txt			 \
+POSTP-kom-lex.txt			 \
+PRON-DEM-kom-lex.txt		 \
+PRON-INDEF-kom-lex.txt		 \
+PRON-INTER-kom-lex.txt		 \
+PRON-NEG-kom-lex.txt		 \
+PRON-PERS-kom-lex.txt		 \
+PRON-Q-kom-lex.txt			 \
+PRON-REFL-kom-lex.txt		 \
+PRON-REL-kom-lex.txt		 \
+PROP-kom-lex.txt			 \
+QUANT-kom-lex.txt			 \
+V-DUR-kom-lex.txt			 \
+V-FREQ-kom-lex.txt			 \
+V-INST-kom-lex.txt			 \
+V-REFL-kom-lex.txt			 \
+V-kom-lex.txt				 \
+VDER-kom-lex.txt			 \
+VNEG-kom-lex.txt             \
+V-AUX-kom-lex.txt			 
+
+
 
 cur-dir   := $(shell pwd)
 bin-dir   := $(subst src,bin,$(cur-dir))
@@ -124,7 +168,7 @@ kom.save: ../bin/kom.save
 kom-lex.save: 
 kom-lex.save: ../bin/kom-lex.save
 ../bin/kom-lex.save: kom-lex.txt noun-kom-morph.txt verb-kom-morph.txt \
-pron-kom-morph.txt punct-kom-lex.txt num-kom-morph.txt $(LEXS) 
+pron-kom-morph.txt punct-kom-lex.txt num-kom-morph.txt ../bin/lex.txt # $(LEXS) 
 	@echo
 	@echo "*** Building kom-lex.save ***" ;
 	@echo
@@ -150,6 +194,15 @@ xfst-kom.bin: ../bin/xfst-kom.bin
 	$(XFST) < ../../tmp/xfst-kom-script
 	@rm -f ../../tmp/xfst-kom-script
 
+
+# cat
+lex.txt: ../bin/lex.txt
+../bin/lex.txt: ../bin/$(LEXS)
+	@echo
+	@echo "*** Cat the files ***" ;
+	@echo
+	@cat ../bin/$(LEXS) > ../bin/lex.txt
+	
 
 # Call the xml2lexc script, in order to build the lexc lexicon files.
 ../bin/%-kom-lex.txt: kom-lex.xml
