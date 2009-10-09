@@ -49,7 +49,9 @@ if ($help) {
 
 
 # Create an XML tree for the lexicon
-my $twig = new XML::Twig;
+# How to get only the "entry" tags is documented in
+# http://www.xml.com/pub/a/2001/03/21/xmltwig.html
+my $twig = new XML::Twig(TwigRoots => {entry => 1});
 # Parse the xml-file
 $twig->parsefile($lex_file);  # here comes the input file name
 my $root = $twig->root;     # Get the root of the twig.
