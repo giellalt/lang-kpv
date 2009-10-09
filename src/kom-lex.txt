@@ -23,6 +23,7 @@ Multichar_Symbols
 !+Adc  ! not in use!
 +HabObj
 +Egr +Instr
++Superl +Comp
 
 +Refl
 
@@ -146,11 +147,11 @@ VNEG ;
 !LEXICON POSTP
 !+Po: # ;
 
-!LEXICON POSTP1a
-!+Po: # ;
+LEXICON POSTP1a
++Po: # ;
 
-!LEXICON POSTP1
-!+Po: # ;
+LEXICON POSTP1
++Po: # ;
 
 
 
@@ -189,12 +190,14 @@ LEXICON EndNeg
 !LEXICON EndVNeg
 !+V+Neg: # ; ! This shall not be taken from the dict.
 
-! LEXICON EndIndef
-! +Pron+Indef: # ;
+LEXICON EndIndef
++Pron+Indef: # ;
 
 LEXICON EndA
 +A: # ;
 
+LEXICON EndQST
++Qst: # ;
 
 
 ! Other lexica
@@ -250,7 +253,7 @@ LEXICON K
 ! LEXICON F
 ! +Err: # ;
 ! 
-! LEXICON ADV-SUPERL
-! +Err: # ;
+LEXICON ADV-SUPERL
++Adv+Superl: # ;
 
 

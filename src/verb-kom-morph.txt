@@ -29,6 +29,15 @@
 ! ============================= !
 
 ! Closed class verbs
+LEXICON VNEG
+VERBNEGATIVE ;
+ 
+LEXICON VDER
+Verb1 ;
+ 
+LEXICON V-AUX
+Verb1 ;
+
 
 LEXICON VERBNEGATIVE
 !Verbs of Negation
@@ -86,6 +95,24 @@ LEXICON VConjCons
 
 LEXICON Verbve3c4
  Verb1 ;
+
+LEXICON V
+ Verb1 ;
+
+LEXICON V-DUR
+ Verb1 ;
+ 
+LEXICON V-FREQ
+ Verb1 ;
+
+LEXICON V-INST
+ Verb1 ;
+
+
+
+
+ 
+
 
 
 LEXICON NounOBJ ! This is probably a formatting error
