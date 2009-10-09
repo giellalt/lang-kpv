@@ -1,5 +1,6 @@
 Steps to group the kom-lex automatically:
 
+
 1. flaten the current version:
   java -Xmx2048m net.sf.saxon.Transform -it main getRidOfGroups.xsl toIndent=kom-lex.xml
   mv out_kom-lex.xml flat_kom-lex.xml 
@@ -7,6 +8,10 @@ Steps to group the kom-lex automatically:
 2. sort descending wrt. the number of entries in an entry group:
   java -Xmx2048m net.sf.saxon.Transform -it main check_group_lemma.xsl toIndent=flat_kom-lex.xml 
   mv out_group-lemma_flat_kom-lex.xml grouped_sort-by-count_kom-lex.xml
+
+2b. If you want to compile this, REMEMBER TO REMOVE THE NAMSEPACE:
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+FROM THE ENTYRY TAG. Then copy the output to src/ again.
 
 3. sort alphabetically wrt. the Komi alphabet (unfortunately, the feature "case-order": lower-first vs. upper-first
    doesn't take any effect here):
