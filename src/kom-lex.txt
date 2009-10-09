@@ -74,58 +74,58 @@ Multichar_Symbols
 LEXICON Root
 Punctuation ;
 
+!A-SUPERL ;
+!ADV-SUPERL ;
+!DEM ;
+!F ;
+!INDEF ;
+!INTER ;
+!NEG ;
+!NN ;
+!NUM-ORD ;
+!ONOM ;
+!ORD ;
+!PART-SUPERL ;
+!PERS ;
+!POSTP ;
+!PRON ;
+!PRON-INDEF ;
+!PRON-PERS ;
+!REFL ;
+!REL ;
+!SUPERL ;
+!V-REFL ;
 A ;
-A-SUPERL ;
 AD-A ;
 ADV ;
-ADV-SUPERL ;
 ADVROOT ;
 ATTR ;
 CONJ ;
 CONJ-ADVERSATIVE ;
 CONJ-NEG ;
-DEM ;
-F ;
 GER ;
 IDIOM ;
-INDEF ;
-INTER ;
 INTERJ ;
 N ;
 N-ABSTR ;
-NEG ;
-NN ;
 NUM ;
-NUM-ORD ;
-ONOM ;
-ORD ;
 PART ;
 PART-INTER ;
 PART-NEG ;
 PART-ONOM ;
-PART-SUPERL ;
-PERS ;
-POSTP ;
-PRON ;
 PRON-DEM ;
-PRON-INDEF ;
 PRON-INTER ;
 PRON-NEG ;
-PRON-PERS ;
 PRON-Q ;
 PRON-REFL ;
 PRON-REL ;
 PROP ;
 QUANT ;
-REFL ;
-REL ;
-SUPERL ;
 V ;
 V-AUX ;
 V-DUR ;
 V-FREQ ;
 V-INST ;
-V-REFL ;
 VDER ;
 VERBNEGATIVE ;
 VNEG ;
@@ -143,14 +143,14 @@ VNEG ;
 ! Postp lexica !
 ! ============ !
 
-LEXICON POSTP
-+Po: # ;
+!LEXICON POSTP
+!+Po: # ;
 
-LEXICON POSTP1a
-+Po: # ;
+!LEXICON POSTP1a
+!+Po: # ;
 
-LEXICON POSTP1
-+Po: # ;
+!LEXICON POSTP1
+!+Po: # ;
 
 
 
@@ -189,8 +189,8 @@ LEXICON EndNeg
 !LEXICON EndVNeg
 !+V+Neg: # ; ! This shall not be taken from the dict.
 
-LEXICON EndIndef
-+Pron+Indef: # ;
+! LEXICON EndIndef
+! +Pron+Indef: # ;
 
 LEXICON EndA
 +A: # ;
@@ -203,14 +203,14 @@ LEXICON CONJ
 +CC: # ;
 
 
-LEXICON SUPERL
-+Err: # ;
+!LEXICON SUPERL
+!+Err: # ;
 
-LEXICON PART-SUPERL
-+Err: # ;
+!LEXICON PART-SUPERL
+!+Err: # ;
 
-LEXICON ORD
-+Err: # ;
+!LEXICON ORD
+!+Err: # ;
 
 
 ! ======= !
@@ -230,23 +230,27 @@ LEXICON K
 ! List of missing lexica
 ! These should be fixed.
 
-LEXICON V-REFL
-+Err: # ;
-
-LEXICON NEG
-+Err: # ;
 
 
-LEXICON ONOM
-+Err: # ;
 
-LEXICON NN
-+Err: # ;
 
-LEXICON F
-+Err: # ;
-
-LEXICON ADV-SUPERL
-+Err: # ;
+! LEXICON V-REFL
+! +Err: # ;
+! 
+! LEXICON NEG
+! +Err: # ;
+! 
+! 
+! LEXICON ONOM
+! +Err: # ;
+! 
+! LEXICON NN
+! +Err: # ;
+! 
+! LEXICON F
+! +Err: # ;
+! 
+! LEXICON ADV-SUPERL
+! +Err: # ;
 
 
