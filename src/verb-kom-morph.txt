@@ -29,8 +29,8 @@
 ! ============================= !
 
 ! Closed class verbs
-LEXICON VNEG
-VERBNEGATIVE ;
+!LEXICON VNEG
+!VERBNEGATIVE ;
  
 LEXICON VDER
 Verb1 ;
@@ -96,8 +96,8 @@ LEXICON VConjCons
 LEXICON Verbve3c4
  Verb1 ;
 
-LEXICON V
- Verb1 ;
+!LEXICON V
+! Verb1 ;
 
 LEXICON V-DUR
  Verb1 ;
@@ -105,11 +105,13 @@ LEXICON V-DUR
 LEXICON V-FREQ
  Verb1 ;
 
-LEXICON V-INST
- Verb1 ;
+!LEXICON V-INST
+! Verb1 ;
 
 
 
+LEXICON GER ! From the lexicon, morph must be different
++V+Ger: # ;
 
  
 
