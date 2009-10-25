@@ -1,0 +1,71 @@
+# Paradigm grammar
+#
+# Used in paradigm generator.
+# List the tag groups in the order they are given to generator.
+# The names of the tag groups are listed in korpustags.sma.txt
+# "?" marks the optionality of the tag.
+# It is not possible to mark alternation of the different tags.
+	
+N+Number+Case+Possessive?
+N+Number+Possessive?+Case
+N+Number+Apr?+Case+Possessive?
+N+Number+Possessive?+Apr?+Case
+N+ACR+Number+Case
+#A+Grade+Number+Case+Possessive?
+#A+Grade+Ess+Possessive?
+#A+Grade+Attr
+#A+Grade+Adv
+#A+Number+Case+Possessive?
+#A+Ess+Possessive?
+#A+Attr
+#A+Adv
+#A+Ord+Number+Case+Possessive?
+#A+Ord+Ess+Possessive?
+#A+Ord+Attr
+V+Inf
+V+PrfPrc
+#V+PrsPrc
+#V+Sup
+#V+VGen
+#V+VAbess
+V+Ger
+V+Ind+Prs+Person-Number
+V+Ind+Prt1+Person-Number
+V+Ind+Prt2+Person-Number
+V+Ind+Fut+Person-Number
+V+Ind+ConNeg
+V+Imprt+Person-Number
+#V+Neg+Ind+Prs+Person-Number
+#V+Neg+Ind+Prt+Person-Number
+#V+Neg+Imprt+Person-Number
+#Num+Number+Case
+#Num+Ess
+#Num+Attr
+#Pron+Indef+Attr
+#Pron+Dem+Attr
+#Pron+Dem+Number?+Case?
+#Pron+Dem+Ess
+#Pron+Interr+Number?+Case?
+#Pron+Indef+Number?+Case?
+#Pron+Pers+Number?+Person-Number?+Case?
+#Pron+Rel+Number?+Person-Number?+Case?
+#Pron+Refl+Number?+Person-Number?+Case?+Possessive?
+#Pron+Recipr+Number?+Person-Number?+Case?+Possessive?
+#Adv+Grade?
+CS
+CC
+Interj
+Pcle
+#Po+Possessive?
+#Pr+Possessive?
+#N+ABBR+Case?+Mood?
+#A+ABBR+Case?+Mood?
+#N+ABBR+Attr
+#A+ABBR+Attr
+#Adv+ABBR
+#Num+ABBR+Case?
+#V+ABBR+IV+PrfPrc
+#V+ABBR+TV+Imprt
+#ABBR+Wordclass?+Case?+Mood?
+#ABBR+N+Attr
+
