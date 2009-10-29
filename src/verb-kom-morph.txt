@@ -39,26 +39,34 @@ LEXICON V-AUX
 Verb1 ;
 
 
+! We now use this instead of kom-lex.xml
 LEXICON VERBNEGATIVE
 !Verbs of Negation
-ог+V+Prs+Neg+Sg1:ог K ;
-он+V+Prs+Neg+Sg2:он K ;
-оз+V+Prs+Neg+Sg3:оз K ;
-огӧ+V+Prs+Neg+Pl1:огӧ K ;
-онӧ+V+Prs+Neg+Pl2:онӧ K ;
-огӧй+V+Prs+Neg+Pl1:огӧй K ;
-онӧй+V+Prs+Neg+Pl2:онӧй K ;
-оз+V+Prs+Neg+Pl3:оз K ;
+ог+V+Neg+Ind+Prs+Sg1:ог K ;
+он+V+Neg+Ind+Prs+Sg2:он K ;
+оз+V+Neg+Ind+Prs+Sg3:оз K ;
+огӧ+V+Neg+Ind+Prs+Pl1:огӧ K ;
+онӧ+V+Neg+Ind+Prs+Pl2:онӧ K ;
+огӧй+V+Neg+Ind+Prs+Pl1:огӧй K ;
+онӧй+V+Neg+Ind+Prs+Pl2:онӧй K ;
+оз+V+Neg+Ind+Prs+Pl3:оз K ;
 
 !Past Neg
-эг+V+Prt+Neg+Sg1:эг K ;
-эн+V+Prt+Neg+Sg2:эн K ;
-эз+V+Prt+Neg+Sg3:эз K ;
-эг+V+Prt+Neg+Pl1:эг K ;
-эн+V+Prt+Neg+Pl2:эн K ;
-эгӧ+V+Prt+Neg+Pl1:эгӧ K ;
-энӧ+V+Prt+Neg+Pl2:энӧ K ;
-эз+V+Prt+Neg+Pl3:эз K ;
+эг+V+Neg+Ind+Prt+Sg1:эг K ;
+эн+V+Neg+Ind+Prt+Sg2:эн K ;
+эз+V+Neg+Ind+Prt+Sg3:эз K ;
+эг+V+Neg+Ind+Prt+Pl1:эг K ;
+эн+V+Neg+Ind+Prt+Pl2:эн K ;
+эгӧ+V+Neg+Ind+Prt+Pl1:эгӧ K ;
+энӧ+V+Neg+Ind+Prt+Pl2:энӧ K ;
+эз+V+Neg+Ind+Prt+Pl3:эз K ;
+
+
+! This is pointed to from the kom-lex.xml.
+! This means we have this verb twice.
+
+LEXICON Vdz4i3k
++V+Neg+Ind+Prt+Pl1: K ; ! эг, эгӧ
 
 
 ! b - l change
@@ -78,10 +86,6 @@ Verb1 ;
 LEXICON Verb3 ! ярмыны. Ending in -ыны.
 Verb1 ;
 +V+Inf:%>ыны K ;
-
-
-LEXICON Vdz4i3k
- Verb1 ;
 
 LEXICON VerbPRT
  Verb1 ;
