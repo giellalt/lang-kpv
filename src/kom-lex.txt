@@ -22,10 +22,10 @@ Multichar_Symbols
 +Abe +Prl
 !+Adc  ! not in use!
 +HabObj
-+Egr +Instr
++Instr
 +Superl +Comp
 
-+Refl
++Refl +Rel +Interr +Recipr
 
 +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
 
@@ -128,7 +128,7 @@ V-DUR ;
 V-FREQ ;
 V-INST ;
 VDER ;
-VERBNEGATIVE ;
+VERBNEGATIVE ; ! Closed class
 VNEG ;
 
 
