@@ -50,6 +50,38 @@ ikom.fst: ../bin/ikom.fst
 	@rm -f ../../tmp/ikom-fst-script
 
 
+
+# We want an analyzer with Russian tags. It takes the linguistic 
+# kom.fst as input and gives us an alternate r-kom.fst
+
+r-kom.fst: ../bin/r-kom.fst
+../bin/r-kom.fst: ../bin/kom.fst ../int/tag-rus.fst
+	@echo
+	@echo "*** Building r-kom.fst, kom.fst with Norwegian tags ***"
+	@echo
+	@printf "read regex [[@\"../int/tag-rus.fst\"] .o. \
+	[@\"../bin/kom.fst\"]] ; \n\
+	save stack ../bin/r-kom.fst \n\
+	quit \n" > ../../tmp/r-kom-fst-script
+	$(XFST) < ../../tmp/r-kom-fst-script
+	@rm -f ../../tmp/r-kom-fst-script
+
+
+# In order to make r-kom.fst we need a binary tag-rus.fst
+# This goal depends on tag-rus.regex
+
+tag-rus.fst: ../int/tag-rus.fst
+../int/tag-rus.fst: tag-rus.regex
+	@echo
+	@echo "*** Building tag-rus.fst ***" ;
+	@echo
+	@printf "read regex < tag-rus.regex \n\
+	save stack ../int/tag-rus.fst \n\
+	quit \n" > ../../tmp/kom-tag-rus-script
+	$(XFST) < ../../tmp/kom-tag-rus-script
+	@rm -f ../../tmp/kom-tag-rus-script
+
+
 # This goal is to build the final analyser. It depends on all the files.
 
 kom.fst: ../bin/kom.fst
