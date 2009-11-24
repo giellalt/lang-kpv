@@ -1,0 +1,143 @@
+
+
+
+
+# ========== #
+# Delimiters #
+# ========== #
+
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>";
+
+#PARENTHESES = "<$(>" "<$)>" "<$[>" "<$]>" "<${>" "<$}>" "<$«>" "<$»>" ;
+
+# ============= #
+# Tags and sets #
+# ============= #
+
+SETS
+
+# I define end of clause and beginning of clause in a way so that the file
+# may be read both by the CG-2 and the vislcg formalisms.
+
+LIST BOS = (>>>) (<s>);
+LIST EOS = (<<<) (</s>);
+
+LIST Err = Err ; 
+
+LIST N = N ; 
+LIST V = V ; 
+LIST A = A ; 
+
+LIST Adv = Adv ; 
+LIST CC = CC ; 
+LIST CS = CS ; 
+LIST Interj = Interj ; 
+LIST Pron = Pron ; 
+LIST Num = Num ; 
+LIST Pcle = Pcle ; 
+LIST Clt = Clt ; 
+LIST Po = Po ; 
+
+LIST Prs = Prs ; 
+LIST Fut = Fut ; 
+LIST Fut1 = Fut1 ; 
+LIST Prt1 = Prt1 ; 
+LIST Prt2 = Prt2 ; 
+LIST Prf = Prf ; 
+LIST PrfIpf = PrfIpf ; 
+LIST HstPrf = HstPrf ; 
+LIST PluPrf = PluPrf ; 
+LIST HstPluPrf = HstPluPrf ; 
+LIST Ind = Ind ; 
+LIST Imp = Imp ; 
+LIST Cond = Cond ; 
+LIST Opt = Opt ; 
+LIST Sg1 = Sg1 ; 
+LIST Sg2 = Sg2 ; 
+LIST Sg3 = Sg3 ; 
+LIST Pl1 = Pl1 ; 
+LIST Pl2 = Pl2 ; 
+LIST Pl3 = Pl3 ; 
+LIST Inf = Inf ; 
+LIST Pos = Pos ; 
+LIST Neg = Neg ; 
+LIST ConNeg = ConNeg ; 
+
+LIST Sg = Sg ; 
+LIST Pl = Pl ; 
+LIST Nom = Nom ; 
+LIST Gen = Gen ; 
+LIST Abl = Abl ; 
+LIST Dat = Dat ; 
+LIST Com = Com ; 
+LIST Cns = Cns ; 
+
+LIST Acc = Acc ; 
+LIST Ins = Ins ; 
+LIST Ine = Ine ; 
+LIST Ill = Ill ; 
+
+LIST Ela = Ela ; 
+LIST Car = Car ; 
+LIST Egr = Egr ; 
+LIST Tra = Tra ; 
+
+LIST Apr = Apr ; 
+LIST Ter = Ter ; 
+LIST Abe = Abe ; 
+LIST Prl = Prl ; 
+
+LIST HabObj = HabObj ; 
+LIST Instr = Instr ; 
+LIST Superl = Superl ; 
+LIST Comp = Comp ; 
+
+LIST Refl = Refl ; 
+LIST Rel = Rel ; 
+LIST Interr = Interr ; 
+LIST Recipr = Recipr ; 
+
+LIST PxSg1 = PxSg1 ; 
+LIST PxSg2 = PxSg2 ; 
+LIST PxSg3 = PxSg3 ; 
+LIST PxPl1 = PxPl1 ; 
+LIST PxPl2 = PxPl2 ; 
+LIST PxPl3 = PxPl3 ; 
+
+LIST Card = Card ; 
+LIST Cns = Cns ; 
+
+LIST Coll = Coll ; 
+LIST Comp = Comp ; 
+
+LIST Ord = Ord ; 
+LIST Temp = Temp ; 
+
+LIST AN = AN ; 
+LIST ANA = ANA ; 
+LIST ANAA = ANAA ; 
+LIST CHOZH = CHOZH ; 
+LIST IG = IG ; 
+
+LIST Instr = Instr ; 
+
+LIST KEZHLO = KEZHLO ; 
+LIST MOZ = MOZ ; 
+LIST MYS = MYS ; 
+LIST MYST = MYST ; 
+LIST OM = OM ; 
+
+LIST SOR = SOR ; 
+LIST TODZ = TODZ ; 
+LIST TYR = TYR ; 
+LIST TYRJI = TYRJI ; 
+
+LIST CLB = CLB ; 
+LIST PUNCT = PUNCT ; 
+LIST LEFT = LEFT ; 
+LIST RIGHT = RIGHT ; 
+
+
+SECTION
+
+
