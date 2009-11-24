@@ -24,11 +24,20 @@
 LEXICON PRON-REL
 +Pron+Rel: # ;
 
-LEXICON PRON-REFL-SG1
-+Pron+Refl+Sg1: # ;
+LEXICON PRON-REFL-SG1-NOM
++Pron+Refl+Sg1+Nom: # ;
 
-LEXICON PRON-REFL-SG2
-+Pron+Refl+Sg2: # ;
+LEXICON PRON-REFL-SG2-NOM
++Pron+Refl+Sg2+Nom: # ;
+
+LEXICON PRON-REFL-SG3-NOM
++Pron+Refl+Sg3+Nom: # ;
+
+LEXICON PRON-REFL-SG2-COM
++Pron+Refl+Sg2+Com: # ;
+
+LEXICON PRON-REFL-SG3-COM
++Pron+Refl+Sg3+Com: # ;
 
 !LEXICON PRON
 !+Err: # ;
