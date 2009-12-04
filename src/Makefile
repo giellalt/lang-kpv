@@ -10,6 +10,14 @@ lg = kom
 
 #XMLFILES = kom-lex.xml MaleNicknames4kom-lex.xml Placenames4kom-lex.xml
 
+JV   = java
+MF   = -Xmx2048m
+EF   = -it main
+XSL  = net.sf.saxon.Transform
+SCRIPTS     = ../script
+COMPDICT    = collect-dict-parts.xsl
+SRC    = working_files
+
 VPATH=../bin
 #LEXS = $(patsubst %,../bin/%-$(lg)-lex.txt,$(shell perl ../script/xml2lexc --pos_list --lex_file=$(XMLFILES)))
 LEXS = $(patsubst %,../bin/%-$(lg)-lex.txt,$(shell perl ../script/xml2lexc --pos_list --lex_file=kom-lex.xml))
@@ -27,9 +35,6 @@ XFST = /opt/sami/xerox/c-fsm/ix86-linux2.6-gcc3.4/bin/fst -utf8
 LEXC = /opt/sami/xerox/bin/lexc -utf8
 TWOLC = /opt/sami/xerox/bin/twolc -utf8
 endif
-
-
-
 
 # This is a preliminary file that builds a Komi parser based upon
 # xfst and not twolc.
@@ -157,7 +162,7 @@ kom.save: ../bin/kom.save
 kom-lex.save: 
 kom-lex.save: ../bin/kom-lex.save
 ../bin/kom-lex.save: kom-lex.txt noun-kom-morph.txt verb-kom-morph.txt \
-pron-kom-morph.txt punct-kom-lex.txt num-kom-morph.txt $(LEXS) 
+pron-kom-morph.txt punct-kom-lex.txt num-kom-morph.txt $(LEXS) kom-lex.xml
 	@echo
 	@echo "*** Building kom-lex.save ***" ;
 	@echo
@@ -192,6 +197,17 @@ xfst-kom.bin: ../bin/xfst-kom.bin
 	@echo "*** Building komi lexicons ***" ;
 	@echo
 	@perl ../script/xml2lexc --out_dir=$(bin-dir) --lex_file=$<
+
+
+# Compile the dictionary xml-file by unifing the individual pos-files
+kom-lex.xml: $(SRC)
+
+	@echo
+	@echo "*** Generating the kom-lex.xml file ***"
+	@echo
+	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/$(COMPDICT) dir=../src/$< > $@
+	@echo
+
 
 
 # does nsot work.
