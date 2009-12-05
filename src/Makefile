@@ -20,7 +20,7 @@ SRC    = working_files
 
 VPATH=../bin
 #LEXS = $(patsubst %,../bin/%-$(lg)-lex.txt,$(shell perl ../script/xml2lexc --pos_list --lex_file=$(XMLFILES)))
-LEXS = $(patsubst %,../bin/%-$(lg)-lex.txt,$(shell perl ../script/xml2lexc --pos_list --lex_file=../bin/kom-lex.xml))
+LEXS = $(patsubst %,../bin/%-$(lg)-lex.txt,$(shell perl ../script/xml2lexc --pos_list --lex_file=kom-lex.xml))
 
 
 cur-dir   := $(shell pwd)
@@ -162,7 +162,7 @@ kom.save: ../bin/kom.save
 kom-lex.save: 
 kom-lex.save: ../bin/kom-lex.save
 ../bin/kom-lex.save: kom-lex.txt noun-kom-morph.txt verb-kom-morph.txt \
-pron-kom-morph.txt punct-kom-lex.txt num-kom-morph.txt $(LEXS) kom-lex.xml
+pron-kom-morph.txt punct-kom-lex.txt num-kom-morph.txt $(LEXS)
 	@echo
 	@echo "*** Building kom-lex.save ***" ;
 	@echo
@@ -192,7 +192,7 @@ xfst-kom.bin: ../bin/xfst-kom.bin
 
 # Call the xml2lexc script, in order to build the lexc lexicon files.
 #../bin/%-kom-lex.txt: kom-strip.xml
-../bin/%-kom-lex.txt: ../bin/kom-lex.xml
+../bin/%-kom-lex.txt: kom-lex.xml
 	@echo
 	@echo "*** Building komi lexicons ***" ;
 	@echo
@@ -200,14 +200,14 @@ xfst-kom.bin: ../bin/xfst-kom.bin
 
 
 # Compile the dictionary xml-file by unifing the individual pos-files
-../bin/kom-lex.xml: $(SRC)
+kom-lex.xml: $(SRC)
 
 	@echo
 	@echo "*** Generating the kom-lex.xml file ***"
 	@echo
 	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/$(COMPDICT) dir=../src/$< > $@
 	@echo
-	@echo "*** Generating the kom-lex.xml file ***"
+	@echo "*** kom-lex.xml file done. ***"
 	@echo
 
 
