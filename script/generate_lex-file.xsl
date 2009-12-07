@@ -61,6 +61,9 @@
 		<xsl:attribute name="cl">
 		  <xsl:value-of select="normalize-space(./contlex)"/>
 		</xsl:attribute>
+		<xsl:attribute name="t">
+		  <xsl:value-of select="normalize-space(./article[1]/eng/choice/variant[1])"/>
+		</xsl:attribute>
 		<xsl:value-of select="normalize-space(./lemma)"/>		
 	      </e>
 	    </xsl:for-each>
@@ -71,8 +74,8 @@
 	<xsl:result-document href="{$outputDir}/out_{$file_name}.{$of}" format="{$of}">
 
 	  <xsl:for-each select="$out/out/e">
-	    <xsl:value-of select="if (./@stem = '') then concat(., $spc, ./@cl, $spc, $spc, $qm, $qm, $spc, $scl, $nl)
-				  else concat(., $cl, ./@stem, $spc, ./@cl, $spc, $spc, $qm, $qm, $spc, $scl, $nl)"/>
+	    <xsl:value-of select="if (./@stem = '') then concat(., $spc, ./@cl, $spc, $spc, $qm, ./@t, $qm, $spc, $scl, $nl)
+				  else concat(., $cl, ./@stem, $spc, ./@cl, $spc, $spc, $qm, ./@t, $qm, $spc, $scl, $nl)"/>
 	  </xsl:for-each>
 	</xsl:result-document>
 	
