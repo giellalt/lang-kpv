@@ -33,60 +33,84 @@
 
 
 
-  <!--   Input file in text format: as parameter -->
+  <!-- parameters -->
   <xsl:param name="file" select="'default.xml'"/>
-  <xsl:param name="path" select="'out'"/>
-  <xsl:param name="outputDir" select="'out'"/>
-
-  <!-- Patterns for the feature values -->
+  <xsl:param name="outDir" select="'out'"/>
+  <xsl:param name="inDir" select="'.'"/>
   <xsl:variable name="of" select="'txt'"/>
-  <xsl:variable name="file_name" select="substring-before((tokenize($file, '/'))[last()], '.xml')"/>
+  
+  
   
   <xsl:template match="/" name="main">
     
-    <xsl:choose>
-      <xsl:when test="doc-available($file)">
+<!--     <xsl:choose> -->
+<!--       <xsl:when test="doc-available($inputDir)"> -->
+	
+	<xsl:for-each select="collection(concat($inDir, '?select=*.xml'))">
+<!-- 	  <xsl:choose> -->
+<!-- 	    <xsl:when test="doc-available(.)"> -->
 
-	<xsl:variable name="out">
-	  <out>	
-	    <xsl:for-each select="doc($file)/dict/entry[not(contains(./lemma/text(), $us))]
-				  [not(./lemma = preceding::entry/lemma)]">
-	      <e>
-		<xsl:attribute name="stem">
-		  <xsl:value-of select="normalize-space(./stem)"/>
-		</xsl:attribute>
-		<xsl:attribute name="pos">
-		  <xsl:value-of select="normalize-space(./pos)"/>
-		</xsl:attribute>
-		<xsl:attribute name="cl">
-		  <xsl:value-of select="normalize-space(./contlex)"/>
-		</xsl:attribute>
-		<xsl:attribute name="t">
-		  <xsl:value-of select="normalize-space(./article[1]/eng/choice/variant[1])"/>
-		</xsl:attribute>
-		<xsl:value-of select="normalize-space(./lemma)"/>		
-	      </e>
-	    </xsl:for-each>
-	  </out>
+	      <xsl:variable name="file_name" select="substring-before(tokenize(document-uri(.), '/')[last()], '.xml')"/>
+
+	      
+	      
+	      <xsl:variable name="out">
+		<out>	
+		  <xsl:for-each select="./dict/entry[not(contains(./lemma/text(), $us))]
+					[not(./lemma = preceding::entry/lemma)]">
+		    <e>
+		      <xsl:attribute name="stem">
+			<xsl:value-of select="normalize-space(./stem)"/>
+		      </xsl:attribute>
+		      <xsl:attribute name="pos">
+			<xsl:value-of select="normalize-space(./pos)"/>
+		      </xsl:attribute>
+		      <xsl:attribute name="cl">
+			<xsl:value-of select="normalize-space(./contlex)"/>
+		      </xsl:attribute>
+		      <xsl:attribute name="t">
+			<xsl:value-of select="normalize-space(./article[1]/eng/choice/variant[1])"/>
+		      </xsl:attribute>
+		      <xsl:value-of select="normalize-space(./lemma)"/>		
+		    </e>
+		  </xsl:for-each>
+		</out>
+		
+	      </xsl:variable>
+	      
+	      <xsl:result-document href="{$outDir}/{$file_name}.{$of}" format="{$of}">
+		
+	      <xsl:variable name="lex_name" select="substring-before($file_name, '_')"/>
+
+		<xsl:value-of select="concat('LEXICON', $spc, $lex_name, $nl, $nl)"/>
+
+		<xsl:for-each select="$out/out/e">
+		  <xsl:value-of select="if (./@stem = '') then concat(., $spc, ./@cl, $spc, $spc, $qm, ./@t, $qm, $spc, $scl, $nl)
+					else concat(., $cl, ./@stem, $spc, ./@cl, $spc, $spc, $qm, ./@t, $qm, $spc, $scl, $nl)"/>
+		</xsl:for-each>
+
+
+
+	      </xsl:result-document>
+	      
+<!-- 	    </xsl:when> -->
+<!-- 	    <xsl:otherwise> -->
+<!-- 	      <xsl:text>Cannot locate file: </xsl:text><xsl:value-of select="concat(., 'xml')"/><xsl:text>&#xa;</xsl:text> -->
+<!-- 	    </xsl:otherwise> -->
+<!-- 	  </xsl:choose> -->
 	  
-	</xsl:variable>
+	</xsl:for-each>
 	
-	<xsl:result-document href="{$outputDir}/out_{$file_name}.{$of}" format="{$of}">
+<!--       </xsl:when> -->
+<!--       <xsl:otherwise> -->
+<!-- 	<xsl:text>Cannot locate directory: </xsl:text><xsl:value-of select="$inputDir"/><xsl:text>&#xa;</xsl:text> -->
+<!--       </xsl:otherwise> -->
+<!--     </xsl:choose> -->
 
-	  <xsl:for-each select="$out/out/e">
-	    <xsl:value-of select="if (./@stem = '') then concat(., $spc, ./@cl, $spc, $spc, $qm, ./@t, $qm, $spc, $scl, $nl)
-				  else concat(., $cl, ./@stem, $spc, ./@cl, $spc, $spc, $qm, ./@t, $qm, $spc, $scl, $nl)"/>
-	  </xsl:for-each>
-	</xsl:result-document>
-	
-      </xsl:when>
-      <xsl:otherwise>
-	<xsl:text>Cannot locate: </xsl:text><xsl:value-of select="$file"/><xsl:text>&#xa;</xsl:text>
-      </xsl:otherwise>
-    </xsl:choose>
   </xsl:template>
-
-
+  
+  
+  
   <xsl:variable name="header">
     <xsl:text>
 ! ========================================================================== !
