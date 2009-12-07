@@ -19,12 +19,13 @@ COMPDICT    = collect-dict-parts.xsl
 SRC    = working_files
 
 VPATH=../bin
-#LEXS = $(patsubst %,../bin/%-$(lg)-lex.txt,$(shell perl ../script/xml2lexc --pos_list --lex_file=$(XMLFILES)))
-LEXS = $(patsubst %,../bin/%-$(lg)-lex.txt,$(shell perl ../script/xml2lexc --pos_list --lex_file=../bin/kom-lex.xml))
-
 
 cur-dir   := $(shell pwd)
 bin-dir   := $(subst src,bin,$(cur-dir))
+
+
+tmp-dir = ../../tmp
+LEXS = $(shell ls $(tmp-dir)/out/*.txt) 
 
 XFST = xfst 
 #XFST = fst 
@@ -147,7 +148,7 @@ tok.fst: ../bin/tok.fst
 
 
 kom.save: ../bin/kom.save
-../bin/kom.save: ../bin/kom-lex.xml $(LEXS) ../bin/kom-lex.save ../bin/xfst-kom.bin 
+../bin/kom.save: ../bin/kom-lex.save ../bin/xfst-kom.bin 
 	@echo
 	@echo "*** Building the parser kom.save ***"
 	@echo
@@ -158,11 +159,9 @@ kom.save: ../bin/kom.save
 	$(XFST) < ../../tmp/kom-save-script
 	@rm -f ../../tmp/kom-save-script
 
-
-kom-lex.save: 
 kom-lex.save: ../bin/kom-lex.save
 ../bin/kom-lex.save: kom-lex.txt noun-kom-morph.txt verb-kom-morph.txt \
-pron-kom-morph.txt punct-kom-lex.txt num-kom-morph.txt $(LEXS)
+pron-kom-morph.txt punct-kom-lex.txt num-kom-morph.txt $(LEXS) 
 	@echo
 	@echo "*** Building kom-lex.save ***" ;
 	@echo
@@ -189,36 +188,20 @@ xfst-kom.bin: ../bin/xfst-kom.bin
 	@rm -f ../../tmp/xfst-kom-script
 
 
-
-# Call the xml2lexc script, in order to build the lexc lexicon files.
-#../bin/%-kom-lex.txt: kom-strip.xml
-../bin/%-kom-lex.txt: ../bin/kom-lex.xml
-	@echo
-	@echo "*** Building komi lexicons ***" ;
-	@echo
-	@perl ../script/xml2lexc --out_dir=$(bin-dir) --lex_file=$<
-
-
 # Compile the dictionary xml-file by unifing the individual pos-files
-../bin/kom-lex.xml: $(SRC)
-
+lexfiles:
 	@echo
 	@echo "*** Generating the kom-lex.xml file ***"
 	@echo
-	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/$(COMPDICT) dir=../src/$< > $@
+	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/generate_lex-file.xsl inDir=/Users/cipriangerstenberger/gtsvn/kt/kom/src/working_files outDir=/Users/cipriangerstenberger/gtsvn/kt/tmp/out
 	@echo
 	@echo "*** kom-lex.xml file done. ***"
 	@echo
 
 
 
-# does nsot work.
-# intension: get a pipeline.
-#kom-strip.xml: kom-lex.xml
-#	@grep -v yGroup kom-lex.xml > kom-strip.xml
-
 clean:
-	@rm -f ../bin/*.bin ../bin/*.fst ../bin/*.save ../bin/*-lex.txt ../bin/*-lex.xml
+	@rm -rf ../bin/*.bin ../bin/*.fst ../bin/*.save ../bin/*-lex.txt ../../tmp/out
 
 
 
