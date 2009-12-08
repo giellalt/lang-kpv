@@ -22,7 +22,6 @@
 	      omit-xml-declaration="no"
 	      indent="yes"/>
 
-
   <xsl:variable name="tab" select="'&#x9;'"/>
   <xsl:variable name="spc" select="'&#x20;'"/>
   <xsl:variable name="nl" select="'&#xA;'"/>
@@ -30,8 +29,6 @@
   <xsl:variable name="scl" select="';'"/>
   <xsl:variable name="us" select="'_'"/>
   <xsl:variable name="qm" select="'&#34;'"/>
-
-
 
   <!-- parameters -->
   <xsl:param name="file" select="'default.xml'"/>
