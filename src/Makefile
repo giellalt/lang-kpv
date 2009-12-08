@@ -193,7 +193,7 @@ lexfiles:
 	@echo
 	@echo "*** Generating the kom-lex.xml file ***"
 	@echo
-	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/generate_lex-file.xsl inDir=/Users/cipriangerstenberger/gtsvn/kt/kom/src/working_files outDir=/Users/cipriangerstenberger/gtsvn/kt/tmp/out
+	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/generate_lex-file.xsl inDir=../src/working_files outDir=../../tmp/out
 	@echo
 	@echo "*** kom-lex.xml file done. ***"
 	@echo
