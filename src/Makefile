@@ -2,6 +2,10 @@
 #   This is a makefile that builds the Komi morphological parser    #
 # ***************************************************************** #
 
+# Usage: build twice. First build the lexc files, then build the fst
+# make lexfiles
+# make
+
 # Search for prerequisites from the bin-directory.
 SHELL = /bin/sh
 .SUFFIXES:
@@ -44,7 +48,7 @@ endif
 # It is dependent upon kom.save
 
 ikom.fst: ../bin/ikom.fst
-../bin/ikom.fst: ../bin/kom.save ../bin/kom.fst
+../bin/ikom.fst: ../bin/kom.save
 	@echo
 	@echo "*** Building the inverse ikom.fst ***"
 	@echo
