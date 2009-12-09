@@ -160,17 +160,17 @@ LEXICON POSTP1
 ! Lexica called End, whatever they are !
 ! ==================================== !
 
-LEXICON End1
-+Adv: # ; ! from nowhere
+LEXICON End1 ! perhaps adv, perhaps not.
+ADVTAG ;
 
-LEXICON End1a
-+Adv: # ;
+LEXICON End1a ! perhaps adv, perhaps not.
+ADVTAG ;
 
-!LEXICON END1
-!# ;
+LEXICON End2 ! perhaps adv, perhaps not.
+ADVTAG ;
 
-LEXICON End2
-+Adv: # ;
+LEXICON ADVTAG ! these are checked as advs.
++Adv: # ; 
 
 LEXICON EndConj
 +CC: # ;
@@ -195,6 +195,7 @@ LEXICON EndA
 
 LEXICON EndQST
 +Qst: # ;
+
 
 
 ! Other lexica

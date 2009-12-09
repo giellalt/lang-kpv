@@ -15,8 +15,8 @@
 ! LEXICON PRON-PERS
 ! +Err: # ;
 ! 
-! LEXICON PRON-INDEF
-! +Err: # ;
+LEXICON PRON-INDEF
++Pron+Indef: # ;
 
 LEXICON PRON-REL
 +Pron+Rel: # ;
@@ -97,7 +97,7 @@ LEXICON PRON-REFL-SG3-NOM
 LEXICON PRON-DEM
 +Pron+Dem: # ;
 
-LEXICON PRON-INTERR
+LEXICON PRON-Q
 +Pron+Interr: # ;
 
 
