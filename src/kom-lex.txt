@@ -178,14 +178,11 @@ LEXICON EndConj
 LEXICON EndPart
 +Pcle: # ;
 
-LEXICON EndRefl
-+Pron+Refl: # ;
-
 LEXICON EndInterj
 +Interj: # ;
 
 LEXICON EndNeg 
-+Adv+Neg: # ; ! абу
++CC+Neg: # ; ! ни
 
 !LEXICON EndVNeg
 !+V+Neg: # ; ! This shall not be taken from the dict.

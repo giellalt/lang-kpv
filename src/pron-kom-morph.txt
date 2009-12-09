@@ -3,9 +3,6 @@
 ! ========================================================================== !
 
 
-! LEXICON DEM
-! +Err: # ;
-! 
 ! LEXICON PERS
 ! +Err: # ;
 ! 
@@ -24,23 +21,85 @@
 LEXICON PRON-REL
 +Pron+Rel: # ;
 
+LEXICON EndRefl
++Pron+Refl: # ;
+
+LEXICON PRON-REFL-PL1-ACC
++Pron+Refl+Pl1+Acc: # ;
+LEXICON PRON-REFL-PL1-COM
++Pron+Refl+Pl1+Com: # ;
+LEXICON PRON-REFL-PL1-DAT
++Pron+Refl+Pl1+Dat: # ;
+LEXICON PRON-REFL-PL1-GEN
++Pron+Refl+Pl1+Gen: # ;
+LEXICON PRON-REFL-PL1-NOM
++Pron+Refl+Pl1+Nom: # ;
+LEXICON PRON-REFL-PL2-ACC
++Pron+Refl+Pl2+Acc: # ;
+LEXICON PRON-REFL-PL2-COM
++Pron+Refl+Pl2+Com: # ;
+LEXICON PRON-REFL-PL2-DAT
++Pron+Refl+Pl2+Dat: # ;
+LEXICON PRON-REFL-PL2-GEN
++Pron+Refl+Pl2+Gen: # ;
+LEXICON PRON-REFL-PL2-NOM
++Pron+Refl+Pl2+Nom: # ;
+LEXICON PRON-REFL-PL3-ACC
++Pron+Refl+Pl3+Acc: # ;
+LEXICON PRON-REFL-PL3-COM
++Pron+Refl+Pl3+Com: # ;
+LEXICON PRON-REFL-PL3-DAT
++Pron+Refl+Pl3+Dat: # ;
+LEXICON PRON-REFL-PL3-ELA
++Pron+Refl+Pl3+Ela: # ;
+LEXICON PRON-REFL-PL3-GEN
++Pron+Refl+Pl3+Gen: # ;
+LEXICON PRON-REFL-PL3-NOM
++Pron+Refl+Pl3+Nom: # ;
+LEXICON PRON-REFL-SG1-ACC
++Pron+Refl+Sg1+Acc: # ;
+LEXICON PRON-REFL-SG1-DAT
++Pron+Refl+Sg1+Dat: # ;
+LEXICON PRON-REFL-SG1-ELA
++Pron+Refl+Sg1+Ela: # ;
+LEXICON PRON-REFL-SG1-GEN
++Pron+Refl+Sg1+Gen: # ;
 LEXICON PRON-REFL-SG1-NOM
 +Pron+Refl+Sg1+Nom: # ;
-
+LEXICON PRON-REFL-SG2-ACC
++Pron+Refl+Sg2+Acc: # ;
+LEXICON PRON-REFL-SG2-COM
++Pron+Refl+Sg2+Com: # ;
+LEXICON PRON-REFL-SG2-DAT
++Pron+Refl+Sg2+Dat: # ;
+LEXICON PRON-REFL-SG2-ELA
++Pron+Refl+Sg2+Ela: # ;
+LEXICON PRON-REFL-SG2-GEN
++Pron+Refl+Sg2+Gen: # ;
 LEXICON PRON-REFL-SG2-NOM
 +Pron+Refl+Sg2+Nom: # ;
-
+LEXICON PRON-REFL-SG3-ACC
++Pron+Refl+Sg3+Acc: # ;
+LEXICON PRON-REFL-SG3-COM
++Pron+Refl+Sg3+Com: # ;
+LEXICON PRON-REFL-SG3-DAT
++Pron+Refl+Sg3+Dat: # ;
+LEXICON PRON-REFL-SG3-ELA
++Pron+Refl+Sg3+Ela: # ;
+LEXICON PRON-REFL-SG3-GEN
++Pron+Refl+Sg3+Gen: # ;
 LEXICON PRON-REFL-SG3-NOM
 +Pron+Refl+Sg3+Nom: # ;
 
-LEXICON PRON-REFL-SG2-COM
-+Pron+Refl+Sg2+Com: # ;
-
-LEXICON PRON-REFL-SG3-COM
-+Pron+Refl+Sg3+Com: # ;
-
 !LEXICON PRON
 !+Err: # ;
+
+LEXICON PRON-DEM
++Pron+Dem: # ;
+
+LEXICON PRON-INTERR
++Pron+Interr: # ;
+
 
 LEXICON PRON-NEG
 +Pron+Neg: # ;
