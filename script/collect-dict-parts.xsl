@@ -19,9 +19,9 @@
   <xsl:template match="/" name="main">
     <xsl:text>
 </xsl:text>
-    <dict>
-      <xsl:copy-of select="collection(concat($dir, '?select=*.xml'))/dict/entry"/>
-    </dict>
+    <r>
+      <xsl:copy-of select="collection(concat($dir, '?select=*.xml'))/r/e"/>
+    </r>
   </xsl:template>
   
 </xsl:stylesheet>

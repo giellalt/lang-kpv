@@ -28,7 +28,7 @@
   </xsl:function>
 
   <xsl:param name="inDir" select="'.'"/>
-  <xsl:variable name="outDir" select="'outDir'"/>
+  <xsl:variable name="outDir" select="'out'"/>
   <xsl:variable name="e" select="'xml'"/>
 
 
@@ -79,17 +79,6 @@
 			</t>
 		      </xsl:if>
 		    </xsl:for-each>
-		    
-<!-- 		    <xsl:for-each select="./fin/choice/variant"> -->
-<!-- 		      <xsl:variable name="lng" select="../../local-name()"/> -->
-<!-- 		      <t> -->
-<!-- 			<xsl:attribute name="lang"> -->
-<!-- 			  <xsl:value-of select="'fin'"/> -->
-<!-- 			</xsl:attribute> -->
-<!-- 			<ggg><xsl:value-of select="$lng"/></ggg> -->
-<!-- 			<xsl:value-of select="normalize-space(.)"/> -->
-<!-- 		      </t> -->
-<!-- 		    </xsl:for-each> -->
 		    
 		    <xsl:if test="./eg/node()">
 		      <xsl:for-each select="./eg">

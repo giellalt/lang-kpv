@@ -19,9 +19,13 @@ MF   = -Xmx2048m
 EF   = -it main
 XSL  = net.sf.saxon.Transform
 SCRIPTS     = ../script
+DICT_PATH   = ../../../words/dicts
+DICT_BIN    = komfineng/bin
+OUT         = out
 COMPDICT    = collect-dict-parts.xsl
-SRC    = working_files
-
+KL2GT       = kom-lex2gtdict.xsl
+SRC         = working_files
+END         = @echo "Done."
 VPATH=../bin
 
 cur-dir   := $(shell pwd)
@@ -44,7 +48,7 @@ endif
 # This is a preliminary file that builds a Komi parser based upon
 # xfst and not twolc.
 
-# Here we build the final generator , an inverted transducer of the analyzer.
+# Here we build the final generator, an inverted transducer of the analyzer.
 # It is dependent upon kom.save
 
 ikom.fst: ../bin/ikom.fst
@@ -192,7 +196,7 @@ xfst-kom.bin: ../bin/xfst-kom.bin
 	@rm -f ../../tmp/xfst-kom-script
 
 
-# Compile the dictionary xml-file by unifing the individual pos-files
+# Generate the lex files
 lexfiles:
 	@echo
 	@echo "*** Generating the kom-lex.xml file ***"
@@ -201,6 +205,54 @@ lexfiles:
 	@echo
 	@echo "*** kom-lex.xml file done. ***"
 	@echo
+
+
+# Start the dict compilation process
+# transform the file into gt xml format
+macdict: kom-lex.xml
+
+# Compile the dictionary xml-file by unifing the individual pos-files
+kom-lex.xml: $(DICT_PATH)/$(DICT_BIN)/kom-lex.xml
+$(DICT_PATH)/$(DICT_BIN)/kom-lex.xml: $(SRC)
+
+	@echo
+	@echo "*** Converting kom-lex.xml to GT format ***"
+	@echo 
+	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/$(KL2GT) inDir=../src/$< outDir=$(OUT)
+	@echo
+	$(END)
+	@echo
+	@echo "*** Generating the kom-lex.xml file ***"
+	@echo "../src/$(OUT)"
+	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/$(COMPDICT) dir=../src/$(OUT) > $@
+	@echo
+	$(END)
+	@echo
+
+# lemma_macdict: $(DICT_PATH)/$(BIN)/$(MACDICT)
+# $(DICT_PATH)/$(BIN)/$(MACDICT): $(DICT_PATH)/$(BIN)/$(DICT_XML)
+# 	@echo
+# 	$(BEGIN)
+# 	$(JV) $(MF) $(XSL) $< $(SCRIPTS)/$(DICTTOMAC) > $@
+# 	@echo
+# 	$(END)
+# 	@echo
+# 	@echo "*** Generating mac-object files ***"
+# 	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/$(GEN_INFO) S_LANG=$(S_LANG) T_LANG=$(T_LANG) DATE=$(DATE) > $(DICT_PATH)/$(MACDIR)/$(I_FILE)
+# 	@echo
+# 	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/$(GEN_MAKE) S_LANG=$(S_LANG) T_LANG=$(T_LANG) DICT_PATH=$(ONE_UP)/$(BIN)/$(MACDICT) > $(DICT_PATH)/$(MACDIR)/$(M_FILE)
+# 	@echo
+# 	$(END)
+# 	@echo "*** Building the mac dictionary ***"
+# 	@cd $(DICT_PATH)/$(MACDIR) && make clean; make; make install
+# 	@echo
+# 	$(END)
+
+# java -Xmx2048m net.sf.saxon.Transform -it main kom-lex2gtdict.xsl inDir=
+
+# java -Xmx2048m net.sf.saxon.Transform -it main collect-dict-parts.xsl dir= > kom-lex.xml
+
+
 
 
 
