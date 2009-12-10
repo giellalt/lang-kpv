@@ -75,7 +75,7 @@ Multichar_Symbols
 LEXICON Root
 Punctuation ;
 
-!A-SUPERL ;
+A-SUPERL ;
 !ADV-SUPERL ;
 !DEM ;
 !F ;
@@ -89,8 +89,8 @@ Punctuation ;
 !PART-SUPERL ;
 !PERS ;
 !POSTP ;
-!PRON ;
-!PRON-INDEF ;
+PRON ;
+PRON-INDEF ;
 !PRON-PERS ;
 !REFL ;
 !REL ;
@@ -127,6 +127,7 @@ V-AUX ;
 V-DUR ;
 V-FREQ ;
 V-INST ;
+V-REFL ;
 VDER ;
 VERBNEGATIVE ; ! Closed class
 VNEG ;
@@ -186,9 +187,6 @@ LEXICON EndNeg
 
 !LEXICON EndVNeg
 !+V+Neg: # ; ! This shall not be taken from the dict.
-
-LEXICON EndIndef
-+Pron+Indef: # ;
 
 LEXICON EndA
 +A: # ;

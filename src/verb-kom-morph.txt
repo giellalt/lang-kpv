@@ -99,12 +99,6 @@ LEXICON VConjVow
 LEXICON VConjCons
  Verb1 ;
 
-LEXICON Verbve3c4
- Verb1 ;
-
-!LEXICON V
-! Verb1 ;
-
 LEXICON V-DUR
  Verb1 ;
  
@@ -123,9 +117,6 @@ LEXICON GER ! From the lexicon, morph must be different
 
 
 
-LEXICON NounOBJ ! This is probably a formatting error
-+V: # ;
-! All the 17 NounOBJ are verbs of different kinds.
 
 
 LEXICON NounSUBJ ! This is probably a formatting error
