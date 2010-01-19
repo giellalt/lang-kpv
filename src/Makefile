@@ -52,7 +52,7 @@ endif
 # It is dependent upon kom.save
 
 ikom.fst: ../bin/ikom.fst
-../bin/ikom.fst: ../bin/kom.save
+../bin/ikom.fst: ../bin/kom.save kom.fst
 	@echo
 	@echo "*** Building the inverse ikom.fst ***"
 	@echo
