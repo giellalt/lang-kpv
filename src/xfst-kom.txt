@@ -65,11 +65,11 @@ echo << defining the rules >>
 ! ------------
 
 
-define InfDeletion  [ н ы %^Inf -> 0 ] ;  
+!define InfDeletion  [ н ы %^Inf -> 0 ] ;  
  ! Thus, all infinitives may be added as such in the lexicon, and then
  ! stripped for their suffix here.
  
-define InfMarkDeletion %^Inf -> 0 ; 
+!define InfMarkDeletion %^Inf -> 0 ; 
 
 define LtoV [ л -> в || _ [ .#. | %> Cns ] ] ;
  ! These words are underlyingly l, and changed to v.
@@ -133,10 +133,10 @@ define DummyDeletion [ Dummy -> 0 ] ;
 echo << composing different parts >>
 
 read regex [ 
-InfDeletion
-.o.
-InfMarkDeletion
-.o.
+!InfDeletion
+!.o.
+!InfMarkDeletion
+!.o.
 LtoV
 .o.
 mDeletion
