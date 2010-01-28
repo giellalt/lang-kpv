@@ -30,14 +30,7 @@
 
 ! Closed class verbs
 !LEXICON VNEG
-!VERBNEGATIVE ;
- 
-LEXICON VDER
-Verb1 ;
- 
-LEXICON V-AUX
-Verb1 ;
-
+!+V+Err: # ; ! why??
 
 ! We now use this instead of kom-lex.xml
 LEXICON VERBNEGATIVE
@@ -69,19 +62,13 @@ LEXICON Vdz4i3k
 +V+Neg+Ind+Prt+Pl1: K ; ! эг, эгӧ
 
 
-! b - l change
-LEXICON Verb1 ! яйсявны
-+V:%^Inf  Finiteforms ;
-
-
-! Awaiting real analyses, I direct the other verb lexica to Verb1.
+LEXICON Verb1 ! яйсявны,  в - л change
++V:  Finiteforms ;
 +V+Inf:%>ны K ;
-
 
 LEXICON Verb2 ! янӧдны, контролируйтны. Ending in -дны, -тны.
 Verb1 ;
 +V+Inf:%>ны K ;
-
 
 LEXICON Verb3 ! ярмыны. Ending in -ыны.
 Verb1 ;
@@ -98,16 +85,6 @@ LEXICON VConjVow
 
 LEXICON VConjCons
  Verb1 ;
-
-LEXICON V-DUR
- Verb1 ;
- 
-LEXICON V-FREQ
- Verb1 ;
-
-!LEXICON V-INST
-! Verb1 ;
-
 
 
 LEXICON GER ! From the lexicon, morph must be different
@@ -128,19 +105,19 @@ LEXICON NounSUBJ ! This is probably a formatting error
 ! Verb conjugation !
 ! ================ !
 
-LEXICON Finiteforms        !Gives linking vowels for 3 tenses
-+Ind+Fut:%>а PresPret1 ;   ! 1,2  Future
-+Ind+Prs:%>а PresPret1 ;   ! 1,2  Present
-+Ind+Prt1:%>і PresPret1 ;  ! 1,2  Preterite1. і и variation?
-+Ind+Fut:%>ас PresPret1-SgPl3 ;          ! 3 PresPret1-SgPl3   
-+Ind+Prs:%>ӧ PresPret1-SgPl3 ;          ! 3
-+Ind+Prt1:%>і P3 ;         ! 3 
+LEXICON Finiteforms !Gives linking vowels for 3 tenses
++Ind+Fut:%>а PresPret1 ; ! 1,2  Future
++Ind+Prs:%>а PresPret1 ; ! 1,2  Present
++Ind+Prt1:%>і PresPret1 ; ! 1,2  Preterite1. і и variation?
++Ind+Fut:%>ас PresPret1-SgPl3 ; ! 3 PresPret1-SgPl3   
++Ind+Prs:%>ӧ PresPret1-SgPl3 ; ! 3
++Ind+Prt1:%>і P3 ; ! 3 
 +Ind+Prt2:%>ӧм Pret2a ;
 
 Non-finiteforms ;
 
 LEXICON Non-finiteforms
-! Page 346 in the Komi grammar X.
+! Page 346 in the Komi grammar
 +MYST:%>мысьт K ;
 +MYS:%>мысь K ;
 +IG:%>іг K ;
