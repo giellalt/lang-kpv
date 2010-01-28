@@ -1,40 +1,14 @@
 
-! ========================================================================== !
-!                               Verbal morphology                            !
-! ========================================================================== !
+! ====================================== !
+!        Verbal morphology               !
+! ====================================== !
 
-!   Here are the verbal continuation lexica, ordered according to frequency
-!   in the V-kom-lex.txt file.
-
-!   1714 Verb1
-!   1495 Verb3
-!   1495 Verb2
-!     15 NounOBJ
-!     13 NounSUBJ
-!      3 Verb
-!      2 VerbPRT
-!      2 DoubleVerb1
-!      1 Verbve3c4
-!      1 VConjVow
-!      1 VConjCons
-!      1 V2   
-
-!      8 End1
-!      1 End2
-!      1 End1a
-
-
-! ============================= !
-! Verbal continuation sublexica !
-! ============================= !
 
 ! Closed class verbs
-!LEXICON VNEG
-!+V+Err: # ; ! why??
+! ------------------
 
-! We now use this instead of kom-lex.xml
 LEXICON VERBNEGATIVE
-!Verbs of Negation
+!Present Neg
 ог+V+Neg+Ind+Prs+Sg1:ог K ;
 он+V+Neg+Ind+Prs+Sg2:он K ;
 оз+V+Neg+Ind+Prs+Sg3:оз K ;
@@ -55,57 +29,44 @@ LEXICON VERBNEGATIVE
 эз+V+Neg+Ind+Prt+Pl3:эз K ;
 
 
-! This is pointed to from the kom-lex.xml.
-! This means we have this verb twice.
-
-LEXICON Vdz4i3k
-+V+Neg+Ind+Prt+Pl1: K ; ! эг, эгӧ
+! Open class verbs
+! ----------------
 
 
 LEXICON Verb1 ! яйсявны,  в - л change
-+V:  Finiteforms ;
++V:  VerbConj ;
 +V+Inf:%>ны K ;
 
 LEXICON Verb2 ! янӧдны, контролируйтны. Ending in -дны, -тны.
-Verb1 ;
++V:  VerbConj ;
 +V+Inf:%>ны K ;
 
 LEXICON Verb3 ! ярмыны. Ending in -ыны.
-Verb1 ;
++V:  VerbConj ; ! check this!!!
 +V+Inf:%>ыны K ;
 
-LEXICON VerbPRT
- Verb1 ;
-
-LEXICON DoubleVerb1 !This is very dubious in this system.
- Verb1 ;
-
-LEXICON VConjVow
- Verb1 ;
-
-LEXICON VConjCons
+LEXICON VerbPRT ! one verb, вӧвны
  Verb1 ;
 
 
-LEXICON GER ! From the lexicon, morph must be different
+
+LEXICON GER ! 3 lexicalised +Ger forms.
 +V+Ger: # ;
 
- 
-
-
-
-
-
-LEXICON NounSUBJ ! This is probably a formatting error
+LEXICON NounSUBJ ! These are verbs with oblique subjects
 +V: # ;
-! All the 15 NounOBJ are verbs of different kinds.
+
 
 
 ! ================ !
 ! Verb conjugation !
 ! ================ !
 
-LEXICON Finiteforms !Gives linking vowels for 3 tenses
+LEXICON VerbConj
+ Finiteforms ;
+ Non-finiteforms ;
+
+LEXICON Finiteforms  ! Gives linking vowels for 3 tenses
 +Ind+Fut:%>а PresPret1 ; ! 1,2  Future
 +Ind+Prs:%>а PresPret1 ; ! 1,2  Present
 +Ind+Prt1:%>і PresPret1 ; ! 1,2  Preterite1. і и variation?
@@ -113,8 +74,6 @@ LEXICON Finiteforms !Gives linking vowels for 3 tenses
 +Ind+Prs:%>ӧ PresPret1-SgPl3 ; ! 3
 +Ind+Prt1:%>і P3 ; ! 3 
 +Ind+Prt2:%>ӧм Pret2a ;
-
-Non-finiteforms ;
 
 LEXICON Non-finiteforms
 ! Page 346 in the Komi grammar
