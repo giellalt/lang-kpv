@@ -4,6 +4,12 @@
 
 
 # NBNB!! Here comes the IMPORTANT usage note NBNB !!
+# NBNB!! Here comes the IMPORTANT usage note NBNB !!
+# NBNB!! Here comes the IMPORTANT usage note NBNB !!
+# NBNB!! Here comes the IMPORTANT usage note NBNB !!
+# NBNB!! Here comes the IMPORTANT usage note NBNB !!
+# NBNB!! Here comes the IMPORTANT usage note NBNB !!
+# NBNB!! Here comes the IMPORTANT usage note NBNB !!
 
 # Usage: build twice. First build the lexc files, then build the fst
 
