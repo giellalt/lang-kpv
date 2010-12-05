@@ -14,9 +14,6 @@
 
 ! Personal pronouns
 
-LEXICON PRON-PERS
-+Err: # ;
-
 
 LEXICON PRON-PERS-PL1-ACC
 +Pron+Pers+Pl1+Acc: # ;
@@ -168,10 +165,16 @@ LEXICON PRON-REFL-SG3-NOM
 !+Err: # ;
 
 LEXICON PRONDEMTAG
-+Pron+Dem: # ;
++Pron+Dem: # ; ! sg/pl?
+
+LEXICON PRONDEMTAGPL
++Pron+Dem+Pl: # ;
 
 LEXICON PRONQTAG
-+Pron+Interr: # ;
++Pron+Interr: # ; ! sg/pl?
+
+LEXICON PRONQTAGPL
++Pron+Interr+Pl: # ;
 
 LEXICON PRON-NEG
 +Pron+Neg: # ;

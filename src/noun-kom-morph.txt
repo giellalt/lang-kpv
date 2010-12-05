@@ -49,7 +49,7 @@ LEXICON NounPi ! пи These have a unique  pl marker ян.
 
 
 LEXICON ACRON ! А*С*СР ! АТП Note the inconcistencies in the star use.
-+N+ACR: # ;
++N+ACR: ACRONDELIMITER ;
 
 LEXICON NounPL ! бедьторъяс
 +N+Pl: CASEPOSSLEX ; ! here, %>ъяс is put as part of the stem
@@ -62,8 +62,11 @@ Noun1 ; ! Declension to be determined.
 LEXICON NounDET
 +N: # ;
 
-
-
+LEXICON ACRONDELIMITER
+    CASEPOSSLEX ;
+:%: CASEPOSSLEX ;
+:%- CASEPOSSLEX ;
+:%' CASEPOSSLEX ;
 
 
 ! =================== !

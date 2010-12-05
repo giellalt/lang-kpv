@@ -2,19 +2,18 @@
 
 
 ! ============================= !
-!  Noun morphological lexica !
+!  Numeral morphological lexica !
 ! ============================= !
 
-
-! =========== !
-! CARD lexica !
-! =========== !
 
 LEXICON CARD
 +Num+Card: NumCASEPOSSLEX ;
 +Num+Ord:%>ӧд NumCASEPOSSLEX ;
 
 +Num+Coll:%>нан NumCASEPOSSLEX ; !give it a go
+
+LEXICON ORD
++Num+Ord: NumCASEPOSSLEX ; ! ӧд part of the stem
 
 
 LEXICON DET
