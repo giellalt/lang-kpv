@@ -5,6 +5,8 @@ Multichar_Symbols
 ! POS
 +N +V +A 
 +Adv +CC +CS +Interj +Pron +Num +Pcle +Clt +Po
++Onom ! onomapoetic words
+
 
 ! Verbal MSP
 +Prs +Fut +Fut1 +Prt1 +Prt2 +Prf
@@ -33,6 +35,8 @@ Multichar_Symbols
 +Cns ! Consecutive -la
 +Coll
 +Comp
+
++Det ! determiner like уна 'many'. Look at this.
 
 ! +Kom !instead it is +Com
 +Ord
@@ -172,6 +176,9 @@ LEXICON EndA
 
 LEXICON EndQST
 +Qst: # ;
+
+LEXICON ONOM
++Onom: # ;
 
 
 
