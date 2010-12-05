@@ -4,15 +4,6 @@
 ! ============================= !
 !  Noun morphological lexica !
 ! ============================= !
-! ===== !
-! NUM   !
-! ===== !
-
-
-!LEXICON NUMmorph
-!CARD ;
-!+Ord:%>ӧд ;
-!+Num+Coll:%>нан NumCASEPOSSLEX ;
 
 
 ! =========== !
@@ -21,6 +12,10 @@
 
 LEXICON CARD
 +Num+Card: NumCASEPOSSLEX ;
++Num+Ord:%>ӧд NumCASEPOSSLEX ;
+
++Num+Coll:%>нан NumCASEPOSSLEX ; !give it a go
+
 
 LEXICON DET
 +Det: # ;
