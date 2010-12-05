@@ -12,9 +12,82 @@
 ! LEXICON REFL
 ! +Err: # ;
 
-! LEXICON PRON-PERS
-! +Err: # ;
-! 
+! Personal pronouns
+
+LEXICON PRON-PERS
++Err: # ;
+
+
+LEXICON PRON-PERS-PL1-ACC
++Pron+Pers+Pl1+Acc: # ;
+LEXICON PRON-PERS-PL1-COM
++Pron+Pers+Pl1+Com: # ;
+LEXICON PRON-PERS-PL1-DAT
++Pron+Pers+Pl1+Dat: # ;
+LEXICON PRON-PERS-PL1-GEN
++Pron+Pers+Pl1+Gen: # ;
+LEXICON PRON-PERS-PL1-NOM
++Pron+Pers+Pl1+Nom: # ;
+LEXICON PRON-PERS-PL2-ACC
++Pron+Pers+Pl2+Acc: # ;
+LEXICON PRON-PERS-PL2-COM
++Pron+Pers+Pl2+Com: # ;
+LEXICON PRON-PERS-PL2-DAT
++Pron+Pers+Pl2+Dat: # ;
+LEXICON PRON-PERS-PL2-GEN
++Pron+Pers+Pl2+Gen: # ;
+LEXICON PRON-PERS-PL2-NOM
++Pron+Pers+Pl2+Nom: # ;
+LEXICON PRON-PERS-PL3-ACC
++Pron+Pers+Pl3+Acc: # ;
+LEXICON PRON-PERS-PL3-COM
++Pron+Pers+Pl3+Com: # ;
+LEXICON PRON-PERS-PL3-DAT
++Pron+Pers+Pl3+Dat: # ;
+LEXICON PRON-PERS-PL3-ELA
++Pron+Pers+Pl3+Ela: # ;
+LEXICON PRON-PERS-PL3-GEN
++Pron+Pers+Pl3+Gen: # ;
+LEXICON PRON-PERS-PL3-NOM
++Pron+Pers+Pl3+Nom: # ;
+LEXICON PRON-PERS-SG1-ACC
++Pron+Pers+Sg1+Acc: # ;
+LEXICON PRON-PERS-SG1-DAT
++Pron+Pers+Sg1+Dat: # ;
+LEXICON PRON-PERS-SG1-ELA
++Pron+Pers+Sg1+Ela: # ;
+LEXICON PRON-PERS-SG1-GEN
++Pron+Pers+Sg1+Gen: # ;
+LEXICON PRON-PERS-SG1-NOM
++Pron+Pers+Sg1+Nom: # ;
+LEXICON PRON-PERS-SG2-ACC
++Pron+Pers+Sg2+Acc: # ;
+LEXICON PRON-PERS-SG2-COM
++Pron+Pers+Sg2+Com: # ;
+LEXICON PRON-PERS-SG2-DAT
++Pron+Pers+Sg2+Dat: # ;
+LEXICON PRON-PERS-SG2-ELA
++Pron+Pers+Sg2+Ela: # ;
+LEXICON PRON-PERS-SG2-GEN
++Pron+Pers+Sg2+Gen: # ;
+LEXICON PRON-PERS-SG2-NOM
++Pron+Pers+Sg2+Nom: # ;
+LEXICON PRON-PERS-SG3-ACC
++Pron+Pers+Sg3+Acc: # ;
+LEXICON PRON-PERS-SG3-COM
++Pron+Pers+Sg3+Com: # ;
+LEXICON PRON-PERS-SG3-DAT
++Pron+Pers+Sg3+Dat: # ;
+LEXICON PRON-PERS-SG3-ELA
++Pron+Pers+Sg3+Ela: # ;
+LEXICON PRON-PERS-SG3-GEN
++Pron+Pers+Sg3+Gen: # ;
+LEXICON PRON-PERS-SG3-NOM
++Pron+Pers+Sg3+Nom: # ;
+
+
+! Indefinite pronouns
+ 
 LEXICON PRONINDEFTAG
 +Pron+Indef: # ;
 
