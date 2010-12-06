@@ -15,23 +15,8 @@ LEXICON Adj
 ! Nouns !
 ! ===== !
 
-
-! The present N-lex lexicon looks like this:
-
-!   8884 Noun1
-!     42 NounPL
-!     42 ACRON
-!     36 NounPi
-!     10 NounMort
-!      8 NounSG
-!      4 NounPOSS
-!      4 End1       ! These may have the wrong POS (should not be N)
-!      3 A
-!      2 NounSUBJ
-!      2 NounLA
-!      1 Verb1
-
-
+LEXICON Prop ! Basic nouns.
++N+Prop+Sg: CASEPOSSLEX ;
 
 LEXICON Noun1 ! Basic nouns.
 +N+Sg: CASEPOSSLEX ;
@@ -39,6 +24,9 @@ LEXICON Noun1 ! Basic nouns.
 
 LEXICON NounLA ! ӧтила
 Noun1 ; ! Difference betw Noun1 and NounLA still to be documented.
+
+LEXICON NounMort
+Noun1 ; ! Difference betw Noun1 and NounMort still to be documented.
 
 LEXICON NounSG ! м орт
 +N+Sg: CASEPOSSLEX ;
@@ -58,9 +46,6 @@ LEXICON NounPL ! бедьторъяс
 
 LEXICON NounPOSS ! чой niece, nephew
 Noun1 ; ! Declension to be determined.
-
-LEXICON NounDET
-+N: # ;
 
 LEXICON ACRONDELIMITER
     CASEPOSSLEX ;
