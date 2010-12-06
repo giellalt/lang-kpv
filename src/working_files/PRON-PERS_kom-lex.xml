@@ -3,8 +3,8 @@
    <entry>
       <lemma>ме</lemma>
       <stem/>
-      <contlex>PRON-PERS</contlex>
-      <pos>PRON-PERS-SG1-NOM</pos>
+      <contlex>PRON-PERS-SG1-NOM</contlex>
+      <pos>PRON-PERS</pos>
       <article>
          <eng>
             <choice>
@@ -21,8 +21,8 @@
    <entry>
       <lemma>мем</lemma>
       <stem/>
-      <contlex>PRON-PERS</contlex>
-      <pos>PRON-PERS-SG1-DAT</pos>
+      <contlex>PRON-PERS-SG1-DAT</contlex>
+      <pos>PRON-PERS</pos>
       <article>
          <msp>DAT SG1</msp>
          <eng>
@@ -41,8 +41,8 @@
    <entry>
       <lemma>мен</lemma>
       <stem/>
-      <contlex>PRON-PERS</contlex>
-      <pos>PRON-PERS-SG1-DAT</pos>
+      <contlex>PRON-PERS-SG1-DAT</contlex>
+      <pos>PRON-PERS</pos>
       <article>
          <msp>DAT SG1</msp>
          <eng>
@@ -82,8 +82,8 @@
    <entry>
       <lemma>меным</lemma>
       <stem/>
-      <contlex>PRON-PERS</contlex>
-      <pos>PRON-PERS-SG1-DAT</pos>
+      <contlex>PRON-PERS-SG1-DAT</contlex>
+      <pos>PRON-PERS</pos>
       <article>
          <msp>DAT SG1</msp>
          <eng>
@@ -106,8 +106,8 @@
    <entry>
       <lemma>менсьым</lemma>
       <stem/>
-      <contlex>PRON-PERS</contlex>
-      <pos>PRON-PERS-SG1-ELA</pos>
+      <contlex>PRON-PERS-SG1-ELA</contlex>
+      <pos>PRON-PERS</pos>
       <article>
          <msp>ELA SG1</msp>
          <eng>
@@ -125,8 +125,8 @@
    <entry>
       <lemma>ми</lemma>
       <stem/>
-      <contlex>PRON-PERS</contlex>
-      <pos>PRON-PERS-PL1-NOM</pos>
+      <contlex>PRON-PERS-PL1-NOM</contlex>
+      <pos>PRON-PERS</pos>
       <article>
          <eng>
             <choice>
@@ -169,7 +169,7 @@
    <entry>
       <lemma>на</lemma>
       <stem/>
-      <contlex>PRON-PERS</contlex>
+      <contlex>PRON-PERS-PL3-NOM</contlex>
       <pos>PRON-PERS</pos>
       <article>
          <eng>
@@ -198,8 +198,8 @@
          </eng>
          <fin>
             <choice>
-               <variant>he </variant>
-               <variant> ne</variant>
+               <variant>he</variant>
+               <variant>ne</variant>
             </choice>
          </fin>
          <msp>NOM PL3</msp>
@@ -209,7 +209,7 @@
    <entry>
       <lemma>найӧ</lemma>
       <stem/>
-      <contlex>PRON-PERS</contlex>
+      <contlex>PRON-PERS-PL3-NOM</contlex>
       <pos>PRON-PERS</pos>
       <article>
          <eng>
@@ -219,8 +219,8 @@
          </eng>
          <fin>
             <choice>
-               <variant>he </variant>
-               <variant> ne</variant>
+               <variant>he</variant>
+               <variant>ne</variant>
             </choice>
          </fin>
          <msp>PL3</msp>
@@ -229,7 +229,7 @@
    <entry>
       <lemma>найӧс</lemma>
       <stem/>
-      <contlex>PRON-PERS</contlex>
+      <contlex>PRON-PERS-PL3-ACC</contlex>
       <pos>PRON-PERS</pos>
       <article>
          <eng>
@@ -278,15 +278,15 @@
       <article>
          <eng>
             <choice>
-               <variant>him </variant>
-               <variant> her </variant>
-               <variant> it</variant>
+               <variant>him</variant>
+               <variant>her</variant>
+               <variant>it</variant>
             </choice>
          </eng>
          <fin>
             <choice>
-               <variant>hänet </variant>
-               <variant> sen</variant>
+               <variant>hänet</variant>
+               <variant>sen</variant>
             </choice>
          </fin>
          <msp>SG ACC</msp>
@@ -296,17 +296,18 @@
    <entry>
       <lemma>сы</lemma>
       <stem/>
-      <contlex>PRON-PERS</contlex>
+      <contlex>PRON-PERS-SG3-NOM</contlex>
       <pos>PRON-PERS</pos>
       <article>
          <eng>
             <choice>
-               <variant/>
+               <variant>he</variant>
+               <variant>she</variant>
             </choice>
          </eng>
          <fin>
             <choice>
-               <variant/>
+               <variant>hän</variant>
             </choice>
          </fin>
          <cf>
@@ -320,17 +321,18 @@
    <entry>
       <lemma>та</lemma>
       <stem/>
-      <contlex>PRON-PERS</contlex>
+      <contlex>PRON-PERS-SG3-NOM</contlex>
       <pos>PRON-PERS</pos>
       <article>
          <eng>
             <choice>
-               <variant/>
+               <variant>he</variant>
+               <variant>she</variant>
             </choice>
          </eng>
          <fin>
             <choice>
-               <variant/>
+               <variant>hän</variant>
             </choice>
          </fin>
          <cf>
@@ -344,7 +346,7 @@
    <entry>
       <lemma>тайӧ</lemma>
       <stem/>
-      <contlex>PRON-PERS</contlex>
+      <contlex>PRON-PERS-SG3-NOM</contlex>
       <pos>PRON-PERS</pos>
       <article>
          <eng>
@@ -364,7 +366,7 @@
    <entry>
       <lemma>тайӧяс</lemma>
       <stem/>
-      <contlex>PRON-PERS</contlex>
+      <contlex>PRON-PERS-PL3-NOM</contlex>
       <pos>PRON-PERS</pos>
       <article>
          <eng>
@@ -383,7 +385,7 @@
    <entry>
       <lemma>тэ</lemma>
       <stem/>
-      <contlex>PRON-PERS</contlex>
+      <contlex>PRON-PERS-SG2-NOM</contlex>
       <pos>PRON-PERS</pos>
       <article>
          <eng>
@@ -402,7 +404,7 @@
    <entry>
       <lemma>тэд</lemma>
       <stem/>
-      <contlex>PRON-PERS</contlex>
+      <contlex>PRON-PERS-SG2-DAT</contlex>
       <pos>PRON-PERS</pos>
       <article>
          <eng>
@@ -426,7 +428,7 @@
    <entry>
       <lemma>тэн</lemma>
       <stem/>
-      <contlex>PRON-PERS</contlex>
+      <contlex>PRON-PERS-SG2-DAT</contlex>
       <pos>PRON-PERS</pos>
       <article>
          <eng>
@@ -450,7 +452,7 @@
    <entry>
       <lemma>тэнад</lemma>
       <stem/>
-      <contlex>PRON-PERS</contlex>
+      <contlex>PRON-PERS-SG2-GEN</contlex>
       <pos>PRON-PERS</pos>
       <article>
          <eng>
@@ -475,7 +477,7 @@
       <lemma>тэныд</lemma>
       <stem/>
       <contlex>PRON-PERS</contlex>
-      <pos>PRON-PERS</pos>
+      <pos>PRON-PERS-SG2-DAT</pos>
       <article>
          <eng>
             <choice>
@@ -498,17 +500,17 @@
    <entry>
       <lemma>тэнсьыд</lemma>
       <stem/>
-      <contlex>PRON-PERS</contlex>
+      <contlex>PRON-PERS-SG2-ABL</contlex>
       <pos>PRON-PERS</pos>
       <article>
          <eng>
             <choice>
-               <variant/>
+               <variant>from you</variant>
             </choice>
          </eng>
          <fin>
             <choice>
-               <variant/>
+               <variant>sinulta</variant>
             </choice>
          </fin>
          <cf>
@@ -522,7 +524,7 @@
    <entry>
       <lemma>ті</lemma>
       <stem/>
-      <contlex>PRON-PERS</contlex>
+      <contlex>PRON-PERS-PL2-NOM</contlex>
       <pos>PRON-PERS</pos>
       <article>
          <eng>
