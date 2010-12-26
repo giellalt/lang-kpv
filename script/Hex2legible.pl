@@ -1,9 +1,9 @@
 #!/usr/bin/perl
 
+use utf8;
 
 # cat file.txt | ./7bit2Hex.pl |./Hex2legible.pl |see
 
-use utf8;
 
 undef $/;
 
