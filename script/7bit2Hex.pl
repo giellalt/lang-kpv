@@ -2,7 +2,6 @@
 
 # cat file.txt | ./7bit2Hex.pl |./Hex2legible.pl |see
 
-use utf8;
 
 undef $/;
 
@@ -83,7 +82,7 @@ s/\ú/\&\#x044A\;/g;
 s/\û/\&\#x044B\;/g;
 s/\ü/\&\#x044C\;/g;
 s/\ý/\&\#x044D\;/g;
-s/\\þ/\&\#x044E\;/g;
+s/\þ/\&\#x044E\;/g;
 s/\ÿ/\&\#x044F\;/g;
 s/\\/\&\#x04E7\;/g;
 
