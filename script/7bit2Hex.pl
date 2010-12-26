@@ -1,5 +1,9 @@
 #!/usr/bin/perl
 
+# cat file.txt | ./7bit2Hex.pl |./Hex2legible.pl |see
+
+use utf8;
+
 undef $/;
 
 $_ = <>;
