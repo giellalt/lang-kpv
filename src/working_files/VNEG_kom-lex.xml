@@ -11,6 +11,36 @@
    </entry>
    
 <!--
+comment: The problem here is the  share of burden between xml and lexc.
+The VERBNEGATIVE lexicon looks like this:
+LEXICON VERBNEGATIVE
+оз+V+Neg+Ind+Prs+Sg1:ог K ;
+оз+V+Neg+Ind+Prs+Sg2:он K ;
+оз+V+Neg+Ind+Prs+Sg3:оз K ;
+...
+
+The problem with the things below is that "lemma" and "stem" are mixed.
+"lemma" is used in two ways: 
+a. as ditionary lookup term (expected is the wordform)
+b. as fst reference term (expected is оз)
+
+For the time being we should have a special contlex entry saying
+<contlex>NOCONTLEXGENERATION</contlex>
+with a corresponding if-statement in the xslt file generating
+the kt/tmp/out/ files.
+
+Conclusion reached (?) on Jan 1st ( :-) a new year's promise):
+We do the pronouns in the same way.
+Preliminary, we comment them out from the dict, awaiting an
+implementation of the NOCONTLEX contlex value.
+
+In this way we can use stems from the individual personal pronouns once each 
+ме
+тэ
+
+-->
+
+<!--
    <entry>
       <lemma>эг</lemma>
       <stem>оз</stem>

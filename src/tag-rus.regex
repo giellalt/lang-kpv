@@ -40,13 +40,17 @@
 %+Прит1мн <- %+PxPl1, 
 %+Прит2мн <- %+PxPl2, 
 %+Прит3мн <- %+PxPl3, 
-%+komparativ <- %+Comp, 
-%+superlativ <- %+Superl, 
+#Tässä on ongelma, kossa +Comp käytetään Komissa merkitsemään sijamuotoa
+#Pitää erottaa sija 
+#a. ся tuosta toisesta 
+#b. джык
+%+Срав <- %+Comp, 
+%+Прев <- %+Superl, 
 %+aktor <- %+Actor, 
 %+klitikon <- %+Clt, 
-%+attributtform <- %+Attr, 
 %+ordenstal <- %+Card, 
 %+изъявит <- %+Ind, 
+%+буд <- %+Fut, 
 %+наст <- %+Prs, 
 %+продш <- %+Prt, 
 %+potensialis <- %+Pot, 

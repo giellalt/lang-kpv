@@ -25,6 +25,7 @@ LEXICON perssg1decl
 
 LEXICON perspl1decl
 +Nom:ми # ;
++Gen:миян # ;
 :миян persplobl ;
 
 LEXICON perssg2decl
@@ -38,6 +39,7 @@ LEXICON perssg2decl
 
 LEXICON perspl2decl
 +Nom:ті # ;
++Gen:тіян # ;
 :тіян persplobl ;
 
 LEXICON perssg3decl
@@ -50,7 +52,11 @@ LEXICON perssg3decl
 
 LEXICON perspl3decl
 +Nom:найӧ # ;
-:нал persplobl ;
++Gen:налӧн # ;
+:на persplobl ;
+
+
+
 
 LEXICON perssg 
 +Instr:ӧн # ;
@@ -69,34 +75,30 @@ LEXICON perssg
 
 
 LEXICON persplobl
-PL-PersPron-Obl-Cx ; 
-! if thPL-PersPron-Obl-Cx lexicon is not in use
-! outside this ref it should be conflated.
++Abl:лысь # ;
++Dat:лы # ;
++Acc:ӧс # ;
 
-
-LEXICON PL-PersPron-Obl-Cx
-+Abl:%>лысь K ;
-+Dat:%>лы K ;
-+Instr:%>ӧн K ;
-+Com:%>кӧд K ;
-+Car:%>тӧг K ;
-+Cns:%>ла K ;
-+Comp:%>ся K ;
-+Ine:%>ын K ;
-+Ela:%>ысь K ;
-+Ill:%>ӧ K ;
-+Apr:%>лань K ;
-+Egr:%>сянь K ;
-+Prl:%>ӧд K ;
-+Tra:%>ті K ;
-+Ter:%>ӧдз K ;
-+Apr+Ine:%>ланьын K ;  ! New cases in last grammar  
-+Apr+Ela:%>ланьысь K ;  ! 
-+Apr+Ill:%>ланьӧ K ; ! 
-+Apr+Egr:%>ланьсянь K ; ! 
-+Apr+Prl:%>ланьӧд K ; !
-+Apr+Tra:%>ланьті K ; !       
-+Apr+Ter:%>ланьӧдз K ; ! 
++Instr:ӧн # ;
++Com:кӧд # ;
++Car:тӧг # ;
++Cns:ла # ;
++Comp:ся # ;
++Ine:ын # ;
++Ela:ысь # ;
++Ill:ӧ # ;
++Apr:лань # ;
++Egr:сянь # ;
++Prl:ӧд # ;
++Tra:ті # ;
++Ter:ӧдз # ;
++Apr+Ine:ланьын # ;  ! New cases in last grammar  
++Apr+Ela:ланьысь # ;  ! 
++Apr+Ill:ланьӧ # ; ! 
++Apr+Egr:ланьсянь # ; ! 
++Apr+Prl:ланьӧд # ; !
++Apr+Tra:ланьті # ; !       
++Apr+Ter:ланьӧдз # ; ! 
 
 ! These ones to be removed:
 LEXICON PRON-PERS-PL1-ACC
