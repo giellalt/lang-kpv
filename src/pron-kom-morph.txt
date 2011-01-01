@@ -6,52 +6,73 @@
 ! ------------------------------
 
 LEXICON PERS
-! +Err: # ;
-
-! Nominative
-ме+Pron+Pers+Sg1+Nom: # ;
-тэ+Pron+Pers+Sg2+Nom: # ;
-сійӧ+Pron+Pers+Sg3+Nom: # ;
-
-ми+Pron+Pers+Pl1+Nom: # ;
-мийӧ+Pron+Pers+Pl1+Nom: # ;
-ті+Pron+Pers+Pl2+Nom: # ;
-тійӧ+Pron+Pers+Pl2+Nom: # ;
-найӧ+Pron+Pers+Pl3+Nom: # ;
-! Accusative
-менӧ+Pron+Pers+Sg1+Acc: # ;
-тэнӧ+Pron+Pers+Sg2+Acc: # ;
-сійӧс+Pron+Pers+Sg3+Acc: # ;
-
-миянӧс+Pron+Pers+Pl1+Acc: # ;
-тіянӧс+Pron+Pers+Pl2+Acc: # ;
-найӧс+Pron+Pers+Pl3+Acc: # ;
-! Genitive
-менам+Pron+Pers+Sg1+Gen: # ;
-тэнад+Pron+Pers+Sg2+Gen: # ;
-сылӧн+Pron+Pers+Sg3+Gen: # ;
-
-миян+Pron+Pers+Pl1+Gen: # ;
-тіян+Pron+Pers+Pl2+Gen: # ;
-налӧн+Pron+Pers+Pl3+Gen: # ;
-! Oblique stems
-!+Pron+Pers+Sg1:
-!+Pron+Pers+Sg2:
-!+Pron+Pers+Sg3:
-
-миян+Pron+Pers+Pl1: PL-PersPron-Obl-Cx  ;
-тіян+Pron+Pers+Pl2: PL-PersPron-Obl-Cx ;
-на+Pron+Pers+Pl3: PL-PersPron-Obl-Cx ;
+ме+Pron+Pers+Sg1: perssg1decl ;
+тэ+Pron+Pers+Sg2: perssg2decl ; 
+сійӧ+Pron+Pers+Sg3: perssg3decl ;
+ми+Pron+Pers+Pl1: perspl1decl ;
+ті+Pron+Pers+Pl2: perspl2decl ; 
+найӧ+Pron+Pers+Pl3: perspl3decl ;
 
 
-! 
-! LEXICON REL
-! +Err: # ;
-! 
-! LEXICON REFL
-! +Err: # ;
+LEXICON perssg1decl
++Nom:ме # ;
++Gen:менам # ;
++Abl:менсьым # ;
++Dat:меным # ;
++Dat:мем # ;
++Acc:менӧ # ;
+:ме perssg ; ! for the regular obl sg
 
-! Personal pronouns
+LEXICON perspl1decl
++Nom:ми # ;
+:миян persplobl ;
+
+LEXICON perssg2decl
++Nom:тэ # ;
++Gen:тенад # ;
++Abl:тэнсьыд # ;
++Dat:тэныд # ;
++Dat:тэд # ;
++Acc:тэнӧ # ;
+:тэ perssg ;  ! for the regular obl sg
+
+LEXICON perspl2decl
++Nom:ті # ;
+:тіян persplobl ;
+
+LEXICON perssg3decl
++Nom:сійӧ # ;
++Gen:сылӧн # ;
++Abl:сылысь # ;
++Dat:сылы # ;
++Acc:сійӧс # ;
+:сы perssg ;  ! for the regular obl sg
+
+LEXICON perspl3decl
++Nom:найӧ # ;
+:нал persplobl ;
+
+LEXICON perssg 
++Instr:ӧн # ;
++Com:кӧд # ;
++Car:тӧг # ;
++Cns:ла # ;
++Ine:ын # ;
++Ela:ӧ # ; !This is questioned in the 2000 Grammar
++:ысь # ; !Исх Px required
++Apr:лань # ;
++Egr:сянь # ;
++Prl:ӧд # ;
++Tra:ті # ;
++Ter:ӧдз # ;
+
+
+
+LEXICON persplobl
+PL-PersPron-Obl-Cx ; 
+! if thPL-PersPron-Obl-Cx lexicon is not in use
+! outside this ref it should be conflated.
+
 
 LEXICON PL-PersPron-Obl-Cx
 +Abl:%>лысь K ;
@@ -77,7 +98,7 @@ LEXICON PL-PersPron-Obl-Cx
 +Apr+Tra:%>ланьті K ; !       
 +Apr+Ter:%>ланьӧдз K ; ! 
 
-
+! These ones to be removed:
 LEXICON PRON-PERS-PL1-ACC
 +Pron+Pers+Pl1+Acc: # ;
 LEXICON PRON-PERS-PL1-COM
@@ -118,7 +139,7 @@ LEXICON PRON-PERS-SG1-ELA
 +Pron+Pers+Sg1+Ela: # ;
 LEXICON PRON-PERS-SG1-GEN
 +Pron+Pers+Sg1+Gen: # ;
-LEXICON PRON-PERS-SG1-NOM
+LEXICON PRON-PERS-SG1-NOM ! tähän tulee ме
 +Pron+Pers+Sg1+Nom: # ;
 LEXICON PRON-PERS-SG2-ACC
 +Pron+Pers+Sg2+Acc: # ;
@@ -147,8 +168,10 @@ LEXICON PRON-PERS-SG3-GEN
 LEXICON PRON-PERS-SG3-NOM
 +Pron+Pers+Sg3+Nom: # ;
 LEXICON PRON-PERS-SG3-ABL
-+Pron+Pers+Sg3+Abl
-: # ;
++Pron+Pers+Sg3+Abl: # ;
+LEXICON PRON-PERS-SG3-OBL
++Pron+Pers+Sg3+Dat:%>лы # ;
++Pron+Pers+Sg3+Abl:%>лысь # ;
 
 
 ! Indefinite pronouns
@@ -229,8 +252,6 @@ LEXICON PRON-REFL-SG3-GEN
 LEXICON PRON-REFL-SG3-NOM
 +Pron+Refl+Sg3+Nom: # ;
 
-!LEXICON PRON
-!+Err: # ;
 
 LEXICON PRONDEMTAG
 +Pron+Dem: # ; ! sg/pl?
