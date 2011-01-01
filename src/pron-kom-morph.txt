@@ -2,6 +2,29 @@
 !                           Pronominal morphology                            !
 ! ========================================================================== !
 
+! Closed class personal pronouns
+! ------------------------------
+
+LEXICON PERSPRON
+! Nominative
+ми+Pron+Pers+Pl1+Nom: # ;
+мийӧ+Pron+Pers+Pl1+Nom: # ;
+ті+Pron+Pers+Pl2+Nom: # ;
+тійӧ+Pron+Pers+Pl2+Nom: # ;
+найӧ+Pron+Pers+Pl3+Nom: # ;
+! Accusative
+миянӧс+Pron+Pers+Pl1+Acc: # ;
+тіянӧс+Pron+Pers+Pl2+Acc: # ;
+найӧс+Pron+Pers+Pl3+Acc: # ;
+! Genitive
+миян+Pron+Pers+Pl1+Gen: # ;
+! Oblique stems
+миян+Pron+Pers+Pl1: PL-PersPron-Obl-Cx  ;
+
+тіян+Pron+Pers+Pl2: PL-PersPron-Obl-Cx ;
+
+на+Pron+Pers+Pl3: PL-PersPron-Obl-Cx ;
+
 
 ! LEXICON PERS
 ! +Err: # ;
@@ -13,6 +36,30 @@
 ! +Err: # ;
 
 ! Personal pronouns
+
+LEXICON PL-PersPron-Obl-Cx
++Abl:%>лысь K ;
++Dat:%>лы K ;
++Instr:%>ӧн K ;
++Com:%>кӧд K ;
++Car:%>тӧг K ;
++Cns:%>ла K ;
++Comp:%>ся K ;
++Ine:%>ын K ;
++Ela:%>ысь K ;
++Ill:%>ӧ K ;
++Apr:%>лань K ;
++Egr:%>сянь K ;
++Prl:%>ӧд K ;
++Tra:%>ті K ;
++Ter:%>ӧдз K ;
++Apr+Ine:%>ланьын K ;  ! New cases in last grammar  
++Apr+Ela:%>ланьысь K ;  ! 
++Apr+Ill:%>ланьӧ K ; ! 
++Apr+Egr:%>ланьсянь K ; ! 
++Apr+Prl:%>ланьӧд K ; !
++Apr+Tra:%>ланьті K ; !       
++Apr+Ter:%>ланьӧдз K ; ! 
 
 
 LEXICON PRON-PERS-PL1-ACC
