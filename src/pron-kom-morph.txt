@@ -5,7 +5,9 @@
 ! Closed class personal pronouns
 ! ------------------------------
 
-LEXICON PERSPRON
+LEXICON PERS
+! +Err: # ;
+
 ! Nominative
 ме+Pron+Pers+Sg1+Nom: K ;
 тэ+Pron+Pers+Sg2+Nom: K ;
@@ -42,8 +44,6 @@ LEXICON PERSPRON
 на+Pron+Pers+Pl3: PL-PersPron-Obl-Cx ;
 
 
-! LEXICON PERS
-! +Err: # ;
 ! 
 ! LEXICON REL
 ! +Err: # ;
