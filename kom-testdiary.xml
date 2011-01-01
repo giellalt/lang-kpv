@@ -30,6 +30,7 @@
 wikipedia.txt (Single Wikipedia article)
 Test    Wftot Wf-tkn %-recall Tytot  Wf-typ %-recall
 090824   82       52   63.4 %    61      32   52.4 %
+110101   82       63   76.8 %    61      42   68.9 %
 
 tsypanov.txt 
 Test     Wftot Wf-tkn %-recall Tytot  Wf-typ %-recall
@@ -70,7 +71,7 @@ Wftot:
 cat filename | preprocess | wc -l
 
 Non_recognised_wf:
-cat filename | preprocess | lookup -flags mbTT -utf8 bin/kom.fst
+cat filename | preprocess | lookup -flags mbTT -utf8 bin/kom.fst \
  | grep '\?' | grep -v CLB | wc -l
 
 Wf-tkn = Wftot - Non_recognised_wf
