@@ -119,8 +119,8 @@ QUANT ;
 V ;
 V-INST ;
 V-REFL ;
-VNEG ;
 
+!VNEG ; ! Not in use. Use VERBNEGATIVE.
 VERBNEGATIVE ; ! Closed class
 
 
@@ -153,7 +153,7 @@ LEXICON End2 ! perhaps adv, perhaps not.
 ADVTAG ;
 
 LEXICON ADVTAG ! these are checked as advs.
-+Adv: COMPARATIVE ;
++Adv: COMPARATIVE ;
 
 LEXICON EndConj
 +CC: # ;
