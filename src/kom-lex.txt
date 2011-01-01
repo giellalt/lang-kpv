@@ -23,6 +23,7 @@ Multichar_Symbols
 +Acc +Ins +Ine +Ill 
 +Ela +Car +Egr +Tra  +Apr +Ter
 +Abe +Prl
++Compar ! comparative as opposed to superlative
 !+Adc  ! not in use!
 +HabObj
 +Instr
@@ -36,7 +37,7 @@ Multichar_Symbols
 +Card
 +Cns ! Consecutive -la
 +Coll
-+Comp
++Comp ! Case form sya
 
 +Det ! determiner like уна 'many'. Look at this.
 
@@ -152,7 +153,7 @@ LEXICON End2 ! perhaps adv, perhaps not.
 ADVTAG ;
 
 LEXICON ADVTAG ! these are checked as advs.
-+Adv: K ; 
++Adv: COMPARATIVE ;
 
 LEXICON EndConj
 +CC: # ;
@@ -205,6 +206,11 @@ LEXICON CONJ-ADVERSATIVE
 
 LEXICON CONJ-NEG
 +Err: # ;
+
+LEXICON COMPARATIVE
++Err: # ;
+K ;
++Compar:%>джык K ;
 
 LEXICON N-ABSTR
 +Err: # ;
