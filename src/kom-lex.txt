@@ -88,22 +88,15 @@ A-SUPERL ;
 PRON ;
 PRON-INDEF ;
 A ;
-AD-A ;
 ADV ;
 ADVROOT ;
-ATTR ;
 CONJ ;
-CONJ-ADVERSATIVE ;
-CONJ-NEG ;
 GER ;
 IDIOM ;
 INTERJ ;
 N ;
-N-ABSTR ;
 NUM ;
 PART ;
-PART-INTER ;
-PART-NEG ;
 PART-ONOM ;
 PERS ; ! closed class
 POSTP ;
@@ -115,7 +108,6 @@ PRON-Q ;
 PRON-REFL ;
 PRON-REL ;
 PROP ;
-QUANT ;
 V ;
 V-INST ;
 V-REFL ;
@@ -195,32 +187,8 @@ LEXICON ADV-SUPERL
 +Adv+Superl: # ;
 
 
-LEXICON AD-A
-+Err: # ;
-
-LEXICON ATTR
-+Err: # ;
-
-LEXICON CONJ-ADVERSATIVE
-+Err: # ;
-
-LEXICON CONJ-NEG
-+Err: # ;
-
 LEXICON COMPARATIVE
 +Err: # ;
 K ;
 +Compar:%>джык K ;
-
-LEXICON N-ABSTR
-+Err: # ;
-
-LEXICON PART-INTER
-+Err: # ;
-
-LEXICON PART-NEG
-+Err: # ;
-
-LEXICON QUANT
-+Err: # ;
 
