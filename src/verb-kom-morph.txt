@@ -45,11 +45,17 @@ LEXICON Verb3 ! ярмыны. Ending in -ыны.
 +V:  VerbConj ; ! check this!!!
 +V+Inf:%>ыны K ;
 
+
+
+! Stray verb forms
+
 LEXICON VerbPRT ! one verb, вӧвны
  Verb1 ;
 
-
-
+LEXICON EMYSHT ! эмышт "is a little / are a few"
+ +V+Ind+Prs+Sg3: # ;
+ +V+Ind+Prs+Pl3: # ;
+ 
 LEXICON GER ! 3 lexicalised +Ger forms.
 +V+Ger: # ;
 
