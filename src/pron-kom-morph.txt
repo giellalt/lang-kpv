@@ -70,7 +70,7 @@ LEXICON perssg
 +Cns:ла # ;
 +Ine:ын # ;
 +Ela:ӧ # ; !This is questioned in the 2000 Grammar
-!+:ысь # ; !Исх Px required
++Abl:ысь # ; !
 +Apr:лань # ;
 +Egr:сянь # ;
 +Prl:ӧд # ;
@@ -185,6 +185,19 @@ LEXICON persplobl
  
 LEXICON PRONINDEFTAG
 +Pron+Indef: # ;
+
+!!LEXICON PRONINDEF-PERS-KO
+!!+Nom: PRONINDEF-PERS-KO-END ;
+!!+Acc:%>ӧс PRONINDEF-PERS-KO-END ;
+!!+Gen:%>лӧн PRONINDEF-PERS-KO-END ;
+!!+Dat:%>лы PRONINDEF-PERS-KO-END ;
+!!!!+Acc:%>ӧс PRONINDEF-PERS-KO-END ;
+
+!!LEXICON PRONINDEF-PERS-KO-END
+!!+Prt:%>кӧ # ;
+
+!!LEXICON PRONINDEF-PERS-SJURO
+!!:%>сюрӧ # ;
 
 LEXICON PRON-REL
 +Pron+Rel: # ;
