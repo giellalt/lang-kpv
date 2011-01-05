@@ -29,6 +29,7 @@ Multichar_Symbols
 +Instr
 +Superl
 +ACR +ABBR
++Cmpl ! complement of postpostion
 
 +Refl +Rel +Interr +Recipr
 
@@ -163,6 +164,9 @@ LEXICON PO-PROL
 
 LEXICON PO-TRA
 +Po+Tra: PO-PX ;
+
+LEXICON PO-TERM
++Po+Term: PO-PX ;
 
 LEXICON PO-PX
  # ;
