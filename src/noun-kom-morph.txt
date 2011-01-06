@@ -21,6 +21,12 @@ LEXICON Prop ! Basic nouns.
 LEXICON Prop-Sur-Mal ! Basic nouns.
 +N+Prop+Sur+Mal+Sg: CASEPOSSLEX ;
 
+LEXICON Prop-Mal ! Male given names
++N+Prop+Mal+Sg: CASEPOSSLEX ;
+
+LEXICON Prop-Fem ! Female given names
++N+Prop+Fem+Sg: CASEPOSSLEX ;
+
 LEXICON Noun1 ! Basic nouns.
 +N+Sg: CASEPOSSLEX ;
 +N+Pl:%>ъяс CASEPOSSLEX ;
