@@ -9,7 +9,7 @@
 
 
 LEXICON Adj
-+A: PredMonLex ;
++A: AdjCompar ;
 
 ! ===== !
 ! Nouns !
@@ -306,10 +306,15 @@ LEXICON CASEPOSSLEX
 
 
 LEXICON DERIVEDADJ
-+IneMod:%>са PredMonLex ;     
-+AbeMod:%>тӧм PredMonLex ;
-+HabObjMod:%>а PredMonLex ;
-+TempMod:%>ся PredMonLex ;     
++IneMod:%>са AdjCompar ;     
++AbeMod:%>тӧм AdjCompar ;
++HabObjMod:%>а AdjCompar ;
++TempMod:%>ся AdjCompar ;     
+
+LEXICON AdjCompar
+PredMonLex ;
++Compar:%>джык PredMonLex ;
+
 
 LEXICON PredMonLex
  K ;      ! Singular predicative
