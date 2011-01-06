@@ -18,6 +18,9 @@ LEXICON Adj
 LEXICON Prop ! Basic nouns.
 +N+Prop+Sg: CASEPOSSLEX ;
 
+LEXICON Prop-Sur-Mal ! Basic nouns.
++N+Prop+Sur+Mal+Sg: CASEPOSSLEX ;
+
 LEXICON Noun1 ! Basic nouns.
 +N+Sg: CASEPOSSLEX ;
 +N+Pl:%>ъяс CASEPOSSLEX ;
