@@ -33,12 +33,12 @@ LEXICON VERBNEGATIVE
 ! ----------------
 
 
-LEXICON Verb1 ! яйсявны,  в - л change
+LEXICON Verb1 ! яйсявны,  в - л change кывны кылан
 +V:  VerbConj ;
 +V+Inf:%>ны K ;
 
 LEXICON Verb2 ! янӧдны, контролируйтны. Ending in -дны, -тны.
-+V:  VerbConj ;
++V:  VerbConj ; кывны - кыван
 +V+Inf:%>ны K ;
 
 LEXICON Verb3 ! ярмыны. Ending in -ыны.
@@ -49,8 +49,8 @@ LEXICON Verb3 ! ярмыны. Ending in -ыны.
 
 ! Stray verb forms
 
-LEXICON VerbPRT ! one verb, вӧвны
- Verb1 ;
+LEXICON VerbPRT ! one verb, вӧвны 
+ +V: preterite ;
 
 LEXICON EMYSHT ! эмышт "is a little / are a few"
  +V+Ind+Prs+Sg3: # ;
@@ -71,21 +71,33 @@ LEXICON VerbConj
  Non-finiteforms ;
 
 LEXICON Finiteforms  ! Gives linking vowels for 3 tenses
-+Ind+Fut:%>а PresPret1 ; ! 1,2  Future
+present ;
+future ;
+preterite ;
+imperative ;
+
+LEXICON present
 +Ind+Prs:%>а PresPret1 ; ! 1,2  Present
-+Ind+Prt1:%>і PresPret1 ; ! 1,2  Preterite1. і и variation?
-+Ind+Fut:%>ас PresPret1-SgPl3 ; ! 3 PresPret1-SgPl3   
 +Ind+Prs:%>ӧ PresPret1-SgPl3 ; ! 3
+
+LEXICON future
++Ind+Fut:%>а PresPret1 ; ! 1,2  Future
++Ind+Fut:%>ас PresPret1-SgPl3 ; ! 3 PresPret1-SgPl3   
+
+LEXICON preterite
++Ind+Prt1:%>і PresPret1 ; ! 1,2  Preterite1. і и variation?
 +Ind+Prt1:%>і P3 ; ! 3 
 +Ind+Prt2:%>ӧм Pret2a ;
+
+LEXICON imperative
 +Imp+Sg2: #;
 +Imp+Pl2:%>ӧй #;
 
 LEXICON Non-finiteforms
 ! Page 346 in the Komi grammar
-+MYST:%>мысьт K ;
-+MYS:%>мысь K ;
-+IG:%>іг K ;
++MYST:%>мысьт K ; ! gerund (after the action)
++MYS:%>мысь K ; !
++IG:%>іг K ; ! gerund (at the same time as the action)
 !352 Pl
 +IG+Pl:%>ігъяс K ;
 +IG+Pl+Ill:%>ігъясӧ K ;
