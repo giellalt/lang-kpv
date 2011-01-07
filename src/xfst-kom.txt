@@ -107,8 +107,15 @@ define HardMarkDeletion ъ -> 0 || [ Vow (й) | ь ] %> _ ;
 
 
 
+! define VowelPalatalisation  а -> я, о -> ё, у -> ю  || 
+!                            [~[ [ з | ч ] | д з ]] [ ь | й ] Vow* %> _ ;
+! This VowelPalatalisation looks fishy. Why Vow* ?? We tentatively
+! We remove the Vow, suspecting it has worked so far with * - as - zero
+! as value, i.e. without vowel. The rule gave йи%>a ==> *йия pro йиа
+
 define VowelPalatalisation  а -> я, о -> ё, у -> ю  || 
-                            [~[ [ з | ч ] | д з ]] [ ь | й ] Vow* %> _ ;
+                            [~[ [ з | ч ] | д з ]] [ ь | й ] %> _ ;
+
 
 define iPalatalisation і -> и || [ Vow | CnsBeforeCyri | ь | д з ] %> _ ;
 
