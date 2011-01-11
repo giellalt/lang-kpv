@@ -100,7 +100,7 @@ define dDeletion д -> 0 || д _ [ь | з]  [ .#. | %> Cns ] ;
   
 define WeakVowDeletion ы -> 0 || \[ н ы ] _ %> Vow ;
  ! anything but "ny" may preceede the deleted segment.
- ! Consider this: "ы:0" ы:0 <=> V1: + C:* _ %+: V1 ;
+ ! Consider this: "ы:0" ы:0 <=> V1: + Cns:* _ %+: V1 ;
 
 define HardMarkDeletion ъ -> 0 || [ Vow (й) | ь ] %> _ ;
  
