@@ -10,7 +10,8 @@
 
 LEXICON Adj
 +A: AdjCompar ;
-+Adv:%>а # ;
+!This may require placement elsewhere; manner adverbs can be derived from derived adjectives. That will mean +A+Adv marking
++Adv:%>а # ; 
 
 ! ===== !
 ! Nouns !
@@ -88,7 +89,7 @@ LEXICON CASEPOSSLEX
 +Car:%>тӧг K ;
 +Cns:%>ла K ;
 +Comp:%>ся K ;
-+Ine:%>ын K ;
++Ine:%>ын PredMonLex ;
 +Ela:%>ысь K ;
 +Ill:%>ӧ K ;
 +Apr:%>лань K ;
