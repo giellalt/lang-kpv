@@ -77,6 +77,10 @@ LEXICON ACRONDELIMITER
 !
 
 LEXICON CASEPOSSLEX
++A: DERIVEDADJ ;    ! Deriving prenominal adjectives, республикаса
+CASEPOSSLEX-afterDerivation ;
+
+LEXICON CASEPOSSLEX-afterDerivation
 +Nom: K ;
 +Acc: K ;
 +Gen:%>лӧн K ;
@@ -302,7 +306,6 @@ LEXICON CASEPOSSLEX
 +Apr+Tra+PxPl3:%>ланьтіныс K ;
 +Apr+Ter+PxPl3:%>ланьӧдзныс K ;
 
-+A: DERIVEDADJ ;    ! Deriving prenominal adjectives, республикаса
 
 
 
@@ -315,7 +318,10 @@ LEXICON DERIVEDADJ
 LEXICON AdjCompar
 PredMonLex ;
 +Compar:%>джык PredMonLex ;
-Noun1 ; !This is for adjectives without nouns
++N+Sg: CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
++N+Pl:%>ъяс CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
+
+
 
 LEXICON PredMonLex
  K ;      ! Singular predicative
