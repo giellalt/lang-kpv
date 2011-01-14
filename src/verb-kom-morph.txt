@@ -56,6 +56,10 @@ LEXICON Verb2 ! янӧдны, контролируйтны. Ending in -дны, -
 LEXICON Verb3 ! ярмыны. Ending in -ыны.
 +V:  VerbConj ; ! check this!!!
 +V+Inf:%>ыны K ;
++V+Der/лыны+V:%>лы VerbConj ; ! мынтылыны - мынтылан
++V+Der/лыны+V+Inf:%>лыны ;
++V+Der/ывлыны+V:%>ывлы VerbConj ; ! мынтывлыны - мынтывлан
++V+Der/ывлыны+V+Inf:%>ывлыны ;
 
 
 
