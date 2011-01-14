@@ -48,6 +48,8 @@ LEXICON Verb1 ! яйсявны,  в - л change кывны кылан
 LEXICON Verb2 ! янӧдны, контролируйтны. Ending in -дны, -тны.
 +V:  VerbConj ; ! кывны - кыван
 +V+Inf:%>ны K ;
++V+Der/лыны+V:%>лы VerbConj ; ! босьтлыны - босьтлан
++V+Der/лыны+V+Inf:%>лыны ;
 
 LEXICON Verb3 ! ярмыны. Ending in -ыны.
 +V:  VerbConj ; ! check this!!!
