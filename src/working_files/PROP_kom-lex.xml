@@ -44,7 +44,7 @@
       <contlex>Prop</contlex>
       <pos>PROP</pos>
       <article>
-         <isa>country</isa>
+         <isa>continent</isa>
          <eng>
             <choice>
                <variant>Asia</variant>
@@ -76,13 +76,33 @@
          </fin>
       </article>
    </entry>
+<entry>
+    <lemma>Европа</lemma>
+    <stem/>
+    <contlex>Prop</contlex>
+    <pos>N</pos>
+    <article>
+         <isa>continent</isa>
+      <eng>
+        <choice>
+          <variant>Europe</variant>
+        </choice>
+      </eng>
+      <fin>
+        <choice>
+          <variant>Eurooppa</variant>
+        </choice>
+      </fin>
+    </article>
+  </entry>
+
    <entry>
-      <lemma>Сибыр</lemma>
+      <lemma>Сибир</lemma>
       <stem/>
       <contlex>Prop</contlex>
       <pos>PROP</pos>
       <article>
-         <isa>country</isa>
+         <isa>region</isa>
          <eng>
             <choice>
                <variant>Siberia</variant>
@@ -134,7 +154,7 @@
       </article>
    </entry>
    <entry>
-      <lemma>Абхазияса</lemma>
+      <lemma>Абхазия</lemma>
       <stem/>
       <contlex>Prop</contlex>
       <pos>PROP</pos>
@@ -142,7 +162,7 @@
          <isa>country</isa>
          <eng>
             <choice>
-               <variant>ABkhazia</variant>
+               <variant>Abkhazia</variant>
             </choice>
          </eng>
          <fin>
@@ -152,6 +172,113 @@
          </fin>
       </article>
    </entry>
+<entry>
+    <lemma>Болгария</lemma>
+    <stem/>
+    <contlex>Prop</contlex>
+    <pos>N</pos>
+    <article>
+         <isa>country</isa>
+      <eng>
+        <choice>
+          <variant>Bulgaria</variant>
+        </choice>
+      </eng>
+      <fin>
+        <choice>
+          <variant>Bulgaria</variant>
+        </choice>
+      </fin>
+    </article>
+  </entry>
+
+<entry>
+    <lemma>Архангельск_область</lemma>
+    <stem/>
+    <contlex>Prop</contlex>
+    <pos>N</pos>
+    <article>
+      <SPELL>-syt</SPELL>
+         <isa>oblast</isa>
+      <eng>
+        <choice>
+          <variant>Archangel Oblast</variant>
+        </choice>
+      </eng>
+      <fin>
+        <choice>
+          <variant/>
+        </choice>
+      </fin>
+      <cf>
+        <choice>
+          <variant/>
+        </choice>
+      </cf>
+    </article>
+  </entry>
+
+<entry>
+    <lemma>Ижевск</lemma>
+    <stem/>
+    <contlex>Prop</contlex>
+    <pos>N</pos>
+    <article>
+         <isa>city</isa>
+      <eng>
+        <choice>
+          <variant/>
+        </choice>
+      </eng>
+      <fin>
+        <choice>
+          <variant/>
+        </choice>
+      </fin>
+      <see>Ижкар</see>
+    </article>
+  </entry>
+
+<entry>
+    <lemma>Карелия</lemma>
+    <stem/>
+    <contlex>Prop</contlex>
+    <pos>N</pos>
+    <article>
+      <eng>
+        <choice>
+          <variant>Karelia</variant>
+        </choice>
+      </eng>
+      <dom>TOPON</dom>
+      <fin>
+        <choice>
+          <variant>Karjala</variant>
+        </choice>
+      </fin>
+    </article>
+  </entry>
+
+<entry>
+    <lemma>Коми_республика</lemma>
+    <stem/>
+    <contlex>Prop</contlex>
+    <pos>N</pos>
+    <article>
+         <isa>republic</isa>
+      <eng>
+        <choice>
+          <variant>The Komi Republic</variant>
+        </choice>
+      </eng>
+      <fin>
+        <choice>
+          <variant>Komin tasavalta</variant>
+        </choice>
+      </fin>
+    </article>
+  </entry>
+
    <entry>
       <lemma>Краснодар</lemma>
       <stem/>
@@ -171,6 +298,105 @@
          </fin>
       </article>
    </entry>
+
+<entry>
+    <lemma>Москва</lemma>
+    <stem/>
+    <contlex>Prop</contlex>
+    <pos>N</pos>
+    <article>
+         <isa>city</isa>
+      <eng>
+        <choice>
+          <variant/>
+        </choice>
+      </eng>
+      <fin>
+        <choice>
+          <variant/>
+        </choice>
+      </fin>
+      <see>
+        <choice>
+          <variant>Мӧскуа</variant>
+          <variant>Канкар</variant>
+        </choice>
+      </see>
+    </article>
+  </entry>
+
+<entry>
+    <lemma>Москва_область</lemma>
+    <stem/>
+    <contlex>Prop</contlex>
+    <pos>N</pos>
+    <article>
+      <SPELL>-syt</SPELL>
+         <isa>oblast</isa>
+      <eng>
+        <choice>
+          <variant>Moscow Oblast</variant>
+        </choice>
+      </eng>
+      <fin>
+        <choice>
+          <variant/>
+        </choice>
+      </fin>
+      <cf>
+        <choice>
+          <variant/>
+        </choice>
+      </cf>
+    </article>
+  </entry>
+
+<entry>
+    <lemma>Мӧскуа</lemma>
+    <stem/>
+    <contlex>Prop</contlex>
+    <pos>N</pos>
+    <article>
+         <isa>city</isa>
+      <eng>
+        <choice>
+          <variant>Moscow</variant>
+        </choice>
+      </eng>
+      <fin>
+        <choice>
+          <variant>Moskova</variant>
+        </choice>
+      </fin>
+      <cf>
+        <choice>
+          <variant>Канкар</variant>
+        </choice>
+      </cf>
+    </article>
+  </entry>
+
+<entry>
+    <lemma>Петербург</lemma>
+    <stem/>
+    <contlex>Prop</contlex>
+    <pos>N</pos>
+    <article>
+         <isa>city</isa>
+      <eng>
+        <choice>
+          <variant>Saint-Petersburg</variant>
+        </choice>
+      </eng>
+      <fin>
+        <choice>
+          <variant>Pietari</variant>
+        </choice>
+      </fin>
+      <syno>Питир</syno>
+    </article>
+  </entry>
+
    <entry>
       <lemma>Миссисипи</lemma>
       <stem/>
@@ -190,6 +416,115 @@
          </fin>
       </article>
    </entry>
+<entry>
+    <lemma>Печора_вож</lemma>
+    <stem/>
+    <contlex>Prop</contlex>
+    <pos>N</pos>
+    <article>
+         <isa>river basin</isa>
+      <eng>
+        <choice>
+          <variant>the Pechora Basin</variant>
+        </choice>
+      </eng>
+      <fin>
+        <choice>
+          <variant>Pechoran allas</variant>
+        </choice>
+      </fin>
+    </article>
+  </entry>
+
+<entry>
+    <lemma>Юрйыв_кодзув</lemma>
+    <stem>Юрйыв_кодзул</stem>
+    <contlex>Prop</contlex>
+    <pos>N</pos>
+    <article>
+         <isa>star</isa>
+      <eng>
+        <choice>
+          <variant>North Star</variant>
+        </choice>
+      </eng>
+      <dom>ASTR</dom>
+      <fin>
+        <choice>
+          <variant>pohjantähti</variant>
+        </choice>
+      </fin>
+      <cf>
+        <choice>
+          <variant/>
+        </choice>
+      </cf>
+    </article>
+  </entry>
+
+<entry>
+    <lemma>Ямал_кӧдж</lemma>
+    <stem/>
+    <contlex>Prop</contlex>
+    <pos>N</pos>
+    <article>
+         <isa>peninsula</isa>
+      <eng>
+        <choice>
+          <variant>Yamal Peninsula</variant>
+        </choice>
+      </eng>
+      <fin>
+        <choice>
+          <variant>Jamalinniemimaa</variant>
+        </choice>
+      </fin>
+    </article>
+  </entry>
+
+<entry>
+    <lemma>Великӧй_Отечественнӧй_война</lemma>
+    <stem/>
+    <contlex>Prop</contlex>
+    <pos>N</pos>
+    <article>
+      <eng>
+        <choice>
+          <variant>the Great Patriotic War (1941-45)</variant>
+        </choice>
+      </eng>
+      <fin>
+        <choice>
+          <variant>suuri isänmaallinen sota (1941-45)</variant>
+        </choice>
+      </fin>
+      <pro>
+        <choice>
+          <variant/>
+        </choice>
+      </pro>
+    </article>
+  </entry>
+
+<entry>
+    <lemma>Библия</lemma>
+    <stem/>
+    <contlex>Prop</contlex>
+    <pos>N</pos>
+    <article>
+      <eng>
+        <choice>
+          <variant>Bible</variant>
+        </choice>
+      </eng>
+      <fin>
+        <choice>
+          <variant>Raamattu</variant>
+        </choice>
+      </fin>
+    </article>
+  </entry>
+
    <entry>
       <lemma>Куратов</lemma>
       <stem/>
@@ -6280,6 +6615,35 @@
          </syno>
       </article>
    </entry>
+
+<entry>
+    <lemma>СНГ</lemma>
+    <stem/>
+    <contlex>ACRON</contlex>
+    <pos>PROP</pos>
+    <article>
+      <acron>содружество_независимых_государств</acron>
+      <isa/>
+      <eng>
+        <choice>
+          <variant>CIS</variant>
+          <variant>Commonwealth of Independent States</variant>
+        </choice>
+      </eng>
+      <fin>
+        <choice>
+          <variant>IVY</variant>
+          <variant>Itsenäisten Valtioiden ??Yhteisö</variant>
+        </choice>
+      </fin>
+      <cf>
+        <choice>
+          <variant>??Асшӧра Канмуяслӧн ??Эмбур Ӧтувъяин</variant>
+        </choice>
+      </cf>
+    </article>
+  </entry>
+
    <entry>
       <lemma>Сталин</lemma>
       <stem/>
