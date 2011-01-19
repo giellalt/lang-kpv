@@ -44,18 +44,21 @@ LEXICON VERBNEGATIVE
 LEXICON Verb1 ! яйсявны,  в - л change кывны кылан
 +V:  VerbConj ;
 +V+Inf:%>ны K ;
++V+ConNeg: # ;
 +V+Der/лыны+V:%>лы VerbConj ; ! ньӧбавлыны - ньӧбавлан
 +V+Der/лыны+V+Inf:%>лыны # ;
 
 LEXICON Verb2 ! янӧдны, контролируйтны. Ending in -дны, -тны.
 +V:  VerbConj ; ! кывны - кыван
 +V+Inf:%>ны K ;
++V+ConNeg: # ;
 +V+Der/лыны+V:%>лы VerbConj ; ! босьтлыны - босьтлан
 +V+Der/лыны+V+Inf:%>лыны # ;
 
 LEXICON Verb3 ! ярмыны. Ending in -ыны.
 +V:  VerbConj ; ! check this!!!
 +V+Inf:%>ыны K ;
++V+ConNeg: # ;
 +V+Der/лыны+V:%>лы VerbConj ; ! мынтылыны - мынтылан
 +V+Der/лыны+V+Inf:%>лыны # ;
 +V+Der/ывлыны+V:%>ывлы VerbConj ; ! мынтывлыны - мынтывлан
