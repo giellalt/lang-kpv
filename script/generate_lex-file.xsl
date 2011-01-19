@@ -55,7 +55,8 @@
 		<out>	
 		  <!-- this might have to be refined: too underspecified as for preceding::lemma-stem combinations -->
 		  <xsl:for-each select="./dict/entry[not(contains(./lemma/text(), $us))]
-					[not(./lemma = preceding::entry/lemma and ./stem = preceding::entry/stem)]">
+					[not(./lemma = preceding::entry/lemma and ./stem = preceding::entry/stem)]
+					[not(./@exclude='fst')]">
 		    <e>
 		      <xsl:attribute name="stem">
 			<xsl:value-of select="normalize-space(./stem)"/>
