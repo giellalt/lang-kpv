@@ -48,8 +48,6 @@
 <!-- 	    <xsl:when test="doc-available(.)"> -->
 
 	      <xsl:variable name="file_name" select="substring-before(tokenize(document-uri(.), '/')[last()], '.xml')"/>
-
-	      
 	      
 	      <xsl:variable name="out">
 		<out>	
@@ -74,23 +72,18 @@
 		    </e>
 		  </xsl:for-each>
 		</out>
-		
 	      </xsl:variable>
 	      
-	      <xsl:result-document href="{$outDir}/{$file_name}.{$of}" format="{$of}">
-		
-	      <xsl:variable name="lex_name" select="substring-before($file_name, '_')"/>
-
-		<xsl:value-of select="concat('LEXICON', $spc, $lex_name, $nl, $nl)"/>
-
-		<xsl:for-each select="$out/out/e">
-		  <xsl:value-of select="if (./@stem = '') then concat(., $spc, ./@cl, $spc, $spc, $qm, ./@t, $qm, $spc, $scl, $nl)
-					else concat(., $cl, ./@stem, $spc, ./@cl, $spc, $spc, $qm, ./@t, $qm, $spc, $scl, $nl)"/>
-		</xsl:for-each>
-
-
-
-	      </xsl:result-document>
+	      <xsl:if test="$out/out/e">
+		<xsl:result-document href="{$outDir}/{$file_name}.{$of}" format="{$of}">
+		  <xsl:variable name="lex_name" select="substring-before($file_name, '_')"/>
+		  <xsl:value-of select="concat('LEXICON', $spc, $lex_name, $nl, $nl)"/>
+		  <xsl:for-each select="$out/out/e">
+		    <xsl:value-of select="if (./@stem = '') then concat(., $spc, ./@cl, $spc, $spc, $qm, ./@t, $qm, $spc, $scl, $nl)
+					  else concat(., $cl, ./@stem, $spc, ./@cl, $spc, $spc, $qm, ./@t, $qm, $spc, $scl, $nl)"/>
+		  </xsl:for-each>
+		</xsl:result-document>
+	      </xsl:if>
 	      
 <!-- 	    </xsl:when> -->
 <!-- 	    <xsl:otherwise> -->
