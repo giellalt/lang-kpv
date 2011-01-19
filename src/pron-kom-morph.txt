@@ -20,6 +20,7 @@ LEXICON perssg1decl
 +Abl:менсьым # ;
 +Dat:меным # ;
 +Dat:мем # ;
++Dat:мен # ;
 +Acc:менӧ # ;
 :ме perssg ; ! for the regular obl sg
 
@@ -190,6 +191,22 @@ LEXICON persplobl
 LEXICON PRONINDEFTAG
 +Pron+Indef: # ;
 
+LEXICON PRONINDEFTAG-KO
++Pron+Indef: PRONINDEF-PERS-KO-CX ;
+
+LEXICON PRONINDEF-PERS-KO-CX
++Nom: PRONINDEF-PERS-KO-END ;
++Acc:%>ӧс PRONINDEF-PERS-KO-END ;
++Gen:%>лӧн PRONINDEF-PERS-KO-END ;
++Dat:%>лы PRONINDEF-PERS-KO-END ;
+
+LEXICON PRONINDEF-PERS-KO-END
++Der/кӧ:%>кӧ # ;
+
+
+!!LEXICON PRONINDEF-PERS-END
+!!+Der/сюрӧ:%>сюрӧ # ;
+
 !!LEXICON PRONINDEF-PERS-KO
 !!+Nom: PRONINDEF-PERS-KO-END ;
 !!+Acc:%>ӧс PRONINDEF-PERS-KO-END ;
@@ -197,8 +214,7 @@ LEXICON PRONINDEFTAG
 !!+Dat:%>лы PRONINDEF-PERS-KO-END ;
 !!!!+Acc:%>ӧс PRONINDEF-PERS-KO-END ;
 
-!!LEXICON PRONINDEF-PERS-KO-END
-!!+Prt:%>кӧ # ;
+
 
 !!LEXICON PRONINDEF-PERS-SJURO
 !!:%>сюрӧ # ;
