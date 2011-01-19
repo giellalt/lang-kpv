@@ -111,7 +111,17 @@ define WeakVowDeletion ы -> 0 || \[ н ы ] _ %> Vow ;
  ! b) _ 0 ="+Imp+Sg2"
  ! c) _ 0 ="CONNEG"
  
- 
+! Working around й%>а => ъя
+! We need й -> ъ
+! We need а -> я
+! Look at VowelPalatalisation, below
+! Environment: || [~[ [ з | ч ] | д з ]] [ ь | й ] %> _ ;
+! How does this deal with й -> ъ change
+! кывъя кыв+N+Der/а+A stem кывъ
+! кӧсъя кӧсйыны+V+Ind+Prs+Sg1, кӧсйыны+V+Ind+Fut+Sg1
+
+
+
 
 define HardMarkDeletion ъ -> 0 || [ Vow (й) | ь ] %> _ ;
  
