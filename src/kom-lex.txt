@@ -152,20 +152,27 @@ VERBNEGATIVE ; ! verb-kom-morph.txt
 !LEXICON POSTP1a
 !+Po: # ;
 ! these are:
-! мында, ногӧн, серти, вӧсна, выйӧн
+! ногӧн, выйӧн
 
 LEXICON POSTP1
-+Po: # ;
+PO-COMP ;
+PO-EGR ;
+PO-ILL ;
+PO-INE ;
+PO-INSTR ;
+PO-PROL ;
+PO-TRA ;
 ! these are: 
-! аддза, бӧрся, бӧрті, бокиті, боксянь, вöсна, дырйи, гырся, йитӧдын, кежлӧ, 
+! аддза, бӧрті, бокиті, боксянь, вöсна, дырйи, йитӧдын, 
 ! кындзи, кузя, мысьт, моз, ног, ньылыд, паныдӧн, пӧлӧн, пыдди, пыр, понда, 
 ! ради, уліті, выліті, вывті, вомас, вомӧн
 
 LEXICON PO-COMP
-+Po+Comp: PO-PX ;
++Po+Comp:%>ся PO-PX ;
+! бӧрся, гырся
 
 LEXICON PO-EGR
-+Po+Egr: PO-PX ;
++Po+Egr:%>сянь PO-PX ;
 
 !LEXICON PO-ELA
 !+Po+Ela: PO-PX ;
@@ -178,6 +185,7 @@ LEXICON PO-ILL
 +Po+Ill+Pl2:%>аныд K ;
 +Po+Ill+Sg3:%>ас K ;
 +Po+Ill+Pl3:%>аныс K ;
+! кежлӧ, 
 
 LEXICON PO-INE
 +Po+Ine:%>ын K ;
@@ -216,16 +224,17 @@ LEXICON PO-TRA
 +Po+Tra+Pl3:%>тіныс K ;
 
 !LEXICON PO-TERM
-!+Po+Term: PO-PX ;
+!+Po+Term:%>ӧдз PO-PX ;
 
 LEXICON PO-PX
- # ;
-+Sg1:ӧй # ;
-+Sg2:ыд # ;
-+Sg3:ыс # ;
-+Pl1:ным # ;
-+Pl2:ныд # ;
-+Pl3:ныс # ;
++Po: # ;
++Po+Sg1:ӧй # ;
++Po+Sg2:ыд # ;
++Po+Sg3:ыс # ;
++Po+Pl1:ным # ;
++Po+Pl2:ныд # ;
++Po+Pl3:ныс # ;
+! мында, серти, вӧсна, 
 
 
 ! ==================================== !
