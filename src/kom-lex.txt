@@ -170,20 +170,50 @@ LEXICON PO-EGR
 !LEXICON PO-ELA
 !+Po+Ela: PO-PX ;
 
-!LEXICON PO-ILL
-!+Po+Ill: PO-PX ;
+LEXICON PO-ILL
++Po+Ill:%>ӧ PO-PX ;
++Po+Ill+Sg1:%>ам K ;
++Po+Ill+Pl1:%>аным K ;
++Po+Ill+Sg2:%>ад K ;
++Po+Ill+Pl2:%>аныд K ;
++Po+Ill+Sg3:%>ас K ;
++Po+Ill+Pl3:%>аныс K ;
 
 LEXICON PO-INE
-+Po+Ine: PO-PX ;
++Po+Ine:%>ын K ;
++Po+Ine+Sg1:%>ам K ;
++Po+Ine+Pl1:%>аным K ;
++Po+Ine+Sg2:%>ад K ;
++Po+Ine+Pl2:%>аныд K ;
++Po+Ine+Sg3:%>ас K ;
++Po+Ine+Pl3:%>аныс K ;
 
 LEXICON PO-INSTR
-+Po+Instr: PO-PX ;
++Po+Instr:%>ӧн K ;
++Po+Instr+Sg1:%>нам K ;
++Po+Instr+Pl1:%>наным K ;
++Po+Instr+Sg2:%>над K ;
++Po+Instr+Pl2:%>наныд K ;
++Po+Instr+Sg3:%>нас K ;
++Po+Instr+Pl3:%>наныс K ;
 
-!LEXICON PO-PROL
-!+Po+Prol: PO-PX ;
+LEXICON PO-PROL
++Po+Prol:%>ӧд K ;
++Po+Prol+Sg1:%>ӧдым K ;
++Po+Prol+Pl1:%>ӧдным K ;
++Po+Prol+Sg2:%>ӧдыд K ;
++Po+Prol+Pl2:%>ӧдныд K ;
++Po+Prol+Sg3:%>ӧдыс K ;
++Po+Prol+Pl3:%>ӧдныс K ;
 
 LEXICON PO-TRA
-+Po+Tra: PO-PX ;
++Po+Tra:%>ті K ;
++Po+Tra+Sg1:%>тіым K ;
++Po+Tra+Pl1:%>тіным K ;
++Po+Tra+Sg2:%>тіыд K ;
++Po+Tra+Pl2:%>тіныд K ;
++Po+Tra+Sg3:%>тіыс K ;
++Po+Tra+Pl3:%>тіныс K ;
 
 !LEXICON PO-TERM
 !+Po+Term: PO-PX ;
