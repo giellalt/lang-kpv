@@ -64,9 +64,15 @@ Multichar_Symbols
 !+IG This will be replaced by the segments:
 !!+Der/иг+Ger!! 
 +Der/иг
+!Here we need the two sequential characters
+!+Der/ӧм+VN 
+!This, of course, implicates a discussion 
+!of the so-called gerund "ӧмӧн" +VN+Instr and
+! the combinatory +VN preceding the NP-final noun
++Der/ӧм
 ! These should be added below in derivation declarations
 !+Der/кежлӧ +Der/моз +Der/мысь +Der/мысьт 
-!+Der/ӧм +Der/тӧдз +Der/тыр +Der/тырйи 
+! +Der/тӧдз +Der/тыр +Der/тырйи 
 !+Der/ан +Der/ана +Der/анаа +Der/чӧж 
 !!Then they should have indication of whether they are gerunds or participles!!
 !!
@@ -160,6 +166,8 @@ VERBNEGATIVE ; ! verb-kom-morph.txt
 ! these are:
 ! ногӧн, выйӧн
 
+!This contlex allows for relational word which, otherwise, are open 
+!to extensive declension
 LEXICON POSTP1
 PO-COMP ;
 PO-EGR ;
