@@ -15,7 +15,9 @@ Multichar_Symbols
 +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
 +Inf
 +Pos +Neg +ConNeg
-+Ger
++Ger !Gerund This is used with
+!+Der/иг
+
 ! Used for predicate plural marking
 +Pred
 
@@ -25,7 +27,8 @@ Multichar_Symbols
 +Nom +Gen +Abl +Dat +Com 
 +Acc +Ins +Ine +Ill 
 +Ela +Car +Egr +Tra  +Apr +Ter
-+Abe +Prl
++Abe 
++Prl !Prolative "ӧд"
 +Compar ! comparative as opposed to superlative
 !+Adc  ! not in use!
 +HabObj
@@ -57,8 +60,9 @@ Multichar_Symbols
 +CHOZH
 
 +Instr
+
 !+IG This will be replaced by the segments:
-! +Der/иг+Ger 
+!!+Der/иг+Ger!! 
 +Der/иг
 ! These should be added below in derivation declarations
 !+Der/кежлӧ +Der/моз +Der/мысь +Der/мысьт 
@@ -208,13 +212,13 @@ LEXICON PO-INSTR
 +Po+Instr+Pl3:%>наныс K ;
 
 LEXICON PO-PROL
-+Po+Prol:%>ӧд K ;
-+Po+Prol+Sg1:%>ӧдым K ;
-+Po+Prol+Pl1:%>ӧдным K ;
-+Po+Prol+Sg2:%>ӧдыд K ;
-+Po+Prol+Pl2:%>ӧдныд K ;
-+Po+Prol+Sg3:%>ӧдыс K ;
-+Po+Prol+Pl3:%>ӧдныс K ;
++Po+Prl:%>ӧд K ;
++Po+Prl+Sg1:%>ӧдым K ;
++Po+Prl+Pl1:%>ӧдным K ;
++Po+Prl+Sg2:%>ӧдыд K ;
++Po+Prl+Pl2:%>ӧдныд K ;
++Po+Prl+Sg3:%>ӧдыс K ;
++Po+Prl+Pl3:%>ӧдныс K ;
 
 LEXICON PO-TRA
 +Po+Tra:%>ті K ;
