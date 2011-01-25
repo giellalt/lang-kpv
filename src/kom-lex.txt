@@ -15,6 +15,7 @@ Multichar_Symbols
 +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
 +Inf
 +Pos +Neg +ConNeg
++Ger
 ! Used for predicate plural marking
 +Pred
 
@@ -54,14 +55,15 @@ Multichar_Symbols
 +ANA
 +ANAA
 +CHOZH
-+IG
 
 +Instr
-
+!+IG This will be replaced by the segments:
+! +Der/иг+Ger 
++Der/иг
 ! These should be added below in derivation declarations
 !+Der/кежлӧ +Der/моз +Der/мысь +Der/мысьт 
 !+Der/ӧм +Der/тӧдз +Der/тыр +Der/тырйи 
-!+Der/ан +Der/ана +Der/анаа +Der/чӧж +Der/Иг
+!+Der/ан +Der/ана +Der/анаа +Der/чӧж 
 !!Then they should have indication of whether they are gerunds or participles!!
 !!
 +KEZHLO
