@@ -163,6 +163,7 @@ VERBNEGATIVE ; ! verb-kom-morph.txt
 LEXICON POSTP1
 PO-COMP ;
 PO-EGR ;
+PO-ELA ;
 PO-ILL ;
 PO-INE ;
 PO-INSTR ;
@@ -180,8 +181,14 @@ LEXICON PO-COMP
 LEXICON PO-EGR
 +Po+Egr:%>сянь PO-PX ;
 
-!LEXICON PO-ELA
-!+Po+Ela: PO-PX ;
+LEXICON PO-ELA
++Po+Ela:%>ысь K ;
++Po+Ela+PxSg1:%>сьым K ;
++Po+Ela+PxPl1:%>сьыным K ;
++Po+Ela+PxSg2:%>сьыд K ;
++Po+Ela+PxPl2:%>сьыныд K ;
++Po+Ela+PxSg3:%>сьыс K ;
++Po+Ela+PxPl3:%>сьыныс K ;
 
 LEXICON PO-ILL
 +Po+Ill:%>ӧ PO-PX ;
