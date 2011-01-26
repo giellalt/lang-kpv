@@ -98,7 +98,8 @@ define lDeletion л -> 0 || л _  ь       [ .#. | %> Cns ] ;
 define dDeletion д -> 0 || д _ [ь | з]  [ .#. | %> Cns ] ;
   ! видз
   
-define WeakVowDeletion ы -> 0 || \[ н ы ] _ %> Vow ;
+!! stopping ы -> 0 2011-01-26
+!define WeakVowDeletion ы -> 0 || \[ н ы ] _ %> Vow ;
  ! anything but "ny" may preceede the deleted segment.
  ! Consider this: "ы:0" ы:0 <=> V1: + Cns:* _ %+: V1 ;
  !! LET's remember that this should only affect verb forms
