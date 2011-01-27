@@ -123,6 +123,7 @@ define dDeletion д -> 0 || д _ [ь | з]  [ .#. | %> Cns ] ;
 
 
 
+define jaSuffixAfterJ й -> ъ || _ %> я ;
 
 define HardMarkDeletion ъ -> 0 || [ Vow (й) | ь ] %> _ ;
  
@@ -189,6 +190,8 @@ VowelPalatalisation
 iPalatalisation
 .o.
 SoftMarkDeletion
+.o.
+jaSuffixAfterJ
 .o.
 HardMarkDeletion
 .o.
