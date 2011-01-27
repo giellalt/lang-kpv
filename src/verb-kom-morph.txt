@@ -42,24 +42,30 @@ LEXICON VERBNEGATIVE
 
 
 LEXICON Verb1 ! яйсявны,  в - л change кывны кылан
-+V:  VerbConj ;
-+V+Inf:%>ны K ;
-+V+ConNeg: # ;
-+Imp+Sg2: #;
-+V+Der/лыны+V:%>л VerbConj ; ! ньӧбавлыны - ньӧбавлан
-+V+Der/лыны+V+Inf:%>лыны # ;
-+V+ConNeg:%>лы # ;
-+Imp+Sg2:%>лы #;
+Verb1-Verb2 ;
+
 
 LEXICON Verb2 ! янӧдны, контролируйтны. Ending in -дны, -тны.
+Verb1-Verb2 ;
+
+LEXICON Verb1-Verb2
 +V:  VerbConj ; ! кывны - кыван
 +V+Inf:%>ны K ;
 +V+ConNeg: # ;
-+Imp+Sg2: #;
++V+Imp+Sg2: #;
 +V+Der/лыны+V:%>л VerbConj ; ! босьтлыны - босьтлан
 +V+Der/лыны+V+Inf:%>лыны # ;
 +V+ConNeg:%>лы # ;
-+Imp+Sg2:%>лы #;
++V+Imp+Sg2:%>лы #;
++V+Der/ыштны+V:%>ышт  VerbConj ;
++V+Der/ыштны+V+Inf:%>ыштны K ;
++V+Der/ыштны+V+ConNeg:%>ышт # ;
++V+Der/ыштны+V+Imp+Sg2:%>ышт #;
+!
++V+Der/ыштны+V+Der/лыны+V:%>ыштл  VerbConj ;
++V+Der/ыштны+V+Der/лыны+V+Inf:%>ыштлыны K ;
++V+Der/ыштны+V+Der/лыны+V+ConNeg:%>ыштл # ;
++V+Der/ыштны+V+Der/лыны+V+Imp+Sg2:%>ыштл #;
 
 LEXICON Verb3 ! ярмыны. Ending in -ыны.
 +V:  VerbConj ; ! check this!!!
@@ -74,6 +80,16 @@ LEXICON Verb3 ! ярмыны. Ending in -ыны.
 +V+Der/ывлыны+V+Inf:%>ывлыны # ;
 +V+ConNeg:%>ывлы # ;
 +Imp+Sg2:%>ывлы #;
+!
++V+Der/ыштны+V:%>ышт  VerbConj ;
++V+Der/ыштны+V+Inf:%>ыштны K ;
++V+Der/ыштны+V+ConNeg:%>ышт # ;
++V+Der/ыштны+V+Imp+Sg2:%>ышт #;
+!
++V+Der/ыштны+V+Der/лыны+V:%>ыштл  VerbConj ;
++V+Der/ыштны+V+Der/лыны+V+Inf:%>ыштлыны K ;
++V+Der/ыштны+V+Der/лыны+V+ConNeg:%>ыштл # ;
++V+Der/ыштны+V+Der/лыны+V+Imp+Sg2:%>ыштл #;
 
 
 
