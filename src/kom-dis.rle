@@ -134,10 +134,29 @@ LIST TYRJI = TYRJI ;
 
 LIST CLB = CLB ; 
 LIST PUNCT = PUNCT ; 
+LIST ABBR = ABBR ;
 LIST LEFT = LEFT ; 
 LIST RIGHT = RIGHT ; 
 
+LIST CASE = Nom Gen Abl Dat Com Cns Acc Ins Ine Ill Ela Car Egr Tra Apr Ter Abe Prl ;
+
 
 SECTION
+
+
+# Cases
+SELECT Nom IF (NOT *-1 V BARRIER (","));
+
+# Pronouns
+REMOVE Interr IF (-2 N)(-1 (","))(0 Rel);
+
+# Verbs
+REMOVE ConNeg IF (NOT *-1 Neg);
+
+# и
+REMOVE ABBR IF (0 CC)(NOT 1 ("."));
+REMOVE Pcle IF (-1 N + $$CASE)(1 N + $$CASE);
+
+
 
 
