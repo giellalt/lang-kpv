@@ -52,44 +52,44 @@ LEXICON Verb1-Verb2
 +V:  VerbConj ; ! кывны - кыван
 +V+Inf:%>ны K ;
 +V+ConNeg: # ;
-+V+Imp+Sg2: #;
++V+Imp+Sg2: # ;
 +V+Der/лыны+V:%>л VerbConj ; ! босьтлыны - босьтлан
 +V+Der/лыны+V+Inf:%>лыны # ;
 +V+ConNeg:%>лы # ;
-+V+Imp+Sg2:%>лы #;
++V+Imp+Sg2:%>лы # ;
 +V+Der/ыштны+V:%>ышт  VerbConj ;
 +V+Der/ыштны+V+Inf:%>ыштны K ;
 +V+Der/ыштны+V+ConNeg:%>ышт # ;
-+V+Der/ыштны+V+Imp+Sg2:%>ышт #;
++V+Der/ыштны+V+Imp+Sg2:%>ышт # ;
 !
 +V+Der/ыштны+V+Der/лыны+V:%>ыштл  VerbConj ;
 +V+Der/ыштны+V+Der/лыны+V+Inf:%>ыштлыны K ;
-+V+Der/ыштны+V+Der/лыны+V+ConNeg:%>ыштл # ;
-+V+Der/ыштны+V+Der/лыны+V+Imp+Sg2:%>ыштл #;
++V+Der/ыштны+V+Der/лыны+V+ConNeg:%>ыштлы # ;
++V+Der/ыштны+V+Der/лыны+V+Imp+Sg2:%>ыштлы # ;
 
 LEXICON Verb3 ! ярмыны. Ending in -ыны.
 +V:  VerbConj ; ! check this!!!
 +V+Inf:%>ыны K ;
 +V+ConNeg:%>ы # ;
-+Imp+Sg2:%>ы #;
++Imp+Sg2:%>ы # ;
 +V+Der/лыны+V:%>ыл VerbConj ; ! мынтылыны - мынтылан
 +V+Der/лыны+V+Inf:%>ылыны # ;
 +V+ConNeg:%>ылы # ;
-+Imp+Sg2:%>ылы #;
++Imp+Sg2:%>ылы # ;
 +V+Der/ывлыны+V:%>ывл VerbConj ; ! мынтывлыны - мынтывлан
 +V+Der/ывлыны+V+Inf:%>ывлыны # ;
 +V+ConNeg:%>ывлы # ;
-+Imp+Sg2:%>ывлы #;
++Imp+Sg2:%>ывлы # ;
 !
 +V+Der/ыштны+V:%>ышт  VerbConj ;
 +V+Der/ыштны+V+Inf:%>ыштны K ;
 +V+Der/ыштны+V+ConNeg:%>ышт # ;
-+V+Der/ыштны+V+Imp+Sg2:%>ышт #;
++V+Der/ыштны+V+Imp+Sg2:%>ышт # ;
 !
 +V+Der/ыштны+V+Der/лыны+V:%>ыштл  VerbConj ;
 +V+Der/ыштны+V+Der/лыны+V+Inf:%>ыштлыны K ;
 +V+Der/ыштны+V+Der/лыны+V+ConNeg:%>ыштл # ;
-+V+Der/ыштны+V+Der/лыны+V+Imp+Sg2:%>ыштл #;
++V+Der/ыштны+V+Der/лыны+V+Imp+Sg2:%>ыштл # ;
 
 
 
@@ -136,8 +136,8 @@ LEXICON preterite
 +Ind+Prt2:%>ӧм Pret2a ;
 
 LEXICON imperative
-+Imp+Sg2: #;
-+Imp+Pl2:%>ӧй #;
++Imp+Sg2: # ;
++Imp+Pl2:%>ӧй # ;
 
 LEXICON Non-finiteforms
 +Der/ӧм+VN:%>ӧм Noun1 ;
