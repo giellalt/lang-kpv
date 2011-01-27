@@ -36,6 +36,7 @@ Multichar_Symbols
 +Superl
 +ACR +ABBR
 +Cmpl ! complement of postpostion
++Cmp ! first part of compound
 
 +Refl +Rel +Interr +Recipr
 
@@ -155,6 +156,11 @@ VERBNEGATIVE ; ! verb-kom-morph.txt
 ! ======================================================= !
 ! These lexica are for parts of speech without morphology !
 ! ======================================================= !
+
+! Compounding
+
+LEXICON R
+%- N ;
 
 
 
