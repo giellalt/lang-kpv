@@ -1,0 +1,11 @@
+#Sometimes it is necessary to notice unacceptable letter combinations
+#on the fly
+#The following are letter sequences that might be produced in OCR
+# but which are not acceptable in Komi orthography
+#
+##Letters that cannot follow the soft sign
+ь(ъ|э|а|і)
+##Letters that cannot follow the hard sign
+ъ(ъ|а|о|у|ы)
+##Letters that cannot preceed the Imperial "і"
+(а|я|о|ё|э|е|у|ю|і|и|ы|б|в|г|ж|й|к|м|п|р|ф|ч|и|щ|х|ш)і
