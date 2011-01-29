@@ -61,15 +61,17 @@ Multichar_Symbols
 +CHOZH
 
 +Instr
-
++Event
++Duration
 !+IG This will be replaced by the segments:
-!!+Der/иг+Ger!! 
+!!+Der/иг+Duration+Ger!! 
 +Der/иг
 !Here we need the two sequential characters
-!+Der/ӧм+VN 
+!!to replace +OM
+!+Der/ӧм+Event 
 !This, of course, implicates a discussion 
-!of the so-called gerund "ӧмӧн" +VN+Instr and
-! the combinatory +VN preceding the NP-final noun
+!of the so-called gerund "ӧмӧн" +Event+N+Instr and
+! the combinatory +Event preceding the NP-final noun
 +Der/ӧм
 ! These should be added below in derivation declarations
 !+Der/кежлӧ +Der/моз +Der/мысь +Der/мысьт 
@@ -77,14 +79,15 @@ Multichar_Symbols
 !+Der/ан +Der/ана +Der/анаа +Der/чӧж 
 !!Then they should have indication of whether they are gerunds or participles!!
 !!
++Der/тӧдз +VTer
+!!+TODZ Verbal terminative
+
 +KEZHLO
 +MOZ
 +MYS
 +MYST
-+OM
 
 +SOR
-+TODZ
 +TYR
 +TYRJI
 
@@ -102,7 +105,11 @@ Multichar_Symbols
 !Verb derivations
 +Der/лыны +Der/ывлыны
 +Der/ыштны 
-
++Dim 
+!! The +Dim is used with the V-V derivation +Der/ыштны
+!! for expressing activity of 
+!! (a) brief duration
+!! (b) small/limited proportions
 ! Declaring symbols for morphophonology
 
 к2 м2 т2 К2 М2 Т2 %>
