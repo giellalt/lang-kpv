@@ -57,15 +57,15 @@ LEXICON Verb1-Verb2
 +V+Der/лыны+V+Inf:%>лыны # ;
 +V+ConNeg:%>лы # ;
 +V+Imp+Sg2:%>лы # ;
-+V+Der/ыштны+V:%>ышт  VerbConj ;
-+V+Der/ыштны+V+Inf:%>ыштны K ;
-+V+Der/ыштны+V+ConNeg:%>ышт # ;
-+V+Der/ыштны+V+Imp+Sg2:%>ышт # ;
++V+Der/ыштны+Dim+V:%>ышт  VerbConj ;
++V+Der/ыштны+Dim+V+Inf:%>ыштны K ;
++V+Der/ыштны+Dim+V+ConNeg:%>ышт # ;
++V+Der/ыштны+Dim+V+Imp+Sg2:%>ышт # ;
 !
-+V+Der/ыштны+V+Der/лыны+V:%>ыштл  VerbConj ;
-+V+Der/ыштны+V+Der/лыны+V+Inf:%>ыштлыны K ;
-+V+Der/ыштны+V+Der/лыны+V+ConNeg:%>ыштлы # ;
-+V+Der/ыштны+V+Der/лыны+V+Imp+Sg2:%>ыштлы # ;
++V+Der/ыштны+Dim+V+Der/лыны+V:%>ыштл  VerbConj ;
++V+Der/ыштны+Dim+V+Der/лыны+V+Inf:%>ыштлыны K ;
++V+Der/ыштны+Dim+V+Der/лыны+V+ConNeg:%>ыштлы # ;
++V+Der/ыштны+Dim+V+Der/лыны+V+Imp+Sg2:%>ыштлы # ;
 
 LEXICON Verb3 ! ярмыны. Ending in -ыны.
 +V:  VerbConj ; ! check this!!!
@@ -81,15 +81,15 @@ LEXICON Verb3 ! ярмыны. Ending in -ыны.
 +V+ConNeg:%>ывлы # ;
 +Imp+Sg2:%>ывлы # ;
 !
-+V+Der/ыштны+V:%>ышт  VerbConj ;
-+V+Der/ыштны+V+Inf:%>ыштны K ;
-+V+Der/ыштны+V+ConNeg:%>ышт # ;
-+V+Der/ыштны+V+Imp+Sg2:%>ышт # ;
++V+Der/ыштны+Dim+V:%>ышт  VerbConj ;
++V+Der/ыштны+Dim+V+Inf:%>ыштны K ;
++V+Der/ыштны+Dim+V+ConNeg:%>ышт # ;
++V+Der/ыштны+Dim+V+Imp+Sg2:%>ышт # ;
 !
-+V+Der/ыштны+V+Der/лыны+V:%>ыштл  VerbConj ;
-+V+Der/ыштны+V+Der/лыны+V+Inf:%>ыштлыны K ;
-+V+Der/ыштны+V+Der/лыны+V+ConNeg:%>ыштл # ;
-+V+Der/ыштны+V+Der/лыны+V+Imp+Sg2:%>ыштл # ;
++V+Der/ыштны+Dim+V+Der/лыны+V:%>ыштл  VerbConj ;
++V+Der/ыштны+Dim+V+Der/лыны+V+Inf:%>ыштлыны K ;
++V+Der/ыштны+Dim+V+Der/лыны+V+ConNeg:%>ыштл # ;
++V+Der/ыштны+Dim+V+Der/лыны+V+Imp+Sg2:%>ыштл # ;
 
 
 
@@ -140,37 +140,37 @@ LEXICON imperative
 +Imp+Pl2:%>ӧй # ;
 
 LEXICON Non-finiteforms
-+Der/ӧм+VN:%>ӧм Noun1 ;
++Der/ӧм+Event:%>ӧм Noun1 ;
 ! Page 346 in the Komi grammar
 +MYST:%>мысьт K ; ! gerund (after the action)
 +MYS:%>мысь K ; !
-+Der/иг+Ger:%>іг K ; ! gerund (at the same time as the action)
++Der/иг+Duration+Ger:%>іг K ; ! gerund (at the same time as the action)
 !352 Pl
-+Der/иг+Ger+Pl:%>ігъяс K ;
-+Der/иг+Ger+Pl+Ill:%>ігъясӧ K ;
-+Der/иг+Ger+Pl+Instr:%>ігъясӧн PossessiveSuffixes_NoSg1 ;
-+Der/иг+Ger+Ill:%>ігӧ K ;
-+Der/иг+Ger+Ill+PxSg1:%>ігам K ;
-+Der/иг+Ger+Ill+PxSg2:%>ігад K ;
-+Der/иг+Ger+Ill+PxSg3:%>ігас K ;
-+Der/иг+Ger+Ill+PxPl1:%>іганым K ;
-+Der/иг+Ger+Ill+PxPl2:%>іганыд K ;
-+Der/иг+Ger+Ill+PxPl3:%>іганыс K ;
-+Der/иг+Ger+Instr:%>ігӧн PossessiveSuffixes_NoSg1 ;
++Der/иг+Duration+Ger+Pl:%>ігъяс K ;
++Der/иг+Duration+Ger+Pl+Ill:%>ігъясӧ K ;
++Der/иг+Duration+Ger+Pl+Instr:%>ігъясӧн PossessiveSuffixes_NoSg1 ;
++Der/иг+Duration+Ger+Ill:%>ігӧ K ;
++Der/иг+Duration+Ger+Ill+PxSg1:%>ігам K ;
++Der/иг+Duration+Ger+Ill+PxSg2:%>ігад K ;
++Der/иг+Duration+Ger+Ill+PxSg3:%>ігас K ;
++Der/иг+Duration+Ger+Ill+PxPl1:%>іганым K ;
++Der/иг+Duration+Ger+Ill+PxPl2:%>іганыд K ;
++Der/иг+Duration+Ger+Ill+PxPl3:%>іганыс K ;
++Der/иг+Duration+Ger+Instr:%>ігӧн PossessiveSuffixes_NoSg1 ;
 !351 Pl
-+Der/иг+Ger+MOZ:%>ігмоз PossessiveSuffixes ;
-+Der/иг+Ger+SOR:%>ігсор K ;
-+Der/иг+Ger+TYR:%>ігтыр K ;
-+Der/иг+Ger+TYRJI:%>ігтырйи K ;
-+Der/иг+Ger+CHOZH:%>ігчӧж K ;
-+Der/иг+Ger+KOSTI:%>ігкості PossessiveSuffixes ;
++Der/иг+Duration+Ger+MOZ:%>ігмоз PossessiveSuffixes ;
++Der/иг+Duration+Ger+SOR:%>ігсор K ;
++Der/иг+Duration+Ger+TYR:%>ігтыр K ;
++Der/иг+Duration+Ger+TYRJI:%>ігтырйи K ;
++Der/иг+Duration+Ger+CHOZH:%>ігчӧж K ;
++Der/иг+Duration+Ger+KOSTI:%>ігкості PossessiveSuffixes ;
 +ANA:%>ана K ;
 +ANAA:%>анаа K ;
 +AN+MOZ:%>анмоз K ;
 +Car:%>тӧг PossessiveSuffixes ;
-+OM+Instr:%>ӧмӧн K ;
-+Der/иг+Ger+KEZHLO:%>ігкежлӧ K ;
-+TODZ:%>тӧдз PossessiveSuffixes ;
++Der/ӧм+Event+N+Instr:%>ӧмӧн K ;
++Der/иг+Duration+Ger+KEZHLO:%>ігкежлӧ K ;
++VTer:%>тӧдз PossessiveSuffixes ;
 
 LEXICON PossessiveSuffixes
 +PxSg1:%>ым K ;
