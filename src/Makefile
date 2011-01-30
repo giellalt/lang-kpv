@@ -38,10 +38,12 @@ bin-dir   := $(subst src,bin,$(cur-dir))
 tmp-dir = ../../tmp
 OUT         = $(tmp-dir)/out
 
-if test -d $(OUT) ; \
-then LEXS = $(shell ls $(tmp-dir)/out/*.txt) ; \
-else "$(LEXS) doesn't exist yet." ; \
-fi
+# if test -d $(OUT) ; \
+# then LEXS = $(shell ls $(tmp-dir)/out/*.txt) ; \
+# else "$(LEXS) doesn't exist yet." ; \
+# fi
+
+LEXS = $(shell ls $(tmp-dir)/out/*.txt)
 
 XMLS = $(shell ls $(SRC)/*.xml) 
 
@@ -214,15 +216,16 @@ lexfiles:
 	@echo
 ifeq ($(VM), yes)
 	@echo
-	@echo "*** Input $(XMLS) file ***"
-	@echo ""
+	@echo "*** using less memory space ***"
+	@echo 
+	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/generate_lex-file.xsl inDir=../src/working_files outDir=$(OUT)
 endif
 ifeq ($(VM), no)
 	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/generate_lex-file.xsl inDir=../src/working_files outDir=$(OUT)
+endif
 	@echo
 	@echo "*** generated all Komi lexc files in $(OUT). ***"
 	@echo
-endif
 
 # Start the dict compilation process
 # transform the file into gt xml format
