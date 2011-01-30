@@ -10,13 +10,16 @@
 
 LEXICON Adj
 +A: AdjCompar ;
-
+!:%>лун Noun1 ; !Derivational suffix for A-N
 
 ! ===== !
 ! Nouns !
 ! ===== !
 
 LEXICON Prop ! Basic nouns.
++N+Prop+Sg: CASEPOSSLEX ;
+
+LEXICON Prop-Plc ! Inanimate proper nouns.
 +N+Prop+Sg: CASEPOSSLEX ;
 
 LEXICON Prop-Sur-Mal ! Basic nouns.
