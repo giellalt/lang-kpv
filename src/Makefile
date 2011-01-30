@@ -26,14 +26,14 @@ lg = kom
 
 #XMLFILES = kom-lex.xml MaleNicknames4kom-lex.xml Placenames4kom-lex.xml
 
+VM = no
 JV   = java
-MF   = -Xmx2048m
+MF   = -Xmx1024m
 EF   = -it main
 XSL  = net.sf.saxon.Transform
 SCRIPTS     = ../script
 DICT_PATH   = ../../../words/dicts
 DICT_BIN    = komfineng/bin
-OUT         = out
 COMPDICT    = collect-dict-parts.xsl
 KL2GT       = kom-lex2gtdict.xsl
 SRC         = working_files
@@ -43,9 +43,15 @@ VPATH=../bin
 cur-dir   := $(shell pwd)
 bin-dir   := $(subst src,bin,$(cur-dir))
 
-
 tmp-dir = ../../tmp
-LEXS = $(shell ls $(tmp-dir)/out/*.txt) 
+OUT         = $(tmp-dir)/out
+
+if test -d $(OUT) ; \
+then LEXS = $(shell ls $(tmp-dir)/out/*.txt) ; \
+else "$(LEXS) doesn't exist yet." ; \
+fi
+
+XMLS = $(shell ls $(SRC)/*.xml) 
 
 XFST = xfst 
 #XFST = fst 
@@ -212,13 +218,19 @@ xfst-kom.bin: ../bin/xfst-kom.bin
 # Generate the lex files
 lexfiles:
 	@echo
-	@echo "*** Generating the kom-lex.xml file ***"
+	@echo "*** Generating lexc files for Komi ***"
 	@echo
-	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/generate_lex-file.xsl inDir=../src/working_files outDir=../../tmp/out
+ifeq ($(VM), yes)
 	@echo
-	@echo "*** kom-lex.xml file done. ***"
+	@echo "*** Input $(XMLS) file ***"
+	@echo ""
+endif
+ifeq ($(VM), no)
+	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/generate_lex-file.xsl inDir=../src/working_files outDir=$(OUT)
 	@echo
-
+	@echo "*** generated all Komi lexc files in $(OUT). ***"
+	@echo
+endif
 
 # Start the dict compilation process
 # transform the file into gt xml format
