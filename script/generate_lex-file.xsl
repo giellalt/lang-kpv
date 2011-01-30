@@ -35,7 +35,7 @@
   <xsl:param name="outDir" select="'out'"/>
   <xsl:param name="inDir" select="'.'"/>
   <xsl:variable name="of" select="'txt'"/>
-  
+  <xsl:variable name="debug" select="true()"/>
   
   
   <xsl:template match="/" name="main">
@@ -49,6 +49,14 @@
 
 	      <xsl:variable name="file_name" select="substring-before(tokenize(document-uri(.), '/')[last()], '.xml')"/>
 	      
+	      <xsl:if test="$debug">
+		<xsl:message terminate="no">
+		  <xsl:value-of select="concat('-----------------------------------------', $nl)"/>
+		  <xsl:value-of select="concat('processing ', $file_name, $nl)"/>
+		  <xsl:value-of select="'   ...........'"/>
+		</xsl:message>
+	      </xsl:if>
+
 	      <xsl:variable name="out">
 		<out>	
 		  <!-- this might have to be refined: too underspecified as for preceding::lemma-stem combinations -->
@@ -83,6 +91,13 @@
 					  else concat(., $cl, ./@stem, $spc, ./@cl, $spc, $spc, $qm, ./@t, $qm, $spc, $scl, $nl)"/>
 		  </xsl:for-each>
 		</xsl:result-document>
+
+		<xsl:if test="$debug">
+		  <xsl:message terminate="no">
+		    <xsl:value-of select="concat(' ', count($out/out/e), ' entries generated in lexC file ', $outDir, '/', $file_name, '.', $of, $nl)"/>
+		    <xsl:value-of select="'-----------------------------------------'"/>
+		  </xsl:message>
+		</xsl:if>
 	      </xsl:if>
 	      
 <!-- 	    </xsl:when> -->
