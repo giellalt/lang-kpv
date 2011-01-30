@@ -38,6 +38,8 @@ bin-dir   := $(subst src,bin,$(cur-dir))
 tmp-dir = ../../tmp
 OUT         = $(tmp-dir)/out
 
+$(shell mkdir -p $(OUT))
+
 # if test -d $(OUT) ; \
 # then LEXS = $(shell ls $(tmp-dir)/out/*.txt) ; \
 # else "$(LEXS) doesn't exist yet." ; \
@@ -211,14 +213,11 @@ xfst-kom.bin: ../bin/xfst-kom.bin
 
 # Generate the lex files
 lexfiles:
-	@echo
-	@echo "*** Generating lexc files for Komi ***"
+#	@echo
+#	@echo "*** Generating lexc files for Komi ***"
 	@echo
 ifeq ($(VM), yes)
-	@echo
-	@echo "*** using less memory space ***"
-	@echo 
-	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/generate_lex-file.xsl inDir=../src/working_files outDir=$(OUT)
+	$(foreach FILE, $(shell cd $(SRC); ls *.xml), $(shell $(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/generate_lex-fileVM.xsl inFile=../src/working_files/$(FILE) > $(OUT)/$(FILE).txt)) 
 endif
 ifeq ($(VM), no)
 	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/generate_lex-file.xsl inDir=../src/working_files outDir=$(OUT)
