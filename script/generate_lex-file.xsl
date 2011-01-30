@@ -99,6 +99,15 @@
 		  </xsl:message>
 		</xsl:if>
 	      </xsl:if>
+
+	      <xsl:if test="not($out/out/e)">
+		<xsl:if test="$debug">
+		  <xsl:message terminate="no">
+		    <xsl:value-of select="concat(' *** No entries generated for ', $file_name, $of, $nl)"/>
+		    <xsl:value-of select="'-----------------------------------------'"/>
+		  </xsl:message>
+		</xsl:if>
+	      </xsl:if>
 	      
 <!-- 	    </xsl:when> -->
 <!-- 	    <xsl:otherwise> -->
