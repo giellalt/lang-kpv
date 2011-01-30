@@ -41,6 +41,33 @@ s/^([^,]*),([^,]*),(N)/
   \<\/entry\>/g ;
 
 
+#This is for proper inanimate nouns
+#from newProperNouns.txt
+#CSV format:
+#lemma,stem,N
+#Печора,,N
+s/^([^,]*),([^,]*),(N\-Prop\-inanim)/
+  \<entry\>
+    \<lemma\>$1\<\/lemma\>
+    \<stem\>$2\<\/stem\>
+    \<contlex\>Prop-Plc\<\/contlex\>
+    \<pos\>PROP\<\/pos\>
+    \<article\>
+      \<isa\>\<\/isa\>
+      \<eng\>
+        \<choice\>
+          \<variant\ \/\>
+        \<\/choice\>
+      \<\/eng\>
+      \<fin\>
+        \<choice\>
+          \<variant\ \/\>
+        \<\/choice\>
+      \<\/fin\>
+    \<\/article\>
+  \<\/entry\>/g ;
+
+
 #This is for verbs
 #from newVerbs.txt
 #CSV format:
