@@ -71,6 +71,8 @@ echo << defining the rules >>
  
 !define InfMarkDeletion %^Inf -> 0 ; 
 
+!define VtoL [ в -> л || _  %> Vow ] ; ! Lex Marina
+
 define LtoV [ л -> в || _ [ .#. | %> Cns ] ] ;
  ! These words are underlyingly l, and changed to v.
  ! ныв - нылыс and лов - лолыс Problem with л retension2011-01-01
@@ -149,6 +151,8 @@ define SoftMarkDeletion ь -> 0 || _ %> [ я | ё | ю | и ] ;
 
 define HardMarkPalatalisation ъ -> ь || [ д з | ч ] %> _ ;
 
+define AafterA а -> 0 || _ %> а ;
+
 echo << defining cleanup rules >>
 
 define Cleanup ӧ2 -> ӧ, е2 -> е, о2 -> о, к2 -> к, м2 -> м, т2 -> т ;
@@ -168,38 +172,23 @@ read regex [
 !InfMarkDeletion
 !.o.
 LtoV
-.o.
-mDeletion
-.o.
-kDeletion
-.o.
-tDeletion
-.o.
-jDeletion
-.o.
-lDeletion
-.o.
-dDeletion
-!.o.
-!WeakVowDeletion
-.o.
-HardMarkPalatalisation
-.o.
-VowelPalatalisation
-.o.
-iPalatalisation
-.o.
-SoftMarkDeletion
-.o.
-jaSuffixAfterJ
-.o.
-HardMarkDeletion
-.o.
-Cleanup
-.o.
-Deletion
-.o.
-DummyDeletion 
+.o. mDeletion
+.o. kDeletion
+.o. tDeletion
+.o. jDeletion
+.o. lDeletion
+.o. dDeletion
+!.o. WeakVowDeletion
+.o. HardMarkPalatalisation
+.o. VowelPalatalisation
+.o. iPalatalisation
+.o. SoftMarkDeletion
+.o. jaSuffixAfterJ
+.o. HardMarkDeletion
+.o. AafterA
+.o. Cleanup
+.o. Deletion
+.o. DummyDeletion 
 ] ;
 
 
