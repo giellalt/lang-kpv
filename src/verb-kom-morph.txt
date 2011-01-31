@@ -51,14 +51,17 @@ Verb1-Verb2 ;
 LEXICON Verb1-Verb2
 +V:  VerbConj ; ! кывны - кыван
 +V+Inf:%>ны K ;
+
 +V+ConNeg+Pl3:%>ны # ;
 +V+ConNeg: # ;
++V+ConNeg:%>лы # ;
+
 +V+Imp+Sg2: # ;
++V+Imp+Sg2:%>лы # ;
+
 +V+Der/л+V:%>л VerbConj ; ! босьтл - босьтлан
 +V+Der/л+V+Inf:%>вны K ;
 +V+Der/л+V+Pl3:%>вны # ;
-+V+ConNeg:%>лы # ;
-+V+Imp+Sg2:%>лы # ;
 +V+Der/ышт+Dim+V:%>ышт  VerbConj ;
 +V+Der/ышт+Dim+V+Inf:%>ыштны K ;
 +V+Der/ышт+Dim+V+ConNeg+Pl3:%>ыштны # ;
