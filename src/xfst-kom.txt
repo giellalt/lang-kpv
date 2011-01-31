@@ -151,7 +151,7 @@ define SoftMarkDeletion ь -> 0 || _ %> [ я | ё | ю | и ] ;
 
 define HardMarkPalatalisation ъ -> ь || [ д з | ч ] %> _ ;
 
-define AafterA а -> 0 || _ %> а ;
+!!define AafterA а -> 0 || _ %> а ; !2011-01-31 No reduction
 
 echo << defining cleanup rules >>
 
