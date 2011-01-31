@@ -42,39 +42,50 @@ LEXICON VERBNEGATIVE
 
 
 LEXICON Verb1 ! яйсявны,  в - л change кывны кылан
-Verb1-Verb2 ;
-
+VerbDer ;
+Verb1-Verb2-morph ;
 
 LEXICON Verb2 ! янӧдны, контролируйтны. Ending in -дны, -тны.
-Verb1-Verb2 ;
+VerbDer ;
+Verb1-Verb2-morph ;
 
-LEXICON Verb1-Verb2
+LEXICON VerbDer
++V+Der/л:л  Verb3 ; !!босьтлыны
++V+Der/лывл:лывл Verb3 ; !!босьтлывлыны
++V+Der/сь:сь Verb3 ; !! овсьыны
+!!!!зь:зь  !!югзьыны
++V+Der/сь+Der/ышт+Der/л:сьыштл Verb3 ; !!лэптысьыштлыны
++V+Der/сь+Der/ышт+Der/лывл:сьыштлывл Verb3 ; !! пусьыштлывлыны
++V+Der/ч:ч Verb3 ; !!босьтчыны
++V+Der/ч+Der/ышт+Der/л:чыштл Verb3 ; !!босьтчыштлыны
++V+Der/ч+Der/ышт+Der/лывл:чыштлывл Verb3 ; !! босьтчыштлывлыны
++V+Der/ышт+Der/л:ыштл Verb3 ;   !!сёйыштлыны
++V+Der/ышт+Der/лывл:ыштлывл Verb3 ;  !!сёйыштлывлыны
++V+Der/ышт:ышт Verb3 ; !!сёйыштны
++V+Der/сь+Der/ышт:сьышт Verb3 ; !!лэптысьыштны
++V+Der/ч+Der/ышт:чышт Verb3 ; !!босьтчыштны
++V+Der/ал:ал Verb3 ; !!сетавны
++V+Der/овт:овт Verb3 ; !!пановтны
++V+Der/ась:ась Verb3 ; !!ыны -> асьны
+ 
+LEXICON Verb1-Verb2-morph
 +V:  VerbConj ; ! кывны - кыван
 +V+Inf:%>ны K ;
 
 +V+ConNeg+Pl3:%>ны # ;
 +V+ConNeg: # ;
-+V+ConNeg:%>лы # ;
++V+Der/л+V+ConNeg:%>лы # ;
 
 +V+Imp+Sg2: # ;
-+V+Imp+Sg2:%>лы # ;
++V+Der/л+V+Imp+Sg2:%>лы # ;
 
 +V+Der/л+V:%>л VerbConj ; ! босьтл - босьтлан
 +V+Der/л+V+Inf:%>вны K ;
 +V+Der/л+V+Pl3:%>вны # ;
-+V+Der/ышт+Dim+V:%>ышт  VerbConj ;
-+V+Der/ышт+Dim+V+Inf:%>ыштны K ;
-+V+Der/ышт+Dim+V+ConNeg+Pl3:%>ыштны # ;
-+V+Der/ышт+Dim+V+ConNeg:%>ышт # ;
-+V+Der/ышт+Dim+V+Imp+Sg2:%>ышт # ;
-!
-+V+Der/ышт+Dim+V+Der/л+V:%>ыштл  VerbConj ;
-+V+Der/ышт+Dim+V+Der/л+V+Inf:%>ыштлыны K ;
-+V+Der/ышт+Dim+V+Der/л+V+ConNeg+Pl3:%>ыштлыны # ;
-+V+Der/ышт+Dim+V+Der/л+V+ConNeg:%>ыштлы # ;
-+V+Der/ышт+Dim+V+Der/л+V+Imp+Sg2:%>ыштлы # ;
+
 
 LEXICON Verb3 ! ярмыны. Ending in -ыны.
+VerbDer ; !
 +V:  VerbConj ; ! check this!!!
 +V+Inf:%>ыны K ;
 +V+ConNeg+Pl3:%>ыны # ;
