@@ -1,0 +1,34 @@
+Multichar_Symbols
+
+ӧ
++Сущ
++Едч
++Мнч
++Род +Дат +Име
+
+LEXICON Root
+
+N ;
+
+LEXICON N
+коми:коми NUMV ;
+морт NUMK ;
+дзоридз NUMP ;
+кар NUMK ;
+
+LEXICON NUMV
++Сущ+Едч: CASE ;
++Сущ+Мнч:яс CASE ;
+
+LEXICON NUMK
++Сущ+Едч: CASE ;
++Сущ+Мнч:ъяс CASE ;
+
+LEXICON NUMP
++Сущ+Едч: CASE ;
++Сущ+Мнч:ьяс CASE ;
+
+LEXICON CASE
++Род:лӧн # ;
++Дат:лы # ;
++Име: # ;
