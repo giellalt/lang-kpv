@@ -44,10 +44,58 @@ LEXICON VERBNEGATIVE
 LEXICON Verb1 ! яйсявны,  в - л change кывны кылан
 VerbDer ;
 Verb1-Verb2-morph ;
+! This one is already merged with Verb2
 
 LEXICON Verb2 ! янӧдны, контролируйтны. Ending in -дны, -тны.
 VerbDer ;
 Verb1-Verb2-morph ;
+
+! 2: основа + суффукс-1
+!           + суффикс-2
+! 3: основа + суффикс-1
+!           + ы + суффиск-2
+
+
+LEXICON Verb3 ! ярмыны. Ending in -ыны.
+VerbDer ; !
++V:  VerbConj ; ! check this!!!
++V+Inf:%>ыны K ;
++V+ConNeg+Pl3:%>ыны # ;
++V+ConNeg:%>ы # ;
++Imp+Sg2:%>ы # ;
+
++V+Der/л+V:%>ыл VerbConj ; ! мынтыл - мынтылан
++V+Der/л+V+Inf:%>ылыны K ;
+
++V+Der/л+V+ConNeg:%>лы # ;
++V+Der/л+V+ConNeg+Pl3:%>ылыны # ;
++V+Der/л+V+Imp+Sg2:%>лы # ;
+
++V+Der/л+V:%>л VerbConj ; ! босьтл - босьтлан
++V+Der/л+V+Inf:%>вны K ;
++V+Der/л+V+Pl3:%>вны # ;
+
++V+ConNeg:%>ылы # ;
++Imp+Sg2:%>ылы # ;
++V+Der/ывл+V:%>ывл VerbConj ; ! мынтывл - мынтывлан
++V+Der/ывл+V+Inf:%>ывлыны K ;
++V+Der/ывл+V+ConNeg+Pl3:%>ывлыны # ;
++V+ConNeg:%>ывлы # ;
++Imp+Sg2:%>ывлы # ;
+
++V+Der/ышт+Dim+V:%>ышт  VerbConj ;
++V+Der/ышт+Dim+V+Inf:%>ыштны K ;
++V+Der/ышт+Dim+V+ConNeg:%>ышт # ;
++V+Der/ышт+Dim+V+Imp+Sg2:%>ышт # ;
+
++V+Der/ышт+Dim+V+Der/л+V:%>ыштл  VerbConj ;
++V+Der/ышт+Dim+V+Der/л+V+Inf:%>ыштлыны K ;
++V+Der/ышт+Dim+V+Der/л+V+ConNeg:%>ыштл # ;
++V+Der/ышт+Dim+V+Der/л+V+Imp+Sg2:%>ыштл # ;
+
+
+! Derivation
+! ==========
 
 LEXICON VerbDer
 +V+Der/л:л  Verb3 ; !!босьтлыны
@@ -74,43 +122,8 @@ LEXICON Verb1-Verb2-morph
 
 +V+ConNeg+Pl3:%>ны # ;
 +V+ConNeg: # ;
-+V+Der/л+V+ConNeg:%>лы # ;
-
 +V+Imp+Sg2: # ;
-+V+Der/л+V+Imp+Sg2:%>лы # ;
 
-+V+Der/л+V:%>л VerbConj ; ! босьтл - босьтлан
-+V+Der/л+V+Inf:%>вны K ;
-+V+Der/л+V+Pl3:%>вны # ;
-
-
-LEXICON Verb3 ! ярмыны. Ending in -ыны.
-VerbDer ; !
-+V:  VerbConj ; ! check this!!!
-+V+Inf:%>ыны K ;
-+V+ConNeg+Pl3:%>ыны # ;
-+V+ConNeg:%>ы # ;
-+Imp+Sg2:%>ы # ;
-+V+Der/л+V:%>ыл VerbConj ; ! мынтыл - мынтылан
-+V+Der/л+V+Inf:%>ылыны K ;
-+V+Der/л+V+ConNeg+Pl3:%>ылыны # ;
-+V+ConNeg:%>ылы # ;
-+Imp+Sg2:%>ылы # ;
-+V+Der/ывл+V:%>ывл VerbConj ; ! мынтывл - мынтывлан
-+V+Der/ывл+V+Inf:%>ывлыны K ;
-+V+Der/ывл+V+ConNeg+Pl3:%>ывлыны # ;
-+V+ConNeg:%>ывлы # ;
-+Imp+Sg2:%>ывлы # ;
-
-+V+Der/ышт+Dim+V:%>ышт  VerbConj ;
-+V+Der/ышт+Dim+V+Inf:%>ыштны K ;
-+V+Der/ышт+Dim+V+ConNeg:%>ышт # ;
-+V+Der/ышт+Dim+V+Imp+Sg2:%>ышт # ;
-
-+V+Der/ышт+Dim+V+Der/л+V:%>ыштл  VerbConj ;
-+V+Der/ышт+Dim+V+Der/л+V+Inf:%>ыштлыны K ;
-+V+Der/ышт+Dim+V+Der/л+V+ConNeg:%>ыштл # ;
-+V+Der/ышт+Dim+V+Der/л+V+Imp+Sg2:%>ыштл # ;
 
 
 
