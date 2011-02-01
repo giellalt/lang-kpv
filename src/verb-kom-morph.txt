@@ -42,103 +42,40 @@ LEXICON VERBNEGATIVE
 
 
 LEXICON Verb1 ! яйсявны,  в - л change кывны кылан
-VerbDer ;
-Verb1-Verb2-morph ;
-! This one is already merged with Verb2
+Verb2 ;  ! already merged with Verb2, todo: merge in xml as well
 
 LEXICON Verb2 ! янӧдны, контролируйтны. Ending in -дны, -тны.
-VerbDer ;
-Verb1-Verb2-morph ;
-
-! 2: основа + суффукс-1
-!           + суффикс-2
-! 3: основа + суффикс-1
-!           + ы + суффиск-2
-
++V: VerbDer ; !
++V: VerbDer-V ; !
++V:  VerbConj ; !а
++V:  VerbConj-V ; !б
 
 LEXICON Verb3 ! ярмыны. Ending in -ыны.
-VerbDer ; !
-+V:  VerbConj ; ! check this!!!
-+V+Inf:%>ыны K ;
-+V+ConNeg+Pl3:%>ыны # ;
-+V+ConNeg:%>ы # ;
-+Imp+Sg2:%>ы # ;
++V:    VerbDer ; !
++V:%>ы VerbDer-V ; !
++V:    VerbConj ; ! check this!!!
++V:%>ы VerbConj-V ; ! check this!!!
 
-+V+Der/л+V:%>ыл VerbConj ; ! мынтыл - мынтылан
-+V+Der/л+V+Inf:%>ылыны K ;
+! суффикс а
+! янӧд -----------\
+!                   ышт, ан...
+! ярм ------------/
 
-+V+Der/л+V+ConNeg:%>лы # ;
-+V+Der/л+V+ConNeg+Pl3:%>ылыны # ;
-+V+Der/л+V+Imp+Sg2:%>лы # ;
-
-+V+Der/л+V:%>л VerbConj ; ! босьтл - босьтлан
-+V+Der/л+V+Inf:%>вны K ;
-+V+Der/л+V+Pl3:%>вны # ;
-
-+V+ConNeg:%>ылы # ;
-+Imp+Sg2:%>ылы # ;
-+V+Der/ывл+V:%>ывл VerbConj ; ! мынтывл - мынтывлан
-+V+Der/ывл+V+Inf:%>ывлыны K ;
-+V+Der/ывл+V+ConNeg+Pl3:%>ывлыны # ;
-+V+ConNeg:%>ывлы # ;
-+Imp+Sg2:%>ывлы # ;
-
-+V+Der/ышт+Dim+V:%>ышт  VerbConj ;
-+V+Der/ышт+Dim+V+Inf:%>ыштны K ;
-+V+Der/ышт+Dim+V+ConNeg:%>ышт # ;
-+V+Der/ышт+Dim+V+Imp+Sg2:%>ышт # ;
-
-+V+Der/ышт+Dim+V+Der/л+V:%>ыштл  VerbConj ;
-+V+Der/ышт+Dim+V+Der/л+V+Inf:%>ыштлыны K ;
-+V+Der/ышт+Dim+V+Der/л+V+ConNeg:%>ыштл # ;
-+V+Der/ышт+Dim+V+Der/л+V+Imp+Sg2:%>ыштл # ;
+! суффикс б
+! янӧд -----------\
+!                   ны, 
+! ярм ----- ы ----/
 
 
-! Derivation
-! ==========
+! суффикс а
+! янӧд -----------\
+!                   ышт, ан...
+! ярм ------------/
 
-LEXICON VerbDer
-+V+Der/л:л  Verb3 ; !!босьтлыны
-+V+Der/лывл:лывл Verb3 ; !!босьтлывлыны
-+V+Der/сь:сь Verb3 ; !! овсьыны
-!!!!зь:зь  !!югзьыны
-+V+Der/сь+Der/ышт+Der/л:сьыштл Verb3 ; !!лэптысьыштлыны
-+V+Der/сь+Der/ышт+Der/лывл:сьыштлывл Verb3 ; !! пусьыштлывлыны
-+V+Der/ч:ч Verb3 ; !!босьтчыны
-+V+Der/ч+Der/ышт+Der/л:чыштл Verb3 ; !!босьтчыштлыны
-+V+Der/ч+Der/ышт+Der/лывл:чыштлывл Verb3 ; !! босьтчыштлывлыны
-+V+Der/ышт+Der/л:ыштл Verb3 ;   !!сёйыштлыны
-+V+Der/ышт+Der/лывл:ыштлывл Verb3 ;  !!сёйыштлывлыны
-+V+Der/ышт:ышт Verb3 ; !!сёйыштны
-+V+Der/сь+Der/ышт:сьышт Verb3 ; !!лэптысьыштны
-+V+Der/ч+Der/ышт:чышт Verb3 ; !!босьтчыштны
-+V+Der/ал:ал Verb3 ; !!сетавны
-+V+Der/овт:овт Verb3 ; !!пановтны
-+V+Der/ась:ась Verb3 ; !!ыны -> асьны
- 
-LEXICON Verb1-Verb2-morph
-+V:  VerbConj ; ! кывны - кыван
-+V+Inf:%>ны K ;
-
-+V+ConNeg+Pl3:%>ны # ;
-+V+ConNeg: # ;
-+V+Imp+Sg2: # ;
-
-
-
-
-! Stray verb forms
-
-LEXICON VerbPRT ! one verb, вӧвны 
- +V: preterite ;
-
-LEXICON EMYSHT ! эмышт "is a little / are a few"
- +V+Ind+Prs+Sg3: # ;
- +V+Ind+Prs+Pl3: # ;
- 
-LEXICON GER ! 3 lexicalised +Ger forms.
-+V+Ger: # ;
-
+! суффикс б
+! янӧд -----------\
+!                   ыны, 
+! ярм ------------/
 
 
 
@@ -146,7 +83,13 @@ LEXICON GER ! 3 lexicalised +Ger forms.
 ! Verb conjugation !
 ! ================ !
 
-LEXICON VerbConj
+LEXICON VerbConj-V ! суф б -- ы --
++Inf:%>ны K ;
++ConNeg+Pl3:%>ны # ;
++ConNeg: # ;
++Imp+Sg2: # ;
+
+LEXICON VerbConj ! суф а -------
  Finiteforms ;
  Non-finiteforms ;
 
@@ -170,43 +113,7 @@ LEXICON preterite
 +Ind+Prt2:%>ӧм Pret2a ;
 
 LEXICON imperative
-+Imp+Sg2: # ;
 +Imp+Pl2:%>ӧй # ;
-
-LEXICON Non-finiteforms
-+Der/ӧм+Event:%>ӧм Noun1 ;
-! Page 346 in the Komi grammar
-+MYST:%>мысьт K ; ! gerund (after the action)
-+MYS:%>мысь K ; !
-+Der/иг+Duration+Ger:%>іг K ; ! gerund (at the same time as the action)
-!352 Pl
-+Der/иг+Duration+Ger+Pl:%>ігъяс K ;
-+Der/иг+Duration+Ger+Pl+Ill:%>ігъясӧ K ;
-+Der/иг+Duration+Ger+Pl+Instr:%>ігъясӧн PossessiveSuffixes_NoSg1 ;
-+Der/иг+Duration+Ger+Ill:%>ігӧ K ;
-+Der/иг+Duration+Ger+Ill+PxSg1:%>ігам K ;
-+Der/иг+Duration+Ger+Ill+PxSg2:%>ігад K ;
-+Der/иг+Duration+Ger+Ill+PxSg3:%>ігас K ;
-+Der/иг+Duration+Ger+Ill+PxPl1:%>іганым K ;
-+Der/иг+Duration+Ger+Ill+PxPl2:%>іганыд K ;
-+Der/иг+Duration+Ger+Ill+PxPl3:%>іганыс K ;
-+Der/иг+Duration+Ger+Instr:%>ігӧн PossessiveSuffixes_NoSg1 ;
-!351 Pl
-+Der/иг+Duration+Ger+MOZ:%>ігмоз PossessiveSuffixes ;
-+Der/иг+Duration+Ger+SOR:%>ігсор K ;
-+Der/иг+Duration+Ger+TYR:%>ігтыр K ;
-+Der/иг+Duration+Ger+TYRJI:%>ігтырйи K ;
-+Der/иг+Duration+Ger+CHOZH:%>ігчӧж K ;
-+Der/иг+Duration+Ger+KOSTI:%>ігкості PossessiveSuffixes ;
-+ANA:%>ана K ;
-+ANAA+Adv:%>анаа K ; !Adding after attestation in Komi Grammar 2000 
-+AN+MOZ:%>анмоз K ;
-+Car:%>тӧг PossessiveSuffixes ;
-+Der/ӧм+Event+N+Instr:%>ӧмӧн K ;
-+Der/иг+Duration+Ger+KEZHLO:%>ігкежлӧ K ;
-+VTer:%>тӧдз PossessiveSuffixes ;
-+VAbe:%>тӧм PossessiveSuffixes ;
-+Der/ысь+ActPrsPtc:%>ысь Noun1 ;
 
 LEXICON PossessiveSuffixes
 +PxSg1:%>ым K ;
@@ -259,7 +166,121 @@ LEXICON PRET2PL2
 +Pl2:%>ныдӧсь K ; !224
 
 LEXICON PRET2-linkki-a
-+Sg1+Use/Sub: K ; ! no Sg1 for Prt2 in the standard
+!+Sg1+Use/Sub: K ; ! no Sg1 for Prt2 in the standard
++Sg1: K ; ! no Sg1 for Prt2 in the standard
 +Sg3: K ;
-+Pl1+Use/Sub:%>ӧсь K ; ! no Pl1 for Prt2 in the standard
+!+Pl1+Use/Sub:%>ӧсь K ; ! no Pl1 for Prt2 in the standard
++Pl1:%>ӧсь K ; ! no Pl1 for Prt2 in the standard
 +Pl3:%>ӧсь K ;
+
+
+
+
+
+! Derivation
+! ==========
+
+LEXICON Non-finiteforms
+VerbDer ; ! то бе мергед шитн нехт
+
+LEXICON VerbDer 
+
++V+Der/л:л  Verb3 ; !!босьтлыны
++V+Der/лывл:лывл Verb3 ; !!босьтлывлыны
++V+Der/сь:сь Verb3 ; !! овсьыны
+!!!!зь:зь  !!югзьыны
++V+Der/сь+Der/ышт+Der/л:сьыштл Verb3 ; !!лэптысьыштлыны
++V+Der/сь+Der/ышт+Der/лывл:сьыштлывл Verb3 ; !! пусьыштлывлыны
++V+Der/ч:ч Verb3 ; !!босьтчыны
++V+Der/ч+Der/ышт+Der/л:чыштл Verb3 ; !!босьтчыштлыны
++V+Der/ч+Der/ышт+Der/лывл:чыштлывл Verb3 ; !! босьтчыштлывлыны
++V+Der/ышт+Der/л:ыштл Verb3 ;   !!сёйыштлыны
++V+Der/ышт+Der/лывл:ыштлывл Verb3 ;  !!сёйыштлывлыны
++V+Der/ышт:ышт Verb3 ; !!сёйыштны
++V+Der/сь+Der/ышт:сьышт Verb3 ; !!лэптысьыштны
++V+Der/ч+Der/ышт:чышт Verb3 ; !!босьтчыштны
++V+Der/ал:ал Verb3 ; !!сетавны
++V+Der/овт:овт Verb3 ; !!пановтны
++V+Der/ась:ась Verb3 ; !!ыны -> асьны
+ 
++Der/ӧм+Event:%>ӧм Noun1 ;
+! Page 346 in the Komi grammar
++MYST:%>мысьт K ; ! gerund (after the action)
++MYS:%>мысь K ; !
++Der/иг+Duration+Ger:%>іг K ; ! gerund (at the same time as the action)
+!352 Pl
++Der/иг+Duration+Ger+Pl:%>ігъяс K ;
++Der/иг+Duration+Ger+Pl+Ill:%>ігъясӧ K ;
++Der/иг+Duration+Ger+Pl+Instr:%>ігъясӧн PossessiveSuffixes_NoSg1 ;
++Der/иг+Duration+Ger+Ill:%>ігӧ K ;
++Der/иг+Duration+Ger+Ill+PxSg1:%>ігам K ;
++Der/иг+Duration+Ger+Ill+PxSg2:%>ігад K ;
++Der/иг+Duration+Ger+Ill+PxSg3:%>ігас K ;
++Der/иг+Duration+Ger+Ill+PxPl1:%>іганым K ;
++Der/иг+Duration+Ger+Ill+PxPl2:%>іганыд K ;
++Der/иг+Duration+Ger+Ill+PxPl3:%>іганыс K ;
++Der/иг+Duration+Ger+Instr:%>ігӧн PossessiveSuffixes_NoSg1 ;
+!351 Pl
++Der/иг+Duration+Ger+MOZ:%>ігмоз PossessiveSuffixes ;
++Der/иг+Duration+Ger+SOR:%>ігсор K ;
++Der/иг+Duration+Ger+TYR:%>ігтыр K ;
++Der/иг+Duration+Ger+TYRJI:%>ігтырйи K ;
++Der/иг+Duration+Ger+CHOZH:%>ігчӧж K ;
++Der/иг+Duration+Ger+KOSTI:%>ігкості PossessiveSuffixes ;
++ANA:%>ана K ;
++ANAA+Adv:%>анаа K ; !Adding after attestation in Komi Grammar 2000 
++AN+MOZ:%>анмоз K ;
++Car:%>тӧг PossessiveSuffixes ;
++Der/ӧм+Event+N+Instr:%>ӧмӧн K ;
++Der/иг+Duration+Ger+KEZHLO:%>ігкежлӧ K ;
++VTer:%>тӧдз PossessiveSuffixes ;
++VAbe:%>тӧм PossessiveSuffixes ;
++Der/ысь+ActPrsPtc:%>ысь Noun1 ;
+
+
+
+LEXICON VerbDer-V
++V+Der/л+V:%>л VerbConj ; ! мынтыл - мынтылан
+
++V+Der/л+V+Inf:%>лыны K ;
+
++V+Der/л+V+ConNeg:%>лы # ;
++V+Der/л+V+ConNeg+Pl3:%>ылыны # ;
++V+Der/л+V+Imp+Sg2:%>лы # ;
+
++V+Der/л+V:%>л VerbConj ; ! босьтл - босьтлан
++V+Der/л+V+Inf:%>вны K ;
++V+Der/л+V+Pl3:%>вны # ;
+
++V+ConNeg:%>ылы # ;
++Imp+Sg2:%>ылы # ;
++V+Der/ывл+V:%>ывл VerbConj ; ! мынтывл - мынтывлан
++V+Der/ывл+V+Inf:%>ывлыны K ;
++V+Der/ывл+V+ConNeg+Pl3:%>ывлыны # ;
++V+ConNeg:%>ывлы # ;
++Imp+Sg2:%>ывлы # ;
+
++V+Der/ышт+Dim+V:%>ышт  VerbConj ;
++V+Der/ышт+Dim+V+Inf:%>ыштны K ;
++V+Der/ышт+Dim+V+ConNeg:%>ышт # ;
++V+Der/ышт+Dim+V+Imp+Sg2:%>ышт # ;
+
++V+Der/ышт+Dim+V+Der/л+V:%>ыштл  VerbConj ;
++V+Der/ышт+Dim+V+Der/л+V+Inf:%>ыштлыны K ;
++V+Der/ышт+Dim+V+Der/л+V+ConNeg:%>ыштл # ;
++V+Der/ышт+Dim+V+Der/л+V+Imp+Sg2:%>ыштл # ;
+
+
+
+! Stray verb forms :-о
+ 
+LEXICON VerbPRT ! one verb, вӧвны 
+ +V: preterite ;
+
+LEXICON EMYSHT ! эмышт "is a little / are a few"
+ +V+Ind+Prs+Sg3: # ;
+ +V+Ind+Prs+Pl3: # ;
+ 
+LEXICON GER ! 3 lexicalised +Ger forms.
++V+Ger: # ;
+
