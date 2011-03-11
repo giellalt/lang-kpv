@@ -16,50 +16,55 @@
 
 <!ELEMENT m (head,(t | assoc)+) > <!-- meaning -->
 
-<!ELEMENT head (argg | collg)* > <!-- head: semantic, syntactic, collational information -->
+<!ELEMENT head (#PCDATA|argg|collg)* > <!-- head: semantic, syntactic, collational information -->
 <!ATTLIST head field (CDATA) #IMPLIED	    >  <!-- field of study -->
 <!ATTLIST head iter (CDATA) #IMPLIED	    >  <!-- iterations многокр, однокр -->
-<!ATTLIST head range (CDATA) #IMPLIED	    >  <!-- range of usage: (space and time) dialect, obsolete, neologism -->
+<!ATTLIST head range (dialect|neologism|obsolete) #IMPLIED	    >  <!-- range of usage: (space and time) dialect, obsolete, neologism -->
 <!ATTLIST head register (CDATA) #IMPLIED	    >  <!-- register: (who uses it) motherese, official, conversational -->
 <!ATTLIST head sns (CDATA) #IMPLIED	    >  <!-- sense: direct vs figurative, metaphorical -->
-<!ATTLIST head val (CDATA) #IMPLIED	    >  <!-- valence: verbs have 1 (intransitive), 2 (transitive) 3 (ditranstive "сетны" 'to give') -->
+<!ATTLIST head val (1|2|3) #IMPLIED	    >  <!-- valence: verbs have 1 (intransitive), 2 (transitive) 3 (ditranstive "сетны" 'to give') -->
 
 <!ELEMENT argg (arg)+ > <!-- argument group -->
 
 <!ELEMENT arg (typical) > <!-- argument -->
-<!ATTLIST arg name (CDATA) #IMPLIED	    >  <!-- name: (subj, obj,) -->
-<!ATTLIST arg cx (CDATA) #IMPLIED	    >  <!-- case (dependent and independent): (nominative, dative, genitive, ...) -->
+<!ATTLIST arg name (obj|subj) #IMPLIED	    >  <!-- name: (subj, obj,) -->
+<!ATTLIST arg cx (dative|elative|genitive|nominative) #IMPLIED	    >  <!-- case (dependent and independent): (nominative, dative, genitive, ...) -->
 
 <!ELEMENT typical (t)+ > <!-- typical -->
 
-<!ELEMENT collg (coll)+ > <!-- lemma -->
+<!ELEMENT collg (coll)+ > <!-- collation group -->
 
-<!ELEMENT coll (#PCDATA) > <!-- lemma -->
+<!ELEMENT coll (#PCDATA) > <!-- collation -->
 
 
-<!ELEMENT t ((gov |i)*) > <!-- translation -->
-<!ATTLIST t pos (CDATA) #IMPLIED         >  <!-- name: (subj, obj,) -->
-<!ATTLIST t lang (CDATA) #IMPLIED         >  <!-- translation language: (en | fi | ru)  -->
+<!ELEMENT t (#PCDATA|com|gov|i)* > <!-- translation -->
+<!ATTLIST t pos (n|v|phrase-v) #IMPLIED         >  <!-- name: (subj, obj,) -->
+<!ATTLIST t lang (en|fin|ru) #IMPLIED         >  <!-- translation language: (en | fi | ru)  -->
+
+<!ELEMENT com (#PCDATA|kv|t)* > <!-- comment -->
 
 <!ELEMENT gov (#PCDATA) > <!-- case government for verb, postpositions, etc. -->
 
 <!ELEMENT i (#PCDATA) > <!-- Probably comment information required in "head" element -->
 
 <!ELEMENT assoc (#PCDATA) > <!-- association -->
-<!ATTLIST assoc type (CDATA) #IMPLIED         >  <!-- type of association: pref (preferred use), also (see also), ant (antonym)  -->
+<!ATTLIST assoc type (also|ant|pref) #IMPLIED         >  <!-- type of association: pref (preferred use), also (see also), ant (antonym)  -->
+<!ATTLIST assoc RN (I|II|III|IV|V|VI|VII) #IMPLIED         >  <!-- Roman numeral unicode 2160-2164  -->
+<!ATTLIST assoc AN (1|2|3|4|5|6|7|8|9) #IMPLIED         >  <!-- Arabic numeral  -->
+<!ATTLIST assoc MNo (1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39) #IMPLIED         >  <!-- Meaning numeral  -->
+<!ATTLIST assoc pos (phrase-v|v) #IMPLIED         >  <!-- Roman numeral unicode 2160-2164  -->
 
-<!ATTLIST assoc RN (CDATA) #IMPLIED         >  <!-- Roman numeral unicode 2160-2164  -->
-<!ATTLIST assoc AN (1|2|3|4|5) #IMPLIED         >  <!-- Arabic numeral  -->
-<!ATTLIST assoc MNo (CDATA) #IMPLIED         >  <!-- Meaning numeral  -->
 
-<!ELEMENT x (kv,t+, answer?) > <!-- example phrase -->
-<!ATTLIST x type (CDATA) #IMPLIED         >  <!-- type of example: riddle, saying, proverb  -->
+<!ELEMENT x (kv,t+, (answer|com|literal)*) > <!-- example phrase -->
+<!ATTLIST x type (proverb|riddle|saying) #IMPLIED         >  <!-- type of example: proverb (пословица), riddle (загадка), saying (поговорка), proverb  -->
 
-<!ELEMENT kv (CmPos)* > <!-- Komi -->
+<!ELEMENT kv (#PCDATA|CmPos|com)* > <!-- Komi -->
 
 <!ELEMENT CmPos (#PCDATA) > <!-- Part of speech information following or inside Komi-language context -->
 
 <!ELEMENT answer (kv | t) > <!-- answer to riddle -->
+
+<!ELEMENT literal (kv|t)* > <!-- literal meaning -->
 
 <!--
 DTD ENDS HERE. 
