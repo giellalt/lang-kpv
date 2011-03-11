@@ -1,0 +1,126 @@
+<!ELEMENT r (eg+) >
+
+<!ELEMENT eg (lg,stem,e+) > <!-- homonym entry group -->
+
+<!ELEMENT lg (l) > <!-- lemma group -->
+
+<!ELEMENT l (#PCDATA) > <!-- lemma -->
+<!ATTLIST l contlex (CDATA) #IMPLIED	    >  <!-- continuation lexicon -->
+<!ATTLIST l pos (CDATA) #IMPLIED	    >  <!-- part of speech -->
+
+<!ELEMENT stem (#PCDATA) > <!-- stem; not required if identical to l -->
+
+<!ELEMENT e (mg+) > <!-- entry: equivalent to Roman numeral distinction -->
+
+<!ELEMENT mg (m,(x | assoc)*) > <!-- meaning group -->
+
+<!ELEMENT m (head,(t | assoc)+) > <!-- meaning -->
+
+<!ELEMENT head (argg | collg)* > <!-- head: semantic, syntactic, collational information -->
+<!ATTLIST head field (CDATA) #IMPLIED	    >  <!-- field of study -->
+<!ATTLIST head iter (CDATA) #IMPLIED	    >  <!-- iterations многокр, однокр -->
+<!ATTLIST head range (CDATA) #IMPLIED	    >  <!-- range of usage: (space and time) dialect, obsolete, neologism -->
+<!ATTLIST head register (CDATA) #IMPLIED	    >  <!-- register: (who uses it) motherese, official, conversational -->
+<!ATTLIST head sns (CDATA) #IMPLIED	    >  <!-- sense: direct vs figurative, metaphorical -->
+<!ATTLIST head val (CDATA) #IMPLIED	    >  <!-- valence: verbs have 1 (intransitive), 2 (transitive) 3 (ditranstive "сетны" 'to give') -->
+
+<!ELEMENT argg (arg)+ > <!-- argument group -->
+
+<!ELEMENT arg (typical) > <!-- argument -->
+<!ATTLIST arg name (CDATA) #IMPLIED	    >  <!-- name: (subj, obj,) -->
+<!ATTLIST arg cx (CDATA) #IMPLIED	    >  <!-- case (dependent and independent): (nominative, dative, genitive, ...) -->
+
+<!ELEMENT typical (t)+ > <!-- typical -->
+
+<!ELEMENT collg (coll)+ > <!-- lemma -->
+
+<!ELEMENT coll (#PCDATA) > <!-- lemma -->
+
+
+<!ELEMENT t ((gov |i)*) > <!-- translation -->
+<!ATTLIST t pos (CDATA) #IMPLIED         >  <!-- name: (subj, obj,) -->
+<!ATTLIST t lang (CDATA) #IMPLIED         >  <!-- translation language: (en | fi | ru)  -->
+
+<!ELEMENT gov (#PCDATA) > <!-- case government for verb, postpositions, etc. -->
+
+<!ELEMENT i (#PCDATA) > <!-- Probably comment information required in "head" element -->
+
+<!ELEMENT assoc (#PCDATA) > <!-- association -->
+<!ATTLIST assoc type (CDATA) #IMPLIED         >  <!-- type of association: pref (preferred use), also (see also), ant (antonym)  -->
+
+<!ATTLIST assoc RN (CDATA) #IMPLIED         >  <!-- Roman numeral unicode 2160-2164  -->
+<!ATTLIST assoc AN (1|2|3|4|5) #IMPLIED         >  <!-- Arabic numeral  -->
+<!ATTLIST assoc MNo (CDATA) #IMPLIED         >  <!-- Meaning numeral  -->
+
+<!ELEMENT x (kv,t+, answer?) > <!-- example phrase -->
+<!ATTLIST x type (CDATA) #IMPLIED         >  <!-- type of example: riddle, saying, proverb  -->
+
+<!ELEMENT kv (CmPos)* > <!-- Komi -->
+
+<!ELEMENT CmPos (#PCDATA) > <!-- Part of speech information following or inside Komi-language context -->
+
+<!ELEMENT answer (kv | t) > <!-- answer to riddle -->
+
+<!--
+DTD ENDS HERE. 
+
+
+ANo is not in use in the dict, and therefor out.
+j: they show up in the adv vs. po readings elsewhere in kvru
+The values of MNo are not machine readable, so let them be CDATA (for the time being)
+The actual MNo list is as follows:
+1|1,|1,2|1-3|1-4|1-6|10|11|12|13|14|15|16|17|18|19|1и|2|2,|20|21|22|23|24|25|26|27|28|29|3|3,|4|5|6|7|8|9
+
+
+DISCUSSION FROM HERE ON AND DOWN
+
+Pidätkö aakkosjärjestyksestä, kielten suhteen? sama se,
+ parempi olisi en fi ru ATTRina, siis tarkoitat lg="ru" 
+mitä "head" on? Se on tarkoitettu lähtökohdaksi kominkieliselle selitykselle.
+sen tehtävä on kuitenkin antaa semanttiset, syntaktiset tiedot ja mahdolliset kollokaatiot
+
+siinä on attr
+val valenssi!
+minkän elementin val se on?
+mitä tarkoittaa 
+m?
+x?
+ok, kirjoita sinä tämän dtd:n valmiiksi
+sitten kommentoin sen jälkeen
+
+t: It seems the whole attlist below should be att to lm above. 
+j: Not if there are several mg elements. Verbi on verbi vaikka voissa paistais. mutta jotkin merkitykset vaativat eri valenssia.
+
+ok, kirjoita valmiiksi, sitten katsotaan.
+Ja katso gt_dictionary.dtd
+j: haluan päästä niin lähelle valmiina olevalle kuin mahdollista
+
+t:
+menetelmä:
+a. kuvata olemassa oleva kvru
+b. kirjoittaa siihen dtd + saada se dtd-validiksi
+c. prosessoida se siihen, mihin me sen halutaan
+j: olemassa oleva kvru
+A)
+dictionary entry begins with a
+citation form =lemma
+followed immediately by any peculiarities of stem 
+"(-CONTENT-)" content in surrounding hyphens and parentheses
+Roman numeral #
+
+
+
+Mitä tämä muuten on?
+a. komi-ru-deskriptiivinen dtd?
+b. sun mielipide dtd:n rakenteesta?
+j: tämän tarkoitus on olla ehdotus käyvälle tietokannalle, jossa Komi on mahdollisimman tarkkaan kuvattu monikielisiä käännösvastineita varten.
+Nykyinen kvru 2000 sanakirja hapuilee L1 ja L2 suhteiden kohdalla.
+Esim. "||" käytetään tavallisesti erottamaan venäjänkielisten sanojen pos-eroja, varsinkin adj/subst, kun taas arabialainen numeraalia 1. tavallisesti erotetaan adv/po -sanaluokkia.
+t: minä en puhu esiintymismuodosta.
+
+sun pitää miettiä milloin käyttää ELEMENT ja milloin ATTLIST.
+ELEMENT = avoin joukko
+ATTLIST = avoimen joukon jäsenten suljetulta listalta otetut ominaisuudet
+
+-->
+
