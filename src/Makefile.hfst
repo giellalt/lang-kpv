@@ -5,3 +5,6 @@ all:
 	hfst-invert -i kom-gen.hfst -o kom-mor.hfst
 	hfst-substitute -F kom.apertium.relabel kom-mor.hfst | hfst-fst2fst -O -o kom-mor.hfst.ol
 	hfst-substitute -F kom.apertium.relabel kom-gen.hfst | hfst-fst2fst -O -o kom-gen.hfst.ol
+
+clean:
+	rm kom.lexc.hfst kom-twol.hfst kom-gen.hfst kom-mor.hfst kom-mor.hfst.ol kom-gen.hfst.ol

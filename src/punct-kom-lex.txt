@@ -26,18 +26,18 @@ LEXICON Punctuation
 –+PUNCT:–           # ; !endash
 —+PUNCT:—           # ; !emdash
 =+PUNCT:=           # ;
-%%+PUNCT:%%         # ;
 &+PUNCT:&           # ;
-%"+PUNCT:%"         # ;
-'+PUNCT:'           # ;
-%*+PUNCT:%*         # ;
 ++PUNCT:+           # ;
 `+PUNCT:`           # ;
 ´+PUNCT:´           # ;
-/+PUNCT:/           # ; 
-+/-+PUNCT:+/-       # ;
-%~+PUNCT:%~	        # ;
+'+PUNCT:'           # ;
 
+!%%+PUNCT:%%         # ; ! This one causes problems in HFST
+!%"+PUNCT:%"         # ;
+!%*+PUNCT:%*         # ;
+!/+PUNCT:/           # ; 
+!+/-+PUNCT:+/-       # ;
+!%~+PUNCT:%~	        # ;
 
 ! Paired punctuation marks
 
@@ -57,4 +57,3 @@ LEXICON Punctuation
 %}+PUNCT+RIGHT:%}   # ;
 %<+PUNCT+LEFT:%<    # ;
 %>+PUNCT+LEFT:%>    # ;
-
