@@ -1,0 +1,7 @@
+all:
+	cat kom-lex.txt noun-kom-morph.txt verb-kom-morph.txt pron-kom-morph.txt punct-kom-lex.txt num-kom-morph.txt acro-kom-lex.txt abbr-kom-lex.txt | hfst-lexc > kom.lexc.hfst
+	hfst-xfst -l xfst-kom.apertium.txt
+	hfst-compose-intersect -1 kom.lexc.hfst -2 kom-twol.hfst -o kom-gen.hfst
+	hfst-invert -i kom-gen.hfst -o kom-mor.hfst
+	hfst-substitute -F kom.apertium.relabel kom-mor.hfst | hfst-fst2fst -O -o kom-mor.hfst.ol
+	hfst-substitute -F kom.apertium.relabel kom-gen.hfst | hfst-fst2fst -O -o kom-gen.hfst.ol
