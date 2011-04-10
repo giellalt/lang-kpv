@@ -126,7 +126,7 @@ kom.fst: ../bin/kom.fst
 	@rm -f ../../tmp/kom-fst-script
 
 
-# This goal is to allow for Scandinavian ä/æ and ö/ø mix
+# This goal is to allow for Latin / Cyrillic i, ö / і, ӧ variation
 spellrelax: spellrelax.fst
 spellrelax.fst: ../../../gt/common/bin/spellrelax.fst
 ../../../gt/common/bin/spellrelax.fst: ../../../gt/common/src/spellrelax.regex
@@ -156,7 +156,7 @@ caseconv.fst: ../bin/caseconv.fst
 
 
 # Another goal is to build a preprocessor.This goal depends on tok.txt
-
+# We actually use the perl preprocesssor "preprocess" now.
 tok.fst: ../bin/tok.fst
 ../bin/tok.fst: tok.txt
 	@echo
@@ -279,66 +279,3 @@ clean:
 	@rm -rf ../bin/*.bin ../bin/*.fst ../bin/*.save ../bin/*-lex.txt ../../tmp/out
 
 
-
-
-# Return to this later
-
-# The first goal is to build kom-lex.save
-# This goal depends on a bunch of lexicon files
-
-# This block shal be added to the dependency files below:
-#	adj-kom-lex.txt \
-#	adv-kom-lex.txt \
-#	pron-kom-lex.txt \
-#	punct-kom-lex.txt \
-#	cc-kom-lex.txt cs-kom-lex.txt interj-kom-lex.txt pp-kom-lex.txt \
-
-# This block shall be added to the printf compile source statement below.
-#	adj-kom-lex.txt \
-#	adv-kom-lex.txt \
-#	pron-kom-lex.txt \
-#	pp-kom-lex.txt punct-kom-lex.txt \
-#	cc-kom-lex.txt cs-kom-lex.txt interj-kom-lex.txt  \n\
-
-# Here I build kom.save, with the tags ordered.
-
-#kom.save: ../bin/kom.save
-#../bin/kom.save: ../bin/kom-raw.save ../bin/tag-order.fst 
-#	@echo
-#	@echo "*** Building kom.save ***" ;
-#	@echo
-#	@printf "read regex [[@\"../bin/kom-raw.save\"] .o. \
-#	[@\"../bin/tag-order.fst\"]] ; \n\
-#	save stack ../bin/kom.save \n\
-#	quit \n" > ../../tmp/kom-fst-script
-#	$(XFST) < ../../tmp/kom-fst-script
-#	@rm -f ../../tmp/kom-fst-script
-
-
-
-# The second goal is to build the tag-order.fst file
-# This goal depends on tag-order.regex
-
-#tag-order.fst: ../bin/tag-order.fst
-#../bin/tag-order.fst: tag-order.regex
-#	@echo
-#	@echo "*** Building tag-order.fst ***" ;
-#	@echo
-#	@printf "read regex < tag-order.regex \n\
-#	save stack ../bin/tag-order.fst \n\
-#	quit \n" > ../../tmp/tag-order-script
-#	$(XFST) < ../../tmp/tag-order-script
-#	@rm -f ../../tmp/tag-order-script
-
-
-#kom.save: ../bin/kom-raw.save
-#../bin/kom-raw.save: ../bin/xfst-kom.bin ../bin/kom-lex.save
-#	@echo
-#	@echo "*** Building the parser kom-raw.save ***"
-#	@echo
-#	@printf "read regex [[@\"../bin/kom-lex.save\"] .o. \
-#	[@\"../bin/xfst-kom.bin\"]] ; \n\
-#	save stack ../bin/kom-raw.save \n\
-#	quit \n" > ../../tmp/kom-raw-save-script
-#	$(XFST) < ../../tmp/kom-raw-save-script
-#	@rm -f ../../tmp/kom-raw-save-script
