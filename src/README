@@ -1,13 +1,15 @@
 
 Komi fst, compiling with XFST or with HFST
 
-Compiling with XFST, the commands:
+Compiling with XFST, the commands are:
+
 make lexfiles
 make
 
-Note that the stem lexicon files are situated in the directory working_files
+Note that the stem lexicon files are situated in the directory working_files/
 The morphology (*-lex.txt and *-morph.txt) is situated in this directory.
-
+The lexc files proper are generated to ../../tmp/out/, and the fst-s stored
+in ../bin/
 
 ==Compiling with HFST==
 
@@ -15,38 +17,33 @@ The morphology (*-lex.txt and *-morph.txt) is situated in this directory.
 
 ==File list==
 
-abbr-kom-lex.txt                 The FST abbreviations
-acro-kom-lex.txt                 The FST Acronyms
+Source files proper marked with *
+
+abbr-kom-lex.txt           *     The FST abbreviations
+acro-kom-lex.txt           *     The FST Acronyms
 case.regex                       The regex to handle initial casing
-demo-for-teaching-lexc.txt       File from a seminar
 dict.dtd                         dtd, out of synch
 dict.xsd                         xsd, out of synch
 dom-komi.xml                     List of dictionary DOMAIN names
 kom.apertium.relabel             A relabel script to convert tags with + to < > 
-kom-dis.rle                      Draft constraint grammar for Komi
-KomiRoch_A_01.xml                Testing dict conversion, letter A
+kom-dis.rle                *     Draft constraint grammar for Komi
 komi-twol-rules.txt              Obsolete twolc rule, we use (x)fst
-kom-lex.txt                      The main lexc file
+kom-lex.txt                *     The main lexc file
 kom-lex.xsd                      Probably obsolete
 kom-num.txt                      File for word-to-number conversion, not part of kom.fst
 Makefile                         A Makefile that compiles the transducers with XFST
 Makefile.hfst                    A Makefile that compiles the transducers with HFST
-MaleNicknames4kom-lex.xml        Entries to be added (not processed yet)
 meta.xml                         Gives some meta info
-noun-kom-morph.txt               Noun morphology
-NounSUBJ.txt                     11 mislabeled entries, to be corrected
-num-kom-morph.txt                Numerals in fst
-PlaceNames4kom-lex.xml           Place names scheduled for addition
+noun-kom-morph.txt         *     Noun morphology
+num-kom-morph.txt          *     Numerals in fst
 pos-komi.xml                     Just a file containing POS names and translations
-pron-kom-morph.txt               The fst pron file
-punct-kom-lex.txt                The fst punctuation file
-Russian-male-surnames.xml        
+pron-kom-morph.txt         *     The FST pron file
+punct-kom-lex.txt          *     The FST punctuation file
 tag-order.regex                  To ensure consistent tag order. In use? Should be.
-tag-rus.regex                    Russian tag names.
-test3.txt                        Komi letters test file
+tag-rus.regex              *     Russian tag names.
 tok.txt                          Our old xerox tokenize source file
 typos.txt                        List of typos for corpus processing
-verb-kom-morph.txt               The fst verb file
-working_files                    HERE IS WHERE THE LEXICON FILES ARE STORED
-xfst-kom.apertium.txt            An XFST script that saves the final result
-xfst-kom.txt                     The original XFST script
+verb-kom-morph.txt         *     The FST verb file
+working_files              *     HERE IS WHERE THE LEXICON FILES ARE STORED
+xfst-kom.apertium.txt      *     An XFST script that saves the final result
+xfst-kom.txt               *     The original XFST script
