@@ -139,13 +139,12 @@ LIST LEFT = LEFT ;
 LIST RIGHT = RIGHT ; 
 
 LIST CASE = Nom Gen Abl Dat Com Cns Acc Ins Ine Ill Ela Car Egr Tra Apr Ter Abe Prl ;
-
+LIST OBLCASE = CASE - Nom ;
 
 SECTION
 
 
 # Cases
-SELECT Nom IF (NOT *-1 V BARRIER (","));
 
 # Pronouns
 REMOVE Interr IF (-2 N)(-1 (","))(0 Rel);
