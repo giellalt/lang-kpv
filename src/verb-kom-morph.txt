@@ -87,7 +87,7 @@ LEXICON VerbConj-V ! суф б -- ы --
 +Inf:%>ны K ;
 +ConNeg+Pl3:%>ны # ;
 +ConNeg: # ;
-+Imp+Sg2: # ;
++Imprt+Sg2: # ;
 
 LEXICON VerbConj ! суф а -------
  Finiteforms ;
@@ -113,7 +113,7 @@ LEXICON preterite
 +Ind+Prt2:%>ӧм Pret2a ;
 
 LEXICON imperative
-+Imp+Pl2:%>ӧй # ;
++Imprt+Pl2:%>ӧй # ;
 
 LEXICON PossessiveSuffixes
 +PxSg1:%>ым K ;
@@ -246,29 +246,29 @@ LEXICON VerbDer-V
 
 +V+Der/л+V+ConNeg:%>лы # ;
 +V+Der/л+V+ConNeg+Pl3:%>ылыны # ;
-+V+Der/л+V+Imp+Sg2:%>лы # ;
++V+Der/л+V+Imprt+Sg2:%>лы # ;
 
 +V+Der/л+V:%>л VerbConj ; ! босьтл - босьтлан
 +V+Der/л+V+Inf:%>вны K ;
 +V+Der/л+V+Pl3:%>вны # ;
 
 +V+ConNeg:%>ылы # ;
-+Imp+Sg2:%>ылы # ;
++Imprt+Sg2:%>ылы # ;
 +V+Der/ывл+V:%>ывл VerbConj ; ! мынтывл - мынтывлан
 +V+Der/ывл+V+Inf:%>ывлыны K ;
 +V+Der/ывл+V+ConNeg+Pl3:%>ывлыны # ;
 +V+ConNeg:%>ывлы # ;
-+Imp+Sg2:%>ывлы # ;
++Imprt+Sg2:%>ывлы # ;
 
 +V+Der/ышт+Dim+V:%>ышт  VerbConj ;
 +V+Der/ышт+Dim+V+Inf:%>ыштны K ;
 +V+Der/ышт+Dim+V+ConNeg:%>ышт # ;
-+V+Der/ышт+Dim+V+Imp+Sg2:%>ышт # ;
++V+Der/ышт+Dim+V+Imprt+Sg2:%>ышт # ;
 
 +V+Der/ышт+Dim+V+Der/л+V:%>ыштл  VerbConj ;
 +V+Der/ышт+Dim+V+Der/л+V+Inf:%>ыштлыны K ;
 +V+Der/ышт+Dim+V+Der/л+V+ConNeg:%>ыштл # ;
-+V+Der/ышт+Dim+V+Der/л+V+Imp+Sg2:%>ыштл # ;
++V+Der/ышт+Dim+V+Der/л+V+Imprt+Sg2:%>ыштл # ;
 
 
 
