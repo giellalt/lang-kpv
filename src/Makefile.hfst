@@ -5,6 +5,7 @@ all:
 	hfst-compose-intersect -1 kom.lexc.hfst -2 kom-xfst.hfst -o kom-gen.hfst
 	hfst-invert -i kom-gen.hfst -o kom-mor.hfst
 	hfst-substitute -F kom.apertium.relabel kom-mor.hfst | hfst-fst2fst -O -o kom-mor.hfst.ol
+	hfst-substitute -F kom.apertium-lower.relabel kom-mor.hfst | hfst-fst2fst -O -o kom-mor-lower.hfst.ol
 	hfst-substitute -F kom.apertium.relabel kom-gen.hfst | hfst-fst2fst -O -o kom-gen.hfst.ol
 
 clean:

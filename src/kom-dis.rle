@@ -31,7 +31,7 @@ LIST A = A ;
 LIST Adv = Adv ; 
 LIST CC = CC ; 
 LIST CS = CS ; 
-LIST Interj = Interj ; 
+LIST Interj = Interj interj ij; 
 LIST Pron = Pron ; 
 LIST Num = Num ; 
 LIST Pcle = Pcle ; 
@@ -60,8 +60,8 @@ LIST Pl2 = Pl2 ;
 LIST Pl3 = Pl3 ; 
 LIST Inf = Inf ; 
 LIST Pos = Pos ; 
-LIST Neg = Neg ; 
-LIST ConNeg = ConNeg ; 
+LIST Neg = Neg neg ; 
+LIST ConNeg = ConNeg conneg; 
 
 LIST Sg = Sg ; 
 LIST Pl = Pl ; 
@@ -150,12 +150,14 @@ SECTION
 REMOVE Interr IF (-2 N)(-1 (","))(0 Rel);
 
 # Verbs
-REMOVE ConNeg IF (NOT *-1 Neg);
+REMOVE ConNeg IF (NOT *-1 Neg BARRIER CLB);
+
+REMOVE ConNeg IF (-1* ConNeg BARRIER Neg);
 
 # и
 REMOVE ABBR IF (0 CC)(NOT 1 ("."));
 REMOVE Pcle IF (-1 N + $$CASE)(1 N + $$CASE);
 
-
+REMOVE Interj IF (NOT 1* ("!")) ;
 
 
