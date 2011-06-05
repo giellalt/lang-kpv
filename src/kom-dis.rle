@@ -48,10 +48,10 @@ LIST PrfIpf = PrfIpf ;
 LIST HstPrf = HstPrf ; 
 LIST PluPrf = PluPrf ; 
 LIST HstPluPrf = HstPluPrf ; 
-LIST Ind = Ind ; 
+LIST Ind = Ind ind ; 
 LIST Imp = Imp ; 
-LIST Cond = Cond ; 
-LIST Opt = Opt ; 
+LIST Cond = Cond cond ; 
+LIST Opt = Opt opt ; 
 LIST Sg1 = Sg1 ; 
 LIST Sg2 = Sg2 ; 
 LIST Sg3 = Sg3 ; 
@@ -63,29 +63,29 @@ LIST Pos = Pos ;
 LIST Neg = Neg neg ; 
 LIST ConNeg = ConNeg conneg; 
 
-LIST Sg = Sg ; 
-LIST Pl = Pl ; 
-LIST Nom = Nom ; 
-LIST Gen = Gen ; 
-LIST Abl = Abl ; 
-LIST Dat = Dat ; 
-LIST Com = Com ; 
-LIST Cns = Cns ; 
+LIST Sg = Sg sg ; 
+LIST Pl = Pl pl ; 
+LIST Nom = Nom nom ; 
+LIST Gen = Gen gen ; 
+LIST Abl = Abl abl ; 
+LIST Dat = Dat dat ; 
+LIST Com = Com com ; 
+LIST Cns = Cns cns ; 
 
-LIST Acc = Acc ; 
-LIST Ins = Ins ; 
-LIST Ine = Ine ; 
-LIST Ill = Ill ; 
+LIST Acc = Acc acc ; 
+LIST Ins = Ins ins ; 
+LIST Ine = Ine ine ; 
+LIST Ill = Ill ill ; 
 
-LIST Ela = Ela ; 
-LIST Car = Car ; 
-LIST Egr = Egr ; 
-LIST Tra = Tra ; 
+LIST Ela = Ela ela ; 
+LIST Car = Car car ; 
+LIST Egr = Egr egr ; 
+LIST Tra = Tra tra ; 
 
-LIST Apr = Apr ; 
-LIST Ter = Ter ; 
-LIST Abe = Abe ; 
-LIST Prl = Prl ; 
+LIST Apr = Apr apr ; 
+LIST Ter = Ter ter ; 
+LIST Abe = Abe abe ; 
+LIST Prl = Prl prl ; 
 
 LIST HabObj = HabObj ; 
 LIST Instr = Instr ; 
@@ -105,7 +105,6 @@ LIST PxPl2 = PxPl2 ;
 LIST PxPl3 = PxPl3 ; 
 
 LIST Card = Card ; 
-LIST Cns = Cns ; 
 
 LIST Coll = Coll ; 
 LIST Comp = Comp ; 
@@ -141,6 +140,8 @@ LIST RIGHT = RIGHT ;
 LIST CASE = Nom Gen Abl Dat Com Cns Acc Ins Ine Ill Ela Car Egr Tra Apr Ter Abe Prl ;
 LIST OBLCASE = CASE - Nom ;
 
+SET V-FIN = Ind | Cond | Opt ; 
+
 SECTION
 
 
@@ -160,4 +161,4 @@ REMOVE Pcle IF (-1 N + $$CASE)(1 N + $$CASE);
 
 REMOVE Interj IF (NOT 1* ("!")) ;
 
-
+REMOVE Acc IF (0C Nom OR Acc) (NOT -1* V-FIN BARRIER BOS) (NOT -1* V-FIN BARRIER EOS);
