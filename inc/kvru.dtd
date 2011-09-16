@@ -35,7 +35,7 @@
 <!ATTLIST head range (dialect|neologism|obsolete) #IMPLIED	    >  <!-- range of usage: (space and time) dialect, obsolete, neologism -->
 <!ATTLIST head register (conversational|motherese|official) #IMPLIED	    >  <!-- register: (who uses it) motherese, official, conversational -->
 <!ATTLIST head sns (direct|figurative|metaphorical) #IMPLIED	    >  <!-- sense: direct vs figurative, metaphorical -->
-<!ATTLIST head val (1|2|3) #IMPLIED	    >  <!-- valence: verbs have 1 (intransitive), 2 (transitive) 3 (ditranstive "сетны" 'to give') -->
+<!ATTLIST head val (1|2|3|1:S:0) #IMPLIED	    >  <!-- valence: verbs have 1 (intransitive), 2 (transitive) 3 (ditranstive "сетны" 'to give') 1:S:0 (intransitive impersonal verb '')-->
 
 
 <!ELEMENT field (#PCDATA) >  <!-- field of study -->
