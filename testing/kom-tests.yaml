@@ -1,0 +1,18 @@
+Config:
+  hfst:
+    Gen: smn/bin/ismn.hfst
+    Morph: smn/bin/smn.hfst
+  xerox:
+    Gen: smn/bin/ismn.fst
+    Morph: smn/bin/smn.fst
+    App: lookup
+
+Tests:
+  Noun - тымӧд: # â-stems
+    тымӧд+N+Sg+Nom: тымӧд
+    тымӧд+N+Sg+Gen: тымӧдлӧнн
+    тымӧд+N+Sg+Dat: тымӧдлы
+    тымӧд+N+Sg+Cns: тымӧдла
+    тымӧд+N+Sg+Com: тымӧдкӧд
+
+
