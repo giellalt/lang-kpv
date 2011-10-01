@@ -1,10 +1,10 @@
 Config:
   hfst:
-    Gen: smn/bin/ismn.hfst
-    Morph: smn/bin/smn.hfst
+    Gen: ../bin/ikom.hfst
+    Morph: ../bin/kom.hfst
   xerox:
-    Gen: smn/bin/ismn.fst
-    Morph: smn/bin/smn.fst
+    Gen: ../bin/ikom.fst
+    Morph: ../bin/kom.fst
     App: lookup
 
 Tests:
