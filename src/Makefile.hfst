@@ -1,12 +1,264 @@
-all:
-	cat kom-lex.txt noun-kom-morph.txt verb-kom-morph.txt pron-kom-morph.txt punct-kom-lex.txt num-kom-morph.txt acro-kom-lex.txt abbr-kom-lex.txt generated_files/*.txt | sed 's/"[a-z]\+" ;/;/g' | sed 's/""//g'   >all-files.lexc
-	cat all-files.lexc | hfst-lexc -v > kom.lexc.hfst
-	hfst-xfst -l xfst-kom.apertium.txt
-	hfst-compose-intersect -1 kom.lexc.hfst -2 kom-xfst.hfst -o ../bin/kom-gen.hfst
-	hfst-invert -i kom-gen.hfst -o ../bin/kom-mor.hfst
-	hfst-substitute -F kom.apertium.relabel kom-mor.hfst | hfst-fst2fst -O -o ../bin/kom-mor.hfst.ol
-	hfst-substitute -F kom.apertium-lower.relabel kom-mor.hfst | hfst-fst2fst -O -o ../bin/kom-mor-lower.hfst.ol
-	hfst-substitute -F kom.apertium.relabel kom-gen.hfst | hfst-fst2fst -O -o ../bin/kom-gen.hfst.ol
+# ************************************************************************* #
+#   This is a makefile that builds the Komi morphological parser using HFST #
+# ************************************************************************* #
 
-clean:
-	rm kom.lexc.hfst kom-xfst.hfst kom-gen.hfst kom-mor.hfst kom-mor.hfst.ol kom-gen.hfst.ol all-files.lexc ../bin/*.hfsr ../bin/*.hfst.ol
+HFST_FLAGS=-v
+HLEXC_FLAGS=$(HFST_FLAGS)
+HTWOLC_FLAGS=$(HFST_FLAGS) --resolve
+ZIP = /usr/bin/zip
+
+# Possible formats are:
+# - foma
+# - ofst-log
+# - ofst-tropical
+# - openfst
+# - openfst-log
+# - openfst-tropical
+# - optimized-lookup
+# - optimized-lookup-unweighted
+# - optimized-lookup-weighted
+# - sfst
+
+# This is the default format, it might be overridden for specific transducers:
+HFST_FORMAT=openfst-tropical
+
+# Main target. Produces analysers, generators and spellers.
+all: kom.hfst hfstspellers
+
+# Include the makefile that converts from xml to lexc:
+include Makefile.xml
+
+# Target for all common regex files:
+../bin/%.hfst: ../src/%.regex
+	@echo
+	@echo "*** Building $(@F) ***" ;
+	@echo
+	printf "read regex @re\"$<\" ; \n\
+	save stack $@ \n" > $@.script
+	hfst-xfst -F $(HFST_FORMAT) -f $@.script
+
+# Target for all common xfst script files:
+../bin/%.hfst: ../src/%.xfst
+	@echo
+	@echo "*** Building $(@F) ***" ;
+	@echo
+	printf "source $< \n\
+	save stack $@ \n" > $@.script
+	hfst-xfst -F $(HFST_FORMAT) -f $@.script
+
+# Compile the twolc file:
+twol-hfst \
+../bin/kom-twol.hfst: ../src/twol-kom.txt
+	@echo
+	@echo "*** Building $(@F) ***" ;
+	@echo
+	hfst-twolc $(HTWOLC_FLAGS) -i $< -o $@
+
+# Compile lexicon files
+lexc-hfst: ../bin/kom-lexc.hfst
+../bin/kom-lexc.hfst: $(SRCS)
+	@echo
+	@echo "*** Building $(@F) ***" ;
+	@echo
+	hfst-lexc $(HLEXC_FLAGS) -o $@.foma $^
+	hfst-fst2fst $(HLEXC_FLAGS) -f openfst -o $@ $@.foma
+	rm $@.foma
+
+# Compose&intersect lexicon and twol into a raw transducer
+save-hfst: ../bin/kom-gen.hfst
+../bin/kom-gen.hfst: \
+		../bin/kom-lexc.hfst \
+		../bin/kom-twol.hfst
+	@echo
+	@echo "*** Building $(@F) ***" ;
+	@echo
+	hfst-compose-intersect   $(HFST_FLAGS) $+ | \
+		hfst-determinize     $(HFST_FLAGS)    | \
+		hfst-remove-epsilons $(HFST_FLAGS)    | \
+		hfst-minimize        $(HFST_FLAGS) -o $@
+
+# Remove some tags that are only used for internal processing, or noise in the
+# regular transducer. Eventually, they should not be removed, just made
+# optional.
+../bin/kom-tagsremoved.hfst: \
+		../bin/kom-gen.hfst \
+		$(GTHOME)/gt/common/src/tag-not-save.regex \
+		$(GTHOME)/gt/common/src/usage-tags-remove.regex
+	@echo
+	@echo "*** Building $(@F) ***" ;
+	@echo
+	hfst-fst2txt -i $< -o $<.att
+	printf "read att $<.att \n\
+	define Lexicon ; \n\
+	define GenTagFilter @re\"$(GTHOME)/gt/common/src/tag-not-save.regex\" ; \n\
+	define TagFilter @re\"$(GTHOME)/gt/common/src/usage-tags-remove.regex\" ; \n\
+	read regex TagFilter .o. GenTagFilter .o. Lexicon ; \n\
+	save stack $@ \n" > $@.script
+	hfst-xfst -F $(HFST_FORMAT) -f $@.script
+	rm -f $<.att
+
+# Finally optimize the inverted (generating) transducer:
+ihfst ikom.hfst: ../bin/ikom.hfstol
+../bin/ikom.hfstol: ../bin/kom-tagsremoved.hfst
+	@echo
+	@echo "*** Building lookup-optimized $(@F) ***" ;
+	@echo
+	hfst-determinize $(HFST_FLAGS) -i $< | \
+		hfst-minimize $(HFST_FLAGS) | \
+		hfst-fst2fst $(HFST_FLAGS) -O -o $@
+
+# Add uppercasing
+upper-lexc-hfst: ../bin/kom-upper.hfst
+../bin/kom-upper.hfst: \
+		../bin/kom-tagsremoved.hfst \
+		$(GTHOME)/gt/common/bin/uppercase-first.hfst
+	@echo
+	@echo "*** Building $(@F) ***" ;
+	@echo
+	cat $< | \
+		hfst-compose-intersect $(HFST_FLAGS) \
+		-2 $(GTHOME)/gt/common/bin/uppercase-first.hfst > $@
+
+# Finally invert and optimize
+kom.hfst: ../bin/kom.hfst ihfst
+../bin/kom.hfst: ../bin/kom-upper.hfst
+	@echo
+	@echo "*** Building $(@F) ***" ;
+	@echo
+	hfst-invert -i $< -o $@
+	@echo
+	@echo "*** Building lookup-optimized $(@F)ol ***" ;
+	@echo
+	hfst-determinize $(HFST_FLAGS) -i $@ | \
+		hfst-minimize $(HFST_FLAGS) | \
+		hfst-fst2fst $(HFST_FLAGS) -O -o $@ol
+
+# Filter out all unwanted strings:
+../bin/kom.filtered.hfst: \
+		../bin/kom-gen.hfst \
+		$(GTHOME)/gt/common/src/use-sub-filter.regex \
+		$(GTHOME)/gt/common/src/usage-tags-remove.regex
+	@echo
+	@echo "*** Building $(@F) ***" ;
+	@echo
+	hfst-fst2txt -i $< -o $<.att
+	printf "read att $<.att \n\
+	define Lexicon ; \n\
+	define SubFilter @re\"$(GTHOME)/gt/common/src/use-sub-filter.regex\" ; \n\
+	define TagFilter @re\"$(GTHOME)/gt/common/src/usage-tags-remove.regex\" ; \n\
+	read regex TagFilter .o. SubFilter .o. Lexicon ; \n\
+	save stack $@ \n" > $@.script
+	hfst-xfst -F $(HFST_FORMAT) -f $@.script
+	rm -f $<.att
+
+# Finish normative transducer:
+hfstnorm: ../bin/kom-norm.hfst
+../bin/kom-norm.hfst: ../bin/kom.filtered.hfst
+	@echo
+	@echo "*** Building $(@F) ***" ;
+	@echo
+	hfst-invert $< -o $@
+	@echo
+	@echo "*** Building lookup-optimized $(@F)ol ***" ;
+	@echo
+	hfst-determinize $(HFST_FLAGS) -i $@ | \
+		hfst-fst2fst $(HFST_FLAGS) -f optimized-lookup-weighted -o $@ol
+
+###########################################
+# Targets to test morphological transducers
+###########################################
+
+hfsttest: ../testing/kom-tests.yaml \
+		 ../bin/kom.hfst \
+		 ../bin/ikom.hfstol
+	HfstTester.py -Cicv $<
+
+###########################################
+# Targets to create spell checkers
+###########################################
+
+# Filter out unwanted paths from the speller transducer:
+../bin/kom.speller-filtered.hfst: \
+		../bin/kom-norm.hfst \
+		$(GTHOME)/gt/common/src/Punctuation-filter.regex
+	@echo
+	@echo "*** Building $(@F) ***" ;
+	@echo
+	hfst-fst2txt -i $< -o $<.att
+	printf "read att $<.att \n\
+	define Lexicon ; \n\
+	define PunctFilter @re\"$(GTHOME)/gt/common/src/Punctuation-filter.regex\" ; \n\
+	read regex Lexicon .o. PunctFilter ; \n\
+	save stack $@ \n" > $@.script
+	hfst-xfst -F $(HFST_FORMAT) -f $@.script
+	rm -f $<.att
+
+# Project input side to create a one-level automat for spelling usage
+../bin/kom.single.hfstol: ../bin/kom.speller-filtered.hfst
+	@echo
+	@echo "*** Building $(@F) ***" ;
+	@echo
+	hfst-project $(HFST_FLAGS) -p upper $< | \
+		hfst-fst2fst $(HFST_FLAGS) -f optimized-lookup-weighted -o $@
+
+# Process the error model into a text file that can be compiled into a transducer:
+../bin/kom.spl-errormodel.hfstol: \
+		../hfst/default-error-model.txt \
+		../bin/kom.single.hfstol \
+		$(GTHOME)/gt/script/editdist.py
+	@echo
+	@echo "*** Building $(@F) ***" ;
+	@echo
+	$(GTHOME)/gt/script/editdist.py -v -s -d 2 -e '@0@' -i $<   \
+		-a ../bin/kom.single.hfstol | \
+		hfst-txt2fst $(HFST_FLAGS) -e '@0@'      | \
+		hfst-fst2fst $(HFST_FLAGS) -f optimized-lookup-weighted -o $@
+
+hfstspellers: zhfst voikkohfst voikkoinstall
+
+# Create a ZHFST speller archive out of the available transducers:
+zhfst: ../hfst/kom-speller.zhfst
+../hfst/kom-speller.zhfst: \
+		../bin/kom.single.hfstol \
+		../bin/kom.spl-errormodel.hfstol \
+		../hfst/index.xml
+	@echo
+	@echo "*** Building $(@F) ***" ;
+	@echo
+	cp -f ../bin/kom.single.hfstol ../hfst/acceptor.default.hfstol
+	cp -f ../bin/kom.spl-errormodel.hfstol ../hfst/errmodel.default.hfstol
+	cd ../hfst/ && $(ZIP) -v -9 $(@F) \
+		index.xml acceptor.default.hfstol errmodel.default.hfstol
+
+voikkohfst:
+	@echo
+	@echo "*** Building GT Voikko+HFST speller for kom ***" ;
+	@echo
+	mkdir -p ../voikko/2/mor-kom
+	cd ../voikko/2/mor-kom && \
+		ln -sf ../../../hfst/kom-speller.zhfst speller.zhfst
+
+voikkoinstall:
+	@echo
+	@echo "*** Installing GT Voikko+HFST speller for kom ***" ;
+	@echo
+	mkdir -p ~/.voikko/2/mor-kv
+	cp -f ../hfst/kom-speller.zhfst \
+		~/.voikko/2/mor-kv/speller.zhfst
+	sed 's/: kom/: kv/' ../voikko/2/mor-kom/voikko-fi_FI.pro \
+		> ~/.voikko/2/mor-kv/voikko-fi_FI.pro
+
+###########################################################################################
+
+# all:
+# 	cat kom-lex.txt noun-kom-morph.txt verb-kom-morph.txt pron-kom-morph.txt punct-kom-lex.txt num-kom-morph.txt acro-kom-lex.txt abbr-kom-lex.txt generated_files/*.txt | sed 's/"[a-z]\+" ;/;/g' | sed 's/""//g'   >all-files.lexc
+# 	cat all-files.lexc | hfst-lexc -v > kom.lexc.hfst
+# 	hfst-xfst -l xfst-kom.apertium.txt
+# 	hfst-compose-intersect -1 kom.lexc.hfst -2 kom-xfst.hfst -o ../bin/kom-gen.hfst
+# 	hfst-invert -i kom-gen.hfst -o ../bin/kom-mor.hfst
+# 	hfst-substitute -F kom.apertium.relabel kom-mor.hfst | hfst-fst2fst -O -o ../bin/kom-mor.hfst.ol
+# 	hfst-substitute -F kom.apertium-lower.relabel kom-mor.hfst | hfst-fst2fst -O -o ../bin/kom-mor-lower.hfst.ol
+# 	hfst-substitute -F kom.apertium.relabel kom-gen.hfst | hfst-fst2fst -O -o ../bin/kom-gen.hfst.ol
+# 
+# clean:
+# 	rm kom.lexc.hfst kom-xfst.hfst kom-gen.hfst kom-mor.hfst kom-mor.hfst.ol kom-gen.hfst.ol all-files.lexc ../bin/*.hfsr ../bin/*.hfst.ol
