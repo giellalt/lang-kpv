@@ -8,7 +8,27 @@ Config:
     App: lookup
 
 Tests:
-  Noun - тымӧд: # â-stems
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+# What is the analyser command?
+# HfstTester.py --help
+# gives an overview, but Sjur is fixing the makefile now.
+
+
+  Verb - кывны: # 
+     кывны+V+Inf: кывны
+     кывны+V+ConNeg+Pl3: кывны
+     кывны+V+ConNeg: кыв
+     кывны+V+Imprt+Sg2: кыв
+     кывны+V+Inf: кывны
+     кывны+V+Inf: кывны
+
+  
+  Noun - тымӧд: # Ordinary nouns - full paradigm
      тымӧд+N+Sg+Nom: тымӧд
      тымӧд+N+Sg+Acc: [тымӧд, тымӧдӧс]
      тымӧд+N+Sg+Gen: тымӧдлӧн
