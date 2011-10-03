@@ -2,14 +2,6 @@
 #   This is a makefile that builds the Komi morphological parser    #
 # ***************************************************************** #
 
-# NBNB!! Here comes the IMPORTANT usage note NBNB !!
-# Usage: build twice. First build the lexc files, then build the fst
-
-# make lexfiles
-# make
-
-# ================================================================= #
-
 # Search for prerequisites from the bin-directory.
 SHELL = /bin/sh
 .SUFFIXES:
