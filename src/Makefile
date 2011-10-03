@@ -146,9 +146,7 @@ kom.save: ../bin/kom.save
 	@rm -f ../../tmp/kom-save-script
 
 kom-lex.save: ../bin/kom-lex.save
-../bin/kom-lex.save: kom-lex.txt noun-kom-morph.txt verb-kom-morph.txt \
-pron-kom-morph.txt punct-kom-lex.txt num-kom-morph.txt acro-kom-lex.txt \
-abbr-kom-lex.txt kom-lex-xmlsrc.txt
+../bin/kom-lex.save: $(SRCS)
 	@echo
 	@echo "*** Building kom-lex.save ***" ;
 	@echo

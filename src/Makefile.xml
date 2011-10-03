@@ -33,6 +33,18 @@ XMLS = $(shell ls $(SRC)/*.xml)
 
 LEXS := $(patsubst $(SRC)/%.xml,$(OUT)/%.xml.txt,$(wildcard $(SRC)/*.xml))
 
+# All the lexc source files, the last one generated from xml. They are defined
+# in this file so that the definition can be shared between xerox and hfst
+# Makefiles.
+SRCS = kom-lex.txt \
+	   noun-kom-morph.txt \
+       verb-kom-morph.txt \
+       pron-kom-morph.txt \
+       punct-kom-lex.txt \
+       num-kom-morph.txt \
+       acro-kom-lex.txt \
+       abbr-kom-lex.txt \
+       kom-lex-xmlsrc.txt
 
 # Concatenate all generated LexC files. If there are no usable entries, the
 # lexc file will be empty, which is regarded as a fatal error by LexC:
