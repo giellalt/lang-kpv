@@ -145,6 +145,7 @@ kom.save: ../bin/kom.save
 	$(XFST) < ../../tmp/kom-save-script
 	@rm -f ../../tmp/kom-save-script
 
+# Compile the lexicon:
 kom-lex.save: ../bin/kom-lex.save
 ../bin/kom-lex.save: $(SRCS)
 	@echo
@@ -159,7 +160,7 @@ kom-lex.save: ../bin/kom-lex.save
 
 # The second goal is to build xfst-kom.bin
 # This goal depends on xfst-kom.txt
-
+# Compile the phonological rules:
 xfst-kom.bin: ../bin/xfst-kom.bin
 ../bin/xfst-kom.bin: xfst-kom.txt
 	@echo
