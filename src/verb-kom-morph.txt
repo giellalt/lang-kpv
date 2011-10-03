@@ -9,24 +9,24 @@
 
 LEXICON VERBNEGATIVE
 !Present Neg
-оз+V+Neg+Ind+Prs+Sg1:ог K ;
-оз+V+Neg+Ind+Prs+Sg2:он K ;
-оз+V+Neg+Ind+Prs+Sg3:оз K ;
-оз+V+Neg+Ind+Prs+Pl1:огӧ K ;
-оз+V+Neg+Ind+Prs+Pl2:онӧ K ;
-оз+V+Neg+Ind+Prs+Pl1:огӧй K ;
-оз+V+Neg+Ind+Prs+Pl2:онӧй K ;
-оз+V+Neg+Ind+Prs+Pl3:оз K ;
+оз+V+Neg+Ind+Prs+Sg1:ог MatrixVerb-Comparison ;
+оз+V+Neg+Ind+Prs+Sg2:он MatrixVerb-Comparison ;
+оз+V+Neg+Ind+Prs+Sg3:оз MatrixVerb-Comparison ;
+оз+V+Neg+Ind+Prs+Pl1:огӧ MatrixVerb-Comparison ;
+оз+V+Neg+Ind+Prs+Pl2:онӧ MatrixVerb-Comparison ;
+оз+V+Neg+Ind+Prs+Pl1:огӧй MatrixVerb-Comparison ;
+оз+V+Neg+Ind+Prs+Pl2:онӧй MatrixVerb-Comparison ;
+оз+V+Neg+Ind+Prs+Pl3:оз MatrixVerb-Comparison ;
 
 !Past Neg
-оз+V+Neg+Ind+Prt+Sg1:эг K ;
-оз+V+Neg+Ind+Prt+Sg2:эн K ;
-оз+V+Neg+Ind+Prt+Sg3:эз K ;
-оз+V+Neg+Ind+Prt+Pl1:эг K ;
-оз+V+Neg+Ind+Prt+Pl2:эн K ;
-оз+V+Neg+Ind+Prt+Pl1:эгӧ K ;
-оз+V+Neg+Ind+Prt+Pl2:энӧ K ;
-оз+V+Neg+Ind+Prt+Pl3:эз K ;
+оз+V+Neg+Ind+Prt+Sg1:эг MatrixVerb-Comparison ;
+оз+V+Neg+Ind+Prt+Sg2:эн MatrixVerb-Comparison ;
+оз+V+Neg+Ind+Prt+Sg3:эз MatrixVerb-Comparison ;
+оз+V+Neg+Ind+Prt+Pl1:эг MatrixVerb-Comparison ;
+оз+V+Neg+Ind+Prt+Pl2:эн MatrixVerb-Comparison ;
+оз+V+Neg+Ind+Prt+Pl1:эгӧ MatrixVerb-Comparison ;
+оз+V+Neg+Ind+Prt+Pl2:энӧ MatrixVerb-Comparison ;
+оз+V+Neg+Ind+Prt+Pl3:эз MatrixVerb-Comparison ;
 
 !Imperative
 оз+V+Neg+Imprt+Sg2:эн K ;
@@ -84,7 +84,7 @@ LEXICON Verb3 ! ярмыны. Ending in -ыны.
 ! ================ !
 
 LEXICON VerbConj-V ! суф б -- ы --
-+Inf:%>ны K ;
++Inf:%>ны MatrixVerb-Comparison ;
 +ConNeg+Pl3:%>ны # ;
 +ConNeg: # ;
 +Imprt+Sg2: # ;
@@ -130,28 +130,28 @@ LEXICON PossessiveSuffixes_NoSg1
 
 
 LEXICON PresPret1  ! First and second person
-+Sg1:%> K ; 
-+Sg2:%>н K ;
-+Pl1:%>м K ; 
-+Pl1+Use/Sub:%>мӧ K ; 
-+Pl1:%>мӧй K ;  ! imperatiivi / optatiivi ??
-+Pl2:%>нныд K ;
-+Pl2+Use/Sub:%>д K ; 
++Sg1:%> MatrixVerb-Comparison ; 
++Sg2:%>н MatrixVerb-Comparison ;
++Pl1:%>м MatrixVerb-Comparison ; 
++Pl1+Use/Sub:%>мӧ MatrixVerb-Comparison ; 
++Pl1:%>мӧй MatrixVerb-Comparison ;  ! imperatiivi / optatiivi ??
++Pl2:%>нныд MatrixVerb-Comparison ;
++Pl2+Use/Sub:%>д MatrixVerb-Comparison ; 
 
 LEXICON P3         
 :%>с PresPret1-SgPl3 ; ! This is regular
   PresPret1-SgPl3 ; ! This is usually restricted to intransitives
-!:%>с PL3 ; ! what?
+
 
 LEXICON PresPret1-SgPl3
   SG3 ; 
   PL3 ;
   
 LEXICON SG3
-+Sg3:%> K ;
++Sg3:%> MatrixVerb-Comparison ;
   
 LEXICON PL3
-+Pl3:%>ны K;
++Pl3:%>ны MatrixVerb-Comparison ;
 
 LEXICON Pret2a
 :а PRET2-linkki-a ; 
@@ -161,21 +161,24 @@ LEXICON Pret2a
                   ! as point of departure
 
 LEXICON PRET2PL2
-+Sg2:%>ыд K ;
-+Pl2:%>ныд K ;
-+Pl2:%>ныдӧсь K ; !224
-+Pl3:%>ны K ; !227
++Sg2:%>ыд MatrixVerb-Comparison ;
++Pl2:%>ныд MatrixVerb-Comparison ;
++Pl2:%>ныдӧсь MatrixVerb-Comparison ; !224
++Pl3:%>ны MatrixVerb-Comparison ; !227
 
 LEXICON PRET2-linkki-a
-!+Sg1+Use/Sub: K ; ! no Sg1 for Prt2 in the standard
-+Sg1: K ; ! no Sg1 for Prt2 in the standard
-+Sg3: K ;
-!+Pl1+Use/Sub:%>ӧсь K ; ! no Pl1 for Prt2 in the standard
-+Pl1:%>ӧсь K ; ! no Pl1 for Prt2 in the standard
-+Pl3:%>ӧсь K ;
+!+Sg1+Use/Sub: MatrixVerb-Comparison ; ! no Sg1 for Prt2 in the standard
++Sg1: MatrixVerb-Comparison ; ! no Sg1 for Prt2 in the standard
++Sg3: MatrixVerb-Comparison ;
+!+Pl1+Use/Sub:%>ӧсь MatrixVerb-Comparison ; ! no Pl1 for Prt2 in the standard
++Pl1:%>ӧсь MatrixVerb-Comparison ; ! no Pl1 for Prt2 in the standard
++Pl3:%>ӧсь MatrixVerb-Comparison ;
 
-
-
+LEXICON MatrixVerb-Comparison
++NoComparison: K ;
++Der/моз:%>моз K ;
++Compar:%>джык K ;
++Der/кодь+:%>кодь K ;
 
 
 ! Derivation
