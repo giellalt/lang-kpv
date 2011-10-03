@@ -1,0 +1,122 @@
+# ***************************************************************** #
+#   This is a makefile that builds the Komi morphological parser    #
+# ***************************************************************** #
+
+# NBNB!! Here comes the IMPORTANT usage note NBNB !!
+# Usage: build twice. First build the lexc files, then build the fst
+
+# make lexfiles
+# make
+
+# ================================================================= #
+
+# Search for prerequisites from the bin-directory.
+SHELL = /bin/sh
+.SUFFIXES:
+
+lg = kom
+
+# Java variables:
+VM = no
+JV   = java
+MF   = -Xmx1024m
+EF   = -it main
+XSL  = net.sf.saxon.Transform
+SCRIPTS     = ../script
+DICT_PATH   = ../../../words/dicts
+DICT_BIN    = komfineng/bin
+COMPDICT    = collect-dict-parts.xsl
+KL2GT       = kom-lex2gtdict.xsl
+SRC         = working_files
+END         = @echo "Done."
+VPATH=../bin
+
+cur-dir   := $(shell pwd)
+bin-dir   := $(subst src,bin,$(cur-dir))
+
+tmp-dir = ../../tmp
+OUT         = $(tmp-dir)/out
+
+XMLS = $(shell ls $(SRC)/*.xml) 
+
+LEXS := $(patsubst $(SRC)/%.xml,$(OUT)/%.xml.txt,$(wildcard $(SRC)/*.xml))
+
+
+# Concatenate all generated LexC files. If there are no usable entries, the
+# lexc file will be empty, which is regarded as a fatal error by LexC:
+kom-lex-xmlsrc.txt: $(LEXS)
+	@echo
+	@echo "*** Concatenating generated lexc files into $(@F) ***"
+	@echo
+	cat $^ > $@
+
+# This target will convert each individual xml file to lexc:
+$(OUT)/%.xml.txt: $(SRC)/%.xml $(SCRIPTS)/generate_lex-fileVM.xsl
+	@echo
+	@echo "*** Generating lexc files for Komi: $(@F) ***"
+	@echo
+	@mkdir -p $(OUT)
+	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/generate_lex-fileVM.xsl \
+		inFile=$(cur-dir)/$< > $@
+
+# Generate the lex files
+lexfiles: $(XMLS)
+	@echo
+	@echo "*** Generating lexc files for Komi ***"
+	@echo "*** Files: $(XMLS) ***"
+	@echo
+	@mkdir -p $(OUT)
+ifeq ($(VM), yes)
+	$(foreach FILE, $(XMLS), $(shell $(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/generate_lex-fileVM.xsl inFile=$(FILE) > $(OUT)/$(FILE).txt)) 
+endif
+ifeq ($(VM), no)
+	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/generate_lex-file.xsl inDir=../src/working_files outDir=$(OUT)
+endif
+	@echo
+	@echo "*** generated all Komi lexc files in $(OUT). ***"
+	@echo
+
+# Start the dict compilation process
+# transform the file into gt xml format
+macdict: kom-lex.xml
+
+# Compile the dictionary xml-file by unifing the individual pos-files
+kom-lex.xml: $(DICT_PATH)/$(DICT_BIN)/kom-lex.xml
+$(DICT_PATH)/$(DICT_BIN)/kom-lex.xml: $(SRC)
+
+	@echo
+	@echo "*** Converting kom-lex.xml to GT format ***"
+	@echo 
+	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/$(KL2GT) inDir=../src/$< outDir=$(OUT)
+	@echo
+	$(END)
+	@echo
+	@echo "*** Generating the kom-lex.xml file ***"
+	@echo "../src/$(OUT)"
+	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/$(COMPDICT) dir=../src/$(OUT) > $@
+	@echo
+	$(END)
+	@echo
+
+# lemma_macdict: $(DICT_PATH)/$(BIN)/$(MACDICT)
+# $(DICT_PATH)/$(BIN)/$(MACDICT): $(DICT_PATH)/$(BIN)/$(DICT_XML)
+# 	@echo
+# 	$(BEGIN)
+# 	$(JV) $(MF) $(XSL) $< $(SCRIPTS)/$(DICTTOMAC) > $@
+# 	@echo
+# 	$(END)
+# 	@echo
+# 	@echo "*** Generating mac-object files ***"
+# 	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/$(GEN_INFO) S_LANG=$(S_LANG) T_LANG=$(T_LANG) DATE=$(DATE) > $(DICT_PATH)/$(MACDIR)/$(I_FILE)
+# 	@echo
+# 	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/$(GEN_MAKE) S_LANG=$(S_LANG) T_LANG=$(T_LANG) DICT_PATH=$(ONE_UP)/$(BIN)/$(MACDICT) > $(DICT_PATH)/$(MACDIR)/$(M_FILE)
+# 	@echo
+# 	$(END)
+# 	@echo "*** Building the mac dictionary ***"
+# 	@cd $(DICT_PATH)/$(MACDIR) && make clean; make; make install
+# 	@echo
+# 	$(END)
+
+# java -Xmx2048m net.sf.saxon.Transform -it main kom-lex2gtdict.xsl inDir=
+
+# java -Xmx2048m net.sf.saxon.Transform -it main collect-dict-parts.xsl dir= > kom-lex.xml

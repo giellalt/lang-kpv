@@ -14,40 +14,12 @@
 SHELL = /bin/sh
 .SUFFIXES:
 
+all: ikom.fst kom.fst
+
+# Include the makefile that converts from xml to lexc:
+include Makefile.xml
+
 lg = kom
-
-#XMLFILES = kom-lex.xml MaleNicknames4kom-lex.xml Placenames4kom-lex.xml
-
-VM = no
-JV   = java
-MF   = -Xmx1024m
-EF   = -it main
-XSL  = net.sf.saxon.Transform
-SCRIPTS     = ../script
-DICT_PATH   = ../../../words/dicts
-DICT_BIN    = komfineng/bin
-COMPDICT    = collect-dict-parts.xsl
-KL2GT       = kom-lex2gtdict.xsl
-SRC         = working_files
-END         = @echo "Done."
-VPATH=../bin
-
-cur-dir   := $(shell pwd)
-bin-dir   := $(subst src,bin,$(cur-dir))
-
-tmp-dir = ../../tmp
-OUT         = $(tmp-dir)/out
-
-$(shell mkdir -p $(OUT))
-
-# if test -d $(OUT) ; \
-# then LEXS = $(shell ls $(tmp-dir)/out/*.txt) ; \
-# else "$(LEXS) doesn't exist yet." ; \
-# fi
-
-LEXS = $(shell ls $(tmp-dir)/out/*.txt)
-
-XMLS = $(shell ls $(SRC)/*.xml) 
 
 XFST = xfst 
 #XFST = fst 
@@ -76,7 +48,6 @@ ikom.fst: ../bin/ikom.fst
 	quit \n" > ../../tmp/ikom-fst-script
 	$(XFST) < ../../tmp/ikom-fst-script
 	@rm -f ../../tmp/ikom-fst-script
-
 
 
 # We want an analyzer with Russian tags. It takes the linguistic 
@@ -113,13 +84,16 @@ tag-rus.fst: ../int/tag-rus.fst
 # This goal is to build the final analyser. It depends on all the files.
 
 kom.fst: ../bin/kom.fst
-../bin/kom.fst: ../bin/kom.save ../bin/caseconv.fst ../bin/tok.fst ../../../gt/common/bin/spellrelax.fst
+../bin/kom.fst: ../bin/kom.save \
+				../bin/caseconv.fst \
+				../bin/tok.fst \
+				$(GTHOME)/gt/common/bin/spellrelax.fst
 	@echo
 	@echo "*** Building kom.fst ***" ;
 	@echo
 	@printf "read regex [[@\"../bin/kom.save\"] .o. \
 	[@\"../bin/caseconv.fst\"] .o. \
-	[@\"../../../gt/common/bin/spellrelax.fst\"]] ; \n\
+	[@\"$(GTHOME)/gt/common/bin/spellrelax.fst\"]] ; \n\
 	save stack ../bin/kom.fst \n\
 	quit \n" > ../../tmp/kom-fst-script
 	$(XFST) < ../../tmp/kom-fst-script
@@ -127,9 +101,7 @@ kom.fst: ../bin/kom.fst
 
 
 # This goal is to allow for Latin / Cyrillic i, ö / і, ӧ variation
-spellrelax: spellrelax.fst
-spellrelax.fst: ../../../gt/common/bin/spellrelax.fst
-../../../gt/common/bin/spellrelax.fst: ../../../gt/common/src/spellrelax.regex
+$(GTHOME)/gt/common/bin/spellrelax.fst: $(GTHOME)/gt/common/src/spellrelax.regex
 	@echo
 	@echo "*** Building spellrelax.fst ***" ;
 	@echo
@@ -184,7 +156,7 @@ kom.save: ../bin/kom.save
 kom-lex.save: ../bin/kom-lex.save
 ../bin/kom-lex.save: kom-lex.txt noun-kom-morph.txt verb-kom-morph.txt \
 pron-kom-morph.txt punct-kom-lex.txt num-kom-morph.txt acro-kom-lex.txt \
-abbr-kom-lex.txt $(LEXS) 
+abbr-kom-lex.txt kom-lex-xmlsrc.txt
 	@echo
 	@echo "*** Building kom-lex.save ***" ;
 	@echo
@@ -193,7 +165,6 @@ abbr-kom-lex.txt $(LEXS)
 	quit \n" > ../../tmp/kom-lex-save-script
 	$(LEXC) < ../../tmp/kom-lex-save-script
 	rm -f ../../tmp/kom-lex-save-script
-
 
 
 # The second goal is to build xfst-kom.bin
@@ -211,71 +182,11 @@ xfst-kom.bin: ../bin/xfst-kom.bin
 	@rm -f ../../tmp/xfst-kom-script
 
 
-# Generate the lex files
-lexfiles:
-#	@echo
-#	@echo "*** Generating lexc files for Komi ***"
-	@echo
-ifeq ($(VM), yes)
-	$(foreach FILE, $(shell cd $(SRC); ls *.xml), $(shell $(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/generate_lex-fileVM.xsl inFile=../src/working_files/$(FILE) > $(OUT)/$(FILE).txt)) 
-endif
-ifeq ($(VM), no)
-	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/generate_lex-file.xsl inDir=../src/working_files outDir=$(OUT)
-endif
-	@echo
-	@echo "*** generated all Komi lexc files in $(OUT). ***"
-	@echo
-
-# Start the dict compilation process
-# transform the file into gt xml format
-macdict: kom-lex.xml
-
-# Compile the dictionary xml-file by unifing the individual pos-files
-kom-lex.xml: $(DICT_PATH)/$(DICT_BIN)/kom-lex.xml
-$(DICT_PATH)/$(DICT_BIN)/kom-lex.xml: $(SRC)
-
-	@echo
-	@echo "*** Converting kom-lex.xml to GT format ***"
-	@echo 
-	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/$(KL2GT) inDir=../src/$< outDir=$(OUT)
-	@echo
-	$(END)
-	@echo
-	@echo "*** Generating the kom-lex.xml file ***"
-	@echo "../src/$(OUT)"
-	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/$(COMPDICT) dir=../src/$(OUT) > $@
-	@echo
-	$(END)
-	@echo
-
-# lemma_macdict: $(DICT_PATH)/$(BIN)/$(MACDICT)
-# $(DICT_PATH)/$(BIN)/$(MACDICT): $(DICT_PATH)/$(BIN)/$(DICT_XML)
-# 	@echo
-# 	$(BEGIN)
-# 	$(JV) $(MF) $(XSL) $< $(SCRIPTS)/$(DICTTOMAC) > $@
-# 	@echo
-# 	$(END)
-# 	@echo
-# 	@echo "*** Generating mac-object files ***"
-# 	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/$(GEN_INFO) S_LANG=$(S_LANG) T_LANG=$(T_LANG) DATE=$(DATE) > $(DICT_PATH)/$(MACDIR)/$(I_FILE)
-# 	@echo
-# 	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/$(GEN_MAKE) S_LANG=$(S_LANG) T_LANG=$(T_LANG) DICT_PATH=$(ONE_UP)/$(BIN)/$(MACDICT) > $(DICT_PATH)/$(MACDIR)/$(M_FILE)
-# 	@echo
-# 	$(END)
-# 	@echo "*** Building the mac dictionary ***"
-# 	@cd $(DICT_PATH)/$(MACDIR) && make clean; make; make install
-# 	@echo
-# 	$(END)
-
-# java -Xmx2048m net.sf.saxon.Transform -it main kom-lex2gtdict.xsl inDir=
-
-# java -Xmx2048m net.sf.saxon.Transform -it main collect-dict-parts.xsl dir= > kom-lex.xml
-
-
-
-
-
 clean:
-	@rm -rf ../bin/*.bin ../bin/*.fst ../bin/*.save ../bin/*-lex.txt ../../tmp/out
-
-
+	@rm -rf \
+		../bin/*.bin \
+		../bin/*.fst \
+		../bin/*.save \
+		../bin/*-lex.txt \
+		../../tmp/out \
+		kom-lex-xmlsrc.txt
