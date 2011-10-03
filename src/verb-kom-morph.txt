@@ -212,21 +212,21 @@ LEXICON VerbDer
 !352 Pl
 +Der/иг+Duration+Ger+Pl:%>ігъяс K ;
 +Der/иг+Duration+Ger+Pl+Ill:%>ігъясӧ K ; !345
-+Der/иг+Duration+Ger+Ill+PxSg1:%>ігъясам K ;
-+Der/иг+Duration+Ger+Ill+PxSg2:%>ігъясад K ;
-+Der/иг+Duration+Ger+Ill+PxSg3:%>ігъясас K ;
-+Der/иг+Duration+Ger+Ill+PxPl1:%>ігъясаным K ;
-+Der/иг+Duration+Ger+Ill+PxPl2:%>ігъясаныд K ;
-+Der/иг+Duration+Ger+Ill+PxPl3:%>ігъясаныс K ;
++Der/иг+Duration+Ger+Pl+Ill+PxSg1:%>ігъясам K ;
++Der/иг+Duration+Ger+Pl+Ill+PxSg2:%>ігъясад K ;
++Der/иг+Duration+Ger+Pl+Ill+PxSg3:%>ігъясас K ;
++Der/иг+Duration+Ger+Pl+Ill+PxPl1:%>ігъясаным K ;
++Der/иг+Duration+Ger+Pl+Ill+PxPl2:%>ігъясаныд K ;
++Der/иг+Duration+Ger+Pl+Ill+PxPl3:%>ігъясаныс K ;
 +Der/иг+Duration+Ger+Pl+Instr:%>ігъясӧн PossessiveSuffixes_NoSg1 ;
-+Der/иг+Duration+Ger+Ill:%>ігӧ K ;
-+Der/иг+Duration+Ger+Ill+PxSg1:%>ігам K ;
-+Der/иг+Duration+Ger+Ill+PxSg2:%>ігад K ;
-+Der/иг+Duration+Ger+Ill+PxSg3:%>ігас K ;
-+Der/иг+Duration+Ger+Ill+PxPl1:%>іганым K ;
-+Der/иг+Duration+Ger+Ill+PxPl2:%>іганыд K ;
-+Der/иг+Duration+Ger+Ill+PxPl3:%>іганыс K ;
-+Der/иг+Duration+Ger+Instr:%>ігӧн PossessiveSuffixes_NoSg1 ;
++Der/иг+Duration+Ger+Sg+Ill:%>ігӧ K ;
++Der/иг+Duration+Ger+Sg+Ill+PxSg1:%>ігам K ;
++Der/иг+Duration+Ger+Sg+Ill+PxSg2:%>ігад K ;
++Der/иг+Duration+Ger+Sg+Ill+PxSg3:%>ігас K ;
++Der/иг+Duration+Ger+Sg+Ill+PxPl1:%>іганым K ;
++Der/иг+Duration+Ger+Sg+Ill+PxPl2:%>іганыд K ;
++Der/иг+Duration+Ger+Sg+Ill+PxPl3:%>іганыс K ;
++Der/иг+Duration+Ger+Sg+Instr:%>ігӧн PossessiveSuffixes_NoSg1 ;
 !351 Pl
 +Der/иг+Duration+Ger+MOZ:%>ігмоз PossessiveSuffixes_NoSg1 ; !371
 +Der/иг+Duration+Ger+SOR:%>ігсор K ;
@@ -276,13 +276,13 @@ LEXICON VerbDer-V
 +V+Der/л+V+Inf:%>вны K ;
 +V+Der/л+V+Pl3:%>вны # ;
 
-+V+ConNeg:%>ылы # ;
-+Imprt+Sg2:%>ылы # ;
+!+V+ConNeg:%>ылы # ; !Questioning 2011-10-02
+!+Imprt+Sg2:%>ылы # ; !Questioning 2011-10-02
 +V+Der/ывл+V:%>ывл VerbConj ; ! мынтывл - мынтывлан
 +V+Der/ывл+V+Inf:%>ывлыны K ;
 +V+Der/ывл+V+ConNeg+Pl3:%>ывлыны # ;
-+V+ConNeg:%>ывлы # ;
-+Imprt+Sg2:%>ывлы # ;
++V+Der/ывл+V+ConNeg:%>ывлы # ;
++V+Der/ывл+V+Imprt+Sg2:%>ывлы # ;
 
 +V+Der/ышт+Dim+V:%>ышт  VerbConj ;
 +V+Der/ышт+Dim+V+Inf:%>ыштны K ;
