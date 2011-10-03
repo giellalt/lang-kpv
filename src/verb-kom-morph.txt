@@ -164,6 +164,7 @@ LEXICON PRET2PL2
 +Sg2:%>ыд K ;
 +Pl2:%>ныд K ;
 +Pl2:%>ныдӧсь K ; !224
++Pl3:%>ны K ; !227
 
 LEXICON PRET2-linkki-a
 !+Sg1+Use/Sub: K ; ! no Sg1 for Prt2 in the standard
@@ -181,7 +182,7 @@ LEXICON PRET2-linkki-a
 ! ==========
 
 LEXICON Non-finiteforms
-VerbDer ; ! то бе мергед шитн нехт
+VerbDer ; ! to be merged with next
 
 LEXICON VerbDer 
 
@@ -205,12 +206,18 @@ LEXICON VerbDer
  
 +Der/ӧм+Event:%>ӧм Noun1 ;
 ! Page 346 in the Komi grammar
-+MYST:%>мысьт K ; ! gerund (after the action)
-+MYS:%>мысь K ; !
++MYST:%>мысьт K ; ! gerund (after the action) !353
++MYS:%>мысь K ; ! !353
 +Der/иг+Duration+Ger:%>іг K ; ! gerund (at the same time as the action)
 !352 Pl
 +Der/иг+Duration+Ger+Pl:%>ігъяс K ;
-+Der/иг+Duration+Ger+Pl+Ill:%>ігъясӧ K ;
++Der/иг+Duration+Ger+Pl+Ill:%>ігъясӧ K ; !345
++Der/иг+Duration+Ger+Ill+PxSg1:%>ігъясам K ;
++Der/иг+Duration+Ger+Ill+PxSg2:%>ігъясад K ;
++Der/иг+Duration+Ger+Ill+PxSg3:%>ігъясас K ;
++Der/иг+Duration+Ger+Ill+PxPl1:%>ігъясаным K ;
++Der/иг+Duration+Ger+Ill+PxPl2:%>ігъясаныд K ;
++Der/иг+Duration+Ger+Ill+PxPl3:%>ігъясаныс K ;
 +Der/иг+Duration+Ger+Pl+Instr:%>ігъясӧн PossessiveSuffixes_NoSg1 ;
 +Der/иг+Duration+Ger+Ill:%>ігӧ K ;
 +Der/иг+Duration+Ger+Ill+PxSg1:%>ігам K ;
@@ -221,19 +228,36 @@ LEXICON VerbDer
 +Der/иг+Duration+Ger+Ill+PxPl3:%>іганыс K ;
 +Der/иг+Duration+Ger+Instr:%>ігӧн PossessiveSuffixes_NoSg1 ;
 !351 Pl
-+Der/иг+Duration+Ger+MOZ:%>ігмоз PossessiveSuffixes ;
++Der/иг+Duration+Ger+MOZ:%>ігмоз PossessiveSuffixes_NoSg1 ; !371
 +Der/иг+Duration+Ger+SOR:%>ігсор K ;
++Der/иг+Duration+Ger+SOR+Instr:%>ігсорӧн K ;
 +Der/иг+Duration+Ger+TYR:%>ігтыр K ;
-+Der/иг+Duration+Ger+TYRJI:%>ігтырйи K ;
-+Der/иг+Duration+Ger+CHOZH:%>ігчӧж K ;
-+Der/иг+Duration+Ger+KOSTI:%>ігкості PossessiveSuffixes ;
-+ANA:%>ана K ;
-+ANAA+Adv:%>анаа K ; !Adding after attestation in Komi Grammar 2000 
-+AN+MOZ:%>анмоз K ;
-+Car:%>тӧг PossessiveSuffixes ;
++Der/иг+Duration+Ger+TYRJI:%>ігтырйи PossessiveSuffixes_NoSg1 ; !374
++Der/иг+Duration+Ger+TYRJA:%>ігтыръя K ;
++Der/иг+Duration+Ger+CHOZH:%>ігчӧж PossessiveSuffixes_NoSg1 ; !377
++Der/иг+Duration+Ger+CHOZH+Instr:%>ігчӧжӧн K ; !
++Der/иг+Duration+Ger+KOSTI:%>ігкості PossessiveSuffixes_NoSg1 ; !352, 379
++Der/иг+Duration+Ger+KOSTA:%>ігкоста K ;
++Der/иг+Duration+Ger+KEZHLO:%>ігкежлӧ K ; !393
+
++Der/иг+Duration+Ger+KEZHLO+PxSg2:%>ігкежлад K ;
++Der/иг+Duration+Ger+KEZHLO+PxSg3:%>ігкежлас K ;
++Der/иг+Duration+Ger+KEZHLO+PxPl1:%>ігкежланым K ;
++Der/иг+Duration+Ger+KEZHLO+PxPl2:%>ігкежланыд K ;
++Der/иг+Duration+Ger+KEZHLO+PxPl3:%>ігкежланыс K ;
+
+
++ANA+Adv:%>ана K ;
++ANAA+Adv:%>анаа K ; !Adding after attestation in Komi Grammar 2000: 381
++AN+MOZ:%>анмоз PossessiveSuffixes_NoSg1 ; !383
+
++Car:%>тӧг PossessiveSuffixes_NoSg1 ; ! 390
++Car+Use/Sub:%>тӧгъя K ; !387
++Car+Use/Sub:%>тӧга K ; !387
++Car+MOZ:%>тӧгмоз PossessiveSuffixes_NoSg1 ; !
 +Der/ӧм+Event+N+Instr:%>ӧмӧн K ;
-+Der/иг+Duration+Ger+KEZHLO:%>ігкежлӧ K ;
-+VTer:%>тӧдз PossessiveSuffixes ;
++VTer:%>тӧдз PossessiveSuffixes_NoSg1 ; !396
++MON:%>мӧн PossessiveSuffixes_NoSg1 ; !399-403
 +VAbe:%>тӧм PossessiveSuffixes ;
 +Der/ысь+ActPrsPtc:%>ысь Noun1 ;
 
