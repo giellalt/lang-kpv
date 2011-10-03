@@ -30,8 +30,8 @@
   <xsl:param name="outDir" select="'out'"/>
   <xsl:variable name="of" select="'txt'"/>
   <xsl:variable name="debug" select="true()"/>
-  
-  
+  <xsl:variable name="FstEntries" select="count(document($inFile)/dict/entry[not(@exclude='fst')])"/>
+
   <xsl:template match="/" name="main">
     
     <xsl:choose>
@@ -46,6 +46,9 @@
 	  </xsl:message>
 	</xsl:if>
 	
+    <xsl:choose>
+      <xsl:when test="$FstEntries &gt; 0">
+
 	<xsl:variable name="lex_name" select="substring-before($file_name, '_')"/>
 	<xsl:value-of select="concat('LEXICON', $spc, $lex_name, $nl, $nl)"/>
 	
@@ -82,7 +85,12 @@
 	  </xsl:if>
 	</xsl:for-each>
 	
-
+      </xsl:when>
+      <xsl:otherwise>
+	<!--xsl:value-of select="concat('File does not contain any usable entries: ', $inFile, $nl)"/>
+	<xsl:value-of select="concat('Number of usable entries: ', $FstEntries, $nl)"/-->
+      </xsl:otherwise>
+    </xsl:choose>
 
 	
       </xsl:when>
