@@ -20,11 +20,11 @@ Tests:
 
 
   Verb - кывны: # 
-     кывны+V+Inf: кывны
      кывны+V+ConNeg+Pl3: кывны
      кывны+V+ConNeg: кыв
      кывны+V+Imprt+Sg2: кыв
      кывны+V+Imprt+Pl2: кылӧй
+     кывны+V+Inf: кывны
      кывны+V+Ind+Prs+Sg1: кыла
      кывны+V+Ind+Prs+Sg2: кылан
      кывны+V+Ind+Prs+Sg3: кылӧ
@@ -55,6 +55,99 @@ Tests:
      кывны+V+Ind+Prt2+Pl1: кылӧмаӧсь
      кывны+V+Ind+Prt2+Pl2: [кылӧмныд, кылӧмныдӧсь]
      кывны+V+Ind+Prt2+Pl3: [кылӧмаӧсь, кылӧмны]
+     кывны+V+Inf+Der/моз: кывнымоз
+     кывны+V+Ind+Prs+Sg1+Der/моз: кыламоз
+     кывны+V+Ind+Prs+Sg2+Der/моз: кыланмоз
+     кывны+V+Ind+Prs+Sg3+Der/моз: кылӧмоз
+     кывны+V+Ind+Prs+Pl1+Der/моз: [кыламмоз, кыламӧймоз]
+     кывны+V+Ind+Prs+Pl1+Use/Sub+Der/моз: кыламӧмоз
+     кывны+V+Ind+Prs+Pl2+Der/моз: кыланныдмоз
+     кывны+V+Ind+Prs+Pl2+Use/Sub+Der/моз: кыладмоз
+     кывны+V+Ind+Prs+Pl3+Der/моз: кылӧнымоз
+     кывны+V+Ind+Fut+Sg1+Der/моз: кыламоз
+     кывны+V+Ind+Fut+Sg2+Der/моз: кыланмоз
+     кывны+V+Ind+Fut+Sg3+Der/моз: кыласмоз
+     кывны+V+Ind+Fut+Pl1+Der/моз: [кыламмоз, кыламӧймоз]
+     кывны+V+Ind+Fut+Pl1+Use/Sub+Der/моз: кыламӧмоз
+     кывны+V+Ind+Fut+Pl2+Der/моз: кыланныдмоз
+     кывны+V+Ind+Fut+Pl2+Use/Sub+Der/моз: кыладмоз
+     кывны+V+Ind+Fut+Pl3+Der/моз: кыласнымоз
+     кывны+V+Ind+Prt1+Sg1+Der/моз: кылімоз
+     кывны+V+Ind+Prt1+Sg2+Der/моз: кылінмоз
+     кывны+V+Ind+Prt1+Sg3+Der/моз: [кылісмоз, кылімоз]
+     кывны+V+Ind+Prt1+Pl1+Der/моз: [кыліммоз, кылімӧймоз]
+     кывны+V+Ind+Prt1+Pl1+Use/Sub+Der/моз: кылімӧмоз
+     кывны+V+Ind+Prt1+Pl2+Der/моз: кылінныдмоз
+     кывны+V+Ind+Prt1+Pl2+Use/Sub+Der/моз: кылідмоз
+     кывны+V+Ind+Prt1+Pl3+Der/моз: [кыліснымоз, кылінымоз]
+     кывны+V+Ind+Prt2+Sg1+Der/моз: кылӧмамоз
+     кывны+V+Ind+Prt2+Sg2+Der/моз: кылӧмыдмоз
+     кывны+V+Ind+Prt2+Sg3+Der/моз: кылӧмамоз
+     кывны+V+Ind+Prt2+Pl1+Der/моз: кылӧмаӧсьмоз
+     кывны+V+Ind+Prt2+Pl2+Der/моз: [кылӧмныдмоз, кылӧмныдӧсьмоз]
+     кывны+V+Ind+Prt2+Pl3+Der/моз: [кылӧмаӧсьмоз, кылӧмнымоз]
+     кывны+V+Inf+Der/кодь: кывныкодь
+     кывны+V+Ind+Prs+Sg1+Der/кодь: кылакодь
+     кывны+V+Ind+Prs+Sg2+Der/кодь: кыланкодь
+     кывны+V+Ind+Prs+Sg3+Der/кодь: кылӧкодь
+     кывны+V+Ind+Prs+Pl1+Der/кодь: [кыламкодь, кыламӧйкодь]
+     кывны+V+Ind+Prs+Pl1+Use/Sub+Der/кодь: кыламӧкодь
+     кывны+V+Ind+Prs+Pl2+Der/кодь: кыланныдкодь
+     кывны+V+Ind+Prs+Pl2+Use/Sub+Der/кодь: кыладкодь
+     кывны+V+Ind+Prs+Pl3+Der/кодь: кылӧныкодь
+     кывны+V+Ind+Fut+Sg1+Der/кодь: кылакодь
+     кывны+V+Ind+Fut+Sg2+Der/кодь: кыланкодь
+     кывны+V+Ind+Fut+Sg3+Der/кодь: кыласкодь
+     кывны+V+Ind+Fut+Pl1+Der/кодь: [кыламкодь, кыламӧйкодь]
+     кывны+V+Ind+Fut+Pl1+Use/Sub+Der/кодь: кыламӧкодь
+     кывны+V+Ind+Fut+Pl2+Der/кодь: кыланныдкодь
+     кывны+V+Ind+Fut+Pl2+Use/Sub+Der/кодь: кыладкодь
+     кывны+V+Ind+Fut+Pl3+Der/кодь: кыласныкодь
+     кывны+V+Ind+Prt1+Sg1+Der/кодь: кылікодь
+     кывны+V+Ind+Prt1+Sg2+Der/кодь: кылінкодь
+     кывны+V+Ind+Prt1+Sg3+Der/кодь: [кыліскодь, кылікодь]
+     кывны+V+Ind+Prt1+Pl1+Der/кодь: [кылімкодь, кылімӧйкодь]
+     кывны+V+Ind+Prt1+Pl1+Use/Sub+Der/кодь: кылімӧкодь
+     кывны+V+Ind+Prt1+Pl2+Der/кодь: кылінныдкодь
+     кывны+V+Ind+Prt1+Pl2+Use/Sub+Der/кодь: кылідкодь
+     кывны+V+Ind+Prt1+Pl3+Der/кодь: [кылісныкодь, кыліныкодь]
+     кывны+V+Ind+Prt2+Sg1+Der/кодь: кылӧмакодь
+     кывны+V+Ind+Prt2+Sg2+Der/кодь: кылӧмыдкодь
+     кывны+V+Ind+Prt2+Sg3+Der/кодь: кылӧмакодь
+     кывны+V+Ind+Prt2+Pl1+Der/кодь: кылӧмаӧськодь
+     кывны+V+Ind+Prt2+Pl2+Der/кодь: [кылӧмныдкодь, кылӧмныдӧськодь]
+     кывны+V+Ind+Prt2+Pl3+Der/кодь: [кылӧмаӧськодь, кылӧмныкодь]
+     кывны+V+Inf+Compar: кывныджык
+     кывны+V+Ind+Prs+Sg1+Compar: кыладжык
+     кывны+V+Ind+Prs+Sg2+Compar: кыланджык
+     кывны+V+Ind+Prs+Sg3+Compar: кылӧджык
+     кывны+V+Ind+Prs+Pl1+Compar: [кыламджык, кыламӧйджык]
+     кывны+V+Ind+Prs+Pl1+Use/Sub+Compar: кыламӧджык
+     кывны+V+Ind+Prs+Pl2+Compar: кыланныдджык
+     кывны+V+Ind+Prs+Pl2+Use/Sub+Compar: кыладджык
+     кывны+V+Ind+Prs+Pl3+Compar: кылӧныджык
+     кывны+V+Ind+Fut+Sg1+Compar: кыладжык
+     кывны+V+Ind+Fut+Sg2+Compar: кыланджык
+     кывны+V+Ind+Fut+Sg3+Compar: кыласджык
+     кывны+V+Ind+Fut+Pl1+Compar: [кыламджык, кыламӧйджык]
+     кывны+V+Ind+Fut+Pl1+Use/Sub+Compar: кыламӧджык
+     кывны+V+Ind+Fut+Pl2+Compar: кыланныдджык
+     кывны+V+Ind+Fut+Pl2+Use/Sub+Compar: кыладджык
+     кывны+V+Ind+Fut+Pl3+Compar: кыласныджык
+     кывны+V+Ind+Prt1+Sg1+Compar: кыліджык
+     кывны+V+Ind+Prt1+Sg2+Compar: кылінджык
+     кывны+V+Ind+Prt1+Sg3+Compar: [кылісджык, кыліджык]
+     кывны+V+Ind+Prt1+Pl1+Compar: [кылімджык, кылімӧйджык]
+     кывны+V+Ind+Prt1+Pl1+Use/Sub+Compar: кылімӧджык
+     кывны+V+Ind+Prt1+Pl2+Compar: кылінныдджык
+     кывны+V+Ind+Prt1+Pl2+Use/Sub+Compar: кылідджык
+     кывны+V+Ind+Prt1+Pl3+Compar: [кылісныджык, кыліныджык]
+     кывны+V+Ind+Prt2+Sg1+Compar: кылӧмаджык
+     кывны+V+Ind+Prt2+Sg2+Compar: кылӧмыдджык
+     кывны+V+Ind+Prt2+Sg3+Compar: кылӧмаджык
+     кывны+V+Ind+Prt2+Pl1+Compar: кылӧмаӧсьджык
+     кывны+V+Ind+Prt2+Pl2+Compar: [кылӧмныдджык, кылӧмныдӧсьджык]
+     кывны+V+Ind+Prt2+Pl3+Compar: [кылӧмаӧсьджык, кылӧмныджык]
      кывны+V+MYST: кывмысьт
      кывны+V+MYS: кывмысь
      кывны+V+Der/иг+Duration+Ger+Pl: кылігъяс
@@ -324,11 +417,10 @@ Tests:
      тымӧд+N+Sg+Apr+Ter+PxPl3: тымӧдланьӧдзныс
      тымӧд+N+Pl+Nom: тымӧдъяс
      тымӧд+N+Pl+Acc: тымӧдъяс
-     тымӧдъясӧс: тымӧд+N+Pl+Gen
-     тымӧдъяслӧн: тымӧд+N+Pl+Abl
-     тымӧдъяслысь: тымӧд+N+Pl+Dat
-     тымӧдъяслы: тымӧд+N+Pl+Acc
-     тымӧдъяс: тымӧдъясӧс
+     тымӧд+N+Pl+Acc: тымӧдъясӧс
+     тымӧд+N+Pl+Gen: тымӧдъяслӧн
+     тымӧд+N+Pl+Abl: тымӧдъяслысь
+     тымӧд+N+Pl+Dat: тымӧдъяслы
      тымӧд+N+Pl+Instr: тымӧдъясӧн
      тымӧд+N+Pl+Com: тымӧдъяскӧд
      тымӧд+N+Pl+Car: тымӧдъястӧг
