@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - кывны: # 
+  Verb - кывны: # Verb1
      кывны+V+ConNeg+Pl3: кывны
      кывны+V+ConNeg: кыв
      кывны+V+Imprt+Sg2: кыв
@@ -217,12 +217,12 @@ Tests:
      кывны+V+AN+MOZ+PxPl2: кыланмозныд
      кывны+V+AN+MOZ+PxPl3: кыланмозныс
      кывны+V+Der/ӧм+Event+N+Instr: кылӧмӧн
-     кывны+V+VTer+NoPoss: кывтӧдз
-     кывны+V+VTer+PxSg2: кывтӧдзыд
-     кывны+V+VTer+PxSg3: кывтӧдзыс
-     кывны+V+VTer+PxPl1: кывтӧдзным
-     кывны+V+VTer+PxPl2: кывтӧдзныд
-     кывны+V+VTer+PxPl3: кывтӧдзныс
+     кывны+V+Der/тӧдз+VTer+NoPoss: кывтӧдз
+     кывны+V+Der/тӧдз+VTer+PxSg2: кывтӧдзыд
+     кывны+V+Der/тӧдз+VTer+PxSg3: кывтӧдзыс
+     кывны+V+Der/тӧдз+VTer+PxPl1: кывтӧдзным
+     кывны+V+Der/тӧдз+VTer+PxPl2: кывтӧдзныд
+     кывны+V+Der/тӧдз+VTer+PxPl3: кывтӧдзныс
      кывны+V+MON+NoPoss: кывмӧн
      кывны+V+MON+PxSg2: кывмӧныд
      кывны+V+MON+PxSg3: кывмӧныс
@@ -231,6 +231,224 @@ Tests:
      кывны+V+MON+PxPl3: кывмӧнныс
 
      кывны+V+Der/иг+Duration+Ger: кыліг
+
+  Verb - ыстыны: # Verb3
+     ыстыны+V+ConNeg+Pl3: ыстыны
+     ыстыны+V+ConNeg: ысты
+     ыстыны+V+Imprt+Sg2: ысты
+     ыстыны+V+Imprt+Pl2: ыстӧй
+     ыстыны+V+Inf+NoComparison: ыстыны
+     ыстыны+V+Ind+Prs+Sg1+NoComparison: ыста
+     ыстыны+V+Ind+Prs+Sg2+NoComparison: ыстан
+     ыстыны+V+Ind+Prs+Sg3+NoComparison: ыстӧ
+     ыстыны+V+Ind+Prs+Pl1+NoComparison: [ыстам, ыстамӧй]
+     ыстыны+V+Ind+Prs+Pl1+Use/Sub+NoComparison: ыстамӧ
+     ыстыны+V+Ind+Prs+Pl2+NoComparison: ыстанныд
+     ыстыны+V+Ind+Prs+Pl2+Use/Sub+NoComparison: ыстад
+     ыстыны+V+Ind+Prs+Pl3+NoComparison: ыстӧны
+     ыстыны+V+Ind+Fut+Sg1+NoComparison: ыста
+     ыстыны+V+Ind+Fut+Sg2+NoComparison: ыстан
+     ыстыны+V+Ind+Fut+Sg3+NoComparison: ыстас
+     ыстыны+V+Ind+Fut+Pl1+NoComparison: [ыстам, ыстамӧй]
+     ыстыны+V+Ind+Fut+Pl1+Use/Sub+NoComparison: ыстамӧ
+     ыстыны+V+Ind+Fut+Pl2+NoComparison: ыстанныд
+     ыстыны+V+Ind+Fut+Pl2+Use/Sub+NoComparison: ыстад
+     ыстыны+V+Ind+Fut+Pl3+NoComparison: ыстасны
+     ыстыны+V+Ind+Prt1+Sg1+NoComparison: ысті
+     ыстыны+V+Ind+Prt1+Sg2+NoComparison: ыстін
+     ыстыны+V+Ind+Prt1+Sg3+NoComparison: [ыстіс, ысті]
+     ыстыны+V+Ind+Prt1+Pl1+NoComparison: [ыстім, ыстімӧй]
+     ыстыны+V+Ind+Prt1+Pl1+Use/Sub+NoComparison: ыстімӧ
+     ыстыны+V+Ind+Prt1+Pl2+NoComparison: ыстінныд
+     ыстыны+V+Ind+Prt1+Pl2+Use/Sub+NoComparison: ыстід
+     ыстыны+V+Ind+Prt1+Pl3+NoComparison: [ыстісны, ыстіны]
+     ыстыны+V+Ind+Prt2+Sg1+NoComparison: ыстӧма
+     ыстыны+V+Ind+Prt2+Sg2+NoComparison: ыстӧмыд
+     ыстыны+V+Ind+Prt2+Sg3+NoComparison: ыстӧма
+     ыстыны+V+Ind+Prt2+Pl1+NoComparison: ыстӧмаӧсь
+     ыстыны+V+Ind+Prt2+Pl2+NoComparison: [ыстӧмныд, ыстӧмныдӧсь]
+     ыстыны+V+Ind+Prt2+Pl3+NoComparison: [ыстӧмаӧсь, ыстӧмны]
+     ыстыны+V+Inf+Der/моз: ыстынымоз
+     ыстыны+V+Ind+Prs+Sg1+Der/моз: ыстамоз
+     ыстыны+V+Ind+Prs+Sg2+Der/моз: ыстанмоз
+     ыстыны+V+Ind+Prs+Sg3+Der/моз: ыстӧмоз
+     ыстыны+V+Ind+Prs+Pl1+Der/моз: [ыстаммоз, ыстамӧймоз]
+     ыстыны+V+Ind+Prs+Pl1+Use/Sub+Der/моз: ыстамӧмоз
+     ыстыны+V+Ind+Prs+Pl2+Der/моз: ыстанныдмоз
+     ыстыны+V+Ind+Prs+Pl2+Use/Sub+Der/моз: ыстадмоз
+     ыстыны+V+Ind+Prs+Pl3+Der/моз: ыстӧнымоз
+     ыстыны+V+Ind+Fut+Sg1+Der/моз: ыстамоз
+     ыстыны+V+Ind+Fut+Sg2+Der/моз: ыстанмоз
+     ыстыны+V+Ind+Fut+Sg3+Der/моз: ыстасмоз
+     ыстыны+V+Ind+Fut+Pl1+Der/моз: [ыстаммоз, ыстамӧймоз]
+     ыстыны+V+Ind+Fut+Pl1+Use/Sub+Der/моз: ыстамӧмоз
+     ыстыны+V+Ind+Fut+Pl2+Der/моз: ыстанныдмоз
+     ыстыны+V+Ind+Fut+Pl2+Use/Sub+Der/моз: ыстадмоз
+     ыстыны+V+Ind+Fut+Pl3+Der/моз: ыстаснымоз
+     ыстыны+V+Ind+Prt1+Sg1+Der/моз: ыстімоз
+     ыстыны+V+Ind+Prt1+Sg2+Der/моз: ыстінмоз
+     ыстыны+V+Ind+Prt1+Sg3+Der/моз: [ыстісмоз, ыстімоз]
+     ыстыны+V+Ind+Prt1+Pl1+Der/моз: [ыстіммоз, ыстімӧймоз]
+     ыстыны+V+Ind+Prt1+Pl1+Use/Sub+Der/моз: ыстімӧмоз
+     ыстыны+V+Ind+Prt1+Pl2+Der/моз: ыстінныдмоз
+     ыстыны+V+Ind+Prt1+Pl2+Use/Sub+Der/моз: ыстідмоз
+     ыстыны+V+Ind+Prt1+Pl3+Der/моз: [ыстіснымоз, ыстінымоз]
+     ыстыны+V+Ind+Prt2+Sg1+Der/моз: ыстӧмамоз
+     ыстыны+V+Ind+Prt2+Sg2+Der/моз: ыстӧмыдмоз
+     ыстыны+V+Ind+Prt2+Sg3+Der/моз: ыстӧмамоз
+     ыстыны+V+Ind+Prt2+Pl1+Der/моз: ыстӧмаӧсьмоз
+     ыстыны+V+Ind+Prt2+Pl2+Der/моз: [ыстӧмныдмоз, ыстӧмныдӧсьмоз]
+     ыстыны+V+Ind+Prt2+Pl3+Der/моз: [ыстӧмаӧсьмоз, ыстӧмнымоз]
+     ыстыны+V+Inf+Der/кодь: ыстыныкодь
+     ыстыны+V+Ind+Prs+Sg1+Der/кодь: ыстакодь
+     ыстыны+V+Ind+Prs+Sg2+Der/кодь: ыстанкодь
+     ыстыны+V+Ind+Prs+Sg3+Der/кодь: ыстӧкодь
+     ыстыны+V+Ind+Prs+Pl1+Der/кодь: [ыстамкодь, ыстамӧйкодь]
+     ыстыны+V+Ind+Prs+Pl1+Use/Sub+Der/кодь: ыстамӧкодь
+     ыстыны+V+Ind+Prs+Pl2+Der/кодь: ыстанныдкодь
+     ыстыны+V+Ind+Prs+Pl2+Use/Sub+Der/кодь: ыстадкодь
+     ыстыны+V+Ind+Prs+Pl3+Der/кодь: ыстӧныкодь
+     ыстыны+V+Ind+Fut+Sg1+Der/кодь: ыстакодь
+     ыстыны+V+Ind+Fut+Sg2+Der/кодь: ыстанкодь
+     ыстыны+V+Ind+Fut+Sg3+Der/кодь: ыстаскодь
+     ыстыны+V+Ind+Fut+Pl1+Der/кодь: [ыстамкодь, ыстамӧйкодь]
+     ыстыны+V+Ind+Fut+Pl1+Use/Sub+Der/кодь: ыстамӧкодь
+     ыстыны+V+Ind+Fut+Pl2+Der/кодь: ыстанныдкодь
+     ыстыны+V+Ind+Fut+Pl2+Use/Sub+Der/кодь: ыстадкодь
+     ыстыны+V+Ind+Fut+Pl3+Der/кодь: ыстасныкодь
+     ыстыны+V+Ind+Prt1+Sg1+Der/кодь: ыстікодь
+     ыстыны+V+Ind+Prt1+Sg2+Der/кодь: ыстінкодь
+     ыстыны+V+Ind+Prt1+Sg3+Der/кодь: [ыстіскодь, ыстікодь]
+     ыстыны+V+Ind+Prt1+Pl1+Der/кодь: [ыстімкодь, ыстімӧйкодь]
+     ыстыны+V+Ind+Prt1+Pl1+Use/Sub+Der/кодь: ыстімӧкодь
+     ыстыны+V+Ind+Prt1+Pl2+Der/кодь: ыстінныдкодь
+     ыстыны+V+Ind+Prt1+Pl2+Use/Sub+Der/кодь: ыстідкодь
+     ыстыны+V+Ind+Prt1+Pl3+Der/кодь: [ыстісныкодь, ыстіныкодь]
+     ыстыны+V+Ind+Prt2+Sg1+Der/кодь: ыстӧмакодь
+     ыстыны+V+Ind+Prt2+Sg2+Der/кодь: ыстӧмыдкодь
+     ыстыны+V+Ind+Prt2+Sg3+Der/кодь: ыстӧмакодь
+     ыстыны+V+Ind+Prt2+Pl1+Der/кодь: ыстӧмаӧськодь
+     ыстыны+V+Ind+Prt2+Pl2+Der/кодь: [ыстӧмныдкодь, ыстӧмныдӧськодь]
+     ыстыны+V+Ind+Prt2+Pl3+Der/кодь: [ыстӧмаӧськодь, ыстӧмныкодь]
+     ыстыны+V+Inf+Compar: ыстыныджык
+     ыстыны+V+Ind+Prs+Sg1+Compar: ыстаджык
+     ыстыны+V+Ind+Prs+Sg2+Compar: ыстанджык
+     ыстыны+V+Ind+Prs+Sg3+Compar: ыстӧджык
+     ыстыны+V+Ind+Prs+Pl1+Compar: [ыстамджык, ыстамӧйджык]
+     ыстыны+V+Ind+Prs+Pl1+Use/Sub+Compar: ыстамӧджык
+     ыстыны+V+Ind+Prs+Pl2+Compar: ыстанныдджык
+     ыстыны+V+Ind+Prs+Pl2+Use/Sub+Compar: ыстадджык
+     ыстыны+V+Ind+Prs+Pl3+Compar: ыстӧныджык
+     ыстыны+V+Ind+Fut+Sg1+Compar: ыстаджык
+     ыстыны+V+Ind+Fut+Sg2+Compar: ыстанджык
+     ыстыны+V+Ind+Fut+Sg3+Compar: ыстасджык
+     ыстыны+V+Ind+Fut+Pl1+Compar: [ыстамджык, ыстамӧйджык]
+     ыстыны+V+Ind+Fut+Pl1+Use/Sub+Compar: ыстамӧджык
+     ыстыны+V+Ind+Fut+Pl2+Compar: ыстанныдджык
+     ыстыны+V+Ind+Fut+Pl2+Use/Sub+Compar: ыстадджык
+     ыстыны+V+Ind+Fut+Pl3+Compar: ыстасныджык
+     ыстыны+V+Ind+Prt1+Sg1+Compar: ыстіджык
+     ыстыны+V+Ind+Prt1+Sg2+Compar: ыстінджык
+     ыстыны+V+Ind+Prt1+Sg3+Compar: [ыстісджык, ыстіджык]
+     ыстыны+V+Ind+Prt1+Pl1+Compar: [ыстімджык, ыстімӧйджык]
+     ыстыны+V+Ind+Prt1+Pl1+Use/Sub+Compar: ыстімӧджык
+     ыстыны+V+Ind+Prt1+Pl2+Compar: ыстінныдджык
+     ыстыны+V+Ind+Prt1+Pl2+Use/Sub+Compar: ыстідджык
+     ыстыны+V+Ind+Prt1+Pl3+Compar: [ыстісныджык, ыстіныджык]
+     ыстыны+V+Ind+Prt2+Sg1+Compar: ыстӧмаджык
+     ыстыны+V+Ind+Prt2+Sg2+Compar: ыстӧмыдджык
+     ыстыны+V+Ind+Prt2+Sg3+Compar: ыстӧмаджык
+     ыстыны+V+Ind+Prt2+Pl1+Compar: ыстӧмаӧсьджык
+     ыстыны+V+Ind+Prt2+Pl2+Compar: [ыстӧмныдджык, ыстӧмныдӧсьджык]
+     ыстыны+V+Ind+Prt2+Pl3+Compar: [ыстӧмаӧсьджык, ыстӧмныджык]
+     ыстыны+V+MYST: ыстымысьт
+     ыстыны+V+MYS: ыстымысь
+     ыстыны+V+Der/иг+Duration+Ger+Pl: ыстігъяс
+     ыстыны+V+Der/иг+Duration+Ger+Pl+Ill: ыстігъясӧ
+     ыстыны+V+Der/иг+Duration+Ger+Pl+Ill+PxSg2: ыстігъясам
+     ыстыны+V+Der/иг+Duration+Ger+Pl+Ill+PxSg2: ыстігъясад
+     ыстыны+V+Der/иг+Duration+Ger+Pl+Ill+PxSg3: ыстігъясас
+     ыстыны+V+Der/иг+Duration+Ger+Pl+Ill+PxPl1: ыстігъясаным
+     ыстыны+V+Der/иг+Duration+Ger+Pl+Ill+PxPl2: ыстігъясаныд
+     ыстыны+V+Der/иг+Duration+Ger+Pl+Ill+PxPl3: ыстігъясаныс
+     ыстыны+V+Der/иг+Duration+Ger+Sg+Ill: ыстігӧ
+     ыстыны+V+Der/иг+Duration+Ger+Sg+Ill+PxSg2: ыстігам
+     ыстыны+V+Der/иг+Duration+Ger+Sg+Ill+PxSg2: ыстігад
+     ыстыны+V+Der/иг+Duration+Ger+Sg+Ill+PxSg3: ыстігас
+     ыстыны+V+Der/иг+Duration+Ger+Sg+Ill+PxPl1: ыстіганым
+     ыстыны+V+Der/иг+Duration+Ger+Sg+Ill+PxPl2: ыстіганыд
+     ыстыны+V+Der/иг+Duration+Ger+Sg+Ill+PxPl3: ыстіганыс
+     ыстыны+V+Der/иг+Duration+Ger+Pl+Instr+NoPoss: ыстігъясӧн
+     ыстыны+V+Der/иг+Duration+Ger+Pl+Instr+PxSg2: ыстігъясӧныд
+     ыстыны+V+Der/иг+Duration+Ger+Pl+Instr+PxSg3: ыстігъясӧныс
+     ыстыны+V+Der/иг+Duration+Ger+Pl+Instr+PxPl1: ыстігъясӧнным
+     ыстыны+V+Der/иг+Duration+Ger+Pl+Instr+PxPl2: ыстігъясӧнныд
+     ыстыны+V+Der/иг+Duration+Ger+Pl+Instr+PxPl3: ыстігъясӧнныс
+     ыстыны+V+Der/иг+Duration+Ger+Sg+Instr+NoPoss: ыстігӧн
+     ыстыны+V+Der/иг+Duration+Ger+Sg+Instr+PxSg2: ыстігӧныд
+     ыстыны+V+Der/иг+Duration+Ger+Sg+Instr+PxSg3: ыстігӧныс
+     ыстыны+V+Der/иг+Duration+Ger+Sg+Instr+PxPl1: ыстігӧнным
+     ыстыны+V+Der/иг+Duration+Ger+Sg+Instr+PxPl2: ыстігӧнныд
+     ыстыны+V+Der/иг+Duration+Ger+Sg+Instr+PxPl3: ыстігӧнныс
+     ыстыны+V+Der/иг+Duration+Ger+MOZ+NoPoss: ыстігмоз
+     ыстыны+V+Der/иг+Duration+Ger+MOZ+PxSg2: ыстігмозыд
+     ыстыны+V+Der/иг+Duration+Ger+MOZ+PxSg3: ыстігмозыс
+     ыстыны+V+Der/иг+Duration+Ger+MOZ+PxPl1: ыстігмозным
+     ыстыны+V+Der/иг+Duration+Ger+MOZ+PxPl2: ыстігмозныд
+     ыстыны+V+Der/иг+Duration+Ger+MOZ+PxPl3: ыстігмозныс
+     ыстыны+V+Der/иг+Duration+Ger+SOR: ыстігсор
+     ыстыны+V+Der/иг+Duration+Ger+SOR+Instr: ыстігсорӧн
+     ыстыны+V+Der/иг+Duration+Ger+TYR: ыстігтыр
+     ыстыны+V+Der/иг+Duration+Ger+TYRJI+NoPoss: ыстігтырйи
+     ыстыны+V+Der/иг+Duration+Ger+TYRJI+PxSg2: ыстігтырйиыд
+     ыстыны+V+Der/иг+Duration+Ger+TYRJI+PxSg3: ыстігтырйиыс
+     ыстыны+V+Der/иг+Duration+Ger+TYRJI+PxPl1: ыстігтырйиным
+     ыстыны+V+Der/иг+Duration+Ger+TYRJI+PxPl2: ыстігтырйиныд
+     ыстыны+V+Der/иг+Duration+Ger+TYRJI+PxPl3: ыстігтырйиныс
+     ыстыны+V+Der/иг+Duration+Ger+TYRJA: ыстігтыръя
+     ыстыны+V+Der/иг+Duration+Ger+CHOZH+NoPoss: ыстігчӧж
+     ыстыны+V+Der/иг+Duration+Ger+CHOZH+PxSg2: ыстігчӧжыд
+     ыстыны+V+Der/иг+Duration+Ger+CHOZH+PxSg3: ыстігчӧжыс
+     ыстыны+V+Der/иг+Duration+Ger+CHOZH+PxPl1: ыстігчӧжным
+     ыстыны+V+Der/иг+Duration+Ger+CHOZH+PxPl2: ыстігчӧжныд
+     ыстыны+V+Der/иг+Duration+Ger+CHOZH+PxPl3: ыстігчӧжныс
+     ыстыны+V+Der/иг+Duration+Ger+CHOZH+Instr: ыстігчӧжӧн
+     ыстыны+V+Der/иг+Duration+Ger+KOSTI+NoPoss: ыстігкості
+     ыстыны+V+Der/иг+Duration+Ger+KOSTI+PxSg2: ыстігкостіыд
+     ыстыны+V+Der/иг+Duration+Ger+KOSTI+PxSg3: ыстігкостіыс
+     ыстыны+V+Der/иг+Duration+Ger+KOSTI+PxPl1: ыстігкостіным
+     ыстыны+V+Der/иг+Duration+Ger+KOSTI+PxPl2: ыстігкостіныд
+     ыстыны+V+Der/иг+Duration+Ger+KOSTI+PxPl3: ыстігкостіныс
+     ыстыны+V+Der/иг+Duration+Ger+KOSTA: ыстігкоста
+     ыстыны+V+Der/иг+Duration+Ger+KEZHLO: ыстігкежлӧ
+     ыстыны+V+Der/иг+Duration+Ger+KEZHLO+PxSg2: ыстігкежлад
+     ыстыны+V+Der/иг+Duration+Ger+KEZHLO+PxSg3: ыстігкежлас
+     ыстыны+V+Der/иг+Duration+Ger+KEZHLO+PxPl1: ыстігкежланым
+     ыстыны+V+Der/иг+Duration+Ger+KEZHLO+PxPl2: ыстігкежланыд
+     ыстыны+V+Der/иг+Duration+Ger+KEZHLO+PxPl3: ыстігкежланыс
+     ыстыны+V+ANA+Adv: ыстана
+     ыстыны+V+ANAA+Adv: ыстанаа
+     ыстыны+V+AN+MOZ+NoPoss: ыстанмоз
+     ыстыны+V+AN+MOZ+PxSg2: ыстанмозыд
+     ыстыны+V+AN+MOZ+PxSg3: ыстанмозыс
+     ыстыны+V+AN+MOZ+PxPl1: ыстанмозным
+     ыстыны+V+AN+MOZ+PxPl2: ыстанмозныд
+     ыстыны+V+AN+MOZ+PxPl3: ыстанмозныс
+     ыстыны+V+Der/ӧм+Event+N+Instr: ыстӧмӧн
+     ыстыны+V+Der/тӧдз+VTer+NoPoss: ыстытӧдз
+     ыстыны+V+Der/тӧдз+VTer+PxSg2: ыстытӧдзыд
+     ыстыны+V+Der/тӧдз+VTer+PxSg3: ыстытӧдзыс
+     ыстыны+V+Der/тӧдз+VTer+PxPl1: ыстытӧдзным
+     ыстыны+V+Der/тӧдз+VTer+PxPl2: ыстытӧдзныд
+     ыстыны+V+Der/тӧдз+VTer+PxPl3: ыстытӧдзныс
+     ыстыны+V+MON+NoPoss: ыстымӧн
+     ыстыны+V+MON+PxSg2: ыстымӧныд
+     ыстыны+V+MON+PxSg3: ыстымӧныс
+     ыстыны+V+MON+PxPl1: ыстымӧнным
+     ыстыны+V+MON+PxPl2: ыстымӧнныд
+     ыстыны+V+MON+PxPl3: ыстымӧнныс
+
+     ыстыны+V+Der/иг+Duration+Ger: ыстіг
 
   
   Noun - тымӧд: # Ordinary nouns - full paradigm
