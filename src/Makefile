@@ -175,9 +175,6 @@ xfst-kom.bin: ../bin/xfst-kom.bin
 
 clean:
 	@rm -rf \
-		../bin/*.bin \
-		../bin/*.fst \
-		../bin/*.save \
-		../bin/*-lex.txt \
-		../../tmp/out \
+		../bin/* \
+		../../tmp \
 		kom-lex-xmlsrc.txt
