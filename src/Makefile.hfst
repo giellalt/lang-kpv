@@ -23,7 +23,7 @@ ZIP = /usr/bin/zip
 HFST_FORMAT=openfst-tropical
 
 # Main target. Produces analysers, generators and spellers.
-all: kom.hfst hfstspellers
+all: apertium hfstspellers
 
 # Include the makefile that converts from xml to lexc:
 include Makefile.xml
@@ -242,7 +242,7 @@ zhfst: ../hfst/kom-speller.zhfst
 	cd ../hfst/ && $(ZIP) -v -9 $(@F) \
 		index.xml acceptor.default.hfstol errmodel.default.hfstol
 
-voikkohfst:
+voikkohfst: ../hfst/kom-speller.zhfst
 	@echo
 	@echo "*** Building GT Voikko+HFST speller for kom ***" ;
 	@echo
@@ -250,7 +250,7 @@ voikkohfst:
 	cd ../voikko/2/mor-kom && \
 		ln -sf ../../../hfst/kom-speller.zhfst speller.zhfst
 
-voikkoinstall:
+voikkoinstall: ../hfst/kom-speller.zhfst ../voikko/2/mor-kom/voikko-fi_FI.pro
 	@echo
 	@echo "*** Installing GT Voikko+HFST speller for kom ***" ;
 	@echo
@@ -262,13 +262,25 @@ voikkoinstall:
 
 ###########################################################################################
 
-apertium: kom.apertium.relabel kom.apertium-lower.relabel ../bin/kom.hfst ../bin/kom-gen.hfst
+apertium: ../bin/kom-mor.hfstol ../bin/kom-mor.lower.hfstol ../bin/kom-gen.hfstol
+
+../bin/kom-mor.hfstol: ../bin/kom.hfst kom.apertium.relabel
 	@echo
-	@echo "*** Buildig Apertium transducers ***" ;
+	@echo "*** Buildig Apertium transducer $(@F) ***" ;
 	@echo
-	hfst-substitute -F kom.apertium.relabel ../bin/kom.hfst | hfst-fst2fst -O -o ../bin/kom-mor.hfstol
-	hfst-substitute -F kom.apertium-lower.relabel ../bin/kom.hfst | hfst-fst2fst -O -o ../bin/kom-mor.lower.hfstol
-	hfst-substitute -F kom.apertium.relabel ../bin/kom-gen.hfst | hfst-fst2fst -O -o ../bin/kom-gen.hfstol
+	hfst-substitute -F kom.apertium.relabel $< | hfst-fst2fst -O -o $@
+
+../bin/kom-mor.lower.hfstol: ../bin/kom.hfst kom.apertium-lower.relabel
+	@echo
+	@echo "*** Buildig Apertium transducer $(@F) ***" ;
+	@echo
+	hfst-substitute -F kom.apertium-lower.relabel $< | hfst-fst2fst -O -o $@
+
+../bin/kom-gen.hfstol: ../bin/kom-gen.hfst kom.apertium.relabel
+	@echo
+	@echo "*** Buildig Apertium transducer $(@F) ***" ;
+	@echo
+	hfst-substitute -F kom.apertium.relabel $< | hfst-fst2fst -O -o $@
 
 clean:
 	rm *.hfst *.hfst.ol all-files.lexc ../bin/*
