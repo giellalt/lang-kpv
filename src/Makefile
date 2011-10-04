@@ -162,11 +162,11 @@ kom-lex.save: ../bin/kom-lex.save
 # This goal depends on xfst-kom.txt
 # Compile the phonological rules:
 xfst-kom.bin: ../bin/xfst-kom.bin
-../bin/xfst-kom.bin: xfst-kom.txt
+../bin/xfst-kom.bin: kom-xfst.txt
 	@echo
 	@echo "*** Building xfst-kom.bin ***" ;
 	@echo
-	@printf "source xfst-kom.txt \n\
+	@printf "source kom-xfst.txt \n\
 	save stack ../bin/xfst-kom.bin \n\
 	quit \n" > ../../tmp/xfst-kom-script
 	$(XFST) < ../../tmp/xfst-kom-script
