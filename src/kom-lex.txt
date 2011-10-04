@@ -42,6 +42,7 @@ Multichar_Symbols
 +ACR +ABBR
 +Cmpl ! complement of postpostion
 +Cmp ! first part of compound
++Abs ! Absolute given as a tag for numerals when they are not +MWN
 
 +Refl +Rel +Interr +Recipr
 
@@ -63,7 +64,7 @@ Multichar_Symbols
 +AN ! Process Participle
 +ANA !Process Participle 
 +ANAA ! adverb derived from participle (+ANA)
-+CHOZH
++Der/чӧж !+CHOZH
 
 +Instr
 +Event
@@ -80,33 +81,33 @@ Multichar_Symbols
 +Der/ӧм
 
 ! These should be added below in derivation declarations
-!+Der/кежлӧ +Der/моз +Der/мысь +Der/мысьт 
-! +Der/тӧдз +Der/тыр +Der/тырйи 
+!
+!
 !+Der/ан +Der/ана +Der/анаа +Der/чӧж 
 !!Then they should have indication of whether they are gerunds or participles!!
 !!
-+Der/тӧдз +VTer
++Der/тӧдз !+VTer
 !!+TODZ Verbal terminative
-+Der/тӧм +VAbe
++Der/тӧм !+VAbe
 +Der/ысь +ActPrsPtc
 
-+KOSTI
-+KOSTA
-+KEZHLO
++Der/кості ! +KOSTI
++Der/коста !+KOSTA
++Der/кежлӧ !+KEZHLO
 
-+MYS
-+MYST
++Der/мысь !+MYS
++Der/мысьт !+MYST
 
-+SOR
-+TYR
-+TYRJI
-+TYRJA
-+MON
++Der/сор !+SOR
++Der/тыр !+TYR
++Der/тырйи !+TYRJI
++Der/тыръя !+TYRJA
++Der/мӧн !+MON
 
 +CLB +PUNCT +LEFT +RIGHT
 
 ! Declaring Derivations
-+Der/а +Der/са +Der/ся +Der/тӧм
++Der/а +Der/са +Der/ся 
 
 !Modifier without noun
 +Der/MWN
@@ -115,7 +116,7 @@ Multichar_Symbols
 +Der/сюрӧ +Der/кӧ
 
 !Declaring Comparison particles
-+Der/моз +MOZ ! diminishing, kind of, sort of
++Der/моз !+MOZ ! diminishing, kind of, sort of
 +Der/кодь ! diminishing, kind of, sort of
 
 !Declaring Deverbal derivations of verbs
