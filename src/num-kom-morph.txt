@@ -36,6 +36,11 @@ LEXICON DET
 !
 
 LEXICON NumCASEPOSSLEX
++Abs: K ;
++Der/MWN+N+Sg: NumMWN ;
++Der/MWN+N+Pl:%>ъяс NumMWN ;
+
+LEXICON NumMWN
 +Nom: K ;
 +Gen:%>лӧн K ;
 +Abl:%>лысь K ;
@@ -155,7 +160,7 @@ LEXICON NumCASEPOSSLEX
 +PxPl2+Gen:%>ныдлӧн K ;
 +PxPl2+Abl:%>ныдлысь K ;
 +PxPl2+Dat:%>ныдлы K ;
-+PxPl2+Acc:%>ныдтӧ K ;
++PxPl2+Acc:%>нытӧ K ;
 
 +Instr+PxPl2:%>наныд K ;
 
@@ -193,7 +198,7 @@ LEXICON NumCASEPOSSLEX
 +Ela+PxPl3:%>сьыныс K ;
 +Ill+PxPl3:%>аныс K ;
 +PxPl3+Apr:%>ныслань K ;
-+PxPl3+Apr:%>ныслань K ;
++Apr+PxPl3:%>ланьныс K ;
 +PxPl3+Egr:%>ныссянь K ;
 +Prl+PxPl3:%>ӧдныс K ;
 +Ter+PxPl3:%>ӧдзныс K ;
