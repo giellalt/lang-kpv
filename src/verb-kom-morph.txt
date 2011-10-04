@@ -208,9 +208,6 @@ LEXICON VerbDer
 +Der/ась:ась Verb3 ; !!ыны -> асьны
  
 +Der/ӧм+Event:%>ӧм Noun1 ;
-! Page 346 in the Komi grammar
-+MYST:%>мысьт K ; ! gerund (after the action) !353
-+MYS:%>мысь K ; ! !353
 +Der/иг+Duration+Ger:%>іг K ; ! gerund (at the same time as the action)
 !352 Pl
 +Der/иг+Duration+Ger+Pl:%>ігъяс K ;
@@ -259,14 +256,21 @@ LEXICON VerbDer
 +Car+Use/Sub:%>тӧга K ; !387
 +Car+MOZ:%>тӧгмоз PossessiveSuffixes_NoSg1 ; !
 +Der/ӧм+Event+N+Instr:%>ӧмӧн K ;
-+VTer:%>тӧдз PossessiveSuffixes_NoSg1 ; !396
-+MON:%>мӧн PossessiveSuffixes_NoSg1 ; !399-403
-+VAbe:%>тӧм PossessiveSuffixes ;
 +Der/ысь+ActPrsPtc:%>ысь Noun1 ;
 
 
 
+
+
 LEXICON VerbDer-V
+! Page 346 in the Komi grammar
++MYST:%>мысьт K ; ! gerund (after the action) !353
++MYS:%>мысь K ; ! !353
++Der/тӧдз+VTer:%>тӧдз PossessiveSuffixes_NoSg1 ; !396
++MON:%>мӧн PossessiveSuffixes_NoSg1 ; !399-403
++Der/тӧм+VAbe:%>тӧм PossessiveSuffixes ;
+
+
 +V+Der/л+V:%>л VerbConj ; ! мынтыл - мынтылан
 
 +V+Der/л+V+Inf:%>лыны K ;
