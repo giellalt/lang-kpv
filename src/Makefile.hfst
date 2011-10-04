@@ -56,7 +56,7 @@ twol-hfst \
 
 # Compile the xfst script file:
 xfst-kom.bin: ../bin/xfst-kom.hfst
-../bin/kom-xfst.hfst: kom-xfst.txt
+../bin/xfst-kom.hfst: xfst-kom.txt
 	@echo
 	@echo "*** Building xfst-kom.bin ***" ;
 	@echo
@@ -80,7 +80,7 @@ lexc-hfst: ../bin/kom-lexc.hfst
 save-hfst: ../bin/kom-gen.hfst
 ../bin/kom-gen.hfst: \
 		../bin/kom-lexc.hfst \
-		../bin/kom-xfst.hfst
+		../bin/xfst-kom.hfst
 	@echo
 	@echo "*** Building $(@F) ***" ;
 	@echo
@@ -250,15 +250,17 @@ voikkohfst: ../hfst/kom-speller.zhfst
 	cd ../voikko/2/mor-kom && \
 		ln -sf ../../../hfst/kom-speller.zhfst speller.zhfst
 
+
+# kv (Komi) replaced with ku (the language code for Kurdish)
 voikkoinstall: ../hfst/kom-speller.zhfst ../voikko/2/mor-kom/voikko-fi_FI.pro
 	@echo
 	@echo "*** Installing GT Voikko+HFST speller for kom ***" ;
 	@echo
-	mkdir -p ~/.voikko/2/mor-kv
+	mkdir -p ~/.voikko/2/mor-ku
 	cp -f ../hfst/kom-speller.zhfst \
-		~/.voikko/2/mor-kv/speller.zhfst
-	sed 's/: kom/: kv/' ../voikko/2/mor-kom/voikko-fi_FI.pro \
-		> ~/.voikko/2/mor-kv/voikko-fi_FI.pro
+		~/.voikko/2/mor-ku/speller.zhfst
+	sed 's/: kom/: ku/' ../voikko/2/mor-kom/voikko-fi_FI.pro \
+		> ~/.voikko/2/mor-ku/voikko-fi_FI.pro
 
 ###########################################################################################
 
