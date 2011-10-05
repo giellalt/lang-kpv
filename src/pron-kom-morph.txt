@@ -16,19 +16,47 @@ LEXICON PERS
 
 LEXICON perssg1decl
 +Nom:ме # ;
-+Gen:менам # ;
-+Abl:менсьым # ;
++GenStem:менам # ;
++Gen:мелӧн # ;
++GenStem+Gen:менамлӧн # ;
++Abl:менсьым # ; !The elative case is used in Sg1 and Sg2 
+                 !for the functions of the ablative in other persons
 +Dat:меным # ;
 +Dat:мем # ;
 +Dat:мен # ;
++Dat:менлы # ;
 +Acc:менӧ # ;
++GenStem+Instr:менамӧн # ;
++GenStem+Com:менамкӧд # ;
++GenStem+Car:менамтӧг # ;
++GenStem+Inе:менамын # ;
++GenStem+Ela:менамысь # ;
++GenStem+Ill:менамӧ # ;
++GenStem+Apr:менамсянь # ;
++GenStem+Ter:менамӧдз # ;
 :ме perssg ; ! for the regular obl sg
 
 LEXICON perspl1decl
 +Nom:ми # ;
-+Gen:миян # ;
++GenStem:миян # ;
 +Acc:миянӧс # ;
-:миян persplobl ;
++GenStem:миян persplobl ;
+!!Extras form 2000 Grammar: 163
++GenStem+Gen:миянлӧн # ; !Synomymous with: миян
++GenStem+PxPl1+Acc:мияннымӧс # ; !Synomymous with: миянӧс
++GenStem+Ela+PxPl1:миянсьыным # ; !Synomymous with:миянлысь
++Com:микӧд # ; !Synomymous with: миянкӧд
++GenStem+PxPl1+Com:мияннымкӧд # ; !Synomymous with: миянкӧд
++Car:митӧг # ; !Synomymous with: миянтӧг
++GenStem+Car+PxPl1:миянтӧгным # ; !Synomymous with: миянтӧг
++GenStem+PxPl1+Cns:мияннымла # ; !Synomymous with: миянла
++Ela:миысь # ; !Synomymous with: миянысь
++Ill:миӧ # ; !Synomymous with: миянӧ
++GenStem+Apr+PxPl1:миянланьным # ; !Synomymous with: миянлань
++Apr+PxPl1:миланьным # ; !Synomymous with: миянлань
++GenStem+Egr+PxPl1:миянсяньным # ; !Synomymous with: миянсянь
++Tra:миті # ; !Synomymous with: миянӧд
++Ter:миӧдз # ; !Synomymous with: миянӧдз
 
 LEXICON perssg2decl
 +Nom:тэ # ;
@@ -74,14 +102,14 @@ LEXICON perssg
 +Car:тӧг # ;
 +Cns:ла # ;
 +Ine:ын # ;
-+Ill:ӧ # ; !This is questioned in the 2000 Grammar
++Ill:ӧ # ; !
 +Ela:ысь # ;
-+Abl:лысь # ; !
 +Apr:лань # ;
 +Egr:сянь # ;
 +Prl:ӧд # ;
 +Tra:ті # ;
 +Ter:ӧдз # ;
++Abl:лысь # ; !This is not attested for Sg1 and Sg2 in the 2000 Grammar
 
 
 
