@@ -2,8 +2,8 @@ SHELL = /bin/sh
 #!/usr/bin/make
 #
 # This is a makefile to automatise most of the testing.
-# It is language independent within the framework of the Sámi language
-# technology project. See further user documentation (and technical as well)
+# It is language independent within the framework of the GT/Divvun language
+# technology projects. See further user documentation (and technical as well)
 # in $CVSROOT/gt/doc/docu-testing.html
 
 # VARIABLE DEFINITIONS
@@ -20,6 +20,8 @@ SRCDIR = ../src
 
 # The temp directory:
 TEMP = /tmp
+
+XFST = xfst -utf8
 
 # This variable is holding the filename of the save file:
 # (makes the Makefile truly language independent for
@@ -43,6 +45,8 @@ VGenFiles := $(patsubst %.txt,%.greport,$(wildcard v-*.txt))
 VAnaFiles := $(patsubst %.txt,%.areport,$(wildcard v-*.txt))
 AGenFiles := $(patsubst %.txt,%.greport,$(wildcard a-*.txt))
 AAnaFiles := $(patsubst %.txt,%.areport,$(wildcard a-*.txt))
+NumGenFiles := $(patsubst %.txt,%.greport,$(wildcard num-*.txt))
+NumAnaFiles := $(patsubst %.txt,%.areport,$(wildcard num-*.txt))
 
 
 # MAJOR TARGETS, HOUSEKEEPING TARGETS
@@ -186,65 +190,11 @@ n-paradigm: n-para.ptest savefile
 	@printf "load $(SAVEFILE) \n\
 	apply down <$< \n\
 	quit \n" > $(TEMP)/$@-gtest-script
-	@xfst -utf8 < $(TEMP)/$@-gtest-script > $(WORD).paradigm
+	$(XFST) < $(TEMP)/$@-gtest-script > $(WORD).paradigm
 	@rm -f $(TEMP)/$@-gtest-script
 	@rm -f $<
 #	@less $(WORD).paradigm
 
-# NUM
-# =====
-
-# Create all the noun test file bases:
-num-%.testbase: num-%.txt num-codes.txt
-	@echo
-	@echo "*** Creating the test base for num-$*.txt ***"
-	@echo
-	@rm -f $@
-	$(UMASK) && \
-	$(BINDIR)/merge-codesNumforms.pl num-codes.txt $< > $@
-	@chmod 660 $@
-
-# Finally, we concatenate all *.greports
-num-g.summary: $(NumGenFiles)
-	@cat $^ > $@
-	@echo
-	@echo "*** All num word form generation testing is done.      ***"
-	@echo "*** The concatenated reports are stored in $@. ***"
-	@echo
-#	@less $@
-
-# Finally, we concatenate all *.areports:
-num-a.summary: $(NumAnaFiles)
-	@cat $^ > $@
-	@echo
-	@echo "*** All num word form analysis testing is done.        ***"
-	@echo "*** The concatenated reports are stored in $@. ***"
-	@echo
-#	@less $@
-
-# Create noun paradigm generation input file:
-num-para.ptest: num-codes.txt
-	@echo
-	@echo "*** Creating the num paradigm input file for '$(WORD)' ***"
-	@echo
-	@rm -f $@
-	$(UMASK) && \
-	$(BINDIR)/merge-codesNword.pl $< $(WORD) > $@
-	@chmod 660 $@
-
-# Paradigm generation:
-.PHONY: num-paradigm
-num-paradigm: num-para.ptest savefile
-	@echo
-	@echo "*** Running the paradigm generator for '$(WORD)' ***"
-	@echo
-	@printf "load $(SAVEFILE) \n\
-	apply down <$< \n\
-	quit \n" > $(TEMP)/$@-gtest-script
-	@xfst -utf8 < $(TEMP)/$@-gtest-script > $(WORD).paradigm
-	@rm -f $(TEMP)/$@-gtest-script
-	@rm -f $<
-#	@less $(WORD).paradigm
 
 # VERBS
 # =====
@@ -295,7 +245,7 @@ v-paradigm: v-para.ptest savefile
 	@printf "load $(SAVEFILE) \n\
 	apply down <$< \n\
 	quit \n" > $(TEMP)/$@-gtest-script
-	@xfst -utf8 < $(TEMP)/$@-gtest-script > $(WORD).paradigm
+	$(XFST) < $(TEMP)/$@-gtest-script > $(WORD).paradigm
 	@rm -f $(TEMP)/$@-gtest-script
 	@rm -f $<
 #	@less $(WORD).paradigm
@@ -350,7 +300,7 @@ a-paradigm: a-para.ptest savefile
 	@printf "load $(SAVEFILE) \n\
 	apply down <$< \n\
 	quit \n" > $(TEMP)/$@-gtest-script
-	@xfst -utf8 < $(TEMP)/$@-gtest-script > $(WORD).paradigm
+	$(XFST) < $(TEMP)/$@-gtest-script > $(WORD).paradigm
 	@rm -f $(TEMP)/$@-gtest-script
 	@rm -f $<
 #	@less $(WORD).paradigm
@@ -371,19 +321,19 @@ num-%.testbase: num-%.txt num-codes.txt
 	@chmod 660 $@
 
 # Finally, we concatenate all *.greports
-num-g.summary: $(NGenFiles)
+num-g.summary: $(NumGenFiles)
 	@cat $^ > $@
 	@echo
-	@echo "*** All noun word form generation testing is done.      ***"
+	@echo "*** All num word form generation testing is done.      ***"
 	@echo "*** The concatenated reports are stored in $@. ***"
 	@echo
 #	@less $@
 
 # Finally, we concatenate all *.areports:
-num-a.summary: $(NAnaFiles)
+num-a.summary: $(NumAnaFiles)
 	@cat $^ > $@
 	@echo
-	@echo "*** All noun word form analysis testing is done.        ***"
+	@echo "*** All num word form analysis testing is done.        ***"
 	@echo "*** The concatenated reports are stored in $@. ***"
 	@echo
 #	@less $@
@@ -391,7 +341,7 @@ num-a.summary: $(NAnaFiles)
 # Create noun paradigm generation input file:
 num-para.ptest: num-codes.txt
 	@echo
-	@echo "*** Creating the noun paradigm input file for '$(WORD)' ***"
+	@echo "*** Creating the num paradigm input file for '$(WORD)' ***"
 	@echo
 	@rm -f $@
 	$(UMASK) && \
@@ -405,7 +355,7 @@ num-paradigm: num-para.ptest savefile
 	@echo "*** Running the paradigm generator for '$(WORD)' ***"
 	@echo
 	@printf "load $(SAVEFILE) \n\
-	apply up < $< \n\
+	apply down <$< \n\
 	quit \n" > $(TEMP)/$@-gtest-script
 	$(XFST) < $(TEMP)/$@-gtest-script > $(WORD).paradigm
 	@rm -f $(TEMP)/$@-gtest-script
@@ -463,7 +413,7 @@ pron-paradigm: pron-para.ptest savefile
 	@echo "*** Running the paradigm generator for '$(WORD)' ***"
 	@echo
 	@printf "load $(SAVEFILE) \n\
-	apply up < $< \n\
+	apply down < $< \n\
 	quit \n" > $(TEMP)/$@-gtest-script
 	$(XFST) < $(TEMP)/$@-gtest-script > $(WORD).paradigm
 	@rm -f $(TEMP)/$@-gtest-script
@@ -526,7 +476,7 @@ prop-paradigm: prop-para.ptest savefile
 	@echo "*** Running the paradigm generator for '$(WORD)' ***"
 	@echo
 	@printf "load $(SAVEFILE) \n\
-	apply up < $< \n\
+	apply down < $< \n\
 	quit \n" > $(TEMP)/$@-gtest-script
 	$(XFST) < $(TEMP)/$@-gtest-script > $(WORD).paradigm
 	@rm -f $(TEMP)/$@-gtest-script
@@ -576,7 +526,7 @@ savefile:
 	@printf "load $(SAVEFILE) \n\
 	apply down <$< \n\
 	quit \n" > $(TEMP)/$*-gtest-script
-	@xfst -utf8 < $(TEMP)/$*-gtest-script > $@
+	$(XFST) < $(TEMP)/$*-gtest-script > $@
 	@rm -f $(TEMP)/$*-gtest-script
 
 # Then we compare with the facit, and report any differences:
@@ -635,7 +585,7 @@ savefile:
 	@printf "load $(SAVEFILE) \n\
 	apply up <$< \n\
 	quit \n" > $(TEMP)/$*-atest-script
-	@xfst -utf8 < $(TEMP)/$*-atest-script > $@
+	$(XFST) < $(TEMP)/$*-atest-script > $@
 	@rm -f $(TEMP)/$*-atest-script
 
 # Finally, we compare with the facit, and report any differences:
