@@ -6,7 +6,7 @@
 SHELL = /bin/sh
 .SUFFIXES:
 
-all: ikom.fst kom.fst
+all: ../bin/ikom.fst
 
 # Include the makefile that converts from xml to lexc:
 include Makefile.xml
@@ -29,8 +29,7 @@ endif
 # Here we build the final generator, an inverted transducer of the analyzer.
 # It is dependent upon kom.save
 
-ikom.fst: ../bin/ikom.fst
-../bin/ikom.fst: ../bin/kom.save kom.fst r-kom.fst
+../bin/ikom.fst: r-kom.fst
 	@echo
 	@echo "*** Building the inverse ikom.fst ***"
 	@echo
@@ -45,7 +44,6 @@ ikom.fst: ../bin/ikom.fst
 # We want an analyzer with Russian tags. It takes the linguistic 
 # kom.fst as input and gives us an alternate r-kom.fst
 
-r-kom.fst: ../bin/r-kom.fst
 ../bin/r-kom.fst: ../bin/kom.fst ../int/tag-rus.fst
 	@echo
 	@echo "*** Building r-kom.fst, kom.fst with Norwegian tags ***"
@@ -61,7 +59,6 @@ r-kom.fst: ../bin/r-kom.fst
 # In order to make r-kom.fst we need a binary tag-rus.fst
 # This goal depends on tag-rus.regex
 
-tag-rus.fst: ../int/tag-rus.fst
 ../int/tag-rus.fst: tag-rus.regex
 	@echo
 	@echo "*** Building tag-rus.fst ***" ;
@@ -75,8 +72,8 @@ tag-rus.fst: ../int/tag-rus.fst
 
 # This goal is to build the final analyser. It depends on all the files.
 
-kom.fst: ../bin/kom.fst
-../bin/kom.fst: ../bin/kom.save \
+../bin/kom.fst: \
+				../bin/kom.save \
 				../bin/caseconv.fst \
 				../bin/tok.fst \
 				$(GTHOME)/gt/common/bin/spellrelax.fst
