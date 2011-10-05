@@ -16,12 +16,13 @@ LEXICON PERS
 
 LEXICON perssg1decl
 +Nom:ме # ;
++Cmpl:ме # ; !Postposition complement
 +GenStem:менам # ;
-+Gen:мелӧн # ;
++Cmpl+Gen:мелӧн # ;
 +GenStem+Gen:менамлӧн # ;
-+Abl:менсьым # ; !The elative case is used in Sg1 and Sg2 
++Ela+PxSg1:менсьым # ; !The elative case is used in Sg1 and Sg2 
                  !for the functions of the ablative in other persons
-+Dat:меным # ;
++Dat:меным # ; !What should be done with the 4 dative forms?
 +Dat:мем # ;
 +Dat:мен # ;
 +Dat:менлы # ;
@@ -34,7 +35,7 @@ LEXICON perssg1decl
 +GenStem+Ill:менамӧ # ;
 +GenStem+Apr:менамсянь # ;
 +GenStem+Ter:менамӧдз # ;
-:ме perssg ; ! for the regular obl sg
++Cmpl:ме perssg ; ! for the regular obl sg
 
 LEXICON perspl1decl
 +Nom:ми # ;
@@ -60,40 +61,100 @@ LEXICON perspl1decl
 
 LEXICON perssg2decl
 +Nom:тэ # ;
-+Gen:тэнад # ;
-+Abl:тэнсьыд # ;
++Cmpl:тэ # ;
++Cmpl+Gen:тэлӧн # ;
++GenStem:тэнад # ;
++GenStem+Gen:тэнадлӧн # ;
++Ela+PxSg2:тэнсьыд # ;
 +Dat:тэныд # ;
++Dat:тэн # ;
 +Dat:тэд # ;
++Dat:тэдлы # ;
++Dat:тэнлы # ;
++Dat:тэныдлы # ;
 +Acc:тэнӧ # ;
-:тэ perssg ;  ! for the regular obl sg
++GenStem+Instr:тэнадӧн # ;
++GenStem+Com:тэнакӧд # ;
++GenStem+Car:тэнатӧг # ;
++GenStem+Ine:тэнадын # ;
++GenStem+Ela:тэнадысь # ;
++GenStem+Ill:тэнадӧ # ;
++GenStem+Egr:тэнадсянь # ;
++GenStem+Ter:тэнадӧдз # ;
++Cmpl:тэ perssg ;  ! for the regular obl sg
 
 LEXICON perspl2decl
 +Nom:ті # ;
-+Gen:тіян # ;
++Cmpl:ті # ;
++Nom:тійӧ # ; !We need a special tag for discerning +Nom forms
++GenStem:тіян # ;
++GenStem+Gen:тіянлӧн # ;
 +Acc:тіянӧс # ;
-:тіян persplobl ;
++GenStem:тіян persplobl ;
+!More forms from Ӧнія коми кыв 2000: 163
++GenStem+Abl+PxPl2:тіянлысьныд # ;
++GenStem+Dat:тіянлы # ;
++GenStem+PxPl2+PxSg2+Acc:тіянныдтӧ # ;
++Instr:тіӧн # ;
++GenStem+PxPl2+Car:тіянныдтӧг # ;
++Car:тітӧг # ;
++GenStemPxPl2+Cns:тіянныдла # ;
++Ela:тіысь # ;
++Ill:тіӧ # ;
++GenStem+Apr+PxPl2:тіянланьныд # ;
++GenStem+Apr+PxSg2:тіянланьыд # ;
++GenStem+Egr+PxPl2:тіянсяньныд # ;
++Ter:тіӧдз # ;
 
 LEXICON perssg3decl
 +Nom:сійӧ # ;
-+Gen:сылӧн # ;
-+Abl:сылысь # ;
-+Ela:сыысь # ;
-+Dat:сылы # ;
++Cmpl+Gen:сылӧн # ;
++Cmpl+Abl:сылысь # ;
++Cmpl+Ela:сыысь # ;
++Cmpl+Dat:сылы # ;
 +Acc:сійӧс # ;
 +Instr:сійӧн # ;
-:сы perssg ;  ! for the regular obl sg
++Cmpl:сы perssg ;  ! for the regular obl sg
 +Cmpl:сы # ;
-!!ми мийӧ
+!More form ӧния коми кыв 163
++Nom+Gen:сійӧлӧн # ;
++Nom+Abl:сійӧлысь # ;
++Nom+Dat:сійӧлы # ;
++Nom+Com:сійӧкӧд # ;
++Nom+Car:сійӧтӧг # ;
++Nom+Apr:сійӧлань # ;
++Nom+Egr:сійӧсянь # ;
++Nom+Egr+PxSg3:сійӧсяньыс # ;
++Nom+Ter:сійӧӧдз # ;
+
+!!ми мийӧ The 1st and 2nd persons have Oblique case stem strategies
+!! that differ from the 3rd person: 
 !!ті тійӧ nämä ovat aivan eri asioita
 !!сы сійӧ tosin joskus 
 
 LEXICON perspl3decl
 +Nom:найӧ # ;
 +Acc:найӧс # ;
-+Gen:налӧн # ;
-:на persplobl ;
-
-
++Cmpl+Gen:налӧн # ;
++Cmpl:на persplobl ; !This might be one solution for the different stem types
++Cmpl:на # ;
+!
++Nom+Gen:найӧлӧн # ;
++Nom+Abl:найӧлысь # ;
++Nom+Dat:найӧлы # ;
++Nom+Instr:найӧӧн # ;
++Nom+Com:найӧкӧд # ;
++Cmpl+Com:накӧдыс # ;
++Nom+Car:найӧтӧг # ;
++Cmpl+Car+PxSg3:натӧгыс # ;
++Cmpl+PxSg3+Cns:наысла # ;
++Cmpl+Ela+PxSg3:насьыс # ;
++Cmpl+PxSg3+Apr:наыслань # ;
++Cmpl+Apr+PxSg3:наланьыс # ;
++Cmpl+PxSg3+Egr:наыссянь # ;
++Cmpl+Egr+PxSg3:насяньыс # ;
++Cmpl+Tra+PxSg3:натіыс # ;
++Cmpl+Ter+PxSg3:наӧдзыс # ;
 
 
 LEXICON perssg 
