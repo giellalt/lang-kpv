@@ -565,14 +565,11 @@ LEXICON PRONDEMTAGSG
 +Ter:ӧдз K ;
 
 
-
-
 LEXICON PRONDEMTAGPL
 !+Pron+Dem+Pl: # ;
 +Nom: # ;
 +Gen:лӧн # ;
 +Acc:ӧс # ;
-
 +Instr:ӧн K ;
 +Com:кӧд K ;
 +Car:тӧг K ;
@@ -586,6 +583,31 @@ LEXICON PRONDEMTAGPL
 +Prl:ӧд K ;
 +Tra:ті K ;
 +Ter:ӧдз K ;
+
+LEXICON PRON-INTER-HUM
++Pron+Interr+Sg+Nom:і K ;
++Pron+Interr+Pl+Nom:ъяс K ;
++Pron+Interr+Sg: PRON-INTER-HUM-OBL ;
++Pron+Interr+Pl:ъяс PRON-INTER-HUM-OBL ;
+
+LEXICON PRON-INTER-HUM-OBL
++Cmpl: # ;
++Gen:лӧн # ;
++Acc:ӧс # ;
++Instr:ӧн K ;
++Com:кӧд K ;
++Car:тӧг K ;
++Cns:ла K ;
++Ine:ын K ;
++Ela:ысь K ; 
++Ill:ӧ K ; !
++Abl:лысь K ; !
++Apr:лань K ;
++Egr:сянь K ;
++Prl:ӧд K ;
++Tra:ті K ;
++Ter:ӧдз K ;
+
 
 LEXICON PRONQTAG
 +Pron+Qnt: COMPARATIVE ; ! sg/pl?
