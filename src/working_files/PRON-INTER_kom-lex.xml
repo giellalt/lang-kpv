@@ -177,24 +177,6 @@
       </article>
    </entry>
    <entry>
-      <lemma>код</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTER</pos>
-      <article>
-         <eng>
-            <choice>
-               <variant>who</variant>
-            </choice>
-         </eng>
-         <fin>
-            <choice>
-               <variant>kuka</variant>
-            </choice>
-         </fin>
-      </article>
-   </entry>
-   <entry>
       <lemma>кодар</lemma>
       <stem/>
       <contlex>PRONQTAG</contlex>
@@ -221,8 +203,8 @@
    </entry>
    <entry>
       <lemma>коді</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
+      <stem>код</stem>
+      <contlex>PRON-INTER-HUM</contlex>
       <pos>PRON-INTER</pos>
       <article>
          <eng>
@@ -256,7 +238,7 @@
          </fin>
       </article>
    </entry>
-   <entry>
+   <entry exclude="fst">
       <lemma>кодъяс</lemma>
       <stem/>
       <contlex>PRONQTAGPL</contlex>
