@@ -391,11 +391,25 @@ LEXICON PRON-REFL-SG3-NOM
 LEXICON PRONDEMTAG
 +Pron+Dem: # ; ! sg/pl?
 
+LEXICON PRONDEMTAGSG-ES
++Pron+Dem+Sg+Nom:%>ійӧ K ;
++Pron+Dem+Sg+Acc:%>ійӧс K ;
++Pron+Dem+Sg+Instr:%>ійӧн K ;
++Pron+Dem+Sg:%>ы PRONDEMTAGSG ;
++Pron+Dem+Pl:%>ійӧяс # ;
++Pron+Dem+Pl:%>ійяс # ;
++Pron+Dem+Pl:%>ійӧян # ;
++Pron+Dem+Pl:%>ійян # ;
+
 LEXICON PRONDEMTAGSG-TA
 +Pron+Dem+Sg+Nom:%>йӧ K ;
 +Pron+Dem+Sg+Acc:%>йӧс K ;
 +Pron+Dem+Sg+Instr:%>йӧн K ;
 +Pron+Dem+Sg: PRONDEMTAGSG ;
++Pron+Dem+Pl:%>йӧяс PRONDEMTAGPL ;
++Pron+Dem+Pl:%>йяс PRONDEMTAGPL ;
++Pron+Dem+Pl:%>йӧян PRONDEMTAGPL ;
++Pron+Dem+Pl:%>йян PRONDEMTAGPL ;
 
 LEXICON PRONDEMTAGSG 
 +Cmpl: # ;
@@ -417,7 +431,24 @@ LEXICON PRONDEMTAGSG
 
 
 LEXICON PRONDEMTAGPL
-+Pron+Dem+Pl: # ;
+!+Pron+Dem+Pl: # ;
++Nom: # ;
++Gen:лӧн # ;
++Acc:ӧс # ;
+
++Instr:ӧн K ;
++Com:кӧд K ;
++Car:тӧг K ;
++Cns:ла K ;
++Ine:ын K ;
++Ela:ысь K ; 
++Ill:ӧ K ; !
++Abl:лысь K ; !
++Apr:лань K ;
++Egr:сянь K ;
++Prl:ӧд K ;
++Tra:ті K ;
++Ter:ӧдз K ;
 
 LEXICON PRONQTAG
 +Pron+Qnt: COMPARATIVE ; ! sg/pl?
