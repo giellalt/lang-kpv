@@ -318,74 +318,211 @@ LEXICON PRON-REL
 +Pron+Rel: # ;
 
 LEXICON EndRefl
-+Pron+Refl: # ;
++Pron+Refl+Abs: # ; !ас is an absolute-form modifer
+ PRON-REFL-OBL-CASES ;
 
-LEXICON PRON-REFL-PL1-ACC
-+Pron+Refl+Pl1+Acc: # ;
-LEXICON PRON-REFL-PL1-COM
-+Pron+Refl+Pl1+Com: # ;
-LEXICON PRON-REFL-PL1-DAT
-+Pron+Refl+Pl1+Dat: # ;
-LEXICON PRON-REFL-PL1-GEN
-+Pron+Refl+Pl1+Gen: # ;
-LEXICON PRON-REFL-PL1-NOM
-+Pron+Refl+Pl1+Nom: # ;
-LEXICON PRON-REFL-PL2-ACC
-+Pron+Refl+Pl2+Acc: # ;
-LEXICON PRON-REFL-PL2-COM
-+Pron+Refl+Pl2+Com: # ;
-LEXICON PRON-REFL-PL2-DAT
-+Pron+Refl+Pl2+Dat: # ;
-LEXICON PRON-REFL-PL2-GEN
-+Pron+Refl+Pl2+Gen: # ;
-LEXICON PRON-REFL-PL2-NOM
-+Pron+Refl+Pl2+Nom: # ;
-LEXICON PRON-REFL-PL3-ACC
-+Pron+Refl+Pl3+Acc: # ;
-LEXICON PRON-REFL-PL3-COM
-+Pron+Refl+Pl3+Com: # ;
-LEXICON PRON-REFL-PL3-DAT
-+Pron+Refl+Pl3+Dat: # ;
-LEXICON PRON-REFL-PL3-ELA
-+Pron+Refl+Pl3+Ela: # ;
-LEXICON PRON-REFL-PL3-GEN
-+Pron+Refl+Pl3+Gen: # ;
-LEXICON PRON-REFL-PL3-NOM
-+Pron+Refl+Pl3+Nom: # ;
-LEXICON PRON-REFL-SG1-ACC
-+Pron+Refl+Sg1+Acc: # ;
-LEXICON PRON-REFL-SG1-DAT
-+Pron+Refl+Sg1+Dat: # ;
-LEXICON PRON-REFL-SG1-ELA
-+Pron+Refl+Sg1+Ela: # ;
-LEXICON PRON-REFL-SG1-GEN
-+Pron+Refl+Sg1+Gen: # ;
+LEXICON PRON-REFL-OBL-CASES
++Ela+PxSg1:сьым K ;
++Ela+PxSg2:сьыд K ;
++Ela+PxSg3:сьыс K ;
++Ela+PxPl1:сьыным K ;
++Ela+PxPl1+Abl:сьынымлысь K ;
++Ela+PxPl1+Ela:сьынымысь K ;
++Ela+PxPl2:сьыныд K ;
++Ela+PxPl3:сьыныс K ;
++Dat+PxSg1:лым K ;
++Dat+PxSg2:лыд K ;
++Dat+PxSg3:лыс K ;
++Dat+PxPl1:лыным K ;
++Dat+PxPl2:лыныд K ;
++Dat+PxPl2+Dat:лыныдлы K ;
++Dat+PxPl3:лыныс K ;
++Dat+PxPl3+Dat:лыныслы K ;
++PxPl3+Dat:ныслы K ;
++Sg1+Instr:ӧн K ; !There is no indication of person. = Sg1, Pl3
++Pl3+Instr:ӧн K ; !There is no indication of person. = Sg1, Pl3
++Instr+PxSg1+Instr:намӧн K ;
++Instr+PxSg2:над K ;
++Instr+PxSg3:нас K ;
++Instr+PxPl1:наным K ;
++Instr+PxPl2:наныд K ;
++Instr+PxPl3:наныс K ;
++Sg1+Com:кӧд K ; !There is no indication of person. = Sg1
++Com+PxSg2:кӧдыд K ; !
++Com+PxSg3:кӧдыс K ; !
++Com+PxPl1:кӧдным K ; !
++Com+PxPl2:кӧдныд K ; !
++PxPl2+Com:ныдкӧд K ; !
++Com+PxPl3:кӧдныс K ; !
++PxPl3+Com:ныскӧд K ; !
++Sg1+Car:тӧг K ; !There is no indication of person. = Sg1
++Car+PxSg2:тӧгыд K ; !
++Car+PxSg3:тӧгыс K ; !
++Car+PxPl1:тӧгным K ; !
++Car+PxPl2:тӧгныд K ; !
++PxPl2+Car:ныдтӧг K ; !
++Car+PxPl3:тӧгныс K ; !
++PxPl3+Car:ныстӧг K ; !
++Sg1+Cons:ла K ; !There is no indication of person. = Sg1
++Cons+PxSg2:лаыд K ;
++PxSg2+Cons:ыдла K ;
++PxSg3+Cons:ысла K ;
++PxPl2+Cons:ныдла K ;
++PxPl3+Cons:нысла K ;
++Ine+PxSg2:ад K ;
++Ine+PxSg3:ас K ;
++Ine+PxPl1:аным K ;
++Ine+PxPl2:аныд K ;
++Ine+PxPl3:аныс K ;
++Sg1+Ill:ӧ K ; !There is no indication of person. = Sg1
++Ill+PxSg1:ам K ; !Ӧнія коми кыв gives this for illative only
++Ill+PxSg1:ад K ; !
++Ill+PxSg1:ас K ; !
++Ill+PxSg1:аным K ; !
++Ill+PxSg1:аныд K ; !
++Ill+PxSg1:аныс K ; !
++Sg1+Apr:лань K ; !There is no indication of person. = Sg1
++Apr+PxSg2:ланьыд K ;
++Apr+PxSg3:ланьыс K ;
++Apr+PxPl1:ланьным K ;
++Apr+PxPl2:ланьныд K ;
++Apr+PxPl3:ланьныс K ;
++Sg1+Egr:сянь K ; !There is no indication of person. = Sg1
++Egr+PxSg2:сяньыд K ;
++Egr+PxSg3:сяньыс K ;
++Egr+PxPl1:сяньным K ;
++Egr+PxPl2:сяньныд K ;
++Egr+PxPl3:сяньныс K ;
++Sg1+Tra:ті K ; !There is no indication of person. = Sg1
++Tra+PxSg2:тіыд K ;
++Tra+PxSg3:тіыс K ;
+! Pl1 and Pl2 are not attested in Ӧнія коми кыв
++Tra+PxPl3:тіныс K ;
++Sg1+Ter:ӧдз K ; !There is no indication of person. = Sg1
++Ter+PxSg2:ӧдзыд K ;
++Ter+PxSg3:ӧдзыс K ;
++PxPl1+Ter:нымӧдз K ;
++PxPl2+Ter:ныдӧдз K ;
++PxPl3+Ter:нысӧдз K ;
+!Extras 2011-10-07
+
+
 LEXICON PRON-REFL-SG1-NOM
-+Pron+Refl+Sg1+Nom: # ;
++Pron+Refl+Sg1+PxSg1+Nom: # ;
++Pron+Refl+Sg1+PxSg1+Acc:ӧс # ;
++Pron+Refl+Sg1+PxSg1+Instr:ӧн # ;
++Pron+Refl+Sg1+PxSg1+Com:кӧд # ;
++Pron+Refl+Sg1+PxSg1+Car:тӧг # ;
++Pron+Refl+Sg1+PxSg1+Ine:ын # ;
++Pron+Refl+Sg1+PxSg1+Ela:ысь # ;
++Pron+Refl+Sg1+PxSg1+Ill:ӧ # ;
+
+LEXICON PRON-REFL-SG1-GEN
++Pron+Refl+Gen+PxSg1: # ;
++Pron+Refl+Gen+PxSg1+Com:кӧд # ;
++Pron+Refl+Gen+PxSg1+Egr:сянь # ;
+
+LEXICON PRON-REFL-SG2-NOM
++Pron+Refl+Nom+PxSg2: # ;
++Pron+Refl+Nom+PxSg2+Car:тӧг # ;
++Pron+Refl+Nom+PxSg2+Ela:ысь # ;
+
+LEXICON PRON-REFL-SG2-GEN
++Pron+Refl+Gen+PxSg2: # ;
++Pron+Refl+Gen+PxSg2+Erg:сянь # ;
+
 LEXICON PRON-REFL-SG2-ACC
 +Pron+Refl+Sg2+Acc: # ;
-LEXICON PRON-REFL-SG2-COM
-+Pron+Refl+Sg2+Com: # ;
-LEXICON PRON-REFL-SG2-DAT
-+Pron+Refl+Sg2+Dat: # ;
-LEXICON PRON-REFL-SG2-ELA
-+Pron+Refl+Sg2+Ela: # ;
-LEXICON PRON-REFL-SG2-GEN
-+Pron+Refl+Sg2+Gen: # ;
-LEXICON PRON-REFL-SG2-NOM
-+Pron+Refl+Sg2+Nom: # ;
-LEXICON PRON-REFL-SG3-ACC
-+Pron+Refl+Sg3+Acc: # ;
-LEXICON PRON-REFL-SG3-COM
-+Pron+Refl+Sg3+Com: # ;
-LEXICON PRON-REFL-SG3-DAT
-+Pron+Refl+Sg3+Dat: # ;
-LEXICON PRON-REFL-SG3-ELA
-+Pron+Refl+Sg3+Ela: # ;
-LEXICON PRON-REFL-SG3-GEN
-+Pron+Refl+Sg3+Gen: # ;
+
 LEXICON PRON-REFL-SG3-NOM
 +Pron+Refl+Sg3+Nom: # ;
++Pron+Refl+Sg2+PxSg2+Instr:ӧн # ;
++Pron+Refl+Sg2+PxSg2+Com:кӧг # ;
++Pron+Refl+Sg2+PxSg2+Car:тӧг # ;
++Pron+Refl+Sg1+PxSg2+Ela:ысь # ;
+
+LEXICON PRON-REFL-SG3-GEN
++Pron+Refl+Gen+PxSg3: # ;
++Pron+Refl+Gen+PxSg3+Gen:лӧн # ;
++Pron+Refl+Gen+PxSg3+Ine:ӧ # ;
+
+LEXICON PRON-REFL-SG3-ACC
++Pron+Refl+Sg3+Acc: # ;
+
+LEXICON PRON-REFL-PL1-NOM
++Pron+Refl+Nom+PxPl1: # ;
++Pron+Refl+PxPl1+Acc:ӧс # ;
++Pron+Refl+PxPl1+Com:кӧд # ;
++Pron+Refl+PxPl1+Car:тӧг # ;
++Pron+Refl+PxPl1+Ela:ысь # ;
++Pron+Refl+PxPl1+Ter:ӧдз # ;
+
+LEXICON PRON-REFL-PL1-GEN
++Pron+Refl+Gen+PxPl1: # ;
++Pron+Refl+Gen+PxPl1+Abl:лысь # ;
+
+LEXICON PRON-REFL-PL2-NOM
++Pron+Refl+Nom+PxPl2: # ;
++Pron+Refl+Nom+PxPl2+Acc+PxSg2:тӧ # ;
++Pron+Refl+Nom+PxPl2+Cns:ла # ;
++Pron+Refl+Nom+PxPl2+Car:тӧг # ;
++Pron+Refl+Nom+PxPl2+Ela:ысь # ;
+
+LEXICON PRON-REFL-PL2-GEN
++Pron+Refl+Gen+PxPl2: # ;
++Pron+Refl+Gen+PxPl2+Gen: # ;
+
+LEXICON PRON-REFL-PL2-ACC
++Pron+Refl+Pl2+Acc: # ;
+
+LEXICON PRON-REFL-PL3-NOM
++Pron+Refl+Nom+PxPl3: # ;
++Pron+Refl+Nom+PxPl3+Cns:ла # ;
+
+LEXICON PRON-REFL-PL3-GEN
++Pron+Refl+Gen+PxPl3: # ;
++Pron+Refl+Gen+PxPl3+Gen:лӧн # ;
++Pron+Refl+Gen+PxPl3+Prl:ӧд # ;
+
+LEXICON PRON-REFL-PL3-ACC
++Pron+Refl+Pl3+Acc: # ;
+
+!!Replaced 2011-10-07 by PRON-REFL-OBL-CASES
+!!! LEXICON PRON-REFL-SG1-ELA
+!!! +Pron+Refl+Sg1+Ela: # ;
+!!! LEXICON PRON-REFL-SG2-ELA
+!!! +Pron+Refl+Sg2+Ela: # ;
+!!! LEXICON PRON-REFL-SG3-ELA
+!!! +Pron+Refl+Sg3+Ela: # ;
+!!! LEXICON PRON-REFL-PL3-ELA
+!!! +Pron+Refl+Pl3+Ela: # ;
+
+!!! LEXICON PRON-REFL-SG1-ACC
+!!! +Pron+Refl+Sg1+Acc: # ;
+!!! LEXICON PRON-REFL-SG1-DAT
+!!! +Pron+Refl+Sg1+Dat: # ;
+!!! LEXICON PRON-REFL-SG2-COM
+!!! +Pron+Refl+Sg2+Com: # ;
+!!! LEXICON PRON-REFL-SG2-DAT
+!!! +Pron+Refl+Sg2+Dat: # ;
+!!! LEXICON PRON-REFL-SG3-COM
+!!! +Pron+Refl+Sg3+Com: # ;
+!!! LEXICON PRON-REFL-SG3-DAT
+!!! +Pron+Refl+Sg3+Dat: # ;
+!!! LEXICON PRON-REFL-PL1-ACC
+!!! +Pron+Refl+Pl1+Acc: # ;
+!!! LEXICON PRON-REFL-PL1-COM
+!!! +Pron+Refl+Pl1+Com: # ;
+!!! LEXICON PRON-REFL-PL1-DAT
+!!! +Pron+Refl+Pl1+Dat: # ;
+!!! LEXICON PRON-REFL-PL2-COM
+!!! +Pron+Refl+Pl2+Com: # ;
+!!! LEXICON PRON-REFL-PL2-DAT
+!!! +Pron+Refl+Pl2+Dat: # ;
+!!! LEXICON PRON-REFL-PL3-COM
+!!! +Pron+Refl+Pl3+Com: # ;
+!!! LEXICON PRON-REFL-PL3-DAT
+!!! +Pron+Refl+Pl3+Dat: # ;
 
 
 LEXICON PRONDEMTAG
