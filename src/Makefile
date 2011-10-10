@@ -71,6 +71,8 @@ endif
 
 
 # This goal is to build the final analyser. It depends on all the files.
+#Attempt 2011-10-10				../bin/allcaps.fst \
+#	[@\"../bin/allcaps.fst\"] .o. \
 
 ../bin/kom.fst: \
 				../bin/kom.save \
@@ -114,6 +116,21 @@ caseconv.fst: ../bin/caseconv.fst
 	quit \n" > ../../tmp/caseconv-script
 	$(XFST) < ../../tmp/caseconv-script
 	@rm -f ../../tmp/caseconv-script
+
+# Adapted from allcaps-sme.regex in gt/sme/rsc/Makefile 2011-10-10
+# This goal depends on allcaps.txt
+#
+#allcaps.fst: ../bin/allcaps.fst
+#../bin/allcaps.fst: allcaps.regex
+#	@echo
+#	@echo "*** Building allcaps.fst ***" ;
+#	@echo
+#	@printf "read text < allcaps.regex \n\
+#	save stack ../bin/allcaps.fst \n\
+#	quit \n" > ../../tmp/allcaps-script
+#	$(XFST) < ../../tmp/allcaps-script
+#	@rm -f ../../tmp/allcaps-script
+
 
 
 # Another goal is to build a preprocessor.This goal depends on tok.txt
