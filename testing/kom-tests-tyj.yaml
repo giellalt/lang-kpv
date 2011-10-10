@@ -1,7 +1,7 @@
 Config:
   hfst:
     Gen: ../bin/kom-gen.hfstol
-    Morph: ../bin/kom-mor.hfstol
+    Morph: ../bin/kom.hfstol
   xerox:
     Gen: ../bin/ikom.fst
     Morph: ../bin/kom.fst
@@ -187,8 +187,7 @@ Tests:
      туй+N+Sg+Apr+Tra+PxPl3: туйланьтіныс
      туй+N+Sg+Apr+Ter+PxPl3: туйланьӧдзныс
      туй+N+Pl+Nom: туйяс
-     туй+N+Pl+Acc: туйяс
-     туй+N+Pl+Acc: туйясӧс
+     туй+N+Pl+Acc: [туйяс, туйясӧс]
      туй+N+Pl+Gen: туйяслӧн
      туй+N+Pl+Abl: туйяслысь
      туй+N+Pl+Dat: туйяслы
