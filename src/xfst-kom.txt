@@ -95,6 +95,10 @@ define tDeletion т -> 0 || п _ [.#. | %> Cns] ;
 define jDeletion й -> 0 || [б | в | г | д | ж | з | к | м | н | п | р | т | с]
                              _ [.#. | %> Cns] ;
 
+define jDeletionBeforeA [ й %> а -> я || Vow _ ,, й %> а -> ъ я || Cns _ ] ; !2011-10-10
+
+
+
 define lDeletion л -> 0 || л _  ь       [ .#. | %> Cns ] ;
   ! вакуль
   
@@ -178,6 +182,7 @@ LtoV
 .o. kDeletion
 .o. tDeletion
 .o. jDeletion
+.o. jDeletionBeforeA
 .o. lDeletion
 .o. dDeletion
 !.o. WeakVowDeletion
