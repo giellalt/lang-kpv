@@ -229,7 +229,7 @@ PO-PROL ;
 PO-TRA ;
 ! these are: 
 ! аддза, бӧрті, бокиті, боксянь, вöсна, дырйи, йитӧдын, 
-! кузя, мысьт, ног, ньылыд, паныдӧн, пӧлӧн, пыдди, пыр, понда, 
+! кузя, ног, ньылыд, паныдӧн, пӧлӧн, пыдди, пыр, понда, 
 ! ради, уліті, выліті, вывті, вомас, вомӧн
 
 LEXICON PO-COMP
@@ -305,7 +305,7 @@ LEXICON PO-PX
 +Po+PxPl1:ным # ;
 +Po+PxPl2:ныд # ;
 +Po+PxPl3:ныс # ;
-! вӧсна, кындзи, моз,  мында, серти,
+! вӧсна, кындзи, моз,  мында, мысьт, серти,
 
 
 ! ==================================== !
@@ -314,6 +314,13 @@ LEXICON PO-PX
 
 LEXICON ADVTAG ! these are checked as advs.
 +Adv: COMPARATIVE ;
+
+LEXICON ADV-SPAT ! these are adverbs in spatial cases
+      !and they probably are equivalent in morphology to postpositions
++Adv+Ela:ысь COMPARATIVE ;
++Adv+Ill:ӧ COMPARATIVE ;
++Adv+Ine:ын COMPARATIVE ;
++Adv+Ter:ӧдз COMPARATIVE ;
 
 LEXICON EndConj
 +CC: # ;
