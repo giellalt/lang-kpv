@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+# Usage:
+# -x flag demands the command (with py):
+# py HfstTester.py ...
+
 # HfstTester.py 1.4 - Copyright (c) 2011
 # Brendan Molloy <brendan@bbqsrc.net>
 # Børre Gaup <boerre@skolelinux.no>
