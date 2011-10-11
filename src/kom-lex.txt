@@ -7,7 +7,11 @@ Multichar_Symbols
 +Adv +CC +CS +Interj +Pron +Num +Pcle +Clt +Po 
 +Qnt ! Quantifier
 +Onom ! onomapoetic words
-
++NoClt !
++Clt/а !
++Clt/ӧ !
++Clt/тӧ !
++Clt/сӧ !
 
 ! Verbal MSP
 +Prs +Fut +Fut1 +Prt1 +Prt2 +Prf
@@ -30,6 +34,7 @@ Multichar_Symbols
 +Sg +Pl
 +Prop
 +Nom +Gen +Abl +Dat +Com 
++ZeroAcc
 +Acc +Ine +Ill 
 +Ela +Car +Egr +Tra  +Apr +Ter
 +Abe 
@@ -348,11 +353,11 @@ LEXICON ONOM
 ! ======= !
 
 LEXICON K
-          # ; 
-+Clt:%-а  # ;
-+Clt:%-ӧ  # ;
-+Clt:%>тӧ # ;
-+Clt:%>сӧ # ;
++NoClt:      # ; 
++Clt+Clt/а:%-а  # ;
++Clt+Clt/ӧ:%-ӧ  # ;
++Clt+Clt/тӧ:%>тӧ # ;
++Clt+Clt/сӧ:%>сӧ # ;
 
 
 ! List of spurious lexica
