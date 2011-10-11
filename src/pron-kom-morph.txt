@@ -621,6 +621,7 @@ LEXICON PRONQ-STAV
 +Pron+Qnt+Sg+Nom: K ;
 +Pron+Qnt+Sg+Acc: K ;
 
++Pron+Qnt+Sg+Nom+PxSg2:ыд K ;
 +Pron+Qnt+Sg+Nom+PxSg3:ыс K ;
 +Pron+Qnt+Sg+Nom+PxPl1:ным K ;
 +Pron+Qnt+Sg+Nom+PxPl2:ныд K ;
@@ -634,6 +635,7 @@ LEXICON PRONQ-STAV
 +Pron+Qnt+Sg+PxPl2+Instr:ныдӧн K ; ! Should there be a Der/ӧн tag?
 +Pron+Qnt+Sg+PxPl3+Instr:нысӧн K ; ! Should there be a Der/ӧн tag?
 
++Pron+Qnt+Sg+Ela:ысь K ;
 +Pron+Qnt+Sg+Ela+PxSg3:сьыс K ;
 +Pron+Qnt+Sg+Ela+PxPl1:сьыным K ;
 +Pron+Qnt+Sg+PxPl1+Ela:нымысь K ;
@@ -674,11 +676,13 @@ LEXICON PRONQ-STAV
 +Pron+Qnt+Sg+PxPl2+Com:ныдкӧд K ;
 +Pron+Qnt+Sg+PxPl3+Com:ныскӧд K ;
 
++Pron+Qnt+Sg+Car:тӧг K ;
 +Pron+Qnt+Sg+PxSg3+Car:ыстӧг K ;
 +Pron+Qnt+Sg+PxPl1+Car:нымтӧг K ;
 +Pron+Qnt+Sg+PxPl2+Car:ныдтӧг K ;
 +Pron+Qnt+Sg+PxPl3+Car:ныстӧг K ;
 
++Pron+Qnt+Sg+Cns:ла K ;
 +Pron+Qnt+Sg+PxSg3+Cns:ысла K ;
 +Pron+Qnt+Sg+PxPl1+Cns:нымла K ;
 +Pron+Qnt+Sg+PxPl2+Cns:ныдла K ;
@@ -686,9 +690,15 @@ LEXICON PRONQ-STAV
 
 +Pron+Qnt+Sg+Comp+PxSg3:сяыс K ;
 
++Pron+Qnt+Sg+Ine:ын K ;
 +Pron+Qnt+Sg+PxPl1+Ine:нымын K ;
 +Pron+Qnt+Sg+PxPl2+Ine:ныдын K ;
 +Pron+Qnt+Sg+PxPl3+Ine:нысын K ;
+
++Pron+Qnt+Sg+Ill:ӧ K ;
++Pron+Qnt+Sg+PxPl1+Ill:нымӧ K ;
++Pron+Qnt+Sg+PxPl2+Ill:ныдӧ K ;
++Pron+Qnt+Sg+PxPl3+Ill:нысӧ K ;
 
 
 +Pron+Qnt+Sg+Egr:сянь K ;
@@ -700,18 +710,21 @@ LEXICON PRONQ-STAV
 +Pron+Qnt+Sg+PxPl2+Egr:ныдсянь K ;
 +Pron+Qnt+Sg+PxPl3+Egr:ныссянь K ;
 
++Pron+Qnt+Sg+Apr:лань K ;
 +Pron+Qnt+Sg+Apr+PxSg3:ланьыс K ;
 +Pron+Qnt+Sg+PxSg3+Apr:ыслань K ;
 +Pron+Qnt+Sg+PxPl1+Apr:нымлань K ;
 +Pron+Qnt+Sg+PxPl2+Apr:ныдлань K ;
 +Pron+Qnt+Sg+PxPl3+Apr:ныслань K ;
 
-+Pron+Qnt+Sg+PxSg3+Tra:тіыс K ;
++Pron+Qnt+Sg+Tra:ті K ;
++Pron+Qnt+Sg+Tra+PxSg3:тіыс K ;
 +Pron+Qnt+Sg+PxSg3+Tra:ысті K ;
 +Pron+Qnt+Sg+PxPl1+Tra:нымті K ;
 +Pron+Qnt+Sg+PxPl2+Tra:ныдті K ;
 +Pron+Qnt+Sg+PxPl3+Tra:нысті K ;
 
++Pron+Qnt+Sg+Ter:ӧдз K ;
 +Pron+Qnt+Sg+PxSg3+Ter:ысӧдз K ;
 +Pron+Qnt+Sg+PxPl1+Ter:нымӧдз K ;
 +Pron+Qnt+Sg+PxPl2+Ter:ныдӧдз K ;
