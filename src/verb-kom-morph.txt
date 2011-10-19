@@ -40,6 +40,16 @@ LEXICON VERBNEGATIVE
 ! Open class verbs
 ! ----------------
 
+LEXICON Verb-lokny
++Inf:%>ны MatrixVerb-Comparison ;
++ConNeg+Pl3:%>ны # ;
++ConNeg: # ;
++Imprt+Sg2: # ;
++V:т VerbDer ; !
++V:т VerbDer-V ; !
++V:т  VerbConj ; !а
+
+
 
 LEXICON Verb1 ! яйсявны,  в - л change кывны кылан
 Verb2 ;  ! already merged with Verb2, todo: merge in xml as well
@@ -295,20 +305,24 @@ LEXICON VerbDer-V
 
 +V+Der/ышт+Dim+V:%>ышт  VerbConj ;
 +V+Der/ышт+Dim+V+Inf:%>ыштны K ;
++V+Der/ышт+Dim+V+ConNeg+Pl3:%>ыштны # ;
 +V+Der/ышт+Dim+V+ConNeg:%>ышт # ;
 +V+Der/ышт+Dim+V+Imprt+Sg2:%>ышт # ;
 
 +V+Der/ышт+Dim+V+Der/л+V:%>ыштл  VerbConj ;
 +V+Der/ышт+Dim+V+Der/л+V+Inf:%>ыштлыны K ;
++V+Der/ышт+Dim+V+Der/л+V+ConNeg+Pl3:%>ыштлыны # ;
 +V+Der/ышт+Dim+V+Der/л+V+ConNeg:%>ыштл # ;
 +V+Der/ышт+Dim+V+Der/л+V+Imprt+Sg2:%>ыштл # ;
 
 
 
 ! Stray verb forms :-о
- 
+
 LEXICON VerbPRT ! one verb, вӧвны 
- +V: preterite ;
++V: preterite ;
++V+ConNeg+Pl3:%>ны # ;
++V+ConNeg: # ;
 
 LEXICON EMYSHT ! эмышт "is a little / are a few"
  +V+Ind+Prs+Sg3: # ;
