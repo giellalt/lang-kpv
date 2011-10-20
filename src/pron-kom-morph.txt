@@ -757,6 +757,49 @@ LEXICON PRONQ-STAV
 
 ! COMPARATIVE ; ! sg/pl?
 
+LEXICON PRONQ-COLL
++Pron+Qnt+Coll+Sg: PRONQ-COLL-CASE ; ! sg/pl?
+
+! быдӧн, ӧтнасӧн, ӧтнамӧн, ӧтнадӧн, ставӧн, кымынӧн, унаӧн, кыкӧн
+
+LEXICON PRONQ-COLL-CASE
++Nom: K ;
++Gen:лӧн K ;
++PxSg2+Gen:ыдлӧн K ;
++PxSg3+Gen:ыслӧн K ;
++Acc:ӧс K ;
++PxSg2+Acc:тӧ K ;
++PxSg3+Acc:сӧ K ;
++Dat:лы K ;
++Abl:лысь K ;
++PxSg2+Abl:ыдлысь K ;
++PxSg3+Abl:ыслысь K ;
++Com:кӧд K ;
++PxSg2+Com:ыдкӧд K ;
++PxSg3+Com:ыскӧд K ;
++Cns:ла K ;
++PxSg2+Cns:ыдла K ;
++PxSg3+Cns:ысла K ;
+
++Ela:ысь K ;
++Ela+PxSg2:сьыд K ;
++Ela+PxSg3:сьыс K ;
++Ill:ӧ K ;
++Ine:ын K ;
++Car:тӧг K ;
++Car+PxSg2:тӧгыд K ;
++Car+PxSg3:тӧгыс K ;
+
++Tra:ті K ;
++Ter:ӧдз K ;
++Ter+PxSg2:ӧдзыд K ;
++Ter+PxSg3:ӧдзыс K ;
++Egr+PxSg2:сяньыд K ;
++Egr+PxSg3:сяньыс K ;
++Apr:лань K ;
++Apr+PxSg2:ланьыд K ;
++Apr+PxSg3:ланьыс K ;
+
 LEXICON PRONQTAG
 +Pron+Qnt: COMPARATIVE ; ! sg/pl?
 
