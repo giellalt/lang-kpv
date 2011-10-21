@@ -96,7 +96,7 @@ LEXICON perspl2decl
 !More forms from Ӧнія коми кыв 2000: 163
 +GenStem+Abl+PxPl2:тіянлысьныд # ;
 +GenStem+Dat:тіянлы # ;
-+GenStem+PxPl2+PxSg2+Acc:тіянныдтӧ # ;
++GenStem+PxPl2+PxSg2+Acc2:тіянныдтӧ # ;
 +Instr:тіӧн # ;
 +GenStem+PxPl2+Car:тіянныдтӧг # ;
 +Car:тітӧг # ;
@@ -434,7 +434,7 @@ LEXICON PRON-REFL-SG2-GEN
 +Pron+Refl+Gen+PxSg2+Erg:сянь # ;
 
 LEXICON PRON-REFL-SG2-ACC
-+Pron+Refl+Sg2+Acc: # ;
++Pron+Refl+Sg2+Acc2: # ;
 
 LEXICON PRON-REFL-SG3-NOM
 +Pron+Refl+Sg3+Nom: # ;
@@ -449,7 +449,7 @@ LEXICON PRON-REFL-SG3-GEN
 +Pron+Refl+Gen+PxSg3+Ine:ӧ # ;
 
 LEXICON PRON-REFL-SG3-ACC
-+Pron+Refl+Sg3+Acc: # ;
++Pron+Refl+Sg3+Acc3: # ;
 
 LEXICON PRON-REFL-PL1-NOM
 +Pron+Refl+Nom+PxPl1: # ;
@@ -465,7 +465,7 @@ LEXICON PRON-REFL-PL1-GEN
 
 LEXICON PRON-REFL-PL2-NOM
 +Pron+Refl+Nom+PxPl2: # ;
-+Pron+Refl+Nom+PxPl2+Acc+PxSg2:тӧ # ;
++Pron+Refl+Nom+PxPl2+Acc2:тӧ # ;
 +Pron+Refl+Nom+PxPl2+Cns:ла # ;
 +Pron+Refl+Nom+PxPl2+Car:тӧг # ;
 +Pron+Refl+Nom+PxPl2+Ela:ысь # ;
@@ -475,7 +475,7 @@ LEXICON PRON-REFL-PL2-GEN
 +Pron+Refl+Gen+PxPl2+Gen: # ;
 
 LEXICON PRON-REFL-PL2-ACC
-+Pron+Refl+Pl2+Acc: # ;
++Pron+Refl+Pl2+Acc2: # ;
 
 LEXICON PRON-REFL-PL3-NOM
 +Pron+Refl+Nom+PxPl3: # ;
@@ -487,7 +487,7 @@ LEXICON PRON-REFL-PL3-GEN
 +Pron+Refl+Gen+PxPl3+Prl:ӧд # ;
 
 LEXICON PRON-REFL-PL3-ACC
-+Pron+Refl+Pl3+Acc: # ;
++Pron+Refl+Pl3+Acc3: # ;
 
 !!Replaced 2011-10-07 by PRON-REFL-OBL-CASES
 !!! LEXICON PRON-REFL-SG1-ELA
@@ -599,7 +599,7 @@ LEXICON PRON-INTER-NONHUM
 +Pron+Interr+Abl:лысь K ; !
 +Pron+Interr+Dat:лы K ; !
 +Pron+Interr+ZeroAcc: # ;
-+Pron+Interr+Acc+PxSg3:сӧ # ;
++Pron+Interr+Acc3:сӧ # ;
 +Pron+Interr+Instr:ӧн K ;
 +Pron+Interr+Com:кӧд K ;
 +Pron+Interr+Car:тӧг K ;
@@ -622,6 +622,7 @@ LEXICON PRON-INTER-HUM
 +Pron+Interr+Pl+Nom:ъяс K ;
 +Pron+Interr+Sg: PRON-INTER-HUM-OBL ;
 +Pron+Interr+Pl:ъяс PRON-INTER-HUM-OBL ;
++Pron+Interr: PRON-INTER-REL-HUM-COLL ;
 
 LEXICON PRON-INTER-HUM-OBL
 ! 2000: 187
@@ -630,7 +631,7 @@ LEXICON PRON-INTER-HUM-OBL
 +Abl:лысь K ; !
 +Dat:лы # ;
 +Acc:ӧс # ;
-+Acc+PxSg3:сӧ # ;
++Acc3:сӧ # ;
 +Instr:ӧн K ;
 +Com:кӧд K ;
 +Car:тӧг K ;
@@ -643,6 +644,35 @@ LEXICON PRON-INTER-HUM-OBL
 +Tra:ті K ;
 +Ter:ӧдз K ;
 
+LEXICON PRON-INTER-REL-HUM-COLL
++Coll:нан PRON-INTER-REL-HUM-COLL-PERS ;
++ZeroColl: PRON-INTER-REL-HUM-COLL-PERS ;
++ZeroColl+PxPl2+Acc2:ныдтӧ K ;
++Coll+PxPl2+Acc2:наннытӧ K ;
+
+LEXICON PRON-INTER-REL-HUM-COLL-PERS
++PxPl1:ным PRON-INTER-REL-HUM-COLL-CASES ;
++PxPl2:ныд PRON-INTER-REL-HUM-COLL-CASES ;
++PxPl3:ныс PRON-INTER-REL-HUM-COLL-CASES ;
++PxPl1+Acc:нымӧс K ;
++PxPl3+Acc3:ныссӧ K ;
+
+LEXICON PRON-INTER-REL-HUM-COLL-CASES
++Nom: K ;
++Gen:лӧн K ;
++Abl:лысь K ;
++Dat:лы K ;
++Instr:ӧн K ;
++Com:кӧд K ;
++Car:тӧг K ;
++Cns:ла K ;
++Ine:ын K ;
++Ela:ысь K ;
++Ill:ӧ K ;
++Apr:лань K ;
++Egr:сяньы
++Tra:ті K ;
++Ter:ӧдз K ;
 
 LEXICON PRONQ-STAV
 +Pron+Qnt+Abs: # ;
@@ -680,11 +710,11 @@ LEXICON PRONQ-STAV
 
 +Pron+Qnt+Sg+Acc:ӧс K ;
 +Pron+Qnt+Sg+PxSg1+Acc:ӧс K ;
-+Pron+Qnt+Sg+PxSg2+Acc:тӧ K ;
-+Pron+Qnt+Sg+PxSg3+Acc:сӧ K ;
++Pron+Qnt+Sg+PxSg2+Acc2:тӧ K ;
++Pron+Qnt+Sg+PxSg3+Acc3:сӧ K ;
 +Pron+Qnt+Sg+PxPl1+Acc:нымӧс K ;
-+Pron+Qnt+Sg+PxPl2+Acc:нытӧ K ;
-+Pron+Qnt+Sg+PxPl3+Acc:нысӧ K ;
++Pron+Qnt+Sg+PxPl2+Acc2:нытӧ K ;
++Pron+Qnt+Sg+PxPl3+Acc3:нысӧ K ;
 
 +Pron+Qnt+Sg+PxSg2+Dat:ыдлы K ;
 +Pron+Qnt+Sg+PxSg3+Dat:ыслы K ;
@@ -780,8 +810,8 @@ LEXICON PRONQ-COLL-CASE
 +PxSg2+Dat:ыдлысь K ;
 +PxSg3+Dat:ыслысь K ;
 +Acc:ӧс K ;
-+PxSg2+Acc:тӧ K ;
-+PxSg3+Acc:сӧ K ;
++PxSg2+Acc2:тӧ K ;
++PxSg3+Acc3:сӧ K ;
 +Instr:ӧн K ;
 +Com:кӧд K ;
 +PxSg2+Com:ыдкӧд K ;

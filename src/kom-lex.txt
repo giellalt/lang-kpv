@@ -36,9 +36,15 @@ Multichar_Symbols
 +Nom +Gen +Abl +Dat +Com 
 ! One problem with the accusative in Komi is that the different morphemes
 ! have not been labeled. The nominative or Zero morpheme is used
-! but then there are also the accusative ӧс form and the 2Sg тӧ 3Sg сӧ
+! but then there are also the accusative ӧс form and the 2(Sg) тӧ 3(Sg) сӧ
 +ZeroAcc
-+Acc +Ine +Ill 
++Acc ! ӧс used not only with the first person but elsewhere to boot.
++Acc2 ! тӧ also used with the plural in places
++Acc3 !  сӧ also used with the plural in places
+! What should be done with the presonal pronouns Sg1 and Sg2
+! whose accusative forms are in ӧ: менӧ and тэнӧ?
+
+ +Ine +Ill 
 +Ela +Car +Egr +Tra  +Apr +Ter
 +Abe 
 +Prl !Prolative "ӧд"
@@ -64,6 +70,8 @@ Multichar_Symbols
 +Card
 +Cns ! Consecutive -la
 +Coll !Collective
++ZeroColl ! In combinations with the plural possessive marker the +Coll
+          ! morpheme нан is not always necessary
 +Comp ! Case form sya
 
 +Det ! determiner like уна 'many'. Look at this.
