@@ -594,20 +594,24 @@ LEXICON PRONDEMTAGPL
 +Ter:ӧдз K ;
 
 LEXICON PRON-INTER-NONHUM
-+Nom: # ;
-+Instr:ӧн K ;
-+Com:кӧд K ;
-+Car:тӧг K ;
-+Cns:ла K ;
-+Ine:ын K ;
-+Ela:ысь K ; 
-+Ill:ӧ K ; !
-+Abl:лысь K ; !
-+Apr:лань K ;
-+Egr:сянь K ;
-+Prl:ӧд K ;
-+Tra:ті K ;
-+Ter:ӧдз K ;
++Pron+Interr+Nom: # ;
++Pron+Interr+Gen:лӧн K ; !
++Pron+Interr+Abl:лысь K ; !
++Pron+Interr+Dat:лы K ; !
++Pron+Interr+ZeroAcc: # ;
++Pron+Interr+Acc+PxSg3:сӧ # ;
++Pron+Interr+Instr:ӧн K ;
++Pron+Interr+Com:кӧд K ;
++Pron+Interr+Car:тӧг K ;
++Pron+Interr+Cns:ла K ;
++Pron+Interr+Ine:ын K ;
++Pron+Interr+Ela:ысь K ; 
++Pron+Interr+Ill:ӧ K ; !
++Pron+Interr+Apr:лань K ;
++Pron+Interr+Egr:сянь K ;
++Pron+Interr+Prl:ӧд K ;
++Pron+Interr+Tra:ті K ;
++Pron+Interr+Ter:ӧдз K ;
 
 LEXICON PRON-NEG-HUM
 +Pron+Neg+Sg+Nom: # ;
@@ -620,10 +624,13 @@ LEXICON PRON-INTER-HUM
 +Pron+Interr+Pl:ъяс PRON-INTER-HUM-OBL ;
 
 LEXICON PRON-INTER-HUM-OBL
+! 2000: 187
 +Cmpl: # ;
 +Gen:лӧн # ;
-+Acc:ӧс # ;
++Abl:лысь K ; !
 +Dat:лы # ;
++Acc:ӧс # ;
++Acc+PxSg3:сӧ # ;
 +Instr:ӧн K ;
 +Com:кӧд K ;
 +Car:тӧг K ;
@@ -631,10 +638,8 @@ LEXICON PRON-INTER-HUM-OBL
 +Ine:ын K ;
 +Ela:ысь K ; 
 +Ill:ӧ K ; !
-+Abl:лысь K ; !
 +Apr:лань K ;
 +Egr:сянь K ;
-+Prl:ӧд K ;
 +Tra:ті K ;
 +Ter:ӧдз K ;
 
@@ -763,42 +768,45 @@ LEXICON PRONQ-COLL
 ! быдӧн, ӧтнасӧн, ӧтнамӧн, ӧтнадӧн, ставӧн, кымынӧн, унаӧн, кыкӧн
 
 LEXICON PRONQ-COLL-CASE
+!ӧнія коми кыв 2000: 183
 +Nom: K ;
 +Gen:лӧн K ;
 +PxSg2+Gen:ыдлӧн K ;
 +PxSg3+Gen:ыслӧн K ;
-+Acc:ӧс K ;
-+PxSg2+Acc:тӧ K ;
-+PxSg3+Acc:сӧ K ;
-+Dat:лы K ;
 +Abl:лысь K ;
 +PxSg2+Abl:ыдлысь K ;
 +PxSg3+Abl:ыслысь K ;
++Dat:лы K ;
++PxSg2+Dat:ыдлысь K ;
++PxSg3+Dat:ыслысь K ;
++Acc:ӧс K ;
++PxSg2+Acc:тӧ K ;
++PxSg3+Acc:сӧ K ;
++Instr:ӧн K ;
 +Com:кӧд K ;
 +PxSg2+Com:ыдкӧд K ;
 +PxSg3+Com:ыскӧд K ;
++Car:тӧг K ;
++Car+PxSg2:тӧгыд K ;
++Car+PxSg3:тӧгыс K ;
 +Cns:ла K ;
 +PxSg2+Cns:ыдла K ;
 +PxSg3+Cns:ысла K ;
-
++Ine:ын K ;
 +Ela:ысь K ;
 +Ela+PxSg2:сьыд K ;
 +Ela+PxSg3:сьыс K ;
 +Ill:ӧ K ;
-+Ine:ын K ;
-+Car:тӧг K ;
-+Car+PxSg2:тӧгыд K ;
-+Car+PxSg3:тӧгыс K ;
-
++Apr:лань K ;
++Apr+PxSg2:ланьыд K ;
++Apr+PxSg3:ланьыс K ;
++Egr:сянь K ;
++Egr+PxSg2:сяньыд K ;
++Egr+PxSg3:сяньыс K ;
 +Tra:ті K ;
 +Ter:ӧдз K ;
 +Ter+PxSg2:ӧдзыд K ;
 +Ter+PxSg3:ӧдзыс K ;
-+Egr+PxSg2:сяньыд K ;
-+Egr+PxSg3:сяньыс K ;
-+Apr:лань K ;
-+Apr+PxSg2:ланьыд K ;
-+Apr+PxSg3:ланьыс K ;
 
 LEXICON PRONQTAG
 +Pron+Qnt: COMPARATIVE ; ! sg/pl?
