@@ -316,6 +316,39 @@ LEXICON PRONINDEF-PERS-KO-END
 !!LEXICON PRONINDEF-PERS-SJURO
 !!:%>сюрӧ # ;
 
+LEXICON PRON-RECIPR
++Pron+Recipr: PRON-RECIPR-CASE ;
+
+LEXICON PRON-RECIPR-CASE
++Cmpl: # ;
++PxSg2+Cmpl:ыд ;
++PxSg2+Cmpl:ыс ;
++PxPl1+Cmpl:ным ;
++PxPl2+Cmpl:ныд ;
++PxPl3+Cmpl:ныс ;
++Gen:лӧн ;
++PxSg3+Abl:ыслысь ;
++PxPl3+Abl:ныслысь ;
++Dat:лы ;
++PxSg3+Dat:ыслы ;
++PxPl3+Dat:ныслы ;
++Acc:ӧс ;
++PxPl1+Acc:нымӧс ;
++PxPl2+Acc2:нытӧ ;
++PxPl3+Acc3:ныссӧ ;
++Acc3:сӧ ;
++PxSg3+Com:ыскӧд ;
++PxPl2+Com:ныдкӧд ;
++PxPl3+Com:ныскӧд ;
++Car+PxSg3:тӧгыс ;
++Ela:ысь ;
++Ela+PxSg3:сьыс ;
++Ela+PxPl3:сьыныс ;
++PxSg3+Ill:ас ; ! Here is a good problem: Should there be a special tag
+                ! for the illative-inessive forms
++PxPl3+Ill:нысӧ ;
+
+
 LEXICON PRON-REL
 +Pron+Rel: # ;
 
