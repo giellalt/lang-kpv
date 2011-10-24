@@ -837,6 +837,7 @@
       <xs:enumeration value="Subj1Obj"/>
       <xs:enumeration value="Subj1Obj2Obj"/>
       <xs:enumeration value="1Obj"/>
+      <xs:enumeration value="1,2"/> <!-- This should be worked away from = Subj and Subj1Obj -->
     </xs:restriction>
   </xs:simpleType>
 </xs:attribute>
