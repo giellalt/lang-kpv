@@ -96,6 +96,7 @@
    <xs:restriction base="xs:string">
      <xs:enumeration value="en"/>
  <xs:enumeration value="fin"/>
+ <xs:enumeration value="kv"/>
  <xs:enumeration value="ru"/>
    </xs:restriction>
  </xs:simpleType>
@@ -112,7 +113,7 @@
      <xs:enumeration value="N"/>
      <xs:enumeration value="N-DV"/>
      <xs:enumeration value="nn"/>
-     <xs:enumeration value="phrase-v"/>
+     <xs:enumeration value="PHRASE-V"/>
      <xs:enumeration value="PRON-PERS"/>
      <xs:enumeration value="PRON-REFL"/>
      <xs:enumeration value="PRON-REL"/>
@@ -125,12 +126,12 @@
 <xs:attribute name="possPx">
  <xs:simpleType>
    <xs:restriction base="xs:string">
-    <xs:enumeration value="sg1"/>
- <xs:enumeration value="sg2"/>
- <xs:enumeration value="sg3"/>
- <xs:enumeration value="pl1"/>
- <xs:enumeration value="pl2"/>
- <xs:enumeration value="pl3"/>
+     <xs:enumeration value="sg1"/>
+     <xs:enumeration value="sg2"/>
+     <xs:enumeration value="sg3"/>
+     <xs:enumeration value="pl1"/>
+     <xs:enumeration value="pl2"/>
+     <xs:enumeration value="pl3"/>
    </xs:restriction>
  </xs:simpleType>
 </xs:attribute>
@@ -197,7 +198,7 @@
 </xs:element>
 
 <xs:element name="stRef">
-  <xs:complexType>
+  <xs:complexType mixed="true">
     <xs:sequence>
     </xs:sequence>
 <xs:attribute ref="lang"/>
@@ -266,8 +267,8 @@
 <xs:element name="assoc">
   <xs:complexType mixed="true">
     <xs:sequence>
-      <xs:element ref="lg"/>
-      <xs:choice>
+      <xs:element ref="lg" minOccurs="0"/>
+      <xs:choice minOccurs="0">
 	<xs:element ref="stg"/>
 	<xs:element ref="stem"/>
       </xs:choice>
@@ -609,6 +610,7 @@
 	    <xs:element name="e" maxOccurs="unbounded">
 	      <xs:complexType>
 		<xs:sequence>
+		  <xs:element ref="val" minOccurs="0"/>
 		  <xs:element ref="range" minOccurs="0"/> <!-- THIS should be in m/head later -->
 		  <xs:element ref="mg" maxOccurs="unbounded"/>
 		</xs:sequence>
@@ -653,15 +655,24 @@
 </xs:element>
 
 <xs:element name="drv">
-  <xs:complexType>
+  <xs:complexType mixed="true">
     <xs:sequence>
-      <xs:element ref="lg"/>
-      <xs:element ref="stg"/>
+      <xs:element ref="lg" minOccurs="0"/>
+      <xs:element ref="stg" minOccurs="0"/>
       <xs:element ref="com" minOccurs="0"/>
     </xs:sequence>
     <xs:attribute ref="contlex"/>
     <xs:attribute ref="der"/>
     <xs:attribute ref="drvType"/>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="val"><!-- valency should be inside of the "e" element-->
+  <xs:complexType mixed="true">
+    <xs:sequence>
+      <xs:element ref="com" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute ref="valency"/> <!-- This should have work done on it later  -->
   </xs:complexType>
 </xs:element>
 <!-- ATTRIBUTES -->
@@ -815,6 +826,17 @@
       <xs:enumeration value="III"/>
       <xs:enumeration value="IV"/>
       <xs:enumeration value="V"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:attribute>
+
+<xs:attribute name="valency">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Subj"/>
+      <xs:enumeration value="Subj1Obj"/>
+      <xs:enumeration value="Subj1Obj2Obj"/>
+      <xs:enumeration value="1Obj"/>
     </xs:restriction>
   </xs:simpleType>
 </xs:attribute>
