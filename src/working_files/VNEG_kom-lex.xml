@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dict>
+   <entry exclude="fst">
+      <lemma>CiprianAndTrond</lemma>
+      <stem>FixThis</stem>
+      <contlex>#</contlex>
+      <pos>N</pos>
+      <article>
+      <eng>We need an attr saying _do not make lexc_</eng>
+      </article>
+   </entry>
+   
+<!--
+comment: The problem here is the  share of burden between xml and lexc.
+The VERBNEGATIVE lexicon looks like this:
+LEXICON VERBNEGATIVE
+оз+V+Neg+Ind+Prs+Sg1:ог K ;
+оз+V+Neg+Ind+Prs+Sg2:он K ;
+оз+V+Neg+Ind+Prs+Sg3:оз K ;
+...
+
+The problem with the things below is that "lemma" and "stem" are mixed.
+"lemma" is used in two ways: 
+a. as ditionary lookup term (expected is the wordform)
+b. as fst reference term (expected is оз)
+
+For the time being we should have a special contlex entry saying
+<contlex>NOCONTLEXGENERATION</contlex>
+with a corresponding if-statement in the xslt file generating
+the kt/tmp/out/ files.
+
+Conclusion reached (?) on Jan 1st ( :-) a new year's promise):
+We do the pronouns in the same way.
+Preliminary, we comment them out from the dict, awaiting an
+implementation of the NOCONTLEX contlex value.
+ o
+In this way we can use stems from the individual personal pronouns once each 
+ме
+тэ
+
+-->
+
+
+<!--   <entry exclude="fst">					 			    -->
+<!--      <lemma>эг</lemma>						 			    -->
+<!--      <stem>оз</stem>						 			    -->
+<!--      <contlex>#</contlex>					 			    -->
+<!--      <pos>VNEG</pos>						 			    -->
+<!--      <article>								 			    -->
+<!--         <eng>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant>we didn't </variant> 			    -->
+<!--               <variant> we weren't</variant>			    -->
+<!--            </choice>						 			    -->
+<!--         </eng>								 			    -->
+<!--         <fin>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant>emme</variant>		 			    -->
+<!--            </choice>						 			    -->
+<!--         </fin>								 			    -->
+<!--         <cf>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </cf>								 			    -->
+<!--         <msp>PRET1 PL1</msp>				 			    -->
+<!--      </article>							 			    -->
+<!--      <article>								 			    -->
+<!--         <eng>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant>I didn't </variant>	 			    -->
+<!--               <variant> I wasn't</variant>	 			    -->
+<!--            </choice>						 			    -->
+<!--         </eng>								 			    -->
+<!--         <fin>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant>en</variant>		 			    -->
+<!--            </choice>						 			    -->
+<!--         </fin>								 			    -->
+<!--         <cf>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </cf>								 			    -->
+<!--         <msp>PRET1 SG1</msp>				 			    -->
+<!--      </article>							 			    -->
+<!--   </entry>									 			    -->
+<!--   <entry exclude="fst">					 			    -->
+<!--      <lemma>эгӧ</lemma>					 			    -->
+<!--      <stem>оз</stem>						 			    -->
+<!--      <contlex>#</contlex>					 			    -->
+<!--      <pos>VNEG</pos>						 			    -->
+<!--      <article>								 			    -->
+<!--         <eng>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant>we didn't </variant> 			    -->
+<!--               <variant> we weren't</variant>			    -->
+<!--            </choice>						 			    -->
+<!--         </eng>								 			    -->
+<!--         <fin>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant>emme</variant>		 			    -->
+<!--            </choice>						 			    -->
+<!--         </fin>								 			    -->
+<!--         <cf>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </cf>								 			    -->
+<!--         <msp>PRET1 PL1</msp>				 			    -->
+<!--      </article>							 			    -->
+<!--   </entry>									 			    -->
+<!--   <entry exclude="fst">					 			    -->
+<!--      <lemma>эгӧй</lemma>					 			    -->
+<!--      <stem>оз</stem>						 			    -->
+<!--      <contlex>#</contlex>					 			    -->
+<!--      <pos>VNEG</pos>						 			    -->
+<!--      <article>								 			    -->
+<!--         <eng>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant>we didn't </variant> 			    -->
+<!--               <variant> we weren't</variant>			    -->
+<!--            </choice>						 			    -->
+<!--         </eng>								 			    -->
+<!--         <fin>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant>emme</variant>		 			    -->
+<!--            </choice>						 			    -->
+<!--         </fin>								 			    -->
+<!--         <cf>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </cf>								 			    -->
+<!--         <msp>PRET1 PL1</msp>				 			    -->
+<!--      </article>							 			    -->
+<!--   </entry>									 			    -->
+<!--   <entry exclude="fst">					 			    -->
+<!--      <lemma>эн</lemma>						 			    -->
+<!--      <stem>оз</stem>						 			    -->
+<!--      <contlex>#</contlex>					 			    -->
+<!--      <pos>VNEG</pos>						 			    -->
+<!--      <article>								 			    -->
+<!--         <msp>2SG, 2PL</msp>				 			    -->
+<!--         <eng>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </eng>								 			    -->
+<!--         <fin>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </fin>								 			    -->
+<!--         <cf>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </cf>								 			    -->
+<!--         <msp>IMP PL2</msp>					 			    -->
+<!--      </article>							 			    -->
+<!--      <article>								 			    -->
+<!--         <eng>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </eng>								 			    -->
+<!--         <fin>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </fin>								 			    -->
+<!--         <cf>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </cf>								 			    -->
+<!--         <msp>IMP SG2</msp>					 			    -->
+<!--      </article>							 			    -->
+<!--   </entry>									 			    -->
+<!--   <entry exclude="fst">					 			    -->
+<!--      <lemma>эн</lemma>						 			    -->
+<!--      <stem>оз</stem>						 			    -->
+<!--      <contlex>#</contlex>					 			    -->
+<!--      <pos>VNEG</pos>						 			    -->
+<!--      <article>								 			    -->
+<!--         <eng>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </eng>								 			    -->
+<!--         <fin>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </fin>								 			    -->
+<!--         <cf>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </cf>								 			    -->
+<!--         <msp>PRET1 PL2</msp>				 			    -->
+<!--      </article>							 			    -->
+<!--      <article>								 			    -->
+<!--         <eng>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </eng>								 			    -->
+<!--         <fin>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </fin>								 			    -->
+<!--         <cf>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </cf>								 			    -->
+<!--         <msp>PRET1 SG2</msp>				 			    -->
+<!--      </article>							 			    -->
+<!--   </entry>									 			    -->
+<!--   <entry exclude="fst">					 			    -->
+<!--      <lemma>энӧ</lemma>					 			    -->
+<!--      <stem>оз</stem>						 			    -->
+<!--      <contlex>#</contlex>					 			    -->
+<!--      <pos>VNEG</pos>						 			    -->
+<!--      <article>								 			    -->
+<!--         <msp>2PL</msp>						 			    -->
+<!--         <eng>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </eng>								 			    -->
+<!--         <fin>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </fin>								 			    -->
+<!--         <cf>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </cf>								 			    -->
+<!--         <msp>IMP PL2</msp>					 			    -->
+<!--      </article>							 			    -->
+<!--   </entry>									 			    -->
+<!--   <entry exclude="fst">					 			    -->
+<!--      <lemma>энӧ</lemma>					 			    -->
+<!--      <stem>оз</stem>						 			    -->
+<!--      <contlex>#</contlex>					 			    -->
+<!--      <pos>VNEG</pos>						 			    -->
+<!--      <article>								 			    -->
+<!--         <eng>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </eng>								 			    -->
+<!--         <fin>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </fin>								 			    -->
+<!--         <cf>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </cf>								 			    -->
+<!--         <msp>PRET1 PL2</msp>				 			    -->
+<!--      </article>							 			    -->
+<!--   </entry>									 			    -->
+<!--   <entry exclude="fst">					 			    -->
+<!--      <lemma>энӧй</lemma>					 			    -->
+<!--      <stem>оз</stem>						 			    -->
+<!--      <contlex>#</contlex>					 			    -->
+<!--      <pos>VNEG</pos>						 			    -->
+<!--      <article>								 			    -->
+<!--         <msp>2PL</msp>						 			    -->
+<!--         <eng>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </eng>								 			    -->
+<!--         <fin>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </fin>								 			    -->
+<!--         <cf>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </cf>								 			    -->
+<!--         <msp>IMP PL2</msp>					 			    -->
+<!--      </article>							 			    -->
+<!--   </entry>									 			    -->
+<!--   <entry exclude="fst">					 			    -->
+<!--      <lemma>энӧй</lemma>					 			    -->
+<!--      <stem>оз</stem>						 			    -->
+<!--      <contlex>#</contlex>					 			    -->
+<!--      <pos>VNEG</pos>						 			    -->
+<!--      <article>								 			    -->
+<!--         <eng>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </eng>								 			    -->
+<!--         <fin>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </fin>								 			    -->
+<!--         <cf>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </cf>								 			    -->
+<!--         <msp>PRET1 PL2</msp>				 			    -->
+<!--      </article>							 			    -->
+<!--   </entry>									 			    -->
+<!--   <entry exclude="fst">					 			    -->
+<!--      <lemma>энлӧй</lemma>					 			    -->
+<!--      <stem>оз</stem>						 			    -->
+<!--      <contlex>#</contlex>					 			    -->
+<!--      <pos>VNEG</pos>						 			    -->
+<!--      <article>								 			    -->
+<!--         <msp>IMP PL2</msp>					 			    -->
+<!--         <eng>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant>wait (a little)</variant>		    -->
+<!--            </choice>						 			    -->
+<!--         </eng>								 			    -->
+<!--         <fin>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant>odottakaapas (vähäsen)</variant>    -->
+<!--            </choice>						 			    -->
+<!--         </fin>								 			    -->
+<!--         <pro>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </pro>								 			    -->
+<!--      </article>							 			    -->
+<!--   </entry>									 			    -->
+<!--   <entry exclude="fst">					 			    -->
+<!--      <lemma>энлы</lemma>					 			    -->
+<!--      <stem>оз</stem>						 			    -->
+<!--      <contlex>#</contlex>					 			    -->
+<!--      <pos>VNEG</pos>						 			    -->
+<!--      <article>								 			    -->
+<!--         <msp>IMP PL2</msp>					 			    -->
+<!--         <eng>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant>wait (a little)</variant>		    -->
+<!--            </choice>						 			    -->
+<!--         </eng>								 			    -->
+<!--         <fin>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant>odottakaapas (vähäsen)</variant>    -->
+<!--            </choice>						 			    -->
+<!--         </fin>								 			    -->
+<!--         <pro>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </pro>								 			    -->
+<!--      </article>							 			    -->
+<!--      <article>								 			    -->
+<!--         <msp>IMP SG2</msp>					 			    -->
+<!--         <eng>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant>wait (a little)</variant>		    -->
+<!--            </choice>						 			    -->
+<!--         </eng>								 			    -->
+<!--         <fin>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant>odotas (vähäsen)</variant>		    -->
+<!--            </choice>						 			    -->
+<!--         </fin>								 			    -->
+<!--         <pro>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </pro>								 			    -->
+<!--      </article>							 			    -->
+<!--   </entry>									 			    -->
+<!--   <entry exclude="fst">					 			    -->
+<!--      <lemma>эз</lemma>						 			    -->
+<!--      <stem>оз</stem>						 			    -->
+<!--      <contlex>#</contlex>					 			    -->
+<!--      <pos>VNEG</pos>						 			    -->
+<!--      <article>								 			    -->
+<!--         <eng>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </eng>								 			    -->
+<!--         <fin>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </fin>								 			    -->
+<!--         <cf>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </cf>								 			    -->
+<!--         <msp>PRET1 PL3</msp>				 			    -->
+<!--      </article>							 			    -->
+<!--      <article>								 			    -->
+<!--         <eng>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </eng>								 			    -->
+<!--         <fin>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </fin>								 			    -->
+<!--         <cf>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant/>					 			    -->
+<!--            </choice>						 			    -->
+<!--         </cf>								 			    -->
+<!--         <msp>PRET1 SG3</msp>				 			    -->
+<!--      </article>							 			    -->
+<!--   </entry>									 			    -->
+<!--   <entry exclude="fst">					 			    -->
+<!--      <lemma>ог</lemma>						 			    -->
+<!--      <stem>оз</stem>						 			    -->
+<!--      <contlex>#</contlex>					 			    -->
+<!--      <pos>VNEG</pos>						 			    -->
+<!--      <article>								 			    -->
+<!--         <msp>PRES PL1</msp>				 			    -->
+<!--      </article>							 			    -->
+<!--      <article>								 			    -->
+<!--         <msp>PRES SG1</msp>				 			    -->
+<!--      </article>							 			    -->
+<!--   </entry>									 			    -->
+<!--   <entry exclude="fst">					 			    -->
+<!--      <lemma>огӧ</lemma>					 			    -->
+<!--      <stem>оз</stem>						 			    -->
+<!--      <contlex>#</contlex>					 			    -->
+<!--      <pos>VNEG</pos>						 			    -->
+<!--      <article>								 			    -->
+<!--         <msp>PRES PL1</msp>				 			    -->
+<!--      </article>							 			    -->
+<!--   </entry>									 			    -->
+<!--   <entry exclude="fst">					 			    -->
+<!--      <lemma>огӧй</lemma>					 			    -->
+<!--      <stem>оз</stem>						 			    -->
+<!--      <contlex>#</contlex>					 			    -->
+<!--      <pos>VNEG</pos>						 			    -->
+<!--      <article>								 			    -->
+<!--         <msp>PRES PL1</msp>				 			    -->
+<!--      </article>							 			    -->
+<!--   </entry>									 			    -->
+<!--   <entry exclude="fst">					 			    -->
+<!--      <lemma>он</lemma>						 			    -->
+<!--      <stem>оз</stem>						 			    -->
+<!--      <contlex>#</contlex>					 			    -->
+<!--      <pos>VNEG</pos>						 			    -->
+<!--      <article>								 			    -->
+<!--         <msp>PRES PL2</msp>				 			    -->
+<!--      </article>							 			    -->
+<!--   </entry>									 			    -->
+<!--   <entry exclude="fst">					 			    -->
+<!--      <lemma>он</lemma>						 			    -->
+<!--      <stem>оз</stem>						 			    -->
+<!--      <contlex>#</contlex>					 			    -->
+<!--      <pos>VNEG</pos>						 			    -->
+<!--      <article>								 			    -->
+<!--         <msp>PRES SG2</msp>				 			    -->
+<!--      </article>							 			    -->
+<!--   </entry>									 			    -->
+<!--   <entry exclude="fst">					 			    -->
+<!--      <lemma>онӧй</lemma>					 			    -->
+<!--      <stem>оз</stem>						 			    -->
+<!--      <contlex>#</contlex>					 			    -->
+<!--      <pos>VNEG</pos>						 			    -->
+<!--      <article>								 			    -->
+<!--         <msp>PRES PL2</msp>				 			    -->
+<!--      </article>							 			    -->
+<!--   </entry>									 			    -->
+<!--   <entry exclude="fst">					 			    -->
+<!--      <lemma>оз</lemma>						 			    -->
+<!--      <stem>оз</stem>						 			    -->
+<!--      <contlex>#</contlex>					 			    -->
+<!--      <pos>VNEG</pos>						 			    -->
+<!--      <article>								 			    -->
+<!--         <eng>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant>not</variant>		 			    -->
+<!--            </choice>						 			    -->
+<!--         </eng>								 			    -->
+<!--         <fin>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant>eivät</variant>		 			    -->
+<!--            </choice>						 			    -->
+<!--         </fin>								 			    -->
+<!--         <msp>PRES PL3</msp>				 			    -->
+<!--      </article>							 			    -->
+<!--      <article>								 			    -->
+<!--         <eng>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant>not</variant>		 			    -->
+<!--            </choice>						 			    -->
+<!--         </eng>								 			    -->
+<!--         <fin>								 			    -->
+<!--            <choice>						 			    -->
+<!--               <variant>ei</variant>		 			    -->
+<!--            </choice>						 			    -->
+<!--         </fin>								 			    -->
+<!--         <msp>PRES SG3</msp>				 			    -->
+<!--      </article>							 			    -->
+<!--   </entry>									 			    -->
+
+</dict>
