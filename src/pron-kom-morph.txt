@@ -711,119 +711,128 @@ LEXICON PRON-INTER-REL-HUM-COLL-INDEF
 +Der/кӧ+Indef:кӧ K ;
  K ;
 
+!Actually there might be reason to consider +Der/MWN
+LEXICON PRONQ-MUKOD
++Pron+Qnt+Abs: # ;
++Pron+Qnt+Sg+Nom: K ;
++Pron+Qnt+Sg: PRONQ-STAV-CASES ;
++Pron+Qnt+Pl+Nom:ъяс K ;
++Pron+Qnt+Pl:ъяс PRONQ-STAV-CASES ;
+
 LEXICON PRONQ-STAV
 +Pron+Qnt+Abs: # ;
 +Pron+Qnt+Sg+Nom: K ;
 +Pron+Qnt+Sg+ZeroAcc: K ;
++Pron+Qnt+Sg: PRONQ-STAV-CASES ;
 
-+Pron+Qnt+Sg+Nom+PxSg2:ыд K ;
-+Pron+Qnt+Sg+Nom+PxSg3:ыс K ;
-+Pron+Qnt+Sg+Nom+PxPl1:ным K ;
-+Pron+Qnt+Sg+Nom+PxPl2:ныд K ;
-+Pron+Qnt+Sg+Nom+PxPl3:ныс K ;
+LEXICON PRONQ-STAV-CASES
++Nom+PxSg2:ыд K ;
++Nom+PxSg3:ыс K ;
++Nom+PxPl1:ным K ;
++Nom+PxPl2:ныд K ;
++Nom+PxPl3:ныс K ;
 
-+Pron+Qnt+Sg+Instr:ӧн K ;
-+Pron+Qnt+Sg+Instr+PxSg1:нам K ;
-+Pron+Qnt+Sg+Instr+PxSg2:над K ;
-+Pron+Qnt+Sg+Instr+PxSg3:нас K ;
-+Pron+Qnt+Sg+PxPl1+Instr:нымӧн K ; ! Should there be a Der/ӧн tag?
-+Pron+Qnt+Sg+PxPl2+Instr:ныдӧн K ; ! Should there be a Der/ӧн tag?
-+Pron+Qnt+Sg+PxPl3+Instr:нысӧн K ; ! Should there be a Der/ӧн tag?
++Instr:ӧн K ;
++Instr+PxSg1:нам K ;
++Instr+PxSg2:над K ;
++Instr+PxSg3:нас K ;
++PxPl1+Instr:нымӧн K ; ! Should there be a Der/ӧн tag?
++PxPl2+Instr:ныдӧн K ; ! Should there be a Der/ӧн tag?
++PxPl3+Instr:нысӧн K ; ! Should there be a Der/ӧн tag?
 
-+Pron+Qnt+Sg+Ela:ысь K ;
-+Pron+Qnt+Sg+Ela+PxSg3:сьыс K ;
-+Pron+Qnt+Sg+Ela+PxPl1:сьыным K ;
-+Pron+Qnt+Sg+PxPl1+Ela:нымысь K ;
-+Pron+Qnt+Sg+Ela+PxPl2:сьыныд K ;
-+Pron+Qnt+Sg+PxPl2+Ela:ныдысь K ;
-+Pron+Qnt+Sg+Ela+PxPl3:сьыныс K ;
-+Pron+Qnt+Sg+PxPl3+Ela:нысысь K ;
++Ela:ысь K ;
++Ela+PxSg3:сьыс K ;
++Ela+PxPl1:сьыным K ;
++PxPl1+Ela:нымысь K ;
++Ela+PxPl2:сьыныд K ;
++PxPl2+Ela:ныдысь K ;
++Ela+PxPl3:сьыныс K ;
++PxPl3+Ela:нысысь K ;
 
-+Pron+Qnt+Sg+Gen:лӧн K ;
-+Pron+Qnt+Sg+PxSg3+Gen:ыслӧн K ;
-+Pron+Qnt+Sg+PxPl1+Gen:нымлӧн K ;
-+Pron+Qnt+Sg+PxPl2+Gen:ныдлӧн K ;
-+Pron+Qnt+Sg+PxPl3+Gen:ныслӧн K ;
++Gen:лӧн K ;
++PxSg3+Gen:ыслӧн K ;
++PxPl1+Gen:нымлӧн K ;
++PxPl2+Gen:ныдлӧн K ;
++PxPl3+Gen:ныслӧн K ;
 
-+Pron+Qnt+Sg+Acc:ӧс K ;
-+Pron+Qnt+Sg+PxSg1+Acc:ӧс K ;
-+Pron+Qnt+Sg+PxSg2+Acc2:тӧ K ;
-+Pron+Qnt+Sg+PxSg3+Acc3:сӧ K ;
-+Pron+Qnt+Sg+PxPl1+Acc:нымӧс K ;
-+Pron+Qnt+Sg+PxPl2+Acc2:нытӧ K ;
-+Pron+Qnt+Sg+PxPl3+Acc3:нысӧ K ;
++Acc:ӧс K ;
++PxSg1+Acc:ӧс K ;
++PxSg2+Acc2:тӧ K ;
++PxSg3+Acc3:сӧ K ;
++PxPl1+Acc:нымӧс K ;
++PxPl2+Acc2:нытӧ K ;
++PxPl3+Acc3:нысӧ K ;
 
-+Pron+Qnt+Sg+PxSg2+Dat:ыдлы K ;
-+Pron+Qnt+Sg+PxSg3+Dat:ыслы K ;
-+Pron+Qnt+Sg+PxPl1+Dat:нымлы K ;
-+Pron+Qnt+Sg+PxPl2+Dat:ныдлы K ;
-+Pron+Qnt+Sg+PxPl3+Dat:ныслы K ;
++PxSg2+Dat:ыдлы K ;
++PxSg3+Dat:ыслы K ;
++PxPl1+Dat:нымлы K ;
++PxPl2+Dat:ныдлы K ;
++PxPl3+Dat:ныслы K ;
 
-+Pron+Qnt+Sg+Abl:лысь K ;
-+Pron+Qnt+Sg+PxSg3+Abl:ыслысь K ;
-+Pron+Qnt+Sg+PxPl1+Abl:нымлысь K ;
-+Pron+Qnt+Sg+PxPl2+Abl:ныдлысь K ;
-+Pron+Qnt+Sg+PxPl3+Abl:ныслысь K ;
++Abl:лысь K ;
++PxSg3+Abl:ыслысь K ;
++PxPl1+Abl:нымлысь K ;
++PxPl2+Abl:ныдлысь K ;
++PxPl3+Abl:ныслысь K ;
 
-+Pron+Qnt+Sg+Com:кӧд K ;
-+Pron+Qnt+Sg+PxSg3+Com:ыскӧд K ;
-+Pron+Qnt+Sg+PxPl1+Com:нымкӧд K ;
-+Pron+Qnt+Sg+PxPl2+Com:ныдкӧд K ;
-+Pron+Qnt+Sg+PxPl3+Com:ныскӧд K ;
++Com:кӧд K ;
++PxSg3+Com:ыскӧд K ;
++PxPl1+Com:нымкӧд K ;
++PxPl2+Com:ныдкӧд K ;
++PxPl3+Com:ныскӧд K ;
 
-+Pron+Qnt+Sg+Car:тӧг K ;
-+Pron+Qnt+Sg+PxSg3+Car:ыстӧг K ;
-+Pron+Qnt+Sg+PxPl1+Car:нымтӧг K ;
-+Pron+Qnt+Sg+PxPl2+Car:ныдтӧг K ;
-+Pron+Qnt+Sg+PxPl3+Car:ныстӧг K ;
++Car:тӧг K ;
++PxSg3+Car:ыстӧг K ;
++PxPl1+Car:нымтӧг K ;
++PxPl2+Car:ныдтӧг K ;
++PxPl3+Car:ныстӧг K ;
 
-+Pron+Qnt+Sg+Cns:ла K ;
-+Pron+Qnt+Sg+PxSg3+Cns:ысла K ;
-+Pron+Qnt+Sg+PxPl1+Cns:нымла K ;
-+Pron+Qnt+Sg+PxPl2+Cns:ныдла K ;
-+Pron+Qnt+Sg+PxPl3+Cns:нысла K ;
++Cns:ла K ;
++PxSg3+Cns:ысла K ;
++PxPl1+Cns:нымла K ;
++PxPl2+Cns:ныдла K ;
++PxPl3+Cns:нысла K ;
 
-+Pron+Qnt+Sg+Comp+PxSg3:сяыс K ;
++Comp+PxSg3:сяыс K ;
 
-+Pron+Qnt+Sg+Ine:ын K ;
-+Pron+Qnt+Sg+PxPl1+Ine:нымын K ;
-+Pron+Qnt+Sg+PxPl2+Ine:ныдын K ;
-+Pron+Qnt+Sg+PxPl3+Ine:нысын K ;
++Ine:ын K ;
++PxPl1+Ine:нымын K ;
++PxPl2+Ine:ныдын K ;
++PxPl3+Ine:нысын K ;
 
-+Pron+Qnt+Sg+Ill:ӧ K ;
-+Pron+Qnt+Sg+PxPl1+Ill:нымӧ K ;
-+Pron+Qnt+Sg+PxPl2+Ill:ныдӧ K ;
-+Pron+Qnt+Sg+PxPl3+Ill:нысӧ K ;
++Ill:ӧ K ;
++PxPl1+Ill:нымӧ K ;
++PxPl2+Ill:ныдӧ K ;
++PxPl3+Ill:нысӧ K ;
 
++Egr:сянь K ;
++Egr+PxSg3:сяньыс K ;
++PxSg3+Egr:ыссянь K ;
++Egr+PxPl1:сяньным K ;
++PxPl1+Egr:нымсянь K ;
++Egr+PxPl2:сяньныд K ;
++PxPl2+Egr:ныдсянь K ;
++PxPl3+Egr:ныссянь K ;
 
-+Pron+Qnt+Sg+Egr:сянь K ;
-+Pron+Qnt+Sg+Egr+PxSg3:сяньыс K ;
-+Pron+Qnt+Sg+PxSg3+Egr:ыссянь K ;
-+Pron+Qnt+Sg+Egr+PxPl1:сяньным K ;
-+Pron+Qnt+Sg+PxPl1+Egr:нымсянь K ;
-+Pron+Qnt+Sg+Egr+PxPl2:сяньныд K ;
-+Pron+Qnt+Sg+PxPl2+Egr:ныдсянь K ;
-+Pron+Qnt+Sg+PxPl3+Egr:ныссянь K ;
++Apr:лань K ;
++Apr+PxSg3:ланьыс K ;
++PxSg3+Apr:ыслань K ;
++PxPl1+Apr:нымлань K ;
++PxPl2+Apr:ныдлань K ;
++PxPl3+Apr:ныслань K ;
 
-+Pron+Qnt+Sg+Apr:лань K ;
-+Pron+Qnt+Sg+Apr+PxSg3:ланьыс K ;
-+Pron+Qnt+Sg+PxSg3+Apr:ыслань K ;
-+Pron+Qnt+Sg+PxPl1+Apr:нымлань K ;
-+Pron+Qnt+Sg+PxPl2+Apr:ныдлань K ;
-+Pron+Qnt+Sg+PxPl3+Apr:ныслань K ;
++Tra:ті K ;
++Tra+PxSg3:тіыс K ;
++PxSg3+Tra:ысті K ;
++PxPl1+Tra:нымті K ;
++PxPl2+Tra:ныдті K ;
++PxPl3+Tra:нысті K ;
 
-+Pron+Qnt+Sg+Tra:ті K ;
-+Pron+Qnt+Sg+Tra+PxSg3:тіыс K ;
-+Pron+Qnt+Sg+PxSg3+Tra:ысті K ;
-+Pron+Qnt+Sg+PxPl1+Tra:нымті K ;
-+Pron+Qnt+Sg+PxPl2+Tra:ныдті K ;
-+Pron+Qnt+Sg+PxPl3+Tra:нысті K ;
-
-+Pron+Qnt+Sg+Ter:ӧдз K ;
-+Pron+Qnt+Sg+PxSg3+Ter:ысӧдз K ;
-+Pron+Qnt+Sg+PxPl1+Ter:нымӧдз K ;
-+Pron+Qnt+Sg+PxPl2+Ter:ныдӧдз K ;
-+Pron+Qnt+Sg+PxPl3+Ter:нысӧдз K ;
++Ter:ӧдз K ;
++PxSg3+Ter:ысӧдз K ;
++PxPl1+Ter:нымӧдз K ;
++PxPl2+Ter:ныдӧдз K ;
++PxPl3+Ter:нысӧдз K ;
 
 
 
