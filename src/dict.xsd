@@ -78,6 +78,7 @@
  </xs:simpleType>
 </xs:attribute>
 
+
 <xs:attribute name="pos">
  <xs:simpleType>
    <xs:restriction base="xs:string">
@@ -98,6 +99,7 @@
    </xs:restriction>
  </xs:simpleType>
 </xs:attribute>
+
 
 <xs:attribute name="possPx">
  <xs:simpleType>
@@ -245,59 +247,14 @@
     <xs:sequence minOccurs="0">
       <xs:element ref="lemma"/>
       <xs:element ref="stem"/>
+      <xs:element ref="contlex" minOccurs="0"/>
+      <xs:element ref="pos" minOccurs="0"/>
     </xs:sequence>
     <xs:attribute ref="assocType"/>
     <xs:attribute ref="MNo"/>
     <xs:attribute ref="RN"/>
   </xs:complexType>
 </xs:element>
-
-<!--
-<xs:element name="assoc">
-  <xs:complexType>
-    <xs:sequence>
-      <xs:element>
-    </xs:sequence>
-     <xs:attribute name="RN">
-      <xs:simpleType>
-	<xs:restriction base="xs:string">
-	<xs:enumeration value="I"/>
- <xs:enumeration value="II"/>
- <xs:enumeration value="III"/>
- <xs:enumeration value="IV"/>
- <xs:enumeration value="V"/>
- <xs:enumeration value="VI"/>
- <xs:enumeration value="VI"/>
-	</xs:restriction>
-       </xs:simpleType>
-     </xs:attribute>
-     <xs:attribute name="AN">
-      <xs:simpleType>
-	<xs:restriction base="xs:string">
-	<xs:enumeration value="1"/>
-	<xs:enumeration value="2"/>
-	<xs:enumeration value="3"/>
-	<xs:enumeration value="4"/>
-	<xs:enumeration value="5"/>
-	<xs:enumeration value="6"/>
-	<xs:enumeration value="7"/>
-	<xs:enumeration value="8"/>
-	<xs:enumeration value="9"/>
-	</xs:restriction>
-       </xs:simpleType>
-     </xs:attribute>
-     <xs:attribute name="MNo">
-      <xs:simpleType>
-	<xs:restriction base="xs:integer">
-	<xs:minInclusive value="1"/>
-	<xs:maxInclusive value="39"/>
-	</xs:restriction>
-       </xs:simpleType>
-     </xs:attribute>
-     <xs:attribute ref="pos"/>
-  </xs:complexType>
-</xs:element>
--->
 
 <xs:element name="t">
   <xs:complexType mixed="true">
@@ -336,16 +293,6 @@
   </xs:complexType>
 </xs:element>
 
-
-<!--
-<xs:element name="collg">
-  <xs:complexType>
-    <xs:sequence>
-    <xs:element ref="coll" maxOccurs="unbounded"/>
-    </xs:sequence>
-    </xs:complexType>
-</xs:element>
--->
 
 <xs:element name="argg">
   <xs:complexType>
@@ -580,7 +527,7 @@
             <xs:element ref="contlex"/>
             <xs:element ref="pos"/>
 	    <xs:element ref="drvg" minOccurs="0"/>
-	    <xs:element name="e" maxOccurs="unbounded">
+	    <xs:element name="e" maxOccurs="unbounded" minOccurs="0">
 	      <xs:complexType>
 		<xs:sequence>
 		  <xs:element ref="val" minOccurs="0"/>
@@ -632,9 +579,10 @@
     <xs:sequence>
       <xs:element ref="lemma" minOccurs="0"/>
       <xs:element ref="stem" minOccurs="0"/>
+      <xs:element ref="contlex" minOccurs="0"/>
+      <xs:element ref="pos" minOccurs="0"/>
       <xs:element ref="com" minOccurs="0"/>
     </xs:sequence>
-    <xs:attribute ref="contlex"/>
     <xs:attribute ref="der"/>
     <xs:attribute ref="drvType"/>
   </xs:complexType>
