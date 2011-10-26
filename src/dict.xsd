@@ -168,6 +168,7 @@
     <xs:element ref="att"/>
     <xs:element ref="CmPos"/>
     <xs:element ref="com"/>
+    <xs:element ref="i"/> <!-- Needs to be adapted to specific tags -->
     <xs:element ref="range"/>
     <xs:element ref="register"/>
     <xs:element ref="sns"/>
@@ -221,6 +222,7 @@
     <xs:element ref="field"/>
     <xs:element ref="answer"/>
     <xs:element ref="com"/>
+    <xs:element ref="i"/> <!-- This needs to be eliminated by providing a better, informative tag -->
     <xs:element ref="literal"/>
     <xs:element ref="equivalent"/>
     </xs:choice>
@@ -268,6 +270,7 @@
     <xs:element ref="range"/>
     <xs:element ref="register"/>
     <xs:element ref="sns"/>
+    <xs:element ref="val"/>
     </xs:choice>
      <xs:attribute ref="lang"/>
      <xs:attribute ref="pos"/>
@@ -428,6 +431,7 @@
 	    <xs:restriction base="xs:string">
 	      <xs:enumeration value="neologism"/>
 	      <xs:enumeration value="obsolete"/>
+	      <xs:enumeration value="out-dated"/>
 	    </xs:restriction>
 	  </xs:simpleType>
 	</xs:attribute>
@@ -472,10 +476,14 @@
     <xs:element ref="collg"/>
     <xs:element ref="com"/>
     <xs:element ref="drv"/>
+    <xs:element ref="drvg"/> <!-- This kind of tag should be a node in eg/entry -->
     <xs:element ref="field"/>
+    <xs:element ref="i"/>
     <xs:element ref="range"/>
     <xs:element ref="register"/>
     <xs:element ref="sns"/>
+    <xs:element ref="val"/> <!-- Needs moving to first "e" node child, perhaps -->
+    <xs:element ref="voice"/>
 </xs:choice>
     <xs:attribute name="field" type="xs:string"/>
     <xs:attribute name="iter" type="xs:string"/>
@@ -485,6 +493,7 @@
 		<xs:enumeration value="dialect"/>
  <xs:enumeration value="neologism"/>
  <xs:enumeration value="obsolete"/>
+ <xs:enumeration value="out-dated"/>
 		</xs:restriction>
 		</xs:simpleType>
 		</xs:attribute>
@@ -496,6 +505,9 @@
 		<xs:enumeration value="1"/>
 		<xs:enumeration value="2"/>
 		<xs:enumeration value="3"/>
+		<xs:enumeration value="1:S:0"/>
+		<xs:enumeration value="2:A:0"/>
+		<xs:enumeration value="1,2"/>
 		</xs:restriction>
 		</xs:simpleType>
 		</xs:attribute>
@@ -530,7 +542,13 @@
 	    <xs:element name="e" maxOccurs="unbounded" minOccurs="0">
 	      <xs:complexType>
 		<xs:sequence>
-		  <xs:element ref="val" minOccurs="0"/>
+		  <xs:choice maxOccurs="unbounded" minOccurs="0">
+		    <xs:element ref="val" />
+		    <xs:element ref="voice" />
+		    <xs:element ref="asp" />
+		    <xs:element ref="i" />
+		    <xs:element ref="att" /> <!-- This should be in mg or even mg/m/head  -->
+		  </xs:choice>
 		  <xs:element ref="range" minOccurs="0"/> <!-- THIS should be in m/head later -->
 		  <xs:element ref="mg" maxOccurs="unbounded"/>
 		</xs:sequence>
@@ -596,6 +614,9 @@
     <xs:attribute ref="valency"/> <!-- This should have work done on it later  -->
   </xs:complexType>
 </xs:element>
+
+<xs:element name="voice" type="xs:string"/> <!-- Need to negotiate with val and valency -->
+<xs:element name="asp" type="xs:string"/> <!-- asp = aspect -->
 <!-- ATTRIBUTES -->
 
 <xs:attribute name="assocType">
