@@ -220,11 +220,12 @@
       <xs:element ref="att"/>
     <xs:element ref="t"/>
     <xs:element ref="field"/>
-    <xs:element ref="answer"/>
+    <xs:element ref="sns"/>
     <xs:element ref="com"/>
     <xs:element ref="i"/> <!-- This needs to be eliminated by providing a better, informative tag -->
-    <xs:element ref="literal"/>
+    <xs:element ref="answer"/>
     <xs:element ref="equivalent"/>
+    <xs:element ref="literal"/>
     </xs:choice>
     </xs:sequence>
 <xs:attribute name="type">
@@ -471,6 +472,7 @@
   <xs:complexType mixed="true">
     <xs:choice  maxOccurs="unbounded" minOccurs="0">
     <xs:element ref="argg"/>
+    <xs:element ref="asp"/>
     <xs:element ref="att"/>
     <xs:element ref="clarif"/>
     <xs:element ref="collg"/>
@@ -599,6 +601,7 @@
       <xs:element ref="stem" minOccurs="0"/>
       <xs:element ref="contlex" minOccurs="0"/>
       <xs:element ref="pos" minOccurs="0"/>
+      <xs:element ref="drvMorph" minOccurs="0"/>
       <xs:element ref="com" minOccurs="0"/>
     </xs:sequence>
     <xs:attribute ref="der"/>
@@ -608,15 +611,48 @@
 
 <xs:element name="val"><!-- valency should be inside of the "e" element-->
   <xs:complexType mixed="true">
-    <xs:sequence>
-      <xs:element ref="com" minOccurs="0"/>
-    </xs:sequence>
+    <xs:choice maxOccurs="3" minOccurs="0">
+      <xs:element ref="syntacticSubject"/>
+      <xs:element ref="syntacticObject"/>
+      <xs:element ref="com"/>
+    </xs:choice>
     <xs:attribute ref="valency"/> <!-- This should have work done on it later  -->
   </xs:complexType>
 </xs:element>
 
 <xs:element name="voice" type="xs:string"/> <!-- Need to negotiate with val and valency -->
 <xs:element name="asp" type="xs:string"/> <!-- asp = aspect -->
+
+<xs:element name="syntacticSubject">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Agent"/>
+      <xs:enumeration value="Patient"/>
+      <xs:enumeration value="Zero"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+
+<xs:element name="syntacticObject">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Agent2"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+
+<xs:element name="drvMorph">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="+Der/сьы"/>
+      <xs:enumeration value="+Der/ышт"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+
+
+
+
 <!-- ATTRIBUTES -->
 
 <xs:attribute name="assocType">
