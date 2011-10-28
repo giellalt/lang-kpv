@@ -41,10 +41,10 @@ LEXICON VERBNEGATIVE
 ! ----------------
 
 LEXICON Verb-lokny
-+Inf:%>ны MatrixVerb-Comparison ;
-+ConNeg+Pl3:%>ны # ;
-+ConNeg: # ;
-+Imprt+Sg2: # ;
++Inf:%>ны VerbEnd-Comparison ;
++ConNeg+Pl3:%>ны VerbEnd ;
++ConNeg: VerbEnd ;
++Imprt+Sg2: VerbEnd ;
 +V:т VerbDer ; !
 +V:т VerbDer-V ; !
 +V:т  VerbConj ; !а
@@ -94,10 +94,10 @@ LEXICON Verb3 ! ярмыны. Ending in -ыны.
 ! ================ !
 
 LEXICON VerbConj-V ! суф б -- ы --
-+Inf:%>ны MatrixVerb-Comparison ;
-+ConNeg+Pl3:%>ны # ;
-+ConNeg: # ;
-+Imprt+Sg2: # ;
++Inf:%>ны VerbEnd-Comparison ;
++ConNeg+Pl3:%>ны VerbEnd ;
++ConNeg: VerbEnd ;
++Imprt+Sg2: VerbEnd ;
 
 LEXICON VerbConj ! суф а -------
  Finiteforms ;
@@ -123,7 +123,7 @@ LEXICON preterite
 +Ind+Prt2:%>ӧм Pret2a ;
 
 LEXICON imperative
-+Imprt+Pl2:%>ӧй # ;
++Imprt+Pl2:%>ӧй VerbEnd ;
 
 LEXICON PossessiveSuffixes
 +PxSg1:%>ым K ;
@@ -140,13 +140,13 @@ LEXICON PossessiveSuffixes_NoSg1
 
 
 LEXICON PresPret1  ! First and second person
-+Sg1:%> MatrixVerb-Comparison ; 
-+Sg2:%>н MatrixVerb-Comparison ;
-+Pl1:%>м MatrixVerb-Comparison ; 
-+Pl1+Use/Sub:%>мӧ MatrixVerb-Comparison ; 
-+Pl1:%>мӧй MatrixVerb-Comparison ;  ! imperatiivi / optatiivi ??
-+Pl2:%>нныд MatrixVerb-Comparison ;
-+Pl2+Use/Sub:%>д MatrixVerb-Comparison ; 
++Sg1:%> VerbEnd-Comparison ; 
++Sg2:%>н VerbEnd-Comparison ;
++Pl1:%>м VerbEnd-Comparison ; 
++Pl1+Use/Sub:%>мӧ VerbEnd-Comparison ; 
++Pl1:%>мӧй VerbEnd-Comparison ;  ! imperatiivi / optatiivi ??
++Pl2:%>нныд VerbEnd-Comparison ;
++Pl2+Use/Sub:%>д VerbEnd-Comparison ; 
 
 LEXICON P3         
 :%>с PresPret1-SgPl3 ; ! This is regular
@@ -158,10 +158,10 @@ LEXICON PresPret1-SgPl3
   PL3 ;
   
 LEXICON SG3
-+Sg3:%> MatrixVerb-Comparison ;
++Sg3:%> VerbEnd-Comparison ;
   
 LEXICON PL3
-+Pl3:%>ны MatrixVerb-Comparison ;
++Pl3:%>ны VerbEnd-Comparison ;
 
 LEXICON Pret2a
 :а PRET2-linkki-a ; 
@@ -171,18 +171,18 @@ LEXICON Pret2a
                   ! as point of departure
 
 LEXICON PRET2PL2
-+Sg2:%>ыд MatrixVerb-Comparison ;
-+Pl2:%>ныд MatrixVerb-Comparison ;
-+Pl2:%>ныдӧсь MatrixVerb-Comparison ; !224
-+Pl3:%>ны MatrixVerb-Comparison ; !227
++Sg2:%>ыд VerbEnd-Comparison ;
++Pl2:%>ныд VerbEnd-Comparison ;
++Pl2:%>ныдӧсь VerbEnd-Comparison ; !224
++Pl3:%>ны VerbEnd-Comparison ; !227
 
 LEXICON PRET2-linkki-a
-!+Sg1+Use/Sub: MatrixVerb-Comparison ; ! no Sg1 for Prt2 in the standard
-+Sg1: MatrixVerb-Comparison ; ! no Sg1 for Prt2 in the standard
-+Sg3: MatrixVerb-Comparison ;
-!+Pl1+Use/Sub:%>ӧсь MatrixVerb-Comparison ; ! no Pl1 for Prt2 in the standard
-+Pl1:%>ӧсь MatrixVerb-Comparison ; ! no Pl1 for Prt2 in the standard
-+Pl3:%>ӧсь MatrixVerb-Comparison ;
+!+Sg1+Use/Sub: VerbEnd-Comparison ; ! no Sg1 for Prt2 in the standard
++Sg1: VerbEnd-Comparison ; ! no Sg1 for Prt2 in the standard
++Sg3: VerbEnd-Comparison ;
+!+Pl1+Use/Sub:%>ӧсь VerbEnd-Comparison ; ! no Pl1 for Prt2 in the standard
++Pl1:%>ӧсь VerbEnd-Comparison ; ! no Pl1 for Prt2 in the standard
++Pl3:%>ӧсь VerbEnd-Comparison ;
 
 LEXICON MatrixVerb-Comparison
 +NoComparison: K ;
@@ -190,6 +190,14 @@ LEXICON MatrixVerb-Comparison
 +Compar:%>джык K ;
 +Der/кодь:%>кодь K ;
 
+!This is where Serial verbs are made possible
+LEXICON VerbEnd-Comparison
+ VerbEnd ;
+ MatrixVerb-Comparison ;
+
+LEXICON VerbEnd
++SerialVerb:- V ;
+ # ;
 
 ! Derivation
 ! ==========
