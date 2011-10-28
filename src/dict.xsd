@@ -612,6 +612,7 @@
       <xs:element ref="drvMorph" minOccurs="0"/>
       <xs:element ref="com" minOccurs="0"/>
     </xs:sequence>
+    <xs:attribute ref="cx"/>
     <xs:attribute ref="der"/>
     <xs:attribute ref="drvType"/>
   </xs:complexType>
