@@ -231,6 +231,7 @@
 <xs:attribute name="type">
  <xs:simpleType>
    <xs:restriction base="xs:string">
+     <xs:enumeration value="idiom"/>
      <xs:enumeration value="proverb"/>
      <xs:enumeration value="riddle"/>
      <xs:enumeration value="saying"/>
@@ -644,6 +645,7 @@
 <xs:element name="drvMorph">
   <xs:simpleType>
     <xs:restriction base="xs:string">
+      <xs:enumeration value="+Der/сь"/>
       <xs:enumeration value="+Der/сьы"/>
       <xs:enumeration value="+Der/ышт"/>
     </xs:restriction>
