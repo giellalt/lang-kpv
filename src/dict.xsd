@@ -559,6 +559,13 @@
 	      </xs:complexType>
 	    </xs:element>
           </xs:sequence>
+	  <xs:attribute name="exclude">
+	    <xs:simpleType>
+              <xs:restriction base="xs:string">
+		<xs:enumeration value="fst"/>
+              </xs:restriction>
+	    </xs:simpleType>
+	  </xs:attribute>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
