@@ -1,63 +1,1648 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dict>
-   <entry>
-      <lemma>эсійӧ</lemma>
-      <stem>эс</stem>
-      <contlex>PRONDEMTAG-ES</contlex>
-      <pos>PRON-DEM</pos>
-         </entry>
-   <entry>
-      <lemma>тайӧ</lemma>
-      <stem>та</stem>
-      <contlex>PRONDEMTAGSG-TA</contlex>
-      <pos>PRON-DEM</pos>
-         </entry>
-   <entry exclude="fst">
-      <lemma>эсійӧяс</lemma>
-      <stem/>
-      <contlex>PRONDEMTAGPL</contlex>
-      <pos>PRON-DEM</pos>
-         </entry>
-   <entry exclude="fst">
-      <lemma>эсы</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM</pos>
-         </entry>
-   <entry exclude="fst">
-      <lemma>эта</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM</pos>
-         </entry>
-   <entry>
-      <lemma>этайӧ</lemma>
-      <stem>эта</stem>
-      <contlex>PRONDEMTAGSG-TA</contlex>
-      <pos>PRON-DEM</pos>
-         </entry>
-   <entry>
-      <lemma>этійӧ</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM</pos>
-         </entry>
-   <entry>
-      <lemma>сэтӧні</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM</pos>
-         </entry>
-   <entry>
-      <lemma>со</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM</pos>
-         </entry>
-   <entry>
-      <lemma>татӧні</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM</pos>
-         </entry>
+<dict xsi:noNamespaceSchemaLocation="../dict.xsd"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <entry>
+    <lemma>мӧд</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">другой, иной</t>
+        </m>
+
+        <x>
+          <kv>мӧд ног(ӧн) вӧчны</kv>
+
+          <t lang="ru">сделать иначе, сделать по-иному, сделать по-другому</t>
+        </x>
+
+        <x>
+          <kv>мӧд ног висьтавны</kv>
+
+          <t lang="ru">сказать иначе</t>
+        </x>
+
+        <x>
+          <kv>мӧд ног-кӧ</kv>
+
+          <t lang="ru"><i>в роли вводн. сл.</i> иначе, иными словами</t>
+        </x>
+
+        <x>
+          <kv>мӧд нога</kv>
+
+          <t lang="ru">не такой, иной, другой</t>
+        </x>
+
+        <x>
+          <kv>мӧд ногса</kv>
+
+          <t lang="ru">не такой, иной, другой</t>
+        </x>
+
+        <x>
+          <kv>мӧд нога олӧм</kv>
+
+          <t lang="ru">иная жизнь</t>
+        </x>
+
+        <x>
+          <kv>найӧ дзик мӧд ногаӧсь</kv>
+
+          <t lang="ru">они совсем не такие, они совсем иные</t>
+        </x>
+
+        <x>
+          <kv>мӧд ногджык</kv>
+
+          <t lang="ru">несколько иначе, несколько по-другому, по-иному</t>
+        </x>
+
+        <x>
+          <kv>мӧд пӧлӧс</kv>
+
+          <t lang="ru">иной, другой</t>
+        </x>
+
+        <x>
+          <kv>мӧд пӧлӧс сёрни оз вермы лоны</kv>
+
+          <t lang="ru">иного разговора быть не может</t>
+        </x>
+
+        <x>
+          <kv>мӧд пӧрйӧ</kv>
+
+          <t lang="ru">в иное время</t>
+        </x>
+
+        <x>
+          <kv>мӧд сёрниӧ бергӧдны</kv>
+
+          <t>перевести разговор на другую тему; замять разговор;</t>
+        </x>
+
+        <x>
+          <kv>мӧд синмӧн видзӧдны</kv>
+
+          <t>смотреть другими глазами<gov>на кого-, что-л.</gov></t>
+        </x>
+
+        <x>
+          <kv>мӧд туй миян абу</kv>
+
+          <t>другого пути у нас нет</t>
+        </x>
+
+        <x>
+          <kv>ӧні кадыс мӧд</kv>
+
+          <t>теперь время другое</t>
+        </x>
+
+        <x>
+          <kv>салдатӧ ветлӧм бӧрас сійӧ лои дзик мӧд</kv>
+
+          <t>после солдатской службы он стал совсем другим</t>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">другой, следующий, будущий</t>
+        </m>
+
+        <x>
+          <kv>мӧд во кежлӧ</kv>
+
+          <t lang="ru">на будущий год; на следующий год</t>
+        </x>
+
+        <x>
+          <kv>мӧд лун</kv>
+
+          <t lang="ru">а) другой день, второй день; б) на днях (<i>только о
+          будущем</i>)</t>
+        </x>
+
+        <x>
+          <kv>мӧд лун ещӧ пырала</kv>
+
+          <t lang="ru">на днях ещё зайду</t>
+        </x>
+
+        <x>
+          <kv>мӧд луннас</kv>
+
+          <t lang="ru">на следующий, на другой день</t>
+        </x>
+      </mg>
+
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">другой, <i>кто-л.</i>иной, посторонний</t>
+        </m>
+
+        <x>
+          <kv>мӧдлы сетны</kv>
+
+          <t lang="ru">отдать другому</t>
+        </x>
+
+        <x>
+          <kv>мӧдӧс корсьны</kv>
+
+          <t lang="ru">искать другого</t>
+        </x>
+
+        <x>
+          <kv>ӧтияс грузла мунӧны, мӧдъяс грузӧн локтӧны нин</kv>
+
+          <t lang="ru">одни отправляются за грузом, другие уже возвращаются с
+          грузом</t>
+        </x>
+
+        <x>
+          <kv>мӧд керкаӧ петалӧм кодь</kv>
+
+          <t lang="ru">рукой подать (<i>букв.</i> так же, как выйти на другую
+          половину избы)</t>
+        </x>
+
+        <x>
+          <kv>мӧд та дыра</kv>
+
+          <t lang="ru">ещё столько же (<i>времени</i>)</t>
+        </x>
+
+        <x>
+          <kv>мӧд та дыра овны</kv>
+
+          <t lang="ru">прожить ещё столько же</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>со</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG</contlex>
+
+    <pos>PRON-DEM</pos>
+  </entry>
+
+  <entry>
+    <lemma>сэтшӧм</lemma>
+
+    <stem>Adj</stem>
+
+    <contlex>PRON-DEM</contlex>
+
+    <pos></pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru"><i>опред.</i> такой</t>
+        </m>
+
+        <x>
+          <kv>~ случай</kv>
+
+          <t lang="ru">такой случай</t>
+        </x>
+
+        <x>
+          <kv>~ сьӧкыд</kv>
+
+          <t lang="ru">такой тяжёлый</t>
+        </x>
+
+        <x>
+          <kv>~ пӧлӧс йӧзыд шоча паныдасьлӧны</kv>
+
+          <t lang="ru">такого рода люди редко встречаются</t>
+        </x>
+      </mg>
+
+      <mg>
+        <m>
+          <head><com>нареч.</com></head>
+
+          <t lang="ru">так</t>
+        </m>
+
+        <x>
+          <kv>~ матын</kv>
+
+          <t lang="ru">так близко</t>
+        </x>
+
+        <x>
+          <kv>~ ылӧ</kv>
+
+          <t lang="ru">так далеко</t>
+        </x>
+
+        <x>
+          <kv>~ вӧлі лӧсьыд</kv>
+
+          <t lang="ru">так было хорошо</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>сэтшӧм-татшӧм</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">такой-сякой; сомнительный, подозрительный</t>
+        </m>
+
+        <x>
+          <kv>~ морт</kv>
+
+          <t lang="ru">сомнительная личность</t>
+        </x>
+
+        <x>
+          <kv>занимайтчыны ~ делӧясӧн</kv>
+
+          <t lang="ru">заниматься сомнительтными делами</t>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">неудовлетворительный</t>
+        </m>
+
+        <x>
+          <kv>~ удж</kv>
+
+          <t lang="ru">неудовлетворительная работа</t>
+        </x>
+      </mg>
+
+      <mg MNo="3">
+        <m>
+          <head><i>в роли сущ.</i></head>
+
+          <t lang="ru">такое, плохое</t>
+        </m>
+
+        <x>
+          <kv>нинӧм сэтшӧм-татшӧмыс эз вӧв</kv>
+
+          <t lang="ru">ничего такого не было</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>сэтшӧм-татшӧмтор</lemma>
+
+    <stem>сэтшӧм-татшӧмторй</stem>
+
+    <contlex>Noun1</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">такое-сякое</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>сэтшӧма</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG</contlex>
+
+    <pos>PRON-DEM-ADV</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">так</t>
+        </m>
+
+        <x>
+          <kv>~ повзьыны</kv>
+
+          <t lang="ru">так (<i>сильно</i>) испугаться</t>
+        </x>
+
+        <x>
+          <kv>~ ёнмӧма</kv>
+
+          <t lang="ru">он так пополнел</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>сэтшӧмин</lemma>
+
+    <stem></stem>
+
+    <contlex>Noun1</contlex>
+
+    <pos>PRON-DEM-N</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">такое место</t>
+        </m>
+
+        <x>
+          <kv>корсьны ~ , кытӧн чериыс шедӧ</kv>
+
+          <t lang="ru">искать такое место, где рыба ловится</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>сэтшӧмтор</lemma>
+
+    <stem>сэтшӧмторй</stem>
+
+    <contlex>Noun1</contlex>
+
+    <pos>PRON-DEM-N</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">такое</t>
+        </m>
+
+        <x>
+          <kv>вӧвлі сэтшӧмторйыс</kv>
+
+          <t lang="ru">бывало такое</t>
+        </x>
+
+        <x>
+          <kv>кыдз лысьтін сэтшӧмторсӧ шуны?</kv>
+
+          <t lang="ru">как ты посмел сказать такое?</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>сэтшӧмтӧ</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><i>указ.</i></head>
+
+          <t lang="ru">такой-то</t>
+        </m>
+
+        <x>
+          <kv>ме, ~ гражданин, ...</kv>
+
+          <t lang="ru">я, такой-то гражданин, ...</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>сэтшӧмӧдз</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG-TER</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">до такой степени, до такого состояния</t>
+        </m>
+
+        <x>
+          <kv>~ омӧльтчыны</kv>
+
+          <t lang="ru">до такой степени похудеть</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>сэтысь</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG-ELA</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <assoc MNo="1" assocType="see">сэсь</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>сэтысянь</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG-EGR</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <assoc MNo="1" assocType="see">сэсянь</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>сэтӧні</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG</contlex>
+
+    <pos>PRON-DEM</pos>
+  </entry>
+
+  <entry>
+    <lemma>сійӧ</lemma>
+
+    <stem>сы</stem>
+
+    <contlex>PRONDEMTAG</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <e>
+      <mg MNo="2">
+        <m>
+          <head><i>в роли указ. мест.</i></head>
+
+          <t lang="ru">тот, та, то</t>
+        </m>
+
+        <x>
+          <kv>~ кадӧ</kv>
+
+          <t lang="ru">в то время</t>
+        </x>
+
+        <x>
+          <kv>сы выйӧдз</kv>
+
+          <t lang="ru">так, в такой степени, настолько</t>
+        </x>
+
+        <x>
+          <kv>сы вылӧ видзӧдтӧг</kv>
+
+          <t lang="ru">несмотря на это</t>
+        </x>
+
+        <x>
+          <kv>сы дыра</kv>
+
+          <t lang="ru">так долго</t>
+        </x>
+
+        <x>
+          <kv>сы лыдын</kv>
+
+          <t lang="ru">в том числе</t>
+        </x>
+
+        <x>
+          <kv>сы могысь</kv>
+
+          <t lang="ru">затем</t>
+        </x>
+
+        <x>
+          <kv>сы понда, мый</kv>
+
+          <t lang="ru">... ввиду того, что</t>
+        </x>
+
+        <x>
+          <kv>сы пыдди</kv>
+
+          <t lang="ru">зато;</t>
+        </x>
+
+        <x>
+          <kv>йӧзыдлы мый дур, ~ и теш</kv>
+
+          <t lang="ru">людям что дурно, то и потешно</t>
+        </x>
+
+        <x>
+          <kv>мый синмас, ~ и вомас</kv>
+
+          <t lang="ru">что в глазах, то и на языке (<i>о болтливом</i>)</t>
+        </x>
+
+        <x>
+          <kv>сы вылын и олӧ, сійӧн и вердчӧ</kv>
+
+          <t lang="ru">тем он и живёт, тем и кормится</t>
+        </x>
+
+        <x>
+          <kv>◊ ~ ас кӧшас воӧдчас</kv>
+
+          <t lang="ru">он добьётся своего</t>
+        </x>
+
+        <x>
+          <kv>~ и бур</kv>
+
+          <t lang="ru">тем лучше</t>
+        </x>
+
+        <x>
+          <kv>~ ӧд и эм</kv>
+
+          <t lang="ru">то-то и оно; то-то оно и есть</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>сійӧтор</lemma>
+
+    <stem>сійӧторй</stem>
+
+    <contlex>Noun1</contlex>
+
+    <pos>PRON-DEM-N</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">то</t>
+        </m>
+
+        <x>
+          <kv>меным кажитчыліс ~ , мый быд праздник нуӧдсьыліс аслысногӧн</kv>
+
+          <t lang="ru">мне нравилось то, что каждый праздник проводился
+          по-своему (<i>разнообразно</i>)</t>
+        </x>
+
+        <x>
+          <kv>мый ас вывтіыд оз мун, ~ он вермы тӧдны</kv>
+
+          <t lang="ru">что сам не испытаешь, того не поймёшь</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тайӧ</lemma>
+
+    <stem>та</stem>
+
+    <contlex>PRONDEMTAGSG-TA</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><i>указ.</i></head>
+
+          <t lang="ru">этот, эта, это</t>
+        </m>
+
+        <x>
+          <kv>~ здукӧ</kv>
+
+          <t lang="ru">в эту минуту</t>
+        </x>
+
+        <x>
+          <kv>~ коді?</kv>
+
+          <t lang="ru">кто это?</t>
+        </x>
+
+        <x>
+          <kv>~ мортсӧ ме эг на аддзыв</kv>
+
+          <t lang="ru">этого человека я еще не видела</t>
+        </x>
+
+        <x>
+          <kv>мый ~ ?</kv>
+
+          <t lang="ru">что это?</t>
+        </x>
+
+        <x>
+          <kv>~ тӧлысьын</kv>
+
+          <t lang="ru">в этом месяце</t>
+        </x>
+
+        <x>
+          <kv>◊ ~ бара кулӧм бӧртиыс локтас</kv>
+
+          <t lang="ru">лёгок на помине (<i>букв.</i> он и после смерти
+          придёт)</t>
+        </x>
+
+        <x>
+          <kv>~ меным нявда</kv>
+
+          <t lang="ru">это мне ничего не стоит; это для меня трын-трава (<i>букв.</i>
+          это для меня мокрица)</t>
+        </x>
+
+        <x>
+          <kv>~ ӧд абу керка пельӧс тшупны</kv>
+
+          <t lang="ru">эта работа — не угол дома рубить</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тайӧтор</lemma>
+
+    <stem>тайӧторй</stem>
+
+    <contlex>Noun1</contlex>
+
+    <pos>PRON-DEM-N</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">это</t>
+        </m>
+
+        <x>
+          <kv>тайӧторйӧ велӧдчыны абу ёна сьӧкыд</kv>
+
+          <t lang="ru">этому научиться не так трудно</t>
+        </x>
+
+        <x>
+          <kv>тайӧторсӧ он куж думыштны</kv>
+
+          <t lang="ru">об этом и не подумаешь</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>татӧні</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG</contlex>
+
+    <pos>PRON-DEM</pos>
+  </entry>
+
+  <entry>
+    <lemma>таян</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAGPL</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><range>диал.</range> <i>указ.</i></head>
+
+          <t lang="ru">эти</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>эстшӧм</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <e>
+      <i>усил.-указ.</i>
+
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">вот такой, такой</t>
+        </m>
+
+        <x>
+          <kv>~ чӧскыд вотӧс</kv>
+
+          <t lang="ru">такая вкусная ягода</t>
+        </x>
+
+        <x>
+          <kv>ӧтчыд видзӧдлан да сэтшӧм, мӧдысь видзӧдлан — ~</kv>
+
+          <t lang="ru">один раз посмотришь — такой, другой раз посмотришь —
+          вот такой</t>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">(<i>при выражении удивления</i>) какой</t>
+        </m>
+
+        <x>
+          <kv>~ кыз</kv>
+
+          <t lang="ru">вот какой толстый!</t>
+        </x>
+
+        <x>
+          <kv>~ тэ ён!</kv>
+
+          <t lang="ru">какой ты сильный!</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>эстшӧма</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG</contlex>
+
+    <pos>PRON-DEM-ADV</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">так, этак</t>
+        </m>
+
+        <x>
+          <kv>~ быдмӧма!</kv>
+
+          <t lang="ru">так вырос!</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>эстысь</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG-ELA</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">оттуда, с того места</t>
+        </m>
+
+        <x>
+          <kv>~ чукыль сайсьыс</kv>
+
+          <t lang="ru">оттуда, из-за поворота</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>эстысянь</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG-EGR</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">оттуда, с того места</t>
+        </m>
+
+        <x>
+          <kv>~ чукыль сайсьыс</kv>
+
+          <t lang="ru">оттуда, из-за поворота</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>эcійӧ</lemma>
+
+    <stem>эсы</stem>
+
+    <contlex>PRONDEMTAG</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <drvg>
+      <drv><lemma>эcійӧ</lemma><com>указ. крат. ф. от</com></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t></t>
+        </m>
+
+        <x>
+          <kv>~ кузя сир</kv>
+
+          <t lang="ru">вот такой длины щука</t>
+        </x>
+
+        <x>
+          <kv>~ мында вӧчӧма</kv>
+
+          <t lang="ru">столько сделано</t>
+        </x>
+
+        <x>
+          <kv>~ пасьта ю</kv>
+
+          <t lang="ru">такая широкая река</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>эсыладор</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG</contlex>
+
+    <pos>PRON-DEM-N</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">вон та сторона</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>эсылань</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG-APR</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">вон туда, вон в том направлении</t>
+        </m>
+
+        <x>
+          <kv>~ бергӧдчыв</kv>
+
+          <t lang="ru">повернись вон туда</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>эсыметь</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">в такой степени, до такой степени, так сильно</t>
+        </m>
+
+        <x>
+          <kv>~ вундыны</kv>
+
+          <t lang="ru">так много отрезать</t>
+        </x>
+
+        <x>
+          <kv>~ тшыкӧдны</kv>
+
+          <t lang="ru">до такой степени испортить</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>эсымында</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">столько</t>
+        </m>
+
+        <x>
+          <kv>~ лук колӧ быдтыны</kv>
+
+          <t lang="ru">столько луку надо вырастить</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>эсійӧ</lemma>
+
+    <stem>эс</stem>
+
+    <contlex>PRONDEMTAG-ES</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head><i>указ.</i></head>
+
+          <t lang="ru">тот</t>
+        </m>
+
+        <x>
+          <kv>со ~ паньсӧ ньӧба</kv>
+
+          <t lang="ru">вот ту ложку куплю</t>
+        </x>
+
+        <x>
+          <kv>~ серпасыс зэв мича</kv>
+
+          <t lang="ru">тот рисунок очень красив</t>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">бишь; это, как его (<i>употр. для заполнения в
+          речи паузы)</i></t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>эсійӧяс</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAGPL</contlex>
+
+    <pos>PRON-DEM</pos>
+  </entry>
+
+  <entry>
+    <lemma>эсіян</lemma>
+
+    <stem></stem>
+
+    <contlex></contlex>
+
+    <pos></pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><i>указ.</i></head>
+
+          <t lang="ru">вот они, вот эти</t>
+        </m>
+
+        <x>
+          <kv>~ бара нин шойччӧны</kv>
+
+          <t lang="ru">вот эти опять уже отдыхают</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>эта</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <drvg>
+      <drv><lemma>этайӧ</lemma><com>указ. крат. ф. от</com></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head><i></i></head>
+
+          <t lang="ru">такой, этот</t>
+        </m>
+
+        <x>
+          <kv>~ дырйи</kv>
+
+          <t lang="ru">при этом</t>
+        </x>
+
+        <x>
+          <kv>~ мында!</kv>
+
+          <t lang="ru">так много!</t>
+        </x>
+
+        <x>
+          <kv>~ ӧдӧн нуӧдӧ</kv>
+
+          <t lang="ru">с такой скоростью везёт</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>этадз</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">так, этак, вот так</t>
+        </m>
+
+        <x>
+          <kv>~ ӧшӧдны</kv>
+
+          <t lang="ru">так повесить</t>
+        </x>
+
+        <x>
+          <kv>~ колӧ сувтӧдны</kv>
+
+          <t lang="ru">надо поставить так</t>
+        </x>
+
+        <x>
+          <kv>~ кынтӧма войнас!</kv>
+
+          <t lang="ru">этак подморозило ночью</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>этадзи</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">так, этак, вот так</t>
+        </m>
+
+        <x>
+          <kv>~ ӧшӧдны</kv>
+
+          <t lang="ru">так повесить</t>
+        </x>
+
+        <x>
+          <kv>~ колӧ сувтӧдны</kv>
+
+          <t lang="ru">надо поставить так</t>
+        </x>
+
+        <x>
+          <kv>~ кынтӧма войнас!</kv>
+
+          <t lang="ru">этак подморозило ночью</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>этайӧ</lemma>
+
+    <stem>эта</stem>
+
+    <contlex>PRONDEMTAGSG-TA</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><i>указ.</i></head>
+
+          <t lang="ru">этот, вот этот</t>
+        </m>
+
+        <x>
+          <kv>~ зонмыслы тшӧкты лэптыны</kv>
+
+          <t lang="ru">вот этого парня попроси поднять</t>
+        </x>
+
+        <x>
+          <kv>~ небӧгыс зэв дона</kv>
+
+          <t lang="ru">эта книга очень дорогая</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>эталань</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG-APR</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">сюда, ближе сюда (к этому месту); в этом
+          направлении</t>
+        </m>
+
+        <x>
+          <kv>~ лок</kv>
+
+          <t lang="ru">подойди сюда; иди сюда</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>эталаньсянь</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG-APR-EGR</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">с этой стороны</t>
+        </m>
+
+        <x>
+          <kv>~ босьтны колӧ</kv>
+
+          <t lang="ru">надо взять с этой стороны</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>эталаньысь</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG-APR-ELA</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">вот отсюда</t>
+        </m>
+
+        <x>
+          <kv>~ вайӧма</kv>
+
+          <t lang="ru">вот отсюда принёс</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>эталаньӧ</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG-APR-ILL</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">сюда, ближе сюда (к этому месту); в этом
+          направлении</t>
+        </m>
+
+        <x>
+          <kv>~ лок</kv>
+
+          <t lang="ru">подойди сюда; иди сюда</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>этан</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">здесь, вот здесь</t>
+        </m>
+
+        <x>
+          <kv>~ олӧ</kv>
+
+          <t lang="ru">он здесь живёт</t>
+        </x>
+
+        <x>
+          <kv>~ уджаліс</kv>
+
+          <t lang="ru">вот здесь работал</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>этані</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">здесь, вот здесь</t>
+        </m>
+
+        <x>
+          <kv>~ олӧ</kv>
+
+          <t lang="ru">он здесь живёт</t>
+        </x>
+
+        <x>
+          <kv>~ уджаліс</kv>
+
+          <t lang="ru">вот здесь работал</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>этатшӧм</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG</contlex>
+
+    <pos>PRON-DEM-Adj</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><i>указ.</i></head>
+
+          <t lang="ru">вот такой, этакий</t>
+        </m>
+
+        <x>
+          <kv>~ мича серпас</kv>
+
+          <t lang="ru">такое красивое изображение</t>
+        </x>
+
+        <x>
+          <kv>~ паськӧма</kv>
+
+          <t lang="ru">в этакой одежде</t>
+        </x>
+
+        <x>
+          <kv>~ ыджыд сьӧлӧма йӧз</kv>
+
+          <t lang="ru">вот такие сердечные люди</t>
+        </x>
+
+        <x>
+          <kv>~ нывлӧн ставыс бур лоӧ</kv>
+
+          <t lang="ru">у такой девушки всё будет хорошо</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>этатшӧма</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG</contlex>
+
+    <pos>PRON-DEM-ADV</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">так, этак</t>
+        </m>
+
+        <x>
+          <kv>~ видзӧдліс</kv>
+
+          <t lang="ru">так посмотрел</t>
+        </x>
+
+        <x>
+          <kv>~ ошкӧ нинӧм абусьыс</kv>
+
+          <t lang="ru">этак хвалит за пустяк</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>этатшӧмтор</lemma>
+
+    <stem>этатшӧмторй</stem>
+
+    <contlex>Noun1</contlex>
+
+    <pos>PRON-DEM-N</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">такое, этакое</t>
+        </m>
+
+        <x>
+          <kv>~ лысьтін вӧчны!</kv>
+
+          <t lang="ru">такое осмелился сделать!</t>
+        </x>
+
+        <x>
+          <kv>~ эз жӧ ков шуны</kv>
+
+          <t lang="ru">не надо же было говорить такое</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>этатысь</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG-ELA</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <assoc MNo="1" assocType="see">этась</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>этатысянь</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG-EGR</contlex>
+
+    <pos>PRON-DEM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <assoc MNo="1" assocType="see">этасянь</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>этійӧ</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONDEMTAG</contlex>
+
+    <pos>PRON-DEM</pos>
+  </entry>
 </dict>
