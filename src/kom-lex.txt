@@ -110,7 +110,8 @@ Multichar_Symbols
 ! These should be added below in derivation declarations
 !
 !
-!+Der/ан +Der/ана +Der/анаа +Der/чӧж 
+!+Der/ан
+! +Der/ана +Der/анаа +Der/чӧж 
 !!Then they should have indication of whether they are gerunds or participles!!
 !!
 +Der/тӧдз !+VTer
@@ -170,6 +171,32 @@ Multichar_Symbols
 %^Inf
 
 +Use/Sub ! Для не-литературного слова / форма / и.т.д.
+
+! Flags used with serial verbs
+! TX = tense
+@U.CONJ-TX.FUT@
+@U.CONJ-TX.PRES@
+@U.CONJ-TX.PRET1@
+@U.CONJ-TX.PRET2@
+
+! MX = mood
+@U.CONJ-MX.IND@
+@U.CONJ-MX.IMP@
+
+! CONNEG = negation
+@U.CONJ-CONNEG.YES@
+@U.CONJ-CONNEG.NO@
+
+! NX = number
+@U.CONJ-NX.PL@
+@U.CONJ-NX.SG@
+
+! PX = person
+@U.CONJ-PX.1@
+@U.CONJ-PX.2@
+@U.CONJ-PX.3@
+
+
 
 
 ! Key lexicon
@@ -358,6 +385,18 @@ LEXICON ADV-SPAT ! these are adverbs in spatial cases
 +Adv+Ill:ӧ COMPARATIVE ;
 +Adv+Ine:ын COMPARATIVE ;
 +Adv+Ter:ӧдз COMPARATIVE ;
+
+LEXICON ADV-SPAT-APR
++Adv+Apr:лань K ;
+
+LEXICON ADV-SPAT-EGR
++Adv+Egr:сянь K ;
+
+LEXICON ADV-SPAT-PRL
++Adv+Prl:ӧд K ;
+
+LEXICON ADV-SPAT-TRA
++Adv+Tra:ті K ;
 
 LEXICON EndConj
 +CC: # ;
