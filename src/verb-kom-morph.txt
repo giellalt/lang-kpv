@@ -41,12 +41,12 @@ LEXICON VERBNEGATIVE
 ! ----------------
 
 LEXICON Verb-lokny
-+Inf:%>ны VerbEnd-Comparison ;
-+ConNeg@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ны@U.CONJ-CONNEG.YES@@U.CONJ-NX.PL@@U.CONJ-PX.3@ VerbEnd ;
-+ConNeg@U.CONJ-CONNEG.YES@:@U.CONJ-CONNEG.YES@ VerbEnd ;
-+Imprt@U.CONJ-MX.IMP@+Sg2@U.CONJ-NX.SG@@U.CONJ-PX.2@:@U.CONJ-MX.IMP@@U.CONJ-NX.SG@@U.CONJ-PX.2@ VerbEnd ;
-+V:т VerbDer ; !
-+V:т VerbDer-V ; !
++V+Inf@U.CONJ-INF.YES@:%>ны@U.CONJ-INF.YES@ VerbEnd-Comparison ;
++V+ConNeg@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ны@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@@U.CONJ-NX.PL@@U.CONJ-PX.3@ VerbEnd ;
++V+ConNeg@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@:@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@ VerbEnd ;
++V+Imprt@U.CONJ-INF.NO@@U.CONJ-MX.IMP@+Sg2@U.CONJ-NX.SG@@U.CONJ-PX.2@:@U.CONJ-INF.NO@@U.CONJ-MX.IMP@@U.CONJ-NX.SG@@U.CONJ-PX.2@ VerbEnd ;
++V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@т VerbDer ; !
++V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@т VerbDer-V ; !
 +V:т  VerbConj ; !а
 
 
@@ -55,14 +55,14 @@ LEXICON Verb1 ! яйсявны,  в - л change кывны кылан
 Verb2 ;  ! already merged with Verb2, todo: merge in xml as well
 
 LEXICON Verb2 ! янӧдны, контролируйтны. Ending in -дны, -тны.
-+V: VerbDer ; !
-+V: VerbDer-V ; !
++V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@ VerbDer ; !
++V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@ VerbDer-V ; !
 +V:  VerbConj ; !а
 +V:  VerbConj-V ; !б
 
 LEXICON Verb3 ! ярмыны. Ending in -ыны.
-+V:    VerbDer ; !
-+V:%>ы VerbDer-V ; !
++V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@    VerbDer ; !
++V@U.CONJ-INF.YES@:%>ы@U.CONJ-INF.YES@ VerbDer-V ; !
 +V:    VerbConj ; ! check this!!!
 +V:%>ы VerbConj-V ; ! check this!!!
 
@@ -94,14 +94,14 @@ LEXICON Verb3 ! ярмыны. Ending in -ыны.
 ! ================ !
 
 LEXICON VerbConj-V ! суф б -- ы --
-+Inf:%>ны VerbEnd-Comparison ;
-+ConNeg@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ны@U.CONJ-CONNEG.YES@@U.CONJ-NX.PL@@U.CONJ-PX.3@ VerbEnd ;
-+ConNeg@U.CONJ-CONNEG.YES@:@U.CONJ-CONNEG.YES@ VerbEnd ;
-+Imprt@U.CONJ-MX.IMP@+Sg2@U.CONJ-NX.SG@@U.CONJ-PX.2@:@U.CONJ-MX.IMP@@U.CONJ-NX.SG@@U.CONJ-PX.2@ VerbEnd ;
++Inf@U.CONJ-INF.YES@:%>ны@U.CONJ-INF.YES@ VerbEnd-Comparison ;
++ConNeg@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ны@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@@U.CONJ-NX.PL@@U.CONJ-PX.3@ VerbEnd ;
++ConNeg@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@:@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@ VerbEnd ;
++Imprt@U.CONJ-INF.NO@@U.CONJ-MX.IMP@+Sg2@U.CONJ-NX.SG@@U.CONJ-PX.2@:@U.CONJ-INF.NO@@U.CONJ-MX.IMP@@U.CONJ-NX.SG@@U.CONJ-PX.2@ VerbEnd ;
 
 LEXICON VerbConj ! суф а -------
- Finiteforms ;
- Non-finiteforms ;
+@U.CONJ-INF.NO@ Finiteforms ;
+@U.CONJ-INF.YES@ Non-finiteforms ;
 
 LEXICON Finiteforms  ! Gives linking vowels for 3 tenses
  present ;
@@ -179,7 +179,7 @@ LEXICON PRET2PL2
 LEXICON PRET2-linkki-a
 !+Sg1+Use/Sub: VerbEnd-Comparison ; ! no Sg1 for Prt2 in the standard
 +Sg1@U.CONJ-NX.SG@@U.CONJ-PX.1@:@U.CONJ-NX.SG@@U.CONJ-PX.1@ VerbEnd-Comparison ; ! no Sg1 for Prt2 in the standard
-+Sg3@U.CONJ-NX.SG@@U.CONJ-PX.3@:@U.CONJ-NX.SG@@U.CONJ-PX.1@ VerbEnd-Comparison ;
++Sg3@U.CONJ-NX.SG@@U.CONJ-PX.3@:@U.CONJ-NX.SG@@U.CONJ-PX.3@ VerbEnd-Comparison ;
 !+Pl1+Use/Sub:%>ӧсь VerbEnd-Comparison ; ! no Pl1 for Prt2 in the standard
 +Pl1@U.CONJ-NX.PL@@U.CONJ-PX.1@:%>ӧсь@U.CONJ-NX.PL@@U.CONJ-PX.1@ VerbEnd-Comparison ; ! no Pl1 for Prt2 in the standard
 +Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ӧсь@U.CONJ-NX.PL@@U.CONJ-PX.3@ VerbEnd-Comparison ;
@@ -207,6 +207,8 @@ LEXICON Serial-Verbs
 
 LEXICON Non-finiteforms
 VerbDer ; ! to be merged with next
+          !2011-11-02 dealing with serial verbs there may be
+          ! reason to distinguish between V2V derivation and non-finite forms
 
 LEXICON VerbDer 
 
