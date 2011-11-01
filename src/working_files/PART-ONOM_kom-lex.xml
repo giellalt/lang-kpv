@@ -1,94 +1,6738 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dict>
-   <entry>
-      <lemma>бау</lemma>
-      <stem/>
-      <contlex>ONOM</contlex>
-      <pos>PART-ONOM</pos>
-         </entry>
-   <entry>
-      <lemma>быз</lemma>
-      <stem/>
-      <contlex>ONOM</contlex>
-      <pos>PART-ONOM</pos>
-         </entry>
-   <entry>
-      <lemma>бультік</lemma>
-      <stem/>
-      <contlex>ONOM</contlex>
-      <pos>PART-ONOM</pos>
-         </entry>
-   <entry>
-      <lemma>бут</lemma>
-      <stem/>
-      <contlex>ONOM</contlex>
-      <pos>PART-ONOM</pos>
-         </entry>
-   <entry>
-      <lemma>дзиз</lemma>
-      <stem/>
-      <contlex>ONOM</contlex>
-      <pos>PART-ONOM</pos>
-         </entry>
-   <entry>
-      <lemma>герч</lemma>
-      <stem/>
-      <contlex>ONOM</contlex>
-      <pos>PART-ONOM</pos>
-         </entry>
-   <entry>
-      <lemma>гизь</lemma>
-      <stem/>
-      <contlex>ONOM</contlex>
-      <pos>PART-ONOM</pos>
-         </entry>
-   <entry>
-      <lemma>голь</lemma>
-      <stem/>
-      <contlex>ONOM</contlex>
-      <pos>PART-ONOM</pos>
-      <article/>
-   </entry>
-   <entry>
-      <lemma>гольс</lemma>
-      <stem/>
-      <contlex>ONOM</contlex>
-      <pos>PART-ONOM</pos>
-         </entry>
-   <entry>
-      <lemma>гудж</lemma>
-      <stem/>
-      <contlex>ONOM</contlex>
-      <pos>PART-ONOM</pos>
-         </entry>
-   <entry>
-      <lemma>гур</lemma>
-      <stem/>
-      <contlex>ONOM</contlex>
-      <pos>PART-ONOM</pos>
-         </entry>
-   <entry>
-      <lemma>кам</lemma>
-      <stem/>
-      <contlex>ONOM</contlex>
-      <pos>PART-ONOM</pos>
-         </entry>
-   <entry>
-      <lemma>тарк</lemma>
-      <stem/>
-      <contlex>ONOM</contlex>
-      <pos>PART-ONOM</pos>
-         </entry>
-   <entry>
-      <lemma>тулуллу</lemma>
-      <stem/>
-      <contlex>ONOM</contlex>
-      <pos>PART-ONOM</pos>
-         </entry>
-   <entry>
-      <lemma>зур</lemma>
-      <stem/>
-      <contlex>ONOM</contlex>
-      <pos>PART-ONOM</pos>
-         </entry>
+<dict xsi:noNamespaceSchemaLocation="../dict.xsd"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <entry>
+    <lemma>бау</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">му-у</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>бов</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">бом!</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>боль-боль</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">буль-буль; с бульканьем</t>
+        </m>
+
+        <x>
+          <kv>боль-боль кисьтны</kv>
+
+          <t lang="ru">вылить с бульканьем</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>бринь</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">бряк</t>
+        </m>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">брык</t>
+        </m>
+
+        <x>
+          <kv>мӧс бринь чужйис пӧдӧнчасӧ</kv>
+
+          <t lang="ru">корова — брык, лягнула подойник</t>
+        </x>
+      </mg>
+
+      <mg MNo="3">
+        <m>
+          <head></head>
+
+          <t lang="ru">прыг</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>бриньк</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">бряк</t>
+        </m>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">брык</t>
+        </m>
+
+        <x>
+          <kv>мӧс бриньк чужйис пӧдӧнчасӧ</kv>
+
+          <t lang="ru">корова — брык, лягнула подойник</t>
+        </x>
+      </mg>
+
+      <mg MNo="3">
+        <m>
+          <head></head>
+
+          <t lang="ru">прыг</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>брон</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">неподвижно</t>
+        </m>
+
+        <x>
+          <kv>брон сувтіс</kv>
+
+          <t lang="ru">он остановился как вкопанный</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>брун</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">бух, бултых; хлоп <register>разг.</register></t>
+        </m>
+
+        <x>
+          <kv>из брун шыбитны ваӧ</kv>
+
+          <t lang="ru">камень бултыхнуть в воду</t>
+        </x>
+
+        <x>
+          <kv>брун чеччыштны ваӧ</kv>
+
+          <t lang="ru">бултыхнуться в воду</t>
+        </x>
+
+        <x>
+          <kv>зэлӧдӧмысла нярталасьыс ӧти прать брун ори</kv>
+
+          <t lang="ru">от натяжения аркана одна прядь хлоп оборвалась</t>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">туго</t>
+        </m>
+
+        <x>
+          <kv>брун зэлӧдӧма струнасӧ</kv>
+
+          <t lang="ru">туго натянута струна</t>
+        </x>
+      </mg>
+
+      <mg MNo="3">
+        <m>
+          <head></head>
+
+          <t lang="ru">вдруг, неожиданно</t>
+        </m>
+
+        <x>
+          <kv>ӧкмыснан корабльыс брун сувтісны</kv>
+
+          <t lang="ru">все девять кораблей вдруг остановились</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>брун-брон</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">с гулким звуком</t>
+        </m>
+
+        <x>
+          <kv>брун-брон гӧгыльтчис бӧчка пос кузя</kv>
+
+          <t lang="ru">с гулким звуком покатилась по лестнице бочка</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>брункылӧ</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">со звоном</t>
+        </m>
+
+        <x>
+          <kv>брункылӧ кучкис тыртӧм бӧчкаӧ</kv>
+
+          <t lang="ru">со звоном ударил в пустую бочку</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>брыз-браз</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">бултых</t>
+        </m>
+
+        <x>
+          <kv>ваӧ брыз-браз пырны</kv>
+
+          <t lang="ru">войти в воду с шумом, бултыхнуться</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>брызь</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">бух</t>
+        </m>
+
+        <x>
+          <kv>брызь койыштны</kv>
+
+          <t lang="ru">бухнуть-выплеснуть</t>
+        </x>
+
+        <x>
+          <kv>брызь шыбитны</kv>
+
+          <t lang="ru">швырнуть</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>буз</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><clarif>подражание плеску воды</clarif></head>
+
+          <t lang="ru">бултых, бух</t>
+        </m>
+
+        <x>
+          <kv>ваӧ буз пырны</kv>
+
+          <t lang="ru">бултых в воду</t>
+        </x>
+
+        <x>
+          <kv>ва пельсаысь ваыс буз киссис</kv>
+
+          <t lang="ru">вода из кадки вылилась с плеском</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>буз-баз</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">бултых</t>
+        </m>
+
+        <x>
+          <kv>буз-баз шняпкысьны няйтӧ</kv>
+
+          <t lang="ru">шлёпнуться в грязную лужу</t>
+        </x>
+
+        <x>
+          <kv>лӧгасис шыр — лӧг шыр ваӧ буз-баз</kv>
+
+          <source>(фольк.)</source>
+
+          <t lang="ru">рассердилась мышь — сердитая мышь бултых в воду</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>бузкылӧ</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">с плеском, с шумом</t>
+        </m>
+
+        <x>
+          <kv>бузкылӧ сунӧны керъяс ю пыдӧсӧдз</kv>
+
+          <t lang="ru">брёвна с шумом падают на дно реки</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>булс-болс</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">шлёп-шлёп; хлюп-хлюп; топ-топ</t>
+        </m>
+
+        <x>
+          <kv>булс-болс мунны</kv>
+
+          <t lang="ru">шлёпать</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>булы-болы</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">тары-бары; болтовня</t>
+        </m>
+
+        <x>
+          <kv>ӧтарӧ пыр булы-болы</kv>
+
+          <t lang="ru">постоянно тары-бары</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>буль-боль</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">буль-боль; с бульканьем</t>
+        </m>
+
+        <x>
+          <kv>буль-боль кисьтіс васӧ бутылкасьыс</kv>
+
+          <t lang="ru">с бульканьем вылил воду из бутылки</t>
+        </x>
+
+        <x>
+          <kv>◊ буль-боль сёрниа</kv>
+
+          <t lang="ru">болтливый, невоздержанный на язык</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>бульс-больс</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <assoc MNo="1" assocType="see">буль-боль</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>бультік</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+  </entry>
+
+  <entry>
+    <lemma>буля-боля</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">булькая</t>
+        </m>
+
+        <x>
+          <kv>буля-боля петӧны вабольяс</kv>
+
+          <t lang="ru">булькая, выходят водяные пузыри</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>бум-бом</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">бум</t>
+        </m>
+
+        <x>
+          <kv>бум-бом кылӧ вичко звӧн</kv>
+
+          <t lang="ru">слышится звон церковного колокола</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>бур-бор</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">ропот, шёпот</t>
+        </m>
+
+        <x>
+          <kv>йӧз костын кылыштіс кутшӧмкӧ бур-бор</kv>
+
+          <t lang="ru">в толпе раздался ропот</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>бурс</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head><com>подр. — о нырянии во что-либо сыпучее</com></head>
+
+          <t lang="ru"></t>
+        </m>
+
+        <x>
+          <kv>кӧдзыдъяс дырйи таръяс бурс пырӧны толаӧ</kv>
+
+          <t lang="ru">при морозах тетерева ныряют в снежные сугробы</t>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head><com>подражание шуму воды при глубокой гребле, при ботании
+          рыбы</com></head>
+
+          <t lang="ru"></t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>бут</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">тук</t>
+        </m>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <assoc MNo="1" assocType="see">брун</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>быз</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+  </entry>
+
+  <entry>
+    <lemma>быйк</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">неожиданно, вдруг</t>
+        </m>
+
+        <x>
+          <kv>сус пуа нӧрыс сайысь быйк мыччысис вертолёт</kv>
+
+          <t lang="ru">из-за кедрового кряжа неожиданно вынырнул вертолёт</t>
+        </x>
+
+        <x>
+          <kv>сьӧдбӧжыс быйк петіс зорӧд улысь</kv>
+
+          <t lang="ru">горностай вдруг вынырнул из-под стога сена</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>бытш</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">пыр <register>(разг.)</register></t>
+        </m>
+
+        <x>
+          <kv>шынас сійӧс бытш</kv>
+
+          <t lang="ru">штыком его — пыр</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>ваз</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">с хрустом</t>
+        </m>
+
+        <x>
+          <kv>ваз курччыны</kv>
+
+          <t lang="ru">откусить с хрустом</t>
+        </x>
+
+        <x>
+          <kv>ваз чегны</kv>
+
+          <t lang="ru">с хрустом сломаться</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>вач</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e RN="II">
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">с треском</t>
+        </m>
+
+        <x>
+          <kv>вач чегны</kv>
+
+          <t lang="ru">с треском сломаться</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>визгыр</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">съёжившись</t>
+        </m>
+
+        <x>
+          <kv>визгыр пукавны</kv>
+
+          <t lang="ru">сидеть съёжившись</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>вильски-вольски</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">скользя</t>
+        </m>
+
+        <x>
+          <kv>вильски-вольски мунны</kv>
+
+          <t lang="ru">идти скользя</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>вуз-ваз</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">хрустя, с хрустом</t>
+        </m>
+
+        <x>
+          <kv>вуз-ваз сёйны</kv>
+
+          <t lang="ru">быстро, с хрустом съесть, сгрызть <gov>что-л.</gov></t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>вур-вар</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">быстро, одним махом</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>вуш-ваш</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">шёпотом</t>
+        </m>
+
+        <x>
+          <kv>вуш-ваш сёрнитны</kv>
+
+          <t lang="ru">говорить шёпотом</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>герч</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">кря!</t>
+        </m>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head><range>диал.</range></head>
+
+          <t lang="ru">стиснутый, сжатый <clarif>о зубах</clarif></t>
+        </m>
+
+        <x>
+          <kv>герч курччыны пинь</kv>
+
+          <t lang="ru">стиснуть зубы <clarif>от злости</clarif></t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>гизь</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+  </entry>
+
+  <entry>
+    <lemma>гизь-гизьӧн</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">рядком</t>
+        </m>
+
+        <x>
+          <kv>челядь гизь-гизьӧн пуксялісны диван вылӧ</kv>
+
+          <t lang="ru">детвора рядком расселась на диван</t>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">беспорядочной шумной гурьбой, толпой, массой</t>
+        </m>
+
+        <x>
+          <kv>зонпосни гизь-гизьӧн уськӧдчисны классысь</kv>
+
+          <t lang="ru">мальчишки шумной гурьбой выбежали из класса</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>гира-гара</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">грохоча, с грохотом</t>
+        </m>
+
+        <x>
+          <kv>гира-гара локны</kv>
+
+          <t lang="ru">идти с грохотом</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>гири-люки</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">грохоча, с грохотом</t>
+        </m>
+
+        <x>
+          <kv>гири-люки лэччыны пӧлатьысь</kv>
+
+          <t lang="ru">с шумом, грохотом спуститься с полатей</t>
+        </x>
+
+        <x>
+          <kv>стражник шатлалігтыр гири-люки лэччис трюмӧ</kv>
+
+          <t lang="ru">стражник, шатаясь, грохоча, спустился в трюм</t>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">волоком</t>
+        </m>
+
+        <x>
+          <kv>гири-люки кыскыны ывлаӧ</kv>
+
+          <t lang="ru">выволочь на улицу</t>
+        </x>
+
+        <x>
+          <kv>◊ гири-люки лэдзны кильчӧ поскӧд</kv>
+
+          <t lang="ru">с треском выгнать</t>
+
+          <literal>
+            <t lang="ru">с грохотом спустить с крыльца</t>
+          </literal>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>гирч</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">со скрежетом</t>
+        </m>
+
+        <x>
+          <kv>пиньсӧ гирч курччис</kv>
+
+          <t lang="ru">он со скрежетом стиснул зубы</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>голь</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+  </entry>
+
+  <entry>
+    <lemma>гольс</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+  </entry>
+
+  <entry>
+    <lemma>гонь</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">вытянув шею</t>
+        </m>
+
+        <x>
+          <kv>дзодзӧг нюжӧдіс голясӧ гонь</kv>
+
+          <t lang="ru">гусь, вытянув шею, задрал голову</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>гот-готӧн</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">:</t>
+        </m>
+
+        <x>
+          <kv>гот-готӧн серавны</kv>
+
+          <t lang="ru">хохотать</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>грыма-грама</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">с шумом, с грохотом</t>
+        </m>
+
+        <x>
+          <kv>грыма-грама усьны</kv>
+
+          <t lang="ru">упасть с грохотом</t>
+        </x>
+
+        <x>
+          <kv>кодкӧ грыма-грама котӧртіс пароход нырӧ</kv>
+
+          <t lang="ru">кто-то, грохоча, побежал к носовой части парохода</t>
+        </x>
+
+        <x>
+          <kv>тыртӧм бӧчка быгыльтчис грыма-грама</kv>
+
+          <t lang="ru">с грохотом покатилась пустая бочка</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>грыма-йирка</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <assoc MNo="1" assocType="see">грыма-грама</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>грымкылӧ</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">с грохотом, с грохотаньем</t>
+        </m>
+
+        <x>
+          <kv>грымкылӧ киссьыны</kv>
+
+          <t lang="ru">развалиться с грохотом</t>
+        </x>
+
+        <x>
+          <kv>мыйкӧ грымкылӧ уси</kv>
+
+          <t lang="ru">с грохотом что-то упало</t>
+        </x>
+
+        <x>
+          <kv>грымкылӧ додьсӧ пӧрӧдіс</kv>
+
+          <t lang="ru">он с грохотом опрокинул сани</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>гув</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">настежь</t>
+        </m>
+
+        <x>
+          <kv>гув восьса</kv>
+
+          <t lang="ru">настежь открытый</t>
+        </x>
+
+        <x>
+          <kv>гув восьтыны ӧшинь</kv>
+
+          <t lang="ru">настежь открыть окно</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>гудж</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+  </entry>
+
+  <entry>
+    <lemma>гуль-голь</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">бряк, звяк</t>
+        </m>
+
+        <x>
+          <kv>гуль-голь восьтыны томан</kv>
+
+          <t lang="ru">со звяканьем открыть замок</t>
+        </x>
+
+        <x>
+          <kv>гуль-голь киссис потшӧс</kv>
+
+          <t lang="ru">с шумом развалилась изгородь</t>
+        </x>
+
+        <x>
+          <kv>гуль-голь киссисны бӧчка асыкъяс</kv>
+
+          <t lang="ru">обручи бочки рассыпались со звяканьем</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>гульк</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head><com>подражание глотанию чего-н.</com></head>
+
+          <t lang="ru"></t>
+        </m>
+
+        <x>
+          <kv>гульк! — и кӧшыд куш</kv>
+
+          <t lang="ru">глоток — и ковш пустой</t>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head><range>диал.</range></head>
+
+          <t lang="ru">глоток;</t>
+
+          <assoc assocType="seeAlso">вом тыр_N</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>гунь-гонь</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">настороженно</t>
+        </m>
+
+        <x>
+          <kv>вӧв юрсӧ гунь-гонь лэптіс</kv>
+
+          <t lang="ru">лошадь настороженно подняла голову</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>гур</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+  </entry>
+
+  <entry>
+    <lemma>гур-гар</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">с грохотом, с шумом</t>
+        </m>
+
+        <x>
+          <kv>гур-гар пачысь кыскыны гырнич</kv>
+
+          <t lang="ru">с шумом вытащить из печки кринку</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>гурс</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">с шумом, скребя</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>гутш</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">с хрустом</t>
+        </m>
+
+        <x>
+          <kv>гутш чегны</kv>
+
+          <t lang="ru">с хрустом сломаться</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>гым</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e RN="II">
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">бац! хлоп! трах!</t>
+        </m>
+
+        <x>
+          <kv>гым ! ~ ! — лыйсисны кыйсьысьяс</kv>
+
+          <t lang="ru">бац! бац! — стреляли охотники</t>
+        </x>
+
+        <x>
+          <kv>гым лыйис пищальысь</kv>
+
+          <t lang="ru">он бабахнул из ружья</t>
+        </x>
+
+        <x>
+          <kv>кулакнас мышкӧ гым да ~ !</kv>
+
+          <t lang="ru">он меня кулаком по спине трах!</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>гып</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">хлоп! <clarif>о выстреле, ударе</clarif></t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>дзен</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">бах</t>
+        </m>
+
+        <x>
+          <kv>дзен инмалісны пуляяс</kv>
+
+          <t lang="ru">бах попадали пули</t>
+        </x>
+
+        <x>
+          <kv>пищальӧн ошлы сьӧлӧмас дзен</kv>
+
+          <t lang="ru">бах из ружья медведю в сердце</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>дзен-дзен</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">всласть; до отвала; плотно</t>
+        </m>
+
+        <x>
+          <kv>дзен-дзен сёйны</kv>
+
+          <t lang="ru">наесться до отвала; поесть всласть</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>дзиж</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e RN="I">
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">шипение масла или опущенного в воду раскалённого
+          металла</t>
+        </m>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">жужжание пилы и т.п.</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>дзиз</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">жужжание <clarif>насекомых, пули и т.д.</clarif></t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>дзум</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head><com>в роли сказ. и при глаголах</com></head>
+
+          <t lang="ru">юрк, швырк</t>
+        </m>
+
+        <x>
+          <kv>письмӧ чукӧр пачӧ дзум</kv>
+
+          <t lang="ru">пачку писем швырк в печь</t>
+        </x>
+
+        <x>
+          <kv>утка дзум ваӧ и воши</kv>
+
+          <t lang="ru">утка юрк в воду и пропала</t>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head><range>диал.</range></head>
+
+          <t lang="ru">плотно, вплотную; крепко</t>
+        </m>
+
+        <x>
+          <kv>дзум водны</kv>
+
+          <t lang="ru">лечь вплотную</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>дзурк</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e RN="II">
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">скрип</t>
+        </m>
+
+        <x>
+          <kv>башмак дзурк-~</kv>
+
+          <t lang="ru">башмаки скрип-скрип</t>
+        </x>
+
+        <x>
+          <kv>дзирк ни дзурк оз кыв</kv>
+
+          <t lang="ru">ни шороха ни скрипа не слышно</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>дзурлик</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">скрип-скрип</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>дзурс</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">скрип</t>
+        </m>
+
+        <x>
+          <kv>дзурс восьтыны</kv>
+
+          <t lang="ru">открыть со скрипом</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>дув-дов</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">шатаясь, раскачиваясь</t>
+        </m>
+
+        <x>
+          <kv>дув-дов мунны</kv>
+
+          <t lang="ru">идти шатаясь <clarif>от изнеможения</clarif></t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>дізь</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head><com>в роли сказ.</com></head>
+
+          <t lang="ru">бац; хлоп</t>
+        </m>
+
+        <x>
+          <kv>гӧрбас дізь</kv>
+
+          <t lang="ru">хлоп по спине</t>
+        </x>
+
+        <x>
+          <kv>мышкуӧ дізь</kv>
+
+          <t lang="ru">бац по спине</t>
+        </x>
+
+        <x>
+          <kv>пищальӧн дізь</kv>
+
+          <t lang="ru">бах из ружья</t>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head><drvg>
+              <drv><lemma></lemma> <stem></stem></drv>
+            </drvg></head>
+
+          <t lang="ru">совершенно неподвижно <clarif>сидеть,
+          лежать</clarif></t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>дітш</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">бах, хлоп</t>
+        </m>
+
+        <x>
+          <kv>гӧрбӧ дітш</kv>
+
+          <t lang="ru">бах по спине</t>
+        </x>
+
+        <x>
+          <kv>дітш лыйны</kv>
+
+          <t lang="ru">бах выстрелить</t>
+        </x>
+
+        <x>
+          <kv>пӧртӧ дітш</kv>
+
+          <t lang="ru">в котёл хлоп</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>жбольк-жбольк</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">буль-буль</t>
+        </m>
+
+        <x>
+          <kv>жбольк-жбольк сӧмын и кылӧ берег дорсянь</kv>
+
+          <t lang="ru">буль-буль только и слышно со стороны берега</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>жмут</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">бух!</t>
+        </m>
+
+        <x>
+          <kv>пельпом вывсьыс чуркаыс муӧ жмут! уси</kv>
+
+          <t lang="ru">чурбан с плеч на землю — бух!</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>журк</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">— о быстром движении</t>
+        </m>
+
+        <x>
+          <kv>журк бергӧдчыны</kv>
+
+          <t lang="ru">быстро повернуться</t>
+        </x>
+
+        <x>
+          <kv>ӧшинь увті журк гӧнитіс тройка</kv>
+
+          <t lang="ru">под окном пронеслась тройка</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>зиль-зёль</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">звяк-бряк; с дребезгом</t>
+        </m>
+
+        <x>
+          <kv>зиль-зёль жугавны</kv>
+
+          <t lang="ru">разбиться со звоном</t>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">динь-динь <clarif>о звоне колокольчика</clarif></t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>зильк-зёльк</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <assoc MNo="1" assocType="see">зиль-зёль</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>зур</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head><com>в роли сказ.</com></head>
+
+          <t lang="ru">пырнуть</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>зур-зар</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">с шумом, с треском, ударяясь <gov>обо что-л.</gov></t>
+
+          <t lang="ru">натыкаясь <gov>на что-л.</gov></t>
+        </m>
+
+        <x>
+          <kv>зур-зар петны</kv>
+
+          <t lang="ru">выйти, натыкаясь на всё</t>
+        </x>
+
+        <x type="riddle">
+          <kv>зур-зар пырӧ, люс-лёс петӧ</kv>
+
+          <t lang="ru">заходит стуча, выходит плескаясь</t>
+
+          <answer>
+            <kv>чепня</kv>
+
+            <t lang="ru">бадья</t>
+          </answer>
+        </x>
+
+        <x>
+          <kv>◊ зур-зар кодь вӧв</kv>
+
+          <t lang="ru">торопливая, неспокойная лошадь</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>зури-зари</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <assoc MNo="1" assocType="see">зур-зар</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>зурк-зӧрк</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <assoc MNo="1" assocType="see">зур-зар</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>зутш</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">тык! бак!</t>
+        </m>
+
+        <x>
+          <kv>межпи плешнас зутш !</kv>
+
+          <t lang="ru">баранчик лбом тык!</t>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head><range>диал.</range></head>
+
+          <t lang="ru">вдруг, неожиданно</t>
+        </m>
+
+        <x>
+          <kv>зутш сувтны</kv>
+
+          <t lang="ru">остановиться, как вкопанный</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>зым</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">бах! грох!</t>
+        </m>
+
+        <x>
+          <kv>муӧ зым !</kv>
+
+          <t lang="ru">грох об землю!</t>
+        </x>
+
+        <x>
+          <kv>мышкас зым вартіс !</kv>
+
+          <t lang="ru">бах по спине ударил!</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>зыми-йирки</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">с грохотом, грохоча</t>
+        </m>
+
+        <x>
+          <kv>пос вывті зыми-йирки грымӧдісны вӧлаяс</kv>
+
+          <t lang="ru">подводы с грохотом ехали по мосту</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>зырк</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru"><clarif>о грохоте, содрогании</clarif></t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>зіми-йирки</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">стук-бряк</t>
+        </m>
+
+        <x>
+          <kv>гӧгӧр зіми-йирки</kv>
+
+          <t lang="ru">кругом стук-бряк</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>зӧрк</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">трах-тарарах; стук-стук</t>
+        </m>
+
+        <x>
+          <kv>пос вывтіыс телегаыс зӧрк да ~</kv>
+
+          <t lang="ru">по мосту телега тарахтит</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>йирк</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e RN="II">
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">стук</t>
+        </m>
+
+        <x>
+          <kv>йирк да кам</kv>
+
+          <t lang="ru">стук, стукотня</t>
+        </x>
+
+        <x>
+          <kv>йирк да тарк</kv>
+
+          <t lang="ru">стук-бряк</t>
+        </x>
+
+        <x>
+          <kv>кильчӧӧ кодкӧ йирк-~</kv>
+
+          <t lang="ru">в крыльцо кто-то стук-стук</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>йирк-кам</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">с грохотом, с шумом</t>
+        </m>
+
+        <x>
+          <kv>йирк-кам лэдзны баржа вылысь трап</kv>
+
+          <t lang="ru">с грохотом опустить с баржи трап</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>йирки-тарки</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">с шумом, с грохотом</t>
+
+          <assoc MNo="1" assocType="seeAlso">грыма-грама</assoc>
+        </m>
+
+        <x>
+          <kv>йирки-тарки гӧнитны</kv>
+
+          <t lang="ru">с грохотом скакать</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>каж</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">хрусть, с хрустом, с треском</t>
+        </m>
+
+        <x>
+          <kv>каж курччыны</kv>
+
+          <t lang="ru">откусить с хрустом</t>
+        </x>
+
+        <x>
+          <kv>каж чегны</kv>
+
+          <t lang="ru">сломаться с треском</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>кам</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+  </entry>
+
+  <entry>
+    <lemma>катш</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <assoc MNo="1" assocType="see">котш</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>кикуруллю</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">кукареку</t>
+        </m>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head register="motherese"></head>
+
+          <t lang="ru">петушок</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>кильк-кильк</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">хи-хи</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>китш</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head><com>подражание стрекотанию сороки</com></head>
+
+          <t lang="ru"></t>
+        </m>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">хи-хи</t>
+        </m>
+
+        <x>
+          <kv>китш серӧктыны</kv>
+
+          <t lang="ru">хихикнуть-засмеяться</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>китши-котши</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">тук-тук</t>
+        </m>
+
+        <x>
+          <kv>китши-котши муніс джодж кузя</kv>
+
+          <t lang="ru">тук-тук прошёл по полу</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>клес</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">хлоп; громко, с шумом</t>
+        </m>
+
+        <x>
+          <kv>клес шыбитны</kv>
+
+          <t lang="ru">сбросить с шумом</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>клоп</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">хлоп</t>
+        </m>
+
+        <x>
+          <kv>клоп пӧдласьны</kv>
+
+          <t lang="ru">захлопнуться</t>
+        </x>
+
+        <x>
+          <kv>клоп пырны</kv>
+
+          <t lang="ru">зайти неожиданно, внезапно</t>
+        </x>
+
+        <x>
+          <kv>клоп шуны</kv>
+
+          <t lang="ru">сказать в глаза; сказать напрямик, без обиняков</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>клотш</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">хруст <clarif>(в суставах)</clarif></t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>клуп-клоп</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">хлоп-хлоп</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>клюв</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">курлы <clarif>(крик журавлей)</clarif></t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>клюн-клён</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">гулко стуча; с гулким стуком</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>клён</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">бряк; со звоном</t>
+        </m>
+
+        <x>
+          <kv>клён паньсӧ пуктіс</kv>
+
+          <t lang="ru">со звоном положил ложку</t>
+        </x>
+
+        <x>
+          <kv>клён дорис юсӧ</kv>
+
+          <t lang="ru"><sns>перен.</sns>крепко сковал реку</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>ков</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e RN="II">
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">бах! хлоп! стук!</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>колс</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">стук! щёлк!</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>котш</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">тук, стук</t>
+        </m>
+
+        <x>
+          <kv>кутш ни котш оз кыв</kv>
+
+          <t lang="ru">не слышно ни звука</t>
+
+          <literal>
+            <t lang="ru">стука</t>
+          </literal>
+        </x>
+
+        <x>
+          <kv>оз радейт зунясьны: котш-~ — и ставыс</kv>
+
+          <t lang="ru">не любит возиться: тук-тук — и готово</t>
+        </x>
+
+        <x>
+          <kv>сизь нырнас котш да ~</kv>
+
+          <t lang="ru">дятел носом тук да тук</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>крав-крав</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">кар-кар <clarif>(карканье вороны)</clarif></t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>крап</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">хлоп! бряк!</t>
+        </m>
+
+        <x>
+          <kv>крап уськӧдны</kv>
+
+          <t lang="ru">хлоп! уронить</t>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">наобум</t>
+        </m>
+
+        <x>
+          <kv>крап шуны</kv>
+
+          <t lang="ru">наобум сказать</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>кув</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">бах</t>
+        </m>
+
+        <x>
+          <kv>кув лыйны</kv>
+
+          <t lang="ru">бах выстрелить</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>куж-каж</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">хруст, хряск</t>
+        </m>
+
+        <x>
+          <kv>куж-каж сёйны</kv>
+
+          <t lang="ru">проглотить с хрустом</t>
+        </x>
+
+        <x>
+          <kv>куж-каж чегны</kv>
+
+          <t lang="ru">переломить с хрустом</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>кукку</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">ку-ку</t>
+        </m>
+
+        <x>
+          <kv>◊ кукку кольны</kv>
+
+          <t lang="ru">остаться на бобах, остаться ни с чем</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>кун-кон</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">гулкий; пустой QXQX гулко, пусто</t>
+        </m>
+
+        <x>
+          <kv>йӧртӧдыс кун-кон</kv>
+
+          <t lang="ru">закрома пустые, гулкие</t>
+        </x>
+
+        <x>
+          <kv>кок шыӧй палуба вылын кун-кон кылӧ</kv>
+
+          <t lang="ru">по палубе гулко застучали мои шаги</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>куннар-каннар</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">пиликанье</t>
+        </m>
+
+        <x>
+          <kv>таллянкалӧн куннар-каннар шы</kv>
+
+          <t lang="ru">пиликанье тальянки</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>кур</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">гулю-гулю <clarif>(о голубях)</clarif></t>
+        </m>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">мур-р <clarif>(о кошке)</clarif></t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>курр</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">гулю-гулю <clarif>(о голубях)</clarif></t>
+        </m>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">мур-р <clarif>(о кошке)</clarif></t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>кутш-котш</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">тук-тук;</t>
+        </m>
+
+        <x>
+          <kv>кутш-котш пырисны нывъяс</kv>
+
+          <t lang="ru">тук-тук вошли девочки</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>лиги-леги</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <assoc MNo="1" assocType="see">люги-леги</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>люв-ляв</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">гав-гав</t>
+        </m>
+
+        <x>
+          <kv>понйыс сьӧдбӧжӧс туялӧма, люв-ляв увтышталіс</kv>
+
+          <t lang="ru">собака выследила горностая, временами тявкала</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>люки-буки</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">с грохотом, волоком</t>
+
+          <assoc MNo="1" assocType="seeAlso">гири-люки</assoc>
+        </m>
+
+        <x>
+          <kv>люки-буки вӧтлыны</kv>
+
+          <t lang="ru">вытолкать <gov>кого-л.</gov></t>
+        </x>
+
+        <x>
+          <kv>люки-буки кыскыны</kv>
+
+          <t lang="ru">вытащить волоком</t>
+        </x>
+
+        <x>
+          <kv>◊ люки-буки бӧр локны</kv>
+
+          <t lang="ru">вернуться, не солоно хлебавши</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>лютки-летки</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">небрежно, непрочно, кое-как</t>
+        </m>
+
+        <x>
+          <kv>лютки-летки тувъявны майӧг</kv>
+
+          <t lang="ru">непрочно, кое-как забить кол</t>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">неуклюже, неловко<com>взять, нести что-л.</com></t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>лютки-петки</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">расхлябанно QXQX расхлябанный</t>
+        </m>
+
+        <x>
+          <kv>лютки-петки вӧчӧм дзиръя</kv>
+
+          <t lang="ru">расхлябанно сделанная калитка</t>
+        </x>
+
+        <x>
+          <kv>армияӧ мунысьлы оз позь лоны лютки-петкиӧн</kv>
+
+          <t lang="ru">будущему солдату нельзя быть расхлябанным</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>лёт</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">:</t>
+        </m>
+
+        <x>
+          <kv>юрыс лёт ӧшӧдчис</kv>
+
+          <t lang="ru">голова поникла</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>муткыль-пескыль</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">извиваясь; неуклюже ворочаясь</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>няв</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">мяу!</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>ням</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head register="motherese"></head>
+
+          <t lang="ru">ам!</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>пульс-пальс</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">:</t>
+        </m>
+
+        <x>
+          <kv>пульс-пальс мыськыштны</kv>
+
+          <t lang="ru">всполоснуть, слегка помыть</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>пурк-парк</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">поспешно, второпях, с шумом</t>
+        </m>
+
+        <x>
+          <kv>пурк-парк чабраліс газетсӧ</kv>
+
+          <t lang="ru">он поспешно, с шумом скомкал газету</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>пусь-пась</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">вдребезги</t>
+        </m>
+
+        <x>
+          <kv>пусь-пась жугавны</kv>
+
+          <t lang="ru">разбиться вдребезги</t>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">кавардак <register>разг.</register></t>
+        </m>
+
+        <x>
+          <kv>керкаас пусь-пась</kv>
+
+          <t lang="ru">в доме кавардак</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>пушкыр-пашкыр</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">раскидистый <clarif>о дереве</clarif></t>
+        </m>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">пушистый <clarif>о шерсти, волосах</clarif></t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>ратш</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">хруп, треск</t>
+        </m>
+
+        <x>
+          <kv>ратш чегны</kv>
+
+          <t lang="ru">сломаться с глухим треском</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>резь</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <e RN="I">
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">хлоп; треск</t>
+        </m>
+
+        <x>
+          <kv>резь лыйис</kv>
+
+          <t lang="ru">хлоп выстрелил</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>резь-резь</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">:</t>
+        </m>
+
+        <x>
+          <kv>резь-резь сёйны</kv>
+
+          <t lang="ru">наесться до отвала</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>руз-паз</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">вразброс</t>
+        </m>
+
+        <x>
+          <kv>документъяс ставыс руз-паз</kv>
+
+          <t lang="ru">документы находятся в хаотическом состоянии</t>
+        </x>
+
+        <x>
+          <kv>кӧлуй шыблалӧма руз-паз</kv>
+
+          <t lang="ru">вещи валяются вразброс</t>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head><range>диал.</range></head>
+
+          <t lang="ru">вдребезги;</t>
+
+          <assoc MNo="1" assocType="seeAlso">пусь-пась</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>руз-раз</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <assoc MNo="1" assocType="see">руз-паз</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>рук-рук</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">навзрыд</t>
+        </m>
+
+        <x>
+          <kv>рук-рук бӧрддзыны</kv>
+
+          <t lang="ru">заплакать навзрыд</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>рук-рукӧн</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <assoc MNo="1" assocType="see">рук-рук</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>руп-роп</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">висит, обвисло <clarif>о дряблом теле</clarif></t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>сюль-сяль</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">— о плеске, плескании воды</t>
+        </m>
+
+        <x>
+          <kv>ваӧ сюль-сяль пырис кӧмтӧгыс</kv>
+
+          <t lang="ru">он босиком зашлёпал по воде</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>сюр-сяр</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">трах-тарарах</t>
+        </m>
+
+        <x>
+          <kv>сюр-сяр лэччыны кильчӧ поскӧд</kv>
+
+          <t lang="ru">трах-тарарах спуститься по лестнице</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>сюр-сярк</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <assoc MNo="1" assocType="see">сюр-сяр</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тарк</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">стук; тук</t>
+        </m>
+
+        <x>
+          <kv>кодкӧ ӧдзӧсӧ тарк-~</kv>
+
+          <t lang="ru">кто-то в дверь: тук-тук</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тив</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">бесшумно</t>
+        </m>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">плавно</t>
+        </m>
+
+        <x>
+          <kv>тив исковтіс</kv>
+
+          <t lang="ru">плавно покатился</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тивк</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">прыг, скок</t>
+        </m>
+
+        <x>
+          <kv>тивк да тивк , лыбавлісны йӧктысьяс</kv>
+
+          <t lang="ru">прыг-прыг скакали пляшущие</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тинь</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <assoc MNo="1" assocType="see">тінь</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тиу</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">чив; чивиканье</t>
+        </m>
+
+        <x>
+          <kv>юр весьтын кыліс тиу-~</kv>
+
+          <t lang="ru">над головой послышалось чивиканье</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тотш</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head><com>в роли сказ.</com></head>
+
+          <t lang="ru">стук, тук</t>
+        </m>
+
+        <x>
+          <kv>кодкӧ ӧшиньӧ тотш-~</kv>
+
+          <t lang="ru">кто-то в окно стук-тук</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тран</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">неподвижно, как вкопанный</t>
+        </m>
+
+        <x>
+          <kv>тран сувтны</kv>
+
+          <t lang="ru">остановиться как вкопанный</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>трин-трон</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">звук, изображающий пустоту</t>
+        </m>
+
+        <x>
+          <kv>керкаас трин-трон</kv>
+
+          <t lang="ru">в избе пусто <clarif>(хоть шаром покати)</clarif></t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тринь</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">динь, дзинь</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тринь-бринь</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">прыг-скок</t>
+        </m>
+
+        <x>
+          <kv>тринь-бринь мунны</kv>
+
+          <t lang="ru">идти подпрыгивающей походкой</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тринь-тринь</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">динь-динь</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тринь-тронь</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">трень-брень</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>трич</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">чик!</t>
+        </m>
+
+        <x>
+          <kv>бордъяссӧ, бӧжсӧ — трич !</kv>
+
+          <t lang="ru">крылья, хвост — чик!</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>трунь-тронь</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">бряк-звяк</t>
+        </m>
+
+        <x>
+          <kv>ведраыс трунь-тронь тутіс кытчӧкӧ пемыдас</kv>
+
+          <t lang="ru">ведро с грохотом полетело куда-то в темноту</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тулуллу</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+  </entry>
+
+  <entry>
+    <lemma>туль-толь</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">динь-динь</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>туп-тап</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">топ-топ; шлёп-шлёп</t>
+        </m>
+
+        <x>
+          <kv>туп-тап котӧртны ӧдзӧслань</kv>
+
+          <t lang="ru">потопать-побежать к двери</t>
+        </x>
+
+        <x>
+          <kv>мышкӧ кодкӧ туп-тап</kv>
+
+          <t lang="ru">кто-то по спине шлёп-шлёп</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тур-бар</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">быстро, невнятно</t>
+        </m>
+
+        <x>
+          <kv>тур-бар висьтавны</kv>
+
+          <t lang="ru">тараторить, трещать</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тур-бор</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">быстро, невнятно</t>
+        </m>
+
+        <x>
+          <kv>тур-бор висьтавны</kv>
+
+          <t lang="ru">тараторить, трещать</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тур-тар</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">со стуком; с шумом</t>
+        </m>
+
+        <x>
+          <kv>тур-тар лэччыны паччӧрысь</kv>
+
+          <t lang="ru">с шумом спуститься с печи</t>
+        </x>
+
+        <x>
+          <kv>тур-тар пырны</kv>
+
+          <t lang="ru">с шумом зайти</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>турки-тарки</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">с грохотом, грохоча; с шумом, со стуком</t>
+        </m>
+
+        <x>
+          <kv>турки-тарки лэччыны кильчӧ вылысь</kv>
+
+          <t lang="ru">с грохотом спуститься с крыльца</t>
+        </x>
+
+        <x>
+          <kv>турки-таркиӧн петкӧдны керкаысь</kv>
+
+          <t lang="ru">с шумом вывести из избы</t>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">кубарем, кувырком</t>
+        </m>
+
+        <x>
+          <kv>турки-тарки усьны</kv>
+
+          <t lang="ru">кубарем слететь</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>турки-таркиӧн</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">с грохотом, грохоча; с шумом, со стуком</t>
+        </m>
+
+        <x>
+          <kv>турки-таркиӧн лэччыны кильчӧ вылысь</kv>
+
+          <t lang="ru">с грохотом спуститься с крыльца</t>
+        </x>
+
+        <x>
+          <kv>турки-таркиӧн петкӧдны керкаысь</kv>
+
+          <t lang="ru">с шумом вывести из избы</t>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">кубарем, кувырком</t>
+        </m>
+
+        <x>
+          <kv>турки-таркиӧн усьны</kv>
+
+          <t lang="ru">кубарем слететь</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тутш-татш</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">тук-тук; стук-стук</t>
+        </m>
+
+        <x>
+          <kv>пызанӧ тутш-татш</kv>
+
+          <t lang="ru">об стол — тук-тук</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тутш-тотш</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">тук-тук; стук-стук</t>
+        </m>
+
+        <x>
+          <kv>пызанӧ тутш-тотш</kv>
+
+          <t lang="ru">об стол — тук-тук</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тшавк</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">хвать</t>
+        </m>
+
+        <x>
+          <kv>кисӧ тшавк !</kv>
+
+          <t lang="ru">руку хвать!</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тшувк-тшавк</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">очень быстро</t>
+        </m>
+
+        <x>
+          <kv>тшувк-тшавк сёйны</kv>
+
+          <t lang="ru">перекусить, перехватить</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тювк</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">шмыг; юрк</t>
+        </m>
+
+        <x>
+          <kv>тювк исковтны</kv>
+
+          <t lang="ru">юрк — скатиться</t>
+        </x>
+
+        <x>
+          <kv>шыр тювк пырис розьӧ</kv>
+
+          <t lang="ru">мышка шмыг в дыру</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тюп-тяп</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">тяп-ляп; кое-как</t>
+        </m>
+
+        <x>
+          <kv>тюп-тяп вӧчавны</kv>
+
+          <t lang="ru">тяп-ляп делать</t>
+        </x>
+
+        <x>
+          <kv>тюп-тяп сёйны</kv>
+
+          <t lang="ru">перекусить, перехватить</t>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">шлёп</t>
+        </m>
+
+        <x>
+          <kv>ва гуранъясті тюп-тяп</kv>
+
+          <t lang="ru">по лужам шлёп да шлёп</t>
+        </x>
+      </mg>
+
+      <mg MNo="3">
+        <m>
+          <head></head>
+
+          <t lang="ru">чмок-чмок</t>
+        </m>
+
+        <x>
+          <kv>тюп-тяп вом доръясӧн</kv>
+
+          <t lang="ru">чмокать губами</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тюп-тёп</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">кап-кап</t>
+        </m>
+
+        <x>
+          <kv>ва тюп-тёп виялӧ</kv>
+
+          <t lang="ru">вода едва капает</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тяп</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <assoc MNo="1" assocType="see">тюп-тяп</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тёльс</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">бряк</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тёп</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e RN="I">
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">кап-кап</t>
+        </m>
+
+        <x>
+          <kv>вевт вылысь войтва тёп-~</kv>
+
+          <t lang="ru">капель с крыши кап-кап</t>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">капля; крошка</t>
+        </m>
+
+        <x>
+          <kv>ваыс тёп абу</kv>
+
+          <t lang="ru">воды ни капли нет</t>
+        </x>
+
+        <x>
+          <kv>тёп эз коль</kv>
+
+          <t lang="ru">ни крошки не осталось</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тіг-тіг</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">дёрг-дёрг</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тільс</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">навзрыд</t>
+        </m>
+
+        <x>
+          <kv>тільс бӧрддзыны</kv>
+
+          <t lang="ru">заплакать навзрыд</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тільс-тольс</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">бряк-звяк</t>
+        </m>
+
+        <x>
+          <kv>тільс-тольс вӧчыштас лэчтаннас</kv>
+
+          <t lang="ru">бряк-звяк точильным бруском по косе</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тінь</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">динь</t>
+        </m>
+
+        <x>
+          <kv>со ӧдзӧсын и дыр виччысяна тінь</kv>
+
+          <t lang="ru">вот и долгожданный динь-динь в дверях</t>
+        </x>
+
+        <x>
+          <kv>◊ тінь-~ кольны</kv>
+
+          <t lang="ru">остаться нагишом</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тір-тір</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head><com>в роли сказ.</com></head>
+
+          <t lang="ru">дрыг</t>
+        </m>
+
+        <x>
+          <kv>кокнас тір-тір</kv>
+
+          <t lang="ru">он ногой дрыг-дрыг</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тітш-тотш</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">тук-тук</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тіч-тач</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">тик-так</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тіч-точ</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">тик-так</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тічи-точи</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <assoc MNo="1" assocType="see">тіч-точ</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>тӧрс</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">чик</t>
+        </m>
+
+        <x>
+          <kv>кӧсаӧй уси киысь и тӧрс!</kv>
+
+          <t lang="ru">коса выпала из рук и чик! <clarif>(сломалась)</clarif></t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>ув</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e RN="III">
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">гав</t>
+        </m>
+
+        <x>
+          <kv>ув-ув!</kv>
+
+          <t lang="ru">гав-гав!</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>ув-ав</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">шум, гомон, гвалт</t>
+        </m>
+
+        <x>
+          <kv>ув-ав мунісны</kv>
+
+          <t lang="ru">ушли с шумом</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>ува-ава</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">шум, гомон, гвалт</t>
+        </m>
+
+        <x>
+          <kv>ува-ава мунісны</kv>
+
+          <t lang="ru">ушли с шумом</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>ур-вар</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <assoc MNo="1" assocType="see">ув-ав</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>чарс</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e RN="II">
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">чирк</t>
+        </m>
+
+        <x>
+          <kv>чарс биасьны</kv>
+
+          <t lang="ru">чиркнуть спичкой</t>
+        </x>
+
+        <x>
+          <kv>чарс серӧктыны</kv>
+
+          <t lang="ru">громко рассмеяться</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>чив-чив</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">чивик-чивик</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>чилик-чок</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">чик-чирик</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>чилс</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">чик; вжик</t>
+        </m>
+
+        <x>
+          <kv>чилс вундыны бадь вож</kv>
+
+          <t lang="ru">чик отрезать ивовую ветку</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>чирк</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e RN="III">
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">чик</t>
+        </m>
+
+        <x>
+          <kv>чирк-~ карандашӧн бумага вывті</kv>
+
+          <t lang="ru">чик-чик карандашом по бумаге</t>
+        </x>
+
+        <x>
+          <kv>чирк сьӧвзьыны</kv>
+
+          <t lang="ru">сплюнуть сквозь зубы</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>чуж-чаж</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">с треском</t>
+        </m>
+
+        <x>
+          <kv>чуж-чаж косявны</kv>
+
+          <t lang="ru">разорвать, порвать с треском</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>чук-чуки</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">цок-цок</t>
+        </m>
+
+        <x>
+          <kv>пожӧм вылын чук-чуки шыасис ур</kv>
+
+          <t lang="ru">на сосне цокала белка</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>чуп</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">чмок</t>
+        </m>
+
+        <x>
+          <kv>чуп да чоп окалӧны кагаӧс</kv>
+
+          <t lang="ru">чмок-чмок целуют ребёнка</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>чуш-чаш</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">с шумом, сердито, резко</t>
+        </m>
+
+        <x>
+          <kv>чуш-чаш пӧрччис гачсӧ</kv>
+
+          <t lang="ru">с шумом снял брюки</t>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">с фырканьем, с шумом</t>
+        </m>
+
+        <x>
+          <kv>чуш-чаш сотчис уль пес</kv>
+
+          <t lang="ru">с фырканьем горели сырые дрова</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>швач-швач</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">хлоп-хлоп</t>
+        </m>
+
+        <x>
+          <kv>бордъясӧн швач-швач</kv>
+
+          <t lang="ru">крыльями хлоп-хлоп</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>швуч-швач</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">хлоп-хлоп, шлёп-шлёп</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>швырк</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">быстро, круто, рывком</t>
+        </m>
+
+        <x>
+          <kv>швырк бергӧдчыны</kv>
+
+          <t lang="ru">круто повернуться</t>
+        </x>
+
+        <x>
+          <kv>швырк чеччыны</kv>
+
+          <t lang="ru">резко встать</t>
+        </x>
+
+        <x>
+          <kv>швырк пӧрччыны паськӧм</kv>
+
+          <t lang="ru">быстро раздеться</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>шков</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">бах, бух, хлоп</t>
+        </m>
+
+        <x>
+          <kv>балябӧжӧ шков</kv>
+
+          <t lang="ru">бах! в затылок</t>
+        </x>
+
+        <x>
+          <kv>шков серӧктыны</kv>
+
+          <t lang="ru">громко рассмеяться</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>шкув-шков</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">бах-бах</t>
+        </m>
+
+        <x>
+          <kv>мышкын шкув-шков</kv>
+
+          <t lang="ru">за спиной бах-бах</t>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">гулко</t>
+        </m>
+
+        <x>
+          <kv>шкув-шков кучкыны пуӧ</kv>
+
+          <t lang="ru">гулко ударить по дереву</t>
+        </x>
+
+        <x>
+          <kv>шкув-шков! лыйны</kv>
+
+          <t lang="ru">бах! выстрелить</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>шлап</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e RN="II">
+      <mg>
+        <m>
+          <head><com>нареч.</com></head>
+
+          <t lang="ru">шлёп</t>
+        </m>
+
+        <x>
+          <kv>шлап пуксьыны</kv>
+
+          <t lang="ru">шлёпнуться-сесть</t>
+        </x>
+
+        <x>
+          <kv>кисӧ бокас шлап</kv>
+
+          <t lang="ru">руками шлёп по бокам</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>шлич-шляч</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">хлоп-хлоп</t>
+        </m>
+
+        <x>
+          <kv>шлич-шляч кучкыны ки пыдӧсӧн</kv>
+
+          <t lang="ru">хлоп-хлоп ударить ладонью</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>шлоп</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">хлоп</t>
+        </m>
+
+        <x>
+          <kv>шлоп усьны</kv>
+
+          <t lang="ru">шлёпнуться; хлоп упасть</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>шлыв</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">плавно; легко</t>
+        </m>
+
+        <x>
+          <kv>шлыв кыпӧдчыны ю весьтӧ</kv>
+
+          <t lang="ru">взлететь над рекой</t>
+        </x>
+
+        <x>
+          <kv>шлыв лэбзьыны</kv>
+
+          <t lang="ru">плавно полететь</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>шляп</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e RN="I">
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">шлёп; плюх</t>
+        </m>
+
+        <x>
+          <kv>лым мач ӧшиньӧ шляп!</kv>
+
+          <t lang="ru">снежок в окно шлёп!</t>
+        </x>
+
+        <x>
+          <kv>шляп пуксьыны няйтӧ</kv>
+
+          <t lang="ru">плюхнуться в грязь</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>шлёп</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">плюх</t>
+        </m>
+
+        <x>
+          <kv>шлёп пуксьыны</kv>
+
+          <t lang="ru">плюхнуться-сесть</t>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">шлёп; бултых</t>
+        </m>
+
+        <x>
+          <kv>шлёп койыштны ваӧ</kv>
+
+          <t lang="ru">бултыхнуть в воду</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>шняп</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">шлёп, хлоп</t>
+        </m>
+
+        <x>
+          <kv>шняп усьны</kv>
+
+          <t lang="ru">шлёпнуться</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>шпач-шпач</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">хлоп-хлоп</t>
+        </m>
+
+        <x>
+          <kv>шпач-шпач лэбзьыны</kv>
+
+          <t lang="ru">полететь с хлопаньем</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>шпорк</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">хлоп</t>
+        </m>
+
+        <x>
+          <kv>шпорк лэбзьыны</kv>
+
+          <t lang="ru">полететь с хлопаньем</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>штяп</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">шлёп</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>шувки-павки</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">неуклюже; неаккуратно; как попало</t>
+        </m>
+
+        <x>
+          <kv>шувки-павки петны</kv>
+
+          <t lang="ru">неуклюже выйти</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>шувки-шевки</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">растрёпанный, взъерошенный, взлохмаченный;
+          расстёгнутый, неаккуратный</t>
+        </m>
+
+        <x>
+          <kv>шувки-шевки юрсиа</kv>
+
+          <t lang="ru">с растрёпанными волосами</t>
+        </x>
+
+        <x>
+          <kv>шувки-шевки ветлыны сиктӧд</kv>
+
+          <t lang="ru">ходить по деревне растрёпанным</t>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">с шумом, быстро</t>
+        </m>
+
+        <x>
+          <kv>шувки-шевки петны ывлаӧ</kv>
+
+          <t lang="ru">вывалиться на улицу</t>
+        </x>
+
+        <x>
+          <kv>шувки-шевки пырны</kv>
+
+          <t lang="ru">зайти с шумом</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>шурк</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">мгновенно, быстро; вмиг; в мгновение ока</t>
+        </m>
+
+        <x>
+          <kv>шурк бергӧдчыны</kv>
+
+          <t lang="ru">быстро повернуться</t>
+        </x>
+
+        <x>
+          <kv>шурк восьтны</kv>
+
+          <t lang="ru">быстро открыть</t>
+        </x>
+
+        <x>
+          <kv>шурк пырис керкаӧ</kv>
+
+          <t lang="ru">вмиг вошёл в избу</t>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">поспешно, второпях; на скорую руку <clarif>чаще
+          небрежно</clarif>; с шумом, шумно</t>
+        </m>
+
+        <x>
+          <kv>шурк пасьтасьны</kv>
+
+          <t lang="ru">поспешно одеться</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>шурк-шарк</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru"></t>
+
+          <assoc assocType="see">шурк_IDEOPH</assoc>
+        </m>
+
+        <x>
+          <kv>шурк-шарк матыстчыны</kv>
+
+          <t lang="ru">мгновенно подойти</t>
+        </x>
+
+        <x>
+          <kv>вӧр лэдзысь шурк-шарк пӧрӧдіс пу</kv>
+
+          <t lang="ru">лесоруб в мгновение ока свалил дерево</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>шурки-шарки</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">безалаберный <register>разг.</register>; беспечный,
+          делающий всё на скорую руку, второпях, небрежно</t>
+        </m>
+
+        <x>
+          <kv>шурки-шарки зон</kv>
+
+          <t lang="ru">беспечный парень</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>ыз</lemma>
+
+    <stem></stem>
+
+    <contlex>ONOM-End</contlex>
+
+    <pos>PART-ONOM</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">бултых</t>
+        </m>
+
+        <x>
+          <kv>ваӧ ыз пырны</kv>
+
+          <t lang="ru">бултых в воду</t>
+        </x>
+
+        <x>
+          <kv>ыз серӧктыны</kv>
+
+          <t lang="ru">разразиться хохотом</t>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">ж-ж-ж <clarif>о жужжании</clarif></t>
+        </m>
+      </mg>
+
+      <mg MNo="3">
+        <m>
+          <head></head>
+
+          <t lang="ru">настежь</t>
+        </m>
+
+        <x>
+          <kv>ӧдзӧсыс ыз восьса</kv>
+
+          <t lang="ru">дверь открыта настежь</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>ышки-пошки</lemma>
+
+    <stem></stem>
+
+    <contlex>DESCR-End</contlex>
+
+    <pos>PART-DESCR</pos>
+
+    <drvg>
+      <drv><lemma></lemma> <stem></stem></drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <t lang="ru">тяжело дыша</t>
+        </m>
+
+        <x>
+          <kv>ышки-пошки пырны</kv>
+
+          <t lang="ru">войти тяжело дыша</t>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <t lang="ru">тихонько, таясь</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
 </dict>
