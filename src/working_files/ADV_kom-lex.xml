@@ -3031,7 +3031,7 @@
     </e>
   </entry>
 
-  <entry>
+  <entry exclude="fst">
     <lemma>быдласянь</lemma>
 
     <stem>быдла</stem>
@@ -3058,7 +3058,7 @@
     </e>
   </entry>
 
-  <entry>
+  <entry exclude="fst">
     <lemma>быдлаті</lemma>
 
     <stem>быдла</stem>
@@ -3105,7 +3105,7 @@
 
     <stem>быдла</stem>
 
-    <contlex>ADV-SPAT</contlex>
+    <contlex>ADV-SPAT-LA</contlex>
 
     <pos>ADV</pos>
 
@@ -5726,7 +5726,7 @@
 
     <stem>выл</stem>
 
-    <contlex>ADVTAG</contlex>
+    <contlex>ADV-SPAT</contlex>
 
     <pos>ADV</pos>
 
@@ -5785,7 +5785,7 @@
     </e>
   </entry>
 
-  <entry>
+  <entry exclude="fst">
     <lemma>вылынджык</lemma>
 
     <stem></stem>
@@ -5811,7 +5811,7 @@
     </e>
   </entry>
 
-  <entry>
+  <entry exclude="fst">
     <lemma>вылысь</lemma>
 
     <stem></stem>
@@ -5848,6 +5848,90 @@
   </entry>
 
   <entry>
+    <lemma>выльлаын</lemma>
+
+    <stem>выльла</stem>
+
+    <contlex>ADV-SPAT-LA</contlex>
+
+    <pos>ADV</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">на новом месте</t>
+        </m>
+
+        <x>
+          <kv>выльлаын овны</kv>
+
+          <t lang="ru">жить на новом месте</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>выльлаысь</lemma>
+
+    <stem></stem>
+
+    <contlex>ADV-SPAT</contlex>
+
+    <pos>ADV</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">с нового места</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>выльлаӧ</lemma>
+
+    <stem></stem>
+
+    <contlex>ADV-SPAT</contlex>
+
+    <pos>ADV</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">на новое место</t>
+        </m>
+
+        <x>
+          <kv>выльлаӧ вуджны</kv>
+
+          <t lang="ru">перейти на новое место</t>
+        </x>
+
+        <x>
+          <kv>ключ выльлаӧ дзебны</kv>
+
+          <t lang="ru">перепрятать ключ</t>
+        </x>
+
+        <x>
+          <kv>выльлаӧ овмӧдчыны</kv>
+
+          <t lang="ru">переселиться</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
     <lemma>вылӧ</lemma>
 
     <stem></stem>
@@ -5899,7 +5983,7 @@
     </e>
   </entry>
 
-  <entry>
+  <entry exclude="fst">
     <lemma>вылӧдз</lemma>
 
     <stem></stem>
@@ -9330,6 +9414,92 @@
   </entry>
 
   <entry>
+    <lemma>мукӧдлаті</lemma>
+
+    <stem></stem>
+
+    <contlex></contlex>
+
+    <pos></pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">местами; по другому месту, по другим местам</t>
+        </m>
+
+        <x>
+          <kv>мукӧдлатіыс зэрӧма</kv>
+
+          <t lang="ru">местами прошёл дождь</t>
+        </x>
+
+        <x>
+          <kv>мукӧдлатіыс тшӧкыд, а мукӧдлатіыс вывті гежӧд</kv>
+
+          <t lang="ru">местами густо, а местами слишком редко</t>
+        </x>
+
+        <x>
+          <kv>кыкнан кӧрт туйыс мунӧны орччӧн, мукӧдлатіыс пӧшти
+          ӧтлаасьлӧны</kv>
+
+          <t lang="ru">обе железнодорожные колеи идут рядом, в некоторых
+          местах почти сходятся</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>мукӧдлаын</lemma>
+
+    <stem>мукӧдла</stem>
+
+    <contlex>ADV-SPAT-LA</contlex>
+
+    <pos>ADV</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">в ином, в другом месте</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>мукӧдлаӧ</lemma>
+
+    <stem></stem>
+
+    <contlex></contlex>
+
+    <pos></pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">в другое место</t>
+        </m>
+
+        <x>
+          <kv>мукӧдлаӧ нуны</kv>
+
+          <t lang="ru">отнести в другое место</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
     <lemma>мыйӧн</lemma>
 
     <stem></stem>
@@ -9400,13 +9570,107 @@
   </entry>
 
   <entry>
+    <lemma>мӧдлаті</lemma>
+
+    <stem></stem>
+
+    <contlex></contlex>
+
+    <pos></pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">по другому месту</t>
+        </m>
+
+        <x>
+          <kv>мӧдлаті вуджны</kv>
+
+          <t lang="ru">перейти по другому месту</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
     <lemma>мӧдлаын</lemma>
 
     <stem>мӧдла</stem>
 
-    <contlex>ADV-SPAT</contlex>
+    <contlex>ADV-SPAT-LA</contlex>
 
     <pos>ADV</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">в другом месте</t>
+        </m>
+
+        <x>
+          <kv>мӧдлаын овны, уджавны</kv>
+
+          <t lang="ru">жить, работать в другом месте</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>мӧдлаысь</lemma>
+
+    <stem></stem>
+
+    <contlex></contlex>
+
+    <pos></pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">из (с) другого места</t>
+        </m>
+
+        <x>
+          <kv>тэнлы вылӧ тані абу невестаыс, мӧдлаысь корсь</kv>
+
+          <t lang="ru">здесь для тебя нет невесты, ищи в другом месте</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>мӧдлаӧ</lemma>
+
+    <stem></stem>
+
+    <contlex></contlex>
+
+    <pos></pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">на другое место</t>
+        </m>
+
+        <x>
+          <kv>мӧдлаӧ новлыны</kv>
+
+          <t lang="ru">перетаскивать на другое место</t>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry>
@@ -14144,6 +14408,116 @@
   </entry>
 
   <entry>
+    <lemma>уналаті</lemma>
+
+    <stem></stem>
+
+    <contlex></contlex>
+
+    <pos></pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">в разных местах; во многих местах</t>
+        </m>
+
+        <x>
+          <kv>уналаті вуджлім</kv>
+
+          <t lang="ru">в разных местах переходили</t>
+        </x>
+
+        <x>
+          <kv>уналаті доймӧ</kv>
+
+          <t lang="ru">во многих местах болит</t>
+        </x>
+
+        <x>
+          <kv>йиыс уналаті лӧзӧдӧма</kv>
+
+          <t lang="ru">во многих местах лёд посинел</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>уналаын</lemma>
+
+    <stem>унала</stem>
+
+    <contlex>ADV-SPAT-LA</contlex>
+
+    <pos>ADV</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">во многих местах, в разных местах</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>уналаысь</lemma>
+
+    <stem></stem>
+
+    <contlex></contlex>
+
+    <pos></pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">из многих мест, из разных мест</t>
+        </m>
+
+        <x>
+          <kv>уналаысь воалісны челядь</kv>
+
+          <t lang="ru">дети приехали из разных мест</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>уналаӧ</lemma>
+
+    <stem></stem>
+
+    <contlex></contlex>
+
+    <pos></pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">во много мест, в разные места</t>
+        </m>
+
+        <x>
+          <kv>уналаӧ абуӧсь туйяс</kv>
+
+          <t lang="ru">во много мест нет дорог</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
     <lemma>унаысь</lemma>
 
     <stem></stem>
@@ -15004,11 +15378,91 @@
   </entry>
 
   <entry>
+    <lemma>ӧти-мӧдлаын</lemma>
+
+    <stem>ӧти-мӧдла</stem>
+
+    <contlex>ADV-SPAT-LA</contlex>
+
+    <pos>ADV</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru">то в одном месте, то в другом; кое-где</t>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>ӧтиклаын</lemma>
+
+    <stem>ӧтикла</stem>
+
+    <contlex>ADV-SPAT-LA</contlex>
+
+    <pos>ADV</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <assoc MNo="1" assocType="see">ӧтилаын</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>ӧтиклаысь</lemma>
+
+    <stem></stem>
+
+    <contlex></contlex>
+
+    <pos></pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <assoc MNo="1" assocType="see">ӧтилаысь</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>ӧтиклаӧ</lemma>
+
+    <stem></stem>
+
+    <contlex></contlex>
+
+    <pos></pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <assoc MNo="1" assocType="see">ӧтилаӧ</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
     <lemma>ӧткымынлаын</lemma>
 
     <stem>ӧткымынла</stem>
 
-    <contlex>ADV-SPAT</contlex>
+    <contlex>ADV-SPAT-LA</contlex>
 
     <pos>ADV</pos>
   </entry>
@@ -15026,11 +15480,70 @@
   <entry>
     <lemma>ӧтлаын</lemma>
 
+    <stem>ӧтла</stem>
+
+    <contlex>ADV-SPAT-LA</contlex>
+
+    <pos>ADV</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <t lang="ru"></t>
+
+          <assoc assocType="see">ӧтилаын</assoc>
+        </m>
+
+        <x type="saying">
+          <kv>ӧтлаад олігӧн и кык гырнич тармунлӧны</kv>
+
+          <t lang="ru">и два горшка, находясь вместе, могут удариться друг о
+          друга</t>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>ӧтлаысь</lemma>
+
     <stem></stem>
 
     <contlex>ADVTAG</contlex>
 
     <pos>ADV</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <assoc MNo="1" assocType="see">ӧтилаысь</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>ӧтлаӧ</lemma>
+
+    <stem></stem>
+
+    <contlex>ADVTAG</contlex>
+
+    <pos>ADV</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <assoc MNo="1" assocType="see">ӧтилаӧ</assoc>
+        </m>
+      </mg>
+    </e>
   </entry>
 
   <entry>
