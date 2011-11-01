@@ -6,6 +6,7 @@
 <xs:element name="gov" type="xs:string"/>
 <xs:element name="CmPos" type="xs:string"/>
 <xs:element name="i" type="xs:string"/>
+<xs:element name="source" type="xs:string"/>
 
 <xs:element name="register">
   <xs:complexType>
@@ -221,6 +222,7 @@
     <xs:element ref="t"/>
     <xs:element ref="field"/>
     <xs:element ref="sns"/>
+    <xs:element ref="source"/>
     <xs:element ref="com"/>
     <xs:element ref="i"/> <!-- This needs to be eliminated by providing a better, informative tag -->
     <xs:element ref="answer"/>
