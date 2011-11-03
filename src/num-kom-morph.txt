@@ -6,20 +6,33 @@
 ! ============================= !
 
 
+LEXICON NUM
+ CARD ;
+ ORD ;
+
 LEXICON CARD
+ COLL ;
 +Num+Card: NumCASEPOSSLEX ;
 +Num+Ord:%>ӧд NumCASEPOSSLEX ;
++Qnt+Card+Iter:%>ысь K ;
++Qnt+Card+Iter+Instr:%>ысьӧн K ;
 
+LEXICON COLL
 +Num+Coll:%>нан NumCASEPOSSLEX ; !give it a go
 
 LEXICON ORD
 +Num+Ord: NumCASEPOSSLEX ; ! ӧд part of the stem
 
 
-LEXICON DET
+LEXICON DET ! 2011-11-03 This one needs some evaluation with regards to quantifiers
 +Det: # ;
 
+LEXICON QNT
++Qnt: NumCASEPOSSLEX ;
++Qnt+Card+Iter:%>ысь K ;
++Qnt+Card+Iter+Instr:%>ысьӧн K ;
 
+!! LEXICON NUM-APPR ! 2011-11-03 This will need work
 
 
 
