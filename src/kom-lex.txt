@@ -4,7 +4,7 @@ Multichar_Symbols
 
 ! POS
 +N +V +A 
-+Adv +CC +CS +Interj +Pron +Num +Pcle +Clt +Po 
++Adv +CC +CS +Interj +Pron +Pcle +Clt +Po 
 +Qnt ! Quantifier
 +Onom ! onomapoetic words
 +Descr ! descriptive words
@@ -13,6 +13,21 @@ Multichar_Symbols
 +Clt/ӧ !
 +Clt/тӧ !
 +Clt/сӧ !
+
+! Quantifiers 
++Appr ! Appromative numeral кык-ӧ-куим, кык-куим 'two or three' 
+    ! NB! do not confuse with case +Apr
+    ! Let's use flags for this one
++Num ! numeral
++Card
++Coll !Collective
++ZeroColl ! In combinations with the plural possessive marker the +Coll
+          ! morpheme нан is not always necessary
++Iter ! Iterative form expressing number of times
++Ord
++Det ! determiner like уна 'many'.
+! 2011-11-03 Isn't уна 'many' a quantifier +Qnt
+
 
 ! Verbal MSP
 +Prs +Fut +Fut1 +Prt1 +Prt2 +Prf
@@ -71,16 +86,10 @@ Multichar_Symbols
 +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
 +NoPoss
 
-+Card
 +Cns ! Consecutive -la
-+Coll !Collective
-+ZeroColl ! In combinations with the plural possessive marker the +Coll
-          ! morpheme нан is not always necessary
 +Comp ! Case form sya
 
-+Det ! determiner like уна 'many'. Look at this.
 
-+Ord
 +Temp
 
 !!Pair Verbs, Serial Verbs compounding
