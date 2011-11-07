@@ -284,6 +284,7 @@ POSTP1 ; ! error, correct in xml file
 !This contlex allows for relational word which, otherwise, are open 
 !to extensive declension
 LEXICON POSTP1
+PO-APR ;
 PO-COMP ;
 PO-EGR ;
 PO-ELA ;
@@ -296,6 +297,10 @@ PO-TRA ;
 ! аддза, бӧрті, бокиті, боксянь, дырйи, йитӧдын, 
 ! кузя, ног, ньылыд, паныдӧн, пӧлӧн, пыдди, пыр, понда, 
 ! ради, уліті, выліті, вывті, вомас, вомӧн
+
+LEXICON PO-APR
++Po+Sg+Apr:%>лань PO-PX ;
+! бӧрся, гырся
 
 LEXICON PO-COMP
 +Po+Sg+Comp:%>ся PO-PX ;
