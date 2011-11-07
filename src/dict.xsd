@@ -131,7 +131,8 @@
     <xs:element ref="kv" minOccurs="0"/>
     <xs:choice maxOccurs="unbounded">
 <xs:element ref="tg"/>
-<xs:element ref="t"/>
+<!--    <xs:element ref="t"/>
+2011-11-08-->
 </xs:choice>
     </xs:sequence>
   </xs:complexType>
@@ -143,7 +144,8 @@
     <xs:element ref="kv" minOccurs="0"/>
     <xs:choice maxOccurs="unbounded">
 <xs:element ref="tg"/>
-<xs:element ref="t"/>
+<!--    <xs:element ref="t"/>
+2011-11-08-->
 </xs:choice>
     </xs:sequence>
   </xs:complexType>
@@ -155,7 +157,8 @@
     <xs:element ref="kv" minOccurs="0"/>
     <xs:choice maxOccurs="unbounded">
 <xs:element ref="tg"/>
-<xs:element ref="t"/>
+<!--    <xs:element ref="t"/>
+2011-11-08-->
 </xs:choice>
     </xs:sequence>
   </xs:complexType>
@@ -167,7 +170,8 @@
     <xs:element ref="head"/>
     <xs:choice maxOccurs="unbounded">
     <xs:element ref="tg"/>
-    <xs:element ref="t"/>
+<!--    <xs:element ref="t"/>
+2011-11-08-->
     <xs:element ref="assoc"/>
     <xs:element ref="literal"/>
     </xs:choice>
@@ -233,7 +237,8 @@
     <xs:choice maxOccurs="unbounded">
       <xs:element ref="att"/> 
   <xs:element ref="tg"/>
-  <xs:element ref="t"/>
+<!--    <xs:element ref="t"/>
+2011-11-08-->
     <xs:element ref="field"/>
     <xs:element ref="sns"/>
     <xs:element ref="source"/>
@@ -269,7 +274,8 @@
     <xs:element ref="head" minOccurs="0"/>
     <xs:choice maxOccurs="unbounded">
 <xs:element ref="tg"/>
-<xs:element ref="t"/>
+<!--    <xs:element ref="t"/>
+2011-11-08-->
 </xs:choice>
     <xs:choice maxOccurs="unbounded">
       <xs:element ref="x"/>
@@ -289,7 +295,8 @@
     <xs:element ref="head" minOccurs="0"/>
     <xs:choice maxOccurs="unbounded">
 <xs:element ref="tg"/>
-<xs:element ref="t"/>
+<!--    <xs:element ref="t"/>
+2011-11-08-->
 </xs:choice>
     <xs:element ref="x" maxOccurs="unbounded" minOccurs="0"/>
     </xs:sequence>
@@ -344,8 +351,11 @@
   <xs:complexType mixed="true">
     <xs:sequence>
     <xs:element ref="kv" minOccurs="0"/>
+<xs:choice minOccurs="0">
   <xs:element ref="tg"/>
-    <xs:element ref="t" minOccurs="0"/>
+<!--    <xs:element ref="t"/>
+2011-11-08-->
+</xs:choice>
     </xs:sequence>
     <xs:attribute name="kind">
       <xs:simpleType>
@@ -527,7 +537,8 @@
     <xs:element ref="kv" minOccurs="0"/>
     <xs:choice maxOccurs="unbounded">
 <xs:element ref="tg"/>
-<xs:element ref="t"/>
+<!--    <xs:element ref="t"/>
+2011-11-08-->
 </xs:choice>
     </xs:sequence>
     </xs:complexType>
