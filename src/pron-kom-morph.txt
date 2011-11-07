@@ -278,13 +278,14 @@ LEXICON persplobl
 !!! +Pron+Pers+Sg3+Abl:%>лысь # ;
 
 
+
 ! Indefinite pronouns
  
 LEXICON PRONINDEFTAG
 +Pron+Indef: # ;
 
 LEXICON PRONINDEFTAG-KO
-+Pron+Indef: PRONINDEF-PERS-KO-CX ;
++Pron: PRONINDEF-PERS-KO-CX ;
 
 LEXICON PRONINDEF-PERS-KO-CX
 +Nom: PRONINDEF-PERS-KO-END ;
@@ -298,8 +299,8 @@ LEXICON PRONINDEF-PERS-KO-CX
 +Egr:%>сянь PRONINDEF-PERS-KO-END ;
 
 LEXICON PRONINDEF-PERS-KO-END
-+Der/кӧ:%>кӧ K ;
-+Der/сюрӧ:%>сюрӧ K ; !Basically both endings can be used for deriving 
++Der/кӧ+Indef:%>кӧ K ;
++Der/сюрӧ+Indef:%>сюрӧ K ; !Basically both endings can be used for deriving 
                      !indefinite pronouns from the interrogative/relative pronouns.
 
 !!LEXICON PRONINDEF-PERS-END
