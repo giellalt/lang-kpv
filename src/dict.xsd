@@ -91,6 +91,8 @@
      <xs:enumeration value="N"/>
      <xs:enumeration value="N-DV"/>
      <xs:enumeration value="nn"/>
+     <xs:enumeration value="PHRASE-N"/>
+     <xs:enumeration value="PHRASE-PRON"/>
      <xs:enumeration value="PHRASE-V"/>
      <xs:enumeration value="PRON-PERS"/>
      <xs:enumeration value="PRON-REFL"/>
@@ -127,7 +129,10 @@
   <xs:complexType>
     <xs:sequence>
     <xs:element ref="kv" minOccurs="0"/>
-    <xs:element ref="t" maxOccurs="unbounded"/>
+    <xs:choice maxOccurs="unbounded">
+<xs:element ref="tg"/>
+<xs:element ref="t"/>
+</xs:choice>
     </xs:sequence>
   </xs:complexType>
 </xs:element>
@@ -136,7 +141,10 @@
   <xs:complexType>
     <xs:sequence>
     <xs:element ref="kv" minOccurs="0"/>
-    <xs:element ref="t" maxOccurs="unbounded"/>
+    <xs:choice maxOccurs="unbounded">
+<xs:element ref="tg"/>
+<xs:element ref="t"/>
+</xs:choice>
     </xs:sequence>
   </xs:complexType>
 </xs:element>
@@ -145,7 +153,10 @@
   <xs:complexType>
     <xs:sequence>
     <xs:element ref="kv" minOccurs="0"/>
-    <xs:element ref="t" maxOccurs="unbounded"/>
+    <xs:choice maxOccurs="unbounded">
+<xs:element ref="tg"/>
+<xs:element ref="t"/>
+</xs:choice>
     </xs:sequence>
   </xs:complexType>
 </xs:element>
@@ -155,6 +166,7 @@
     <xs:sequence>
     <xs:element ref="head"/>
     <xs:choice maxOccurs="unbounded">
+    <xs:element ref="tg"/>
     <xs:element ref="t"/>
     <xs:element ref="assoc"/>
     <xs:element ref="literal"/>
@@ -174,6 +186,7 @@
     <xs:element ref="register"/>
     <xs:element ref="sns"/>
     </xs:choice>
+<xs:attribute ref="pos"/>
   </xs:complexType>
 </xs:element>
 
@@ -218,8 +231,9 @@
     <xs:element ref="kv"/>
     <xs:element ref="stRef" maxOccurs="unbounded" minOccurs="0"/>
     <xs:choice maxOccurs="unbounded">
-      <xs:element ref="att"/>
-    <xs:element ref="t"/>
+      <xs:element ref="att"/> 
+  <xs:element ref="tg"/>
+  <xs:element ref="t"/>
     <xs:element ref="field"/>
     <xs:element ref="sns"/>
     <xs:element ref="source"/>
@@ -245,6 +259,41 @@
 <xs:attribute ref="cx"/>
 <xs:attribute ref="possPx"/>
 <xs:attribute ref="nx"/>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="cxg">
+  <xs:complexType>
+    <xs:sequence>
+    <xs:element ref="wordForm"/>
+    <xs:element ref="head" minOccurs="0"/>
+    <xs:choice maxOccurs="unbounded">
+<xs:element ref="tg"/>
+<xs:element ref="t"/>
+</xs:choice>
+    <xs:choice maxOccurs="unbounded">
+      <xs:element ref="x"/>
+      <xs:element ref="pxg"/>
+    </xs:choice>
+    </xs:sequence>
+<xs:attribute ref="cx"/>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="wordForm" type="xs:string"/>
+
+<xs:element name="pxg">
+  <xs:complexType>
+    <xs:sequence>
+    <xs:element ref="wordForm"/>
+    <xs:element ref="head" minOccurs="0"/>
+    <xs:choice maxOccurs="unbounded">
+<xs:element ref="tg"/>
+<xs:element ref="t"/>
+</xs:choice>
+    <xs:element ref="x" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+<xs:attribute ref="possPx"/>
   </xs:complexType>
 </xs:element>
 
@@ -282,10 +331,20 @@
     </xs:complexType>
 </xs:element>
 
+<xs:element name="tg">
+  <xs:complexType mixed="true">
+    <xs:choice maxOccurs="unbounded" minOccurs="0">
+    <xs:element ref="t"/>
+    </xs:choice>
+     <xs:attribute ref="lang"/>
+    </xs:complexType>
+</xs:element>
+
 <xs:element name="com">
   <xs:complexType mixed="true">
     <xs:sequence>
     <xs:element ref="kv" minOccurs="0"/>
+  <xs:element ref="tg"/>
     <xs:element ref="t" minOccurs="0"/>
     </xs:sequence>
     <xs:attribute name="kind">
@@ -466,7 +525,10 @@
   <xs:complexType>
     <xs:sequence>
     <xs:element ref="kv" minOccurs="0"/>
-    <xs:element ref="t" maxOccurs="unbounded"/>
+    <xs:choice maxOccurs="unbounded">
+<xs:element ref="tg"/>
+<xs:element ref="t"/>
+</xs:choice>
     </xs:sequence>
     </xs:complexType>
 </xs:element>
@@ -525,6 +587,7 @@
     <xs:element ref="m"/>
     <xs:choice maxOccurs="unbounded" minOccurs="0">
     <xs:element ref="x"/>
+    <xs:element ref="cxg"/>
     <xs:element ref="assoc"/>
     </xs:choice>
     </xs:sequence>
@@ -688,13 +751,18 @@
 <xs:attribute name="cx">
   <xs:simpleType>
     <xs:restriction base="xs:string">
+      <xs:enumeration value="AprEgr"/>
+      <xs:enumeration value="AprEla"/>
+      <xs:enumeration value="AprIne"/>
       <xs:enumeration value="Dat"/>
       <xs:enumeration value="Ela"/>
       <xs:enumeration value="Gen"/>
+      <xs:enumeration value="Ill-Ine"/>
       <xs:enumeration value="Ill"/>
       <xs:enumeration value="Ine"/>
       <xs:enumeration value="Instr"/>
       <xs:enumeration value="Nom"/>
+      <xs:enumeration value="Ter"/>
     </xs:restriction>
   </xs:simpleType>
 </xs:attribute>
