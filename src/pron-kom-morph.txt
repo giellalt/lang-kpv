@@ -278,6 +278,37 @@ LEXICON persplobl
 !!! +Pron+Pers+Sg3+Abl:%>лысь # ;
 
 
+!Interrogative pronouns serve as the base of interrogative, relative, indefinite and distributional pronouns.
+
+LEXICON INTERR
+кин+Pron+Hum+Nom:кин INTERR-REL ; ! 2011-11-09 This will need cases
+кодар+Pron+Temp:кодар INTERR-REL-INDEF ;
+ !
+коді:код PRON-INTER-HUM ;
+коді+Pron+Hum+Nom+PxPl1:кодным INTERR-REL ; ! 2011-11-09 This will need cases
+коді+Pron+Hum+Nom+PxPl2:кодным INTERR-REL ; ! 2011-11-09 This will need cases
+коді+Pron+Hum+Nom+PxPl3:кодным INTERR-REL ; ! 2011-11-09 This will need cases
+коді+Pron+Hum+Nom+Pl:кодъяс INTERR-REL-INDEF ; ! 2011-11-09 This will need cases
+
+кодыр+Pron+Temp:кодыр INTERR-REL-INDEF ;
+кор+Pron+Temp:кор INTERR-REL-INDEF ;
+ !
+кӧні+Pron+Spat+Ine+Pred+Sg:кӧні INTERR-REL ;
+кӧні+Pron+Spat+Ine+Pred+Pl:кӧнӧсь INTERR-REL ;
+кӧні+Pron+Spat+Ine:кӧн PRON-INDEF ;
+
+
+LEXICON INTERR-REL-INDEF ! 3 types of pronouns are congregated here
+ PRON-INDEF ; ! This leads to a variety of indefinite pronouns
+ INTERR-REL ; ! This leads to a split between relative and interrogative pronouns
+
+LEXICON INTERR-REL
++Interr: COMPARATIVE ;
++Rel: K ;
+
+LEXICON PRON-INDEF
++Der/кӧ+Indef:%>кӧ K ;
++Der/сюрӧ+Indef:%>сюрӧ K ;
 
 ! Indefinite pronouns
  
@@ -317,6 +348,9 @@ LEXICON PRONINDEF-PERS-KO-END
 
 !!LEXICON PRONINDEF-PERS-SJURO
 !!:%>сюрӧ # ;
+
+LEXICON PRON-SPAT
++Pron+Spat: COMPARATIVE ;
 
 LEXICON PRON-RECIPR
 +Pron+Recipr: PRON-RECIPR-CASE ;
