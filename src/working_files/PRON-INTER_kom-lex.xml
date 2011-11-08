@@ -2,138 +2,108 @@
 <dict xsi:noNamespaceSchemaLocation="../dict.xsd"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xmlns:xs="http://www.w3.org/2001/XMLSchema">
-   <entry>
-      <lemma>кӧні</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTER</pos>
-         </entry>
-   <entry>
-      <lemma>кытӧн</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTER</pos>
-         </entry>
-   <entry>
-      <lemma>кыдзи</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTER</pos>
-         </entry>
-   <entry>
-      <lemma>кысь</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTER</pos>
-         </entry>
-   <entry>
-      <lemma>кытчӧ</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTER</pos>
-         </entry>
-   <entry>
-      <lemma>кытчӧдз</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTER</pos>
-         </entry>
-   <entry>
-      <lemma>кыті</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTER</pos>
-         </entry>
-   <entry>
-      <lemma>кытысь</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTER</pos>
-         </entry>
-   <entry>
-      <lemma>кодар</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTER</pos>
-         </entry>
-   <entry>
-      <lemma>коді</lemma>
-      <stem>код</stem>
-      <contlex>PRON-INTER-HUM</contlex>
-      <pos>PRON-INTER</pos>
-         </entry>
-   <entry>
-      <lemma>кодыр</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTER</pos>
-         </entry>
-   <entry exclude="fst">
-      <lemma>кодъяс</lemma>
-      <stem/>
-      <contlex>PRONQTAGPL</contlex>
-      <pos>PRON-INTER</pos>
-         </entry>
-   <entry>
-      <lemma>кор</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTER</pos>
-         </entry>
-   <entry>
-      <lemma>корджык</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTER</pos>
-         </entry>
-   <entry>
-      <lemma>кутшӧм</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTER</pos>
-         </entry>
-   <entry>
-      <lemma>кутшӧма</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTER</pos>
-         </entry>
-   <entry>
-      <lemma>кутшӧм</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTER</pos>
-         </entry>
-   <entry>
-      <lemma>мыетш</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTER</pos>
-         </entry>
-   <entry>
-      <lemma>мый</lemma>
-      <stem/>
-      <contlex>PRON-INTER-NONHUM</contlex>
-      <pos>PRON-INTER</pos>
-         </entry>
-   <entry>
-      <lemma>мыйла</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTER</pos>
-         </entry>
-   <entry>
-      <lemma>мыйта</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTER</pos>
-         </entry>
-  <entry>
-    <lemma>кор</lemma>
+  <entry exclude="fst">
+    <lemma>кин</lemma>
 
     <stem></stem>
 
     <contlex></contlex>
+
+    <pos>PRON-INTERR</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><range>диал.</range></head>
+
+          <tg lang="ru"><t></t></tg>
+
+          <assoc RN="I" assocType="see">код</assoc>
+
+          <assoc assocType="see">коді</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>кодар</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONQTAG</contlex>
+
+    <pos>PRON-INTERR</pos>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>кодныд</lemma>
+
+    <stem></stem>
+
+    <contlex></contlex>
+
+    <pos>PRON-INTERR</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t>который из вас (двоих)</t></tg>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>кодъяс</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONQTAGPL</contlex>
+
+    <pos>PRON-INTERR</pos>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>кодыр</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONQTAG</contlex>
+
+    <pos>PRON-INTER-TEMP</pos>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t>когда</t></tg>
+
+          <assoc RN="II" assocType="see">кор</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>коді</lemma>
+
+    <stem>код</stem>
+
+    <contlex>PRON-INTER-HUM</contlex>
+
+    <pos>PRON-INTERR</pos>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>кор</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONQTAG</contlex>
 
     <pos>PRON-INTERR-TEMP</pos>
 
@@ -170,17 +140,10 @@
         </x>
 
         <x type="proverb">
-          
-
           <kv>кор верӧс йӧзын ветлӧ, гӧтыр исерга оз новлы</kv>
 
-          
-
-          <tg lang="ru">
-            <t> когда муж в отъезде, жена в серьгах не ходит</t>
-          </tg>
-
-           
+          <tg lang="ru"><t> когда муж в отъезде, жена в серьгах не
+          ходит</t></tg>
         </x>
 
         <x>
@@ -198,6 +161,16 @@
         </x>
       </mg>
     </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>корджык</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONQTAG</contlex>
+
+    <pos>PRON-INTERR</pos>
   </entry>
 
   <entry>
@@ -249,78 +222,6 @@
   </entry>
 
   <entry>
-    <lemma>кӧн</lemma>
-
-    <stem></stem>
-
-    <contlex></contlex>
-
-    <pos>PRON-INTERR-SPAT</pos>
-
-    <e RN="I">
-      <mg MNo="1">
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>где</t></tg>
-        </m>
-
-        <x>
-          <kv>кӧн сійӧ?</kv>
-
-          <tg lang="ru"><t>где он?</t></tg>
-        </x>
-
-        <x>
-          <kv>кӧн ті уджаланныд?</kv>
-
-          <tg lang="ru"><t>где вы работаете?</t></tg>
-        </x>
-      </mg>
-
-      <mg MNo="2">
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>который</t></tg>
-        </m>
-
-        <x>
-          <kv>со керка, кӧн быдмис гижысь</kv>
-
-          <tg lang="ru"><t>вот дом, в котором вырос писатель</t></tg>
-        </x>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>кӧн-мый</lemma>
-
-    <stem></stem>
-
-    <contlex></contlex>
-
-    <pos>PRON-INTERR</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>где</t></tg>
-        </m>
-
-        <x>
-          <kv>кӧн-мый ветлан</kv>
-
-          <tg lang="ru"><t>где ходишь, где пропадаешь</t></tg>
-        </x>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
     <lemma>кудз</lemma>
 
     <stem></stem>
@@ -335,6 +236,286 @@
           <head><range>диал.</range></head>
 
           <tg lang="ru"><t>как, каким образом</t></tg>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>кутшӧм</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONQTAG</contlex>
+
+    <pos>PRON-INTERR</pos>
+  </entry>
+
+  <entry>
+    <lemma>кутшӧм</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONQTAG</contlex>
+
+    <pos>PRON-INTER</pos>
+  </entry>
+
+  <entry>
+    <lemma>кутшӧм</lemma>
+
+    <stem></stem>
+
+    <contlex></contlex>
+
+    <pos></pos>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t>какой</t><t>каков </t></tg>
+
+          <tg lang="ru"><t pos="ADV">как</t><t pos="ADV">каково</t></tg>
+        </m>
+
+        <x>
+          <kv>кодлы кутшӧм</kv>
+
+          <tg lang="ru"><t>кому какой</t></tg>
+        </x>
+
+        <x>
+          <kv>кор кутшӧм</kv>
+
+          <tg lang="ru"><t>когда какой</t></tg>
+        </x>
+
+        <x>
+          <kv>кутшӧм лун?</kv>
+
+          <tg lang="ru"><t>какой день?</t></tg>
+        </x>
+
+        <x>
+          <kv>кутшӧм гораа шуин</kv>
+
+          <tg lang="ru"><t>как громко сказал</t></tg>
+        </x>
+
+        <x>
+          <kv>кутшӧм гораа юргӧ йӧлӧгаыс</kv>
+
+          <tg lang="ru"><t>как звонко раздаётся эхо</t></tg>
+        </x>
+
+        <x>
+          <kv>кутшӧм мича асылыс</kv>
+
+          <tg lang="ru"><t>какое красивое утро</t></tg>
+        </x>
+
+        <x>
+          <kv>кутшӧм ногӧн?</kv>
+
+          <tg lang="ru"><t>как, каким образом?</t></tg>
+        </x>
+
+        <x>
+          <kv>кутшӧм олӧм колӧ?</kv>
+
+          <tg lang="ru"><t>какая жизнь нужна?</t></tg>
+        </x>
+
+        <x>
+          <kv>кутшӧм ӧдйӧ мунӧ</kv>
+
+          <tg lang="ru"><t>как быстро идёт</t></tg>
+        </x>
+
+        <x>
+          <kv>тэныд сьӧкыд, а меным кутшӧм ?</kv>
+
+          <tg lang="ru"><t>тебе тяжело, а мне каково?</t></tg>
+        </x>
+
+        <x>
+          <kv>кутшӧм ай-мам, сэтшӧм и ныв-пи</kv>
+
+          <tg lang="ru"><t><i>посл.</i> яблоко от яблони недалеко падает (<i>букв.</i>
+          каковы родители, таковы и дети)</t></tg>
+        </x>
+
+        <x>
+          <kv>кутшӧм рок пуан, сэтшӧмӧс и сёян</kv>
+
+          <tg lang="ru"><t><i>посл.</i> что посеешь, то и пожнёшь (<i>букв.</i>
+          какую кашу сваришь, такую и съешь)</t></tg>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t>который</t></tg>
+        </m>
+
+        <x>
+          <kv>кутшӧм нылӧс бӧрйин?</kv>
+
+          <tg lang="ru"><t>которую девушку выбрал?</t></tg>
+        </x>
+
+        <x>
+          <kv>кутшӧм ӧдзӧсӧд пырны?</kv>
+
+          <tg lang="ru"><t>в которую дверь войти?</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>кутшӧма</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONQTAG</contlex>
+
+    <pos>PRON-INTER</pos>
+  </entry>
+
+  <entry>
+    <lemma>кутшӧма</lemma>
+
+    <stem></stem>
+
+    <contlex></contlex>
+
+    <pos>PRON-INTERR</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t>как, каково</t></tg>
+        </m>
+
+        <x>
+          <kv>кутшӧма висьӧ сьӧлӧмыс</kv>
+
+          <tg lang="ru"><t>как болит сердце</t></tg>
+        </x>
+
+        <x>
+          <kv>кутшӧма мудзсьӧма</kv>
+
+          <tg lang="ru"><t>как я устал, оказывается</t></tg>
+        </x>
+
+        <x>
+          <kv>кутшӧма олан?</kv>
+
+          <tg lang="ru"><t>как живёшь? как поживаешь? каково живётся?</t></tg>
+        </x>
+
+        <x>
+          <kv>сьӧкыд висьтавны, кутшӧма сійӧ велӧдчӧ</kv>
+
+          <tg lang="ru"><t>трудно сказать, как он учится</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>кутшӧмджык</lemma>
+
+    <stem></stem>
+
+    <contlex></contlex>
+
+    <pos></pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t>какой, каков QXQX как, каково</t></tg>
+        </m>
+
+        <x>
+          <kv>кутшӧмджык дӧра тэныд колӧ?</kv>
+
+          <tg lang="ru"><t>какой материал тебе нужен?</t></tg>
+        </x>
+
+        <x>
+          <kv>кутшӧмджык тані овны?</kv>
+
+          <tg lang="ru"><t>как здесь живётся?</t></tg>
+        </x>
+
+        <x>
+          <kv>чужӧм вылас кутшӧмджык?</kv>
+
+          <tg lang="ru"><t>каков он собой?</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>кутшӧмджыка</lemma>
+
+    <stem></stem>
+
+    <contlex></contlex>
+
+    <pos></pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t>как, каково</t></tg>
+        </m>
+
+        <x>
+          <kv>кутшӧмджыка видзӧны?</kv>
+
+          <tg lang="ru"><t>как охраняют?</t></tg>
+        </x>
+
+        <x>
+          <kv>кутшӧмджыка тані вердӧны?</kv>
+
+          <tg lang="ru"><t>как здесь кормят?</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>кутшӧми</lemma>
+
+    <stem></stem>
+
+    <contlex></contlex>
+
+    <pos>PRON-INTERR</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><i>вопр.</i></head>
+
+          <assoc MNo="1" assocType="see">кутшӧм</assoc>
         </m>
       </mg>
     </e>
@@ -505,9 +686,9 @@
 
     <stem></stem>
 
-    <contlex></contlex>
+    <contlex>PRONQTAG</contlex>
 
-    <pos>PRON-INTERR</pos>
+    <pos>PRON-INTER</pos>
 
     <e>
       <mg>
@@ -535,6 +716,32 @@
           <kv>кӧть сэсся кыдзи ов</kv>
 
           <tg lang="ru"><t>хоть как живи</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>кыдзи-мый</lemma>
+
+    <stem></stem>
+
+    <contlex></contlex>
+
+    <pos>PRON-INTERR</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t>как, каким образом</t></tg>
+        </m>
+
+        <x>
+          <kv>кыдзи-мый висьталіс</kv>
+
+          <tg lang="ru"><t>как рассказал</t></tg>
         </x>
       </mg>
     </e>
@@ -628,7 +835,7 @@
   </entry>
 
   <entry>
-    <lemma>кыдзи-мый</lemma>
+    <lemma>кымын</lemma>
 
     <stem></stem>
 
@@ -641,13 +848,115 @@
         <m>
           <head></head>
 
-          <tg lang="ru"><t>как, каким образом</t></tg>
+          <tg lang="ru"><t><i>вопр. и относ.</i> сколько</t></tg>
         </m>
 
         <x>
-          <kv>кыдзи-мый висьталіс</kv>
+          <kv>кымын арӧс тэныд?</kv>
 
-          <tg lang="ru"><t>как рассказал</t></tg>
+          <tg lang="ru"><t>сколько лет тебе?</t></tg>
+        </x>
+
+        <x>
+          <kv>кымын ногӧн?</kv>
+
+          <tg lang="ru"><t>по сколько?</t></tg>
+        </x>
+
+        <x>
+          <kv>кымын пельӧ?</kv>
+
+          <tg lang="ru"><t>на сколько частей?</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>кымынысь</lemma>
+
+    <stem></stem>
+
+    <contlex></contlex>
+
+    <pos></pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t>сколько раз</t></tg>
+        </m>
+
+        <x>
+          <kv>кымынысь ветлін?</kv>
+
+          <tg lang="ru"><t>сколько раз ты съездил?</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>кымынӧд</lemma>
+
+    <stem></stem>
+
+    <contlex></contlex>
+
+    <pos>PRON-INTERR</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><i>вопр. и относ.</i></head>
+
+          <tg lang="ru"><t>который</t></tg>
+        </m>
+
+        <x>
+          <kv>кымынӧд лун турӧбалӧ</kv>
+
+          <tg lang="ru"><t>который день бушует вьюга</t></tg>
+        </x>
+
+        <x>
+          <kv>кымынӧд тӧлысь велӧдчан?</kv>
+
+          <tg lang="ru"><t>который месяц учишься?</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>кымынӧдысь</lemma>
+
+    <stem></stem>
+
+    <contlex></contlex>
+
+    <pos></pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t>который раз</t></tg>
+        </m>
+
+        <x>
+          <kv>кымынӧдысь кӧсйысян?</kv>
+
+          <tg lang="ru"><t>который раз обещаешь?</t></tg>
+        </x>
+
+        <x>
+          <kv>кымынӧдысь нин шыӧдчис</kv>
+
+          <tg lang="ru"><t>который раз уже обратился</t></tg>
         </x>
       </mg>
     </e>
@@ -658,9 +967,9 @@
 
     <stem></stem>
 
-    <contlex></contlex>
+    <contlex>PRONQTAG</contlex>
 
-    <pos>PRON-INTERR</pos>
+    <pos>PRON-INTER</pos>
 
     <e RN="I">
       <mg MNo="1">
@@ -738,156 +1047,82 @@
   </entry>
 
   <entry>
-    <lemma>кодыр</lemma>
+    <lemma>кытчӧ</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONQTAG</contlex>
+
+    <pos>PRON-INTER</pos>
+  </entry>
+
+  <entry>
+    <lemma>кытчӧдз</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONQTAG</contlex>
+
+    <pos>PRON-INTER</pos>
+  </entry>
+
+  <entry>
+    <lemma>кытысь</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONQTAG</contlex>
+
+    <pos>PRON-INTER</pos>
+  </entry>
+
+  <entry>
+    <lemma>кыті</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONQTAG</contlex>
+
+    <pos>PRON-INTER</pos>
+  </entry>
+
+  <entry>
+    <lemma>кытӧн</lemma>
+
+    <stem></stem>
+
+    <contlex>PRONQTAG</contlex>
+
+    <pos>PRON-INTER</pos>
+  </entry>
+
+  <entry>
+    <lemma>кӧн</lemma>
 
     <stem></stem>
 
     <contlex></contlex>
 
-    <pos></pos>
+    <pos>PRON-INTERR-SPAT</pos>
 
-    <e>
+    <e RN="I">
       <mg MNo="1">
         <m>
           <head></head>
 
-          <tg lang="ru"><t>когда</t></tg>
-
-          <assoc RN="II" assocType="see">кор</assoc>
-        </m>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>кымын</lemma>
-
-    <stem></stem>
-
-    <contlex></contlex>
-
-    <pos>PRON-INTERR</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t><i>вопр. и относ.</i> сколько</t></tg>
+          <tg lang="ru"><t>где</t></tg>
         </m>
 
         <x>
-          <kv>кымын арӧс тэныд?</kv>
+          <kv>кӧн сійӧ?</kv>
 
-          <tg lang="ru"><t>сколько лет тебе?</t></tg>
+          <tg lang="ru"><t>где он?</t></tg>
         </x>
 
         <x>
-          <kv>кымын ногӧн?</kv>
+          <kv>кӧн ті уджаланныд?</kv>
 
-          <tg lang="ru"><t>по сколько?</t></tg>
-        </x>
-
-        <x>
-          <kv>кымын пельӧ?</kv>
-
-          <tg lang="ru"><t>на сколько частей?</t></tg>
-        </x>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>кутшӧм</lemma>
-
-    <stem></stem>
-
-    <contlex></contlex>
-
-    <pos></pos>
-
-    <e>
-      <mg MNo="1">
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>какой</t><t>каков </t></tg>
-
-          <tg lang="ru"><t pos="ADV">как</t><t pos="ADV">каково</t></tg>
-        </m>
-
-        <x>
-          <kv>кодлы кутшӧм</kv>
-
-          <tg lang="ru"><t>кому какой</t></tg>
-        </x>
-
-        <x>
-          <kv>кор кутшӧм</kv>
-
-          <tg lang="ru"><t>когда какой</t></tg>
-        </x>
-
-        <x>
-          <kv>кутшӧм лун?</kv>
-
-          <tg lang="ru"><t>какой день?</t></tg>
-        </x>
-
-        <x>
-          <kv>кутшӧм гораа шуин</kv>
-
-          <tg lang="ru"><t>как громко сказал</t></tg>
-        </x>
-
-        <x>
-          <kv>кутшӧм гораа юргӧ йӧлӧгаыс</kv>
-
-          <tg lang="ru"><t>как звонко раздаётся эхо</t></tg>
-        </x>
-
-        <x>
-          <kv>кутшӧм мича асылыс</kv>
-
-          <tg lang="ru"><t>какое красивое утро</t></tg>
-        </x>
-
-        <x>
-          <kv>кутшӧм ногӧн?</kv>
-
-          <tg lang="ru"><t>как, каким образом?</t></tg>
-        </x>
-
-        <x>
-          <kv>кутшӧм олӧм колӧ?</kv>
-
-          <tg lang="ru"><t>какая жизнь нужна?</t></tg>
-        </x>
-
-        <x>
-          <kv>кутшӧм ӧдйӧ мунӧ</kv>
-
-          <tg lang="ru"><t>как быстро идёт</t></tg>
-        </x>
-
-        <x>
-          <kv>тэныд сьӧкыд, а меным кутшӧм ?</kv>
-
-          <tg lang="ru"><t>тебе тяжело, а мне каково?</t></tg>
-        </x>
-
-        <x>
-          <kv>кутшӧм ай-мам, сэтшӧм и ныв-пи</kv>
-
-          <tg lang="ru"><t><i>посл.</i> яблоко от яблони недалеко падает (<i>букв.</i>
-          каковы родители, таковы и дети)</t></tg>
-        </x>
-
-        <x>
-          <kv>кутшӧм рок пуан, сэтшӧмӧс и сёян</kv>
-
-          <tg lang="ru"><t><i>посл.</i> что посеешь, то и пожнёшь (<i>букв.</i>
-          какую кашу сваришь, такую и съешь)</t></tg>
+          <tg lang="ru"><t>где вы работаете?</t></tg>
         </x>
       </mg>
 
@@ -899,22 +1134,16 @@
         </m>
 
         <x>
-          <kv>кутшӧм нылӧс бӧрйин?</kv>
+          <kv>со керка, кӧн быдмис гижысь</kv>
 
-          <tg lang="ru"><t>которую девушку выбрал?</t></tg>
-        </x>
-
-        <x>
-          <kv>кутшӧм ӧдзӧсӧд пырны?</kv>
-
-          <tg lang="ru"><t>в которую дверь войти?</t></tg>
+          <tg lang="ru"><t>вот дом, в котором вырос писатель</t></tg>
         </x>
       </mg>
     </e>
   </entry>
 
   <entry>
-    <lemma>кутшӧма</lemma>
+    <lemma>кӧн-мый</lemma>
 
     <stem></stem>
 
@@ -927,214 +1156,36 @@
         <m>
           <head></head>
 
-          <tg lang="ru"><t>как, каково</t></tg>
+          <tg lang="ru"><t>где</t></tg>
         </m>
 
         <x>
-          <kv>кутшӧма висьӧ сьӧлӧмыс</kv>
+          <kv>кӧн-мый ветлан</kv>
 
-          <tg lang="ru"><t>как болит сердце</t></tg>
-        </x>
-
-        <x>
-          <kv>кутшӧма мудзсьӧма</kv>
-
-          <tg lang="ru"><t>как я устал, оказывается</t></tg>
-        </x>
-
-        <x>
-          <kv>кутшӧма олан?</kv>
-
-          <tg lang="ru"><t>как живёшь? как поживаешь? каково живётся?</t></tg>
-        </x>
-
-        <x>
-          <kv>сьӧкыд висьтавны, кутшӧма сійӧ велӧдчӧ</kv>
-
-          <tg lang="ru"><t>трудно сказать, как он учится</t></tg>
+          <tg lang="ru"><t>где ходишь, где пропадаешь</t></tg>
         </x>
       </mg>
     </e>
   </entry>
 
   <entry>
-    <lemma>кутшӧмджык</lemma>
+    <lemma>кӧні</lemma>
 
     <stem></stem>
 
-    <contlex></contlex>
+    <contlex>PRONQTAG</contlex>
 
-    <pos></pos>
-
-    <e>
-      <mg>
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>какой, каков QXQX как, каково</t></tg>
-        </m>
-
-        <x>
-          <kv>кутшӧмджык дӧра тэныд колӧ?</kv>
-
-          <tg lang="ru"><t>какой материал тебе нужен?</t></tg>
-        </x>
-
-        <x>
-          <kv>кутшӧмджык тані овны?</kv>
-
-          <tg lang="ru"><t>как здесь живётся?</t></tg>
-        </x>
-
-        <x>
-          <kv>чужӧм вылас кутшӧмджык?</kv>
-
-          <tg lang="ru"><t>каков он собой?</t></tg>
-        </x>
-      </mg>
-    </e>
+    <pos>PRON-INTER</pos>
   </entry>
 
   <entry>
-    <lemma>кутшӧмджыка</lemma>
+    <lemma>мыетш</lemma>
 
     <stem></stem>
 
-    <contlex></contlex>
+    <contlex>PRONQTAG</contlex>
 
-    <pos></pos>
-
-    <e>
-      <mg>
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>как, каково</t></tg>
-        </m>
-
-        <x>
-          <kv>кутшӧмджыка видзӧны?</kv>
-
-          <tg lang="ru"><t>как охраняют?</t></tg>
-        </x>
-
-        <x>
-          <kv>кутшӧмджыка тані вердӧны?</kv>
-
-          <tg lang="ru"><t>как здесь кормят?</t></tg>
-        </x>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>кутшӧми</lemma>
-
-    <stem></stem>
-
-    <contlex></contlex>
-
-    <pos>PRON-INTERR</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head><i>вопр.</i></head>
-
-          <assoc MNo="1" assocType="see">кутшӧм</assoc>
-        </m>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>кымынӧд</lemma>
-
-    <stem></stem>
-
-    <contlex></contlex>
-
-    <pos>PRON-INTERR</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head><i>вопр. и относ.</i></head>
-
-          <tg lang="ru"><t>который</t></tg>
-        </m>
-
-        <x>
-          <kv>кымынӧд лун турӧбалӧ</kv>
-
-          <tg lang="ru"><t>который день бушует вьюга</t></tg>
-        </x>
-
-        <x>
-          <kv>кымынӧд тӧлысь велӧдчан?</kv>
-
-          <tg lang="ru"><t>который месяц учишься?</t></tg>
-        </x>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>кымынӧдысь</lemma>
-
-    <stem></stem>
-
-    <contlex></contlex>
-
-    <pos></pos>
-
-    <e>
-      <mg>
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>который раз</t></tg>
-        </m>
-
-        <x>
-          <kv>кымынӧдысь кӧсйысян?</kv>
-
-          <tg lang="ru"><t>который раз обещаешь?</t></tg>
-        </x>
-
-        <x>
-          <kv>кымынӧдысь нин шыӧдчис</kv>
-
-          <tg lang="ru"><t>который раз уже обратился</t></tg>
-        </x>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>кымынысь</lemma>
-
-    <stem></stem>
-
-    <contlex></contlex>
-
-    <pos></pos>
-
-    <e>
-      <mg>
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>сколько раз</t></tg>
-        </m>
-
-        <x>
-          <kv>кымынысь ветлін?</kv>
-
-          <tg lang="ru"><t>сколько раз ты съездил?</t></tg>
-        </x>
-      </mg>
-    </e>
+    <pos>PRON-INTER</pos>
   </entry>
 
   <entry>
@@ -1142,9 +1193,9 @@
 
     <stem></stem>
 
-    <contlex></contlex>
+    <contlex>PRON-INTER-NONHUM</contlex>
 
-    <pos>PRON-INTERR</pos>
+    <pos>PRON-INTER</pos>
 
     <e>
       <mg MNo="1">
@@ -1233,13 +1284,9 @@
         </x>
 
         <x>
-          
-
           <kv>мый веськалӧ</kv>
 
-          <tg>
-            <t> что попало</t>
-          </tg>
+          <tg><t> что попало</t></tg>
         </x>
 
         <x>
@@ -1514,7 +1561,7 @@
 
     <contlex>PRON-INTERR-CNS</contlex>
 
-    <pos>PRON-INTERR</pos>
+    <pos>PRON-INTER</pos>
 
     <drvg>
       <drv></drv>
@@ -1572,65 +1619,6 @@
   </entry>
 
   <entry>
-    <lemma>мыйӧн</lemma>
-
-    <stem></stem>
-
-    <contlex></contlex>
-
-    <pos>PRON-INTERR</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>сколько</t><t>почём <register>разг.</register></t></tg>
-        </m>
-
-        <x>
-          <kv>мыйӧн кило?</kv>
-
-          <tg lang="ru"><t>сколько (стоит) килограмм? </t><t>почём
-          килограмм?</t></tg>
-        </x>
-
-        <x>
-          <kv>мыйӧн тайӧ</kv>
-
-          <tg lang="ru"><t>сколько стоит? </t><t>почём это?</t></tg>
-        </x>
-
-        <x>
-          <kv>нойыс мыйӧн ?</kv>
-
-          <tg lang="ru"><t>почём сукно?</t></tg>
-        </x>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>мыйӧс</lemma>
-
-    <stem></stem>
-
-    <contlex></contlex>
-
-    <pos></pos>
-
-    <e>
-      <mg>
-        <m>
-          <head><range>диал.</range></head>
-
-          <assoc MNo="1" assocType="see">мыйла</assoc>
-        </m>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
     <lemma>мыйся</lemma>
 
     <stem></stem>
@@ -1674,7 +1662,7 @@
     <e>
       <mg>
         <m>
-          <head> <i>част. усил.</i></head>
+          <head><i>част. усил.</i></head>
 
           <tg lang="ru"><t>что за</t></tg>
         </m>
@@ -1699,9 +1687,9 @@
 
     <stem></stem>
 
-    <contlex></contlex>
+    <contlex>PRONQTAG</contlex>
 
-    <pos>PRON-INTERR</pos>
+    <pos>PRON-INTER</pos>
 
     <e>
       <mg>
@@ -1816,31 +1804,7 @@
   </entry>
 
   <entry>
-    <lemma>кин</lemma>
-
-    <stem></stem>
-
-    <contlex></contlex>
-
-    <pos>PRON-INTERR</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head><range>диал.</range></head>
-
-          <tg lang="ru"><t></t></tg>
-
-          <assoc RN="I" assocType="see">код</assoc>
-
-          <assoc assocType="see">коді</assoc>
-        </m>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>кодныд</lemma>
+    <lemma>мыйӧн</lemma>
 
     <stem></stem>
 
@@ -1853,7 +1817,46 @@
         <m>
           <head></head>
 
-          <tg lang="ru"><t>который из вас (двоих)</t></tg>
+          <tg lang="ru"><t>сколько</t><t>почём <register>разг.</register></t></tg>
+        </m>
+
+        <x>
+          <kv>мыйӧн кило?</kv>
+
+          <tg lang="ru"><t>сколько (стоит) килограмм? </t><t>почём
+          килограмм?</t></tg>
+        </x>
+
+        <x>
+          <kv>мыйӧн тайӧ</kv>
+
+          <tg lang="ru"><t>сколько стоит? </t><t>почём это?</t></tg>
+        </x>
+
+        <x>
+          <kv>нойыс мыйӧн ?</kv>
+
+          <tg lang="ru"><t>почём сукно?</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>мыйӧс</lemma>
+
+    <stem></stem>
+
+    <contlex></contlex>
+
+    <pos></pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><range>диал.</range></head>
+
+          <assoc MNo="1" assocType="see">мыйла</assoc>
         </m>
       </mg>
     </e>
