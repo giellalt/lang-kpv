@@ -39,7 +39,7 @@ LEXICON perssg1decl
 
 LEXICON perspl1decl
 +Nom:ми # ;
-+Nom:мийӧ # ;
++Der/йӧ+Nom:мийӧ # ;
 +GenStem:миян # ;
 +Acc:миянӧс # ;
 +GenStem:миян persplobl ;
@@ -86,9 +86,8 @@ LEXICON perssg2decl
 
 LEXICON perspl2decl
 +Nom:ті # ;
-+Nom:тійӧ # ;
 +Cmpl:ті # ;
-+Nom:тійӧ # ; !We need a special tag for discerning +Nom forms
++Der/йӧ+Nom:тійӧ # ; !We need a special tag for discerning +Nom forms
 +GenStem:тіян # ;
 +GenStem+Gen:тіянлӧн # ;
 +Acc:тіянӧс # ;
@@ -109,25 +108,25 @@ LEXICON perspl2decl
 +Ter:тіӧдз # ;
 
 LEXICON perssg3decl
-+Nom:сійӧ # ;
++Der/йӧ+Nom:сійӧ # ;
 +Cmpl+Gen:сылӧн # ;
 +Cmpl+Abl:сылысь # ;
 +Cmpl+Ela:сыысь # ;
 +Cmpl+Dat:сылы # ;
-+Acc:сійӧс # ;
-+Instr:сійӧн # ;
++Der/йӧ+Acc:сійӧс # ;
++Der/йӧ+Instr:сійӧн # ;
 +Cmpl:сы perssg ;  ! for the regular obl sg
 +Cmpl:сы # ;
 !More form ӧния коми кыв 163
-+Nom+Gen:сійӧлӧн # ;
-+Nom+Abl:сійӧлысь # ;
-+Nom+Dat:сійӧлы # ;
-+Nom+Com:сійӧкӧд # ;
-+Nom+Car:сійӧтӧг # ;
-+Nom+Apr:сійӧлань # ;
-+Nom+Egr:сійӧсянь # ;
-+Nom+Egr+PxSg3:сійӧсяньыс # ;
-+Nom+Ter:сійӧӧдз # ;
++Der/йӧ+Gen:сійӧлӧн # ;
++Der/йӧ+Abl:сійӧлысь # ;
++Der/йӧ+Dat:сійӧлы # ;
++Der/йӧ+Com:сійӧкӧд # ;
++Der/йӧ+Car:сійӧтӧг # ;
++Der/йӧ+Apr:сійӧлань # ;
++Der/йӧ+Egr:сійӧсянь # ;
++Der/йӧ+Egr+PxSg3:сійӧсяньыс # ;
++Der/йӧ+Ter:сійӧӧдз # ;
 
 !!ми мийӧ The 1st and 2nd persons have Oblique case stem strategies
 !! that differ from the 3rd person: 
@@ -135,19 +134,19 @@ LEXICON perssg3decl
 !!сы сійӧ tosin joskus 
 
 LEXICON perspl3decl
-+Nom:найӧ # ;
-+Acc:найӧс # ;
++Der/йӧ+Nom:найӧ # ;
++Der/йӧ+Acc:найӧс # ;
 +Cmpl+Gen:налӧн # ;
 +Cmpl:на persplobl ; !This might be one solution for the different stem types
 +Cmpl:на # ;
 !
-+Nom+Gen:найӧлӧн # ;
-+Nom+Abl:найӧлысь # ;
-+Nom+Dat:найӧлы # ;
-+Nom+Instr:найӧӧн # ;
-+Nom+Com:найӧкӧд # ;
++Der/йӧ+Gen:найӧлӧн # ;
++Der/йӧ+Abl:найӧлысь # ;
++Der/йӧ+Dat:найӧлы # ;
++Der/йӧ+Instr:найӧӧн # ;
++Der/йӧ+Com:найӧкӧд # ;
 +Cmpl+Com:накӧдыс # ;
-+Nom+Car:найӧтӧг # ;
++Der/йӧ+Car:найӧтӧг # ;
 +Cmpl+Car+PxSg3:натӧгыс # ;
 +Cmpl+PxSg3+Cns:наысла # ;
 +Cmpl+Ela+PxSg3:насьыс # ;
@@ -287,22 +286,35 @@ LEXICON INTERR
 коді:код PRON-HUM ;
 
 кодыр+Pron+Adv+Temp:кодыр INTERR-REL-INDEF ;
-кор+Pron+Adv+Temp:кор INTERR-REL-INDEF ;
+кор+Pron+Adv+Temp:кор INTERR-REL-INTERR_COMPARISON ;
 кор+Pron+Adv+Temp+Pl+Ill:коръясӧ INTERR-REL-INDEF ;
 коръя+Pron+Adv+Temp:коръя INTERR-REL-INDEF ;
-кудз+Pron+Adv+Manner+Use/Sub:кудз INTERR-REL-INDEF ;
-кутшӧм+Pron+A:кутшӧм INTERR-REL-INDEF ; ! This needs to be 
+кудз+Pron+Adv+Manner+Use/Sub:кудз INTERR-REL-INDEF_COMPARISON ;
+кутшӧм+Pron+A:кутшӧм INTERR-REL-INDEF_COMPARISON ; ! This needs to be 
 кутшӧма+Pron+Adv+Manner:кутшӧма INTERR-REL-INDEF ; ! This needs to be 
 кутшӧми+Pron+A:кутшӧми INTERR-REL-INDEF ; ! This needs to be 
-кыдз+Pron+Adv+Manner:кыдз INTERR-REL-INDEF ;
-кыдзи+Pron+Adv+Manner:кыдзи INTERR-REL-INDEF ;
-кыдзик+Pron+Adv+Manner:кыдзик INTERR-REL-INDEF ;
+кыдз+Pron+Adv+Manner:кыдз INTERR-REL-INDEF_COMPARISON ;
+кыдзи+Pron+Adv+Manner:кыдзи INTERR-REL-INDEF_COMPARISON ;
+кыдзик+Pron+Adv+Manner:кыдзик INTERR-REL-INDEF_COMPARISON ;
 кыдзик+Pron+Adv+Manner+Instr:кыдзикӧн INTERR-REL-INDEF ;
-
+кымын+Pron+Qnt:кымын INTERR-REL-INDEF_COMPARISON ; ! Quantifier info required
+кымын+Pron+Qnt+Iter:кымынысь INTERR-REL-INDEF_COMPARISON ; ! Quantifier info required
+кымын+Pron+Qnt+Ord:кымынӧд INTERR-REL-INDEF_COMPARISON ; ! Quantifier info required
+кымын+Pron+Qnt+Ord+Iter:кымынӧдысь INTERR-REL-INDEF_COMPARISON ; ! Quantifier info required
+кысь+Pron+Spat+Ela:кысь INTERR-REL-INDEF_COMPARISON ;
+кытчӧ+Pron+Spat+Ill:кытчӧ INTERR-REL-INDEF_COMPARISON ;
+кытчӧдз+Pron+Spat+Ter:кытчӧдз INTERR-REL-INDEF_COMPARISON ;
+кытысь+Pron+Spat+Ela:кытысь INTERR-REL-INDEF_COMPARISON ;
+кыті+Pron+Spat+Tra:кыті INTERR-REL-INDEF_COMPARISON ;
+кытӧн+Pron+Spat+Ine:кытӧн INTERR-REL-INDEF_COMPARISON ;
  !
-кӧні+Pron+Adv+Spat+Ine+Pred+Sg:кӧні INTERR-REL ;
+кӧні+Pron+Adv+Spat+Ine+Pred+Sg:кӧні INTERR-REL-INDEF_COMPARISON ;
 кӧні+Pron+Adv+Spat+Ine+Pred+Pl:кӧнӧсь INTERR-REL ;
 кӧні+Pron+Adv+Spat+Ine:кӧн PRON-INDEF ;
+мый+Pron+NonHum:мый PRON-NONHUM ;
+мыйда+Pron+NonHum:мыйда INTERR-REL-INDEF ;
+мыйся+Pron+NonHum+Comp:мыйся INTERR-REL-INDEF ;
+мыйта+Pron+NonHum:мыйта INTERR-REL-INDEF ;
 
 LEXICON PRON-HUM
 +Pron+Sg+Nom:і INTERR-REL ;
@@ -325,9 +337,9 @@ LEXICON PRON-HUM-OBL
 +Com:кӧд INTERR-REL-INDEF ;
 +Car:тӧг INTERR-REL-INDEF ;
 +Cns:ла INTERR-REL-INDEF ;
-+Ine:ын INTERR-REL-INDEF ;
-+Ela:ысь INTERR-REL-INDEF ; 
-+Ill:ӧ INTERR-REL-INDEF ; !
++Ine:ын INTERR-REL-INDEF_COMPARISON ;
++Ela:ысь INTERR-REL-INDEF_COMPARISON ; 
++Ill:ӧ INTERR-REL-INDEF_COMPARISON ; !
 +Apr:лань INTERR-REL-INDEF ;
 +Egr:сянь INTERR-REL-INDEF ;
 +Tra:ті INTERR-REL-INDEF ;
@@ -353,6 +365,29 @@ LEXICON PRON-HUM-COLL-CASES
 +Nom: INTERR-REL-INDEF ;
  PRON-HUM-OBL ;
 
+LEXICON PRON-NONHUM
++Nom: INTERR-REL-INDEF ;
++Gen:лӧн INTERR-REL-INDEF ; !
++Abl:лысь INTERR-REL-INDEF ; !
++Dat:лы INTERR-REL-INDEF ; !
++ZeroAcc: INTERR-REL-INDEF ;
++Acc3:сӧ INTERR-REL-INDEF ;
++Instr:ӧн INTERR-REL-INDEF ;
++Com:кӧд INTERR-REL-INDEF ;
++Car:тӧг INTERR-REL-INDEF ;
++Cns:ла INTERR-REL-INDEF ;
++Ine:ын INTERR-REL-INDEF_COMPARISON ;
++Ela:ысь INTERR-REL-INDEF_COMPARISON ; 
++Ill:ӧ INTERR-REL-INDEF_COMPARISON ; !
++Apr:лань INTERR-REL-INDEF ;
++Egr:сянь INTERR-REL-INDEF ;
++Prl:ӧд INTERR-REL-INDEF ;
++Tra:ті INTERR-REL-INDEF ;
++Ter:ӧдз INTERR-REL-INDEF ;
+
+LEXICON INTERR-REL-INDEF_COMPARISON
++Compar:%>джык INTERR-REL ;
++NoComparison:%>джык INTERR-REL ;
 
 LEXICON INTERR-REL-INDEF ! 3 types of pronouns are congregated here
  PRON-INDEF ; ! This leads to a variety of indefinite pronouns
@@ -365,6 +400,7 @@ LEXICON INTERR-REL
 LEXICON PRON-INDEF
 +Der/кӧ+Indef:%>кӧ K ;
 +Der/сюрӧ+Indef:%>сюрӧ K ;
+
 
 ! Indefinite pronouns
  
