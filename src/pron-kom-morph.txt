@@ -282,20 +282,76 @@ LEXICON persplobl
 
 LEXICON INTERR
 кин+Pron+Hum+Nom:кин INTERR-REL ; ! 2011-11-09 This will need cases
-кодар+Pron+Temp:кодар INTERR-REL-INDEF ;
+кодар+Pron+A:кодар INTERR-REL-INDEF ;
  !
-коді:код PRON-INTER-HUM ;
-коді+Pron+Hum+Nom+PxPl1:кодным INTERR-REL ; ! 2011-11-09 This will need cases
-коді+Pron+Hum+Nom+PxPl2:кодным INTERR-REL ; ! 2011-11-09 This will need cases
-коді+Pron+Hum+Nom+PxPl3:кодным INTERR-REL ; ! 2011-11-09 This will need cases
-коді+Pron+Hum+Nom+Pl:кодъяс INTERR-REL-INDEF ; ! 2011-11-09 This will need cases
+коді:код PRON-HUM ;
 
-кодыр+Pron+Temp:кодыр INTERR-REL-INDEF ;
-кор+Pron+Temp:кор INTERR-REL-INDEF ;
+кодыр+Pron+Adv+Temp:кодыр INTERR-REL-INDEF ;
+кор+Pron+Adv+Temp:кор INTERR-REL-INDEF ;
+кор+Pron+Adv+Temp+Pl+Ill:коръясӧ INTERR-REL-INDEF ;
+коръя+Pron+Adv+Temp:коръя INTERR-REL-INDEF ;
+кудз+Pron+Adv+Manner+Use/Sub:кудз INTERR-REL-INDEF ;
+кутшӧм+Pron+A:кутшӧм INTERR-REL-INDEF ; ! This needs to be 
+кутшӧма+Pron+Adv+Manner:кутшӧма INTERR-REL-INDEF ; ! This needs to be 
+кутшӧми+Pron+A:кутшӧми INTERR-REL-INDEF ; ! This needs to be 
+кыдз+Pron+Adv+Manner:кыдз INTERR-REL-INDEF ;
+кыдзи+Pron+Adv+Manner:кыдзи INTERR-REL-INDEF ;
+кыдзик+Pron+Adv+Manner:кыдзик INTERR-REL-INDEF ;
+кыдзик+Pron+Adv+Manner+Instr:кыдзикӧн INTERR-REL-INDEF ;
+
  !
-кӧні+Pron+Spat+Ine+Pred+Sg:кӧні INTERR-REL ;
-кӧні+Pron+Spat+Ine+Pred+Pl:кӧнӧсь INTERR-REL ;
-кӧні+Pron+Spat+Ine:кӧн PRON-INDEF ;
+кӧні+Pron+Adv+Spat+Ine+Pred+Sg:кӧні INTERR-REL ;
+кӧні+Pron+Adv+Spat+Ine+Pred+Pl:кӧнӧсь INTERR-REL ;
+кӧні+Pron+Adv+Spat+Ine:кӧн PRON-INDEF ;
+
+LEXICON PRON-HUM
++Pron+Sg+Nom:і INTERR-REL ;
++Pron+Pl+Nom:ъяс INTERR-REL-INDEF ;
++Pron+Sg+Nom: PRON-INDEF ;
++Pron+Sg: PRON-HUM-OBL ;
++Pron+Pl:ъяс PRON-HUM-OBL ;
++Pron: PRON-HUM-COLL ;
+!код, коді
+
+LEXICON PRON-HUM-OBL
+! 2000: 187
++Cmpl: INTERR-REL-INDEF ;
++Gen:лӧн INTERR-REL-INDEF ;
++Abl:лысь INTERR-REL-INDEF ; !
++Dat:лы INTERR-REL-INDEF ;
++Acc:ӧс INTERR-REL-INDEF ;
++Acc3:сӧ INTERR-REL-INDEF ;
++Instr:ӧн INTERR-REL-INDEF ;
++Com:кӧд INTERR-REL-INDEF ;
++Car:тӧг INTERR-REL-INDEF ;
++Cns:ла INTERR-REL-INDEF ;
++Ine:ын INTERR-REL-INDEF ;
++Ela:ысь INTERR-REL-INDEF ; 
++Ill:ӧ INTERR-REL-INDEF ; !
++Apr:лань INTERR-REL-INDEF ;
++Egr:сянь INTERR-REL-INDEF ;
++Tra:ті INTERR-REL-INDEF ;
++Ter:ӧдз INTERR-REL-INDEF ;
+
+LEXICON PRON-HUM-COLL
++Coll:нан PRON-HUM-COLL-PERS ;
++ZeroColl: PRON-HUM-COLL-PERS ;
+!
++ZeroColl+PxPl2+Acc2:ныдтӧ PRON-INTER-REL-HUM-COLL-INDEF ;
++Coll+PxPl2+Acc2:наннытӧ PRON-INTER-REL-HUM-COLL-INDEF ;
+
+LEXICON PRON-HUM-COLL-PERS
++PxPl1:ным PRON-HUM-COLL-CASES ;
++PxPl2:ныд PRON-HUM-COLL-CASES ;
++PxPl3:ныс PRON-HUM-COLL-CASES ;
+!
++PxPl1+Acc:нымӧс INTERR-REL-INDEF ;
++PxPl2+Acc2:нытӧ INTERR-REL-INDEF ;
++PxPl3+Acc3:ныссӧ INTERR-REL-INDEF ;
+
+LEXICON PRON-HUM-COLL-CASES
++Nom: INTERR-REL-INDEF ;
+ PRON-HUM-OBL ;
 
 
 LEXICON INTERR-REL-INDEF ! 3 types of pronouns are congregated here
@@ -597,12 +653,12 @@ LEXICON PRON-REFL-PL3-ACC
 !!! LEXICON PRON-REFL-PL3-DAT
 !!! +Pron+Refl+Pl3+Dat: # ;
 
-LEXICON PRON-REL-HUM
-+Pron+Rel+Sg+Nom:і K ;
-+Pron+Rel+Pl+Nom:ъяс K ;
-+Pron+Rel+Sg: PRON-INTER-HUM-OBL ;
-+Pron+Rel+Pl:ъяс PRON-INTER-HUM-OBL ;
-!код, коді
+!!! LEXICON PRON-REL-HUM
+!!! +Pron+Rel+Sg+Nom:і INTERR-REL ;
+!!! +Pron+Rel+Pl+Nom:ъяс INTERR-REL ;
+!!! +Pron+Rel+Sg: PRON-INTER-HUM-OBL ;
+!!! +Pron+Rel+Pl:ъяс PRON-INTER-HUM-OBL ;
+!!! !код, коді
 
 
 LEXICON PRONDEMTAG
@@ -724,66 +780,66 @@ LEXICON PRON-NEG-HUM
 +Pron+Neg+Sg+Nom: # ;
 +Pron+Neg+Sg: PRON-INTER-HUM-OBL ;
 
-LEXICON PRON-INTER-HUM
-+Pron+Interr+Sg+Nom:і K ;
-+Pron+Interr+Pl+Nom:ъяс K ;
-+Pron+Interr+Sg: PRON-INTER-HUM-OBL ;
-+Pron+Interr+Pl:ъяс PRON-INTER-HUM-OBL ;
-+Pron+Interr: PRON-INTER-REL-HUM-COLL ;
+!!! LEXICON PRON-INTER-HUM
+!!! +Pron+Interr+Sg+Nom:і K ;
+!!! +Pron+Interr+Pl+Nom:ъяс K ;
+!!! +Pron+Interr+Sg: PRON-INTER-HUM-OBL ;
+!!! +Pron+Interr+Pl:ъяс PRON-INTER-HUM-OBL ;
+!!! +Pron+Interr: PRON-INTER-REL-HUM-COLL ;
 
-LEXICON PRON-INTER-HUM-OBL
-! 2000: 187
-+Cmpl: # ;
-+Gen:лӧн # ;
-+Abl:лысь K ; !
-+Dat:лы # ;
-+Acc:ӧс # ;
-+Acc3:сӧ # ;
-+Instr:ӧн K ;
-+Com:кӧд K ;
-+Car:тӧг K ;
-+Cns:ла K ;
-+Ine:ын K ;
-+Ela:ысь K ; 
-+Ill:ӧ K ; !
-+Apr:лань K ;
-+Egr:сянь K ;
-+Tra:ті K ;
-+Ter:ӧдз K ;
-
-LEXICON PRON-INTER-REL-HUM-COLL
-+Coll:нан PRON-INTER-REL-HUM-COLL-PERS ;
-+ZeroColl: PRON-INTER-REL-HUM-COLL-PERS ;
-+ZeroColl+PxPl2+Acc2:ныдтӧ PRON-INTER-REL-HUM-COLL-INDEF ;
-+Coll+PxPl2+Acc2:наннытӧ PRON-INTER-REL-HUM-COLL-INDEF ;
-
-LEXICON PRON-INTER-REL-HUM-COLL-PERS
-+PxPl1:ным PRON-INTER-REL-HUM-COLL-CASES ;
-+PxPl2:ныд PRON-INTER-REL-HUM-COLL-CASES ;
-+PxPl3:ныс PRON-INTER-REL-HUM-COLL-CASES ;
-+PxPl1+Acc:нымӧс PRON-INTER-REL-HUM-COLL-INDEF ;
-+PxPl3+Acc3:ныссӧ PRON-INTER-REL-HUM-COLL-INDEF ;
-
-LEXICON PRON-INTER-REL-HUM-COLL-CASES
-+Nom: PRON-INTER-REL-HUM-COLL-INDEF ;
-+Gen:лӧн PRON-INTER-REL-HUM-COLL-INDEF ;
-+Abl:лысь PRON-INTER-REL-HUM-COLL-INDEF ;
-+Dat:лы PRON-INTER-REL-HUM-COLL-INDEF ;
-+Instr:ӧн PRON-INTER-REL-HUM-COLL-INDEF ;
-+Com:кӧд PRON-INTER-REL-HUM-COLL-INDEF ;
-+Car:тӧг PRON-INTER-REL-HUM-COLL-INDEF ;
-+Cns:ла PRON-INTER-REL-HUM-COLL-INDEF ;
-+Ine:ын PRON-INTER-REL-HUM-COLL-INDEF ;
-+Ela:ысь PRON-INTER-REL-HUM-COLL-INDEF ;
-+Ill:ӧ PRON-INTER-REL-HUM-COLL-INDEF ;
-+Apr:лань PRON-INTER-REL-HUM-COLL-INDEF ;
-+Egr:сянь PRON-INTER-REL-HUM-COLL-INDEF ;
-+Tra:ті PRON-INTER-REL-HUM-COLL-INDEF ;
-+Ter:ӧдз PRON-INTER-REL-HUM-COLL-INDEF ;
-
-LEXICON PRON-INTER-REL-HUM-COLL-INDEF
-+Der/кӧ+Indef:кӧ K ;
- K ;
+!!! LEXICON PRON-INTER-HUM-OBL
+!!! ! 2000: 187
+!!! +Cmpl: # ;
+!!! +Gen:лӧн # ;
+!!! +Abl:лысь K ; !
+!!! +Dat:лы # ;
+!!! +Acc:ӧс # ;
+!!! +Acc3:сӧ # ;
+!!! +Instr:ӧн K ;
+!!! +Com:кӧд K ;
+!!! +Car:тӧг K ;
+!!! +Cns:ла K ;
+!!! +Ine:ын K ;
+!!! +Ela:ысь K ; 
+!!! +Ill:ӧ K ; !
+!!! +Apr:лань K ;
+!!! +Egr:сянь K ;
+!!! +Tra:ті K ;
+!!! +Ter:ӧдз K ;
+!!! 
+!!! LEXICON PRON-INTER-REL-HUM-COLL
+!!! +Coll:нан PRON-INTER-REL-HUM-COLL-PERS ;
+!!! +ZeroColl: PRON-INTER-REL-HUM-COLL-PERS ;
+!!! +ZeroColl+PxPl2+Acc2:ныдтӧ PRON-INTER-REL-HUM-COLL-INDEF ;
+!!! +Coll+PxPl2+Acc2:наннытӧ PRON-INTER-REL-HUM-COLL-INDEF ;
+!!! 
+!!! LEXICON PRON-INTER-REL-HUM-COLL-PERS
+!!! +PxPl1:ным PRON-INTER-REL-HUM-COLL-CASES ;
+!!! +PxPl2:ныд PRON-INTER-REL-HUM-COLL-CASES ;
+!!! +PxPl3:ныс PRON-INTER-REL-HUM-COLL-CASES ;
+!!! +PxPl1+Acc:нымӧс PRON-INTER-REL-HUM-COLL-INDEF ;
+!!! +PxPl3+Acc3:ныссӧ PRON-INTER-REL-HUM-COLL-INDEF ;
+!!! 
+!!! LEXICON PRON-INTER-REL-HUM-COLL-CASES
+!!! +Nom: PRON-INTER-REL-HUM-COLL-INDEF ;
+!!! +Gen:лӧн PRON-INTER-REL-HUM-COLL-INDEF ;
+!!! +Abl:лысь PRON-INTER-REL-HUM-COLL-INDEF ;
+!!! +Dat:лы PRON-INTER-REL-HUM-COLL-INDEF ;
+!!! +Instr:ӧн PRON-INTER-REL-HUM-COLL-INDEF ;
+!!! +Com:кӧд PRON-INTER-REL-HUM-COLL-INDEF ;
+!!! +Car:тӧг PRON-INTER-REL-HUM-COLL-INDEF ;
+!!! +Cns:ла PRON-INTER-REL-HUM-COLL-INDEF ;
+!!! +Ine:ын PRON-INTER-REL-HUM-COLL-INDEF ;
+!!! +Ela:ысь PRON-INTER-REL-HUM-COLL-INDEF ;
+!!! +Ill:ӧ PRON-INTER-REL-HUM-COLL-INDEF ;
+!!! +Apr:лань PRON-INTER-REL-HUM-COLL-INDEF ;
+!!! +Egr:сянь PRON-INTER-REL-HUM-COLL-INDEF ;
+!!! +Tra:ті PRON-INTER-REL-HUM-COLL-INDEF ;
+!!! +Ter:ӧдз PRON-INTER-REL-HUM-COLL-INDEF ;
+!!! 
+!!! LEXICON PRON-INTER-REL-HUM-COLL-INDEF
+!!! +Der/кӧ+Indef:кӧ K ;
+!!!  K ;
 
 !Actually there might be reason to consider +Der/MWN
 LEXICON PRONQ-MUKOD
