@@ -313,8 +313,9 @@ LEXICON INTERR
 кӧні+Pron+Adv+Spat+Ine:кӧн PRON-INDEF ;
 мый+Pron+NonHum:мый PRON-NONHUM ;
 мыйда+Pron+NonHum:мыйда INTERR-REL-INDEF ;
-мыйся+Pron+NonHum+Comp:мыйся INTERR-REL-INDEF ;
 мыйта+Pron+NonHum:мыйта INTERR-REL-INDEF ;
+мыйтӧм+Pron+NonHum:мыйтӧм INTERR-REL-INDEF ;
+мыйӧс+Pron+NonHum+Use/Sub:мыйӧс INTERR-REL-INDEF ;
 
 LEXICON PRON-HUM
 +Pron+Sg+Nom:і INTERR-REL ;
@@ -375,6 +376,7 @@ LEXICON PRON-NONHUM
 +Instr:ӧн INTERR-REL-INDEF ;
 +Com:кӧд INTERR-REL-INDEF ;
 +Car:тӧг INTERR-REL-INDEF ;
++Comp:ся INTERR-REL-INDEF ;
 +Cns:ла INTERR-REL-INDEF ;
 +Ine:ын INTERR-REL-INDEF_COMPARISON ;
 +Ela:ысь INTERR-REL-INDEF_COMPARISON ; 
