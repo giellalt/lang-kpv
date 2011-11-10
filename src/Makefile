@@ -9,7 +9,7 @@ SHELL = /bin/sh
 all: ../bin/ikom.fst
 
 # Include the makefile that converts from xml to lexc:
-include Makefile.xml
+include Makefile_xml
 
 lg = kom
 
