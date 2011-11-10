@@ -34,6 +34,9 @@ LEXICON Prop-Sur-Fem ! Basic nouns.
 LEXICON Prop-Fem ! Female given names
 +N+Prop+Fem+Sg: CASEPOSSLEX ;
 
+LEXICON Noun1-IS_PTC-OM ! This is to provide deverbal nouns with +Der/ӧм tags
++Der/ӧм: Noun1 ;
+
 LEXICON Noun1 ! Basic nouns.
 +N+Cmp: R ;
 +N+Sg: CASEPOSSLEX ;
