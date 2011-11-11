@@ -42,6 +42,13 @@ LEXICON Noun1 ! Basic nouns.
 +N+Sg: CASEPOSSLEX ;
 +N+Pl:%>ъяс CASEPOSSLEX ;
 
+LEXICON Noun1-JM ! понйыс, понмыс 
++N+Cmp:м R ;
++N+Sg:м CASEPOSSLEX ;
++N+Cmp:й R ;
++N+Sg:й CASEPOSSLEX ;
++N+Pl:%>ъяс CASEPOSSLEX ;
+
 LEXICON NounLA ! ӧтила
 Noun1 ; ! Difference betw Noun1 and NounLA still to be documented.
 
