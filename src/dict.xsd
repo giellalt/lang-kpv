@@ -94,6 +94,8 @@
      <xs:enumeration value="PHRASE-N"/>
      <xs:enumeration value="PHRASE-PRON"/>
      <xs:enumeration value="PHRASE-V"/>
+     <xs:enumeration value="POSTP"/>
+     <xs:enumeration value="PREP"/>
      <xs:enumeration value="PRON-PERS"/>
      <xs:enumeration value="PRON-REFL"/>
      <xs:enumeration value="PRON-REL"/>
@@ -113,6 +115,16 @@
      <xs:enumeration value="pl1"/>
      <xs:enumeration value="pl2"/>
      <xs:enumeration value="pl3"/>
+   </xs:restriction>
+ </xs:simpleType>
+</xs:attribute>
+
+<xs:attribute name="sem">
+ <xs:simpleType>
+   <xs:restriction base="xs:string">
+     <xs:enumeration value="en"/>
+ <xs:enumeration value="advl-spat"/>
+ <xs:enumeration value="compStand"/><!-- Standard of comparison -->
    </xs:restriction>
  </xs:simpleType>
 </xs:attribute>
@@ -334,6 +346,7 @@
     </xs:choice>
      <xs:attribute ref="lang"/>
      <xs:attribute ref="pos"/>
+     <xs:attribute ref="sem"/>
      <xs:attribute ref="syntax"/>
     </xs:complexType>
 </xs:element>
