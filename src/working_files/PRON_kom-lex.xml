@@ -1,105 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dict>
-   <entry>
-      <lemma>кытчӧ</lemma>
-      <stem/>
-      <contlex>PRON-REL</contlex>
-      <pos>PRON</pos>
-         </entry>
-   <entry>
-      <lemma>ӧта-мӧд</lemma>
-      <stem/>
-      <contlex>PRON-RECIPR</contlex>
-      <pos>PRON</pos>
-         </entry>
-   <entry>
-      <lemma>кытчӧдз</lemma>
-      <stem/>
-      <contlex>PRON-REL</contlex>
-      <pos>PRON</pos>
-         </entry>
-   <entry>
-      <lemma>кытӧні</lemma>
-      <stem/>
-      <contlex>PRON-REL</contlex>
-      <pos>PRON</pos>
-         </entry>
-   <entry>
-      <lemma>кытысь</lemma>
-      <stem/>
-      <contlex>PRON-REL</contlex>
-      <pos>PRON</pos>
-         </entry>
-   <entry>
-      <lemma>коді</lemma>
-      <stem>код</stem>
-      <contlex>PRON-REL-HUM</contlex>
-      <pos>PRON</pos>
-         </entry>
-   <entry>
-      <lemma>коді</lemma>
-      <stem/>
-      <contlex>PRON-REL</contlex>
-      <pos>PRON</pos>
-         </entry>
-   <entry>
-      <lemma>кор</lemma>
-      <stem/>
-      <contlex>PRON-REL</contlex>
-      <pos>PRON</pos>
-         </entry>
-   <entry>
-      <lemma>корджык</lemma>
-      <stem/>
-      <contlex>PRON-REL</contlex>
-      <pos>PRON</pos>
-         </entry>
-   <entry>
-      <lemma>некысь</lemma>
-      <stem/>
-      <contlex>PRON-NEG</contlex>
-      <pos>PRON</pos>
-         </entry>
-   <entry>
-      <lemma>некытчӧ</lemma>
-      <stem/>
-      <contlex>PRON-NEG</contlex>
-      <pos>PRON</pos>
-         </entry>
-   <entry>
-      <lemma>некыті</lemma>
-      <stem/>
-      <contlex>PRON-NEG</contlex>
-      <pos>PRON</pos>
-         </entry>
-   <entry>
-      <lemma>некытысь</lemma>
-      <stem/>
-      <contlex>PRON-NEG</contlex>
-      <pos>PRON</pos>
-         </entry>
-   <entry>
-      <lemma>некод</lemma>
-      <stem/>
-      <contlex>PRON-NEG-HUM</contlex>
-      <pos>PRON</pos>
-               </entry>
-   <entry>
-      <lemma>некодар</lemma>
-      <stem/>
-      <contlex>PRON-NEG</contlex>
-      <pos>PRON</pos>
-         </entry>
-   <entry>
-      <lemma>нем</lemma>
-      <stem/>
-      <contlex>PRON-NEG</contlex>
-      <pos>PRON</pos>
-         </entry>
-   <entry>
-      <lemma>немтор</lemma>
-      <stem>немторй</stem>
-      <contlex>PRON-NEG</contlex>
-      <pos>PRON</pos>
-         </entry>
+<dict xsi:noNamespaceSchemaLocation="../dict.xsd"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <entry exclude="fst">
+    <lemma>кытчӧ</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REL</contlex>
+
+    <pos>PRON</pos>
+  </entry>
+
+  <entry>
+    <lemma>ӧта-мӧд</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-RECIPR</contlex>
+
+    <pos>PRON</pos>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>кытчӧдз</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REL</contlex>
+
+    <pos>PRON</pos>
+  </entry>
+
+  <entry>
+    <lemma>кытӧні</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REL</contlex>
+
+    <pos>PRON</pos>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>кытысь</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REL</contlex>
+
+    <pos>PRON</pos>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>коді</lemma>
+
+    <stem>код</stem>
+
+    <contlex>PRON-REL-HUM</contlex>
+
+    <pos>PRON</pos>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>кор</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REL</contlex>
+
+    <pos>PRON</pos>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>корджык</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REL</contlex>
+
+    <pos>PRON</pos>
+  </entry>
+
+  <entry>
+    <lemma>некысь</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-NEG</contlex>
+
+    <pos>PRON</pos>
+  </entry>
+
+  <entry>
+    <lemma>некытчӧ</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-NEG</contlex>
+
+    <pos>PRON</pos>
+  </entry>
+
+  <entry>
+    <lemma>некыті</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-NEG</contlex>
+
+    <pos>PRON</pos>
+  </entry>
+
+  <entry>
+    <lemma>некытысь</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-NEG</contlex>
+
+    <pos>PRON</pos>
+  </entry>
+
+  <entry>
+    <lemma>некод</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-NEG-HUM</contlex>
+
+    <pos>PRON</pos>
+  </entry>
+
+  <entry>
+    <lemma>некодар</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-NEG</contlex>
+
+    <pos>PRON</pos>
+  </entry>
+
+  <entry>
+    <lemma>нем</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-NEG</contlex>
+
+    <pos>PRON</pos>
+  </entry>
+
+  <entry>
+    <lemma>немтор</lemma>
+
+    <stem>немторй</stem>
+
+    <contlex>PRON-NEG</contlex>
+
+    <pos>PRON</pos>
+  </entry>
 </dict>

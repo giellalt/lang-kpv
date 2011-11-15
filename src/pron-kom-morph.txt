@@ -286,7 +286,7 @@ LEXICON INTERR
 коді:код PRON-HUM ;
 
 кодыр+Pron+Adv+Temp:кодыр INTERR-REL-INDEF ;
-кор+Pron+Adv+Temp:кор INTERR-REL-INTERR_COMPARISON ;
+кор+Pron+Adv+Temp:кор INTERR-REL-INDEF_COMPARISON ;
 кор+Pron+Adv+Temp+Pl+Ill:коръясӧ INTERR-REL-INDEF ;
 коръя+Pron+Adv+Temp:коръя INTERR-REL-INDEF ;
 кудз+Pron+Adv+Manner+Use/Sub:кудз INTERR-REL-INDEF_COMPARISON ;
@@ -350,8 +350,8 @@ LEXICON PRON-HUM-COLL
 +Coll:нан PRON-HUM-COLL-PERS ;
 +ZeroColl: PRON-HUM-COLL-PERS ;
 !
-+ZeroColl+PxPl2+Acc2:ныдтӧ PRON-INTER-REL-HUM-COLL-INDEF ;
-+Coll+PxPl2+Acc2:наннытӧ PRON-INTER-REL-HUM-COLL-INDEF ;
++ZeroColl+PxPl2+Acc2:ныдтӧ INTERR-REL-INDEF ;
++Coll+PxPl2+Acc2:наннытӧ INTERR-REL-INDEF ;
 
 LEXICON PRON-HUM-COLL-PERS
 +PxPl1:ным PRON-HUM-COLL-CASES ;
@@ -825,26 +825,30 @@ LEXICON PRON-NEG-HUM
 !!! +Pron+Interr+Pl:ъяс PRON-INTER-HUM-OBL ;
 !!! +Pron+Interr: PRON-INTER-REL-HUM-COLL ;
 
-!!! LEXICON PRON-INTER-HUM-OBL
-!!! ! 2000: 187
-!!! +Cmpl: # ;
-!!! +Gen:лӧн # ;
-!!! +Abl:лысь K ; !
-!!! +Dat:лы # ;
-!!! +Acc:ӧс # ;
-!!! +Acc3:сӧ # ;
-!!! +Instr:ӧн K ;
-!!! +Com:кӧд K ;
-!!! +Car:тӧг K ;
-!!! +Cns:ла K ;
-!!! +Ine:ын K ;
-!!! +Ela:ысь K ; 
-!!! +Ill:ӧ K ; !
-!!! +Apr:лань K ;
-!!! +Egr:сянь K ;
-!!! +Tra:ті K ;
-!!! +Ter:ӧдз K ;
-!!! 
+LEXICON PRON-DUAL
++Pron+Du: PRON-INTER-HUM-OBL ;
+
+LEXICON PRON-INTER-HUM-OBL
+! 2011-11-15 This is used by PRON-NEG
+! also тэа-мэа inclusive 1Du, сыа-мэа exclusive 1Du
++Cmpl: # ;
++Gen:лӧн # ;
++Abl:лысь K ; !
++Dat:лы # ;
++Acc:ӧс # ;
++Acc3:сӧ # ;
++Instr:ӧн K ;
++Com:кӧд K ;
++Car:тӧг K ;
++Cns:ла K ;
++Ine:ын K ;
++Ela:ысь K ; 
++Ill:ӧ K ; !
++Apr:лань K ;
++Egr:сянь K ;
++Tra:ті K ;
++Ter:ӧдз K ;
+ 
 !!! LEXICON PRON-INTER-REL-HUM-COLL
 !!! +Coll:нан PRON-INTER-REL-HUM-COLL-PERS ;
 !!! +ZeroColl: PRON-INTER-REL-HUM-COLL-PERS ;

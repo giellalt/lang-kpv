@@ -8,6 +8,9 @@
 ! ===== !
 
 
+LEXICON Adj-IS_PTC-TOM ! 2011-11-15 participle = derivation type; 
++V+Der/тӧм: Adj ;
+
 LEXICON Adj
 +A: AdjCompar ;
 !:%>лун Noun1 ; !Derivational suffix for A-N
@@ -19,8 +22,11 @@ LEXICON Adj
 LEXICON Prop ! Basic nouns.
 +N+Prop+Sg: CASEPOSSLEX ;
 
-LEXICON Prop-Plc ! Inanimate proper nouns.
-+N+Prop+Sg: CASEPOSSLEX ;
+LEXICON Prop-Plc ! Inanimate proper nouns. Place names
++N+Prop+Plc+Sg: CASEPOSSLEX ;
+
+LEXICON Prop-Org ! Inanimate proper nouns. Name of organization
++N+Prop+Org+Sg: CASEPOSSLEX ;
 
 LEXICON Prop-Sur-Mal ! Basic nouns.
 +N+Prop+Sur+Mal+Sg: CASEPOSSLEX ;
