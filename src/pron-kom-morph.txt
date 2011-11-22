@@ -282,6 +282,8 @@ LEXICON persplobl
 LEXICON INTERR
 кин+Pron+Hum+Nom:кин INTERR-REL ; ! 2011-11-09 This will need cases
 кодар+Pron+A:кодар INTERR-REL-INDEF ;
+кодар+Pron+A+Der/MWN:кодар PRON-HUM-OBL ;
+кодар+Pron+A+Der/ладор:кодарладор PRON-HUM-OBL ;
  !
 коді:код PRON-HUM ;
 
@@ -307,6 +309,7 @@ LEXICON INTERR
 кытысь+Pron+Spat+Ela:кытысь INTERR-REL-INDEF_COMPARISON ;
 кыті+Pron+Spat+Tra:кыті INTERR-REL-INDEF_COMPARISON ;
 кытӧн+Pron+Spat+Ine:кытӧн INTERR-REL-INDEF_COMPARISON ;
+кытӧні+Pron+Spat+Ine:кытӧні INTERR-REL ;
  !
 кӧні+Pron+Adv+Spat+Ine+Pred+Sg:кӧні INTERR-REL-INDEF_COMPARISON ;
 кӧні+Pron+Adv+Spat+Ine+Pred+Pl:кӧнӧсь INTERR-REL ;
@@ -316,11 +319,23 @@ LEXICON INTERR
 мыйта+Pron+NonHum:мыйта INTERR-REL-INDEF ;
 мыйтӧм+Pron+NonHum:мыйтӧм INTERR-REL-INDEF ;
 мыйӧс+Pron+NonHum+Use/Sub:мыйӧс INTERR-REL-INDEF ;
+!Here are some negative pronouns out of place 2011-11-22
+некысь+Pron+Neg+Spat+Ela:некысь K ;
+некысянь+Pron+Neg+Spat+Egr:некысянь K ;
+некыт+Pron+Neg+Spat+Tra:некыт K ;
+некытчӧ+Pron+Neg+Spat+Ill:некытчӧ K ;
+некытчӧдз+Pron+Neg+Spat+Ter:некытчӧдз K ;
+некытысь+Pron+Neg+Spat+Ela:некытысь K ;
+некыті+Pron+Neg+Spat+Tra:некыті K ;
+некытӧн+Pron+Neg+Spat+Ine:некытӧн K ;
+некӧн+Pron+Neg+Spat+Ine:некӧн K ;
+
+
 
 LEXICON PRON-HUM
 +Pron+Sg+Nom:і INTERR-REL ;
 +Pron+Pl+Nom:ъяс INTERR-REL-INDEF ;
-+Pron+Sg+Nom: PRON-INDEF ;
++Pron+Sg+Nom: INTERR-REL-INDEF ;
 +Pron+Sg: PRON-HUM-OBL ;
 +Pron+Pl:ъяс PRON-HUM-OBL ;
 +Pron: PRON-HUM-COLL ;
@@ -439,10 +454,6 @@ LEXICON PRONINDEF-PERS-KO-END
 !!!!+Acc:%>ӧс PRONINDEF-PERS-KO-END ;
 
 
-
-!!LEXICON PRONINDEF-PERS-SJURO
-!!:%>сюрӧ # ;
-
 LEXICON PRON-SPAT
 +Pron+Spat: COMPARATIVE ;
 
@@ -481,6 +492,9 @@ LEXICON PRON-RECIPR-CASE
 
 LEXICON PRON-REL
 +Pron+Rel: # ;
+
+LEXICON PRON-REFL-IN_LADOR
++Pron+Refl+Der/ладор: Noun1 ; !2011-11-22
 
 LEXICON EndRefl
 +Pron+Refl+Abs: # ; !ас is an absolute-form modifer
@@ -626,6 +640,7 @@ LEXICON PRON-REFL-PL1-NOM
 LEXICON PRON-REFL-PL1-GEN
 +Pron+Refl+Gen+PxPl1: # ;
 +Pron+Refl+Gen+PxPl1+Abl:лысь # ;
++Pron+Refl+Gen+PxPl1+Der/ладор:%>ладор Noun1 ;
 
 LEXICON PRON-REFL-PL2-NOM
 +Pron+Refl+Nom+PxPl2: # ;
@@ -637,6 +652,8 @@ LEXICON PRON-REFL-PL2-NOM
 LEXICON PRON-REFL-PL2-GEN
 +Pron+Refl+Gen+PxPl2: # ;
 +Pron+Refl+Gen+PxPl2+Gen: # ;
++Pron+Refl+Gen+PxPl2+Der/ладор:%>ладор Noun1 ;
+
 
 LEXICON PRON-REFL-PL2-ACC
 +Pron+Refl+Pl2+Acc2: # ;
@@ -649,54 +666,10 @@ LEXICON PRON-REFL-PL3-GEN
 +Pron+Refl+Gen+PxPl3: # ;
 +Pron+Refl+Gen+PxPl3+Gen:лӧн # ;
 +Pron+Refl+Gen+PxPl3+Prl:ӧд # ;
++Pron+Refl+Gen+PxPl3+Der/ладор:%>ладор Noun1 ;
 
 LEXICON PRON-REFL-PL3-ACC
 +Pron+Refl+Pl3+Acc3: # ;
-
-!!! LEXICON PRON-REFL-SG1-ACC !This already has the form included
-!!! +Pron+Refl+Sg1+Acc: # ;
-
-!!Replaced 2011-10-07 by PRON-REFL-OBL-CASES
-!!! LEXICON PRON-REFL-SG1-ELA
-!!! +Pron+Refl+Sg1+Ela: # ;
-!!! LEXICON PRON-REFL-SG2-ELA
-!!! +Pron+Refl+Sg2+Ela: # ;
-!!! LEXICON PRON-REFL-SG3-ELA
-!!! +Pron+Refl+Sg3+Ela: # ;
-!!! LEXICON PRON-REFL-PL3-ELA
-!!! +Pron+Refl+Pl3+Ela: # ;
-
-!!! LEXICON PRON-REFL-SG1-DAT
-!!! +Pron+Refl+Sg1+Dat: # ;
-!!! LEXICON PRON-REFL-SG2-COM
-!!! +Pron+Refl+Sg2+Com: # ;
-!!! LEXICON PRON-REFL-SG2-DAT
-!!! +Pron+Refl+Sg2+Dat: # ;
-!!! LEXICON PRON-REFL-SG3-COM
-!!! +Pron+Refl+Sg3+Com: # ;
-!!! LEXICON PRON-REFL-SG3-DAT
-!!! +Pron+Refl+Sg3+Dat: # ;
-!!! LEXICON PRON-REFL-PL1-ACC
-!!! +Pron+Refl+Pl1+Acc: # ;
-!!! LEXICON PRON-REFL-PL1-COM
-!!! +Pron+Refl+Pl1+Com: # ;
-!!! LEXICON PRON-REFL-PL1-DAT
-!!! +Pron+Refl+Pl1+Dat: # ;
-!!! LEXICON PRON-REFL-PL2-COM
-!!! +Pron+Refl+Pl2+Com: # ;
-!!! LEXICON PRON-REFL-PL2-DAT
-!!! +Pron+Refl+Pl2+Dat: # ;
-!!! LEXICON PRON-REFL-PL3-COM
-!!! +Pron+Refl+Pl3+Com: # ;
-!!! LEXICON PRON-REFL-PL3-DAT
-!!! +Pron+Refl+Pl3+Dat: # ;
-
-!!! LEXICON PRON-REL-HUM
-!!! +Pron+Rel+Sg+Nom:і INTERR-REL ;
-!!! +Pron+Rel+Pl+Nom:ъяс INTERR-REL ;
-!!! +Pron+Rel+Sg: PRON-INTER-HUM-OBL ;
-!!! +Pron+Rel+Pl:ъяс PRON-INTER-HUM-OBL ;
-!!! !код, коді
 
 
 LEXICON PRONDEMTAG
@@ -816,39 +789,11 @@ LEXICON PRON-INTER-NONHUM
 
 LEXICON PRON-NEG-HUM
 +Pron+Neg+Sg+Nom: # ;
-+Pron+Neg+Sg: PRON-INTER-HUM-OBL ;
-
-!!! LEXICON PRON-INTER-HUM
-!!! +Pron+Interr+Sg+Nom:і K ;
-!!! +Pron+Interr+Pl+Nom:ъяс K ;
-!!! +Pron+Interr+Sg: PRON-INTER-HUM-OBL ;
-!!! +Pron+Interr+Pl:ъяс PRON-INTER-HUM-OBL ;
-!!! +Pron+Interr: PRON-INTER-REL-HUM-COLL ;
++Pron+Neg+Sg: PRON-NEG-OBL ;
 
 LEXICON PRON-DUAL
-+Pron+Du: PRON-INTER-HUM-OBL ;
++Pron+Du: PRON-NEG-OBL ;
 
-LEXICON PRON-INTER-HUM-OBL
-! 2011-11-15 This is used by PRON-NEG
-! also тэа-мэа inclusive 1Du, сыа-мэа exclusive 1Du
-+Cmpl: # ;
-+Gen:лӧн # ;
-+Abl:лысь K ; !
-+Dat:лы # ;
-+Acc:ӧс # ;
-+Acc3:сӧ # ;
-+Instr:ӧн K ;
-+Com:кӧд K ;
-+Car:тӧг K ;
-+Cns:ла K ;
-+Ine:ын K ;
-+Ela:ысь K ; 
-+Ill:ӧ K ; !
-+Apr:лань K ;
-+Egr:сянь K ;
-+Tra:ті K ;
-+Ter:ӧдз K ;
- 
 !!! LEXICON PRON-INTER-REL-HUM-COLL
 !!! +Coll:нан PRON-INTER-REL-HUM-COLL-PERS ;
 !!! +ZeroColl: PRON-INTER-REL-HUM-COLL-PERS ;
@@ -1056,14 +1001,79 @@ LEXICON PRONQ-COLL-CASE
 +Ter+PxSg2:ӧдзыд K ;
 +Ter+PxSg3:ӧдзыс K ;
 
+LEXICON PRONQ-ATAG
++Pron+Qnt+A: K ;
++Pron+Qnt+A+Der/MWN: Noun1 ;
+
 LEXICON PRONQTAG
 +Pron+Qnt: COMPARATIVE ; ! sg/pl?
 
 LEXICON PRONQTAGPL
 +Pron+Qnt+Pl: # ;
 
+LEXICON PRON-NEG-End
++Pron+Neg: K ;
+
+LEXICON PRON-NEG-A
++Pron+Neg+A: # ;
++Pron+Neg+A+Der/MWN+N+Sg+Nom: # ;
++Pron+Neg+A+Der/MWN+N+Sg: PRON-NEG-OBL ;
+
+LEXICON PRON-NEG-ADV
++Pron+Neg+Adv: COMPARATIVE ;
+
+LEXICON PRON-NEG-IN_LA
++Pron+Neg+Der/ла+Spat: PRON-NEG-SPAT ;
+
+LEXICON PRON-NEG-ITER
++Pron+Neg+Der/ысь+Iter: K ;
+
 LEXICON PRON-NEG
-+Pron+Neg: # ;
++Pron+Neg+Sg+Nom: # ;
++Pron+Neg+Sg: PRON-NEG-OBL ;
 
 
+LEXICON PRON-NEG-COLL
++Coll:нан PRON-NEG-COLL-PERS ;
++ZeroColl: PRON-NEG-COLL-PERS ;
+!
++ZeroColl+PxPl2+Acc2:ныдтӧ K ;
++Coll+PxPl2+Acc2:наннытӧ K ;
+
+LEXICON PRON-NEG-COLL-PERS
++PxPl1:ным PRON-NEG-COLL-CASES ;
++PxPl2:ныд PRON-NEG-COLL-CASES ;
++PxPl3:ныс PRON-NEG-COLL-CASES ;
+!
++PxPl1+Acc:нымӧс K ;
++PxPl2+Acc2:нытӧ K ;
++PxPl3+Acc3:ныссӧ K ;
+
+LEXICON PRON-NEG-COLL-CASES
++Nom: K ;
+ PRON-NEG-OBL ;
+
+LEXICON PRON-NEG-OBL
+! 2011-11-15 This is used by PRON-NEG
+! also тэа-мэа inclusive 1Du, сыа-мэа exclusive 1Du
++Cmpl: # ;
++Gen:лӧн # ;
++Abl:лысь K ; !
++Dat:лы # ;
++Acc:ӧс # ;
++Acc3:сӧ # ;
++Instr:ӧн K ;
++Com:кӧд K ;
++Car:тӧг K ;
++Cns:ла K ;
+ PRON-NEG-SPAT ;
+
+LEXICON PRON-NEG-SPAT
++Ine:ын K ;
++Ela:ысь K ; 
++Ill:ӧ K ; !
++Apr:лань K ;
++Egr:сянь K ;
++Tra:ті K ;
++Ter:ӧдз K ;
  

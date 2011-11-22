@@ -167,6 +167,7 @@ Multichar_Symbols
 
 ! Declaring spatial adverb derivations; see also spatial postpositions
 +Der/ла
++Der/ладор
 +Spat ! spatial
 
 !Modifier without noun
@@ -439,6 +440,9 @@ LEXICON PO-PX
 
 LEXICON Ad-ATAG ! these are checked as advs.
 +AdA: # ;
+
+LEXICON ADV-IS_GER-MON ! these are checked as gerunds in +Der/мӧн
++V+Der/мӧн: ADVTAG ;
 
 LEXICON ADVTAG ! these are checked as advs.
 +Adv: COMPARATIVE ;

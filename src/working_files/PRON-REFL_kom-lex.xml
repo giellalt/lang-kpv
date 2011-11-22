@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <dict xsi:noNamespaceSchemaLocation="../dict.xsd"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xmlns:xs="http://www.w3.org/2001/XMLSchema">
@@ -10,66 +10,227 @@
     <contlex>EndRefl</contlex>
 
     <pos>PRON-REFL</pos>
-  </entry>
 
-  <entry>
-    <lemma>ачыд</lemma>
+    <e>
+      <mg MNo="1">
+        <m>
+          <head><i>притяж.</i></head>
 
-    <stem></stem>
+          <tg lang="ru"><t pos="A">свой, собственный</t></tg>
+        </m>
 
-    <contlex>PRON-REFL-SG2-NOM</contlex>
+        <x>
+          <kv>ас вӧляысь</kv>
 
-    <pos>PRON-REFL</pos>
-  </entry>
+          <tg lang="ru"><t>по своей воле</t></tg>
+        </x>
 
-  <entry>
-    <lemma>ачым</lemma>
+        <x>
+          <kv>ас керкаын овны</kv>
 
-    <stem></stem>
+          <tg lang="ru"><t>жить в собственном доме</t></tg>
+        </x>
 
-    <contlex>PRON-REFL-SG1-NOM</contlex>
+        <x>
+          <kv>ас кырымпас</kv>
 
-    <pos>PRON-REFL</pos>
+          <tg lang="ru"><t pos="N">автограф</t></tg>
+        </x>
+
+        <x>
+          <kv>ас синмӧн аддзыны</kv>
+
+          <tg lang="ru"><t>увидеть своими глазами</t></tg>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head><i>притяж.</i></head>
+
+          <tg lang="ru"><t pos="A">свой, своего изготовления,
+          домашний</t></tg>
+        </m>
+
+        <x>
+          <kv>ас кыӧм кепысь</kv>
+
+          <tg lang="ru"><t>рукавицы домашней вязки</t></tg>
+        </x>
+
+        <x>
+          <kv>ас ной</kv>
+
+          <tg lang="ru"><t>домотканое сукно</t></tg>
+        </x>
+
+        <x>
+          <kv>ас табак</kv>
+
+          <tg lang="ru"><t pos="N">самосад</t></tg>
+        </x>
+      </mg>
+
+      <mg MNo="3">
+        <m>
+          <head><i>притяж.</i></head>
+
+          <tg lang="ru"><t pos="A">свой, родной</t></tg>
+        </m>
+
+        <x>
+          <kv>ас войтыр</kv>
+
+          <tg lang="ru"><t>свои люди</t></tg>
+        </x>
+
+        <x>
+          <kv>ас кыв</kv>
+
+          <tg lang="ru"><t>родной язык</t></tg>
+        </x>
+
+        <x>
+          <kv>ас му</kv>
+
+          <tg lang="ru"><t>родная земля</t></tg>
+        </x>
+      </mg>
+
+      <mg MNo="4">
+        <m>
+          <head><i>притяж.</i></head>
+
+          <tg lang="ru"><t pos="A">свой, местный</t></tg>
+        </m>
+
+        <x>
+          <kv>ас картупель</kv>
+
+          <tg lang="ru"><t>местный сорт картошки</t></tg>
+        </x>
+
+        <x>
+          <kv>ас чери</kv>
+
+          <tg lang="ru"><t>местная (<i>непривозная</i>) рыба</t></tg>
+        </x>
+      </mg>
+
+      <mg MNo="5">
+        <m>
+          <head><voice>возвр.</voice></head>
+
+          <tg lang="ru"><t>себя (<i>чаще употр. с послелогами; в отношении лица может конкретизироваться притяж. суффиксами</i>,
+          <i>присоединяемыми к послелогу</i>)</t></tg>
+        </m>
+
+        <x>
+          <kv>асас воис</kv>
+
+          <tg lang="ru"><t>он пришёл в себя</t></tg>
+        </x>
+
+        <x>
+          <kv>ас вылад надейтчы</kv>
+
+          <tg lang="ru"><t>надейся на себя</t></tg>
+        </x>
+
+        <x>
+          <kv>ас вылӧ босьтны мыж</kv>
+
+          <tg lang="ru"><t>взять вину на себя</t></tg>
+        </x>
+
+        <x>
+          <kv>ас выланыд элясьӧй</kv>
+
+          <tg lang="ru"><t>пеняйте на себя</t></tg>
+        </x>
+
+        <x>
+          <kv>◊ Ас вир-яйӧн нажӧвитны</kv>
+
+          <tg lang="ru"><t>своими руками заработать</t></tg>
+        </x>
+
+        <x>
+          <kv>ас выйӧн овны</kv>
+
+          <tg lang="ru"><t>жить, не вмешиваясь в чужие дела</t></tg>
+        </x>
+
+        <x>
+          <kv>ас выйысь вошны</kv>
+
+          <tg lang="ru"><t>выйти из себя</t></tg>
+        </x>
+
+        <x>
+          <kv>ас вылӧ босьтны</kv>
+
+          <tg lang="ru"><t>взять на себя</t></tg>
+        </x>
+
+        <x>
+          <kv>ас дор видзны</kv>
+
+          <tg lang="ru"><t>а) печься, заботиться о своей выгоде; б) защищать
+          себя</t></tg>
+        </x>
+
+        <x>
+          <kv>ас йирын-кӧтшын</kv>
+
+          <tg lang="ru"><t>сам по себе, самостоятельно</t></tg>
+        </x>
+
+        <x>
+          <kv>ас коддьӧм</kv>
+
+          <tg lang="ru"><t>ровня</t></tg>
+        </x>
+
+        <x>
+          <kv>ас моз</kv>
+
+          <tg lang="ru"><t>по-своему, своеобразно;</t></tg>
+        </x>
+
+        <x>
+          <kv>ас куас оз тӧр</kv>
+
+          <tg lang="ru"><t>вне себя;</t></tg>
+        </x>
+
+        <x>
+          <kv>ас юрӧн овны</kv>
+
+          <tg lang="ru"><t>жить своим умом</t></tg>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry exclude="fst">
-    <lemma>ачымӧс</lemma>
+    <lemma>аскӧд</lemma>
 
     <stem></stem>
 
-    <contlex>PRON-REFL-SG1-ACC</contlex>
+    <contlex>PRON-REFL</contlex>
 
     <pos>PRON-REFL</pos>
-  </entry>
 
-  <entry>
-    <lemma>ачыс</lemma>
+    <e>
+      <mg>
+        <m>
+          <head></head>
 
-    <stem></stem>
-
-    <contlex>PRON-REFL-SG3-NOM</contlex>
-
-    <pos>PRON-REFL</pos>
-  </entry>
-
-  <entry exclude="fst">
-    <lemma>аскӧдыд</lemma>
-
-    <stem></stem>
-
-    <contlex>PRON-REFL-SG2-COM</contlex>
-
-    <pos>PRON-REFL</pos>
-  </entry>
-
-  <entry exclude="fst">
-    <lemma>аскӧдыс</lemma>
-
-    <stem></stem>
-
-    <contlex>PRON-REFL-SG3-COM</contlex>
-
-    <pos>PRON-REFL</pos>
+          <assoc MNo="1" assocType="see">аскӧдым</assoc>
+        </m>
+      </mg>
+    </e>
   </entry>
 
   <entry exclude="fst">
@@ -80,6 +241,26 @@
     <contlex>PRON-REFL-PL2-COM</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Com">асьныд</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>нуӧй челядьтӧ аскӧдныд</kv>
+
+          <tg lang="ru"><t>возьмите детей с собой</t></tg>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry exclude="fst">
@@ -90,6 +271,26 @@
     <contlex>PRON-REFL-PL1-COM</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Com" possPx="Pl1">асьным</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>кагаӧс аскӧдным нулім</kv>
+
+          <tg lang="ru"><t>ребёнка мы брали с собой</t></tg>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry exclude="fst">
@@ -100,6 +301,128 @@
     <contlex>PRON-REFL-PL3-COM</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Com" possPx="Pl3">асьныс</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>кагасӧ аскӧдныс нулісны</kv>
+
+          <tg lang="ru"><t>ребёнка они брали с собой</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>аскӧдыд</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL-SG2-COM</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Com">ачыд</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>аскӧдыд колі сёрнитны</kv>
+
+          <tg lang="ru"><t>надо было поговорить с тобой самим</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>аскӧдым</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL-COM</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Com" possPx="Sg1">ачым</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>аскӧдым колі сёрнитны</kv>
+
+          <tg lang="ru"><t>со мной самим надо было поговорить</t></tg>
+        </x>
+
+        <x>
+          <kv>нинӧм аскӧдым ог вермы вӧчны</kv>
+
+          <tg lang="ru"><t>ничего не могу с собой поделать</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>аскӧдыс</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL-SG3-COM</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Com">ачыс</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>кагасӧ аскӧдыс нуліс</kv>
+
+          <tg lang="ru"><t>ребёнка она брала с собой</t></tg>
+        </x>
+
+        <x>
+          <kv>сёрниыс аскӧдыс эз на вӧв</kv>
+
+          <tg lang="ru"><t>разговора с ним самим ещё не было</t></tg>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry>
@@ -110,6 +433,172 @@
     <contlex>PRON-REFL-SG2-GEN</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Gen">ачыд</drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>понйыд аслад?</kv>
+
+          <tg lang="ru"><t>собака (эта) твоя?</t></tg>
+        </x>
+
+        <x>
+          <kv>тэнад аслад нинӧм оз артмы</kv>
+
+          <tg lang="ru"><t>у тебя самого ничего не получится</t></tg>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t pos="PRON-PERS">свой</t><t
+          pos="PRON-PERS">твой</t></tg>
+        </m>
+
+        <x>
+          <kv>тэ аслад синмӧн аддзылін?</kv>
+
+          <tg lang="ru"><t>ты видел своими глазами?</t></tg>
+        </x>
+
+        <x>
+          <kv>аслад юрӧн овны</kv>
+
+          <tg lang="ru"><t>жить своей головой</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>асладор</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL-IN_LADOR</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t>своя сторона</t><t>родная сторона</t></tg>
+        </m>
+
+        <x>
+          <kv>вуджны асладор берегӧ</kv>
+
+          <tg lang="ru"><t>перейти на свой берег</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>асладорсянь</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL-EGR</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t>от себя</t></tg>
+        </m>
+
+        <x>
+          <kv>ӧдзӧс воссьӧ асладорсянь</kv>
+
+          <tg lang="ru"><t>дверь открывается от себя</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>асладорын</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL-INE</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t>на родной стороне</t></tg>
+        </m>
+
+        <x>
+          <kv>асладорын гажа овны</kv>
+
+          <tg lang="ru"><t>на родной стороне жить весело</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>асладорӧ</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL-ILL</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t>на свою сторону</t></tg>
+        </m>
+
+        <x>
+          <kv>ранитчӧмаӧс асладорӧ вайны</kv>
+
+          <tg lang="ru"><t>раненого перенести на свою сторону</t></tg>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t>в свою пользу</t></tg>
+        </m>
+
+        <x>
+          <kv>кодӧскӧ кыскыны асладорӧ</kv>
+
+          <tg lang="ru"><t>предрасположить <i>кого-л.</i> в свою
+          пользу</t></tg>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry>
@@ -120,6 +609,46 @@
     <contlex>PRON-REFL-SG1-GEN</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Gen">ачым</drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>аслам этша</kv>
+
+          <tg lang="ru"><t>у меня у самого мало</t></tg>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head><i>в роли притяж. мест.</i></head>
+
+          <tg lang="ru"><t>свой, мне принадлежащий</t></tg>
+        </m>
+
+        <x>
+          <kv>тайӧ менам аслам</kv>
+
+          <tg lang="ru"><t>это у меня своё</t></tg>
+        </x>
+
+        <x>
+          <kv>тайӧс менам вӧчӧма аслам киӧн</kv>
+
+          <tg lang="ru"><t>это у меня сделано своими руками</t></tg>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry>
@@ -130,6 +659,52 @@
     <contlex>PRON-REFL-PL2-GEN</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Gen">асьныд</drv>
+    </drvg>
+
+    <e>
+      <mg MNo="2">
+        <m>
+          <head><i>в роли притяж. мест.</i></head>
+
+          <tg lang="ru"><t>свой, ваш, вам принадлежащий</t></tg>
+        </m>
+
+        <x>
+          <kv>ті воинныд</kv>
+
+          <tg lang="ru"><t>(</t></tg>
+        </x>
+
+        <x>
+          <kv>вӧвъясӧн?</kv>
+
+          <tg lang="ru"><t>вы приехали на своих лошадях?</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>асланыдладор</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL-IN_LADOR</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t>ваша сторона</t></tg>
+        </m>
+      </mg>
+    </e>
   </entry>
 
   <entry>
@@ -140,6 +715,60 @@
     <contlex>PRON-REFL-PL1-GEN</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Gen">асьным</drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head><i>в роли притяж. мест.</i></head>
+
+          <tg lang="ru"><t>свой, наш, нам принадлежащий</t></tg>
+        </m>
+
+        <x>
+          <kv>асланым керкаын олам</kv>
+
+          <tg lang="ru"><t>мы живём в своём доме</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>асланымладор</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t>своя (наша) сторона</t></tg>
+        </m>
+
+        <x>
+          <kv>петны кытшысь асланымладорӧ</kv>
+
+          <tg lang="ru"><t>выйти из окружения к своим</t></tg>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry>
@@ -150,6 +779,286 @@
     <contlex>PRON-REFL-PL3-GEN</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Gen">асьныс</drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>асланыс абу</kv>
+
+          <tg lang="ru"><t>у них самих нет (<i>чего-л.</i>)</t></tg>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head><i>в роли притяж. мест.</i></head>
+
+          <tg lang="ru"><t>свой, их, им принадлежащий</t></tg>
+        </m>
+
+        <x>
+          <kv>воисны асланыс пыжӧн</kv>
+
+          <tg lang="ru"><t>они прибыли на своей лодке</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>асланысладор</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t>своя (их) сторона</t></tg>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>аслань</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL-APR</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t>на свою сторону</t></tg>
+        </m>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t>к себе</t></tg>
+        </m>
+
+        <x>
+          <kv>ӧдзӧс воссьӧ аслань</kv>
+
+          <tg lang="ru"><t>дверь открывается к себе</t></tg>
+        </x>
+
+        <x>
+          <kv>◊ аслань бертны</kv>
+
+          <tg lang="ru"><t>стоять на своём</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>асланьныд</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Apr">асьныд</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t> </t></tg>
+        </m>
+
+        <x>
+          <kv>асланьныд кыскӧй</kv>
+
+          <tg lang="ru"><t>тяните на себя</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>асланьным</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL-APR</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Apr">асьным</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t> </t></tg>
+        </m>
+
+        <x>
+          <kv>асланьным колӧ вештыштны</kv>
+
+          <tg lang="ru"><t>надо подвинуть на нас, в нашу сторону</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>асланьныс</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL-APR</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Apr">асьныс</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t> </t></tg>
+        </m>
+
+        <x>
+          <kv>асланьныс бӧрыньтчисны</kv>
+
+          <tg lang="ru"><t>они отступили на свою сторону</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>асланьыд</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL-APR</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Apr">ачыд</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t> </t></tg>
+        </m>
+
+        <x>
+          <kv>асланьыд вешты</kv>
+
+          <tg lang="ru"><t>подвинь на себя; придвинь к себе</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>асланьым</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL-APR</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Apr">ачым</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t> </t></tg>
+        </m>
+
+        <x>
+          <kv>асланьым кыскышті</kv>
+
+          <tg lang="ru"><t>я потянул на себя</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>асланьыс</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL-APR</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Apr">ачыс</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t> </t></tg>
+        </m>
+
+        <x>
+          <kv>асланьыс кыскыштіс</kv>
+
+          <tg lang="ru"><t>он подвинул к себе</t></tg>
+        </x>
+
+        <x>
+          <kv>асланьыс колысь</kv>
+
+          <tg lang="ru"><t>беспокоится о своей выгоде</t></tg>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry>
@@ -160,6 +1069,46 @@
     <contlex>PRON-REFL-SG3-GEN</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Gen">ачыс</drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>аслас нинӧм абу</kv>
+
+          <tg lang="ru"><t>у него самого ничего нет</t></tg>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head><i>в роли притяж. мест.</i></head>
+
+          <tg lang="ru"><t>свой, его, ему принадлежащий</t></tg>
+        </m>
+
+        <x>
+          <kv>аслас киӧн</kv>
+
+          <tg lang="ru"><t>своей рукой</t></tg>
+        </x>
+
+        <x>
+          <kv>пиыс аслас</kv>
+
+          <tg lang="ru"><t>мальчик у него свой</t></tg>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry exclude="fst">
@@ -170,6 +1119,42 @@
     <contlex>PRON-REFL-SG2-DAT</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Dat">ачыд</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>аслыд босьт</kv>
+
+          <tg lang="ru"><t>бери себе</t></tg>
+        </x>
+
+        <x>
+          <kv>пукты аслыд мог</kv>
+
+          <tg lang="ru"><t>поставь себе задачу</t></tg>
+        </x>
+
+        <x>
+          <kv>◊ аслыд шоныд питшӧгад</kv>
+
+          <tg lang="ru"><t>типун тебе на язык</t></tg>
+
+          <literal>
+            <tg lang="ru"><t>в свою тёплую пазуху</t></tg>
+          </literal>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry exclude="fst">
@@ -180,6 +1165,26 @@
     <contlex>PRON-REFL-SG1-DAT</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Dat">ачым</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>аслым вылӧ</kv>
+
+          <tg lang="ru"><t>лично для себя</t></tg>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry exclude="fst">
@@ -190,6 +1195,26 @@
     <contlex>PRON-REFL-PL2-DAT</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Dat">асьныд</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>тіянлы ме аслыныд висьтавлі</kv>
+
+          <tg lang="ru"><t>я вам самим говорил</t></tg>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry exclude="fst">
@@ -200,6 +1225,26 @@
     <contlex>PRON-REFL-PL1-DAT</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Dat">асьным</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>аслыным оз тырмы</kv>
+
+          <tg lang="ru"><t>нам самим не хватает</t></tg>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry exclude="fst">
@@ -210,6 +1255,26 @@
     <contlex>PRON-REFL-PL3-DAT</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Dat">асьныс</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>ме налы аслыныс шулі</kv>
+
+          <tg lang="ru"><t>я говорил им самим</t></tg>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry exclude="fst">
@@ -220,6 +1285,176 @@
     <contlex>PRON-REFL-SG3-DAT</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Dat" possPx="Sg3">ачыс</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>ме аслыс шулі</kv>
+
+          <tg lang="ru"><t>я ему самому говорил</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>аснад</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Instr">ачыд</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>аснам</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Instr">ачым</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>аснаныд</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Instr">асьныд</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>аснаным</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Instr">асьным</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>аснаныс</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Instr">асьныс</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>аснас</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Instr">ачыс</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>аснас ачыс любуйтчӧ</kv>
+
+          <tg lang="ru"><t>он сам собой любуется</t></tg>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry exclude="fst">
@@ -230,6 +1465,52 @@
     <contlex>PRON-REFL-SG2-ELA</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Ela">ачыд</drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head><i>притяж. пад. от</i></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>ме тэнсьыд ассьыд юавлі</kv>
+
+          <tg lang="ru"><t>я у тебя самого спрашивал</t></tg>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head><i>в роли притяж. мест.</i></head>
+
+          <tg lang="ru"><t>свой, твой</t></tg>
+        </m>
+
+        <x>
+          <kv>ассьыд мыж гӧгӧрвоӧм</kv>
+
+          <tg lang="ru"><t>сознание своей вины</t></tg>
+        </x>
+
+        <x>
+          <kv>тэ ассьыд делӧ тӧд</kv>
+
+          <tg lang="ru"><t>ты знай своё дело</t></tg>
+        </x>
+
+        <x>
+          <kv>ассьыд ныр кутны</kv>
+
+          <tg lang="ru"><t>делать по-своему, держаться своей линии</t></tg>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry exclude="fst">
@@ -240,6 +1521,40 @@
     <contlex>PRON-REFL-SG1-ELA</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Ela">ачым</drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>ассьым колі юавны</kv>
+
+          <tg lang="ru"><t>надо было у меня спросить</t></tg>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head><i>в роли притяж. мест.</i></head>
+
+          <tg lang="ru"><t>свой, мой</t></tg>
+        </m>
+
+        <x>
+          <kv>ассьым кагаӧс ӧбидаӧ ог сет</kv>
+
+          <tg lang="ru"><t>своего ребёнка в обиду не дам</t></tg>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry exclude="fst">
@@ -247,9 +1562,43 @@
 
     <stem></stem>
 
-    <contlex>PRON-REFL-SG2-ELA</contlex>
+    <contlex>PRON-REFL-PL2-ELA</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Ela">асьныд</drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>ме жӧ ассьыныд юалі</kv>
+
+          <tg lang="ru"><t>я же у вас самих спросил</t></tg>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head><i>в роли притяж. мест.</i></head>
+
+          <tg lang="ru"><t>свой, ваш</t></tg>
+        </m>
+
+        <x>
+          <kv>идралӧй тась ассьыныд кӧлуйтӧ</kv>
+
+          <tg lang="ru"><t>уберите отсюда свои вещи</t></tg>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry exclude="fst">
@@ -260,6 +1609,40 @@
     <contlex>PRON-REFL-PL1-ELA</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Ela">асьным</drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>ассьыным коліс юавны</kv>
+
+          <tg lang="ru"><t>надо было спросить у нас самих</t></tg>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head><i>в роли притяж. мест.</i></head>
+
+          <tg lang="ru"><t>свой, наш</t></tg>
+        </m>
+
+        <x>
+          <kv>ассьыным керка вузалім</kv>
+
+          <tg lang="ru"><t>мы наш дом продали</t></tg>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry exclude="fst">
@@ -270,6 +1653,40 @@
     <contlex>PRON-REFL-PL3-ELA</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Ela">асьныс</drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>ассьыныс колі юавны</kv>
+
+          <tg lang="ru"><t>надо было спросить у них самих</t></tg>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head><i>в роли притяж. мест.</i></head>
+
+          <tg lang="ru"><t>свой, их</t></tg>
+        </m>
+
+        <x>
+          <kv>найӧ оз вунӧдны ассьыныс чужан мусӧ</kv>
+
+          <tg lang="ru"><t>они не забудут свою родину</t></tg>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry exclude="fst">
@@ -280,6 +1697,476 @@
     <contlex>PRON-REFL-SG3-ELA</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Ela">ачыс</drv>
+    </drvg>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>ассьыс кор</kv>
+
+          <tg lang="ru"><t>у него самого проси</t></tg>
+        </x>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head><i>в знач. притяж. мест.</i></head>
+
+          <tg lang="ru"><t>свой, его</t></tg>
+        </m>
+
+        <x>
+          <kv>ассьыс делӧ бура тӧдӧ</kv>
+
+          <tg lang="ru"><t>своё дело он хорошо знает</t></tg>
+        </x>
+
+        <x>
+          <kv>◊ ассьыс пӧрт ув пестыны кужӧ</kv>
+
+          <tg lang="ru"><t>он не пропадёт, себя выгородит</t></tg>
+        </x>
+
+        <x>
+          <kv>ассьыс синӧ</kv>
+
+          <tg lang="ru"><t>гнёт своё</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>ассянь</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Egr">ачым</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>ассяньныд</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Egr" possPx="Pl2">асьныд</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>ассяньныд нин пӧ колӧ</kv>
+
+          <tg lang="ru"><t>с вас самих, говорят, уже причитается</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>ассяньным</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Egr" possPx="Pl1">асьным</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>ассяньным колӧ заводитны</kv>
+
+          <tg lang="ru"><t>надо начать с нас самих</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>ассяньныс</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Egr" possPx="Pl3">асьныс</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>ассяньныс на колӧ</kv>
+
+          <tg lang="ru"><t>с них самих причитается</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>ассяньыд</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Egr" possPx="Sg2">ачыд</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>ассяньыд виччысьӧны письмӧ</kv>
+
+          <tg lang="ru"><t>от тебя самого ждут письмо</t></tg>
+        </x>
+
+        <x>
+          <kv>ассяньыд заводит</kv>
+
+          <tg lang="ru"><t>начни с самого себя</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>ассяньым</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Egr">ачым</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>ассяньым на виччысьӧны</kv>
+
+          <tg lang="ru"><t>от меня самого ещё ждут (<i>чего-л.</i>)</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>ассяньыс</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Egr">ачыс</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>ассяньыс воис письмӧ</kv>
+
+          <tg lang="ru"><t>от него самого пришло письмо</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>астӧг</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head></head>
+
+          <assoc MNo="1" assocType="see">астӧгым</assoc>
+        </m>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t>заочно</t></tg>
+        </m>
+
+        <x>
+          <kv>астӧг бӧрйыны</kv>
+
+          <tg lang="ru"><t>избрать заочно</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>астӧгныд</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Car">асьныд</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>астӧгныд эг лысьт босьтны</kv>
+
+          <tg lang="ru"><t>без вас самих я не посмел взять</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>астӧгным</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Car">асьным</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>астӧгным волӧма</kv>
+
+          <tg lang="ru"><t>он приходил в наше отсутствие</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>астӧгныс</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Car">асьныс</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>астӧгныс волӧмаӧсь</kv>
+
+          <tg lang="ru"><t>они приходили в их отсутствие</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>астӧгыд</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Car">ачыд</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>астӧгыд волі</kv>
+
+          <tg lang="ru"><t>я приходил без тебя, в твоё отсутствие</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>астӧгым</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Car">ачым</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>астӧгым пыралӧмаӧсь</kv>
+
+          <tg lang="ru"><t>они заходили без меня, в моё отсутствие</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>астӧгыс</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Car">ачыс</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>астӧгыс босьтӧмаӧсь</kv>
+
+          <tg lang="ru"><t>без него самого, в его отсутствие взяли</t></tg>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry>
@@ -290,6 +2177,22 @@
     <contlex>PRON-REFL-PL2-NOM</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><i>усил.-личн. мн. ч. 2 л.</i></head>
+
+          <tg lang="ru"><t>вы сами</t></tg>
+        </m>
+
+        <x>
+          <kv>асьныд волӧй</kv>
+
+          <tg lang="ru"><t>вы сами приходите</t></tg>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry>
@@ -300,6 +2203,28 @@
     <contlex>PRON-REFL-PL1-NOM</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><i>усил.-личн. мн. ч. 1 л.</i></head>
+
+          <tg lang="ru"><t>мы сами</t></tg>
+        </m>
+
+        <x>
+          <kv>ми асьным локтам</kv>
+
+          <tg lang="ru"><t>мы сами придём</t></tg>
+        </x>
+
+        <x>
+          <kv>миянлы оз ков висьтавны, асьным аддзам</kv>
+
+          <tg lang="ru"><t>нам не надо говорить, сами видим</t></tg>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry exclude="fst">
@@ -310,6 +2235,26 @@
     <contlex>PRON-REFL-PL1-ACC</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Acc">асьным</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>асьнымӧс корисны</kv>
+
+          <tg lang="ru"><t>нас самих пригласили</t></tg>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry>
@@ -320,6 +2265,22 @@
     <contlex>PRON-REFL-PL3-NOM</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><i>усил.-личн. мн. ч. 3 л.</i></head>
+
+          <tg lang="ru"><t>они сами</t></tg>
+        </m>
+
+        <x>
+          <kv>асьныс тӧдӧны</kv>
+
+          <tg lang="ru"><t>они сами знают</t></tg>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry>
@@ -330,6 +2291,26 @@
     <contlex>PRON-REFL-PL3-ACC</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Acc">асьныс</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>асьнысӧ видісны</kv>
+
+          <tg lang="ru"><t>их самих обругали</t></tg>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry>
@@ -340,6 +2321,26 @@
     <contlex>PRON-REFL-PL2-ACC</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Acc">асьныд</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>тіянӧс асьнытӧ корисны</kv>
+
+          <tg lang="ru"><t>вас самих звали</t></tg>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry>
@@ -350,6 +2351,26 @@
     <contlex>PRON-REFL-SG3-ACC</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Acc">ачыс</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>асьсӧ небось абу вунӧдӧма</kv>
+
+          <tg lang="ru"><t>себя, небось, он не забыл</t></tg>
+        </x>
+      </mg>
+    </e>
   </entry>
 
   <entry>
@@ -360,5 +2381,198 @@
     <contlex>PRON-REFL-SG2-ACC</contlex>
 
     <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Acc" possPx="Sg2">ачыд</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>асьтӧ тешитны</kv>
+
+          <tg lang="ru"><t><att>ирон.</att>тешить себя, потакать своим
+          прихотям</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>ачыд</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL-SG2-NOM</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><com>усил.-личн. ед. ч. 2 л.</com></head>
+
+          <tg lang="ru"><t pos="PHRASE-PRON">ты сам</t></tg>
+        </m>
+
+        <x>
+          <kv>ачыд тӧдан</kv>
+
+          <tg lang="ru"><t>сам знаешь</t></tg>
+        </x>
+
+        <x>
+          <kv>тэ ачыдсӧ коді лоан?</kv>
+
+          <tg lang="ru"><t>ты сам-то кто будешь?</t></tg>
+        </x>
+
+        <x>
+          <kv>ачыд ыж да баля</kv>
+
+          <tg lang="ru"><t>сам себе хозяин</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>ачым</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL-SG1-NOM</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><com>усил.-личн. ед. ч. 1 л.</com></head>
+
+          <tg lang="ru"><t pos="PHRASE-PRON">я сам</t></tg>
+        </m>
+
+        <x>
+          <kv>ачым аддзылі</kv>
+
+          <tg lang="ru"><t>я сам видел</t></tg>
+        </x>
+
+        <x>
+          <kv>ас вылам ачым кӧзяин</kv>
+
+          <tg lang="ru"><t>я сам над собой хозяин</t></tg>
+        </x>
+
+        <x>
+          <kv>ачым ыджыд и джуджыд</kv>
+
+          <tg lang="ru"><t>сам себе хозяин</t></tg>
+
+          <literal>
+            <tg lang="ru"><t>сам широкий и высокий</t></tg>
+          </literal>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>ачымӧн</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <assoc MNo="1" assocType="see">аснам</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>ачымӧс</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL-SG1-ACC</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <drvg>
+      <drv cx="Acc" possPx="Sg1">ачым</drv>
+    </drvg>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+
+        <x>
+          <kv>ачымӧс вида</kv>
+
+          <tg lang="ru"><t>сам себя ругаю</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>ачыс</lemma>
+
+    <stem></stem>
+
+    <contlex>PRON-REFL-SG3-NOM</contlex>
+
+    <pos>PRON-REFL</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><i>усил.-личн. ед. ч. 3 л.</i></head>
+
+          <tg lang="ru"><t pos="PHRASE-PRON">он сам</t></tg>
+
+          <tg lang="ru"><t pos="PHRASE-PRON">она сама</t></tg>
+
+          <tg lang="ru"><t pos="PHRASE-PRON">оно само</t></tg>
+        </m>
+
+        <x>
+          <kv>ачыс тӧдӧ</kv>
+
+          <tg lang="ru"><t>он сам знает</t></tg>
+        </x>
+
+        <x type="riddle">
+          <kv>ачыс ичӧтик, а быд кок колас видзӧдӧ</kv>
+
+          <tg lang="ru"><t>сам маленький, а всем промеж ног смотрит</t></tg>
+
+          <answer>
+            <kv>тагӧс</kv>
+
+            <tg lang="ru"><t>порог</t></tg>
+          </answer>
+        </x>
+      </mg>
+    </e>
   </entry>
 </dict>

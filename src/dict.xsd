@@ -109,12 +109,12 @@
 <xs:attribute name="possPx">
  <xs:simpleType>
    <xs:restriction base="xs:string">
-     <xs:enumeration value="sg1"/>
-     <xs:enumeration value="sg2"/>
-     <xs:enumeration value="sg3"/>
-     <xs:enumeration value="pl1"/>
-     <xs:enumeration value="pl2"/>
-     <xs:enumeration value="pl3"/>
+     <xs:enumeration value="Sg1"/>
+     <xs:enumeration value="Sg2"/>
+     <xs:enumeration value="Sg3"/>
+     <xs:enumeration value="Pl1"/>
+     <xs:enumeration value="Pl2"/>
+     <xs:enumeration value="Pl3"/>
    </xs:restriction>
  </xs:simpleType>
 </xs:attribute>
@@ -251,6 +251,7 @@
   <xs:element ref="tg"/>
 <!--    <xs:element ref="t"/>
 2011-11-08-->
+    <xs:element ref="assoc"/>
     <xs:element ref="field"/>
     <xs:element ref="sns"/>
     <xs:element ref="source"/>
@@ -704,6 +705,7 @@
     <xs:attribute ref="cx"/>
     <xs:attribute ref="der"/>
     <xs:attribute ref="drvType"/>
+    <xs:attribute ref="possPx"/>
   </xs:complexType>
 </xs:element>
 
@@ -775,18 +777,27 @@
 <xs:attribute name="cx">
   <xs:simpleType>
     <xs:restriction base="xs:string">
+      <xs:enumeration value="Acc"/>
+      <xs:enumeration value="Apr"/>
       <xs:enumeration value="AprEgr"/>
       <xs:enumeration value="AprEla"/>
       <xs:enumeration value="AprIne"/>
+      <xs:enumeration value="Car"/>
+      <xs:enumeration value="Cns"/>
+      <xs:enumeration value="Com"/>
+      <xs:enumeration value="Comp"/>
       <xs:enumeration value="Dat"/>
       <xs:enumeration value="Ela"/>
+      <xs:enumeration value="Egr"/>
       <xs:enumeration value="Gen"/>
       <xs:enumeration value="Ill-Ine"/>
       <xs:enumeration value="Ill"/>
       <xs:enumeration value="Ine"/>
       <xs:enumeration value="Instr"/>
       <xs:enumeration value="Nom"/>
+      <xs:enumeration value="Prol"/>
       <xs:enumeration value="Ter"/>
+      <xs:enumeration value="Tra"/>
     </xs:restriction>
   </xs:simpleType>
 </xs:attribute>
