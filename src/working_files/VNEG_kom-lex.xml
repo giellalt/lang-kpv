@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dict>
-   <entry exclude="fst">
-      <lemma>CiprianAndTrond</lemma>
-      <stem>FixThis</stem>
-      <contlex>#</contlex>
-      <pos>N</pos>
-         </entry>
-   
-<!--
-comment: The problem here is the  share of burden between xml and lexc.
+<dict xsi:noNamespaceSchemaLocation="../dict.xsd"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <entry exclude="fst">
+    <lemma>CiprianAndTrond</lemma>
+
+    <stem>FixThis</stem>
+
+    <contlex>#</contlex>
+
+    <pos>N</pos>
+  </entry>
+
+  <!--
+comment: The problem here is the share of burden between xml and lexc.
 The VERBNEGATIVE lexicon looks like this:
 LEXICON VERBNEGATIVE
 оз+V+Neg+Ind+Prs+Sg1:ог K ;
@@ -37,146 +42,627 @@ In this way we can use stems from the individual personal pronouns once each
 
 -->
 
+  <entry exclude="fst">
+    <lemma>эг</lemma>
 
-<!--   <entry exclude="fst">					 			    -->
-<!--      <lemma>эг</lemma>						 			    -->
-<!--      <stem>оз</stem>						 			    -->
-<!--      <contlex>#</contlex>					 			    -->
-<!--      <pos>VNEG</pos>						 			    -->
-<!--      							 			    -->
-<!--      							 			    -->
-<!--   </entry>									 			    -->
-<!--   <entry exclude="fst">					 			    -->
-<!--      <lemma>эгӧ</lemma>					 			    -->
-<!--      <stem>оз</stem>						 			    -->
-<!--      <contlex>#</contlex>					 			    -->
-<!--      <pos>VNEG</pos>						 			    -->
-<!--      							 			    -->
-<!--   </entry>									 			    -->
-<!--   <entry exclude="fst">					 			    -->
-<!--      <lemma>эгӧй</lemma>					 			    -->
-<!--      <stem>оз</stem>						 			    -->
-<!--      <contlex>#</contlex>					 			    -->
-<!--      <pos>VNEG</pos>						 			    -->
-<!--      							 			    -->
-<!--   </entry>									 			    -->
-<!--   <entry exclude="fst">					 			    -->
-<!--      <lemma>эн</lemma>						 			    -->
-<!--      <stem>оз</stem>						 			    -->
-<!--      <contlex>#</contlex>					 			    -->
-<!--      <pos>VNEG</pos>						 			    -->
-<!--      							 			    -->
-<!--      							 			    -->
-<!--   </entry>									 			    -->
-<!--   <entry exclude="fst">					 			    -->
-<!--      <lemma>эн</lemma>						 			    -->
-<!--      <stem>оз</stem>						 			    -->
-<!--      <contlex>#</contlex>					 			    -->
-<!--      <pos>VNEG</pos>						 			    -->
-<!--      							 			    -->
-<!--      							 			    -->
-<!--   </entry>									 			    -->
-<!--   <entry exclude="fst">					 			    -->
-<!--      <lemma>энӧ</lemma>					 			    -->
-<!--      <stem>оз</stem>						 			    -->
-<!--      <contlex>#</contlex>					 			    -->
-<!--      <pos>VNEG</pos>						 			    -->
-<!--      							 			    -->
-<!--   </entry>									 			    -->
-<!--   <entry exclude="fst">					 			    -->
-<!--      <lemma>энӧ</lemma>					 			    -->
-<!--      <stem>оз</stem>						 			    -->
-<!--      <contlex>#</contlex>					 			    -->
-<!--      <pos>VNEG</pos>						 			    -->
-<!--      							 			    -->
-<!--   </entry>									 			    -->
-<!--   <entry exclude="fst">					 			    -->
-<!--      <lemma>энӧй</lemma>					 			    -->
-<!--      <stem>оз</stem>						 			    -->
-<!--      <contlex>#</contlex>					 			    -->
-<!--      <pos>VNEG</pos>						 			    -->
-<!--      							 			    -->
-<!--   </entry>									 			    -->
-<!--   <entry exclude="fst">					 			    -->
-<!--      <lemma>энӧй</lemma>					 			    -->
-<!--      <stem>оз</stem>						 			    -->
-<!--      <contlex>#</contlex>					 			    -->
-<!--      <pos>VNEG</pos>						 			    -->
-<!--      							 			    -->
-<!--   </entry>									 			    -->
-<!--   <entry exclude="fst">					 			    -->
-<!--      <lemma>энлӧй</lemma>					 			    -->
-<!--      <stem>оз</stem>						 			    -->
-<!--      <contlex>#</contlex>					 			    -->
-<!--      <pos>VNEG</pos>						 			    -->
-<!--      							 			    -->
-<!--   </entry>									 			    -->
-<!--   <entry exclude="fst">					 			    -->
-<!--      <lemma>энлы</lemma>					 			    -->
-<!--      <stem>оз</stem>						 			    -->
-<!--      <contlex>#</contlex>					 			    -->
-<!--      <pos>VNEG</pos>						 			    -->
-<!--      							 			    -->
-<!--      							 			    -->
-<!--   </entry>									 			    -->
-<!--   <entry exclude="fst">					 			    -->
-<!--      <lemma>эз</lemma>						 			    -->
-<!--      <stem>оз</stem>						 			    -->
-<!--      <contlex>#</contlex>					 			    -->
-<!--      <pos>VNEG</pos>						 			    -->
-<!--      							 			    -->
-<!--      							 			    -->
-<!--   </entry>									 			    -->
-<!--   <entry exclude="fst">					 			    -->
-<!--      <lemma>ог</lemma>						 			    -->
-<!--      <stem>оз</stem>						 			    -->
-<!--      <contlex>#</contlex>					 			    -->
-<!--      <pos>VNEG</pos>						 			    -->
-<!--      							 			    -->
-<!--      							 			    -->
-<!--   </entry>									 			    -->
-<!--   <entry exclude="fst">					 			    -->
-<!--      <lemma>огӧ</lemma>					 			    -->
-<!--      <stem>оз</stem>						 			    -->
-<!--      <contlex>#</contlex>					 			    -->
-<!--      <pos>VNEG</pos>						 			    -->
-<!--      							 			    -->
-<!--   </entry>									 			    -->
-<!--   <entry exclude="fst">					 			    -->
-<!--      <lemma>огӧй</lemma>					 			    -->
-<!--      <stem>оз</stem>						 			    -->
-<!--      <contlex>#</contlex>					 			    -->
-<!--      <pos>VNEG</pos>						 			    -->
-<!--      							 			    -->
-<!--   </entry>									 			    -->
-<!--   <entry exclude="fst">					 			    -->
-<!--      <lemma>он</lemma>						 			    -->
-<!--      <stem>оз</stem>						 			    -->
-<!--      <contlex>#</contlex>					 			    -->
-<!--      <pos>VNEG</pos>						 			    -->
-<!--      							 			    -->
-<!--   </entry>									 			    -->
-<!--   <entry exclude="fst">					 			    -->
-<!--      <lemma>он</lemma>						 			    -->
-<!--      <stem>оз</stem>						 			    -->
-<!--      <contlex>#</contlex>					 			    -->
-<!--      <pos>VNEG</pos>						 			    -->
-<!--      							 			    -->
-<!--   </entry>									 			    -->
-<!--   <entry exclude="fst">					 			    -->
-<!--      <lemma>онӧй</lemma>					 			    -->
-<!--      <stem>оз</stem>						 			    -->
-<!--      <contlex>#</contlex>					 			    -->
-<!--      <pos>VNEG</pos>						 			    -->
-<!--      							 			    -->
-<!--   </entry>									 			    -->
-<!--   <entry exclude="fst">					 			    -->
-<!--      <lemma>оз</lemma>						 			    -->
-<!--      <stem>оз</stem>						 			    -->
-<!--      <contlex>#</contlex>					 			    -->
-<!--      <pos>VNEG</pos>						 			    -->
-<!--      							 			    -->
-<!--      							 			    -->
-<!--   </entry>									 			    -->
+    <stem>оз</stem>
 
+    <contlex>VNeg-Pret-Sg1</contlex>
+
+    <pos>VNEG</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><i>отриц. част. глагола наст. вр. I л. ед. ч.</i></head>
+
+          <tg lang="ru"><t>не; нет</t></tg>
+        </m>
+
+        <x>
+          <kv>эг вӧч</kv>
+
+          <tg lang="ru"><t>я не сделал</t></tg>
+        </x>
+
+        <x>
+          <kv>эг ме вӧв</kv>
+
+          <tg lang="ru"><t>не я это был</t></tg>
+        </x>
+
+        <x>
+          <kv>эг мудзӧй</kv>
+
+          <tg lang="ru"><t>мы не устали</t></tg>
+        </x>
+
+        <x>
+          <kv>эг пуксьыв весиг здук кежлӧ</kv>
+
+          <tg lang="ru"><t>я не садился даже на минутку</t></tg>
+        </x>
+
+        <x>
+          <kv>тайӧс эг вермы шуны</kv>
+
+          <tg lang="ru"><t>я не смог это сказать</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>эгджык</lemma>
+
+    <stem></stem>
+
+    <contlex>VNeg-Pret-Sg1-Comp</contlex>
+
+    <pos>VNEG</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><i>отриц. част. уменьш. употр. с глаголами прош. вр. I л.</i></head>
+
+          <tg lang="ru"><t>не так, немного не; не вполне, не совсем</t></tg>
+        </m>
+
+        <x>
+          <kv>эгджык кыв сёрнисӧ</kv>
+
+          <tg lang="ru"><t>я не вполне расслышал разговор</t></tg>
+        </x>
+
+        <x>
+          <kv>эгджык куж вӧчны</kv>
+
+          <tg lang="ru"><t>я не так сделал; я немного не сумел
+          сделать</t></tg>
+        </x>
+
+        <x>
+          <kv>эгджык су найӧс</kv>
+
+          <tg lang="ru"><t>я немного не догнал их</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>эзджык</lemma>
+
+    <stem></stem>
+
+    <contlex>VNeg-Pret-3-Comp</contlex>
+
+    <pos>VNEG</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><i>отриц. част. уменьш.</i></head>
+
+          <tg lang="ru"><t>не так, немного не; не совсем</t></tg>
+        </m>
+
+        <x>
+          <kv>~ лӧсяв</kv>
+
+          <tg lang="ru"><t>немного не подошло</t></tg>
+        </x>
+
+        <x>
+          <kv>олӧмным ~ сідз артмы</kv>
+
+          <tg lang="ru"><t>наша жизнь сложилась не совсем так</t></tg>
+        </x>
+
+        <x>
+          <kv>~ сяммы висьтавны</kv>
+
+          <tg lang="ru"><t>немного не сумел рассказать</t></tg>
+        </x>
+
+        <x>
+          <kv>тані менӧ ~ суны</kv>
+
+          <tg lang="ru"><t>здесь меня немножко не догнали</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>эгкодь</lemma>
+
+    <stem></stem>
+
+    <contlex>VNeg-Pret-Sg1-Comparison</contlex>
+
+    <pos>VNEG</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><i>отриц. част.</i></head>
+
+          <tg lang="ru"><t> </t></tg>
+
+          <assoc assocType="see">эгджык</assoc>
+        </m>
+
+        <x>
+          <kv>эгкодь эскы</kv>
+
+          <tg lang="ru"><t>я не совсем поверил</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>эгӧ</lemma>
+
+    <stem>оз</stem>
+
+    <contlex>VNeg-Pret-Pl1</contlex>
+
+    <pos>VNEG</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><i>отриц. част. глагола наст. вр. I л. мн. ч.</i></head>
+
+          <tg lang="ru"><t> не, нет</t></tg>
+        </m>
+
+        <x>
+          <kv>эгӧ узьӧй вӧрын</kv>
+
+          <tg lang="ru"><t>мы в лесу не ночевали</t></tg>
+        </x>
+
+        <x>
+          <kv>эгӧй ветлӧй</kv>
+
+          <tg lang="ru"><t>мы не ездили</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>эгӧй</lemma>
+
+    <stem>оз</stem>
+
+    <contlex>VNeg-Pret-Pl1</contlex>
+
+    <pos>VNEG</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><i>отриц. част. глагола наст. вр. I л. мн. ч.</i></head>
+
+          <tg lang="ru"><t>не, нет</t></tg>
+        </m>
+
+        <x>
+          <kv>эгӧй узьӧй вӧрын</kv>
+
+          <tg lang="ru"><t>мы в лесу не ночевали</t></tg>
+        </x>
+
+        <x>
+          <kv>эгӧй ветлӧй</kv>
+
+          <tg lang="ru"><t>мы не ездили</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>эз</lemma>
+
+    <stem>оз</stem>
+
+    <contlex>VNeg-Pret-3</contlex>
+
+    <pos>VNEG</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><i>отриц. част. глагола прош. вр. 3 л.</i></head>
+
+          <tg lang="ru"><t>не, нет</t></tg>
+        </m>
+
+        <x>
+          <kv>весиг юрсӧ эз лэптыв</kv>
+
+          <tg lang="ru"><t>он даже голову не поднял</t></tg>
+        </x>
+
+        <x>
+          <kv>миян эз воны</kv>
+
+          <tg lang="ru"><t>наши не пришли</t></tg>
+        </x>
+
+        <x>
+          <kv>ни ӧти кыв сійӧ эз шу</kv>
+
+          <tg lang="ru"><t>ни одного слова он не сказал</t></tg>
+        </x>
+
+        <x>
+          <kv>эз зіль уджавны</kv>
+
+          <tg lang="ru"><t>он не старался работать</t></tg>
+        </x>
+
+        <x>
+          <kv>эз и тӧдчы</kv>
+
+          <tg lang="ru"><t>не заметно, мало</t></tg>
+        </x>
+
+        <x type="saying">
+          <kv>эз кӧ вӧв куш, эз вӧв и плеш</kv>
+
+          <tg lang="ru"><t> если бы не было лысины, не было бы и
+          плешины</t></tg>
+        </x>
+
+        <x>
+          <kv>эз пусьы</kv>
+
+          <tg lang="ru"><t>не вышло, не выгорело; не получилось</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>эн</lemma>
+
+    <stem>оз</stem>
+
+    <contlex>VNeg-Pret-2Sg</contlex>
+
+    <pos>VNEG</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><i>отриц. част. глагола 2 л. наст. вр.</i></head>
+
+          <tg lang="ru"><t>не, нет</t></tg>
+        </m>
+
+        <x>
+          <kv>эн видзӧд</kv>
+
+          <tg lang="ru"><t>не смотри</t></tg>
+        </x>
+
+        <x>
+          <kv>тэ некытчӧ эн ветлы?</kv>
+
+          <tg lang="ru"><t>ты никуда не ходил?</t></tg>
+        </x>
+
+        <x>
+          <kv>эн вылӧ пукты</kv>
+
+          <tg lang="ru"><t>не ставь высоко</t></tg>
+        </x>
+
+        <x>
+          <kv>эн ошйысь ми водзын</kv>
+
+          <tg lang="ru"><t>не хвастайся перед нами</t></tg>
+        </x>
+
+        <x>
+          <kv>эн пов некодысь</kv>
+
+          <tg lang="ru"><t>не бойся никого</t></tg>
+        </x>
+
+        <x type="proverb">
+          <kv>эн коль пиыдлы озырлун, а тувъяв сылы мывкыдлун</kv>
+
+          <tg lang="ru"><t> не оставляй сыну богатство, а уму-разуму
+          научи;</t></tg>
+        </x>
+
+        <x type="saying">
+          <kv>эн пуртысь пов, а кывйысь</kv>
+
+          <tg lang="ru"><t> не ножа бойся, а языка</t></tg>
+        </x>
+
+        <x type="saying">
+          <kv>эн серав, сера лоан</kv>
+
+          <tg lang="ru"><t> не смейся, пёстрым будешь</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>огӧй</lemma>
+
+    <stem>оз</stem>
+
+    <contlex>VNeg-Pres-Pl1</contlex>
+
+    <pos>VNEG</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><com>в отриц. конструкциях, в наст. и буд. вр. (I-е л. мн.
+          числа) </com></head>
+
+          <tg lang="ru"><t>не; нет</t></tg>
+
+          <assoc MNo="1" assocType="see">ог</assoc>
+        </m>
+
+        <x>
+          <kv>ми некодлы огӧй висьталӧй</kv>
+
+          <tg lang="ru"><t>мы никому не скажем</t></tg>
+        </x>
+
+        <x>
+          <kv>талун татысь вӧрзьӧдчам огӧй?</kv>
+
+          <tg lang="ru"><t>тронемся ли мы сегодня отсюда?</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>моз</lemma>
+
+    <stem></stem>
+
+    <contlex>VNeg-Med-3</contlex>
+
+    <pos>VNEG</pos>
+
+    <e RN="III">
+      <mg>
+        <m>
+          <head><i>сокр. ф. мед оз</i></head>
+
+          <tg lang="ru"><t></t></tg>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>онӧ</lemma>
+
+    <stem>оз</stem>
+
+    <contlex>VNeg-Pres-Pl2</contlex>
+
+    <pos>VNEG</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <assoc RN="II" assocType="see">он</assoc>
+        </m>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>онӧй</lemma>
+
+    <stem>оз</stem>
+
+    <contlex>VNeg-Pres-Pl2</contlex>
+
+    <pos>VNEG</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><i>в отриц. конструкциях в наст. и буд. вр. (2-е л. мн. числ.)</i></head>
+
+          <tg lang="ru"><t>не; нет; (не...) ли</t></tg>
+        </m>
+
+        <x>
+          <kv>онӧй тӧдӧй</kv>
+
+          <tg lang="ru"><t>вы не знаете <i>и</i> вы не узнаете</t></tg>
+        </x>
+
+        <x>
+          <kv>веританныд онӧй ...</kv>
+
+          <tg lang="ru"><t>верите ли... <i>или</i> поверите ли...</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>энӧй</lemma>
+
+    <stem>оз</stem>
+
+    <contlex>#</contlex>
+
+    <pos>VNEG</pos>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>энлӧй</lemma>
+
+    <stem>оз</stem>
+
+    <contlex>VNeg-Pret-2Pl-Dim</contlex>
+
+    <pos>VNEG</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><i>повел. накл.</i></head>
+
+          <tg lang="ru"><t>погодите, подождите, повремените</t></tg>
+        </m>
+
+        <x>
+          <kv>энлӧй , висьтала бӧрынджык</kv>
+
+          <tg lang="ru"><t>погодите, расскажу попозже</t></tg>
+        </x>
+
+        <x>
+          <kv>энлӧй , лолышта кӧть</kv>
+
+          <tg lang="ru"><t>подождите, дай отдохнуть</t></tg>
+        </x>
+
+        <x>
+          <kv>энлӧй, ставыс лоӧ бур</kv>
+
+          <tg lang="ru"><t>повремените, всё будет хорошо</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>энлы</lemma>
+
+    <stem>оз</stem>
+
+    <contlex>VNeg-Pret-2Sg-Dim</contlex>
+
+    <pos>VNEG</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head><i>повел. накл.</i></head>
+
+          <tg lang="ru"><t>погоди, подожди, повремени</t></tg>
+        </m>
+
+        <x>
+          <kv>~ , висьтала бӧрынджык</kv>
+
+          <tg lang="ru"><t>погоди, расскажу попозже</t></tg>
+        </x>
+
+        <x>
+          <kv>~ , лолышта кӧть</kv>
+
+          <tg lang="ru"><t>подожди, дай отдохнуть</t></tg>
+        </x>
+      </mg>
+    </e>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>эз</lemma>
+
+    <stem>оз</stem>
+
+    <contlex>#</contlex>
+
+    <pos>VNEG</pos>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>ог</lemma>
+
+    <stem>оз</stem>
+
+    <contlex>#</contlex>
+
+    <pos>VNEG</pos>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>огӧ</lemma>
+
+    <stem>оз</stem>
+
+    <contlex>#</contlex>
+
+    <pos>VNEG</pos>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>огӧй</lemma>
+
+    <stem>оз</stem>
+
+    <contlex>#</contlex>
+
+    <pos>VNEG</pos>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>он</lemma>
+
+    <stem>оз</stem>
+
+    <contlex>#</contlex>
+
+    <pos>VNEG</pos>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>он</lemma>
+
+    <stem>оз</stem>
+
+    <contlex>#</contlex>
+
+    <pos>VNEG</pos>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>онӧй</lemma>
+
+    <stem>оз</stem>
+
+    <contlex>#</contlex>
+
+    <pos>VNEG</pos>
+  </entry>
+
+  <entry exclude="fst">
+    <lemma>оз</lemma>
+
+    <stem>оз</stem>
+
+    <contlex>#</contlex>
+
+    <pos>VNEG</pos>
+  </entry>
 </dict>
