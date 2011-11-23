@@ -11,6 +11,12 @@
 LEXICON Adj-IS_PTC-TOM ! 2011-11-15 participle = derivation type; 
 +V+Der/тӧм: Adj ;
 
+LEXICON Adj-IS_PTC-YSJ
++V+Der/ысь: Adj ;
+
+LEXICON Noun1-IS_PTC-ANA !
++V+Der/ана: Adj ;
+
 LEXICON Adj
 +A: AdjCompar ;
 !:%>лун Noun1 ; !Derivational suffix for A-N
@@ -41,7 +47,11 @@ LEXICON Prop-Fem ! Female given names
 +N+Prop+Fem+Sg: CASEPOSSLEX ;
 
 LEXICON Noun1-IS_PTC-OM ! This is to provide deverbal nouns with +Der/ӧм tags
-+Der/ӧм: Noun1 ;
++V+Der/ӧм: Noun1 ;
+
+LEXICON Noun1-IS_PTC-AN !
++V+Der/ан: Noun1 ;
+
 
 LEXICON Noun1 ! Basic nouns.
 +N+Cmp: R ;
