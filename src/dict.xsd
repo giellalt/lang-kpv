@@ -354,9 +354,10 @@
 
 <xs:element name="tg">
   <xs:complexType mixed="true">
-    <xs:choice maxOccurs="unbounded" minOccurs="0">
-    <xs:element ref="t"/>
-    </xs:choice>
+    <xs:sequence>
+    <xs:element ref="t" maxOccurs="unbounded"/>
+    <xs:element ref="assoc" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
      <xs:attribute ref="lang"/>
     </xs:complexType>
 </xs:element>
