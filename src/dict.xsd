@@ -3,6 +3,7 @@
 
 <xs:element name="att" type="xs:string"/>
 <xs:element name="clarif" type="xs:string"/>
+<xs:element name="re" type="xs:string"/><!-- restriction -->
 <xs:element name="gov" type="xs:string"/>
 <xs:element name="CmPos" type="xs:string"/>
 <xs:element name="i" type="xs:string"/>
@@ -15,10 +16,7 @@
 	<xs:attribute name="value">
 	  <xs:simpleType>
 	  <xs:restriction base="xs:string">
-	    <xs:enumeration value="ERV"/>
-	    <xs:enumeration value="ErzDeDict"/>
-	    <xs:enumeration value="Erz_2002"/>
-	    <xs:enumeration value="VBV"/>
+	    <xs:enumeration value="kvru"/>
 	  </xs:restriction>
 	  </xs:simpleType>
 	</xs:attribute>
@@ -356,6 +354,7 @@
   <xs:complexType mixed="true">
     <xs:sequence>
     <xs:element ref="t" maxOccurs="unbounded"/>
+    <xs:element ref="re" maxOccurs="unbounded" minOccurs="0"/>
     <xs:element ref="assoc" maxOccurs="unbounded" minOccurs="0"/>
     </xs:sequence>
      <xs:attribute ref="lang"/>
