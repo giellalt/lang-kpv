@@ -78,31 +78,6 @@
 </xs:attribute>
 
 
-<xs:attribute name="pos">
- <xs:simpleType>
-   <xs:restriction base="xs:string">
-     <xs:enumeration value="A"/>
-     <xs:enumeration value="A-CAR"/>
-     <xs:enumeration value="ADV"/>
-     <xs:enumeration value="AP"/>
-     <xs:enumeration value="COMPL"/>
-     <xs:enumeration value="N"/>
-     <xs:enumeration value="N-DV"/>
-     <xs:enumeration value="nn"/>
-     <xs:enumeration value="PHRASE-N"/>
-     <xs:enumeration value="PHRASE-PRON"/>
-     <xs:enumeration value="PHRASE-V"/>
-     <xs:enumeration value="POSTP"/>
-     <xs:enumeration value="PREP"/>
-     <xs:enumeration value="PRON-PERS"/>
-     <xs:enumeration value="PRON-REFL"/>
-     <xs:enumeration value="PRON-REL"/>
-     <xs:enumeration value="PTC"/>
-     <xs:enumeration value="V"/>
-   </xs:restriction>
- </xs:simpleType>
-</xs:attribute>
-
 
 <xs:attribute name="possPx">
  <xs:simpleType>
@@ -329,7 +304,49 @@
   </xs:complexType>
 </xs:element>
 
-<xs:element name="t">
+<xs:element name="t"> <!-- translation better yet GLOSS -->
+  <xs:complexType mixed="true">
+    <xs:choice maxOccurs="unbounded" minOccurs="0">
+    <xs:element ref="att"/>
+    <xs:element ref="clarif"/>
+    <xs:element ref="com"/>
+    <xs:element ref="field"/>
+    <xs:element ref="gov"/>
+    <xs:element ref="i"/>
+    <xs:element ref="range"/>
+    <xs:element ref="register"/>
+    <xs:element ref="sns"/>
+    <xs:element ref="val"/>
+    </xs:choice>
+     <xs:attribute ref="lang"/>
+     <xs:attribute ref="pos"/>
+     <xs:attribute ref="sem"/>
+     <xs:attribute ref="syntax"/>
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="te"> <!-- translation description or source word -->
+  <xs:complexType mixed="true">
+    <xs:choice maxOccurs="unbounded" minOccurs="0">
+    <xs:element ref="att"/>
+    <xs:element ref="clarif"/>
+    <xs:element ref="com"/>
+    <xs:element ref="field"/>
+    <xs:element ref="gov"/>
+    <xs:element ref="i"/>
+    <xs:element ref="range"/>
+    <xs:element ref="register"/>
+    <xs:element ref="sns"/>
+    <xs:element ref="val"/>
+    </xs:choice>
+     <xs:attribute ref="lang"/>
+     <xs:attribute ref="pos"/>
+     <xs:attribute ref="sem"/>
+     <xs:attribute ref="syntax"/>
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="tf"> <!-- translation phrase This will be utilized in examples as well -->
   <xs:complexType mixed="true">
     <xs:choice maxOccurs="unbounded" minOccurs="0">
     <xs:element ref="att"/>
@@ -353,7 +370,11 @@
 <xs:element name="tg">
   <xs:complexType mixed="true">
     <xs:sequence>
+      <xs:choice maxOccurs="unbounded">
     <xs:element ref="t" maxOccurs="unbounded"/>
+    <xs:element ref="te" maxOccurs="unbounded"/>
+    <xs:element ref="tf" maxOccurs="unbounded"/>
+      </xs:choice>
     <xs:element ref="re" maxOccurs="unbounded" minOccurs="0"/>
     <xs:element ref="assoc" maxOccurs="unbounded" minOccurs="0"/>
     </xs:sequence>
@@ -849,7 +870,41 @@
 <xs:element name="lemma" type="xs:string"/>
 <xs:element name="stem" type="xs:string"/>
 <xs:element name="contlex" type="xs:string"/>
-<xs:element name="pos" type="xs:string"/>
+
+<xs:element name="pos" type="pos_TYPE"/>
+<xs:attribute name="pos" type="pos_TYPE"/>
+
+<xs:simpleType name="pos_TYPE">
+  <xs:restriction base="xs:string">
+    <xs:enumeration value="A"/>
+    <xs:enumeration value="A-CAR"/>
+    <xs:enumeration value="AD-A"/>
+    <xs:enumeration value="ADV"/>
+    <xs:enumeration value="ADV-ITER"/>
+    <xs:enumeration value="ADV-Manner"/>
+    <xs:enumeration value="ADV-PARENTHETICAL"/> <!-- вводн. сл. -->
+    <xs:enumeration value="ADV-SPAT"/>
+    <xs:enumeration value="ADV-TEMP"/>
+    <xs:enumeration value="ADV-TRANSITIONAL"/> <!-- вводн. сл. -->
+     <xs:enumeration value="AP"/> <!-- ?? -->
+     <xs:enumeration value="COMPL"/> <!-- Subject complement, in predicate -->
+     <xs:enumeration value="GER"/><!-- Using this with Russian "-я"  -->
+     <xs:enumeration value="N"/>
+     <xs:enumeration value="N-DV"/>
+     <xs:enumeration value="NN"/> <!-- premodifying noun -->
+     <xs:enumeration value="PHRASE-N"/>
+     <xs:enumeration value="PHRASE-PRON"/>
+     <xs:enumeration value="PHRASE-V"/>
+     <xs:enumeration value="POSTP"/>
+     <xs:enumeration value="PREP"/>
+     <xs:enumeration value="PRON-PERS"/>
+     <xs:enumeration value="PRON-REFL"/>
+     <xs:enumeration value="PRON-REL"/>
+     <xs:enumeration value="PTC"/>
+     <xs:enumeration value="V"/>
+   </xs:restriction>
+</xs:simpleType>
+
 
 <xs:attribute name="MNo">
   <xs:simpleType>
