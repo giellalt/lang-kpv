@@ -892,6 +892,7 @@
      <xs:enumeration value="N"/>
      <xs:enumeration value="N-DV"/>
      <xs:enumeration value="NN"/> <!-- premodifying noun -->
+     <xs:enumeration value="N-SPAT"/>
      <xs:enumeration value="PHRASE-N"/>
      <xs:enumeration value="PHRASE-PRON"/>
      <xs:enumeration value="PHRASE-V"/>
@@ -901,6 +902,8 @@
      <xs:enumeration value="PRON-REFL"/>
      <xs:enumeration value="PRON-REL"/>
      <xs:enumeration value="PTC"/>
+     <xs:enumeration value="PTC-AN"/>
+     <xs:enumeration value="PTC-OM"/>
      <xs:enumeration value="V"/>
    </xs:restriction>
 </xs:simpleType>
