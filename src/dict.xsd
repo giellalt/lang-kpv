@@ -113,12 +113,8 @@
 <xs:element name="answer">
   <xs:complexType>
     <xs:sequence>
-    <xs:element ref="kv" minOccurs="0"/>
-    <xs:choice maxOccurs="unbounded">
-<xs:element ref="tg"/>
-<!--    <xs:element ref="t"/>
-2011-11-08-->
-</xs:choice>
+      <xs:element ref="x" minOccurs="0"/>
+      <xs:element ref="xtg" maxOccurs="unbounded"/>
     </xs:sequence>
   </xs:complexType>
 </xs:element>
@@ -126,12 +122,8 @@
 <xs:element name="equivalent">
   <xs:complexType>
     <xs:sequence>
-    <xs:element ref="kv" minOccurs="0"/>
-    <xs:choice maxOccurs="unbounded">
-<xs:element ref="tg"/>
-<!--    <xs:element ref="t"/>
-2011-11-08-->
-</xs:choice>
+    <xs:element ref="x" minOccurs="0"/>
+<xs:element ref="xtg" maxOccurs="unbounded"/>
     </xs:sequence>
   </xs:complexType>
 </xs:element>
@@ -139,11 +131,10 @@
 <xs:element name="literal">
   <xs:complexType>
     <xs:sequence>
-    <xs:element ref="kv" minOccurs="0"/>
+    <xs:element ref="x" minOccurs="0"/>
     <xs:choice maxOccurs="unbounded">
-<xs:element ref="tg"/>
-<!--    <xs:element ref="t"/>
-2011-11-08-->
+<xs:element ref="xtg"/>
+<xs:element ref="tg"/><!-- This means literal can occur in "m" -->
 </xs:choice>
     </xs:sequence>
   </xs:complexType>
@@ -164,7 +155,7 @@
   </xs:complexType>
 </xs:element>
 
-<xs:element name="kv">
+<xs:element name="x">
   <xs:complexType mixed="true">
     <xs:choice maxOccurs="unbounded" minOccurs="0">
     <xs:element ref="att"/>
@@ -214,14 +205,14 @@
     </xs:complexType>
 </xs:element>
 
-<xs:element name="x">
+<xs:element name="xg">
   <xs:complexType>
     <xs:sequence>
-    <xs:element ref="kv"/>
+    <xs:element ref="x"/>
     <xs:element ref="stRef" maxOccurs="unbounded" minOccurs="0"/>
     <xs:choice maxOccurs="unbounded">
       <xs:element ref="att"/> 
-  <xs:element ref="tg"/>
+  <xs:element ref="xtg"/>
 <!--    <xs:element ref="t"/>
 2011-11-08-->
     <xs:element ref="assoc"/>
@@ -264,7 +255,7 @@
 2011-11-08-->
 </xs:choice>
     <xs:choice maxOccurs="unbounded">
-      <xs:element ref="x"/>
+      <xs:element ref="xg"/>
       <xs:element ref="pxg"/>
     </xs:choice>
     </xs:sequence>
@@ -284,7 +275,7 @@
 <!--    <xs:element ref="t"/>
 2011-11-08-->
 </xs:choice>
-    <xs:element ref="x" maxOccurs="unbounded" minOccurs="0"/>
+    <xs:element ref="xg" maxOccurs="unbounded" minOccurs="0"/>
     </xs:sequence>
 <xs:attribute ref="possPx"/>
   </xs:complexType>
@@ -384,12 +375,90 @@
     </xs:complexType>
 </xs:element>
 
+<xs:element name="xt"> <!-- translation better yet GLOSS -->
+  <xs:complexType mixed="true">
+    <xs:choice maxOccurs="unbounded" minOccurs="0">
+    <xs:element ref="att"/>
+    <xs:element ref="clarif"/>
+    <xs:element ref="com"/>
+    <xs:element ref="field"/>
+    <xs:element ref="gov"/>
+    <xs:element ref="i"/>
+    <xs:element ref="range"/>
+    <xs:element ref="register"/>
+    <xs:element ref="sns"/>
+    <xs:element ref="val"/>
+    </xs:choice>
+     <xs:attribute ref="lang"/>
+     <xs:attribute ref="pos"/>
+     <xs:attribute ref="sem"/>
+     <xs:attribute ref="syntax"/>
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="xte"> <!-- translation description or source word -->
+  <xs:complexType mixed="true">
+    <xs:choice maxOccurs="unbounded" minOccurs="0">
+    <xs:element ref="att"/>
+    <xs:element ref="clarif"/>
+    <xs:element ref="com"/>
+    <xs:element ref="field"/>
+    <xs:element ref="gov"/>
+    <xs:element ref="i"/>
+    <xs:element ref="range"/>
+    <xs:element ref="register"/>
+    <xs:element ref="sns"/>
+    <xs:element ref="val"/>
+    </xs:choice>
+     <xs:attribute ref="lang"/>
+     <xs:attribute ref="pos"/>
+     <xs:attribute ref="sem"/>
+     <xs:attribute ref="syntax"/>
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="xtf"> <!-- translation phrase This will be utilized in examples as well -->
+  <xs:complexType mixed="true">
+    <xs:choice maxOccurs="unbounded" minOccurs="0">
+    <xs:element ref="att"/>
+    <xs:element ref="clarif"/>
+    <xs:element ref="com"/>
+    <xs:element ref="field"/>
+    <xs:element ref="gov"/>
+    <xs:element ref="i"/>
+    <xs:element ref="range"/>
+    <xs:element ref="register"/>
+    <xs:element ref="sns"/>
+    <xs:element ref="val"/>
+    </xs:choice>
+     <xs:attribute ref="lang"/>
+     <xs:attribute ref="pos"/>
+     <xs:attribute ref="sem"/>
+     <xs:attribute ref="syntax"/>
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="xtg">
+  <xs:complexType mixed="true">
+    <xs:sequence>
+      <xs:choice maxOccurs="unbounded">
+    <xs:element ref="xt" maxOccurs="unbounded"/>
+    <xs:element ref="xte" maxOccurs="unbounded"/>
+    <xs:element ref="xtf" maxOccurs="unbounded"/>
+      </xs:choice>
+    <xs:element ref="re" maxOccurs="unbounded" minOccurs="0"/>
+    <xs:element ref="assoc" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+     <xs:attribute ref="lang"/>
+    </xs:complexType>
+</xs:element>
+
 <xs:element name="com">
   <xs:complexType mixed="true">
     <xs:sequence>
-    <xs:element ref="kv" minOccurs="0"/>
+    <xs:element ref="x" minOccurs="0"/>
 <xs:choice minOccurs="0">
-  <xs:element ref="tg"/>
+  <xs:element ref="xtg"/>
 <!--    <xs:element ref="t"/>
 2011-11-08-->
 </xs:choice>
@@ -571,9 +640,9 @@
 <xs:element name="typical">
   <xs:complexType>
     <xs:sequence>
-    <xs:element ref="kv" minOccurs="0"/>
+    <xs:element ref="x" minOccurs="0"/>
     <xs:choice maxOccurs="unbounded">
-<xs:element ref="tg"/>
+<xs:element ref="xtg"/>
 <!--    <xs:element ref="t"/>
 2011-11-08-->
 </xs:choice>
@@ -634,7 +703,7 @@
     <xs:sequence>
     <xs:element ref="m"/>
     <xs:choice maxOccurs="unbounded" minOccurs="0">
-    <xs:element ref="x"/>
+    <xs:element ref="xg"/>
     <xs:element ref="cxg"/>
     <xs:element ref="assoc"/>
     </xs:choice>
@@ -931,19 +1000,27 @@
      <xs:enumeration value="POSTP-TEMP"/><!-- -->
      <xs:enumeration value="PREP"/><!-- -->
      <xs:enumeration value="PRON"/><!-- -->
+     <xs:enumeration value="PRON-A-INTERR"/>
+<!-- The elicits the demonstratives -->
+     <xs:enumeration value="PRON-ADV-INTERR"/>
      <xs:enumeration value="PRON-DEM"/><!-- -->
      <xs:enumeration value="PRON-DEM-A"/><!-- -->
      <xs:enumeration value="PRON-DEM-ADV"/><!-- -->
      <xs:enumeration value="PRON-DEM-N"/> <!-- сэтшӧм-татшӧмтор -->
      <xs:enumeration value="PRON-INDEF"/><!-- -->
      <xs:enumeration value="PRON-INTERR"/><!-- -->
+     <xs:enumeration value="PRON-INTERR-SPAT"/><!-- -->
+     <xs:enumeration value="PRON-INTERR-TEMP"/><!-- -->
      <xs:enumeration value="PRON-NEG"/><!-- -->
+     <xs:enumeration value="PRON-ITER-INTERR"/><!-- -->
+     <xs:enumeration value="PRON-ORD-ITER-INTERR"/><!-- -->
      <xs:enumeration value="PRON-PERS"/><!-- -->
      <xs:enumeration value="PRON-Q"/><!-- -->
      <xs:enumeration value="PRON-RECIPR"/><!-- -->
      <xs:enumeration value="PRON-REFL"/><!-- -->
      <xs:enumeration value="PRON-REL"/><!-- -->
      <xs:enumeration value="PRON-UNIV"/><!-- -->
+     <xs:enumeration value="PROP"/><!-- Proper noun -->
      <xs:enumeration value="PTC"/><!-- -->
      <xs:enumeration value="PTC-AN"/><!-- -->
      <xs:enumeration value="PTC-ANA"/><!-- -->
@@ -957,6 +1034,8 @@
      <xs:enumeration value="QNT-COLL-UNIV"/><!-- -->
      <xs:enumeration value="QNT-DISTR"/><!-- -->
      <xs:enumeration value="V"/><!-- Verb -->
+     <xs:enumeration value="V-INST"/><!-- Verb instantaneous -->
+     <xs:enumeration value="V-REFL"/><!-- reflexive Verb -->
      <xs:enumeration value="VNEG"/><!-- Verb of Negation -->
      <xs:enumeration value="V-V"/><!-- VERB-VERB (two verbs) -->
    </xs:restriction>
