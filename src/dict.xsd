@@ -298,6 +298,8 @@
       <xs:element ref="contlex" minOccurs="0"/>
       <xs:element ref="pos" minOccurs="0"/>
     </xs:sequence>
+    <xs:attribute name="stemID" type="xs:string"/>
+<!-- This consists of "STEM" "_" "CONTLEX"-->
     <xs:attribute ref="assocType"/>
     <xs:attribute ref="MNo"/>
     <xs:attribute ref="RN"/>
@@ -723,6 +725,8 @@
       <xs:element ref="drvMorph" minOccurs="0"/>
       <xs:element ref="com" minOccurs="0"/>
     </xs:sequence>
+    <xs:attribute name="stemID" type="xs:string"/>
+<!-- This consists of "STEM" "_" "CONTLEX"-->
     <xs:attribute ref="cx"/>
     <xs:attribute ref="der"/>
     <xs:attribute ref="drvType"/>
@@ -876,84 +880,85 @@
 
 <xs:simpleType name="pos_TYPE">
   <xs:restriction base="xs:string">
-    <xs:enumeration value="A"/>
-    <xs:enumeration value="A-CAR"/>
-    <xs:enumeration value="A-SUPERL"/>
-    <xs:enumeration value="AD-A"/>
-    <xs:enumeration value="ADV"/>
-    <xs:enumeration value="ADV-ITER"/>
-    <xs:enumeration value="ADV-Manner"/>
+    <xs:enumeration value="A"/><!-- Adjective-->
+    <xs:enumeration value="A-CAR"/><!-- -->
+    <xs:enumeration value="A-SUPERL"/><!-- Superlative Adjactive -->
+    <xs:enumeration value="AD-A"/><!-- Adverb, Adjective modifier -->
+    <xs:enumeration value="ADV"/><!-- Adverb -->
+    <xs:enumeration value="ADV-ITER"/><!-- Should this be QNT-ITER? -->
+    <xs:enumeration value="ADV-Manner"/><!-- -->
     <xs:enumeration value="ADV-PARENTHETICAL"/> <!-- вводн. сл. -->
-    <xs:enumeration value="ADV-SPAT"/>
-    <xs:enumeration value="ADV-TEMP"/>
+    <xs:enumeration value="ADV-SPAT"/><!-- -->
+    <xs:enumeration value="ADV-TEMP"/><!-- -->
     <xs:enumeration value="ADV-TRANSITIONAL"/> <!-- вводн. сл. -->
      <xs:enumeration value="AP"/> <!-- ?? -->
      <xs:enumeration value="COMPL"/> <!-- Subject complement, in predicate -->
-     <xs:enumeration value="CONJ"/>
-     <xs:enumeration value="CONJ-COORD"/>
-     <xs:enumeration value="CONJ-COORD-ADDITION"/>
-     <xs:enumeration value="CONJ-COORD-ALTERNATIVE"/>
-     <xs:enumeration value="CONJ-COORD-CONTRAST"/>
-     <xs:enumeration value="CONJ-SUBORD"/>
-     <xs:enumeration value="CONJ-SUBORD-COMPARISON"/>
+     <xs:enumeration value="CONJ"/><!-- -->
+     <xs:enumeration value="CONJ-COORD"/><!-- -->
+     <xs:enumeration value="CONJ-COORD-ADDITION"/><!-- -->
+     <xs:enumeration value="CONJ-COORD-ALTERNATIVE"/><!-- -->
+     <xs:enumeration value="CONJ-COORD-CONTRAST"/><!-- -->
+     <xs:enumeration value="CONJ-SUBORD"/><!-- -->
+     <xs:enumeration value="CONJ-SUBORD-COMPARISON"/><!-- -->
      <xs:enumeration value="GER"/><!-- Using this with Russian "-я"  -->
-     <xs:enumeration value="IDIOM"/>
-     <xs:enumeration value="INTERJ"/>
-     <xs:enumeration value="N"/>
-     <xs:enumeration value="N-DV"/>
+     <xs:enumeration value="IDIOM"/><!-- -->
+     <xs:enumeration value="INTERJ"/><!-- -->
+     <xs:enumeration value="N"/><!-- -->
+     <xs:enumeration value="N-DV"/><!-- -->
      <xs:enumeration value="NN"/> <!-- premodifying noun -->
-     <xs:enumeration value="N-SPAT"/>
-     <xs:enumeration value="NUM"/>
-     <xs:enumeration value="NUM-CARD"/>
-     <xs:enumeration value="NUM-CARD-APPR"/>
-     <xs:enumeration value="NUM-CARD-ITER"/>
-     <xs:enumeration value="NUM-CARD-ITER-APPR"/>
-     <xs:enumeration value="NUM-DISTR-APPR"/>
-     <xs:enumeration value="NUM-ITER"/>
-     <xs:enumeration value="NUM-ORD"/>
-     <xs:enumeration value="NUM-ORD-ITER"/>
-     <xs:enumeration value="PART"/>
-     <xs:enumeration value="PART-DESCR"/>
-     <xs:enumeration value="PART-DEM"/>
-     <xs:enumeration value="PART-INTERR"/>
-     <xs:enumeration value="PART-NEG"/>
-     <xs:enumeration value="PART-ONOM"/>
-     <xs:enumeration value="PHRASE-N"/>
-     <xs:enumeration value="PHRASE-PRON"/>
-     <xs:enumeration value="PHRASE-V"/>
-     <xs:enumeration value="POSTP"/>
-     <xs:enumeration value="POSTP-ADJ"/>
-     <xs:enumeration value="POSTP-SPAT"/>
-     <xs:enumeration value="POSTP-TEMP"/>
-     <xs:enumeration value="PREP"/>
-     <xs:enumeration value="PRON"/>
-     <xs:enumeration value="PRON-DEM"/>
-     <xs:enumeration value="PRON-DEM-A"/>
-     <xs:enumeration value="PRON-DEM-ADV"/>
+     <xs:enumeration value="N-SPAT"/><!-- -->
+     <xs:enumeration value="NUM"/><!-- -->
+     <xs:enumeration value="NUM-CARD"/><!-- -->
+     <xs:enumeration value="NUM-CARD-APPR"/><!-- -->
+     <xs:enumeration value="NUM-CARD-ITER"/><!-- -->
+     <xs:enumeration value="NUM-CARD-ITER-APPR"/><!-- -->
+     <xs:enumeration value="NUM-DISTR-APPR"/><!-- -->
+     <xs:enumeration value="NUM-ITER"/><!-- -->
+     <xs:enumeration value="NUM-ORD"/><!-- -->
+     <xs:enumeration value="NUM-ORD-ITER"/><!-- -->
+     <xs:enumeration value="PART"/><!-- -->
+     <xs:enumeration value="PART-DESCR"/><!-- -->
+     <xs:enumeration value="PART-DEM"/><!-- -->
+     <xs:enumeration value="PART-INTERR"/><!-- -->
+     <xs:enumeration value="PART-NEG"/><!-- -->
+     <xs:enumeration value="PART-ONOM"/><!-- -->
+     <xs:enumeration value="PHRASE-N"/><!-- -->
+     <xs:enumeration value="PHRASE-PRON"/><!-- -->
+     <xs:enumeration value="PHRASE-V"/><!-- -->
+     <xs:enumeration value="POSTP"/><!-- -->
+     <xs:enumeration value="POSTP-ADJ"/><!-- -->
+     <xs:enumeration value="POSTP-SPAT"/><!-- -->
+     <xs:enumeration value="POSTP-TEMP"/><!-- -->
+     <xs:enumeration value="PREP"/><!-- -->
+     <xs:enumeration value="PRON"/><!-- -->
+     <xs:enumeration value="PRON-DEM"/><!-- -->
+     <xs:enumeration value="PRON-DEM-A"/><!-- -->
+     <xs:enumeration value="PRON-DEM-ADV"/><!-- -->
      <xs:enumeration value="PRON-DEM-N"/> <!-- сэтшӧм-татшӧмтор -->
-     <xs:enumeration value="PRON-INDEF"/>
-     <xs:enumeration value="PRON-INTERR"/>
-     <xs:enumeration value="PRON-NEG"/>
-     <xs:enumeration value="PRON-PERS"/>
-     <xs:enumeration value="PRON-Q"/>
-     <xs:enumeration value="PRON-RECIPR"/>
-     <xs:enumeration value="PRON-REFL"/>
-     <xs:enumeration value="PRON-REL"/>
-     <xs:enumeration value="PRON-UNIV"/>
-     <xs:enumeration value="PTC"/>
-     <xs:enumeration value="PTC-AN"/>
-     <xs:enumeration value="PTC-ANA"/>
-     <xs:enumeration value="PTC-OM"/>
-     <xs:enumeration value="PTC-TOM"/>
-     <xs:enumeration value="PTC-YSJ"/>
-     <xs:enumeration value="QNT"/>
-     <xs:enumeration value="QNT-COLL"/>
-     <xs:enumeration value="QNT-COLL-UNIV-ITER"/>
-     <xs:enumeration value="QNT-SPAT"/>
-     <xs:enumeration value="QNT-COLL-UNIV"/>
-     <xs:enumeration value="QNT-DISTR"/>
-     <xs:enumeration value="V"/>
-     <xs:enumeration value="V-V"/>
+     <xs:enumeration value="PRON-INDEF"/><!-- -->
+     <xs:enumeration value="PRON-INTERR"/><!-- -->
+     <xs:enumeration value="PRON-NEG"/><!-- -->
+     <xs:enumeration value="PRON-PERS"/><!-- -->
+     <xs:enumeration value="PRON-Q"/><!-- -->
+     <xs:enumeration value="PRON-RECIPR"/><!-- -->
+     <xs:enumeration value="PRON-REFL"/><!-- -->
+     <xs:enumeration value="PRON-REL"/><!-- -->
+     <xs:enumeration value="PRON-UNIV"/><!-- -->
+     <xs:enumeration value="PTC"/><!-- -->
+     <xs:enumeration value="PTC-AN"/><!-- -->
+     <xs:enumeration value="PTC-ANA"/><!-- -->
+     <xs:enumeration value="PTC-OM"/><!-- -->
+     <xs:enumeration value="PTC-TOM"/><!-- -->
+     <xs:enumeration value="PTC-YSJ"/><!-- -->
+     <xs:enumeration value="QNT"/><!-- Quantifier -->
+     <xs:enumeration value="QNT-COLL"/><!-- -->
+     <xs:enumeration value="QNT-COLL-UNIV-ITER"/><!-- -->
+     <xs:enumeration value="QNT-SPAT"/><!-- -->
+     <xs:enumeration value="QNT-COLL-UNIV"/><!-- -->
+     <xs:enumeration value="QNT-DISTR"/><!-- -->
+     <xs:enumeration value="V"/><!-- Verb -->
+     <xs:enumeration value="VNEG"/><!-- Verb of Negation -->
+     <xs:enumeration value="V-V"/><!-- VERB-VERB (two verbs) -->
    </xs:restriction>
 </xs:simpleType>
 
