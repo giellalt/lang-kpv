@@ -313,7 +313,7 @@ LEXICON INTERR
  !
 кӧні+Pron+Adv+Spat+Ine+Pred+Sg:кӧні INTERR-REL-INDEF_COMPARISON ;
 кӧні+Pron+Adv+Spat+Ine+Pred+Pl:кӧнӧсь INTERR-REL ;
-кӧні+Pron+Adv+Spat+Ine:кӧн PRON-INDEF ;
+кӧні+Pron+Adv+Spat+Ine:кӧн PRON-INDEFTAG ;
 мый+Pron+NonHum:мый PRON-NONHUM ;
 мыйда+Pron+NonHum:мыйда INTERR-REL-INDEF ;
 мыйта+Pron+NonHum:мыйта INTERR-REL-INDEF ;
@@ -407,14 +407,14 @@ LEXICON INTERR-REL-INDEF_COMPARISON
 +NoComparison:%>джык INTERR-REL ;
 
 LEXICON INTERR-REL-INDEF ! 3 types of pronouns are congregated here
- PRON-INDEF ; ! This leads to a variety of indefinite pronouns
+ PRON-INDEFTAG ; ! This leads to a variety of indefinite pronouns
  INTERR-REL ; ! This leads to a split between relative and interrogative pronouns
 
 LEXICON INTERR-REL
 +Interr: COMPARATIVE ;
 +Rel: K ;
 
-LEXICON PRON-INDEF
+LEXICON PRON-INDEFTAG
 +Der/кӧ+Indef:%>кӧ K ;
 +Der/сюрӧ+Indef:%>сюрӧ K ;
 
