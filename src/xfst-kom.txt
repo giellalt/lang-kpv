@@ -57,27 +57,26 @@ define Dummy [ Boundary | Diacritics ] ;
 ! Rule section !
 ! ============ !
 
-
+! Testcases marked as follows:
+! space exclmark euro space upper:lower
+! To test: 
+! xfst -e "source xfst-kom.txt"
+! invert net
+! save s
+! cat xfst-kom.txt | grep €|cut -d" " -f3|cut -d":" -f1|lookup s
 
 echo << defining the rules >>
 
 
-! Vowel shifts
-! ------------
-
-
-!define InfDeletion  [ н ы %^Inf -> 0 ] ;  
- ! Thus, all infinitives may be added as such in the lexicon, and then
- ! stripped for their suffix here.
- 
-!define InfMarkDeletion %^Inf -> 0 ; 
-
-!define VtoL [ в -> л || _  %> Vow ] ; ! Lex Marina
+! The famous L/V
+! --------------
 
 define LtoV [ л -> в || _ [ .#. | %> Cns ] ] ;
  ! These words are underlyingly l, and changed to v.
- ! ныв - нылыс and лов - лолыс Problem with л retension2011-01-01
-
+ !€ ныл>ыс:нылыс
+ !€ ныл:ныв
+ !€ ныл>сӧ:нывсӧ
+ 
 ! Paragogic consonants
 ! --------------------
 
@@ -85,25 +84,46 @@ define LtoV [ л -> в || _ [ .#. | %> Cns ] ] ;
   ! Here, we say that 
 
 define mDeletion м -> 0 || н _  [ .#. | %> Cns ] ;
-  ! син - синмыс
+ !€ синм>ыс:синмыс
+ !€ синм:син
+ !€ синм>сӧ:синсӧ
 
 define kDeletion к -> 0 || [ с | ш | с ь | ч] _ [.#. | %> Cns] ; 
-    !воск:воскыс вос:воскыс вос:восыс
+ !€ воск>ыс:воскыс
+ !€ воск:вос
+ !€ воск>сӧ:воссӧ
 
 define tDeletion т -> 0 || п _ [.#. | %> Cns] ;
+ !€ зепт>ыс:зептыс
+ !€ зепт:зеп
+ !€ зепт>сӧ:зепсӧ
 
 define jDeletion й -> 0 || [б | в | г | д | ж | з | к | м | н | п | р | т | с]
                              _ [.#. | %> Cns] ;
+ !€ гобй>ыс:гобйыс
+ !€ гобй:гоб
+ !€ гобй>сӧ:гобсӧ
+ !€ кывй>ыс:кывйыс
+ !€ кывй:кыв
+ !€ кывй>сӧ:кывсӧ
 
-define jDeletionBeforeA [ й %> а -> я || Vow _ ,, й %> а -> ъ я || Cns _ ] ; !2011-10-10
 
+define jDeletionBeforeA [ й %> а ->   я || Vow _ ,, 
+                          й %> а -> ъ я || Cns _ ] ; !2011-10-10
+ !€ вый>а:выя
+ !€ кывй>а:кывъя
 
 
 define lDeletion л -> 0 || л _  ь       [ .#. | %> Cns ] ;
-  ! вакуль
+ !€ вакулль>ыс:вакулльыс
+ !€ вакулль:вакуль
+ !€ вакулль>сӧ:вакульсӧ
+  
   
 define dDeletion д -> 0 || д _ [ь | з]  [ .#. | %> Cns ] ;
-  ! видз
+ !€ виддз>ыс:виддзыс
+ !€ виддз:видз
+ !€ виддз>сӧ:видзсӧ
   
 !! stopping ы -> 0 2011-01-26
 !define WeakVowDeletion ы -> 0 || \[ н ы ] _ %> Vow ;
@@ -130,12 +150,17 @@ define dDeletion д -> 0 || д _ [ь | з]  [ .#. | %> Cns ] ;
 
 
 
-define jaSuffixAfterJ й -> ъ || _ %> я ;
-
-define HardMarkDeletion ъ -> 0 || [ Vow (й) | ь ] %> _ ;
+!define jaSuffixAfterJ й -> ъ || _ %> я ;
+ !€ кывй>а:кывъя
+ ! This presupposes the rule jDeletionBeforeA, which has essentially 
+ ! already taken care of this
+ ! ok, let's delete this, eventually.
  
-
-
+define HardMarkDeletion ъ -> 0 || [ Vow (й) | ь ] %> _ ;
+ !€ вой>ъяс:войяс
+ !€ выль>ъяс:выльяс
+ !€ коми>ъяс:комияс
+ !€ автобус>ъяс:автобусъяс
 
 ! define VowelPalatalisation  а -> я, о -> ё, у -> ю  || 
 !                            [~[ [ з | ч ] | д з ]] [ ь | й ] Vow* %> _ ;
@@ -145,23 +170,26 @@ define HardMarkDeletion ъ -> 0 || [ Vow (й) | ь ] %> _ ;
 
 
 define VowelPalatalisation  [ а -> я, о -> ё, у -> ю  || 
-                            [~[ [ з | ч ] | д з ]] [ ь | й ] %> _ ] ;
-
+                            [~[ д з | ч ]] [ ь | й ] %> _ ] ;
+ !€ вой>ас:вояс
+ !€ озй>ас:озъяс
+ !€ ворссь>а:ворсся
+ !€ картопель>ас:картопеляс (Px3)
+ !€ картопель>ъяс:картопельяс (Pl)
+! Have to look for ь>о:ё, 
+! ь>у:ю appears in compound words                      
 
 define iPalatalisation [ і -> и || [ Vow | CnsBeforeCyri | ь | д з ] %> _ ] ;
 
+ !€ ворссь>і:ворсси
+ !€ ло>і:лои
 
 define SoftMarkDeletion [ ь -> 0 || _ %> [ я | ё | ю | и ] ] ; 
-  ! Here we delete the soft mark that caused the change to palatalising vowels
-  ! in the rules VowelPalatalisation and iPalatalisation.
-!! We are still having problems with producing the forms ворсси and ворсся
-!! from ворссь %> і and ворссь %> а. This means there is a problem with the
-!! definitions VowelPalatalisation, iPalatalisation and SoftMarkDeletion
-!! 2011-12-27 I thought these were working fine in October, I could be wrong. 
-
+! Testcases: see VowelPalatalisation above
+  
 define HardMarkPalatalisation ъ -> ь || [ д з | ч ] %> _ ;
+ !€ виддз>ъяс:видзьяс
 
-!!define AafterA а -> 0 || _ %> а ; !2011-01-31 No reduction
 
 echo << defining cleanup rules >>
 
@@ -178,11 +206,7 @@ define DummyDeletion [ Dummy -> 0 ] ;
 echo << composing different parts >>
 
 read regex [ 
-!InfDeletion
-!.o.
-!InfMarkDeletion
-!.o.
-LtoV
+    LtoV
 .o. mDeletion
 .o. kDeletion
 .o. tDeletion
@@ -195,9 +219,8 @@ LtoV
 .o. VowelPalatalisation
 .o. iPalatalisation
 .o. SoftMarkDeletion
-.o. jaSuffixAfterJ
+!.o. jaSuffixAfterJ
 .o. HardMarkDeletion
-!.o. AafterA
 .o. Cleanup
 .o. Deletion
 .o. DummyDeletion 
