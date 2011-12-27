@@ -106,6 +106,7 @@
  <xs:simpleType>
    <xs:restriction base="xs:string">
      <xs:enumeration value="Modifier"/>
+     <xs:enumeration value="NPHead"/>
    </xs:restriction>
  </xs:simpleType>
 </xs:attribute>
