@@ -143,16 +143,21 @@ define HardMarkDeletion ъ -> 0 || [ Vow (й) | ь ] %> _ ;
 ! We remove the Vow, suspecting it has worked so far with * - as - zero
 ! as value, i.e. without vowel. The rule gave йи%>a ==> *йия pro йиа
 
-define VowelPalatalisation  а -> я, о -> ё, у -> ю  || 
-                            [~[ [ з | ч ] | д з ]] [ ь | й ] %> _ ;
+
+define VowelPalatalisation  [ а -> я, о -> ё, у -> ю  || 
+                            [~[ [ з | ч ] | д з ]] [ ь | й ] %> _ ] ;
 
 
-define iPalatalisation і -> и || [ Vow | CnsBeforeCyri | ь | д з ] %> _ ;
+define iPalatalisation [ і -> и || [ Vow | CnsBeforeCyri | ь | д з ] %> _ ] ;
 
 
-define SoftMarkDeletion ь -> 0 || _ %> [ я | ё | ю | и ] ;
+define SoftMarkDeletion [ ь -> 0 || _ %> [ я | ё | ю | и ] ] ; 
   ! Here we delete the soft mark that caused the change to palatalising vowels
   ! in the rules VowelPalatalisation and iPalatalisation.
+!! We are still having problems with producing the forms ворсси and ворсся
+!! from ворссь %> і and ворссь %> а. This means there is a problem with the
+!! definitions VowelPalatalisation, iPalatalisation and SoftMarkDeletion
+!! 2011-12-27 I thought these were working fine in October, I could be wrong. 
 
 define HardMarkPalatalisation ъ -> ь || [ д з | ч ] %> _ ;
 
