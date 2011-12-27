@@ -183,6 +183,7 @@ define iPalatalisation [ і -> и || [ Vow | CnsBeforeCyri | ь | д з ] %> _ ]
 
  !€ ворссь>і:ворсси
  !€ ло>і:лои
+ !For some reason this does not work
 
 define SoftMarkDeletion [ ь -> 0 || _ %> [ я | ё | ю | и ] ] ; 
 ! Testcases: see VowelPalatalisation above
