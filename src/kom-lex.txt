@@ -21,7 +21,6 @@ Multichar_Symbols
 +Qnt ! Quantifier
 +Onom ! onomapoetic words
 +Descr ! descriptive words
-+NoClt !
 +Clt/а !
 +Clt/ӧ !
 +Clt/тӧ !
@@ -85,7 +84,7 @@ Multichar_Symbols
 +Prl !Prolative "ӧд"
 +Der/джык ! this is the comparative formative
 +Compar ! comparative as opposed to superlative
-+NoComparison ! counterpart to previous
+
 !+Adc  ! not in use!
 !!In personal pronouns there is a tendancy to utilize two different stems
 +GenStem !helps distinguish between +Sg+GenStem+Ill:менамӧ and +Sg1+Ill:меӧ
@@ -520,7 +519,7 @@ LEXICON DESCR-End
 ! ======= !
 
 LEXICON K
-+NoClt:      # ; 
+      # ; 
 +Clt+Clt/а:%>%-а  # ;
 +Clt+Clt/ӧ:%>%-ӧ  # ;
 +Clt+Clt/тӧ:%>тӧ # ;
@@ -536,6 +535,6 @@ LEXICON ADV-SUPERL
 
 
 LEXICON COMPARATIVE
-+NoComparison: K ;
+                        K ;
 +Der/джык+Compar:%>джык K ;
 
