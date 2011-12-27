@@ -61,8 +61,9 @@
 		<out>	
 		  <!-- this might have to be refined: too underspecified as for preceding::lemma-stem combinations -->
 		  <!-- xsl:for-each select="./dict/entry[not(contains(./lemma/text(), $us))] the underscore should be replaced by "% "-->
-		  <xsl:for-each select="./dict/entry[not(./lemma = preceding::entry/lemma and ./stem = preceding::entry/stem)]
-					[not(./@exclude='fst')]">
+		  <!--xsl:for-each select="./dict/entry[not(./lemma = preceding::entry/lemma and ./stem = preceding::entry/stem)][not(./@exclude='fst')]"-->
+		  <!-- don't check anything else but the exclude=fst flag -->
+		  <xsl:for-each select="./dict/entry[not(./@exclude='fst')]">
 		    <e>
 		      <xsl:attribute name="stem">
 			<xsl:value-of select="normalize-space(./stem)"/>
