@@ -13,13 +13,7 @@
   <xs:complexType>
     <xs:simpleContent>
       <xs:extension base="xs:string">
-	<xs:attribute name="value">
-	  <xs:simpleType>
-	  <xs:restriction base="xs:string">
-	    <xs:enumeration value="kvru"/>
-	  </xs:restriction>
-	  </xs:simpleType>
-	</xs:attribute>
+	<xs:attribute ref="register"/>
       </xs:extension>
     </xs:simpleContent>
   </xs:complexType>
@@ -90,6 +84,16 @@
      <xs:enumeration value="Pl3"/>
    </xs:restriction>
  </xs:simpleType>
+</xs:attribute>
+
+<xs:attribute name="register">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="дет."/>
+      <xs:enumeration value="прост."/>
+      <xs:enumeration value="разг."/>
+    </xs:restriction>
+  </xs:simpleType>
 </xs:attribute>
 
 <xs:attribute name="sem">
@@ -684,18 +688,7 @@
 		</xs:attribute>
     <xs:attribute name="register" type="xs:string"/>
     <xs:attribute name="sns" type="xs:string"/>
-		<xs:attribute name="val">
-		<xs:simpleType>
-		<xs:restriction base="xs:string">
-		<xs:enumeration value="1"/>
-		<xs:enumeration value="2"/>
-		<xs:enumeration value="3"/>
-		<xs:enumeration value="1:S:0"/>
-		<xs:enumeration value="2:A:0"/>
-		<xs:enumeration value="1,2"/>
-		</xs:restriction>
-		</xs:simpleType>
-		</xs:attribute>
+		<xs:attribute ref="val"/>
     </xs:complexType>
 </xs:element>
 
@@ -819,6 +812,26 @@
 <xs:element name="asp" type="xs:string"/> <!-- asp = aspect -->
 
 <xs:element name="syntacticSubject">
+  <xs:complexType>
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+	<xs:attribute ref="Subj"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="syntacticObject">
+  <xs:complexType>
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+	<xs:attribute ref="Obj"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+</xs:element>
+
+<xs:attribute name="Subj"><!-- syntactic subject -->
   <xs:simpleType>
     <xs:restriction base="xs:string">
       <xs:enumeration value="Agent"/>
@@ -826,15 +839,16 @@
       <xs:enumeration value="Zero"/>
     </xs:restriction>
   </xs:simpleType>
-</xs:element>
+</xs:attribute>
 
-<xs:element name="syntacticObject">
+<xs:attribute name="Obj"><!-- N2 syntactic object -->
   <xs:simpleType>
     <xs:restriction base="xs:string">
       <xs:enumeration value="Agent2"/>
     </xs:restriction>
   </xs:simpleType>
-</xs:element>
+</xs:attribute>
+
 
 <xs:element name="drvMorph">
   <xs:simpleType>
@@ -1102,16 +1116,35 @@
   </xs:simpleType>
 </xs:attribute>
 
-<xs:attribute name="valency">
+<xs:attribute name="val">
   <xs:simpleType>
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Subj"/><!-- vi -->
-      <xs:enumeration value="Subj1Obj"/><!-- vt -->
-      <xs:enumeration value="Subj1Obj2Obj"/><!-- vbt bitransitive verb -->
-      <xs:enumeration value="1Obj"/><!-- v the object is usually human, but no subject referent is apparent -->
-      <xs:enumeration value="1,2"/> <!-- This should be worked away from = Subj and Subj1Obj -->
+      <xs:enumeration value="vi"/>
+      <xs:enumeration value="vt"/>
+      <xs:enumeration value="vt-vi"/>
+      <xs:enumeration value="1"/>
+      <xs:enumeration value="2"/>
+      <xs:enumeration value="3"/>
+      <xs:enumeration value="1:S:0"/>
+      <xs:enumeration value="2:A:0"/>
+      <xs:enumeration value="1,2"/>
     </xs:restriction>
   </xs:simpleType>
 </xs:attribute>
+
+<xs:attribute name="valency" type="valency_Type"/>
+
+<xs:simpleType name="valency_Type">
+  <xs:restriction base="xs:string">
+    <xs:enumeration value="vi"/><!-- intransitive verb неперех.-->
+    <xs:enumeration value="vt"/><!-- transitive verb перех. -->
+    <xs:enumeration value="vt-vi"/><!-- transitive and intransitive verb перех.-неперех. -->
+    <xs:enumeration value="Subj1Obj2Obj"/><!-- vdt ditransitive verb -->
+    <xs:enumeration value="1Obj"/><!-- v the object is usually human, but no subject referent is apparent -->
+    <xs:enumeration value="1,2"/> <!-- This should be worked away from = Subj and Subj1Obj -->
+  </xs:restriction>
+</xs:simpleType>
+
+
 
 </xs:schema>
