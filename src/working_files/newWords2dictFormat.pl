@@ -99,7 +99,7 @@ s/^([^,]*),V2/
   \<entry\>
     \<lemma\>$1ны\<\/lemma\>
     \<stem\>$1\<\/stem\>
-    \<contlex\>Verb2\<\/contlex\>
+    \<contlex\>Verb-ny\<\/contlex\>
     \<pos\>V\<\/pos\>
     \<article\>
       \<eng\>
@@ -122,7 +122,7 @@ s/^([^,]*),V3/
   \<entry\>
     \<lemma\>$1ыны\<\/lemma\>
     \<stem\>$1ы\<\/stem\>
-    \<contlex\>Verb3\<\/contlex\>
+    \<contlex\>Verb-yny\<\/contlex\>
     \<pos\>V\<\/pos\>
     \<article\>
       \<eng\>
