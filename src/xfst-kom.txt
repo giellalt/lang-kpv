@@ -2,6 +2,19 @@
 ! It gives the morphophonological rules for Komi.
 
 
+! In this file, testcases are marked as follows:
+
+! space exclmark euro space upper:lower
+! Please add tests for eventual new rules or problems
+
+! To test: in kt/kom/src, do: 
+! xfst -e "source xfst-kom.txt"
+! invert net
+! save s
+! quit
+! cat xfst-kom.txt | grep €|cut -d" " -f3|cut -d":" -f1|lookup s
+
+
 clear stack
 
 
@@ -56,14 +69,6 @@ define Dummy [ Boundary | Diacritics ] ;
 
 ! Rule section !
 ! ============ !
-
-! Testcases marked as follows:
-! space exclmark euro space upper:lower
-! To test: 
-! xfst -e "source xfst-kom.txt"
-! invert net
-! save s
-! cat xfst-kom.txt | grep €|cut -d" " -f3|cut -d":" -f1|lookup s
 
 echo << defining the rules >>
 
