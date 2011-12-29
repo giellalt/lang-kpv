@@ -66,6 +66,7 @@
      <xs:enumeration value="en"/>
  <xs:enumeration value="fin"/>
  <xs:enumeration value="kv"/>
+ <xs:enumeration value="nno"/>
  <xs:enumeration value="ru"/>
    </xs:restriction>
  </xs:simpleType>
@@ -668,6 +669,7 @@
     <xs:element ref="drvg"/> <!-- This kind of tag should be a node in eg/entry -->
     <xs:element ref="field"/>
     <xs:element ref="i"/>
+    <xs:element ref="isa"/>
     <xs:element ref="range"/>
     <xs:element ref="register"/>
     <xs:element ref="sns"/>
@@ -848,6 +850,22 @@
     </xs:restriction>
   </xs:simpleType>
 </xs:attribute>
+
+<xs:element name="isa">
+  <xs:complexType>
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+	<xs:attribute name="isa">
+	  <xs:simpleType>
+	    <xs:restriction base="xs:string">
+	      <xs:enumeration value="Russian surname"/>
+	    </xs:restriction>
+	  </xs:simpleType>
+	</xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+</xs:element>
 
 
 <xs:element name="drvMorph">
