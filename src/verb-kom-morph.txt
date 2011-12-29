@@ -44,28 +44,31 @@ LEXICON VERBNEGATIVE
 ! Open class verbs
 ! ----------------
 
+! Some Flag diacritic lines are with regexes, other with aligned zeros. We want to migrate to
+! regexes < … > , for readability reasons (sic!)
+
 LEXICON Verb-lokny ! One verb only, локны
-+V+Inf@U.CONJ-INF.YES@:%>ны@U.CONJ-INF.YES@ VerbEnd-Comparison ;
-+V+ConNeg@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ны@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@@U.CONJ-NX.PL@@U.CONJ-PX.3@ VerbEnd ;
-+V+ConNeg@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@:@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@ VerbEnd ;
-+V+Imprt@U.CONJ-INF.NO@@U.CONJ-MX.IMP@+Sg2@U.CONJ-NX.SG@@U.CONJ-PX.2@:@U.CONJ-INF.NO@@U.CONJ-MX.IMP@@U.CONJ-NX.SG@@U.CONJ-PX.2@ VerbEnd ;
-+V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@т VerbDer ; !
-+V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@т VerbDer-V ; !
+< 0:"%>" 0:н 0:ы "+V":0 "+Inf":0 "@U.CONJ-INF.YES@" > VerbEnd-Comparison ;
+< 0:"%>" 0:н 0:ы "+V":0 "+ConNeg":0 "@U.CONJ-INF.NO@" "@U.CONJ-CONNEG.YES@" "+Pl3":0 "@U.CONJ-NX.PL@" "@U.CONJ-PX.3@" > VerbEnd ;
++V+ConNeg@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@:00@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@ VerbEnd ;
++V+Imprt@U.CONJ-INF.NO@@U.CONJ-MX.IMP@+Sg2@U.CONJ-NX.SG@@U.CONJ-PX.2@:00@U.CONJ-INF.NO@@U.CONJ-MX.IMP@0@U.CONJ-NX.SG@@U.CONJ-PX.2@ VerbEnd ;
++V@U.CONJ-INF.YES@0:0@U.CONJ-INF.YES@т VerbDer ; !
++V@U.CONJ-INF.YES@0:0@U.CONJ-INF.YES@т VerbDer-V ; !
 +V:т  VerbConj ; !а
 
 
 
 LEXICON Verb-ny ! янӧдны, контролируйтны. Ending in -дны, -тны.
-+V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@ VerbDer ; !
-+V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@ VerbDer-V ; !
+< "+V":0 "@U.CONJ-INF.YES@" > VerbDer ; !
++V@U.CONJ-INF.YES@:0@U.CONJ-INF.YES@ VerbDer-V ; !
 +V:  VerbConj ; !а
 +V:  VerbConj-V ; !б
 
 LEXICON Verb-yny ! ярмыны. Ending in -ыны.
-+V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@    VerbDer ; !
-+V@U.CONJ-INF.YES@:%>ы@U.CONJ-INF.YES@ VerbDer-V ; !
++V@U.CONJ-INF.YES@:0@U.CONJ-INF.YES@    VerbDer ; !
++V0@U.CONJ-INF.YES@:%>ы@U.CONJ-INF.YES@ VerbDer-V ; !
 +V:    VerbConj ; ! check this!!!
-+V:%>ы VerbConj-V ; ! check this!!!
++V0:%>ы VerbConj-V ; ! check this!!!
 
 ! First model: ы added as part of the suffix in б
 ! суффикс а
@@ -97,10 +100,10 @@ LEXICON Verb-yny ! ярмыны. Ending in -ыны.
 ! ================ !
 
 LEXICON VerbConj-V ! суф б -- ы --
-+Inf@U.CONJ-INF.YES@:%>ны@U.CONJ-INF.YES@ VerbEnd-Comparison ;
-+ConNeg@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ны@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@@U.CONJ-NX.PL@@U.CONJ-PX.3@ VerbEnd ;
-+ConNeg@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@:@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@ VerbEnd ;
-+Imprt@U.CONJ-INF.NO@@U.CONJ-MX.IMP@+Sg2@U.CONJ-NX.SG@@U.CONJ-PX.2@:@U.CONJ-INF.NO@@U.CONJ-MX.IMP@@U.CONJ-NX.SG@@U.CONJ-PX.2@ VerbEnd ;
++Inf0@U.CONJ-INF.YES@:%>ны@U.CONJ-INF.YES@ VerbEnd-Comparison ;
++ConNeg00@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ны@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@0@U.CONJ-NX.PL@@U.CONJ-PX.3@ VerbEnd ;
++ConNeg@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@:0@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@ VerbEnd ;
++Imprt@U.CONJ-INF.NO@@U.CONJ-MX.IMP@+Sg2@U.CONJ-NX.SG@@U.CONJ-PX.2@:0@U.CONJ-INF.NO@@U.CONJ-MX.IMP@0@U.CONJ-NX.SG@@U.CONJ-PX.2@ VerbEnd ;
 
 LEXICON VerbConj ! суф а -------
 @U.CONJ-INF.NO@ Finiteforms ;
@@ -113,20 +116,20 @@ LEXICON Finiteforms  ! Gives linking vowels for 3 tenses
  imperative ;
 
 LEXICON present
-+Ind@U.CONJ-MX.IND@+Prs@U.CONJ-TX.PRES@:%>а@U.CONJ-MX.IND@@U.CONJ-TX.PRES@ PresPret1 ; ! 1,2  Present
-+Ind@U.CONJ-MX.IND@+Prs@U.CONJ-TX.PRES@:%>ӧ@U.CONJ-MX.IND@@U.CONJ-TX.PRES@ PresPret1-SgPl3 ; ! 3
++Ind0@U.CONJ-MX.IND@+Prs@U.CONJ-TX.PRES@:%>а@U.CONJ-MX.IND@0@U.CONJ-TX.PRES@ PresPret1 ; ! 1,2  Present
++Ind0@U.CONJ-MX.IND@+Prs@U.CONJ-TX.PRES@:%>ӧ@U.CONJ-MX.IND@0@U.CONJ-TX.PRES@ PresPret1-SgPl3 ; ! 3
 
 LEXICON future
-+Ind@U.CONJ-MX.IND@+Fut@U.CONJ-TX.FUT@:%>а@U.CONJ-MX.IND@@U.CONJ-TX.FUT@ PresPret1 ; ! 1,2  Future
-+Ind@U.CONJ-MX.IND@+Fut@U.CONJ-TX.FUT@:%>ас@U.CONJ-MX.IND@@U.CONJ-TX.FUT@@U.CONJ-PX.3@ PresPret1-SgPl3 ; ! 3 PresPret1-SgPl3   
++Ind0@U.CONJ-MX.IND@+Fut@U.CONJ-TX.FUT@:%>а@U.CONJ-MX.IND@0@U.CONJ-TX.FUT@ PresPret1 ; ! 1,2  Future
++Ind00@U.CONJ-MX.IND@+Fut@U.CONJ-TX.FUT@:%>ас@U.CONJ-MX.IND@0@U.CONJ-TX.FUT@@U.CONJ-PX.3@ PresPret1-SgPl3 ; ! 3 PresPret1-SgPl3   
 
 LEXICON preterite
-+Ind@U.CONJ-MX.IND@+Prt1@U.CONJ-TX.PRET1@:%>і@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@ PresPret1 ; ! 1,2  Preterite1. і и variation?
-+Ind@U.CONJ-MX.IND@+Prt1@U.CONJ-TX.PRET1@:%>і@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@ P3 ; ! 3 
-+Ind@U.CONJ-MX.IND@+Prt2@U.CONJ-TX.PRET2@:%>ӧм@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@ Pret2a ;
++Ind0@U.CONJ-MX.IND@+Prt1@U.CONJ-TX.PRET1@:%>і@U.CONJ-MX.IND@0@U.CONJ-TX.PRET1@ PresPret1 ; ! 1,2  Preterite1. і и variation?
++Ind0@U.CONJ-MX.IND@+Prt1@U.CONJ-TX.PRET1@:%>і@U.CONJ-MX.IND@0@U.CONJ-TX.PRET1@ P3 ; ! 3 
++Ind00@U.CONJ-MX.IND@+Prt2@U.CONJ-TX.PRET2@:%>ӧм@U.CONJ-MX.IND@0@U.CONJ-TX.PRET2@ Pret2a ;
 
 LEXICON imperative
-+Imprt@U.CONJ-MX.IMP@+Pl2@U.CONJ-NX.PL@@U.CONJ-PX.2@:%>ӧй@U.CONJ-MX.IMP@@U.CONJ-NX.PL@@U.CONJ-PX.2@ VerbEnd ;
++Imprt00@U.CONJ-MX.IMP@+Pl2@U.CONJ-NX.PL@@U.CONJ-PX.2@:%>ӧй@U.CONJ-MX.IMP@0@U.CONJ-NX.PL@@U.CONJ-PX.2@ VerbEnd ;
 
 LEXICON PossessiveSuffixes
 +PxSg1:%>ым K ;
@@ -144,15 +147,15 @@ LEXICON PossessiveSuffixes_NoSg1
 
 LEXICON PresPret1  ! First and second person
 +Sg1@U.CONJ-NX.SG@@U.CONJ-PX.1@:%>@U.CONJ-NX.SG@@U.CONJ-PX.1@ VerbEnd-Comparison ; 
-+Sg2@U.CONJ-NX.SG@@U.CONJ-PX.2@:%>н@U.CONJ-NX.SG@@U.CONJ-PX.2@ VerbEnd-Comparison ;
-+Pl1@U.CONJ-NX.PL@@U.CONJ-PX.1@:%>м@U.CONJ-NX.PL@@U.CONJ-PX.1@ VerbEnd-Comparison ; 
-+Pl1+Use/Sub@U.CONJ-NX.PL@@U.CONJ-PX.1@:%>мӧ@U.CONJ-NX.PL@@U.CONJ-PX.1@ VerbEnd-Comparison ; 
-+Pl1@U.CONJ-NX.PL@@U.CONJ-PX.1@:%>мӧй@U.CONJ-NX.PL@@U.CONJ-PX.1@ VerbEnd-Comparison ;  ! imperatiivi / optatiivi ??
-+Pl2@U.CONJ-NX.PL@@U.CONJ-PX.2@:%>нныд@U.CONJ-NX.PL@@U.CONJ-PX.2@ VerbEnd-Comparison ;
++Sg20@U.CONJ-NX.SG@@U.CONJ-PX.2@:%>н@U.CONJ-NX.SG@@U.CONJ-PX.2@ VerbEnd-Comparison ;
++Pl10@U.CONJ-NX.PL@@U.CONJ-PX.1@:%>м@U.CONJ-NX.PL@@U.CONJ-PX.1@ VerbEnd-Comparison ; 
++Pl1+Use/Sub0@U.CONJ-NX.PL@@U.CONJ-PX.1@:%>мӧ@U.CONJ-NX.PL@@U.CONJ-PX.1@ VerbEnd-Comparison ; 
++Pl1000@U.CONJ-NX.PL@@U.CONJ-PX.1@:%>мӧй@U.CONJ-NX.PL@@U.CONJ-PX.1@ VerbEnd-Comparison ;  ! imperatiivi / optatiivi ??
++Pl20000@U.CONJ-NX.PL@@U.CONJ-PX.2@:%>нныд@U.CONJ-NX.PL@@U.CONJ-PX.2@ VerbEnd-Comparison ;
 +Pl2+Use/Sub@U.CONJ-NX.PL@@U.CONJ-PX.2@:%>д@U.CONJ-NX.PL@@U.CONJ-PX.2@ VerbEnd-Comparison ; 
 
 LEXICON P3         
-@U.CONJ-PX.3@:%>с@U.CONJ-PX.3@ PresPret1-SgPl3 ; ! This is regular
+00@U.CONJ-PX.3@:%>с@U.CONJ-PX.3@ PresPret1-SgPl3 ; ! This is regular
 @U.CONJ-PX.3@  PresPret1-SgPl3 ; ! This is usually restricted to intransitives
 
 
@@ -164,7 +167,7 @@ LEXICON SG3
 +Sg3@U.CONJ-NX.SG@@U.CONJ-PX.3@:%>@U.CONJ-NX.SG@@U.CONJ-PX.3@ VerbEnd-Comparison ;
   
 LEXICON PL3
-+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ны@U.CONJ-NX.PL@@U.CONJ-PX.3@ VerbEnd-Comparison ;
++Pl300@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ны@U.CONJ-NX.PL@@U.CONJ-PX.3@ VerbEnd-Comparison ;
 
 LEXICON Pret2a
 :а PRET2-linkki-a ; 
@@ -174,18 +177,18 @@ LEXICON Pret2a
                   ! as point of departure
 
 LEXICON PRET2PL2
-+Sg2@U.CONJ-NX.SG@@U.CONJ-PX.2@:%>ыд@U.CONJ-NX.SG@@U.CONJ-PX.2@ VerbEnd-Comparison ;
-+Pl2@U.CONJ-NX.PL@@U.CONJ-PX.2@:%>ныд@U.CONJ-NX.PL@@U.CONJ-PX.2@ VerbEnd-Comparison ;
-+Pl2@U.CONJ-NX.PL@@U.CONJ-PX.2@:%>ныдӧсь@U.CONJ-NX.PL@@U.CONJ-PX.2@ VerbEnd-Comparison ; !224
-+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ны@U.CONJ-NX.PL@@U.CONJ-PX.3@ VerbEnd-Comparison ; !227
++Sg200@U.CONJ-NX.SG@@U.CONJ-PX.2@:%>ыд@U.CONJ-NX.SG@@U.CONJ-PX.2@ VerbEnd-Comparison ;
++Pl2000@U.CONJ-NX.PL@@U.CONJ-PX.2@:%>ныд@U.CONJ-NX.PL@@U.CONJ-PX.2@ VerbEnd-Comparison ;
++Pl2000000@U.CONJ-NX.PL@@U.CONJ-PX.2@:%>ныдӧсь@U.CONJ-NX.PL@@U.CONJ-PX.2@ VerbEnd-Comparison ; !224
++Pl300@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ны@U.CONJ-NX.PL@@U.CONJ-PX.3@ VerbEnd-Comparison ; !227
 
 LEXICON PRET2-linkki-a
 !+Sg1+Use/Sub: VerbEnd-Comparison ; ! no Sg1 for Prt2 in the standard
-+Sg1@U.CONJ-NX.SG@@U.CONJ-PX.1@:@U.CONJ-NX.SG@@U.CONJ-PX.1@ VerbEnd-Comparison ; ! no Sg1 for Prt2 in the standard
-+Sg3@U.CONJ-NX.SG@@U.CONJ-PX.3@:@U.CONJ-NX.SG@@U.CONJ-PX.3@ VerbEnd-Comparison ;
++Sg1@U.CONJ-NX.SG@@U.CONJ-PX.1@:0@U.CONJ-NX.SG@@U.CONJ-PX.1@ VerbEnd-Comparison ; ! no Sg1 for Prt2 in the standard
++Sg3@U.CONJ-NX.SG@@U.CONJ-PX.3@:0@U.CONJ-NX.SG@@U.CONJ-PX.3@ VerbEnd-Comparison ;
 !+Pl1+Use/Sub:%>ӧсь VerbEnd-Comparison ; ! no Pl1 for Prt2 in the standard
-+Pl1@U.CONJ-NX.PL@@U.CONJ-PX.1@:%>ӧсь@U.CONJ-NX.PL@@U.CONJ-PX.1@ VerbEnd-Comparison ; ! no Pl1 for Prt2 in the standard
-+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ӧсь@U.CONJ-NX.PL@@U.CONJ-PX.3@ VerbEnd-Comparison ;
++Pl1000@U.CONJ-NX.PL@@U.CONJ-PX.1@:%>ӧсь@U.CONJ-NX.PL@@U.CONJ-PX.1@ VerbEnd-Comparison ; ! no Pl1 for Prt2 in the standard
++Pl3000@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ӧсь@U.CONJ-NX.PL@@U.CONJ-PX.3@ VerbEnd-Comparison ;
 
 LEXICON MatrixVerb-Comparison
                K ;
@@ -215,23 +218,23 @@ VerbDer ; ! to be merged with next
 
 LEXICON VerbDer 
 
-+Der/л:л  Verb3 ; !!босьтлыны
-+Der/лывл:лывл Verb3 ; !!босьтлывлыны
-+Der/сь:сь Verb3 ; !! овсьыны
++Der/л:л  Verb-yny ; !!босьтлыны
++Der/лывл:лывл Verb-yny ; !!босьтлывлыны
++Der/сь:сь Verb-yny ; !! овсьыны
 !!!!зь:зь  !!югзьыны
-+Der/сь+Der/ышт+Der/л:сьыштл Verb3 ; !!лэптысьыштлыны
-+Der/сь+Der/ышт+Der/лывл:сьыштлывл Verb3 ; !! пусьыштлывлыны
-+Der/ч:ч Verb3 ; !!босьтчыны
-+Der/ч+Der/ышт+Der/л:чыштл Verb3 ; !!босьтчыштлыны
-+Der/ч+Der/ышт+Der/лывл:чыштлывл Verb3 ; !! босьтчыштлывлыны
-+Der/ышт+Der/л:ыштл Verb3 ;   !!сёйыштлыны
-+Der/ышт+Der/лывл:ыштлывл Verb3 ;  !!сёйыштлывлыны
-+Der/ышт:ышт Verb3 ; !!сёйыштны
-+Der/сь+Der/ышт:сьышт Verb3 ; !!лэптысьыштны
-+Der/ч+Der/ышт:чышт Verb3 ; !!босьтчыштны
-+Der/ал:ал Verb3 ; !!сетавны
-+Der/овт:овт Verb3 ; !!пановтны
-+Der/ась:ась Verb3 ; !!ыны -> асьны
++Der/сь+Der/ышт+Der/л:сьыштл Verb-yny ; !!лэптысьыштлыны
++Der/сь+Der/ышт+Der/лывл:сьыштлывл Verb-yny ; !! пусьыштлывлыны
++Der/ч:ч Verb-yny ; !!босьтчыны
++Der/ч+Der/ышт+Der/л:чыштл Verb-yny ; !!босьтчыштлыны
++Der/ч+Der/ышт+Der/лывл:чыштлывл Verb-yny ; !! босьтчыштлывлыны
++Der/ышт+Der/л:ыштл Verb-yny ;   !!сёйыштлыны
++Der/ышт+Der/лывл:ыштлывл Verb-yny ;  !!сёйыштлывлыны
++Der/ышт:ышт Verb-ny ; !!сёйыштны
++Der/сь+Der/ышт:сьышт Verb-ny ; !!лэптысьыштны
++Der/ч+Der/ышт:чышт Verb-ny ; !!босьтчыштны
++Der/ал:ал Verb-ny ; !!сетавны
++Der/овт:овт Verb-ny ; !!пановтны
++Der/ась:ась Verb-ny ; !!ыны -> асьны
  
 +Der/ӧм+Event:%>ӧм Noun1 ;
 +Der/иг+Duration+Ger:%>іг K ; ! gerund (at the same time as the action)
@@ -303,8 +306,8 @@ LEXICON VerbDer-V
 
 +V+Der/л+V+Inf:%>лыны K ;
 
-+V+Der/л+V+ConNeg@U.CONJ-CONNEG.YES@:%>лы@U.CONJ-CONNEG.YES@ # ;
-+V+Der/л+V+ConNeg@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ылыны@U.CONJ-CONNEG.YES@@U.CONJ-NX.PL@@U.CONJ-PX.3@ # ;
++V+Der/л+V+ConNeg@U.CONJ-CONNEG.YES@:%>лы0@U.CONJ-CONNEG.YES@ # ;
++V+Der/л+V+ConNeg00@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ылыны@U.CONJ-CONNEG.YES@0@U.CONJ-NX.PL@@U.CONJ-PX.3@ # ;
 +V+Der/л+V+Imprt+Sg2:%>лы # ;
 
 +V+Der/л+V:%>л VerbConj ; ! босьтл - босьтлан
@@ -315,20 +318,20 @@ LEXICON VerbDer-V
 !+Imprt+Sg2:%>ылы # ; !Questioning 2011-10-02
 +V+Der/ывл+V:%>ывл VerbConj ; ! мынтывл - мынтывлан
 +V+Der/ывл+V+Inf:%>ывлыны K ;
-+V+Der/ывл+V+ConNeg@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ывлыны@U.CONJ-CONNEG.YES@@U.CONJ-NX.PL@@U.CONJ-PX.3@ # ;
-+V+Der/ывл+V+ConNeg@U.CONJ-CONNEG.YES@:%>ывлы@U.CONJ-CONNEG.YES@ # ;
++V+Der/ывл+V+ConNeg000@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ывлыны@U.CONJ-CONNEG.YES@0@U.CONJ-NX.PL@@U.CONJ-PX.3@ # ;
++V+Der/ывл+V+ConNeg0@U.CONJ-CONNEG.YES@:%>ывлы@U.CONJ-CONNEG.YES@ # ;
 +V+Der/ывл+V+Imprt+Sg2:%>ывлы # ;
 
 +V+Der/ышт+Dim+V:%>ышт  VerbConj ;
 +V+Der/ышт+Dim+V+Inf:%>ыштны K ;
-+V+Der/ышт+Dim+V+ConNeg@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ыштны@U.CONJ-CONNEG.YES@@U.CONJ-NX.PL@@U.CONJ-PX.3@ # ;
-+V+Der/ышт+Dim+V+ConNeg@U.CONJ-CONNEG.YES@:%>ышт@U.CONJ-CONNEG.YES@ # ;
++V+Der/ышт+Dim+V+ConNeg0@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ыштны@U.CONJ-CONNEG.YES@0@U.CONJ-NX.PL@@U.CONJ-PX.3@ # ;
++V+Der/ышт+Dim+V+ConNeg@U.CONJ-CONNEG.YES@:%>ышт0@U.CONJ-CONNEG.YES@ # ;
 +V+Der/ышт+Dim+V+Imprt+Sg2:%>ышт # ;
 
 +V+Der/ышт+Dim+V+Der/л+V:%>ыштл  VerbConj ;
 +V+Der/ышт+Dim+V+Der/л+V+Inf:%>ыштлыны K ;
-+V+Der/ышт+Dim+V+Der/л+V+ConNeg@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ыштлыны@U.CONJ-CONNEG.YES@@U.CONJ-NX.PL@@U.CONJ-PX.3@ # ;
-+V+Der/ышт+Dim+V+Der/л+V+ConNeg@U.CONJ-CONNEG.YES@:%>ыштл@U.CONJ-CONNEG.YES@ # ;
++V+Der/ышт+Dim+V+Der/л+V+ConNeg0@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ыштлыны@U.CONJ-CONNEG.YES@0@U.CONJ-NX.PL@@U.CONJ-PX.3@ # ;
++V+Der/ышт+Dim+V+Der/л+V+ConNeg@U.CONJ-CONNEG.YES@:%>ыштл00@U.CONJ-CONNEG.YES@ # ;
 +V+Der/ышт+Dim+V+Der/л+V+Imprt+Sg2:%>ыштл # ;
 
 
@@ -337,12 +340,12 @@ LEXICON VerbDer-V
 
 LEXICON VerbPRT ! one verb, вӧвны 
 +V: preterite ;
-+V+ConNeg@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ны@U.CONJ-CONNEG.YES@@U.CONJ-NX.PL@@U.CONJ-PX.3@ # ;
+< 0:"%>" 0:н 0:ы "+V":0 "+ConNeg":0  "@U.CONJ-CONNEG.YES@" "+Pl3":0 "@U.CONJ-NX.PL@" "@U.CONJ-PX.3@" > # ;
 +V+ConNeg@U.CONJ-CONNEG.YES@:@U.CONJ-CONNEG.YES@ # ;
 
 LEXICON EMYSHT ! эмышт "is a little / are a few"
- +V+Ind@U.CONJ-MX.IND@+Prs+Sg3:@U.CONJ-MX.IND@ # ;
- +V+Ind@U.CONJ-MX.IND@+Prs+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:@U.CONJ-MX.IND@@U.CONJ-NX.PL@@U.CONJ-PX.3@ # ;
+ +V+Ind@U.CONJ-MX.IND@+Prs+Sg3:00@U.CONJ-MX.IND@ # ;
+ +V+Ind@U.CONJ-MX.IND@+Prs+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:00@U.CONJ-MX.IND@00@U.CONJ-NX.PL@@U.CONJ-PX.3@ # ;
  
 LEXICON GER ! 3 lexicalised +Ger forms.
 +V+Ger: # ;
