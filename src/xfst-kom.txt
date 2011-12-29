@@ -60,13 +60,18 @@ define Letter [ Vow | Cns ] ;
 
 define Syll [ ( Cns ) ( Cns ) Vow ( Cns ) ( Cns ) ] ;      ! Hmm, not needed now.
 
-define Flags [ %@U%.CONJ%-INF%.YES%@ | %@U%.CONJ%-INF%.NO%@ | %@U%.CONJ%-TX%.FUT%@
-             | %@U%.CONJ%-TX%.PRES%@ | %@U%.CONJ%-TX%.PRET1%@ | %@U%.CONJ%-TX%.PRET2%@
-             | %@U%.CONJ%-MX%.IND%@ | %@U%.CONJ%-MX%.IMP%@ | %@U%.CONJ%-CONNEG%.YES%@
-             | %@U%.CONJ%-CONNEG%.NO%@ | %@U%.CONJ%-NX%.PL%@ | %@U%.CONJ%-NX%.SG%@
-             | %@U%.CONJ%-PX%.1%@ | %@U%.CONJ%-PX%.2%@ | %@U%.CONJ%-PX%.3%@ | %@C%.CONJ%-INF%@
-             | %@C%.CONJ%-TX%@ | %@C%.CONJ%-MX%@ | %@C%.CONJ%-CONNEG%@ | %@C%.CONJ%-NX%@
-             | %@C%.CONJ%-PX%@ ] ;
+define Flags [ %@U%.CONJ%-INF%.YES%@ | %@U%.CONJ%-INF%.NO%@ 
+             | %@U%.CONJ%-TX%.FUT%@ | %@U%.CONJ%-TX%.PRES%@ 
+             | %@U%.CONJ%-TX%.PRET1%@ | %@U%.CONJ%-TX%.PRET2%@
+             | %@U%.CONJ%-MX%.IND%@ | %@U%.CONJ%-MX%.IMP%@ 
+             | %@U%.CONJ%-CONNEG%.YES%@ | %@U%.CONJ%-CONNEG%.NO%@
+             | %@U%.CONJ%-NX%.PL%@ | %@U%.CONJ%-NX%.SG%@
+             | %@U%.CONJ%-PX%.1%@ | %@U%.CONJ%-PX%.2%@ 
+             | %@U%.CONJ%-PX%.3%@ | %@C%.CONJ%-INF%@
+             | %@C%.CONJ%-TX%@ | %@C%.CONJ%-MX%@ 
+             | %@C%.CONJ%-CONNEG%@ | %@C%.CONJ%-NX%@
+             | %@C%.CONJ%-PX%@ ] ; ! This includes a list of all the flags used
+     ! in serial verbs
 
 echo << defining Boundary >>
 
