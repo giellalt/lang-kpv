@@ -44,7 +44,7 @@ LEXICON VERBNEGATIVE
 ! Open class verbs
 ! ----------------
 
-LEXICON Verb-lokny
+LEXICON Verb-lokny ! One verb only, локны
 +V+Inf@U.CONJ-INF.YES@:%>ны@U.CONJ-INF.YES@ VerbEnd-Comparison ;
 +V+ConNeg@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ны@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@@U.CONJ-NX.PL@@U.CONJ-PX.3@ VerbEnd ;
 +V+ConNeg@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@:@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@ VerbEnd ;
@@ -55,21 +55,19 @@ LEXICON Verb-lokny
 
 
 
-LEXICON Verb1 ! яйсявны,  в - л change кывны кылан
-Verb2 ;  ! already merged with Verb2, todo: merge in xml as well
-
-LEXICON Verb2 ! янӧдны, контролируйтны. Ending in -дны, -тны.
+LEXICON Verb-ny ! янӧдны, контролируйтны. Ending in -дны, -тны.
 +V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@ VerbDer ; !
 +V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@ VerbDer-V ; !
 +V:  VerbConj ; !а
 +V:  VerbConj-V ; !б
 
-LEXICON Verb3 ! ярмыны. Ending in -ыны.
+LEXICON Verb-yny ! ярмыны. Ending in -ыны.
 +V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@    VerbDer ; !
 +V@U.CONJ-INF.YES@:%>ы@U.CONJ-INF.YES@ VerbDer-V ; !
 +V:    VerbConj ; ! check this!!!
 +V:%>ы VerbConj-V ; ! check this!!!
 
+! First model: ы added as part of the suffix in б
 ! суффикс а
 ! янӧд -----------\
 !                   ышт, ан...
@@ -81,6 +79,7 @@ LEXICON Verb3 ! ярмыны. Ending in -ыны.
 ! ярм ----- ы ----/
 
 
+! Second model: ы added earlier, and not as part of the suffix in б
 ! суффикс а
 ! янӧд -----------\
 !                   ышт, ан...
