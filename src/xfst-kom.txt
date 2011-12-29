@@ -60,6 +60,14 @@ define Letter [ Vow | Cns ] ;
 
 define Syll [ ( Cns ) ( Cns ) Vow ( Cns ) ( Cns ) ] ;      ! Hmm, not needed now.
 
+define Flags [ %@U%.CONJ%-INF%.YES%@ | %@U%.CONJ%-INF%.NO%@ | %@U%.CONJ%-TX%.FUT%@
+             | %@U%.CONJ%-TX%.PRES%@ | %@U%.CONJ%-TX%.PRET1%@ | %@U%.CONJ%-TX%.PRET2%@
+             | %@U%.CONJ%-MX%.IND%@ | %@U%.CONJ%-MX%.IMP%@ | %@U%.CONJ%-CONNEG%.YES%@
+             | %@U%.CONJ%-CONNEG%.NO%@ | %@U%.CONJ%-NX%.PL%@ | %@U%.CONJ%-NX%.SG%@
+             | %@U%.CONJ%-PX%.1%@ | %@U%.CONJ%-PX%.2%@ | %@U%.CONJ%-PX%.3%@ | %@C%.CONJ%-INF%@
+             | %@C%.CONJ%-TX%@ | %@C%.CONJ%-MX%@ | %@C%.CONJ%-CONNEG%@ | %@C%.CONJ%-NX%@
+             | %@C%.CONJ%-PX%@ ] ;
+
 echo << defining Boundary >>
 
 define Boundary %> ;
@@ -76,7 +84,7 @@ echo << defining the rules >>
 ! The famous L/V
 ! --------------
 
-define LtoV [ л -> в || _ [ .#. | %> Cns ] ] ;
+define LtoV [ л -> в || _ Flags* [ .#. | %> Cns ] ] ;
  ! These words are underlyingly l, and changed to v.
  !€ ныл>ыс:нылыс
  !€ ныл:ныв
@@ -168,14 +176,14 @@ define HardMarkDeletion ъ -> 0 || [ Vow (й) | ь ] %> _ ;
  !€ автобус>ъяс:автобусъяс
 
 ! define VowelPalatalisation  а -> я, о -> ё, у -> ю  || 
-!                            [~[ [ з | ч ] | д з ]] [ ь | й ] Vow* %> _ ;
+!                            [~[ [ з | ч ] | д з ]] [ ь | й ] Vow* %> Flags* _ ;
 ! This VowelPalatalisation looks fishy. Why Vow* ?? We tentatively
 ! We remove the Vow, suspecting it has worked so far with * - as - zero
 ! as value, i.e. without vowel. The rule gave йи%>a ==> *йия pro йиа
 
 
 define VowelPalatalisation  [ а -> я, о -> ё, у -> ю  || 
-                            [~[ д з | ч ]] [ ь | й ] %> _ ] ;
+                            [~[ д з | ч ]] [ ь | й ] Flags* %> Flags* _ ] ;
  !€ вой>ас:вояс
  !€ озй>ас:озъяс
  !€ ворссь>а:ворсся
@@ -184,14 +192,14 @@ define VowelPalatalisation  [ а -> я, о -> ё, у -> ю  ||
 ! Have to look for ь>о:ё, 
 ! ь>у:ю appears in compound words                      
 
-define iPalatalisation [ і -> и || [ Vow | CnsBeforeCyri | ь | д з ] %> _ ] ;
+define iPalatalisation [ і -> и || [ Vow | CnsBeforeCyri | ь | д з ] Flags* %> Flags*  _ ] ;
 
  !€ ворссь>і:ворсси
  !€ ло>і:лои
  !€ шу>іс:шуис
  !For some reason this does not work
 
-define SoftMarkDeletion [ ь -> 0 || _ %> [ я | ё | ю | и ] ] ; 
+define SoftMarkDeletion [ ь -> 0 || _ Flags* %> [ я | ё | ю | и ] ] ; 
 ! Testcases: see VowelPalatalisation above
   
 define HardMarkPalatalisation ъ -> ь || [ д з | ч ] %> _ ;
