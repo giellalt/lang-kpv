@@ -38,8 +38,6 @@ Multichar_Symbols
 +Distr ! Distributive
 +Iter ! Iterative form expressing number of times
 +Ord
-+Det ! determiner like уна 'many'.
-! 2011-11-03 Isn't уна 'many' a quantifier +Qnt
 
 
 ! Verbal MSP
@@ -57,7 +55,7 @@ Multichar_Symbols
 +Pred
 
 ! Nominal MSP
-+Sg +Pl +Du 
++Sg +Pl 
 +Prop
 +Sur ! Surname
 +Mal
@@ -526,9 +524,9 @@ LEXICON DESCR-End
 ! ======= !
 
 LEXICON K
-      # ; 
-+Clt+Clt/а:%>%-а  # ;
-+Clt+Clt/ӧ:%>%-ӧ  # ;
+                 # ; 
++Clt+Clt/а:%>%-а # ;
++Clt+Clt/ӧ:%>%-ӧ # ;
 +Clt+Clt/тӧ:%>тӧ # ;
 +Clt+Clt/сӧ:%>сӧ # ;
 
