@@ -66,9 +66,9 @@ LEXICON Verb-ny ! янӧдны, контролируйтны. Ending in -дны,
 
 LEXICON Verb-yny ! ярмыны. Multiple-syllable verb ending in -ыны.
 < "+V":0 "@U.CONJ-INF.YES@" > VerbDer ; !
-< ">":0 0:ы "+V":0 "@U.CONJ-INF.YES@" > VerbDer-V ; !
+< 0:ы "+V":0 "@U.CONJ-INF.YES@" > VerbDer-V ; !
 < "+V":0 > VerbConj ; ! check this!!!
-< ">":0 0:ы "+V":0 > VerbConj-V ; ! check this!!!
+< 0:ы "+V":0 > VerbConj-V ; ! check this!!!
 
 ! First model: ы added as part of the suffix in б
 ! суффикс а
@@ -103,7 +103,8 @@ LEXICON VerbConj-V ! суф б -- ы --
 +Inf0@U.CONJ-INF.YES@:%>ны@U.CONJ-INF.YES@ VerbEnd-Comparison ;
 +ConNeg00@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ны@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@0@U.CONJ-NX.PL@@U.CONJ-PX.3@ VerbEnd ;
 +ConNeg@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@:0@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@ VerbEnd ;
-+Imprt@U.CONJ-INF.NO@@U.CONJ-MX.IMP@+Sg2@U.CONJ-NX.SG@@U.CONJ-PX.2@:0@U.CONJ-INF.NO@@U.CONJ-MX.IMP@0@U.CONJ-NX.SG@@U.CONJ-PX.2@ VerbEnd ;
+< "+Imprt":0 "+Sg2":0 "@U.CONJ-INF.NO@" "@U.CONJ-MX.IMP@" "@U.CONJ-NX.SG@" "@U.CONJ-PX.2@" > VerbEnd ;
+!+Imprt@U.CONJ-INF.NO@@U.CONJ-MX.IMP@+Sg2@U.CONJ-NX.SG@@U.CONJ-PX.2@:0@U.CONJ-INF.NO@@U.CONJ-MX.IMP@0@U.CONJ-NX.SG@@U.CONJ-PX.2@ VerbEnd ;
 
 LEXICON VerbConj ! суф а -------
 @U.CONJ-INF.NO@ Finiteforms ;
@@ -116,7 +117,7 @@ LEXICON Finiteforms  ! Gives linking vowels for 3 tenses
  imperative ;
 
 LEXICON present
-< ">":0 0:а "+Ind":0 "+Prs":0 "@U.CONJ-MX.IND@" "@U.CONJ-TX.PRES@" > PresPret1 ; ! 1,2  Present
++Ind0@U.CONJ-MX.IND@+Prs@U.CONJ-TX.PRES@:%>а@U.CONJ-MX.IND@0@U.CONJ-TX.PRES@ PresPret1 ; ! 1,2  Present
 +Ind0@U.CONJ-MX.IND@+Prs@U.CONJ-TX.PRES@:%>ӧ@U.CONJ-MX.IND@0@U.CONJ-TX.PRES@ PresPret1-SgPl3 ; ! 3
 
 LEXICON future
@@ -297,8 +298,8 @@ LEXICON VerbDer
 
 LEXICON VerbDer-V
 ! Page 346 in the Komi grammar
-< ">":0 0:м 0:ы 0:с 0:ь 0:т "+Der/мысьт":0 > K ; ! gerund (after the action) !353
-< ">":0 0:м 0:ы 0:с 0:ь "+Der/мысь":0 > K ; ! !353
++Der/мысьт:%>мысьт K ; ! gerund (after the action) !353
++Der/мысь:%>мысь K ; ! !353
 +Der/тӧдз:%>тӧдз PossessiveSuffixes_NoSg1 ; !396
 +Der/мӧн:%>мӧн PossessiveSuffixes_NoSg1 ; !399-403
 +Der/мӧнъя:%>мӧнъя # ; !399-403
