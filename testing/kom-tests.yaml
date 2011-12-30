@@ -441,7 +441,8 @@ Tests:
   
   Noun - тымӧд: # Ordinary nouns - full paradigm
      тымӧд+N+Sg+Nom: тымӧд
-     тымӧд+N+Sg+Acc: [тымӧд, тымӧдӧс]
+     тымӧд+N+Sg+ZeroAcc: тымӧд
+     тымӧд+N+Sg+Acc: тымӧдӧс
      тымӧд+N+Sg+Gen: тымӧдлӧн
      тымӧд+N+Sg+Abl: тымӧдлысь
      тымӧд+N+Sg+Dat: тымӧдлы
@@ -494,7 +495,7 @@ Tests:
      тымӧд+N+Sg+PxSg2+Gen: тымӧдыдлӧн
      тымӧд+N+Sg+PxSg2+Abl: тымӧдыдлысь
      тымӧд+N+Sg+PxSg2+Dat: тымӧдыдлы
-     тымӧд+N+Sg+PxSg2+Acc: тымӧдтӧ
+     тымӧд+N+Sg+PxSg2+Acc2: тымӧдтӧ
      тымӧд+N+Sg+Instr+PxSg2: тымӧднад
      тымӧд+N+Sg+PxSg2+Com: тымӧдыдкӧд
      тымӧд+N+Sg+Car+PxSg2: тымӧдтӧгыд
@@ -519,7 +520,7 @@ Tests:
      тымӧд+N+Sg+PxSg3+Gen: тымӧдыслӧн
      тымӧд+N+Sg+PxSg3+Abl: тымӧдыслысь
      тымӧд+N+Sg+PxSg3+Dat: тымӧдыслы
-     тымӧд+N+Sg+PxSg3+Acc: тымӧдсӧ
+     тымӧд+N+Sg+PxSg3+Acc3: тымӧдсӧ
      тымӧд+N+Sg+Instr+PxSg3: тымӧднас
      тымӧд+N+Sg+PxSg3+Com: тымӧдыскӧд
      тымӧд+N+Sg+Car+PxSg3: тымӧдтӧгыс
@@ -569,7 +570,7 @@ Tests:
      тымӧд+N+Sg+PxPl2+Gen: тымӧдныдлӧн
      тымӧд+N+Sg+PxPl2+Abl: тымӧдныдлысь
      тымӧд+N+Sg+PxPl2+Dat: тымӧдныдлы
-     тымӧд+N+Sg+PxPl2+Acc: тымӧднытӧ
+     тымӧд+N+Sg+PxPl2+Acc2: тымӧднытӧ
      тымӧд+N+Sg+Instr+PxPl2: тымӧднаныд
      тымӧд+N+Sg+PxPl2+Com: тымӧдныдкӧд
      тымӧд+N+Sg+Car+PxPl2: тымӧдтӧгныд
@@ -594,7 +595,7 @@ Tests:
      тымӧд+N+Sg+PxPl3+Gen: тымӧдныслӧн
      тымӧд+N+Sg+PxPl3+Abl: тымӧдныслысь
      тымӧд+N+Sg+PxPl3+Dat: тымӧдныслы
-     тымӧд+N+Sg+PxPl3+Acc: тымӧднысӧ
+     тымӧд+N+Sg+PxPl3+Acc3: тымӧднысӧ
      тымӧд+N+Sg+Instr+PxPl3: тымӧднаныс
      тымӧд+N+Sg+PxPl3+Com: тымӧдныскӧд
      тымӧд+N+Sg+Car+PxPl3: тымӧдтӧгныс
@@ -617,7 +618,8 @@ Tests:
      тымӧд+N+Sg+Apr+Tra+PxPl3: тымӧдланьтіныс
      тымӧд+N+Sg+Apr+Ter+PxPl3: тымӧдланьӧдзныс
      тымӧд+N+Pl+Nom: тымӧдъяс
-     тымӧд+N+Pl+Acc: [тымӧдъяс, тымӧдъясӧс]
+     тымӧд+N+Pl+ZeroAcc: тымӧдъяс
+     тымӧд+N+Pl+Acc: тымӧдъясӧс
      тымӧд+N+Pl+Gen: тымӧдъяслӧн
      тымӧд+N+Pl+Abl: тымӧдъяслысь
      тымӧд+N+Pl+Dat: тымӧдъяслы
@@ -670,7 +672,7 @@ Tests:
      тымӧд+N+Pl+PxSg2+Gen: тымӧдъясыдлӧн
      тымӧд+N+Pl+PxSg2+Abl: тымӧдъясыдлысь
      тымӧд+N+Pl+PxSg2+Dat: тымӧдъясыдлы
-     тымӧд+N+Pl+PxSg2+Acc: тымӧдъястӧ
+     тымӧд+N+Pl+PxSg2+Acc2: тымӧдъястӧ
      тымӧд+N+Pl+Instr+PxSg2: тымӧдъяснад
      тымӧд+N+Pl+PxSg2+Com: тымӧдъясыдкӧд
      тымӧд+N+Pl+Car+PxSg2: тымӧдъястӧгыд
@@ -695,7 +697,7 @@ Tests:
      тымӧд+N+Pl+PxSg3+Gen: тымӧдъясыслӧн
      тымӧд+N+Pl+PxSg3+Abl: тымӧдъясыслысь
      тымӧд+N+Pl+PxSg3+Dat: тымӧдъясыслы
-     тымӧд+N+Pl+PxSg3+Acc: тымӧдъяссӧ
+     тымӧд+N+Pl+PxSg3+Acc3: тымӧдъяссӧ
      тымӧд+N+Pl+Instr+PxSg3: тымӧдъяснас
      тымӧд+N+Pl+PxSg3+Com: тымӧдъясыскӧд
      тымӧд+N+Pl+Car+PxSg3: тымӧдъястӧгыс
@@ -745,7 +747,7 @@ Tests:
      тымӧд+N+Pl+PxPl2+Gen: тымӧдъясныдлӧн
      тымӧд+N+Pl+PxPl2+Abl: тымӧдъясныдлысь
      тымӧд+N+Pl+PxPl2+Dat: тымӧдъясныдлы
-     тымӧд+N+Pl+PxPl2+Acc: тымӧдъяснытӧ
+     тымӧд+N+Pl+PxPl2+Acc2: тымӧдъяснытӧ
      тымӧд+N+Pl+Instr+PxPl2: тымӧдъяснаныд
      тымӧд+N+Pl+PxPl2+Com: тымӧдъясныдкӧд
      тымӧд+N+Pl+Car+PxPl2: тымӧдъястӧгныд
@@ -770,7 +772,7 @@ Tests:
      тымӧд+N+Pl+PxPl3+Gen: тымӧдъясныслӧн
      тымӧд+N+Pl+PxPl3+Abl: тымӧдъясныслысь
      тымӧд+N+Pl+PxPl3+Dat: тымӧдъясныслы
-     тымӧд+N+Pl+PxPl3+Acc: тымӧдъяснысӧ
+     тымӧд+N+Pl+PxPl3+Acc3: тымӧдъяснысӧ
      тымӧд+N+Pl+Instr+PxPl3: тымӧдъяснаныс
      тымӧд+N+Pl+PxPl3+Com: тымӧдъясныскӧд
      тымӧд+N+Pl+Car+PxPl3: тымӧдъястӧгныс
@@ -797,7 +799,8 @@ Tests:
      еджыд+A: еджыд
      еджыд+A+Pred+Pl: еджыдӧсь
      еджыд+A+Der/MWN+N+Sg+Nom: еджыд
-     еджыд+A+Der/MWN+N+Sg+Acc: [еджыд, еджыдӧс]
+     еджыд+A+Der/MWN+N+Sg+ZeroAcc: еджыд
+     еджыд+A+Der/MWN+N+Sg+Acc: еджыдӧс
      еджыд+A+Der/MWN+N+Sg+Gen: еджыдлӧн
      еджыд+A+Der/MWN+N+Sg+Abl: еджыдлысь
      еджыд+A+Der/MWN+N+Sg+Dat: еджыдлы
@@ -850,7 +853,7 @@ Tests:
      еджыд+A+Der/MWN+N+Sg+PxSg2+Gen: еджыдыдлӧн
      еджыд+A+Der/MWN+N+Sg+PxSg2+Abl: еджыдыдлысь
      еджыд+A+Der/MWN+N+Sg+PxSg2+Dat: еджыдыдлы
-     еджыд+A+Der/MWN+N+Sg+PxSg2+Acc: еджыдтӧ
+     еджыд+A+Der/MWN+N+Sg+PxSg2+Acc2: еджыдтӧ
      еджыд+A+Der/MWN+N+Sg+Instr+PxSg2: еджыднад
      еджыд+A+Der/MWN+N+Sg+PxSg2+Com: еджыдыдкӧд
      еджыд+A+Der/MWN+N+Sg+Car+PxSg2: еджыдтӧгыд
@@ -875,7 +878,7 @@ Tests:
      еджыд+A+Der/MWN+N+Sg+PxSg3+Gen: еджыдыслӧн
      еджыд+A+Der/MWN+N+Sg+PxSg3+Abl: еджыдыслысь
      еджыд+A+Der/MWN+N+Sg+PxSg3+Dat: еджыдыслы
-     еджыд+A+Der/MWN+N+Sg+PxSg3+Acc: еджыдсӧ
+     еджыд+A+Der/MWN+N+Sg+PxSg3+Acc3: еджыдсӧ
      еджыд+A+Der/MWN+N+Sg+Instr+PxSg3: еджыднас
      еджыд+A+Der/MWN+N+Sg+PxSg3+Com: еджыдыскӧд
      еджыд+A+Der/MWN+N+Sg+Car+PxSg3: еджыдтӧгыс
@@ -925,7 +928,7 @@ Tests:
      еджыд+A+Der/MWN+N+Sg+PxPl2+Gen: еджыдныдлӧн
      еджыд+A+Der/MWN+N+Sg+PxPl2+Abl: еджыдныдлысь
      еджыд+A+Der/MWN+N+Sg+PxPl2+Dat: еджыдныдлы
-     еджыд+A+Der/MWN+N+Sg+PxPl2+Acc: еджыднытӧ
+     еджыд+A+Der/MWN+N+Sg+PxPl2+Acc2: еджыднытӧ
      еджыд+A+Der/MWN+N+Sg+Instr+PxPl2: еджыднаныд
      еджыд+A+Der/MWN+N+Sg+PxPl2+Com: еджыдныдкӧд
      еджыд+A+Der/MWN+N+Sg+Car+PxPl2: еджыдтӧгныд
@@ -950,7 +953,7 @@ Tests:
      еджыд+A+Der/MWN+N+Sg+PxPl3+Gen: еджыдныслӧн
      еджыд+A+Der/MWN+N+Sg+PxPl3+Abl: еджыдныслысь
      еджыд+A+Der/MWN+N+Sg+PxPl3+Dat: еджыдныслы
-     еджыд+A+Der/MWN+N+Sg+PxPl3+Acc: еджыднысӧ
+     еджыд+A+Der/MWN+N+Sg+PxPl3+Acc3: еджыднысӧ
      еджыд+A+Der/MWN+N+Sg+Instr+PxPl3: еджыднаныс
      еджыд+A+Der/MWN+N+Sg+PxPl3+Com: еджыдныскӧд
      еджыд+A+Der/MWN+N+Sg+Car+PxPl3: еджыдтӧгныс
@@ -973,7 +976,8 @@ Tests:
      еджыд+A+Der/MWN+N+Sg+Apr+Tra+PxPl3: еджыдланьтіныс
      еджыд+A+Der/MWN+N+Sg+Apr+Ter+PxPl3: еджыдланьӧдзныс
      еджыд+A+Der/MWN+N+Pl+Nom: еджыдъяс
-     еджыд+A+Der/MWN+N+Pl+Acc: [еджыдъяс, еджыдъясӧс]
+     еджыд+A+Der/MWN+N+Pl+ZeroAcc: еджыдъяс
+     еджыд+A+Der/MWN+N+Pl+Acc: еджыдъясӧс
      еджыд+A+Der/MWN+N+Pl+Gen: еджыдъяслӧн
      еджыд+A+Der/MWN+N+Pl+Abl: еджыдъяслысь
      еджыд+A+Der/MWN+N+Pl+Dat: еджыдъяслы
@@ -1026,7 +1030,7 @@ Tests:
      еджыд+A+Der/MWN+N+Pl+PxSg2+Gen: еджыдъясыдлӧн
      еджыд+A+Der/MWN+N+Pl+PxSg2+Abl: еджыдъясыдлысь
      еджыд+A+Der/MWN+N+Pl+PxSg2+Dat: еджыдъясыдлы
-     еджыд+A+Der/MWN+N+Pl+PxSg2+Acc: еджыдъястӧ
+     еджыд+A+Der/MWN+N+Pl+PxSg2+Acc2: еджыдъястӧ
      еджыд+A+Der/MWN+N+Pl+Instr+PxSg2: еджыдъяснад
      еджыд+A+Der/MWN+N+Pl+PxSg2+Com: еджыдъясыдкӧд
      еджыд+A+Der/MWN+N+Pl+Car+PxSg2: еджыдъястӧгыд
@@ -1051,7 +1055,7 @@ Tests:
      еджыд+A+Der/MWN+N+Pl+PxSg3+Gen: еджыдъясыслӧн
      еджыд+A+Der/MWN+N+Pl+PxSg3+Abl: еджыдъясыслысь
      еджыд+A+Der/MWN+N+Pl+PxSg3+Dat: еджыдъясыслы
-     еджыд+A+Der/MWN+N+Pl+PxSg3+Acc: еджыдъяссӧ
+     еджыд+A+Der/MWN+N+Pl+PxSg3+Acc3: еджыдъяссӧ
      еджыд+A+Der/MWN+N+Pl+Instr+PxSg3: еджыдъяснас
      еджыд+A+Der/MWN+N+Pl+PxSg3+Com: еджыдъясыскӧд
      еджыд+A+Der/MWN+N+Pl+Car+PxSg3: еджыдъястӧгыс
@@ -1101,7 +1105,7 @@ Tests:
      еджыд+A+Der/MWN+N+Pl+PxPl2+Gen: еджыдъясныдлӧн
      еджыд+A+Der/MWN+N+Pl+PxPl2+Abl: еджыдъясныдлысь
      еджыд+A+Der/MWN+N+Pl+PxPl2+Dat: еджыдъясныдлы
-     еджыд+A+Der/MWN+N+Pl+PxPl2+Acc: еджыдъяснытӧ
+     еджыд+A+Der/MWN+N+Pl+PxPl2+Acc2: еджыдъяснытӧ
      еджыд+A+Der/MWN+N+Pl+Instr+PxPl2: еджыдъяснаныд
      еджыд+A+Der/MWN+N+Pl+PxPl2+Com: еджыдъясныдкӧд
      еджыд+A+Der/MWN+N+Pl+Car+PxPl2: еджыдъястӧгныд
@@ -1126,7 +1130,7 @@ Tests:
      еджыд+A+Der/MWN+N+Pl+PxPl3+Gen: еджыдъясныслӧн
      еджыд+A+Der/MWN+N+Pl+PxPl3+Abl: еджыдъясныслысь
      еджыд+A+Der/MWN+N+Pl+PxPl3+Dat: еджыдъясныслы
-     еджыд+A+Der/MWN+N+Pl+PxPl3+Acc: еджыдъяснысӧ
+     еджыд+A+Der/MWN+N+Pl+PxPl3+Acc3: еджыдъяснысӧ
      еджыд+A+Der/MWN+N+Pl+Instr+PxPl3: еджыдъяснаныс
      еджыд+A+Der/MWN+N+Pl+PxPl3+Com: еджыдъясныскӧд
      еджыд+A+Der/MWN+N+Pl+Car+PxPl3: еджыдъястӧгныс
