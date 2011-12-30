@@ -168,6 +168,7 @@ Multichar_Symbols
 
 !Modifier without noun
 +Der/MWN
++Der/мед ! Superlative
 
 !Declaring Indefinite Pronoun derivations
 +Der/сюрӧ +Der/кӧ
@@ -455,6 +456,9 @@ LEXICON Ad-ATAG ! these are checked as advs.
 
 LEXICON ADV-IS_GER-MON ! these are checked as gerunds in +Der/мӧн
 +V+Der/мӧн: ADVTAG ;
+
+LEXICON ADV-IS_SUPERL !
++Der/мед: ADVTAG ;
 
 LEXICON ADVTAG ! these are checked as advs.
 +Adv: COMPARATIVE ;
