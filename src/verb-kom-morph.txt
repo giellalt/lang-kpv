@@ -60,13 +60,13 @@ LEXICON Verb-lokny ! One verb only, локны
 
 LEXICON Verb-ny ! янӧдны, контролируйтны. Ending in -дны, -тны.
 < "+V":0 "@U.CONJ-INF.YES@" > VerbDer ; !
-+V@U.CONJ-INF.YES@:0@U.CONJ-INF.YES@ VerbDer-V ; !
+< "+V":0 "@U.CONJ-INF.YES@" > VerbDer-V ; !
 +V:  VerbConj ; !а
 +V:  VerbConj-V ; !б
 
 LEXICON Verb-yny ! ярмыны. Ending in -ыны.
-+V@U.CONJ-INF.YES@:0@U.CONJ-INF.YES@    VerbDer ; !
-+V0@U.CONJ-INF.YES@:%>ы@U.CONJ-INF.YES@ VerbDer-V ; !
+< "+V":0 "@U.CONJ-INF.YES@" > VerbDer ; !
+< ">":0 0:ы "+V":0 "@U.CONJ-INF.YES@" > VerbDer-V ; !
 +V:    VerbConj ; ! check this!!!
 +V0:%>ы VerbConj-V ; ! check this!!!
 
