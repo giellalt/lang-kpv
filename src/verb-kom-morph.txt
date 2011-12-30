@@ -217,26 +217,29 @@ VerbDer ; ! to be merged with next
           ! reason to distinguish between V2V derivation and non-finite forms
 
 LEXICON VerbDer 
-
-+Der/л:л  Verb-yny ; !!босьтлыны
-+Der/лывл:лывл Verb-yny ; !!босьтлывлыны
-+Der/сь:сь Verb-yny ; !! овсьыны
+  ! verb-to-verb
+< 0:л "+Der/л":0 "@C.CONJ-INF@" >  Verb-yny ; !!босьтлыны
+< 0:л 0:ы 0:в 0:л "+Der/лывл":0 "@C.CONJ-INF@" > Verb-yny ; !!босьтлывлыны
+< 0:с 0:ь "+Der/сь":0 "@C.CONJ-INF@" > Verb-yny ; !! овсьыны
 !!!!зь:зь  !!югзьыны
-+Der/сь+Der/ышт+Der/л:сьыштл Verb-yny ; !!лэптысьыштлыны
-+Der/сь+Der/ышт+Der/лывл:сьыштлывл Verb-yny ; !! пусьыштлывлыны
-+Der/ч:ч Verb-yny ; !!босьтчыны
-+Der/ч+Der/ышт+Der/л:чыштл Verb-yny ; !!босьтчыштлыны
-+Der/ч+Der/ышт+Der/лывл:чыштлывл Verb-yny ; !! босьтчыштлывлыны
-+Der/ышт+Der/л:ыштл Verb-yny ;   !!сёйыштлыны
-+Der/ышт+Der/лывл:ыштлывл Verb-yny ;  !!сёйыштлывлыны
+< 0:с 0:ь 0:ы 0:ш 0:т 0:л "+Der/сь":0 "+Der/ышт":0 "+Der/л":0 "@C.CONJ-INF@" > Verb-yny ; !!лэптысьыштлыны
+< 0:с 0:ь 0:ы 0:ш 0:т 0:л 0:ы 0:в 0:л "+Der/сь":0 "+Der/ышт":0 "+Der/лывл":0 "@C.CONJ-INF@" > Verb-yny ; !! пусьыштлывлыны
+< 0:ч "+Der/ч":0 "@C.CONJ-INF@" > Verb-yny ; !!босьтчыны
+< 0:ч 0:ы 0:ш 0:т 0:л "+Der/ч":0 "+Der/ышт":0 "+Der/л":0 "@C.CONJ-INF@" > Verb-yny ; !!босьтчыштлыны
+< 0:ч 0:ы 0:ш 0:т 0:л 0:ы 0:в 0:л "+Der/ч":0 "+Der/ышт":0 "+Der/лывл":0 "@C.CONJ-INF@" > Verb-yny ; !! босьтчыштлывлыны
+< 0:ы 0:ш 0:т 0:л "+Der/ышт":0 "+Der/л":0 "@C.CONJ-INF@" > Verb-yny ;   !!сёйыштлыны
+< 0:ы 0:ш 0:т 0:л 0:ы 0:в 0:л "+Der/ышт":0  "+Der/лывл":0 "@C.CONJ-INF@" > Verb-yny ;  !!сёйыштлывлыны
 < 0:ы 0:ш 0:т "+Der/ышт":0 "@C.CONJ-INF@" > Verb-ny ; !!сёйыштны
-+Der/сь+Der/ышт:сьышт Verb-ny ; !!лэптысьыштны
-+Der/ч+Der/ышт:чышт Verb-ny ; !!босьтчыштны
-+Der/ал:ал Verb-ny ; !!сетавны
-+Der/овт:овт Verb-ny ; !!пановтны
-+Der/ась:ась Verb-ny ; !!ыны -> асьны
- 
+< 0:с 0:ь 0:ы 0:ш 0:т "+Der/сь":0 "+Der/ышт":0 "@C.CONJ-INF@" > Verb-ny ; !!лэптысьыштны
+< 0:ч 0:ы 0:ш 0:т "+Der/ч":0 "+Der/ышт":0 "@C.CONJ-INF@" > Verb-ny ; !!босьтчыштны
+< 0:а 0:л "+Der/ал":0 "@C.CONJ-INF@" > Verb-ny ; !!сетавны
+< 0:о 0:в 0:т "+Der/овт":0 "@C.CONJ-INF@" > Verb-ny ; !!пановтны
+< 0:а 0:с 0:ь "+Der/ась":0 "@C.CONJ-INF@" > Verb-ny ; !!ыны -> асьны
+
+  ! verb-to-noun
 +Der/ӧм+Event:%>ӧм Noun1 ;
+
+  ! nonfinites
 +Der/иг+Duration+Ger:%>іг K ; ! gerund (at the same time as the action)
 !352 Pl
 +Der/иг+Duration+Ger+Pl:%>ігъяс K ;
