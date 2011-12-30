@@ -116,7 +116,7 @@ LEXICON Finiteforms  ! Gives linking vowels for 3 tenses
  imperative ;
 
 LEXICON present
-+Ind0@U.CONJ-MX.IND@+Prs@U.CONJ-TX.PRES@:%>а@U.CONJ-MX.IND@0@U.CONJ-TX.PRES@ PresPret1 ; ! 1,2  Present
+< ">":0 0:а "+Ind":0 "+Prs":0 "@U.CONJ-MX.IND@" "@U.CONJ-TX.PRES@" > PresPret1 ; ! 1,2  Present
 +Ind0@U.CONJ-MX.IND@+Prs@U.CONJ-TX.PRES@:%>ӧ@U.CONJ-MX.IND@0@U.CONJ-TX.PRES@ PresPret1-SgPl3 ; ! 3
 
 LEXICON future
@@ -315,8 +315,8 @@ LEXICON VerbDer-V
 +Der/лы+V+Imprt+Sg2:%>лы # ;
 
 +V+Der/лы+V:%>л VerbConj ; ! босьтл - босьтлан
-+V+Der/лы+V+Inf:%>вны K ;
-+V+Der/лы+V+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>вны@U.CONJ-NX.PL@@U.CONJ-PX.3@ # ;
++V+Der/лы+V+Inf:%>лыны K ;
++V+Der/лы+V+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>лыны@U.CONJ-NX.PL@@U.CONJ-PX.3@ # ;
 
 !+V+ConNeg@U.CONJ-CONNEG.YES@:%>ылы@U.CONJ-CONNEG.YES@ # ; !Questioning 2011-10-02
 !+Imprt+Sg2:%>ылы # ; !Questioning 2011-10-02
