@@ -25,7 +25,8 @@ LEXICON Adj-IS_SUPERL !
 
 LEXICON Adj
 +A: AdjCompar ;
-!:%>лун Noun1 ; !Derivational suffix for A-N
++A+Der/лун:%>лун Noun1 ; !Derivational suffix for A-N
++A+Der/а:%>а ADVTAG ; ! Derivation for adjective-to-adverb
 
 ! ===== !
 ! Nouns !
@@ -131,7 +132,7 @@ LEXICON CASEPOSSLEX-afterDerivation
 +Car:%>тӧг K ;
 +Cns:%>ла K ;
 +Comp:%>ся K ;
-+Ine:%>ын PredMonLex ;
++Ine:%>ын PredMonLex-Spat ;
 +Ela:%>ысь K ;
 +Ill:%>ӧ K ;
 +Apr:%>лань K ;
@@ -139,7 +140,7 @@ LEXICON CASEPOSSLEX-afterDerivation
 +Prl:%>ӧд K ;
 +Tra:%>ті K ;
 +Ter:%>ӧдз K ;
-+Apr+Ine:%>ланьын K ;  ! New cases in last grammar
++Apr+Ine:%>ланьын PredMonLex-Spat ;  ! New cases in last grammar
 +Apr+Ela:%>ланьысь K ;  !
 +Apr+Ill:%>ланьӧ K ; !
 +Apr+Egr:%>ланьсянь K ; !
@@ -360,10 +361,15 @@ LEXICON DERIVEDADJ
 
 LEXICON AdjCompar
 PredMonLex ;
-+Compar:%>джык PredMonLex ;
++Der/джык+Compar:%>джык PredMonLex ;
 +Der/MWN+N+Sg: CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
 +Der/MWN+N+Pl:%>ъяс CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
 
+LEXICON PredMonLex-Spat
+ K ;      ! Singular predicative
++Pred+Pl:ӧсь K ; ! Plural predicative.
++Der/джык+Compar:%>джык K ; !ывлаынджык
++Der/джык+Compar+Pred+Pl:%>джыкӧсь K ; !ывлаынджыкӧсь
 
 
 LEXICON PredMonLex
