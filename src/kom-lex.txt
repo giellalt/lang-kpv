@@ -98,8 +98,10 @@ Multichar_Symbols
 +Abs ! Absolute given as a tag for numerals when they are not +MWN
 !removing +Ins tag 2011-10-10
 
-
-+PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
++PxSg1 !This will be used with +Acc, but there should be a resolution
++PxSg1-ym
++PxSg1-oj
++PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
 +NoPoss
 
 +Cns ! Consecutive -la
@@ -339,7 +341,7 @@ LEXICON PO-APR
 
 LEXICON PO-APR-ILL
 +Po+Sg+Apr+Ill:%>ланьӧ K ;
-+Po+Sg+Apr+Ill+PxSg1:%>ланям K ;
++Po+Sg+Apr+Ill+PxSg1-ym:%>ланям K ;
 +Po+Sg+Apr+Ill+PxPl1:%>ланяным K ;
 +Po+Sg+Apr+Ill+PxSg2:%>ланяд K ;
 +Po+Sg+Apr+Ill+PxPl2:%>ланяныд K ;
@@ -348,7 +350,7 @@ LEXICON PO-APR-ILL
 
 LEXICON PO-APR-INE
 +Po+Sg+Apr+Ine:%>ланьын K ;
-+Po+Sg+Apr+Ine+PxSg1:%>ланям K ;
++Po+Sg+Apr+Ine+PxSg1-ym:%>ланям K ;
 +Po+Sg+Apr+Ine+PxPl1:%>ланяным K ;
 +Po+Sg+Apr+Ine+PxSg2:%>ланяд K ;
 +Po+Sg+Apr+Ine+PxPl2:%>ланяныд K ;
@@ -365,7 +367,7 @@ LEXICON PO-EGR
 
 LEXICON PO-ELA
 +Po+Sg+Ela:%>ысь K ;
-+Po+Sg+Ela+PxSg1:%>сьым K ;
++Po+Sg+Ela+PxSg1-ym:%>сьым K ;
 +Po+Sg+Ela+PxPl1:%>сьыным K ;
 +Po+Sg+Ela+PxSg2:%>сьыд K ;
 +Po+Sg+Ela+PxPl2:%>сьыныд K ;
@@ -374,7 +376,7 @@ LEXICON PO-ELA
 
 LEXICON PO-ILL
 +Po+Sg+Ill:%>ӧ PO-PX ;
-+Po+Sg+Ill+PxSg1:%>ам K ;
++Po+Sg+Ill+PxSg1-ym:%>ам K ;
 +Po+Sg+Ill+PxPl1:%>аным K ;
 +Po+Sg+Ill+PxSg2:%>ад K ;
 +Po+Sg+Ill+PxPl2:%>аныд K ;
@@ -384,7 +386,7 @@ LEXICON PO-ILL
 
 LEXICON PO-INE
 +Po+Sg+Ine:%>ын K ;
-+Po+Sg+Ine+PxSg1:%>ам K ;
++Po+Sg+Ine+PxSg1-ym:%>ам K ;
 +Po+Sg+Ine+PxPl1:%>аным K ;
 +Po+Sg+Ine+PxSg2:%>ад K ;
 +Po+Sg+Ine+PxPl2:%>аныд K ;
@@ -393,7 +395,7 @@ LEXICON PO-INE
 
 LEXICON PO-INSTR
 +Po+Sg+Instr:%>ӧн K ;
-+Po+Sg+Instr+PxSg1:%>нам K ;
++Po+Sg+Instr+PxSg1-ym:%>нам K ;
 +Po+Sg+Instr+PxPl1:%>наным K ;
 +Po+Sg+Instr+PxSg2:%>над K ;
 +Po+Sg+Instr+PxPl2:%>наныд K ;
@@ -402,7 +404,7 @@ LEXICON PO-INSTR
 
 LEXICON PO-PROL
 +Po+Sg+Prl:%>ӧд K ;
-+Po+Sg+Prl+PxSg1:%>ӧдым K ;
++Po+Sg+Prl+PxSg1-ym:%>ӧдым K ;
 +Po+Sg+Prl+PxPl1:%>ӧдным K ;
 +Po+Sg+Prl+PxSg2:%>ӧдыд K ;
 +Po+Sg+Prl+PxPl2:%>ӧдныд K ;
@@ -411,7 +413,7 @@ LEXICON PO-PROL
 
 LEXICON PO-TRA
 +Po+Sg+Tra:%>ті K ;
-+Po+Sg+Tra+PxSg1:%>тіым K ;
++Po+Sg+Tra+PxSg1-ym:%>тіым K ;
 +Po+Sg+Tra+PxPl1:%>тіным K ;
 +Po+Sg+Tra+PxSg2:%>тіыд K ;
 +Po+Sg+Tra+PxPl2:%>тіныд K ;
@@ -424,7 +426,7 @@ LEXICON PO-TER
 
 LEXICON POSTP-NOUN
 +Po+Sg+Nom: # ;
-+Po+Sg+Nom+PxSg1:%>ӧй # ;
++Po+Sg+Nom+PxSg1-oj:%>ӧй # ;
 +Po+Sg+Nom+PxSg2:%>ыд # ;
 +Po+Sg+Nom+PxSg3:%>ыс # ;
 +Po+Sg+Nom+PxPl1:%>ным # ;
@@ -436,7 +438,7 @@ LEXICON POSTP-NOUN
 
 LEXICON PO-PX
 +Po: # ;
-+Po+PxSg1:%>ӧй # ;
++Po+PxSg1-oj:%>ӧй # ;
 +Po+PxSg2:%>ыд # ;
 +Po+PxSg3:%>ыс # ;
 +Po+PxPl1:%>ным # ;
