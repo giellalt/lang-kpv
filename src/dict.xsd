@@ -19,26 +19,6 @@
   </xs:complexType>
 </xs:element>
 
-
-<xs:element name="src">
-  <xs:complexType>
-    <xs:simpleContent>
-      <xs:extension base="xs:string">
-	<xs:attribute name="value">
-	  <xs:simpleType>
-	  <xs:restriction base="xs:string">
-	    <xs:enumeration value="ERV"/>
-	    <xs:enumeration value="ErzDeDict"/>
-	    <xs:enumeration value="Erz_2002"/>
-	    <xs:enumeration value="VBV"/>
-	  </xs:restriction>
-	  </xs:simpleType>
-	</xs:attribute>
-      </xs:extension>
-    </xs:simpleContent>
-  </xs:complexType>
-</xs:element>
-
 <!--
 <xs:attribute name="contlex">
  <xs:simpleType>
@@ -289,12 +269,14 @@
 
 <xs:element name="assoc">
   <xs:complexType mixed="true">
-    <xs:sequence minOccurs="0">
-      <xs:element ref="lemma"/>
-      <xs:element ref="stem"/>
+    <xs:sequence>
+      <xs:element ref="lemma" minOccurs="0"/>
+      <xs:element ref="stem" minOccurs="0"/>
       <xs:element ref="contlex" minOccurs="0"/>
       <xs:element ref="pos" minOccurs="0"/>
     </xs:sequence>
+    <xs:attribute name="lemmaID" type="xs:string"/>
+<!-- This consists of "LEMMA" "_" "POS"-->
     <xs:attribute name="stemID" type="xs:string"/>
 <!-- This consists of "STEM" "_" "CONTLEX"-->
     <xs:attribute ref="assocType"/>
@@ -790,6 +772,8 @@
       <xs:element ref="drvMorph" minOccurs="0"/>
       <xs:element ref="com" minOccurs="0"/>
     </xs:sequence>
+    <xs:attribute name="lemmaID" type="xs:string"/>
+<!-- This consists of "LEMMA" "_" "POS"-->
     <xs:attribute name="stemID" type="xs:string"/>
 <!-- This consists of "STEM" "_" "CONTLEX"-->
     <xs:attribute ref="cx"/>
