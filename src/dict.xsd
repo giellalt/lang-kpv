@@ -230,42 +230,6 @@
   </xs:complexType>
 </xs:element>
 
-<xs:element name="cxg">
-  <xs:complexType>
-    <xs:sequence>
-    <xs:element ref="wordForm"/>
-    <xs:element ref="head" minOccurs="0"/>
-    <xs:choice maxOccurs="unbounded">
-<xs:element ref="tg"/>
-<!--    <xs:element ref="t"/>
-2011-11-08-->
-</xs:choice>
-    <xs:choice maxOccurs="unbounded">
-      <xs:element ref="xg"/>
-      <xs:element ref="pxg"/>
-    </xs:choice>
-    </xs:sequence>
-<xs:attribute ref="cx"/>
-  </xs:complexType>
-</xs:element>
-
-<xs:element name="wordForm" type="xs:string"/>
-
-<xs:element name="pxg">
-  <xs:complexType>
-    <xs:sequence>
-    <xs:element ref="wordForm"/>
-    <xs:element ref="head" minOccurs="0"/>
-    <xs:choice maxOccurs="unbounded">
-<xs:element ref="tg"/>
-<!--    <xs:element ref="t"/>
-2011-11-08-->
-</xs:choice>
-    <xs:element ref="xg" maxOccurs="unbounded" minOccurs="0"/>
-    </xs:sequence>
-<xs:attribute ref="possPx"/>
-  </xs:complexType>
-</xs:element>
 
 <xs:element name="assoc">
   <xs:complexType mixed="true">
@@ -682,7 +646,8 @@
     <xs:element ref="m"/>
     <xs:choice maxOccurs="unbounded" minOccurs="0">
     <xs:element ref="xg"/>
-    <xs:element ref="cxg"/>
+<!--    <xs:element ref="cxg"/>
+-->
     <xs:element ref="assoc"/>
     </xs:choice>
     </xs:sequence>
@@ -736,7 +701,8 @@
   <xs:complexType>
     <xs:choice maxOccurs="unbounded">
       <xs:element ref="drv"/>
-      <xs:element ref="drvCtn"/>
+<!--      <xs:element ref="drvCtn"/>
+2012-01-01 -->
     </xs:choice>
     <xs:attribute name="type">
       <xs:simpleType>
@@ -747,6 +713,7 @@
   </xs:complexType>
 </xs:element>
 
+<!--
 <xs:element name="drvCtn">
   <xs:complexType>
     <xs:sequence>
@@ -761,6 +728,7 @@
     </xs:attribute>
   </xs:complexType>
 </xs:element>
+-->
 
 <xs:element name="drv">
   <xs:complexType mixed="true">
@@ -1015,7 +983,8 @@
      <xs:enumeration value="PHRASE-PRON"/><!-- -->
      <xs:enumeration value="PHRASE-V"/><!-- -->
      <xs:enumeration value="POSTP"/><!-- -->
-     <xs:enumeration value="POSTP-ADJ"/><!-- -->
+     <xs:enumeration value="POSTP-ADJ"/><!--весьтса -->
+     <xs:enumeration value="POSTP-N"/><!--орд -->
      <xs:enumeration value="POSTP-SPAT"/><!-- -->
      <xs:enumeration value="POSTP-TEMP"/><!-- -->
      <xs:enumeration value="PREP"/><!-- -->
