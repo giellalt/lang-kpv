@@ -40,7 +40,7 @@
 </xs:attribute>
 -->
 
-<xs:attribute name="lang">
+<xs:attribute name="xml:lang">
  <xs:simpleType>
    <xs:restriction base="xs:string">
      <xs:enumeration value="en"/>
@@ -160,7 +160,7 @@
   <xs:complexType mixed="true">
     <xs:sequence>
     </xs:sequence>
-<xs:attribute ref="lang"/>
+<xs:attribute ref="xml:lang"/>
 <xs:attribute ref="pos"/>
 <xs:attribute ref="cx"/>
 <xs:attribute ref="der"/>
@@ -263,7 +263,7 @@
     <xs:element ref="sns"/>
     <xs:element ref="val"/>
     </xs:choice>
-     <xs:attribute ref="lang"/>
+     <xs:attribute ref="xml:lang"/>
      <xs:attribute ref="pos"/>
      <xs:attribute ref="sem"/>
      <xs:attribute ref="syntax"/>
@@ -284,7 +284,7 @@
     <xs:element ref="sns"/>
     <xs:element ref="val"/>
     </xs:choice>
-     <xs:attribute ref="lang"/>
+     <xs:attribute ref="xml:lang"/>
      <xs:attribute ref="pos"/>
      <xs:attribute ref="sem"/>
      <xs:attribute ref="syntax"/>
@@ -305,7 +305,7 @@
     <xs:element ref="sns"/>
     <xs:element ref="val"/>
     </xs:choice>
-     <xs:attribute ref="lang"/>
+     <xs:attribute ref="xml:lang"/>
      <xs:attribute ref="pos"/>
      <xs:attribute ref="sem"/>
      <xs:attribute ref="syntax"/>
@@ -323,7 +323,7 @@
     <xs:element ref="re" maxOccurs="unbounded" minOccurs="0"/>
     <xs:element ref="assoc" maxOccurs="unbounded" minOccurs="0"/>
     </xs:sequence>
-     <xs:attribute ref="lang"/>
+     <xs:attribute ref="xml:lang"/>
     </xs:complexType>
 </xs:element>
 
@@ -341,7 +341,7 @@
     <xs:element ref="sns"/>
     <xs:element ref="val"/>
     </xs:choice>
-     <xs:attribute ref="lang"/>
+     <xs:attribute ref="xml:lang"/>
      <xs:attribute ref="pos"/>
      <xs:attribute ref="sem"/>
      <xs:attribute ref="syntax"/>
@@ -362,7 +362,7 @@
     <xs:element ref="sns"/>
     <xs:element ref="val"/>
     </xs:choice>
-     <xs:attribute ref="lang"/>
+     <xs:attribute ref="xml:lang"/>
      <xs:attribute ref="pos"/>
      <xs:attribute ref="sem"/>
      <xs:attribute ref="syntax"/>
@@ -383,7 +383,7 @@
     <xs:element ref="sns"/>
     <xs:element ref="val"/>
     </xs:choice>
-     <xs:attribute ref="lang"/>
+     <xs:attribute ref="xml:lang"/>
      <xs:attribute ref="pos"/>
      <xs:attribute ref="sem"/>
      <xs:attribute ref="syntax"/>
@@ -401,7 +401,7 @@
     <xs:element ref="re" maxOccurs="unbounded" minOccurs="0"/>
     <xs:element ref="assoc" maxOccurs="unbounded" minOccurs="0"/>
     </xs:sequence>
-     <xs:attribute ref="lang"/>
+     <xs:attribute ref="xml:lang"/>
     </xs:complexType>
 </xs:element>
 
