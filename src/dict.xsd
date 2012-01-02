@@ -40,6 +40,7 @@
 </xs:attribute>
 -->
 
+<!-- 2012-01-03 Jack's version of xmlmind does not accept an attribute named _xml:lang_. What should he do with this problem? -->
 <xs:attribute name="xml:lang">
  <xs:simpleType>
    <xs:restriction base="xs:string">
