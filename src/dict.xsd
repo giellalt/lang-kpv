@@ -340,8 +340,9 @@
     <xs:element ref="val"/>
 
     <xs:element ref="t" maxOccurs="unbounded"/>
-    <xs:element ref="te" maxOccurs="unbounded"/>
+<!--    <xs:element ref="te" maxOccurs="unbounded"/>
     <xs:element ref="tf" maxOccurs="unbounded"/>
+-->
       </xs:choice>
     <xs:element ref="re" maxOccurs="unbounded" minOccurs="0"/>
     <xs:element ref="assoc" maxOccurs="unbounded" minOccurs="0"/>
