@@ -1,348 +1,653 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dict xsi:noNamespaceSchemaLocation="../dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<dict xsi:noNamespaceSchemaLocation="../dict.xsd"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xmlns:xs="http://www.w3.org/2001/XMLSchema">
-   <entry>
-      <lemma>быд</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-Q</pos>
-      <e RN="I">
-         <mg>
-            <m>
-               <head><i>мест. обобщ.-опред.</i></head>
-               <tg xml:lang="ru"><t>каждый, всякий, любой</t></tg>
-            </m>
-            <xg>
-               <x>быд здук</x>
-               <xtg xml:lang="ru"><xt>в любой момент</xt></xtg>
-            </xg>
-            <xg>
-               <x>быд лун</x>
-               <xtg xml:lang="ru"><xt>каждый день</xt></xtg>
-            </xg>
-            <xg>
-               <x>быд пӧлӧс</x>
-               <xtg xml:lang="ru"><xt>всяких сортов</xt></xtg>
-            </xg>
-            <xg>
-               <x>быд нинӧм абуысь видчыны</x>
-               <xtg xml:lang="ru"><xt>ругаться за каждый пустяк</xt></xtg>
-            </xg>
-            <xg>
-               <x>быд удж уджалӧ</x>
-               <xtg xml:lang="ru"><xt>любую работу делает</xt></xtg>
-            </xg>
-            <xg>
-               <x>тулыс-гожӧмнад быд энь пӧтка быдтысьӧ</x>
-               <xtg xml:lang="ru"><xt>весной и летом каждая птица-самка выводит птенцов</xt></xtg>
-            </xg>
-            <xg type="riddle">
-               <x>быд керкаын Кузьма да Конӧ</x>
-               <xtg xml:lang="ru"><xt>в каждом доме Кузьма и Конэ</xt></xtg>
-               <answer>
-                  <x>кузь лабич да коник лабич</x>
-                  <xtg xml:lang="ru"><xt>длинная лавка и короткая у входа</xt></xtg>
-               </answer>
-            </xg>
-            <xg>
-               <x>◊ быд сюв пом эн тырт</x>
-               <xtg xml:lang="ru"><xt>выше живота не ешь</xt></xtg>
-               <literal>
-                  <xtg xml:lang="ru"><xt> каждый конец кишок не заполняй</xt></xtg>
-               </literal>
-            </xg>
-         </mg>
-      </e>
-   </entry>
-   <entry>
-      <lemma>быдӧн</lemma>
-      <stem/>
-      <contlex>PRONQ-COLL</contlex>
-      <pos>PRON-Q</pos>
-      <e RN="I">
-         <mg MNo="1">
-            <m>
-               <head><i>мест.обобщ.-опред.</i></head>
-               <tg xml:lang="ru"><t>все</t></tg>
-            </m>
-            <xg>
-               <x>быдӧнлы колӧ сетны</x>
-               <xtg xml:lang="ru"><xt>всем надо дать</xt></xtg>
-            </xg>
-            <xg>
-               <x>быдӧнысь видзчысьны</x>
-               <xtg xml:lang="ru"><xt>всех остерегаться</xt></xtg>
-            </xg>
-            <xg>
-               <x>быдӧнысь ён</x>
-               <xtg xml:lang="ru"><xt>сильнее всех</xt></xtg>
-            </xg>
-            <xg>
-               <x>быдӧнлы пом воӧ</x>
-               <xtg xml:lang="ru"><xt>всем бывает конец</xt></xtg>
-            </xg>
-            <xg type="riddle">
-               <x>мича-мича ичмонь да быдӧнӧс бӧрдӧдӧ</x>
-               <xtg xml:lang="ru"><xt>молодица-красавица всех заставляет прослезиться</xt></xtg>
-               <answer>
-                  <x>лук</x>
-                  <xtg xml:lang="ru"><xt>лук</xt></xtg>
-               </answer>
-            </xg>
-         </mg>
-         <mg MNo="2">
-            <m>
-               <head/>
-               <tg xml:lang="ru"><t>каждый, всякий</t></tg>
-            </m>
-            <xg>
-               <x>быдӧн тӧдӧны</x>
-               <xtg xml:lang="ru"><xt>каждый знает</xt></xtg>
-            </xg>
-            <xg>
-               <x>быдӧн аслыс кынӧмпӧт корсьӧ</x>
-               <xtg xml:lang="ru"><xt>каждый ищет себе пропитание</xt></xtg>
-            </xg>
-            <xg>
-               <x>быдӧнлӧн аслас шог</x>
-               <xtg xml:lang="ru"><xt>у каждого своё горе</xt></xtg>
-            </xg>
-            <xg>
-               <x>быдӧн вылӧ эн во</x>
-               <xtg xml:lang="ru"><xt>ко всем не придирайся</xt></xtg>
-            </xg>
-            <xg type="proverb">
-               <x>быдӧнлысь вомсӧ он каличав</x>
-               <xtg xml:lang="ru"><xt> на каждый роток не накинешь платок</xt></xtg>
-               <literal>
-                  <xtg xml:lang="ru"><xt> у каждого рот на запор не поставишь</xt></xtg>
-               </literal>
-            </xg>
-            <xg>
-               <x>нянь сёян пиньыд быдӧнлӧн эм</x>
-               <xtg xml:lang="ru"><xt>чтобы заступиться за себя, зубы у каждого имеются <clarif>говорят, когда ссорятся</clarif></xt></xtg>
-            </xg>
-         </mg>
-      </e>
-   </entry>
-   <entry>
-      <lemma>быдся</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-Q</pos>
-   </entry>
-   <entry>
-      <lemma>быдсяма</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-Q</pos>
-   </entry>
-   <entry>
-      <lemma>быдсӧн</lemma>
-      <stem/>
-      <contlex>PRONQ-COLL</contlex>
-      <pos>PRON-Q</pos>
-   </entry>
-   <entry>
-      <lemma>этшаӧн</lemma>
-      <stem/>
-      <contlex>PRONQ-COLL</contlex>
-      <pos>PRON-Q</pos>
-   </entry>
-   <entry>
-      <lemma>ӧтар</lemma>
-      <stem/>
-      <contlex>PRONQ-ATAG</contlex>
-      <pos>PRON-Q</pos>
-      <e>
-         <mg MNo="1">
-            <m>
-               <head><i>в роли опр.</i></head>
-               <tg xml:lang="ru"><t>один (<i>из двух</i>)</t></tg>
-            </m>
-            <xg>
-               <x>бипур дорын ӧтар боксӧ сотӧ, а мӧдарыс кынмӧ</x>
-               <xtg xml:lang="ru"><xt>у костра один бок жжёт, а другой — мёрзнет ☺</xt></xtg>
-            </xg>
-            <xg type="saying">
-               <x>ӧтар берегысь йӧткысис, мӧдар берегас эз во</x>
-               <xtg xml:lang="ru"><xt> от одного берега оттолкнулся, а к другому не пристал</xt></xtg>
-            </xg>
-         </mg>
-         <mg MNo="2">
-            <m>
-               <head><i>в самостоятельном употреблении с падежными суффиксами</i></head>
-               <tg xml:lang="ru"><t> </t></tg>
-               <assoc MNo="1" assocType="see">ӧтарӧ</assoc>
-               <assoc MNo="1" assocType="see">ӧтарсянь</assoc>
-               <assoc assocType="see">ӧтарын</assoc>
-            </m>
-         </mg>
-         <mg MNo="3">
-            <m>
-               <head/>
-               <tg xml:lang="ru"><t/></tg>
-               <assoc MNo="1" RN="I" assocType="see">ӧтдор</assoc>
-            </m>
-            <xg>
-               <x>сакарысь ӧтар пызан вылын эмӧсь нӧшта мукӧд чӧскыд сёянторъяс</x>
-               <xtg xml:lang="ru"><xt>кроме сахара на столе есть ещё и другие лакомства</xt></xtg>
-            </xg>
-         </mg>
-      </e>
-   </entry>
-   <entry>
-      <lemma>кымын</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-Q</pos>
-   </entry>
-   <entry>
-      <lemma>мӧдар</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-Q</pos>
-   </entry>
-   <entry>
-      <lemma>мукӧд</lemma>
-      <stem/>
-      <contlex>PRONQ-MUKOD</contlex>
-      <pos>PRON-Q</pos>
-   </entry>
-   <entry>
-      <lemma>неуна</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-Q</pos>
-   </entry>
-   <entry>
-      <lemma>ньӧти</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-Q</pos>
-   </entry>
-   <entry>
-      <lemma>став</lemma>
-      <stem/>
-      <contlex>PRONQ-STAV</contlex>
-      <pos>PRON-Q</pos>
-      <e RN="I">
-         <mg MNo="1">
-            <m>
-               <head/>
-               <tg xml:lang="ru"><t>весь, все, всё</t></tg>
-            </m>
-            <xg>
-               <x>став му пасьтала</x>
-               <xtg xml:lang="ru"><xt>а) по всей земле, по всему свету б) по всему полю</xt></xtg>
-            </xg>
-            <xg>
-               <x>став карыс тӧдӧ</x>
-               <xtg xml:lang="ru"><xt>весь город знает</xt></xtg>
-            </xg>
-         </mg>
-         <mg MNo="2">
-            <m>
-               <head/>
-               <tg xml:lang="ru"><t>все (<i>вместе, в полном составе</i>) (<i>употр. тж. с опред.-притяж. суф.</i>)</t></tg>
-            </m>
-            <xg>
-               <x>ставным</x>
-               <xtg xml:lang="ru"><xt>все </xt><re>мы</re></xtg>
-            </xg>
-            <xg>
-               <x>ставныд</x>
-               <xtg xml:lang="ru"><xt>все</xt><re>вы</re></xtg>
-            </xg>
-            <xg>
-               <x>ставныс</x>
-               <xtg xml:lang="ru"><xt>все</xt><re>они</re></xtg>
-            </xg>
-            <xg>
-               <x>ставным вӧлі тӧдам</x>
-               <xtg xml:lang="ru"><xt>мы все знали</xt></xtg>
-            </xg>
-         </mg>
-         <mg MNo="3">
-            <m>
-               <head><com>в исх. п. в составе сказуемого показывает превосх. ст. качества</com></head>
-               <tg xml:lang="ru"><t/></tg>
-            </m>
-            <xg>
-               <x>ставсьыс бур</x>
-               <xtg xml:lang="ru"><xt>лучше всех (<i>прочих</i>)</xt></xtg>
-               <xtg xml:lang="ru"><xt> лучший из всех</xt></xtg>
-            </xg>
-         </mg>
-         <mg MNo="4">
-            <m>
-               <head/>
-               <tg xml:lang="ru"><t>весь, полный, без изъятия, целиком</t></tg>
-            </m>
-            <xg>
-               <x>став вынсьыс</x>
-               <xtg xml:lang="ru"><xt>со всей энергией</xt></xtg>
-            </xg>
-            <xg>
-               <x>няньыс ставыс бырис</x>
-               <xtg xml:lang="ru"><xt>хлеб весь вышел</xt></xtg>
-            </xg>
-         </mg>
-         <mg MNo="5">
-            <m>
-               <head><i>в знач. сущ.</i></head>
-               <tg xml:lang="ru"><t>все, всех</t></tg>
-               <tg xml:lang="ru"><t> всё, что имеется</t></tg>
-            </m>
-            <xg>
-               <x>быдӧн ӧти вӧсна, ӧти став понда</x>
-               <xtg xml:lang="ru"><xt>все за одного, один за всех</xt></xtg>
-            </xg>
-            <xg>
-               <x>ставсӧ победа вылӧ!</x>
-               <xtg xml:lang="ru"><xt>всё для победы!</xt></xtg>
-            </xg>
-            <xg>
-               <x>ставсӧ разӧдӧма ва</x>
-               <xtg xml:lang="ru"><xt>всё разнесло водой</xt></xtg>
-            </xg>
-            <xg>
-               <x>ставыс бур</x>
-               <xtg xml:lang="ru"><xt>всё хорошо</xt></xtg>
-            </xg>
-            <xg>
-               <x>◊ став серти тӧдчӧ</x>
-               <xtg xml:lang="ru"><xt>по всему видно</xt></xtg>
-            </xg>
-            <xg>
-               <x>став ловтӧ кыскас</x>
-               <xtg xml:lang="ru"><xt>всю душу вымотает (<i>надоест своим приставанием</i>)</xt></xtg>
-            </xg>
-         </mg>
-      </e>
-   </entry>
-   <entry>
-      <lemma>став</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-Q</pos>
-   </entry>
-   <entry>
-      <lemma>ставӧн</lemma>
-      <stem/>
-      <contlex>PRONQ-COLL</contlex>
-      <pos>PRON-Q</pos>
-   </entry>
-   <entry>
-      <lemma>ставыс</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-Q</pos>
-   </entry>
-   <entry>
-      <lemma>унаӧн</lemma>
-      <stem/>
-      <contlex>PRONQ-COLL</contlex>
-      <pos>PRON-Q</pos>
-   </entry>
+  <entry>
+    <lemma>быд</lemma>
+
+    <stem />
+
+    <contlex>PRONQTAG</contlex>
+
+    <pos>PRON-Q</pos>
+
+    <e RN="I">
+      <mg>
+        <m>
+          <head>
+            <i>мест. обобщ.-опред.</i>
+          </head>
+
+          <tg xml:lang="ru">
+            <t>каждый, всякий, любой</t>
+          </tg>
+        </m>
+
+        <xg>
+          <x>быд здук</x>
+
+          <xtg xml:lang="ru">
+            <xt>в любой момент</xt>
+          </xtg>
+        </xg>
+
+        <xg>
+          <x>быд лун</x>
+
+          <xtg xml:lang="ru">
+            <xt>каждый день</xt>
+          </xtg>
+        </xg>
+
+        <xg>
+          <x>быд пӧлӧс</x>
+
+          <xtg xml:lang="ru">
+            <xt>всяких сортов</xt>
+          </xtg>
+        </xg>
+
+        <xg>
+          <x>быд нинӧм абуысь видчыны</x>
+
+          <xtg xml:lang="ru">
+            <xt>ругаться за каждый пустяк</xt>
+          </xtg>
+        </xg>
+
+        <xg>
+          <x>быд удж уджалӧ</x>
+
+          <xtg xml:lang="ru">
+            <xt>любую работу делает</xt>
+          </xtg>
+        </xg>
+
+        <xg>
+          <x>тулыс-гожӧмнад быд энь пӧтка быдтысьӧ</x>
+
+          <xtg xml:lang="ru">
+            <xt>весной и летом каждая птица-самка выводит птенцов</xt>
+          </xtg>
+        </xg>
+
+        <xg type="riddle">
+          <x>быд керкаын Кузьма да Конӧ</x>
+
+          <xtg xml:lang="ru">
+            <xt>в каждом доме Кузьма и Конэ</xt>
+          </xtg>
+
+          <answer>
+            <x>кузь лабич да коник лабич</x>
+
+            <xtg xml:lang="ru">
+              <xt>длинная лавка и короткая у входа</xt>
+            </xtg>
+          </answer>
+        </xg>
+
+        <xg>
+          <x>быд сюв пом эн тырт</x>
+
+          <xtg xml:lang="ru">
+            <xt>выше живота не ешь</xt>
+          </xtg>
+
+          <literal>
+            <xtg xml:lang="ru">
+              <xt> каждый конец кишок не заполняй</xt>
+            </xtg>
+          </literal>
+        </xg>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>быдӧн</lemma>
+
+    <stem />
+
+    <contlex>PRONQ-COLL</contlex>
+
+    <pos>PRON-Q</pos>
+
+    <e RN="I">
+      <mg MNo="1">
+        <m>
+          <head>
+            <i>мест.обобщ.-опред.</i>
+          </head>
+
+          <tg xml:lang="ru">
+            <t>все</t>
+          </tg>
+        </m>
+
+        <xg>
+          <x>быдӧнлы колӧ сетны</x>
+
+          <xtg xml:lang="ru">
+            <xt>всем надо дать</xt>
+          </xtg>
+        </xg>
+
+        <xg>
+          <x>быдӧнысь видзчысьны</x>
+
+          <xtg xml:lang="ru">
+            <xt>всех остерегаться</xt>
+          </xtg>
+        </xg>
+
+        <xg>
+          <x>быдӧнысь ён</x>
+
+          <xtg xml:lang="ru">
+            <xt>сильнее всех</xt>
+          </xtg>
+        </xg>
+
+        <xg>
+          <x>быдӧнлы пом воӧ</x>
+
+          <xtg xml:lang="ru">
+            <xt>всем бывает конец</xt>
+          </xtg>
+        </xg>
+
+        <xg type="riddle">
+          <x>мича-мича ичмонь да быдӧнӧс бӧрдӧдӧ</x>
+
+          <xtg xml:lang="ru">
+            <xt>молодица-красавица всех заставляет прослезиться</xt>
+          </xtg>
+
+          <answer>
+            <x>лук</x>
+
+            <xtg xml:lang="ru">
+              <xt>лук</xt>
+            </xtg>
+          </answer>
+        </xg>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head />
+
+          <tg xml:lang="ru">
+            <t>каждый, всякий</t>
+          </tg>
+        </m>
+
+        <xg>
+          <x>быдӧн тӧдӧны</x>
+
+          <xtg xml:lang="ru">
+            <xt>каждый знает</xt>
+          </xtg>
+        </xg>
+
+        <xg>
+          <x>быдӧн аслыс кынӧмпӧт корсьӧ</x>
+
+          <xtg xml:lang="ru">
+            <xt>каждый ищет себе пропитание</xt>
+          </xtg>
+        </xg>
+
+        <xg>
+          <x>быдӧнлӧн аслас шог</x>
+
+          <xtg xml:lang="ru">
+            <xt>у каждого своё горе</xt>
+          </xtg>
+        </xg>
+
+        <xg>
+          <x>быдӧн вылӧ эн во</x>
+
+          <xtg xml:lang="ru">
+            <xt>ко всем не придирайся</xt>
+          </xtg>
+        </xg>
+
+        <xg type="proverb">
+          <x>быдӧнлысь вомсӧ он каличав</x>
+
+          <xtg xml:lang="ru">
+            <xt> на каждый роток не накинешь платок</xt>
+          </xtg>
+
+          <literal>
+            <xtg xml:lang="ru">
+              <xt> у каждого рот на запор не поставишь</xt>
+            </xtg>
+          </literal>
+        </xg>
+
+        <xg>
+          <x>нянь сёян пиньыд быдӧнлӧн эм</x>
+
+          <xtg xml:lang="ru">
+            <xt>чтобы заступиться за себя, зубы у каждого имеются
+            <clarif>говорят, когда ссорятся</clarif></xt>
+          </xtg>
+        </xg>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>быдся</lemma>
+
+    <stem />
+
+    <contlex>PRONQTAG</contlex>
+
+    <pos>PRON-Q</pos>
+  </entry>
+
+  <entry>
+    <lemma>быдсяма</lemma>
+
+    <stem />
+
+    <contlex>PRONQTAG</contlex>
+
+    <pos>PRON-Q</pos>
+  </entry>
+
+  <entry>
+    <lemma>быдсӧн</lemma>
+
+    <stem />
+
+    <contlex>PRONQ-COLL</contlex>
+
+    <pos>PRON-Q</pos>
+  </entry>
+
+  <entry>
+    <lemma>этшаӧн</lemma>
+
+    <stem />
+
+    <contlex>PRONQ-COLL</contlex>
+
+    <pos>PRON-Q</pos>
+  </entry>
+
+  <entry>
+    <lemma>ӧтар</lemma>
+
+    <stem />
+
+    <contlex>PRONQ-ATAG</contlex>
+
+    <pos>PRON-Q</pos>
+
+    <e>
+      <mg MNo="1">
+        <m>
+          <head>
+            <i>в роли опр.</i>
+          </head>
+
+          <tg xml:lang="ru">
+            <t>один (<i>из двух</i>)</t>
+          </tg>
+        </m>
+
+        <xg>
+          <x>бипур дорын ӧтар боксӧ сотӧ, а мӧдарыс кынмӧ</x>
+
+          <xtg xml:lang="ru">
+            <xt>у костра один бок жжёт, а другой — мёрзнет ☺</xt>
+          </xtg>
+        </xg>
+
+        <xg type="saying">
+          <x>ӧтар берегысь йӧткысис, мӧдар берегас эз во</x>
+
+          <xtg xml:lang="ru">
+            <xt> от одного берега оттолкнулся, а к другому не пристал</xt>
+          </xtg>
+        </xg>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head>
+            <i>в самостоятельном употреблении с падежными суффиксами</i>
+          </head>
+
+          <tg xml:lang="ru">
+            <t />
+          </tg>
+
+          <assoc MNo="1" assocType="see">ӧтарӧ</assoc>
+
+          <assoc MNo="1" assocType="see">ӧтарсянь</assoc>
+
+          <assoc assocType="see">ӧтарын</assoc>
+        </m>
+      </mg>
+
+      <mg MNo="3">
+        <m>
+          <head />
+
+          <tg xml:lang="ru">
+            <t />
+          </tg>
+
+          <assoc MNo="1" RN="I" assocType="see">ӧтдор</assoc>
+        </m>
+
+        <xg>
+          <x>сакарысь ӧтар пызан вылын эмӧсь нӧшта мукӧд чӧскыд сёянторъяс</x>
+
+          <xtg xml:lang="ru">
+            <xt>кроме сахара на столе есть ещё и другие лакомства</xt>
+          </xtg>
+        </xg>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>кымын</lemma>
+
+    <stem />
+
+    <contlex>PRONQTAG</contlex>
+
+    <pos>PRON-Q</pos>
+  </entry>
+
+  <entry>
+    <lemma>мӧдар</lemma>
+
+    <stem />
+
+    <contlex>PRONQTAG</contlex>
+
+    <pos>PRON-Q</pos>
+  </entry>
+
+  <entry>
+    <lemma>мукӧд</lemma>
+
+    <stem />
+
+    <contlex>PRONQ-MUKOD</contlex>
+
+    <pos>PRON-Q</pos>
+  </entry>
+
+  <entry>
+    <lemma>неуна</lemma>
+
+    <stem />
+
+    <contlex>PRONQTAG</contlex>
+
+    <pos>PRON-Q</pos>
+  </entry>
+
+  <entry>
+    <lemma>ньӧти</lemma>
+
+    <stem />
+
+    <contlex>PRONQTAG</contlex>
+
+    <pos>PRON-Q</pos>
+  </entry>
+
+  <entry>
+    <lemma>став</lemma>
+
+    <stem />
+
+    <contlex>PRONQ-STAV</contlex>
+
+    <pos>PRON-Q</pos>
+
+    <e RN="I">
+      <mg MNo="1">
+        <m>
+          <head />
+
+          <tg xml:lang="ru">
+            <t>весь, все, всё</t>
+          </tg>
+        </m>
+
+        <xg>
+          <x>став му пасьтала</x>
+
+          <xtg xml:lang="ru">
+            <xt>а) по всей земле, по всему свету б) по всему полю</xt>
+          </xtg>
+        </xg>
+
+        <xg>
+          <x>став карыс тӧдӧ</x>
+
+          <xtg xml:lang="ru">
+            <xt>весь город знает</xt>
+          </xtg>
+        </xg>
+      </mg>
+
+      <mg MNo="2">
+        <m>
+          <head />
+
+          <tg xml:lang="ru">
+            <t>все (<i>вместе, в полном составе</i>) (<i>употр. тж. с
+            опред.-притяж. суф.</i>)</t>
+          </tg>
+        </m>
+
+        <xg>
+          <x>ставным</x>
+
+          <xtg xml:lang="ru">
+            <xt>все </xt>
+
+            <re>мы</re>
+          </xtg>
+        </xg>
+
+        <xg>
+          <x>ставныд</x>
+
+          <xtg xml:lang="ru">
+            <xt>все</xt>
+
+            <re>вы</re>
+          </xtg>
+        </xg>
+
+        <xg>
+          <x>ставныс</x>
+
+          <xtg xml:lang="ru">
+            <xt>все</xt>
+
+            <re>они</re>
+          </xtg>
+        </xg>
+
+        <xg>
+          <x>ставным вӧлі тӧдам</x>
+
+          <xtg xml:lang="ru">
+            <xt>мы все знали</xt>
+          </xtg>
+        </xg>
+      </mg>
+
+      <mg MNo="3">
+        <m>
+          <head>
+            <com>в исх. п. в составе сказуемого показывает превосх. ст.
+            качества</com>
+          </head>
+
+          <tg xml:lang="ru">
+            <t />
+          </tg>
+        </m>
+
+        <xg>
+          <x>ставсьыс бур</x>
+
+          <xtg xml:lang="ru">
+            <xt>лучше всех (<i>прочих</i>)</xt>
+          </xtg>
+
+          <xtg xml:lang="ru">
+            <xt> лучший из всех</xt>
+          </xtg>
+        </xg>
+      </mg>
+
+      <mg MNo="4">
+        <m>
+          <head />
+
+          <tg xml:lang="ru">
+            <t>весь, полный, без изъятия, целиком</t>
+          </tg>
+        </m>
+
+        <xg>
+          <x>став вынсьыс</x>
+
+          <xtg xml:lang="ru">
+            <xt>со всей энергией</xt>
+          </xtg>
+        </xg>
+
+        <xg>
+          <x>няньыс ставыс бырис</x>
+
+          <xtg xml:lang="ru">
+            <xt>хлеб весь вышел</xt>
+          </xtg>
+        </xg>
+      </mg>
+
+      <mg MNo="5">
+        <m>
+          <head>
+            <i>в знач. сущ.</i>
+          </head>
+
+          <tg xml:lang="ru">
+            <t>все, всех</t>
+          </tg>
+
+          <tg xml:lang="ru">
+            <t> всё, что имеется</t>
+          </tg>
+        </m>
+
+        <xg>
+          <x>быдӧн ӧти вӧсна, ӧти став понда</x>
+
+          <xtg xml:lang="ru">
+            <xt>все за одного, один за всех</xt>
+          </xtg>
+        </xg>
+
+        <xg>
+          <x>ставсӧ победа вылӧ!</x>
+
+          <xtg xml:lang="ru">
+            <xt>всё для победы!</xt>
+          </xtg>
+        </xg>
+
+        <xg>
+          <x>ставсӧ разӧдӧма ва</x>
+
+          <xtg xml:lang="ru">
+            <xt>всё разнесло водой</xt>
+          </xtg>
+        </xg>
+
+        <xg>
+          <x>ставыс бур</x>
+
+          <xtg xml:lang="ru">
+            <xt>всё хорошо</xt>
+          </xtg>
+        </xg>
+
+        <xg>
+          <x>став серти тӧдчӧ</x>
+
+          <xtg xml:lang="ru">
+            <xt>по всему видно</xt>
+          </xtg>
+        </xg>
+
+        <xg>
+          <x>став ловтӧ кыскас</x>
+
+          <xtg xml:lang="ru">
+            <xt>всю душу вымотает (<i>надоест своим приставанием</i>)</xt>
+          </xtg>
+        </xg>
+      </mg>
+    </e>
+  </entry>
+
+  <entry>
+    <lemma>став</lemma>
+
+    <stem />
+
+    <contlex>PRONQTAG</contlex>
+
+    <pos>PRON-Q</pos>
+  </entry>
+
+  <entry>
+    <lemma>ставӧн</lemma>
+
+    <stem />
+
+    <contlex>PRONQ-COLL</contlex>
+
+    <pos>PRON-Q</pos>
+  </entry>
+
+  <entry>
+    <lemma>ставыс</lemma>
+
+    <stem />
+
+    <contlex>PRONQTAG</contlex>
+
+    <pos>PRON-Q</pos>
+  </entry>
+
+  <entry>
+    <lemma>унаӧн</lemma>
+
+    <stem />
+
+    <contlex>PRONQ-COLL</contlex>
+
+    <pos>PRON-Q</pos>
+  </entry>
 </dict>
