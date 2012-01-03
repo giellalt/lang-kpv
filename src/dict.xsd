@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
 
 <xs:element name="att" type="xs:string"/>
 <xs:element name="clarif" type="xs:string"/>
@@ -41,7 +43,7 @@
 -->
 
 <!-- 2012-01-03 Jack's version of xmlmind does not accept an attribute named _xml:lang_. What should he do with this problem? -->
-<xs:attribute name="xml:lang">
+<!--xs:attribute name="xml:lang">
  <xs:simpleType>
    <xs:restriction base="xs:string">
      <xs:enumeration value="en"/>
@@ -51,9 +53,9 @@
  <xs:enumeration value="ru"/>
    </xs:restriction>
  </xs:simpleType>
-</xs:attribute>
+</xs:attribute-->
 
-
+<xs:attribute name="lang" type="xs:NCName"/>
 
 <xs:attribute name="possPx">
  <xs:simpleType>
