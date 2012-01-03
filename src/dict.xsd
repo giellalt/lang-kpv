@@ -163,7 +163,7 @@
   <xs:complexType mixed="true">
     <xs:sequence>
     </xs:sequence>
-<xs:attribute ref="xml:lang"/>
+<xs:attribute ref="lang"/>
 <xs:attribute ref="pos"/>
 <xs:attribute ref="cx"/>
 <xs:attribute ref="der"/>
@@ -266,14 +266,23 @@
     <xs:element ref="sns"/>
     <xs:element ref="val"/>
     </xs:choice>
-     <xs:attribute ref="xml:lang"/>
+     <xs:attribute ref="lang"/>
      <xs:attribute ref="pos"/>
      <xs:attribute ref="sem"/>
      <xs:attribute ref="syntax"/>
+     <xs:attribute name="type">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+	  <xs:enumeration value="te"/>
+	  <xs:enumeration value="tf"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+ <!-- This is only for coping with transitional version with _te_ and _tf_ values -->
     </xs:complexType>
 </xs:element>
 
-<xs:element name="te"> <!-- translation description or source word -->
+ <!-- translation description or source word --><!-- <xs:element name="te">
   <xs:complexType mixed="true">
     <xs:choice maxOccurs="unbounded" minOccurs="0">
     <xs:element ref="att"/>
@@ -287,14 +296,14 @@
     <xs:element ref="sns"/>
     <xs:element ref="val"/>
     </xs:choice>
-     <xs:attribute ref="xml:lang"/>
+     <xs:attribute ref="lang"/>
      <xs:attribute ref="pos"/>
      <xs:attribute ref="sem"/>
      <xs:attribute ref="syntax"/>
     </xs:complexType>
 </xs:element>
-
-<xs:element name="tf"> <!-- translation phrase This will be utilized in examples as well -->
+-->
+ <!-- translation phrase This will be utilized in examples as well --><!-- <xs:element name="tf">
   <xs:complexType mixed="true">
     <xs:choice maxOccurs="unbounded" minOccurs="0">
     <xs:element ref="att"/>
@@ -308,17 +317,28 @@
     <xs:element ref="sns"/>
     <xs:element ref="val"/>
     </xs:choice>
-     <xs:attribute ref="xml:lang"/>
+     <xs:attribute ref="lang"/>
      <xs:attribute ref="pos"/>
      <xs:attribute ref="sem"/>
      <xs:attribute ref="syntax"/>
     </xs:complexType>
 </xs:element>
-
+-->
 <xs:element name="tg">
   <xs:complexType mixed="true">
     <xs:sequence>
       <xs:choice maxOccurs="unbounded">
+    <xs:element ref="att"/>
+    <xs:element ref="clarif"/>
+    <xs:element ref="com"/>
+    <xs:element ref="field"/>
+    <xs:element ref="gov"/>
+    <xs:element ref="i"/>
+    <xs:element ref="range"/>
+    <xs:element ref="register"/>
+    <xs:element ref="sns"/>
+    <xs:element ref="val"/>
+
     <xs:element ref="t" maxOccurs="unbounded"/>
     <xs:element ref="te" maxOccurs="unbounded"/>
     <xs:element ref="tf" maxOccurs="unbounded"/>
@@ -326,7 +346,7 @@
     <xs:element ref="re" maxOccurs="unbounded" minOccurs="0"/>
     <xs:element ref="assoc" maxOccurs="unbounded" minOccurs="0"/>
     </xs:sequence>
-     <xs:attribute ref="xml:lang"/>
+     <xs:attribute ref="lang"/>
     </xs:complexType>
 </xs:element>
 
@@ -344,7 +364,7 @@
     <xs:element ref="sns"/>
     <xs:element ref="val"/>
     </xs:choice>
-     <xs:attribute ref="xml:lang"/>
+     <xs:attribute ref="lang"/>
      <xs:attribute ref="pos"/>
      <xs:attribute ref="sem"/>
      <xs:attribute ref="syntax"/>
@@ -365,7 +385,7 @@
     <xs:element ref="sns"/>
     <xs:element ref="val"/>
     </xs:choice>
-     <xs:attribute ref="xml:lang"/>
+     <xs:attribute ref="lang"/>
      <xs:attribute ref="pos"/>
      <xs:attribute ref="sem"/>
      <xs:attribute ref="syntax"/>
@@ -386,7 +406,7 @@
     <xs:element ref="sns"/>
     <xs:element ref="val"/>
     </xs:choice>
-     <xs:attribute ref="xml:lang"/>
+     <xs:attribute ref="lang"/>
      <xs:attribute ref="pos"/>
      <xs:attribute ref="sem"/>
      <xs:attribute ref="syntax"/>
@@ -404,7 +424,7 @@
     <xs:element ref="re" maxOccurs="unbounded" minOccurs="0"/>
     <xs:element ref="assoc" maxOccurs="unbounded" minOccurs="0"/>
     </xs:sequence>
-     <xs:attribute ref="xml:lang"/>
+     <xs:attribute ref="lang"/>
     </xs:complexType>
 </xs:element>
 
