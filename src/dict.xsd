@@ -343,8 +343,8 @@
 <!--    <xs:element ref="te" maxOccurs="unbounded"/>
     <xs:element ref="tf" maxOccurs="unbounded"/>
 -->
-      </xs:choice>
     <xs:element ref="re" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:choice>
     <xs:element ref="assoc" maxOccurs="unbounded" minOccurs="0"/>
     </xs:sequence>
      <xs:attribute ref="lang"/>
@@ -372,7 +372,7 @@
     </xs:complexType>
 </xs:element>
 
-<xs:element name="xte"> <!-- translation description or source word -->
+ <!-- translation description or source word --><!--<xs:element name="xte">
   <xs:complexType mixed="true">
     <xs:choice maxOccurs="unbounded" minOccurs="0">
     <xs:element ref="att"/>
@@ -392,8 +392,8 @@
      <xs:attribute ref="syntax"/>
     </xs:complexType>
 </xs:element>
-
-<xs:element name="xtf"> <!-- translation phrase This will be utilized in examples as well -->
+-->
+ <!-- translation phrase This will be utilized in examples as well --><!--<xs:element name="xtf">
   <xs:complexType mixed="true">
     <xs:choice maxOccurs="unbounded" minOccurs="0">
     <xs:element ref="att"/>
@@ -413,16 +413,28 @@
      <xs:attribute ref="syntax"/>
     </xs:complexType>
 </xs:element>
+-->
 
 <xs:element name="xtg">
   <xs:complexType mixed="true">
     <xs:sequence>
       <xs:choice maxOccurs="unbounded">
+    <xs:element ref="att"/>
+    <xs:element ref="clarif"/>
+    <xs:element ref="com"/>
+    <xs:element ref="field"/>
+    <xs:element ref="gov"/>
+    <xs:element ref="i"/>
+    <xs:element ref="range"/>
+    <xs:element ref="register"/>
+    <xs:element ref="sns"/>
+    <xs:element ref="val"/>
+
     <xs:element ref="xt" maxOccurs="unbounded"/>
-    <xs:element ref="xte" maxOccurs="unbounded"/>
+    <xs:element ref="re"/>
+<!--    <xs:element ref="xte" maxOccurs="unbounded"/>
     <xs:element ref="xtf" maxOccurs="unbounded"/>
-      </xs:choice>
-    <xs:element ref="re" maxOccurs="unbounded" minOccurs="0"/>
+-->      </xs:choice>
     <xs:element ref="assoc" maxOccurs="unbounded" minOccurs="0"/>
     </xs:sequence>
      <xs:attribute ref="lang"/>
