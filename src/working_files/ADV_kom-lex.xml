@@ -3,7 +3,7 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <entry>
-    <lemma>абу% вывті </lemma>
+    <lemma>абу% вывті</lemma>
 
     <stem>абу% выл</stem>
 
@@ -2051,16 +2051,65 @@
     <contlex>ADVTAG</contlex>
 
     <pos>ADV</pos>
-  <e RN="II"> <mg> <m> <head></head> <tg xml:lang="ru"><t>очень</t><t>сильно</t></tg> <tg xml:lang="ru"><t>в пух и прах</t></tg> </m> <xg> <x>найӧ бон пинясисны</x> <xtg xml:lang="ru"><xt>они разругались в пух и прах</xt></xtg> </xg> </mg> </e></entry>
+
+    <e RN="II">
+      <mg>
+        <m>
+          <head></head>
+
+          <tg xml:lang="ru"><t>очень</t><t>сильно</t></tg>
+
+          <tg xml:lang="ru"><t>в пух и прах</t></tg>
+        </m>
+
+        <xg>
+          <x>найӧ бон пинясисны</x>
+
+          <xtg xml:lang="ru"><xt>они разругались в пух и прах</xt></xtg>
+        </xg>
+      </mg>
+    </e>
+  </entry>
 
   <entry>
-    <lemma>бонбус</lemma>
+    <lemma>бон-бус</lemma>
 
     <stem></stem>
 
     <contlex>ADVTAG</contlex>
 
     <pos>ADV</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg xml:lang="ru"><t>сильно</t></tg>
+
+          <assoc assocType="see"><lemma>бон</lemma> <stem></stem> <contlex>ADVTAG</contlex>
+          <pos>ADV</pos></assoc>
+        </m>
+
+        <xg>
+          <x>бон-бус видны</x>
+
+          <xtg xml:lang="ru"><xt>сильно отругать</xt></xtg>
+        </xg>
+
+        <xg>
+          <x>бон-бус жугӧдны врагӧс</x>
+
+          <xtg xml:lang="ru"><xt>разбить врага в пух и прах</xt></xtg>
+        </xg>
+
+        <xg>
+          <x>бон-бус пинявны</x>
+
+          <xtg xml:lang="ru"><xt>сильно выбранить</xt></xtg>
+        </xg>
+      </mg>
+    </e>
   </entry>
 
   <entry>
@@ -15786,19 +15835,22 @@
         <xg>
           <x>нэмӧн ог</x>
 
-          <xtg xml:lang="ru"><xt>никогда, в жизни не ...</xt><re>я, мы</re></xtg>
+          <xtg xml:lang="ru"><xt>никогда, в жизни не ...</xt><re>я,
+          мы</re></xtg>
         </xg>
 
         <xg>
           <x>нэмӧн он</x>
 
-          <xtg xml:lang="ru"><xt>никогда, в жизни не ...</xt><re>ты, вы</re></xtg>
+          <xtg xml:lang="ru"><xt>никогда, в жизни не ...</xt><re>ты,
+          вы</re></xtg>
         </xg>
 
         <xg>
           <x>нэмӧн оз</x>
 
-          <xtg xml:lang="ru"><xt>никогда, в жизни не ...</xt><re>он, она, оно, они</re></xtg>
+          <xtg xml:lang="ru"><xt>никогда, в жизни не ...</xt><re>он, она, оно,
+          они</re></xtg>
         </xg>
 
         <xg>
