@@ -66,4 +66,31 @@ dics>grep '((' kom-rus-lr-trie.xml | wc -l
 
 4. even empty meaning groups still there??? WHY? I checked it based on the existence of t-elements!
     <r>1.  2. ((мера, площадь)) на</r>
-   
+  
+   Aha: empty t-element but non-empty something else (Prost Mahlzeit!)
+
+    <e>
+      <mg MNo="3">
+        <m>
+          <head><com>основа послелогов</com></head>
+
+          <tg xml:lang="ru"><t></t></tg>
+
+          <assoc assocType="see">увсянь</assoc>
+
+          <assoc assocType="see">увті</assoc>
+
+          <assoc assocType="see">улӧ</assoc>
+
+          <assoc assocType="see">улӧд</assoc>
+
+          <assoc assocType="see">улӧдз</assoc>
+
+          <assoc assocType="see">улын</assoc>
+
+          <assoc assocType="see">улысь</assoc>
+        </m>
+
+
+
+ 
