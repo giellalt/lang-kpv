@@ -10,22 +10,36 @@ working_files>grep '<t></t>' *.xml | sort | uniq -c | sort -nr
 
 2. unbalanced brackets that should be corrected problably by Jaska:
 
-<comment>
-Author: jaska
-Date: 2012-01-04 09:15:02 +0100 (gask, 04 ođđj 2012)
-New Revision: 52199
 
-Modified:
-  trunk/kt/kom/src/working_files/A_kom-lex.xml
-Log:
-There are two instances of _stray_ parentheses within words: (1) they represent accented letters acute а́ о́, or (2) there are two parentheses within the same word, and they reepresent alternatives. These alternatives are probably not just spelling but semantic differences.
-</comment>
-
-@cip: Not quite, what about the following?
-
-N_kom-lex.xml:97097:          <tg xml:lang="ru"><t>неясное, непонятное место ( </t><re>напр., в
-N_kom-lex.xml:255116:          <tg xml:lang="ru"><t>пара </t><re>(костюм</re></tg>
-N_kom-lex.xml:385082:          <tg xml:lang="ru"><t>личинка насекомого </t><re>(в воде</re></tg>
-N_kom-lex.xml:389536:          <tg xml:lang="ru"><t>(достигнутый</t></tg>
 POSTP_kom-lex.xml:1193:          <tg xml:lang="ru"><t><i>(употр. тж. с опред. суф. в указат. значении:</i></t></tg>
+
+  <entry>
+    <lemma>бокиын</lemma>
+
+    <stem>боки</stem>
+
+    <contlex>PO-INE</contlex>
+
+    <pos>POSTP-SPAT</pos>
+
+    <e>
+      <mg>
+        <m>
+          <head></head>
+
+          <tg xml:lang="ru"><t><i>(употр. тж. с опред. суф. в указат. значении:</i></t></tg> <<<=== HERE!!!
+        </m>
+
+        <xg>
+          <x>бокиад, бокиас</x>
+
+          <xtg xml:lang="ru"><xt>) на стороне, не дома</xt></xtg>                            <<<=== HERE!!!
+
+          <xtg xml:lang="ru"><xt> в людях</xt></xtg>
+        </xg>
+
+and in N_kom-lex.xml:
+N_kom-lex.xml:30496:          <tg xml:lang="ru"><t>бита </t><re>для игры в бабки)</re></tg>
+N_kom-lex.xml:33121:          <tg xml:lang="ru"><t>Бурка </t><re>кличка бурой лошади)</re></tg>
+N_kom-lex.xml:196538:          <tg xml:lang="ru"><field>бот.</field><t>а) вид папоротника</t></tg>
 
