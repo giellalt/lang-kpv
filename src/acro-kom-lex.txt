@@ -1,4 +1,5 @@
 LEXICON Acronym
+acros ;
 < А|Б|В|Г|Д|Е|Ж|З|И|Й|К|Л|М|Н|О|П|Р|С|Т|У|Ф|Х|Ц|Ч|Ш|Щ|Ъ|Ы|Ь|Э|Ю|Я|Ё|І|Ӧ > acr2 ;
 
 LEXICON acr2
@@ -16,8 +17,11 @@ LEXICON acr5
 < А|Б|В|Г|Д|Е|Ж|З|И|Й|К|Л|М|Н|О|П|Р|С|Т|У|Ф|Х|Ц|Ч|Ш|Щ|Ъ|Ы|Ь|Э|Ю|Я|Ё|І|Ӧ > acrotag ;
 acrotag ;
 
-
 LEXICON acrotag
 +N+ACR: ACRONDELIMITER ;
 
+LEXICON acros
+см³ acrotag ;
+°C acrotag ;
+K acrotag ; ! Kelvin, Latin letter K
 
