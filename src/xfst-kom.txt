@@ -76,7 +76,7 @@ define Flags [ %@U%.CONJ%-INF%.YES%@ | %@U%.CONJ%-INF%.NO%@
 echo << defining Boundary >>
 
 define Boundary %> ;
-define Diacritics %^Inf ;
+define Diacritics %^Inf %^PATR %^FEM ;
 define Dummy [ Boundary | Diacritics ] ;
 
 
@@ -144,49 +144,8 @@ define dDeletion д -> 0 || д _ [ь | з]  [ .#. | %> Cns ] ;
  !€ виддз>ыс:виддзыс
  !€ виддз:видз
  !€ виддз>сӧ:видзсӧ
-  
-!! stopping ы -> 0 2011-01-26
-!define WeakVowDeletion ы -> 0 || \[ н ы ] _ %> Vow ;
- ! anything but "ny" may preceede the deleted segment.
- ! Consider this: "ы:0" ы:0 <=> V1: + Cns:* _ %+: V1 ;
- !! LET's remember that this should only affect verb forms
- !! That means the surface vowels я а и і ӧ
- !! Wrong results тӧд where тыӧд should be
- !! Wrong на should be ныа
- !! Absence of "ы" vowel
- !! "ы" vowel is present before
- ! a) _ ны
- ! b) _ 0 ="+Imp+Sg2"
- ! c) _ 0 ="CONNEG"
- 
-! Working around й%>а => ъя
-! We need й -> ъ
-! We need а -> я
-! Look at VowelPalatalisation, below
-! Environment: || [~[ [ з | ч ] | д з ]] [ ь | й ] %> _ ;
-! How does this deal with й -> ъ change
-! кывъя кыв+N+Der/а+A stem кывъ
-! кӧсъя кӧсйыны+V+Ind+Prs+Sg1, кӧсйыны+V+Ind+Fut+Sg1
 
-
-
-!define jaSuffixAfterJ й -> ъ || _ %> я ;
- !€ кывй>а:кывъя
- ! This presupposes the rule jDeletionBeforeA, which has essentially 
- ! already taken care of this
- ! ok, let's delete this, eventually.
- 
-define HardMarkDeletion ъ -> 0 || [ Vow (й) | ь ] %> _ ;
- !€ вой>ъяс:войяс
- !€ выль>ъяс:выльяс
- !€ коми>ъяс:комияс
- !€ автобус>ъяс:автобусъяс
-
-! define VowelPalatalisation  а -> я, о -> ё, у -> ю  || 
-!                            [~[ [ з | ч ] | д з ]] [ ь | й ] Vow* %> Flags* _ ;
-! This VowelPalatalisation looks fishy. Why Vow* ?? We tentatively
-! We remove the Vow, suspecting it has worked so far with * - as - zero
-! as value, i.e. without vowel. The rule gave йи%>a ==> *йия pro йиа
+!define Surnames [ и й %^FEM %> a -> а я ] ;
 
 
 define VowelPalatalisation  [ а -> я, о -> ё, у -> ю  || 
@@ -209,8 +168,17 @@ define iPalatalisation [ і -> и || [ Vow | CnsBeforeCyri | ь | д з ] Flags*
 define SoftMarkDeletion [ ь -> 0 || _ Flags* %> [ я | ё | ю | и ] ] ; 
 ! Testcases: see VowelPalatalisation above
   
+define HardMarkDeletion ъ -> 0 || [ Vow (й) | ь ] %> _ ;
+ !€ вой>ъяс:войяс
+ !€ выль>ъяс:выльяс
+ !€ коми>ъяс:комияс
+ !€ автобус>ъяс:автобусъяс
+
+  
 define HardMarkPalatalisation ъ -> ь || [ д з | ч ] %> _ ;
  !€ виддз>ъяс:видзьяс
+ 
+ 
 
 
 echo << defining cleanup rules >>
@@ -236,16 +204,50 @@ read regex [
 .o. jDeletionBeforeA
 .o. lDeletion
 .o. dDeletion
-!.o. WeakVowDeletion
-.o. HardMarkPalatalisation
+!.о. Surnames
 .o. VowelPalatalisation
 .o. iPalatalisation
 .o. SoftMarkDeletion
-!.o. jaSuffixAfterJ
 .o. HardMarkDeletion
+.o. HardMarkPalatalisation
 .o. Cleanup
 .o. Deletion
-.o. DummyDeletion 
+.o. DummyDeletion
 ] ;
+
+
+
+
+
+
+
+
+
+
+! Some old code, sfuffed down here. Delete if you feel for it:
+
+!! stopping ы -> 0 2011-01-26
+!define WeakVowDeletion ы -> 0 || \[ н ы ] _ %> Vow ;
+ ! anything but "ny" may preceede the deleted segment.
+ ! Consider this: "ы:0" ы:0 <=> V1: + Cns:* _ %+: V1 ;
+ !! LET's remember that this should only affect verb forms
+ !! That means the surface vowels я а и і ӧ
+ !! Wrong results тӧд where тыӧд should be
+ !! Wrong на should be ныа
+ !! Absence of "ы" vowel
+ !! "ы" vowel is present before
+ ! a) _ ны
+ ! b) _ 0 ="+Imp+Sg2"
+ ! c) _ 0 ="CONNEG"
+ 
+! Working around й%>а => ъя
+! We need й -> ъ
+! We need а -> я
+! Look at VowelPalatalisation, below
+! Environment: || [~[ [ з | ч ] | д з ]] [ ь | й ] %> _ ;
+! How does this deal with й -> ъ change
+! кывъя кыв+N+Der/а+A stem кывъ
+! кӧсъя кӧсйыны+V+Ind+Prs+Sg1, кӧсйыны+V+Ind+Fut+Sg1
+
 
 
