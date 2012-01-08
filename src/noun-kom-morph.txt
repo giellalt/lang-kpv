@@ -35,6 +35,19 @@ LEXICON Adj
 LEXICON Prop ! Basic nouns.
 +N+Prop+Sg: CASEPOSSLEX ;
 
+LEXICON Prop-Derivable
++N+Prop+Sur+Mal+Sg: CASEPOSSLEX ; ! Владимиров
+а+N+Prop+Sur+Fem+Sg:%^FEM%>а CASEPOSSLEX ; ! Владимирова
+
+! Prop-Derivable end  in: ев, ов, ёв, ий, ин
+! Prop-Derivable for fem: ева, ова, ёва, ая, ина
+
+!LEXICON Prop-Patronyms
+!ович+N+Prop+Patr+Mal+Sg:%>ич CASEPOSSLEX ; ! Владимирович
+!овна+N+Prop+Patr+Fem+Sg:%>на CASEPOSSLEX ; ! Владимировна
+
+
+
 LEXICON Prop-Plc ! Inanimate proper nouns. Place names
 +N+Prop+Plc+Sg: CASEPOSSLEX ;
 
