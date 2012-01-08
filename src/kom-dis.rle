@@ -38,9 +38,13 @@ LIST Pcle = Pcle ;
 LIST Clt = Clt ; 
 LIST Po = Po ; 
 
+LIST WORD = N V A Adv CC CS Interj Pron Num Pcle Clt Po ;
+
+
 LIST Prs = Prs ; 
 LIST Fut = Fut ; 
 LIST Fut1 = Fut1 ; 
+LIST Imprt = Imprt ;
 LIST Prt1 = Prt1 ; 
 LIST Prt2 = Prt2 ; 
 LIST Prf = Prf ; 
@@ -136,24 +140,49 @@ LIST PUNCT = PUNCT ;
 LIST ABBR = ABBR ;
 LIST LEFT = LEFT ; 
 LIST RIGHT = RIGHT ; 
+LIST COMMA = "," ;
+
+LIST Der/MWN = Der/MWN ;
 
 LIST CASE = Nom Gen Abl Dat Com Cns Acc Ins Ine Ill Ela Car Egr Tra Apr Ter Abe Prl ;
-LIST OBLCASE = CASE - Nom ;
+SET OBLCASE = CASE - Nom ;
 
 SET V-FIN = Ind | Cond | Opt ; 
 
 SECTION
 
+# Tentative rule to make better statistics
+REMOVE (Der/MWN N Nom);
 
 # Cases
+
+# Numerals
+
+REMOVE (Abs) IF (0 Der/MWN + N + Sg + Nom);
 
 # Pronouns
 REMOVE Interr IF (-2 N)(-1 (","))(0 Rel);
 
 # Verbs
-REMOVE ConNeg IF (NOT *-1 Neg BARRIER CLB);
+# =====
 
+# ConNeg or not
+REMOVE ConNeg IF (NOT *-1 Neg BARRIER CLB);
 REMOVE ConNeg IF (-1* ConNeg BARRIER Neg);
+
+# Imperative or noun
+
+REMOVE:NotImpWhenInd Imprt IF (*-1C Ind);
+REMOVE:NotImpWhenWords Imprt IF (-1 N)(0 N);
+REMOVE:NotImpWhenWords Imprt IF (-1 WORD LINK *-1 BOS BARRIER Imprt);
+
+# да
+
+SELECT:da1 Adv IF (-1 BOS)(0 ("да"))(1 EOS OR COMMA);
+## Да, я знаю
+
+REMOVE:da2 Adv IF (0 ("да"));
+## Коми да мари
 
 # и
 REMOVE ABBR IF (0 CC)(NOT 1 ("."));
