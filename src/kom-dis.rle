@@ -143,6 +143,7 @@ LIST RIGHT = RIGHT ;
 LIST COMMA = "," ;
 
 LIST Der/MWN = Der/MWN ;
+LIST Der/са = Der/са ;
 
 LIST CASE = Nom Gen Abl Dat Com Cns Acc Ins Ine Ill Ela Car Egr Tra Apr Ter Abe Prl ;
 SET OBLCASE = CASE - Nom ;
@@ -151,8 +152,11 @@ SET V-FIN = Ind | Cond | Opt ;
 
 SECTION
 
-# Tentative rule to make better statistics
+
+
+# Derivations
 REMOVE (Der/MWN N Nom);
+REMOVE Der/са IF (0 ("<(.*)са>"r) + A);
 
 # Cases
 
