@@ -20,6 +20,16 @@ LEXICON Punctuation
 ¿+CLB:¿		        # ;	! Only seen as noise.
 ¶+CLB:¶		        # ;	
 
+ §+N+ABBR:§ # ;    ! §:s	!
+ §§+N+ABBR:§§ # ;  ! §:ain	!
+ $+N+ABBR:$  # ;    ! $:s	!
+ €+N+ABBR:€  # ;    ! €:s	!
+ £+N+ABBR:£  # ;    ! €:s	!
+®+N+ABBR:® # ;
+©+N+ABBR:© # ;
+
+
+
 •+PUNCT:•	        # ;
 -+PUNCT:-           # ; !hyphen
 --+PUNCT:--         # ; !double hyphen
@@ -58,3 +68,4 @@ LEXICON Punctuation
 %}+PUNCT+RIGHT:%}   # ;
 %<+PUNCT+LEFT:%<    # ;
 %>+PUNCT+LEFT:%>    # ;
+
