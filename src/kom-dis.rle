@@ -22,6 +22,8 @@ SETS
 LIST BOS = (>>>) (<s>);
 LIST EOS = (<<<) (</s>);
 
+LIST CmpTest = CmpTest ;
+
 LIST Err = Err ; 
 
 LIST N = N ; 
@@ -152,6 +154,8 @@ SET V-FIN = Ind | Cond | Opt ;
 
 SECTION
 
+REMOVE:CmpTst CmpTest IF (NOT 1 N);
+SELECT:CmpTst2 CmpTest ; # Kill'em all
 
 
 # Derivations
