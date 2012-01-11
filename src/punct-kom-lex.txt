@@ -35,6 +35,7 @@ LEXICON Punctuation
 --+PUNCT:--         # ; !double hyphen
 –+PUNCT:–           # ; !endash
 —+PUNCT:—           # ; !emdash
+―+PUNCT:―           # ; ! even emmer dash?
 =+PUNCT:=           # ;
 &+PUNCT:&           # ;
 ++PUNCT:+           # ;
@@ -53,6 +54,7 @@ LEXICON Punctuation
 
 
 %"+PUNCT:%"    # ;
+%«+PUNCT+RIGHT:%«   # ;
 %»+PUNCT+RIGHT:%»   # ;
 %“+PUNCT+LEFT:%“    # ;
 %”+PUNCT+RIGHT:%”   # ;
