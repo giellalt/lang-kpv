@@ -3,15 +3,15 @@
 
   <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
 
-<xs:element name="att" type="xs:string"/>
-<xs:element name="clarif" type="xs:string"/>
+<xs:element name="att" type="xs:string"/> <!-- -->
+<xs:element name="clarif" type="xs:string"/> <!-- -->
 <xs:element name="re" type="xs:string"/><!-- restriction -->
-<xs:element name="gov" type="xs:string"/>
-<xs:element name="CmPos" type="xs:string"/>
-<xs:element name="i" type="xs:string"/>
-<xs:element name="source" type="xs:string"/>
+<xs:element name="gov" type="xs:string"/> <!-- -->
+<xs:element name="CmPos" type="xs:string"/> <!-- -->
+<xs:element name="i" type="xs:string"/> <!-- -->
+<xs:element name="source" type="xs:string"/> <!-- -->
 
-<xs:element name="register">
+<xs:element name="register"> <!-- e.g. colloquial, literary, -->
   <xs:complexType>
     <xs:simpleContent>
       <xs:extension base="xs:string">
@@ -57,7 +57,7 @@
 
 <xs:attribute name="lang" type="xs:NCName"/>
 
-<xs:attribute name="possPx">
+<xs:attribute name="possPx">  <!-- Possessive  -->
  <xs:simpleType>
    <xs:restriction base="xs:string">
      <xs:enumeration value="Sg1"/>
@@ -979,7 +979,7 @@
     <xs:enumeration value="AD-A"/><!-- Adverb, Adjective modifier -->
     <xs:enumeration value="ADV"/><!-- Adverb -->
     <xs:enumeration value="ADV-ITER"/><!-- Should this be QNT-ITER? -->
-    <xs:enumeration value="ADV-Manner"/><!-- -->
+    <xs:enumeration value="ADV-Manner"/><!-- Adverb Manner -->
     <xs:enumeration value="ADV-PARENTHETICAL"/> <!-- вводн. сл. -->
     <xs:enumeration value="ADV-SPAT"/><!-- -->
     <xs:enumeration value="ADV-SUPERL"/><!-- -->
