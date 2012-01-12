@@ -33,7 +33,7 @@ endif
 
 ../bin/i$(GTLANG).fst: r-$(GTLANG).fst
 	@echo
-	@echo "*** Building the inverse i$(GTLANG).fst ***"
+	@echo "*** Building the inverse $(@F) ***"
 	@echo
 	@printf "load ../bin/$(GTLANG).save \n\
 	invert net \n\
@@ -48,7 +48,7 @@ endif
 
 ../bin/r-$(GTLANG).fst: ../bin/$(GTLANG).fst ../int/tag-rus.fst
 	@echo
-	@echo "*** Building r-$(GTLANG).fst, $(GTLANG).fst with Russian tags ***"
+	@echo "*** Building $(@F), $(<F) with Russian tags ***"
 	@echo
 	@printf "read regex [[@\"../int/tag-rus.fst\"] .o. \
 	[@\"../bin/$(GTLANG).fst\"]] ; \n\
