@@ -244,6 +244,7 @@ zhfst: ../hfst/$(GTLANG)-speller.zhfst
 	@echo
 	@echo "*** Building $(@F) ***" ;
 	@echo
+	rm -f $@
 	cp -f ../bin/$(GTLANG).single.hfstol ../hfst/acceptor.default.hfstol
 	cp -f ../bin/$(GTLANG).spl-errormodel.hfstol ../hfst/errmodel.default.hfstol
 	cd ../hfst/ && $(ZIP) -v -9 $(@F) \
@@ -292,4 +293,4 @@ apertium: ../bin/$(GTLANG)-mor.hfstol ../bin/$(GTLANG)-mor.lower.hfstol ../bin/$
 ###########################################################################################
 
 clean:
-	rm ../bin/*.hfst ../bin/*.hfstol kom-lex-xmlsrc.txt
+	rm -f ../bin/*.hfst ../bin/*.hfstol $(GTLANG)-lex-xmlsrc.txt ../../tmp/out/*$(GTLANG)-*
