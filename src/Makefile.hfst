@@ -7,6 +7,13 @@ HLEXC_FLAGS=$(HFST_FLAGS)
 HTWOLC_FLAGS=$(HFST_FLAGS) --resolve
 ZIP = /usr/bin/zip
 
+# Language codes:
+GTLANG=kom
+#2LCODE=kv # This is the correct code.
+# kv is presently replaced with ku (the language code for Kurdish)
+# to allow testing in OOo, which does not yet have support for Komi
+2LCODE=ku
+
 # Possible formats are:
 # - foma
 # - ofst-log
@@ -26,7 +33,7 @@ HFST_FORMAT=openfst-tropical
 all: apertium hfstspellers
 
 # Include the makefile that converts from xml to lexc:
-include Makefile.xml
+include Makefile_xml
 
 # Target for all common regex files:
 ../bin/%.hfst: ../src/%.regex
@@ -48,17 +55,17 @@ include Makefile.xml
 
 # Compile the twolc file:
 twol-hfst \
-../bin/kom-twol.hfst: ../src/twol-kom.txt
+../bin/$(GTLANG)-twol.hfst: ../src/twol-$(GTLANG).txt
 	@echo
 	@echo "*** Building $(@F) ***" ;
 	@echo
 	hfst-twolc $(HTWOLC_FLAGS) -i $< -o $@
 
 # Compile the xfst script file:
-xfst-kom.bin: ../bin/xfst-kom.hfst
-../bin/xfst-kom.hfst: xfst-kom.txt
+xfst-$(GTLANG).bin: ../bin/xfst-$(GTLANG).hfst
+../bin/xfst-$(GTLANG).hfst: xfst-$(GTLANG).txt
 	@echo
-	@echo "*** Building xfst-kom.bin ***" ;
+	@echo "*** Building xfst-$(GTLANG).bin ***" ;
 	@echo
 	@printf "source $< \n\
 	save stack $@ \n\
@@ -67,8 +74,8 @@ xfst-kom.bin: ../bin/xfst-kom.hfst
 	@rm -f $@.script
 
 # Compile lexicon files
-lexc-hfst: ../bin/kom-lexc.hfst
-../bin/kom-lexc.hfst: $(SRCS)
+lexc-hfst: ../bin/$(GTLANG)-lexc.hfst
+../bin/$(GTLANG)-lexc.hfst: $(SRCS)
 	@echo
 	@echo "*** Building $(@F) ***" ;
 	@echo
@@ -77,10 +84,10 @@ lexc-hfst: ../bin/kom-lexc.hfst
 	rm $@.foma
 
 # Compose&intersect lexicon and twol into a raw transducer
-save-hfst: ../bin/kom-gen.hfst
-../bin/kom-gen.hfst: \
-		../bin/kom-lexc.hfst \
-		../bin/xfst-kom.hfst
+save-hfst: ../bin/$(GTLANG)-gen.hfst
+../bin/$(GTLANG)-gen.hfst: \
+		../bin/$(GTLANG)-lexc.hfst \
+		../bin/xfst-$(GTLANG).hfst
 	@echo
 	@echo "*** Building $(@F) ***" ;
 	@echo
@@ -92,8 +99,8 @@ save-hfst: ../bin/kom-gen.hfst
 # Remove some tags that are only used for internal processing, or noise in the
 # regular transducer. Eventually, they should not be removed, just made
 # optional.
-../bin/kom-tagsremoved.hfst: \
-		../bin/kom-gen.hfst \
+../bin/$(GTLANG)-tagsremoved.hfst: \
+		../bin/$(GTLANG)-gen.hfst \
 		$(GTHOME)/gt/common/src/tag-not-save.regex \
 		$(GTHOME)/gt/common/src/usage-tags-remove.regex
 	@echo
@@ -110,8 +117,8 @@ save-hfst: ../bin/kom-gen.hfst
 	rm -f $<.att
 
 # Finally optimize the inverted (generating) transducer:
-ihfst ikom.hfst: ../bin/ikom.hfstol
-../bin/ikom.hfstol: ../bin/kom-tagsremoved.hfst
+ihfst i$(GTLANG).hfst: ../bin/i$(GTLANG).hfstol
+../bin/i$(GTLANG).hfstol: ../bin/$(GTLANG)-tagsremoved.hfst
 	@echo
 	@echo "*** Building lookup-optimized $(@F) ***" ;
 	@echo
@@ -120,9 +127,9 @@ ihfst ikom.hfst: ../bin/ikom.hfstol
 		hfst-fst2fst $(HFST_FLAGS) -O -o $@
 
 # Add uppercasing
-upper-lexc-hfst: ../bin/kom-upper.hfst
-../bin/kom-upper.hfst: \
-		../bin/kom-tagsremoved.hfst \
+upper-lexc-hfst: ../bin/$(GTLANG)-upper.hfst
+../bin/$(GTLANG)-upper.hfst: \
+		../bin/$(GTLANG)-tagsremoved.hfst \
 		$(GTHOME)/gt/common/bin/uppercase-first.hfst
 	@echo
 	@echo "*** Building $(@F) ***" ;
@@ -132,8 +139,8 @@ upper-lexc-hfst: ../bin/kom-upper.hfst
 		-2 $(GTHOME)/gt/common/bin/uppercase-first.hfst > $@
 
 # Finally invert and optimize
-kom.hfst: ../bin/kom.hfst ihfst
-../bin/kom.hfst: ../bin/kom-upper.hfst
+$(GTLANG).hfst: ../bin/$(GTLANG).hfst ihfst
+../bin/$(GTLANG).hfst: ../bin/$(GTLANG)-upper.hfst
 	@echo
 	@echo "*** Building $(@F) ***" ;
 	@echo
@@ -146,8 +153,8 @@ kom.hfst: ../bin/kom.hfst ihfst
 		hfst-fst2fst $(HFST_FLAGS) -O -o $@ol
 
 # Filter out all unwanted strings:
-../bin/kom.filtered.hfst: \
-		../bin/kom-gen.hfst \
+../bin/$(GTLANG).filtered.hfst: \
+		../bin/$(GTLANG)-gen.hfst \
 		$(GTHOME)/gt/common/src/use-sub-filter.regex \
 		$(GTHOME)/gt/common/src/usage-tags-remove.regex
 	@echo
@@ -164,8 +171,8 @@ kom.hfst: ../bin/kom.hfst ihfst
 	rm -f $<.att
 
 # Finish normative transducer:
-hfstnorm: ../bin/kom-norm.hfst
-../bin/kom-norm.hfst: ../bin/kom.filtered.hfst
+hfstnorm: ../bin/$(GTLANG)-norm.hfst
+../bin/$(GTLANG)-norm.hfst: ../bin/$(GTLANG).filtered.hfst
 	@echo
 	@echo "*** Building $(@F) ***" ;
 	@echo
@@ -180,9 +187,9 @@ hfstnorm: ../bin/kom-norm.hfst
 # Targets to test morphological transducers
 ###########################################
 
-hfsttest: ../testing/kom-tests.yaml \
-		 ../bin/kom.hfst \
-		 ../bin/ikom.hfstol
+hfsttest: ../testing/$(GTLANG)-tests.yaml \
+		 ../bin/$(GTLANG).hfst \
+		 ../bin/i$(GTLANG).hfstol
 	HfstTester.py -Cicv $<
 
 ###########################################
@@ -190,8 +197,8 @@ hfsttest: ../testing/kom-tests.yaml \
 ###########################################
 
 # Filter out unwanted paths from the speller transducer:
-../bin/kom.speller-filtered.hfst: \
-		../bin/kom-norm.hfst \
+../bin/$(GTLANG).speller-filtered.hfst: \
+		../bin/$(GTLANG)-norm.hfst \
 		$(GTHOME)/gt/common/src/Punctuation-filter.regex
 	@echo
 	@echo "*** Building $(@F) ***" ;
@@ -206,7 +213,7 @@ hfsttest: ../testing/kom-tests.yaml \
 	rm -f $<.att
 
 # Project input side to create a one-level automat for spelling usage
-../bin/kom.single.hfstol: ../bin/kom.speller-filtered.hfst
+../bin/$(GTLANG).single.hfstol: ../bin/$(GTLANG).speller-filtered.hfst
 	@echo
 	@echo "*** Building $(@F) ***" ;
 	@echo
@@ -214,75 +221,75 @@ hfsttest: ../testing/kom-tests.yaml \
 		hfst-fst2fst $(HFST_FLAGS) -f optimized-lookup-weighted -o $@
 
 # Process the error model into a text file that can be compiled into a transducer:
-../bin/kom.spl-errormodel.hfstol: \
+../bin/$(GTLANG).spl-errormodel.hfstol: \
 		../hfst/default-error-model.txt \
-		../bin/kom.single.hfstol \
+		../bin/$(GTLANG).single.hfstol \
 		$(GTHOME)/gt/script/editdist.py
 	@echo
 	@echo "*** Building $(@F) ***" ;
 	@echo
 	$(GTHOME)/gt/script/editdist.py -v -s -d 2 -e '@0@' -i $<   \
-		-a ../bin/kom.single.hfstol | \
+		-a ../bin/$(GTLANG).single.hfstol | \
 		hfst-txt2fst $(HFST_FLAGS) -e '@0@'      | \
 		hfst-fst2fst $(HFST_FLAGS) -f optimized-lookup-weighted -o $@
 
 hfstspellers: zhfst voikkohfst voikkoinstall
 
 # Create a ZHFST speller archive out of the available transducers:
-zhfst: ../hfst/kom-speller.zhfst
-../hfst/kom-speller.zhfst: \
-		../bin/kom.single.hfstol \
-		../bin/kom.spl-errormodel.hfstol \
+zhfst: ../hfst/$(GTLANG)-speller.zhfst
+../hfst/$(GTLANG)-speller.zhfst: \
+		../bin/$(GTLANG).single.hfstol \
+		../bin/$(GTLANG).spl-errormodel.hfstol \
 		../hfst/index.xml
 	@echo
 	@echo "*** Building $(@F) ***" ;
 	@echo
-	cp -f ../bin/kom.single.hfstol ../hfst/acceptor.default.hfstol
-	cp -f ../bin/kom.spl-errormodel.hfstol ../hfst/errmodel.default.hfstol
+	cp -f ../bin/$(GTLANG).single.hfstol ../hfst/acceptor.default.hfstol
+	cp -f ../bin/$(GTLANG).spl-errormodel.hfstol ../hfst/errmodel.default.hfstol
 	cd ../hfst/ && $(ZIP) -v -9 $(@F) \
 		index.xml acceptor.default.hfstol errmodel.default.hfstol
 
-voikkohfst: ../hfst/kom-speller.zhfst
+voikkohfst: ../hfst/$(GTLANG)-speller.zhfst
 	@echo
-	@echo "*** Building GT Voikko+HFST speller for kom ***" ;
+	@echo "*** Building GT Voikko+HFST speller for $(GTLANG) ***" ;
 	@echo
-	mkdir -p ../voikko/2/mor-kom
-	cd ../voikko/2/mor-kom && \
-		ln -sf ../../../hfst/kom-speller.zhfst speller.zhfst
+	mkdir -p ../voikko/2/mor-$(GTLANG)
+	cd ../voikko/2/mor-$(GTLANG) && \
+		ln -sf ../../../hfst/$(GTLANG)-speller.zhfst speller.zhfst
 
-
-# kv (Komi) replaced with ku (the language code for Kurdish)
-voikkoinstall: ../hfst/kom-speller.zhfst ../voikko/2/mor-kom/voikko-fi_FI.pro
+voikkoinstall: ../hfst/$(GTLANG)-speller.zhfst ../voikko/2/mor-$(GTLANG)/voikko-fi_FI.pro
 	@echo
-	@echo "*** Installing GT Voikko+HFST speller for kom ***" ;
+	@echo "*** Installing GT Voikko+HFST speller for $(GTLANG) ***" ;
 	@echo
-	mkdir -p ~/.voikko/2/mor-ku
-	cp -f ../hfst/kom-speller.zhfst \
-		~/.voikko/2/mor-ku/speller.zhfst
-	sed 's/: kom/: ku/' ../voikko/2/mor-kom/voikko-fi_FI.pro \
-		> ~/.voikko/2/mor-ku/voikko-fi_FI.pro
+	mkdir -p ~/.voikko/2/mor-$(2LCODE)
+	cp -f ../hfst/$(GTLANG)-speller.zhfst \
+		~/.voikko/2/mor-$(2LCODE)/speller.zhfst
+	sed 's/: $(GTLANG)/: $(2LCODE)/' ../voikko/2/mor-$(GTLANG)/voikko-fi_FI.pro \
+		> ~/.voikko/2/mor-$(2LCODE)/voikko-fi_FI.pro
 
 ###########################################################################################
 
-apertium: ../bin/kom-mor.hfstol ../bin/kom-mor.lower.hfstol ../bin/kom-gen.hfstol
+apertium: ../bin/$(GTLANG)-mor.hfstol ../bin/$(GTLANG)-mor.lower.hfstol ../bin/$(GTLANG)-gen.hfstol
 
-../bin/kom-mor.hfstol: ../bin/kom.hfst kom.apertium.relabel
+../bin/$(GTLANG)-mor.hfstol: ../bin/$(GTLANG).hfst $(GTLANG).apertium.relabel
 	@echo
 	@echo "*** Buildig Apertium transducer $(@F) ***" ;
 	@echo
-	hfst-substitute -F kom.apertium.relabel $< | hfst-fst2fst -O -o $@
+	hfst-substitute -F $(GTLANG).apertium.relabel $< | hfst-fst2fst -O -o $@
 
-../bin/kom-mor.lower.hfstol: ../bin/kom.hfst kom.apertium-lower.relabel
+../bin/$(GTLANG)-mor.lower.hfstol: ../bin/$(GTLANG).hfst $(GTLANG).apertium-lower.relabel
 	@echo
 	@echo "*** Buildig Apertium transducer $(@F) ***" ;
 	@echo
-	hfst-substitute -F kom.apertium-lower.relabel $< | hfst-fst2fst -O -o $@
+	hfst-substitute -F $(GTLANG).apertium-lower.relabel $< | hfst-fst2fst -O -o $@
 
-../bin/kom-gen.hfstol: ../bin/kom-gen.hfst kom.apertium.relabel
+../bin/$(GTLANG)-gen.hfstol: ../bin/$(GTLANG)-gen.hfst $(GTLANG).apertium.relabel
 	@echo
 	@echo "*** Buildig Apertium transducer $(@F) ***" ;
 	@echo
-	hfst-substitute -F kom.apertium.relabel $< | hfst-fst2fst -O -o $@
+	hfst-substitute -F $(GTLANG).apertium.relabel $< | hfst-fst2fst -O -o $@
+
+###########################################################################################
 
 clean:
-	rm *.hfst *.hfst.ol all-files.lexc ../bin/*
+	rm ../bin/*.hfst ../bin/*.hfstol kom-lex-xmlsrc.txt
