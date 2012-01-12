@@ -6,8 +6,6 @@
 SHELL = /bin/sh
 .SUFFIXES:
 
-lg = kom
-
 # Java variables:
 VM = no
 JV   = java
@@ -19,7 +17,7 @@ SCRIPTS     = ../script
 DICT_PATH   = ../../../words/dicts
 DICT_BIN    = komfineng/bin
 COMPDICT    = collect-dict-parts.xsl
-KL2GT       = kom-lex2gtdict.xsl
+KL2GT       = $(GTLANG)-lex2gtdict.xsl
 SRC         = working_files
 END         = @echo "Done."
 VPATH=../bin
@@ -37,19 +35,19 @@ LEXS := $(patsubst $(SRC)/%.xml,$(OUT)/%.xml.txt,$(wildcard $(SRC)/*.xml))
 # All the lexc source files, the last one generated from xml. They are defined
 # in this file so that the definition can be shared between xerox and hfst
 # Makefiles.
-SRCS = kom-lex.txt \
-	   noun-kom-morph.txt \
-       verb-kom-morph.txt \
-       pron-kom-morph.txt \
-       punct-kom-lex.txt \
-       num-kom-morph.txt \
-       acro-kom-lex.txt \
-       abbr-kom-lex.txt \
-       kom-lex-xmlsrc.txt
+SRCS = $(GTLANG)-lex.txt \
+	   noun-$(GTLANG)-morph.txt \
+       verb-$(GTLANG)-morph.txt \
+       pron-$(GTLANG)-morph.txt \
+       punct-$(GTLANG)-lex.txt \
+       num-$(GTLANG)-morph.txt \
+       acro-$(GTLANG)-lex.txt \
+       abbr-$(GTLANG)-lex.txt \
+       $(GTLANG)-lex-xmlsrc.txt
 
 # Concatenate all generated LexC files. If there are no usable entries, the
 # lexc file will be empty, which is regarded as a fatal error by LexC:
-kom-lex-xmlsrc.txt: $(LEXS)
+$(GTLANG)-lex-xmlsrc.txt: $(LEXS)
 	@echo
 	@echo "*** Concatenating generated lexc files into $(@F) ***"
 	@echo
@@ -83,20 +81,20 @@ endif
 
 # Start the dict compilation process
 # transform the file into gt xml format
-macdict: kom-lex.xml
+macdict: $(GTLANG)-lex.xml
 
 # Compile the dictionary xml-file by unifing the individual pos-files
-kom-lex.xml: $(DICT_PATH)/$(DICT_BIN)/kom-lex.xml
-$(DICT_PATH)/$(DICT_BIN)/kom-lex.xml: $(SRC)
+$(GTLANG)-lex.xml: $(DICT_PATH)/$(DICT_BIN)/$(GTLANG)-lex.xml
+$(DICT_PATH)/$(DICT_BIN)/$(GTLANG)-lex.xml: $(SRC)
 
 	@echo
-	@echo "*** Converting kom-lex.xml to GT format ***"
+	@echo "*** Converting $(GTLANG)-lex.xml to GT format ***"
 	@echo 
 	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/$(KL2GT) inDir=../src/$< outDir=$(OUT)
 	@echo
 	$(END)
 	@echo
-	@echo "*** Generating the kom-lex.xml file ***"
+	@echo "*** Generating the $(GTLANG)-lex.xml file ***"
 	@echo "../src/$(OUT)"
 	$(JV) $(MF) $(XSL) $(EF) $(SCRIPTS)/$(COMPDICT) dir=../src/$(OUT) > $@
 	@echo
@@ -122,6 +120,6 @@ $(DICT_PATH)/$(DICT_BIN)/kom-lex.xml: $(SRC)
 # 	@echo
 # 	$(END)
 
-# java -Xmx2048m net.sf.saxon.Transform -it main kom-lex2gtdict.xsl inDir=
+# java -Xmx2048m net.sf.saxon.Transform -it main $(GTLANG)-lex2gtdict.xsl inDir=
 
-# java -Xmx2048m net.sf.saxon.Transform -it main collect-dict-parts.xsl dir= > kom-lex.xml
+# java -Xmx2048m net.sf.saxon.Transform -it main collect-dict-parts.xsl dir= > $(GTLANG)-lex.xml
