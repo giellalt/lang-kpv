@@ -16,8 +16,8 @@ all: ../bin/i$(GTLANG).fst
 include Makefile_xml
 
 XFST = xfst 
-#XFST = fst 
 LEXC = lexc 
+TWOLC = twolc
 
 ifeq (victorio.uit.no, $(shell hostname))
 XFST = /opt/sami/xerox/c-fsm/ix86-linux2.6-gcc3.4/bin/fst -utf8
