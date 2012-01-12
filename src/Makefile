@@ -6,12 +6,14 @@
 SHELL = /bin/sh
 .SUFFIXES:
 
-all: ../bin/ikom.fst
+# Language codes:
+GTLANG=kom
+lg = $(GTLANG)
+
+all: ../bin/i$(GTLANG).fst
 
 # Include the makefile that converts from xml to lexc:
 include Makefile_xml
-
-lg = kom
 
 XFST = xfst 
 #XFST = fst 
@@ -27,74 +29,74 @@ endif
 # xfst and not twolc.
 
 # Here we build the final generator, an inverted transducer of the analyzer.
-# It is dependent upon kom.save
+# It is dependent upon $(GTLANG).save
 
-../bin/ikom.fst: r-kom.fst
+../bin/i$(GTLANG).fst: r-$(GTLANG).fst
 	@echo
-	@echo "*** Building the inverse ikom.fst ***"
+	@echo "*** Building the inverse i$(GTLANG).fst ***"
 	@echo
-	@printf "load ../bin/kom.save \n\
+	@printf "load ../bin/$(GTLANG).save \n\
 	invert net \n\
-	save stack ../bin/ikom.fst \n\
-	quit \n" > ../../tmp/ikom-fst-script
-	$(XFST) < ../../tmp/ikom-fst-script
-	@rm -f ../../tmp/ikom-fst-script
+	save stack ../bin/i$(GTLANG).fst \n\
+	quit \n" > ../../tmp/i$(GTLANG)-fst-script
+	$(XFST) < ../../tmp/i$(GTLANG)-fst-script
+	@rm -f ../../tmp/i$(GTLANG)-fst-script
 
 
 # We want an analyzer with Russian tags. It takes the linguistic 
-# kom.fst as input and gives us an alternate r-kom.fst
+# $(GTLANG).fst as input and gives us an alternate r-$(GTLANG).fst
 
-../bin/r-kom.fst: ../bin/kom.fst ../int/tag-rus.fst
+../bin/r-$(GTLANG).fst: ../bin/$(GTLANG).fst ../int/tag-rus.fst
 	@echo
-	@echo "*** Building r-kom.fst, kom.fst with Norwegian tags ***"
+	@echo "*** Building r-$(GTLANG).fst, $(GTLANG).fst with Russian tags ***"
 	@echo
 	@printf "read regex [[@\"../int/tag-rus.fst\"] .o. \
-	[@\"../bin/kom.fst\"]] ; \n\
-	save stack ../bin/r-kom.fst \n\
-	quit \n" > ../../tmp/r-kom-fst-script
-	$(XFST) < ../../tmp/r-kom-fst-script
-	@rm -f ../../tmp/r-kom-fst-script
+	[@\"../bin/$(GTLANG).fst\"]] ; \n\
+	save stack ../bin/r-$(GTLANG).fst \n\
+	quit \n" > ../../tmp/r-$(GTLANG)-fst-script
+	$(XFST) < ../../tmp/r-$(GTLANG)-fst-script
+	@rm -f ../../tmp/r-$(GTLANG)-fst-script
 
 
-# In order to make r-kom.fst we need a binary tag-rus.fst
+# In order to make r-$(GTLANG).fst we need a binary tag-rus.fst
 # This goal depends on tag-rus.regex
 
 ../int/tag-rus.fst: tag-rus.regex
 	@echo
-	@echo "*** Building tag-rus.fst ***" ;
+	@echo "*** Building $(@F) ***" ;
 	@echo
 	@printf "read regex < tag-rus.regex \n\
 	save stack ../int/tag-rus.fst \n\
-	quit \n" > ../../tmp/kom-tag-rus-script
-	$(XFST) < ../../tmp/kom-tag-rus-script
-	@rm -f ../../tmp/kom-tag-rus-script
+	quit \n" > ../../tmp/$(GTLANG)-tag-rus-script
+	$(XFST) < ../../tmp/$(GTLANG)-tag-rus-script
+	@rm -f ../../tmp/$(GTLANG)-tag-rus-script
 
 
 # This goal is to build the final analyser. It depends on all the files.
 #Attempt 2011-10-10				../bin/allcaps.fst \
 #	[@\"../bin/allcaps.fst\"] .o. \
 
-../bin/kom.fst: \
-				../bin/kom.save \
+../bin/$(GTLANG).fst: \
+				../bin/$(GTLANG).save \
 				../bin/caseconv.fst \
 				../bin/tok.fst \
 				$(GTHOME)/gt/common/bin/spellrelax.fst
 	@echo
-	@echo "*** Building kom.fst ***" ;
+	@echo "*** Building $(@F) ***" ;
 	@echo
-	@printf "read regex [[@\"../bin/kom.save\"] .o. \
+	@printf "read regex [[@\"../bin/$(GTLANG).save\"] .o. \
 	[@\"../bin/caseconv.fst\"] .o. \
 	[@\"$(GTHOME)/gt/common/bin/spellrelax.fst\"]] ; \n\
-	save stack ../bin/kom.fst \n\
-	quit \n" > ../../tmp/kom-fst-script
-	$(XFST) < ../../tmp/kom-fst-script
-	@rm -f ../../tmp/kom-fst-script
+	save stack ../bin/$(GTLANG).fst \n\
+	quit \n" > ../../tmp/$(GTLANG)-fst-script
+	$(XFST) < ../../tmp/$(GTLANG)-fst-script
+	@rm -f ../../tmp/$(GTLANG)-fst-script
 
 
 # This goal is to allow for Latin / Cyrillic i, ö / і, ӧ variation
 $(GTHOME)/gt/common/bin/spellrelax.fst: $(GTHOME)/gt/common/src/spellrelax.regex
 	@echo
-	@echo "*** Building spellrelax.fst ***" ;
+	@echo "*** Building $(@F) ***" ;
 	@echo
 	@printf "read regex < $< \n\
 	save stack $@ \n\
@@ -109,7 +111,7 @@ $(GTHOME)/gt/common/bin/spellrelax.fst: $(GTHOME)/gt/common/src/spellrelax.regex
 caseconv.fst: ../bin/caseconv.fst
 ../bin/caseconv.fst: case.regex
 	@echo
-	@echo "*** Building caseconv.fst ***" ;
+	@echo "*** Building $(@F) ***" ;
 	@echo
 	@printf "read regex < case.regex \n\
 	save stack ../bin/caseconv.fst \n\
@@ -138,7 +140,7 @@ caseconv.fst: ../bin/caseconv.fst
 tok.fst: ../bin/tok.fst
 ../bin/tok.fst: tok.txt
 	@echo
-	@echo "*** Building the tokenizer tok.fst ***" ;
+	@echo "*** Building the tokenizer $(@F) ***" ;
 	@echo
 	@printf "source tok.txt \n\
 	save stack ../bin/tok.fst \n\
@@ -147,48 +149,48 @@ tok.fst: ../bin/tok.fst
 	@rm -f ../../tmp/tok-script
 
 
-kom.save: ../bin/kom.save
-../bin/kom.save: ../bin/kom-lex.save ../bin/xfst-kom.bin 
+$(GTLANG).save: ../bin/$(GTLANG).save
+../bin/$(GTLANG).save: ../bin/$(GTLANG)-lex.save ../bin/xfst-$(GTLANG).bin 
 	@echo
-	@echo "*** Building the parser kom.save ***"
+	@echo "*** Building the parser $(@F) ***"
 	@echo
-	@printf "read regex [[@\"../bin/kom-lex.save\"] .o. \
-	[@\"../bin/xfst-kom.bin\"]] ; \n\
-	save stack ../bin/kom.save \n\
-	quit \n" > ../../tmp/kom-save-script
-	$(XFST) < ../../tmp/kom-save-script
-	@rm -f ../../tmp/kom-save-script
+	@printf "read regex [[@\"../bin/$(GTLANG)-lex.save\"] .o. \
+	[@\"../bin/xfst-$(GTLANG).bin\"]] ; \n\
+	save stack ../bin/$(GTLANG).save \n\
+	quit \n" > ../../tmp/$(GTLANG)-save-script
+	$(XFST) < ../../tmp/$(GTLANG)-save-script
+	@rm -f ../../tmp/$(GTLANG)-save-script
 
 # Compile the lexicon:
-kom-lex.save: ../bin/kom-lex.save
-../bin/kom-lex.save: $(SRCS)
+$(GTLANG)-lex.save: ../bin/$(GTLANG)-lex.save
+../bin/$(GTLANG)-lex.save: $(SRCS)
 	@echo
-	@echo "*** Building kom-lex.save ***" ;
+	@echo "*** Building $(@F) ***" ;
 	@echo
 	printf "compile-source $^ \n\
-	save-source ../bin/kom-lex.save \n\
-	quit \n" > ../../tmp/kom-lex-save-script
-	$(LEXC) < ../../tmp/kom-lex-save-script
-	rm -f ../../tmp/kom-lex-save-script
+	save-source ../bin/$(GTLANG)-lex.save \n\
+	quit \n" > ../../tmp/$(GTLANG)-lex-save-script
+	$(LEXC) < ../../tmp/$(GTLANG)-lex-save-script
+	rm -f ../../tmp/$(GTLANG)-lex-save-script
 
 
-# The second goal is to build xfst-kom.bin
-# This goal depends on xfst-kom.txt
+# The second goal is to build xfst-$(GTLANG).bin
+# This goal depends on xfst-$(GTLANG).txt
 # Compile the phonological rules:
-xfst-kom.bin: ../bin/xfst-kom.bin
-../bin/xfst-kom.bin: xfst-kom.txt
+xfst-$(GTLANG).bin: ../bin/xfst-$(GTLANG).bin
+../bin/xfst-$(GTLANG).bin: xfst-$(GTLANG).txt
 	@echo
-	@echo "*** Building xfst-kom.bin ***" ;
+	@echo "*** Building $(@F) ***" ;
 	@echo
-	@printf "source xfst-kom.txt \n\
-	save stack ../bin/xfst-kom.bin \n\
-	quit \n" > ../../tmp/xfst-kom-script
-	$(XFST) < ../../tmp/xfst-kom-script
-	@rm -f ../../tmp/xfst-kom-script
+	@printf "source xfst-$(GTLANG).txt \n\
+	save stack ../bin/xfst-$(GTLANG).bin \n\
+	quit \n" > ../../tmp/xfst-$(GTLANG)-script
+	$(XFST) < ../../tmp/xfst-$(GTLANG)-script
+	@rm -f ../../tmp/xfst-$(GTLANG)-script
 
 
 clean:
 	@rm -rf \
 		../bin/* \
 		../../tmp \
-		kom-lex-xmlsrc.txt
+		$(GTLANG)-lex-xmlsrc.txt
