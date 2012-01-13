@@ -76,7 +76,7 @@ define Flags [ %@U%.CONJ%-INF%.YES%@ | %@U%.CONJ%-INF%.NO%@
 echo << defining Boundary >>
 
 define Boundary %> ;
-define Diacritics %^Inf %^PATR %^FEM ;
+define Diacritics [ %^Inf | %^PATR | %^FEM ] ;
 define Dummy [ Boundary | Diacritics ] ;
 
 
