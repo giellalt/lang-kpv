@@ -470,6 +470,18 @@ LEXICON Ad-ATAG ! these are checked as advs.
 LEXICON ADV-IS_GER-MON ! these are checked as gerunds in +Der/мӧн
 +V+Der/мӧн: ADVTAG ;
 
+LEXICON ADV-IS_GER-TOG ! these are checked as gerunds in +Der/тӧг
++V+Der/тӧг: ADVTAG ;
+
+LEXICON ADV-IS_N-TOG ! these are checked as state adverbials in +Der/тӧг
++N+Der/тӧг: ADVTAG ;
+
+LEXICON ADV-IS_ADV-TOG ! polar adverbials in +Der/тӧг
++Adv+Der/тӧг: ADVTAG ;
+
+LEXICON ADV-IS_Q-TOG ! polar adverbials in +Der/тӧг
++Qnt+Der/тӧг: ADVTAG ;
+
 LEXICON ADV-IS_SUPERL !
 +Der/мед: ADVTAG ;
 
