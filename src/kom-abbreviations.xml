@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<abbreviations
-   xsi:noNamespaceSchemaLocation="abbr.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<abbreviations xsi:noNamespaceSchemaLocation="abbr.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xmlns:xs="http://www.w3.org/2001/XMLSchema">
    <!-- УСЛОВНЫЕ СОКРАЩЕНИЯ ДЖЕНЬДӦДӦМЪЯС -->
    <!-- Abbreviatons used in the Komi-Russian Dictionary of 2000  -->
    <item>
@@ -16,6 +14,18 @@
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
       <name abbr="анат." lang="ru">анатомия</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="антроп." lang="ru">антропологический термин</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="апт." lang="ru">аптека</name>
    </item>
    <item>
       <name abbr="archeol." lang="en">archeology</name>
@@ -43,7 +53,7 @@
    </item>
    <item>
       <name abbr="biol." lang="en">biology</name>
-      <name abbr="biol." lang="fi">xxx</name>
+      <name abbr="biol." lang="fi">biologia</name>
       <name abbr="xx" lang="kv">xxx</name>
       <name abbr="биол." lang="ru">биология</name>
    </item>
@@ -75,7 +85,7 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
-      <name abbr="б.ч." lang="ru">болыпей частью</name>
+      <name abbr="б.ч." lang="ru">большей частью</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -141,6 +151,12 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="в разн. знач." lang="ru">в разных значениях</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
       <name abbr="врем." lang="ru">временный вид</name>
    </item>
    <item>
@@ -165,7 +181,31 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="выдел." lang="ru">выделительное</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="высок." lang="ru">высокого стиля</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="вычисл." lang="ru">вычислительное</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
       <name abbr="геогр." lang="ru">география</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="геод." lang="ru">геодезия</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -183,6 +223,18 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="гидрол." lang="ru">гидрология</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="гидротех." lang="ru">гидротехнический термин</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
       <name abbr="гл." lang="ru">глагол</name>
    </item>
    <item>
@@ -195,7 +247,7 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
-      <name abbr="горн." lang="ru">горняцкий термин</name>
+      <name abbr="горн." lang="ru">горняцкий термин, горное дело</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -231,13 +283,25 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="дел." lang="ru">деловое</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
       <name abbr="дет." lang="ru">детская речь</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
-      <name abbr="диал." lang="ru">диалектное</name>
+      <name abbr="диал." lang="ru">диалектное слово</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="дипл." lang="ru">дипломатический термин</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -255,19 +319,37 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
-      <name abbr="дп." lang="ru">древнепермское</name>
+      <name abbr="дп." lang="ru">древнепермское слово</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
-      <name abbr="др. —" lang="ru">другой, другие</name>
+      <name abbr="др." lang="ru">другой, другие</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
       <name abbr="ед. ч." lang="ru">единственное число</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="ж." lang="ru">женский род</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="ж.-д." lang="ru">железнодорожный термин</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="жив." lang="ru">живопись</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -303,7 +385,19 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="изъясн." lang="ru">изъяснительное</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
       <name abbr="им. п." lang="ru">именительный падеж</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="инф." lang="ru">инфинитив</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -333,13 +427,67 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="и т.д." lang="ru">и так далее</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="и т.п." lang="ru">и тому подобное</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
       <name abbr="канц." lang="ru">канцелярский термин</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
-      <name abbr="книжн." lang="ru">книжное</name>
+      <name abbr="карт." lang="ru">карточный термин</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="кв." lang="ru">квадратный</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="кем-л." lang="ru">кем-либо</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="кино" lang="ru">кинематография</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="книжн." lang="ru">книжное, книжного стиля</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="кого-л." lang="ru">кого-либо</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="кожев." lang="ru">кожевенный термин</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="конд." lang="ru">кондитерский термин</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -393,13 +541,13 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
-      <name abbr="лесн." lang="ru">лесной термин</name>
+      <name abbr="лесн." lang="ru">лесной термин, лесоводство</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
-      <name abbr="лингв." lang="ru">лингвистика</name>
+      <name abbr="лингв." lang="ru">лингвистика, лингвистический термин</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -418,6 +566,18 @@
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
       <name abbr="лиш. п." lang="ru">лишительный падеж</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="лог." lang="ru">логика</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="м." lang="ru">мужской род</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -447,10 +607,28 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="мест. нареч." lang="ru">местоименное наречие</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
       <name abbr="мест. п." lang="ru">местный падеж</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="метеор." lang="ru">метеорология</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="мин." lang="ru">минералогия</name>
+   </item>
+   <item>
+      <name abbr="myth." lang="en">mythology</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
       <name abbr="миф." lang="ru">мифология</name>
@@ -459,13 +637,13 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
-      <name abbr="мн.ч." lang="ru"> — множественное число</name>
+      <name abbr="мн.ч." lang="ru"> множественное число</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
-      <name abbr="многокр." lang="ru">многократное</name>
+      <name abbr="многокр." lang="ru">многократное, многократный вид глагола</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -489,7 +667,7 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
-      <name abbr="накл." lang="ru">наклонение</name>
+      <name abbr="накл." lang="ru">наклонение глагола</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -507,7 +685,19 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="нар.-поэт." lang="ru">народно-поэтическое</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
       <name abbr="наст. вр." lang="ru">настоящее время</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="неизм." lang="ru">неизменяемое</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -519,7 +709,25 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
-      <name abbr="неодобр." lang="ru">неодобрительно</name>
+      <name abbr="нек-рая" lang="ru">некоторая</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="нек-рое" lang="ru">некоторое</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="неодобр." lang="ru">неодобрительное</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="неодуш." lang="ru">неодушевлённое</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -538,6 +746,18 @@
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
       <name abbr="неперех." lang="ru">непереходный глагол</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="нескл." lang="ru">несклоняемое</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="несов." lang="ru">несовершенный вид</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -567,7 +787,7 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
-      <name abbr="огранич." lang="ru">ограничительный</name>
+      <name abbr="огранич." lang="ru">ограничительное</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -586,6 +806,12 @@
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
       <name abbr="опред." lang="ru">определительное (местоимение)</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="опт." lang="ru">оптика</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -687,6 +913,12 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="полн." lang="ru">полное</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
       <name abbr="понуд." lang="ru">понудительный залог</name>
    </item>
    <item>
@@ -717,6 +949,18 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="поэт." lang="ru">поэтическое слово</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="поясн." lang="ru">пояснительное</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
       <name abbr="пр." lang="ru">прочий, прочее</name>
    </item>
    <item>
@@ -735,7 +979,7 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
-      <name abbr="предл." lang="ru">предложение</name>
+      <name abbr="предл." lang="ru">предложный падеж</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -760,6 +1004,12 @@
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
       <name abbr="прибл." lang="ru">приблизительное</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="прид." lang="ru">придаточное</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -831,6 +1081,30 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="психол." lang="ru">психология</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="пчел." lang="ru">пчеловодство</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="р." lang="ru">род</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="радио" lang="ru">радиотехнический термин</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
       <name abbr="разброс." lang="ru">разбросанное действие</name>
    </item>
    <item>
@@ -838,6 +1112,12 @@
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
       <name abbr="разг." lang="ru">разговорное</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="разделит." lang="ru">разделительное</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -862,6 +1142,24 @@
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
       <name abbr="рыб." lang="ru">рыболовный термин</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="с." lang="ru">средний род</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="сад." lang="ru">садоводство</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="сапож." lang="ru">сапожное дело</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -897,6 +1195,12 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="сов." lang="ru">совершенный вид</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
       <name abbr="соед." lang="ru">соединительный (союз)</name>
    </item>
    <item>
@@ -909,13 +1213,19 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
-      <name abbr="соотв." lang="ru">соответствует</name>
+      <name abbr="соотв." lang="ru">соответствует, соответственно</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
       <name abbr="сопост." lang="ru">сопоставительный (союз)</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="сосл. накл." lang="ru">сослагательное наклонение</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -939,7 +1249,13 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
-      <name abbr="сплав." lang="ru">сплавной термин</name>
+      <name abbr="сплав." lang="ru">сплавной термин, сплавное дело</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="спорт." lang="ru">спортивный термин</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -957,13 +1273,25 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="сравн. ст." lang="ru">сравнительная степень</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
       <name abbr="средн." lang="ru">средний залог</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
-      <name abbr="ст." lang="ru">степень</name>
+      <name abbr="ст." lang="ru">статья</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="стар." lang="ru">старое</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -976,6 +1304,12 @@
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
       <name abbr="страд." lang="ru">страдательный залог</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="страх." lang="ru">страховой термин</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -999,7 +1333,7 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
-      <name abbr="с.-х." lang="ru">сельское хозяйство</name>
+      <name abbr="с.-х." lang="ru">сельское хозяйство, сельскохозяйственный термин</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -1017,6 +1351,18 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="театр." lang="ru">театральный термин</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="текст." lang="ru">текстильное дело</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
       <name abbr="тех." lang="ru">техника</name>
    </item>
    <item>
@@ -1029,7 +1375,13 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
-      <name abbr="ткац." lang="ru">ткачество</name>
+      <name abbr="типогр." lang="ru">типографский термин</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="ткац." lang="ru">ткачество, ткацкий термин</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -1053,6 +1405,18 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="торг." lang="ru">торговля</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="трад." lang="ru">традиционное</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
       <name abbr="угор." lang="ru">угорское слово</name>
    </item>
    <item>
@@ -1071,7 +1435,7 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
-      <name abbr="уменьш." lang="ru">уменыпительная форма, уменьшительный вид</name>
+      <name abbr="уменьш." lang="ru">уменьшительная форма, уменьшительный вид</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -1101,7 +1465,31 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="усл." lang="ru">условное</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
       <name abbr="уст." lang="ru">устаревшее слово, выражение</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="уступ." lang="ru">уступительный союз</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="утверд." lang="ru">утвердительное</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="уч." lang="ru">ученический термин</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -1113,7 +1501,25 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="фам." lang="ru">фамильярное</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="фарм." lang="ru">фармакология</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
       <name abbr="физ." lang="ru">физика</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="физиол." lang="ru">физиология</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
@@ -1143,13 +1549,19 @@
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
+      <name abbr="фото" lang="ru">фотография</name>
+   </item>
+   <item>
+      <name abbr="xx" lang="en">xxx</name>
+      <name abbr="xx" lang="fi">xxx</name>
+      <name abbr="xx" lang="kv">xxx</name>
       <name abbr="хим." lang="ru">химия</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
       <name abbr="xx" lang="fi">xxx</name>
       <name abbr="xx" lang="kv">xxx</name>
-      <name abbr="церк" lang="ru">церковное слово, вьфажение</name>
+      <name abbr="церк." lang="ru">церковное слово, выражение</name>
    </item>
    <item>
       <name abbr="xx" lang="en">xxx</name>
