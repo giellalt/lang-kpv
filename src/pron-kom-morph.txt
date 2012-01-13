@@ -20,7 +20,7 @@ LEXICON perssg1decl
 +GenStem:менам # ;
 +Cmpl+Gen:мелӧн # ;
 +GenStem+Gen:менамлӧн # ;
-+Ela+PxSg1-ym:менсьым # ; !The elative case is used in Sg1 and Sg2 
++Ela+PxSg1:менсьым # ; !The elative case is used in Sg1 and Sg2 
                  !for the functions of the ablative in other persons
 +Dat:меным # ; !What should be done with the 4 dative forms?
 +Dat:мем # ;
@@ -501,7 +501,7 @@ LEXICON EndRefl
  PRON-REFL-OBL-CASES ;
 
 LEXICON PRON-REFL-OBL-CASES
-+Ela+PxSg1-ym:сьым K ;
++Ela+PxSg1:сьым K ;
 +Ela+PxSg2:сьыд K ;
 +Ela+PxSg3:сьыс K ;
 +Ela+PxPl1:сьыным K ;
@@ -509,7 +509,7 @@ LEXICON PRON-REFL-OBL-CASES
 +Ela+PxPl1+Ela:сьынымысь K ;
 +Ela+PxPl2:сьыныд K ;
 +Ela+PxPl3:сьыныс K ;
-+Dat+PxSg1-ym:лым K ;
++Dat+PxSg1:лым K ;
 +Dat+PxSg2:лыд K ;
 +Dat+PxSg3:лыс K ;
 +Dat+PxPl1:лыным K ;
@@ -520,7 +520,7 @@ LEXICON PRON-REFL-OBL-CASES
 +PxPl3+Dat:ныслы K ;
 +Sg1+Instr:ӧн K ; !There is no indication of person. = Sg1, Pl3
 +Pl3+Instr:ӧн K ; !There is no indication of person. = Sg1, Pl3
-+Instr+PxSg1-ym+Instr:намӧн K ;
++Instr+PxSg1+Instr:намӧн K ;
 +Instr+PxSg2:над K ;
 +Instr+PxSg3:нас K ;
 +Instr+PxPl1:наным K ;
@@ -554,7 +554,7 @@ LEXICON PRON-REFL-OBL-CASES
 +Ine+PxPl2:аныд K ;
 +Ine+PxPl3:аныс K ;
 +Sg1+Ill:ӧ K ; !There is no indication of person. = Sg1
-+Ill+PxSg1-ym:ам K ; !Ӧнія коми кыв gives this for illative only
++Ill+PxSg1:ам K ; !Ӧнія коми кыв gives this for illative only
 +Ill+PxSg2:ад K ; !
 +Ill+PxSg3:ас K ; !
 +Ill+PxPl1:аным K ; !
@@ -850,7 +850,7 @@ LEXICON PRONQ-STAV-CASES
 +Nom+PxPl3:ныс K ;
 
 +Instr:ӧн K ;
-+Instr+PxSg1-ym:нам K ;
++Instr+PxSg1:нам K ;
 +Instr+PxSg2:над K ;
 +Instr+PxSg3:нас K ;
 +PxPl1+Instr:нымӧн K ; ! Should there be a Der/ӧн tag?
