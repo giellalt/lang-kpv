@@ -968,12 +968,19 @@
 <xs:element name="stem" type="xs:string"/>
 <xs:element name="contlex" type="xs:string"/>
 
+<!--
+pos = 'Parts of Speech'
+
+
+-->
+
 <xs:element name="pos" type="pos_TYPE"/>
 <xs:attribute name="pos" type="pos_TYPE"/>
 
+
 <xs:simpleType name="pos_TYPE">
   <xs:restriction base="xs:string">
-    <xs:enumeration value="A"/><!-- Adjective-->
+    <xs:enumeration value="A"/><!-- 'Adjective' An -->
     <xs:enumeration value="A-CAR"/><!-- -->
     <xs:enumeration value="A-SUPERL"/><!-- Superlative Adjactive -->
     <xs:enumeration value="AD-A"/><!-- Adverb, Adjective modifier -->
