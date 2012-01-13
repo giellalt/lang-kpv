@@ -88,8 +88,9 @@ LEXICON noperiod
 LEXICON ITRAB
 
 
-bill.mrk ab ;
-
+в ab ;
+г ab ;
+гг ab ;
 
 
 ! =============================================== !
@@ -117,7 +118,9 @@ LEXICON TRAB
 
 ! dot% noStb.db
 ! Abbreviations that never induce sentence boundaries
-! The file is too large and should be shrinked
+
+досл ab-dot ;
+
 ! fenr. 10.
 ! fenr. 5. a.
 ! fenr. Ståhl.
@@ -125,7 +128,6 @@ LEXICON TRAB
 ! They simply do never give CLB.
 
 ! Capital
-1.aman ab-noun ;
 А ab-noun ;
 Б ab-noun ;
 В ab-noun ;
