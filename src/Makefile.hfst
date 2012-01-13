@@ -138,6 +138,14 @@ upper-lexc-hfst: ../bin/$(GTLANG)-upper.hfst
 		hfst-compose-intersect $(HFST_FLAGS) \
 		-2 $(GTHOME)/gt/common/bin/uppercase-first.hfst > $@
 
+$(GTHOME)/gt/common/bin/uppercase-first.hfst: \
+		$(GTHOME)/gt/common/src/uppercase-first.twolc
+	@echo
+	@echo "*** Building $(@F) ***" ;
+	@echo
+	cd $(GTHOME)/gt && \
+		$(MAKE) GTLANG=sme common/bin/$(@F)
+
 # Finally invert and optimize
 $(GTLANG).hfst: ../bin/$(GTLANG).hfst ihfst
 ../bin/$(GTLANG).hfst: ../bin/$(GTLANG)-upper.hfst
@@ -293,4 +301,8 @@ apertium: ../bin/$(GTLANG)-mor.hfstol ../bin/$(GTLANG)-mor.lower.hfstol ../bin/$
 ###########################################################################################
 
 clean:
-	rm -f ../bin/*.hfst ../bin/*.hfstol $(GTLANG)-lex-xmlsrc.txt ../../tmp/out/*$(GTLANG)-*
+	rm -f ../bin/*.hfst \
+		  ../bin/*.hfstol \
+		  ../../tmp/out/*$(GTLANG)-* \
+		  $(GTLANG)-lex-xmlsrc.txt \
+		  $(GTHOME)/gt/common/bin/uppercase-first.hfst
