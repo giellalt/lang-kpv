@@ -703,10 +703,10 @@
             <xs:element ref="stem"/>
             <xs:element ref="contlex"/>
             <xs:element ref="pos"/>
-	    <xs:element ref="drvg" minOccurs="0"/>
 	    <xs:element name="e" maxOccurs="unbounded" minOccurs="0">
 	      <xs:complexType>
 		<xs:sequence>
+		  <xs:element ref="drvg" minOccurs="0"/>
 		  <xs:choice maxOccurs="unbounded" minOccurs="0">
 		    <xs:element ref="val" />
 		    <xs:element ref="voice" />
