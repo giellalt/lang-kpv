@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dict xsi:noNamespaceSchemaLocation="../dict.xsd"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema"
-      xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+<dict xsi:noNamespaceSchemaLocation="../dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <entry>
       <lemma>кид</lemma>
       <stem/>
@@ -128,13 +126,13 @@
    <entry>
       <lemma>абуджык</lemma>
       <stem/>
-      <contlex>Adj</contlex>
-      <pos>A</pos>
+      <contlex>Ad-ATAG</contlex>
+      <pos>AD-A</pos>
       <e>
          <mg MNo="1">
             <m>
                <head/>
-               <tg lang="ru"><t>менее</t></tg>
+               <tg lang="ru"><t pos="AD-A">менее</t></tg>
             </m>
             <xg>
                <x>абуджык лӧсьыд</x>
@@ -481,7 +479,7 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>видимый</t></tg>
+               <tg lang="ru"><t pos="A">видимый</t></tg>
             </m>
             <xg>
                <x>быдӧнлы аддзана</x>
@@ -8569,6 +8567,106 @@
       </e>
    </entry>
    <entry>
+      <lemma>воддза</lemma>
+      <stem/>
+      <contlex>Adj</contlex>
+      <pos>A</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>передний</t></tg>
+            </m>
+            <xg>
+               <x>воддза кӧлеса</x>
+               <xtg lang="ru"><xt>переднее колесо</xt></xtg>
+            </xg>
+            <xg>
+               <x>мунны воддза вӧв доддяс</x>
+               <xtg lang="ru"><xt>ехать на передней подводе</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>предыдущий, предшествующий</t></tg>
+               <tg lang="ru"><t> прошлый</t></tg>
+            </m>
+            <xg>
+               <x>воддза воясӧ</x>
+               <xtg lang="ru"><xt>в предыдущие годы</xt></xtg>
+            </xg>
+            <xg>
+               <x>воддза лист бокын</x>
+               <xtg lang="ru"><xt>а) на предыдущей странице; б) на титульном листе</xt></xtg>
+            </xg>
+            <xg>
+               <x>воддза олӧм</x>
+               <xtg lang="ru"><xt>прошлая жизнь</xt></xtg>
+            </xg>
+            <xg>
+               <x>праздник воддза лунӧ</x>
+               <xtg lang="ru"><xt>накануне праздника</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="3">
+            <m>
+               <head/>
+               <tg lang="ru"><t>прежний</t></tg>
+            </m>
+            <xg>
+               <x>воддза моз</x>
+               <xtg lang="ru"><xt>по-прежнему</xt></xtg>
+            </xg>
+            <xg>
+               <x>бӧр босьтчыны воддза уджӧ</x>
+               <xtg lang="ru"><xt>вернуться к прежней работе</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="4">
+            <m>
+               <head/>
+               <tg lang="ru"><t>передовой</t></tg>
+            </m>
+            <xg>
+               <x>воддза статья</x>
+               <xtg lang="ru"><xt>передовая статья</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="5">
+            <m>
+               <head/>
+               <tg lang="ru"><t>первый</t></tg>
+               <tg lang="ru"><t> вступительный</t></tg>
+            </m>
+            <xg>
+               <x>воддза юкӧн</x>
+               <xtg lang="ru"><xt>а) вступительная часть; б) первая глава</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="6">
+            <m>
+               <head/>
+               <tg lang="ru"><t>ранний</t></tg>
+            </m>
+            <xg>
+               <x>поэтлӧн воддза гижӧдъяс</x>
+               <xtg lang="ru"><xt>ранние произведения поэта</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="7">
+            <m>
+               <head/>
+               <tg lang="ru"><t>вводный</t></tg>
+            </m>
+            <xg>
+               <x>воддза лекция</x>
+               <xtg lang="ru"><xt>вводная лекция</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>водзвывса</lemma>
       <stem/>
       <contlex>Adj</contlex>
@@ -11641,6 +11739,72 @@
       </e>
    </entry>
    <entry>
+      <lemma>гежӧд</lemma>
+      <stem/>
+      <contlex>Adj</contlex>
+      <pos>A</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>редкий, расположенный с промежутками</t></tg>
+            </m>
+            <xg>
+               <x>гежӧд вӧр</x>
+               <xtg lang="ru"><xt>редкий лес</xt></xtg>
+            </xg>
+            <xg>
+               <x>гежӧдджык кӧдзаяс</x>
+               <xtg lang="ru"><xt>разрежённые посевы</xt></xtg>
+            </xg>
+            <xg>
+               <x>гежӧд нянь</x>
+               <xtg lang="ru"><xt>редкие хлеба</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>редкий, маловстречающийся</t></tg>
+            </m>
+            <xg>
+               <x>гежӧд кага оз бӧрд</x>
+               <xtg lang="ru"><xt>редкий ребёнок не плачет</xt></xtg>
+            </xg>
+            <xg>
+               <x>та йылысь гежӧд тӧдысьыс</x>
+               <xtg lang="ru"><xt>об этом мало кто знает</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>гежӧдик</lemma>
+      <stem/>
+      <contlex>Adj</contlex>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>реденький</t></tg>
+            </m>
+            <xg>
+               <x>гежӧдик козъя вӧр</x>
+               <xtg lang="ru"><xt>реденький ельник</xt></xtg>
+            </xg>
+            <xg>
+               <x>гежӧдик петас</x>
+               <xtg lang="ru"><xt>реденькие всходы</xt></xtg>
+            </xg>
+            <xg>
+               <x>гежӧдик ус-тошка мужик</x>
+               <xtg lang="ru"><xt>мужик с реденькими усами и бородой</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>гежӧдик% восьсаинъяса</lemma>
       <stem/>
       <contlex>Adj</contlex>
@@ -13015,9 +13179,9 @@
          <mg MNo="2">
             <m>
                <head><sns>перен.</sns></head>
-               <tg lang="ru"><t>заливистый</t></tg>
-               <tg lang="ru"><t>раскатистый</t></tg>
-               <tg lang="ru"><t>гулкий</t></tg>
+               <tg lang="ru"><t pos="A">заливистый</t></tg>
+               <tg lang="ru"><t pos="A">раскатистый</t></tg>
+               <tg lang="ru"><t pos="A">гулкий</t></tg>
             </m>
             <xg>
                <x>гылыд серам</x>
@@ -13037,7 +13201,7 @@
          <mg MNo="4">
             <m>
                <head><range>диал.</range></head>
-               <tg lang="ru"><t>легко, весело</t></tg>
+               <tg lang="ru"><t pos="COMPL">легко</t><t pos="COMPL">весело</t></tg>
             </m>
             <xg>
                <x>талун сылы зэв гылыд</x>
