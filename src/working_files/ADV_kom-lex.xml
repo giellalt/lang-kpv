@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dict xsi:noNamespaceSchemaLocation="../dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <entry>
       <lemma>вежавидзтӧг</lemma>
       <stem/>
@@ -7171,6 +7171,61 @@
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>редко</t></tg>
+            </m>
+            <xg>
+               <x>гежӧда бергалан кыв</x>
+               <xtg lang="ru"><xt>малоупотребительное слово</xt></xtg>
+            </xg>
+            <xg>
+               <x>гежӧда овлысь тӧвар</x>
+               <xtg lang="ru"><xt>дефицитный товар</xt></xtg>
+            </xg>
+            <xg>
+               <x>зэв гежӧда</x>
+               <xtg lang="ru"><xt>редко когда</xt></xtg>
+            </xg>
+            <xg>
+               <x>гежӧда волыны</x>
+               <xtg lang="ru"><xt>редко бывать</xt></xtg>
+            </xg>
+            <xg>
+               <x>гежӧдджыка аддзысьлыны</x>
+               <xtg lang="ru"><xt>реже встречаться</xt></xtg>
+            </xg>
+            <xg>
+               <x>гежӧда кӧдзны</x>
+               <xtg lang="ru"><xt>редко сеять</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>гежӧдика</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t pos="ADV">изредка</t></tg>
+               <tg lang="ru"><t pos="ADV">реденько </t><register>разг.</register></tg>
+            </m>
+            <xg>
+               <x>гежӧдика волывлыны</x>
+               <xtg lang="ru"><xt>изредка бывать</xt></xtg>
+            </xg>
+            <xg>
+               <x>кӧнкӧ истан гежӧдика чипӧстлас</x>
+               <xtg lang="ru"><xt>где-то кулик-прибрежник изредка пискнет</xt></xtg>
+            </xg>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>гежӧдлаын</lemma>
