@@ -201,36 +201,30 @@
     <xs:element ref="stRef" maxOccurs="unbounded" minOccurs="0"/>
     <xs:choice maxOccurs="unbounded">
       <xs:element ref="att"/> 
-  <xs:element ref="xtg"/>
-<!--    <xs:element ref="t"/>
-2011-11-08-->
-    <xs:element ref="assoc"/>
-    <xs:element ref="field"/>
-    <xs:element ref="sns"/>
-    <xs:element ref="source"/>
-    <xs:element ref="com"/>
-    <xs:element ref="i"/> <!-- This needs to be eliminated by providing a better, informative tag -->
-    <xs:element ref="answer"/>
-    <xs:element ref="equivalent"/>
-    <xs:element ref="literal"/>
+      <xs:element ref="xtg"/>
+      <xs:element ref="assoc"/>
+      <xs:element ref="field"/>
+      <xs:element ref="sns"/>
+      <xs:element ref="source"/>
+      <xs:element ref="com"/>
+      <xs:element ref="i"/> <!-- This needs to be eliminated by providing a better, informative tag -->
+      <xs:element ref="answer"/>
+      <xs:element ref="equivalent"/>
+      <xs:element ref="literal"/>
     </xs:choice>
     </xs:sequence>
-<xs:attribute name="type">
- <xs:simpleType>
-   <xs:restriction base="xs:string">
-     <xs:enumeration value="idiom"/>
-     <xs:enumeration value="proverb"/>
-     <xs:enumeration value="riddle"/>
-     <xs:enumeration value="playOnWords"/>
-     <xs:enumeration value="saying"/>
-     <xs:enumeration value="sign"/>
-   </xs:restriction>
- </xs:simpleType>
-</xs:attribute>
-<xs:attribute ref="der"/>
-<xs:attribute ref="cx"/>
-<xs:attribute ref="possPx"/>
-<xs:attribute ref="nx"/>
+    <xs:attribute name="type">
+      <xs:simpleType>
+	<xs:restriction base="xs:string">
+	  <xs:enumeration value="idiom"/>
+	  <xs:enumeration value="proverb"/>
+	  <xs:enumeration value="riddle"/>
+	  <xs:enumeration value="playOnWords"/>
+	  <xs:enumeration value="saying"/>
+	  <xs:enumeration value="sign"/>
+	</xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
   </xs:complexType>
 </xs:element>
 
