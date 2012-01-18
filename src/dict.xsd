@@ -841,6 +841,7 @@
 	<xs:attribute name="isa">
 	  <xs:simpleType>
 	    <xs:restriction base="xs:string">
+	      <xs:enumeration value="Cyrillic_surname"/>
 	      <xs:enumeration value="Komi_surname"/>
 	      <xs:enumeration value="Russian_surname"/>
 	      <xs:enumeration value="Ukrainian_surname"/>
