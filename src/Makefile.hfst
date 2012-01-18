@@ -10,9 +10,10 @@ ZIP = /usr/bin/zip
 # Language codes:
 GTLANG=kom
 #2LCODE=kv # This is the correct code.
-# kv is presently replaced with kk (the language code for Kazakh)
+# kv is presently replaced with la (the language code for Latin)
 # to allow testing in OOo, which does not yet have support for Komi
-2LCODE=kk
+# For some reason kk (Kazakh) would not work
+2LCODE=la
 
 # Possible formats are:
 # - foma
