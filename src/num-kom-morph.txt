@@ -5,7 +5,7 @@
 !  Numeral morphological lexica !
 ! ============================= !
 
-
+!This has to be worked on 2012-01-19
 LEXICON NUMTAG
  CARD ;
  ORD ;
@@ -20,8 +20,8 @@ LEXICON CARD
 
 LEXICON COLL
 +Num+Coll:%>нан NumCASEPOSSLEX ; !give it a go
-+Num+Coll+Iter:%>ысь K ;
-+Num+Coll+Iter+Instr:%>ысьӧн K ;
++Num+Coll+Iter:%>нанысь K ;
++Num+Coll+Iter+Instr:%>нанысьӧн K ;
 
 LEXICON ORD
 +Num+Ord: NumCASEPOSSLEX ; ! ӧд part of the stem
