@@ -240,6 +240,7 @@ LEXICON Verb-nyDer
 < 0:ы 0:ш 0:т "+Der/ышт":0 "@C.CONJ-INF@" > Verb-ny ; !!сёйыштны
 < 0:ч 0:ы 0:ш 0:т "+Der/чы":0 "+Der/ышт":0 "@C.CONJ-INF@" > Verb-ny ; !!босьтчыштны
 < 0:а 0:л "+Der/ал":0 "@C.CONJ-INF@" > Verb-ny ; !!сетавны
+< 0:а 0:в 0:л "+Der/ал":0 "+Der/лы":0 "@C.CONJ-INF@" > Verb-yny ; !!сетавлыны
 < 0:о 0:в 0:т "+Der/овт":0 "@C.CONJ-INF@" > Verb-ny ; !!пановтны
 < 0:а 0:с 0:ь "+Der/ась":0 "@C.CONJ-INF@" > Verb-ny ; !! босьтасьны
 
@@ -296,10 +297,6 @@ LEXICON VerbDer
 +ANAA+Adv:%>анаа K ; !Adding after attestation in Komi Grammar 2000: 381
 +AN+Der/моз:%>анмоз PossessiveSuffixes_NoSg1 ; !383
 
-+Car:%>тӧг PossessiveSuffixes_NoSg1 ; ! 390
-+Car+Use/Sub:%>тӧгъя K ; !387
-+Car+Use/Sub:%>тӧга K ; !387
-+Car+Der/моз:%>тӧгмоз PossessiveSuffixes_NoSg1 ; !
 +Der/ӧм+Event+N+Instr:%>ӧмӧн K ;
 +Der/ысь+ActPrsPtc:%>ысь Noun1 ;
 
@@ -342,11 +339,11 @@ LEXICON Verb-ynyDer
 < 0:ы 0:с 0:ь 0:л  "+Der/сь":0 "+Der/л":0 "@C.CONJ-INF@" > Verb-yny ; !!кутчысьлыны
 
 < 0:а 0:л "+Der/ал":0 "@C.CONJ-INF@" > Verb-ny ; !!бергӧдчавны
+< 0:а 0:в 0:л "+Der/ал":0 "+Der/лы":0 "@C.CONJ-INF@" > Verb-yny ; !!бергӧдчавлыны
 < 0:а 0:с 0:ь "+Der/ась":0 "@C.CONJ-INF@" > Verb-ny ; !! бертласьны
 
 
-
-!<!-- This far 2011-12-30 -->
+!<!-- This far 2012-01-19 -->
 
 !< 0:о 0:в 0:т "+Der/овт":0 "@C.CONJ-INF@" > Verb-ny ; !!пановтны
 
@@ -362,6 +359,11 @@ LEXICON VerbDer-V
 +Der/мӧн:%>мӧн PossessiveSuffixes_NoSg1 ; !399-403
 +Der/мӧнъя:%>мӧнъя # ; !399-403
 +Der/тӧм+VAbe:%>тӧм PossessiveSuffixes ;
++Car:%>тӧг PossessiveSuffixes_NoSg1 ; ! 390
++Car+Use/Sub:%>тӧгъя K ; !387
++Car+Use/Sub:%>тӧга K ; !387
++Car+Der/моз:%>тӧгмоз PossessiveSuffixes_NoSg1 ; !
+
 
 
 
