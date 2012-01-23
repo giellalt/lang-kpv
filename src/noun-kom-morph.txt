@@ -47,10 +47,12 @@ LEXICON Prop-Derivable
 ! Prop-Derivable end  in: ев, ов, ёв, ий, ин
 ! Prop-Derivable for fem: ева, ова, ёва, ая, ина
 
-!LEXICON Prop-Patronyms
-!ович+N+Prop+Patr+Mal+Sg:%>ич CASEPOSSLEX ; ! Владимирович
-!овна+N+Prop+Patr+Fem+Sg:%>на CASEPOSSLEX ; ! Владимировна
 
+!This might need some working on 2012-01-23
+LEXICON Prop-Mal-Derivable !Patronyms
+ович+N+Prop+Patr+Mal+Sg:%>ович CASEPOSSLEX ; ! Владимирович
+овна+N+Prop+Patr+Fem+Sg:%>овна CASEPOSSLEX ; ! Владимировна
+ Prop-Mal ; Владимир
 
 
 LEXICON Prop-Plc ! Inanimate proper nouns. Place names
