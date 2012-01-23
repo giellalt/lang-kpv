@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dict xsi:noNamespaceSchemaLocation="../dict.xsd"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema"
-      xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+<dict xsi:noNamespaceSchemaLocation="../dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <entry>
       <lemma>кид</lemma>
       <stem/>
@@ -4242,6 +4240,35 @@
             <xg>
                <x>бузгана шор</x>
                <xtg lang="ru"><xt>ручей с водопадом</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>бука</lemma>
+      <stem/>
+      <contlex>Adj</contlex>
+      <pos>A</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>выпуклый, нависший</t></tg>
+            </m>
+            <xg>
+               <x>бука плеш</x>
+               <xtg lang="ru"><xt>выпуклый лоб</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head><range>диал.</range></head>
+               <tg lang="ru"><t>комолый, безрогий</t></tg>
+               <assoc RN="I" assocType="seeAlso">сюртӧм</assoc>
+            </m>
+            <xg>
+               <x>мӧскыс бука</x>
+               <xtg lang="ru"><xt>корова комолая</xt></xtg>
             </xg>
          </mg>
       </e>
@@ -32601,6 +32628,24 @@
             <xg>
                <x>мӧдлапӧвса олысьяс</x>
                <xtg lang="ru"><xt>заречные жители</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>мӧд% пӧлӧс </lemma>
+      <stem/>
+      <contlex>Adj</contlex>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t pos="A">иной</t><t pos="A">другой</t></tg>
+            </m>
+            <xg>
+               <x>мӧд пӧлӧс сёрни оз вермы лоны</x>
+               <xtg lang="ru"><xt>иного разговора быть не может</xt></xtg>
             </xg>
          </mg>
       </e>
