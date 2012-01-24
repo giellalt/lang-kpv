@@ -40,8 +40,8 @@ define Cns [ б | в | г | д | ж | з
            | Й | К | Л | М | Н | П | Р | С | Т | Ф | Х | Ц 
            | ч | ш | щ | ъ | ь 
            | Ч | Ш | Щ | Ъ | Ь 
-           | к2 | л2 | м2 | т2 
-           | К2 | Л2 | М2 | Т2 ] ;
+           | к2 | л2 | м2 | т2 | ь2
+           | К2 | Л2 | М2 | Т2 | Ь2 ] ;
 
 define CnsNotSoft [ б | в | г | д | ж | з 
                   | Б | В | Г | Д | Ж | З 
@@ -106,10 +106,11 @@ define mDeletion м -> 0 || н _  [ .#. | %> Cns ] ;
  !€ синм:син
  !€ синм>сӧ:синсӧ
 
-define kDeletion к -> 0 || [ с | ш | с ь | ч] _ [.#. | %> Cns] ; 
+define kDeletion к -> 0 || [ с | ш | с ь | с ь2 | ч] _ [.#. | %> Cns] ; 
  !€ воск>ыс:воскыс
  !€ воск:вос
  !€ воск>сӧ:воссӧ
+ !€ кось2к>сянь:косьсянь
 
 define tDeletion т -> 0 || п _ [.#. | %> Cns] ;
  !€ зепт>ыс:зептыс
@@ -165,9 +166,15 @@ define iPalatalisation [ і -> и || [ Vow | CnsBeforeCyri | ь | д з ] Flags*
  !€ шу>іс:шуис
  !For some reason this does not work
 
-define SoftMarkDeletion [ ь -> 0 || _ Flags* %> [ я | ё | ю | и ] ] ; 
+define SoftMarkDeletion [ ь -> 0 || _ Flags* %> [ я | ё | ю | и ] ,, 
+                          ь -> 0 || с _ Flags* %> с [ ь | я ] ] ; 
 ! Testcases: see VowelPalatalisation above
+! Also orthography _Коми орфография кывкуд 2008: 9_
+! ь2, Ь2 will be used to mark special instances of _ь_ retension
+ !€ велӧдысь>сянь:велӧдыссянь
+ !€ велӧдысь>сьыс:велӧдыссьыс
   
+
 define HardMarkDeletion ъ -> 0 || [ Vow (й) | ь ] %> _ ;
  !€ вой>ъяс:войяс
  !€ выль>ъяс:выльяс
@@ -178,13 +185,19 @@ define HardMarkDeletion ъ -> 0 || [ Vow (й) | ь ] %> _ ;
 define HardMarkPalatalisation ъ -> ь || [ д з | ч ] %> _ ;
  !€ виддз>ъяс:видзьяс
  
- 
-
+define NoTrippleLetters [ с -> 0 || с _ %> с ,,
+                          т -> 0 || т _ %> т ,,
+                          л -> 0 || л _ %> л ] ;
+! Also orthography _Коми орфография кывкуд 2008: 16_
+ !€ класс>сянь:классянь
+ !€ Блатт>тӧг:Блаттӧг
+ !€ металл>лӧн:металлӧн
 
 echo << defining cleanup rules >>
 
 define Cleanup ӧ2 -> ӧ, е2 -> е, о2 -> о, к2 -> к, л2 -> л, м2 -> м, т2 -> т,
-               Ӧ2 -> Ӧ, Е2 -> Е, О2 -> О, К2 -> К, Л2 -> Л, М2 -> М, Т2 -> Т ;
+               Ӧ2 -> Ӧ, Е2 -> Е, О2 -> О, К2 -> К, Л2 -> Л, М2 -> М, Т2 -> Т, 
+               ь2 -> ь, Ь2 -> Ь ;
 
 define Deletion [ %@ -> 0 ] ;
 
@@ -210,6 +223,7 @@ read regex [
 .o. SoftMarkDeletion
 .o. HardMarkDeletion
 .o. HardMarkPalatalisation
+.o. NoTrippleLetters
 .o. Cleanup
 .o. Deletion
 .o. DummyDeletion
