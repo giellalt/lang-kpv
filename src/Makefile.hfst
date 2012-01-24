@@ -54,6 +54,13 @@ include Makefile_xml
 	save stack $@ \n" > $@.script
 	hfst-xfst -F $(HFST_FORMAT) -f $@.script
 
+# Target for all common twolc files:
+../bin/%.hfst: ../src/%.twolc
+	@echo
+	@echo "*** Building $(@F) ***" ;
+	@echo
+	hfst-twolc $(HTWOLC_FLAGS) -i $< -o $@
+
 # Compile the twolc file:
 twol-hfst \
 ../bin/$(GTLANG)-twol.hfst: ../src/twol-$(GTLANG).txt
@@ -131,7 +138,7 @@ ihfst i$(GTLANG).hfst: ../bin/i$(GTLANG).hfstol
 upper-lexc-hfst: ../bin/$(GTLANG)-upper.hfst
 ../bin/$(GTLANG)-upper.hfst: \
 		../bin/$(GTLANG)-tagsremoved.hfst \
-		$(GTHOME)/gt/common/bin/uppercase-first.hfst
+		../bin/uppercase-first.hfst
 	@echo
 	@echo "*** Building $(@F) ***" ;
 	@echo
