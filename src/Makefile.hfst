@@ -144,7 +144,7 @@ upper-lexc-hfst: ../bin/$(GTLANG)-upper.hfst
 	@echo
 	cat $< | \
 		hfst-compose-intersect $(HFST_FLAGS) \
-		-2 $(GTHOME)/gt/common/bin/uppercase-first.hfst > $@
+		-2 ../bin/uppercase-first.hfst > $@
 
 $(GTHOME)/gt/common/bin/uppercase-first.hfst: \
 		$(GTHOME)/gt/common/src/uppercase-first.twolc
