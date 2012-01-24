@@ -98,6 +98,7 @@ LIST Instr = Instr ;
 LIST Superl = Superl ; 
 LIST Comp = Comp ; 
 
+LIST Pers = Pers ;
 LIST Refl = Refl ; 
 LIST Rel = Rel ; 
 LIST Interr = Interr ; 
@@ -154,9 +155,15 @@ SET V-FIN = Ind | Cond | Opt ;
 
 SECTION
 
+# Early, word-internal rules
+
 REMOVE:CmpTst CmpTest IF (NOT 1 N);
 SELECT:CmpTst2 CmpTest ; # Kill'em all
 
+
+# CC or Pcle
+
+REMOVE CC IF (-1 BOS)(0 Pcle);
 
 # Derivations
 REMOVE (Der/MWN N Nom);
@@ -173,6 +180,13 @@ REMOVE Interr IF (-2 N)(-1 (","))(0 Rel);
 
 # Verbs
 # =====
+
+# First or third person
+
+REMOVE (Prt1 Sg3) IF (*-1 (Pers Sg1 Nom) BARRIER N + Nom OR Pers + Sg3 + Nom)(0 (V Prt1 Sg1));
+
+REMOVE (Prt1 Sg1) IF (NOT *0 (Pers Sg1 Nom)) ;
+# This may be too strong, it precludes zero Sg1 subjects
 
 # ConNeg or not
 REMOVE ConNeg IF (NOT *-1 Neg BARRIER CLB);
@@ -196,6 +210,11 @@ REMOVE:da2 Adv IF (0 ("да"));
 REMOVE ABBR IF (0 CC)(NOT 1 ("."));
 REMOVE Pcle IF (-1 N + $$CASE)(1 N + $$CASE);
 
-REMOVE Interj IF (NOT 1* ("!")) ;
+REMOVE Interj IF (NOT 1* ("!") BARRIER COMMA) ;
 
 REMOVE Acc IF (0C Nom OR Acc) (NOT -1* V-FIN BARRIER BOS) (NOT -1* V-FIN BARRIER EOS);
+
+
+# Predicative
+
+SELECT A IF (*-1 ("вӧвны") BARRIER N);
