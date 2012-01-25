@@ -2,23 +2,7 @@
 <dict xsi:noNamespaceSchemaLocation="../dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <entry>
-      <lemma>гыбад</lemma>
-      <stem/>
-      <contlex>Ad-ATAG</contlex>
-      <pos>AD-A</pos>
-      <e RN="II">
-         <mg>
-            <m>
-               <head><range>диал.</range></head>
-               <tg lang="ru"><t>насквозь, совсем, совершенно</t></tg>
-               <assoc assocType="seeAlso" stemID="брӧд_Noun1_N"/>
-               <assoc assocType="seeAlso" stemID="сулик_Noun1_N"/>
-            </m>
-         </mg>
-      </e>
-   </entry>
-   <entry>
-      <lemma> бурпӧт</lemma>
+      <lemma>бурпӧт</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
@@ -93,7 +77,7 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>скромно, сдержанно</t></tg>
+               <tg lang="ru"><t pos="ADV">скромно</t><t pos="ADV">сдержанно</t></tg>
             </m>
             <xg>
                <x>шуны авъяа</x>
@@ -197,7 +181,7 @@
          <mg MNo="1">
             <m>
                <head/>
-               <tg lang="ru"><t>с аппетитом, аппетитно</t></tg>
+               <tg lang="ru"><t>с аппетитом</t><t pos="ADV">аппетитно</t></tg>
             </m>
             <xg>
                <x>азыма сёйны</x>
@@ -207,7 +191,8 @@
          <mg MNo="2">
             <m>
                <head><sns>перен.</sns></head>
-               <tg lang="ru"><t>с охотой, охотно</t></tg>
+               <tg lang="ru"><t>с охотой</t></tg>
+               <tg lang="ru"><t pos="ADV">охотно</t></tg>
             </m>
             <xg>
                <x>азыма ытшкыны</x>
@@ -305,74 +290,10 @@
       </e>
    </entry>
    <entry>
-      <lemma>арладор</lemma>
-      <stem/>
-      <contlex>ADVTAG</contlex>
-      <pos>ADV</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-               <tg lang="ru"><t>к осени</t></tg>
-            </m>
-            <xg>
-               <x>арладор кӧдздӧдіс</x>
-               <xtg lang="ru"><xt>к осени похолодало</xt></xtg>
-            </xg>
-         </mg>
-      </e>
-   </entry>
-   <entry>
-      <lemma>арлыдвыв</lemma>
-      <stem>арлыдвыл</stem>
-      <contlex>ADVTAG</contlex>
-      <pos>ADV</pos>
-   </entry>
-   <entry>
       <lemma>арнас</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
-   </entry>
-   <entry>
-      <lemma>аръявыв</lemma>
-      <stem>аръявыл</stem>
-      <contlex>ADVTAG</contlex>
-      <pos>ADV</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-               <tg lang="ru"><t>под осень, в конце лета, на исходе лета</t></tg>
-            </m>
-            <xg>
-               <x>аръявывсянь</x>
-               <xtg lang="ru"><xt>с осени, с конца лета</xt></xtg>
-            </xg>
-            <xg>
-               <x>аръявылӧдз</x>
-               <xtg lang="ru"><xt>до осени</xt></xtg>
-            </xg>
-            <xg>
-               <x>кадыс вӧлі аръявыв</x>
-               <xtg lang="ru"><xt>время было под осень</xt></xtg>
-            </xg>
-         </mg>
-      </e>
-   </entry>
-   <entry>
-      <lemma>аръядор</lemma>
-      <stem/>
-      <contlex>ADVTAG</contlex>
-      <pos>ADV</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-               <assoc MNo="1" assocType="see">аръявыв</assoc>
-            </m>
-         </mg>
-      </e>
    </entry>
    <entry>
       <lemma>ас% кадӧ</lemma>
@@ -1013,7 +934,7 @@
       <lemma>бердсянь</lemma>
       <stem>берд</stem>
       <contlex>ADV-SPAT-EGR</contlex>
-      <pos>ADV</pos>
+      <pos>ADV-SPAT</pos>
       <e>
          <mg>
             <m>
@@ -2782,6 +2703,32 @@
          </mg>
       </e>
    </entry>
+   <entry exclude="fst">
+      <lemma>бӧрвывсянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>сзади</t></tg>
+            </m>
+            <xg>
+               <x>бӧрвывсянь чукӧстісны</x>
+               <xtg lang="ru"><xt>сзади окликнули</xt></xtg>
+            </xg>
+            <xg>
+               <x>бӧрвывсянь кыліс кодлӧнкӧ кызӧмыс</x>
+               <xtg lang="ru"><xt>сзади послышался чей-то кашель</xt></xtg>
+            </xg>
+            <xg>
+               <x>дыр сійӧ видзӧдіс ас вылас водзсяньыс и бӧрвывсяньыс</x>
+               <xtg lang="ru"><xt>он долго оглядывал себя спереди и сзади</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
    <entry>
       <lemma>бӧрвылас</lemma>
       <stem/>
@@ -2948,6 +2895,76 @@
             <xg>
                <x>бӧрйӧмӧн вӧр пӧрӧдӧм</x>
                <xtg lang="ru"><xt>выборочная рубка леса</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lemma>бӧрладорсянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t/></tg>
+               <assoc assocType="see">бӧрвывсянь</assoc>
+            </m>
+            <xg>
+               <x>бӧрладорсянь дадь йӧткыны</x>
+               <xtg lang="ru"><xt>толкать санки сзади</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lemma>бӧрладорті</lemma>
+      <stem/>
+      <contlex>ADV-IS_TRA</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <assoc MNo="1" assocType="see">бӧрвывті</assoc>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lemma>бӧрладорын</lemma>
+      <stem/>
+      <contlex>ADV-IS_INE</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t/></tg>
+               <assoc assocType="see">бӧрвылын</assoc>
+            </m>
+            <xg>
+               <x>бӧрладорын мыйкӧ ратшмуні</x>
+               <xtg lang="ru"><xt>позади что-то хрустнуло</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lemma>бӧрладорӧ</lemma>
+      <stem/>
+      <contlex>ADV-IS_ILL</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>назад</t></tg>
+            </m>
+            <xg>
+               <x>бӧрладорӧ видзӧдлыны</x>
+               <xtg lang="ru"><xt>посмотреть назад</xt></xtg>
             </xg>
          </mg>
       </e>
@@ -3277,6 +3294,42 @@
       </e>
    </entry>
    <entry>
+      <lemma>важсянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <assoc MNo="1" assocType="see">важысянь</assoc>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lemma>важысянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>исстари, издавна, с давних пор</t></tg>
+            </m>
+            <xg>
+               <x>важысянь нин тӧдса</x>
+               <xtg lang="ru"><xt>с давних пор известно</xt></xtg>
+            </xg>
+            <xg>
+               <x>уна обычайяс кыссьӧны важысянь</x>
+               <xtg lang="ru"><xt>многие обычаи восходят к древности</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>важысянь</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
@@ -3287,6 +3340,20 @@
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry exclude="fst">
+      <lemma>важӧнсянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <assoc MNo="1" assocType="see">важысянь</assoc>
+            </m>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>ваз</lemma>
@@ -3680,6 +3747,38 @@
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
    </entry>
+   <entry exclude="fst">
+      <lemma>векисянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>издавна, испокон веку</t></tg>
+            </m>
+            <xg>
+               <x>тайӧ вӧрас векисянь кыйсисны</x>
+               <xtg lang="ru"><xt>в этой тайге издавна занимались охотой</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lemma>вексянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <assoc MNo="1" assocType="see">векисянь</assoc>
+            </m>
+         </mg>
+      </e>
+   </entry>
    <entry>
       <lemma>велавтӧг</lemma>
       <stem/>
@@ -3741,6 +3840,20 @@
       </e>
    </entry>
    <entry>
+      <lemma>вемӧсӧдз</lemma>
+      <stem/>
+      <contlex>ADV-IS_TER</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>до состояния наяву</t></tg>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>верзилӧ</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
@@ -3765,6 +3878,20 @@
                <x>верзьӧмӧн тӧвзьыны</x>
                <xtg lang="ru"><xt>мчаться верхом</xt></xtg>
             </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>вермытӧминӧ</lemma>
+      <stem/>
+      <contlex>ADV-IS_ILL</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t/></tg>
+            </m>
          </mg>
       </e>
    </entry>
@@ -3891,6 +4018,149 @@
             <xg>
                <x>веськыдвыв сетчыны</x>
                <xtg lang="ru"><xt>податься вправо</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lemma>веськыдвывсянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>справа</t></tg>
+            </m>
+            <xg>
+               <x>бергӧдчыны веськыдвывсянь шуйгавыв</x>
+               <xtg lang="ru"><xt>повернуться справа налево</xt></xtg>
+            </xg>
+            <xg>
+               <x>веськыдвывсянь петны</x>
+               <xtg lang="ru"><xt>выйти справа</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>веськыдвылын</lemma>
+      <stem/>
+      <contlex>ADV-IS_INE</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>справа, направо</t></tg>
+            </m>
+            <xg>
+               <x>лоны веськыдвылын</x>
+               <xtg lang="ru"><xt>находиться справа</xt></xtg>
+            </xg>
+            <xg>
+               <x>лыйсьӧм кылӧ веськыдвылын</x>
+               <xtg lang="ru"><xt>стрельба слышится справа</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>веськыдвылӧ</lemma>
+      <stem/>
+      <contlex>ADV-IS_ILL</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>вправо</t></tg>
+               <tg lang="ru"><t> направо</t></tg>
+            </m>
+            <xg>
+               <x>веськыдвылӧ видзӧдлыны</x>
+               <xtg lang="ru"><xt>посмотреть вправо</xt></xtg>
+            </xg>
+            <xg>
+               <x>кежны веськыдвылӧ</x>
+               <xtg lang="ru"><xt>свернуть направо</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>веськыдладорсянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>с правой стороны, справа</t></tg>
+            </m>
+            <xg>
+               <x>веськыдладорсянь тӧврутор ӧвтыштіс</x>
+               <xtg lang="ru"><xt>справа подул ветерок</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>веськыдладорті</lemma>
+      <stem/>
+      <contlex>ADV-IS_TRA</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>по правой стороне</t></tg>
+            </m>
+            <xg>
+               <x>мунны веськыдладорті</x>
+               <xtg lang="ru"><xt>держаться правой стороны</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>веськыдладорын</lemma>
+      <stem/>
+      <contlex>ADV-IS_INE</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>направо, справа</t></tg>
+            </m>
+            <xg>
+               <x>веськыдладорын вӧлі лӧнь</x>
+               <xtg lang="ru"><xt>справа всё было тихо</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>весьшӧрӧ</lemma>
+      <stem/>
+      <contlex>ADV-IS_ILL</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>напрасно, зря, даром, попусту</t></tg>
+            </m>
+            <xg>
+               <x>весьшӧрӧ кад видзны</x>
+               <xtg lang="ru"><xt>попусту тратить время</xt></xtg>
+            </xg>
+            <xg>
+               <x>весьшӧрӧ мырсьыны</x>
+               <xtg lang="ru"><xt>стараться впустую</xt></xtg>
             </xg>
          </mg>
       </e>
@@ -4130,6 +4400,24 @@
       </e>
    </entry>
    <entry>
+      <lemma>вирсермунтӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>до полусмерти</t></tg>
+            </m>
+            <xg>
+               <x>вирсермунтӧдз нӧйтны</x>
+               <xtg lang="ru"><xt>избить до полусмерти</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>вирскӧб</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
@@ -4302,6 +4590,20 @@
       <pos>ADV</pos>
    </entry>
    <entry>
+      <lemma>водзвывсянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <assoc MNo="1" assocType="see">водзсянь</assoc>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>водзвылын</lemma>
       <stem>водзвыл</stem>
       <contlex>ADV-SPAT</contlex>
@@ -4392,6 +4694,138 @@
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>водзладорсянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>спереди</t></tg>
+            </m>
+            <xg>
+               <x>водзладорсянь атакуйтӧм</x>
+               <xtg lang="ru"><xt>лобовая атака</xt></xtg>
+            </xg>
+            <xg>
+               <x>водзладорсянь дадь кыскыны</x>
+               <xtg lang="ru"><xt>спереди тащить санки</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>водзладорын</lemma>
+      <stem/>
+      <contlex>ADV-IS_INE</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <assoc MNo="1" assocType="see">водзвылын</assoc>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>водзладорӧ</lemma>
+      <stem/>
+      <contlex>ADV-IS_ILL</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <assoc MNo="1" assocType="see">водзвылӧ</assoc>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>водзлань</lemma>
+      <stem/>
+      <contlex>ADV-IS_APR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>вперёд</t></tg>
+            </m>
+            <xg>
+               <x>водзлань мунны</x>
+               <xtg lang="ru"><xt>идти вперёд</xt></xtg>
+            </xg>
+            <xg>
+               <x>водзлань петны</x>
+               <xtg lang="ru"><xt>выступить вперёд, на передний план</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>впредь</t></tg>
+            </m>
+            <xg>
+               <x>водзлань волы</x>
+               <xtg lang="ru"><xt>впредь заходи</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>водзланьын</lemma>
+      <stem/>
+      <contlex>ADV-IS_APRINE</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>впереди</t></tg>
+            </m>
+            <xg>
+               <x>водзланьын тыдаліс сикт</x>
+               <xtg lang="ru"><xt>впереди виднелось село</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>водзланьӧ</lemma>
+      <stem/>
+      <contlex>ADV-IS_APRILL</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <assoc MNo="1" assocType="see">водзлань</assoc>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>водзсянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head><i>послел. простр.</i></head>
+               <tg lang="ru"><t>спереди <i>кого-чего-л.</i></t></tg>
+            </m>
+            <xg>
+               <x>керка водзсянь</x>
+               <xtg lang="ru"><xt>спереди дома</xt></xtg>
+            </xg>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>водзсянь</lemma>
@@ -4497,6 +4931,42 @@
          </mg>
       </e>
    </entry>
+   <entry>
+      <lemma>водзысь-водзӧ</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>постепенно</t></tg>
+            </m>
+            <xg>
+               <x>водзысь-водзӧ век омӧльтчӧ</x>
+               <xtg lang="ru"><xt>он постепенно слабеет</xt></xtg>
+            </xg>
+            <xg>
+               <x>водзысь-водзӧ шумыс содіс</x>
+               <xtg lang="ru"><xt>шум постепенно усиливался, нарастал</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>водзысянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <assoc MNo="1" assocType="see">водзсянь</assoc>
+            </m>
+         </mg>
+      </e>
+   </entry>
    <entry exclude="fst">
       <lemma>водзӧ</lemma>
       <stem/>
@@ -4546,6 +5016,20 @@
                <x>аскинас мӧдӧдчим водзӧ</x>
                <xtg lang="ru"><xt>назавтра мы отправились дальше</xt></xtg>
             </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>водзӧ-бӧрӧ</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>туда-сюда</t></tg>
+            </m>
          </mg>
       </e>
    </entry>
@@ -4668,6 +5152,32 @@
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>вомгорулын</lemma>
+      <stem/>
+      <contlex>ADV-IS_INE</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>под нос, про себя, негромко</t></tg>
+            </m>
+            <xg>
+               <x>вомгорулын сёрнитны</x>
+               <xtg lang="ru"><xt>говорить вполголоса</xt></xtg>
+            </xg>
+            <xg>
+               <x>вомгорулын сьывны</x>
+               <xtg lang="ru"><xt>мурлыкать песню</xt></xtg>
+            </xg>
+            <xg>
+               <x>мыйкӧ вомгорулас шуис</x>
+               <xtg lang="ru"><xt>он сказал что-то про себя, под нос</xt></xtg>
+            </xg>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>вомлала</lemma>
@@ -4877,6 +5387,39 @@
       </e>
    </entry>
    <entry>
+      <lemma>вывлань</lemma>
+      <stem/>
+      <contlex>ADV-IS_APR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>вверх, кверху</t></tg>
+               <tg lang="ru"><t> ввысь</t></tg>
+            </m>
+            <xg>
+               <x>усьны вывлань кокӧн</x>
+               <xtg lang="ru"><xt>упасть вверх ногами</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>вверх, к верховью <i>(реки)</i></t></tg>
+            </m>
+            <xg>
+               <x>вывлань мунны</x>
+               <xtg lang="ru"><xt>идти к верховью</xt></xtg>
+            </xg>
+            <xg>
+               <x>керкаыс вывлань вожа на</x>
+               <xtg lang="ru"><xt>дом ещё в лесу растёт</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>вывсянь</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
@@ -5041,6 +5584,24 @@
       </e>
    </entry>
    <entry>
+      <lemma>выльлаті</lemma>
+      <stem/>
+      <contlex>ADV-IS_TRA</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>по новому месту</t></tg>
+            </m>
+            <xg>
+               <x>выльлаті резьдӧма</x>
+               <xtg lang="ru"><xt>по новому месту распоролось</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>выльлаын</lemma>
       <stem>выльла</stem>
       <contlex>ADV-SPAT-LA</contlex>
@@ -5101,8 +5662,68 @@
    <entry>
       <lemma>вылісянь</lemma>
       <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>сверху</t></tg>
+            </m>
+            <xg>
+               <x>вылісянь кылӧ шум</x>
+               <xtg lang="ru"><xt>сверху доносится шум</xt></xtg>
+            </xg>
+            <xg type="saying">
+               <x>вылӧ каян — вылісянь и усян</x>
+               <xtg lang="ru"><xt>высоко заберёшься — с высоты и упадёшь</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>сверху, со стороны руководящих органов</t></tg>
+            </m>
+            <xg>
+               <x>индӧд воӧма вылісянь</x>
+               <xtg lang="ru"><xt>получено указание сверху</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="3">
+            <m>
+               <head/>
+               <tg lang="ru"><t>сверху, с верховьев реки</t></tg>
+            </m>
+            <xg>
+               <x>пароход локтӧ вылісянь</x>
+               <xtg lang="ru"><xt>пароход идёт сверху</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>вылісянь</lemma>
+      <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>выліті</lemma>
+      <stem/>
+      <contlex>ADV-IS_TRA</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>высоко</t></tg>
+            </m>
+            <xg>
+               <x>самолёт лэбӧ выліті</x>
+               <xtg lang="ru"><xt>самолёт летит высоко</xt></xtg>
+            </xg>
+         </mg>
+      </e>
    </entry>
    <entry exclude="fst">
       <lemma>вылӧ</lemma>
@@ -5733,6 +6354,22 @@
       </e>
    </entry>
    <entry>
+      <lemma>гыбад</lemma>
+      <stem/>
+      <contlex>Ad-ATAG</contlex>
+      <pos>AD-A</pos>
+      <e RN="II">
+         <mg>
+            <m>
+               <head><range>диал.</range></head>
+               <tg lang="ru"><t>насквозь, совсем, совершенно</t></tg>
+               <assoc assocType="seeAlso" stemID="брӧд_Noun1_N"/>
+               <assoc assocType="seeAlso" stemID="сулик_Noun1_N"/>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>гымкылӧ</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
@@ -5814,6 +6451,20 @@
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>гӧгӧрбоксянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>со всех сторон</t></tg>
+            </m>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>гӧгӧрвоӧмӧн</lemma>
@@ -5952,6 +6603,24 @@
       <pos>ADV</pos>
    </entry>
    <entry>
+      <lemma>гӧрдӧдз</lemma>
+      <stem/>
+      <contlex>ADV-IS_TER</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>докрасна</t></tg>
+            </m>
+            <xg>
+               <x>гӧрдӧдз донӧдны</x>
+               <xtg lang="ru"><xt>накалить докрасна</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>гӧрдӧдмӧн</lemma>
       <stem/>
       <contlex>ADV-IS_GER-MON</contlex>
@@ -5966,6 +6635,20 @@
                <x>гӧрдӧдмӧн зыравны</x>
                <xtg lang="ru"><xt>растереть до покраснения</xt></xtg>
             </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>гӧрдӧдтӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <assoc MNo="1" assocType="see">гӧрдӧдмӧн</assoc>
+            </m>
          </mg>
       </e>
    </entry>
@@ -6051,6 +6734,70 @@
                <head/>
                <tg lang="ru"><t>довольно сжато, кратко</t></tg>
             </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>джынвыйӧ</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV-QNT</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>наполовину</t></tg>
+            </m>
+            <xg>
+               <x>джынвыйӧ бергӧдчӧмӧн</x>
+               <xtg lang="ru"><xt>вполоборота</xt></xtg>
+            </xg>
+            <xg>
+               <x>джынвыйӧ висьтавны</x>
+               <xtg lang="ru"><xt>недосказать</xt></xtg>
+            </xg>
+            <xg>
+               <x>джынвыйӧ восьса</x>
+               <xtg lang="ru"><xt>наполовину открытый</xt></xtg>
+            </xg>
+            <xg>
+               <x>джынвыйӧ куньтыртны син</x>
+               <xtg lang="ru"><xt>наполовину зажмурить глаза</xt></xtg>
+            </xg>
+            <xg>
+               <x>лоны джынвыйӧ прамӧйӧн</x>
+               <xtg lang="ru"><xt>стать наполовину хорошим</xt></xtg>
+            </xg>
+            <xg>
+               <x>джынвыйӧ пасьтӧм</x>
+               <xtg lang="ru"><xt>полуголый</xt></xtg>
+            </xg>
+            <xg>
+               <x>джынвыйӧ пуӧм кольк</x>
+               <xtg lang="ru"><xt>яйца всмятку</xt></xtg>
+            </xg>
+            <xg>
+               <x>джынвыйӧ тшыгъявны</x>
+               <xtg lang="ru"><xt>жить впроголодь</xt></xtg>
+            </xg>
+            <xg>
+               <x>удж джынвыйӧ эштӧдны</x>
+               <xtg lang="ru"><xt>сделать работу наполовину</xt></xtg>
+            </xg>
+            <xg>
+               <x>джынвыйӧ чегны</x>
+               <xtg lang="ru"><xt>надломить</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head><com>редко</com></head>
+               <tg lang="ru"><t>половина</t></tg>
+            </m>
+            <xg>
+               <x>мусӧ джынвыйӧ нин гӧрӧма</x>
+               <xtg lang="ru"><xt>половина поля уже вспахана</xt></xtg>
+            </xg>
          </mg>
       </e>
    </entry>
@@ -6206,6 +6953,30 @@
             <xg>
                <x>дзебсясьтӧг вайны</x>
                <xtg lang="ru"><xt>принести открыто</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>дзенавтӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>до боли</t></tg>
+            </m>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head><sns>перен.</sns></head>
+               <tg lang="ru"><t>до отвала; плотно</t></tg>
+            </m>
+            <xg>
+               <x>рушку дзенавтӧдз пажнайтны</x>
+               <xtg lang="ru"><xt>обедать до отвала</xt></xtg>
             </xg>
          </mg>
       </e>
@@ -6414,6 +7185,82 @@
       <pos>ADV</pos>
    </entry>
    <entry>
+      <lemma>дзикӧдз</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV-QNT</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>совсем, совершенно; всецело</t></tg>
+            </m>
+            <xg>
+               <x>дзикӧдз кусны</x>
+               <xtg lang="ru"><xt>совсем погаснуть</xt></xtg>
+            </xg>
+            <xg>
+               <x>дзикӧдз пемдыны</x>
+               <xtg lang="ru"><xt>совсем потемнеть</xt></xtg>
+            </xg>
+            <xg>
+               <x>дзикӧдз помавны</x>
+               <xtg lang="ru"><xt>вконец разорить</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>окончательно; навсегда</t></tg>
+            </m>
+            <xg>
+               <x>дзикӧдз бырӧдны</x>
+               <xtg lang="ru"><xt>вырвать с корнем</xt></xtg>
+            </xg>
+            <xg>
+               <x>дзикӧдз вылӧ</x>
+               <xtg lang="ru"><xt>насовсем <register>прост.</register></xt></xtg>
+            </xg>
+            <xg>
+               <x>дзикӧдз вылӧ эндӧдны</x>
+               <xtg lang="ru"><xt>окончательно забросить</xt></xtg>
+            </xg>
+            <xg>
+               <x>дзикӧдз жебмыны</x>
+               <xtg lang="ru"><xt>окончательно ослабнуть</xt></xtg>
+            </xg>
+            <xg>
+               <x>мунны дзикӧдз вылӧ</x>
+               <xtg lang="ru"><xt>уехать насовсем</xt></xtg>
+            </xg>
+            <xg>
+               <x>ӧлӧдны дзикӧдз</x>
+               <xtg lang="ru"><xt>предупредить раз и навсегда</xt></xtg>
+            </xg>
+            <xg>
+               <x>дзикӧдз ӧткажитчыны</x>
+               <xtg lang="ru"><xt>отказаться наотрез</xt></xtg>
+            </xg>
+            <xg>
+               <x>дзикӧдз сотчыны</x>
+               <xtg lang="ru"><xt>сгореть дотла</xt></xtg>
+            </xg>
+            <xg>
+               <x>дзикӧдз тшыксьӧм</x>
+               <xtg lang="ru"><xt>неисправимый</xt></xtg>
+            </xg>
+            <xg>
+               <x>дзикӧдз шуны</x>
+               <xtg lang="ru"><xt>твёрдо решить</xt></xtg>
+            </xg>
+            <xg>
+               <x>няньыс оз вермы воны дзикӧдз вытьӧ</x>
+               <xtg lang="ru"><xt>хлеб не успеет дозреть</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>дзирдавмӧн</lemma>
       <stem/>
       <contlex>ADV-IS_GER-MON</contlex>
@@ -6489,6 +7336,24 @@
             <xg>
                <x>юрси дзормымӧн</x>
                <xtg lang="ru"><xt>до поседения волос</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>дзормытӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>до седин</t></tg>
+            </m>
+            <xg>
+               <x>дзормытӧдз овны</x>
+               <xtg lang="ru"><xt>дожить до седин</xt></xtg>
             </xg>
          </mg>
       </e>
@@ -6851,6 +7716,24 @@
       </e>
    </entry>
    <entry>
+      <lemma>доддясьтӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>до запряжки</t></tg>
+            </m>
+            <xg>
+               <x>доддясьтӧдз вӧвтӧ колӧ юктӧдны</x>
+               <xtg lang="ru"><xt>прежде чем запрягать, надо лошадь напоить</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>доза</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
@@ -6905,6 +7788,32 @@
             <xg>
                <x>сьӧлӧм доймымӧныс лои окота бергӧдчывны</x>
                <xtg lang="ru"><xt>до боли в сердце захотелось оглянуться</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>доймытӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>до боли</t></tg>
+            </m>
+            <xg>
+               <x>ачыс шогсьыліс сьӧлӧм доймытӧдз</x>
+               <xtg lang="ru"><xt>сам расстраивался до боли в сердце</xt></xtg>
+            </xg>
+            <xg>
+               <x>сьӧлӧм доймытӧдз вӧлі окота видзӧдлыны ещӧ ӧтчыд мамлы чужӧмас</x>
+               <xtg lang="ru"><xt>до боли в сердце хотелось ещё раз посмотреть на маму</xt></xtg>
+            </xg>
+            <xg>
+               <x>син доймытӧдз видзӧдны</x>
+               <xtg lang="ru"><xt>смотреть до боли в глазах</xt></xtg>
             </xg>
          </mg>
       </e>
@@ -7067,6 +7976,20 @@
       <pos>ADV</pos>
    </entry>
    <entry>
+      <lemma>дорӧ-помӧ</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t/></tg>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>друг</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
@@ -7155,6 +8078,30 @@
             <xg>
                <x>став тушанас дрӧжмунӧмӧн думыштіс ныв</x>
                <xtg lang="ru"><xt>вздрогнув всем телом, подумала девушка</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>дубавтӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>до выдыхания; до потери крепости</t></tg>
+            </m>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>до онемения; до омертвения; до задеревенения</t></tg>
+            </m>
+            <xg>
+               <x>сойяс дубавтӧдз ытшким</x>
+               <xtg lang="ru"><xt>косили до онемения рук</xt></xtg>
             </xg>
          </mg>
       </e>
@@ -7384,6 +8331,24 @@
       </e>
    </entry>
    <entry>
+      <lemma>дульсмунтӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>до потемнения в глазах; до потери сил; выбиваясь из сил</t></tg>
+            </m>
+            <xg>
+               <x>нывбаба уджаліс вой шӧрӧдз, син дульсмунтӧдз</x>
+               <xtg lang="ru"><xt>женщина работала до ночи, до потери сил</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>думайттӧг</lemma>
       <stem/>
       <contlex>ADV-IS_GER-TOG</contlex>
@@ -7550,6 +8515,24 @@
             <xg>
                <x>думӧн лӧсьӧдны</x>
                <xtg lang="ru"><xt>вообразить</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>дундытӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>до вздутия; до отвала</t></tg>
+            </m>
+            <xg>
+               <x>сан сёйӧма, тыдалӧ, дундытӧдзыс</x>
+               <xtg lang="ru"><xt>росомаха наелась, видимо, до отвала</xt></xtg>
             </xg>
          </mg>
       </e>
@@ -7764,6 +8747,24 @@
       </e>
    </entry>
    <entry>
+      <lemma>дӧзмытӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>до потери терпения; до изнеможения</t></tg>
+            </m>
+            <xg>
+               <x>дӧзмытӧдз лоӧ корсьны зэрӧм бӧрад косін</x>
+               <xtg lang="ru"><xt>до изнеможения приходится искать после дождя сухое место</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>дӧзмыштана</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
@@ -7823,6 +8824,24 @@
             <xg>
                <x>дӧзмӧмӧн чукравны кабала</x>
                <xtg lang="ru"><xt>раздражённо скомкать бумагу</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>дӧнзьытӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>до устали; до изнеможения</t></tg>
+            </m>
+            <xg>
+               <x>дӧнзьытӧдз лои виччысьны</x>
+               <xtg lang="ru"><xt>до изнеможения пришлось ждать</xt></xtg>
             </xg>
          </mg>
       </e>
@@ -7892,6 +8911,20 @@
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>еджыдӧдз</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>добела</t></tg>
+            </m>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>ен% милӧстьӧн</lemma>
@@ -8457,6 +9490,20 @@
       </e>
    </entry>
    <entry>
+      <lemma>изьвекысянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>испокон веков</t></tg>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>инаслово</lemma>
       <stem/>
       <contlex>Ad-ATAG</contlex>
@@ -8472,16 +9519,116 @@
       </e>
    </entry>
    <entry>
+      <lemma>инӧ-артӧ</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t/></tg>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>инӧ-честьӧ</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t/></tg>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>ичӧт% дырйи</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
    </entry>
    <entry>
+      <lemma>ичӧтвывсянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>с малых лет; с детства, с детских лет</t></tg>
+            </m>
+            <xg>
+               <x>ичӧтвывсянь висьны</x>
+               <xtg lang="ru"><xt>болеть с малых лет</xt></xtg>
+            </xg>
+            <xg>
+               <x>ичӧтвывсянь тӧдса вӧр-ва</x>
+               <xtg lang="ru"><xt>с малых лет знакомая природа</xt></xtg>
+            </xg>
+            <xg>
+               <x>челядьӧс ичӧтвывсянь уджӧдны</x>
+               <xtg lang="ru"><xt>с малых лет привлекать детей к труду</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>ичӧтдырсянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <assoc MNo="1" assocType="see">ичӧтвывсянь</assoc>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>ичӧтысянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <assoc MNo="1" assocType="see">ичӧтвывсянь</assoc>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>йигӧр</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>йӧз% инын-туйын</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>в людях</t></tg>
+            </m>
+            <xg>
+               <x>йӧз инын-туйын ветлыны</x>
+               <xtg lang="ru"><xt>мыкаться по чужим людям</xt></xtg>
+            </xg>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>йӧзаддза</lemma>
@@ -8510,6 +9657,20 @@
                <x>йӧймымӧн повзьыны</x>
                <xtg lang="ru"><xt>испугаться до сумасшествия</xt></xtg>
             </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>йӧрманінӧ</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <assoc MNo="1" assocType="see">йӧрмӧминӧ</assoc>
+            </m>
          </mg>
       </e>
    </entry>
@@ -8915,6 +10076,24 @@
       </e>
    </entry>
    <entry>
+      <lemma>кельдӧдтӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>добела; до побледнения; до посветления</t></tg>
+            </m>
+            <xg>
+               <x>кельдӧдтӧдз донӧдӧм шонді</x>
+               <xtg lang="ru"><xt>добела раскалённое солнце</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>келӧдӧмӧн</lemma>
       <stem/>
       <contlex>ADV-IS_GER-MON</contlex>
@@ -9088,6 +10267,20 @@
       <pos>ADV</pos>
    </entry>
    <entry>
+      <lemma>килькувтӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>до отчаяния; отчаявшись</t></tg>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>кималасӧн</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
@@ -9209,10 +10402,68 @@
       </e>
    </entry>
    <entry>
+      <lemma>ковтӧмкостті</lemma>
+      <stem/>
+      <contlex>ADV-IS_TRA</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>в ненужный момент</t></tg>
+            </m>
+            <xg>
+               <x>ковтӧмкостті воштыны восьтан</x>
+               <xtg lang="ru"><xt>в ненужный момент потерять ключ</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>кодакості</lemma>
+      <stem/>
+      <contlex>IS_PRON-INTERR</contlex>
+      <pos>PRON-INTERR</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>когда, за какой период, в какое время</t></tg>
+            </m>
+            <xg>
+               <x>кодакості удитіс пыравны?</x>
+               <xtg lang="ru"><xt>когда он успел зайти?</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>кодакості</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV-SPAT</pos>
+   </entry>
+   <entry>
+      <lemma>кодакӧкості</lemma>
+      <stem/>
+      <contlex>IS_PRON-INDEF-KO</contlex>
+      <pos>PRON-INDEF</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>когда-то, в какое-то время</t></tg>
+            </m>
+            <xg>
+               <x>кодакӧкості удитӧма быдмыны</x>
+               <xtg lang="ru"><xt>когда-то успел вырасти</xt></xtg>
+            </xg>
+            <xg>
+               <x>кодакӧкості уськӧдӧма тарӧс</x>
+               <xtg lang="ru"><xt>когда-то застрелил тетерева</xt></xtg>
+            </xg>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>кодарлань</lemma>
@@ -9234,6 +10485,25 @@
             <xg>
                <x>коддзымӧн оз ю</x>
                <xtg lang="ru"><xt>допьяна не пьёт</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>коддзытӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t/></tg>
+               <assoc assocType="see">коддзӧдмӧн</assoc>
+            </m>
+            <xg>
+               <x>коддзымӧн; коддзытӧдз юны</x>
+               <xtg lang="ru"><xt>напиться допьяна</xt></xtg>
             </xg>
          </mg>
       </e>
@@ -9445,6 +10715,44 @@
                <head/>
                <tg lang="ru"><t>на цыпочках</t></tg>
             </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>коланінӧ</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>на случай необходимости</t></tg>
+            </m>
+            <xg>
+               <x>коланінӧ видзтыны</x>
+               <xtg lang="ru"><xt>приберечь на случай необходимости</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>в нужде</t></tg>
+            </m>
+            <xg>
+               <x>коланінӧ отсавны</x>
+               <xtg lang="ru"><xt>помочь в нужде</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="3">
+            <m>
+               <head/>
+               <tg lang="ru"><t>кстати</t></tg>
+            </m>
+            <xg>
+               <x>кыв шуны коланінӧ</x>
+               <xtg lang="ru"><xt>сказать слово кстати</xt></xtg>
+            </xg>
          </mg>
       </e>
    </entry>
@@ -9685,6 +10993,36 @@
       </e>
    </entry>
    <entry>
+      <lemma>кості</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>раньше времени, преждевременно</t></tg>
+            </m>
+            <xg>
+               <x>кості кувны</x>
+               <xtg lang="ru"><xt>преждевременно умереть</xt></xtg>
+            </xg>
+            <xg>
+               <x>кості пӧрысьмыны</x>
+               <xtg lang="ru"><xt>преждевременно состариться</xt></xtg>
+            </xg>
+            <xg>
+               <x>сы кості , та кості</x>
+               <xtg lang="ru"><xt>а) так быстро, так скоро; б) за это время</xt></xtg>
+            </xg>
+            <xg>
+               <x>сэк кості</x>
+               <xtg lang="ru"><xt>тем временем</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>костӧдлӧмӧн</lemma>
       <stem/>
       <contlex>ADV-IS_GER-MON</contlex>
@@ -9717,6 +11055,24 @@
             <xg>
                <x>пельяс косявмӧн чилзыны</x>
                <xtg lang="ru"><xt>визжать до звона в ушах</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>косӧдз</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>досуха; насухо</t></tg>
+            </m>
+            <xg>
+               <x>дозмук косӧдз чышкыны</x>
+               <xtg lang="ru"><xt>вытереть посуду насухо</xt></xtg>
             </xg>
          </mg>
       </e>
@@ -9763,6 +11119,28 @@
             </xg>
             <xg>
                <x>кочкавмӧн серавны</x>
+               <xtg lang="ru"><xt>смеяться до коликов</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>кочкавтӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>до коликов</t></tg>
+            </m>
+            <xg>
+               <x>кочкавтӧдз копрасьны</x>
+               <xtg lang="ru"><xt>кланяться до коликов</xt></xtg>
+            </xg>
+            <xg>
+               <x>кочкавтӧдз серавны</x>
                <xtg lang="ru"><xt>смеяться до коликов</xt></xtg>
             </xg>
          </mg>
@@ -9827,6 +11205,36 @@
             <xg>
                <x>кувмӧн колӧ тӧдны</x>
                <xtg lang="ru"><xt>сгорать от любопытства</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>кувтӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t/></tg>
+               <assoc assocType="see">кувмӧн</assoc>
+            </m>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>до смерти; пока не умрёшь; до гробовой доски</t></tg>
+            </m>
+            <xg>
+               <x>шулӧны: дыр кӧ кутан узьны, кувтӧдзыд водзӧса лоан йӧзлы</x>
+               <xtg lang="ru"><xt>говорят: если долго будешь спать, до самой смерти будешь в долгу перед
+               людьми</xt></xtg>
+            </xg>
+            <xg>
+               <x>кувтӧдз колӧ</x>
+               <xtg lang="ru"><xt>позарез нужно; д~ смерти хочется</xt></xtg>
             </xg>
          </mg>
       </e>
@@ -9973,6 +11381,20 @@
       </e>
    </entry>
    <entry>
+      <lemma>куимладорсянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>с трёх сторон</t></tg>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>куйлӧмӧн</lemma>
       <stem/>
       <contlex>ADV-IS_GER-MON</contlex>
@@ -10018,6 +11440,20 @@
       </e>
    </entry>
    <entry>
+      <lemma>куйӧдавтӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>до внесения навоза</t></tg>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>кук</lemma>
       <stem/>
       <contlex>Ad-ATAG</contlex>
@@ -10046,6 +11482,24 @@
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>кульмытӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>до нереста</t></tg>
+            </m>
+            <xg>
+               <x>чери кульмытӧдз кыйсьыны оз ков</x>
+               <xtg lang="ru"><xt>нельзя ловить рыбу до нереста</xt></xtg>
+            </xg>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>курччышталӧмӧн</lemma>
@@ -10256,6 +11710,48 @@
       </e>
    </entry>
    <entry>
+      <lemma>кушӧдз</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>догола, наголо</t></tg>
+            </m>
+            <xg>
+               <x>юр шырны кушӧдз</x>
+               <xtg lang="ru"><xt>остричь голову наголо</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>дочиста, без остатка, до дна, до основания</t></tg>
+            </m>
+            <xg>
+               <x>кушӧдз сёйны</x>
+               <xtg lang="ru"><xt>дочиста съесть</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="3">
+            <m>
+               <head/>
+               <tg lang="ru"><t>дотла</t></tg>
+            </m>
+            <xg>
+               <x>кушӧдз ворссьыны</x>
+               <xtg lang="ru"><xt>дотла проиграть</xt></xtg>
+            </xg>
+            <xg>
+               <x>кушӧдз сотчыны</x>
+               <xtg lang="ru"><xt>дотла сгореть</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>кывзысьтӧг</lemma>
       <stem/>
       <contlex>ADV-IS_GER-TOG</contlex>
@@ -10333,6 +11829,24 @@
       <pos>ADV</pos>
    </entry>
    <entry>
+      <lemma>кывлытӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>пока не услыхал</t></tg>
+            </m>
+            <xg>
+               <x>кывлытӧдз чайті мӧд ног</x>
+               <xtg lang="ru"><xt>пока не услыхал, думал иначе</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>кывмӧн</lemma>
       <stem/>
       <contlex>ADV-IS_GER-MON</contlex>
@@ -10390,6 +11904,28 @@
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>кызвыйӧ</lemma>
+      <stem/>
+      <contlex>ADV</contlex>
+      <pos>ADV-QNT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>в основном</t></tg>
+            </m>
+            <xg>
+               <x>лымйыс кызвыйӧ сыліс</x>
+               <xtg lang="ru"><xt>снег в основном растаял</xt></xtg>
+            </xg>
+            <xg>
+               <x>кызвыйӧ эштӧдны</x>
+               <xtg lang="ru"><xt>в основном закончить</xt></xtg>
+            </xg>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>кызвыйӧ</lemma>
@@ -10472,6 +12008,24 @@
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>кынмытӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>до замерзания</t></tg>
+            </m>
+            <xg>
+               <x>кынмытӧдз сулавны да виччысьны</x>
+               <xtg lang="ru"><xt>до замерзания стоять и ждать</xt></xtg>
+            </xg>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>кыньксьӧдӧмӧн</lemma>
@@ -10733,6 +12287,42 @@
             <xg>
                <x>висьтавны веськыда али бара кытшовтӧмӧн</x>
                <xtg lang="ru"><xt>сказать прямо или же намёками</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>кышті-пӧвсті</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>окольными путями, втихомолку; косвенно</t></tg>
+            </m>
+            <xg>
+               <x>кышті-пӧвсті тӧдмавны</x>
+               <xtg lang="ru"><xt>узнать окольными путями</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>кышті-пӧвті</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>окольными путями, втихомолку; косвенно</t></tg>
+            </m>
+            <xg>
+               <x>кышті-пӧвті тӧдмавны</x>
+               <xtg lang="ru"><xt>узнать окольными путями</xt></xtg>
             </xg>
          </mg>
       </e>
@@ -11209,6 +12799,28 @@
       <pos>ADV</pos>
    </entry>
    <entry>
+      <lemma>лунын</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>днём</t></tg>
+            </m>
+            <xg type="riddle">
+               <x>лунын вӧлысь ыджыд, войын понйысь ичӧт</x>
+               <xtg lang="ru"><xt>днём выше коня, ночью ниже собаки</xt></xtg>
+               <answer>
+                  <x>мегыр</x>
+                  <xtg lang="ru"><xt>дуга</xt></xtg>
+               </answer>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>лунысйӧн</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
@@ -11219,6 +12831,20 @@
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>лыдын-тшӧтын</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>в расчёте</t></tg>
+            </m>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>лызгым</lemma>
@@ -11355,6 +12981,36 @@
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>любо; радостно, приятно</t></tg>
+            </m>
+            <xg>
+               <x>любӧ видзӧдлыны</x>
+               <xtg lang="ru"><xt>любо посмотреть</xt></xtg>
+            </xg>
+            <xg>
+               <x>любӧ кывзыны</x>
+               <xtg lang="ru"><xt>любо послушать</xt></xtg>
+            </xg>
+            <xg>
+               <x>любӧ пырны пелькӧдӧм керкаӧ</x>
+               <xtg lang="ru"><xt>приятно зайти в прибранный дом</xt></xtg>
+            </xg>
+            <xg>
+               <x>сылы любӧ лои</x>
+               <xtg lang="ru"><xt>ему радостно стало</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>любӧ</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV</pos>
    </entry>
    <entry>
       <lemma>любӧпырысь</lemma>
@@ -11404,6 +13060,20 @@
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>лючки-ладнӧ</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <assoc MNo="1" assocType="see">лючкиа-бура</assoc>
+            </m>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>лёка</lemma>
@@ -11530,6 +13200,24 @@
       <pos>ADV</pos>
    </entry>
    <entry>
+      <lemma>лётавтӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>до изнеможения</t></tg>
+            </m>
+            <xg>
+               <x>лётавтӧдз мудзны</x>
+               <xtg lang="ru"><xt>устать до изнеможения</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>лӧгпырысь</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
@@ -11554,10 +13242,60 @@
       <pos>ADV-Manner</pos>
    </entry>
    <entry>
+      <lemma>лӧгын-лёкын</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>в ссоре</t></tg>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>лӧзӧдтӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>до синения</t></tg>
+            </m>
+            <xg>
+               <x>лӧзӧдтӧдз куритчыны</x>
+               <xtg lang="ru"><xt>курить до синения</xt></xtg>
+            </xg>
+            <xg>
+               <x>лӧзӧдтӧдз скӧрмыны</x>
+               <xtg lang="ru"><xt>рассердиться до синения</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>лӧня</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>лӧсталана% выйӧдз</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>до блеска</t></tg>
+            </m>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>лӧсьыда</lemma>
@@ -11679,6 +13417,24 @@
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head><range>диал.</range></head>
+               <tg lang="ru"><t>хлопотно, утомительно; трудно, затруднительно</t></tg>
+            </m>
+            <xg>
+               <x>ас вылын маетнӧ новлыны</x>
+               <xtg lang="ru"><xt>(груз) на себе перетаскивать трудно</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>маетнӧ</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV</pos>
    </entry>
    <entry>
       <lemma>манливӧ</lemma>
@@ -11687,16 +13443,245 @@
       <pos>ADV</pos>
    </entry>
    <entry>
+      <lemma>матын</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>близко, вблизи, поблизости QXQX <range>диал.</range>ближний</t></tg>
+            </m>
+            <xg>
+               <x>матын берег</x>
+               <xtg lang="ru"><xt>ближний берег</xt></xtg>
+            </xg>
+            <xg>
+               <x>матын олӧ</x>
+               <xtg lang="ru"><xt>он близко живёт</xt></xtg>
+            </xg>
+            <xg>
+               <x>матын тшак вотны</x>
+               <xtg lang="ru"><xt>собирать грибы поблизости</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>маті</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>близко, вблизи, поблизости QXQX ближний</t></tg>
+            </m>
+            <xg>
+               <x>маті видзьяс, муяс</x>
+               <xtg lang="ru"><xt>ближние луга, поля</xt></xtg>
+            </xg>
+            <xg>
+               <x>маті мунны</x>
+               <xtg lang="ru"><xt>близко пройти</xt></xtg>
+            </xg>
+            <xg>
+               <x>мед сійӧ маті берегын эз вӧв</x>
+               <xtg lang="ru"><xt>чтобы и духу его не было</xt></xtg>
+               <literal>
+                  <xtg lang="ru"><xt>чтобы и на ближнем берегу его не было</xt></xtg>
+               </literal>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>маті</lemma>
       <stem>ма</stem>
       <contlex>ADV-SPAT-TRA</contlex>
       <pos>ADV-SPAT</pos>
    </entry>
    <entry>
+      <lemma>матігӧгӧрын</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>поблизости</t></tg>
+            </m>
+            <xg>
+               <x>матігӧгӧрын некод эз вӧв</x>
+               <xtg lang="ru"><xt>поблизости никого не было</xt></xtg>
+            </xg>
+            <xg>
+               <x>сійӧ некӧн матігӧгӧрын оз тыдав</x>
+               <xtg lang="ru"><xt>его нигде поблизости не видно</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>матіланьын</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>неподалёку, поблизости</t></tg>
+            </m>
+            <xg>
+               <x>вӧр матіланьын</x>
+               <xtg lang="ru"><xt>неподалёку от леса</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>матіникын</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>близко, недалеко; неподалёку, вблизи, поблизости</t></tg>
+            </m>
+            <xg>
+               <x>гортсянь матіникын</x>
+               <xtg lang="ru"><xt>неподалёку от дома</xt></xtg>
+            </xg>
+            <xg>
+               <x>вотчыны матіникын</x>
+               <xtg lang="ru"><xt>собирать <gov>что-л.</gov> поблизости</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>матіникӧ</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>близко, недалеко; неподалёку, поблизости</t></tg>
+            </m>
+            <xg>
+               <x>матіникӧ ветлыны</x>
+               <xtg lang="ru"><xt>сходить недалеко</xt></xtg>
+            </xg>
+            <xg>
+               <x>матіникӧ усьны</x>
+               <xtg lang="ru"><xt>упасть поблизости</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>матіникӧ</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>матісянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>поблизости, неподалёку; с близкого расстояния</t></tg>
+            </m>
+            <xg>
+               <x>матісянь эг инмы</x>
+               <xtg lang="ru"><xt>с близкого расстояния я не попал (<i>напр., в цель</i>)</xt></xtg>
+            </xg>
+            <xg>
+               <x>ылысь аддзысь матісянь аддзӧ омӧльджыка</x>
+               <xtg lang="ru"><xt>дальнозоркий с близкого расстояния видит хуже</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>матіті</lemma>
+      <stem/>
+      <contlex>ADV-IS_TRA</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>поблизости, неподалёку</t></tg>
+            </m>
+            <xg>
+               <x>руч матіті котӧртіс</x>
+               <xtg lang="ru"><xt>лисица пробежала поблизости</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>матӧ</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>близко; на близкое расстояние</t></tg>
+            </m>
+            <xg>
+               <x>матӧ воны</x>
+               <xtg lang="ru"><xt>близко подойти</xt></xtg>
+            </xg>
+            <xg type="saying">
+               <x>матӧ пуктан — ылысь босьтан</x>
+               <xtg lang="ru"><xt>близко положишь — далеко возьмёшь ( <i>т.е. украдут</i> ) </xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>близко <sns>перен.</sns>, почти, почти что</t></tg>
+            </m>
+            <xg>
+               <x>видзи матӧ дас шайт</x>
+               <xtg lang="ru"><xt>я израсходовал почти десять рублей</xt></xtg>
+            </xg>
+            <xg>
+               <x>матӧ кык тӧлысь куйліс больничаын</x>
+               <xtg lang="ru"><xt>почти два месяца он лежал в больнице</xt></xtg>
+            </xg>
+            <xg>
+               <x>сылы матӧ квайтымын арӧс</x>
+               <xtg lang="ru"><xt>ей почти шестьдесят лет</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="3">
+            <m>
+               <head/>
+               <tg lang="ru"><t>совсем, совершенно</t></tg>
+            </m>
+            <xg>
+               <x>матӧ оз ков</x>
+               <xtg lang="ru"><xt>совершенно не нужно</xt></xtg>
+            </xg>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>матӧ</lemma>
@@ -11726,7 +13711,75 @@
       <lemma>медбӧрын</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>позади всех, в самом конце (хвосте); самым последним</t></tg>
+            </m>
+            <xg>
+               <x>медбӧрын воны</x>
+               <xtg lang="ru"><xt>прийти самым последним</xt></xtg>
+            </xg>
+            <xg>
+               <x>медбӧрын кыссьыны</x>
+               <xtg lang="ru"><xt>тащиться, плестись позади всех, в самом хвосте</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>наконец; под конец</t></tg>
+            </m>
+            <xg>
+               <x>медбӧрын мыччысис вӧла-доддя</x>
+               <xtg lang="ru"><xt>наконец показалась подвода</xt></xtg>
+            </xg>
+            <xg>
+               <x>медбӧрын став итогъяс вӧлі вӧчӧма</x>
+               <xtg lang="ru"><xt>наконец все итоги были подведены</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="3">
+            <m>
+               <head><i>вводн. сл.</i></head>
+               <tg lang="ru"><t>наконец</t></tg>
+            </m>
+            <xg>
+               <x>позьӧ, медбӧрын, сёрнитны ёртъяскӧд</x>
+               <xtg lang="ru"><xt>можно, наконец, поговорить с товарищами</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>медбӧрын</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>медбӧрӧ</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>позади всех, в самый конец, в хвост (<i>колонны, очереди и т.п.</i>)</t></tg>
+            </m>
+            <xg>
+               <x>медбӧрӧ кольны</x>
+               <xtg lang="ru"><xt>остаться позади всех</xt></xtg>
+            </xg>
+            <xg>
+               <x>медбӧрӧ сувтны</x>
+               <xtg lang="ru"><xt>встать в самый конец, в самый хвост</xt></xtg>
+            </xg>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>медводдзаысь</lemma>
@@ -11735,10 +13788,64 @@
       <pos>ADV-ITER</pos>
    </entry>
    <entry>
+      <lemma>медводзын</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>впереди всех; на первом месте; в голове (<i>колонны, очереди и т.п.</i>)</t></tg>
+            </m>
+            <xg>
+               <x>медводзын мунны</x>
+               <xtg lang="ru"><xt>идти впереди всех</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>медводзӧ</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>впереди всех; на первое место; в голову (<i>колонны, очереди и т.п.</i>)</t></tg>
+            </m>
+            <xg>
+               <x>медводзӧ петны</x>
+               <xtg lang="ru"><xt>встать впереди всех; выйти на первое место</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>медвойдӧр</lemma>
       <stem/>
       <contlex>ADV-SUPERL</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>медвылӧ</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>выше всего</t></tg>
+            </m>
+            <xg>
+               <x>медвылӧ ме донъяла дисциплина</x>
+               <xtg lang="ru"><xt>выше всего я ценю дисциплину</xt></xtg>
+            </xg>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>медся</lemma>
@@ -11827,6 +13934,24 @@
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>медӧдйӧ</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>быстрее всех</t></tg>
+            </m>
+            <xg>
+               <x>медӧдйӧ котӧртны</x>
+               <xtg lang="ru"><xt>бежать быстрее всех</xt></xtg>
+            </xg>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>меладор</lemma>
@@ -12021,6 +14146,24 @@
       <stem/>
       <contlex>ADV-VTER</contlex>
       <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>до устали</t></tg>
+            </m>
+            <xg>
+               <x>лымсӧ ковмас мудзтӧдзыд весавны</x>
+               <xtg lang="ru"><xt>снег придётся до устали чистить</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>мудзтӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
    </entry>
    <entry>
       <lemma>мукӧддырйи</lemma>
@@ -12088,6 +14231,24 @@
       </e>
    </entry>
    <entry>
+      <lemma>мукӧдӧ</lemma>
+      <stem/>
+      <contlex>PRONQTAG</contlex>
+      <pos>PRON-QNT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <assoc MNo="1" assocType="see">мукӧдлаӧ</assoc>
+            </m>
+            <xg>
+               <x>пӧрччысьлы, али мукӧдӧ на ветлан?</x>
+               <xtg lang="ru"><xt>раздевайся, или в другое место ещё сходишь?</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>мустӧмтӧмӧн</lemma>
       <stem/>
       <contlex>ADV-IS_GER-MON</contlex>
@@ -12149,6 +14310,32 @@
       <pos>ADV</pos>
    </entry>
    <entry>
+      <lemma>мыла% быртӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>до изнеможения; до потери сил</t></tg>
+            </m>
+            <xg>
+               <x>мыла быртӧдз бӧрдны</x>
+               <xtg lang="ru"><xt>плакать до изнеможения</xt></xtg>
+            </xg>
+            <xg>
+               <x>мыла быртӧдз виччысьны</x>
+               <xtg lang="ru"><xt>ждать до последнего</xt></xtg>
+            </xg>
+            <xg>
+               <x>мыла быртӧдз повзьыны</x>
+               <xtg lang="ru"><xt>испугаться до оцепенения</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>мынтысьтӧг</lemma>
       <stem/>
       <contlex>ADV-IS_GER-TOG</contlex>
@@ -12197,6 +14384,111 @@
       </e>
    </entry>
    <entry>
+      <lemma>мытсавтӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <assoc MNo="1" assocType="see">мытсавмӧн</assoc>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>мышкын</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>позади</t></tg>
+            </m>
+            <xg>
+               <x>мышкас коли кӧрт туй станцияыс</x>
+               <xtg lang="ru"><xt>позади осталась железнодорожная станция</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>мышкӧ</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>назад</t></tg>
+            </m>
+            <xg type="proverb">
+               <x>мышкӧ шыбитан, да водзӧ усьӧ</x>
+               <xtg lang="ru"><xt>бросишь назад, а упадёт вперёд (<i>соотв.</i> не рой другому яму − сам в неё
+               попадёшь)</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>мышладорсянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>сзади</t></tg>
+            </m>
+            <xg>
+               <x>мышладорсяньыс сы дінӧ матыстчис нывка</x>
+               <xtg lang="ru"><xt>сзади к нему подошла девочка</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>мышладорті</lemma>
+      <stem/>
+      <contlex>ADV-IS_TRA</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>сзади</t></tg>
+            </m>
+            <xg>
+               <x>мышладорті сёрнитігтыр прӧйдитісны нывбабаяс</x>
+               <xtg lang="ru"><xt>сзади, разговаривая, прошли женщины</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>мышладорын</lemma>
+      <stem/>
+      <contlex>ADV-IS_INE</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>сзади, позади</t></tg>
+            </m>
+            <xg>
+               <x>мышладорын кылісны кок шыяс</x>
+               <xtg lang="ru"><xt>сзади послышались шаги</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>мӧд% луннас</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
@@ -12213,6 +14505,94 @@
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>мӧдарланьӧ</lemma>
+      <stem/>
+      <contlex>ADV-IS_APRILL</contlex>
+      <pos>PRON-QNT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>в другую сторону</t></tg>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>мӧдарсянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head><i>вводн. сл.</i></head>
+               <tg lang="ru"><t>с другой стороны</t></tg>
+            </m>
+            <xg>
+               <x>ӧтарсянь, тайӧ бур, мӧдарсянь, омӧль</x>
+               <xtg lang="ru"><xt>с одной стороны, это хорошо, с другой стороны, плохо</xt></xtg>
+            </xg>
+            <xg>
+               <x>мӧдарсянь кӧ</x>
+               <xtg lang="ru"><xt>с другой стороны</xt></xtg>
+            </xg>
+            <xg>
+               <x>мӧдарсяньыс кӧ, бурӧн тайӧ бергӧдчис йӧзыслы</x>
+               <xtg lang="ru"><xt>с другой стороны, для людей это обернулось добром</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>мӧдарӧ</lemma>
+      <stem/>
+      <contlex>PRON-QNT-IS_ILL</contlex>
+      <pos>PRON-QNT</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head><i>вводн. сл.</i></head>
+               <tg lang="ru"><t>напротив, наоборот</t></tg>
+            </m>
+            <xg>
+               <x>мӧдарӧ, ме сійӧс тӧда уджаслив мортӧн</x>
+               <xtg lang="ru"><xt>наоборот, я его знаю как работящего человека</xt></xtg>
+            </xg>
+            <xg>
+               <x>сійӧ меным оз мешайт, мӧдарӧ , меным нимкодь</x>
+               <xtg lang="ru"><xt>он мне не мешает, напротив, я рад</xt></xtg>
+            </xg>
+            <xg>
+               <x>эз скӧрмы, а, мӧдарӧ, серӧктіс</x>
+               <xtg lang="ru"><xt>не рассердился, а, наоборот, рассмеялся</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>наоборот; иначе, противоположно <gov>чему-л.</gov>; превратно</t></tg>
+            </m>
+            <xg>
+               <x>мӧдарӧ гӧгӧрвоны</x>
+               <xtg lang="ru"><xt>превратно понять</xt></xtg>
+            </xg>
+            <xg>
+               <x>артмис мӧдарӧ</x>
+               <xtg lang="ru"><xt>получилось наоборот</xt></xtg>
+            </xg>
+            <xg>
+               <x>мӧдарӧ кӧ</x>
+               <xtg lang="ru"><xt>опять-таки; опять же <register>прост.</register></xt></xtg>
+            </xg>
+            <xg>
+               <x>мӧдарӧ кӧ, колӧ шуны ...</x>
+               <xtg lang="ru"><xt>опять же, надо сказать</xt></xtg>
+            </xg>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>мӧдарӧ</lemma>
@@ -12419,6 +14799,54 @@
       </e>
    </entry>
    <entry>
+      <lemma>надзӧ</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV-Manner</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>тихо, медленно</t></tg>
+            </m>
+            <xg>
+               <x>надзӧ мунны</x>
+               <xtg lang="ru"><xt>идти тихо</xt></xtg>
+            </xg>
+            <xg>
+               <x>надзӧ ветлысь</x>
+               <xtg lang="ru"><xt>тихоходный</xt></xtg>
+            </xg>
+            <xg>
+               <x>надзӧ содан удж</x>
+               <xtg lang="ru"><xt>малопродуктивный труд</xt></xtg>
+            </xg>
+            <xg>
+               <x>делӧ мунӧ надзӧ</x>
+               <xtg lang="ru"><xt>дело продвигается медленно</xt></xtg>
+            </xg>
+            <xg type="saying">
+               <x>надзӧнджык кӧ вӧран, кӧдзалас пачыд</x>
+               <xtg lang="ru"><xt>будешь копошиться, так печь остынет</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>тихо, негромко</t></tg>
+            </m>
+            <xg>
+               <x>надзӧ шуны</x>
+               <xtg lang="ru"><xt>тихо сказать</xt></xtg>
+            </xg>
+            <xg>
+               <x>сійӧ сёрнитіс надзӧ, муртса кылана гӧлӧсӧн</x>
+               <xtg lang="ru"><xt>он говорил тихо, еле слышно</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>надзӧн</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
@@ -12470,6 +14898,58 @@
             <xg>
                <x>велӧдны наизусть</x>
                <xtg lang="ru"><xt>выучить наизусть</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>наладорын</lemma>
+      <stem/>
+      <contlex>PRON-DEM-IS_INE</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>на их стороне</t></tg>
+            </m>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>на их половине (дома)</t></tg>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>наладорӧ</lemma>
+      <stem/>
+      <contlex>PRON-DEM-IS_ILL</contlex>
+      <pos>PRON-PERS</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>на их сторону</t></tg>
+            </m>
+            <xg>
+               <x>наладорӧ вуджны</x>
+               <xtg lang="ru"><xt>перейти на их сторону</xt></xtg>
+            </xg>
+            <xg>
+               <x>наладорӧ сувтны</x>
+               <xtg lang="ru"><xt>встать на их сторону, заступиться за них</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>на их половину (дома)</t></tg>
+            </m>
+            <xg>
+               <x>наладорӧ петны</x>
+               <xtg lang="ru"><xt>пойти на их половину</xt></xtg>
             </xg>
          </mg>
       </e>
@@ -12613,6 +15093,42 @@
       <pos>ADV</pos>
    </entry>
    <entry>
+      <lemma>невыліті</lemma>
+      <stem/>
+      <contlex>ADV-IS_TRA</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>невысоко</t></tg>
+            </m>
+            <xg>
+               <x>истан лэбис васяньыс невыліті</x>
+               <xtg lang="ru"><xt>кулик летел невысоко над водой</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>невылӧ</lemma>
+      <stem/>
+      <contlex>ADV-IS_ILL</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>невысоко</t></tg>
+            </m>
+            <xg>
+               <x>пожӧмӧ невылӧ вӧчӧм джадж</x>
+               <xtg lang="ru"><xt>невысоко на сосне устроенный лабаз (<i>помост на дереве для выслеживания зверя</i>)</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>недапӧштӧ</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
@@ -12667,6 +15183,52 @@
       <pos>ADV</pos>
    </entry>
    <entry>
+      <lemma>немутуйӧ</lemma>
+      <stem/>
+      <contlex>ADV-IS_ILL</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t/></tg>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>немысьмогӧ</lemma>
+      <stem/>
+      <contlex>PRON-NEG-IS_ILL</contlex>
+      <pos>PRON-NEG</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t/></tg>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>ненарошнӧ</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>не нарочно; нечаянно; ненароком </t><register>разг.</register></tg>
+            </m>
+            <xg>
+               <x>тувкыны ненарошнӧ</x>
+               <xtg lang="ru"><xt>толкнуть ненароком</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>ненарошнӧ</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
@@ -12683,6 +15245,34 @@
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>непременнӧ</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>непременно</t></tg>
+            </m>
+            <xg>
+               <x>непременнӧ вола</x>
+               <xtg lang="ru"><xt>непременно приду</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>несомненно</t></tg>
+            </m>
+            <xg>
+               <x>мыйкӧ сыкӧд непременнӧ лои</x>
+               <xtg lang="ru"><xt>с ним несомненно что-нибудь случилось</xt></xtg>
+            </xg>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>непременнӧ</lemma>
@@ -12744,6 +15334,20 @@
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <assoc MNo="1" assocType="see">непӧштӧ</assoc>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>нетӧштӧ</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV</pos>
    </entry>
    <entry>
       <lemma>неуна</lemma>
@@ -12753,9 +15357,67 @@
    </entry>
    <entry>
       <lemma>неылын</lemma>
+      <stem/>
+      <contlex>ADV-IS_INE</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>недалеко, неподалёку, поблизости</t></tg>
+            </m>
+            <xg>
+               <x>карсянь неылын</x>
+               <xtg lang="ru"><xt>недалеко от города</xt></xtg>
+            </xg>
+            <xg>
+               <x>неылын чольгис шор</x>
+               <xtg lang="ru"><xt>неподалёку журчал ручей</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>неылын</lemma>
       <stem>неыл</stem>
       <contlex>ADV-SPAT</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>неыліті</lemma>
+      <stem/>
+      <contlex>ADV-IS_TRA</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>недалеко</t></tg>
+            </m>
+            <xg>
+               <x>найӧ восьлалісны месянь неыліті</x>
+               <xtg lang="ru"><xt>они шагали недалеко от меня</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>неылӧ</lemma>
+      <stem/>
+      <contlex>ADV-IS_ILL</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>недалеко, поблизости</t></tg>
+            </m>
+            <xg>
+               <x>скӧтнӧй двор стрӧитасны сиктсянь неылӧ</x>
+               <xtg lang="ru"><xt>скотный двор построят недалеко от села</xt></xtg>
+            </xg>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>неӧтчыд</lemma>
@@ -12838,6 +15500,32 @@
       </e>
    </entry>
    <entry>
+      <lemma>ногӧ</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV</pos>
+      <e>
+         <range>диал.</range>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>по сравнению <i>с чем- кем-л.</i></t></tg>
+               <assoc MNo="3" assocType="seeAlso">дорысь</assoc>
+            </m>
+            <xg>
+               <x>ми кодь жӧ йӧз, сӧмын ми ногӧ ичӧтджык тушааӧсь вӧлӧмаӧсь</x>
+               <xtg lang="ru"><xt>оказывается, они такие же люди, как мы, только меньше нас ростом</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <assoc MNo="2" assocType="see">ногӧн</assoc>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>ногӧн</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
@@ -12878,6 +15566,20 @@
                <x>уна ногӧн</x>
                <xtg lang="ru"><xt>по-разному, различным образом, многообразно</xt></xtg>
             </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>номсасянінӧ</lemma>
+      <stem/>
+      <contlex>ADV-IS_ILL</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t/></tg>
+            </m>
          </mg>
       </e>
    </entry>
@@ -13220,10 +15922,230 @@
       <pos>ADV</pos>
    </entry>
    <entry>
+      <lemma>ортсылань</lemma>
+      <stem/>
+      <contlex>ADV-IS_APR</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>наружу</t></tg>
+            </m>
+            <xg>
+               <x>ортсылань зырсьыны</x>
+               <xtg lang="ru"><xt>пробираться наружу</xt></xtg>
+            </xg>
+            <xg>
+               <x>ортсылань лолыштны</x>
+               <xtg lang="ru"><xt>выдохнуть</xt></xtg>
+            </xg>
+            <xg>
+               <x>ортсылань лолыштӧм</x>
+               <xtg lang="ru"><xt>выдох</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>ортсын</lemma>
+      <stem/>
+      <contlex>ADV-IS_INE</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>на стороне</t></tg>
+            </m>
+            <xg>
+               <x>ортсын овны</x>
+               <xtg lang="ru"><xt>жить на стороне</xt><re>не дома</re></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>снаружи, вовне</t></tg>
+            </m>
+            <xg>
+               <x>кытш ортсын</x>
+               <xtg lang="ru"><xt>вне круга</xt></xtg>
+            </xg>
+            <xg>
+               <x>ортсын некод эз вӧв</x>
+               <xtg lang="ru"><xt>снаружи никого не было</xt></xtg>
+            </xg>
+            <xg>
+               <x>абу быд морт ӧткодь: ӧтилӧн пыдын синваыд, мӧдлӧн дзик ортсын</x>
+               <xtg lang="ru"><xt>все люди разные: у одного слезы не выжмешь (<i>букв.</i> слёзы глубоко), у другого ~
+               глаза на мокром месте</xt></xtg>
+               <literal>
+                  <xtg lang="ru"><xt>совсем снаружи</xt></xtg>
+               </literal>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>ортсысянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>извне, снаружи, с наружной стороны</t></tg>
+            </m>
+            <xg>
+               <x>ортсысянь вурӧм</x>
+               <xtg lang="ru"><xt>нашивной</xt></xtg>
+            </xg>
+            <xg>
+               <x>дӧмас пуктыны ортсысянь</x>
+               <xtg lang="ru"><xt>снаружи поставить заплату</xt></xtg>
+            </xg>
+            <xg>
+               <x>ӧдзӧс игнавны ортсысянь</x>
+               <xtg lang="ru"><xt>запереть дверь снаружи</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>внешне; наружно</t></tg>
+            </m>
+            <xg>
+               <x>ортсысяньыс сійӧ абу омӧль морт</x>
+               <xtg lang="ru"><xt>внешне он не плохой человек</xt></xtg>
+            </xg>
+            <xg>
+               <x>ортсысяньыс найӧ ӧткодьӧсь</x>
+               <xtg lang="ru"><xt>внешне они похожи</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>ортсыті</lemma>
+      <stem/>
+      <contlex>ADV-IS_TRA</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>вовне, по наружной стороне <gov>чего-л.</gov></t></tg>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>ортсыын</lemma>
+      <stem/>
+      <contlex>ADV-IS_INE</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>снаружи</t></tg>
+            </m>
+            <xg>
+               <x>ӧграда ортсыын гызис йӧз</x>
+               <xtg lang="ru"><xt>по другую сторону ограды копошились люди</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>ортсыӧ</lemma>
+      <stem/>
+      <contlex>ADV-IS_ILL</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>наружу</t></tg>
+            </m>
+            <xg>
+               <x>дойыс йӧзлӧн петіс ортсыӧ</x>
+               <xtg lang="ru"><xt>людская боль вышла наружу</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>ортсыӧ</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>ортсӧ</lemma>
+      <stem/>
+      <contlex>ADV-IS_ILL</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>вон</t></tg>
+            </m>
+            <xg>
+               <x>петіс ортсӧ</x>
+               <xtg lang="ru"><xt>он вышел вон</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>вовне; наружу</t></tg>
+            </m>
+            <xg>
+               <x>ортсӧ гӧнӧн</x>
+               <xtg lang="ru"><xt>мехом наружу</xt></xtg>
+            </xg>
+            <xg>
+               <x>киссьыны ортсӧ</x>
+               <xtg lang="ru"><xt>высыпаться наружу</xt></xtg>
+            </xg>
+            <xg>
+               <x>ортсӧ лэдзны</x>
+               <xtg lang="ru"><xt>выпустить наружу</xt></xtg>
+            </xg>
+            <xg>
+               <x>ортсӧ лысьтӧм йӧв</x>
+               <xtg lang="ru"><xt>сдой <i>обл.</i></xt></xtg>
+            </xg>
+            <xg>
+               <x>ортсӧ ветлыны</x>
+               <xtg lang="ru"><xt>выходить по естественной надобности</xt></xtg>
+            </xg>
+            <xg>
+               <x>ортсӧ ветланін</x>
+               <xtg lang="ru"><xt>уборная, отхожее место</xt></xtg>
+            </xg>
+            <xg>
+               <x>ортсӧ видзӧдана</x>
+               <xtg lang="ru"><xt>открытый</xt></xtg>
+            </xg>
+            <xg>
+               <x>ортсӧ мед оз пет</x>
+               <xtg lang="ru"><xt>чтобы осталось между нами</xt></xtg>
+            </xg>
+            <xg>
+               <x>ортсӧ петны</x>
+               <xtg lang="ru"><xt>выйти наружу</xt></xtg>
+            </xg>
+            <xg>
+               <x>ылӧдчӧмыс сылӧн ортсӧ петіс</x>
+               <xtg lang="ru"><xt>его обман вышел наружу</xt></xtg>
+            </xg>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>орччӧн</lemma>
@@ -13440,6 +16362,38 @@
       <pos>ADV</pos>
    </entry>
    <entry>
+      <lemma>пельысь-пельӧ</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head><sns>перен.</sns></head>
+               <tg lang="ru"><t>из уст в уста</t></tg>
+            </m>
+            <xg>
+               <x>юӧрыс паськаліс пельысь-пельӧ</x>
+               <xtg lang="ru"><xt>весть разнеслась из уст в уста</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>пемдытӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <assoc MNo="1" assocType="see">пемыдӧдз</assoc>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>пемыдгорув</lemma>
       <stem>пемыдгорул</stem>
       <contlex>ADVTAG</contlex>
@@ -13450,6 +16404,28 @@
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>пемыдӧдз</lemma>
+      <stem/>
+      <contlex>ADV-IS_TER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>дотемна</t></tg>
+            </m>
+            <xg>
+               <x>гуляйтны пемыдӧдз</x>
+               <xtg lang="ru"><xt>прогулять дотемна</xt></xtg>
+            </xg>
+            <xg>
+               <x>уджавны пемыдысь пемыдӧдз</x>
+               <xtg lang="ru"><xt>работать от темна до темна</xt></xtg>
+            </xg>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>первой</lemma>
@@ -13874,6 +16850,63 @@
       </e>
    </entry>
    <entry>
+      <lemma>помын-дорын</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>на сносях, скоро должна родить</t><re>о женщине</re></tg>
+            </m>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>в последние дни перед отёлом</t><re>о корове</re></tg>
+            </m>
+            <xg>
+               <x>мӧскыс помын-дорын</x>
+               <xtg lang="ru"><xt>корова скоро должна отелиться</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>помӧдз</lemma>
+      <stem/>
+      <contlex>ADV-IS_TER</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>совсем, совершенно</t></tg>
+            </m>
+            <xg>
+               <x>помӧдз киссьыны</x>
+               <xtg lang="ru"><xt>совершенно развалиться</xt></xtg>
+            </xg>
+            <xg>
+               <x>помӧдз орны сьӧмысь</x>
+               <xtg lang="ru"><xt>остаться совсем без денег</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>до конца; окончательно</t></tg>
+               <assoc MNo="1" assocType="seeAlso">дзикӧдз</assoc>
+            </m>
+            <xg>
+               <x>делӧ вайӧдны помӧдз</x>
+               <xtg lang="ru"><xt>дело довести до конца</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>прамӧ</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
@@ -14046,14 +17079,189 @@
    <entry>
       <lemma>пыдын</lemma>
       <stem/>
+      <contlex>ADV-IS_INE</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>глубоко</t></tg>
+            </m>
+            <xg>
+               <x>пыдын олысь черияс</x>
+               <xtg lang="ru"><xt>глубоководные рыбы</xt></xtg>
+            </xg>
+            <xg>
+               <x>кывтӧ пыдынджык кут</x>
+               <xtg lang="ru"><xt>язык держи за зубами (<i>глубже</i>)</xt></xtg>
+            </xg>
+            <xg>
+               <x>таті пыдын</x>
+               <xtg lang="ru"><xt>здесь глубоко</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>пыдын</lemma>
+      <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>пыділань</lemma>
+      <stem/>
+      <contlex>ADV-IS_APR</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>внутрь</t></tg>
+            </m>
+            <xg>
+               <x>юрнаныс пыділань, кокнаныс ортсыӧ узисны некымынӧн</x>
+               <xtg lang="ru"><xt>головой вовнутрь, ногами наружу спали несколько человек</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>пыдісянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>глубоко</t></tg>
+            </m>
+            <xg>
+               <x>пыдісянь лолавны</x>
+               <xtg lang="ru"><xt>глубоко дышать</xt></xtg>
+            </xg>
+            <xg>
+               <x>пыдісяньджык олӧм гӧгӧрвоны зільӧм</x>
+               <xtg lang="ru"><xt>стремление к более глубокому пониманию жизни</xt></xtg>
+            </xg>
+            <xg>
+               <x>пыдісянь ышловзьыны</x>
+               <xtg lang="ru"><xt>глубоко вздохнуть</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>досконально, основательно; углублённо</t></tg>
+            </m>
+            <xg>
+               <x>пыдісянь видлавны том гижысьлысь кывбур</x>
+               <xtg lang="ru"><xt>досконально разобрать стих молодого поэта</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="3">
+            <m>
+               <head/>
+               <tg lang="ru"><t>с внутренней стороны</t></tg>
+            </m>
+            <xg>
+               <x>ӧшиньяссӧ пыдісяньыс вӧлі ставенялӧма</x>
+               <xtg lang="ru"><xt>окна с внутренней стороны были забиты досками</xt></xtg>
+            </xg>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>пыдісянь</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>пыдіті</lemma>
+      <stem/>
+      <contlex>ADV-IS_TRA</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>глубоко</t></tg>
+            </m>
+            <xg>
+               <x>пыдіті гӧрны</x>
+               <xtg lang="ru"><xt>глубоко пахать</xt></xtg>
+            </xg>
+            <xg>
+               <x>пароход мунӧ пыдіті</x>
+               <xtg lang="ru"><xt>пароход сидит глубоко</xt></xtg>
+            </xg>
+            <xg>
+               <x>шы ни тӧв олӧ да пыдіті нуӧ</x>
+               <xtg lang="ru"><xt>в тихом озере черти водятся</xt></xtg>
+               <literal>
+                  <xtg lang="ru"><xt>выглядит тихоней, а ведёт свою линию</xt></xtg>
+               </literal>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>пыдӧ</lemma>
+      <stem/>
+      <contlex>ADV-IS_ILL</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>глубоко</t></tg>
+            </m>
+            <xg>
+               <x>пулӧн вужйыс пырӧма пыдӧ</x>
+               <xtg lang="ru"><xt>корень дерева ушёл глубоко</xt></xtg>
+            </xg>
+            <xg>
+               <x>синъясыс пыдӧ вӧйӧмаӧсь</x>
+               <xtg lang="ru"><xt>глаза его глубоко впали</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>далеко</t></tg>
+            </m>
+            <xg>
+               <x>пыдӧ пуктан — матысь босьтан</x>
+               <xtg lang="ru"><xt>дальше положишь — ближе возьмёшь</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>пыдӧдз</lemma>
+      <stem/>
+      <contlex>ADV-IS_TER</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <assoc MNo="1" assocType="see">пыдӧ</assoc>
+            </m>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>окончательно; полностью; до конца</t></tg>
+            </m>
+            <xg>
+               <x>томлаыс сійӧ эз на пыдӧдз гӧгӧрво шогсӧ</x>
+               <xtg lang="ru"><xt>по молодости лет он не до конца осознал горе</xt></xtg>
+            </xg>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>пыр</lemma>
@@ -14199,6 +17407,46 @@
       </e>
    </entry>
    <entry>
+      <lemma>пытшкӧссянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>изнутри</t></tg>
+            </m>
+            <xg>
+               <x>пытшкӧссянь игнасьны</x>
+               <xtg lang="ru"><xt>запереться изнутри</xt></xtg>
+            </xg>
+            <xg>
+               <x>пытшкӧссянь кисьтны</x>
+               <xtg lang="ru"><xt>развалить изнутри</xt></xtg>
+            </xg>
+            <xg>
+               <x>пытшкӧссянь сісьмыны</x>
+               <xtg lang="ru"><xt>сгнить изнутри</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>пытшкӧсын</lemma>
+      <stem/>
+      <contlex>ADV-IS_INE</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <assoc MNo="1" assocType="see">пытшкын</assoc>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>пытшлань</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
@@ -14217,6 +17465,20 @@
                <x>пробка йӧткыштны пытшлань</x>
                <xtg lang="ru"><xt>втолкнуть пробку</xt></xtg>
             </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>пытшсянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <assoc MNo="1" assocType="see">пытшкӧссянь</assoc>
+            </m>
          </mg>
       </e>
    </entry>
@@ -14288,6 +17550,40 @@
             <xg>
                <x>пӧратӧг-кадтӧг кувсьыны</x>
                <xtg lang="ru"><xt>безвременно скончаться</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>пӧрйӧ</lemma>
+      <stem/>
+      <contlex>ADV-IS_ILL</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>раз</t></tg>
+            </m>
+            <xg>
+               <x>быд пӧрйӧ</x>
+               <xtg lang="ru"><xt>каждый раз</xt></xtg>
+            </xg>
+            <xg>
+               <x>воддза пӧрйӧ</x>
+               <xtg lang="ru"><xt>в прошлый раз</xt></xtg>
+            </xg>
+            <xg>
+               <x>кык пӧрйӧ</x>
+               <xtg lang="ru"><xt>два раза</xt></xtg>
+            </xg>
+            <xg>
+               <x>мӧд пӧрйӧ</x>
+               <xtg lang="ru"><xt>в иное время</xt></xtg>
+            </xg>
+            <xg>
+               <x>тайӧ пӧрйӧ</x>
+               <xtg lang="ru"><xt>на этот раз</xt></xtg>
             </xg>
          </mg>
       </e>
@@ -14378,6 +17674,20 @@
       <stem/>
       <contlex>ADV-VTER</contlex>
       <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <assoc MNo="1" assocType="see">пӧтмӧн</assoc>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>пӧттӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
    </entry>
    <entry>
       <lemma>пӧшти</lemma>
@@ -14436,6 +17746,20 @@
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV-Manner</pos>
+   </entry>
+   <entry>
+      <lemma>радын</lemma>
+      <stem/>
+      <contlex>ADV-IS_INE</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <assoc RN="III" assocType="see">рад</assoc>
+            </m>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>рама</lemma>
@@ -14513,6 +17837,28 @@
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>рытсёрӧдз</lemma>
+      <stem/>
+      <contlex>ADV-IS_TER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>до позднего вечера</t></tg>
+            </m>
+            <xg>
+               <x>рытсёрӧдз пукавны</x>
+               <xtg lang="ru"><xt>сидеть до позднего вечера</xt></xtg>
+            </xg>
+            <xg>
+               <x>рытсёрӧдз трегубечасьны</x>
+               <xtg lang="ru"><xt>до позднего вечера ботать</xt></xtg>
+            </xg>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>рытъянас</lemma>
@@ -14644,6 +17990,24 @@
                <head/>
                <tg lang="ru"><t>без памяти, без сознания</t></tg>
             </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>сайладорсянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>с наружной стороны</t></tg>
+            </m>
+            <xg>
+               <x>ӧшиньыс сайладорсяньыс гыӧртӧма</x>
+               <xtg lang="ru"><xt>окно с наружной стороны заиндевело</xt></xtg>
+            </xg>
          </mg>
       </e>
    </entry>
@@ -14859,6 +18223,32 @@
       <pos>ADV</pos>
    </entry>
    <entry>
+      <lemma>сорті-кості</lemma>
+      <stem/>
+      <contlex>ADV-IS_TRA</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>вперемежку, вразбивку</t></tg>
+            </m>
+            <xg>
+               <x>сорті-кості тэчны</x>
+               <xtg lang="ru"><xt>класть вперемежку</xt></xtg>
+            </xg>
+            <xg>
+               <x>юасьны сорті-кості</x>
+               <xtg lang="ru"><xt>спрашивать <gov>что-н.</gov> вразбивку</xt></xtg>
+            </xg>
+            <xg>
+               <x>пӧлӧзничаяс быдмисны сорті-кості катшасинъяскӧд</x>
+               <xtg lang="ru"><xt>васильки росли вперемежку с ромашками</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>споринаа</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
@@ -15008,6 +18398,20 @@
       </e>
    </entry>
    <entry>
+      <lemma>судӧ-радӧ</lemma>
+      <stem/>
+      <contlex>ADV-IS_ILL</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t/></tg>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>сук</lemma>
       <stem/>
       <contlex>Ad-ATAG</contlex>
@@ -15062,10 +18466,61 @@
       </e>
    </entry>
    <entry>
+      <lemma>суликӧдз</lemma>
+      <stem/>
+      <contlex>ADV-IS_TER</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <assoc MNo="1" assocType="see">сулик</assoc>
+               <tg lang="ru"><t>насквозь</t></tg>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>суткинас</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>сыладорсянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>оттуда, с той стороны</t></tg>
+            </m>
+            <xg>
+               <x>сыладорсянь кыліс лыйӧм шы</x>
+               <xtg lang="ru"><xt>с той стороны послышался выстрел</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>сыладорӧ</lemma>
+      <stem/>
+      <contlex>PRON-DEM-IS_ILL</contlex>
+      <pos>PRON-PERS</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>туда, в ту сторону</t></tg>
+            </m>
+            <xg>
+               <x>сыладорӧ мунны</x>
+               <xtg lang="ru"><xt>идти туда, в ту сторону</xt></xtg>
+            </xg>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>сымда</lemma>
@@ -15165,6 +18620,28 @@
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>сьӧдӧдз</lemma>
+      <stem/>
+      <contlex>ADV-IS_TER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>дочерна; до черноты</t></tg>
+            </m>
+            <xg>
+               <x>сьӧдӧдз чишкавны</x>
+               <xtg lang="ru"><xt>палить до черноты</xt></xtg>
+            </xg>
+            <xg>
+               <x>пипуыс сьӧдӧдз тӧрмӧма</x>
+               <xtg lang="ru"><xt>осина иструхлявела дочерна</xt></xtg>
+            </xg>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>сьӧкыдпырысь</lemma>
@@ -15533,6 +19010,24 @@
       <pos>ADV</pos>
    </entry>
    <entry>
+      <lemma>сёрӧдз</lemma>
+      <stem/>
+      <contlex>ADV-IS_TER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>до позднего времени, допоздна</t></tg>
+            </m>
+            <xg>
+               <x>сёрӧдз уджавны</x>
+               <xtg lang="ru"><xt>работать допоздна</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>сёрӧн</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
@@ -15626,6 +19121,24 @@
             <xg>
                <x>удж сӧмын на заводитчӧ</x>
                <xtg lang="ru"><xt>работа только начинается</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>сӧстӧмӧдз</lemma>
+      <stem/>
+      <contlex>ADV-IS_TER</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>дочиста</t></tg>
+            </m>
+            <xg>
+               <x>сӧстӧмӧдз мыськыны</x>
+               <xtg lang="ru"><xt>отмыть дочиста</xt></xtg>
             </xg>
          </mg>
       </e>
@@ -15941,6 +19454,24 @@
       </e>
    </entry>
    <entry>
+      <lemma>тиньгытӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>до звона</t></tg>
+            </m>
+            <xg>
+               <x>пельын тиньгытӧдз</x>
+               <xtg lang="ru"><xt>до звона в ушах</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>тодмышкалӧмӧн</lemma>
       <stem/>
       <contlex>ADV-IS_GER-MON</contlex>
@@ -15978,10 +19509,42 @@
       </e>
    </entry>
    <entry>
+      <lemma>тойтмытӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>до изнурения; до потери сил</t></tg>
+            </m>
+            <xg>
+               <x>тойтмытӧдз уджавны</x>
+               <xtg lang="ru"><xt>работать до изнурения</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>том% дырйи</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>томвывсянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <assoc MNo="1" assocType="see">томвылысь</assoc>
+            </m>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>томлалӧмӧн</lemma>
@@ -16033,6 +19596,42 @@
             <xg>
                <x>томласьӧмӧн пукавны</x>
                <xtg lang="ru"><xt>сидеть запершись</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>томсянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>смолоду</t></tg>
+            </m>
+            <xg>
+               <x>видз асьтӧ томсянь</x>
+               <xtg lang="ru"><xt>береги честь смолоду</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>томысянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>смолоду</t></tg>
+            </m>
+            <xg>
+               <x>видз асьтӧ томысянь</x>
+               <xtg lang="ru"><xt>береги честь смолоду</xt></xtg>
             </xg>
          </mg>
       </e>
@@ -16200,6 +19799,24 @@
       </e>
    </entry>
    <entry>
+      <lemma>торпыригӧдз</lemma>
+      <stem/>
+      <contlex>ADV-IS_TER</contlex>
+      <pos>GER</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>вдребезги</t></tg>
+            </m>
+            <xg>
+               <x>торпыригӧдз жугавны</x>
+               <xtg lang="ru"><xt>разбиться вдребезги</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>торъя</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
@@ -16227,6 +19844,25 @@
             <xg>
                <x>торъя ыджыд тӧдчанлун</x>
                <xtg lang="ru"><xt>сугубо важное значение</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>торъясӧ</lemma>
+      <stem/>
+      <contlex>ADV-IS_ILL</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t> </t></tg>
+               <assoc assocType="see"/>
+            </m>
+            <xg>
+               <x>ме торъясӧ эг тӧд, кыдз вӧчсьӧ</x>
+               <xtg lang="ru"><xt>я особо не знал, как это делается</xt></xtg>
             </xg>
          </mg>
       </e>
@@ -16530,8 +20166,84 @@
    <entry>
       <lemma>тырвыйӧ</lemma>
       <stem/>
+      <contlex>ADV-IS_ILL</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>вполне, полностью; безоговорочно</t></tg>
+            </m>
+            <xg>
+               <x>тырвыйӧ велӧдчытӧм</x>
+               <xtg lang="ru"><xt>малоподготовленный, малообразованный</xt></xtg>
+            </xg>
+            <xg>
+               <x>тырвыйӧ верстяммӧм</x>
+               <xtg lang="ru"><xt>вполне взрослый</xt></xtg>
+            </xg>
+            <xg>
+               <x>тырвыйӧ вотӧм</x>
+               <xtg lang="ru"><xt>неполный</xt></xtg>
+            </xg>
+            <xg>
+               <x>тырвыйӧ гӧгӧрвотӧм</x>
+               <xtg lang="ru"><xt>а) малопонятный; б) недоразумение</xt></xtg>
+            </xg>
+            <xg>
+               <x>тырвыйӧ соласьтӧм</x>
+               <xtg lang="ru"><xt>малосольный</xt></xtg>
+            </xg>
+            <xg>
+               <x>сы вылӧ тырвыйӧ позьӧ надейтчыны</x>
+               <xtg lang="ru"><xt>на него вполне можно положиться</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>тырвыйӧ</lemma>
+      <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>тырвыйӧдз</lemma>
+      <stem/>
+      <contlex>ADV-IS_TER</contlex>
+      <pos>ADV-QNT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>вполне, полностью; безоговорочно</t></tg>
+            </m>
+            <xg>
+               <x>тырвыйӧдз велӧдчытӧм</x>
+               <xtg lang="ru"><xt>малоподготовленный, малообразованный</xt></xtg>
+            </xg>
+            <xg>
+               <x>тырвыйӧдз верстяммӧм</x>
+               <xtg lang="ru"><xt>вполне взрослый</xt></xtg>
+            </xg>
+            <xg>
+               <x>тырвыйӧдз вотӧм</x>
+               <xtg lang="ru"><xt>неполный</xt></xtg>
+            </xg>
+            <xg>
+               <x>тырвыйӧдз гӧгӧрвотӧм</x>
+               <xtg lang="ru"><xt>а) малопонятный; б) недоразумение</xt></xtg>
+            </xg>
+            <xg>
+               <x>тырвыйӧдз соласьтӧм</x>
+               <xtg lang="ru"><xt>малосольный</xt></xtg>
+            </xg>
+            <xg>
+               <x>сы вылӧ тырвыйӧдз позьӧ надейтчыны</x>
+               <xtg lang="ru"><xt>на него вполне можно положиться</xt></xtg>
+            </xg>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>тырмымӧн</lemma>
@@ -16825,6 +20537,24 @@
       <pos>ADV</pos>
    </entry>
    <entry>
+      <lemma>тӧвйигкежлӧ</lemma>
+      <stem/>
+      <contlex>ADV-IS_ILL</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>к зимовке</t></tg>
+            </m>
+            <xg>
+               <x>дасьтысьны тӧвйигкежлӧ</x>
+               <xtg lang="ru"><xt>приготовиться к зимовке</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>тӧвйымӧн</lemma>
       <stem/>
       <contlex>ADV-IS_GER-MON</contlex>
@@ -16916,6 +20646,28 @@
             <xg>
                <x>тӧдлытӧг шуны</x>
                <xtg lang="ru"><xt>обмолвиться</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>тӧдмасьтӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>до знакомства, до ознакомления</t></tg>
+            </m>
+            <xg>
+               <x>выль небӧгӧн тӧдмасьтӧдз</x>
+               <xtg lang="ru"><xt>до ознакомления с новой книгой</xt></xtg>
+            </xg>
+            <xg>
+               <x>тэкӧд тӧдмасьтӧдз</x>
+               <xtg lang="ru"><xt>до знакомства с тобой</xt></xtg>
             </xg>
          </mg>
       </e>
@@ -17221,6 +20973,72 @@
       <pos>ADV</pos>
    </entry>
    <entry>
+      <lemma>увлань</lemma>
+      <stem/>
+      <contlex>ADV-IS_APR</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>вниз, внизу</t></tg>
+            </m>
+            <xg>
+               <x>ньӧжйӧник исковтны увлань</x>
+               <xtg lang="ru"><xt>медленно катиться к низу</xt></xtg>
+            </xg>
+            <xg>
+               <x>увлань юрӧн ӧшӧдны</x>
+               <xtg lang="ru"><xt>повесить вниз головой</xt></xtg>
+            </xg>
+            <xg>
+               <x>увлань лэччыны — абу вывлань кайны</x>
+               <xtg lang="ru"><xt>вниз спускаться — не вверх подниматься;</xt></xtg>
+            </xg>
+            <xg type="riddle">
+               <x>увлань юрӧн понӧль быдмӧ</x>
+               <xtg lang="ru"><xt>вершиной к низу молодая ель растёт</xt></xtg>
+               <answer>
+                  <x>мӧс бӧж</x>
+                  <xtg lang="ru"><xt>коровий хвост</xt></xtg>
+               </answer>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>к низовью, в низовье</t></tg>
+            </m>
+            <xg>
+               <x>увлань лэччывны</x>
+               <xtg lang="ru"><xt>сходить (<i>или съездить</i>) в низовье (<i>реки</i>)</xt></xtg>
+            </xg>
+            <xg>
+               <x>увлань мӧдӧдчыны</x>
+               <xtg lang="ru"><xt>стареть</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>увлань-вывлань</lemma>
+      <stem/>
+      <contlex>ADV-IS_APR</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>вверх-вниз</t></tg>
+            </m>
+            <xg>
+               <x>увлань-вывлань котравны</x>
+               <xtg lang="ru"><xt>бегать вверх-вниз</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>увсянь</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
@@ -17352,6 +21170,42 @@
             <xg>
                <x>ныр улысь аддзы</x>
                <xtg lang="ru"><xt>посмотри на себя</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>улісянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>снизу</t></tg>
+            </m>
+            <xg>
+               <x>улісянь юӧр</x>
+               <xtg lang="ru"><xt>вести снизу</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>уліын</lemma>
+      <stem/>
+      <contlex>ADV-IS_INE</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>внизу</t></tg>
+            </m>
+            <xg>
+               <x>уліын кӧдзыдджык</x>
+               <xtg lang="ru"><xt>внизу холоднее</xt></xtg>
             </xg>
          </mg>
       </e>
@@ -17557,6 +21411,75 @@
       <pos>ADV-SPAT</pos>
    </entry>
    <entry>
+      <lemma>унйывті</lemma>
+      <stem/>
+      <contlex>ADV-IS_TRA</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t/></tg>
+               <assoc assocType="see">унйылысь</assoc>
+            </m>
+            <xg>
+               <x>унйывті кылі — кодкӧ кызӧктіс</x>
+               <xtg lang="ru"><xt>во сне услышал — кто-то кашлянул</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>уприсын</lemma>
+      <stem/>
+      <contlex>ADV-IS_INE</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <assoc RN="I" assocType="see">упри</assoc>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>уровйӧ</lemma>
+      <stem/>
+      <contlex>ADV-IS_ILL</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>вволю; вдоволь</t></tg>
+            </m>
+            <xg>
+               <x>уровйӧ сёян-юан</x>
+               <xtg lang="ru"><xt>продуктов питания вдоволь</xt></xtg>
+            </xg>
+            <xg>
+               <x>уровйӧ вердны</x>
+               <xtg lang="ru"><xt>накормить вдоволь</xt></xtg>
+            </xg>
+            <xg>
+               <x>тані ставыс уровйӧ</x>
+               <xtg lang="ru"><xt>здесь всё вволю</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>в достатке</t></tg>
+            </m>
+            <xg>
+               <x>уровйӧ овны</x>
+               <xtg lang="ru"><xt>жить в достатке</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>уровйӧ</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
@@ -17620,6 +21543,46 @@
             <xg>
                <x>юр усьмӧн янӧдны</x>
                <xtg lang="ru"><xt>сильно пристыдить</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>усьтӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>до упаду</t></tg>
+            </m>
+            <xg>
+               <x>усьтӧдз повзьӧдны</x>
+               <xtg lang="ru"><xt>сильно напугать, напугать до упаду</xt></xtg>
+            </xg>
+            <xg>
+               <x>усьтӧдз юны</x>
+               <xtg lang="ru"><xt>выпить до упаду</xt></xtg>
+            </xg>
+            <xg>
+               <x>юр усьтӧдз янӧдны</x>
+               <xtg lang="ru"><xt>сильно пристыдить</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>до наступления</t></tg>
+            </m>
+            <xg>
+               <x>пемыд усьтӧдз</x>
+               <xtg lang="ru"><xt>до наступления темноты; засветло</xt></xtg>
+            </xg>
+            <xg>
+               <x>туй усьтӧдз</x>
+               <xtg lang="ru"><xt>до распутицы; до наступления распутицы</xt></xtg>
             </xg>
          </mg>
       </e>
@@ -17720,6 +21683,56 @@
             <xg>
                <x>син чегмӧн видзӧдны</x>
                <xtg lang="ru"><xt>смотреть до боли в глазах</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>челядьдырсянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>с детства, с детских лет</t></tg>
+            </m>
+            <xg>
+               <x>челядьдырсянь лӧсялӧны</x>
+               <xtg lang="ru"><xt>дружат с детства</xt></xtg>
+            </xg>
+            <xg>
+               <x>челядьдырсянь велӧдны кагаӧс радейтны удж</x>
+               <xtg lang="ru"><xt>с детских лет приучить ребёнка любить труд</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>червидзтӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>до упаду</t></tg>
+            </m>
+            <xg>
+               <x>червидзтӧдз повзьӧдны</x>
+               <xtg lang="ru"><xt>напугать до упаду</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+               <tg lang="ru"><t>досуха</t></tg>
+            </m>
+            <xg>
+               <x>червидзтӧдз косьмыны</x>
+               <xtg lang="ru"><xt>сильно высохнуть, пересохнуть</xt></xtg>
             </xg>
          </mg>
       </e>
@@ -17953,6 +21966,28 @@
             <xg>
                <x>чув лыа</x>
                <xtg lang="ru"><xt>сплошь песок</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>чужӧмсянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>отроду; от рождения; от природы</t></tg>
+            </m>
+            <xg>
+               <x>чужӧмсянь пельтӧм</x>
+               <xtg lang="ru"><xt>глухой от рождения</xt></xtg>
+            </xg>
+            <xg>
+               <x>чужӧмсянь эг на аддзыв</x>
+               <xtg lang="ru"><xt>отроду ещё не видел</xt></xtg>
             </xg>
          </mg>
       </e>
@@ -18391,6 +22426,146 @@
       </e>
    </entry>
    <entry>
+      <lemma>шуйгавывлань</lemma>
+      <stem/>
+      <contlex>ADV-IS_APR</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>налево, влево; к левой стороне</t></tg>
+            </m>
+            <xg>
+               <x>шуйгавывлань видзӧдлыны</x>
+               <xtg lang="ru"><xt>посмотреть налево</xt></xtg>
+            </xg>
+            <xg>
+               <x>шуйгавывлань мунны</x>
+               <xtg lang="ru"><xt>идти налево</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>шуйгавывсянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>слева; с левой стороны</t></tg>
+            </m>
+            <xg>
+               <x>шуйгавывсянь уськӧдчис</x>
+               <xtg lang="ru"><xt>набросился с левой стороны</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>шуйгавылын</lemma>
+      <stem/>
+      <contlex>ADV-IS_INE</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>слева, налево, влево; с левой стороны, на левой стороне</t></tg>
+            </m>
+            <xg>
+               <x>шуйгавылын горзісны</x>
+               <xtg lang="ru"><xt>на левой стороне кричали</xt></xtg>
+            </xg>
+            <xg>
+               <x>шуйгавылын кыліс лыйсьӧм шы</x>
+               <xtg lang="ru"><xt>слева слышалась стрельба</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>шуйгавылӧ</lemma>
+      <stem/>
+      <contlex>ADV-IS_ILL</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <assoc MNo="1" assocType="see">шуйгавыв</assoc>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>шуйгаладорӧ</lemma>
+      <stem/>
+      <contlex>ADV-IS_ILL</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>влево, налево; в левую сторону</t></tg>
+            </m>
+            <xg>
+               <x>туй кежис шуйгаладорӧ</x>
+               <xtg lang="ru"><xt>дорога повернула налево</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>шуйгалань</lemma>
+      <stem/>
+      <contlex>ADV-IS_APR</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>влево, налево</t></tg>
+            </m>
+            <xg>
+               <x>шуйгалань мӧдӧдчыны</x>
+               <xtg lang="ru"><xt>пойти влево</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>шуйпеттӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head><range>диал.</range></head>
+               <tg lang="ru"><t>до изнеможения, до изнурения</t></tg>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>шулькпеттӧдз</lemma>
+      <stem/>
+      <contlex>ADV-VTER</contlex>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head><range>диал.</range></head>
+               <assoc MNo="1" assocType="see">шуйпеттӧдз</assoc>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>шурк</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
@@ -18504,10 +22679,102 @@
       </e>
    </entry>
    <entry>
+      <lemma>шӧрвыйсянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>с середины; от середины; от центра, с центра</t></tg>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>шӧрвыйын</lemma>
+      <stem/>
+      <contlex>ADV-IS_INE</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>в середине, в центре; посреди</t></tg>
+            </m>
+            <xg>
+               <x>сикт шӧрвыйын сулалӧ джуджыд сюръя</x>
+               <xtg lang="ru"><xt>в центре села стоит высокий столб</xt></xtg>
+            </xg>
+            <xg>
+               <x>яг шӧрвыйын нюр</x>
+               <xtg lang="ru"><xt>посреди леса болото</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>шӧрвыйӧ</lemma>
+      <stem/>
+      <contlex>ADV-IS_ILL</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>до середины, до половины</t></tg>
+            </m>
+            <xg>
+               <x>шӧрвыйӧ воны</x>
+               <xtg lang="ru"><xt>дойти до середины</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
       <lemma>шӧрвыйӧ</lemma>
       <stem/>
       <contlex>ADVTAG</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>шӧрвыйӧд</lemma>
+      <stem/>
+      <contlex>ADV-IS_PROL</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t> </t></tg>
+               <assoc assocType="see" lemmaID="шӧрӧд_ADV"/>
+               <assoc assocType="see" lemmaID="шӧрӧд_ADV"/>
+            </m>
+            <xg>
+               <x>шӧрвыйӧд вундыны</x>
+               <xtg lang="ru"><xt>отрезать посередине</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>шӧрвыйӧдз</lemma>
+      <stem/>
+      <contlex>ADV-IS_TER</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>до середины, до половины; до сердцевины</t></tg>
+            </m>
+            <xg>
+               <x>шӧрвыйӧдз кынмыны</x>
+               <xtg lang="ru"><xt>замёрзнуть до сердцевины</xt></xtg>
+            </xg>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>шӧри</lemma>
@@ -18556,6 +22823,64 @@
       <stem>шӧр</stem>
       <contlex>ADV-SPAT</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>шӧрӧ-водзӧ</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>POSTP-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>на глазах</t></tg>
+            </m>
+            <xg>
+               <x>на шӧрӧ-водзӧ</x>
+               <xtg lang="ru"><xt>к ним, им; на их глаза</xt></xtg>
+            </xg>
+            <xg>
+               <x>сы шӧрӧ-водзӧ</x>
+               <xtg lang="ru"><xt>а) к нему, ему; на его глаза; б) как раз в это время</xt></xtg>
+            </xg>
+            <xg>
+               <x>мед миян шӧрӧ-водзӧ оз веськав</x>
+               <xtg lang="ru"><xt>пусть нам не попадётся</xt></xtg>
+            </xg>
+            <xg>
+               <x>на шӧрӧ-водзӧ эн лӧсьӧдчы</x>
+               <xtg lang="ru"><xt>ты им не попадайся</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>шӧрӧ-выйӧ</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t/></tg>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>шӧрӧд</lemma>
+      <stem/>
+      <contlex>ADV-IS_PROL</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <assoc MNo="1" assocType="see">шӧрті</assoc>
+            </m>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>ыкпашиттӧг</lemma>
@@ -18617,9 +22942,69 @@
    </entry>
    <entry>
       <lemma>ылын</lemma>
+      <stem/>
+      <contlex>ADV-IS_INE</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>далеко; вдали</t></tg>
+            </m>
+            <xg>
+               <x>во помӧдз ылын на</x>
+               <xtg lang="ru"><xt>до конца года ещё далеко</xt></xtg>
+            </xg>
+            <xg>
+               <x>ылын-ылын вӧв гӧрдлӧ</x>
+               <xtg lang="ru"><xt>далеко-далеко конь ржёт</xt></xtg>
+            </xg>
+            <xg>
+               <x>ылын овны</x>
+               <xtg lang="ru"><xt>жить далеко</xt></xtg>
+            </xg>
+            <xg>
+               <x>карӧдз вӧлі ылын на</x>
+               <xtg lang="ru"><xt>до города было ещё далеко</xt></xtg>
+            </xg>
+            <xg>
+               <x>ылын кылісны гӧлӧсъяс</x>
+               <xtg lang="ru"><xt>вдали слышались голоса</xt></xtg>
+            </xg>
+            <xg>
+               <x>шонді лэччытӧдз ылын на</x>
+               <xtg lang="ru"><xt>до захода солнца ещё далеко</xt></xtg>
+            </xg>
+            <xg>
+               <x>ылын синма</x>
+               <xtg lang="ru"><xt>дальнозоркий человек</xt></xtg>
+            </xg>
+            <xg>
+               <x>ылын туй помӧ мӧдӧдны</x>
+               <xtg lang="ru"><xt>собирать в дальнюю дорогу</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>ылын</lemma>
       <stem>ыл</stem>
       <contlex>ADV-SPAT</contlex>
       <pos>ADV</pos>
+   </entry>
+   <entry>
+      <lemma>ылысянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <assoc MNo="1" assocType="see">ылісянь</assoc>
+            </m>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>ыльгӧмӧн</lemma>
@@ -18632,6 +23017,164 @@
                <head/>
                <assoc MNo="1" assocType="see">ыльӧбӧн</assoc>
             </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>ылісянь</lemma>
+      <stem/>
+      <contlex>ADV-IS_EGR</contlex>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>издали, издалека; с далёкого расстояния</t></tg>
+            </m>
+            <xg>
+               <x>ылісянь аддзыны</x>
+               <xtg lang="ru"><xt>издалека увидеть</xt></xtg>
+            </xg>
+            <xg>
+               <x>ылісянь вӧрыс лӧз</x>
+               <xtg lang="ru"><xt>издали лес голубой</xt></xtg>
+            </xg>
+            <xg>
+               <x>ылісянь локны</x>
+               <xtg lang="ru"><xt>прийти издалека</xt></xtg>
+            </xg>
+            <xg>
+               <x>сёрни заводитны ылісянь</x>
+               <xtg lang="ru"><xt>повести разговор издалека</xt></xtg>
+            </xg>
+            <xg>
+               <x>ылісянь тыдалісны зарни рӧма пуяс</x>
+               <xtg lang="ru"><xt>издалека виднелись золотистые деревья</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>ыліті</lemma>
+      <stem/>
+      <contlex>ADV-IS_TRA</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>вдали, далеко</t></tg>
+            </m>
+            <xg>
+               <x>ыліті лэбис самолёт</x>
+               <xtg lang="ru"><xt>далеко пролетел самолёт</xt></xtg>
+            </xg>
+            <xg>
+               <x>миянсянь ыліті чишнитіс машина</x>
+               <xtg lang="ru"><xt>вдали от нас промчалась машина</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>ылӧ</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>далеко; вдаль</t></tg>
+            </m>
+            <xg>
+               <x>ылӧ кольӧм кад</x>
+               <xtg lang="ru"><xt>далёкое прошлое</xt></xtg>
+            </xg>
+            <xg>
+               <x>ылӧ видзӧдны</x>
+               <xtg lang="ru"><xt>далеко смотреть</xt></xtg>
+            </xg>
+            <xg>
+               <x>чайтӧны, мый кымын ылӧ сетчан, сымын выяджык нянь вичмас</x>
+               <xtg lang="ru"><xt>считают, что чем дальше уедешь, тем лучше жизнь ( </xt></xtg>
+               <i>букв.</i>
+               <xtg lang="ru"><xt>тем больше масла окажется на хлебе) </xt></xtg>
+            </xg>
+            <xg>
+               <x>~ лыйлӧ, да матӧ инмӧ</x>
+               <xtg lang="ru"><xt>далеко кидает, да близко попадает </xt></xtg>
+            </xg>
+            <xg type="saying">
+               <x>~ пуктан — матысь босьтан</x>
+               <xtg lang="ru"><xt>далеко положишь — близко возьмёшь</xt></xtg>
+            </xg>
+            <xg>
+               <x>~ сідз оз ло</x>
+               <xtg lang="ru"><xt>этому не бывать</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>ылӧ-ылӧ</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>далеко-далеко</t></tg>
+            </m>
+            <xg>
+               <x>ылӧ-ылӧ ыстыны</x>
+               <xtg lang="ru"><xt>послать далеко-далеко</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>ылӧдз</lemma>
+      <stem/>
+      <contlex>ADVTAG</contlex>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+               <tg lang="ru"><t>далеко, до дальних мест</t></tg>
+            </m>
+            <xg>
+               <x>ылӧдз мунны</x>
+               <xtg lang="ru"><xt>далеко идти</xt></xtg>
+            </xg>
+            <xg>
+               <x>ылӧдз нюжавны ю пӧлӧн</x>
+               <xtg lang="ru"><xt>далеко протянуться вдоль реки</xt></xtg>
+            </xg>
+            <xg>
+               <x>ылӧдз тыдавны</x>
+               <xtg lang="ru"><xt>далеко виднеться☺</xt></xtg>
+            </xg>
+            <xg type="proverb">
+               <x>бура кӧ уджалан, ылӧдз и нималан</x>
+               <xtg lang="ru"><xt>хорошо работаешь, далеко и прославишься</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head><i>обычно с отриц.</i></head>
+               <tg lang="ru"><t>далеко не; не в полной мере; недостаточно</t></tg>
+            </m>
+            <xg>
+               <x>ылӧдз абу тӧдса вӧрса озырлунлӧн тыр доныс</x>
+               <xtg lang="ru"><xt>не в полной мере известна стоимость лесного богатства</xt></xtg>
+            </xg>
+            <xg>
+               <x>тані уджалісны ылӧдз на эз тырвыйӧ</x>
+               <xtg lang="ru"><xt>здесь работали далеко не в полную силу</xt></xtg>
+            </xg>
          </mg>
       </e>
    </entry>
@@ -18748,6 +23291,24 @@
             <xg>
                <x>ырзӧмӧн уськӧдчыны воча</x>
                <xtg lang="ru"><xt>с воплем броситься навстречу</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lemma>ырскылӧ</lemma>
+      <stem/>
+      <contlex>V-FIN-3SG</contlex>
+      <pos>V-FIN</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <tg lang="ru"><t>быстро, внезапно</t></tg>
+            </m>
+            <xg>
+               <x>ырскылӧ чеччыны</x>
+               <xtg lang="ru"><xt>быстро встать, вскочить, рвануться</xt></xtg>
             </xg>
          </mg>
       </e>
