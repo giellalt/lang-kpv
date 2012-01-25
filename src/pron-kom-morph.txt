@@ -443,6 +443,15 @@ LEXICON PRONINDEF-PERS-KO-END
 +Der/сюрӧ+Indef:%>сюрӧ K ; !Basically both endings can be used for deriving 
                      !indefinite pronouns from the interrogative/relative pronouns.
 
+LEXICON IS_PRON-INDEF-KO
++Pron+Der/кӧ+Indef: K ;
+
+LEXICON IS_PRON-INDEF-SJURO
++Pron+Der/сюрӧ+Indef: K ;
+
+LEXICON IS_PRON-INTERR
++Pron+Interr: K ;
+
 !!LEXICON PRONINDEF-PERS-END
 !!+Der/сюрӧ:%>сюрӧ # ;
 
@@ -765,6 +774,13 @@ LEXICON PRONDEMTAG-TRA
 LEXICON PRONDEMTAG-TER
 +Ter:ӧдз K ;
 
+! Word forms that already have their morphology 
+LEXICON PRON-DEM-IS_INE
++Pron+Dem+Ine: K ;
+
+LEXICON PRON-DEM-IS_ILL
++Pron+Dem+Ill: K ;
+
 
 
 LEXICON PRON-INTER-NONHUM
@@ -1011,6 +1027,10 @@ LEXICON PRONQTAG
 LEXICON PRONQTAGPL
 +Pron+Qnt+Pl: # ;
 
+LEXICON PRON-QNT-IS_ILL
++Pron+Qnt+Ill: K ;
+
+
 LEXICON PRON-NEG-End
 +Pron+Neg: K ;
 
@@ -1077,3 +1097,5 @@ LEXICON PRON-NEG-SPAT
 +Tra:ті K ;
 +Ter:ӧдз K ;
  
+LEXICON PRON-NEG-IS_ILL
++Pron+Neg+Ill: K ;
