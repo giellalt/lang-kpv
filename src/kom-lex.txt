@@ -465,6 +465,9 @@ LEXICON PO-PX
 LEXICON PO-TEMP-IS_TRA-INSTR-SG3
 +Po+Temp+Tra+Instr+PxSg3: K ;
 
+LEXICON PO-IS_ILL
++Po+Ill: K ;
+
 ! ==================================== !
 ! Lexica called End, whatever they are !
 ! ==================================== !
@@ -533,6 +536,35 @@ LEXICON ADV-SPAT-TER
 
 LEXICON ADV-VTER
 +V+Der/тӧдз+Adv+Temp+Ter:%>тӧдз K ;
+
+! Adverbs with ready morphology
+LEXICON ADV-IS_APRILL
++Adv+Apr+Ill: K ;
+
+LEXICON ADV-IS_APRINE
++Adv+Apr+Ine: K ;
+
+LEXICON ADV-IS_APR
++Adv+Apr: K ;
+
+LEXICON ADV-IS_EGR
++Adv+Egr: K ;
+
+LEXICON ADV-IS_ILL
++Adv+Ill: K ;
+
+LEXICON ADV-IS_INE
++Adv+Ine: K ;
+
+LEXICON ADV-IS_PROL
++Adv+Prol: K ;
+
+LEXICON ADV-IS_TER
++Adv+Ter: K ;
+
+LEXICON ADV-IS_TRA
++Adv+Tra: K ;
+
 
 LEXICON EndConj
 +CC: # ;
