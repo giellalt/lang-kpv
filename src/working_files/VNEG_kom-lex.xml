@@ -1,655 +1,435 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dict xsi:noNamespaceSchemaLocation="../dict.xsd"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <entry exclude="fst">
-    <lemma>CiprianAndTrond</lemma>
-
-    <stem>FixThis</stem>
-
-    <contlex>#</contlex>
-
-    <pos>N</pos>
-  </entry>
-
-  <!-- comment: The problem here is the share of burden between xml and lexc. The VERBNEGATIVE lexicon looks like this: LEXICON VERBNEGATIVE оз+V+Neg+Ind+Prs+Sg1:ог K ; оз+V+Neg+Ind+Prs+Sg2:он K ; оз+V+Neg+Ind+Prs+Sg3:оз K ; ... The problem with the things below is that "lemma" and "stem" are mixed. "lemma" is used in two ways: a. as ditionary lookup term (expected is the wordform) b. as fst reference term (expected is оз) For the time being we should have a special contlex entry saying <contlex>NOCONTLEXGENERATION</contlex> with a corresponding if-statement in the xslt file generating the kt/tmp/out/ files. Conclusion reached (?) on Jan 1st ( :-) a new year's promise): We do the pronouns in the same way. Preliminary, we comment them out from the dict, awaiting an implementation of the NOCONTLEX contlex value. o In this way we can use stems from the individual personal pronouns once each ме тэ -->
-
-  <entry exclude="fst">
-    <lemma>эг</lemma>
-
-    <stem>оз</stem>
-
-    <contlex>VNeg-Pret-Sg1</contlex>
-
-    <pos>VNEG</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head><i>отриц. част. глагола наст. вр. I л. ед. ч.</i></head>
-
-          <tg lang="ru"><t>не</t></tg>
-
-          <tg lang="ru"><t> нет</t></tg>
-        </m>
-
-        <xg>
-          <x>эг вӧч</x>
-
-          <xtg lang="ru"><xt>я не сделал</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>эг ме вӧв</x>
-
-          <xtg lang="ru"><xt>не я это был</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>эг мудзӧй</x>
-
-          <xtg lang="ru"><xt>мы не устали</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>эг пуксьыв весиг здук кежлӧ</x>
-
-          <xtg lang="ru"><xt>я не садился даже на минутку</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>тайӧс эг вермы шуны</x>
-
-          <xtg lang="ru"><xt>я не смог это сказать</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry exclude="fst">
-    <lemma>эгджык</lemma>
-
-    <stem></stem>
-
-    <contlex>VNeg-Pret-Sg1-Comp</contlex>
-
-    <pos>VNEG</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head><i>отриц. част. уменьш. употр. с глаголами прош. вр. I л.</i></head>
-
-          <tg lang="ru"><t>не так, немного не</t></tg>
-
-          <tg lang="ru"><t> не вполне, не совсем</t></tg>
-        </m>
-
-        <xg>
-          <x>эгджык кыв сёрнисӧ</x>
-
-          <xtg lang="ru"><xt>я не вполне расслышал разговор</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>эгджык куж вӧчны</x>
-
-          <xtg lang="ru"><xt>я не так сделал</xt></xtg>
-
-          <xtg lang="ru"><xt> я немного не сумел сделать</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>эгджык су найӧс</x>
-
-          <xtg lang="ru"><xt>я немного не догнал их</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry exclude="fst">
-    <lemma>эзджык</lemma>
-
-    <stem></stem>
-
-    <contlex>VNeg-Pret-3-Comp</contlex>
-
-    <pos>VNEG</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head><i>отриц. част. уменьш.</i></head>
-
-          <tg lang="ru"><t>не так, немного не</t></tg>
-
-          <tg lang="ru"><t> не совсем</t></tg>
-        </m>
-
-        <xg>
-          <x>~ лӧсяв</x>
-
-          <xtg lang="ru"><xt>немного не подошло</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>олӧмным ~ сідз артмы</x>
-
-          <xtg lang="ru"><xt>наша жизнь сложилась не совсем так</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>~ сяммы висьтавны</x>
-
-          <xtg lang="ru"><xt>немного не сумел рассказать</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>тані менӧ ~ суны</x>
-
-          <xtg lang="ru"><xt>здесь меня немножко не догнали</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry exclude="fst">
-    <lemma>эгкодь</lemma>
-
-    <stem></stem>
-
-    <contlex>VNeg-Pret-Sg1-Comparison</contlex>
-
-    <pos>VNEG</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head><i>отриц. част.</i></head>
-
-          <tg lang="ru"><t> </t></tg>
-
-          <assoc assocType="see">эгджык</assoc>
-        </m>
-
-        <xg>
-          <x>эгкодь эскы</x>
-
-          <xtg lang="ru"><xt>я не совсем поверил</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry exclude="fst">
-    <lemma>эгӧ</lemma>
-
-    <stem>оз</stem>
-
-    <contlex>VNeg-Pret-Pl1</contlex>
-
-    <pos>VNEG</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head><i>отриц. част. глагола наст. вр. I л. мн. ч.</i></head>
-
-          <tg lang="ru"><t> не, нет</t></tg>
-        </m>
-
-        <xg>
-          <x>эгӧ узьӧй вӧрын</x>
-
-          <xtg lang="ru"><xt>мы в лесу не ночевали</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>эгӧй ветлӧй</x>
-
-          <xtg lang="ru"><xt>мы не ездили</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry exclude="fst">
-    <lemma>эгӧй</lemma>
-
-    <stem>оз</stem>
-
-    <contlex>VNeg-Pret-Pl1</contlex>
-
-    <pos>VNEG</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head><i>отриц. част. глагола наст. вр. I л. мн. ч.</i></head>
-
-          <tg lang="ru"><t>не, нет</t></tg>
-        </m>
-
-        <xg>
-          <x>эгӧй узьӧй вӧрын</x>
-
-          <xtg lang="ru"><xt>мы в лесу не ночевали</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>эгӧй ветлӧй</x>
-
-          <xtg lang="ru"><xt>мы не ездили</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry exclude="fst">
-    <lemma>эз</lemma>
-
-    <stem>оз</stem>
-
-    <contlex>VNeg-Pret-3</contlex>
-
-    <pos>VNEG</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head><i>отриц. част. глагола прош. вр. 3 л.</i></head>
-
-          <tg lang="ru"><t>не, нет</t></tg>
-        </m>
-
-        <xg>
-          <x>весиг юрсӧ эз лэптыв</x>
-
-          <xtg lang="ru"><xt>он даже голову не поднял</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>миян эз воны</x>
-
-          <xtg lang="ru"><xt>наши не пришли</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>ни ӧти кыв сійӧ эз шу</x>
-
-          <xtg lang="ru"><xt>ни одного слова он не сказал</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>эз зіль уджавны</x>
-
-          <xtg lang="ru"><xt>он не старался работать</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>эз и тӧдчы</x>
-
-          <xtg lang="ru"><xt>не заметно, мало</xt></xtg>
-        </xg>
-
-        <xg type="saying">
-          <x>эз кӧ вӧв куш, эз вӧв и плеш</x>
-
-          <xtg lang="ru"><xt> если бы не было лысины, не было бы и
-          плешины</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>эз пусьы</x>
-
-          <xtg lang="ru"><xt>не вышло, не выгорело</xt></xtg>
-
-          <xtg lang="ru"><xt> не получилось</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry exclude="fst">
-    <lemma>эн</lemma>
-
-    <stem>оз</stem>
-
-    <contlex>VNeg-Pret-2Sg</contlex>
-
-    <pos>VNEG</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head><i>отриц. част. глагола 2 л. наст. вр.</i></head>
-
-          <tg lang="ru"><t>не, нет</t></tg>
-        </m>
-
-        <xg>
-          <x>эн видзӧд</x>
-
-          <xtg lang="ru"><xt>не смотри</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>тэ некытчӧ эн ветлы?</x>
-
-          <xtg lang="ru"><xt>ты никуда не ходил?</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>эн вылӧ пукты</x>
-
-          <xtg lang="ru"><xt>не ставь высоко</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>эн ошйысь ми водзын</x>
-
-          <xtg lang="ru"><xt>не хвастайся перед нами</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>эн пов некодысь</x>
-
-          <xtg lang="ru"><xt>не бойся никого</xt></xtg>
-        </xg>
-
-        <xg type="proverb">
-          <x>эн коль пиыдлы озырлун, а тувъяв сылы мывкыдлун</x>
-
-          <xtg lang="ru"><xt> не оставляй сыну богатство, а уму-разуму
-          научи</xt></xtg>
-        </xg>
-
-        <xg type="saying">
-          <x>эн пуртысь пов, а кывйысь</x>
-
-          <xtg lang="ru"><xt> не ножа бойся, а языка</xt></xtg>
-        </xg>
-
-        <xg type="saying">
-          <x>эн серав, сера лоан</x>
-
-          <xtg lang="ru"><xt> не смейся, пёстрым будешь</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry exclude="fst">
-    <lemma>огӧй</lemma>
-
-    <stem>оз</stem>
-
-    <contlex>VNeg-Pres-Pl1</contlex>
-
-    <pos>VNEG</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head><com>в отриц. конструкциях, в наст. и буд. вр. (I-е л. мн.
-          числа) </com></head>
-
-          <tg lang="ru"><t>не</t></tg>
-
-          <tg lang="ru"><t> нет</t></tg>
-
-          <assoc MNo="1" assocType="see">ог</assoc>
-        </m>
-
-        <xg>
-          <x>ми некодлы огӧй висьталӧй</x>
-
-          <xtg lang="ru"><xt>мы никому не скажем</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>талун татысь вӧрзьӧдчам огӧй?</x>
-
-          <xtg lang="ru"><xt>тронемся ли мы сегодня отсюда?</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry exclude="fst">
-    <lemma>моз</lemma>
-
-    <stem></stem>
-
-    <contlex>VNeg-Med-3</contlex>
-
-    <pos>VNEG</pos>
-
-    <e RN="III">
-      <mg>
-        <m>
-          <head><i>сокр. ф. мед оз</i></head>
-
-          <tg lang="ru"><t></t></tg>
-        </m>
-      </mg>
-    </e>
-  </entry>
-
-  <entry exclude="fst">
-    <lemma>онӧ</lemma>
-
-    <stem>оз</stem>
-
-    <contlex>VNeg-Pres-Pl2</contlex>
-
-    <pos>VNEG</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head></head>
-
-          <assoc RN="II" assocType="see">он</assoc>
-        </m>
-      </mg>
-    </e>
-  </entry>
-
-  <entry exclude="fst">
-    <lemma>онӧй</lemma>
-
-    <stem>оз</stem>
-
-    <contlex>VNeg-Pres-Pl2</contlex>
-
-    <pos>VNEG</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head><i>в отриц. конструкциях в наст. и буд. вр. (2-е л. мн. числ.)</i></head>
-
-          <tg lang="ru"><t>не</t></tg>
-
-          <tg lang="ru"><t> нет</t></tg>
-
-          <tg lang="ru"><t> (не...) ли</t></tg>
-        </m>
-
-        <xg>
-          <x>онӧй тӧдӧй</x>
-
-          <xtg lang="ru"><xt>вы не знаете <i>и</i> вы не узнаете</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>веританныд онӧй ...</x>
-
-          <xtg lang="ru"><xt>верите ли... <i>или</i> поверите ли...</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry exclude="fst">
-    <lemma>энӧй</lemma>
-
-    <stem>оз</stem>
-
-    <contlex>#</contlex>
-
-    <pos>VNEG</pos>
-  </entry>
-
-  <entry exclude="fst">
-    <lemma>энлӧй</lemma>
-
-    <stem>оз</stem>
-
-    <contlex>VNeg-Pret-2Pl-Dim</contlex>
-
-    <pos>VNEG</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head><i>повел. накл.</i></head>
-
-          <tg lang="ru"><t>погодите, подождите, повремените</t></tg>
-        </m>
-
-        <xg>
-          <x>энлӧй , висьтала бӧрынджык</x>
-
-          <xtg lang="ru"><xt>погодите, расскажу попозже</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>энлӧй , лолышта кӧть</x>
-
-          <xtg lang="ru"><xt>подождите, дай отдохнуть</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>энлӧй, ставыс лоӧ бур</x>
-
-          <xtg lang="ru"><xt>повремените, всё будет хорошо</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry exclude="fst">
-    <lemma>энлы</lemma>
-
-    <stem>оз</stem>
-
-    <contlex>VNeg-Pret-2Sg-Dim</contlex>
-
-    <pos>VNEG</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head><i>повел. накл.</i></head>
-
-          <tg lang="ru"><t>погоди, подожди, повремени</t></tg>
-        </m>
-
-        <xg>
-          <x>~ , висьтала бӧрынджык</x>
-
-          <xtg lang="ru"><xt>погоди, расскажу попозже</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>~ , лолышта кӧть</x>
-
-          <xtg lang="ru"><xt>подожди, дай отдохнуть</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry exclude="fst">
-    <lemma>эз</lemma>
-
-    <stem>оз</stem>
-
-    <contlex>#</contlex>
-
-    <pos>VNEG</pos>
-  </entry>
-
-  <entry exclude="fst">
-    <lemma>ог</lemma>
-
-    <stem>оз</stem>
-
-    <contlex>#</contlex>
-
-    <pos>VNEG</pos>
-  </entry>
-
-  <entry exclude="fst">
-    <lemma>огӧ</lemma>
-
-    <stem>оз</stem>
-
-    <contlex>#</contlex>
-
-    <pos>VNEG</pos>
-  </entry>
-
-  <entry exclude="fst">
-    <lemma>огӧй</lemma>
-
-    <stem>оз</stem>
-
-    <contlex>#</contlex>
-
-    <pos>VNEG</pos>
-  </entry>
-
-  <entry exclude="fst">
-    <lemma>он</lemma>
-
-    <stem>оз</stem>
-
-    <contlex>#</contlex>
-
-    <pos>VNEG</pos>
-  </entry>
-
-  <entry exclude="fst">
-    <lemma>он</lemma>
-
-    <stem>оз</stem>
-
-    <contlex>#</contlex>
-
-    <pos>VNEG</pos>
-  </entry>
-
-  <entry exclude="fst">
-    <lemma>онӧй</lemma>
-
-    <stem>оз</stem>
-
-    <contlex>#</contlex>
-
-    <pos>VNEG</pos>
-  </entry>
-
-  <entry exclude="fst">
-    <lemma>оз</lemma>
-
-    <stem>оз</stem>
-
-    <contlex>#</contlex>
-
-    <pos>VNEG</pos>
-  </entry>
+<dict xsi:noNamespaceSchemaLocation="../dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty">
+   <entry exclude="fst">
+      <lemma>CiprianAndTrond</lemma>
+      <stem>FixThis</stem>
+      <contlex>#</contlex>
+      <pos>N</pos>
+   </entry>
+   <!-- comment: The problem here is the share of burden between xml and lexc. The VERBNEGATIVE lexicon looks like this: LEXICON VERBNEGATIVE оз+V+Neg+Ind+Prs+Sg1:ог K ; оз+V+Neg+Ind+Prs+Sg2:он K ; оз+V+Neg+Ind+Prs+Sg3:оз K ; ... The problem with the things below is that "lemma" and "stem" are mixed. "lemma" is used in two ways: a. as ditionary lookup term (expected is the wordform) b. as fst reference term (expected is оз) For the time being we should have a special contlex entry saying <contlex>NOCONTLEXGENERATION</contlex> with a corresponding if-statement in the xslt file generating the kt/tmp/out/ files. Conclusion reached (?) on Jan 1st ( :-) a new year's promise): We do the pronouns in the same way. Preliminary, we comment them out from the dict, awaiting an implementation of the NOCONTLEX contlex value. o In this way we can use stems from the individual personal pronouns once each ме тэ -->
+   <entry exclude="fst">
+      <lemma>эг</lemma>
+      <stem>оз</stem>
+      <contlex>VNeg-Pret-Sg1</contlex>
+      <pos>VNEG</pos>
+      <e>
+         <mg>
+            <m>
+               <head><i>отриц. част. глагола наст. вр. I л. ед. ч.</i></head>
+            </m>
+            <tg lang="ru"><t>не</t></tg>
+            <tg lang="ru"><t> нет</t></tg>
+            <xg>
+               <x>эг вӧч</x>
+               <xtg lang="ru"><xt>я не сделал</xt></xtg>
+            </xg>
+            <xg>
+               <x>эг ме вӧв</x>
+               <xtg lang="ru"><xt>не я это был</xt></xtg>
+            </xg>
+            <xg>
+               <x>эг мудзӧй</x>
+               <xtg lang="ru"><xt>мы не устали</xt></xtg>
+            </xg>
+            <xg>
+               <x>эг пуксьыв весиг здук кежлӧ</x>
+               <xtg lang="ru"><xt>я не садился даже на минутку</xt></xtg>
+            </xg>
+            <xg>
+               <x>тайӧс эг вермы шуны</x>
+               <xtg lang="ru"><xt>я не смог это сказать</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lemma>эгджык</lemma>
+      <stem/>
+      <contlex>VNeg-Pret-Sg1-Comp</contlex>
+      <pos>VNEG</pos>
+      <e>
+         <mg>
+            <m>
+               <head><i>отриц. част. уменьш. употр. с глаголами прош. вр. I л.</i></head>
+            </m>
+            <tg lang="ru"><t>не так, немного не</t></tg>
+            <tg lang="ru"><t> не вполне, не совсем</t></tg>
+            <xg>
+               <x>эгджык кыв сёрнисӧ</x>
+               <xtg lang="ru"><xt>я не вполне расслышал разговор</xt></xtg>
+            </xg>
+            <xg>
+               <x>эгджык куж вӧчны</x>
+               <xtg lang="ru"><xt>я не так сделал</xt></xtg>
+               <xtg lang="ru"><xt> я немного не сумел сделать</xt></xtg>
+            </xg>
+            <xg>
+               <x>эгджык су найӧс</x>
+               <xtg lang="ru"><xt>я немного не догнал их</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lemma>эзджык</lemma>
+      <stem/>
+      <contlex>VNeg-Pret-3-Comp</contlex>
+      <pos>VNEG</pos>
+      <e>
+         <mg>
+            <m>
+               <head><i>отриц. част. уменьш.</i></head>
+            </m>
+            <tg lang="ru"><t>не так, немного не</t></tg>
+            <tg lang="ru"><t> не совсем</t></tg>
+            <xg>
+               <x>~ лӧсяв</x>
+               <xtg lang="ru"><xt>немного не подошло</xt></xtg>
+            </xg>
+            <xg>
+               <x>олӧмным ~ сідз артмы</x>
+               <xtg lang="ru"><xt>наша жизнь сложилась не совсем так</xt></xtg>
+            </xg>
+            <xg>
+               <x>~ сяммы висьтавны</x>
+               <xtg lang="ru"><xt>немного не сумел рассказать</xt></xtg>
+            </xg>
+            <xg>
+               <x>тані менӧ ~ суны</x>
+               <xtg lang="ru"><xt>здесь меня немножко не догнали</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lemma>эгкодь</lemma>
+      <stem/>
+      <contlex>VNeg-Pret-Sg1-Comparison</contlex>
+      <pos>VNEG</pos>
+      <e>
+         <mg>
+            <m>
+               <head><i>отриц. част.</i></head>
+               <semRel lemmaID="эгджык" semRelType="see"/>
+            </m>
+            <tg lang="ru"><t> </t></tg>
+            <xg>
+               <x>эгкодь эскы</x>
+               <xtg lang="ru"><xt>я не совсем поверил</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lemma>эгӧ</lemma>
+      <stem>оз</stem>
+      <contlex>VNeg-Pret-Pl1</contlex>
+      <pos>VNEG</pos>
+      <e>
+         <mg>
+            <m>
+               <head><i>отриц. част. глагола наст. вр. I л. мн. ч.</i></head>
+            </m>
+            <tg lang="ru"><t> не, нет</t></tg>
+            <xg>
+               <x>эгӧ узьӧй вӧрын</x>
+               <xtg lang="ru"><xt>мы в лесу не ночевали</xt></xtg>
+            </xg>
+            <xg>
+               <x>эгӧй ветлӧй</x>
+               <xtg lang="ru"><xt>мы не ездили</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lemma>эгӧй</lemma>
+      <stem>оз</stem>
+      <contlex>VNeg-Pret-Pl1</contlex>
+      <pos>VNEG</pos>
+      <e>
+         <mg>
+            <m>
+               <head><i>отриц. част. глагола наст. вр. I л. мн. ч.</i></head>
+            </m>
+            <tg lang="ru"><t>не, нет</t></tg>
+            <xg>
+               <x>эгӧй узьӧй вӧрын</x>
+               <xtg lang="ru"><xt>мы в лесу не ночевали</xt></xtg>
+            </xg>
+            <xg>
+               <x>эгӧй ветлӧй</x>
+               <xtg lang="ru"><xt>мы не ездили</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lemma>эз</lemma>
+      <stem>оз</stem>
+      <contlex>VNeg-Pret-3</contlex>
+      <pos>VNEG</pos>
+      <e>
+         <mg>
+            <m>
+               <head><i>отриц. част. глагола прош. вр. 3 л.</i></head>
+            </m>
+            <tg lang="ru"><t>не, нет</t></tg>
+            <xg>
+               <x>весиг юрсӧ эз лэптыв</x>
+               <xtg lang="ru"><xt>он даже голову не поднял</xt></xtg>
+            </xg>
+            <xg>
+               <x>миян эз воны</x>
+               <xtg lang="ru"><xt>наши не пришли</xt></xtg>
+            </xg>
+            <xg>
+               <x>ни ӧти кыв сійӧ эз шу</x>
+               <xtg lang="ru"><xt>ни одного слова он не сказал</xt></xtg>
+            </xg>
+            <xg>
+               <x>эз зіль уджавны</x>
+               <xtg lang="ru"><xt>он не старался работать</xt></xtg>
+            </xg>
+            <xg>
+               <x>эз и тӧдчы</x>
+               <xtg lang="ru"><xt>не заметно, мало</xt></xtg>
+            </xg>
+            <xg type="saying">
+               <x>эз кӧ вӧв куш, эз вӧв и плеш</x>
+               <xtg lang="ru"><xt> если бы не было лысины, не было бы и плешины</xt></xtg>
+            </xg>
+            <xg>
+               <x>эз пусьы</x>
+               <xtg lang="ru"><xt>не вышло, не выгорело</xt></xtg>
+               <xtg lang="ru"><xt> не получилось</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lemma>эн</lemma>
+      <stem>оз</stem>
+      <contlex>VNeg-Pret-2Sg</contlex>
+      <pos>VNEG</pos>
+      <e>
+         <mg>
+            <m>
+               <head><i>отриц. част. глагола 2 л. наст. вр.</i></head>
+            </m>
+            <tg lang="ru"><t>не, нет</t></tg>
+            <xg>
+               <x>эн видзӧд</x>
+               <xtg lang="ru"><xt>не смотри</xt></xtg>
+            </xg>
+            <xg>
+               <x>тэ некытчӧ эн ветлы?</x>
+               <xtg lang="ru"><xt>ты никуда не ходил?</xt></xtg>
+            </xg>
+            <xg>
+               <x>эн вылӧ пукты</x>
+               <xtg lang="ru"><xt>не ставь высоко</xt></xtg>
+            </xg>
+            <xg>
+               <x>эн ошйысь ми водзын</x>
+               <xtg lang="ru"><xt>не хвастайся перед нами</xt></xtg>
+            </xg>
+            <xg>
+               <x>эн пов некодысь</x>
+               <xtg lang="ru"><xt>не бойся никого</xt></xtg>
+            </xg>
+            <xg type="proverb">
+               <x>эн коль пиыдлы озырлун, а тувъяв сылы мывкыдлун</x>
+               <xtg lang="ru"><xt> не оставляй сыну богатство, а уму-разуму научи</xt></xtg>
+            </xg>
+            <xg type="saying">
+               <x>эн пуртысь пов, а кывйысь</x>
+               <xtg lang="ru"><xt> не ножа бойся, а языка</xt></xtg>
+            </xg>
+            <xg type="saying">
+               <x>эн серав, сера лоан</x>
+               <xtg lang="ru"><xt> не смейся, пёстрым будешь</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lemma>огӧй</lemma>
+      <stem>оз</stem>
+      <contlex>VNeg-Pres-Pl1</contlex>
+      <pos>VNEG</pos>
+      <e>
+         <mg>
+            <m>
+               <head><com>в отриц. конструкциях, в наст. и буд. вр. (I-е л. мн. числа) </com></head>
+               <semRel MNo="1" lemmaID="ог" semRelType="see"/>
+            </m>
+            <tg lang="ru"><t>не</t></tg>
+            <tg lang="ru"><t> нет</t></tg>
+            <xg>
+               <x>ми некодлы огӧй висьталӧй</x>
+               <xtg lang="ru"><xt>мы никому не скажем</xt></xtg>
+            </xg>
+            <xg>
+               <x>талун татысь вӧрзьӧдчам огӧй?</x>
+               <xtg lang="ru"><xt>тронемся ли мы сегодня отсюда?</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lemma>моз</lemma>
+      <stem/>
+      <contlex>VNeg-Med-3</contlex>
+      <pos>VNEG</pos>
+      <e RN="III">
+         <mg>
+            <m>
+               <head><i>сокр. ф. мед оз</i></head>
+            </m>
+            <tg lang="ru"><t/></tg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lemma>онӧ</lemma>
+      <stem>оз</stem>
+      <contlex>VNeg-Pres-Pl2</contlex>
+      <pos>VNEG</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <semRel RN="II" lemmaID="он" semRelType="see"/>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lemma>онӧй</lemma>
+      <stem>оз</stem>
+      <contlex>VNeg-Pres-Pl2</contlex>
+      <pos>VNEG</pos>
+      <e>
+         <mg>
+            <m>
+               <head><i>в отриц. конструкциях в наст. и буд. вр. (2-е л. мн. числ.)</i></head>
+            </m>
+            <tg lang="ru"><t>не</t></tg>
+            <tg lang="ru"><t> нет</t></tg>
+            <tg lang="ru"><t> (не...) ли</t></tg>
+            <xg>
+               <x>онӧй тӧдӧй</x>
+               <xtg lang="ru"><xt>вы не знаете <i>и</i> вы не узнаете</xt></xtg>
+            </xg>
+            <xg>
+               <x>веританныд онӧй ...</x>
+               <xtg lang="ru"><xt>верите ли... <i>или</i> поверите ли...</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lemma>энӧй</lemma>
+      <stem>оз</stem>
+      <contlex>#</contlex>
+      <pos>VNEG</pos>
+   </entry>
+   <entry exclude="fst">
+      <lemma>энлӧй</lemma>
+      <stem>оз</stem>
+      <contlex>VNeg-Pret-2Pl-Dim</contlex>
+      <pos>VNEG</pos>
+      <e>
+         <mg>
+            <m>
+               <head><i>повел. накл.</i></head>
+            </m>
+            <tg lang="ru"><t>погодите, подождите, повремените</t></tg>
+            <xg>
+               <x>энлӧй , висьтала бӧрынджык</x>
+               <xtg lang="ru"><xt>погодите, расскажу попозже</xt></xtg>
+            </xg>
+            <xg>
+               <x>энлӧй , лолышта кӧть</x>
+               <xtg lang="ru"><xt>подождите, дай отдохнуть</xt></xtg>
+            </xg>
+            <xg>
+               <x>энлӧй, ставыс лоӧ бур</x>
+               <xtg lang="ru"><xt>повремените, всё будет хорошо</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lemma>энлы</lemma>
+      <stem>оз</stem>
+      <contlex>VNeg-Pret-2Sg-Dim</contlex>
+      <pos>VNEG</pos>
+      <e>
+         <mg>
+            <m>
+               <head><i>повел. накл.</i></head>
+            </m>
+            <tg lang="ru"><t>погоди, подожди, повремени</t></tg>
+            <xg>
+               <x>~ , висьтала бӧрынджык</x>
+               <xtg lang="ru"><xt>погоди, расскажу попозже</xt></xtg>
+            </xg>
+            <xg>
+               <x>~ , лолышта кӧть</x>
+               <xtg lang="ru"><xt>подожди, дай отдохнуть</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lemma>эз</lemma>
+      <stem>оз</stem>
+      <contlex>#</contlex>
+      <pos>VNEG</pos>
+   </entry>
+   <entry exclude="fst">
+      <lemma>ог</lemma>
+      <stem>оз</stem>
+      <contlex>#</contlex>
+      <pos>VNEG</pos>
+   </entry>
+   <entry exclude="fst">
+      <lemma>огӧ</lemma>
+      <stem>оз</stem>
+      <contlex>#</contlex>
+      <pos>VNEG</pos>
+   </entry>
+   <entry exclude="fst">
+      <lemma>огӧй</lemma>
+      <stem>оз</stem>
+      <contlex>#</contlex>
+      <pos>VNEG</pos>
+   </entry>
+   <entry exclude="fst">
+      <lemma>он</lemma>
+      <stem>оз</stem>
+      <contlex>#</contlex>
+      <pos>VNEG</pos>
+   </entry>
+   <entry exclude="fst">
+      <lemma>он</lemma>
+      <stem>оз</stem>
+      <contlex>#</contlex>
+      <pos>VNEG</pos>
+   </entry>
+   <entry exclude="fst">
+      <lemma>онӧй</lemma>
+      <stem>оз</stem>
+      <contlex>#</contlex>
+      <pos>VNEG</pos>
+   </entry>
+   <entry exclude="fst">
+      <lemma>оз</lemma>
+      <stem>оз</stem>
+      <contlex>#</contlex>
+      <pos>VNEG</pos>
+   </entry>
 </dict>
