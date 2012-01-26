@@ -1,987 +1,672 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dict xsi:noNamespaceSchemaLocation="../dict.xsd"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <entry>
-    <lemma>кодкӧ</lemma>
-
-    <stem>код</stem>
-
-    <contlex>PRONINDEFTAG-KO</contlex>
-
-    <pos>PRON-INDEF</pos>
-  </entry>
-
-  <entry exclude="fst">
-    <lemma>кодсюрӧ</lemma>
-
-    <stem></stem>
-
-    <contlex>PRONINDEFTAG</contlex>
-
-    <pos>PRON-INDEF</pos>
-
-    <e>
-      <mg MNo="1">
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>кое-кто</t></tg>
-        </m>
-
-        <xg>
-          <x>кодсюрӧӧс аддзылі</x>
-
-          <xtg lang="ru"><xt>видел кое-кого</xt></xtg>
-        </xg>
-      </mg>
-
-      <mg MNo="2">
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>некоторые, отдельные</t></tg>
-        </m>
-
-        <xg>
-          <x>кодсюрӧ быдторйысь видчӧны</x>
-
-          <xtg lang="ru"><xt>некоторые из-за всего ругаются</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>коръясӧкӧ</lemma>
-
-    <stem></stem>
-
-    <contlex>PRONINDEFTAG</contlex>
-
-    <pos>PRON-INDEF</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>кое-когда</t></tg>
-
-          <tg lang="ru"><t> иногда, иной раз</t></tg>
-        </m>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>кутшӧм-некутшӧм</lemma>
-
-    <stem></stem>
-
-    <contlex>PRONINDEFTAG</contlex>
-
-    <pos>PRON-INDEF</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>какой бы то ни был, хоть какой-нибудь</t></tg>
-
-          <tg lang="ru"><t> какой-никакой</t></tg>
-        </m>
-
-        <xg>
-          <x>сійӧ ӧд кутшӧм-некутшӧм, а дядь тэнад</x>
-
-          <xtg lang="ru"><xt>какой-никакой, но всё же он твой дядя</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>кутшӧм-сэтшӧм</lemma>
-
-    <stem></stem>
-
-    <contlex>PRONINDEFTAG</contlex>
-
-    <pos>PRON-INDEF</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>какой ещё, что за</t></tg>
-
-          <tg lang="ru"><t> какой-такой</t></tg>
-        </m>
-
-        <xg>
-          <x>кутшӧм-сэтшӧм вӧв тэныд ковмис!</x>
-
-          <xtg lang="ru"><xt>какая ещё лошадь тебе нужна! что за лошадь тебе
-          понадобилась!</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>кутшӧмакӧ</lemma>
-
-    <stem></stem>
-
-    <contlex>PRONINDEFTAG</contlex>
-
-    <pos>PRON-INDEF</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>как-то, каким-то образом</t></tg>
-        </m>
-
-        <xg>
-          <x>быд морт кутшӧмакӧ асруа</x>
-
-          <xtg lang="ru"><xt>каждый человек своеобразен</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>кутшӧмакӧ колӧ петкӧдлыны ӧнія олӧмсӧ</x>
-
-          <xtg lang="ru"><xt>нужно как-то показать современную
-          жизнь</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>кутшӧмасӧкӧ</lemma>
-
-    <stem></stem>
-
-    <contlex>PRONINDEFTAG</contlex>
-
-    <pos>PRON-INDEF</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head></head>
-
-          <assoc MNo="1" assocType="see">кутшӧмакӧ</assoc>
-        </m>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>кутшӧмкӧ</lemma>
-
-    <stem></stem>
-
-    <contlex>PRONINDEFTAG</contlex>
-
-    <pos>PRON-INDEF</pos>
-
-    <e>
-      <mg MNo="1">
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>какой-то</t></tg>
-
-          <tg lang="ru"><t> некий</t></tg>
-
-          <tg lang="ru"><t> некто</t></tg>
-        </m>
-
-        <xg>
-          <x>кутшӧмкӧ морт локтіс</x>
-
-          <xtg lang="ru"><xt>какой-то человек пришёл</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>кутшӧмкӧ тӧдтӧм</x>
-
-          <xtg lang="ru"><xt>какой-то незнакомец</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>та йылысь гижліс кутшӧмкӧ Сирвойтов</x>
-
-          <xtg lang="ru"><xt>об этом писал некий Сирвойтов</xt></xtg>
-        </xg>
-      </mg>
-
-      <mg MNo="2">
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>какой-нибудь</t></tg>
-        </m>
-
-        <xg>
-          <x>кӧть кутшӧмкӧ</x>
-
-          <xtg lang="ru"><xt>хоть какой-нибудь</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>пыр кутшӧмкӧ да кутшӧмкӧ удж</x>
-
-          <xtg lang="ru"><xt>вечно какая-нибудь работа</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>кутшӧмсюрӧ</lemma>
-
-    <stem></stem>
-
-    <contlex>PRONINDEFTAG</contlex>
-
-    <pos>PRON-INDEF</pos>
-
-    <e>
-      <mg MNo="1">
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>какой-нибудь</t></tg>
-        </m>
-
-        <xg>
-          <x>кутшӧмсюрӧ удж век нин сюрас</x>
-
-          <xtg lang="ru"><xt>какая-нибудь работа всегда уж найдётся</xt></xtg>
-        </xg>
-      </mg>
-
-      <mg MNo="2">
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>кое-какой, кой-какой</t></tg>
-
-          <tg lang="ru"><t> некоторые</t></tg>
-        </m>
-
-        <xg>
-          <x>кутшӧмсюрӧ вопросъяс видлалӧны</x>
-
-          <xtg lang="ru"><xt>рассматривают некоторые вопросы</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>кутшӧмсюрӧ лыдпасъяс колӧ стӧчмӧдны</x>
-
-          <xtg lang="ru"><xt>нужно уточнить кое-какие данные</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>кутшӧмсюрӧ примеръяс вежлавны</x>
-
-          <xtg lang="ru"><xt>заменить некоторые примеры</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>меным кутшӧмсюрӧ оз ков, а колӧ бур</x>
-
-          <xtg lang="ru"><xt>кое-какой мне не нужен, а нужен
-          хороший</xt></xtg>
-        </xg>
-      </mg>
-
-      <mg MNo="3">
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>разный, различный, всякий</t></tg>
-        </m>
-
-        <xg>
-          <x>кутшӧмсюрӧ йӧз волӧны</x>
-
-          <xtg lang="ru"><xt>разные люди ходят</xt></xtg>
-        </xg>
-      </mg>
-
-      <mg MNo="4">
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>неизвестно какой, какой попало</t></tg>
-        </m>
-
-        <xg>
-          <x>кутшӧмсюрӧ сёян сёйны оз позь</x>
-
-          <xtg lang="ru"><xt>какую попало пищу есть нельзя</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>кутшӧмтор</lemma>
-
-    <stem>кутшӧмторй</stem>
-
-    <contlex>PRONINDEFTAG</contlex>
-
-    <pos>PRON-INDEF</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>что-то такое</t></tg>
-
-          <tg lang="ru"><t> какой-то случай</t></tg>
-        </m>
-
-        <xg>
-          <x>со кутшӧмтор вӧлі миянкӧд</x>
-
-          <xtg lang="ru"><xt>вот какой случай был с нами</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>кымынкӧ</lemma>
-
-    <stem></stem>
-
-    <contlex>PRONINDEFTAG</contlex>
-
-    <pos>PRON-INDEF</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>несколько</t></tg>
-
-          <tg lang="ru"><t> сколько-то</t></tg>
-        </m>
-
-        <xg>
-          <x>кымынкӧ во</x>
-
-          <xtg lang="ru"><xt>несколько лет</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>кымынкӧ йӧрш</x>
-
-          <xtg lang="ru"><xt>несколько ершей</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>тыдовтчисны кымынкӧ морт</x>
-
-          <xtg lang="ru"><xt>показалось несколько человек</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>кымыныськӧ</lemma>
-
-    <stem></stem>
-
-    <contlex>PRONINDEFTAG</contlex>
-
-    <pos>PRON-INDEF</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>несколько раз</t></tg>
-        </m>
-
-        <xg>
-          <x>кымыныськӧ курччыны</x>
-
-          <xtg lang="ru"><xt>откусить несколько раз</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>кымыныськӧ паньыштны</x>
-
-          <xtg lang="ru"><xt>хлебнуть несколько раз</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>кыськӧ</lemma>
-
-    <stem></stem>
-
-    <contlex>PRONINDEFTAG</contlex>
-
-    <pos>PRON-INDEF</pos>
-
-    <e>
-      <mg MNo="1">
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>откуда-то</t></tg>
-        </m>
-
-        <xg>
-          <x>кыськӧ ылысь босьтны</x>
-
-          <xtg lang="ru"><xt>взять откуда-то издалека</xt></xtg>
-        </xg>
-      </mg>
-
-      <mg MNo="2">
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>откуда-нибудь</t></tg>
-        </m>
-
-        <xg>
-          <x>кыськӧ колӧ судзӧдны</x>
-
-          <xtg lang="ru"><xt>откуда-нибудь надо достать</xt></xtg>
-        </xg>
-      </mg>
-
-      <mg MNo="3">
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>где-то</t></tg>
-        </m>
-
-        <xg>
-          <x>кыськӧ босьтӧма</x>
-
-          <xtg lang="ru"><xt>где-то раздобыл</xt></xtg>
-        </xg>
-      </mg>
-
-      <mg MNo="4">
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>где-нибудь</t></tg>
-        </m>
-
-        <xg>
-          <x>кыськӧ корсян</x>
-
-          <xtg lang="ru"><xt>где-нибудь найдёшь</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>кыськӧ тай эм!</x>
-
-          <xtg lang="ru"><xt>вон ведь какой!</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>кытчӧкӧ</lemma>
-
-    <stem></stem>
-
-    <contlex>PRONINDEFTAG</contlex>
-
-    <pos>PRON-INDEF</pos>
-  </entry>
-
-  <entry>
-    <lemma>кытыськӧ</lemma>
-
-    <stem></stem>
-
-    <contlex>PRONINDEFTAG</contlex>
-
-    <pos>PRON-INDEF</pos>
-  </entry>
-
-  <entry>
-    <lemma>кӧнкӧ</lemma>
-
-    <stem></stem>
-
-    <contlex>PRONINDEFTAG</contlex>
-
-    <pos>PRON-INDEF</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>где-то</t></tg>
-
-          <tg lang="ru"><t> где-либо</t></tg>
-
-          <tg lang="ru"><t> где-нибудь</t></tg>
-        </m>
-
-        <xg>
-          <x>кӧнкӧ бокын</x>
-
-          <xtg lang="ru"><xt>где-то в стороне</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>кӧнкӧ водзын</x>
-
-          <xtg lang="ru"><xt>где-то впереди</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>кӧнкӧ лыйсьӧны</x>
-
-          <xtg lang="ru"><xt>где-то стреляют</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>видзны сёян-юан кӧнкӧ кӧдзыдінын</x>
-
-          <xtg lang="ru"><xt>хранить продукты где-нибудь в холодном
-          помещении</xt></xtg>
-        </xg>
-      </mg>
-
-      <mg>
-        <m>
-          <head><i>вводн. сл.</i></head>
-
-          <tg lang="ru"><t>вероятно, наверно, очевидно</t></tg>
-        </m>
-
-        <xg>
-          <x>бабӧлы, дерт, кӧнкӧ , шог вӧлі</x>
-
-          <xtg lang="ru"><xt>бабушке, наверно, было грустно</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>вой шӧр гӧгӧрын, кӧнкӧ , воисны нин</x>
-
-          <xtg lang="ru"><xt>около полуночи, вероятно, прибыли</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>тэ, кӧнкӧ , тшыг</x>
-
-          <xtg lang="ru"><xt>ты, наверно, голоден</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>кӧнкӧ-кӧнкӧ</lemma>
-
-    <stem></stem>
-
-    <contlex>PRONINDEFTAG</contlex>
-
-    <pos>PRON-INDEF</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head></head>
-
-          <assoc MNo="1" assocType="see">кӧнсюрӧ</assoc>
-        </m>
-
-        <xg>
-          <x>кӧнкӧ-кӧнкӧ эм нин тшак</x>
-
-          <xtg lang="ru"><xt>кое-где уже есть грибы</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>мый-нибудь</lemma>
-
-    <stem></stem>
-
-    <contlex>PRONINDEFTAG</contlex>
-
-    <pos>PRON-INDEF</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>что-нибудь</t></tg>
-
-          <tg lang="ru"><t> что-либо</t></tg>
-        </m>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>мыйдакӧ</lemma>
-
-    <stem></stem>
-
-    <contlex>PRONINDEFTAG</contlex>
-
-    <pos>PRON-INDEF</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head></head>
-
-          <assoc MNo="1" assocType="see">мыйтакӧ</assoc>
-        </m>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>мыйкӧ</lemma>
-
-    <stem>мый</stem>
-
-    <contlex>PRONINDEFTAG-KO</contlex>
-
-    <pos>PRON-INDEF</pos>
-
-    <e>
-      <mg MNo="1">
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>что-то</t></tg>
-        </m>
-
-        <xg>
-          <x>мыйкӧ вашнитіс</x>
-
-          <xtg lang="ru"><xt>он что-то шепнул</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>мыйкӧ шуис, да эг велав</x>
-
-          <xtg lang="ru"><xt>он что-то сказал, но я не разобрал</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>тайӧ вӧлі мыйкӧ выльтор нин</x>
-
-          <xtg lang="ru"><xt>это было уже что-то новое</xt></xtg>
-        </xg>
-      </mg>
-
-      <mg MNo="2">
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>что-нибудь,что-либо</t></tg>
-        </m>
-
-        <xg>
-          <x>мыйкӧ понда</x>
-
-          <xtg lang="ru"><xt>почему-то, по какой-то причине</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>мыйкӧ сетны</x>
-
-          <xtg lang="ru"><xt>что-нибудь дать</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>вай мыйкӧ висьтав</x>
-
-          <xtg lang="ru"><xt>расскажи-ка что-нибудь</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>мыйкӧ сёйыштны колӧ</x>
-
-          <xtg lang="ru"><xt>надо чего-нибудь поесть</xt></xtg>
-        </xg>
-      </mg>
-
-      <mg>
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>что-то</t></tg>
-
-          <tg lang="ru"><t> почему-то</t></tg>
-        </m>
-
-        <xg>
-          <x>дыр тай мыйкӧ</x>
-
-          <xtg lang="ru"><xt>что-то долго</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>ме мыйкӧ висьӧдча</x>
-
-          <xtg lang="ru"><xt>мне что-то нездоровится</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>мыйкӧ дыра</x>
-
-          <xtg lang="ru"><xt>некоторое время</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>мыйкӧ дыра кежлӧ</x>
-
-          <xtg lang="ru"><xt>на некоторое время</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>мыйкӧ дыра кежлӧ вежлыны удж</x>
-
-          <xtg lang="ru"><xt>на некоторое время сменить работу</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>мыйкӧ мында</x>
-
-          <xtg lang="ru"><xt>сколько-то, сколько-нибудь</xt><re>нек-рое количество</re></xtg>
-        </xg>
-
-        <xg>
-          <x>мыйкӧ мында мысти</x>
-
-          <xtg lang="ru"><xt>через некоторое время</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>аддзыны мыйкӧ мында туян узянін</x>
-
-          <xtg lang="ru"><xt>найти мало-мальски подходящий ночлег</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>мыйкӧ мында ачыс мыжа</x>
-
-          <xtg lang="ru"><xt>частично он сам виноват</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>мыйлакӧ</lemma>
-
-    <stem></stem>
-
-    <contlex>PRONINDEFTAG</contlex>
-
-    <pos>PRON-INDEF</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>почему-то</t></tg>
-
-          <tg lang="ru"><t> зачем-то</t></tg>
-
-          <tg lang="ru"><t> отчего-то</t></tg>
-
-          <tg lang="ru"><t> для чего-то</t></tg>
-        </m>
-
-        <xg>
-          <x>мыйлакӧ сійӧ сёрмис</x>
-
-          <xtg lang="ru"><xt>почему-то он опоздал</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>сійӧ мыйлакӧ воліс тӧрыт рытнас</x>
-
-          <xtg lang="ru"><xt>он зачем-то приходил вчера вечером</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry exclude="fst">
-    <lemma>мыйсюрӧ</lemma>
-
-    <stem></stem>
-
-    <contlex>PRONINDEFTAG</contlex>
-
-    <pos>PRON-INDEF</pos>
-
-    <e>
-      <mg MNo="1">
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>кое-что, кой-что</t></tg>
-        </m>
-
-        <xg>
-          <x>мыйсюрӧ колӧ ньӧбны</x>
-
-          <xtg lang="ru"><xt>кое-что надо купить</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>пель сэрӧгӧн эськӧ мыйсюрӧ кывлі нин</x>
-
-          <xtg lang="ru"><xt>краем уха слышал уже кое-что</xt></xtg>
-        </xg>
-      </mg>
-
-      <mg MNo="2">
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>что попало</t></tg>
-        </m>
-
-        <xg>
-          <x>тэныд мыйсюрӧтӧ оз позь сёйны</x>
-
-          <xtg lang="ru"><xt>тебе нельзя есть что попало</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>мыйтакӧ</lemma>
-
-    <stem></stem>
-
-    <contlex>PRONINDEFTAG</contlex>
-
-    <pos>PRON-INDEF</pos>
-
-    <e>
-      <mg MNo="1">
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t>сколько-нибудь, сколько-то</t></tg>
-        </m>
-
-        <xg>
-          <x>идтор мыйтакӧ эм</x>
-
-          <xtg lang="ru"><xt>сколько-то ячменя есть</xt></xtg>
-        </xg>
-
-        <xg>
-          <x>кори удждывны мыйтакӧ сьӧм</x>
-
-          <xtg lang="ru"><xt>попросил одолжить сколько-нибудь денег</xt></xtg>
-        </xg>
-      </mg>
-
-      <mg MNo="2">
-        <m>
-          <head><i>в роли нареч.</i></head>
-
-          <tg lang="ru"><t>в какой-то мере, отчасти</t></tg>
-        </m>
-
-        <xg>
-          <x>мыйтакӧ сійӧ и ачыс мыжа</x>
-
-          <xtg lang="ru"><xt>отчасти он и сам виноват</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>мыйтӧмкӧ</lemma>
-
-    <stem></stem>
-
-    <contlex>PRONINDEFTAG</contlex>
-
-    <pos>PRON-INDEF</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head></head>
-
-          <tg lang="ru"><t> </t></tg>
-
-          <assoc assocType="see" stemID="мыйтакӧ_PRONINDEFTAG"></assoc>
-        </m>
-
-        <xg>
-          <x>гӧль йӧзлы кӧть мыйтӧмкӧ нянь колӧ</x>
-
-          <xtg lang="ru"><xt>беднякам нужно хоть сколько-нибудь
-          хлеба</xt></xtg>
-        </xg>
-      </mg>
-    </e>
-  </entry>
-
-  <entry>
-    <lemma>мыйя</lemma>
-
-    <stem></stem>
-
-    <contlex>PRONINDEFTAG</contlex>
-
-    <pos>PRON-INDEF</pos>
-
-    <e>
-      <mg>
-        <m>
-          <head></head>
-
-          <assoc MNo="1" assocType="see">мыйкӧ</assoc>
-        </m>
-      </mg>
-    </e>
-  </entry>
+<dict xsi:noNamespaceSchemaLocation="../dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty">
+   <entry>
+      <lemma>кодкӧ</lemma>
+      <stem>код</stem>
+      <contlex>PRONINDEFTAG-KO</contlex>
+      <pos>PRON-INDEF</pos>
+   </entry>
+   <entry exclude="fst">
+      <lemma>кодсюрӧ</lemma>
+      <stem/>
+      <contlex>PRONINDEFTAG</contlex>
+      <pos>PRON-INDEF</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>кое-кто</t></tg>
+            <xg>
+               <x>кодсюрӧӧс аддзылі</x>
+               <xtg lang="ru"><xt>видел кое-кого</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>некоторые, отдельные</t></tg>
+            <xg>
+               <x>кодсюрӧ быдторйысь видчӧны</x>
+               <xtg lang="ru"><xt>некоторые из-за всего ругаются</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>коръясӧкӧ</lemma>
+      <stem/>
+      <contlex>PRONINDEFTAG</contlex>
+      <pos>PRON-INDEF</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>кое-когда</t></tg>
+            <tg lang="ru"><t> иногда, иной раз</t></tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>кутшӧм-некутшӧм</lemma>
+      <stem/>
+      <contlex>PRONINDEFTAG</contlex>
+      <pos>PRON-INDEF</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>какой бы то ни был, хоть какой-нибудь</t></tg>
+            <tg lang="ru"><t> какой-никакой</t></tg>
+            <xg>
+               <x>сійӧ ӧд кутшӧм-некутшӧм, а дядь тэнад</x>
+               <xtg lang="ru"><xt>какой-никакой, но всё же он твой дядя</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>кутшӧм-сэтшӧм</lemma>
+      <stem/>
+      <contlex>PRONINDEFTAG</contlex>
+      <pos>PRON-INDEF</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>какой ещё, что за</t></tg>
+            <tg lang="ru"><t> какой-такой</t></tg>
+            <xg>
+               <x>кутшӧм-сэтшӧм вӧв тэныд ковмис!</x>
+               <xtg lang="ru"><xt>какая ещё лошадь тебе нужна! что за лошадь тебе понадобилась!</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>кутшӧмакӧ</lemma>
+      <stem/>
+      <contlex>PRONINDEFTAG</contlex>
+      <pos>PRON-INDEF</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>как-то, каким-то образом</t></tg>
+            <xg>
+               <x>быд морт кутшӧмакӧ асруа</x>
+               <xtg lang="ru"><xt>каждый человек своеобразен</xt></xtg>
+            </xg>
+            <xg>
+               <x>кутшӧмакӧ колӧ петкӧдлыны ӧнія олӧмсӧ</x>
+               <xtg lang="ru"><xt>нужно как-то показать современную жизнь</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>кутшӧмасӧкӧ</lemma>
+      <stem/>
+      <contlex>PRONINDEFTAG</contlex>
+      <pos>PRON-INDEF</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <semRel MNo="1" lemmaID="кутшӧмакӧ" semRelType="see"/>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>кутшӧмкӧ</lemma>
+      <stem/>
+      <contlex>PRONINDEFTAG</contlex>
+      <pos>PRON-INDEF</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>какой-то</t></tg>
+            <tg lang="ru"><t> некий</t></tg>
+            <tg lang="ru"><t> некто</t></tg>
+            <xg>
+               <x>кутшӧмкӧ морт локтіс</x>
+               <xtg lang="ru"><xt>какой-то человек пришёл</xt></xtg>
+            </xg>
+            <xg>
+               <x>кутшӧмкӧ тӧдтӧм</x>
+               <xtg lang="ru"><xt>какой-то незнакомец</xt></xtg>
+            </xg>
+            <xg>
+               <x>та йылысь гижліс кутшӧмкӧ Сирвойтов</x>
+               <xtg lang="ru"><xt>об этом писал некий Сирвойтов</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>какой-нибудь</t></tg>
+            <xg>
+               <x>кӧть кутшӧмкӧ</x>
+               <xtg lang="ru"><xt>хоть какой-нибудь</xt></xtg>
+            </xg>
+            <xg>
+               <x>пыр кутшӧмкӧ да кутшӧмкӧ удж</x>
+               <xtg lang="ru"><xt>вечно какая-нибудь работа</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>кутшӧмсюрӧ</lemma>
+      <stem/>
+      <contlex>PRONINDEFTAG</contlex>
+      <pos>PRON-INDEF</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>какой-нибудь</t></tg>
+            <xg>
+               <x>кутшӧмсюрӧ удж век нин сюрас</x>
+               <xtg lang="ru"><xt>какая-нибудь работа всегда уж найдётся</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>кое-какой, кой-какой</t></tg>
+            <tg lang="ru"><t> некоторые</t></tg>
+            <xg>
+               <x>кутшӧмсюрӧ вопросъяс видлалӧны</x>
+               <xtg lang="ru"><xt>рассматривают некоторые вопросы</xt></xtg>
+            </xg>
+            <xg>
+               <x>кутшӧмсюрӧ лыдпасъяс колӧ стӧчмӧдны</x>
+               <xtg lang="ru"><xt>нужно уточнить кое-какие данные</xt></xtg>
+            </xg>
+            <xg>
+               <x>кутшӧмсюрӧ примеръяс вежлавны</x>
+               <xtg lang="ru"><xt>заменить некоторые примеры</xt></xtg>
+            </xg>
+            <xg>
+               <x>меным кутшӧмсюрӧ оз ков, а колӧ бур</x>
+               <xtg lang="ru"><xt>кое-какой мне не нужен, а нужен хороший</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="3">
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>разный, различный, всякий</t></tg>
+            <xg>
+               <x>кутшӧмсюрӧ йӧз волӧны</x>
+               <xtg lang="ru"><xt>разные люди ходят</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="4">
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>неизвестно какой, какой попало</t></tg>
+            <xg>
+               <x>кутшӧмсюрӧ сёян сёйны оз позь</x>
+               <xtg lang="ru"><xt>какую попало пищу есть нельзя</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>кутшӧмтор</lemma>
+      <stem>кутшӧмторй</stem>
+      <contlex>PRONINDEFTAG</contlex>
+      <pos>PRON-INDEF</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>что-то такое</t></tg>
+            <tg lang="ru"><t> какой-то случай</t></tg>
+            <xg>
+               <x>со кутшӧмтор вӧлі миянкӧд</x>
+               <xtg lang="ru"><xt>вот какой случай был с нами</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>кымынкӧ</lemma>
+      <stem/>
+      <contlex>PRONINDEFTAG</contlex>
+      <pos>PRON-INDEF</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>несколько</t></tg>
+            <tg lang="ru"><t> сколько-то</t></tg>
+            <xg>
+               <x>кымынкӧ во</x>
+               <xtg lang="ru"><xt>несколько лет</xt></xtg>
+            </xg>
+            <xg>
+               <x>кымынкӧ йӧрш</x>
+               <xtg lang="ru"><xt>несколько ершей</xt></xtg>
+            </xg>
+            <xg>
+               <x>тыдовтчисны кымынкӧ морт</x>
+               <xtg lang="ru"><xt>показалось несколько человек</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>кымыныськӧ</lemma>
+      <stem/>
+      <contlex>PRONINDEFTAG</contlex>
+      <pos>PRON-INDEF</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>несколько раз</t></tg>
+            <xg>
+               <x>кымыныськӧ курччыны</x>
+               <xtg lang="ru"><xt>откусить несколько раз</xt></xtg>
+            </xg>
+            <xg>
+               <x>кымыныськӧ паньыштны</x>
+               <xtg lang="ru"><xt>хлебнуть несколько раз</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>кыськӧ</lemma>
+      <stem/>
+      <contlex>PRONINDEFTAG</contlex>
+      <pos>PRON-INDEF</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>откуда-то</t></tg>
+            <xg>
+               <x>кыськӧ ылысь босьтны</x>
+               <xtg lang="ru"><xt>взять откуда-то издалека</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>откуда-нибудь</t></tg>
+            <xg>
+               <x>кыськӧ колӧ судзӧдны</x>
+               <xtg lang="ru"><xt>откуда-нибудь надо достать</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="3">
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>где-то</t></tg>
+            <xg>
+               <x>кыськӧ босьтӧма</x>
+               <xtg lang="ru"><xt>где-то раздобыл</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="4">
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>где-нибудь</t></tg>
+            <xg>
+               <x>кыськӧ корсян</x>
+               <xtg lang="ru"><xt>где-нибудь найдёшь</xt></xtg>
+            </xg>
+            <xg>
+               <x>кыськӧ тай эм!</x>
+               <xtg lang="ru"><xt>вон ведь какой!</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>кытчӧкӧ</lemma>
+      <stem/>
+      <contlex>PRONINDEFTAG</contlex>
+      <pos>PRON-INDEF</pos>
+   </entry>
+   <entry>
+      <lemma>кытыськӧ</lemma>
+      <stem/>
+      <contlex>PRONINDEFTAG</contlex>
+      <pos>PRON-INDEF</pos>
+   </entry>
+   <entry>
+      <lemma>кӧнкӧ</lemma>
+      <stem/>
+      <contlex>PRONINDEFTAG</contlex>
+      <pos>PRON-INDEF</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>где-то</t></tg>
+            <tg lang="ru"><t> где-либо</t></tg>
+            <tg lang="ru"><t> где-нибудь</t></tg>
+            <xg>
+               <x>кӧнкӧ бокын</x>
+               <xtg lang="ru"><xt>где-то в стороне</xt></xtg>
+            </xg>
+            <xg>
+               <x>кӧнкӧ водзын</x>
+               <xtg lang="ru"><xt>где-то впереди</xt></xtg>
+            </xg>
+            <xg>
+               <x>кӧнкӧ лыйсьӧны</x>
+               <xtg lang="ru"><xt>где-то стреляют</xt></xtg>
+            </xg>
+            <xg>
+               <x>видзны сёян-юан кӧнкӧ кӧдзыдінын</x>
+               <xtg lang="ru"><xt>хранить продукты где-нибудь в холодном помещении</xt></xtg>
+            </xg>
+         </mg>
+         <mg>
+            <m>
+               <head><i>вводн. сл.</i></head>
+            </m>
+            <tg lang="ru"><t>вероятно, наверно, очевидно</t></tg>
+            <xg>
+               <x>бабӧлы, дерт, кӧнкӧ , шог вӧлі</x>
+               <xtg lang="ru"><xt>бабушке, наверно, было грустно</xt></xtg>
+            </xg>
+            <xg>
+               <x>вой шӧр гӧгӧрын, кӧнкӧ , воисны нин</x>
+               <xtg lang="ru"><xt>около полуночи, вероятно, прибыли</xt></xtg>
+            </xg>
+            <xg>
+               <x>тэ, кӧнкӧ , тшыг</x>
+               <xtg lang="ru"><xt>ты, наверно, голоден</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>кӧнкӧ-кӧнкӧ</lemma>
+      <stem/>
+      <contlex>PRONINDEFTAG</contlex>
+      <pos>PRON-INDEF</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <semRel MNo="1" lemmaID="кӧнсюрӧ" semRelType="see"/>
+            </m>
+            <xg>
+               <x>кӧнкӧ-кӧнкӧ эм нин тшак</x>
+               <xtg lang="ru"><xt>кое-где уже есть грибы</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>мый-нибудь</lemma>
+      <stem/>
+      <contlex>PRONINDEFTAG</contlex>
+      <pos>PRON-INDEF</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>что-нибудь</t></tg>
+            <tg lang="ru"><t> что-либо</t></tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>мыйдакӧ</lemma>
+      <stem/>
+      <contlex>PRONINDEFTAG</contlex>
+      <pos>PRON-INDEF</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <semRel MNo="1" lemmaID="мыйтакӧ" semRelType="see"/>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>мыйкӧ</lemma>
+      <stem>мый</stem>
+      <contlex>PRONINDEFTAG-KO</contlex>
+      <pos>PRON-INDEF</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>что-то</t></tg>
+            <xg>
+               <x>мыйкӧ вашнитіс</x>
+               <xtg lang="ru"><xt>он что-то шепнул</xt></xtg>
+            </xg>
+            <xg>
+               <x>мыйкӧ шуис, да эг велав</x>
+               <xtg lang="ru"><xt>он что-то сказал, но я не разобрал</xt></xtg>
+            </xg>
+            <xg>
+               <x>тайӧ вӧлі мыйкӧ выльтор нин</x>
+               <xtg lang="ru"><xt>это было уже что-то новое</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>что-нибудь,что-либо</t></tg>
+            <xg>
+               <x>мыйкӧ понда</x>
+               <xtg lang="ru"><xt>почему-то, по какой-то причине</xt></xtg>
+            </xg>
+            <xg>
+               <x>мыйкӧ сетны</x>
+               <xtg lang="ru"><xt>что-нибудь дать</xt></xtg>
+            </xg>
+            <xg>
+               <x>вай мыйкӧ висьтав</x>
+               <xtg lang="ru"><xt>расскажи-ка что-нибудь</xt></xtg>
+            </xg>
+            <xg>
+               <x>мыйкӧ сёйыштны колӧ</x>
+               <xtg lang="ru"><xt>надо чего-нибудь поесть</xt></xtg>
+            </xg>
+         </mg>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>что-то</t></tg>
+            <tg lang="ru"><t> почему-то</t></tg>
+            <xg>
+               <x>дыр тай мыйкӧ</x>
+               <xtg lang="ru"><xt>что-то долго</xt></xtg>
+            </xg>
+            <xg>
+               <x>ме мыйкӧ висьӧдча</x>
+               <xtg lang="ru"><xt>мне что-то нездоровится</xt></xtg>
+            </xg>
+            <xg>
+               <x>мыйкӧ дыра</x>
+               <xtg lang="ru"><xt>некоторое время</xt></xtg>
+            </xg>
+            <xg>
+               <x>мыйкӧ дыра кежлӧ</x>
+               <xtg lang="ru"><xt>на некоторое время</xt></xtg>
+            </xg>
+            <xg>
+               <x>мыйкӧ дыра кежлӧ вежлыны удж</x>
+               <xtg lang="ru"><xt>на некоторое время сменить работу</xt></xtg>
+            </xg>
+            <xg>
+               <x>мыйкӧ мында</x>
+               <xtg lang="ru"><xt>сколько-то, сколько-нибудь</xt><re>нек-рое количество</re></xtg>
+            </xg>
+            <xg>
+               <x>мыйкӧ мында мысти</x>
+               <xtg lang="ru"><xt>через некоторое время</xt></xtg>
+            </xg>
+            <xg>
+               <x>аддзыны мыйкӧ мында туян узянін</x>
+               <xtg lang="ru"><xt>найти мало-мальски подходящий ночлег</xt></xtg>
+            </xg>
+            <xg>
+               <x>мыйкӧ мында ачыс мыжа</x>
+               <xtg lang="ru"><xt>частично он сам виноват</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>мыйлакӧ</lemma>
+      <stem/>
+      <contlex>PRONINDEFTAG</contlex>
+      <pos>PRON-INDEF</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>почему-то</t></tg>
+            <tg lang="ru"><t> зачем-то</t></tg>
+            <tg lang="ru"><t> отчего-то</t></tg>
+            <tg lang="ru"><t> для чего-то</t></tg>
+            <xg>
+               <x>мыйлакӧ сійӧ сёрмис</x>
+               <xtg lang="ru"><xt>почему-то он опоздал</xt></xtg>
+            </xg>
+            <xg>
+               <x>сійӧ мыйлакӧ воліс тӧрыт рытнас</x>
+               <xtg lang="ru"><xt>он зачем-то приходил вчера вечером</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lemma>мыйсюрӧ</lemma>
+      <stem/>
+      <contlex>PRONINDEFTAG</contlex>
+      <pos>PRON-INDEF</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>кое-что, кой-что</t></tg>
+            <xg>
+               <x>мыйсюрӧ колӧ ньӧбны</x>
+               <xtg lang="ru"><xt>кое-что надо купить</xt></xtg>
+            </xg>
+            <xg>
+               <x>пель сэрӧгӧн эськӧ мыйсюрӧ кывлі нин</x>
+               <xtg lang="ru"><xt>краем уха слышал уже кое-что</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>что попало</t></tg>
+            <xg>
+               <x>тэныд мыйсюрӧтӧ оз позь сёйны</x>
+               <xtg lang="ru"><xt>тебе нельзя есть что попало</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>мыйтакӧ</lemma>
+      <stem/>
+      <contlex>PRONINDEFTAG</contlex>
+      <pos>PRON-INDEF</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>сколько-нибудь, сколько-то</t></tg>
+            <xg>
+               <x>идтор мыйтакӧ эм</x>
+               <xtg lang="ru"><xt>сколько-то ячменя есть</xt></xtg>
+            </xg>
+            <xg>
+               <x>кори удждывны мыйтакӧ сьӧм</x>
+               <xtg lang="ru"><xt>попросил одолжить сколько-нибудь денег</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head><i>в роли нареч.</i></head>
+            </m>
+            <tg lang="ru"><t>в какой-то мере, отчасти</t></tg>
+            <xg>
+               <x>мыйтакӧ сійӧ и ачыс мыжа</x>
+               <xtg lang="ru"><xt>отчасти он и сам виноват</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>мыйтӧмкӧ</lemma>
+      <stem/>
+      <contlex>PRONINDEFTAG</contlex>
+      <pos>PRON-INDEF</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <semRel semRelType="see" stemID="мыйтакӧ_PRONINDEFTAG"/>
+            </m>
+            <tg lang="ru"><t> </t></tg>
+            <xg>
+               <x>гӧль йӧзлы кӧть мыйтӧмкӧ нянь колӧ</x>
+               <xtg lang="ru"><xt>беднякам нужно хоть сколько-нибудь хлеба</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>мыйя</lemma>
+      <stem/>
+      <contlex>PRONINDEFTAG</contlex>
+      <pos>PRON-INDEF</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <semRel MNo="1" lemmaID="мыйкӧ" semRelType="see"/>
+            </m>
+         </mg>
+      </e>
+   </entry>
 </dict>
