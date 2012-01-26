@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dict xsi:noNamespaceSchemaLocation="../dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty">
    <entry>
       <lemma>ас</lemma>
       <stem/>
@@ -10,8 +10,8 @@
          <mg MNo="1">
             <m>
                <head><i>притяж.</i></head>
-               <tg lang="ru"><t pos="A">свой, собственный</t></tg>
             </m>
+            <tg lang="ru"><t pos="A">свой, собственный</t></tg>
             <xg>
                <x>ас вӧляысь</x>
                <xtg lang="ru"><xt>по своей воле</xt></xtg>
@@ -32,8 +32,8 @@
          <mg MNo="2">
             <m>
                <head><i>притяж.</i></head>
-               <tg lang="ru"><t pos="A">свой, своего изготовления, домашний</t></tg>
             </m>
+            <tg lang="ru"><t pos="A">свой, своего изготовления, домашний</t></tg>
             <xg>
                <x>ас кыӧм кепысь</x>
                <xtg lang="ru"><xt>рукавицы домашней вязки</xt></xtg>
@@ -50,8 +50,8 @@
          <mg MNo="3">
             <m>
                <head><i>притяж.</i></head>
-               <tg lang="ru"><t pos="A">свой, родной</t></tg>
             </m>
+            <tg lang="ru"><t pos="A">свой, родной</t></tg>
             <xg>
                <x>ас войтыр</x>
                <xtg lang="ru"><xt>свои люди</xt></xtg>
@@ -68,8 +68,8 @@
          <mg MNo="4">
             <m>
                <head><i>притяж.</i></head>
-               <tg lang="ru"><t pos="A">свой, местный</t></tg>
             </m>
+            <tg lang="ru"><t pos="A">свой, местный</t></tg>
             <xg>
                <x>ас картупель</x>
                <xtg lang="ru"><xt>местный сорт картошки</xt></xtg>
@@ -82,8 +82,8 @@
          <mg MNo="5">
             <m>
                <head><voice>возвр.</voice></head>
-               <tg lang="ru"><t>себя</t> <re>чаще употр. с послелогами; в отношении лица может конкретизироваться притяж. суффиксами, присоединяемыми к послелогу</re></tg>
             </m>
+            <tg lang="ru"><t>себя</t> <re>чаще употр. с послелогами; в отношении лица может конкретизироваться притяж. суффиксами, присоединяемыми к послелогу</re></tg>
             <xg>
                <x>асас воис</x>
                <xtg lang="ru"><xt>он пришёл в себя</xt></xtg>
@@ -153,7 +153,7 @@
          <mg>
             <m>
                <head/>
-               <assoc MNo="1" assocType="see">аскӧдым</assoc>
+               <semRel MNo="1" lemmaID="аскӧдым" semRelType="see"/>
             </m>
          </mg>
       </e>
@@ -170,8 +170,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>нуӧй челядьтӧ аскӧдныд</x>
                <xtg lang="ru"><xt>возьмите детей с собой</xt></xtg>
@@ -191,8 +191,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>кагаӧс аскӧдным нулім</x>
                <xtg lang="ru"><xt>ребёнка мы брали с собой</xt></xtg>
@@ -212,8 +212,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>кагасӧ аскӧдныс нулісны</x>
                <xtg lang="ru"><xt>ребёнка они брали с собой</xt></xtg>
@@ -233,8 +233,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>аскӧдыд колі сёрнитны</x>
                <xtg lang="ru"><xt>надо было поговорить с тобой самим</xt></xtg>
@@ -254,8 +254,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>аскӧдым колі сёрнитны</x>
                <xtg lang="ru"><xt>со мной самим надо было поговорить</xt></xtg>
@@ -279,8 +279,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>кагасӧ аскӧдыс нуліс</x>
                <xtg lang="ru"><xt>ребёнка она брала с собой</xt></xtg>
@@ -304,8 +304,8 @@
          <mg MNo="1">
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>понйыд аслад?</x>
                <xtg lang="ru"><xt>собака (эта) твоя?</xt></xtg>
@@ -318,8 +318,8 @@
          <mg MNo="2">
             <m>
                <head/>
-               <tg lang="ru"><t pos="PRON-PERS">свой</t> <t pos="PRON-PERS">твой</t></tg>
             </m>
+            <tg lang="ru"><t pos="PRON-PERS">свой</t> <t pos="PRON-PERS">твой</t></tg>
             <xg>
                <x>тэ аслад синмӧн аддзылін?</x>
                <xtg lang="ru"><xt>ты видел своими глазами?</xt></xtg>
@@ -340,8 +340,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>своя сторона</t><t>родная сторона</t></tg>
             </m>
+            <tg lang="ru"><t>своя сторона</t><t>родная сторона</t></tg>
             <xg>
                <x>вуджны асладор берегӧ</x>
                <xtg lang="ru"><xt>перейти на свой берег</xt></xtg>
@@ -358,8 +358,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>от себя</t></tg>
             </m>
+            <tg lang="ru"><t>от себя</t></tg>
             <xg>
                <x>ӧдзӧс воссьӧ асладорсянь</x>
                <xtg lang="ru"><xt>дверь открывается от себя</xt></xtg>
@@ -376,8 +376,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>на родной стороне</t></tg>
             </m>
+            <tg lang="ru"><t>на родной стороне</t></tg>
             <xg>
                <x>асладорын гажа овны</x>
                <xtg lang="ru"><xt>на родной стороне жить весело</xt></xtg>
@@ -394,8 +394,8 @@
          <mg MNo="1">
             <m>
                <head/>
-               <tg lang="ru"><t>на свою сторону</t></tg>
             </m>
+            <tg lang="ru"><t>на свою сторону</t></tg>
             <xg>
                <x>ранитчӧмаӧс асладорӧ вайны</x>
                <xtg lang="ru"><xt>раненого перенести на свою сторону</xt></xtg>
@@ -404,8 +404,8 @@
          <mg MNo="2">
             <m>
                <head/>
-               <tg lang="ru"><t>в свою пользу</t></tg>
             </m>
+            <tg lang="ru"><t>в свою пользу</t></tg>
             <xg>
                <x>кодӧскӧ кыскыны асладорӧ</x>
                <xtg lang="ru"><xt>предрасположить <i>кого-л.</i> в свою пользу</xt></xtg>
@@ -425,8 +425,8 @@
          <mg MNo="1">
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>аслам этша</x>
                <xtg lang="ru"><xt>у меня у самого мало</xt></xtg>
@@ -435,8 +435,8 @@
          <mg MNo="2">
             <m>
                <head><i>в роли притяж. мест.</i></head>
-               <tg lang="ru"><t>свой, мне принадлежащий</t></tg>
             </m>
+            <tg lang="ru"><t>свой, мне принадлежащий</t></tg>
             <xg>
                <x>тайӧ менам аслам</x>
                <xtg lang="ru"><xt>это у меня своё</xt></xtg>
@@ -460,8 +460,8 @@
          <mg MNo="2">
             <m>
                <head><i>в роли притяж. мест.</i></head>
-               <tg lang="ru"><t>свой, ваш, вам принадлежащий</t></tg>
             </m>
+            <tg lang="ru"><t>свой, ваш, вам принадлежащий</t></tg>
             <xg>
                <x>ті воинныд асланыд вӧвъясӧн?</x>
                <xtg lang="ru"><xt>вы приехали на своих лошадях?</xt></xtg>
@@ -478,8 +478,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>ваша сторона</t></tg>
             </m>
+            <tg lang="ru"><t>ваша сторона</t></tg>
          </mg>
       </e>
    </entry>
@@ -495,14 +495,14 @@
          <mg MNo="1">
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
          </mg>
          <mg MNo="2">
             <m>
                <head><i>в роли притяж. мест.</i></head>
-               <tg lang="ru"><t>свой, наш, нам принадлежащий</t></tg>
             </m>
+            <tg lang="ru"><t>свой, наш, нам принадлежащий</t></tg>
             <xg>
                <x>асланым керкаын олам</x>
                <xtg lang="ru"><xt>мы живём в своём доме</xt></xtg>
@@ -519,8 +519,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>своя (наша) сторона</t></tg>
             </m>
+            <tg lang="ru"><t>своя (наша) сторона</t></tg>
             <xg>
                <x>петны кытшысь асланымладорӧ</x>
                <xtg lang="ru"><xt>выйти из окружения к своим</xt></xtg>
@@ -540,8 +540,8 @@
          <mg MNo="1">
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>асланыс абу</x>
                <xtg lang="ru"><xt>у них самих нет</xt> <re>чего-л.</re></xtg>
@@ -550,8 +550,8 @@
          <mg MNo="2">
             <m>
                <head><i>в роли притяж. мест.</i></head>
-               <tg lang="ru"><t>свой, их, им принадлежащий</t></tg>
             </m>
+            <tg lang="ru"><t>свой, их, им принадлежащий</t></tg>
             <xg>
                <x>воисны асланыс пыжӧн</x>
                <xtg lang="ru"><xt>они прибыли на своей лодке</xt></xtg>
@@ -568,8 +568,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>своя (их) сторона</t></tg>
             </m>
+            <tg lang="ru"><t>своя (их) сторона</t></tg>
          </mg>
       </e>
    </entry>
@@ -582,14 +582,14 @@
          <mg MNo="1">
             <m>
                <head/>
-               <tg lang="ru"><t>на свою сторону</t></tg>
             </m>
+            <tg lang="ru"><t>на свою сторону</t></tg>
          </mg>
          <mg MNo="2">
             <m>
                <head/>
-               <tg lang="ru"><t>к себе</t></tg>
             </m>
+            <tg lang="ru"><t>к себе</t></tg>
             <xg>
                <x>ӧдзӧс воссьӧ аслань</x>
                <xtg lang="ru"><xt>дверь открывается к себе</xt></xtg>
@@ -613,8 +613,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>асланьныд кыскӧй</x>
                <xtg lang="ru"><xt>тяните на себя</xt></xtg>
@@ -634,8 +634,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>асланьным колӧ вештыштны</x>
                <xtg lang="ru"><xt>надо подвинуть на нас, в нашу сторону</xt></xtg>
@@ -655,8 +655,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>асланьныс бӧрыньтчисны</x>
                <xtg lang="ru"><xt>они отступили на свою сторону</xt></xtg>
@@ -676,8 +676,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>асланьыд вешты</x>
                <xtg lang="ru"><xt>подвинь на себя</xt></xtg>
@@ -698,8 +698,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>асланьым кыскышті</x>
                <xtg lang="ru"><xt>я потянул на себя</xt></xtg>
@@ -719,8 +719,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>асланьыс кыскыштіс</x>
                <xtg lang="ru"><xt>он подвинул к себе</xt></xtg>
@@ -744,8 +744,8 @@
          <mg MNo="1">
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>аслас нинӧм абу</x>
                <xtg lang="ru"><xt>у него самого ничего нет</xt></xtg>
@@ -754,8 +754,8 @@
          <mg MNo="2">
             <m>
                <head><i>в роли притяж. мест.</i></head>
-               <tg lang="ru"><t>свой, его, ему принадлежащий</t></tg>
             </m>
+            <tg lang="ru"><t>свой, его, ему принадлежащий</t></tg>
             <xg>
                <x>аслас киӧн</x>
                <xtg lang="ru"><xt>своей рукой</xt></xtg>
@@ -779,8 +779,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>аслыд босьт</x>
                <xtg lang="ru"><xt>бери себе</xt></xtg>
@@ -811,8 +811,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>аслым вылӧ</x>
                <xtg lang="ru"><xt>лично для себя</xt></xtg>
@@ -832,8 +832,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>тіянлы ме аслыныд висьтавлі</x>
                <xtg lang="ru"><xt>я вам самим говорил</xt></xtg>
@@ -853,8 +853,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>аслыным оз тырмы</x>
                <xtg lang="ru"><xt>нам самим не хватает</xt></xtg>
@@ -874,8 +874,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>ме налы аслыныс шулі</x>
                <xtg lang="ru"><xt>я говорил им самим</xt></xtg>
@@ -895,8 +895,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>ме аслыс шулі</x>
                <xtg lang="ru"><xt>я ему самому говорил</xt></xtg>
@@ -916,8 +916,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
          </mg>
       </e>
    </entry>
@@ -933,8 +933,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
          </mg>
       </e>
    </entry>
@@ -950,8 +950,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
          </mg>
       </e>
    </entry>
@@ -967,8 +967,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
          </mg>
       </e>
    </entry>
@@ -984,8 +984,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
          </mg>
       </e>
    </entry>
@@ -1001,8 +1001,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>аснас ачыс любуйтчӧ</x>
                <xtg lang="ru"><xt>он сам собой любуется</xt></xtg>
@@ -1022,8 +1022,8 @@
          <mg MNo="1">
             <m>
                <head><i>притяж. пад. от</i></head>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>ме тэнсьыд ассьыд юавлі</x>
                <xtg lang="ru"><xt>я у тебя самого спрашивал</xt></xtg>
@@ -1032,8 +1032,8 @@
          <mg MNo="2">
             <m>
                <head><i>в роли притяж. мест.</i></head>
-               <tg lang="ru"><t>свой, твой</t></tg>
             </m>
+            <tg lang="ru"><t>свой, твой</t></tg>
             <xg>
                <x>ассьыд мыж гӧгӧрвоӧм</x>
                <xtg lang="ru"><xt>сознание своей вины</xt></xtg>
@@ -1061,8 +1061,8 @@
          <mg MNo="1">
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>ассьым колі юавны</x>
                <xtg lang="ru"><xt>надо было у меня спросить</xt></xtg>
@@ -1071,8 +1071,8 @@
          <mg MNo="2">
             <m>
                <head><i>в роли притяж. мест.</i></head>
-               <tg lang="ru"><t>свой, мой</t></tg>
             </m>
+            <tg lang="ru"><t>свой, мой</t></tg>
             <xg>
                <x>ассьым кагаӧс ӧбидаӧ ог сет</x>
                <xtg lang="ru"><xt>своего ребёнка в обиду не дам</xt></xtg>
@@ -1092,8 +1092,8 @@
          <mg MNo="1">
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>ме жӧ ассьыныд юалі</x>
                <xtg lang="ru"><xt>я же у вас самих спросил</xt></xtg>
@@ -1102,8 +1102,8 @@
          <mg MNo="2">
             <m>
                <head><i>в роли притяж. мест.</i></head>
-               <tg lang="ru"><t>свой, ваш</t></tg>
             </m>
+            <tg lang="ru"><t>свой, ваш</t></tg>
             <xg>
                <x>идралӧй тась ассьыныд кӧлуйтӧ</x>
                <xtg lang="ru"><xt>уберите отсюда свои вещи</xt></xtg>
@@ -1123,8 +1123,8 @@
          <mg MNo="1">
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>ассьыным коліс юавны</x>
                <xtg lang="ru"><xt>надо было спросить у нас самих</xt></xtg>
@@ -1133,8 +1133,8 @@
          <mg MNo="2">
             <m>
                <head><i>в роли притяж. мест.</i></head>
-               <tg lang="ru"><t>свой, наш</t></tg>
             </m>
+            <tg lang="ru"><t>свой, наш</t></tg>
             <xg>
                <x>ассьыным керка вузалім</x>
                <xtg lang="ru"><xt>мы наш дом продали</xt></xtg>
@@ -1154,8 +1154,8 @@
          <mg MNo="1">
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>ассьыныс колі юавны</x>
                <xtg lang="ru"><xt>надо было спросить у них самих</xt></xtg>
@@ -1164,8 +1164,8 @@
          <mg MNo="2">
             <m>
                <head><i>в роли притяж. мест.</i></head>
-               <tg lang="ru"><t>свой, их</t></tg>
             </m>
+            <tg lang="ru"><t>свой, их</t></tg>
             <xg>
                <x>найӧ оз вунӧдны ассьыныс чужан мусӧ</x>
                <xtg lang="ru"><xt>они не забудут свою родину</xt></xtg>
@@ -1185,8 +1185,8 @@
          <mg MNo="1">
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>ассьыс кор</x>
                <xtg lang="ru"><xt>у него самого проси</xt></xtg>
@@ -1195,8 +1195,8 @@
          <mg MNo="2">
             <m>
                <head><i>в знач. притяж. мест.</i></head>
-               <tg lang="ru"><t>свой, его</t></tg>
             </m>
+            <tg lang="ru"><t>свой, его</t></tg>
             <xg>
                <x>ассьыс делӧ бура тӧдӧ</x>
                <xtg lang="ru"><xt>своё дело он хорошо знает</xt></xtg>
@@ -1224,8 +1224,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
          </mg>
       </e>
    </entry>
@@ -1241,8 +1241,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>ассяньныд нин пӧ колӧ</x>
                <xtg lang="ru"><xt>с вас самих, говорят, уже причитается</xt></xtg>
@@ -1262,8 +1262,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>ассяньным колӧ заводитны</x>
                <xtg lang="ru"><xt>надо начать с нас самих</xt></xtg>
@@ -1283,8 +1283,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>ассяньныс на колӧ</x>
                <xtg lang="ru"><xt>с них самих причитается</xt></xtg>
@@ -1304,8 +1304,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>ассяньыд виччысьӧны письмӧ</x>
                <xtg lang="ru"><xt>от тебя самого ждут письмо</xt></xtg>
@@ -1329,8 +1329,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>ассяньым на виччысьӧны</x>
                <xtg lang="ru"><xt>от меня самого ещё ждут</xt> <re>чего-л.</re></xtg>
@@ -1350,8 +1350,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>ассяньыс воис письмӧ</x>
                <xtg lang="ru"><xt>от него самого пришло письмо</xt></xtg>
@@ -1368,14 +1368,14 @@
          <mg MNo="1">
             <m>
                <head/>
-               <assoc MNo="1" assocType="see">астӧгым</assoc>
+               <semRel MNo="1" lemmaID="астӧгым" semRelType="see"/>
             </m>
          </mg>
          <mg MNo="2">
             <m>
                <head/>
-               <tg lang="ru"><t>заочно</t></tg>
             </m>
+            <tg lang="ru"><t>заочно</t></tg>
             <xg>
                <x>астӧг бӧрйыны</x>
                <xtg lang="ru"><xt>избрать заочно</xt></xtg>
@@ -1395,8 +1395,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>астӧгныд эг лысьт босьтны</x>
                <xtg lang="ru"><xt>без вас самих я не посмел взять</xt></xtg>
@@ -1416,8 +1416,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>астӧгным волӧма</x>
                <xtg lang="ru"><xt>он приходил в наше отсутствие</xt></xtg>
@@ -1437,8 +1437,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>астӧгныс волӧмаӧсь</x>
                <xtg lang="ru"><xt>они приходили в их отсутствие</xt></xtg>
@@ -1458,8 +1458,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>астӧгыд волі</x>
                <xtg lang="ru"><xt>я приходил без тебя, в твоё отсутствие</xt></xtg>
@@ -1479,8 +1479,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>астӧгым пыралӧмаӧсь</x>
                <xtg lang="ru"><xt>они заходили без меня, в моё отсутствие</xt></xtg>
@@ -1500,8 +1500,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>астӧгыс босьтӧмаӧсь</x>
                <xtg lang="ru"><xt>без него самого, в его отсутствие взяли</xt></xtg>
@@ -1518,8 +1518,8 @@
          <mg>
             <m>
                <head><i>усил.-личн. мн. ч. 2 л.</i></head>
-               <tg lang="ru"><t>вы сами</t></tg>
             </m>
+            <tg lang="ru"><t>вы сами</t></tg>
             <xg>
                <x>асьныд волӧй</x>
                <xtg lang="ru"><xt>вы сами приходите</xt></xtg>
@@ -1536,8 +1536,8 @@
          <mg>
             <m>
                <head><i>усил.-личн. мн. ч. 1 л.</i></head>
-               <tg lang="ru"><t>мы сами</t></tg>
             </m>
+            <tg lang="ru"><t>мы сами</t></tg>
             <xg>
                <x>ми асьным локтам</x>
                <xtg lang="ru"><xt>мы сами придём</xt></xtg>
@@ -1561,8 +1561,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>асьнымӧс корисны</x>
                <xtg lang="ru"><xt>нас самих пригласили</xt></xtg>
@@ -1579,8 +1579,8 @@
          <mg>
             <m>
                <head><i>усил.-личн. мн. ч. 3 л.</i></head>
-               <tg lang="ru"><t>они сами</t></tg>
             </m>
+            <tg lang="ru"><t>они сами</t></tg>
             <xg>
                <x>асьныс тӧдӧны</x>
                <xtg lang="ru"><xt>они сами знают</xt></xtg>
@@ -1600,8 +1600,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>асьнысӧ видісны</x>
                <xtg lang="ru"><xt>их самих обругали</xt></xtg>
@@ -1621,8 +1621,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>тіянӧс асьнытӧ корисны</x>
                <xtg lang="ru"><xt>вас самих звали</xt></xtg>
@@ -1642,8 +1642,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>асьсӧ небось абу вунӧдӧма</x>
                <xtg lang="ru"><xt>себя, небось, он не забыл</xt></xtg>
@@ -1663,8 +1663,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>асьтӧ тешитны</x>
                <xtg lang="ru"><xt><att>ирон.</att>тешить себя, потакать своим прихотям</xt></xtg>
@@ -1681,8 +1681,8 @@
          <mg>
             <m>
                <head><com>усил.-личн. ед. ч. 2 л.</com></head>
-               <tg lang="ru"><t pos="PHRASE-PRON">ты сам</t></tg>
             </m>
+            <tg lang="ru"><t pos="PHRASE-PRON">ты сам</t></tg>
             <xg>
                <x>ачыд тӧдан</x>
                <xtg lang="ru"><xt>сам знаешь</xt></xtg>
@@ -1707,8 +1707,8 @@
          <mg>
             <m>
                <head><com>усил.-личн. ед. ч. 1 л.</com></head>
-               <tg lang="ru"><t pos="PHRASE-PRON">я сам</t></tg>
             </m>
+            <tg lang="ru"><t pos="PHRASE-PRON">я сам</t></tg>
             <xg>
                <x>ачым аддзылі</x>
                <xtg lang="ru"><xt>я сам видел</xt></xtg>
@@ -1736,7 +1736,7 @@
          <mg>
             <m>
                <head/>
-               <assoc MNo="1" assocType="see">аснам</assoc>
+               <semRel MNo="1" lemmaID="аснам" semRelType="see"/>
             </m>
          </mg>
       </e>
@@ -1753,8 +1753,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>ачымӧс вида</x>
                <xtg lang="ru"><xt>сам себя ругаю</xt></xtg>
@@ -1771,10 +1771,10 @@
          <mg>
             <m>
                <head><i>усил.-личн. ед. ч. 3 л.</i></head>
-               <tg lang="ru"><t pos="PHRASE-PRON">он сам</t></tg>
-               <tg lang="ru"><t pos="PHRASE-PRON">она сама</t></tg>
-               <tg lang="ru"><t pos="PHRASE-PRON">оно само</t></tg>
             </m>
+            <tg lang="ru"><t pos="PHRASE-PRON">он сам</t></tg>
+            <tg lang="ru"><t pos="PHRASE-PRON">она сама</t></tg>
+            <tg lang="ru"><t pos="PHRASE-PRON">оно само</t></tg>
             <xg>
                <x>ачыс тӧдӧ</x>
                <xtg lang="ru"><xt>он сам знает</xt></xtg>
