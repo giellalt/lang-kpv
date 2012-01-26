@@ -268,6 +268,7 @@ A-SUPERL ;	   ! ../../tmp/out/A-SUPERL_kom-lex.xml
 ADV ;		   ! ../../tmp/out/ADV_kom-lex.xml
 !!! ADVROOT ;	   ! ../../tmp/out/ADVROOT_kom-lex.xml ! no longer exists
 Abbreviation ; ! abbr-kom-lex.txt
+ABBR ;			   ! ../../tmp/out/ABBR_kom-lex.xml
 Acronym ;	   ! acro-kom-lex.txt
 ACRON ;			   ! ../../tmp/out/ACRON_kom-lex.xml
 CONJ ;		   ! ../../tmp/out/CONJ_kom-lex.xml
@@ -471,6 +472,9 @@ LEXICON PO-IS_ILL
 ! ==================================== !
 ! Lexica called End, whatever they are !
 ! ==================================== !
+
+LEXICON ABBR-IS_ADV
++ABBR: ADVTAG ;
 
 LEXICON Ad-ATAG ! these are checked as advs.
 +AdA: # ;
