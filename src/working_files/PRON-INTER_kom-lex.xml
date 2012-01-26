@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dict xsi:noNamespaceSchemaLocation="../dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty">
    <entry exclude="fst">
       <lemma>кин</lemma>
       <stem/>
@@ -10,10 +10,10 @@
          <mg>
             <m>
                <head><range>диал.</range></head>
-               <tg lang="ru"><t/></tg>
-               <assoc RN="I" assocType="see">код</assoc>
-               <assoc assocType="see">коді</assoc>
+               <semRel RN="I" lemmaID="код" semRelType="see"/>
+               <semRel lemmaID="коді" semRelType="see"/>
             </m>
+            <tg lang="ru"><t/></tg>
          </mg>
       </e>
    </entry>
@@ -32,8 +32,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>который из вас (двоих)</t></tg>
             </m>
+            <tg lang="ru"><t>который из вас (двоих)</t></tg>
             <xg>
                <x>кодныд кольчанныд горт овны?</x>
                <xtg lang="ru"><xt>кто из вас (двоих) останется домовничать?</xt></xtg>
@@ -54,8 +54,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>который из нас (двоих)</t></tg>
             </m>
+            <tg lang="ru"><t>который из нас (двоих)</t></tg>
             <xg>
                <x>коднымлы талун джодж мыськыны?</x>
                <xtg lang="ru"><xt>кому из нас сегодня мыть пол?</xt></xtg>
@@ -72,8 +72,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>который из их (двоих)</t></tg>
             </m>
+            <tg lang="ru"><t>который из их (двоих)</t></tg>
             <xg>
                <x>кодныс водзджык удитасны?</x>
                <xtg lang="ru"><xt>кто из них раньше успеет?</xt></xtg>
@@ -100,9 +100,9 @@
          <mg MNo="1">
             <m>
                <head/>
-               <tg lang="ru"><t>когда</t></tg>
-               <assoc RN="II" assocType="see">кор</assoc>
+               <semRel RN="II" lemmaID="кор" semRelType="see"/>
             </m>
+            <tg lang="ru"><t>когда</t></tg>
          </mg>
       </e>
    </entry>
@@ -110,13 +110,13 @@
       <lemma>код</lemma>
       <stem/>
       <contlex>PRON-INTER</contlex>
-      <pos>PRON-A-INTERR</pos>
+      <pos>ADN-INTERR</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>какой, который </t><re>из двух или многих (определенных)</re></tg>
             </m>
+            <tg lang="ru"><t>какой, который </t><re>из двух или многих (определенных)</re></tg>
             <xg>
                <x>код киас?</x>
                <xtg lang="ru"><xt>в какой руке?</xt></xtg>
@@ -143,8 +143,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>когда</t></tg>
             </m>
+            <tg lang="ru"><t>когда</t></tg>
             <xg>
                <x>кор ковмас</x>
                <xtg lang="ru"><xt>по мере надобности</xt></xtg>
@@ -194,9 +194,9 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
-               <assoc RN="II" assocType="see">кор</assoc>
+               <semRel RN="II" lemmaID="кор" semRelType="see"/>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>сьӧкыд висьтавны, коръя и воас</x>
                <xtg lang="ru"><xt>трудно сказать, когда придёт</xt></xtg>
@@ -213,8 +213,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>когда, в какие времена</t></tg>
             </m>
+            <tg lang="ru"><t>когда, в какие времена</t></tg>
          </mg>
       </e>
    </entry>
@@ -227,8 +227,8 @@
          <mg>
             <m>
                <head><range>диал.</range></head>
-               <tg lang="ru"><t>как, каким образом</t></tg>
             </m>
+            <tg lang="ru"><t>как, каким образом</t></tg>
          </mg>
       </e>
    </entry>
@@ -241,9 +241,9 @@
          <mg MNo="1">
             <m>
                <head/>
-               <tg lang="ru"><t>какой</t><t>каков </t></tg>
-               <tg lang="ru"><t pos="ADV">как</t><t pos="ADV">каково</t></tg>
             </m>
+            <tg lang="ru"><t>какой</t><t>каков </t></tg>
+            <tg lang="ru"><t pos="ADV">как</t><t pos="ADV">каково</t></tg>
             <xg>
                <x>кодлы кутшӧм</x>
                <xtg lang="ru"><xt>кому какой</xt></xtg>
@@ -302,8 +302,8 @@
          <mg MNo="2">
             <m>
                <head/>
-               <tg lang="ru"><t>который</t></tg>
             </m>
+            <tg lang="ru"><t>который</t></tg>
             <xg>
                <x>кутшӧм нылӧс бӧрйин?</x>
                <xtg lang="ru"><xt>которую девушку выбрал?</xt></xtg>
@@ -324,8 +324,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>как, каково</t></tg>
             </m>
+            <tg lang="ru"><t>как, каково</t></tg>
             <xg>
                <x>кутшӧма висьӧ сьӧлӧмыс</x>
                <xtg lang="ru"><xt>как болит сердце</xt></xtg>
@@ -349,13 +349,13 @@
       <lemma>кутшӧмджык</lemma>
       <stem/>
       <contlex/>
-      <pos>PRON-A-INTERR</pos>
+      <pos>ADN-INTERR</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t pos="A">какой, каков</t><t pos="ADV">как, каково</t></tg>
             </m>
+            <tg lang="ru"><t pos="A">какой, каков</t><t pos="ADV">как, каково</t></tg>
             <xg>
                <x>кутшӧмджык дӧра тэныд колӧ?</x>
                <xtg lang="ru"><xt>какой материал тебе нужен?</xt></xtg>
@@ -380,8 +380,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>как, каково</t></tg>
             </m>
+            <tg lang="ru"><t>как, каково</t></tg>
             <xg>
                <x>кутшӧмджыка видзӧны?</x>
                <xtg lang="ru"><xt>как охраняют?</xt></xtg>
@@ -402,7 +402,7 @@
          <mg>
             <m>
                <head><i>вопр.</i></head>
-               <assoc MNo="1" assocType="see">кутшӧм</assoc>
+               <semRel MNo="1" lemmaID="кутшӧм" semRelType="see"/>
             </m>
          </mg>
       </e>
@@ -416,8 +416,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>как, каким образом</t></tg>
             </m>
+            <tg lang="ru"><t>как, каким образом</t></tg>
             <xg>
                <x>кыдз бара</x>
                <xtg lang="ru"><xt>как уж</xt></xtg>
@@ -514,7 +514,7 @@
          <mg>
             <m>
                <head/>
-               <assoc MNo="1" assocType="see">кыдзиджык</assoc>
+               <semRel MNo="1" lemmaID="кыдзиджык" semRelType="see"/>
             </m>
          </mg>
       </e>
@@ -528,9 +528,9 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
-               <assoc RN="II" assocType="see">кыдз</assoc>
+               <semRel RN="II" lemmaID="кыдз" semRelType="see"/>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>видзӧдны, кыдзи ва вылын разалӧны кытшъяс</x>
                <xtg lang="ru"><xt> смотреть, как на воде расходятся круги</xt></xtg>
@@ -555,8 +555,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>как, каким образом</t></tg>
             </m>
+            <tg lang="ru"><t>как, каким образом</t></tg>
             <xg>
                <x>кыдзи-мый висьталіс</x>
                <xtg lang="ru"><xt>как рассказал</xt></xtg>
@@ -573,8 +573,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>как именно</t></tg>
             </m>
+            <tg lang="ru"><t>как именно</t></tg>
             <xg>
                <x>висьталышта, кыдзиджык тайӧ лои</x>
                <xtg lang="ru"><xt>расскажу немножко, как именно это произошло</xt></xtg>
@@ -595,8 +595,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>как, каким образом</t></tg>
             </m>
+            <tg lang="ru"><t>как, каким образом</t></tg>
             <xg>
                <x>кыдзик кага вермис усьны потанысь?</x>
                <xtg lang="ru"><xt>каким образом ребёнок мог выпасть из люльки?</xt></xtg>
@@ -613,8 +613,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>как, каким образом</t></tg>
             </m>
+            <tg lang="ru"><t>как, каким образом</t></tg>
             <xg>
                <x>кыдзикӧн кага вермис усьны потанысь?</x>
                <xtg lang="ru"><xt>каким образом ребёнок мог выпасть из люльки?</xt></xtg>
@@ -631,8 +631,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t><i>вопр. и относ.</i> сколько</t></tg>
             </m>
+            <tg lang="ru"><t><i>вопр. и относ.</i> сколько</t></tg>
             <xg>
                <x>кымын арӧс тэныд?</x>
                <xtg lang="ru"><xt>сколько лет тебе?</xt></xtg>
@@ -657,8 +657,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>сколько раз</t></tg>
             </m>
+            <tg lang="ru"><t>сколько раз</t></tg>
             <xg>
                <x>кымынысь ветлін?</x>
                <xtg lang="ru"><xt>сколько раз ты съездил?</xt></xtg>
@@ -675,8 +675,8 @@
          <mg>
             <m>
                <head><i>вопр. и относ.</i></head>
-               <tg lang="ru"><t>который</t></tg>
             </m>
+            <tg lang="ru"><t>который</t></tg>
             <xg>
                <x>кымынӧд лун турӧбалӧ</x>
                <xtg lang="ru"><xt>который день бушует вьюга</xt></xtg>
@@ -697,8 +697,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>который раз</t></tg>
             </m>
+            <tg lang="ru"><t>который раз</t></tg>
             <xg>
                <x>кымынӧдысь кӧсйысян?</x>
                <xtg lang="ru"><xt>который раз обещаешь?</xt></xtg>
@@ -719,8 +719,8 @@
          <mg MNo="1">
             <m>
                <head/>
-               <tg lang="ru"><t>откуда</t></tg>
             </m>
+            <tg lang="ru"><t>откуда</t></tg>
             <xg>
                <x>кысь ваян вотӧстӧ?</x>
                <xtg lang="ru"><xt>откуда несёшь ягоды?</xt></xtg>
@@ -737,8 +737,8 @@
          <mg MNo="2">
             <m>
                <head/>
-               <tg lang="ru"><t>где</t></tg>
             </m>
+            <tg lang="ru"><t>где</t></tg>
             <xg>
                <x>кысь аддзин?</x>
                <xtg lang="ru"><xt>где нашёл?</xt></xtg>
@@ -747,8 +747,8 @@
          <mg MNo="3">
             <m>
                <head><i>с отриц.</i></head>
-               <tg lang="ru"><t>как</t></tg>
             </m>
+            <tg lang="ru"><t>как</t></tg>
             <xg>
                <x>кысь он висьтав</x>
                <xtg lang="ru"><xt>как не скажешь</xt></xtg>
@@ -807,8 +807,8 @@
          <mg MNo="1">
             <m>
                <head/>
-               <tg lang="ru"><t>где</t></tg>
             </m>
+            <tg lang="ru"><t>где</t></tg>
             <xg>
                <x>кӧн сійӧ?</x>
                <xtg lang="ru"><xt>где он?</xt></xtg>
@@ -821,8 +821,8 @@
          <mg MNo="2">
             <m>
                <head/>
-               <tg lang="ru"><t>который</t></tg>
             </m>
+            <tg lang="ru"><t>который</t></tg>
             <xg>
                <x>со керка, кӧн быдмис гижысь</x>
                <xtg lang="ru"><xt>вот дом, в котором вырос писатель</xt></xtg>
@@ -839,8 +839,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>где</t></tg>
             </m>
+            <tg lang="ru"><t>где</t></tg>
             <xg>
                <x>кӧн-мый ветлан</x>
                <xtg lang="ru"><xt>где ходишь, где пропадаешь</xt></xtg>
@@ -857,9 +857,9 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>где</t></tg>
-               <assoc RN="I" assocType="see">кӧн</assoc>
+               <semRel RN="I" lemmaID="кӧн" semRelType="see"/>
             </m>
+            <tg lang="ru"><t>где</t></tg>
             <xg>
                <x>кӧні тэ ӧні?</x>
                <xtg lang="ru"><xt>где ты сейчас?</xt></xtg>
@@ -893,8 +893,8 @@
          <mg MNo="1">
             <m>
                <head/>
-               <tg lang="ru"><t>что</t></tg>
             </m>
+            <tg lang="ru"><t>что</t></tg>
             <xg>
                <x>мый понда?</x>
                <xtg lang="ru"><xt>по какой причине? почему?</xt></xtg>
@@ -990,9 +990,9 @@
          <mg MNo="2">
             <m>
                <head/>
-               <tg lang="ru"><t>что</t></tg>
-               <tg lang="ru"><t> сколько</t></tg>
             </m>
+            <tg lang="ru"><t>что</t></tg>
+            <tg lang="ru"><t> сколько</t></tg>
             <xg>
                <x>мый вермӧмысь</x>
                <xtg lang="ru"><xt>что есть (было) сил</xt></xtg>
@@ -1029,8 +1029,8 @@
          <mg MNo="3">
             <m>
                <head/>
-               <tg lang="ru"><t>как</t></tg>
             </m>
+            <tg lang="ru"><t>как</t></tg>
             <xg>
                <x>мый дыра?</x>
                <xtg lang="ru"><xt>как долго?</xt></xtg>
@@ -1043,8 +1043,8 @@
          <mg MNo="4">
             <m>
                <head/>
-               <tg lang="ru"><t>какой</t></tg>
             </m>
+            <tg lang="ru"><t>какой</t></tg>
             <xg>
                <x>мый кузя?</x>
                <xtg lang="ru"><xt>какой длины?</xt></xtg>
@@ -1061,8 +1061,8 @@
          <mg MNo="5">
             <m>
                <head/>
-               <tg lang="ru"><t>что, почему, зачем</t></tg>
             </m>
+            <tg lang="ru"><t>что, почему, зачем</t></tg>
             <xg type="saying">
                <x>мый вугралан, войнас ӧмӧй понъяскӧд увтін?</x>
                <xtg lang="ru"><xt> что дремлешь, разве ночью вместе с собаками лаял?</xt></xtg>
@@ -1123,9 +1123,9 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
-               <assoc assocType="see">мыйта</assoc>
+               <semRel lemmaID="мыйта" semRelType="see"/>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>мыйда кӧсъян</x>
                <xtg lang="ru"><xt>вволю</xt></xtg>
@@ -1143,9 +1143,9 @@
          <mg MNo="1">
             <m>
                <head/>
-               <tg lang="ru"><t>отчего</t><t>почему</t></tg>
-               <assoc assocType="see">мый</assoc>
+               <semRel lemmaID="мый" semRelType="see"/>
             </m>
+            <tg lang="ru"><t>отчего</t><t>почему</t></tg>
             <xg>
                <x>мыйла бӧрдан?</x>
                <xtg lang="ru"><xt>отчего ты плачешь?</xt><xt>о чём ты плачешь?</xt></xtg>
@@ -1162,8 +1162,8 @@
          <mg MNo="2">
             <m>
                <head/>
-               <tg lang="ru"><t>зачем</t></tg>
             </m>
+            <tg lang="ru"><t>зачем</t></tg>
             <xg>
                <x>мыйла тіянлы сымда деньгаыс?</x>
                <xtg lang="ru"><xt>зачем вам столько денег?</xt></xtg>
@@ -1184,7 +1184,7 @@
          <mg>
             <m>
                <head><range>диал.</range></head>
-               <assoc MNo="1" assocType="see">мыйсяма</assoc>
+               <semRel MNo="1" lemmaID="мыйсяма" semRelType="see"/>
             </m>
             <xg>
                <x>весьшӧрӧ лэптӧны сійӧс, мыйся нӧ сійӧ герой!</x>
@@ -1206,8 +1206,8 @@
          <mg>
             <m>
                <head><i>част. усил.</i></head>
-               <tg lang="ru"><t>что за</t></tg>
             </m>
+            <tg lang="ru"><t>что за</t></tg>
             <xg>
                <x>мыйсяма сёрни!</x>
                <xtg lang="ru"><xt>что за разговоры!</xt></xtg>
@@ -1228,8 +1228,8 @@
          <mg>
             <m>
                <head><i>вопр.-относ.</i></head>
-               <tg lang="ru"><t>сколько</t></tg>
             </m>
+            <tg lang="ru"><t>сколько</t></tg>
             <xg>
                <x>мыйта колӧ</x>
                <xtg lang="ru"><xt>сколько надо, сколько угодно</xt></xtg>
@@ -1286,7 +1286,7 @@
          <mg>
             <m>
                <head/>
-               <assoc MNo="1" assocType="see">мыйта</assoc>
+               <semRel MNo="1" lemmaID="мыйта" semRelType="see"/>
             </m>
             <xg>
                <x>мыйтӧм прӧмыс ваян, сы мында тӧвартӧ сетӧны</x>
@@ -1308,8 +1308,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>сколько</t><t>почём</t><register>разг.</register></tg>
             </m>
+            <tg lang="ru"><t>сколько</t><t>почём</t><register>разг.</register></tg>
             <xg>
                <x>мыйӧн кило?</x>
                <xtg lang="ru"><xt>сколько (стоит) килограмм? </xt><xt>почём килограмм?</xt></xtg>
@@ -1334,7 +1334,7 @@
          <mg>
             <m>
                <head><range>диал.</range></head>
-               <assoc MNo="1" assocType="see">мыйла</assoc>
+               <semRel MNo="1" lemmaID="мыйла" semRelType="see"/>
             </m>
          </mg>
       </e>
