@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dict xsi:noNamespaceSchemaLocation="../dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty">
    <entry>
       <lemma>мӧд</lemma>
       <stem/>
@@ -10,8 +10,8 @@
          <mg MNo="1">
             <m>
                <head/>
-               <tg lang="ru"><t>другой, иной</t></tg>
             </m>
+            <tg lang="ru"><t>другой, иной</t></tg>
             <xg>
                <x>мӧд ног(ӧн) вӧчны</x>
                <xtg lang="ru"><xt>сделать иначе, сделать по-иному, сделать по-другому</xt></xtg>
@@ -73,8 +73,8 @@
          <mg MNo="2">
             <m>
                <head/>
-               <tg lang="ru"><t>другой, следующий, будущий</t></tg>
             </m>
+            <tg lang="ru"><t>другой, следующий, будущий</t></tg>
             <xg>
                <x>мӧд во кежлӧ</x>
                <xtg lang="ru"><xt>на будущий год</xt></xtg>
@@ -97,8 +97,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>другой, <i>кто-л.</i>иной, посторонний</t></tg>
             </m>
+            <tg lang="ru"><t>другой, <i>кто-л.</i>иной, посторонний</t></tg>
             <xg>
                <x>мӧдлы сетны</x>
                <xtg lang="ru"><xt>отдать другому</xt></xtg>
@@ -139,13 +139,13 @@
       <lemma>сэтшӧм</lemma>
       <stem/>
       <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM-A</pos>
+      <pos>ADN-DEM</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t><i>опред.</i> такой</t></tg>
             </m>
+            <tg lang="ru"><t><i>опред.</i> такой</t></tg>
             <xg>
                <x>сэтшӧм случай</x>
                <xtg lang="ru"><xt>такой случай</xt></xtg>
@@ -162,8 +162,8 @@
          <mg>
             <m>
                <head><com>нареч.</com></head>
-               <tg lang="ru"><t>так</t></tg>
             </m>
+            <tg lang="ru"><t>так</t></tg>
             <xg>
                <x>сэтшӧм матын</x>
                <xtg lang="ru"><xt>так близко</xt></xtg>
@@ -188,9 +188,9 @@
          <mg MNo="1">
             <m>
                <head/>
-               <tg lang="ru"><t>такой-сякой</t></tg>
-               <tg lang="ru"><t> сомнительный, подозрительный</t></tg>
             </m>
+            <tg lang="ru"><t>такой-сякой</t></tg>
+            <tg lang="ru"><t> сомнительный, подозрительный</t></tg>
             <xg>
                <x>сэтшӧм-татшӧм морт</x>
                <xtg lang="ru"><xt>сомнительная личность</xt></xtg>
@@ -203,8 +203,8 @@
          <mg MNo="2">
             <m>
                <head/>
-               <tg lang="ru"><t>неудовлетворительный</t></tg>
             </m>
+            <tg lang="ru"><t>неудовлетворительный</t></tg>
             <xg>
                <x>сэтшӧм-татшӧм удж</x>
                <xtg lang="ru"><xt>неудовлетворительная работа</xt></xtg>
@@ -213,8 +213,8 @@
          <mg MNo="3">
             <m>
                <head><i>в роли сущ.</i></head>
-               <tg lang="ru"><t>такое, плохое</t></tg>
             </m>
+            <tg lang="ru"><t>такое, плохое</t></tg>
             <xg>
                <x>нинӧм сэтшӧм-татшӧмыс эз вӧв</x>
                <xtg lang="ru"><xt>ничего такого не было</xt></xtg>
@@ -231,8 +231,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>такое-сякое</t></tg>
             </m>
+            <tg lang="ru"><t>такое-сякое</t></tg>
          </mg>
       </e>
    </entry>
@@ -245,8 +245,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>так</t></tg>
             </m>
+            <tg lang="ru"><t>так</t></tg>
             <xg>
                <x>сэтшӧма повзьыны</x>
                <xtg lang="ru"><xt>так <i>сильно</i> испугаться</xt></xtg>
@@ -267,8 +267,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>такое место</t></tg>
             </m>
+            <tg lang="ru"><t>такое место</t></tg>
             <xg>
                <x>корсьны сэтшӧмин , кытӧн чериыс шедӧ</x>
                <xtg lang="ru"><xt>искать такое место, где рыба ловится</xt></xtg>
@@ -285,8 +285,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>такое</t></tg>
             </m>
+            <tg lang="ru"><t>такое</t></tg>
             <xg>
                <x>вӧвлі сэтшӧмторйыс</x>
                <xtg lang="ru"><xt>бывало такое</xt></xtg>
@@ -307,8 +307,8 @@
          <mg>
             <m>
                <head><i>указ.</i></head>
-               <tg lang="ru"><t>такой-то</t></tg>
             </m>
+            <tg lang="ru"><t>такой-то</t></tg>
             <xg>
                <x>ме, сэтшӧмтӧ гражданин, ...</x>
                <xtg lang="ru"><xt>я, такой-то гражданин, ...</xt></xtg>
@@ -325,8 +325,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>до такой степени, до такого состояния</t></tg>
             </m>
+            <tg lang="ru"><t>до такой степени, до такого состояния</t></tg>
             <xg>
                <x>сэтшӧмӧдз омӧльтчыны</x>
                <xtg lang="ru"><xt>до такой степени похудеть</xt></xtg>
@@ -343,7 +343,7 @@
          <mg>
             <m>
                <head/>
-               <assoc MNo="1" assocType="see">сэсь</assoc>
+               <semRel MNo="1" lemmaID="сэсь" semRelType="see"/>
             </m>
          </mg>
       </e>
@@ -357,7 +357,7 @@
          <mg>
             <m>
                <head/>
-               <assoc MNo="1" assocType="see">сэсянь</assoc>
+               <semRel MNo="1" lemmaID="сэсянь" semRelType="see"/>
             </m>
          </mg>
       </e>
@@ -377,8 +377,8 @@
          <mg MNo="2">
             <m>
                <head><i>в роли указ. мест.</i></head>
-               <tg lang="ru"><t>тот, та, то</t></tg>
             </m>
+            <tg lang="ru"><t>тот, та, то</t></tg>
             <xg>
                <x>сійӧ кадӧ</x>
                <xtg lang="ru"><xt>в то время</xt></xtg>
@@ -448,8 +448,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>то</t></tg>
             </m>
+            <tg lang="ru"><t>то</t></tg>
             <xg>
                <x>меным кажитчыліс сійӧтор , мый быд праздник нуӧдсьыліс аслысногӧн</x>
                <xtg lang="ru"><xt>мне нравилось то, что каждый праздник проводился по-своему</xt><re>разнообразно</re></xtg>
@@ -470,8 +470,8 @@
          <mg>
             <m>
                <head><i>указ.</i></head>
-               <tg lang="ru"><t>этот, эта, это</t></tg>
             </m>
+            <tg lang="ru"><t>этот, эта, это</t></tg>
             <xg>
                <x>тайӧ здукӧ</x>
                <xtg lang="ru"><xt>в эту минуту</xt></xtg>
@@ -523,8 +523,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>это</t></tg>
             </m>
+            <tg lang="ru"><t>это</t></tg>
             <xg>
                <x>тайӧторйӧ велӧдчыны абу ёна сьӧкыд</x>
                <xtg lang="ru"><xt>этому научиться не так трудно</xt></xtg>
@@ -551,8 +551,8 @@
          <mg>
             <m>
                <head><range>диал.</range> <i>указ.</i></head>
-               <tg lang="ru"><t>эти</t></tg>
             </m>
+            <tg lang="ru"><t>эти</t></tg>
          </mg>
       </e>
    </entry>
@@ -566,8 +566,8 @@
          <mg MNo="1">
             <m>
                <head/>
-               <tg lang="ru"><t>вот такой, такой</t></tg>
             </m>
+            <tg lang="ru"><t>вот такой, такой</t></tg>
             <xg>
                <x>эстшӧм чӧскыд вотӧс</x>
                <xtg lang="ru"><xt>такая вкусная ягода</xt></xtg>
@@ -580,8 +580,8 @@
          <mg MNo="2">
             <m>
                <head/>
-               <tg lang="ru"><t>какой</t><re>при выражении удивления</re></tg>
             </m>
+            <tg lang="ru"><t>какой</t><re>при выражении удивления</re></tg>
             <xg>
                <x>эстшӧм кыз</x>
                <xtg lang="ru"><xt>вот какой толстый!</xt></xtg>
@@ -602,8 +602,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>так, этак</t></tg>
             </m>
+            <tg lang="ru"><t>так, этак</t></tg>
             <xg>
                <x>эстшӧма быдмӧма!</x>
                <xtg lang="ru"><xt>так вырос!</xt></xtg>
@@ -620,8 +620,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>оттуда, с того места</t></tg>
             </m>
+            <tg lang="ru"><t>оттуда, с того места</t></tg>
             <xg>
                <x>эстысь чукыль сайсьыс</x>
                <xtg lang="ru"><xt>оттуда, из-за поворота</xt></xtg>
@@ -638,8 +638,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>оттуда, с того места</t></tg>
             </m>
+            <tg lang="ru"><t>оттуда, с того места</t></tg>
             <xg>
                <x>эстысянь чукыль сайсьыс</x>
                <xtg lang="ru"><xt>оттуда, из-за поворота</xt></xtg>
@@ -659,8 +659,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t/></tg>
             </m>
+            <tg lang="ru"><t/></tg>
             <xg>
                <x>эcійӧ кузя сир</x>
                <xtg lang="ru"><xt>вот такой длины щука</xt></xtg>
@@ -685,8 +685,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>вон та сторона</t></tg>
             </m>
+            <tg lang="ru"><t>вон та сторона</t></tg>
          </mg>
       </e>
    </entry>
@@ -699,8 +699,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>вон туда, вон в том направлении</t></tg>
             </m>
+            <tg lang="ru"><t>вон туда, вон в том направлении</t></tg>
             <xg>
                <x>эсылань бергӧдчыв</x>
                <xtg lang="ru"><xt>повернись вон туда</xt></xtg>
@@ -717,8 +717,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>в такой степени, до такой степени, так сильно</t></tg>
             </m>
+            <tg lang="ru"><t>в такой степени, до такой степени, так сильно</t></tg>
             <xg>
                <x>эсыметь вундыны</x>
                <xtg lang="ru"><xt>так много отрезать</xt></xtg>
@@ -739,8 +739,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>столько</t></tg>
             </m>
+            <tg lang="ru"><t>столько</t></tg>
             <xg>
                <x>эсымында лук колӧ быдтыны</x>
                <xtg lang="ru"><xt>столько луку надо вырастить</xt></xtg>
@@ -757,8 +757,8 @@
          <mg MNo="1">
             <m>
                <head><i>указ.</i></head>
-               <tg lang="ru"><t>тот</t></tg>
             </m>
+            <tg lang="ru"><t>тот</t></tg>
             <xg>
                <x>со эсійӧ паньсӧ ньӧба</x>
                <xtg lang="ru"><xt>вот ту ложку куплю</xt></xtg>
@@ -771,9 +771,9 @@
          <mg MNo="2">
             <m>
                <head/>
-               <tg lang="ru"><t>бишь</t></tg>
-               <tg lang="ru"><t>это, как его</t> <re>употр. для заполнения в речи паузы</re></tg>
             </m>
+            <tg lang="ru"><t>бишь</t></tg>
+            <tg lang="ru"><t>это, как его</t> <re>употр. для заполнения в речи паузы</re></tg>
          </mg>
       </e>
    </entry>
@@ -792,8 +792,8 @@
          <mg>
             <m>
                <head><i>указ.</i></head>
-               <tg lang="ru"><t>вот они, вот эти</t></tg>
             </m>
+            <tg lang="ru"><t>вот они, вот эти</t></tg>
             <xg>
                <x>эсіян бара нин шойччӧны</x>
                <xtg lang="ru"><xt>вот эти опять уже отдыхают</xt></xtg>
@@ -813,8 +813,8 @@
          <mg>
             <m>
                <head><i/></head>
-               <tg lang="ru"><t>такой, этот</t></tg>
             </m>
+            <tg lang="ru"><t>такой, этот</t></tg>
             <xg>
                <x>эта дырйи</x>
                <xtg lang="ru"><xt>при этом</xt></xtg>
@@ -839,8 +839,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>так, этак, вот так</t></tg>
             </m>
+            <tg lang="ru"><t>так, этак, вот так</t></tg>
             <xg>
                <x>этадз ӧшӧдны</x>
                <xtg lang="ru"><xt>так повесить</xt></xtg>
@@ -865,8 +865,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>так, этак, вот так</t></tg>
             </m>
+            <tg lang="ru"><t>так, этак, вот так</t></tg>
             <xg>
                <x>этадзи ӧшӧдны</x>
                <xtg lang="ru"><xt>так повесить</xt></xtg>
@@ -891,8 +891,8 @@
          <mg>
             <m>
                <head><i>указ.</i></head>
-               <tg lang="ru"><t>этот, вот этот</t></tg>
             </m>
+            <tg lang="ru"><t>этот, вот этот</t></tg>
             <xg>
                <x>этайӧ зонмыслы тшӧкты лэптыны</x>
                <xtg lang="ru"><xt>вот этого парня попроси поднять</xt></xtg>
@@ -913,9 +913,9 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>сюда, ближе сюда (к этому месту)</t></tg>
-               <tg lang="ru"><t> в этом направлении</t></tg>
             </m>
+            <tg lang="ru"><t>сюда, ближе сюда (к этому месту)</t></tg>
+            <tg lang="ru"><t> в этом направлении</t></tg>
             <xg>
                <x>эталань лок</x>
                <xtg lang="ru"><xt>подойди сюда</xt></xtg>
@@ -933,8 +933,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>с этой стороны</t></tg>
             </m>
+            <tg lang="ru"><t>с этой стороны</t></tg>
             <xg>
                <x>эталаньсянь босьтны колӧ</x>
                <xtg lang="ru"><xt>надо взять с этой стороны</xt></xtg>
@@ -951,8 +951,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>вот отсюда</t></tg>
             </m>
+            <tg lang="ru"><t>вот отсюда</t></tg>
             <xg>
                <x>эталаньысь вайӧма</x>
                <xtg lang="ru"><xt>вот отсюда принёс</xt></xtg>
@@ -969,9 +969,9 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>сюда, ближе сюда (к этому месту)</t></tg>
-               <tg lang="ru"><t> в этом направлении</t></tg>
             </m>
+            <tg lang="ru"><t>сюда, ближе сюда (к этому месту)</t></tg>
+            <tg lang="ru"><t> в этом направлении</t></tg>
             <xg>
                <x>эталаньӧ лок</x>
                <xtg lang="ru"><xt>подойди сюда</xt></xtg>
@@ -989,8 +989,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>здесь, вот здесь</t></tg>
             </m>
+            <tg lang="ru"><t>здесь, вот здесь</t></tg>
             <xg>
                <x>этан олӧ</x>
                <xtg lang="ru"><xt>он здесь живёт</xt></xtg>
@@ -1011,8 +1011,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>здесь, вот здесь</t></tg>
             </m>
+            <tg lang="ru"><t>здесь, вот здесь</t></tg>
             <xg>
                <x>этані олӧ</x>
                <xtg lang="ru"><xt>он здесь живёт</xt></xtg>
@@ -1028,13 +1028,13 @@
       <lemma>этатшӧм</lemma>
       <stem/>
       <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM-A</pos>
+      <pos>ADN-DEM</pos>
       <e>
          <mg>
             <m>
                <head><i>указ.</i></head>
-               <tg lang="ru"><t>вот такой, этакий</t></tg>
             </m>
+            <tg lang="ru"><t>вот такой, этакий</t></tg>
             <xg>
                <x>этатшӧм мича серпас</x>
                <xtg lang="ru"><xt>такое красивое изображение</xt></xtg>
@@ -1063,8 +1063,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>так, этак</t></tg>
             </m>
+            <tg lang="ru"><t>так, этак</t></tg>
             <xg>
                <x>этатшӧма видзӧдліс</x>
                <xtg lang="ru"><xt>так посмотрел</xt></xtg>
@@ -1085,8 +1085,8 @@
          <mg>
             <m>
                <head/>
-               <tg lang="ru"><t>такое, этакое</t></tg>
             </m>
+            <tg lang="ru"><t>такое, этакое</t></tg>
             <xg>
                <x>этатшӧмтор лысьтін вӧчны!</x>
                <xtg lang="ru"><xt>такое осмелился сделать!</xt></xtg>
@@ -1107,7 +1107,7 @@
          <mg>
             <m>
                <head/>
-               <assoc MNo="1" assocType="see">этась</assoc>
+               <semRel MNo="1" lemmaID="этась" semRelType="see"/>
             </m>
          </mg>
       </e>
@@ -1121,7 +1121,7 @@
          <mg>
             <m>
                <head/>
-               <assoc MNo="1" assocType="see">этасянь</assoc>
+               <semRel MNo="1" lemmaID="этасянь" semRelType="see"/>
             </m>
          </mg>
       </e>
