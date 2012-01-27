@@ -292,19 +292,19 @@ apertium: ../bin/$(GTLANG)-mor.hfstol ../bin/$(GTLANG)-mor.lower.hfstol ../bin/$
 	@echo
 	@echo "*** Buildig Apertium transducer $(@F) ***" ;
 	@echo
-	hfst-substitute -F $(GTLANG).apertium.relabel $< | hfst-fst2fst -O -o $@
+	hfst-substitute --in-order -F $(GTLANG).apertium.relabel $< | hfst-fst2fst -O -o $@
 
 ../bin/$(GTLANG)-mor.lower.hfstol: ../bin/$(GTLANG).hfst $(GTLANG).apertium-lower.relabel
 	@echo
 	@echo "*** Buildig Apertium transducer $(@F) ***" ;
 	@echo
-	hfst-substitute -F $(GTLANG).apertium-lower.relabel $< | hfst-fst2fst -O -o $@
+	hfst-substitute --in-order -F $(GTLANG).apertium-lower.relabel $< | hfst-fst2fst -O -o $@
 
 ../bin/$(GTLANG)-gen.hfstol: ../bin/$(GTLANG)-gen.hfst $(GTLANG).apertium.relabel
 	@echo
 	@echo "*** Buildig Apertium transducer $(@F) ***" ;
 	@echo
-	hfst-substitute -F $(GTLANG).apertium.relabel $< | hfst-fst2fst -O -o $@
+	hfst-substitute --in-order -F $(GTLANG).apertium.relabel $< | hfst-fst2fst -O -o $@
 
 ###########################################################################################
 
