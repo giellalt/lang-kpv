@@ -214,6 +214,8 @@ Multichar_Symbols
 %^FEM
 
 +Use/Sub ! Для не-литературного слова / форма / и.т.д.
++Src/F ! Majority-language words that might be utilized in several languages 
+       ! Let's begin with nouns книга, учитель
 
 ! Flags used with serial verbs
 ! INF = Infinitive
@@ -277,6 +279,7 @@ INTERJ ;	   ! ../../tmp/out/INTERJ_kom-lex.xml
 INTERR ;         ! pron-kom-morph.txt
 N ;			   ! ../../tmp/out/N_kom-lex.xml
 N-DV ;			   ! ../../tmp/out/N-DV_kom-lex.xml
+N-F ;			   ! ../../tmp/out/N-F_kom-lex.xml
 No-e-element-N ;	   ! ../../tmp/out/No-e-element-N_kom-lex.xml
 No-e-element-V ;	   ! ../../tmp/out/No-e-element-V_kom-lex.xml
 NUM ;		   ! ../../tmp/out/NUM_kom-lex.xml
@@ -475,6 +478,10 @@ LEXICON PO-IS_ILL
 
 LEXICON ABBR-IS_ADV
 +ABBR: ADVTAG ;
+
+LEXICON ABBR-IS_N
++ABBR+N: # ; ! This needs a Noun1 continuation but the hyphen must 
+             ! be dealt with for non-nominative-singular marking 2012-01-27
 
 LEXICON Ad-ATAG ! these are checked as advs.
 +AdA: # ;
