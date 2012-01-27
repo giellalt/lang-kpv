@@ -390,6 +390,8 @@ LEXICON DERIVEDADJ
 LEXICON AdjCompar
 PredMonLex ;
 +Der/джык+Compar:%>джык PredMonLex ;
++Der/джык+Compar+Der/MWN+N+Sg:%>джык CASEPOSSLEX-afterDerivation ;
++Der/джык+Compar+Der/MWN+N+Pl:%>джыкъяс CASEPOSSLEX-afterDerivation ;
 +Der/MWN+N+Sg: CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
 +Der/MWN+N+Pl:%>ъяс CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
 
