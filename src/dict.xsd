@@ -135,6 +135,7 @@
                <!--    <xs:element ref="t"/>
 2011-11-08-->
                <xs:element ref="semRel"/>
+               <xs:element name="defNative" type="xs:string"/>
                <xs:element ref="literal"/>
             </xs:choice>
          </xs:sequence>
