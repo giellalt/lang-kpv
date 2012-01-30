@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dict xsi:noNamespaceSchemaLocation="../dict.xsd"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+<dict xsi:noNamespaceSchemaLocation="../dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
       xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <entry>
       <lemma>АК</lemma>
@@ -44,6 +43,20 @@
       <stem/>
       <contlex>Noun1-IS_ACRON</contlex>
       <pos>N</pos>
+   </entry>
+   <entry>
+      <lemma>ВАК</lemma>
+      <stem/>
+      <contlex>Noun1-IS_ACRON</contlex>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <defNative>восьса акционер котыр</defNative>
+            </m>
+         </mg>
+      </e>
    </entry>
    <entry>
       <lemma>ВИЧ</lemma>
