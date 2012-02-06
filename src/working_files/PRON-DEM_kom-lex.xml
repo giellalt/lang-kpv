@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dict xsi:noNamespaceSchemaLocation="../dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty">
+      xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+      xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <entry>
       <lemma>мӧд</lemma>
       <stem/>
@@ -138,7 +139,7 @@
    <entry>
       <lemma>сэтшӧм</lemma>
       <stem/>
-      <contlex>PRONDEMTAG</contlex>
+      <contlex>ADNDEMTAG</contlex>
       <pos>ADN-DEM</pos>
       <e>
          <mg>
@@ -532,6 +533,43 @@
             <xg>
                <x>тайӧторсӧ он куж думыштны</x>
                <xtg lang="ru"><xt>об этом и не подумаешь</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>татшӧм</lemma>
+      <stem/>
+      <contlex>ADNDEMTAG</contlex>
+      <pos>ADN-DEM</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>такой</t></tg>
+            <xg>
+               <x>татшӧм здукӧ</x>
+               <xtg lang="ru"><xt>в такой момент</xt></xtg>
+            </xg>
+            <xg>
+               <x>татшӧм сяма</x>
+               <xtg lang="ru"><xt>подобный этому</xt></xtg>
+               <xtg lang="ru"><xt>такой, как этот</xt></xtg>
+            </xg>
+            <xg>
+               <x>татшӧм уджалысь миянлы колӧ</x>
+               <xtg lang="ru"><xt>такой работник нам нужен</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>следующий</t></tg>
+            <xg>
+               <x>гижсисны татшӧм йӧз</x>
+               <xtg lang="ru"><xt>записались следующие люди</xt></xtg>
             </xg>
          </mg>
       </e>
