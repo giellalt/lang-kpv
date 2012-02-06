@@ -40,6 +40,9 @@ LEXICON Adj
 LEXICON Prop ! Basic nouns.
 +N+Prop+Sg: CASEPOSSLEX ;
 
+LEXICON Prop-R-RY
++Prop: Noun1-R-RY ; ! This will bring about problems with ordering 2012-02-07
+
 LEXICON Prop-Derivable
 +N+Prop+Sur+Mal+Sg: CASEPOSSLEX ; ! Владимиров
 а+N+Prop+Sur+Fem+Sg:%^FEM%>а CASEPOSSLEX ; ! Владимирова
@@ -87,6 +90,14 @@ LEXICON Noun1-IS_PTC-YSJ !
 
 LEXICON Noun1-F !
 +Src/F: Noun1 ;
+
+LEXICON Noun1-R-RY !
++Use/Sub:ь Noun1 ;  ! This deals with январь
+           Noun1 ; ! This is the new proper spelling январ
+
+LEXICON Noun1-SYT-STY !
++Use/Sub:ть Noun1 ;  ! This deals with гӧсть
+:ьт         Noun1 ; ! This is the new proper spelling гӧсьт
 
 LEXICON Noun1 ! Basic nouns.
 +N+Cmp: R ;
@@ -165,7 +176,7 @@ LEXICON CASEPOSSLEX-afterDerivation
 +Comp:%>ся K ;
 +Ine:%>ын PredMonLex-Spat ;
 +Ela:%>ысь K ;
-+Ill:%>ӧ K ;
++Ill:%>ӧ IllCompar ;
 +Apr:%>лань K ;
 +Egr:%>сянь K ;
 +Prl:%>ӧд K ;
@@ -173,7 +184,7 @@ LEXICON CASEPOSSLEX-afterDerivation
 +Ter:%>ӧдз K ;
 +Apr+Ine:%>ланьын PredMonLex-Spat ;  ! New cases in last grammar
 +Apr+Ela:%>ланьысь K ;  !
-+Apr+Ill:%>ланьӧ K ; !
++Apr+Ill:%>ланьӧ IllCompar ; !
 +Apr+Egr:%>ланьсянь K ; !
 +Apr+Prl:%>ланьӧд K ; !
 +Apr+Tra:%>ланьті K ; !
@@ -382,10 +393,10 @@ LEXICON Noun1-IS_INE
 +N+Ine: K ;
 
 LEXICON DERIVEDADJ
-+Der/са+A+IneMod:%>са AdjCompar ;     
-+Der/тӧм+A+AbeMod:%>тӧм AdjCompar ;
-+Der/а+A+HabObjMod:%>а AdjCompar ;
-+Der/ся+A+TempMod:%>ся AdjCompar ; 
++Der/са+IneMod:%>са Adj ;     
++Der/тӧм+AbeMod:%>тӧм Adj ;
++Der/а+HabObjMod:%>а Adj ;
++Der/ся+TempMod:%>ся Adj ; 
 
 
     
@@ -393,10 +404,15 @@ LEXICON DERIVEDADJ
 LEXICON AdjCompar
 PredMonLex ;
 +Der/джык+Compar:%>джык PredMonLex ;
++Der/джык+Compar+Der/а:%>джыка ADVTAG ;
 +Der/джык+Compar+Der/MWN+N+Sg:%>джык CASEPOSSLEX-afterDerivation ;
 +Der/джык+Compar+Der/MWN+N+Pl:%>джыкъяс CASEPOSSLEX-afterDerivation ;
 +Der/MWN+N+Sg: CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
 +Der/MWN+N+Pl:%>ъяс CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
+
+LEXICON IllCompar
+ K ;
++Der/джык+Compar:%>джык K ;
 
 LEXICON PredMonLex-Spat
  K ;      ! Singular predicative
@@ -408,7 +424,7 @@ LEXICON PredMonLex-Spat
 LEXICON PredMonLex
  K ;      ! Singular predicative
 +Pred+Pl:ӧсь K ; ! Plural predicative.
-+Der/а+Adv:%>а K ;
+!! 2012-02-07 !!+Der/а+Adv:%>а K ;
  
 
 
