@@ -1,57 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dict xsi:noNamespaceSchemaLocation="../dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+<dict xsi:noNamespaceSchemaLocation="../dict.xsd"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
       xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-   <entry>
-      <lemma>спорт</lemma>
+<entry>
+      <lemma>вариант</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
       <pos>N</pos>
-   </entry>
-   <entry>
-      <lemma>патриот</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
-      <pos>N</pos>
-   </entry>
-   <entry>
-      <lemma>лесозавод</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
-      <pos>N</pos>
-   </entry>
-   <entry>
-      <lemma>секретарь</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
-      <pos>N</pos>
-   </entry>
-   <entry>
-      <lemma>тайм</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
-      <pos>N</pos>
-   </entry>
-   <entry>
-      <lemma>тренер</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
-      <pos>N</pos>
-   </entry>
-   <entry>
-      <lemma>защитник</lemma>
-      <stem/>
-      <contlex>Noun1</contlex>
-      <pos>N</pos>
-   </entry>
-   <entry>
-      <lemma>чемпионат</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
-      <pos>N</pos>
-   </entry>
-   <entry>
-      <lemma>учительница</lemma>
+      <e>
+         <mg>
+            <m>
+               <head><field field="GRAM"/></head>
+            </m>
+         </mg>
+      </e>
+   </entry><entry>
+      <lemma>волейбол</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
       <pos>N</pos>
@@ -59,13 +25,80 @@
          <mg>
             <m>
                <head/>
-               <semRel lemmaID="велӧдысь_N" semRelType="seeNative"/>
             </m>
-            <tg/>
+            <tg lang="ru"><t>волейбол</t></tg>
+            <tg lang="ru"><t pos="A">волейбольный</t></tg>
+            <xg>
+               <x>волейбол мач</x>
+               <xtg lang="ru"><xt>волейбольный мяч</xt></xtg>
+            </xg>
+            <xg>
+               <x>волейболӧн ворсысь</x>
+               <xtg lang="ru"><xt>волейболист</xt></xtg>
+            </xg>
          </mg>
       </e>
-   </entry>
-   <entry>
+   </entry><entry>
+      <lemma>волисполком</lemma>
+      <stem/>
+      <contlex>Noun1-F</contlex>
+      <pos>N</pos>
+   </entry><entry>
+      <lemma>волнение</lemma>
+      <stem/>
+      <contlex>Noun1-F</contlex>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>волнение</t></tg>
+         </mg>
+      </e>
+   </entry><entry>
+      <lemma>защитник</lemma>
+      <stem/>
+      <contlex>Noun1</contlex>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head><field field="SPORT"/></head>
+            </m>
+         </mg>
+      </e>
+   </entry><entry>
+      <lemma>классификация</lemma>
+      <stem/>
+      <contlex>Noun1-F</contlex>
+      <pos>N</pos>
+   </entry><entry>
+      <lemma>лесозавод</lemma>
+      <stem/>
+      <contlex>Noun1-F</contlex>
+      <pos>N</pos>
+   </entry><entry>
+      <lemma>омонимия</lemma>
+      <stem/>
+      <contlex>Noun1-F</contlex>
+      <pos>N</pos>
+   </entry><entry>
+      <lemma>партячейка</lemma>
+      <stem/>
+      <contlex>Noun1-F</contlex>
+      <pos>N</pos>
+   </entry><entry>
+      <lemma>патриот</lemma>
+      <stem/>
+      <contlex>Noun1-F</contlex>
+      <pos>N</pos>
+   </entry><entry>
+      <lemma>периферия</lemma>
+      <stem/>
+      <contlex>Noun1-F</contlex>
+      <pos>N</pos>
+   </entry><entry>
       <lemma>почта</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
@@ -103,8 +136,7 @@
             </xg>
          </mg>
       </e>
-   </entry>
-   <entry>
+   </entry><entry>
       <lemma>предание</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
@@ -125,8 +157,7 @@
             </xg>
          </mg>
       </e>
-   </entry>
-   <entry>
+   </entry><entry>
       <lemma>предатель</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
@@ -143,8 +174,7 @@
             </xg>
          </mg>
       </e>
-   </entry>
-   <entry>
+   </entry><entry>
       <lemma>предложение</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
@@ -153,7 +183,7 @@
          <mg>
             <m>
                <head><field>грам.</field></head>
-               <semRel MNo="1" semRelType="seeAlso" stemID="сёрникузя_Noun1_N"/>
+               <semRel MNo="1" semRelType="seeAlso" stemID="&#x441;&#x451;&#x440;&#x43D;&#x438;&#x43A;&#x443;&#x437;&#x44F;_Noun1_N"/>
             </m>
             <tg lang="ru"><t>предложение</t></tg>
             <xg>
@@ -182,8 +212,8 @@
          <mg>
             <m>
                <head/>
-               <semRel MNo="1" semRelType="seeAlso" stemID="вӧзйӧмторй_Noun1_N"/>
-               <semRel MNo="1" semRelType="seeAlso" stemID="вӧзйӧм_Noun1_N"/>
+               <semRel MNo="1" semRelType="seeAlso" stemID="&#x432;&#x4E7;&#x437;&#x439;&#x4E7;&#x43C;&#x442;&#x43E;&#x440;&#x439;_Noun1_N"/>
+               <semRel MNo="1" semRelType="seeAlso" stemID="&#x432;&#x4E7;&#x437;&#x439;&#x4E7;&#x43C;_Noun1_N"/>
             </m>
             <tg lang="ru"><t>предложение</t></tg>
             <xg>
@@ -196,8 +226,7 @@
             </xg>
          </mg>
       </e>
-   </entry>
-   <entry>
+   </entry><entry>
       <lemma>предмет</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
@@ -223,8 +252,25 @@
             </xg>
          </mg>
       </e>
-   </entry>
-   <entry>
+   </entry><entry>
+      <lemma>предприниматель</lemma>
+      <stem/>
+      <contlex>Noun1-F</contlex>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <semRel lemmaID="&#x430;&#x441;&#x448;&#x4E7;&#x440; &#x443;&#x434;&#x436;&#x430;&#x43B;&#x44B;&#x441;&#x44C;_XX" semRelType="seeAlso"/>
+            </m>
+            <tg lang="ru"><t>предприниматель</t></tg>
+            <xg>
+               <x>писькӧс предприниматель</x>
+               <xtg lang="ru"><xt>оборотливый предприниматель</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry><entry>
       <lemma>предприятие</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
@@ -257,8 +303,7 @@
             </xg>
          </mg>
       </e>
-   </entry>
-   <entry>
+   </entry><entry>
       <lemma>председатель</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
@@ -267,8 +312,8 @@
          <mg>
             <m>
                <head/>
-               <semRel semRelType="seeAlso" stemID="юрнуӧдысь_Noun1"/>
-               <semRel MNo="1" semRelType="seeAlso" stemID="веськӧдлысь_Noun1"/>
+               <semRel semRelType="seeAlso" stemID="&#x44E;&#x440;&#x43D;&#x443;&#x4E7;&#x434;&#x44B;&#x441;&#x44C;_Noun1"/>
+               <semRel MNo="1" semRelType="seeAlso" stemID="&#x432;&#x435;&#x441;&#x44C;&#x43A;&#x4E7;&#x434;&#x43B;&#x44B;&#x441;&#x44C;_Noun1"/>
             </m>
             <tg lang="ru"><t>председатель</t></tg>
             <tg lang="ru"><t>председательский</t></tg>
@@ -286,8 +331,7 @@
             </xg>
          </mg>
       </e>
-   </entry>
-   <entry>
+   </entry><entry>
       <lemma>президент</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
@@ -308,8 +352,7 @@
             </xg>
          </mg>
       </e>
-   </entry>
-   <entry>
+   </entry><entry>
       <lemma>премия</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
@@ -335,8 +378,7 @@
             </xg>
          </mg>
       </e>
-   </entry>
-   <entry>
+   </entry><entry>
       <lemma>препинание</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
@@ -353,8 +395,7 @@
             </xg>
          </mg>
       </e>
-   </entry>
-   <entry>
+   </entry><entry>
       <lemma>преподаватель</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
@@ -363,7 +404,7 @@
          <mg>
             <m>
                <head/>
-               <semRel MNo="1" lemmaID="велӧдысь_XX" semRelType="seeAlso"/>
+               <semRel MNo="1" lemmaID="&#x432;&#x435;&#x43B;&#x4E7;&#x434;&#x44B;&#x441;&#x44C;_XX" semRelType="seeAlso"/>
             </m>
             <tg lang="ru"><t>преподаватель, преподавательница</t></tg>
             <xg>
@@ -376,8 +417,7 @@
             </xg>
          </mg>
       </e>
-   </entry>
-   <entry>
+   </entry><entry>
       <lemma>преступник</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
@@ -386,7 +426,7 @@
          <mg>
             <m>
                <head/>
-               <semRel semRelType="seeAlso" stemID="мыж вӧчысь_Noun1"/>
+               <semRel semRelType="seeAlso" stemID="&#x43C;&#x44B;&#x436; &#x432;&#x4E7;&#x447;&#x44B;&#x441;&#x44C;_Noun1"/>
             </m>
             <tg lang="ru"><t>преступник</t></tg>
             <xg>
@@ -399,8 +439,7 @@
             </xg>
          </mg>
       </e>
-   </entry>
-   <entry>
+   </entry><entry>
       <lemma>прибыль</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
@@ -409,7 +448,7 @@
          <mg>
             <m>
                <head/>
-               <semRel MNo="1" lemmaID="чуктӧс_XX" semRelType="seeAlso"/>
+               <semRel MNo="1" lemmaID="&#x447;&#x443;&#x43A;&#x442;&#x4E7;&#x441;_XX" semRelType="seeAlso"/>
             </m>
             <tg lang="ru"><t>прибыль</t></tg>
             <xg>
@@ -422,8 +461,7 @@
             </xg>
          </mg>
       </e>
-   </entry>
-   <entry>
+   </entry><entry>
       <lemma>приватизация</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
@@ -432,13 +470,12 @@
          <mg>
             <m>
                <head/>
-               <semRel lemmaID="асэмбуралӧм_XX" semRelType="seeAlso"/>
+               <semRel lemmaID="&#x430;&#x441;&#x44D;&#x43C;&#x431;&#x443;&#x440;&#x430;&#x43B;&#x4E7;&#x43C;_XX" semRelType="seeAlso"/>
             </m>
             <tg lang="ru"><t>приватизация</t></tg>
          </mg>
       </e>
-   </entry>
-   <entry>
+   </entry><entry>
       <lemma>привет</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
@@ -455,8 +492,7 @@
             </xg>
          </mg>
       </e>
-   </entry>
-   <entry>
+   </entry><entry>
       <lemma>привилегия</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
@@ -465,7 +501,7 @@
          <mg>
             <m>
                <head/>
-               <semRel lemmaID="торъя право_XX" semRelType="seeAlso"/>
+               <semRel lemmaID="&#x442;&#x43E;&#x440;&#x44A;&#x44F; &#x43F;&#x440;&#x430;&#x432;&#x43E;_XX" semRelType="seeAlso"/>
             </m>
             <tg lang="ru"><t>привилегия</t></tg>
             <xg>
@@ -474,8 +510,7 @@
             </xg>
          </mg>
       </e>
-   </entry>
-   <entry>
+   </entry><entry>
       <lemma>приговор</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
@@ -508,8 +543,7 @@
             </xg>
          </mg>
       </e>
-   </entry>
-   <entry>
+   </entry><entry>
       <lemma>приз</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
@@ -526,8 +560,7 @@
             </xg>
          </mg>
       </e>
-   </entry>
-   <entry>
+   </entry><entry>
       <lemma>признак</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
@@ -536,7 +569,7 @@
          <mg>
             <m>
                <head/>
-               <semRel MNo="1" lemmaID="тӧдмӧс_XX" semRelType="seeAlso"/>
+               <semRel MNo="1" lemmaID="&#x442;&#x4E7;&#x434;&#x43C;&#x4E7;&#x441;_XX" semRelType="seeAlso"/>
             </m>
             <tg lang="ru"><t>признак</t></tg>
             <xg>
@@ -553,8 +586,7 @@
             </xg>
          </mg>
       </e>
-   </entry>
-   <entry>
+   </entry><entry>
       <lemma>призыв</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
@@ -571,8 +603,7 @@
             </xg>
          </mg>
       </e>
-   </entry>
-   <entry>
+   </entry><entry>
       <lemma>приказ</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
@@ -601,8 +632,7 @@
             </xg>
          </mg>
       </e>
-   </entry>
-   <entry>
+   </entry><entry>
       <lemma>приложение</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
@@ -615,8 +645,7 @@
             <tg lang="ru"><t>приложение</t></tg>
          </mg>
       </e>
-   </entry>
-   <entry>
+   </entry><entry>
       <lemma>пример</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
@@ -656,8 +685,7 @@
             </xg>
          </mg>
       </e>
-   </entry>
-   <entry>
+   </entry><entry>
       <lemma>примета</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
@@ -697,8 +725,7 @@
             </xg>
          </mg>
       </e>
-   </entry>
-   <entry>
+   </entry><entry>
       <lemma>примыкание</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
@@ -711,8 +738,7 @@
             <tg lang="ru"><t>примыкание</t></tg>
          </mg>
       </e>
-   </entry>
-   <entry>
+   </entry><entry>
       <lemma>принцип</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
@@ -729,8 +755,7 @@
             </xg>
          </mg>
       </e>
-   </entry>
-   <entry>
+   </entry><entry>
       <lemma>природа</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
@@ -739,7 +764,7 @@
          <mg>
             <m>
                <head/>
-               <semRel MNo="2" lemmaID="ывла_XX" semRelType="seeAlso"/>
+               <semRel MNo="2" lemmaID="&#x44B;&#x432;&#x43B;&#x430;_XX" semRelType="seeAlso"/>
             </m>
             <tg lang="ru"><t>природа</t></tg>
             <xg>
@@ -752,57 +777,7 @@
             </xg>
          </mg>
       </e>
-   </entry>
-   <entry>
-      <lemma>волейбол</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
-      <pos>N</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="ru"><t>волейбол</t></tg>
-            <tg lang="ru"><t pos="A">волейбольный</t></tg>
-            <xg>
-               <x>волейбол мач</x>
-               <xtg lang="ru"><xt>волейбольный мяч</xt></xtg>
-            </xg>
-            <xg>
-               <x>волейболӧн ворсысь</x>
-               <xtg lang="ru"><xt>волейболист</xt></xtg>
-            </xg>
-         </mg>
-      </e>
-   </entry>
-   <entry>
-      <lemma>волнение</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
-      <pos>N</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="ru"><t>волнение</t></tg>
-         </mg>
-      </e>
-   </entry>
-   <entry>
-      <lemma>волисполком</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
-      <pos>N</pos>
-   </entry>
-   <entry>
-      <lemma>партячейка</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
-      <pos>N</pos>
-   </entry>
-   <entry>
+   </entry><entry>
       <lemma>приставка</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
@@ -815,9 +790,86 @@
             <tg lang="ru"><t>приставка, префикс</t></tg>
          </mg>
       </e>
-   </entry>
-   <entry>
-      <lemma>предприниматель</lemma>
+   </entry><entry>
+      <lemma>проблема</lemma>
+      <stem/>
+      <contlex>Noun1-F</contlex>
+      <pos>N</pos>
+   </entry><entry>
+      <lemma>секретарь</lemma>
+      <stem/>
+      <contlex>Noun1-F</contlex>
+      <pos>N</pos>
+   </entry><entry>
+      <lemma>спорт</lemma>
+      <stem/>
+      <contlex>Noun1-F</contlex>
+      <pos>N</pos>
+   </entry><entry>
+      <lemma>стиль</lemma>
+      <stem/>
+      <contlex>Noun1-F</contlex>
+      <pos>N</pos>
+   </entry><entry>
+      <lemma>структура</lemma>
+      <stem/>
+      <contlex>Noun1-F</contlex>
+      <pos>N</pos>
+   </entry><entry>
+      <lemma>тайм</lemma>
+      <stem/>
+      <contlex>Noun1-F</contlex>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head><field field="SPORT"/></head>
+            </m>
+         </mg>
+      </e>
+   </entry><entry>
+      <lemma>терминология</lemma>
+      <stem/>
+      <contlex>Noun1</contlex>
+      <pos>N</pos>
+   </entry><entry>
+      <lemma>типология</lemma>
+      <stem/>
+      <contlex>Noun1-F</contlex>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head><field field="GRAM"/></head>
+            </m>
+         </mg>
+      </e>
+   </entry><entry>
+      <lemma>транспозиция</lemma>
+      <stem/>
+      <contlex>Noun1-F</contlex>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head><field field="GRAM"/></head>
+            </m>
+         </mg>
+      </e>
+   </entry><entry>
+      <lemma>тренер</lemma>
+      <stem/>
+      <contlex>Noun1-F</contlex>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head><field field="SPORT"/></head>
+            </m>
+         </mg>
+      </e>
+   </entry><entry>
+      <lemma>учительница</lemma>
       <stem/>
       <contlex>Noun1-F</contlex>
       <pos>N</pos>
@@ -825,14 +877,26 @@
          <mg>
             <m>
                <head/>
-               <semRel lemmaID="асшӧр уджалысь_XX" semRelType="seeAlso"/>
+               <semRel lemmaID="&#x432;&#x435;&#x43B;&#x4E7;&#x434;&#x44B;&#x441;&#x44C;_N" semRelType="seeNative"/>
             </m>
-            <tg lang="ru"><t>предприниматель</t></tg>
-            <xg>
-               <x>писькӧс предприниматель</x>
-               <xtg lang="ru"><xt>оборотливый предприниматель</xt></xtg>
-            </xg>
+            <tg/>
          </mg>
       </e>
-   </entry>
-</dict>
+   </entry><entry>
+      <lemma>художество</lemma>
+      <stem/>
+      <contlex>Noun1</contlex>
+      <pos>N</pos>
+   </entry><entry>
+      <lemma>чемпионат</lemma>
+      <stem/>
+      <contlex>Noun1-F</contlex>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head><field field="SPORT"/></head>
+            </m>
+         </mg>
+      </e>
+   </entry></dict>
