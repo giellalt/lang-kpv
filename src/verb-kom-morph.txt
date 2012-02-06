@@ -103,7 +103,7 @@ LEXICON Verb-yny ! ярмыны. Multiple-syllable verb ending in -ыны.
 
 LEXICON VerbConj-V ! суф б -- ы --
 < 0:">" 0:н 0:ы "+Inf":0 "@U.CONJ-INF.YES@" > VerbEnd-Comparison ;
-< 0:">" 0:н 0:ы "+ConNeg":0 "@U.CONJ-INF.NO@" "@U.CONJ-CONNEG.YES@" +Pl3:0 "@U.CONJ-NX.PL@" "@U.CONJ-PX.3@" > VerbEnd ;
+< 0:">" 0:н 0:ы "+ConNeg":0 "@U.CONJ-INF.NO@" "@U.CONJ-CONNEG.YES@" "+Pl3":0 "@U.CONJ-NX.PL@" "@U.CONJ-PX.3@" > VerbEnd ;
 < "+ConNeg":0 "@U.CONJ-INF.NO@" "@U.CONJ-CONNEG.YES@" > VerbEnd ;
 < "+Imprt":0 "+Sg2":0 "@U.CONJ-INF.NO@" "@U.CONJ-MX.IMP@" "@U.CONJ-NX.SG@" "@U.CONJ-PX.2@" > VerbEnd ;
 
