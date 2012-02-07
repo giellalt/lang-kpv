@@ -48,8 +48,8 @@ LEXICON VERBNEGATIVE
 ! regexes < … > , for readability reasons (sic!)
 
 LEXICON Verb-lokny ! One verb only, локны
-< "+V":0 "+Inf":0 "@U.CONJ-INF.YES@" > VerbEnd-Comparison ;
-< "+V":0 "+ConNeg":0 "@U.CONJ-INF.NO@" "@U.CONJ-CONNEG.YES@" "+Pl3":0 "@U.CONJ-NX.PL@" "@U.CONJ-PX.3@" > VerbEnd ;
+< "+V":0 0:">" 0:н 0:ы "+Inf":0 "@U.CONJ-INF.YES@" > VerbEnd-Comparison ;
+< "+V":0 0:">" 0:н 0:ы "+ConNeg":0 "@U.CONJ-INF.NO@" "@U.CONJ-CONNEG.YES@" "+Pl3":0 "@U.CONJ-NX.PL@" "@U.CONJ-PX.3@" > VerbEnd ;
 < "+V":0 "+ConNeg":0 "@U.CONJ-INF.NO@" "@U.CONJ-CONNEG.YES@" > VerbEnd ;
 < "+V":0 "+Imprt":0 "@U.CONJ-INF.NO@" "@U.CONJ-MX.IMP@" "+Sg2":0 "@U.CONJ-NX.SG@" "@U.CONJ-PX.2@" > VerbEnd ;
 < 0:">" 0:т "+V":0 "@U.CONJ-INF.YES@" > VerbDer ; !
