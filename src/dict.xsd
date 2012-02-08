@@ -938,6 +938,8 @@ pos = 'Parts of Speech'
          <!-- -->
          <xs:enumeration value="A-SUPERL"/>
          <!-- Superlative Adjactive -->
+         <xs:enumeration value="A-PRED"/>
+         <!--Adjective in predicate only "опаснӧ" -->
          <xs:enumeration value="AD-A"/>
          <!-- Adverb, Adjective modifier -->
          <xs:enumeration value="ADV"/>
@@ -949,7 +951,7 @@ pos = 'Parts of Speech'
          <xs:enumeration value="ADV-Manner"/>
          <!-- Adverb Manner -->
          <xs:enumeration value="ADV-PARENTHETICAL"/>
-         <!-- вводн. сл. -->
+         <!-- вводн. сл. also known as sentential-->
          <xs:enumeration value="ADV-SPAT"/>
          <!-- -->
          <xs:enumeration value="ADV-SUPERL"/>
@@ -982,6 +984,8 @@ pos = 'Parts of Speech'
          <!-- -->
          <xs:enumeration value="INTERJ"/>
          <!-- -->
+         <xs:enumeration value="INTERJ-CONATIVE"/>
+         <!--возглас "сильӧ"-->
          <xs:enumeration value="N"/>
          <!-- -->
          <xs:enumeration value="N-DV"/>
@@ -1039,7 +1043,7 @@ pos = 'Parts of Speech'
          <xs:enumeration value="POSTP-TEMP"/>
          <!-- -->
          <xs:enumeration value="PREP"/>
-         <!-- -->
+         <!-- Preposition-->
          <xs:enumeration value="PRON"/>
          <!-- -->
          <xs:enumeration value="ADN-INTERR"/>
@@ -1126,6 +1130,8 @@ pos = 'Parts of Speech'
          <!-- Verb of Negation -->
          <xs:enumeration value="V-V"/>
          <!-- VERB-VERB (two verbs) -->
+         <xs:enumeration value="VOCATIVE"/>
+         <!--обращ. "мамӧ" "зонмӧ"-->
       </xs:restriction>
    </xs:simpleType>
    <xs:attribute name="MNo">
