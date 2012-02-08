@@ -26,6 +26,8 @@ LEXICON Adj-IS_SUPERL !
 LEXICON Adj-SUPERL !
 +Superl: Adj ;
 
+LEXICON A-PRED ! ӧбиднӧ
++A+Pred: # ; !
 
 
 LEXICON Adj
@@ -36,6 +38,9 @@ LEXICON Adj
 ! ===== !
 ! Nouns !
 ! ===== !
+
+LEXICON Vocative
++N+Voc: # ;
 
 LEXICON Prop ! Basic nouns.
 +N+Prop+Sg: CASEPOSSLEX ;
@@ -87,6 +92,12 @@ LEXICON Noun1-IS_PTC-AN !
 
 LEXICON Noun1-IS_PTC-YSJ !
 +V+Der/ысь: Noun1 ;
+
+LEXICON N-DOR ! мӧдладор The Russian is an adverbial phrase
++Der/дор: Noun1 ;
+
+LEXICON N-VYV ! тулысвыв The Russian is an adverbial phrase
++Der/выв: Noun1 ;
 
 LEXICON Noun1-F !
 +Src/F: Noun1 ;
