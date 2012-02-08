@@ -84,6 +84,7 @@ Multichar_Symbols
 +Ela +Car +Egr +Tra  +Apr +Ter
 +Abe 
 +Prl !Prolative "ӧд"
++Voc ! Vocative
 +Der/джык ! this is the comparative formative
 +Compar ! comparative as opposed to superlative
 
@@ -170,6 +171,9 @@ Multichar_Symbols
 ! Declaring spatial adverb derivations; see also spatial postpositions
 +Der/ла
 +Der/ладор
++Der/дор
++Der/выв
+
 +Spat ! spatial
 
 !Modifier without noun
@@ -335,8 +339,6 @@ LEXICON R
 ! these are:
 ! ногӧн, выйӧн
 
-LEXICON POST1
-POSTP1 ; ! error, correct in xml file
 
 !This contlex allows for relational word which, otherwise, are open 
 !to extensive declension
@@ -494,6 +496,9 @@ LEXICON ADV-IS_GER-MON ! these are checked as gerunds in +Der/мӧн
 
 LEXICON ADV-IS_GER-TOG ! these are checked as gerunds in +Der/тӧг
 +V+Der/тӧг: ADVTAG ;
+
+LEXICON ADV-IS_GER-TODZ ! these are checked as gerunds in +Der/тӧдз
++V+Der/тӧдз: ADVTAG ;
 
 LEXICON ADV-IS_N-TOG ! these are checked as state adverbials in +Der/тӧг
 +N+Der/тӧг: ADVTAG ;
