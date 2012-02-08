@@ -15,15 +15,16 @@ all: ../bin/i$(GTLANG).fst
 # Include the makefile that converts from xml to lexc:
 include Makefile_xml
 
-XFST = xfst 
-LEXC = lexc 
-TWOLC = twolc
-
 ifeq (victorio.uit.no, $(shell hostname))
 XFST = /opt/sami/xerox/c-fsm/ix86-linux2.6-gcc3.4/bin/fst -utf8
 LEXC = /opt/sami/xerox/bin/lexc -utf8
 TWOLC = /opt/sami/xerox/bin/twolc -utf8
 endif
+
+XFST = xfst 
+LEXC = lexc 
+TWOLC = twolc
+
 
 # This is a preliminary file that builds a Komi parser based upon
 # xfst and not twolc.
@@ -31,7 +32,7 @@ endif
 # Here we build the final generator, an inverted transducer of the analyzer.
 # It is dependent upon $(GTLANG).save
 
-../bin/i$(GTLANG).fst: r-$(GTLANG).fst
+../bin/i$(GTLANG).fst: r-$(GTLANG).fst $(GTLANG)-num.fst
 	@echo
 	@echo "*** Building the inverse $(@F) ***"
 	@echo
@@ -187,6 +188,16 @@ xfst-$(GTLANG).bin: ../bin/xfst-$(GTLANG).bin
 	quit \n" > ../../tmp/xfst-$(GTLANG)-script
 	$(XFST) < ../../tmp/xfst-$(GTLANG)-script
 	@rm -f ../../tmp/xfst-$(GTLANG)-script
+
+
+$(GTLANG)-num.fst: ../bin/$(GTLANG)-num.fst
+../bin/$(GTLANG)-num.fst: $(GTLANG)-num.txt
+	@echo
+	@echo "*** Building $(notdir $@) ***" ;
+	@echo
+	$(XFST) -e "read lexc < $< " \
+		-e "save stack   $@ " \
+		-stop
 
 
 clean:
