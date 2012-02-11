@@ -208,20 +208,22 @@
                <xs:element ref="literal"/>
             </xs:choice>
          </xs:sequence>
-         <xs:attribute name="type">
-            <xs:simpleType>
-               <xs:restriction base="xs:string">
-                  <xs:enumeration value="idiom"/>
-                  <xs:enumeration value="proverb"/>
-                  <xs:enumeration value="riddle"/>
-                  <xs:enumeration value="playOnWords"/>
-                  <xs:enumeration value="saying"/>
-                  <xs:enumeration value="sign"/>
-               </xs:restriction>
-            </xs:simpleType>
+         <xs:attribute name="type" type="genreType"/>
          </xs:attribute>
       </xs:complexType>
    </xs:element>
+<xs:attribute name="genreType">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="idiom"/>
+      <xs:enumeration value="proverb"/>
+      <xs:enumeration value="riddle"/>
+      <xs:enumeration value="playOnWords"/>
+      <xs:enumeration value="saying"/>
+      <xs:enumeration value="sign"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:attribute>
    <xs:element name="semRel">
       <xs:complexType>
          <xs:sequence/>
