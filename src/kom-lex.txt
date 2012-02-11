@@ -521,6 +521,9 @@ LEXICON ADVTAG ! these are checked as advs.
 LEXICON ADV-SPAT ! these are adverbs in spatial cases
       !and they probably are equivalent in morphology to postpositions
  ADV-SPAT-APR ;
+ ADV-SPAT-APRILL ;
+ ADV-SPAT-APRINE ;
+ ADV-SPAT-APRELA ;
  ADV-SPAT-EGR ;
  ADV-SPAT-ELA ;
  ADV-SPAT-ILL ;
@@ -533,19 +536,28 @@ LEXICON ADV-SPAT-LA ! These adverbs have a formative in ла
 +Der/ла: ADV-SPAT ;
 
 LEXICON ADV-SPAT-APR
-+Adv+Spat+Apr:%>лань COMPARATIVE ;
++Adv+Spat+Apr:%>лань SPAT-COMPARATIVE ;
+
+LEXICON ADV-SPAT-APRELA
++Adv+Spat+Apr:%>ланьысь SPAT-COMPARATIVE ;
+
+LEXICON ADV-SPAT-APRILL
++Adv+Spat+Apr:%>ланьӧ SPAT-COMPARATIVE ;
+
+LEXICON ADV-SPAT-APRINE
++Adv+Spat+Apr:%>ланьын SPAT-COMPARATIVE ;
 
 LEXICON ADV-SPAT-EGR
-+Adv+Spat+Egr:%>сянь COMPARATIVE ;
++Adv+Spat+Egr:%>сянь SPAT-COMPARATIVE ;
 
 LEXICON ADV-SPAT-ELA
-+Adv+Spat+Ela:%>ысь COMPARATIVE ;
++Adv+Spat+Ela:%>ысь SPAT-COMPARATIVE ;
 
 LEXICON ADV-SPAT-ILL
-+Adv+Spat+Ill:%>ӧ COMPARATIVE ;
++Adv+Spat+Ill:%>ӧ SPAT-COMPARATIVE ;
 
 LEXICON ADV-SPAT-INE
-+Adv+Spat+Ine:%>ын COMPARATIVE ;
++Adv+Spat+Ine:%>ын SPAT-COMPARATIVE ;
 
 LEXICON ADV-SPAT-PRL
 +Adv+Spat+Prl:%>ӧд K ;
@@ -561,22 +573,25 @@ LEXICON ADV-VTER
 
 ! Adverbs with ready morphology
 LEXICON ADV-IS_APRILL
-+Adv+Apr+Ill: K ;
++Adv+Apr+Ill: SPAT-COMPARATIVE ;
 
 LEXICON ADV-IS_APRINE
-+Adv+Apr+Ine: K ;
++Adv+Apr+Ine: SPAT-COMPARATIVE ;
 
 LEXICON ADV-IS_APR
-+Adv+Apr: K ;
++Adv+Apr: SPAT-COMPARATIVE ;
 
 LEXICON ADV-IS_EGR
-+Adv+Egr: K ;
++Adv+Egr: SPAT-COMPARATIVE ;
+
+LEXICON ADV-IS_ELA
++Adv+Ela: SPAT-COMPARATIVE ;
 
 LEXICON ADV-IS_ILL
-+Adv+Ill: K ;
++Adv+Ill: IllCompar ;
 
 LEXICON ADV-IS_INE
-+Adv+Ine: K ;
++Adv+Ine: SPAT-COMPARATIVE ;
 
 LEXICON ADV-IS_PROL
 +Adv+Prol: K ;
@@ -630,12 +645,19 @@ LEXICON K
 LEXICON ADV-SUPERL
 +Adv+Superl: # ;
 
+! 2012-02-11
+! This should have the following case forms pointing toward it:
+! ine, ill, ela, apr, aprela, aprill, aprine
+LEXICON SPAT-COMPARATIVE
+ COMPARATIVE ;
+ PredMonLex-Spat-Add-Morphology ; !
+
 
 LEXICON COMPARATIVE
                         K ;
 +Der/джык+Compar:%>джык K ;
-
-
++Der/моз:%>моз K ;
++Der/кодь:%>кодь K ;
 
 LEXICON TESTINGTESTING
 
