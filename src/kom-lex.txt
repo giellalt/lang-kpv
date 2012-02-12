@@ -107,6 +107,12 @@ Multichar_Symbols
 +PxSg1-ym
 +PxSg1-oj
 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
+! These are used to mark person but not number of the possessor
+! Nonfinite verbs вӧравныд, вӧравныс
++Px1
++Px2
++Px3
+
 +NoPoss
 
 +Cns ! Consecutive -la
@@ -246,6 +252,13 @@ Multichar_Symbols
 @U.CONJ-NX.PL@
 @U.CONJ-NX.SG@
 
+! POSS = possessive person
+@U.CONJ-POSS.1@
+@U.CONJ-POSS.2@
+@U.CONJ-POSS.3@
+@U.CONJ-POSS.2ACC@
+@U.CONJ-POSS.3ACC@
+
 ! PX = person
 @U.CONJ-PX.1@
 @U.CONJ-PX.2@
@@ -258,6 +271,7 @@ Multichar_Symbols
 @C.CONJ-CONNEG@
 @C.CONJ-NX@
 @C.CONJ-PX@
+@C.CONJ-POSS@
 
 
 ! Key lexicon
@@ -572,6 +586,9 @@ LEXICON ADV-VTER
 +V+Der/тӧдз+Adv+Temp+Ter:%>тӧдз K ;
 
 ! Adverbs with ready morphology
+LEXICON ADV-IS_APRELA
++Adv+Apr+Ela: SPAT-COMPARATIVE ;
+
 LEXICON ADV-IS_APRILL
 +Adv+Apr+Ill: SPAT-COMPARATIVE ;
 
