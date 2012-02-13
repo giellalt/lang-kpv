@@ -1304,14 +1304,244 @@
       <contlex>EndInterj</contlex>
       <pos>INTERJ</pos>
    </entry>
-<entry> <lemma>прутьӧ-прутьӧ</lemma> <stem/> <contlex>EndInterj</contlex> <pos>INTERJ-CONATIVE</pos> <e> <mg> <m> <head/> </m> <tg lang="ru"><t>возглас, которым подзывают телят</t></tg> </mg> </e> </entry>
-<entry> <lemma>сильӧ</lemma> <stem/> <contlex>EndInterj</contlex> <pos>INTERJ-CONATIVE</pos> <e> <mg MNo="1"> <m> <head/> </m> <tg lang="ru"><t>возглас, к-рым подзывают кур</t></tg> <xg> <x>сильӧ-сильӧ</x> <xtg lang="ru"><xt>цып-цып</xt></xtg> </xg> </mg> </e> </entry>
-<entry> <lemma>тпрутьӧ</lemma> <stem/> <contlex>EndInterj</contlex> <pos>INTERJ-CONATIVE</pos> <e> <mg MNo="2"> <m> <head><i>возглас, к-рым подзывают телёнка</i></head> </m> <tg lang="ru"><t/></tg> </mg> </e> </entry>
-<entry> <lemma>тӧлӧ</lemma> <stem/> <contlex>EndInterj</contlex> <pos>INTERJ-CONATIVE</pos> <e> <mg> <m> <head><i>возглас, к-рым успокаивают корову</i></head> </m> <tg lang="ru"><t/></tg> </mg> </e> </entry>
-<entry> <lemma>жальӧ</lemma> <stem/> <contlex>Vocative</contlex> <pos>VOCATIVE</pos> <e> <mg> <m> <head><range>диал.</range> <i>обращ.</i></head> </m> <tg lang="ru"><t>милый, любимый</t></tg> </mg> </e> </entry>
-<entry> <lemma>мамӧ</lemma> <stem/> <contlex>Vocative</contlex> <pos>VOCATIVE</pos> <e> <mg> <m> <head/> </m> <tg lang="ru"><t>мама</t></tg> </mg> </e> </entry>
-<entry> <lemma>нылӧ</lemma> <stem/> <contlex>Vocative</contlex> <pos>VOCATIVE</pos> <e> <mg> <m> <head><i>обращ.</i></head> </m> <tg lang="ru"><t>девонька; доченька</t></tg> <xg> <x>тэ, нылӧ , ветлы сэтчӧ</x> <xtg lang="ru"><xt>ты, доченька, сходи туда</xt></xtg> </xg> </mg> </e> </entry>
-<entry> <lemma>пиӧ</lemma> <stem/> <contlex>Vocative</contlex> <pos>VOCATIVE</pos> <e RN="I"> <i>обращ.</i> <mg MNo="1"> <m> <head/> </m> <tg lang="ru"><t>сын, сынок</t></tg> <xg> <x>тэ, пиӧ, эн суитчы</x> <xtg lang="ru"><xt>ты, сынок, не вмешивайся</xt></xtg> </xg> </mg> <mg MNo="2"> <m> <head/> </m> <tg lang="ru"><t>голубчик</t></tg> <xg> <x>тэ, пиӧ, нинӧм он тӧд</x> <xtg lang="ru"><xt>ты, голубчик, ничего не знаешь</xt></xtg> </xg> </mg> </e> </entry>
-<entry> <lemma>тьӧтӧ</lemma> <stem/> <contlex>Vocative</contlex> <pos>VOCATIVE</pos> <e> <mg MNo="1"> <m> <head/> </m> <tg lang="ru"><t>тётя, тётушка <i>обращение к тётке и мачехе</i></t></tg> </mg> </e> </entry>
-<entry> <lemma>чадӧ</lemma> <stem/> <contlex>Vocative</contlex> <pos>VOCATIVE</pos> <e> <mg> <m> <head><range>диал.</range> <i>ласк. обращ.</i></head> </m> <tg lang="ru"><t>чадо, дитя</t></tg> </mg> </e> </entry>
+   <entry>
+      <lemma>прутьӧ-прутьӧ</lemma>
+      <stem/>
+      <contlex>EndInterj</contlex>
+      <pos>INTERJ-CONATIVE</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>возглас, которым подзывают телят</t></tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>сильӧ</lemma>
+      <stem/>
+      <contlex>EndInterj</contlex>
+      <pos>INTERJ-CONATIVE</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>возглас, к-рым подзывают кур</t></tg>
+            <xg>
+               <x>сильӧ-сильӧ</x>
+               <xtg lang="ru"><xt>цып-цып</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>тпрутьӧ</lemma>
+      <stem/>
+      <contlex>EndInterj</contlex>
+      <pos>INTERJ-CONATIVE</pos>
+      <e>
+         <mg MNo="2">
+            <m>
+               <head><i>возглас, к-рым подзывают телёнка</i></head>
+            </m>
+            <tg lang="ru"><t/></tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>тӧлӧ</lemma>
+      <stem/>
+      <contlex>EndInterj</contlex>
+      <pos>INTERJ-CONATIVE</pos>
+      <e>
+         <mg>
+            <m>
+               <head><i>возглас, к-рым успокаивают корову</i></head>
+            </m>
+            <tg lang="ru"><t/></tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>жальӧ</lemma>
+      <stem/>
+      <contlex>Vocative</contlex>
+      <pos>VOCATIVE</pos>
+      <e>
+         <mg>
+            <m>
+               <head><range>диал.</range> <i>обращ.</i></head>
+            </m>
+            <tg lang="ru"><t>милый, любимый</t></tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>мамӧ</lemma>
+      <stem/>
+      <contlex>Vocative</contlex>
+      <pos>VOCATIVE</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>мама</t></tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>нылӧ</lemma>
+      <stem/>
+      <contlex>Vocative</contlex>
+      <pos>VOCATIVE</pos>
+      <e>
+         <mg>
+            <m>
+               <head><i>обращ.</i></head>
+            </m>
+            <tg lang="ru"><t>девонька; доченька</t></tg>
+            <xg>
+               <x>тэ, нылӧ , ветлы сэтчӧ</x>
+               <xtg lang="ru"><xt>ты, доченька, сходи туда</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>пиӧ</lemma>
+      <stem/>
+      <contlex>Vocative</contlex>
+      <pos>VOCATIVE</pos>
+      <e RN="I">
+         <i>обращ.</i>
+         <mg MNo="1">
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>сын, сынок</t></tg>
+            <xg>
+               <x>тэ, пиӧ, эн суитчы</x>
+               <xtg lang="ru"><xt>ты, сынок, не вмешивайся</xt></xtg>
+            </xg>
+         </mg>
+         <mg MNo="2">
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>голубчик</t></tg>
+            <xg>
+               <x>тэ, пиӧ, нинӧм он тӧд</x>
+               <xtg lang="ru"><xt>ты, голубчик, ничего не знаешь</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>тьӧтӧ</lemma>
+      <stem/>
+      <contlex>Vocative</contlex>
+      <pos>VOCATIVE</pos>
+      <e>
+         <mg MNo="1">
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>тётя, тётушка <i>обращение к тётке и мачехе</i></t></tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>чадӧ</lemma>
+      <stem/>
+      <contlex>Vocative</contlex>
+      <pos>VOCATIVE</pos>
+      <e>
+         <mg>
+            <m>
+               <head><range>диал.</range> <i>ласк. обращ.</i></head>
+            </m>
+            <tg lang="ru"><t>чадо, дитя</t></tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>бласлӧ% Кристос</lemma>
+      <stem/>
+      <contlex>EndInterj</contlex>
+      <pos>INTERJ</pos>
+      <e>
+         <mg>
+            <m>
+               <head><com>(в роли вводн. сл.)</com> <range>уст.</range></head>
+            </m>
+            <tg lang="ru"><t>с богом<clarif>пожелание успеха, удачи при каком-л. деле</clarif></t></tg>
+            <xg>
+               <x>петӧ, бласлӧ кристос , котралыштӧй</x>
+               <xtg lang="ru"><xt>идите, с богом, побегайте</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>бри% да% бра</lemma>
+      <stem/>
+      <contlex>EndInterj</contlex>
+      <pos>INTERJ</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="ru"><t>бодро</t></tg>
+            <tg lang="ru"><t>как ни в чём не бывало</t></tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>вай</lemma>
+      <stem/>
+      <contlex>EndInterj</contlex>
+      <pos>INTERJ</pos>
+      <e>
+         <mg>
+            <m>
+               <head><com>повел.</com></head>
+            </m>
+            <tg lang="ru"><t>дай, давай <clarif>(употр. при понуждении к действию)</clarif></t></tg>
+            <xg>
+               <x>вайӧй</x>
+               <xtg lang="ru"><xt>давайте</xt></xtg>
+            </xg>
+            <xg>
+               <x>вай сьылыштам</x>
+               <xtg lang="ru"><xt>давай споём</xt></xtg>
+            </xg>
+            <xg>
+               <x>вайӧн корны</x>
+               <xtg lang="ru"><xt>просить назойливо, без стыда</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>вайлы</lemma>
+      <stem/>
+      <contlex>EndInterj</contlex>
+      <pos>INTERJ</pos>
+      <e>
+         <mg>
+            <m>
+               <head><com>повел.</com></head>
+            </m>
+            <tg lang="ru"><t>давай, давай-ка</t></tg>
+            <xg>
+               <x>вайлы ме лыддя</x>
+               <xtg lang="ru"><xt>давай-ка, я прочитаю</xt></xtg>
+            </xg>
+         </mg>
+      </e>
+   </entry>
 </dict>
