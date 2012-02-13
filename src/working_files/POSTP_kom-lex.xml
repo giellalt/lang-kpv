@@ -5621,10 +5621,10 @@
       </e>
    </entry>
    <entry>
-      <lemma>катыдын</lemma>
-      <stem>катыд</stem>
-      <contlex>PO-INE</contlex>
-      <pos>POSTP</pos>
+      <lemma>катыд</lemma>
+      <stem/>
+      <contlex>POSTP-NOUN</contlex>
+      <pos>POSTP-SPAT</pos>
    </entry>
    <entry exclude="fst">
       <lemma>кежлад</lemma>
@@ -8337,8 +8337,8 @@
    </entry>
    <entry>
       <lemma>пӧлӧн</lemma>
-      <stem>пӧл</stem>
-      <contlex>PO-INSTR</contlex>
+      <stem/>
+      <contlex>POSTP-NOUN</contlex>
       <pos>POSTP-SPAT</pos>
       <e RN="II">
          <mg>
@@ -10688,6 +10688,32 @@
          </mg>
       </e>
    </entry>
-<entry> <lemma>питі</lemma> <stem/> <contlex>POSTP1</contlex> <pos>POSTP-SPAT</pos> <e> <mg> <m> <head/> <semRel MNo="1" lemmaID="пиӧд" semRelType="see"/> </m> </mg> </e> </entry>
-<entry> <lemma>пӧвстті</lemma> <stem/> <contlex>POSTP1</contlex> <pos>POSTP</pos> <e> <mg> <m> <head/> <semRel MNo="1" lemmaID="пӧвстӧд" semRelType="see"/> </m> </mg> </e> </entry>
+   <entry>
+      <lemma>питі</lemma>
+      <stem/>
+      <contlex>POSTP1</contlex>
+      <pos>POSTP-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <semRel MNo="1" lemmaID="пиӧд" semRelType="see"/>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lemma>пӧвстті</lemma>
+      <stem/>
+      <contlex>POSTP1</contlex>
+      <pos>POSTP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <semRel MNo="1" lemmaID="пӧвстӧд" semRelType="see"/>
+            </m>
+         </mg>
+      </e>
+   </entry>
 </dict>
