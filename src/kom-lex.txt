@@ -41,7 +41,7 @@ Multichar_Symbols
 +Distr ! Distributive
 +Iter ! Iterative form expressing number of times
 +Ord
-
++Presentational ! ӧти-кӧ, мӧд-кӧ _first of all, secondly..._
 
 ! Verbal MSP
 +Prs +Fut +Fut1 +Prt1 +Prt2 +Prf
@@ -181,6 +181,7 @@ Multichar_Symbols
 +Der/выв
 
 +Spat ! spatial
++State ! position or state
 
 !Modifier without noun
 +Der/MWN
@@ -505,6 +506,9 @@ LEXICON ABBR-IS_N
 LEXICON Ad-ATAG ! these are checked as advs.
 +AdA: # ;
 
+LEXICON ADV-IS_GER-IGON ! these are checked as gerunds in +Der/иг
++V+Der/иг+Instr: ADVTAG ;
+
 LEXICON ADV-IS_GER-MON ! these are checked as gerunds in +Der/мӧн
 +V+Der/мӧн: ADVTAG ;
 
@@ -528,6 +532,9 @@ LEXICON ADV-IS_SUPERL !
 
 LEXICON ADV-F !
 +Src/F: ADVTAG ;
+
+LEXICON ADV-STATE !
++Adv+State: COMPARATIVE ; !
 
 LEXICON ADVTAG ! these are checked as advs.
 +Adv: COMPARATIVE ;
