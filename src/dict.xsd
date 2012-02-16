@@ -941,8 +941,11 @@ pos = 'Parts of Speech'
          <!-- Adverb Manner -->
          <xs:enumeration value="ADV-PARENTHETICAL"/>
          <!-- вводн. сл. also known as sentential-->
+         <xs:enumeration value="ADV-POSITION"/>
+         <!--водсӧн lying down-->
          <xs:enumeration value="ADV-SPAT"/>
          <!-- -->
+         <xs:enumeration value="ADV-STATE"/>
          <xs:enumeration value="ADV-SUPERL"/>
          <!-- -->
          <xs:enumeration value="ADV-TEMP"/>
