@@ -8,20 +8,21 @@
 !This has to be worked on 2012-01-19
 LEXICON NUMTAG
  CARD ;
- ORD ;
- COLL ;
+:%>ӧд ORD ;
+.%>нан COLL ;
 
 LEXICON CARD
 +Num+Card: NumCASEPOSSLEX ;
-+Num+Ord:%>ӧд NumCASEPOSSLEX ;
++Num+Card+Der/кӧ+Presentational:%>%-кӧ # ;
+!+Num+Ord:%>ӧд NumCASEPOSSLEX ;
 +Qnt+Card+Iter:%>ысь K ;
 +Qnt+Card+Iter+Instr:%>ысьӧн K ;
 +Qnt+Card+Distr:%>ӧн K ;
 
 LEXICON COLL
-+Num+Coll:%>нан NumCASEPOSSLEX ; !give it a go
-+Num+Coll+Iter:%>нанысь K ;
-+Num+Coll+Iter+Instr:%>нанысьӧн K ;
++Num+Coll: NumCASEPOSSLEX ; ! _нан_ is already part of the stem
++Num+Coll+Iter:%>ысь K ;
++Num+Coll+Iter+Instr:%>ысьӧн K ;
 
 LEXICON ORD
 +Num+Ord: NumCASEPOSSLEX ; ! ӧд part of the stem
@@ -215,7 +216,7 @@ LEXICON NumMWN
 +PxPl3+Acc:%>нысӧ K ;
 
 !+Instr+PxPl3:%>наныс K ; ! ста
-+Nom+PxPl3:%>нанныс K ;
+!+Nom+PxPl3:%>нанныс K ; ! 2012-02-16 this should be removed
 
 +PxPl3+Com:%>ныскӧд K ;
 
