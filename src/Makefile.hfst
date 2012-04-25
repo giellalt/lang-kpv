@@ -87,7 +87,7 @@ lexc-hfst: ../bin/$(GTLANG)-lexc.hfst
 	@echo
 	@echo "*** Building $(@F) ***" ;
 	@echo
-	hfst-lexc $(HLEXC_FLAGS) -o $@.foma $^
+	hfst-lexc $(HLEXC_FLAGS) -f foma -o $@.foma $^
 	hfst-fst2fst $(HLEXC_FLAGS) -f openfst -o $@ $@.foma
 	rm $@.foma
 
