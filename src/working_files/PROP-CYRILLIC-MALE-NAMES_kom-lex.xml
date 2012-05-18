@@ -1,169 +1,2952 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../myv/script/dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
-      xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-   <entry><lg><l>Ёпим</l><stg><st kpvContlex="Prop-Mal">Ёпим</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ёсьӧ</l><stg><st kpvContlex="Prop-Mal">Ёсьӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Абрӧсей</l><stg><st kpvContlex="Prop-Mal">Абрӧсей</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Абрӧсь</l><stg><st kpvContlex="Prop-Mal">Абрӧсь</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Абрӧш</l><stg><st kpvContlex="Prop-Mal">Абрӧш</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Агапей</l><stg><st kpvContlex="Prop-Mal">Агапей</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Агапид</l><stg><st kpvContlex="Prop-Mal">Агапид</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Аксьӧ</l><stg><st kpvContlex="Prop-Mal">Аксьӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Акӧ</l><stg><st kpvContlex="Prop-Mal">Акӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Альӧ</l><stg><st kpvContlex="Prop-Mal">Альӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Андруша</l><stg><st kpvContlex="Prop-Mal">Андруша</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Анчӧ</l><stg><st kpvContlex="Prop-Mal">Анчӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ардӧ</l><stg><st kpvContlex="Prop-Mal">Ардӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Арсьӧ</l><stg><st kpvContlex="Prop-Mal">Арсьӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Артьӧ</l><stg><st kpvContlex="Prop-Mal">Артьӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Артӧ</l><stg><st kpvContlex="Prop-Mal">Артӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Арӧ</l><stg><st kpvContlex="Prop-Mal">Арӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Асӧ</l><stg><st kpvContlex="Prop-Mal">Асӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Бияр</l><stg><st kpvContlex="Prop-Mal">Бияр</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Борӧ</l><stg><st kpvContlex="Prop-Mal">Борӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Бӧрӧ</l><stg><st kpvContlex="Prop-Mal">Бӧрӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Вакрӧ</l><stg><st kpvContlex="Prop-Mal">Вакрӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Вальӧ</l><stg><st kpvContlex="Prop-Mal">Вальӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Валюш</l><stg><st kpvContlex="Prop-Mal">Валюш</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Валёк</l><stg><st kpvContlex="Prop-Mal">Валёк</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ваньӧ</l><stg><st kpvContlex="Prop-Mal">Ваньӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ванюк</l><stg><st kpvContlex="Prop-Mal">Ванюк</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ванюш</l><stg><st kpvContlex="Prop-Mal">Ванюш</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ваня</l><stg><st kpvContlex="Prop-Mal">Ваня</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Варпӧ</l><stg><st kpvContlex="Prop-Mal">Варпӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Васька</l><stg><st kpvContlex="Prop-Mal">Васька</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Васьӧ</l><stg><st kpvContlex="Prop-Mal">Васьӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Васюк</l><stg><st kpvContlex="Prop-Mal">Васюк</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Вася</l><stg><st kpvContlex="Prop-Mal">Вася</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Веньӧ</l><stg><st kpvContlex="Prop-Mal">Веньӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Венюш</l><stg><st kpvContlex="Prop-Mal">Венюш</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Вечӧ</l><stg><st kpvContlex="Prop-Mal">Вечӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Вильӧ</l><stg><st kpvContlex="Prop-Mal">Вильӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Висӧр</l><stg><st kpvContlex="Prop-Mal">Висӧр</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Витьӧ</l><stg><st kpvContlex="Prop-Mal">Витьӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Воньӧ</l><stg><st kpvContlex="Prop-Mal">Воньӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Вячӧ</l><stg><st kpvContlex="Prop-Mal">Вячӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Габӧ</l><stg><st kpvContlex="Prop-Mal">Габӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Габӧш</l><stg><st kpvContlex="Prop-Mal">Габӧш</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Гаврӧ</l><stg><st kpvContlex="Prop-Mal">Гаврӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Гаврӧй</l><stg><st kpvContlex="Prop-Mal">Гаврӧй</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Гал</l><stg><st kpvContlex="Prop-Mal">Гал2</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Галӧ</l><stg><st kpvContlex="Prop-Mal">Галӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Гашӧ</l><stg><st kpvContlex="Prop-Mal">Гашӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Гельӧ</l><stg><st kpvContlex="Prop-Mal">Гельӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Генук</l><stg><st kpvContlex="Prop-Mal">Генук</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Гень</l><stg><st kpvContlex="Prop-Mal">Гень</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Геньӧ</l><stg><st kpvContlex="Prop-Mal">Геньӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Генюш</l><stg><st kpvContlex="Prop-Mal">Генюш</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Геня</l><stg><st kpvContlex="Prop-Mal">Геня</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Герӧ</l><stg><st kpvContlex="Prop-Mal">Герӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Пама</l><stg><st kpvContlex="Prop-Mal">Пама</st></stg></lg><pos>PROP-HUM</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Пера% багатыр</l><stg><st kpvContlex="Prop-Mal">Пера% багатыр</st></stg></lg><pos>PROP</pos>
+   xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+   <entry>
+      <lg>
+         <l>Ёпим</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ёпим</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
       <e>
          <mg>
             <m>
-               <head><field>фольк.</field></head>
+               <head/>
             </m>
-            <tg lang="rus"><t>Пера-богатырь</t></tg>
+            <tg>
+               <t/>
+            </tg>
          </mg>
       </e>
    </entry>
-   <entry><lg><l>Тэня</l><stg><st kpvContlex="Prop-Mal">Тэня</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧбрам</l><stg><st kpvContlex="Prop-Mal">Ӧбрам</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧбрӧсь</l><stg><st kpvContlex="Prop-Mal">Ӧбрӧсь</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧвдей</l><stg><st kpvContlex="Prop-Mal">Ӧвдей</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧвдя</l><stg><st kpvContlex="Prop-Mal">Ӧвдя</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧвдӧтим</l><stg><st kpvContlex="Prop-Mal">Ӧвдӧтим</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧвер</l><stg><st kpvContlex="Prop-Mal">Ӧвер</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧврам</l><stg><st kpvContlex="Prop-Mal">Ӧврам</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧврӧ</l><stg><st kpvContlex="Prop-Mal">Ӧврӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧгап</l><stg><st kpvContlex="Prop-Mal">Ӧгап</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧгапей</l><stg><st kpvContlex="Prop-Mal">Ӧгапей</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧгей</l><stg><st kpvContlex="Prop-Mal">Ӧгей</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧгуш</l><stg><st kpvContlex="Prop-Mal">Ӧгуш</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧгӧш</l><stg><st kpvContlex="Prop-Mal">Ӧгӧш</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧдеким</l><stg><st kpvContlex="Prop-Mal">Ӧдеким</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧдь</l><stg><st kpvContlex="Prop-Mal">Ӧдь</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧдьӧ</l><stg><st kpvContlex="Prop-Mal">Ӧдьӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧдюк</l><stg><st kpvContlex="Prop-Mal">Ӧдюк</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧдӧ</l><stg><st kpvContlex="Prop-Mal">Ӧдӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧксьӧ</l><stg><st kpvContlex="Prop-Mal">Ӧксьӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧлдук</l><stg><st kpvContlex="Prop-Mal">Ӧлдук</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧлдӧк</l><stg><st kpvContlex="Prop-Mal">Ӧлдӧк</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧлдӧким</l><stg><st kpvContlex="Prop-Mal">Ӧлдӧким</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧле</l><stg><st kpvContlex="Prop-Mal">Ӧле</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧлекан</l><stg><st kpvContlex="Prop-Mal">Ӧлекан</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧлексей</l><stg><st kpvContlex="Prop-Mal">Ӧлексей</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧлексей</l><stg><st kpvContlex="Prop-Mal">Ӧлексей</st></stg></lg><pos>PROP-HUM</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧликсан</l><stg><st kpvContlex="Prop-Mal">Ӧликсан</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧль</l><stg><st kpvContlex="Prop-Mal">Ӧль</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧльӧ</l><stg><st kpvContlex="Prop-Mal">Ӧльӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧльӧй</l><stg><st kpvContlex="Prop-Mal">Ӧльӧй</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧльӧк</l><stg><st kpvContlex="Prop-Mal">Ӧльӧк</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧльӧк</l><stg><st kpvContlex="Prop-Mal">Ӧльӧк</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧльӧкан</l><stg><st kpvContlex="Prop-Mal">Ӧльӧкан</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧльӧксан</l><stg><st kpvContlex="Prop-Mal">Ӧльӧксан</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧльӧксан</l><stg><st kpvContlex="Prop-Mal">Ӧльӧксан</st></stg></lg><pos>PROP-HUM</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧльӧксей</l><stg><st kpvContlex="Prop-Mal">Ӧльӧксей</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧльӧксей</l><stg><st kpvContlex="Prop-Mal">Ӧльӧксей</st></stg></lg><pos>PROP-HUM</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧльӧш</l><stg><st kpvContlex="Prop-Mal">Ӧльӧш</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧльӧш</l><stg><st kpvContlex="Prop-Mal">Ӧльӧш</st></stg></lg><pos>PROP-HUM</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧльӧшыд</l><stg><st kpvContlex="Prop-Mal">Ӧльӧшыд</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧлю</l><stg><st kpvContlex="Prop-Mal">Ӧлю</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧлюк</l><stg><st kpvContlex="Prop-Mal">Ӧлюк</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧлёкса</l><stg><st kpvContlex="Prop-Mal">Ӧлёкса</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧндрей</l><stg><st kpvContlex="Prop-Mal">Ӧндрей</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧндриян</l><stg><st kpvContlex="Prop-Mal">Ӧндриян</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧндрон</l><stg><st kpvContlex="Prop-Mal">Ӧндрон</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧндрук</l><stg><st kpvContlex="Prop-Mal">Ӧндрук</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧндрюша</l><stg><st kpvContlex="Prop-Mal">Ӧндрюша</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧндрӧ</l><stg><st kpvContlex="Prop-Mal">Ӧндрӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧндрӧй</l><stg><st kpvContlex="Prop-Mal">Ӧндрӧй</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧне</l><stg><st kpvContlex="Prop-Mal">Ӧне</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧнисей</l><stg><st kpvContlex="Prop-Mal">Ӧнисей</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧнисем</l><stg><st kpvContlex="Prop-Mal">Ӧнисем</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧнисим</l><stg><st kpvContlex="Prop-Mal">Ӧнисим</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧнись</l><stg><st kpvContlex="Prop-Mal">Ӧнись</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧнисюк</l><stg><st kpvContlex="Prop-Mal">Ӧнисюк</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧнте</l><stg><st kpvContlex="Prop-Mal">Ӧнте</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧнтеп</l><stg><st kpvContlex="Prop-Mal">Ӧнтеп</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧнтип</l><stg><st kpvContlex="Prop-Mal">Ӧнтип</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧнтон</l><stg><st kpvContlex="Prop-Mal">Ӧнтон</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧнтоней</l><stg><st kpvContlex="Prop-Mal">Ӧнтоней</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧнук</l><stg><st kpvContlex="Prop-Mal">Ӧнук</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧнчӧ</l><stg><st kpvContlex="Prop-Mal">Ӧнчӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧнь</l><stg><st kpvContlex="Prop-Mal">Ӧнь</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧнько</l><stg><st kpvContlex="Prop-Mal">Ӧнько</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧньчу</l><stg><st kpvContlex="Prop-Mal">Ӧньчу</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧньӧ</l><stg><st kpvContlex="Prop-Mal">Ӧньӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧньӧ</l><stg><st kpvContlex="Prop-Mal">Ӧньӧ</st></stg></lg><pos>PROP-HUM</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧньӧй</l><stg><st kpvContlex="Prop-Mal">Ӧньӧй</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧнюш</l><stg><st kpvContlex="Prop-Mal">Ӧнюш</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧня</l><stg><st kpvContlex="Prop-Mal">Ӧня</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧнӧ</l><stg><st kpvContlex="Prop-Mal">Ӧнӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧнӧпрей</l><stg><st kpvContlex="Prop-Mal">Ӧнӧпрей</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧнӧпря</l><stg><st kpvContlex="Prop-Mal">Ӧнӧпря</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧпӧнасьӧй</l><stg><st kpvContlex="Prop-Mal">Ӧпӧнасьӧй</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧпӧнь</l><stg><st kpvContlex="Prop-Mal">Ӧпӧнь</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧпӧсь</l><stg><st kpvContlex="Prop-Mal">Ӧпӧсь</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧрам</l><stg><st kpvContlex="Prop-Mal">Ӧрам</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧрепей</l><stg><st kpvContlex="Prop-Mal">Ӧрепей</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧрест</l><stg><st kpvContlex="Prop-Mal">Ӧрест</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧрсень</l><stg><st kpvContlex="Prop-Mal">Ӧрсень</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧрсинь</l><stg><st kpvContlex="Prop-Mal">Ӧрсинь</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧрте</l><stg><st kpvContlex="Prop-Mal">Ӧрте</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧртем</l><stg><st kpvContlex="Prop-Mal">Ӧртем</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧртьӧ</l><stg><st kpvContlex="Prop-Mal">Ӧртьӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧртьӧм</l><stg><st kpvContlex="Prop-Mal">Ӧртьӧм</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧртьӧса</l><stg><st kpvContlex="Prop-Mal">Ӧртьӧса</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧртя</l><stg><st kpvContlex="Prop-Mal">Ӧртя</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧрӧп</l><stg><st kpvContlex="Prop-Mal">Ӧрӧп</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧсипан</l><stg><st kpvContlex="Prop-Mal">Ӧсипан</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧстап</l><stg><st kpvContlex="Prop-Mal">Ӧстап</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧсько</l><stg><st kpvContlex="Prop-Mal">Ӧсько</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧсьӧ</l><stg><st kpvContlex="Prop-Mal">Ӧсьӧ</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧсю</l><stg><st kpvContlex="Prop-Mal">Ӧсю</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧся</l><stg><st kpvContlex="Prop-Mal">Ӧся</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
-   <entry><lg><l>Ӧфим</l><stg><st kpvContlex="Prop-Mal">Ӧфим</st></stg></lg><pos>PROP</pos><e><mg><m><head></head></m><tg><t></t></tg></mg></e></entry>
+   <entry>
+      <lg>
+         <l>Ёсьӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ёсьӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Абрӧсей</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Абрӧсей</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Абрӧсь</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Абрӧсь</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Абрӧш</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Абрӧш</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Агапей</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Агапей</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Агапид</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Агапид</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Аксьӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Аксьӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Акӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Акӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Альӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Альӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Андруша</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Андруша</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Анчӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Анчӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ардӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ардӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Арсьӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Арсьӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Артьӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Артьӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Артӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Артӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Арӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Арӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Асӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Асӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Бияр</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Бияр</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Борӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Борӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Бӧрӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Бӧрӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Вакрӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Вакрӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Вальӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Вальӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Валюш</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Валюш</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Валёк</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Валёк</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ваньӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ваньӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ванюк</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ванюк</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ванюш</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ванюш</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ваня</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ваня</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Варпӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Варпӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Васька</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Васька</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Васьӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Васьӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Васюк</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Васюк</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Вася</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Вася</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Веньӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Веньӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Венюш</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Венюш</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Вечӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Вечӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Вильӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Вильӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Висӧр</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Висӧр</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Витьӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Витьӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Воньӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Воньӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Вячӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Вячӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Габӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Габӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Габӧш</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Габӧш</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Гаврӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Гаврӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Гаврӧй</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Гаврӧй</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Гал</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Гал2</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Галӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Галӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Гашӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Гашӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Гельӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Гельӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Генук</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Генук</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Гень</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Гень</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Геньӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Геньӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Генюш</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Генюш</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Геня</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Геня</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Герӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Герӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Пама</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Пама</st>
+         </stg>
+      </lg>
+      <pos>PROP-HUM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Пера багатыр</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Пера багатыр</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head>
+                  <field>фольк.</field>
+               </head>
+            </m>
+            <tg lang="rus">
+               <t>Пера-богатырь</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Тэня</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Тэня</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧбрам</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧбрам</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧбрӧсь</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧбрӧсь</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧвдей</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧвдей</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧвдя</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧвдя</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧвдӧтим</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧвдӧтим</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧвер</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧвер</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧврам</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧврам</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧврӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧврӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧгап</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧгап</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧгапей</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧгапей</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧгей</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧгей</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧгуш</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧгуш</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧгӧш</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧгӧш</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧдеким</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧдеким</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧдь</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧдь</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧдьӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧдьӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧдюк</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧдюк</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧдӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧдӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧксьӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧксьӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧлдук</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧлдук</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧлдӧк</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧлдӧк</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧлдӧким</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧлдӧким</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧле</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧле</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧлекан</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧлекан</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧлексей</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧлексей</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧлексей</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧлексей</st>
+         </stg>
+      </lg>
+      <pos>PROP-HUM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧликсан</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧликсан</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧль</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧль</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧльӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧльӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧльӧй</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧльӧй</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧльӧк</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧльӧк</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧльӧк</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧльӧк</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧльӧкан</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧльӧкан</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧльӧксан</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧльӧксан</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧльӧксан</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧльӧксан</st>
+         </stg>
+      </lg>
+      <pos>PROP-HUM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧльӧксей</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧльӧксей</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧльӧксей</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧльӧксей</st>
+         </stg>
+      </lg>
+      <pos>PROP-HUM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧльӧш</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧльӧш</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧльӧш</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧльӧш</st>
+         </stg>
+      </lg>
+      <pos>PROP-HUM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧльӧшыд</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧльӧшыд</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧлю</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧлю</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧлюк</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧлюк</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧлёкса</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧлёкса</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧндрей</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧндрей</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧндриян</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧндриян</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧндрон</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧндрон</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧндрук</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧндрук</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧндрюша</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧндрюша</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧндрӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧндрӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧндрӧй</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧндрӧй</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧне</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧне</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧнисей</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧнисей</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧнисем</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧнисем</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧнисим</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧнисим</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧнись</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧнись</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧнисюк</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧнисюк</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧнте</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧнте</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧнтеп</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧнтеп</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧнтип</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧнтип</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧнтон</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧнтон</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧнтоней</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧнтоней</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧнук</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧнук</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧнчӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧнчӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧнь</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧнь</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧнько</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧнько</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧньчу</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧньчу</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧньӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧньӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧньӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧньӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP-HUM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧньӧй</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧньӧй</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧнюш</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧнюш</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧня</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧня</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧнӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧнӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧнӧпрей</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧнӧпрей</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧнӧпря</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧнӧпря</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧпӧнасьӧй</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧпӧнасьӧй</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧпӧнь</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧпӧнь</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧпӧсь</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧпӧсь</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧрам</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧрам</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧрепей</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧрепей</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧрест</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧрест</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧрсень</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧрсень</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧрсинь</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧрсинь</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧрте</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧрте</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧртем</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧртем</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧртьӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧртьӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧртьӧм</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧртьӧм</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧртьӧса</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧртьӧса</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧртя</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧртя</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧрӧп</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧрӧп</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧсипан</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧсипан</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧстап</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧстап</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧсько</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧсько</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧсьӧ</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧсьӧ</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧсю</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧсю</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧся</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧся</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Ӧфим</l>
+         <stg>
+            <st kpvContlex="Prop-Mal">Ӧфим</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
 </r>
