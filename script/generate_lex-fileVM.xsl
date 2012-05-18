@@ -72,7 +72,7 @@
 		  <xsl:value-of select="normalize-space(@kpvContlex)"/>
 		</xsl:attribute>
 		<xsl:attribute name="t">
-		  <xsl:value-of select="normalize-space(../../../e[1]/mg[1]/tg[@lang='eng']/t[1])"/>
+		  <xsl:value-of select="normalize-space(../../../e[1]/mg[1]/tg[@lang='rus']/t[1])"/>
 		</xsl:attribute>
 		<!-- xsl:value-of select="normalize-space(../../l)"/ replace underscore by "% "-->
 		<xsl:value-of select="replace(normalize-space(../../l), ' ', '% ')"/>		
