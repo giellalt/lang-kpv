@@ -1,1102 +1,1467 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dict xsi:noNamespaceSchemaLocation="../dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty">
+<r xsi:noNamespaceSchemaLocation="../../../myv/script/dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty">
    <entry exclude="fst">
-      <lemma>мед-</lemma>
-      <stem/>
-      <contlex/>
-      <pos>PART</pos>
+      <lg>
+         <l>мед-</l>
+         <stg>
+            <st kpvContlex="">мед-</st>
+         </stg>
+      </lg>
+      <pos>PREF</pos>
       <e>
          <mg>
             <m>
-               <head><i>приставка, образующая превосх. ст. прил.</i></head>
+               <head>
+                  <re>приставка, образующая превосх. ст. прил.</re>
+               </head>
             </m>
-            <tg lang="ru"><t pos="PART">наи-</t></tg>
-            <tg lang="ru"><t pos="A">самый</t></tg>
+            <tg lang="rus">
+               <t pos="PART">наи-</t>
+            </tg>
+            <tg lang="rus">
+               <t pos="A">самый</t>
+            </tg>
             <xg>
                <x>медбур</x>
-               <xtg lang="ru"><xt>самый хороший, самый лучший, наилучший</xt></xtg>
+               <xt lang="rus">самый хороший, самый лучший, наилучший</xt>
             </xg>
             <xg>
                <x>медлёк</x>
-               <xtg lang="ru"><xt>самый плохой, самый худший, наихудший</xt></xtg>
+               <xt lang="rus">самый плохой, самый худший, наихудший</xt>
             </xg>
             <xg>
                <x>медічӧт</x>
-               <xtg lang="ru"><xt>самый маленький, наименьший</xt></xtg>
+               <xt lang="rus">самый маленький, наименьший</xt>
             </xg>
             <xg>
                <x>медыджыд</x>
-               <xtg lang="ru"><xt>самый большой, наибольший</xt></xtg>
+               <xt lang="rus">самый большой, наибольший</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медбур</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медбур</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медбур</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="A">самый хороший</t></tg>
-            <tg lang="ru"><t pos="A">лучший</t></tg>
-            <tg lang="ru"><t pos="A">самый лучший, наилучший</t></tg>
+            <tg lang="rus">
+               <t pos="A">самый хороший</t>
+            </tg>
+            <tg lang="rus">
+               <t pos="A">лучший</t>
+            </tg>
+            <tg lang="rus">
+               <t pos="A">самый лучший, наилучший</t>
+            </tg>
             <xg>
                <x>медбур велӧдчысь</x>
-               <xtg lang="ru"><xt>первый ученик</xt></xtg>
+               <xt lang="rus">первый ученик</xt>
             </xg>
             <xg>
                <x>медбур вӧв</x>
-               <xtg lang="ru"><xt>самая лучшая лошадь</xt></xtg>
+               <xt lang="rus">самая лучшая лошадь</xt>
             </xg>
             <xg>
                <x>медбур уджалысь</x>
-               <xtg lang="ru"><xt>самый лучший работник</xt></xtg>
+               <xt lang="rus">самый лучший работник</xt>
             </xg>
             <xg>
                <x>пасьтавны медбур платтьӧ</x>
-               <xtg lang="ru"><xt>надеть лучшее платье</xt></xtg>
+               <xt lang="rus">надеть лучшее платье</xt>
             </xg>
             <xg>
                <x>ставсьыс медбур</x>
-               <xtg lang="ru"><xt>лучший из всех</xt></xtg>
+               <xt lang="rus">лучший из всех</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медбӧб</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медбӧб</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медбӧб</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый глупый, глупейший</t></tg>
+            <tg lang="rus">
+               <t>самый глупый, глупейший</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медбӧръя</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медбӧръя</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медбӧръя</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="A">последний</t></tg>
-            <tg lang="ru"><t pos="A">самый последний</t></tg>
-            <tg lang="ru"><t pos="A">окончательный</t></tg>
-            <tg lang="ru"><t pos="A">конечный</t></tg>
+            <tg lang="rus">
+               <t pos="A">последний</t>
+            </tg>
+            <tg lang="rus">
+               <t pos="A">самый последний</t>
+            </tg>
+            <tg lang="rus">
+               <t pos="A">окончательный</t>
+            </tg>
+            <tg lang="rus">
+               <t pos="A">конечный</t>
+            </tg>
             <xg>
                <x>медбӧръя вагон</x>
-               <xtg lang="ru"><xt>последний вагон</xt></xtg>
+               <xt lang="rus">последний вагон</xt>
             </xg>
             <xg>
                <x>медбӧръя олысьяс</x>
-               <xtg lang="ru"><xt>последние жители</xt></xtg>
+               <xt lang="rus">последние жители</xt>
             </xg>
             <xg>
                <x>медбӧръя станция</x>
-               <xtg lang="ru"><xt>конечная станция</xt></xtg>
+               <xt lang="rus">конечная станция</xt>
             </xg>
             <xg>
                <x>медбӧръясьыс мӧдыс</x>
-               <xtg lang="ru"><xt>предпоследний</xt></xtg>
+               <xt lang="rus">предпоследний</xt>
             </xg>
             <xg genreType="proverb">
                <x>медбӧръя кывтӧ медводз эн шу</x>
-               <i>посл.</i>
-               <xtg lang="ru"><xt> последнего слова не произноси первым</xt> <re>не следует обижать людей сгоряча</re></xtg>
+               <xtCtn>
+                  <xt lang="rus">последнего слова не произноси первым</xt>
+                  <re>не следует обижать людей сгоряча</re>
+               </xtCtn>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медваж</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медваж</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медваж</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="A">самый старый, самый ветхий</t></tg>
-            <tg lang="ru"><t pos="A">самый древний, древнейший</t></tg>
+            <tg lang="rus">
+               <t pos="A">самый старый, самый ветхий</t>
+            </tg>
+            <tg lang="rus">
+               <t pos="A">самый древний, древнейший</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медвизув</lemma>
-      <stem>медвизул</stem>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медвизув</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медвизул</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый быстрый</t></tg>
+            <tg lang="rus">
+               <t>самый быстрый</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медвильыд</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медвильыд</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медвильыд</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый скользкий</t></tg>
+            <tg lang="rus">
+               <t>самый скользкий</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медводз</lemma>
-      <stem>медводдз</stem>
-      <contlex>ADV-IS_SUPERL</contlex>
-      <pos>ADV-SUPERL</pos>
+      <lg>
+         <l>медводз</l>
+         <stg>
+            <st kpvContlex="ADV-IS_SUPERL">медводдз</st>
+         </stg>
+      </lg>
+      <pos>ADV_SUPERL</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="ADV">первым</t></tg>
-            <tg lang="ru"><t pos="ADV">в первую очередь</t></tg>
-            <tg lang="ru"><t pos="ADV">раньше всех</t></tg>
+            <tg lang="rus">
+               <t pos="ADV">первым</t>
+            </tg>
+            <tg lang="rus">
+               <t pos="ADV">в первую очередь</t>
+            </tg>
+            <tg lang="rus">
+               <t pos="ADV">раньше всех</t>
+            </tg>
             <xg>
                <x>медводз локны</x>
-               <xtg lang="ru"><xt>прийти первым</xt></xtg>
+               <xt lang="rus">прийти первым</xt>
             </xg>
             <xg>
                <x>медводз пуксьӧдны кагаа мамъясӧс</x>
-               <xtg lang="ru"><xt>в первую очередь усадить матерей с детьми</xt></xtg>
+               <xt lang="rus">в первую очередь усадить матерей с детьми</xt>
             </xg>
             <xg>
                <x>тулыс воӧм йылысь медводз висьталасны керка жӧлӧбъясӧ ӧшйӧм йинёньяс</x>
-               <xtg lang="ru"><xt>о приходе весны первыми сообщат повисшие на желобах сосульки</xt></xtg>
+               <xt lang="rus">о приходе весны первыми сообщат повисшие на желобах сосульки</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>прежде всего</t></tg>
+            <tg lang="rus">
+               <t>прежде всего</t>
+            </tg>
             <xg>
                <x>салдатӧс медводз донъялӧны сы серти, кыдзи сійӧ асьсӧ петкӧдлӧ стройын</x>
-               <xtg lang="ru"><xt>солдата прежде всего оценивают по тому, как он показывает себя в строю</xt></xtg>
+               <xt lang="rus">солдата прежде всего оценивают по тому, как он показывает себя в строю</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медводдза</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медводдза</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медводдза</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="A">первый, самый первый</t></tg>
-            <tg lang="ru"><t pos="A">первейший</t></tg>
+            <tg lang="rus">
+               <t pos="A">первый, самый первый</t>
+            </tg>
+            <tg lang="rus">
+               <t pos="A">первейший</t>
+            </tg>
             <xg>
                <x>медводдза аддзысьлӧм</x>
-               <xtg lang="ru"><xt>первая встреча</xt></xtg>
+               <xt lang="rus">первая встреча</xt>
             </xg>
             <xg>
                <x>медводдза вотӧс</x>
-               <xtg lang="ru"><xt>первые ягоды</xt></xtg>
+               <xt lang="rus">первые ягоды</xt>
             </xg>
             <xg>
                <x>медводдза мог</x>
-               <xtg lang="ru"><xt>первоочередная задача</xt></xtg>
+               <xt lang="rus">первоочередная задача</xt>
             </xg>
             <xg>
                <x>война вылӧ сійӧс босьтісны медводдзаяс лыдас</x>
-               <xtg lang="ru"><xt>его взяли на войну в числе первых</xt></xtg>
+               <xt lang="rus">его взяли на войну в числе первых</xt>
             </xg>
             <xg genreType="saying">
                <x>медводдза дӧра гӧрӧдӧсь, медводдза лыйӧм — сьӧд рака</x>
-               <xtg lang="ru"><xt>первый холст — в узлах, первый выстрел — чёрная ворона</xt></xtg>
+               <xt lang="rus">первый холст — в узлах, первый выстрел — чёрная ворона</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медвостер</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медвостер</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медвостер</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый бойкий</t></tg>
+            <tg lang="rus">
+               <t>самый бойкий</t>
+            </tg>
             <xg>
                <x>медвостер йӧз</x>
-               <xtg lang="ru"><xt>самые бойкие люди</xt></xtg>
+               <xt lang="rus">самые бойкие люди</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медвылысса</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медвылысса</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медвылысса</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
-               <semRel MNo="1" lemmaID="медвылыс_A-SUPERL" semRelType="see"/>
+               <semRel No="1" lemmaID="медвылыс_A-SUPERL" semRelType="see"/>
             </m>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
-               <head><sns>перен.</sns></head>
+               <head>
+                  <sense sense="figurative"/>
+               </head>
             </m>
-            <tg lang="ru"><t>Всевышний, бог</t></tg>
+            <tg lang="rus">
+               <t>Всевышний, бог</t>
+            </tg>
             <xg>
                <x>Медвылыссалӧн вын</x>
-               <xtg lang="ru"><xt>сила Всевышнего</xt></xtg>
+               <xt lang="rus">сила Всевышнего</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медвыль</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медвыль</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медвыль</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="A">самый новый, новейший</t></tg>
-            <tg lang="ru"><t pos="A">последний</t></tg>
+            <tg lang="rus">
+               <t pos="A">самый новый, новейший</t>
+            </tg>
+            <tg lang="rus">
+               <t pos="A">последний</t>
+            </tg>
             <xg>
                <x>медвыль мода</x>
-               <xtg lang="ru"><xt>последняя мода</xt></xtg>
+               <xt lang="rus">последняя мода</xt>
             </xg>
             <xg>
                <x>медвыль платтьӧ</x>
-               <xtg lang="ru"><xt>самое новое платье</xt></xtg>
+               <xt lang="rus">самое новое платье</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медгажа</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
-      <pos>A-SUPERL</pos>
-   </entry>
-   <entry>
-      <lemma>меддженьыд</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медгажа</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медгажа</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый короткий</t></tg>
-            <tg lang="ru"><t> кратчайший</t></tg>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>меддженьыд</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">меддженьыд</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <t>самый короткий</t>
+            </tg>
+            <tg lang="rus">
+               <t>кратчайший</t>
+            </tg>
             <xg>
                <x>меддженьыд лунъяс</x>
-               <xtg lang="ru"><xt>самые короткие дни</xt></xtg>
+               <xt lang="rus">самые короткие дни</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медджуджыд</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медджуджыд</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медджуджыд</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый высокий</t></tg>
+            <tg lang="rus">
+               <t>самый высокий</t>
+            </tg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый глубокий</t></tg>
+            <tg lang="rus">
+               <t>самый глубокий</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>меддонтӧм</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
-      <pos>A-CAR</pos>
+      <lg>
+         <l>меддонтӧм</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">меддонтӧм</st>
+         </stg>
+      </lg>
+      <pos>CAR_A</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый дешёвый</t></tg>
-            <tg lang="ru"><t> дешевле всего</t></tg>
+            <tg lang="rus">
+               <t>самый дешёвый</t>
+            </tg>
+            <tg lang="rus">
+               <t>дешевле всего</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медічӧт</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медічӧт</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медічӧт</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="A">самый маленький</t></tg>
-            <tg lang="ru"><t pos="A">самый меньший, наименьший</t></tg>
-            <tg lang="ru"><t pos="A">минимальный</t></tg>
+            <tg lang="rus">
+               <t pos="A">самый маленький</t>
+            </tg>
+            <tg lang="rus">
+               <t pos="A">самый меньший, наименьший</t>
+            </tg>
+            <tg lang="rus">
+               <t pos="A">минимальный</t>
+            </tg>
             <xg>
                <x>медічӧт арлыд</x>
-               <xtg lang="ru"><xt>минимальный возраст</xt></xtg>
+               <xt lang="rus">минимальный возраст</xt>
             </xg>
             <xg>
                <x>босьтны медічӧт ставкасӧ</x>
-               <xtg lang="ru"><xt>взять минимальную ставку</xt></xtg>
+               <xt lang="rus">взять минимальную ставку</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="A">самый младший</t></tg>
-            <tg lang="ru"><t pos="A">меньшой</t><register>разг.</register></tg>
+            <tg lang="rus">
+               <t pos="A">самый младший</t>
+            </tg>
+            <tg lang="rus">
+               <tCtn>
+                  <t pos="A">меньшой</t>
+                  <register register="conversation"/>
+               </tCtn>
+            </tg>
             <xg>
                <x>медічӧтсяньыс медыджыдӧдзыс</x>
-               <xtg lang="ru"><xt>от мала до велика</xt></xtg>
+               <xt lang="rus">от мала до велика</xt>
             </xg>
             <xg>
                <x>менам медічӧт вок</x>
-               <xtg lang="ru"><xt>мой младший брат</xt></xtg>
+               <xt lang="rus">мой младший брат</xt>
             </xg>
             <xg>
                <x>семья пытшкын медічӧт</x>
-               <xtg lang="ru"><xt>младший в семье</xt></xtg>
+               <xt lang="rus">младший в семье</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медыджыд</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медыджыд</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медыджыд</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый большой</t></tg>
-            <tg lang="ru"><t> самый просторный</t></tg>
+            <tg lang="rus">
+               <t>самый большой</t>
+            </tg>
+            <tg lang="rus">
+               <t>самый просторный</t>
+            </tg>
             <xg>
                <x>медыджыд выльтор</x>
-               <xtg lang="ru"><xt>самая большая новость</xt></xtg>
+               <xt lang="rus">самая большая новость</xt>
             </xg>
             <xg>
                <x>медыджыд керкаыс</x>
-               <xtg lang="ru"><xt>самый большой дом</xt></xtg>
+               <xt lang="rus">самый большой дом</xt>
             </xg>
             <xg>
                <x>медыджыд жыр</x>
-               <xtg lang="ru"><xt>самая просторная комната</xt></xtg>
+               <xt lang="rus">самая просторная комната</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый старший</t></tg>
+            <tg lang="rus">
+               <t>самый старший</t>
+            </tg>
          </mg>
-         <mg MNo="3">
+         <mg No="3">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый главный</t></tg>
+            <tg lang="rus">
+               <t>самый главный</t>
+            </tg>
             <xg>
                <x>коді тан медыджыдыс?</x>
-               <xtg lang="ru"><xt>кто здесь самый главный?</xt></xtg>
+               <xt lang="rus">кто здесь самый главный?</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медкокни</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
-      <pos>A-SUPERL</pos>
-   </entry>
-   <entry>
-      <lemma>медкузь</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медкокни</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медкокни</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="A">самый длинный</t></tg>
-            <tg lang="ru"><t pos="A">самый долгий</t></tg>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>медкузь</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медкузь</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <t pos="A">самый длинный</t>
+            </tg>
+            <tg lang="rus">
+               <t pos="A">самый долгий</t>
+            </tg>
             <xg>
                <x>медкузь войяс</x>
-               <xtg lang="ru"><xt>самые долгие ночи</xt></xtg>
+               <xt lang="rus">самые долгие ночи</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медкӧдзыд</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медкӧдзыд</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медкӧдзыд</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый холодный</t></tg>
+            <tg lang="rus">
+               <t>самый холодный</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медлэчыд</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медлэчыд</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медлэчыд</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый острый</t></tg>
+            <tg lang="rus">
+               <t>самый острый</t>
+            </tg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый резкий</t></tg>
+            <tg lang="rus">
+               <t>самый резкий</t>
+            </tg>
             <xg>
                <x>медлэчыд шыяс</x>
-               <xtg lang="ru"><xt>самые резкие звуки</xt></xtg>
+               <xt lang="rus">самые резкие звуки</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медлӧсьыд</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медлӧсьыд</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медлӧсьыд</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый красивый</t></tg>
-            <tg lang="ru"><t> самый хороший</t></tg>
+            <tg lang="rus">
+               <t>самый красивый</t>
+            </tg>
+            <tg lang="rus">
+               <t>самый хороший</t>
+            </tg>
             <xg>
                <x>во пиын медлӧсьыд кадыс — вундан кад</x>
-               <xtg lang="ru"><xt>самое лучшее время в году — время жатвы</xt></xtg>
+               <xt lang="rus">самое лучшее время в году — время жатвы</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медматіса</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медматіса</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медматіса</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый близкий</t></tg>
+            <tg lang="rus">
+               <t>самый близкий</t>
+            </tg>
             <xg>
                <x>медматіса морт</x>
-               <xtg lang="ru"><xt>самый близкий человек</xt></xtg>
+               <xt lang="rus">самый близкий человек</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медматысса</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медматысса</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медматысса</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel MNo="1" lemmaID="медматіса_A-SUPERL" semRelType="see"/>
+               <semRel No="1" lemmaID="медматіса_A-SUPERL" semRelType="see"/>
             </m>
             <xg>
                <x>медматысса ёрт</x>
-               <xtg lang="ru"><xt>самый близкий друг</xt></xtg>
+               <xt lang="rus">самый близкий друг</xt>
             </xg>
             <xg>
                <x>медматысса мог</x>
-               <xtg lang="ru"><xt>то, что нужно сделать в самое ближайшее время</xt></xtg>
+               <xt lang="rus">то, что нужно сделать в самое ближайшее время</xt>
             </xg>
             <xg>
                <x>медматыссаяс</x>
-               <xtg lang="ru"><xt>самые близкие</xt></xtg>
+               <xt lang="rus">самые близкие</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медмисьтӧм</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
-      <pos>A-CAR</pos>
+      <lg>
+         <l>медмисьтӧм</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медмисьтӧм</st>
+         </stg>
+      </lg>
+      <pos>CAR_A</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый некрасивый</t></tg>
+            <tg lang="rus">
+               <t>самый некрасивый</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медмуса</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медмуса</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медмуса</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый милый, самый любимый</t></tg>
+            <tg lang="rus">
+               <t>самый милый, самый любимый</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медсьӧкыд</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медсьӧкыд</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медсьӧкыд</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый тяжёлый</t></tg>
+            <tg lang="rus">
+               <t>самый тяжёлый</t>
+            </tg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый трудный</t></tg>
+            <tg lang="rus">
+               <t>самый трудный</t>
+            </tg>
             <xg>
                <x>медсьӧкыд кад</x>
-               <xtg lang="ru"><xt>самое тяжёлое время</xt></xtg>
+               <xt lang="rus">самое тяжёлое время</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медчӧскыд</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медчӧскыд</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медчӧскыд</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый вкусный</t></tg>
+            <tg lang="rus">
+               <t>самый вкусный</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медшӧр</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медшӧр</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медшӧр</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>главный</t></tg>
+            <tg lang="rus">
+               <t>главный</t>
+            </tg>
             <xg>
                <x>медшӧр лоӧмтор</x>
-               <xtg lang="ru"><xt>главное событие</xt></xtg>
+               <xt lang="rus">главное событие</xt>
             </xg>
             <xg>
                <x>медшӧр мог</x>
-               <xtg lang="ru"><xt>главная задача</xt></xtg>
+               <xt lang="rus">главная задача</xt>
             </xg>
             <xg>
                <x>пызан вылад медшӧрыс — нянь</x>
-               <xtg lang="ru"><xt>самое главное на столе — хлеб</xt></xtg>
+               <xt lang="rus">самое главное на столе — хлеб</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медтӧдчана</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медтӧдчана</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медтӧдчана</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый значительный, самый существенный, самый важный</t></tg>
+            <tg lang="rus">
+               <t>самый значительный, самый существенный, самый важный</t>
+            </tg>
             <xg>
                <x>медтӧдчана нырвизьяс</x>
-               <xtg lang="ru"><xt>самые важные направления</xt></xtg>
+               <xt lang="rus">самые важные направления</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медъён</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медъён</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медъён</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый сильный, сильнейший</t></tg>
+            <tg lang="rus">
+               <t>самый сильный, сильнейший</t>
+            </tg>
             <xg>
                <x>доддявны медъён вӧвсӧ</x>
-               <xtg lang="ru"><xt>запрячь самую сильную лошадь</xt></xtg>
+               <xt lang="rus">запрячь самую сильную лошадь</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медъюгыд</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
-      <pos>A-SUPERL</pos>
-   </entry>
-   <entry>
-      <lemma>меддор</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медъюгыд</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медъюгыд</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>крайний</t></tg>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>меддор</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">меддор</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <t>крайний</t>
+            </tg>
             <xg>
                <x>меддор места</x>
-               <xtg lang="ru"><xt>место с самого краю</xt></xtg>
+               <xt lang="rus">место с самого краю</xt>
             </xg>
             <xg>
                <x>меддор ӧшинь</x>
-               <xtg lang="ru"><xt>самое крайнее окно</xt></xtg>
+               <xt lang="rus">самое крайнее окно</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медгора</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медгора</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медгора</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый громкий</t></tg>
+            <tg lang="rus">
+               <t>самый громкий</t>
+            </tg>
             <xg>
                <x>медгора шыяс</x>
-               <xtg lang="ru"><xt>самые громкие звуки</xt></xtg>
+               <xt lang="rus">самые громкие звуки</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медгуся</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медгуся</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медгуся</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый секретный</t></tg>
+            <tg lang="rus">
+               <t>самый секретный</t>
+            </tg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый скрытый, самый сокровенный</t></tg>
+            <tg lang="rus">
+               <t>самый скрытый, самый сокровенный</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медгырысь</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медгырысь</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медгырысь</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый крупный; крупнейший</t></tg>
+            <tg lang="rus">
+               <t>самый крупный; крупнейший</t>
+            </tg>
             <xg>
                <x>медгырысь льӧм тусьяс</x>
-               <xtg lang="ru"><xt>самые крупные ягоды черёмухи</xt></xtg>
+               <xt lang="rus">самые крупные ягоды черёмухи</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медгӧль</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медгӧль</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медгӧль</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый бедный, беднейший</t></tg>
+            <tg lang="rus">
+               <t>самый бедный, беднейший</t>
+            </tg>
             <xg>
                <x>медгӧль крестьяна</x>
-               <xtg lang="ru"><xt>беднейшее крестьянство</xt></xtg>
+               <xt lang="rus">беднейшее крестьянство</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>меддона</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>меддона</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">меддона</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый дорогой; дороже всех, дороже всего</t></tg>
+            <tg lang="rus">
+               <t>самый дорогой; дороже всех, дороже всего</t>
+            </tg>
             <xg>
                <x>меддона сикас</x>
-               <xtg lang="ru"><xt>самый дорогой сорт</xt></xtg>
+               <xt lang="rus">самый дорогой сорт</xt>
             </xg>
             <xg>
                <x>сійӧ меным меддона</x>
-               <xtg lang="ru"><xt>он мне дороже всех</xt></xtg>
+               <xt lang="rus">он мне дороже всех</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медзбой</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медзбой</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медзбой</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый бойкий</t></tg>
+            <tg lang="rus">
+               <t>самый бойкий</t>
+            </tg>
             <xg>
                <x>зонкаяс пиысь сійӧ вӧлі медзбой</x>
-               <xtg lang="ru"><xt>среди мальчишек он был самым бойким</xt></xtg>
+               <xt lang="rus">среди мальчишек он был самым бойким</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медколан</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медколан</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медколан</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый нужный</t></tg>
+            <tg lang="rus">
+               <t>самый нужный</t>
+            </tg>
             <xg>
                <x>медколан морт</x>
-               <xtg lang="ru"><xt>самый нужный человек</xt></xtg>
+               <xt lang="rus">самый нужный человек</xt>
             </xg>
             <xg>
                <x>медколан удж</x>
-               <xtg lang="ru"><xt>самая нужная работа</xt></xtg>
+               <xt lang="rus">самая нужная работа</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медлёк</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медлёк</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медлёк</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый плохой; худший; наихудший</t></tg>
+            <tg lang="rus">
+               <t>самый плохой; худший; наихудший</t>
+            </tg>
             <xg>
                <x>медлёк враг</x>
-               <xtg lang="ru"><xt>злейший враг</xt></xtg>
+               <xt lang="rus">злейший враг</xt>
             </xg>
             <xg>
                <x>медлёк сорт</x>
-               <xtg lang="ru"><xt>низший сорт</xt></xtg>
+               <xt lang="rus">низший сорт</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медлӧнь</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медлӧнь</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медлӧнь</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый тихий</t></tg>
+            <tg lang="rus">
+               <t>самый тихий</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медлӧсьыда</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медлӧсьыда</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медлӧсьыда</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>лучше всего</t></tg>
+            <tg lang="rus">
+               <t>лучше всего</t>
+            </tg>
             <xg>
                <x>тайӧ платтьӧыс медлӧсьыда пукаліс сы вылын</x>
-               <xtg lang="ru"><xt>это платье лучше всего сидело на ней</xt></xtg>
+               <xt lang="rus">это платье лучше всего сидело на ней</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медмича</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медмича</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медмича</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый красивый, красивейший</t></tg>
+            <tg lang="rus">
+               <t>самый красивый, красивейший</t>
+            </tg>
             <xg>
                <x>медмича нывсӧ коравны</x>
-               <xtg lang="ru"><xt>сватать самую красивую девушку</xt></xtg>
+               <xt lang="rus">сватать самую красивую девушку</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медмудер</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медмудер</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медмудер</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый хитрый</t></tg>
+            <tg lang="rus">
+               <t>самый хитрый</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медозыр</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медозыр</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медозыр</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый богатый, богаче всех; богатейший</t></tg>
+            <tg lang="rus">
+               <t>самый богатый, богаче всех; богатейший</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медомӧль</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медомӧль</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медомӧль</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый плохой, худший; самый дурной</t></tg>
+            <tg lang="rus">
+               <t>самый плохой, худший; самый дурной</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медпосни</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медпосни</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медпосни</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый мелкий; мельчайший</t></tg>
+            <tg lang="rus">
+               <t>самый мелкий; мельчайший</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медпыді</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медпыді</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медпыді</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>находящийся в самой глубине; самый дальний</t></tg>
+            <tg lang="rus">
+               <t>находящийся в самой глубине; самый дальний</t>
+            </tg>
             <xg>
                <x>медпыді пельӧс</x>
-               <xtg lang="ru"><xt>самый дальний угол</xt></xtg>
+               <xt lang="rus">самый дальний угол</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медпӧрысь</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медпӧрысь</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медпӧрысь</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый старый, старейший (<i>о возрасте</i>)</t></tg>
+            <tg lang="rus">
+               <tCtn>
+                  <t>самый старый, старейший</t>
+                  <re>о возрасте</re>
+               </tCtn>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медрадейтана</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медрадейтана</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медрадейтана</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый любимый</t></tg>
+            <tg lang="rus">
+               <t>самый любимый</t>
+            </tg>
             <xg>
                <x>медрадейтана мӧс</x>
-               <xtg lang="ru"><xt>самая любимая корова</xt></xtg>
+               <xt lang="rus">самая любимая корова</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медсюсь</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медсюсь</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медсюсь</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый умный, умнейший</t></tg>
+            <tg lang="rus">
+               <t>самый умный, умнейший</t>
+            </tg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый умелый</t></tg>
+            <tg lang="rus">
+               <t>самый умелый</t>
+            </tg>
             <xg>
                <x>миян зонъяс пӧвстын сійӧ медсюсь кыйсьысь</x>
-               <xtg lang="ru"><xt>среди наших парней он самый умелый охотник</xt></xtg>
+               <xt lang="rus">среди наших парней он самый умелый охотник</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медтыдалана</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медтыдалана</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медтыдалана</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый видный</t></tg>
+            <tg lang="rus">
+               <t>самый видный</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>медтэрыб</lemma>
-      <stem/>
-      <contlex>Adj-IS_SUPERL</contlex>
+      <lg>
+         <l>медтэрыб</l>
+         <stg>
+            <st kpvContlex="Adj-IS_SUPERL">медтэрыб</st>
+         </stg>
+      </lg>
       <pos>A-SUPERL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый быстрый</t></tg>
+            <tg lang="rus">
+               <t>самый быстрый</t>
+            </tg>
             <xg>
                <x>быдӧнлы окота вӧлі лоны медтэрыбӧн</x>
-               <xtg lang="ru"><xt>каждому хотелось быть самым быстрым</xt></xtg>
+               <xt lang="rus">каждому хотелось быть самым быстрым</xt>
             </xg>
          </mg>
       </e>
    </entry>
-</dict>
+</r>
