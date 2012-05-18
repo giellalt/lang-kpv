@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
 <!--+
-    | Generate lex files from XML (at the moment only for Komi)
+    | Generate lex files from XML (at the moment only for Komi,
+    | Moksha, Hill Mari, Erzya)
+    | Applying to Komi
     | NB: An XSLT-2.0-processor is needed!
     | Usage: java -Xmx2048m net.sf.saxon.Transform -it main XSLT_SCRIPT file="INPUT-FILE"
     | 
@@ -63,22 +65,22 @@
 		  <!-- xsl:for-each select="./dict/entry[not(contains(./lemma/text(), $us))] the underscore should be replaced by "% "-->
 		  <!--xsl:for-each select="./dict/entry[not(./lemma = preceding::entry/lemma and ./stem = preceding::entry/stem)][not(./@exclude='fst')]"-->
 		  <!-- don't check anything else but the exclude=fst flag -->
-		  <xsl:for-each select="./dict/entry[not(./@exclude='fst')]">
+		  <xsl:for-each select="./r/entry[not(./@exclude='fst')]/lg/stg/st">
 		    <e>
 		      <xsl:attribute name="stem">
-			<xsl:value-of select="normalize-space(./stem)"/>
+			<xsl:value-of select="translate(normalize-space(.), '&#x20;', '%&#x20;')"/>
 		      </xsl:attribute>
 		      <xsl:attribute name="pos">
-			<xsl:value-of select="normalize-space(./pos)"/>
+			<xsl:value-of select="normalize-space(../../../pos)"/>
 		      </xsl:attribute>
 		      <xsl:attribute name="cl">
-			<xsl:value-of select="normalize-space(./contlex)"/>
+			<xsl:value-of select="normalize-space(@kpvContlex)"/>
 		      </xsl:attribute>
 		      <xsl:attribute name="t">
-			<xsl:value-of select="normalize-space(./article[1]/eng/choice/variant[1])"/>
+			<xsl:value-of select="normalize-space(../../../e[1]/mg[1]/tg[@lang='eng']/t[1])"/>
 		      </xsl:attribute>
 		      <!-- xsl:value-of select="normalize-space(./lemma)"/ replace underscore by "% "-->
-		      <xsl:value-of select="translate(normalize-space(./lemma), '_', '% ')"/>		
+		      <xsl:value-of select="translate(normalize-space(../../l), '&#x20;', '%&#x20;')"/>		
 		    </e>
 		  </xsl:for-each>
 		</out>
