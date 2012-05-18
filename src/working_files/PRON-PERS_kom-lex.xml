@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dict xsi:noNamespaceSchemaLocation="../dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty">
+<r xsi:noNamespaceSchemaLocation="../../../myv/script/dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty">
    <!--
 <entry exclude="fst"> -->
    <!-- <lemma>CiprianAndTrond</lemma> -->
@@ -10,1365 +10,1716 @@
    <!-- -->
    <!-- </entry>-->
    <entry exclude="fst">
-      <lemma>ме</lemma>
-      <stem/>
-      <contlex>PRON-PERS-SG1-NOM</contlex>
+      <lg>
+         <l>ме</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG1-NOM">ме</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
-               <head><!--<b>(мен</b> <i>- полная основа в косв. п.)</i>--></head>
+               <head>
+                  <!--<b>(мен</b> <i>- полная основа в косв. п.)</i>-->
+               </head>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">я</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">я</t>
+            </tg>
             <xg>
                <x>ме дась</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">я готов</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">я готов</xt>
             </xg>
             <xg>
                <x>метӧ тӧда</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">я-то знаю</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">я-то знаю</xt>
             </xg>
             <xg>
                <x>тайӧ ме, восьты</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">это я, открой</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">это я, открой</xt>
             </xg>
             <xg>
                <x>Ме пӧ и эм</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">я не я</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">я не я</xt>
             </xg>
             <xg>
                <x>ме пӧ и мортыс</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">нет человека лучше меня</xt><re>о человеке, составившем о себе преувеличенно высокое мнение</re></xtg>
+               <xtCtn>
+                  <xt lang="rus" pos="PRON-PERS">нет человека лучше меня</xt>
+                  <re>о человеке, составившем о себе преувеличенно высокое мнение</re>
+               </xtCtn>
             </xg>
          </mg>
          <mg>
             <m>
-               <head><com>редко в роли притяж. мест.</com></head>
-               <semRel MNo="1" lemmaID="менам" semRelType="see"/>
+               <head>
+                  <re>редко в роли притяж. мест.</re>
+               </head>
+               <semRel No="1" lemmaID="менам" semRelType="see"/>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">мой</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">мой</t>
+            </tg>
             <xg>
                <x/>
-               <xtg lang="ru"><xt/></xtg>
+               <xtCtn>
+                  <xt lang="rus"/>
+                  <re/>
+               </xtCtn>
             </xg>
          </mg>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>ме бердӧ ляскысис</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">он прижался ко мне</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">он прижался ко мне</xt>
             </xg>
             <xg>
                <x>ме бокын</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">рядом со мной</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">рядом со мной</xt>
             </xg>
             <xg>
                <x>тэ ме вылӧ эн надейтчы</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">ты на меня не рассчитывай</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">ты на меня не рассчитывай</xt>
             </xg>
             <xg>
                <x>ме дінӧ пуксьы</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">садись возле меня</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">садись возле меня</xt>
             </xg>
             <xg>
                <x>ме дінын олӧ</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">он живёт около меня</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">он живёт около меня</xt>
             </xg>
             <xg>
                <x>ме дор сувт</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">заступись за меня</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">заступись за меня</xt>
             </xg>
             <xg>
                <x>ме дырйи татшӧм сёрни эз вӧвлы</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">при мне (в моём присутствии) такого разговора не было</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">при мне (в моём присутствии) такого разговора не было</xt>
             </xg>
             <xg>
                <x>ме кузя</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">с меня ростом</xt></xtg>
-               <xtg lang="ru"><xt pos="PRON-PERS">ради меня</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">с меня ростом</xt>
+               <xt lang="rus" pos="PRON-PERS">ради меня</xt>
             </xg>
             <xg>
                <x>ме ног</x>
-               <xtg lang="ru"><xt>по-моему</xt></xtg>
+               <xt lang="rus">по-моему</xt>
             </xg>
             <xg>
                <x>ме ногӧн</x>
-               <xtg lang="ru"><xt>по-моему</xt></xtg>
+               <xt lang="rus">по-моему</xt>
             </xg>
             <xg>
                <x>вӧч ме ног</x>
-               <xtg lang="ru"><xt>сделай по-моему</xt></xtg>
+               <xt lang="rus">сделай по-моему</xt>
             </xg>
             <xg>
                <x>ме думысь</x>
-               <xtg lang="ru"><xt>по-моему</xt></xtg>
+               <xt lang="rus">по-моему</xt>
             </xg>
             <xg>
                <x>ме думысь талун зэрмас</x>
-               <xtg lang="ru"><xt>по-моему, сегодня будет дождь</xt></xtg>
+               <xt lang="rus">по-моему, сегодня будет дождь</xt>
             </xg>
             <xg>
                <x>ме ордын олӧ</x>
-               <xtg lang="ru"><xt>он живёт у меня</xt></xtg>
+               <xt lang="rus">он живёт у меня</xt>
             </xg>
             <xg>
                <x>сійӧ локтіс ме ордӧ гӧститны</x>
-               <xtg lang="ru"><xt>он приехал ко мне погостить</xt></xtg>
+               <xt lang="rus">он приехал ко мне погостить</xt>
             </xg>
             <xg>
                <x>ме сайӧ дзебсьы</x>
-               <xtg lang="ru"><xt>спрячься за меня</xt></xtg>
+               <xt lang="rus">спрячься за меня</xt>
             </xg>
             <xg>
                <x>ме улын</x>
-               <xtg lang="ru"><xt>подо мной</xt></xtg>
+               <xt lang="rus">подо мной</xt>
             </xg>
             <xg>
                <x>ме ог тӧд, код кодь тэ лоӧмыд</x>
-               <xtg lang="ru"><xt>стал неузнаваемым (я не знаю, каким ты стал)</xt></xtg>
+               <xt lang="rus">стал неузнаваемым (я не знаю, каким ты стал)</xt>
             </xg>
             <xg>
                <x>том дырйиыд мыйкӧ морт кодь вӧлін, а ӧні ме ог тӧд, код кодь лоӧмыд</x>
-               <xtg lang="ru"><xt>в молодости ты был человеком, а теперь не знаю, каким ты стал</xt></xtg>
+               <xt lang="rus">в молодости ты был человеком, а теперь не знаю, каким ты стал</xt>
             </xg>
             <xg genreType="saying">
                <x>ме висьтала поп йылысь, а сійӧ пыр попаддя йылысь</x>
-               <xtg lang="ru"><xt>я говорю о попе, а он твердит о попадье</xt></xtg>
+               <xt lang="rus">я говорю о попе, а он твердит о попадье</xt>
             </xg>
             <xg>
                <x>кагасӧ ме ки вылӧ колис</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">ребёнка она оставила на моих руках</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">ребёнка она оставила на моих руках</xt>
             </xg>
             <xg>
                <x>ставыс ме киын, кыдз кӧсъя, сідз и вӧча</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">всё в моих руках — как захочу, так и сделаю</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">всё в моих руках — как захочу, так и сделаю</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>мекӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>мекӧд</l>
+         <stg>
+            <st kpvContlex="">мекӧд</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">со мной</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">со мной</t>
+            </tg>
             <xg>
                <x>мекӧд ветлам</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">сходим со мной</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">сходим со мной</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>мела</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>мела</l>
+         <stg>
+            <st kpvContlex="">мела</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">за мной</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">за мной</t>
+            </tg>
             <xg>
                <x>мела воліс?</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">он за мной приходил?</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">он за мной приходил?</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>мелань</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>мелань</l>
+         <stg>
+            <st kpvContlex="">мелань</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
-               <head/>
+               <head>
+                  <re>прибл. п.</re>
+               </head>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS"><com>прибл. п.</com>ко мне</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">ко мне</t>
+            </tg>
             <xg>
                <x>мелань бергӧдчы</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">повернись ко мне</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">повернись ко мне</xt>
             </xg>
             <xg>
                <x>сійӧ мелань восьлаліс</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">он шагал ко мне</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">он шагал ко мне</xt>
             </xg>
             <xg>
                <x>сой нюжӧдіс мелань</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">он протянул ко мне руку</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">он протянул ко мне руку</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>мем</lemma>
-      <stem>ме</stem>
-      <contlex>PRON-PERS-SG1-DAT</contlex>
+      <lg>
+         <l>мем</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG1-DAT">ме</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>мен</lemma>
-      <stem>мен</stem>
-      <contlex>PRON-PERS-SG1-DAT</contlex>
+      <lg>
+         <l>мен</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG1-DAT">мен</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>менам</lemma>
-      <stem>мен</stem>
-      <contlex>PRON-PERS-SG1-GEN</contlex>
+      <lg>
+         <l>менам</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG1-GEN">мен</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>тайӧ менам аслам</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">это у меня своё</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">это у меня своё</xt>
             </xg>
             <xg>
                <x>менам талун узьсьӧма</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">я сегодня проспал</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">я сегодня проспал</xt>
             </xg>
             <xg>
                <x>менам тэныд вӧлі висьталӧма</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">мною тебе было сказано</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">мною тебе было сказано</xt>
             </xg>
             <xg>
                <x>менам ставыс сьӧрын и бӧрын</x>
-               <xtg lang="ru"><xt>у меня всё при себе</xt></xtg>
-               <com>ни семьи, ни хозяйства</com>
+               <xtCtn>
+                  <xt lang="rus">у меня всё при себе</xt>
+                  <re>ни семьи, ни хозяйства</re>
+               </xtCtn>
             </xg>
             <xg>
                <x>менам ӧти юрыс; кык кӧ вӧлі, ӧтисӧ вузавны позис</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">у меня одна голова; будь две, то одну можно было бы продать</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">у меня одна голова; будь две, то одну можно было бы продать</xt>
             </xg>
          </mg>
          <mg>
             <m>
-               <head><com>в роли притяж. мест.</com></head>
+               <head>
+                  <re>в роли притяж. мест.</re>
+               </head>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">мой</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">мой</t>
+            </tg>
             <xg>
                <x>менам бать-мам</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">мои родители</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">мои родители</xt>
             </xg>
             <xg>
                <x>менам важся друг</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">мой старый друг</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">мой старый друг</xt>
             </xg>
             <xg>
                <x>менам ныв-пи</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">мои дети</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">мои дети</xt>
             </xg>
             <xg>
                <x>менам локтӧдз</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">до моего прихода</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">до моего прихода</xt>
             </xg>
             <xg>
                <x>менам тшӧктӧм серти</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">по моему велению, по моему приказанию, по моему
-               распоряжению</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">по моему велению, по моему приказанию, по моему распоряжению</xt>
             </xg>
             <xg>
                <x>менам синва тэныд усьӧ</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">мои слёзы тебе отольются</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">мои слёзы тебе отольются</xt>
             </xg>
             <xg>
                <x>тайӧ абу менам удж</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">это не моя работа</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">это не моя работа</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>менамтӧг</lemma>
-      <stem>менам</stem>
-      <contlex>PRON-PERS-SG1-CAR</contlex>
+      <lg>
+         <l>менамтӧг</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG1-CAR">менам</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel MNo="1" lemmaID="метӧг" semRelType="see"/>
+               <semRel No="1" lemmaID="метӧг" semRelType="see"/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>менлы</lemma>
-      <stem>мен</stem>
-      <contlex>PRON-PERS-SG1-DAT</contlex>
+      <lg>
+         <l>менлы</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG1-DAT">мен</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>менлы вылӧ</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">для меня</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">для меня</xt>
             </xg>
             <xg>
                <x>менлы кодь</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">подходящий мне</xt></xtg>
-               <xtg lang="ru"><xt pos="PRON-PERS">по мне</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">подходящий мне</xt>
+               <xt lang="rus" pos="PRON-PERS">по мне</xt>
             </xg>
             <xg>
                <x>тайӧ шапкаыс менлы кодь</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">эта шапка по мне</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">эта шапка по мне</xt>
             </xg>
             <xg>
                <x>тайӧс бать ньӧбӧма менлы вылӧ</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">это отец купил для меня</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">это отец купил для меня</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>менсьым</lemma>
-      <stem>мен</stem>
-      <contlex>PRON-PERS-SG1-ELA</contlex>
+      <lg>
+         <l>менсьым</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG1-ELA">мен</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>тэ менсьым юав</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">ты у меня спроси</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">ты у меня спроси</xt>
             </xg>
          </mg>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">мой</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">мой</t>
+            </tg>
             <xg>
                <x>книгаӧс менсьым кодкӧ босьтӧма</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">кто-то взял мою книгу</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">кто-то взял мою книгу</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>менсянь</lemma>
-      <stem>мен</stem>
-      <contlex>PRON-PERS-SG1-DAT</contlex>
+      <lg>
+         <l>менсянь</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG1-DAT">мен</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>месянь поклон висьтав</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">передай от меня привет</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">передай от меня привет</xt>
             </xg>
             <xg>
                <x>мый тэныд месянь колӧ?</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">что тебе от меня надо?</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">что тебе от меня надо?</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>меным</lemma>
-      <stem>мен</stem>
-      <contlex>PRON-PERS-SG1-DAT</contlex>
+      <lg>
+         <l>меным</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG1-DAT">мен</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>меным вылӧ</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">для меня</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">для меня</xt>
             </xg>
             <xg>
                <x>кодлы сійӧ шуис, меным али тэныд?</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">кому он сказал, мне или тебе?</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">кому он сказал, мне или тебе?</xt>
             </xg>
             <xg>
                <x>меным гӧгӧрвоана лои</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">мне стало понятно</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">мне стало понятно</xt>
             </xg>
             <xg>
                <x>оз ков меным татшӧм лёк ёртыд</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">мне не нужен такой плохой друг</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">мне не нужен такой плохой друг</xt>
             </xg>
             <xg>
                <x>меным тайӧ дуб ва</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">это для меня пустяки</xt></xtg>
-               <literal>
-                  <xtg lang="ru"><xt pos="PRON-PERS">это для меня пресная вода</xt></xtg>
-               </literal>
+               <xt lang="rus" pos="PRON-PERS">это для меня пустяки</xt>
+               <xt lang="rus" pos="PRON-PERS" tType="literal">это для меня пресная вода</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>менӧ</lemma>
-      <stem>мен</stem>
-      <contlex>PRON-PERS-SG1-ACC</contlex>
+      <lg>
+         <l>менӧ</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG1-ACC">мен</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>коді менӧ юасьӧ?</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">кто меня спрашивает?</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">кто меня спрашивает?</xt>
             </xg>
             <xg>
                <x>менӧ тэ тӧдан</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">ты меня знаешь</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">ты меня знаешь</xt>
             </xg>
             <xg>
                <x>менӧ аслад доддьӧ эн пуксьӧд, ме абу тэ кодь</x>
-               <xtg lang="ru"><xt>не меряй меня на свой аршин я не такой, как ты</xt></xtg>
-               <literal>
-                  <xtg lang="ru"><xt>не усаживай меня в свои сани я не такой, как ты</xt></xtg>
-               </literal>
+               <xt lang="rus">не меряй меня на свой аршин я не такой, как ты</xt>
+               <xt lang="rus" tType="literal">не усаживай меня в свои сани я не такой, как ты</xt>
             </xg>
             <xg genreType="riddle">
                <x>менӧ частӧ корӧны, виччысьӧны, а петкӧдча кӧ, ставыс дзебсьӧны</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">меня частенько просят, ждут, а как покажусь, прятаться
-               начнут</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">меня частенько просят, ждут, а как покажусь, прятаться начнут</xt>
                <answer>
-                  <x>зэр</x>
-                  <xtg lang="ru"><xt pos="PRON-PERS">дождь</xt></xtg>
+                  <native>зэр</native>
+                  <xt lang="rus" pos="PRON-PERS">дождь</xt>
                </answer>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>метӧг</lemma>
-      <stem>мен</stem>
-      <contlex>PRON-PERS-SG1-DAT</contlex>
+      <lg>
+         <l>метӧг</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG1-DAT">мен</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">без меня</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">без меня</t>
+            </tg>
             <xg>
                <x>метӧг волӧма, ме эг вӧв</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">он без меня приходил, меня не было</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">он без меня приходил, меня не было</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>меын</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>меын</l>
+         <stg>
+            <st kpvContlex="">меын</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">мест. п. от ме</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">мест. п. от ме</t>
+            </tg>
             <xg>
                <x>абу меын делӧыс</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">не во мне дело</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">не во мне дело</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>меысь</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>меысь</l>
+         <stg>
+            <st kpvContlex="">меысь</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>мый тэныд меысь колӧ?</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">что тебе от меня надо?</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">что тебе от меня надо?</xt>
             </xg>
             <xg>
                <x>меысь метӧм, тэысь тэтӧм</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">ни я к тебе, ни ты ко мне</xt><re>заявление о полном разрыве дружбы, связи</re></xtg>
+               <xtCtn>
+                  <xt lang="rus" pos="PRON-PERS">ни я к тебе, ни ты ко мне</xt>
+                  <re>заявление о полном разрыве дружбы, связи</re>
+               </xtCtn>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>меям</lemma>
-      <stem>мен</stem>
-      <contlex>PRON-PERS-SG1-GEN</contlex>
+      <lg>
+         <l>меям</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG1-GEN">мен</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
-               <head><range>диал.</range></head>
-               <semRel MNo="1" lemmaID="менам" semRelType="see"/>
+               <head>
+                  <range rangeSpat="dialect"/>
+               </head>
+               <semRel No="1" lemmaID="менам" semRelType="see"/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>меӧдз</lemma>
-      <stem>ме</stem>
-      <contlex>PRON-PERS-SG1-TER</contlex>
+      <lg>
+         <l>меӧдз</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG1-TER">ме</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
-               <head/>
+               <head>
+                  <re>пред. п. от  ме</re>
+               </head>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS"><com>пред. п. от </com> ме</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS"/>
+            </tg>
             <xg>
                <x>кутшӧм тэныд меӧдз мог?</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">какое тебе до меня дело?</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">какое тебе до меня дело?</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>ми</lemma>
-      <stem/>
-      <contlex>PRON-PERS-PL1-NOM</contlex>
+      <lg>
+         <l>ми</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-PL1-NOM">ми</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>ми ставӧн</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">все мы</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">все мы</xt>
             </xg>
             <xg>
                <x>лунсӧ тайӧс ми виччысим дыр</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">этого дня мы ждали давно</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">этого дня мы ждали давно</xt>
             </xg>
             <xg>
                <x>митӧ ог кольччӧй</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">мы-то не отстане</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">мы-то не отстане</xt>
             </xg>
             <xg genreType="saying">
                <x>ми водз чеччывлам: кымӧра кӧ, шонді петтӧдз</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">мы рано встаём: если облачно, до восхода солнца</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">мы рано встаём: если облачно, до восхода солнца</xt>
             </xg>
             <xg>
                <x>Ми вок, ми коддьӧм, ми вок коддьӧм, ми вок кодь</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">наш брат; вроде нашего брата</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">наш брат; вроде нашего брата</xt>
             </xg>
             <xg>
                <x>ми вок кодь нывка-зонкаяс</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">такие же, как мы, девочки и мальчики</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">такие же, как мы, девочки и мальчики</xt>
             </xg>
             <xg>
                <x>ми вок коддьӧмтӧ найӧ морт туйӧ оз пуктыны</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">нашего брата они за человека не считают</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">нашего брата они за человека не считают</xt>
             </xg>
             <xg>
                <x>ми коддьӧмыд сэн уна</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">нашего брата там много</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">нашего брата там много</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>мийӧ</lemma>
-      <stem/>
-      <contlex>PRON-PERS-PL1-NOM</contlex>
+      <lg>
+         <l>мийӧ</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-PL1-NOM">мийӧ</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>митӧг</lemma>
-      <stem/>
-      <contlex>PRON-PERS-PL1-CAR</contlex>
+      <lg>
+         <l>митӧг</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-PL1-CAR">митӧг</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel MNo="1" lemmaID="миянтӧг_PRON-PERS" semRelType="see"/>
+               <semRel No="1" lemmaID="миянтӧг_PRON-PERS" semRelType="see"/>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">без нас</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">без нас</t>
+            </tg>
             <xg>
                <x>митӧг тай тані эштӧдчӧны</x>
-               <xtg lang="ru"><xt>и без нас тут заканчивают</xt></xtg>
+               <xt lang="rus">и без нас тут заканчивают</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>миян</lemma>
-      <stem/>
-      <contlex>PRON-PERS-PL1-GEN</contlex>
+      <lg>
+         <l>миян</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-PL1-GEN">миян</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
-               <head><!--  --><com>миян - полная основа в косв. п. и в конструкциях с послелогами</com></head>
+               <head>
+                  <!--  -->
+                  <re>миян - полная основа в косв. п. и в конструкциях с послелогами</re>
+               </head>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">мы</t></tg>
-            <tg lang="ru"><t/>полная основа в косв. п. и в конструкциях с послелогами мест. мы</tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">мы</t>
+            </tg>
+            <tg lang="rus">
+               <t>полная основа в косв. п. и в конструкциях с послелогами мест. мы</t>
+               
+            </tg>
             <xg>
                <x>миян вылӧ</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">на нас</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">на нас</xt>
             </xg>
             <xg>
                <x>миян йылысь</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">о нас</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">о нас</xt>
             </xg>
             <xg>
                <x>бабӧ видзӧдӧ миян вылӧ жугыль синъясӧн</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">бабушка смотрит на нас печальными глазами</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">бабушка смотрит на нас печальными глазами</xt>
             </xg>
             <xg>
                <x>быдӧн миян дор</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">все за нас</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">все за нас</xt>
             </xg>
          </mg>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>миян вӧлі бабӧ да ещӧ дед</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">у нас были бабушка да ещё и дед</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">у нас были бабушка да ещё и дед</xt>
             </xg>
             <xg>
                <x>миян ставыс на лючки-ладнӧ</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">у нас пока всё благополучно</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">у нас пока всё благополучно</xt>
             </xg>
             <xg>
                <x>миян пӧ няньыс тэкӧд шӧрыштӧма, шыд-рокыс пусьӧма, межаыс юкӧма</x>
-               <xtg lang="ru"><xt>нам спорить не о чем</xt></xtg>
-               <literal>
-                  <tg lang="ru"><t>у нас с тобой коврига нарезана, суп-каша сварены, земля отмежевана</t></tg>
-               </literal>
+               <xt lang="rus">нам спорить не о чем</xt>
+               <xt lang="rus" tType="literal">у нас с тобой коврига нарезана, суп-каша сварены, земля отмежевана</xt>
             </xg>
          </mg>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">наш</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">наш</t>
+            </tg>
             <xg>
                <x>миян батьяс да пӧльяс</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">наши отцы и деды</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">наши отцы и деды</xt>
             </xg>
             <xg>
                <x>миян йӧз</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">наши люди</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">наши люди</xt>
             </xg>
             <xg>
                <x>миян ныв-пи</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">наши дети</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">наши дети</xt>
             </xg>
             <xg>
                <x>миян пыж</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">наша лодка</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">наша лодка</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>миянкӧд</lemma>
-      <stem/>
-      <contlex>PRON-PERS-PL1-COM</contlex>
+      <lg>
+         <l>миянкӧд</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-PL1-COM">миянкӧд</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>тэ миянкӧд эн вензьы</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">ты с нами не спорь</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">ты с нами не спорь</xt>
             </xg>
             <xg>
                <x>сійӧ кольччис горт овны миянкӧд</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">она осталась с нами домовничать</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">она осталась с нами домовничать</xt>
             </xg>
          </mg>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">с нами, с нашим домом</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">с нами, с нашим домом</t>
+            </tg>
             <xg>
                <x>керка, коді сулалӧ дзик миянкӧд воча</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">дом, который стоит прямо напротив нашего</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">дом, который стоит прямо напротив нашего</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>миянла</lemma>
-      <stem/>
-      <contlex>PRON-PERS-PL1-CNS</contlex>
+      <lg>
+         <l>миянла</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-PL1-CNS">миянла</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>миянла кӧсйӧмаӧсь ыстыны машина</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">за нами обещали прислать машину</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">за нами обещали прислать машину</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>миянлань</lemma>
-      <stem/>
-      <contlex>PRON-PERS-PL1-APR</contlex>
+      <lg>
+         <l>миянлань</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-PL1-APR">миянлань</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
-               <head><com>прибл. п. от миян</com></head>
+               <head>
+                  <re>прибл. п. от миян</re>
+               </head>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>кодкӧ со миянлань локтӧ</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">кто-то, смотри, к нам, в нашу сторону идёт</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">кто-то, смотри, к нам, в нашу сторону идёт</xt>
             </xg>
             <xg>
                <x>сійӧ зумыша видзӧдліс миянлань</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">он хмуро посмотрел в нашу сторону</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">он хмуро посмотрел в нашу сторону</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>миянлы</lemma>
-      <stem/>
-      <contlex>PRON-PERS-PL1-DAT</contlex>
+      <lg>
+         <l>миянлы</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-PL1-DAT">миянлы</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>ми асьным тӧдам, мый миянлы вӧчны</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">мы сами знаем, что нам делать</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">мы сами знаем, что нам делать</xt>
             </xg>
             <xg>
                <x>миянлы воссис паськыд туй</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">перед нами открылась широкая дорога</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">перед нами открылась широкая дорога</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>миянлысь</lemma>
-      <stem/>
-      <contlex>PRON-PERS-PL1-ABL</contlex>
+      <lg>
+         <l>миянлысь</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-PL1-ABL">миянлысь</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>тэ миянлысь юав</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">ты у нас спроси</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">ты у нас спроси</xt>
             </xg>
          </mg>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">наш</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">наш</t>
+            </tg>
             <xg>
                <x>миянлысь удж ошкӧны быдӧн</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">нашу работу все хвалят</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">нашу работу все хвалят</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>миянлӧн</lemma>
-      <stem/>
-      <contlex>PRON-PERS-PL1-GEN</contlex>
+      <lg>
+         <l>миянлӧн</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-PL1-GEN">миянлӧн</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel MNo="1" lemmaID="миян" semRelType="see"/>
+               <semRel No="1" lemmaID="миян" semRelType="see"/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>миянлӧн кодь</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">как у нас, как наш</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">как у нас, как наш</xt>
             </xg>
             <xg>
                <x>тайӧ мӧскыс дзик миянлӧн кодь</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">эта корова совсем как наша</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">эта корова совсем как наша</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>миянсянь</lemma>
-      <stem/>
-      <contlex>PRON-PERS-PL1-EGR</contlex>
+      <lg>
+         <l>миянсянь</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-PL1-EGR">миянсянь</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">от нас</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">от нас</t>
+            </tg>
             <xg>
                <x>виччысьӧны миянсянь отсӧг</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">они ждут от нас помощи</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">они ждут от нас помощи</xt>
             </xg>
             <xg>
                <x>мый миянсянь колӧ?</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">что тебе от нас надо?</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">что тебе от нас надо?</xt>
             </xg>
          </mg>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">от нас,</t><t pos="PRON-PERS">от нашего дома</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">от нас,</t>
+               <t pos="PRON-PERS">от нашего дома</t>
+            </tg>
             <xg>
                <x>миянсянь кык керка сайын</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">через два дома от нас</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">через два дома от нас</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>миянтӧг</lemma>
-      <stem/>
-      <contlex>PRON-PERS-PL1-CAR</contlex>
+      <lg>
+         <l>миянтӧг</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-PL1-CAR">миянтӧг</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">без нас</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">без нас</t>
+            </tg>
             <xg>
                <x>миянтӧг он вермы овны</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">без нас ты не обойдёшься</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">без нас ты не обойдёшься</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>миянын</lemma>
-      <stem/>
-      <contlex>PRON-PERS-PL1-INE</contlex>
+      <lg>
+         <l>миянын</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-PL1-INE">миянын</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">у нас,</t><t pos="PRON-PERS">в нашем доме</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">у нас,</t>
+               <t pos="PRON-PERS">в нашем доме</t>
+            </tg>
             <xg>
                <x>патеранас агроном миянын олӧ</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">агроном живёт у нас на квартире</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">агроном живёт у нас на квартире</xt>
             </xg>
          </mg>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>делӧыс абу миянын</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">не в нас дело</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">не в нас дело</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>миянӧ</lemma>
-      <stem/>
-      <contlex>PRON-PERS-PL1-ILL</contlex>
+      <lg>
+         <l>миянӧ</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-PL1-ILL">миянӧ</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">к нам,</t><t pos="PRON-PERS">в наш дом</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">к нам,</t>
+               <t pos="PRON-PERS">в наш дом</t>
+            </tg>
             <xg>
                <x>кодкӧ миянӧ локтӧ</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">кто-то к нам (в наш дом) идёт</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">кто-то к нам (в наш дом) идёт</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>миянӧдз</lemma>
-      <stem/>
-      <contlex>PRON-PERS-PL1-TER</contlex>
+      <lg>
+         <l>миянӧдз</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-PL1-TER">миянӧдз</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>тэныд миянӧдз кутшӧм мог?</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">какое тебе до нас дело?</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">какое тебе до нас дело?</xt>
             </xg>
             <xg>
                <x>ылын кӧнкӧ мунӧ войнаыд, а йӧлӧгаыс сылӧн локтӧ миянӧдз</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">далеко где-то идёт война, а эхо её доходит до нас</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">далеко где-то идёт война, а эхо её доходит до нас</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>миянӧс</lemma>
-      <stem/>
-      <contlex>PRON-PERS-PL1-ACC</contlex>
+      <lg>
+         <l>миянӧс</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-PL1-ACC">миянӧс</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">нас</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">нас</t>
+            </tg>
             <xg>
                <x>тэ миянӧс эн велӧд</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">ты нас не учи</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">ты нас не учи</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>на</lemma>
-      <stem/>
-      <contlex>PRON-PERS-PL3-NOM</contlex>
+      <lg>
+         <l>на</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-PL3-NOM">на</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
-               <head><com>употр. в косв. падежах и в послел. конструкциях</com></head>
+               <head>
+                  <re>употр. в косв. падежах и в послел. конструкциях</re>
+               </head>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>на дырйи</x>
-               <xtg lang="ru"><xt pos="ADV" sem="advl-spat">при них присутствии</xt></xtg>
-               <xtg lang="ru"><xt pos="ADV" sem="advl-spat">в их присутствии</xt></xtg>
+               <xt lang="rus" pos="SPAT">при них присутствии</xt>
+               <xt lang="rus" pos="SPAT">в их присутствии</xt>
             </xg>
             <xg>
                <x>на моз</x>
-               <xtg lang="ru"><xt pos="PREP" sem="compStand">как они,</xt></xtg>
-               <xtg lang="ru"><xt pos="PREP" sem="compStand">подобно им</xt></xtg>
+               <xt lang="rus" pos="PREP">как они,</xt>
+               <xt lang="rus" pos="PREP">подобно им</xt>
             </xg>
             <xg>
                <x>на пиысь</x>
-               <xtg lang="ru"><xt pos="PREP">из них</xt></xtg>
-               <xtg lang="ru"><xt>из их среды</xt></xtg>
+               <xt lang="rus" pos="PREP">из них</xt>
+               <xt lang="rus">из их среды</xt>
             </xg>
             <xg>
                <x>на вылӧ эн надейтчы</x>
-               <xtg lang="ru"><xt>на них не надейся</xt></xtg>
+               <xt lang="rus">на них не надейся</xt>
             </xg>
             <xg>
                <x>на йылысь эн казьтыв</x>
-               <xtg lang="ru"><xt>о них не вспоминай</xt></xtg>
+               <xt lang="rus">о них не вспоминай</xt>
             </xg>
          </mg>
          <mg>
             <m>
-               <head><com>редко в роли притяж. мест.</com></head>
+               <head>
+                  <re>редко в роли притяж. мест.</re>
+               </head>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">их</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">их</t>
+            </tg>
             <xg>
                <x>на керкаын</x>
-               <xtg lang="ru"><xt sem="advl-spat">в их доме</xt></xtg>
+               <xt lang="rus">в их доме</xt>
             </xg>
             <xg>
                <x>на удж бӧрся видзӧдны колӧ</x>
-               <xtg lang="ru"><xt>надо следить за их работой</xt></xtg>
+               <xt lang="rus">надо следить за их работой</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>найӧ</lemma>
-      <stem/>
-      <contlex>PRON-PERS-PL3-NOM</contlex>
+      <lg>
+         <l>найӧ</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-PL3-NOM">найӧ</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">они</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">они</t>
+            </tg>
             <xg>
                <x>найӧ талун локтасны</x>
-               <xtg lang="ru"><xt>они сегодня придут</xt></xtg>
+               <xt lang="rus">они сегодня придут</xt>
             </xg>
             <xg genreType="saying">
                <x>найӧ коркӧ паньӧн вежсьылӧмаӧсь</x>
-               <xtg lang="ru"><xt>они когда-то ложками обменялись</xt><re>повод к чему-л., напр., для посещений</re></xtg>
+               <xtCtn>
+                  <xt lang="rus">они когда-то ложками обменялись</xt>
+                  <re>повод к чему-л., напр., для посещений</re>
+               </xtCtn>
             </xg>
          </mg>
          <mg>
             <m>
-               <head><com>редко употр. в роли притяж. мест.</com></head>
+               <head>
+                  <re>редко употр. в роли притяж. мест.</re>
+               </head>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">их</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">их</t>
+            </tg>
             <xg>
                <x>найӧ вӧлӧн локті</x>
-               <xtg lang="ru"><xt>я приехал на их лошади</xt></xtg>
+               <xt lang="rus">я приехал на их лошади</xt>
             </xg>
             <xg>
                <x>найӧ уджысь ме кыв ог кут</x>
-               <xtg lang="ru"><xt>за их работу я не в ответе</xt></xtg>
+               <xt lang="rus">за их работу я не в ответе</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>найӧс</lemma>
-      <stem/>
-      <contlex>PRON-PERS-PL3-ACC</contlex>
+      <lg>
+         <l>найӧс</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-PL3-ACC">найӧс</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>ме найӧс талун эг аддзыв</x>
-               <xtg lang="ru"><xt>сегодня я их не видел</xt></xtg>
+               <xt lang="rus">сегодня я их не видел</xt>
             </xg>
             <xg>
                <x>найӧс ме бура тӧда</x>
-               <xtg lang="ru"><xt>я их хорошо знаю</xt></xtg>
+               <xt lang="rus">я их хорошо знаю</xt>
             </xg>
          </mg>
       </e>
    </entry>
-<entry exclude="fst"> <lemma>налань</lemma> <stem/> <contlex>PRON-PERS-IS_APR</contlex> <pos>PRON-PERS</pos> <e> <mg> <m> <head><com>найӧ</com></head> </m> <xg> <x>налань некод оз мун</x> <xtg lang="ru"><xt>к ним (<i>в их сторону</i>) никто не идёт</xt></xtg> </xg> </mg> </e> </entry>
-<entry exclude="fst"> <lemma>наӧдз</lemma> <stem/> <contlex>PRON</contlex> <pos>PRON-PERS</pos> <e> <drvg> <drv cx="Ter" lemmaID="найӧ_PRON-PERS"/> </drvg> <mg> <m> <head/> </m> <xg> <x>наӧдз абу ылын</x> <xtg lang="ru"><xt>до них недалеко</xt></xtg> </xg> </mg> </e> </entry>
    <entry exclude="fst">
-      <lemma>налы</lemma>
-      <stem/>
-      <contlex>PRON-PERS-PL3-DAT</contlex>
+      <lg>
+         <l>налань</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-IS_APR">налань</st>
+         </stg>
+      </lg>
+      <pos>PRON-PERS</pos>
+      <e>
+         <mg>
+            <m>
+               <head>
+                  <re>найӧ</re>
+               </head>
+            </m>
+            <xg>
+               <x>налань некод оз мун</x>
+               <xt lang="rus">к ним (в их сторону) никто не идёт</xt>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lg>
+         <l>наӧдз</l>
+         <stg>
+            <st kpvContlex="PRON">наӧдз</st>
+         </stg>
+      </lg>
+      <pos>PRON-PERS</pos>
+      <e>
+         <drv cx="ter" lemmaID="найӧ_PRON-PERS"/>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <xg>
+               <x>наӧдз абу ылын</x>
+               <xt lang="rus">до них недалеко</xt>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lg>
+         <l>налы</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-PL3-DAT">налы</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>ме налы петкӧдла!</x>
-               <xtg lang="ru"><xt>я им покажу!</xt></xtg>
+               <xt lang="rus">я им покажу!</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>налысь</lemma>
-      <stem/>
-      <contlex>PRON-PERS-PL3-ABL</contlex>
+      <lg>
+         <l>налысь</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-PL3-ABL">налысь</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">их</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">их</t>
+            </tg>
             <xg>
                <x>налысь керкасӧ тэ тӧдан?</x>
-               <xtg lang="ru"><xt>ты знаешь их дом?</xt></xtg>
+               <xt lang="rus">ты знаешь их дом?</xt>
             </xg>
             <xg>
                <x>налысь писӧ аддзылін?</x>
-               <xtg lang="ru"><xt>ты видел их сына?</xt></xtg>
+               <xt lang="rus">ты видел их сына?</xt>
             </xg>
          </mg>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>налы кӧ сетін, налысь и кор</x>
-               <xtg lang="ru"><xt>если отдал им, у них и проси</xt></xtg>
+               <xt lang="rus">если отдал им, у них и проси</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>налӧн</lemma>
-      <stem/>
-      <contlex>PRON-PERS-PL3-GEN</contlex>
+      <lg>
+         <l>налӧн</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-PL3-GEN">налӧн</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">их</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">их</t>
+            </tg>
             <xg>
                <x>налӧн керканыс чукыль саяс</x>
-               <xtg lang="ru"><xt>их дом за поворотом</xt></xtg>
+               <xt lang="rus">их дом за поворотом</xt>
             </xg>
             <xg>
                <x>тайӧ тіян? — Абу, тайӧ налӧн</x>
-               <xtg lang="ru"><xt>это ваше? — Нет, это их</xt></xtg>
+               <xt lang="rus">это ваше? — Нет, это их</xt>
             </xg>
             <xg genreType="saying">
                <x>налӧн вашкӧдчӧмыс орчча сиктӧдз юралӧ</x>
-               <xtg lang="ru"><xt>их перешёптывание доносится до соседней деревни</xt></xtg>
+               <xt lang="rus">их перешёптывание доносится до соседней деревни</xt>
             </xg>
          </mg>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>код налӧн быдмӧ, ныв али пи?</x>
-               <xtg lang="ru"><xt>кто у них растёт, дочь или сын?</xt></xtg>
+               <xt lang="rus">кто у них растёт, дочь или сын?</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>наын</lemma>
-      <stem/>
-      <contlex>PRON-PERS-PL3-INE</contlex>
+      <lg>
+         <l>наын</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-PL3-INE">наын</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>делӧыс абу наын</x>
-               <xtg lang="ru"><xt>не в них дело</xt></xtg>
+               <xt lang="rus">не в них дело</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>наысь</lemma>
-      <stem/>
-      <contlex>PRON-PERS-PL3-ELA</contlex>
+      <lg>
+         <l>наысь</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-PL3-ELA">наысь</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>мый меным наысь</x>
-               <xtg lang="ru"><xt>что мне в них</xt></xtg>
+               <xt lang="rus">что мне в них</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сы</lemma>
-      <stem/>
-      <contlex>PRON-PERS-SG3-OBL</contlex>
+      <lg>
+         <l>сы</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG3-OBL">сы</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">он</t><t pos="PRON-PERS">она</t><t pos="PRON-PERS">оно</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">он</t>
+               <t pos="PRON-PERS">она</t>
+               <t pos="PRON-PERS">оно</t>
+            </tg>
             <xg>
                <x>сы вылын выль дӧрӧм</x>
-               <xtg lang="ru"><xt>на нём новая рубашка</xt></xtg>
+               <xt lang="rus">на нём новая рубашка</xt>
             </xg>
             <xg>
                <x>сы дырйи абу гажтӧм</x>
-               <xtg lang="ru"><xt>при нём не скучно</xt></xtg>
-               <xtg lang="ru"><xt>при ней не скучно</xt></xtg>
+               <xt lang="rus">при нём не скучно</xt>
+               <xt lang="rus">при ней не скучно</xt>
             </xg>
             <xg>
                <x>сы моз вӧчны</x>
-               <xtg lang="ru"><xt>сделать как он</xt></xtg>
-               <xtg lang="ru"><xt>сделать как она</xt></xtg>
-               <xtg lang="ru"><xt>сделать как оно</xt></xtg>
+               <xt lang="rus">сделать как он</xt>
+               <xt lang="rus">сделать как она</xt>
+               <xt lang="rus">сделать как оно</xt>
             </xg>
             <xg>
                <x>сы бӧрын</x>
-               <xtg lang="ru"><xt>затем</xt></xtg>
+               <xt lang="rus">затем</xt>
             </xg>
             <xg>
                <x>сы вӧсна</x>
-               <xtg lang="ru"><xt>потому, поэтому, с этой целью</xt></xtg>
+               <xt lang="rus">потому, поэтому, с этой целью</xt>
             </xg>
             <xg>
                <x>сы вӧсна, мый...</x>
-               <xtg lang="ru"><xt>потому что ...</xt></xtg>
+               <xt lang="rus">потому что ...</xt>
             </xg>
          </mg>
          <mg>
             <m>
-               <head><com>редко в роли притяж. мест.</com></head>
+               <head>
+                  <re>редко в роли притяж. мест.</re>
+               </head>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">его</t><t pos="PRON-PERS">её</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">его</t>
+               <t pos="PRON-PERS">её</t>
+            </tg>
             <xg>
                <x>сы син водзын</x>
-               <xtg lang="ru"><xt>на его глазах</xt></xtg>
+               <xt lang="rus">на его глазах</xt>
             </xg>
             <xg>
                <x>сы шӧрӧ</x>
-               <xtg lang="ru"><xt>к несчастью</xt></xtg>
-               <xtg lang="ru"><xt>на беду</xt></xtg>
+               <xt lang="rus">к несчастью</xt>
+               <xt lang="rus">на беду</xt>
             </xg>
          </mg>
          <mg>
             <m>
-               <head><range>диал.</range></head>
-               <semRel MNo="1" lemmaID="сэтшӧм" semRelType="see"/>
+               <head>
+                  <range rangeSpat="dialect"/>
+               </head>
+               <semRel No="1" lemmaID="сэтшӧм" semRelType="see"/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>сы сьӧкыд</x>
-               <xtg lang="ru"><xt>так тяжёл</xt></xtg>
+               <xt lang="rus">так тяжёл</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>сыа-мэа</lemma>
-      <stem/>
-      <contlex>PRON-DUAL</contlex>
+      <lg>
+         <l>сыа-мэа</l>
+         <stg>
+            <st kpvContlex="PRON-DUAL">сыа-мэа</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
-               <head><com>взаимн.</com></head>
+               <head>
+                  <re>взаимн.</re>
+               </head>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">мы кроме тебя</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">мы кроме тебя</t>
+            </tg>
             <xg>
                <x>Сыа-меа костын</x>
-               <xtg lang="ru"><xt>между нами</xt></xtg>
+               <xt lang="rus">между нами</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сыкӧд</lemma>
-      <stem/>
-      <contlex>PRON-PERS-SG3-COM</contlex>
+      <lg>
+         <l>сыкӧд</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG3-COM">сыкӧд</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>сыкӧд он гажтӧмтчы</x>
-               <xtg lang="ru"><xt>с ним не соскучишься</xt><xt>с ней не соскучишься</xt></xtg>
+               <xt lang="rus">с ним не соскучишься</xt>
+               <xt lang="rus">с ней не соскучишься</xt>
             </xg>
             <xg>
                <x>сыкӧд тшӧтш</x>
-               <xtg lang="ru"><xt>вместе с тем</xt></xtg>
-               <xtg lang="ru"><xt> к тому же</xt></xtg>
+               <xt lang="rus">вместе с тем</xt>
+               <xt lang="rus">к тому же</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сыла</lemma>
-      <stem/>
-      <contlex>PRON-PERS-SG3-CNS</contlex>
+      <lg>
+         <l>сыла</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG3-CNS">сыла</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>сыла ветлісны</x>
-               <xtg lang="ru"><xt>за ним сходили</xt></xtg>
-               <xtg lang="ru"><xt>за нею сходили</xt></xtg>
+               <xt lang="rus">за ним сходили</xt>
+               <xt lang="rus">за нею сходили</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сылань</lemma>
-      <stem/>
-      <contlex>PRON-PERS-SG3-APR</contlex>
+      <lg>
+         <l>сылань</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG3-APR">сылань</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
@@ -1376,23 +1727,28 @@
                <head/>
                <semRel lemmaID="сійӧ" semRelType="see"/>
             </m>
-            <tg lang="ru"><t>туда, в том направлении</t></tg>
+            <tg lang="rus">
+               <t>туда, в том направлении</t>
+            </tg>
             <xg>
                <x>сылань мунны</x>
-               <xtg lang="ru"><xt>идти в том направлении</xt></xtg>
+               <xt lang="rus">идти в том направлении</xt>
             </xg>
             <xg>
                <x>сылань матыстчыны</x>
-               <xtg lang="ru"><xt>подойти к нему</xt></xtg>
-               <xtg lang="ru"><xt>подойти к ней</xt></xtg>
+               <xt lang="rus">подойти к нему</xt>
+               <xt lang="rus">подойти к ней</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сыланьӧ</lemma>
-      <stem/>
-      <contlex>PRON-PERS-SG3-APR-ILL</contlex>
+      <lg>
+         <l>сыланьӧ</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG3-APR-ILL">сыланьӧ</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
@@ -1400,635 +1756,823 @@
                <head/>
                <semRel lemmaID="сылань" semRelType="see"/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сыланьысь</lemma>
-      <stem/>
-      <contlex>PRON-PERS-SG3-APR-ELA</contlex>
+      <lg>
+         <l>сыланьысь</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG3-APR-ELA">сыланьысь</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>оттуда, с той стороны</t></tg>
+            <tg lang="rus">
+               <t>оттуда, с той стороны</t>
+            </tg>
             <xg>
                <x>сыланьысь жӧ кыліс нывъяслӧн сьылӧм</x>
-               <xtg lang="ru"><xt>оттуда же было слышно пение девушек</xt></xtg>
+               <xt lang="rus">оттуда же было слышно пение девушек</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сылы</lemma>
-      <stem/>
-      <contlex>PRON-PERS-SG3-DAT</contlex>
+      <lg>
+         <l>сылы</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG3-DAT">сылы</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>мойвиис</x>
-               <xtg lang="ru"><xt>ему повезло</xt></xtg>
-               <xtg lang="ru"><xt>ей повезло</xt></xtg>
+               <xt lang="rus">ему повезло</xt>
+               <xt lang="rus">ей повезло</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сылысь</lemma>
-      <stem/>
-      <contlex>PRON-PERS-SG3-ABL</contlex>
+      <lg>
+         <l>сылысь</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG3-ABL">сылысь</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>юав сылысь</x>
-               <xtg lang="ru"><xt>спроси у него</xt></xtg>
-               <xtg lang="ru"><xt>спроси у неё</xt></xtg>
+               <xt lang="rus">спроси у него</xt>
+               <xt lang="rus">спроси у неё</xt>
             </xg>
             <xg>
                <x>~ и тӧлын лым он босьт</x>
-               <xtg lang="ru"><xt>у него и зимой снега не выпросишь</xt><re>о скупом человеке</re></xtg>
+               <xtCtn>
+                  <xt lang="rus">у него и зимой снега не выпросишь</xt>
+                  <re>о скупом человеке</re>
+               </xtCtn>
             </xg>
          </mg>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>~ книга ме эг аддзыв</x>
-               <xtg lang="ru"><xt>его книгу я не видел</xt></xtg>
+               <xt lang="rus">его книгу я не видел</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сылӧн</lemma>
-      <stem/>
-      <contlex>PRON-PERS-SG3-GEN</contlex>
+      <lg>
+         <l>сылӧн</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG3-GEN">сылӧн</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>его</t></tg>
-            <tg lang="ru"><t>её</t></tg>
+            <tg lang="rus">
+               <t>его</t>
+            </tg>
+            <tg lang="rus">
+               <t>её</t>
+            </tg>
             <xg>
                <x>тайӧ пальтоыс сылӧн</x>
-               <xtg lang="ru"><xt>это пальто его</xt></xtg>
+               <xt lang="rus">это пальто его</xt>
             </xg>
          </mg>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>сылӧн пиньыс висьӧ</x>
-               <xtg lang="ru"><xt>у него болит зуб</xt></xtg>
-               <xtg lang="ru"><xt>у неё болит зуб</xt></xtg>
+               <xt lang="rus">у него болит зуб</xt>
+               <xt lang="rus">у неё болит зуб</xt>
             </xg>
             <xg>
                <x>сылӧн чунь помыс зарниа</x>
-               <xtg lang="ru"><xt>у него руки золотые</xt></xtg>
+               <xt lang="rus">у него руки золотые</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сысянь</lemma>
-      <stem/>
-      <contlex>PRON-PERS-SG3-EGR</contlex>
+      <lg>
+         <l>сысянь</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG3-EGR">сысянь</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>сысянь быдтор позьӧ виччысьны</x>
-               <xtg lang="ru"><xt>от него всё можно ожидать</xt></xtg>
-               <xtg lang="ru"><xt>от неё всё можно ожидать</xt></xtg>
+               <xt lang="rus">от него всё можно ожидать</xt>
+               <xt lang="rus">от неё всё можно ожидать</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сытӧг</lemma>
-      <stem/>
-      <contlex>PRON-PERS-SG3-CAR</contlex>
+      <lg>
+         <l>сытӧг</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG3-CAR">сытӧг</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>нинӧм оз артмы</x>
-               <xtg lang="ru"><xt>без него ничего не получится</xt></xtg>
-               <xtg lang="ru"><xt>без неё ничего не получится</xt></xtg>
+               <xt lang="rus">без него ничего не получится</xt>
+               <xt lang="rus">без неё ничего не получится</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сыысь</lemma>
-      <stem/>
-      <contlex>PRON-PERS-SG3-ELA</contlex>
+      <lg>
+         <l>сыысь</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG3-ELA">сыысь</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>сыысь он мын</x>
-               <xtg lang="ru"><xt>от него не избавишься</xt></xtg>
-               <xtg lang="ru"><xt>от неё не избавишься</xt></xtg>
+               <xt lang="rus">от него не избавишься</xt>
+               <xt lang="rus">от неё не избавишься</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сыӧдз</lemma>
-      <stem/>
-      <contlex>PRON-PERS-SG3-TER</contlex>
+      <lg>
+         <l>сыӧдз</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG3-TER">сыӧдз</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>сыӧдз некодлы абу мог</x>
-               <xtg lang="ru"><xt>до него никому нет дела</xt></xtg>
-               <xtg lang="ru"><xt>до неё никому нет дела</xt></xtg>
+               <xt lang="rus">до него никому нет дела</xt>
+               <xt lang="rus">до неё никому нет дела</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сыӧн</lemma>
-      <stem/>
-      <contlex>PRON-PERS-SG3-INSTR</contlex>
+      <lg>
+         <l>сыӧн</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG3-INSTR">сыӧн</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>сыӧн ставӧн дӧвӧленӧсь</x>
-               <xtg lang="ru"><xt>им все довольны</xt></xtg>
-               <xtg lang="ru"><xt>ей все довольны</xt></xtg>
-               <xtg lang="ru"><xt>ею все довольны</xt></xtg>
+               <xt lang="rus">им все довольны</xt>
+               <xt lang="rus">ей все довольны</xt>
+               <xt lang="rus">ею все довольны</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сійӧ</lemma>
-      <stem/>
-      <contlex>PRON-PERS-SG3-NOM</contlex>
+      <lg>
+         <l>сійӧ</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG3-NOM">сійӧ</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
-               <head><!-- сы — краткая основа в н-рых косвенных падежах и в послеложных конструкциях --></head>
+               <head>
+                  <!-- сы — краткая основа в н-рых косвенных падежах и в послеложных конструкциях -->
+               </head>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">он</t><t pos="PRON-PERS">она</t><t pos="PRON-PERS">оно</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">он</t>
+               <t pos="PRON-PERS">она</t>
+               <t pos="PRON-PERS">оно</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сійӧс</lemma>
-      <stem/>
-      <contlex>PRON-PERS-SG3-ACC</contlex>
+      <lg>
+         <l>сійӧс</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG3-ACC">сійӧс</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>ме ог тӧд</x>
-               <xtg lang="ru"><xt>его я не знаю</xt></xtg>
-               <xtg lang="ru"><xt>её я не знаю</xt></xtg>
+               <xt lang="rus">его я не знаю</xt>
+               <xt lang="rus">её я не знаю</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>та</lemma>
-      <stem/>
-      <contlex>PRON-PERS-SG3-NOM</contlex>
+      <lg>
+         <l>та</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG3-NOM">та</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>тайӧ</lemma>
-      <stem/>
-      <contlex>PRON-PERS-SG3-NOM</contlex>
+      <lg>
+         <l>тайӧ</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG3-NOM">тайӧ</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>тайӧяс</lemma>
-      <stem/>
-      <contlex>PRON-PERS-PL3-NOM</contlex>
+      <lg>
+         <l>тайӧяс</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-PL3-NOM">тайӧяс</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>тэ</lemma>
-      <stem/>
-      <contlex>PRON-PERS-SG2-NOM</contlex>
+      <lg>
+         <l>тэ</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG2-NOM">тэ</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
-               <head><com>полная основа в нек-рых косв. п.</com></head>
+               <head>
+                  <re>полная основа в нек-рых косв. п.</re>
+               </head>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">ты</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">ты</t>
+            </tg>
             <xg>
                <x>тэ выяджык али госаджык?</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">чем ты лучше других?</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">чем ты лучше других?</xt>
             </xg>
          </mg>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>тэ вомысь да ен пельӧ</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">твоими бы устами да мёд пить</xt></xtg>
-               <literal>
-                  <xtg lang="ru"><xt>из твоих уст до слуха бога</xt></xtg>
-               </literal>
+               <xt lang="rus" pos="PRON-PERS">твоими бы устами да мёд пить</xt>
+               <xt lang="rus" tType="literal">из твоих уст до слуха бога</xt>
             </xg>
          </mg>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>тэ ног</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">по-твоему</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">по-твоему</xt>
             </xg>
             <xg>
                <x>тэ ордӧ</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">к тебе</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">к тебе</xt>
             </xg>
             <xg>
                <x>тэ сайӧ дзебся</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">спрячусь за тебя</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">спрячусь за тебя</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>тэа-меатӧг</lemma>
-      <stem/>
-      <contlex>PRON-DUAL</contlex>
+      <lg>
+         <l>тэа-меатӧг</l>
+         <stg>
+            <st kpvContlex="PRON-DUAL">тэа-меатӧг</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
-               <head><com>взаимн.</com></head>
+               <head>
+                  <re>взаимн.</re>
+               </head>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">без нас с тобой</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">без нас с тобой</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>тэа-меаӧс</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>тэа-меаӧс</l>
+         <stg>
+            <st kpvContlex="">тэа-меаӧс</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
-               <head><com>взаимн.</com></head>
+               <head>
+                  <re>взаимн.</re>
+               </head>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">нас с тобой</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">нас с тобой</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>тэа-мэа</lemma>
-      <stem/>
-      <contlex>PRON-DUAL</contlex>
+      <lg>
+         <l>тэа-мэа</l>
+         <stg>
+            <st kpvContlex="PRON-DUAL">тэа-мэа</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
-               <head><com>взаимн.</com></head>
+               <head>
+                  <re>взаимн.</re>
+               </head>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">мы с тобой</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">мы с тобой</t>
+            </tg>
             <xg>
                <x/>
-               <xtg lang="ru"><xt/></xtg>
+               <xtCtn>
+                  <xt lang="rus"/>
+                  <re/>
+               </xtCtn>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>тэа-мэалы</lemma>
-      <stem/>
-      <contlex>PRON-DUAL</contlex>
+      <lg>
+         <l>тэа-мэалы</l>
+         <stg>
+            <st kpvContlex="PRON-DUAL">тэа-мэалы</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
-               <head><com>взаимн.</com></head>
+               <head>
+                  <re>взаимн.</re>
+               </head>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">нам с тобой</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">нам с тобой</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>тэа-мэалӧн</lemma>
-      <stem/>
-      <contlex>PRON-DUAL</contlex>
+      <lg>
+         <l>тэа-мэалӧн</l>
+         <stg>
+            <st kpvContlex="PRON-DUAL">тэа-мэалӧн</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
-               <head><com>взаимн.</com></head>
+               <head>
+                  <re>взаимн.</re>
+               </head>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">у нас с тобой</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">у нас с тобой</t>
+            </tg>
             <xg genreType="saying">
                <x>тэа-меалӧн шудыс кӧвтымын ва кодь: кыскигас польдӧма, а кыскан да немтор абу</x>
-               <xtg lang="ru"><xt> счастье наше с тобой как вода в бредне: тянешь — набухло, а вытянешь — ничего
-               нет</xt></xtg>
+               <xt lang="rus">счастье наше с тобой как вода в бредне: тянешь — набухло, а вытянешь — ничего нет</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>тэд</lemma>
-      <stem/>
-      <contlex>PRON-PERS-SG2-DAT</contlex>
+      <lg>
+         <l>тэд</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG2-DAT">тэд</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>тэкӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>тэкӧд</l>
+         <stg>
+            <st kpvContlex="">тэкӧд</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>тэкӧд ӧти пос вылӧ оз позь сувтны</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">с тобой каши не сваришь</xt></xtg>
-               <literal>
-                  <xtg lang="ru"><xt>с тобой на одну ступеньку нельзя становиться</xt></xtg>
-               </literal>
+               <xt lang="rus" pos="PRON-PERS">с тобой каши не сваришь</xt>
+               <xt lang="rus" tType="literal">с тобой на одну ступеньку нельзя становиться</xt>
             </xg>
             <xg>
                <x>ветла тэкӧд</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">схожу с тобой</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">схожу с тобой</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>тэла</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>тэла</l>
+         <stg>
+            <st kpvContlex="">тэла</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>тэла локтім</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">мы пришли за тобой</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">мы пришли за тобой</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>тэн</lemma>
-      <stem/>
-      <contlex>PRON-PERS-SG2-DAT</contlex>
+      <lg>
+         <l>тэн</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG2-DAT">тэн</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>тэнад</lemma>
-      <stem/>
-      <contlex>PRON-PERS-SG2-GEN</contlex>
+      <lg>
+         <l>тэнад</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG2-GEN">тэнад</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>тэнад понйыд?</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">твоя собака?</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">твоя собака?</xt>
             </xg>
          </mg>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">твой</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">твой</t>
+            </tg>
             <xg>
                <x>тэнад кепысь</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">твои варежки</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">твои варежки</xt>
             </xg>
             <xg>
                <x>тэнад кылыд чертӧг-пурттӧг юртӧ кералас</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">твоё слово без топора и ножа голову отсечёт</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">твоё слово без топора и ножа голову отсечёт</xt>
             </xg>
             <xg>
                <x>тэнад помысь</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">где уж тебе</xt></xtg>
-               <xtg lang="ru"><xt pos="PRON-PERS">от тебя пользы не будет</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">где уж тебе</xt>
+               <xt lang="rus" pos="PRON-PERS">от тебя пользы не будет</xt>
             </xg>
          </mg>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>тэнад понйыд?</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">твоя собака?</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">твоя собака?</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>тэнсьыд</lemma>
-      <stem/>
-      <contlex>PRON-PERS-SG2-ABL</contlex>
+      <lg>
+         <l>тэнсьыд</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG2-ABL">тэнсьыд</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>тэнсьыд он босьт</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">у тебя не возьмёшь</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">у тебя не возьмёшь</xt>
             </xg>
          </mg>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">твой</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">твой</t>
+            </tg>
             <xg>
                <x>тэнсьыд гижӧдтӧ сьӧкыд гӧгӧрвоны</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">твой почерк трудно разобрать</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">твой почерк трудно разобрать</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>тэныд</lemma>
-      <stem/>
-      <contlex>PRON-PERS-SG2-DAT</contlex>
+      <lg>
+         <l>тэныд</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-SG2-DAT">тэныд</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>тэныд вӧзъя</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">предлагаю тебе</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">предлагаю тебе</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>тэнӧ</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>тэнӧ</l>
+         <stg>
+            <st kpvContlex="">тэнӧ</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>кора тэнӧ</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">прошу тебя</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">прошу тебя</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>тэтӧг</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>тэтӧг</l>
+         <stg>
+            <st kpvContlex="">тэтӧг</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>тэтӧг оз мунны</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">без тебя не идут</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">без тебя не идут</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>тэысь</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>тэысь</l>
+         <stg>
+            <st kpvContlex="">тэысь</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>тэысь ог кут повны</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">тебя не буду бояться</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">тебя не буду бояться</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>ті</lemma>
-      <stem/>
-      <contlex>PRON-PERS-PL2-NOM</contlex>
+      <lg>
+         <l>ті</l>
+         <stg>
+            <st kpvContlex="PRON-PERS-PL2-NOM">ті</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
@@ -2036,127 +2580,158 @@
                <head/>
                <semRel stemID="тіян_PRON-PERS"/>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">вы</t><re>полная основа "тіян"</re></tg>
+            <tg lang="rus">
+               <tCtn>
+                  <t pos="PRON-PERS">вы</t>
+                  <re>полная основа "тіян"</re>
+               </tCtn>
+            </tg>
             <xg>
                <x>ті асьныд тӧданныд</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">вы сами знаете</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">вы сами знаете</xt>
             </xg>
             <xg>
                <x>ті кысь локтанныд?</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">вы откуда идёте?</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">вы откуда идёте?</xt>
             </xg>
          </mg>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>Ті вок (ті коддьӧм)</x>
-               <xtg lang="ru"><xt pos="PRON-PERS"><att>неодобр.</att>ваш брат</xt></xtg>
+               <att att="disapprovingly"/>
+               <xt lang="rus" pos="PRON-PERS">ваш брат</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>тіян</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>тіян</l>
+         <stg>
+            <st kpvContlex="">тіян</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="PRON-PERS">ваш</t></tg>
+            <tg lang="rus">
+               <t pos="PRON-PERS">ваш</t>
+            </tg>
             <xg>
                <x>кӧн тіян юкмӧсыд?</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">где ваш колодец?</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">где ваш колодец?</xt>
             </xg>
             <xg>
                <x>тіян лызьясыд век мавтасаӧсь</x>
-               <xtg lang="ru"><xt>ваши собаки всегда накормлены; держать порох сухим </xt></xtg>
-               <literal>
-                  <xtg lang="ru"><xt>у вас лыжи всегда смазаны</xt></xtg>
-               </literal>
+               <xt lang="rus">ваши собаки всегда накормлены; держать порох сухим</xt>
+               <xt lang="rus" tType="literal">у вас лыжи всегда смазаны</xt>
             </xg>
             <xg>
                <x>тіян служба — кывзысьны, а менам — не пыксьыны</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">ваша служба — слушаться, а моя — не сопротивляться</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">ваша служба — слушаться, а моя — не сопротивляться</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>тіянлы</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>тіянлы</l>
+         <stg>
+            <st kpvContlex="">тіянлы</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>тіянлы ковмас висьтавны</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">вам придётся рассказать</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">вам придётся рассказать</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>тіянтӧг</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>тіянтӧг</l>
+         <stg>
+            <st kpvContlex="">тіянтӧг</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>тіянтӧг тайӧ оз артмы</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">без вас это не получится</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">без вас это не получится</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>тіянысь</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>тіянысь</l>
+         <stg>
+            <st kpvContlex="">тіянысь</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>тіянысь абу омӧльӧсь</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">не хуже вас</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">не хуже вас</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>тіянӧс</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>тіянӧс</l>
+         <stg>
+            <st kpvContlex="">тіянӧс</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>тіянӧс ог босьтӧй</x>
-               <xtg lang="ru"><xt pos="PRON-PERS">вас не возьмём</xt></xtg>
+               <xt lang="rus" pos="PRON-PERS">вас не возьмём</xt>
             </xg>
          </mg>
       </e>
    </entry>
-</dict>
+</r>
