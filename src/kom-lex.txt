@@ -15,6 +15,7 @@ Multichar_Symbols
 +Indef
 +Refl +Rel +Interr +Recipr
 +Hum +NonHum ! distinguishing коді and мый 2011-11-09
++Parenthetic
 
 ! FMT: was missing 9/april/2011
 +Pers
@@ -42,6 +43,7 @@ Multichar_Symbols
 +Iter ! Iterative form expressing number of times
 +Ord
 +Presentational ! ӧти-кӧ, мӧд-кӧ _first of all, secondly..._
++Intens ! Intensifier
 
 ! Verbal MSP
 +Prs +Fut +Fut1 +Prt1 +Prt2 +Prf
@@ -305,8 +307,8 @@ No-e-element-N ;	   ! ../../tmp/out/No-e-element-N_kom-lex.xml
 No-e-element-V ;	   ! ../../tmp/out/No-e-element-V_kom-lex.xml
 NUM ;		   ! ../../tmp/out/NUM_kom-lex.xml
 NUM-PREFIXES ; ! num-kom-morph.txt
-PART ;		   ! ../../tmp/out/PART_kom-lex.xml
-PART-ONOM ;	   ! ../../tmp/out/PART-ONOM_kom-lex.xml
+PCLE ;		   ! ../../tmp/out/PCLE_kom-lex.xml
+PCLE-ONOM ;	   ! ../../tmp/out/PCLE-ONOM_kom-lex.xml
 PERS ;         ! pron-kom-morph.txt
 POSTP ;		   ! ../../tmp/out/POSTP_kom-lex.xml
 PRON ;		   ! ../../tmp/out/PRON_kom-lex.xml
@@ -536,6 +538,9 @@ LEXICON ADV-F !
 LEXICON ADV-STATE !
 +Adv+State: COMPARATIVE ; !
 
+LEXICON AdvParenthetic
++Adv+Parenthetic: # ;
+
 LEXICON ADVTAG ! these are checked as advs.
 +Adv: COMPARATIVE ;
 
@@ -632,6 +637,9 @@ LEXICON EndConj
 
 LEXICON EndPart
 +Pcle: # ;
+
+LEXICON PcleIntens
++Pcle+Intens: # ;
 
 LEXICON EndInterj
 +Interj: # ;
