@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
 <!--+
-    | Generate lex files from XML (at the moment only for Komi)
+    | Generate lex files from XML (at the moment only for Komi, Moksha,
+    | Hill Mari, Erzya)
+    | apply to Komi
     | NB: An XSLT-2.0-processor is needed!
     | Usage: java -Xmx2048m net.sf.saxon.Transform -it main XSLT_SCRIPT inFile="INPUT-FILE"
     | 
@@ -30,7 +32,7 @@
   <xsl:param name="outDir" select="'out'"/>
   <xsl:variable name="of" select="'txt'"/>
   <xsl:variable name="debug" select="true()"/>
-  <xsl:variable name="FstEntries" select="count(document($inFile)/dict/entry[not(@exclude='fst')])"/>
+  <xsl:variable name="FstEntries" select="count(document($inFile)/r/entry[not(@exclude='fst')])"/>
 
   <xsl:template match="/" name="main">
     
@@ -55,25 +57,25 @@
 	<!-- this might have to be refined: too underspecified as for preceding::lemma-stem combinations -->
 	<!-- xsl:for-each select="./dict/entry[not(contains(./lemma/text(), $us))] the underscore should be replaced by "% "-->
 	<!--xsl:for-each select="document($inFile)/dict/entry[not(./lemma = preceding::entry/lemma and ./stem = preceding::entry/stem)][not(./@exclude='fst')]"-->
-	<xsl:for-each select="document($inFile)/dict/entry[not(./@exclude='fst')]">
+	<xsl:for-each select="document($inFile)/r/entry[not(./@exclude='fst')]/lg/stg/st">
 
 	  <xsl:variable name="out">
 	    <out>
 	      <e>
 		<xsl:attribute name="stem">
-		  <xsl:value-of select="normalize-space(./stem)"/>
+		  <xsl:value-of select="replace(normalize-space(.), ' ', '% ')"/>
 		</xsl:attribute>
 		<xsl:attribute name="pos">
-		  <xsl:value-of select="normalize-space(./pos)"/>
+		  <xsl:value-of select="normalize-space(../../../pos)"/>
 		</xsl:attribute>
 		<xsl:attribute name="cl">
-		  <xsl:value-of select="normalize-space(./contlex)"/>
+		  <xsl:value-of select="normalize-space(@kpvContlex)"/>
 		</xsl:attribute>
 		<xsl:attribute name="t">
-		  <xsl:value-of select="normalize-space(./article[1]/eng/choice/variant[1])"/>
+		  <xsl:value-of select="normalize-space(../../../e[1]/mg[1]/tg[@lang='eng']/t[1])"/>
 		</xsl:attribute>
-		<!-- xsl:value-of select="normalize-space(./lemma)"/ replace underscore by "% "-->
-		<xsl:value-of select="translate(normalize-space(./lemma), '_', '%$spc')"/>		
+		<!-- xsl:value-of select="normalize-space(../../l)"/ replace underscore by "% "-->
+		<xsl:value-of select="replace(normalize-space(../../l), ' ', '% ')"/>		
 	      </e>
 	    </out>
 	  </xsl:variable>
@@ -116,4 +118,3 @@
   </xsl:variable>
 
 </xsl:stylesheet>
-
