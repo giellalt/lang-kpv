@@ -1,4059 +1,5188 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dict xsi:noNamespaceSchemaLocation="../dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty">
+<r xsi:noNamespaceSchemaLocation="../../../myv/script/dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty">
    <entry>
-      <lemma>ветымын</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>ветымын</l>
+         <stg>
+            <st kpvContlex="NUMTAG">ветымын</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
-               <head><i>колич.</i></head>
+               <head>
+                  <re>колич.</re>
+               </head>
             </m>
-            <tg lang="ru"><t pos="QNT">пятьдесят</t></tg>
+            <tg lang="rus">
+               <t pos="QNT">пятьдесят</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>ветымын% кык</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>ветымын% кык</l>
+         <stg>
+            <st kpvContlex="NUMTAG">ветымын% кык</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>пятьдесят два</t></tg>
+            <tg lang="rus">
+               <t>пятьдесят два</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>ветымынӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>ветымынӧд</l>
+         <stg>
+            <st kpvContlex="">ветымынӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>пятидесятый</t></tg>
+            <tg lang="rus">
+               <t>пятидесятый</t>
+            </tg>
             <xg>
                <x>ветымынӧд лун</x>
-               <xtg lang="ru"><xt>пятидесятый день</xt></xtg>
+               <xt lang="rus">пятидесятый день</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>вит</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>вит</l>
+         <stg>
+            <st kpvContlex="NUMTAG">вит</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
    </entry>
    <entry exclude="fst">
-      <lemma>витнан</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>витнан</l>
+         <stg>
+            <st kpvContlex="">витнан</st>
+         </stg>
+      </lg>
       <pos>QNT-COLL-UNIV</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>все пять</t></tg>
-            <tg lang="ru"><t> вся пятёрка</t></tg>
+            <tg lang="rus">
+               <t>все пять</t>
+            </tg>
+            <tg lang="rus">
+               <t>вся пятёрка</t>
+            </tg>
             <xg>
                <x>витнан чойыс</x>
-               <xtg lang="ru"><xt>все пять сестёр</xt></xtg>
+               <xt lang="rus">все пять сестёр</xt>
             </xg>
             <xg>
                <x>витнан чуньыс висьӧ</x>
-               <xtg lang="ru"><xt>все пять пальцев болят</xt></xtg>
+               <xt lang="rus">все пять пальцев болят</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>витнанныд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>витнанныд</l>
+         <stg>
+            <st kpvContlex="">витнанныд</st>
+         </stg>
+      </lg>
       <pos>QNT-COLL-UNIV</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>вы пятеро</t></tg>
+            <tg lang="rus">
+               <t>вы пятеро</t>
+            </tg>
             <xg>
                <x>витнанныд воинныд?</x>
-               <xtg lang="ru"><xt>вы все пятеро вернулись?</xt></xtg>
+               <xt lang="rus">вы все пятеро вернулись?</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>витнанным</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>витнанным</l>
+         <stg>
+            <st kpvContlex="">витнанным</st>
+         </stg>
+      </lg>
       <pos>QNT-COLL-UNIV</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>мы пятеро</t></tg>
+            <tg lang="rus">
+               <t>мы пятеро</t>
+            </tg>
             <xg>
                <x>витнанным ветлам</x>
-               <xtg lang="ru"><xt>мы все пятеро сходим</xt></xtg>
+               <xt lang="rus">мы все пятеро сходим</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>витнанныс</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>витнанныс</l>
+         <stg>
+            <st kpvContlex="">витнанныс</st>
+         </stg>
+      </lg>
       <pos>QNT-COLL-UNIV</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>они пятеро</t></tg>
+            <tg lang="rus">
+               <t>они пятеро</t>
+            </tg>
             <xg>
                <x>витнаннысӧ ошкӧны</x>
-               <xtg lang="ru"><xt>их всех пятерых хвалят</xt></xtg>
+               <xt lang="rus">их всех пятерых хвалят</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>витсё</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>витсё</l>
+         <stg>
+            <st kpvContlex="NUMTAG">витсё</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
-               <head><i>колич.</i></head>
+               <head>
+                  <re>колич.</re>
+               </head>
             </m>
-            <tg lang="ru"><t pos="QNT">пятьсот</t></tg>
+            <tg lang="rus">
+               <t pos="QNT">пятьсот</t>
+            </tg>
             <xg>
                <x>витсёысь</x>
-               <xtg lang="ru"><xt>из пятисот</xt></xtg>
+               <xt lang="rus">из пятисот</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>витсёа</lemma>
-      <stem/>
-      <contlex>Noun1</contlex>
+      <lg>
+         <l>витсёа</l>
+         <stg>
+            <st kpvContlex="Noun1">витсёа</st>
+         </stg>
+      </lg>
       <pos>QNT</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>пятисотенный</t></tg>
+            <tg lang="rus">
+               <t>пятисотенный</t>
+            </tg>
             <xg>
                <x>витсёа вежны</x>
-               <xtg lang="ru"><xt>разменять пятисотенную</xt></xtg>
+               <xt lang="rus">разменять пятисотенную</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>витсёысь</lemma>
-      <stem/>
-      <contlex>NUM-CARD-ITER</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>витсёысь</l>
+         <stg>
+            <st kpvContlex="NUM-CARD-ITER">витсёысь</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>пятьсот раз</t></tg>
+            <tg lang="rus">
+               <t>пятьсот раз</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>витсёӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>витсёӧд</l>
+         <stg>
+            <st kpvContlex="">витсёӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>пятисотый</t></tg>
+            <tg lang="rus">
+               <t>пятисотый</t>
+            </tg>
             <xg>
                <x>витсёӧд номер</x>
-               <xtg lang="ru"><xt>пятисотый номер</xt></xtg>
+               <xt lang="rus">пятисотый номер</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>витӧд</lemma>
-      <stem/>
-      <contlex>ORD</contlex>
-      <pos>NUM</pos>
-   </entry>
-   <entry exclude="fst">
-      <lemma>витӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>витӧд</l>
+         <stg>
+            <st kpvContlex="ORD">витӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>пятый</t></tg>
+            <tg lang="rus">
+               <t>пятый</t>
+            </tg>
             <xg>
                <x>витӧд юкӧн</x>
-               <xtg lang="ru"><xt>пятая часть</xt></xtg>
+               <xt lang="rus">пятая часть</xt>
             </xg>
             <xg>
                <x>витӧдысь ветлыны</x>
-               <xtg lang="ru"><xt>съездить в пятый раз</xt></xtg>
-            </xg>
-            <xg>
-               <x>витӧд кӧ</x>
-               <xtg lang="ru"><xt><i>вводн. сл.</i> в-пятых</xt></xtg>
+               <xt lang="rus">съездить в пятый раз</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>гоз-мӧдысь</lemma>
-      <stem/>
-      <contlex/>
-      <pos>NUM-ORD</pos>
+      <lg>
+         <l>витӧд кӧ</l>
+         <stg>
+            <st kpvContlex="ORD">витӧд кӧ</st>
+         </stg>
+      </lg>
+      <pos>ADV-PARENTHETIC</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>раза-два, раз-другой, несколько раз</t></tg>
+            <tg lang="rus">
+               <t>в-пятых</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lg>
+         <l>гоз-мӧдысь</l>
+         <stg>
+            <st kpvContlex="">гоз-мӧдысь</st>
+         </stg>
+      </lg>
+      <pos>ORD-ITER</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <t>раза-два, раз-другой, несколько раз</t>
+            </tg>
             <xg>
                <x>гоз-мӧдысь колӧ на ветлыны</x>
-               <xtg lang="ru"><xt>раза два надо ещё сходить</xt></xtg>
+               <xt lang="rus">раза два надо ещё сходить</xt>
             </xg>
             <xg>
                <x>гоз-мӧдысь увтыштісны понъяс</x>
-               <xtg lang="ru"><xt>несколько раз гавкнули собаки</xt></xtg>
+               <xt lang="rus">несколько раз гавкнули собаки</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>дас</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>дас</l>
+         <stg>
+            <st kpvContlex="NUMTAG">дас</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="NUM-CARD">десять</t><t pos="N">десятка</t></tg>
+            <tg lang="rus">
+               <t pos="CARD">десять</t>
+               <t pos="N">десятка</t>
+            </tg>
             <xg>
                <x>дас во</x>
-               <xtg lang="ru"><xt>десять лет</xt></xtg>
+               <xt lang="rus">десять лет</xt>
             </xg>
             <xg>
                <x>дас морт</x>
-               <xtg lang="ru"><xt>десять человек</xt></xtg>
+               <xt lang="rus">десять человек</xt>
             </xg>
             <xg>
                <x>дас мында</x>
-               <xtg lang="ru"><xt>вдесятеро больше</xt></xtg>
-               <xtg lang="ru"><xt> десятикратный</xt></xtg>
+               <xt lang="rus">вдесятеро больше</xt>
+               <xt lang="rus">десятикратный</xt>
             </xg>
             <xg>
                <x>тыр дасъяс</x>
-               <xtg lang="ru"><xt>круглые десятки</xt></xtg>
+               <xt lang="rus">круглые десятки</xt>
             </xg>
             <xg>
                <x>дасӧн-дасӧн</x>
-               <xtg lang="ru"><xt>десятками</xt></xtg>
+               <xt lang="rus">десятками</xt>
             </xg>
             <xg>
                <x>дас кыкӧд</x>
-               <xtg lang="ru"><xt>двенадцатый</xt></xtg>
+               <xt lang="rus">двенадцатый</xt>
             </xg>
             <xg>
                <x>дас пельӧ</x>
-               <xtg lang="ru"><xt>на десять частей</xt></xtg>
+               <xt lang="rus">на десять частей</xt>
             </xg>
             <xg>
                <x>дас пӧв</x>
-               <xtg lang="ru"><xt>вдесятеро</xt></xtg>
-               <xtg lang="ru"><xt> десять раз</xt><re>что-л. сделать</re></xtg>
+               <xt lang="rus">вдесятеро</xt>
+               <xtCtn>
+                  <xt lang="rus">десять раз</xt>
+                  <re>что-л. сделать</re>
+               </xtCtn>
             </xg>
             <xg>
                <x>дас пӧвстӧн</x>
-               <xtg lang="ru"><xt>в десятикратном размере</xt></xtg>
-            </xg>
-            <xg>
-               <x>дас ур<range>уст.</range></x>
-               <xtg lang="ru"><xt>три копейки</xt></xtg>
-               <literal>
-                  <xtg lang="ru"><xt>десять белок</xt></xtg>
-               </literal>
-            </xg>
-            <xg>
-               <x>дас ура</x>
-               <xtg lang="ru"><xt>ценою в три копейки, по три копейки</xt></xtg>
+               <xt lang="rus">в десятикратном размере</xt>
             </xg>
             <xg genreType="riddle">
                <x>дас вок олӧны, луннас тюрьма, войнас вӧля</x>
-               <xtg lang="ru"><xt>десять братьев живут, днём в тюрьме, ночью на свободе</xt></xtg>
+               <xt lang="rus">десять братьев живут, днём в тюрьме, ночью на свободе</xt>
                <answer>
-                  <x>кок чуньяс</x>
-                  <xtg lang="ru"><xt>пальцы ног</xt></xtg>
+                  <native>кок чуньяс</native>
+                  <xt lang="rus">пальцы ног</xt>
                </answer>
             </xg>
             <xg genreType="riddle">
                <x>дас кык йиа Ӧндрей</x>
-               <xtg lang="ru"><xt>Андрей, опоясанный двенадцатью опоясками</xt></xtg>
+               <xt lang="rus">Андрей, опоясанный двенадцатью опоясками</xt>
                <answer>
-                  <x>гымга</x>
-                  <xtg lang="ru"><xt>верша</xt></xtg>
+                  <native>гымга</native>
+                  <xt lang="rus">верша</xt>
                </answer>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>дас% вит</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>дас% вит</l>
+         <stg>
+            <st kpvContlex="NUMTAG">дас% вит</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>пятнадцать</t></tg>
+            <tg lang="rus">
+               <t>пятнадцать</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>дас% квайт</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>дас% квайт</l>
+         <stg>
+            <st kpvContlex="NUMTAG">дас% квайт</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>шестнадцать</t></tg>
+            <tg lang="rus">
+               <t>шестнадцать</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>дас% куим</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>дас% куим</l>
+         <stg>
+            <st kpvContlex="NUMTAG">дас% куим</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>тринадцать</t></tg>
+            <tg lang="rus">
+               <t>тринадцать</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>дас% кык</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>дас% кык</l>
+         <stg>
+            <st kpvContlex="NUMTAG">дас% кык</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>двенадцать</t></tg>
+            <tg lang="rus">
+               <t>двенадцать</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>дас% кӧкъямыс</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>дас% кӧкъямыс</l>
+         <stg>
+            <st kpvContlex="NUMTAG">дас% кӧкъямыс</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>восемнадцать</t></tg>
+            <tg lang="rus">
+               <t>восемнадцать</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>дас% нёль</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>дас% нёль</l>
+         <stg>
+            <st kpvContlex="NUMTAG">дас% нёль</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>четырнадцать</t></tg>
+            <tg lang="rus">
+               <t>четырнадцать</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>дас% сизим</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>дас% сизим</l>
+         <stg>
+            <st kpvContlex="NUMTAG">дас% сизим</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>семнадцать</t></tg>
+            <tg lang="rus">
+               <t>семнадцать</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>дас% ӧкмыс</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>дас% ӧкмыс</l>
+         <stg>
+            <st kpvContlex="NUMTAG">дас% ӧкмыс</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>девятнадцать</t></tg>
+            <tg lang="rus">
+               <t>девятнадцать</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>дас% ӧти</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>дас% ӧти</l>
+         <stg>
+            <st kpvContlex="NUMTAG">дас% ӧти</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>одиннадцать</t></tg>
+            <tg lang="rus">
+               <t>одиннадцать</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>дас% ӧтик</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>дас% ӧтик</l>
+         <stg>
+            <st kpvContlex="NUMTAG">дас% ӧтик</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>одиннадцать</t></tg>
+            <tg lang="rus">
+               <t>одиннадцать</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>даса</lemma>
-      <stem/>
-      <contlex>Noun1</contlex>
+      <lg>
+         <l>даса</l>
+         <stg>
+            <st kpvContlex="Noun1">даса</st>
+         </stg>
+      </lg>
       <pos>QNT</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="N">десятка</t></tg>
-            <tg lang="ru"><t pos="A">десяти-</t></tg>
+            <tg lang="rus">
+               <t pos="N">десятка</t>
+            </tg>
+            <tg lang="rus">
+               <t pos="A">десяти-</t>
+            </tg>
             <xg>
                <x>даса деньга</x>
-               <xtg lang="ru"><xt>десятка, десятирублёвка</xt></xtg>
+               <xt lang="rus">десятка, десятирублёвка</xt>
             </xg>
             <xg>
                <x>даса карті</x>
-               <xtg lang="ru"><xt>десятка</xt><re>игральная карта с десятью очками</re></xtg>
+               <xtCtn>
+                  <xt lang="rus">десятка</xt>
+                  <re>игральная карта с десятью очками</re>
+               </xtCtn>
             </xg>
             <xg>
                <x>даса семья</x>
-               <xtg lang="ru"><xt>семья в десять человек</xt></xtg>
+               <xt lang="rus">семья в десять человек</xt>
             </xg>
             <xg>
                <x>удждонсӧ вайис дасаясӧн</x>
-               <xtg lang="ru"><xt>зарплату принёс десятками</xt></xtg>
+               <xt lang="rus">зарплату принёс десятками</xt>
             </xg>
             <xg>
                <x>даса чумали</x>
-               <xtg lang="ru"><xt>суслон-десятка</xt><re>из десяти снопов</re></xtg>
+               <xtCtn>
+                  <xt lang="rus">суслон-десятка</xt>
+                  <re>из десяти снопов</re>
+               </xtCtn>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>дасысь</lemma>
-      <stem/>
-      <contlex>NUM-CARD-ITER</contlex>
-      <pos>NUM-CARD-ITER</pos>
+      <lg>
+         <l>дасысь</l>
+         <stg>
+            <st kpvContlex="NUM-CARD-ITER">дасысь</st>
+         </stg>
+      </lg>
+      <pos>CARD-ITER</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>десять раз</t></tg>
-            <tg lang="ru"><t> десятью</t></tg>
+            <tg lang="rus">
+               <t>десять раз</t>
+            </tg>
+            <tg lang="rus">
+               <t>десятью</t>
+            </tg>
             <xg>
                <x>дасысь дас — сё</x>
-               <xtg lang="ru"><xt>десятью десять — сто</xt></xtg>
+               <xt lang="rus">десятью десять — сто</xt>
             </xg>
             <xg>
                <x>дасысь лыддьыны кывбур</x>
-               <xtg lang="ru"><xt>десять раз прочитать стих</xt></xtg>
+               <xt lang="rus">десять раз прочитать стих</xt>
             </xg>
             <xg>
                <x>дасысь шуны ӧтиторсӧ</x>
-               <xtg lang="ru"><xt>десять раз сказать одно и то же</xt></xtg>
+               <xt lang="rus">десять раз сказать одно и то же</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>дасӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>дасӧд</l>
+         <stg>
+            <st kpvContlex="">дасӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>десятый</t></tg>
+            <tg lang="rus">
+               <t>десятый</t>
+            </tg>
             <xg>
                <x>быд дасӧд</x>
-               <xtg lang="ru"><xt>каждый десятый</xt></xtg>
+               <xt lang="rus">каждый десятый</xt>
             </xg>
             <xg>
                <x>дасӧд класс</x>
-               <xtg lang="ru"><xt>десятый класс</xt></xtg>
+               <xt lang="rus">десятый класс</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>дасӧн</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>дасӧн</l>
+         <stg>
+            <st kpvContlex="">дасӧн</st>
+         </stg>
+      </lg>
       <pos>QNT-COLL-UNIV</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>вдесятером</t></tg>
-            <tg lang="ru"><t> десятеро</t></tg>
+            <tg lang="rus">
+               <t>вдесятером</t>
+            </tg>
+            <tg lang="rus">
+               <t>десятеро</t>
+            </tg>
             <xg>
                <x>ми дасӧн ветлім</x>
-               <xtg lang="ru"><xt>мы вдесятером ездили</xt></xtg>
+               <xt lang="rus">мы вдесятером ездили</xt>
             </xg>
             <xg>
                <x>дасӧн тані олӧны</x>
-               <xtg lang="ru"><xt>десятеро здесь живут</xt></xtg>
+               <xt lang="rus">десятеро здесь живут</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>джынйӧн</lemma>
-      <stem>джынй</stem>
-      <contlex/>
+      <lg>
+         <l>джынйӧн</l>
+         <stg>
+            <st kpvContlex="">джынй</st>
+         </stg>
+      </lg>
       <pos>QNT</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>по половине</t><re>дать, взять и т.д.</re></tg>
-            <tg lang="ru"><t>по половинке</t><re>дать, взять и т.д.</re></tg>
-            <tg lang="ru"><t>неполно, не до краёв, не до верху</t></tg>
+            <tg lang="rus">
+               <tCtn>
+                  <t>по половине</t>
+                  <re>дать, взять и т.д.</re>
+               </tCtn>
+            </tg>
+            <tg lang="rus">
+               <tCtn>
+                  <t>по половинке</t>
+                  <re>дать, взять и т.д.</re>
+               </tCtn>
+            </tg>
+            <tg lang="rus">
+               <t>неполно, не до краёв, не до верху</t>
+            </tg>
             <xg>
                <x>джынйӧн кисьтавны гуӧ картупель</x>
-               <xtg lang="ru"><xt>недосыпать картофель</xt></xtg>
+               <xt lang="rus">недосыпать картофель</xt>
             </xg>
             <xg>
                <x>стӧканъяс джынйӧн кисьталӧма</x>
-               <xtg lang="ru"><xt>стаканы налиты неполно</xt></xtg>
+               <xt lang="rus">стаканы налиты неполно</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
-               <head><com>числ.в сочет. с сущ. твор. п.</com></head>
+               <head>
+                  <re>числ.в сочет. с сущ. твор. п.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>полтора</t></tg>
+            <tg lang="rus">
+               <t>полтора</t>
+            </tg>
             <xg>
                <x>арӧн-джынйӧн</x>
-               <xtg lang="ru"><xt>полтора года</xt></xtg>
+               <xt lang="rus">полтора года</xt>
             </xg>
             <xg>
                <x>метрӧн-джынйӧн</x>
-               <xtg lang="ru"><xt>полтора метра</xt></xtg>
+               <xt lang="rus">полтора метра</xt>
             </xg>
             <xg>
                <x>шайтӧн-джынйӧн</x>
-               <xtg lang="ru"><xt>полтора рубля</xt></xtg>
+               <xt lang="rus">полтора рубля</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>джынъя</lemma>
-      <stem/>
-      <contlex>Adj</contlex>
+      <lg>
+         <l>джынъя</l>
+         <stg>
+            <st kpvContlex="Adj">джынъя</st>
+         </stg>
+      </lg>
       <pos>QNT</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>неполный, початый</t></tg>
+            <tg lang="rus">
+               <t>неполный, початый</t>
+            </tg>
             <xg>
                <x>джынъя гырнич</x>
-               <xtg lang="ru"><xt>неполный горшок</xt></xtg>
+               <xt lang="rus">неполный горшок</xt>
             </xg>
             <xg>
                <x>джынъя додь</x>
-               <xtg lang="ru"><xt>неполный воз</xt></xtg>
+               <xt lang="rus">неполный воз</xt>
             </xg>
             <xg>
                <x>джынъя зорӧд</x>
-               <xtg lang="ru"><xt>початый стог</xt></xtg>
+               <xt lang="rus">початый стог</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>равный половине</t></tg>
-            <tg lang="ru"><t> полу-</t></tg>
+            <tg lang="rus">
+               <t>равный половине</t>
+            </tg>
+            <tg lang="rus">
+               <t>полу-</t>
+            </tg>
             <xg>
                <x>ар джынъя кук</x>
-               <xtg lang="ru"><xt>полугодовалый телёнок</xt></xtg>
+               <xt lang="rus">полугодовалый телёнок</xt>
             </xg>
             <xg>
                <x>ведра джынъя пӧрт</x>
-               <xtg lang="ru"><xt>полуведёрный котелок</xt></xtg>
+               <xt lang="rus">полуведёрный котелок</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>дзурс</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
-   </entry>
-   <entry>
-      <lemma>квайт</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>дзурс</l>
+         <stg>
+            <st kpvContlex="NUMTAG">дзурс</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
-               <head><i>колич.</i></head>
+               <head/>
             </m>
-            <tg lang="ru"><t>шесть</t></tg>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>квайт</l>
+         <stg>
+            <st kpvContlex="NUMTAG">квайт</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
+      <e>
+         <mg>
+            <m>
+               <head>
+                  <re>колич.</re>
+               </head>
+            </m>
+            <tg lang="rus">
+               <t>шесть</t>
+            </tg>
             <xg>
                <x>квайтысь</x>
-               <xtg lang="ru"><xt>из шести</xt></xtg>
+               <xt lang="rus">из шести</xt>
             </xg>
             <xg>
                <x>квайт кымын</x>
-               <xtg lang="ru"><xt>около шести</xt></xtg>
+               <xt lang="rus">около шести</xt>
             </xg>
             <xg>
                <x>квайтӧн</x>
-               <xtg lang="ru"><xt>шестеро</xt></xtg>
-               <xtg lang="ru"><xt> вшестером</xt></xtg>
+               <xt lang="rus">шестеро</xt>
+               <xt lang="rus">вшестером</xt>
             </xg>
             <xg>
                <x>квайт пӧв унджык</x>
-               <xtg lang="ru"><xt>в шесть раз больше</xt></xtg>
+               <xt lang="rus">в шесть раз больше</xt>
             </xg>
             <xg>
                <x>квайтысь чинтыны ӧтиӧс</x>
-               <xtg lang="ru"><xt>из шести вычесть единицу</xt></xtg>
+               <xt lang="rus">из шести вычесть единицу</xt>
             </xg>
             <xg>
                <x>квайт пӧв костӧ пырны</x>
-               <xtg lang="ru"><xt>умереть</xt></xtg>
-               <literal>
-                  <xtg lang="ru"><xt>зайти меж шесть досок</xt></xtg>
-               </literal>
+               <xt lang="rus">умереть</xt>
+               <xt lang="rus" tType="literal">зайти меж шесть досок</xt>
             </xg>
             <xg>
                <x>квайт чуня</x>
-               <xtg lang="ru"><xt>шестипалый</xt></xtg>
-               <xtg lang="ru"><xt>на руку нечист</xt></xtg>
-               <xtg lang="ru"><xt> вороватый</xt></xtg>
+               <xt lang="rus">шестипалый</xt>
+               <xt lang="rus">на руку нечист</xt>
+               <xt lang="rus">вороватый</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>квайта</lemma>
-      <stem/>
-      <contlex>Noun1</contlex>
+      <lg>
+         <l>квайта</l>
+         <stg>
+            <st kpvContlex="Noun1">квайта</st>
+         </stg>
+      </lg>
       <pos>QNT</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>шестёрка, шестерик</t></tg>
+            <tg lang="rus">
+               <t>шестёрка, шестерик</t>
+            </tg>
             <xg>
                <x>квайта чумали</x>
-               <xtg lang="ru"><xt>суслон-шестерик</xt></xtg>
+               <xt lang="rus">суслон-шестерик</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>квайтнан</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>квайтнан</l>
+         <stg>
+            <st kpvContlex="">квайтнан</st>
+         </stg>
+      </lg>
       <pos>QNT-COLL-UNIV</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>все шесть, все шестеро</t></tg>
-            <tg lang="ru"><t> вся шестёрка</t></tg>
+            <tg lang="rus">
+               <t>все шесть, все шестеро</t>
+            </tg>
+            <tg lang="rus">
+               <t>вся шестёрка</t>
+            </tg>
             <xg>
                <x>квайтнан челядьыс пи</x>
-               <xtg lang="ru"><xt>все шестеро детей — сыновья</xt></xtg>
+               <xt lang="rus">все шестеро детей — сыновья</xt>
             </xg>
             <xg>
                <x>квайтнансӧ тӧда</x>
-               <xtg lang="ru"><xt>я всех шестерых знаю</xt></xtg>
+               <xt lang="rus">я всех шестерых знаю</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>квайтнанныд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>квайтнанныд</l>
+         <stg>
+            <st kpvContlex="">квайтнанныд</st>
+         </stg>
+      </lg>
       <pos>QNT-COLL-UNIV</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>вы все шестеро</t></tg>
+            <tg lang="rus">
+               <t>вы все шестеро</t>
+            </tg>
             <xg>
                <x>квайтнанныдлы лоӧ ветлыны</x>
-               <xtg lang="ru"><xt>вам всем шестерым придётся сходить</xt></xtg>
+               <xt lang="rus">вам всем шестерым придётся сходить</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>квайтнанным</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>квайтнанным</l>
+         <stg>
+            <st kpvContlex="">квайтнанным</st>
+         </stg>
+      </lg>
       <pos>QNT-COLL-UNIV</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>мы все шестеро</t></tg>
+            <tg lang="rus">
+               <t>мы все шестеро</t>
+            </tg>
             <xg>
                <x>квайтнанным пӧрысьӧсь</x>
-               <xtg lang="ru"><xt>мы все шестеро стары</xt></xtg>
+               <xt lang="rus">мы все шестеро стары</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>квайтнанныс</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>квайтнанныс</l>
+         <stg>
+            <st kpvContlex="">квайтнанныс</st>
+         </stg>
+      </lg>
       <pos>QNT-COLL-UNIV</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>они все шестеро</t></tg>
+            <tg lang="rus">
+               <t>они все шестеро</t>
+            </tg>
             <xg>
                <x>квайтнанныс усины война вылын</x>
-               <xtg lang="ru"><xt>они все шестеро погибли на войне</xt></xtg>
+               <xt lang="rus">они все шестеро погибли на войне</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>квайтсё</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>квайтсё</l>
+         <stg>
+            <st kpvContlex="NUMTAG">квайтсё</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
-               <head><i>колич.</i></head>
+               <head>
+                  <re>колич.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>шестьсот</t></tg>
+            <tg lang="rus">
+               <t>шестьсот</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>квайтсёӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>квайтсёӧд</l>
+         <stg>
+            <st kpvContlex="">квайтсёӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>шестисотый</t></tg>
+            <tg lang="rus">
+               <t>шестисотый</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>квайтымын</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>квайтымын</l>
+         <stg>
+            <st kpvContlex="NUMTAG">квайтымын</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
-               <head><i>колич.</i></head>
+               <head>
+                  <re>колич.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>шестьдесят</t></tg>
+            <tg lang="rus">
+               <t>шестьдесят</t>
+            </tg>
             <xg>
                <x>квайтымын тыртігӧн овмӧдчыны выльлаын</x>
-               <xtg lang="ru"><xt>на шестидесятом году поселиться на новом месте</xt></xtg>
+               <xt lang="rus">на шестидесятом году поселиться на новом месте</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>квайтымын% нёль</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>квайтымын% нёль</l>
+         <stg>
+            <st kpvContlex="NUMTAG">квайтымын% нёль</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>шестьдесят четыре</t></tg>
+            <tg lang="rus">
+               <t>шестьдесят четыре</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>квайтымынӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>квайтымынӧд</l>
+         <stg>
+            <st kpvContlex="">квайтымынӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>шестидесятый</t></tg>
+            <tg lang="rus">
+               <t>шестидесятый</t>
+            </tg>
             <xg>
                <x>квайтымынӧд вылын</x>
-               <xtg lang="ru"><xt>на шестидесятом году</xt></xtg>
+               <xt lang="rus">на шестидесятом году</xt>
             </xg>
             <xg>
                <x>квайтымынӧд лунӧ</x>
-               <xtg lang="ru"><xt>на шестидесятый день</xt></xtg>
+               <xt lang="rus">на шестидесятый день</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>квайтысь</lemma>
-      <stem/>
-      <contlex>CARD</contlex>
-      <pos>NUM-CARD-ITER</pos>
+      <lg>
+         <l>квайтысь</l>
+         <stg>
+            <st kpvContlex="CARD">квайтысь</st>
+         </stg>
+      </lg>
+      <pos>CARD-ITER</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>шесть раз</t></tg>
+            <tg lang="rus">
+               <t>шесть раз</t>
+            </tg>
             <xg>
                <x>квайтысь шуны</x>
-               <xtg lang="ru"><xt>сказать шесть раз</xt></xtg>
+               <xt lang="rus">сказать шесть раз</xt>
             </xg>
             <xg>
                <x>квайтысь квайт — комын квайт</x>
-               <xtg lang="ru"><xt>шестью шесть — тридцать шесть</xt></xtg>
+               <xt lang="rus">шестью шесть — тридцать шесть</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>квайтӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>квайтӧд</l>
+         <stg>
+            <st kpvContlex="">квайтӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>шестой</t></tg>
+            <tg lang="rus">
+               <t>шестой</t>
+            </tg>
             <xg>
                <x>квайтӧд морт</x>
-               <xtg lang="ru"><xt>шестой человек</xt></xtg>
+               <xt lang="rus">шестой человек</xt>
             </xg>
             <xg>
                <x>квайтӧд дас тыртны</x>
-               <xtg lang="ru"><xt>доживать шестой десяток</xt></xtg>
-               <xtg lang="ru"><xt>делать шестой десяток</xt><re>чего-л.</re><re>напр., при вязке снопов</re></xtg>
+               <xt lang="rus">доживать шестой десяток</xt>
+               <xtCtn>
+                  <xt lang="rus">делать шестой десяток</xt>
+                  <re>чего-л.</re>
+                  <re>напр., при вязке снопов</re>
+               </xtCtn>
             </xg>
             <xg genreType="proverb">
                <x>квайтӧд чуньыд век кузь</x>
-               <xtg lang="ru"><xt>шестой палец всегда длиннее</xt></xtg>
+               <xt lang="rus">шестой палец всегда длиннее</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>квайтӧдысь</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>квайтӧдысь</l>
+         <stg>
+            <st kpvContlex="">квайтӧдысь</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>(в) шестой раз</t></tg>
+            <tg lang="rus">
+               <t>(в) шестой раз</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>квайтӧн</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>квайтӧн</l>
+         <stg>
+            <st kpvContlex="">квайтӧн</st>
+         </stg>
+      </lg>
       <pos>QNT-DISTR</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>вшестером</t></tg>
+            <tg lang="rus">
+               <t>вшестером</t>
+            </tg>
             <xg>
                <x>квайтӧн мунны</x>
-               <xtg lang="ru"><xt>идти вшестером</xt></xtg>
+               <xt lang="rus">идти вшестером</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>коймӧд</lemma>
-      <stem/>
-      <contlex>ORD</contlex>
+      <lg>
+         <l>коймӧд</l>
+         <stg>
+            <st kpvContlex="ORD">коймӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>третий</t></tg>
+            <tg lang="rus">
+               <t>третий</t>
+            </tg>
             <xg>
                <x>коймӧд вежон</x>
-               <xtg lang="ru"><xt>третья неделя</xt></xtg>
+               <xt lang="rus">третья неделя</xt>
             </xg>
             <xg>
                <x>коймӧд во</x>
-               <xtg lang="ru"><xt>третий год</xt></xtg>
+               <xt lang="rus">третий год</xt>
             </xg>
             <xg>
                <x>коймӧд юкӧн</x>
-               <xtg lang="ru"><xt>третья часть, одна треть</xt></xtg>
+               <xt lang="rus">третья часть, одна треть</xt>
             </xg>
             <xg>
                <x>абу мӧдыс, а коймӧдыс</x>
-               <xtg lang="ru"><xt>не второй, а третий</xt></xtg>
+               <xt lang="rus">не второй, а третий</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>коймӧд-кӧ</lemma>
-      <stem/>
-      <contlex>ADVTAG</contlex>
-      <pos>NUM-ORD</pos>
+      <lg>
+         <l>коймӧд-кӧ</l>
+         <stg>
+            <st kpvContlex="ADVTAG">коймӧд-кӧ</st>
+         </stg>
+      </lg>
+      <pos>ADV-PARENTHETIC</pos>
       <e>
          <mg>
             <m>
-               <head><i>вводн. сл.</i></head>
+               <head/>
             </m>
-            <tg lang="ru"><t>в-третьих</t></tg>
+            <tg lang="rus">
+               <t>в-третьих</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>коймӧдысь</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>коймӧдысь</l>
+         <stg>
+            <st kpvContlex="">коймӧдысь</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>(в) третий раз</t></tg>
+            <tg lang="rus">
+               <t>(в) третий раз</t>
+            </tg>
             <xg>
                <x>коймӧдысь копыртчыны</x>
-               <xtg lang="ru"><xt>в третий раз наклониться</xt></xtg>
+               <xt lang="rus">в третий раз наклониться</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>комын</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>комын</l>
+         <stg>
+            <st kpvContlex="NUMTAG">комын</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
-               <head><i>колич.</i></head>
+               <head>
+                  <re>колич.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>тридцать</t></tg>
+            <tg lang="rus">
+               <t>тридцать</t>
+            </tg>
             <xg>
                <x>комын во</x>
-               <xtg lang="ru"><xt>тридцать лет</xt></xtg>
+               <xt lang="rus">тридцать лет</xt>
             </xg>
             <xg>
                <x>комын пӧв</x>
-               <xtg lang="ru"><xt>тридцать раз ☺</xt></xtg>
+               <xt lang="rus">тридцать раз</xt>
             </xg>
             <xg genreType="riddle">
                <x>комын вок ӧти кӧртӧдӧ кӧртасьӧмаӧсь</x>
-               <xtg lang="ru"><xt>тридцать братьев одним поясом опоясаны</xt></xtg>
+               <xt lang="rus">тридцать братьев одним поясом опоясаны</xt>
                <answer>
-                  <x>йирк</x>
-                  <xtg lang="ru"><xt>потолок</xt></xtg>
+                  <native>йирк</native>
+                  <xt lang="rus">потолок</xt>
                </answer>
-            </xg>
-            <xg>
-               <x>комын вит ур</x>
-               <xtg lang="ru"><xt><range>уст.</range>десять копеек</xt></xtg>
-            </xg>
-            <xg>
-               <x>комын вит ура</x>
-               <xtg lang="ru"><xt><range>уст.</range>гривенник</xt></xtg>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>комына</lemma>
-      <stem/>
-      <contlex>Noun1</contlex>
+      <lg>
+         <l>комына</l>
+         <stg>
+            <st kpvContlex="Noun1">комына</st>
+         </stg>
+      </lg>
       <pos>QNT</pos>
       <e>
          <mg>
             <m>
-               <head><field>ист.</field></head>
+               <head>
+                  <field>ист.</field>
+               </head>
             </m>
-            <tg lang="ru"><t>тридцатирублёвая купюра</t></tg>
+            <tg lang="rus">
+               <t>тридцатирублёвая купюра</t>
+            </tg>
             <xg>
                <x>сетісны удждон, ставсӧ гӧрд комынаясӧн</x>
-               <xtg lang="ru"><xt>выдали зарплату, всю красными тридцатирублёвыми купюрами</xt></xtg>
+               <xt lang="rus">выдали зарплату, всю красными тридцатирублёвыми купюрами</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>комынысь</lemma>
-      <stem/>
-      <contlex>CARD</contlex>
-      <pos>NUM-CARD-ITER</pos>
+      <lg>
+         <l>комынысь</l>
+         <stg>
+            <st kpvContlex="CARD">комынысь</st>
+         </stg>
+      </lg>
+      <pos>CARD-ITER</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>тридцать раз</t></tg>
+            <tg lang="rus">
+               <t>тридцать раз</t>
+            </tg>
             <xg>
                <x>комынысь кыпӧдны</x>
-               <xtg lang="ru"><xt>поднять тридцать раз</xt></xtg>
+               <xt lang="rus">поднять тридцать раз</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>из тридцати</t></tg>
+            <tg lang="rus">
+               <t>из тридцати</t>
+            </tg>
             <xg>
                <x>комынысь чинтыны дасӧс</x>
-               <xtg lang="ru"><xt>из тридцати вычесть десять</xt></xtg>
+               <xt lang="rus">из тридцати вычесть десять</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>комынӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>комынӧд</l>
+         <stg>
+            <st kpvContlex="">комынӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>тридцатый</t></tg>
+            <tg lang="rus">
+               <t>тридцатый</t>
+            </tg>
             <xg>
                <x>комынӧд лун</x>
-               <xtg lang="ru"><xt>тридцатый день</xt></xtg>
+               <xt lang="rus">тридцатый день</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>куим</lemma>
-      <stem/>
-      <contlex>CARD</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>куим</l>
+         <stg>
+            <st kpvContlex="CARD">куим</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
-               <head><i>колич.</i></head>
+               <head>
+                  <re>колич.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>три</t></tg>
-            <tg lang="ru"><t> трое</t></tg>
+            <tg lang="rus">
+               <t>три</t>
+            </tg>
+            <tg lang="rus">
+               <t>трое</t>
+            </tg>
             <xg>
                <x>куим арӧс</x>
-               <xtg lang="ru"><xt>три года</xt></xtg>
+               <xt lang="rus">три года</xt>
             </xg>
             <xg>
                <x>куим войков</x>
-               <xtg lang="ru"><xt>трое суток</xt></xtg>
+               <xt lang="rus">трое суток</xt>
             </xg>
             <xg>
                <x>куим вок</x>
-               <xtg lang="ru"><xt>три брата</xt></xtg>
+               <xt lang="rus">три брата</xt>
             </xg>
             <xg>
                <x>куим мында</x>
-               <xtg lang="ru"><xt>втрое больше</xt></xtg>
+               <xt lang="rus">втрое больше</xt>
             </xg>
             <xg>
                <x>куим пельӧ</x>
-               <xtg lang="ru"><xt>на три части</xt></xtg>
+               <xt lang="rus">на три части</xt>
             </xg>
             <xg>
                <x>куим пӧвста</x>
-               <xtg lang="ru"><xt>тройной</xt></xtg>
-            </xg>
-            <xg>
-               <x>куим ур</x>
-               <xtg lang="ru"><xt><range>уст.</range>копейка</xt></xtg>
-            </xg>
-            <xg>
-               <x>куим ура</x>
-               <xtg lang="ru"><xt><range>уст.</range>монета достоинством в три копейки</xt></xtg>
+               <xt lang="rus">тройной</xt>
             </xg>
             <xg>
                <x>куим час асыв</x>
-               <xtg lang="ru"><xt>три часа утра</xt></xtg>
+               <xt lang="rus">три часа утра</xt>
             </xg>
             <xg>
                <x>мӧдӧдчим куимӧн</x>
-               <xtg lang="ru"><xt>мы отправились втроём</xt></xtg>
+               <xt lang="rus">мы отправились втроём</xt>
             </xg>
             <xg genreType="proverb">
                <x>куим рушкуӧ он сёй</x>
-               <xtg lang="ru"><xt>свыше меры не съешь</xt></xtg>
+               <xt lang="rus">свыше меры не съешь</xt>
             </xg>
             <xg genreType="riddle">
                <x>куим юрлӧс вылын кызь вит кок куйлӧ</x>
-               <xtg lang="ru"><xt>на трёх подушках двадцать пять братьев спят</xt></xtg>
+               <xt lang="rus">на трёх подушках двадцать пять братьев спят</xt>
                <answer>
-                  <x>джодж да йирк</x>
-                  <xtg lang="ru"><xt>пол и потолок</xt></xtg>
+                  <native>джодж да йирк</native>
+                  <xt lang="rus">пол и потолок</xt>
                </answer>
             </xg>
             <xg>
                <x>куим пратя гез</x>
-               <xtg lang="ru"><xt>трое единомышленников</xt></xtg>
+               <xt lang="rus">трое единомышленников</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>куим-ӧ-нёль</lemma>
-      <stem/>
-      <contlex>CARD-APPR</contlex>
-      <pos>NUM-CARD-APPR</pos>
+      <lg>
+         <l>куим-ӧ-нёль</l>
+         <stg>
+            <st kpvContlex="CARD-APPR">куим-ӧ-нёль</st>
+         </stg>
+      </lg>
+      <pos>CARD-APPR</pos>
       <e>
          <mg>
             <m>
-               <head><i>прибл.</i></head>
+               <head>
+                  <re>прибл.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>три-четыре</t></tg>
+            <tg lang="rus">
+               <t>три-четыре</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>куима</lemma>
-      <stem/>
-      <contlex>Noun1</contlex>
+      <lg>
+         <l>куима</l>
+         <stg>
+            <st kpvContlex="Noun1">куима</st>
+         </stg>
+      </lg>
       <pos>QNT</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>состоящий из трёх единиц</t></tg>
-            <tg lang="ru"><t> тройка</t></tg>
+            <tg lang="rus">
+               <t>состоящий из трёх единиц</t>
+            </tg>
+            <tg lang="rus">
+               <t>тройка</t>
+            </tg>
             <xg>
                <x>куима визьӧб</x>
-               <xtg lang="ru"><xt>три полоски</xt></xtg>
+               <xt lang="rus">три полоски</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>трёшница, трёшник, трёшка</t><re>трёхрублёвая бумажка</re></tg>
+            <tg lang="rus">
+               <tCtn>
+                  <t>трёшница, трёшник, трёшка</t>
+                  <re>трёхрублёвая бумажка</re>
+               </tCtn>
+            </tg>
             <xg>
                <x>Вежа куима</x>
-               <xtg lang="ru"><xt>святая троица</xt></xtg>
+               <xt lang="rus">святая троица</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>куимнан</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>куимнан</l>
+         <stg>
+            <st kpvContlex="">куимнан</st>
+         </stg>
+      </lg>
       <pos>QNT-COLL-UNIV</pos>
       <e>
          <mg>
             <m>
-               <head><com>собир. (употр. также с опред.-притяж. суф.)</com></head>
+               <head>
+                  <re>собир. (употр. также с опред.-притяж. суф.)</re>
+               </head>
             </m>
-            <tg lang="ru"><t>все три</t></tg>
+            <tg lang="rus">
+               <t>все три</t>
+            </tg>
             <xg>
                <x>куимнан вӧвнас гӧрӧны</x>
-               <xtg lang="ru"><xt>они пашут на всех трёх лошадях</xt></xtg>
+               <xt lang="rus">они пашут на всех трёх лошадях</xt>
             </xg>
             <xg>
                <x>куимнанным мӧдӧдчим велӧдчыны</x>
-               <xtg lang="ru"><xt>мы все трое поехали учиться</xt></xtg>
+               <xt lang="rus">мы все трое поехали учиться</xt>
             </xg>
             <xg>
                <x>куимнанныд локтӧй</x>
-               <xtg lang="ru"><xt>вы все трое приходите</xt></xtg>
+               <xt lang="rus">вы все трое приходите</xt>
             </xg>
             <xg>
                <x>куимнанныс усины война вылын</x>
-               <xtg lang="ru"><xt>они все трое погибли на войне</xt></xtg>
+               <xt lang="rus">они все трое погибли на войне</xt>
             </xg>
             <xg>
                <x>куимнан ӧшиньыс лунладор стенас</x>
-               <xtg lang="ru"><xt>все три окна на южной стене</xt></xtg>
+               <xt lang="rus">все три окна на южной стене</xt>
             </xg>
             <xg>
                <x>куимнан челядьыс гортас</x>
-               <xtg lang="ru"><xt>все трое детей дома</xt></xtg>
+               <xt lang="rus">все трое детей дома</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>куимсё</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>куимсё</l>
+         <stg>
+            <st kpvContlex="NUMTAG">куимсё</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
-               <head><i>колич.</i></head>
+               <head>
+                  <re>колич.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>триста</t></tg>
+            <tg lang="rus">
+               <t>триста</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>куимсёӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>куимсёӧд</l>
+         <stg>
+            <st kpvContlex="">куимсёӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>трёхсотый</t></tg>
+            <tg lang="rus">
+               <t>трёхсотый</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>куимысь</lemma>
-      <stem/>
-      <contlex>CARD</contlex>
-      <pos>NUM-CARD-ITER</pos>
+      <lg>
+         <l>куимысь</l>
+         <stg>
+            <st kpvContlex="CARD">куимысь</st>
+         </stg>
+      </lg>
+      <pos>CARD-ITER</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>трижды</t></tg>
+            <tg lang="rus">
+               <t>трижды</t>
+            </tg>
             <xg>
                <x>куимысь казьтыштны</x>
-               <xtg lang="ru"><xt>напомнить трижды</xt></xtg>
+               <xt lang="rus">напомнить трижды</xt>
             </xg>
             <xg>
                <x>куимысь куим лоӧ ӧкмыс</x>
-               <xtg lang="ru"><xt>трижды три — девять</xt></xtg>
+               <xt lang="rus">трижды три — девять</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>куимӧн</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>куимӧн</l>
+         <stg>
+            <st kpvContlex="">куимӧн</st>
+         </stg>
+      </lg>
       <pos>QNT-DISTR</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>втроём</t></tg>
+            <tg lang="rus">
+               <t>втроём</t>
+            </tg>
             <xg>
                <x>ми вӧлім куимӧн</x>
-               <xtg lang="ru"><xt>мы были втроём</xt></xtg>
+               <xt lang="rus">мы были втроём</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>кызь</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>кызь</l>
+         <stg>
+            <st kpvContlex="NUMTAG">кызь</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
-               <head><i>колич.</i></head>
+               <head>
+                  <re>колич.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>двадцать</t></tg>
+            <tg lang="rus">
+               <t>двадцать</t>
+            </tg>
             <xg>
                <x>кызь арӧсӧн</x>
-               <xtg lang="ru"><xt>в двадцать лет</xt></xtg>
+               <xt lang="rus">в двадцать лет</xt>
             </xg>
             <xg>
                <x>кызь гӧгӧр</x>
-               <xtg lang="ru"><xt>около двадцати</xt></xtg>
+               <xt lang="rus">около двадцати</xt>
             </xg>
             <xg>
                <x>кызьӧн</x>
-               <xtg lang="ru"><xt>числом в двадцать</xt></xtg>
+               <xt lang="rus">числом в двадцать</xt>
             </xg>
             <xg>
                <x>кызьысь</x>
-               <xtg lang="ru"><xt>из двадцати</xt></xtg>
+               <xt lang="rus">из двадцати</xt>
             </xg>
             <xg>
                <x>кызь пӧв</x>
-               <xtg lang="ru"><xt>двадцать раз</xt></xtg>
-            </xg>
-            <xg>
-               <x>кызь ур<range>уст.</range></x>
-               <xtg lang="ru"><xt>шесть копеек</xt></xtg>
+               <xt lang="rus">двадцать раз</xt>
             </xg>
             <xg genreType="riddle">
                <x>кызь вок олӧны да ӧтик вӧньӧн вӧнясьӧны</x>
-               <xtg lang="ru"><xt>двадцать братьев одним поясом подпоясываются</xt></xtg>
+               <xt lang="rus">двадцать братьев одним поясом подпоясываются</xt>
                <answer>
-                  <x>йирк да матич</x>
-                  <xtg lang="ru"><xt>потолок и матица</xt></xtg>
+                  <native>йирк да матич</native>
+                  <xt lang="rus">потолок и матица</xt>
                </answer>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>кызь% ӧти</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>кызь% ӧти</l>
+         <stg>
+            <st kpvContlex="NUMTAG">кызь% ӧти</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>двадцать один</t></tg>
+            <tg lang="rus">
+               <t>двадцать один</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кызьысь</lemma>
-      <stem/>
-      <contlex>CARD</contlex>
-      <pos>NUM-CARD-ITER</pos>
+      <lg>
+         <l>кызьысь</l>
+         <stg>
+            <st kpvContlex="CARD">кызьысь</st>
+         </stg>
+      </lg>
+      <pos>CARD-ITER</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>двадцать раз</t></tg>
+            <tg lang="rus">
+               <t>двадцать раз</t>
+            </tg>
             <xg>
                <x>кызьысь ветлыны вӧрӧ</x>
-               <xtg lang="ru"><xt>двадцать раз сходить в лес</xt></xtg>
+               <xt lang="rus">двадцать раз сходить в лес</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кызьӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>кызьӧд</l>
+         <stg>
+            <st kpvContlex="">кызьӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>двадцатый</t></tg>
+            <tg lang="rus">
+               <t>двадцатый</t>
+            </tg>
             <xg>
                <x>кызьӧд арӧс</x>
-               <xtg lang="ru"><xt>двадцатый год</xt></xtg>
+               <xt lang="rus">двадцатый год</xt>
             </xg>
             <xg>
                <x>кызьӧд во</x>
-               <xtg lang="ru"><xt>двадцатый год</xt></xtg>
+               <xt lang="rus">двадцатый год</xt>
             </xg>
             <xg>
                <x>кызьӧд вылын</x>
-               <xtg lang="ru"><xt>на двадцатом году</xt></xtg>
+               <xt lang="rus">на двадцатом году</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>кык</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>кык</l>
+         <stg>
+            <st kpvContlex="NUMTAG">кык</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
-         <i>колич.</i>
-         <mg MNo="1">
+         <mg No="1">
             <m>
-               <head/>
+               <head>
+                  <re>колич.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>два</t></tg>
+            <tg lang="rus">
+               <t>два</t>
+            </tg>
             <xg>
                <x>кык да кык — нёль</x>
-               <xtg lang="ru"><xt>два да два — четыре</xt></xtg>
+               <xt lang="rus">два да два — четыре</xt>
             </xg>
             <xg>
                <x>кык ногӧн</x>
-               <xtg lang="ru"><xt>двумя способами</xt></xtg>
-               <xtg lang="ru"><xt> двояко</xt></xtg>
+               <xt lang="rus">двумя способами</xt>
+               <xt lang="rus">двояко</xt>
             </xg>
             <xg>
                <x>кык ӧдйӧ</x>
-               <xtg lang="ru"><xt>в два раза быстрее</xt></xtg>
+               <xt lang="rus">в два раза быстрее</xt>
             </xg>
             <xg>
                <x>кык пельӧ</x>
-               <xtg lang="ru"><xt>на две части</xt></xtg>
-               <xtg lang="ru"><xt/></xtg>
+               <xt lang="rus">на две части</xt>
             </xg>
             <xg>
                <x>кык пӧв</x>
-               <xtg lang="ru"><xt>два раза, дважды</xt></xtg>
+               <xt lang="rus">два раза, дважды</xt>
             </xg>
             <xg>
                <x>кык пӧв унджык</x>
-               <xtg lang="ru"><xt>два раза больше</xt></xtg>
+               <xt lang="rus">два раза больше</xt>
             </xg>
             <xg>
                <x>кык пӧвстӧн</x>
-               <xtg lang="ru"><xt>в два слоя</xt></xtg>
+               <xt lang="rus">в два слоя</xt>
             </xg>
             <xg>
                <x>кык пӧрйӧ</x>
-               <xtg lang="ru"><xt>два раза, в два приёма</xt></xtg>
+               <xt lang="rus">два раза, в два приёма</xt>
             </xg>
             <xg>
                <x>кык чой</x>
-               <xtg lang="ru"><xt>две сестры</xt></xtg>
+               <xt lang="rus">две сестры</xt>
             </xg>
             <xg>
                <x>кыкысь кымын</x>
-               <xtg lang="ru"><xt>около двух раз</xt></xtg>
+               <xt lang="rus">около двух раз</xt>
             </xg>
             <xg>
                <x>кыкӧн мунӧны</x>
-               <xtg lang="ru"><xt>идут двое</xt></xtg>
+               <xt lang="rus">идут двое</xt>
             </xg>
             <xg>
                <x>кыкысь чинтыны ӧтиӧс</x>
-               <xtg lang="ru"><xt>из двух вычесть единицу</xt></xtg>
+               <xt lang="rus">из двух вычесть единицу</xt>
             </xg>
             <xg>
                <x>кыкысь шуны</x>
-               <xtg lang="ru"><xt>сказать два раза, сказать дважды</xt></xtg>
+               <xt lang="rus">сказать два раза, сказать дважды</xt>
             </xg>
             <xg genreType="riddle">
                <x>кык Микола воча видзӧдчӧны</x>
-               <xtg lang="ru"><xt>два Николая друг на друга смотрят</xt></xtg>
+               <xt lang="rus">два Николая друг на друга смотрят</xt>
                <answer>
-                  <x>джодж да йирк</x>
-                  <xtg lang="ru"><xt>пол и потолок</xt></xtg>
+                  <native>джодж да йирк</native>
+                  <xt lang="rus">пол и потолок</xt>
                </answer>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>двойной, сдвоенный</t></tg>
-            <tg lang="ru"><t pos="A">удвоенный</t><t pos="N">вдвое</t></tg>
-            <tg lang="ru"><t> дву-, двух-</t></tg>
+            <tg lang="rus">
+               <t>двойной, сдвоенный</t>
+            </tg>
+            <tg lang="rus">
+               <t pos="A">удвоенный</t>
+               <t pos="N">вдвое</t>
+            </tg>
+            <tg lang="rus">
+               <t>дву-, двух-</t>
+            </tg>
             <xg>
                <x>кык кокни</x>
-               <xtg lang="ru"><xt>вдвое легче</xt></xtg>
+               <xt lang="rus">вдвое легче</xt>
             </xg>
             <xg>
                <x>кык мында</x>
-               <xtg lang="ru"><xt>вдвое больше</xt></xtg>
+               <xt lang="rus">вдвое больше</xt>
             </xg>
             <xg>
                <x>кык пӧлӧс</x>
-               <xtg lang="ru"><xt>двоякий</xt></xtg>
-               <xtg lang="ru"><xt> двух сортов</xt></xtg>
+               <xt lang="rus">двоякий</xt>
+               <xt lang="rus">двух сортов</xt>
             </xg>
             <xg>
                <x>кык чужсьӧг кага</x>
-               <xtg lang="ru"><xt>близнецы</xt></xtg>
-               <xtg lang="ru"><xt> двойняшки</xt></xtg>
+               <xt lang="rus">близнецы</xt>
+               <xt lang="rus">двойняшки</xt>
             </xg>
             <xg>
                <x>бур паськӧмнад мортыд кык</x>
-               <xtg lang="ru"><xt>в хорошей одежде человек выглядит вдвое лучше</xt></xtg>
+               <xt lang="rus">в хорошей одежде человек выглядит вдвое лучше</xt>
             </xg>
             <xg>
                <x>кык би костӧ веськавны, кык изки костӧ сюрны</x>
-               <xtg lang="ru"><xt>оказаться меж двух огней</xt></xtg>
+               <xt lang="rus">оказаться меж двух огней</xt>
             </xg>
             <xg>
                <x>кык бӧр кок йылын сулавны</x>
-               <xtg lang="ru"><xt>угождать</xt></xtg>
-               <literal>
-                  <xtg lang="ru"><xt> стоять на задних лапах</xt></xtg>
-               </literal>
+               <xt lang="rus">угождать</xt>
+               <xt lang="rus" tType="literal">стоять на задних лапах</xt>
             </xg>
             <xg>
                <x>кык жель</x>
-               <xtg lang="ru"><xt>две задиры</xt></xtg>
+               <xt lang="rus">две задиры</xt>
             </xg>
             <xg>
                <x>кык жель костӧ босьтантор</x>
-               <xtg lang="ru"><xt>не стоит ломаного гроша</xt></xtg>
-               <literal>
-                  <xtg lang="ru"><xt>то, что можно взять двумя щепками</xt></xtg>
-               </literal>
+               <xt lang="rus">не стоит ломаного гроша</xt>
+               <xt lang="rus" tType="literal">то, что можно взять двумя щепками</xt>
             </xg>
             <xg>
                <x>кык кымӧр костӧ пуктыны</x>
-               <xtg lang="ru"><xt>положить между двух облаков</xt><re>не на место; никуда</re></xtg>
+               <xtCtn>
+                  <xt lang="rus">положить между двух облаков</xt>
+                  <re>не на место; никуда</re>
+               </xtCtn>
             </xg>
             <xg>
                <x>кык мыш мунны</x>
-               <xtg lang="ru"><xt>разойтись</xt></xtg>
+               <xt lang="rus">разойтись</xt>
             </xg>
             <xg>
                <x>кык понлы шыд юкны</x>
-               <xtg lang="ru"><xt>уметь делать пустяки</xt></xtg>
+               <xt lang="rus">уметь делать пустяки</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>кык-куим</lemma>
-      <stem/>
-      <contlex>CARD-APPR</contlex>
-      <pos>NUM-CARD-APPR</pos>
+      <lg>
+         <l>кык-куим</l>
+         <stg>
+            <st kpvContlex="CARD-APPR">кык-куим</st>
+         </stg>
+      </lg>
+      <pos>CARD-APPR</pos>
       <e>
          <mg>
             <m>
-               <head><i>неопр.</i></head>
+               <head>
+                  <re>неопр.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>два-три</t></tg>
+            <tg lang="rus">
+               <t>два-три</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>кыка</lemma>
-      <stem/>
-      <contlex>Adj</contlex>
+      <lg>
+         <l>кыка</l>
+         <stg>
+            <st kpvContlex="Adj">кыка</st>
+         </stg>
+      </lg>
       <pos>QNT</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>двойной</t></tg>
+            <tg lang="rus">
+               <t>двойной</t>
+            </tg>
             <xg>
                <x>кыка провод</x>
-               <xtg lang="ru"><xt>двойной провод</xt></xtg>
+               <xt lang="rus">двойной провод</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кыклаті</lemma>
-      <stem>кыкла</stem>
-      <contlex>ADV-SPAT-LA</contlex>
-      <pos>QNT-SPAT</pos>
+      <lg>
+         <l>кыклаті</l>
+         <stg>
+            <st kpvContlex="ADV-SPAT-LA">кыкла</st>
+         </stg>
+      </lg>
+      <pos>SPAT-0ARG</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>в двух местах</t></tg>
+            <tg lang="rus">
+               <t>в двух местах</t>
+            </tg>
             <xg>
                <x>кыклаті вундыны</x>
-               <xtg lang="ru"><xt>отрезать в двух местах</xt></xtg>
+               <xt lang="rus">отрезать в двух местах</xt>
             </xg>
             <xg>
                <x>кыклаті орӧдны</x>
-               <xtg lang="ru"><xt>порвать в двух местах</xt></xtg>
+               <xt lang="rus">порвать в двух местах</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>кыклаын</lemma>
-      <stem>кыкла</stem>
-      <contlex>ADV-SPAT-LA</contlex>
-      <pos>QNT-SPAT</pos>
+      <lg>
+         <l>кыклаын</l>
+         <stg>
+            <st kpvContlex="ADV-SPAT-LA">кыкла</st>
+         </stg>
+      </lg>
+      <pos>SPAT-0ARG</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>в двух местах</t></tg>
+            <tg lang="rus">
+               <t>в двух местах</t>
+            </tg>
             <xg>
                <x>кыклаын лыддьысьны</x>
-               <xtg lang="ru"><xt>числиться в двух местах</xt></xtg>
+               <xt lang="rus">числиться в двух местах</xt>
             </xg>
             <xg>
                <x>кыклаын овны</x>
-               <xtg lang="ru"><xt>жить в двух местах</xt></xtg>
+               <xt lang="rus">жить в двух местах</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кыкнан</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>кыкнан</l>
+         <stg>
+            <st kpvContlex="">кыкнан</st>
+         </stg>
+      </lg>
       <pos>QNT-COLL-UNIV</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>оба</t></tg>
+            <tg lang="rus">
+               <t>оба</t>
+            </tg>
             <xg>
                <x>кыкнан киын</x>
-               <xtg lang="ru"><xt>в обеих руках</xt></xtg>
+               <xt lang="rus">в обеих руках</xt>
             </xg>
             <xg>
                <x>кыкнан синмӧн</x>
-               <xtg lang="ru"><xt>обоими глазами</xt></xtg>
+               <xt lang="rus">обоими глазами</xt>
             </xg>
             <xg>
                <x>кыкнан ёртӧй мунісны</x>
-               <xtg lang="ru"><xt>оба товарища ушли</xt></xtg>
+               <xt lang="rus">оба товарища ушли</xt>
             </xg>
             <xg>
                <x>кыкнан моньыс бурӧсь</x>
-               <xtg lang="ru"><xt>обе невестки хорошие</xt></xtg>
+               <xt lang="rus">обе невестки хорошие</xt>
             </xg>
             <xg>
                <x>кыкнан киӧн кырымасьны</x>
-               <xtg lang="ru"><xt>соглашаться</xt></xtg>
-               <literal>
-                  <xtg lang="ru"><xt>подписаться обеими руками</xt></xtg>
-               </literal>
+               <xt lang="rus">соглашаться</xt>
+               <xt lang="rus" tType="literal">подписаться обеими руками</xt>
             </xg>
             <xg>
                <x>кыкнан киӧн пасъясьны</x>
-               <xtg lang="ru"><xt>молиться обеими руками</xt><re>от радости</re></xtg>
+               <xtCtn>
+                  <xt lang="rus">молиться обеими руками</xt>
+                  <re>от радости</re>
+               </xtCtn>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>кыкнанлабокса</lemma>
-      <stem/>
-      <contlex>Adj</contlex>
+      <lg>
+         <l>кыкнанлабокса</l>
+         <stg>
+            <st kpvContlex="Adj">кыкнанлабокса</st>
+         </stg>
+      </lg>
       <pos>QNT</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>обоюдный</t></tg>
+            <tg lang="rus">
+               <t>обоюдный</t>
+            </tg>
             <xg>
                <x>кутны тӧд вылын кыкнанлабокса кӧсйӧм</x>
-               <xtg lang="ru"><xt>учитывать обоюдное желание</xt></xtg>
+               <xt lang="rus">учитывать обоюдное желание</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>кыкнанладор</lemma>
-      <stem/>
-      <contlex>Noun1</contlex>
+      <lg>
+         <l>кыкнанладор</l>
+         <stg>
+            <st kpvContlex="Noun1">кыкнанладор</st>
+         </stg>
+      </lg>
       <pos>QNT</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>обе стороны</t></tg>
-            <tg lang="ru"><t> оба берега</t></tg>
+            <tg lang="rus">
+               <t>обе стороны</t>
+            </tg>
+            <tg lang="rus">
+               <t>оба берега</t>
+            </tg>
             <xg>
                <x>кыкнанладор боксянь локтісны йӧз</x>
-               <xtg lang="ru"><xt>с обеих сторон шли люди</xt></xtg>
+               <xt lang="rus">с обеих сторон шли люди</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>оба берега</t></tg>
+            <tg lang="rus">
+               <t>оба берега</t>
+            </tg>
             <xg>
                <x>ю кыкнанладорас видзьяс</x>
-               <xtg lang="ru"><xt>луга на обоих берегах реки</xt></xtg>
+               <xt lang="rus">луга на обоих берегах реки</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>кыкнанладорса</lemma>
-      <stem/>
-      <contlex>Adj</contlex>
+      <lg>
+         <l>кыкнанладорса</l>
+         <stg>
+            <st kpvContlex="Adj">кыкнанладорса</st>
+         </stg>
+      </lg>
       <pos>QNT</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>двусторонний</t></tg>
-            <tg lang="ru"><t> взаимный</t></tg>
+            <tg lang="rus">
+               <t>двусторонний</t>
+            </tg>
+            <tg lang="rus">
+               <t>взаимный</t>
+            </tg>
             <xg>
                <x>кыкнанладорса йитӧд</x>
-               <xtg lang="ru"><xt>двусторонняя связь</xt></xtg>
+               <xt lang="rus">двусторонняя связь</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кыкнанныд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>кыкнанныд</l>
+         <stg>
+            <st kpvContlex="">кыкнанныд</st>
+         </stg>
+      </lg>
       <pos>QNT-COLL-UNIV</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>вы оба</t></tg>
+            <tg lang="rus">
+               <t>вы оба</t>
+            </tg>
             <xg>
                <x>кыкнанныдлы висьталӧма</x>
-               <xtg lang="ru"><xt>вам обоим сказано</xt></xtg>
+               <xt lang="rus">вам обоим сказано</xt>
             </xg>
             <xg>
                <x>кыкнанныд кӧ шаньӧсь, воча он люкасьӧ</x>
-               <xtg lang="ru"><xt>если оба покладисты, не будете бодать друг друга</xt></xtg>
+               <xt lang="rus">если оба покладисты, не будете бодать друг друга</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кыкнанным</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>кыкнанным</l>
+         <stg>
+            <st kpvContlex="">кыкнанным</st>
+         </stg>
+      </lg>
       <pos>QNT-COLL-UNIV</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>мы оба</t></tg>
+            <tg lang="rus">
+               <t>мы оба</t>
+            </tg>
             <xg>
                <x>ми кыкнанным ӧтыдждаӧсь</x>
-               <xtg lang="ru"><xt>мы оба одного возраста</xt></xtg>
+               <xt lang="rus">мы оба одного возраста</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кыкнанныс</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>кыкнанныс</l>
+         <stg>
+            <st kpvContlex="">кыкнанныс</st>
+         </stg>
+      </lg>
       <pos>QNT-COLL-UNIV</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>они оба</t></tg>
+            <tg lang="rus">
+               <t>они оба</t>
+            </tg>
             <xg>
                <x>кыкнанныс ӧткодьӧсь</x>
-               <xtg lang="ru"><xt>оба они одинаковы</xt></xtg>
+               <xt lang="rus">оба они одинаковы</xt>
             </xg>
             <xg>
                <x>кыкнанныс чӧв усины</x>
-               <xtg lang="ru"><xt>оба приумолкли</xt></xtg>
+               <xt lang="rus">оба приумолкли</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кыкнанысь</lemma>
-      <stem/>
-      <contlex/>
-      <pos>QNT-COLL-UNIV-ITER</pos>
+      <lg>
+         <l>кыкнанысь</l>
+         <stg>
+            <st kpvContlex="">кыкнанысь</st>
+         </stg>
+      </lg>
+      <pos>UNIV-ITER</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>оба раза</t></tg>
+            <tg lang="rus">
+               <t>оба раза</t>
+            </tg>
             <xg>
                <x>кыкысь волі татчӧ да кыкнанысьсӧ лэби самолётӧн</x>
-               <xtg lang="ru"><xt>дважды приезжал сюда, и оба раза летел на самолёте</xt></xtg>
+               <xt lang="rus">дважды приезжал сюда, и оба раза летел на самолёте</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>кыксё</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>кыксё</l>
+         <stg>
+            <st kpvContlex="NUMTAG">кыксё</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
-               <head><i>колич.</i></head>
+               <head>
+                  <re>колич.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>двести</t></tg>
+            <tg lang="rus">
+               <t>двести</t>
+            </tg>
             <xg>
                <x>кыксё велӧдчысь</x>
-               <xtg lang="ru"><xt>двести учеников</xt></xtg>
+               <xt lang="rus">двести учеников</xt>
             </xg>
             <xg>
                <x>кыксё шайт</x>
-               <xtg lang="ru"><xt>двести рублей</xt></xtg>
+               <xt lang="rus">двести рублей</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кыксёысь</lemma>
-      <stem/>
-      <contlex>CARD</contlex>
-      <pos>NUM-CARD-ITER</pos>
+      <lg>
+         <l>кыксёысь</l>
+         <stg>
+            <st kpvContlex="CARD">кыксёысь</st>
+         </stg>
+      </lg>
+      <pos>CARD-ITER</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>двести раз</t></tg>
+            <tg lang="rus">
+               <t>двести раз</t>
+            </tg>
             <xg>
                <x>кыксёысь артавны</x>
-               <xtg lang="ru"><xt>считать двести раз</xt></xtg>
+               <xt lang="rus">считать двести раз</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кыксёӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>кыксёӧд</l>
+         <stg>
+            <st kpvContlex="">кыксёӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>двухсотый</t></tg>
+            <tg lang="rus">
+               <t>двухсотый</t>
+            </tg>
             <xg>
                <x>кыксёӧд керка</x>
-               <xtg lang="ru"><xt>двухсотый дом</xt></xtg>
+               <xt lang="rus">двухсотый дом</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кыкысь</lemma>
-      <stem/>
-      <contlex>CARD</contlex>
-      <pos>NUM-CARD-ITER</pos>
+      <lg>
+         <l>кыкысь</l>
+         <stg>
+            <st kpvContlex="CARD">кыкысь</st>
+         </stg>
+      </lg>
+      <pos>CARD-ITER</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="A">двукратный</t></tg>
-            <tg lang="ru"><t pos="ADV">дважды</t><t pos="ADV">два раза</t></tg>
+            <tg lang="rus">
+               <t pos="A">двукратный</t>
+            </tg>
+            <tg lang="rus">
+               <t pos="ADV">дважды</t>
+               <t pos="ADV">два раза</t>
+            </tg>
             <xg>
                <x>кыкысь корӧм</x>
-               <xtg lang="ru"><xt>двукратный вызов</xt></xtg>
+               <xt lang="rus">двукратный вызов</xt>
             </xg>
             <xg>
                <x>кыкысь волыны</x>
-               <xtg lang="ru"><xt>дважды посетить</xt></xtg>
+               <xt lang="rus">дважды посетить</xt>
             </xg>
             <xg>
                <x>кыкысь муса</x>
-               <xtg lang="ru"><xt>вдвойне милее</xt></xtg>
+               <xt lang="rus">вдвойне милее</xt>
             </xg>
             <xg>
                <x>кыкысь шуны</x>
-               <xtg lang="ru"><xt>сказать два раза, сказать дважды</xt></xtg>
+               <xt lang="rus">сказать два раза, сказать дважды</xt>
             </xg>
             <xg>
                <x>кыкысь шыбитны да ӧтчыд кыскыны</x>
-               <xtg lang="ru"><xt>выкрасить да выбросить</xt></xtg>
-               <literal>
-                  <tg lang="ru"><t> дважды бросить и один раз вытащить</t></tg>
-               </literal>
+               <xt lang="rus">выкрасить да выбросить</xt>
+               <xt tType="literal">дважды бросить и один раз вытащить</xt>
             </xg>
             <xg>
                <x>кыкысь эн шу</x>
-               <xtg lang="ru"><xt>не говори гоп, пока не перепрыгнешь</xt></xtg>
+               <xt lang="rus">не говори гоп, пока не перепрыгнешь</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>кыкысь-куимысь</lemma>
-      <stem/>
-      <contlex>CARD-ITER-APPR</contlex>
-      <pos>NUM-CARD-ITER-APPR</pos>
+      <lg>
+         <l>кыкысь-куимысь</l>
+         <stg>
+            <st kpvContlex="CARD-ITER-APPR">кыкысь-куимысь</st>
+         </stg>
+      </lg>
+      <pos>CARD-ITER-APPR</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>два-три раза</t></tg>
-            <tg lang="ru"><t> за два-три раза</t></tg>
+            <tg lang="rus">
+               <t>два-три раза</t>
+            </tg>
+            <tg lang="rus">
+               <t>за два-три раза</t>
+            </tg>
             <xg>
                <x>кыкысь-куимысь ковмас волыны</x>
-               <xtg lang="ru"><xt>придётся прийти два-три раза</xt></xtg>
+               <xt lang="rus">придётся прийти два-три раза</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кыкӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>кыкӧд</l>
+         <stg>
+            <st kpvContlex="">кыкӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>второй </t><re>употр. в составных порядк. числ.</re></tg>
+            <tg lang="rus">
+               <tCtn>
+                  <t>второй</t>
+                  <re>употр. в составных порядк. числ.</re>
+               </tCtn>
+            </tg>
             <xg>
                <x>дас кыкӧд</x>
-               <xtg lang="ru"><xt>двенадцатый</xt></xtg>
+               <xt lang="rus">двенадцатый</xt>
             </xg>
             <xg>
                <x>комын кыкӧд</x>
-               <xtg lang="ru"><xt>тридцать второй</xt></xtg>
+               <xt lang="rus">тридцать второй</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кыкӧн</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>кыкӧн</l>
+         <stg>
+            <st kpvContlex="">кыкӧн</st>
+         </stg>
+      </lg>
       <pos>QNT-COLL</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>вдвоём</t></tg>
+            <tg lang="rus">
+               <t>вдвоём</t>
+            </tg>
             <xg>
                <x>кыкӧн мунны</x>
-               <xtg lang="ru"><xt>вдвоём идти</xt></xtg>
+               <xt lang="rus">вдвоём идти</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>кыкӧн-кыкӧн</lemma>
-      <stem/>
-      <contlex>NUM-IS_DISTR</contlex>
-      <pos>NUM-DISTR-APPR</pos>
+      <lg>
+         <l>кыкӧн-кыкӧн</l>
+         <stg>
+            <st kpvContlex="NUM-IS_DISTR">кыкӧн-кыкӧн</st>
+         </stg>
+      </lg>
+      <pos>NUM-DISTR</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>парами</t></tg>
+            <tg lang="rus">
+               <t>парами</t>
+            </tg>
             <xg>
                <x>кыкӧн-кыкӧн локтӧны</x>
-               <xtg lang="ru"><xt>идут парами</xt></xtg>
+               <xt lang="rus">идут парами</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>кӧкъямыс</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>кӧкъямыс</l>
+         <stg>
+            <st kpvContlex="NUMTAG">кӧкъямыс</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
-               <head><i>колич.</i></head>
+               <head>
+                  <re>колич.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>восемь</t></tg>
+            <tg lang="rus">
+               <t>восемь</t>
+            </tg>
             <xg>
                <x>кӧкъямыса</x>
-               <xtg lang="ru"><xt>восьмёрка</xt></xtg>
+               <xt lang="rus">восьмёрка</xt>
             </xg>
             <xg>
                <x>кӧкъямысӧн</x>
-               <xtg lang="ru"><xt>восьмеро</xt></xtg>
+               <xt lang="rus">восьмеро</xt>
             </xg>
             <xg>
                <x>кӧкъямысысь</x>
-               <xtg lang="ru"><xt>из восьми</xt></xtg>
+               <xt lang="rus">из восьми</xt>
             </xg>
             <xg>
                <x>кӧкъямыс ногӧн</x>
-               <xtg lang="ru"><xt>по восемь</xt></xtg>
+               <xt lang="rus">по восемь</xt>
             </xg>
             <xg>
                <x>кӧкъямыс пельӧ</x>
-               <xtg lang="ru"><xt>на восемь частей</xt></xtg>
+               <xt lang="rus">на восемь частей</xt>
             </xg>
             <xg>
                <x>кӧкъямыс пӧв</x>
-               <xtg lang="ru"><xt>восемь раз</xt></xtg>
+               <xt lang="rus">восемь раз</xt>
             </xg>
             <xg>
                <x>кӧкъямыс час кежлӧ</x>
-               <xtg lang="ru"><xt>к восьми часам</xt></xtg>
+               <xt lang="rus">к восьми часам</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>кӧкъямысдас</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>кӧкъямысдас</l>
+         <stg>
+            <st kpvContlex="NUMTAG">кӧкъямысдас</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
-               <head><i>колич.</i></head>
+               <head>
+                  <re>колич.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>восемьдесят</t></tg>
+            <tg lang="rus">
+               <t>восемьдесят</t>
+            </tg>
             <xg>
                <x>кӧкъямысдас арӧс</x>
-               <xtg lang="ru"><xt>восемьдесят лет</xt></xtg>
+               <xt lang="rus">восемьдесят лет</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кӧкъямысдасӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>кӧкъямысдасӧд</l>
+         <stg>
+            <st kpvContlex="">кӧкъямысдасӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>восьмидесятый</t></tg>
+            <tg lang="rus">
+               <t>восьмидесятый</t>
+            </tg>
             <xg>
                <x>кӧкъямысдасӧд арӧс мӧдӧдчис</x>
-               <xtg lang="ru"><xt>пошёл восьмидесятый год</xt></xtg>
+               <xt lang="rus">пошёл восьмидесятый год</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>кӧкъямыссё</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>кӧкъямыссё</l>
+         <stg>
+            <st kpvContlex="NUMTAG">кӧкъямыссё</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
-               <head><i>колич.</i></head>
+               <head>
+                  <re>колич.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>восемьсот</t></tg>
+            <tg lang="rus">
+               <t>восемьсот</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кӧкъямыссёӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>кӧкъямыссёӧд</l>
+         <stg>
+            <st kpvContlex="">кӧкъямыссёӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>восьмисотый</t></tg>
+            <tg lang="rus">
+               <t>восьмисотый</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кӧкъямысысь</lemma>
-      <stem/>
-      <contlex>CARD</contlex>
-      <pos>NUM-CARD-ITER</pos>
+      <lg>
+         <l>кӧкъямысысь</l>
+         <stg>
+            <st kpvContlex="CARD">кӧкъямысысь</st>
+         </stg>
+      </lg>
+      <pos>CARD-ITER</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>восемь раз</t></tg>
+            <tg lang="rus">
+               <t>восемь раз</t>
+            </tg>
             <xg>
                <x>кӧкъямысысь ветлыны</x>
-               <xtg lang="ru"><xt>сходить восемь раз</xt></xtg>
+               <xt lang="rus">сходить восемь раз</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кӧкъямысӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>кӧкъямысӧд</l>
+         <stg>
+            <st kpvContlex="">кӧкъямысӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>восьмой</t></tg>
+            <tg lang="rus">
+               <t>восьмой</t>
+            </tg>
             <xg>
                <x>кӧкъямысӧдысь</x>
-               <xtg lang="ru"><xt>восьмой раз</xt></xtg>
+               <xt lang="rus">восьмой раз</xt>
             </xg>
             <xg>
                <x>дас кӧкъямысӧд</x>
-               <xtg lang="ru"><xt>восемнадцатый</xt></xtg>
+               <xt lang="rus">восемнадцатый</xt>
             </xg>
             <xg genreType="saying">
                <x>кӧкъямысӧд мӧслӧн кукань</x>
-               <xtg lang="ru"><xt>седьмая вода на киселе</xt></xtg>
-               <literal>
-                  <tg lang="ru"><t> телёнок от восьмой коровы</t></tg>
-               </literal>
+               <xt lang="rus">седьмая вода на киселе</xt>
+               <xt lang="rus" tType="literal">телёнок от восьмой коровы</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>миллиард</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>миллиард</l>
+         <stg>
+            <st kpvContlex="NUMTAG">миллиард</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
-               <head><i>колич.</i></head>
+               <head>
+                  <re>колич.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>миллиард</t></tg>
+            <tg lang="rus">
+               <t>миллиард</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>миллиардӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>миллиардӧд</l>
+         <stg>
+            <st kpvContlex="">миллиардӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>миллиардный</t></tg>
+            <tg lang="rus">
+               <t>миллиардный</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>миллион</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>миллион</l>
+         <stg>
+            <st kpvContlex="NUMTAG">миллион</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
-               <head><i>колич.</i></head>
+               <head>
+                  <re>колич.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>миллион</t></tg>
+            <tg lang="rus">
+               <t>миллион</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>миллионӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>миллионӧд</l>
+         <stg>
+            <st kpvContlex="">миллионӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>миллионный</t></tg>
+            <tg lang="rus">
+               <t>миллионный</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>мӧд</lemma>
-      <stem/>
-      <contlex>ORD</contlex>
+      <lg>
+         <l>мӧд</l>
+         <stg>
+            <st kpvContlex="ORD">мӧд</st>
+         </stg>
+      </lg>
       <pos>NUM</pos>
-   </entry>
-   <entry exclude="fst">
-      <lemma>мӧд</lemma>
-      <stem/>
-      <contlex/>
-      <pos>NUM-ORD</pos>
       <e>
-         <mg MNo="1">
+         <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>второй</t></tg>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lg>
+         <l>мӧд</l>
+         <stg>
+            <st kpvContlex="">мӧд</st>
+         </stg>
+      </lg>
+      <pos>NUM-ORD</pos>
+      <e>
+         <mg No="1">
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <t>второй</t>
+            </tg>
             <xg>
                <x>мӧд пӧв</x>
-               <xtg lang="ru"><xt>(во) второй раз, вторично</xt></xtg>
+               <xt lang="rus">(во) второй раз, вторично</xt>
             </xg>
             <xg>
                <x>мӧд пӧвст</x>
-               <xtg lang="ru"><xt>второй раз, повторно</xt></xtg>
+               <xt lang="rus">второй раз, повторно</xt>
             </xg>
             <xg>
                <x>мӧд классӧ вуджны</x>
-               <xtg lang="ru"><xt>перейти во второй класс</xt></xtg>
+               <xt lang="rus">перейти во второй класс</xt>
             </xg>
             <xg>
                <x>мӧд пӧв лыддьыны</x>
-               <xtg lang="ru"><xt>вторично прочесть, перечитать</xt></xtg>
-               <xtg lang="ru"><xt>вторично сосчитать, пересчитать</xt></xtg>
+               <xt lang="rus">вторично прочесть, перечитать</xt>
+               <xt lang="rus">вторично сосчитать, пересчитать</xt>
             </xg>
             <xg>
                <x>мӧд фронт восьтыны</x>
-               <xtg lang="ru"><xt>открыть второй фронт</xt></xtg>
+               <xt lang="rus">открыть второй фронт</xt>
             </xg>
             <xg>
                <x>пиыс мӧд во велӧдчӧ</x>
-               <xtg lang="ru"><xt>его сын учится второй год</xt></xtg>
+               <xt lang="rus">его сын учится второй год</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
-               <head><com>после сущ. (пишется через дефис) числ. прибл. счёта</com></head>
+               <head>
+                  <re>после сущ. (пишется через дефис) числ. прибл. счёта</re>
+               </head>
             </m>
-            <tg lang="ru"><t>несколько</t></tg>
+            <tg lang="rus">
+               <t>несколько</t>
+            </tg>
             <xg>
                <x>душ-мӧд</x>
-               <xtg lang="ru"><xt>несколько голов, несколько штук</xt></xtg>
+               <xt lang="rus">несколько голов, несколько штук</xt>
             </xg>
             <xg>
                <x>морт-мӧд</x>
-               <xtg lang="ru"><xt>несколько человек</xt></xtg>
+               <xt lang="rus">несколько человек</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>мӧдӧд</lemma>
-      <stem/>
-      <contlex>ORD</contlex>
+      <lg>
+         <l>мӧдӧд</l>
+         <stg>
+            <st kpvContlex="ORD">мӧдӧд</st>
+         </stg>
+      </lg>
       <pos>NUM</pos>
-   </entry>
-   <entry>
-      <lemma>нелямын</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
       <e>
          <mg>
             <m>
-               <head><i>колич.</i></head>
+               <head/>
             </m>
-            <tg lang="ru"><t>сорок</t></tg>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>нелямын</l>
+         <stg>
+            <st kpvContlex="NUMTAG">нелямын</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
+      <e>
+         <mg>
+            <m>
+               <head>
+                  <re>колич.</re>
+               </head>
+            </m>
+            <tg lang="rus">
+               <t>сорок</t>
+            </tg>
             <xg genreType="saying">
                <x>нелямын арӧс бӧрад бабаыд абу нин баба</x>
-               <xtg lang="ru"><xt>сорок лет — бабий век</xt></xtg>
-               <literal>
-                  <xtg lang="ru"><xt>после сорока лет женщина уже не женщина</xt></xtg>
-               </literal>
-            </xg>
-            <xg>
-               <x>сё нелямын ур<range>уст.</range></x>
-               <xtg lang="ru"><xt>сорок копеек</xt></xtg>
+               <xt lang="rus">сорок лет — бабий век</xt>
+               <xt lang="rus" tType="literal">после сорока лет женщина уже не женщина</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>нелямынӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>нелямынӧд</l>
+         <stg>
+            <st kpvContlex="">нелямынӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>сороковой</t></tg>
+            <tg lang="rus">
+               <t>сороковой</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>нёль</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>нёль</l>
+         <stg>
+            <st kpvContlex="NUMTAG">нёль</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
-               <head><i>колич.</i></head>
+               <head>
+                  <re>колич.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>четыре</t></tg>
+            <tg lang="rus">
+               <t>четыре</t>
+            </tg>
             <xg>
                <x>нёль морт</x>
-               <xtg lang="ru"><xt>четыре человека</xt></xtg>
+               <xt lang="rus">четыре человека</xt>
             </xg>
             <xg>
                <x>нёль шайт</x>
-               <xtg lang="ru"><xt>четыре рубля</xt></xtg>
+               <xt lang="rus">четыре рубля</xt>
             </xg>
             <xg>
                <x>нёль ногӧн</x>
-               <xtg lang="ru"><xt>по четыре</xt></xtg>
+               <xt lang="rus">по четыре</xt>
             </xg>
             <xg>
                <x>нёль пельӧ</x>
-               <xtg lang="ru"><xt>на четыре части</xt></xtg>
+               <xt lang="rus">на четыре части</xt>
             </xg>
             <xg>
                <x>нёль пӧв</x>
-               <xtg lang="ru"><xt>четыре раза</xt></xtg>
+               <xt lang="rus">четыре раза</xt>
             </xg>
             <xg>
                <x>нёль пӧв унджык</x>
-               <xtg lang="ru"><xt>в четыре раза больше</xt></xtg>
+               <xt lang="rus">в четыре раза больше</xt>
             </xg>
             <xg>
                <x>нёльӧн</x>
-               <xtg lang="ru"><xt>четверо, вчетвером</xt></xtg>
+               <xt lang="rus">четверо, вчетвером</xt>
             </xg>
             <xg>
                <x>нёльӧн унджык</x>
-               <xtg lang="ru"><xt>на четыре больше</xt></xtg>
+               <xt lang="rus">на четыре больше</xt>
             </xg>
             <xg>
                <x>нёльӧн-нёльӧн</x>
-               <xtg lang="ru"><xt>по четыре</xt><re>в ряду, в группе</re></xtg>
-               <xtg lang="ru"><xt>четвёрками</xt></xtg>
+               <xtCtn>
+                  <xt lang="rus">по четыре</xt>
+                  <re>в ряду, в группе</re>
+               </xtCtn>
+               <xt lang="rus">четвёрками</xt>
             </xg>
             <xg>
                <x>нёльысь</x>
-               <xtg lang="ru"><xt>из четырёх</xt></xtg>
-               <xtg lang="ru"><xt>четыре раза</xt></xtg>
+               <xt lang="rus">из четырёх</xt>
+               <xt lang="rus">четыре раза</xt>
             </xg>
             <xg>
                <x>морт-нёль меным ковмас</x>
-               <xtg lang="ru"><xt>мне понадобится человека четыре</xt></xtg>
+               <xt lang="rus">мне понадобится человека четыре</xt>
             </xg>
             <xg>
                <x>нёль арӧс сылы</x>
-               <xtg lang="ru"><xt>ему четыре года</xt></xtg>
+               <xt lang="rus">ему четыре года</xt>
             </xg>
             <xg>
                <x>нёль шайт гӧгӧр видзи</x>
-               <xtg lang="ru"><xt>я истратил около четырёх рублей</xt></xtg>
+               <xt lang="rus">я истратил около четырёх рублей</xt>
             </xg>
             <xg genreType="riddle">
                <x>нёль вок ӧти вевт улын олӧны</x>
-               <xtg lang="ru"><xt>четыре брата живут под одной крышей</xt></xtg>
+               <xt lang="rus">четыре брата живут под одной крышей</xt>
                <answer>
-                  <x>пызан</x>
-                  <xtg lang="ru"><xt>стол</xt></xtg>
+                  <native>пызан</native>
+                  <xt lang="rus">стол</xt>
                </answer>
             </xg>
             <xg genreType="riddle">
                <x>нёль сюра, кык рушкуа, а абу ловъя</x>
-               <xtg lang="ru"><xt>с четырьмя рогами, с двумя животами, а не живой</xt></xtg>
+               <xt lang="rus">с четырьмя рогами, с двумя животами, а не живой</xt>
                <answer>
-                  <x>юрлӧс</x>
-                  <xtg lang="ru"><xt>подушка</xt></xtg>
+                  <native>юрлӧс</native>
+                  <xt lang="rus">подушка</xt>
                </answer>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>нёль-вит</lemma>
-      <stem/>
-      <contlex>CARD-APPR</contlex>
-      <pos>NUM-CARD-APPR</pos>
+      <lg>
+         <l>нёль-вит</l>
+         <stg>
+            <st kpvContlex="CARD-APPR">нёль-вит</st>
+         </stg>
+      </lg>
+      <pos>CARD-APPR</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel MNo="1" lemmaID="нёль-ӧ-вит" semRelType="see"/>
+               <semRel No="1" lemmaID="нёль-ӧ-вит" semRelType="see"/>
             </m>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>нёль-ӧ-вит</lemma>
-      <stem/>
-      <contlex>CARD-APPR</contlex>
-      <pos>NUM-CARD-APPR</pos>
+      <lg>
+         <l>нёль-ӧ-вит</l>
+         <stg>
+            <st kpvContlex="CARD-APPR">нёль-ӧ-вит</st>
+         </stg>
+      </lg>
+      <pos>CARD-APPR</pos>
       <e>
          <mg>
             <m>
-               <head><i>прибл. счёта</i></head>
+               <head>
+                  <re>прибл. счёта</re>
+               </head>
             </m>
-            <tg lang="ru"><t>четыре-пять</t></tg>
+            <tg lang="rus">
+               <t>четыре-пять</t>
+            </tg>
             <xg>
                <x>мужикыс мунӧма вӧрӧ нёль-ӧ-вит лун кежлӧ</x>
-               <xtg lang="ru"><xt>муж её ушёл в лес на четыре-пять дней</xt></xtg>
+               <xt lang="rus">муж её ушёл в лес на четыре-пять дней</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>нёльнан</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>нёльнан</l>
+         <stg>
+            <st kpvContlex="">нёльнан</st>
+         </stg>
+      </lg>
       <pos>QNT-COLL-UNIV</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>все четыре</t></tg>
+            <tg lang="rus">
+               <t>все четыре</t>
+            </tg>
             <xg>
                <x>нёльнан кокӧн пыксьыны</x>
-               <xtg lang="ru"><xt>упираться всеми четырьмя ногами</xt><re>о животном</re></xtg>
-               <xtg lang="ru"><xt><sns>перен.</sns>упрямиться, противиться, артачиться</xt></xtg>
+               <xtCtn>
+                  <xt lang="rus">упираться всеми четырьмя ногами</xt>
+                  <re>о животном</re>
+               </xtCtn>
+               <xtCtn>
+                  <xt lang="rus">упрямиться</xt>
+                  <sense sense="figurative"/>
+               </xtCtn>
+               <xtCtn>
+                  <xt lang="rus">противиться</xt>
+                  <sense sense="figurative"/>
+               </xtCtn>
+               <xtCtn>
+                  <xt lang="rus">артачиться</xt>
+                  <sense sense="figurative"/>
+               </xtCtn>
             </xg>
             <xg>
                <x>нёльнан пиӧй ветліс война вылӧ</x>
-               <xtg lang="ru"><xt>у меня все четыре сына были на войне</xt></xtg>
+               <xt lang="rus">у меня все четыре сына были на войне</xt>
             </xg>
          </mg>
          <mg>
             <m>
-               <head><com>с притяж. суф. — счётно-личн. мест.</com></head>
+               <head>
+                  <re>с притяж. суф. — счётно-личн. мест.</re>
+               </head>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>нёльнанным</x>
-               <xtg lang="ru"><xt>мы все четверо</xt></xtg>
-               <xtg lang="ru"><xt> вся наша четвёрка</xt></xtg>
+               <xt lang="rus">мы все четверо</xt>
+               <xt lang="rus">вся наша четвёрка</xt>
             </xg>
             <xg>
                <x>нёльнанныд</x>
-               <xtg lang="ru"><xt>вы все четверо</xt></xtg>
-               <xtg lang="ru"><xt> вся ваша четвёрка</xt></xtg>
+               <xt lang="rus">вы все четверо</xt>
+               <xt lang="rus">вся ваша четвёрка</xt>
             </xg>
             <xg>
                <x>нёльнанныс</x>
-               <xtg lang="ru"><xt>они все четверо</xt></xtg>
-               <xtg lang="ru"><xt> вся их четвёрка</xt></xtg>
+               <xt lang="rus">они все четверо</xt>
+               <xt lang="rus">вся их четвёрка</xt>
             </xg>
             <xg>
                <x>ми нёльнанным аддзылім</x>
-               <xtg lang="ru"><xt>мы все четверо видели</xt></xtg>
+               <xt lang="rus">мы все четверо видели</xt>
             </xg>
             <xg>
                <x>найӧ нёльнанныс чуймисны</x>
-               <xtg lang="ru"><xt>они все четверо опешили</xt></xtg>
+               <xt lang="rus">они все четверо опешили</xt>
             </xg>
             <xg>
                <x>нёльнан кокӧн чотны</x>
-               <xtg lang="ru"><xt>хромать на все четыре ноги</xt><re>иметь много недостатков</re></xtg>
+               <xtCtn>
+                  <xt lang="rus">хромать на все четыре ноги</xt>
+                  <re>иметь много недостатков</re>
+               </xtCtn>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>нёльсё</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>нёльсё</l>
+         <stg>
+            <st kpvContlex="NUMTAG">нёльсё</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
-               <head><i>колич.</i></head>
+               <head>
+                  <re>колич.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>четыреста</t></tg>
+            <tg lang="rus">
+               <t>четыреста</t>
+            </tg>
             <xg>
                <x>пальто нёльсё бердӧ сувтіс</x>
-               <xtg lang="ru"><xt>пальто обошлось примерно в четыреста</xt><re>рублей</re></xtg>
+               <xtCtn>
+                  <xt lang="rus">пальто обошлось примерно в четыреста</xt>
+                  <re>рублей</re>
+               </xtCtn>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>нёльсёӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>нёльсёӧд</l>
+         <stg>
+            <st kpvContlex="">нёльсёӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>четырёхсотый</t></tg>
+            <tg lang="rus">
+               <t>четырёхсотый</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>нёльӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>нёльӧд</l>
+         <stg>
+            <st kpvContlex="">нёльӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>четвёртый</t></tg>
+            <tg lang="rus">
+               <t>четвёртый</t>
+            </tg>
             <xg>
                <x>нёльӧд морт</x>
-               <xtg lang="ru"><xt>четвёртый <i>по счёту</i> человек</xt></xtg>
+               <xt lang="rus">четвёртый (по счёту) человек</xt>
             </xg>
             <xg>
                <x>нёльӧд луннас</x>
-               <xtg lang="ru"><xt>на четвёртый день</xt></xtg>
+               <xt lang="rus">на четвёртый день</xt>
             </xg>
             <xg>
                <x>нёльӧд сё</x>
-               <xtg lang="ru"><xt>четвёртая сотня</xt></xtg>
+               <xt lang="rus">четвёртая сотня</xt>
             </xg>
             <xg>
                <x>нёльӧдысь</x>
-               <xtg lang="ru"><xt>(в) четвёртый раз</xt></xtg>
+               <xt lang="rus">(в) четвёртый раз</xt>
             </xg>
             <xg>
                <x>нёльӧдысьӧн</x>
-               <xtg lang="ru"><xt>по четвёртому разу</xt></xtg>
+               <xt lang="rus">по четвёртому разу</xt>
             </xg>
             <xg>
                <x>нёльӧд юкӧн</x>
-               <xtg lang="ru"><xt>четверть, четвёртая часть</xt></xtg>
-            </xg>
-            <xg>
-               <x>нёльӧд-кӧ</x>
-               <xtg lang="ru"><xt><i>вводн. сл.</i> в-четвёртых</xt></xtg>
+               <xt lang="rus">четверть, четвёртая часть</xt>
             </xg>
             <xg>
                <x>нёльӧд во велӧдчӧ</x>
-               <xtg lang="ru"><xt>он четвёртый год учится</xt></xtg>
+               <xt lang="rus">он четвёртый год учится</xt>
             </xg>
             <xg>
                <x>сылы нёльӧд арӧс регыд</x>
-               <xtg lang="ru"><xt>ему скоро пойдёт четвёртый год</xt></xtg>
+               <xt lang="rus">ему скоро пойдёт четвёртый год</xt>
             </xg>
          </mg>
       </e>
    </entry>
+   <entry>
+      <lg>
+         <l>нёльӧд-кӧ</l>
+         <stg>
+            <st kpvContlex="ADV-PARENTHETIC">нёльӧд-кӧ</st>
+         </stg>
+      </lg>
+      <pos>ADV-PARENTHETIC</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <t>в-четвёртых</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
    <entry exclude="fst">
-      <lemma>нёльӧн</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>нёльӧн</l>
+         <stg>
+            <st kpvContlex="">нёльӧн</st>
+         </stg>
+      </lg>
       <pos>QNT-DISTR</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>вчетвером</t></tg>
+            <tg lang="rus">
+               <t>вчетвером</t>
+            </tg>
             <xg>
                <x>уджавны нёльӧн</x>
-               <xtg lang="ru"><xt>работать вчетвером</xt></xtg>
+               <xt lang="rus">работать вчетвером</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>первой</lemma>
-      <stem/>
-      <contlex>ORD</contlex>
+      <lg>
+         <l>первой</l>
+         <stg>
+            <st kpvContlex="ORD">первой</st>
+         </stg>
+      </lg>
       <pos>NUM</pos>
-   </entry>
-   <entry>
-      <lemma>первой</lemma>
-      <stem/>
-      <contlex>ORD</contlex>
-      <pos>NUM-ORD</pos>
-      <e RN="I">
-         <mg MNo="1">
+      <e>
+         <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>первый</t></tg>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>первой</l>
+         <stg>
+            <st kpvContlex="ORD">первой</st>
+         </stg>
+      </lg>
+      <pos>NUM-ORD</pos>
+      <e RNo="I">
+         <mg No="1">
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <t>первый</t>
+            </tg>
             <xg>
                <x>первой во</x>
-               <xtg lang="ru"><xt>первый год</xt></xtg>
+               <xt lang="rus">первый год</xt>
             </xg>
             <xg>
                <x>первой рейс</x>
-               <xtg lang="ru"><xt>первый рейс</xt></xtg>
+               <xt lang="rus">первый рейс</xt>
             </xg>
             <xg>
                <x>первой артӧ и бур пон тыртӧмавлӧ</x>
-               <xtg lang="ru"><xt>в первую осень и хорошая собака недобычлива</xt></xtg>
+               <xt lang="rus">в первую осень и хорошая собака недобычлива</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>первичный</t></tg>
+            <tg lang="rus">
+               <t>первичный</t>
+            </tg>
             <xg>
                <x>висьӧмлӧн первой кад</x>
-               <xtg lang="ru"><xt>первичный период болезни</xt></xtg>
+               <xt lang="rus">первичный период болезни</xt>
             </xg>
             <xg>
                <x>первой слӧй</x>
-               <xtg lang="ru"><xt>первичный слой</xt></xtg>
+               <xt lang="rus">первичный слой</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>первойсянь</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>первойсянь</l>
+         <stg>
+            <st kpvContlex="">первойсянь</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>с самого начала</t></tg>
-            <tg lang="ru"><t> сразу</t></tg>
+            <tg lang="rus">
+               <t>с самого начала</t>
+            </tg>
+            <tg lang="rus">
+               <t>сразу</t>
+            </tg>
             <xg>
                <x>первойсянь казявны</x>
-               <xtg lang="ru"><xt>заметить с самого начала</xt></xtg>
+               <xt lang="rus">заметить с самого начала</xt>
             </xg>
             <xg>
                <x>ми первойсяньыс кутім лӧсявны</x>
-               <xtg lang="ru"><xt>мы сошлись с первого же раза</xt></xtg>
+               <xt lang="rus">мы сошлись с первого же раза</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>первойысь</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>первойысь</l>
+         <stg>
+            <st kpvContlex="">первойысь</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>первый раз, в первый раз, впервые</t></tg>
+            <tg lang="rus">
+               <t>первый раз, в первый раз, впервые</t>
+            </tg>
             <xg>
                <x>первойысь кукъялӧм мӧс</x>
-               <xtg lang="ru"><xt>первотёлка</xt></xtg>
+               <xt lang="rus">первотёлка</xt>
             </xg>
             <xg>
                <x>первойысь аддза</x>
-               <xtg lang="ru"><xt>впервые вижу</xt></xtg>
+               <xt lang="rus">впервые вижу</xt>
             </xg>
             <xg>
                <x>меным тайӧ абу нин первойысь</x>
-               <xtg lang="ru"><xt>мне это не впервые</xt></xtg>
+               <xt lang="rus">мне это не впервые</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>первойя</lemma>
-      <stem/>
-      <contlex>ORD</contlex>
+      <lg>
+         <l>первойя</l>
+         <stg>
+            <st kpvContlex="ORD">первойя</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
-               <semRel MNo="1" lemmaID="медводдза" semRelType="seeAlso"/>
+               <semRel No="1" lemmaID="медводдза" semRelType="seeAlso"/>
             </m>
-            <tg lang="ru"><t>первый</t></tg>
-            <tg lang="ru"><t> первоначальный</t></tg>
+            <tg lang="rus">
+               <t>первый</t>
+            </tg>
+            <tg lang="rus">
+               <t>первоначальный</t>
+            </tg>
             <xg>
                <x>первойя кадсӧ</x>
-               <xtg lang="ru"><xt>первое время </xt><re>сначала</re></xtg>
+               <xtCtn>
+                  <xt lang="rus">первое время</xt>
+                  <re>сначала</re>
+               </xtCtn>
             </xg>
             <xg>
                <x>первойя керкаас</x>
-               <xtg lang="ru"><xt>в первом <i>с краю</i> доме</xt></xtg>
+               <xt lang="rus">в первом (с краю) доме</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>самый ранний</t></tg>
+            <tg lang="rus">
+               <t>самый ранний</t>
+            </tg>
             <xg>
                <x>первойя кынмалӧмъяс</x>
-               <xtg lang="ru"><xt>ранние заморозки</xt></xtg>
+               <xt lang="rus">ранние заморозки</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>первойяысь</lemma>
-      <stem/>
-      <contlex/>
-      <pos>NUM-ORD-ITER</pos>
+      <lg>
+         <l>первойяысь</l>
+         <stg>
+            <st kpvContlex="">первойяысь</st>
+         </stg>
+      </lg>
+      <pos>ORD-ITER</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel MNo="1" lemmaID="первойысь" semRelType="see"/>
+               <semRel No="1" lemmaID="первойысь" semRelType="see"/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>первӧй</lemma>
-      <stem/>
-      <contlex>ORD</contlex>
+      <lg>
+         <l>первӧй</l>
+         <stg>
+            <st kpvContlex="ORD">первӧй</st>
+         </stg>
+      </lg>
       <pos>NUM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
    </entry>
    <entry exclude="fst">
-      <lemma>пӧв-мӧдысь</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>пӧв-мӧдысь</l>
+         <stg>
+            <st kpvContlex="">пӧв-мӧдысь</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>пару раз, несколько раз</t></tg>
+            <tg lang="rus">
+               <t>пару раз, несколько раз</t>
+            </tg>
             <xg>
                <x>ме сэн пӧв-мӧдысь нин вӧлі</x>
-               <xtg lang="ru"><xt>я там уже несколько раз бывал</xt></xtg>
+               <xt lang="rus">я там уже несколько раз бывал</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>пӧлысь-мӧдысь</lemma>
-      <stem/>
-      <contlex/>
-      <pos>NUM-ORD-ITER</pos>
+      <lg>
+         <l>пӧлысь-мӧдысь</l>
+         <stg>
+            <st kpvContlex="">пӧлысь-мӧдысь</st>
+         </stg>
+      </lg>
+      <pos>ORD-ITER</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>раз-другой, несколько раз</t></tg>
+            <tg lang="rus">
+               <t>раз-другой, несколько раз</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>сизим</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>сизим</l>
+         <stg>
+            <st kpvContlex="NUMTAG">сизим</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
-               <head><i>колич.</i></head>
+               <head>
+                  <re>колич.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>семь</t></tg>
+            <tg lang="rus">
+               <t>семь</t>
+            </tg>
             <xg>
                <x>сизим пельӧ юкны</x>
-               <xtg lang="ru"><xt>разделить на семь частей</xt></xtg>
+               <xt lang="rus">разделить на семь частей</xt>
             </xg>
             <xg>
                <x>сизим пӧв унджык</x>
-               <xtg lang="ru"><xt>в семь раз больше</xt></xtg>
+               <xt lang="rus">в семь раз больше</xt>
             </xg>
             <xg genreType="riddle">
                <x>сизим вок ӧтыдждаӧсь, а нимныс разнӧй</x>
-               <xtg lang="ru"><xt>семь братьев — однолетки, только имена разные</xt></xtg>
+               <xt lang="rus">семь братьев — однолетки, только имена разные</xt>
                <answer>
-                  <x>вежон лунъяс</x>
-                  <xtg lang="ru"><xt>дни недели</xt></xtg>
+                  <native>вежон лунъяс</native>
+                  <xt lang="rus">дни недели</xt>
                </answer>
             </xg>
             <xg genreType="riddle">
                <x>лы тув вылын сизим розя кашник</x>
-               <xtg lang="ru"><xt>на костяном колышке горшок с семью дырками</xt></xtg>
+               <xt lang="rus">на костяном колышке горшок с семью дырками</xt>
                <answer>
-                  <x>морт юр</x>
-                  <xtg lang="ru"><xt>человеческая голова</xt></xtg>
+                  <native>морт юр</native>
+                  <xt lang="rus">человеческая голова</xt>
                </answer>
             </xg>
             <xg>
                <x>вомыс сизим ыж куысь вурӧма</x>
-               <xtg lang="ru"><xt>рот его сшит из семи овчин</xt><re>о болтливом</re></xtg>
+               <xtCtn>
+                  <xt lang="rus">рот его сшит из семи овчин</xt>
+                  <re>о болтливом</re>
+               </xtCtn>
             </xg>
             <xg>
                <x>сизим му сайысь аддзас</x>
-               <xtg lang="ru"><xt>везде найдёт</xt><re>о пронырливом человеке</re></xtg>
+               <xtCtn>
+                  <xt lang="rus">везде найдёт</xt>
+                  <re>о пронырливом человеке</re>
+               </xtCtn>
             </xg>
             <xg>
                <x>сизим пӧсь кисьтны</x>
-               <xtg lang="ru"><xt>пролить семь потов</xt></xtg>
+               <xt lang="rus">пролить семь потов</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>сизима</lemma>
-      <stem/>
-      <contlex>Noun1</contlex>
+      <lg>
+         <l>сизима</l>
+         <stg>
+            <st kpvContlex="Noun1">сизима</st>
+         </stg>
+      </lg>
       <pos>QNT</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>семёрка</t></tg>
+            <tg lang="rus">
+               <t>семёрка</t>
+            </tg>
             <xg>
                <x>сизима кодзув</x>
-               <xtg lang="ru"><xt>Большая медведица</xt><re>созвездие</re></xtg>
+               <xtCtn>
+                  <xt lang="rus">Большая медведица</xt>
+                  <re>созвездие</re>
+               </xtCtn>
             </xg>
             <xg>
                <x>сизима чумали</x>
-               <xtg lang="ru"><xt>суслон-семерик</xt></xtg>
+               <xt lang="rus">суслон-семерик</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>сизимдас</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>сизимдас</l>
+         <stg>
+            <st kpvContlex="NUMTAG">сизимдас</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
-               <head><i>колич.</i></head>
+               <head>
+                  <re>колич.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>семьдесят</t></tg>
+            <tg lang="rus">
+               <t>семьдесят</t>
+            </tg>
             <xg>
                <x>сизимдас вит верст</x>
-               <xtg lang="ru"><xt>семьдесят пять километров</xt></xtg>
+               <xt lang="rus">семьдесят пять километров</xt>
             </xg>
             <xg>
                <x>сизимдас килоа пызь мешӧк</x>
-               <xtg lang="ru"><xt>семидесятикилограммовый куль муки</xt></xtg>
+               <xt lang="rus">семидесятикилограммовый куль муки</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сизимдасӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>сизимдасӧд</l>
+         <stg>
+            <st kpvContlex="">сизимдасӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>семидесятый</t></tg>
+            <tg lang="rus">
+               <t>семидесятый</t>
+            </tg>
             <xg>
                <x>сизимдасӧд лист бок</x>
-               <xtg lang="ru"><xt>семидесятая страница</xt></xtg>
+               <xt lang="rus">семидесятая страница</xt>
             </xg>
             <xg>
                <x>сылы сизимдасӧд арӧс нин</x>
-               <xtg lang="ru"><xt>ему уже семидесятый год</xt></xtg>
+               <xt lang="rus">ему уже семидесятый год</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сизимнан</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>сизимнан</l>
+         <stg>
+            <st kpvContlex="">сизимнан</st>
+         </stg>
+      </lg>
       <pos>QNT-COLL-UNIV</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>все семь, все семеро</t><re>из общего числа</re></tg>
+            <tg lang="rus">
+               <tCtn>
+                  <t>все семь, все семеро</t>
+                  <re>из общего числа</re>
+               </tCtn>
+            </tg>
             <xg>
                <x>сизимнан челядьыс велӧдчӧны бура</x>
-               <xtg lang="ru"><xt>у них все семеро детей учатся хорошо</xt></xtg>
+               <xt lang="rus">у них все семеро детей учатся хорошо</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сизимнанныд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>сизимнанныд</l>
+         <stg>
+            <st kpvContlex="">сизимнанныд</st>
+         </stg>
+      </lg>
       <pos>QNT-COLL-UNIV</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>вы семеро, вы всемером</t></tg>
+            <tg lang="rus">
+               <t>вы семеро, вы всемером</t>
+            </tg>
             <xg>
                <x>ті сизимнанныд мунанныд ёг весавны</x>
-               <xtg lang="ru"><xt>вы всемером пойдёте на прополку</xt></xtg>
+               <xt lang="rus">вы всемером пойдёте на прополку</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сизимнанным</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>сизимнанным</l>
+         <stg>
+            <st kpvContlex="">сизимнанным</st>
+         </stg>
+      </lg>
       <pos>QNT-COLL-UNIV</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>мы всемером</t></tg>
+            <tg lang="rus">
+               <t>мы всемером</t>
+            </tg>
             <xg>
                <x>ми сизимнанным велӧдчам бура</x>
-               <xtg lang="ru"><xt>мы все всемером учимся хорошо</xt></xtg>
+               <xt lang="rus">мы все всемером учимся хорошо</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сизимнанныс</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>сизимнанныс</l>
+         <stg>
+            <st kpvContlex="">сизимнанныс</st>
+         </stg>
+      </lg>
       <pos>QNT-COLL-UNIV</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>они всемером</t></tg>
-            <tg lang="ru"><t> они семеро</t></tg>
+            <tg lang="rus">
+               <t>они всемером</t>
+            </tg>
+            <tg lang="rus">
+               <t>они семеро</t>
+            </tg>
             <xg>
                <x>сизимнанныслӧн эм книга</x>
-               <xtg lang="ru"><xt>у каждого из них семерых есть книга</xt></xtg>
+               <xt lang="rus">у каждого из них семерых есть книга</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>сизимсё</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>сизимсё</l>
+         <stg>
+            <st kpvContlex="NUMTAG">сизимсё</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
-               <head><i>колич.</i></head>
+               <head>
+                  <re>колич.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>семьсот</t></tg>
+            <tg lang="rus">
+               <t>семьсот</t>
+            </tg>
             <xg>
                <x>карлы сизимсё во</x>
-               <xtg lang="ru"><xt>городу семьсот лет</xt></xtg>
+               <xt lang="rus">городу семьсот лет</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сизимсёӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>сизимсёӧд</l>
+         <stg>
+            <st kpvContlex="">сизимсёӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>семисотый</t></tg>
+            <tg lang="rus">
+               <t>семисотый</t>
+            </tg>
             <xg>
                <x>сизимсёӧд номер</x>
-               <xtg lang="ru"><xt>семисотый номер</xt></xtg>
+               <xt lang="rus">семисотый номер</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сизимысь</lemma>
-      <stem/>
-      <contlex>CARD</contlex>
-      <pos>NUM-CARD-ITER</pos>
+      <lg>
+         <l>сизимысь</l>
+         <stg>
+            <st kpvContlex="CARD">сизимысь</st>
+         </stg>
+      </lg>
+      <pos>CARD-ITER</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>много раз</t></tg>
-            <tg lang="ru"><t> семь раз</t></tg>
+            <tg lang="rus">
+               <t>много раз</t>
+            </tg>
+            <tg lang="rus">
+               <t>семь раз</t>
+            </tg>
             <xg>
                <x>сизимысь кор, а эн гусяв</x>
-               <xtg lang="ru"><xt>семь раз попроси, но не кради</xt></xtg>
+               <xt lang="rus">семь раз попроси, но не кради</xt>
             </xg>
             <xg genreType="saying">
                <x>сизимысь мерайт, а ӧтчыд вунды</x>
-               <xtg lang="ru"><xt>семь раз отмерь, один раз отрежь</xt></xtg>
+               <xt lang="rus">семь раз отмерь, один раз отрежь</xt>
             </xg>
             <xg>
                <x>сизимысь сизим — нелямын ӧкмыс</x>
-               <xtg lang="ru"><xt>семью семь — сорок девять</xt></xtg>
+               <xt lang="rus">семью семь — сорок девять</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сизимӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>сизимӧд</l>
+         <stg>
+            <st kpvContlex="">сизимӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>седьмой</t></tg>
+            <tg lang="rus">
+               <t>седьмой</t>
+            </tg>
             <xg>
                <x>сизимӧд лист бок</x>
-               <xtg lang="ru"><xt>седьмая страница</xt></xtg>
+               <xt lang="rus">седьмая страница</xt>
             </xg>
             <xg>
                <x>сизимӧд юкӧн</x>
-               <xtg lang="ru"><xt>седьмая доля</xt></xtg>
+               <xt lang="rus">седьмая доля</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>семёрка</t><re>разг.</re></tg>
+            <tg lang="rus">
+               <tCtn>
+                  <t>семёрка</t>
+                  <re>разг.</re>
+               </tCtn>
+            </tg>
             <xg>
                <x>сизимӧд номера автобус</x>
-               <xtg lang="ru"><xt>семёрка</xt></xtg>
+               <xt lang="rus">семёрка</xt>
             </xg>
             <xg>
                <x>куйлыны сизимӧд керйӧ кок лэптӧмӧн</x>
-               <xtg lang="ru"><xt>бездельничать</xt></xtg>
-               <literal>
-                  <xtg lang="ru"><xt>лежать, подняв ноги на седьмое бревно</xt></xtg>
-               </literal>
+               <xt lang="rus">бездельничать</xt>
+               <xt lang="rus" tType="literal">лежать, подняв ноги на седьмое бревно</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сизимӧн</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>сизимӧн</l>
+         <stg>
+            <st kpvContlex="">сизимӧн</st>
+         </stg>
+      </lg>
       <pos>QNT-DISTR</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>семеро</t></tg>
-            <tg lang="ru"><t> всемером</t></tg>
+            <tg lang="rus">
+               <t>семеро</t>
+            </tg>
+            <tg lang="rus">
+               <t>всемером</t>
+            </tg>
             <xg>
                <x>сизимӧн уджавны</x>
-               <xtg lang="ru"><xt>всемером работать</xt></xtg>
+               <xt lang="rus">всемером работать</xt>
             </xg>
             <xg>
                <x>ми вӧлім сизимӧн</x>
-               <xtg lang="ru"><xt>нас было семеро</xt></xtg>
+               <xt lang="rus">нас было семеро</xt>
             </xg>
             <xg genreType="proverb">
                <x>сизимӧн ӧтиӧс оз виччысьны</x>
-               <xtg lang="ru"><xt>семеро одного не ждут</xt></xtg>
+               <xt lang="rus">семеро одного не ждут</xt>
             </xg>
             <xg genreType="proverb">
                <x>ӧти уджалӧ, а сизимӧн нянь куд видзӧны</x>
-               <xtg lang="ru"><xt>один с сошкой, семеро с ложкой</xt></xtg>
-               <literal>
-                  <tg lang="ru"><t> один работает, а семеро лукошко с хлебом охраняют</t></tg>
-               </literal>
+               <xt lang="rus">один с сошкой, семеро с ложкой</xt>
+               <xt lang="rus" tType="literal">один работает, а семеро лукошко с хлебом охраняют</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>по семь, в количестве семи</t></tg>
+            <tg lang="rus">
+               <t>по семь, в количестве семи</t>
+            </tg>
             <xg>
                <x>челядьлы юклісны кампет, и быдӧнлы воис сизимӧн</x>
-               <xtg lang="ru"><xt>детям раздали конфеты, всем досталось по семь</xt></xtg>
+               <xt lang="rus">детям раздали конфеты, всем досталось по семь</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>сюрс</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>сюрс</l>
+         <stg>
+            <st kpvContlex="NUMTAG">сюрс</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
-               <head><i>колич.</i></head>
+               <head>
+                  <re>колич.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>тысяча</t></tg>
+            <tg lang="rus">
+               <t>тысяча</t>
+            </tg>
             <xg>
                <x>сюрс вося</x>
-               <xtg lang="ru"><xt>тысячелетний</xt></xtg>
+               <xt lang="rus">тысячелетний</xt>
             </xg>
             <xg>
                <x>сюрс гӧгӧр</x>
-               <xtg lang="ru"><xt>около тысячи</xt></xtg>
+               <xt lang="rus">около тысячи</xt>
             </xg>
             <xg>
                <x>сюрсӧн-джынйӧн</x>
-               <xtg lang="ru"><xt>полторы тысячи</xt></xtg>
+               <xt lang="rus">полторы тысячи</xt>
             </xg>
             <xg>
                <x>сюрс шайт</x>
-               <xtg lang="ru"><xt>тысяча рублей</xt></xtg>
+               <xt lang="rus">тысяча рублей</xt>
             </xg>
             <xg>
                <x>сюрсысь шулыны</x>
-               <xtg lang="ru"><xt>тысячу раз говорить</xt></xtg>
+               <xt lang="rus">тысячу раз говорить</xt>
             </xg>
             <xg>
                <x>сюрс пӧгиб</x>
-               <xtg lang="ru"><xt>просто беда</xt></xtg>
+               <xt lang="rus">просто беда</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сюрсъясӧн</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>сюрсъясӧн</l>
+         <stg>
+            <st kpvContlex="">сюрсъясӧн</st>
+         </stg>
+      </lg>
       <pos>QNT-COLL-UNIV</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>тысячами</t></tg>
+            <tg lang="rus">
+               <t>тысячами</t>
+            </tg>
             <xg>
                <x>сюрсъясӧн прӧтивник сюрӧ пленӧ</x>
-               <xtg lang="ru"><xt>противник тысячами попадает в плен</xt></xtg>
+               <xt lang="rus">противник тысячами попадает в плен</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сюрсӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>сюрсӧд</l>
+         <stg>
+            <st kpvContlex="">сюрсӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>тысячный</t></tg>
+            <tg lang="rus">
+               <t>тысячный</t>
+            </tg>
             <xg>
                <x>сюрсӧд юкӧн</x>
-               <xtg lang="ru"><xt>тысячная доля</xt></xtg>
+               <xt lang="rus">тысячная доля</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>сё</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
-      <e RN="I">
+      <lg>
+         <l>сё</l>
+         <stg>
+            <st kpvContlex="NUMTAG">сё</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
+      <e RNo="I">
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>сто</t></tg>
-            <tg lang="ru"><t> сотня</t></tg>
+            <tg lang="rus">
+               <t>сто</t>
+            </tg>
+            <tg lang="rus">
+               <t>сотня</t>
+            </tg>
             <xg>
                <x>сё вося</x>
-               <xtg lang="ru"><xt>столетний</xt></xtg>
+               <xt lang="rus">столетний</xt>
             </xg>
             <xg>
                <x>сё кольк</x>
-               <xtg lang="ru"><xt>сотня яиц</xt></xtg>
+               <xt lang="rus">сотня яиц</xt>
             </xg>
             <xg>
                <x>сё-мӧд-коймӧд</x>
-               <xtg lang="ru"><xt>сотня-другая</xt></xtg>
+               <xt lang="rus">сотня-другая</xt>
             </xg>
             <xg>
                <x>некымын сё морт</x>
-               <xtg lang="ru"><xt>несколько сот человек</xt></xtg>
+               <xt lang="rus">несколько сот человек</xt>
             </xg>
             <xg>
                <x>сё пӧв юавны</x>
-               <xtg lang="ru"><xt>сто раз спросить</xt></xtg>
+               <xt lang="rus">сто раз спросить</xt>
             </xg>
             <xg genreType="riddle">
                <x>сё синма, а нинӧм оз аддзы</x>
-               <xtg lang="ru"><xt>стоглазый, а ничего не видит</xt></xtg>
+               <xt lang="rus">стоглазый, а ничего не видит</xt>
                <answer>
-                  <x>пож</x>
-                  <xtg lang="ru"><xt>решето</xt></xtg>
+                  <native>пож</native>
+                  <xt lang="rus">решето</xt>
                </answer>
             </xg>
             <xg>
                <x>сё вожӧн</x>
-               <xtg lang="ru"><xt>ручьём</xt></xtg>
+               <xt lang="rus">ручьём</xt>
             </xg>
             <xg>
                <x>сё ен могысь</x>
-               <xtg lang="ru"><xt>сделай милость, очень прошу</xt></xtg>
-               <literal>
-                  <tg lang="ru"><t>ради ста богов</t></tg>
-               </literal>
+               <xt lang="rus">сделай милость, очень прошу</xt>
+               <xt lang="rus" tType="literal">ради ста богов</xt>
             </xg>
             <xg>
                <x>сё майбыр</x>
-               <xtg lang="ru"><xt>благодать</xt></xtg>
+               <xt lang="rus">благодать</xt>
             </xg>
             <xg>
                <x>сё мокасьт, сё мор</x>
-               <xtg lang="ru"><xt>чёрт побери</xt></xtg>
-               <literal>
-                  <tg lang="ru"><t> сто чертей</t></tg>
-               </literal>
+               <xt lang="rus">чёрт побери</xt>
+               <xt lang="rus" tType="literal">сто чертей</xt>
             </xg>
             <xg>
                <x>сё пӧгиб</x>
-               <xtg lang="ru"><xt>конец, погибель</xt></xtg>
+               <xt lang="rus">конец, погибель</xt>
             </xg>
             <xg>
                <x>сё во меным оз ков сійӧ</x>
-               <xtg lang="ru"><xt>он мне и даром не нужен</xt></xtg>
+               <xt lang="rus">он мне и даром не нужен</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>сё% нелямын</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>сё% нелямын</l>
+         <stg>
+            <st kpvContlex="NUMTAG">сё% нелямын</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>сто сорок</t></tg>
+            <tg lang="rus">
+               <t>сто сорок</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>сёа</lemma>
-      <stem/>
-      <contlex>Noun1</contlex>
+      <lg>
+         <l>сёа</l>
+         <stg>
+            <st kpvContlex="Noun1">сёа</st>
+         </stg>
+      </lg>
       <pos>QNT</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>сотенный</t></tg>
-            <tg lang="ru"><t> сторублёвый</t><re>о деньгах и ценных бумагах</re></tg>
+            <tg lang="rus">
+               <t>сотенный</t>
+            </tg>
+            <tg lang="rus">
+               <tCtn>
+                  <t>сторублёвый</t>
+                  <re>о деньгах и ценных бумагах</re>
+               </tCtn>
+            </tg>
             <xg>
                <x>вежны сёа</x>
-               <xtg lang="ru"><xt>разменять сотню</xt></xtg>
+               <xt lang="rus">разменять сотню</xt>
             </xg>
             <xg>
                <x>сёа видзны</x>
-               <xtg lang="ru"><xt>истратить сторублёвку</xt></xtg>
+               <xt lang="rus">истратить сторублёвку</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сёнан</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>сёнан</l>
+         <stg>
+            <st kpvContlex="">сёнан</st>
+         </stg>
+      </lg>
       <pos>QNT-COLL-UNIV</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>все сто</t></tg>
-            <tg lang="ru"><t>сто</t><re>из них</re></tg>
+            <tg lang="rus">
+               <t>все сто</t>
+            </tg>
+            <tg lang="rus">
+               <tCtn>
+                  <t>сто</t>
+                  <re>из них</re>
+               </tCtn>
+            </tg>
             <xg>
                <x>сёнан уджалысьыс бура уджалӧны</x>
-               <xtg lang="ru"><xt>все сто рабочих — передовики призводства</xt></xtg>
+               <xt lang="rus">все сто рабочих — передовики призводства</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сёӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>сёӧд</l>
+         <stg>
+            <st kpvContlex="">сёӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>сотый</t></tg>
+            <tg lang="rus">
+               <t>сотый</t>
+            </tg>
             <xg>
                <x>сёӧд номер</x>
-               <xtg lang="ru"><xt>сотый номер</xt></xtg>
+               <xt lang="rus">сотый номер</xt>
             </xg>
             <xg>
                <x>сёӧд юкӧн</x>
-               <xtg lang="ru"><xt>сотая доля</xt></xtg>
+               <xt lang="rus">сотая доля</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сёӧн</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>сёӧн</l>
+         <stg>
+            <st kpvContlex="">сёӧн</st>
+         </stg>
+      </lg>
       <pos>QNT-DISTR</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>по сто, в количестве ста</t></tg>
+            <tg lang="rus">
+               <t>по сто, в количестве ста</t>
+            </tg>
             <xg>
                <x>йӧзыс локталӧны сёясӧн</x>
-               <xtg lang="ru"><xt>люди приходят сотнями</xt></xtg>
+               <xt lang="rus">люди приходят сотнями</xt>
             </xg>
             <xg>
                <x>найӧ локтісны сёӧн</x>
-               <xtg lang="ru"><xt>они прибыли в количестве ста человек</xt></xtg>
+               <xt lang="rus">они прибыли в количестве ста человек</xt>
             </xg>
             <xg>
                <x>салдатъяс сувталісны сёӧн-сёӧн</x>
-               <xtg lang="ru"><xt>солдаты выстроились по сто человек</xt></xtg>
+               <xt lang="rus">солдаты выстроились по сто человек</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>триллион</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
-   </entry>
-   <entry>
-      <lemma>тысяча</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>триллион</l>
+         <stg>
+            <st kpvContlex="NUMTAG">триллион</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
-               <head><i>колич.</i></head>
-               <semRel MNo="1" lemmaID="сюрс" semRelType="seeAlso"/>
+               <head/>
             </m>
-            <tg lang="ru"><t>тысяча</t></tg>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>тысяча</l>
+         <stg>
+            <st kpvContlex="NUMTAG">тысяча</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
+      <e>
+         <mg>
+            <m>
+               <head>
+                  <re>колич.</re>
+               </head>
+               <semRel No="1" lemmaID="сюрс" semRelType="seeAlso"/>
+            </m>
+            <tg lang="rus">
+               <t>тысяча</t>
+            </tg>
             <xg>
                <x>тысячаысь</x>
-               <xtg lang="ru"><xt>из тысячи</xt></xtg>
-               <xtg lang="ru"><xt>тысячу раз</xt></xtg>
+               <xt lang="rus">из тысячи</xt>
+               <xt lang="rus">тысячу раз</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>тысячаӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>тысячаӧд</l>
+         <stg>
+            <st kpvContlex="">тысячаӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>тысячный</t></tg>
+            <tg lang="rus">
+               <t>тысячный</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>уна</lemma>
-      <stem/>
-      <contlex>QNT</contlex>
+      <lg>
+         <l>уна</l>
+         <stg>
+            <st kpvContlex="QNT">уна</st>
+         </stg>
+      </lg>
       <pos>QNT</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>много</t></tg>
+            <tg lang="rus">
+               <t>много</t>
+            </tg>
             <xg>
                <x>вывті уна</x>
-               <xtg lang="ru"><xt>слишком много</xt></xtg>
+               <xt lang="rus">слишком много</xt>
             </xg>
             <xg>
                <x>зэв уна</x>
-               <xtg lang="ru"><xt>очень много</xt></xtg>
+               <xt lang="rus">очень много</xt>
             </xg>
             <xg>
                <x>уна вевсьӧн</x>
-               <xtg lang="ru"><xt>в несколько слоёв (рядов)</xt></xtg>
+               <xt lang="rus">в несколько слоёв (рядов)</xt>
             </xg>
             <xg>
                <x>уна пельӧ</x>
-               <xtg lang="ru"><xt>на много частей</xt></xtg>
+               <xt lang="rus">на много частей</xt>
             </xg>
             <xg>
                <x>уна пӧв</x>
-               <xtg lang="ru"><xt>много раз</xt></xtg>
+               <xt lang="rus">много раз</xt>
             </xg>
             <xg>
                <x>уна корны</x>
-               <xtg lang="ru"><xt>много просить</xt></xtg>
+               <xt lang="rus">много просить</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
-               <head><i>в сочет.</i></head>
+               <head>
+                  <re>в сочет.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>много-</t></tg>
+            <tg lang="rus">
+               <t>много-</t>
+            </tg>
             <xg>
                <x>уна ваа</x>
-               <xtg lang="ru"><xt>многоводный</xt></xtg>
+               <xt lang="rus">многоводный</xt>
             </xg>
             <xg>
                <x>уна вежӧртаса</x>
-               <xtg lang="ru"><xt>многозначный</xt></xtg>
+               <xt lang="rus">многозначный</xt>
             </xg>
             <xg>
                <x>уна вося</x>
-               <xtg lang="ru"><xt>многолетний</xt></xtg>
+               <xt lang="rus">многолетний</xt>
             </xg>
             <xg>
                <x>уна лунся</x>
-               <xtg lang="ru"><xt>многодневный</xt></xtg>
+               <xt lang="rus">многодневный</xt>
             </xg>
             <xg>
                <x>уна дзоридзьяса</x>
-               <xtg lang="ru"><xt>многоцветный</xt></xtg>
+               <xt lang="rus">многоцветный</xt>
             </xg>
             <xg>
                <x>уна йӧза</x>
-               <xtg lang="ru"><xt>многолюдный</xt></xtg>
+               <xt lang="rus">многолюдный</xt>
             </xg>
             <xg>
                <x>уна лыда</x>
-               <xtg lang="ru"><xt>многочисленный</xt></xtg>
+               <xt lang="rus">многочисленный</xt>
             </xg>
             <xg>
                <x>уна пӧлӧс</x>
-               <xtg lang="ru"><xt>многообразный</xt></xtg>
+               <xt lang="rus">многообразный</xt>
             </xg>
             <xg>
                <x>уна сикас</x>
-               <xtg lang="ru"><xt>разнообразный, разный, различный</xt></xtg>
+               <xt lang="rus">разнообразный, разный, различный</xt>
             </xg>
             <xg>
                <x>уна судта</x>
-               <xtg lang="ru"><xt pos="A">многоэтажный</xt></xtg>
+               <xt lang="rus" pos="A">многоэтажный</xt>
             </xg>
             <xg>
                <x>уна челядя</x>
-               <xtg lang="ru"><xt pos="A">многодетный</xt></xtg>
+               <xt lang="rus" pos="A">многодетный</xt>
             </xg>
             <xg>
                <x>уна юра</x>
-               <xtg lang="ru"><xt pos="A">многоголовый</xt></xtg>
+               <xt lang="rus" pos="A">многоголовый</xt>
             </xg>
             <xg>
                <x>уна лыдын</x>
-               <xtg lang="ru"><xt>во множественном числе</xt></xtg>
+               <xt lang="rus">во множественном числе</xt>
             </xg>
             <xg genreType="proverb">
                <x>уна быдтысьыдлы уна и лоӧ шогсьыны</x>
-               <xtg lang="ru"><xt>кто много детей вырастит, тот много горя испытает</xt></xtg>
+               <xt lang="rus">кто много детей вырастит, тот много горя испытает</xt>
             </xg>
             <xg genreType="riddle">
                <x>уна кока да век стен бердын сулалӧ</x>
-               <i>загадка</i>
-               <xtg lang="ru"><xt>ног много, а всё около стены стоит</xt></xtg>
+               <xt lang="rus">ног много, а всё около стены стоит</xt>
                <answer>
-                  <x>гӧлик</x>
-                  <xtg lang="ru"><xt>метла</xt></xtg>
+                  <native>гӧлик</native>
+                  <xt lang="rus">метла</xt>
                </answer>
             </xg>
             <xg>
                <x>уна дорӧ унджык и колӧ</x>
-               <xtg lang="ru"><xt>где много, туда больше и надо</xt></xtg>
+               <xt lang="rus">где много, туда больше и надо</xt>
             </xg>
             <xg>
                <x>уна вылӧ</x>
-               <xtg lang="ru"><xt>самое большее</xt></xtg>
+               <xt lang="rus">самое большее</xt>
             </xg>
             <xg>
                <x>уна пачысь нянь сёйлӧма</x>
-               <xtg lang="ru"><xt>стреляный воробей</xt></xtg>
-               <literal>
-                  <xtg lang="ru"><xt>из многих печей хлеб ел</xt></xtg>
-               </literal>
+               <xt lang="rus">стреляный воробей</xt>
+               <xt lang="rus" tType="literal">из многих печей хлеб ел</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>этша</lemma>
-      <stem/>
-      <contlex>QNT</contlex>
+      <lg>
+         <l>этша</l>
+         <stg>
+            <st kpvContlex="QNT">этша</st>
+         </stg>
+      </lg>
       <pos>NUM</pos>
-   </entry>
-   <entry>
-      <lemma>ӧкмыс</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
       <e>
          <mg>
             <m>
-               <head><i>колич.</i></head>
+               <head/>
             </m>
-            <tg lang="ru"><t>девять</t></tg>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>ӧкмыс</l>
+         <stg>
+            <st kpvContlex="NUMTAG">ӧкмыс</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
+      <e>
+         <mg>
+            <m>
+               <head>
+                  <re>колич.</re>
+               </head>
+            </m>
+            <tg lang="rus">
+               <t>девять</t>
+            </tg>
             <xg>
                <x>ӧкмыс арӧса</x>
-               <xtg lang="ru"><xt>девятилетний</xt><re>о возрасте</re></xtg>
+               <xtCtn>
+                  <xt lang="rus">девятилетний</xt>
+                  <re>о возрасте</re>
+               </xtCtn>
             </xg>
             <xg>
                <x>ӧкмыс вося</x>
-               <xtg lang="ru"><xt>девятилетний</xt><re>не о возрасте</re></xtg>
+               <xtCtn>
+                  <xt lang="rus">девятилетний</xt>
+                  <re>не о возрасте</re>
+               </xtCtn>
             </xg>
             <xg>
                <x>ӧкмыс тӧлысся</x>
-               <xtg lang="ru"><xt>девятимесячный</xt></xtg>
+               <xt lang="rus">девятимесячный</xt>
             </xg>
             <xg>
                <x>ӧкмыс кежлӧ</x>
-               <xtg lang="ru"><xt>к девяти</xt></xtg>
+               <xt lang="rus">к девяти</xt>
             </xg>
             <xg>
                <x>ӧкмысӧдз</x>
-               <xtg lang="ru"><xt>до девяти</xt></xtg>
+               <xt lang="rus">до девяти</xt>
             </xg>
             <xg>
                <x>ӧкмысӧн</x>
-               <xtg lang="ru"><xt>девятеро, вдевятером</xt></xtg>
+               <xt lang="rus">девятеро, вдевятером</xt>
             </xg>
             <xg>
                <x>ӧкмыс пельӧ</x>
-               <xtg lang="ru"><xt>на девять частей</xt></xtg>
+               <xt lang="rus">на девять частей</xt>
             </xg>
             <xg>
                <x>ӧкмыс пӧв</x>
-               <xtg lang="ru"><xt>вдевятеро</xt></xtg>
+               <xt lang="rus">вдевятеро</xt>
             </xg>
             <xg>
                <x>ӧкмыс пӧв мунны</x>
-               <xtg lang="ru"><xt>девять раз пройти</xt></xtg>
+               <xt lang="rus">девять раз пройти</xt>
             </xg>
             <xg>
                <x>ӧкмыс пӧв ыджыдджык</x>
-               <xtg lang="ru"><xt>в девять раз больше</xt></xtg>
+               <xt lang="rus">в девять раз больше</xt>
             </xg>
             <xg>
                <x>ӧкмыс пӧвста</x>
-               <xtg lang="ru"><xt>в девять слоёв, в девять рядов</xt></xtg>
+               <xt lang="rus">в девять слоёв, в девять рядов</xt>
             </xg>
             <xg>
                <x>ӧкмысысь</x>
-               <xtg lang="ru"><xt>из девяти</xt></xtg>
-               <xtg lang="ru"><xt> девять раз</xt></xtg>
-               <xtg lang="ru"><xt> девятью</xt></xtg>
+               <xt lang="rus">из девяти</xt>
+               <xt lang="rus">девять раз</xt>
+               <xt lang="rus">девятью</xt>
             </xg>
             <xg>
                <x>ӧкмысысьӧн</x>
-               <xtg lang="ru"><xt>за девять раз</xt></xtg>
-               <xtg lang="ru"><xt> по девять раз</xt></xtg>
+               <xt lang="rus">за девять раз</xt>
+               <xt lang="rus">по девять раз</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>ӧкмыса</lemma>
-      <stem/>
-      <contlex>Noun1</contlex>
+      <lg>
+         <l>ӧкмыса</l>
+         <stg>
+            <st kpvContlex="Noun1">ӧкмыса</st>
+         </stg>
+      </lg>
       <pos>QNT</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>девятка</t></tg>
+            <tg lang="rus">
+               <t>девятка</t>
+            </tg>
             <xg>
                <x>ӧкмыса чумали</x>
-               <xtg lang="ru"><xt>суслон-девятка</xt></xtg>
+               <xt lang="rus">суслон-девятка</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>из девяти</t></tg>
+            <tg lang="rus">
+               <t>из девяти</t>
+            </tg>
             <xg>
                <x>ӧкмыса семья</x>
-               <xtg lang="ru"><xt>семья из девяти душ</xt></xtg>
+               <xt lang="rus">семья из девяти душ</xt>
             </xg>
             <xg>
                <x>ӧкмыса душа семья</x>
-               <xtg lang="ru"><xt>семья из девяти душ</xt></xtg>
+               <xt lang="rus">семья из девяти душ</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>ӧкмысдас</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>ӧкмысдас</l>
+         <stg>
+            <st kpvContlex="NUMTAG">ӧкмысдас</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
-               <head><i>колич.</i></head>
+               <head>
+                  <re>колич.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>девяносто</t></tg>
+            <tg lang="rus">
+               <t>девяносто</t>
+            </tg>
             <xg>
                <x>ӧкмысдас ӧкмыс</x>
-               <xtg lang="ru"><xt>девяносто девять</xt></xtg>
+               <xt lang="rus">девяносто девять</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>ӧкмысдасӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>ӧкмысдасӧд</l>
+         <stg>
+            <st kpvContlex="">ӧкмысдасӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>девяностый</t></tg>
+            <tg lang="rus">
+               <t>девяностый</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>ӧкмыссё</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>ӧкмыссё</l>
+         <stg>
+            <st kpvContlex="NUMTAG">ӧкмыссё</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
-               <head><i>колич.</i></head>
+               <head>
+                  <re>колич.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>девятьсот</t></tg>
+            <tg lang="rus">
+               <t>девятьсот</t>
+            </tg>
             <xg>
                <x>озыр колля воӧ ӧкмыссё саяс ур ку вузавлісны</x>
-               <xtg lang="ru"><xt>в урожайный на шишки год они продавали более девятисот беличьих шкурок</xt></xtg>
+               <xt lang="rus">в урожайный на шишки год они продавали более девятисот беличьих шкурок</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>ӧкмыссёӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>ӧкмыссёӧд</l>
+         <stg>
+            <st kpvContlex="">ӧкмыссёӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>девятисотый</t></tg>
+            <tg lang="rus">
+               <t>девятисотый</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>ӧкмысӧд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>ӧкмысӧд</l>
+         <stg>
+            <st kpvContlex="">ӧкмысӧд</st>
+         </stg>
+      </lg>
       <pos>NUM-ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>девятый</t></tg>
+            <tg lang="rus">
+               <t>девятый</t>
+            </tg>
             <xg>
                <x>ӧкмысӧдысь</x>
-               <xtg lang="ru"><xt>девятый раз</xt></xtg>
+               <xt lang="rus">девятый раз</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>ӧт</lemma>
-      <stem/>
-      <contlex>CARD</contlex>
-      <pos>NUM-CARD</pos>
-   </entry>
-   <entry>
-      <lemma>ӧти</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>ӧт</l>
+         <stg>
+            <st kpvContlex="CARD">ӧт</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t syntax="NPHead">один</t></tg>
-            <tg lang="ru"><t syntax="Modifier">один</t></tg>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>ӧти</l>
+         <stg>
+            <st kpvContlex="NUMTAG">ӧти</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <t pos="NUM">один</t>
+            </tg>
+            <tg lang="rus">
+               <t pos="PHRASE_A">один</t>
+            </tg>
             <xg>
                <x>дас ӧти</x>
-               <xtg lang="ru"><xt>одиннадцать</xt></xtg>
+               <xt lang="rus">одиннадцать</xt>
             </xg>
             <xg>
                <x>дзик ӧти</x>
-               <xtg lang="ru"><xt syntax="NPHead">совершенно один</xt></xtg>
-               <xtg lang="ru"><xt syntax="Modifier">единственный</xt></xtg>
+               <xt lang="rus">совершенно один</xt>
+               <xt lang="rus" pos="PHRASE_A">единственный</xt>
             </xg>
             <xg>
                <x>дзик ӧти петан туй</x>
-               <xtg lang="ru"><xt>единственный выход</xt></xtg>
+               <xt lang="rus">единственный выход</xt>
             </xg>
             <xg>
                <x>быдӧн, ӧти морт моз</x>
-               <xtg lang="ru"><xt>все, как один</xt></xtg>
+               <xt lang="rus">все, как один</xt>
             </xg>
             <xg>
                <x>морт ӧтиӧн</x>
-               <xtg lang="ru"><xt>по одному на человека</xt></xtg>
+               <xt lang="rus">по одному на человека</xt>
             </xg>
             <xg>
                <x>морт ӧти шӧрӧмӧн нянь шӧрыштны</x>
-               <xtg lang="ru"><xt>отрезать по одному куску хлеба на человека</xt></xtg>
+               <xt lang="rus">отрезать по одному куску хлеба на человека</xt>
             </xg>
             <xg>
                <x>ни ӧти</x>
-               <xtg lang="ru"><xt>ни одного, ни единого</xt></xtg>
-               <xtg lang="ru"><xt> нисколько</xt></xtg>
+               <xt lang="rus">ни одного, ни единого</xt>
+               <xt lang="rus">нисколько</xt>
             </xg>
             <xg>
                <x>ӧти знака</x>
-               <xtg lang="ru"><xt>однозначный</xt></xtg>
+               <xt lang="rus">однозначный</xt>
             </xg>
             <xg>
                <x>ӧти кадӧ</x>
-               <xtg lang="ru"><xt>одно время, в одно время</xt></xtg>
+               <xt lang="rus">одно время, в одно время</xt>
             </xg>
             <xg>
                <x>ӧти кадӧ олысь</x>
-               <xtg lang="ru"><xt>современник</xt></xtg>
+               <xt lang="rus">современник</xt>
             </xg>
             <xg>
                <x>ӧти керкаын овны</x>
-               <xtg lang="ru"><xt>жить в одном доме</xt></xtg>
+               <xt lang="rus">жить в одном доме</xt>
             </xg>
             <xg>
                <x>ӧти кывйӧн вочавидзны</x>
-               <xtg lang="ru"><xt>ответить одним словом</xt></xtg>
+               <xt lang="rus">ответить одним словом</xt>
             </xg>
             <xg>
                <x>ӧти морт</x>
-               <xtg lang="ru"><xt>один человек</xt></xtg>
+               <xt lang="rus">один человек</xt>
             </xg>
             <xg>
                <x>ӧти нянь сёйны</x>
-               <xtg lang="ru"><xt>есть один хлеб</xt></xtg>
+               <xt lang="rus">есть один хлеб</xt>
             </xg>
             <xg>
                <x>ӧти на ӧти</x>
-               <xtg lang="ru"><xt>один на один</xt></xtg>
+               <xt lang="rus">один на один</xt>
             </xg>
             <xg>
                <x>ӧтиас</x>
-               <xtg lang="ru"><xt>в одном из двух</xt></xtg>
+               <xt lang="rus">в одном из двух</xt>
             </xg>
             <xg>
                <x>ӧтиӧн бӧрйыны</x>
-               <xtg lang="ru"><xt>отбирать по одному</xt></xtg>
+               <xt lang="rus">отбирать по одному</xt>
             </xg>
             <xg>
                <x>ӧтиӧн мунны</x>
-               <xtg lang="ru"><xt>идти одному </xt><re>без других</re></xtg>
+               <xtCtn>
+                  <xt lang="rus">идти одному</xt>
+                  <re>без других</re>
+               </xtCtn>
             </xg>
             <xg>
                <x>ӧтиыдлы уна-ӧ колӧ?</x>
-               <xtg lang="ru"><xt>одному много ли надо?</xt></xtg>
+               <xt lang="rus">одному много ли надо?</xt>
             </xg>
             <xg>
                <x>ӧти пӧлӧс</x>
-               <xtg lang="ru"><xt>однообразный</xt></xtg>
-               <xtg lang="ru"><xt>единообразный</xt></xtg>
-               <xtg lang="ru"><xt>одинаковый</xt></xtg>
-               <xtg lang="ru"><xt> однородный</xt></xtg>
-               <xtg lang="ru"><xt>один и тот же</xt></xtg>
+               <xt lang="rus">однообразный</xt>
+               <xt lang="rus">единообразный</xt>
+               <xt lang="rus">одинаковый</xt>
+               <xt lang="rus">однородный</xt>
+               <xt lang="rus">один и тот же</xt>
             </xg>
             <xg>
                <x>ӧти пӧлӧс сёян</x>
-               <xtg lang="ru"><xt>однообразная пища</xt></xtg>
+               <xt lang="rus">однообразная пища</xt>
             </xg>
             <xg>
                <x>тэнад век ӧти пӧлӧс сёрни</x>
-               <xtg lang="ru"><xt>у тебя вечно одни и те же разговоры</xt></xtg>
+               <xt lang="rus">у тебя вечно одни и те же разговоры</xt>
             </xg>
             <xg>
                <x>ӧти сайын</x>
-               <xtg lang="ru"><xt>заодно, попутно</xt></xtg>
+               <xt lang="rus">заодно, попутно</xt>
             </xg>
             <xg genreType="saying">
                <x>ӧти гумла вылын вартӧны</x>
-               <xtg lang="ru"><xt>одного поля ягода</xt></xtg>
-               <literal>
-                  <xtg lang="ru"><xt>на одном току молотят</xt></xtg>
-               </literal>
+               <xt lang="rus">одного поля ягода</xt>
+               <xt lang="rus" tType="literal">на одном току молотят</xt>
             </xg>
             <xg genreType="saying">
                <x>ӧти донӧн ставсӧ он донъяв</x>
-               <xtg lang="ru"><xt>всех одной ценой не оценишь</xt> <re>под одну мерку не подгонишь</re></xtg>
+               <xtCtn>
+                  <xt lang="rus">всех одной ценой не оценишь</xt>
+                  <re>под одну мерку не подгонишь</re>
+               </xtCtn>
             </xg>
             <xg genreType="saying">
                <x>ӧти кыв шуан, а дасӧс содтасны</x>
-               <xtg lang="ru"><xt>скажешь слово, а прибавят десять</xt></xtg>
+               <xt lang="rus">скажешь слово, а прибавят десять</xt>
             </xg>
          </mg>
-         <mg MNo="1">
+         <mg No="1">
             <m>
-               <head><range>диал.</range></head>
+               <head>
+                  <range rangeSpat="dialect"/>
+               </head>
             </m>
-            <tg lang="ru"><t>совсем, совершенно</t></tg>
+            <tg lang="rus">
+               <t>совсем, совершенно</t>
+            </tg>
             <xg>
                <x>ӧти ог вермы сёйны</x>
-               <xtg lang="ru"><xt>есть совсем не могу</xt></xtg>
+               <xt lang="rus">есть совсем не могу</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>одинаково</t></tg>
-            <tg lang="ru"><t> всё одно</t></tg>
+            <tg lang="rus">
+               <t>одинаково</t>
+            </tg>
+            <tg lang="rus">
+               <t>всё одно</t>
+            </tg>
             <xg>
                <x>ӧти жӧ наысь тӧлкыс абу</x>
-               <xtg lang="ru"><xt>всё одно от них толку нет</xt></xtg>
+               <xt lang="rus">всё одно от них толку нет</xt>
             </xg>
             <xg>
                <x>ӧти вытьӧ</x>
-               <xtg lang="ru"><xt>за один присест</xt></xtg>
+               <xt lang="rus">за один присест</xt>
             </xg>
             <xg>
                <x>ӧти кывйӧн (кӧ)</x>
-               <xtg lang="ru"><xt>словом</xt></xtg>
-               <xtg lang="ru"><xt> короче говоря</xt></xtg>
+               <xt lang="rus">словом</xt>
+               <xt lang="rus">короче говоря</xt>
             </xg>
             <xg>
                <x>ӧти кывйӧн, нинӧм налӧн эз артмы</x>
-               <xtg lang="ru"><xt>словом, ничего у них не получилось</xt></xtg>
+               <xt lang="rus">словом, ничего у них не получилось</xt>
             </xg>
             <xg>
                <x>ӧти кывйӧ воны</x>
-               <xtg lang="ru"><xt>договориться</xt></xtg>
+               <xt lang="rus">договориться</xt>
             </xg>
             <xg>
                <x>ӧти кывйӧ воӧдчан</x>
-               <xtg lang="ru"><xt>согласительный</xt></xtg>
+               <xt lang="rus">согласительный</xt>
             </xg>
             <xg>
                <x>ӧти кывйӧ воӧдчан комиссия</x>
-               <xtg lang="ru"><xt>согласительная комиссия</xt></xtg>
+               <xt lang="rus">согласительная комиссия</xt>
             </xg>
             <xg>
                <x>ӧти няньшомысь</x>
-               <xtg lang="ru"><xt>из одного теста</xt></xtg>
-               <xtg lang="ru"><xt> два сапога пара</xt></xtg>
+               <xt lang="rus">из одного теста</xt>
+               <xt lang="rus">два сапога пара</xt>
             </xg>
             <xg>
                <x>ӧти плака вылӧ сувтны</x>
-               <xtg lang="ru"><xt>клясться</xt></xtg>
-               <literal>
-                  <tg lang="ru"><t>встать на одну доску</t></tg>
-               </literal>
+               <xt lang="rus">клясться</xt>
+               <xt lang="rus" tType="literal">встать на одну доску</xt>
             </xg>
             <xg>
                <x>ӧти пӧв кузя ветлыны</x>
-               <xtg lang="ru"><xt>ходить по струнке </xt><xt>ходить по ниточке</xt></xtg>
-               <literal>
-                  <tg lang="ru"><t> ходить по одной половице</t></tg>
-               </literal>
+               <xt lang="rus">ходить по струнке</xt>
+               <xt>ходить по ниточке</xt>
+               <xt lang="rus" tType="literal">ходить по одной половице</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>ӧтиа</lemma>
-      <stem/>
-      <contlex>Adj</contlex>
-      <pos>QNT</pos>
+      <lg>
+         <l>ӧтиа</l>
+         <stg>
+            <st kpvContlex="Adj">ӧтиа</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>для одного</t></tg>
-            <tg lang="ru"><t> одноместный</t></tg>
+            <tg lang="rus">
+               <t>для одного</t>
+            </tg>
+            <tg lang="rus">
+               <t>одноместный</t>
+            </tg>
             <xg>
                <x>ӧтиа пызан</x>
-               <xtg lang="ru"><xt>стол для одного</xt></xtg>
+               <xt lang="rus">стол для одного</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>ӧтик</lemma>
-      <stem/>
-      <contlex>NUMTAG</contlex>
-      <pos>NUM-CARD</pos>
+      <lg>
+         <l>ӧтик</l>
+         <stg>
+            <st kpvContlex="NUMTAG">ӧтик</st>
+         </stg>
+      </lg>
+      <pos>CARD</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel MNo="1" lemmaID="ӧти" semRelType="see"/>
+               <semRel No="1" lemmaID="ӧти" semRelType="see"/>
             </m>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>ӧтиныд</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>ӧтиныд</l>
+         <stg>
+            <st kpvContlex="">ӧтиныд</st>
+         </stg>
+      </lg>
       <pos>PRON-PERS</pos>
       <e>
          <mg>
             <m>
-               <head><i>счётно-личн. мест. (с собирательно-разделительным знач.)</i></head>
+               <head>
+                  <re>счётно-личн. мест. (с собирательно-разделительным знач.)</re>
+               </head>
             </m>
-            <tg lang="ru"><t>один из вас</t><re>двоих, многих</re></tg>
+            <tg lang="rus">
+               <tCtn>
+                  <t>один из вас</t>
+                  <re>двоих, многих</re>
+               </tCtn>
+            </tg>
             <xg>
                <x>ӧтиныд вала лэччылас, а мӧдныд пес пыртас</x>
-               <xtg lang="ru"><xt>один (из вас двоих) сходит за водой, а другой дров принесёт</xt></xtg>
+               <xt lang="rus">один (из вас двоих) сходит за водой, а другой дров принесёт</xt>
             </xg>
             <xg>
                <x>ӧтиныдлы ме шулі</x>
-               <xtg lang="ru"><xt>одному из вас (двоих) я говорил</xt></xtg>
+               <xt lang="rus">одному из вас (двоих) я говорил</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>ӧтиысь</lemma>
-      <stem/>
-      <contlex>ADVTAG</contlex>
-      <pos>NUM-CARD-ITER</pos>
-   </entry>
-   <entry>
-      <lemma>ӧткымын</lemma>
-      <stem/>
-      <contlex>QNT</contlex>
-      <pos>NUM</pos>
-   </entry>
-   <entry exclude="fst">
-      <lemma>ӧтнаныд</lemma>
-      <stem/>
-      <contlex/>
-      <pos>PRON-PERS</pos>
-      <e>
-         <mg>
-            <m>
-               <head><i>счётно-личн. мест. (с собир.-огранич. знач.)</i></head>
-            </m>
-            <tg lang="ru"><t>одни (вы)</t></tg>
-            <xg>
-               <x>ӧтнаныд керканытӧ лэптінныд, али йӧзӧс коравлінныд?</x>
-               <xtg lang="ru"><xt>вы одни свой дом построили или людей сзывали?</xt></xtg>
-            </xg>
-         </mg>
-      </e>
-   </entry>
-   <entry exclude="fst">
-      <lemma>ӧтчыд-мӧдысь</lemma>
-      <stem/>
-      <contlex>ADVTAG</contlex>
-      <pos>NUM-ORD-ITER</pos>
+      <lg>
+         <l>ӧтиысь</l>
+         <stg>
+            <st kpvContlex="ADVTAG">ӧтиысь</st>
+         </stg>
+      </lg>
+      <pos>CARD-ITER</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>раз-другой</t></tg>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>ӧткымын</l>
+         <stg>
+            <st kpvContlex="QNT">ӧткымын</st>
+         </stg>
+      </lg>
+      <pos>NUM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lg>
+         <l>ӧтнаныд</l>
+         <stg>
+            <st kpvContlex="">ӧтнаныд</st>
+         </stg>
+      </lg>
+      <pos>PRON-PERS</pos>
+      <e>
+         <mg>
+            <m>
+               <head>
+                  <re>счётно-личн. мест. (с собир.-огранич. знач.)</re>
+               </head>
+            </m>
+            <tg lang="rus">
+               <t>одни (вы)</t>
+            </tg>
+            <xg>
+               <x>ӧтнаныд керканытӧ лэптінныд, али йӧзӧс коравлінныд?</x>
+               <xt lang="rus">вы одни свой дом построили или людей сзывали?</xt>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lg>
+         <l>ӧтчыд-мӧдысь</l>
+         <stg>
+            <st kpvContlex="ADVTAG">ӧтчыд-мӧдысь</st>
+         </stg>
+      </lg>
+      <pos>ORD-ITER</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <t>раз-другой</t>
+            </tg>
             <xg>
                <x>ӧтчыд-мӧдысь сійӧ чӧвтліс сы вылӧ синсӧ</x>
-               <xtg lang="ru"><xt>раз-другой он взглянул на неё</xt></xtg>
+               <xt lang="rus">раз-другой он взглянул на неё</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>ӧтчыдысь</lemma>
-      <stem/>
-      <contlex>ADVTAG</contlex>
-      <pos>NUM-ITER</pos>
+      <lg>
+         <l>ӧтчыдысь</l>
+         <stg>
+            <st kpvContlex="ADVTAG">ӧтчыдысь</st>
+         </stg>
+      </lg>
+      <pos>CARD-ITER</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
    </entry>
-</dict>
+</r>
