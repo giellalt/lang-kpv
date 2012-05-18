@@ -1,516 +1,810 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dict xsi:noNamespaceSchemaLocation="../dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty">
+<r xsi:noNamespaceSchemaLocation="../../../myv/script/dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty">
    <entry>
-      <lemma>а</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>а</l>
+         <stg>
+            <st kpvContlex="EndInterj">а</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
-      <e RN="III">
+      <e RNo="III">
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>а</t><t>ба</t><register>разг.</register></tg>
+            <tg lang="rus">
+               <t>а</t>
+               <tCtn>
+                  <t>ба</t>
+                  <register register="conversation"/>
+               </tCtn>
+            </tg>
             <xg>
                <x>а! кодӧс ме аддза</x>
-               <xtg lang="ru"><xt>ба! кого я вижу</xt></xtg>
+               <xt lang="rus">ба! кого я вижу</xt>
             </xg>
             <xg>
                <x>а, сюрин!</x>
-               <xtg lang="ru"><xt>а, попался!</xt></xtg>
+               <xt lang="rus">а, попался!</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>адӧй</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>адӧй</l>
+         <stg>
+            <st kpvContlex="EndInterj">адӧй</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
-      <e RN="II">
+      <e RNo="II">
          <mg>
             <m>
-               <head><range>диал.</range></head>
+               <head>
+                  <range rangeSpat="dialect"/>
+               </head>
             </m>
-            <tg lang="ru"><t>о, ой, ох</t><re>восклицание, выражающее восхищение; вскрик от внезапной боли, от неожиданности</re></tg>
-            <tg lang="ru"><t>боже</t></tg>
+            <tg lang="rus">
+               <tCtn>
+                  <t>о, ой, ох</t>
+                  <re>восклицание, выражающее восхищение; вскрик от внезапной боли, от неожиданности</re>
+               </tCtn>
+            </tg>
+            <tg lang="rus">
+               <t>боже</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>ак</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>ак</l>
+         <stg>
+            <st kpvContlex="EndInterj">ак</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>ах</t><re>выражает сожаление, гнев, радость</re></tg>
+            <tg lang="rus">
+               <tCtn>
+                  <t>ах</t>
+                  <re>выражает сожаление, гнев, радость</re>
+               </tCtn>
+            </tg>
             <xg>
                <x>ак, мый тэ керан!</x>
-               <xtg lang="ru"><xt>ах, что ты делаешь!</xt></xtg>
+               <xt lang="rus">ах, что ты делаешь!</xt>
             </xg>
             <xg>
                <x>ак, сідзи!</x>
-               <xtg lang="ru"><xt>ах, так!</xt></xtg>
+               <xt lang="rus">ах, так!</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>аляддза</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>аляддза</l>
+         <stg>
+            <st kpvContlex="EndInterj">аляддза</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
-   </entry>
-   <entry>
-      <lemma>аминь</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
-      <pos>INTERJ</pos>
-      <e RN="II">
-         <mg MNo="1">
+      <e>
+         <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>ой</t><re>выражает удивление или испуг</re></tg>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>аминь</l>
+         <stg>
+            <st kpvContlex="EndInterj">аминь</st>
+         </stg>
+      </lg>
+      <pos>INTERJ</pos>
+      <e RNo="II">
+         <mg No="1">
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <tCtn>
+                  <t>ой</t>
+                  <re>выражает удивление или испуг</re>
+               </tCtn>
+            </tg>
             <xg>
                <x>аминь , ваас уси</x>
-               <xtg lang="ru"><xt>ой, упал в воду</xt></xtg>
+               <xt lang="rus">ой, упал в воду</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>аминь</l>
+         <stg>
+            <st kpvContlex="EndInterj">аминь</st>
+         </stg>
+      </lg>
+      <pos>PRED_N</pos>
+      <e RNo="II">
+         <mg No="2">
             <m>
-               <head><i>в роли сказ.</i></head>
+               <head/>
             </m>
-            <tg lang="ru"><t>аминь</t></tg>
-            <tg lang="ru"><t>конец</t></tg>
+            <tg lang="rus">
+               <t>аминь</t>
+            </tg>
+            <tg lang="rus">
+               <t>конец</t>
+            </tg>
             <xg>
                <x>юр вылад кӧ усьӧ и — аминь</x>
-               <xtg lang="ru"><xt>если на голову упадёт — конец</xt></xtg>
+               <xt lang="rus">если на голову упадёт — конец</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>аминь-аминь</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>аминь-аминь</l>
+         <stg>
+            <st kpvContlex="EndInterj">аминь-аминь</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>ой-ой</t><re>выражает удивление, испуг</re></tg>
+            <tg lang="rus">
+               <tCtn>
+                  <t>ой-ой</t>
+                  <re>выражает удивление, испуг</re>
+               </tCtn>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>аминьӧй</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>аминьӧй</l>
+         <stg>
+            <st kpvContlex="EndInterj">аминьӧй</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel MNo="1" RN="II" lemmaID="аминь" semRelType="see"/>
+               <semRel No="1" RNo="II" lemmaID="аминь" semRelType="see"/>
             </m>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>аттьӧ</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>аттьӧ</l>
+         <stg>
+            <st kpvContlex="EndInterj">аттьӧ</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>спасибо,</t></tg>
-            <tg lang="ru"><t>благодарю</t></tg>
+            <tg lang="rus">
+               <t>спасибо,</t>
+            </tg>
+            <tg lang="rus">
+               <t>благодарю</t>
+            </tg>
             <xg>
                <x>бур кыв вылад аттьӧ</x>
-               <xtg lang="ru"><xt>спасибо на добром слове</xt></xtg>
+               <xt lang="rus">спасибо на добром слове</xt>
             </xg>
             <xg>
                <x>сьӧлӧмсянь аттьӧ</x>
-               <xtg lang="ru"><xt>сердечное спасибо</xt></xtg>
+               <xt lang="rus">сердечное спасибо</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>аттӧ</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>аттӧ</l>
+         <stg>
+            <st kpvContlex="EndInterj">аттӧ</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>ах! ох!</t></tg>
+            <tg lang="rus">
+               <t>ах! ох!</t>
+            </tg>
             <xg>
                <x>аттӧ, кутшӧм мича!</x>
-               <xtg lang="ru"><xt>ох, как красиво!</xt></xtg>
+               <xt lang="rus">ох, как красиво!</xt>
             </xg>
             <xg>
                <x>аттӧ уна!</x>
-               <xtg lang="ru"><xt>ох, как много!</xt></xtg>
+               <xt lang="rus">ох, как много!</xt>
             </xg>
             <xg>
                <x>◊ аттӧ дивӧ!</x>
-               <xtg lang="ru"><xt>удивительно! вот это диво!</xt></xtg>
+               <xt lang="rus">удивительно! вот это диво!</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>бай-бай</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>бай-бай</l>
+         <stg>
+            <st kpvContlex="EndInterj">бай-бай</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
-               <head><i>дет.</i></head>
+               <head>
+                  <register register="motherese"/>
+               </head>
             </m>
-            <tg lang="ru"><t>баю-бай</t></tg>
+            <tg lang="rus">
+               <t>баю-бай</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>баль-баль</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
-      <pos>INTERJ</pos>
+      <lg>
+         <l>баль-баль</l>
+         <stg>
+            <st kpvContlex="EndInterj">баль-баль</st>
+         </stg>
+      </lg>
+      <pos>INTERJ-CONATIVE</pos>
       <e>
          <mg>
             <m>
-               <head><i>возглас, к-рым подзывают овцу</i></head>
+               <head>
+                  <re>возглас, к-рым подзывают овцу</re>
+               </head>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>бов</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
-      <pos>INTERJ</pos>
-   </entry>
-   <entry>
-      <lemma>брун</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
-      <pos>INTERJ</pos>
-   </entry>
-   <entry>
-      <lemma>брут</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
-      <pos>INTERJ</pos>
-   </entry>
-   <entry>
-      <lemma>брысь</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>бов</l>
+         <stg>
+            <st kpvContlex="EndInterj">бов</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
-               <head><i>возглас, к-рым отгоняют кошку</i></head>
+               <head/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>брун</l>
+         <stg>
+            <st kpvContlex="EndInterj">брун</st>
+         </stg>
+      </lg>
+      <pos>INTERJ</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>брут</l>
+         <stg>
+            <st kpvContlex="EndInterj">брут</st>
+         </stg>
+      </lg>
+      <pos>INTERJ</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>брысь</l>
+         <stg>
+            <st kpvContlex="EndInterj">брысь</st>
+         </stg>
+      </lg>
+      <pos>INTERJ-CONATIVE</pos>
+      <e>
+         <mg>
+            <m>
+               <head>
+                  <re>возглас, к-рым отгоняют кошку</re>
+               </head>
+            </m>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>брысь татысь!</x>
-               <xtg lang="ru"><xt>брысь отсюда!</xt></xtg>
+               <xt lang="rus">брысь отсюда!</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>вала-вала</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
-      <pos>INTERJ</pos>
+      <lg>
+         <l>вала-вала</l>
+         <stg>
+            <st kpvContlex="EndInterj">вала-вала</st>
+         </stg>
+      </lg>
+      <pos>INTERJ-CONATIVE</pos>
       <e>
          <mg>
             <m>
-               <head><i>возглас, к-рым подзывают коров на водопой</i></head>
+               <head>
+                  <re>возглас, к-рым подзывают коров на водопой</re>
+               </head>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>гашкӧ</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
-      <pos>INTERJ</pos>
-   </entry>
-   <entry>
-      <lemma>господи</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>гашкӧ</l>
+         <stg>
+            <st kpvContlex="EndInterj">гашкӧ</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>боже</t></tg>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>господи</l>
+         <stg>
+            <st kpvContlex="EndInterj">господи</st>
+         </stg>
+      </lg>
+      <pos>INTERJ</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <t>боже</t>
+            </tg>
             <xg>
                <x>господи , кутшӧм тані гажа!</x>
-               <xtg lang="ru"><xt>боже, как здесь красиво!</xt></xtg>
+               <xt lang="rus">боже, как здесь красиво!</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>дзен</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
-      <pos>INTERJ</pos>
-   </entry>
-   <entry>
-      <lemma>діль</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>дзен</l>
+         <stg>
+            <st kpvContlex="EndInterj">дзен</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
-               <head><i>употр. при поддразнивании</i></head>
+               <head/>
             </m>
-            <tg lang="ru"><t>☺</t></tg>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>діль</l>
+         <stg>
+            <st kpvContlex="EndInterj">діль</st>
+         </stg>
+      </lg>
+      <pos>INTERJ</pos>
+      <e>
+         <mg>
+            <m>
+               <head>
+                  <re>употр. при поддразнивании</re>
+               </head>
+            </m>
+            <tg lang="rus">
+               <t>☺</t>
+            </tg>
             <xg>
                <x>діль чуш</x>
-               <xtg lang="ru"><xt>дразнилка ребят</xt></xtg>
+               <xt lang="rus">дразнилка ребят</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>ей_богу</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>ей_богу</l>
+         <stg>
+            <st kpvContlex="EndInterj">ей_богу</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>ей богу</t></tg>
+            <tg lang="rus">
+               <t>ей богу</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>жаль</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
-      <pos>INTERJ</pos>
-   </entry>
-   <entry>
-      <lemma>зы-зы</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>жаль</l>
+         <stg>
+            <st kpvContlex="EndInterj">жаль</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>у-у!</t></tg>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>зы-зы</l>
+         <stg>
+            <st kpvContlex="EndInterj">зы-зы</st>
+         </stg>
+      </lg>
+      <pos>INTERJ</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <t>у-у!</t>
+            </tg>
             <xg>
                <x>зы-зы ош локтӧ</x>
-               <xtg lang="ru"><xt>у-у! медведь идёт</xt></xtg>
+               <xt lang="rus">у-у! медведь идёт</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>ик</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
-      <pos>INTERJ</pos>
+      <lg>
+         <l>ик</l>
+         <stg>
+            <st kpvContlex="EndInterj">ик</st>
+         </stg>
+      </lg>
+      <pos>INTERJ-CONATIVE</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>гей!</t><re>возглас радости</re></tg>
+            <tg lang="rus">
+               <tCtn>
+                  <t>гей!</t>
+                  <re>возглас радости</re>
+               </tCtn>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>кас</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>кас</l>
+         <stg>
+            <st kpvContlex="EndInterj">кас</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
-               <head><i>знак согласия при игре</i></head>
+               <head>
+                  <re>знак согласия при игре</re>
+               </head>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>кись</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
-      <pos>INTERJ</pos>
-      <e RN="II">
+      <lg>
+         <l>кись</l>
+         <stg>
+            <st kpvContlex="EndInterj">кись</st>
+         </stg>
+      </lg>
+      <pos>INTERJ-CONATIVE</pos>
+      <e RNo="II">
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>кш, кши, кшиш </t><re>возглас, к-рым отгоняют овец, птиц</re></tg>
+            <tg lang="rus">
+               <tCtn>
+                  <t>кш, кши, кшиш</t>
+                  <re>возглас, к-рым отгоняют овец, птиц</re>
+               </tCtn>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>кот</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>кот</l>
+         <stg>
+            <st kpvContlex="EndInterj">кот</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
-      <e RN="I">
+      <e RNo="I">
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>ко-ко</t></tg>
+            <tg lang="rus">
+               <t>ко-ко</t>
+            </tg>
             <xg>
                <x>кот, кот, кот! — котсьӧ чипан</x>
-               <xtg lang="ru"><xt>ко-ко-ко! — квохчет курица</xt></xtg>
+               <xt lang="rus">ко-ко-ко! — квохчет курица</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>куа</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>куа</l>
+         <stg>
+            <st kpvContlex="EndInterj">куа</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
-      <e RN="II">
+      <e RNo="II">
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>уа </t><re>о плаче маленького ребёнка</re></tg>
+            <tg lang="rus">
+               <tCtn>
+                  <t>уа</t>
+                  <re>о плаче маленького ребёнка</re>
+               </tCtn>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>кыс-кыс</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>кыс-кыс</l>
+         <stg>
+            <st kpvContlex="EndInterj">кыс-кыс</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>кис-кис</t></tg>
+            <tg lang="rus">
+               <t>кис-кис</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>кысь</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>кысь</l>
+         <stg>
+            <st kpvContlex="EndInterj">кысь</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
-      <e RN="II">
+      <e RNo="II">
          <mg>
             <m>
                <head/>
-               <semRel RN="II" lemmaID="кись" semRelType="see"/>
+               <semRel RNo="II" lemmaID="кись" semRelType="see"/>
             </m>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>кӧчамач</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>кӧчамач</l>
+         <stg>
+            <st kpvContlex="EndInterj">кӧчамач</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
-   </entry>
-   <entry>
-      <lemma>но</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
-      <pos>INTERJ</pos>
-      <e RN="I">
+      <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>но, ну</t><re>понукание</re></tg>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>но</l>
+         <stg>
+            <st kpvContlex="EndInterj">но</st>
+         </stg>
+      </lg>
+      <pos>INTERJ</pos>
+      <e RNo="I">
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <tCtn>
+                  <t>но, ну</t>
+                  <re>понукание</re>
+               </tCtn>
+            </tg>
             <xg>
                <x>но, восьлав!</x>
-               <xtg lang="ru"><xt>ну, шагай!</xt></xtg>
+               <xt lang="rus">ну, шагай!</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>ноко</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>ноко</l>
+         <stg>
+            <st kpvContlex="EndInterj">ноко</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>ну-ка</t></tg>
+            <tg lang="rus">
+               <t>ну-ка</t>
+            </tg>
             <xg>
                <x>ноко висьтав</x>
-               <xtg lang="ru"><xt>ну-ка, расскажи</xt></xtg>
+               <xt lang="rus">ну-ка, расскажи</xt>
             </xg>
             <xg>
                <x>ноко мыччӧдлы</x>
-               <xtg lang="ru"><xt>ну-ка, покажи</xt></xtg>
+               <xt lang="rus">ну-ка, покажи</xt>
             </xg>
             <xg>
                <x>ноко сьылышт!</x>
-               <xtg lang="ru"><xt>спой-ка!</xt></xtg>
+               <xt lang="rus">спой-ка!</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>нолтӧ</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>нолтӧ</l>
+         <stg>
+            <st kpvContlex="EndInterj">нолтӧ</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel MNo="1" lemmaID="ноко" semRelType="see"/>
+               <semRel No="1" lemmaID="ноко" semRelType="see"/>
             </m>
-            <tg lang="ru"><t>ну-ка</t></tg>
+            <tg lang="rus">
+               <t>ну-ка</t>
+            </tg>
             <xg>
                <x>нолтӧ, тӧдмалӧй нӧдкыв</x>
-               <xtg lang="ru"><xt>ну-ка, отгадайте загадку</xt></xtg>
+               <xt lang="rus">ну-ка, отгадайте загадку</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>нолтӧсь</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>нолтӧсь</l>
+         <stg>
+            <st kpvContlex="EndInterj">нолтӧсь</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
@@ -518,1030 +812,1449 @@
                <head/>
                <semRel semRelType="see" stemID="нолтӧ_EndInterj"/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>нолтӧсь лыддьы, мый сэтчӧ гижӧма</x>
-               <xtg lang="ru"><xt>ну-ка, прочти, что там написано</xt></xtg>
+               <xt lang="rus">ну-ка, прочти, что там написано</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>нолы</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>нолы</l>
+         <stg>
+            <st kpvContlex="EndInterj">нолы</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel MNo="1" lemmaID="нолтӧ" semRelType="see"/>
+               <semRel No="1" lemmaID="нолтӧ" semRelType="see"/>
             </m>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>нолӧ</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>нолӧ</l>
+         <stg>
+            <st kpvContlex="EndInterj">нолӧ</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
-               <head><i>призыв к дружному усилию</i></head>
+               <head>
+                  <re>призыв к дружному усилию</re>
+               </head>
             </m>
-            <tg lang="ru"><t>ну-ка!</t></tg>
+            <tg lang="rus">
+               <t>ну-ка!</t>
+            </tg>
             <xg>
                <x>нолӧ!, босьтім!</x>
-               <xtg lang="ru"><xt>ну-ка, взяли!</xt></xtg>
+               <xt lang="rus">ну-ка, взяли!</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>нолӧй</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>нолӧй</l>
+         <stg>
+            <st kpvContlex="EndInterj">нолӧй</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel MNo="1" lemmaID="нолӧ_INTERJ" semRelType="see"/>
+               <semRel No="1" lemmaID="нолӧ_INTERJ" semRelType="see"/>
             </m>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>о</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>о</l>
+         <stg>
+            <st kpvContlex="EndInterj">о</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>о, а, ох, ах, ух</t></tg>
-            <tg lang="ru"><t> ого, ага</t></tg>
+            <tg lang="rus">
+               <t>о, а, ох, ах, ух</t>
+            </tg>
+            <tg lang="rus">
+               <t>ого, ага</t>
+            </tg>
             <xg>
                <x>о, тэ кӧ эськӧ тӧдін, кутшӧм меным сьӧкыд!</x>
-               <xtg lang="ru"><xt>о, если бы ты знал, как мне тяжело!</xt></xtg>
+               <xt lang="rus">о, если бы ты знал, как мне тяжело!</xt>
             </xg>
             <xg>
                <x>о, тайӧ тэ!</x>
-               <xtg lang="ru"><xt>а, это ты!</xt></xtg>
+               <xt lang="rus">а, это ты!</xt>
             </xg>
             <xg>
                <x>о, кутшӧм кӧдзыд ваыс!</x>
-               <xtg lang="ru"><xt>ух, какая холодная вода!</xt></xtg>
+               <xt lang="rus">ух, какая холодная вода!</xt>
             </xg>
             <xg>
                <x>о, менам вунӧма!</x>
-               <xtg lang="ru"><xt>ах, я забыл!</xt></xtg>
+               <xt lang="rus">ах, я забыл!</xt>
             </xg>
             <xg>
                <x>о, кутшӧм сьӧкыд!</x>
-               <xtg lang="ru"><xt>ох, какой тяжёлый!</xt></xtg>
+               <xt lang="rus">ох, какой тяжёлый!</xt>
             </xg>
             <xg>
                <x>о, кутшӧма тэ шаньмӧмыд!</x>
-               <xtg lang="ru"><xt>ого, как ты пополнел!</xt></xtg>
+               <xt lang="rus">ого, как ты пополнел!</xt>
             </xg>
             <xg>
                <x>о, сюрин!</x>
-               <xtg lang="ru"><xt>а, попался! ага, попался!</xt></xtg>
+               <xt lang="rus">а, попался! ага, попался!</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>ой</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>ой</l>
+         <stg>
+            <st kpvContlex="EndInterj">ой</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
-      <e RN="I">
+      <e RNo="I">
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>ой, ох</t></tg>
+            <tg lang="rus">
+               <t>ой, ох</t>
+            </tg>
             <xg>
                <x>ой, кутшӧма доймӧ!</x>
-               <xtg lang="ru"><xt>ой, как больно!</xt></xtg>
+               <xt lang="rus">ой, как больно!</xt>
             </xg>
             <xg>
                <x>менам пачын пӧжӧм йӧв эм, ой чӧскыд!</x>
-               <xtg lang="ru"><xt>у меня в печи топлёное молоко, ох и вкусное!</xt></xtg>
+               <xt lang="rus">у меня в печи топлёное молоко, ох и вкусное!</xt>
             </xg>
             <xg>
                <x>ой, сьӧлӧмӧй исковтіс кытчӧкӧ!</x>
-               <xtg lang="ru"><xt>ой, мне дурно!</xt></xtg>
-               <literal>
-                  <tg lang="ru"><t>ой, сердце укатилось куда-то</t></tg>
-               </literal>
+               <xt lang="rus">ой, мне дурно!</xt>
+               <xt lang="rus" tType="literal">ой, сердце укатилось куда-то</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>ой-ёй</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>ой-ёй</l>
+         <stg>
+            <st kpvContlex="EndInterj">ой-ёй</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>ой, какой! ух, какой! ух, как!</t></tg>
+            <tg lang="rus">
+               <t>ой, какой! ух, какой! ух, как!</t>
+            </tg>
             <xg>
                <x>сійӧ ӧд ой-ёй ёна лыддьысьӧ!</x>
-               <xtg lang="ru"><xt>он ведь ой как много читает!</xt></xtg>
+               <xt lang="rus">он ведь ой как много читает!</xt>
             </xg>
             <xg>
                <x>ой-ёй мича ягыс вӧлі!</x>
-               <xtg lang="ru"><xt>ой, какой красивый бор был!</xt></xtg>
+               <xt lang="rus">ой, какой красивый бор был!</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>ойя</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>ойя</l>
+         <stg>
+            <st kpvContlex="EndInterj">ойя</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
-               <head><i>, выражающее боязнь, страх</i></head>
+               <head>
+                  <re>выражающее боязнь, страх</re>
+               </head>
             </m>
-            <tg lang="ru"><t>ой, ай</t></tg>
+            <tg lang="rus">
+               <t>ой, ай</t>
+            </tg>
             <xg>
                <x>ойя ме ог лысьт!</x>
-               <xtg lang="ru"><xt>ой, я не смею!</xt></xtg>
+               <xt lang="rus">ой, я не смею!</xt>
             </xg>
             <xg>
                <x>ойя да, кыдз нӧ кутам овны!</x>
-               <xtg lang="ru"><xt>ой, да как же будем жить!</xt></xtg>
+               <xt lang="rus">ой, да как же будем жить!</xt>
             </xg>
             <xg>
                <x>ойя-ойя , муртса ловъя</x>
-               <xtg lang="ru"><xt>ай-ай, еле живой</xt></xtg>
+               <xt lang="rus">ай-ай, еле живой</xt>
             </xg>
             <xg>
                <x>ойя да ойя</x>
-               <xtg lang="ru"><xt>в причитаниях ой-ой-ой, ай-ай-ай</xt></xtg>
+               <xt lang="rus">в причитаниях ой-ой-ой, ай-ай-ай</xt>
             </xg>
             <xg>
                <x>ойя жӧ дай ойя</x>
-               <xtg lang="ru"><xt>в причитаниях ой-ой-ой, ай-ай-ай</xt></xtg>
+               <xt lang="rus">в причитаниях ой-ой-ой, ай-ай-ай</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>ок</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>ок</l>
+         <stg>
+            <st kpvContlex="EndInterj">ок</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
-      <e RN="I">
+      <e RNo="I">
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>ох, ах, ух, эх, ну</t></tg>
+            <tg lang="rus">
+               <t>ох, ах, ух, эх, ну</t>
+            </tg>
             <xg>
                <x>ок, менам и вунӧма!</x>
-               <xtg lang="ru"><xt>ох, я и позабыл!</xt></xtg>
+               <xt lang="rus">ох, я и позабыл!</xt>
             </xg>
             <xg>
                <x>ок, тэ кутшӧм!</x>
-               <xtg lang="ru"><xt>ох ты какой! ух ты какой!</xt></xtg>
+               <xt lang="rus">ох ты какой! ух ты какой!</xt>
             </xg>
             <xg>
                <x>ок, ӧдва эг уськӧд</x>
-               <xtg lang="ru"><xt>ах, едва не выронил</xt></xtg>
+               <xt lang="rus">ах, едва не выронил</xt>
             </xg>
             <xg>
                <x>ок, тэ!</x>
-               <xtg lang="ru"><xt>эх ты!</xt></xtg>
+               <xt lang="rus">эх ты!</xt>
             </xg>
             <xg>
                <x>ок, тэ мый думыштӧмыд!</x>
-               <xtg lang="ru"><xt>ну, что ты вздумал!</xt></xtg>
+               <xt lang="rus">ну, что ты вздумал!</xt>
             </xg>
             <xg>
                <x>ок, и ныв!</x>
-               <xtg lang="ru"><xt>ну и девка! ох и девка!</xt></xtg>
+               <xt lang="rus">ну и девка! ох и девка!</xt>
             </xg>
             <xg>
                <x>ок эськӧ, шыбитны кӧ дас кымын во!</x>
-               <xtg lang="ru"><xt>эх, сбросить бы лет десять!</xt></xtg>
+               <xt lang="rus">эх, сбросить бы лет десять!</xt>
             </xg>
             <xg>
                <x>сурыд сылӧн ок ён</x>
-               <xtg lang="ru"><xt>пиво у него ох и крепкое</xt></xtg>
+               <xt lang="rus">пиво у него ох и крепкое</xt>
             </xg>
             <xg>
                <x>ок-ок-ок!</x>
-               <xtg lang="ru"><xt>э-хе-хе!</xt></xtg>
+               <xt lang="rus">э-хе-хе!</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>окма</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>окма</l>
+         <stg>
+            <st kpvContlex="EndInterj">окма</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>эхма</t><re>разг.</re></tg>
+            <tg lang="rus">
+               <tCtn>
+                  <t>эхма</t>
+                  <re>разг.</re>
+               </tCtn>
+            </tg>
             <xg>
                <x>окма жӧ нин!</x>
-               <xtg lang="ru"><xt>охо-хо!</xt></xtg>
+               <xt lang="rus">охо-хо!</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>слабог</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
-      <pos>INTERJ</pos>
-   </entry>
-   <entry>
-      <lemma>сьта</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
-      <pos>INTERJ</pos>
-   </entry>
-   <entry>
-      <lemma>сьтпро</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
-      <pos>INTERJ</pos>
-   </entry>
-   <entry>
-      <lemma>сё_ей_богу</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>слабог</l>
+         <stg>
+            <st kpvContlex="EndInterj">слабог</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>ей богу</t></tg>
+            <tg>
+               <t/>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>торк</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>сьта</l>
+         <stg>
+            <st kpvContlex="EndInterj">сьта</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
-      <e RN="II">
+      <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>бряк</t></tg>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>сьтпро</l>
+         <stg>
+            <st kpvContlex="EndInterj">сьтпро</st>
+         </stg>
+      </lg>
+      <pos>INTERJ</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>сё_ей_богу</l>
+         <stg>
+            <st kpvContlex="EndInterj">сё_ей_богу</st>
+         </stg>
+      </lg>
+      <pos>INTERJ</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <t>ей богу</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>торк</l>
+         <stg>
+            <st kpvContlex="EndInterj">торк</st>
+         </stg>
+      </lg>
+      <pos>INTERJ</pos>
+      <e RNo="II">
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <t>бряк</t>
+            </tg>
             <xg>
                <x>кодкӧ ӧшиньӧ торк</x>
-               <xtg lang="ru"><xt>кто-то бряк в окно</xt></xtg>
+               <xt lang="rus">кто-то бряк в окно</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>тпру</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
-      <pos>INTERJ</pos>
+      <lg>
+         <l>тпру</l>
+         <stg>
+            <st kpvContlex="EndInterj">тпру</st>
+         </stg>
+      </lg>
+      <pos>INTERJ-CONATIVE</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>тпру</t><re>возглас, к-рым останавливают лошадь</re></tg>
+            <tg lang="rus">
+               <tCtn>
+                  <t>тпру</t>
+                  <re>возглас, к-рым останавливают лошадь</re>
+               </tCtn>
+            </tg>
             <xg>
                <x>тпру ни но оз тӧд</x>
-               <xtg lang="ru"><xt>не понимает ни тпру ни ну </xt><re>о лошади</re></xtg>
-               <xtg lang="ru"><xt><sns>перен.</sns>ни аза не знает</xt></xtg>
-               <xtg lang="ru"><xt> ни бе ни ме</xt></xtg>
+               <xtCtn>
+                  <xt lang="rus">не понимает ни тпру ни ну</xt>
+                  <re>о лошади</re>
+               </xtCtn>
+               <xtCtn>
+                  <xt lang="rus">ни аза не знает</xt>
+                  <sense sense="figurative"/>
+               </xtCtn>
+               <xt lang="rus">ни бе ни ме</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>трпуть</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
-      <pos>INTERJ</pos>
-   </entry>
-   <entry>
-      <lemma>тьпу</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>трпуть</l>
+         <stg>
+            <st kpvContlex="EndInterj">трпуть</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>тьфу</t></tg>
+            <tg>
+               <t/>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>тӧлӧ</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
-      <pos>INTERJ</pos>
-   </entry>
-   <entry>
-      <lemma>уп</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>тьпу</l>
+         <stg>
+            <st kpvContlex="EndInterj">тьпу</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>уф</t></tg>
+            <tg lang="rus">
+               <t>тьфу</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>тӧлӧ</l>
+         <stg>
+            <st kpvContlex="EndInterj">тӧлӧ</st>
+         </stg>
+      </lg>
+      <pos>INTERJ</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>уп</l>
+         <stg>
+            <st kpvContlex="EndInterj">уп</st>
+         </stg>
+      </lg>
+      <pos>INTERJ</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <t>уф</t>
+            </tg>
             <xg>
                <x>уп, мудзи</x>
-               <xtg lang="ru"><xt>уф, устал</xt></xtg>
+               <xt lang="rus">уф, устал</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>ура</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>ура</l>
+         <stg>
+            <st kpvContlex="EndInterj">ура</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
-      <e RN="III">
+      <e RNo="III">
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>ура</t></tg>
+            <tg lang="rus">
+               <t>ура</t>
+            </tg>
             <xg>
                <x>ура юрӧбтіс</x>
-               <xtg lang="ru"><xt>грянуло ура</xt></xtg>
+               <xt lang="rus">грянуло ура</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>чивк</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
-      <pos>INTERJ</pos>
+      <lg>
+         <l>чивк</l>
+         <stg>
+            <st kpvContlex="EndInterj">чивк</st>
+         </stg>
+      </lg>
+      <pos>PRED_IDEOPH</pos>
       <e>
          <mg>
             <m>
-               <head><i>в роли сказ.</i></head>
+               <head/>
             </m>
-            <tg lang="ru"><t>прыг</t></tg>
+            <tg lang="rus">
+               <t>прыг</t>
+            </tg>
             <xg>
                <x>кань пу вылӧ чивк</x>
-               <xtg lang="ru"><xt>кошка прыг на дерево</xt></xtg>
+               <xt lang="rus">кошка прыг на дерево</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>чип-чип</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>чип-чип</l>
+         <stg>
+            <st kpvContlex="EndInterj">чип-чип</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>цып-цып</t></tg>
+            <tg lang="rus">
+               <t>цып-цып</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>чур</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>чур</l>
+         <stg>
+            <st kpvContlex="EndInterj">чур</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>чур</t></tg>
+            <tg lang="rus">
+               <t>чур</t>
+            </tg>
             <xg>
                <x>мойд кутам кывзыны, чур не узьны</x>
-               <xtg lang="ru"><xt>сказку будем слушать, чур не спать</xt></xtg>
+               <xt lang="rus">сказку будем слушать, чур не спать</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>чӧв</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>чӧв</l>
+         <stg>
+            <st kpvContlex="EndInterj">чӧв</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
-      <e RN="II">
+      <e RNo="II">
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>что ты, что вы</t></tg>
-            <tg lang="ru"><t> неужели</t></tg>
+            <tg lang="rus">
+               <t>что ты, что вы</t>
+            </tg>
+            <tg lang="rus">
+               <t>неужели</t>
+            </tg>
             <xg>
                <x>чӧв , весиг оз эскыссьы</x>
-               <xtg lang="ru"><xt>неужели? даже не верится</xt></xtg>
+               <xt lang="rus">неужели? даже не верится</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>ша</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>ша</l>
+         <stg>
+            <st kpvContlex="EndInterj">ша</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>ша</t></tg>
-            <tg lang="ru"><t> ни гугу </t><re>просьба или требование молчать</re></tg>
+            <tg lang="rus">
+               <t>ша</t>
+            </tg>
+            <tg lang="rus">
+               <tCtn>
+                  <t>ни гугу</t>
+                  <re>просьба или требование молчать</re>
+               </tCtn>
+            </tg>
             <xg>
                <x>сӧмын тэ — ша! некодлы эн больгы</x>
-               <xtg lang="ru"><xt>только ты ни гугу! никому не болтай</xt></xtg>
+               <xt lang="rus">только ты ни гугу! никому не болтай</xt>
             </xg>
             <xg>
                <x>ша! ме вугыртлыны кӧсъя</x>
-               <xtg lang="ru"><xt>молчать! я вздремнуть хочу</xt></xtg>
+               <xt lang="rus">молчать! я вздремнуть хочу</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>швач</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>швач</l>
+         <stg>
+            <st kpvContlex="EndInterj">швач</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
-      <e RN="II">
+      <e RNo="II">
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>бряк, хлоп, бух, бац</t></tg>
+            <tg lang="rus">
+               <t>бряк, хлоп, бух, бац</t>
+            </tg>
             <xg>
                <x>джоджӧ швач</x>
-               <xtg lang="ru"><xt>бряк об пол</xt></xtg>
+               <xt lang="rus">бряк об пол</xt>
             </xg>
             <xg>
                <x>швач кучкыны</x>
-               <xtg lang="ru"><xt>хлопнуть</xt></xtg>
+               <xt lang="rus">хлопнуть</xt>
             </xg>
             <xg>
                <x>швач локтіс гортас</x>
-               <xtg lang="ru"><xt>неожиданно приехал домой</xt></xtg>
+               <xt lang="rus">неожиданно приехал домой</xt>
             </xg>
             <xg>
                <x>швач-пӧдлавны</x>
-               <xtg lang="ru"><xt>захлопнуть</xt></xtg>
+               <xt lang="rus">захлопнуть</xt>
             </xg>
             <xg>
                <x>швач-усьны</x>
-               <xtg lang="ru"><xt>хлопнуться-упасть</xt></xtg>
+               <xt lang="rus">хлопнуться-упасть</xt>
             </xg>
             <xg>
                <x>швач шыбитны</x>
-               <xtg lang="ru"><xt>бухнуть</xt></xtg>
+               <xt lang="rus">бухнуть</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>шӧть</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>шӧть</l>
+         <stg>
+            <st kpvContlex="EndInterj">шӧть</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
-               <head><i>окрик, к-рым отгоняют собак</i></head>
+               <head>
+                  <re>окрик, к-рым отгоняют собак</re>
+               </head>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>ык</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>ык</l>
+         <stg>
+            <st kpvContlex="EndInterj">ык</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>бр-р</t></tg>
+            <tg lang="rus">
+               <t>бр-р</t>
+            </tg>
             <xg>
                <x>ык, кутшӧм кӧдзыд</x>
-               <xtg lang="ru"><xt>бр-р, как холодно</xt></xtg>
+               <xt lang="rus">бр-р, как холодно</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>ырс</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>ырс</l>
+         <stg>
+            <st kpvContlex="EndInterj">ырс</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>вдруг, неожиданно</t></tg>
+            <tg lang="rus">
+               <t>вдруг, неожиданно</t>
+            </tg>
             <xg>
                <x>ырс бӧрддзыны</x>
-               <xtg lang="ru"><xt>вдруг заплакать</xt></xtg>
+               <xt lang="rus">вдруг заплакать</xt>
             </xg>
             <xg>
                <x>ырс пырны жырйӧ</x>
-               <xtg lang="ru"><xt>неожиданно зайти в комнату</xt></xtg>
+               <xt lang="rus">неожиданно зайти в комнату</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>стремительно, быстро</t></tg>
-            <tg lang="ru"><t> круто</t></tg>
-            <tg lang="ru"><t> резко</t></tg>
+            <tg lang="rus">
+               <t>стремительно, быстро</t>
+            </tg>
+            <tg lang="rus">
+               <t>круто</t>
+            </tg>
+            <tg lang="rus">
+               <t>резко</t>
+            </tg>
             <xg>
                <x>ырс лэптыны сьӧкыд ноп</x>
-               <xtg lang="ru"><xt>быстро поднять тяжёлую ношу</xt></xtg>
+               <xt lang="rus">быстро поднять тяжёлую ношу</xt>
             </xg>
             <xg>
                <x>ырс чеччис пукаланінсьыс</x>
-               <xtg lang="ru"><xt>круто поднялся с места</xt></xtg>
+               <xt lang="rus">круто поднялся с места</xt>
             </xg>
             <xg>
                <x>узьысь друг шыбитіс эшкынсӧ, ырс пуксис вольпась вылас</x>
-               <xtg lang="ru"><xt>вдруг спящий скинул одеяло, резко сел на кровать</xt></xtg>
+               <xt lang="rus">вдруг спящий скинул одеяло, резко сел на кровать</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>э</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>э</l>
+         <stg>
+            <st kpvContlex="EndInterj">э</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>э</t></tg>
-            <tg lang="ru"><t> а</t></tg>
+            <tg lang="rus">
+               <t>э</t>
+            </tg>
+            <tg lang="rus">
+               <t>а</t>
+            </tg>
             <xg>
                <x>э, вокӧй, тайӧ кольӧма нин</x>
-               <xtg lang="ru"><xt>а, братец, это уже прошло</xt></xtg>
+               <xt lang="rus">а, братец, это уже прошло</xt>
             </xg>
             <xg>
                <x>э, да тайӧ тэ!</x>
-               <xtg lang="ru"><xt>э, да это ты!</xt></xtg>
+               <xt lang="rus">э, да это ты!</xt>
             </xg>
             <xg>
                <x>э, ставыс воши!</x>
-               <xtg lang="ru"><xt>а, всё пропало!</xt></xtg>
+               <xt lang="rus">а, всё пропало!</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>эй</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>эй</l>
+         <stg>
+            <st kpvContlex="EndInterj">эй</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>эй!</t></tg>
+            <tg lang="rus">
+               <t>эй!</t>
+            </tg>
             <xg>
                <x>эй, кытчӧ сувтін!</x>
-               <xtg lang="ru"><xt>эй, куда стал!</xt></xtg>
+               <xt lang="rus">эй, куда стал!</xt>
             </xg>
             <xg>
                <x>эй, мун татысь!</x>
-               <xtg lang="ru"><xt>эй, иди отсюда!</xt></xtg>
+               <xt lang="rus">эй, иди отсюда!</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>эк</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>эк</l>
+         <stg>
+            <st kpvContlex="EndInterj">эк</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>эх!</t></tg>
+            <tg lang="rus">
+               <t>эх!</t>
+            </tg>
             <xg>
                <x>эк, олысьяс!</x>
-               <xtg lang="ru"><xt>эх, жильцы!</xt></xtg>
+               <xt lang="rus">эх, жильцы!</xt>
             </xg>
             <xg genreType="proverb">
                <x>эк, ныр улад чужӧма, а юрад абу кӧдзӧма</x>
-               <xtg lang="ru"><xt> под носом взошло, а в голове не посеяно</xt></xtg>
+               <xt lang="rus">под носом взошло, а в голове не посеяно</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>экма</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>экма</l>
+         <stg>
+            <st kpvContlex="EndInterj">экма</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>эхма!</t></tg>
+            <tg lang="rus">
+               <t>эхма!</t>
+            </tg>
             <xg>
                <x>экма бара эг аддзыв асъя кыасӧ</x>
-               <xtg lang="ru"><xt>эхма! опять не видел утренней зари </xt></xtg>
+               <xt lang="rus">эхма! опять не видел утренней зари</xt>
             </xg>
             <xg>
                <x>экма , чӧскыд ма!</x>
-               <xtg lang="ru"><xt>эхма вкусная хурма!</xt></xtg>
-               <literal>
-                  <tg lang="ru"><t>эхма сладкий мёд!</t></tg>
-               </literal>
+               <xt lang="rus">эхма вкусная хурма!</xt>
+               <xt lang="rus" tType="literal">эхма сладкий мёд!</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>элой</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
-      <pos>INTERJ</pos>
-   </entry>
-   <entry>
-      <lemma>эстшӧм</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
-      <pos>INTERJ</pos>
-   </entry>
-   <entry>
-      <lemma>ӧ</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>элой</l>
+         <stg>
+            <st kpvContlex="EndInterj">элой</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>но!</t><re>понукание лошади</re></tg>
+            <tg>
+               <t/>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>ӧввӧ</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>эстшӧм</l>
+         <stg>
+            <st kpvContlex="EndInterj">эстшӧм</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>бай</t></tg>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>ӧ</l>
+         <stg>
+            <st kpvContlex="EndInterj">ӧ</st>
+         </stg>
+      </lg>
+      <pos>INTERJ</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <tCtn>
+                  <t>но!</t>
+                  <re>понукание лошади</re>
+               </tCtn>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>ӧввӧ</l>
+         <stg>
+            <st kpvContlex="EndInterj">ӧввӧ</st>
+         </stg>
+      </lg>
+      <pos>INTERJ</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <t>бай</t>
+            </tg>
             <xg>
                <x>ӧввӧ,ӧввӧ</x>
-               <xtg lang="ru"><xt>баюшки-баю</xt></xtg>
+               <xt lang="rus">баюшки-баю</xt>
             </xg>
             <xg>
                <x>ӧввӧ водам</x>
-               <xtg lang="ru"><xt>ляжем бай-бай</xt></xtg>
+               <xt lang="rus">ляжем бай-бай</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>ӧдерень</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>ӧдерень</l>
+         <stg>
+            <st kpvContlex="EndInterj">ӧдерень</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>пусть (раз на то пошло)</t></tg>
-            <tg lang="ru"><t> так и быть</t></tg>
+            <tg lang="rus">
+               <t>пусть (раз на то пошло)</t>
+            </tg>
+            <tg lang="rus">
+               <t>так и быть</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>ӧдтӧ</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>ӧдтӧ</l>
+         <stg>
+            <st kpvContlex="EndInterj">ӧдтӧ</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>видишь</t></tg>
-            <tg lang="ru"><t> вишь</t></tg>
-            <tg lang="ru"><t> ишь</t></tg>
-            <tg lang="ru"><t> ишь ты</t><re>прост.</re></tg>
+            <tg lang="rus">
+               <t>видишь</t>
+            </tg>
+            <tg lang="rus">
+               <t>вишь</t>
+            </tg>
+            <tg lang="rus">
+               <t>ишь</t>
+            </tg>
+            <tg lang="rus">
+               <tCtn>
+                  <t>ишь ты</t>
+                  <re>прост.</re>
+               </tCtn>
+            </tg>
             <xg>
                <x>ӧдтӧ кутшӧм!</x>
-               <xtg lang="ru"><xt>смотри-ка, какой! ишь ты какой!</xt></xtg>
+               <xt lang="rus">смотри-ка, какой! ишь ты какой!</xt>
             </xg>
             <xg>
                <x>ӧдтӧ кутшӧм скӧр!</x>
-               <xtg lang="ru"><xt>смотри-ты, какой сердитый!</xt></xtg>
+               <xt lang="rus">смотри-ты, какой сердитый!</xt>
             </xg>
             <xg>
                <x>ӧдтӧ велӧдысь петіс!</x>
-               <xtg lang="ru"><xt>тоже учитель выискался!</xt></xtg>
+               <xt lang="rus">тоже учитель выискался!</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>ӧмӧй</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>ӧмӧй</l>
+         <stg>
+            <st kpvContlex="EndInterj">ӧмӧй</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
    </entry>
    <entry>
-      <lemma>бри% да% бра</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>бри% да% бра</l>
+         <stg>
+            <st kpvContlex="EndInterj">бри% да% бра</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
    </entry>
    <entry>
-      <lemma>прутьӧ-прутьӧ</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>прутьӧ-прутьӧ</l>
+         <stg>
+            <st kpvContlex="EndInterj">прутьӧ-прутьӧ</st>
+         </stg>
+      </lg>
       <pos>INTERJ-CONATIVE</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>возглас, которым подзывают телят</t></tg>
+            <tg lang="rus">
+               <t>возглас, которым подзывают телят</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>сильӧ</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>сильӧ</l>
+         <stg>
+            <st kpvContlex="EndInterj">сильӧ</st>
+         </stg>
+      </lg>
       <pos>INTERJ-CONATIVE</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>возглас, к-рым подзывают кур</t></tg>
+            <tg lang="rus">
+               <t>возглас, к-рым подзывают кур</t>
+            </tg>
             <xg>
                <x>сильӧ-сильӧ</x>
-               <xtg lang="ru"><xt>цып-цып</xt></xtg>
+               <xt lang="rus">цып-цып</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>тпрутьӧ</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>тпрутьӧ</l>
+         <stg>
+            <st kpvContlex="EndInterj">тпрутьӧ</st>
+         </stg>
+      </lg>
       <pos>INTERJ-CONATIVE</pos>
       <e>
-         <mg MNo="2">
+         <mg No="2">
             <m>
-               <head><i>возглас, к-рым подзывают телёнка</i></head>
+               <head>
+                  <re>возглас, к-рым подзывают телёнка</re>
+               </head>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>тӧлӧ</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>тӧлӧ</l>
+         <stg>
+            <st kpvContlex="EndInterj">тӧлӧ</st>
+         </stg>
+      </lg>
       <pos>INTERJ-CONATIVE</pos>
       <e>
          <mg>
             <m>
-               <head><i>возглас, к-рым успокаивают корову</i></head>
+               <head>
+                  <re>возглас, к-рым успокаивают корову</re>
+               </head>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>жальӧ</lemma>
-      <stem/>
-      <contlex>Vocative</contlex>
+      <lg>
+         <l>жальӧ</l>
+         <stg>
+            <st kpvContlex="Vocative">жальӧ</st>
+         </stg>
+      </lg>
       <pos>VOCATIVE</pos>
       <e>
          <mg>
             <m>
-               <head><range>диал.</range> <i>обращ.</i></head>
+               <head>
+                  <range rangeSpat="dialect"/>
+                  <re>обращ.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>милый, любимый</t></tg>
+            <tg lang="rus">
+               <t>милый, любимый</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>мамӧ</lemma>
-      <stem/>
-      <contlex>Vocative</contlex>
+      <lg>
+         <l>мамӧ</l>
+         <stg>
+            <st kpvContlex="Vocative">мамӧ</st>
+         </stg>
+      </lg>
       <pos>VOCATIVE</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>мама</t></tg>
+            <tg lang="rus">
+               <t>мама</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>нылӧ</lemma>
-      <stem/>
-      <contlex>Vocative</contlex>
+      <lg>
+         <l>нылӧ</l>
+         <stg>
+            <st kpvContlex="Vocative">нылӧ</st>
+         </stg>
+      </lg>
       <pos>VOCATIVE</pos>
       <e>
          <mg>
             <m>
-               <head><i>обращ.</i></head>
+               <head>
+                  <re>обращ.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>девонька; доченька</t></tg>
+            <tg lang="rus">
+               <t>девонька; доченька</t>
+            </tg>
             <xg>
                <x>тэ, нылӧ , ветлы сэтчӧ</x>
-               <xtg lang="ru"><xt>ты, доченька, сходи туда</xt></xtg>
+               <xt lang="rus">ты, доченька, сходи туда</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>пиӧ</lemma>
-      <stem/>
-      <contlex>Vocative</contlex>
+      <lg>
+         <l>пиӧ</l>
+         <stg>
+            <st kpvContlex="Vocative">пиӧ</st>
+         </stg>
+      </lg>
       <pos>VOCATIVE</pos>
-      <e RN="I">
-         <i>обращ.</i>
-         <mg MNo="1">
+      <e RNo="I">
+         <mg No="1">
             <m>
-               <head/>
+               <head>
+                  <re>обращ.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>сын, сынок</t></tg>
+            <tg lang="rus">
+               <t>сын, сынок</t>
+            </tg>
             <xg>
                <x>тэ, пиӧ, эн суитчы</x>
-               <xtg lang="ru"><xt>ты, сынок, не вмешивайся</xt></xtg>
+               <xt lang="rus">ты, сынок, не вмешивайся</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>голубчик</t></tg>
+            <tg lang="rus">
+               <t>голубчик</t>
+            </tg>
             <xg>
                <x>тэ, пиӧ, нинӧм он тӧд</x>
-               <xtg lang="ru"><xt>ты, голубчик, ничего не знаешь</xt></xtg>
+               <xt lang="rus">ты, голубчик, ничего не знаешь</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>тьӧтӧ</lemma>
-      <stem/>
-      <contlex>Vocative</contlex>
+      <lg>
+         <l>тьӧтӧ</l>
+         <stg>
+            <st kpvContlex="Vocative">тьӧтӧ</st>
+         </stg>
+      </lg>
       <pos>VOCATIVE</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>тётя, тётушка <i>обращение к тётке и мачехе</i></t></tg>
+            <tg lang="rus">
+               <tCtn>
+                  <t>тётя, тётушка</t>
+                  <re>обращение к тётке и мачехе</re>
+               </tCtn>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>чадӧ</lemma>
-      <stem/>
-      <contlex>Vocative</contlex>
+      <lg>
+         <l>чадӧ</l>
+         <stg>
+            <st kpvContlex="Vocative">чадӧ</st>
+         </stg>
+      </lg>
       <pos>VOCATIVE</pos>
       <e>
          <mg>
             <m>
-               <head><range>диал.</range> <i>ласк. обращ.</i></head>
+               <head>
+                  <range rangeSpat="dialect"/>
+                  <re>ласк. обращ.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>чадо, дитя</t></tg>
+            <tg lang="rus">
+               <t>чадо, дитя</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>бласлӧ% Кристос</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
-      <pos>INTERJ</pos>
+      <lg>
+         <l>бласлӧ% Кристос</l>
+         <stg>
+            <st kpvContlex="EndInterj">бласлӧ% Кристос</st>
+         </stg>
+      </lg>
+      <pos>ADV-PARENTHETIC</pos>
       <e>
          <mg>
             <m>
-               <head><com>(в роли вводн. сл.)</com> <range>уст.</range></head>
+               <head>
+                  <re>(в роли вводн. сл.)</re>
+                  <range rangeTemp="obsolete"/>
+               </head>
             </m>
-            <tg lang="ru"><t>с богом<clarif>пожелание успеха, удачи при каком-л. деле</clarif></t></tg>
+            <tg lang="rus">
+               <tCtn>
+                  <t>с богом</t>
+                  <re>пожелание успеха, удачи при каком-л. деле</re>
+               </tCtn>
+            </tg>
             <xg>
                <x>петӧ, бласлӧ кристос , котралыштӧй</x>
-               <xtg lang="ru"><xt>идите, с богом, побегайте</xt></xtg>
+               <xt lang="rus">идите, с богом, побегайте</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>бри% да% бра</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
+      <lg>
+         <l>бри% да% бра</l>
+         <stg>
+            <st kpvContlex="EndInterj">бри% да% бра</st>
+         </stg>
+      </lg>
       <pos>INTERJ</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>бодро</t></tg>
-            <tg lang="ru"><t>как ни в чём не бывало</t></tg>
+            <tg lang="rus">
+               <t>бодро</t>
+            </tg>
+            <tg lang="rus">
+               <t>как ни в чём не бывало</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>вай</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
-      <pos>INTERJ</pos>
+      <lg>
+         <l>вай</l>
+         <stg>
+            <st kpvContlex="EndInterj">вай</st>
+         </stg>
+      </lg>
+      <pos>INTERJ-IMP</pos>
       <e>
          <mg>
             <m>
-               <head><com>повел.</com></head>
+               <head/>
             </m>
-            <tg lang="ru"><t>дай, давай <clarif>(употр. при понуждении к действию)</clarif></t></tg>
+            <tg lang="rus">
+               <tCtn>
+                  <t>дай, давай </t>
+                  <re>употр. при понуждении к действию</re>
+               </tCtn>
+            </tg>
             <xg>
                <x>вайӧй</x>
-               <xtg lang="ru"><xt>давайте</xt></xtg>
+               <xt lang="rus">давайте</xt>
             </xg>
             <xg>
                <x>вай сьылыштам</x>
-               <xtg lang="ru"><xt>давай споём</xt></xtg>
+               <xt lang="rus">давай споём</xt>
             </xg>
             <xg>
                <x>вайӧн корны</x>
-               <xtg lang="ru"><xt>просить назойливо, без стыда</xt></xtg>
+               <xt lang="rus">просить назойливо, без стыда</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>вайлы</lemma>
-      <stem/>
-      <contlex>EndInterj</contlex>
-      <pos>INTERJ</pos>
+      <lg>
+         <l>вайлы</l>
+         <stg>
+            <st kpvContlex="EndInterj">вайлы</st>
+         </stg>
+      </lg>
+      <pos>INTERJ-IMP</pos>
       <e>
          <mg>
             <m>
-               <head><com>повел.</com></head>
+               <head/>
             </m>
-            <tg lang="ru"><t>давай, давай-ка</t></tg>
+            <tg lang="rus">
+               <t>давай, давай-ка</t>
+            </tg>
             <xg>
                <x>вайлы ме лыддя</x>
-               <xtg lang="ru"><xt>давай-ка, я прочитаю</xt></xtg>
+               <xt lang="rus">давай-ка, я прочитаю</xt>
             </xg>
          </mg>
       </e>
    </entry>
-</dict>
+</r>
