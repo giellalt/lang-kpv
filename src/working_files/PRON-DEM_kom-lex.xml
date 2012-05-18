@@ -1,1174 +1,1504 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dict xsi:noNamespaceSchemaLocation="../dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
-      xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+<r xsi:noNamespaceSchemaLocation="../../../myv/script/dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <entry>
-      <lemma>мӧд</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>мӧд</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG">мӧд</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>другой, иной</t></tg>
+            <tg lang="rus">
+               <t>другой, иной</t>
+            </tg>
             <xg>
                <x>мӧд ног(ӧн) вӧчны</x>
-               <xtg lang="ru"><xt>сделать иначе, сделать по-иному, сделать по-другому</xt></xtg>
+               <xt lang="rus">сделать иначе, сделать по-иному, сделать по-другому</xt>
             </xg>
             <xg>
                <x>мӧд ног висьтавны</x>
-               <xtg lang="ru"><xt>сказать иначе</xt></xtg>
-            </xg>
-            <xg>
-               <x>мӧд ног-кӧ</x>
-               <xtg lang="ru"><xt><i>в роли вводн. сл.</i> иначе, иными словами</xt></xtg>
+               <xt lang="rus">сказать иначе</xt>
             </xg>
             <xg>
                <x>мӧд нога</x>
-               <xtg lang="ru"><xt>не такой, иной, другой</xt></xtg>
+               <xt lang="rus">не такой, иной, другой</xt>
             </xg>
             <xg>
                <x>мӧд ногса</x>
-               <xtg lang="ru"><xt>не такой, иной, другой</xt></xtg>
+               <xt lang="rus">не такой, иной, другой</xt>
             </xg>
             <xg>
                <x>мӧд нога олӧм</x>
-               <xtg lang="ru"><xt>иная жизнь</xt></xtg>
+               <xt lang="rus">иная жизнь</xt>
             </xg>
             <xg>
                <x>найӧ дзик мӧд ногаӧсь</x>
-               <xtg lang="ru"><xt>они совсем не такие, они совсем иные</xt></xtg>
+               <xt lang="rus">они совсем не такие, они совсем иные</xt>
             </xg>
             <xg>
                <x>мӧд ногджык</x>
-               <xtg lang="ru"><xt>несколько иначе, несколько по-другому, по-иному</xt></xtg>
+               <xt lang="rus">несколько иначе, несколько по-другому, по-иному</xt>
             </xg>
             <xg>
                <x>мӧд пӧрйӧ</x>
-               <xtg lang="ru"><xt>в иное время</xt></xtg>
+               <xt lang="rus">в иное время</xt>
             </xg>
             <xg>
                <x>мӧд сёрниӧ бергӧдны</x>
-               <xtg lang="ru"><xt>перевести разговор на другую тему</xt></xtg>
-               <xtg lang="ru"><xt> замять разговор</xt></xtg>
+               <xt lang="rus">перевести разговор на другую тему</xt>
+               <xt lang="rus">замять разговор</xt>
             </xg>
             <xg>
                <x>мӧд синмӧн видзӧдны</x>
-               <xtg lang="ru"><xt>смотреть другими глазами</xt><re>на кого-, что-л.</re></xtg>
+               <xtCtn>
+                  <xt lang="rus">смотреть другими глазами</xt>
+                  <re>на кого-, что-л.</re>
+               </xtCtn>
             </xg>
             <xg>
                <x>мӧд туй миян абу</x>
-               <xtg lang="ru"><xt>другого пути у нас нет</xt></xtg>
+               <xt lang="rus">другого пути у нас нет</xt>
             </xg>
             <xg>
                <x>ӧні кадыс мӧд</x>
-               <xtg lang="ru"><xt>теперь время другое</xt></xtg>
+               <xt lang="rus">теперь время другое</xt>
             </xg>
             <xg>
                <x>салдатӧ ветлӧм бӧрас сійӧ лои дзик мӧд</x>
-               <xtg lang="ru"><xt>после солдатской службы он стал совсем другим</xt></xtg>
+               <xt lang="rus">после солдатской службы он стал совсем другим</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>другой, следующий, будущий</t></tg>
+            <tg lang="rus">
+               <t>другой, следующий, будущий</t>
+            </tg>
             <xg>
                <x>мӧд во кежлӧ</x>
-               <xtg lang="ru"><xt>на будущий год</xt></xtg>
-               <xtg lang="ru"><xt> на следующий год</xt></xtg>
+               <xt lang="rus">на будущий год</xt>
+               <xt lang="rus">на следующий год</xt>
             </xg>
             <xg>
                <x>мӧд лун</x>
-               <xtg lang="ru"><xt>другой день, второй день</xt></xtg>
-               <xtg lang="ru"><xt>на днях</xt><re>только о будущем</re></xtg>
+               <xt lang="rus">другой день, второй день</xt>
+               <xtCtn>
+                  <xt lang="rus">на днях</xt>
+                  <re>только о будущем</re>
+               </xtCtn>
             </xg>
             <xg>
                <x>мӧд лун ещӧ пырала</x>
-               <xtg lang="ru"><xt>на днях ещё зайду</xt></xtg>
+               <xt lang="rus">на днях ещё зайду</xt>
             </xg>
             <xg>
                <x>мӧд луннас</x>
-               <xtg lang="ru"><xt>на следующий, на другой день</xt></xtg>
+               <xt lang="rus">на следующий, на другой день</xt>
             </xg>
          </mg>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>другой, <i>кто-л.</i>иной, посторонний</t></tg>
+            <tg lang="rus">
+               <t>другой, кто-л. иной, посторонний</t>
+            </tg>
             <xg>
                <x>мӧдлы сетны</x>
-               <xtg lang="ru"><xt>отдать другому</xt></xtg>
+               <xt lang="rus">отдать другому</xt>
             </xg>
             <xg>
                <x>мӧдӧс корсьны</x>
-               <xtg lang="ru"><xt>искать другого</xt></xtg>
+               <xt lang="rus">искать другого</xt>
             </xg>
             <xg>
                <x>ӧтияс грузла мунӧны, мӧдъяс грузӧн локтӧны нин</x>
-               <xtg lang="ru"><xt>одни отправляются за грузом, другие уже возвращаются с грузом</xt></xtg>
+               <xt lang="rus">одни отправляются за грузом, другие уже возвращаются с грузом</xt>
             </xg>
             <xg>
                <x>мӧд керкаӧ петалӧм кодь</x>
-               <xtg lang="ru"><xt>рукой подать</xt></xtg>
-               <literal>
-                  <xtg lang="ru"><xt> так же, как выйти на другую половину избы</xt></xtg>
-               </literal>
+               <xt lang="rus">рукой подать</xt>
+               <xt lang="rus" tType="literal">так же, как выйти на другую половину избы</xt>
             </xg>
             <xg>
                <x>мӧд та дыра</x>
-               <xtg lang="ru"><xt>ещё столько же</xt><re>времени</re></xtg>
+               <xtCtn>
+                  <xt lang="rus">ещё столько же</xt>
+                  <re>времени</re>
+               </xtCtn>
             </xg>
             <xg>
                <x>мӧд та дыра овны</x>
-               <xtg lang="ru"><xt>прожить ещё столько же</xt></xtg>
+               <xt lang="rus">прожить ещё столько же</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>со</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM</pos>
-   </entry>
-   <entry>
-      <lemma>сэтшӧм</lemma>
-      <stem/>
-      <contlex>ADNDEMTAG</contlex>
-      <pos>ADN-DEM</pos>
+      <lg>
+         <l>со</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG">со</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t><i>опред.</i> такой</t></tg>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>сэтшӧм</l>
+         <stg>
+            <st kpvContlex="ADNDEMTAG">сэтшӧм</st>
+         </stg>
+      </lg>
+      <pos>DEM-ADN</pos>
+      <e>
+         <mg>
+            <m>
+               <head>
+                  <re>опред.</re>
+               </head>
+            </m>
+            <tg lang="rus">
+               <t>такой</t>
+            </tg>
             <xg>
                <x>сэтшӧм случай</x>
-               <xtg lang="ru"><xt>такой случай</xt></xtg>
+               <xt lang="rus">такой случай</xt>
             </xg>
             <xg>
                <x>сэтшӧм сьӧкыд</x>
-               <xtg lang="ru"><xt>такой тяжёлый</xt></xtg>
+               <xt lang="rus">такой тяжёлый</xt>
             </xg>
             <xg>
                <x>сэтшӧм пӧлӧс йӧзыд шоча паныдасьлӧны</x>
-               <xtg lang="ru"><xt>такого рода люди редко встречаются</xt></xtg>
+               <xt lang="rus">такого рода люди редко встречаются</xt>
             </xg>
          </mg>
          <mg>
             <m>
-               <head><com>нареч.</com></head>
+               <head>
+                  <re>нареч.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>так</t></tg>
+            <tg lang="rus">
+               <t>так</t>
+            </tg>
             <xg>
                <x>сэтшӧм матын</x>
-               <xtg lang="ru"><xt>так близко</xt></xtg>
+               <xt lang="rus">так близко</xt>
             </xg>
             <xg>
                <x>сэтшӧм ылӧ</x>
-               <xtg lang="ru"><xt>так далеко</xt></xtg>
+               <xt lang="rus">так далеко</xt>
             </xg>
             <xg>
                <x>сэтшӧм вӧлі лӧсьыд</x>
-               <xtg lang="ru"><xt>так было хорошо</xt></xtg>
+               <xt lang="rus">так было хорошо</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>сэтшӧм-татшӧм</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>сэтшӧм-татшӧм</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG">сэтшӧм-татшӧм</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>такой-сякой</t></tg>
-            <tg lang="ru"><t> сомнительный, подозрительный</t></tg>
+            <tg lang="rus">
+               <t>такой-сякой</t>
+            </tg>
+            <tg lang="rus">
+               <t>сомнительный, подозрительный</t>
+            </tg>
             <xg>
                <x>сэтшӧм-татшӧм морт</x>
-               <xtg lang="ru"><xt>сомнительная личность</xt></xtg>
+               <xt lang="rus">сомнительная личность</xt>
             </xg>
             <xg>
                <x>занимайтчыны сэтшӧм-татшӧм делӧясӧн</x>
-               <xtg lang="ru"><xt>заниматься сомнительтными делами</xt></xtg>
+               <xt lang="rus">заниматься сомнительтными делами</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>неудовлетворительный</t></tg>
+            <tg lang="rus">
+               <t>неудовлетворительный</t>
+            </tg>
             <xg>
                <x>сэтшӧм-татшӧм удж</x>
-               <xtg lang="ru"><xt>неудовлетворительная работа</xt></xtg>
+               <xt lang="rus">неудовлетворительная работа</xt>
             </xg>
          </mg>
-         <mg MNo="3">
+         <mg No="3">
             <m>
-               <head><i>в роли сущ.</i></head>
+               <head>
+                  <re>в роли сущ.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>такое, плохое</t></tg>
+            <tg lang="rus">
+               <t>такое, плохое</t>
+            </tg>
             <xg>
                <x>нинӧм сэтшӧм-татшӧмыс эз вӧв</x>
-               <xtg lang="ru"><xt>ничего такого не было</xt></xtg>
+               <xt lang="rus">ничего такого не было</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>сэтшӧм-татшӧмтор</lemma>
-      <stem>сэтшӧм-татшӧмторй</stem>
-      <contlex>Noun1</contlex>
-      <pos>PRON-DEM-N</pos>
+      <lg>
+         <l>сэтшӧм-татшӧмтор</l>
+         <stg>
+            <st kpvContlex="Noun1">сэтшӧм-татшӧмторй</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>такое-сякое</t></tg>
+            <tg lang="rus">
+               <t>такое-сякое</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>сэтшӧма</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM-ADV</pos>
+      <lg>
+         <l>сэтшӧма</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG">сэтшӧма</st>
+         </stg>
+      </lg>
+      <pos>DEM-ADV</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>так</t></tg>
+            <tg lang="rus">
+               <t>так</t>
+            </tg>
             <xg>
                <x>сэтшӧма повзьыны</x>
-               <xtg lang="ru"><xt>так <i>сильно</i> испугаться</xt></xtg>
+               <xt lang="rus">так (сильно) испугаться</xt>
             </xg>
             <xg>
                <x>сэтшӧма ёнмӧма</x>
-               <xtg lang="ru"><xt>он так пополнел</xt></xtg>
+               <xt lang="rus">он так пополнел</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>сэтшӧмин</lemma>
-      <stem/>
-      <contlex>Noun1</contlex>
-      <pos>PRON-DEM-N</pos>
+      <lg>
+         <l>сэтшӧмин</l>
+         <stg>
+            <st kpvContlex="Noun1">сэтшӧмин</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>такое место</t></tg>
+            <tg lang="rus">
+               <t>такое место</t>
+            </tg>
             <xg>
                <x>корсьны сэтшӧмин , кытӧн чериыс шедӧ</x>
-               <xtg lang="ru"><xt>искать такое место, где рыба ловится</xt></xtg>
+               <xt lang="rus">искать такое место, где рыба ловится</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>сэтшӧмтор</lemma>
-      <stem>сэтшӧмторй</stem>
-      <contlex>Noun1</contlex>
-      <pos>PRON-DEM-N</pos>
+      <lg>
+         <l>сэтшӧмтор</l>
+         <stg>
+            <st kpvContlex="Noun1">сэтшӧмторй</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>такое</t></tg>
+            <tg lang="rus">
+               <t>такое</t>
+            </tg>
             <xg>
                <x>вӧвлі сэтшӧмторйыс</x>
-               <xtg lang="ru"><xt>бывало такое</xt></xtg>
+               <xt lang="rus">бывало такое</xt>
             </xg>
             <xg>
                <x>кыдз лысьтін сэтшӧмторсӧ шуны?</x>
-               <xtg lang="ru"><xt>как ты посмел сказать такое?</xt></xtg>
+               <xt lang="rus">как ты посмел сказать такое?</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>сэтшӧмтӧ</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>сэтшӧмтӧ</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG">сэтшӧмтӧ</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
-               <head><i>указ.</i></head>
+               <head/>
             </m>
-            <tg lang="ru"><t>такой-то</t></tg>
+            <tg lang="rus">
+               <t>такой-то</t>
+            </tg>
             <xg>
                <x>ме, сэтшӧмтӧ гражданин, ...</x>
-               <xtg lang="ru"><xt>я, такой-то гражданин, ...</xt></xtg>
+               <xt lang="rus">я, такой-то гражданин, ...</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>сэтшӧмӧдз</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG-TER</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>сэтшӧмӧдз</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG-TER">сэтшӧмӧдз</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>до такой степени, до такого состояния</t></tg>
+            <tg lang="rus">
+               <t>до такой степени, до такого состояния</t>
+            </tg>
             <xg>
                <x>сэтшӧмӧдз омӧльтчыны</x>
-               <xtg lang="ru"><xt>до такой степени похудеть</xt></xtg>
+               <xt lang="rus">до такой степени похудеть</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>сэтысь</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG-ELA</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>сэтысь</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG-ELA">сэтысь</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel MNo="1" lemmaID="сэсь" semRelType="see"/>
+               <semRel No="1" lemmaID="сэсь" semRelType="see"/>
             </m>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>сэтысянь</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG-EGR</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>сэтысянь</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG-EGR">сэтысянь</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel MNo="1" lemmaID="сэсянь" semRelType="see"/>
+               <semRel No="1" lemmaID="сэсянь" semRelType="see"/>
             </m>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>сэтӧні</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>сэтӧні</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG">сэтӧні</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
    </entry>
    <entry>
-      <lemma>сійӧ</lemma>
-      <stem>сы</stem>
-      <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>сійӧ</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG">сы</st>
+         </stg>
+      </lg>
+      <pos>DEM-ADN</pos>
       <e>
-         <mg MNo="2">
+         <mg No="2">
             <m>
-               <head><i>в роли указ. мест.</i></head>
+               <head/>
             </m>
-            <tg lang="ru"><t>тот, та, то</t></tg>
+            <tg lang="rus">
+               <t>тот, та, то</t>
+            </tg>
             <xg>
                <x>сійӧ кадӧ</x>
-               <xtg lang="ru"><xt>в то время</xt></xtg>
+               <xt lang="rus">в то время</xt>
             </xg>
             <xg>
                <x>сы выйӧдз</x>
-               <xtg lang="ru"><xt>так, в такой степени, настолько</xt></xtg>
+               <xt lang="rus">так, в такой степени, настолько</xt>
             </xg>
             <xg>
                <x>сы вылӧ видзӧдтӧг</x>
-               <xtg lang="ru"><xt>несмотря на это</xt></xtg>
+               <xt lang="rus">несмотря на это</xt>
             </xg>
             <xg>
                <x>сы дыра</x>
-               <xtg lang="ru"><xt>так долго</xt></xtg>
+               <xt lang="rus">так долго</xt>
             </xg>
             <xg>
                <x>сы лыдын</x>
-               <xtg lang="ru"><xt>в том числе</xt></xtg>
+               <xt lang="rus">в том числе</xt>
             </xg>
             <xg>
                <x>сы могысь</x>
-               <xtg lang="ru"><xt>затем</xt></xtg>
+               <xt lang="rus">затем</xt>
             </xg>
             <xg>
                <x>сы понда, мый</x>
-               <xtg lang="ru"><xt>... ввиду того, что</xt></xtg>
+               <xt lang="rus">... ввиду того, что</xt>
             </xg>
             <xg>
                <x>сы пыдди</x>
-               <xtg lang="ru"><xt>зато</xt></xtg>
+               <xt lang="rus">зато</xt>
             </xg>
             <xg>
                <x>йӧзыдлы мый дур, сійӧ и теш</x>
-               <xtg lang="ru"><xt>людям что дурно, то и потешно</xt></xtg>
+               <xt lang="rus">людям что дурно, то и потешно</xt>
             </xg>
             <xg>
                <x>мый синмас, сійӧ и вомас</x>
-               <xtg lang="ru"><xt>что в глазах, то и на языке</xt><re>о болтливом</re></xtg>
+               <xtCtn>
+                  <xt lang="rus">что в глазах, то и на языке</xt>
+                  <re>о болтливом</re>
+               </xtCtn>
             </xg>
             <xg>
                <x>сы вылын и олӧ, сійӧн и вердчӧ</x>
-               <xtg lang="ru"><xt>тем он и живёт, тем и кормится</xt></xtg>
+               <xt lang="rus">тем он и живёт, тем и кормится</xt>
             </xg>
             <xg>
                <x>сійӧ ас кӧшас воӧдчас</x>
-               <xtg lang="ru"><xt>он добьётся своего</xt></xtg>
+               <xt lang="rus">он добьётся своего</xt>
             </xg>
             <xg>
                <x>сійӧ и бур</x>
-               <xtg lang="ru"><xt>тем лучше</xt></xtg>
+               <xt lang="rus">тем лучше</xt>
             </xg>
             <xg>
                <x>сійӧ ӧд и эм</x>
-               <xtg lang="ru"><xt>то-то и оно</xt></xtg>
-               <xtg lang="ru"><xt> то-то оно и есть</xt></xtg>
+               <xt lang="rus">то-то и оно</xt>
+               <xt lang="rus">то-то оно и есть</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>сійӧтор</lemma>
-      <stem>сійӧторй</stem>
-      <contlex>Noun1</contlex>
-      <pos>PRON-DEM-N</pos>
+      <lg>
+         <l>сійӧтор</l>
+         <stg>
+            <st kpvContlex="Noun1">сійӧторй</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>то</t></tg>
+            <tg lang="rus">
+               <t>то</t>
+            </tg>
             <xg>
                <x>меным кажитчыліс сійӧтор , мый быд праздник нуӧдсьыліс аслысногӧн</x>
-               <xtg lang="ru"><xt>мне нравилось то, что каждый праздник проводился по-своему</xt><re>разнообразно</re></xtg>
+               <xtCtn>
+                  <xt lang="rus">мне нравилось то, что каждый праздник проводился по-своему</xt>
+                  <re>разнообразно</re>
+               </xtCtn>
             </xg>
             <xg>
                <x>мый ас вывтіыд оз мун, сійӧтор он вермы тӧдны</x>
-               <xtg lang="ru"><xt>что сам не испытаешь, того не поймёшь</xt></xtg>
+               <xt lang="rus">что сам не испытаешь, того не поймёшь</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>тайӧ</lemma>
-      <stem>та</stem>
-      <contlex>PRONDEMTAGSG-TA</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>тайӧ</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAGSG-TA">та</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
-               <head><i>указ.</i></head>
+               <head/>
             </m>
-            <tg lang="ru"><t>этот, эта, это</t></tg>
+            <tg lang="rus">
+               <t>этот, эта, это</t>
+            </tg>
             <xg>
                <x>тайӧ здукӧ</x>
-               <xtg lang="ru"><xt>в эту минуту</xt></xtg>
+               <xt lang="rus">в эту минуту</xt>
             </xg>
             <xg>
                <x>тайӧ коді?</x>
-               <xtg lang="ru"><xt>кто это?</xt></xtg>
+               <xt lang="rus">кто это?</xt>
             </xg>
             <xg>
                <x>тайӧ мортсӧ ме эг на аддзыв</x>
-               <xtg lang="ru"><xt>этого человека я еще не видела</xt></xtg>
+               <xt lang="rus">этого человека я еще не видела</xt>
             </xg>
             <xg>
                <x>мый тайӧ ?</x>
-               <xtg lang="ru"><xt>что это?</xt></xtg>
+               <xt lang="rus">что это?</xt>
             </xg>
             <xg>
                <x>тайӧ тӧлысьын</x>
-               <xtg lang="ru"><xt>в этом месяце</xt></xtg>
+               <xt lang="rus">в этом месяце</xt>
             </xg>
             <xg>
                <x>тайӧ бара кулӧм бӧртиыс локтас</x>
-               <xtg lang="ru"><xt>лёгок на помине</xt></xtg>
-               <literal>
-                  <xtg lang="ru"><xt> он и после смерти придёт</xt></xtg>
-               </literal>
+               <xt lang="rus">лёгок на помине</xt>
+               <xt lang="rus" tType="literal">он и после смерти придёт</xt>
             </xg>
             <xg>
                <x>тайӧ меным нявда</x>
-               <xtg lang="ru"><xt>это мне ничего не стоит</xt></xtg>
-               <xtg lang="ru"><xt> это для меня трын-трава</xt></xtg>
-               <literal>
-                  <xtg lang="ru"><xt>это для меня мокрица</xt></xtg>
-               </literal>
+               <xt lang="rus">это мне ничего не стоит</xt>
+               <xt lang="rus">это для меня трын-трава</xt>
+               <xt lang="rus" tType="literal">это для меня мокрица</xt>
             </xg>
             <xg>
                <x>тайӧ ӧд абу керка пельӧс тшупны</x>
-               <xtg lang="ru"><xt>эта работа — не угол дома рубить</xt></xtg>
+               <xt lang="rus">эта работа — не угол дома рубить</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>тайӧтор</lemma>
-      <stem>тайӧторй</stem>
-      <contlex>Noun1</contlex>
-      <pos>PRON-DEM-N</pos>
+      <lg>
+         <l>тайӧтор</l>
+         <stg>
+            <st kpvContlex="Noun1">тайӧторй</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>это</t></tg>
+            <tg lang="rus">
+               <t>это</t>
+            </tg>
             <xg>
                <x>тайӧторйӧ велӧдчыны абу ёна сьӧкыд</x>
-               <xtg lang="ru"><xt>этому научиться не так трудно</xt></xtg>
+               <xt lang="rus">этому научиться не так трудно</xt>
             </xg>
             <xg>
                <x>тайӧторсӧ он куж думыштны</x>
-               <xtg lang="ru"><xt>об этом и не подумаешь</xt></xtg>
+               <xt lang="rus">об этом и не подумаешь</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>татшӧм</lemma>
-      <stem/>
-      <contlex>ADNDEMTAG</contlex>
-      <pos>ADN-DEM</pos>
+      <lg>
+         <l>татшӧм</l>
+         <stg>
+            <st kpvContlex="ADNDEMTAG">татшӧм</st>
+         </stg>
+      </lg>
+      <pos>DEM-ADN</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>такой</t></tg>
+            <tg lang="rus">
+               <t>такой</t>
+            </tg>
             <xg>
                <x>татшӧм здукӧ</x>
-               <xtg lang="ru"><xt>в такой момент</xt></xtg>
+               <xt lang="rus">в такой момент</xt>
             </xg>
             <xg>
                <x>татшӧм сяма</x>
-               <xtg lang="ru"><xt>подобный этому</xt></xtg>
-               <xtg lang="ru"><xt>такой, как этот</xt></xtg>
+               <xt lang="rus">подобный этому</xt>
+               <xt lang="rus">такой, как этот</xt>
             </xg>
             <xg>
                <x>татшӧм уджалысь миянлы колӧ</x>
-               <xtg lang="ru"><xt>такой работник нам нужен</xt></xtg>
+               <xt lang="rus">такой работник нам нужен</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>следующий</t></tg>
+            <tg lang="rus">
+               <t>следующий</t>
+            </tg>
             <xg>
                <x>гижсисны татшӧм йӧз</x>
-               <xtg lang="ru"><xt>записались следующие люди</xt></xtg>
+               <xt lang="rus">записались следующие люди</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>татӧні</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM</pos>
-   </entry>
-   <entry>
-      <lemma>таян</lemma>
-      <stem/>
-      <contlex>PRONDEMTAGPL</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>татӧні</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG">татӧні</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
-               <head><range>диал.</range> <i>указ.</i></head>
+               <head/>
             </m>
-            <tg lang="ru"><t>эти</t></tg>
+            <tg>
+               <t/>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>эстшӧм</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>таян</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAGPL">таян</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
-         <i>усил.-указ.</i>
-         <mg MNo="1">
+         <mg>
             <m>
-               <head/>
+               <head>
+                  <range rangeSpat="dialect"/>
+               </head>
             </m>
-            <tg lang="ru"><t>вот такой, такой</t></tg>
+            <tg lang="rus">
+               <t>эти</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>эстшӧм</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG">эстшӧм</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
+      <e>
+         <mg No="1">
+            <m>
+               <head>
+                  <re>усил.-указ.</re>
+               </head>
+            </m>
+            <tg lang="rus">
+               <t>вот такой, такой</t>
+            </tg>
             <xg>
                <x>эстшӧм чӧскыд вотӧс</x>
-               <xtg lang="ru"><xt>такая вкусная ягода</xt></xtg>
+               <xt lang="rus">такая вкусная ягода</xt>
             </xg>
             <xg>
                <x>ӧтчыд видзӧдлан да сэтшӧм, мӧдысь видзӧдлан — эстшӧм</x>
-               <xtg lang="ru"><xt>один раз посмотришь — такой, другой раз посмотришь — вот такой</xt></xtg>
+               <xt lang="rus">один раз посмотришь — такой, другой раз посмотришь — вот такой</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>какой</t><re>при выражении удивления</re></tg>
+            <tg lang="rus">
+               <tCtn>
+                  <t>какой</t>
+                  <re>при выражении удивления</re>
+               </tCtn>
+            </tg>
             <xg>
                <x>эстшӧм кыз</x>
-               <xtg lang="ru"><xt>вот какой толстый!</xt></xtg>
+               <xt lang="rus">вот какой толстый!</xt>
             </xg>
             <xg>
                <x>эстшӧм тэ ён!</x>
-               <xtg lang="ru"><xt>какой ты сильный!</xt></xtg>
+               <xt lang="rus">какой ты сильный!</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>эстшӧма</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM-ADV</pos>
+      <lg>
+         <l>эстшӧма</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG">эстшӧма</st>
+         </stg>
+      </lg>
+      <pos>DEM-ADV</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>так, этак</t></tg>
+            <tg lang="rus">
+               <t>так, этак</t>
+            </tg>
             <xg>
                <x>эстшӧма быдмӧма!</x>
-               <xtg lang="ru"><xt>так вырос!</xt></xtg>
+               <xt lang="rus">так вырос!</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>эстысь</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG-ELA</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>эстысь</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG-ELA">эстысь</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>оттуда, с того места</t></tg>
+            <tg lang="rus">
+               <t>оттуда, с того места</t>
+            </tg>
             <xg>
                <x>эстысь чукыль сайсьыс</x>
-               <xtg lang="ru"><xt>оттуда, из-за поворота</xt></xtg>
+               <xt lang="rus">оттуда, из-за поворота</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>эстысянь</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG-EGR</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>эстысянь</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG-EGR">эстысянь</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>оттуда, с того места</t></tg>
+            <tg lang="rus">
+               <t>оттуда, с того места</t>
+            </tg>
             <xg>
                <x>эстысянь чукыль сайсьыс</x>
-               <xtg lang="ru"><xt>оттуда, из-за поворота</xt></xtg>
+               <xt lang="rus">оттуда, из-за поворота</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>эcійӧ</lemma>
-      <stem>эсы</stem>
-      <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>эcійӧ</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG">эсы</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
-         <drvg>
-            <drv><lemma>эcійӧ</lemma><com>указ. крат. ф. от</com></drv>
-         </drvg>
          <mg>
             <m>
-               <head/>
+               <head>
+                  <re>(эcійӧ) указ. крат. ф. от</re>
+               </head>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>эcійӧ кузя сир</x>
-               <xtg lang="ru"><xt>вот такой длины щука</xt></xtg>
+               <xt lang="rus">вот такой длины щука</xt>
             </xg>
             <xg>
                <x>эcійӧ мында вӧчӧма</x>
-               <xtg lang="ru"><xt>столько сделано</xt></xtg>
+               <xt lang="rus">столько сделано</xt>
             </xg>
             <xg>
                <x>эcійӧ пасьта ю</x>
-               <xtg lang="ru"><xt>такая широкая река</xt></xtg>
+               <xt lang="rus">такая широкая река</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>эсыладор</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM-N</pos>
+      <lg>
+         <l>эсыладор</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG">эсыладор</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>вон та сторона</t></tg>
+            <tg lang="rus">
+               <t>вон та сторона</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>эсылань</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG-APR</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>эсылань</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG-APR">эсылань</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>вон туда, вон в том направлении</t></tg>
+            <tg lang="rus">
+               <t>вон туда, вон в том направлении</t>
+            </tg>
             <xg>
                <x>эсылань бергӧдчыв</x>
-               <xtg lang="ru"><xt>повернись вон туда</xt></xtg>
+               <xt lang="rus">повернись вон туда</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>эсыметь</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>эсыметь</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG">эсыметь</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>в такой степени, до такой степени, так сильно</t></tg>
+            <tg lang="rus">
+               <t>в такой степени, до такой степени, так сильно</t>
+            </tg>
             <xg>
                <x>эсыметь вундыны</x>
-               <xtg lang="ru"><xt>так много отрезать</xt></xtg>
+               <xt lang="rus">так много отрезать</xt>
             </xg>
             <xg>
                <x>эсыметь тшыкӧдны</x>
-               <xtg lang="ru"><xt>до такой степени испортить</xt></xtg>
+               <xt lang="rus">до такой степени испортить</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>эсымында</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>эсымында</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG">эсымында</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>столько</t></tg>
+            <tg lang="rus">
+               <t>столько</t>
+            </tg>
             <xg>
                <x>эсымында лук колӧ быдтыны</x>
-               <xtg lang="ru"><xt>столько луку надо вырастить</xt></xtg>
+               <xt lang="rus">столько луку надо вырастить</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>эсійӧ</lemma>
-      <stem>эс</stem>
-      <contlex>PRONDEMTAG-ES</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>эсійӧ</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG-ES">эс</st>
+         </stg>
+      </lg>
+      <pos>DEM-ADN</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
-               <head><i>указ.</i></head>
+               <head/>
             </m>
-            <tg lang="ru"><t>тот</t></tg>
+            <tg lang="rus">
+               <t>тот</t>
+            </tg>
             <xg>
                <x>со эсійӧ паньсӧ ньӧба</x>
-               <xtg lang="ru"><xt>вот ту ложку куплю</xt></xtg>
+               <xt lang="rus">вот ту ложку куплю</xt>
             </xg>
             <xg>
                <x>эсійӧ серпасыс зэв мича</x>
-               <xtg lang="ru"><xt>тот рисунок очень красив</xt></xtg>
+               <xt lang="rus">тот рисунок очень красив</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>бишь</t></tg>
-            <tg lang="ru"><t>это, как его</t> <re>употр. для заполнения в речи паузы</re></tg>
+            <tg lang="rus">
+               <t>бишь</t>
+            </tg>
+            <tg lang="rus">
+               <tCtn>
+                  <t>это, как его</t>
+                  <re>употр. для заполнения в речи паузы</re>
+               </tCtn>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>эсійӧяс</lemma>
-      <stem/>
-      <contlex>PRONDEMTAGPL</contlex>
-      <pos>PRON-DEM</pos>
-   </entry>
-   <entry>
-      <lemma>эсіян</lemma>
-      <stem/>
-      <contlex>PRONDEMTAGPL</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>эсійӧяс</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAGPL">эсійӧяс</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
-               <head><i>указ.</i></head>
+               <head/>
             </m>
-            <tg lang="ru"><t>вот они, вот эти</t></tg>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>эсіян</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAGPL">эсіян</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <t>вот они, вот эти</t>
+            </tg>
             <xg>
                <x>эсіян бара нин шойччӧны</x>
-               <xtg lang="ru"><xt>вот эти опять уже отдыхают</xt></xtg>
+               <xt lang="rus">вот эти опять уже отдыхают</xt>
             </xg>
          </mg>
       </e>
    </entry>
-<entry> <lemma>этійӧ</lemma> <stem/> <contlex>PRONDEMTAG</contlex> <pos>PRON-DEM</pos> <e> <mg> <m> <head/> <semRel MNo="1" lemmaID="этайӧ" semRelType="see"/> </m> </mg> </e> </entry>
-   <entry exclude="fst">
-      <lemma>эта</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM</pos>
+   <entry>
+      <lg>
+         <l>этійӧ</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG">этійӧ</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
-         <drvg>
-            <drv><lemma>этайӧ</lemma><com>указ. крат. ф. от</com></drv>
-         </drvg>
          <mg>
             <m>
-               <head><i/></head>
+               <head/>
+               <semRel No="1" lemmaID="этайӧ" semRelType="see"/>
             </m>
-            <tg lang="ru"><t>такой, этот</t></tg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lg>
+         <l>эта</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG">эта</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
+      <e>
+         <mg>
+            <m>
+               <head>
+                  <re>(этайӧ) указ. крат. ф. от</re>
+               </head>
+            </m>
+            <tg lang="rus">
+               <t>такой, этот</t>
+            </tg>
             <xg>
                <x>эта дырйи</x>
-               <xtg lang="ru"><xt>при этом</xt></xtg>
+               <xt lang="rus">при этом</xt>
             </xg>
             <xg>
                <x>эта мында!</x>
-               <xtg lang="ru"><xt>так много!</xt></xtg>
+               <xt lang="rus">так много!</xt>
             </xg>
             <xg>
                <x>эта ӧдӧн нуӧдӧ</x>
-               <xtg lang="ru"><xt>с такой скоростью везёт</xt></xtg>
+               <xt lang="rus">с такой скоростью везёт</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>этадз</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>этадз</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG">этадз</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>так, этак, вот так</t></tg>
+            <tg lang="rus">
+               <t>так, этак, вот так</t>
+            </tg>
             <xg>
                <x>этадз ӧшӧдны</x>
-               <xtg lang="ru"><xt>так повесить</xt></xtg>
+               <xt lang="rus">так повесить</xt>
             </xg>
             <xg>
                <x>этадз колӧ сувтӧдны</x>
-               <xtg lang="ru"><xt>надо поставить так</xt></xtg>
+               <xt lang="rus">надо поставить так</xt>
             </xg>
             <xg>
                <x>этадз кынтӧма войнас!</x>
-               <xtg lang="ru"><xt>этак подморозило ночью</xt></xtg>
+               <xt lang="rus">этак подморозило ночью</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>этадзи</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>этадзи</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG">этадзи</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>так, этак, вот так</t></tg>
+            <tg lang="rus">
+               <t>так, этак, вот так</t>
+            </tg>
             <xg>
                <x>этадзи ӧшӧдны</x>
-               <xtg lang="ru"><xt>так повесить</xt></xtg>
+               <xt lang="rus">так повесить</xt>
             </xg>
             <xg>
                <x>этадзи колӧ сувтӧдны</x>
-               <xtg lang="ru"><xt>надо поставить так</xt></xtg>
+               <xt lang="rus">надо поставить так</xt>
             </xg>
             <xg>
                <x>этадзи кынтӧма войнас!</x>
-               <xtg lang="ru"><xt>этак подморозило ночью</xt></xtg>
+               <xt lang="rus">этак подморозило ночью</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>этайӧ</lemma>
-      <stem>эта</stem>
-      <contlex>PRONDEMTAGSG-TA</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>этайӧ</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAGSG-TA">эта</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
-               <head><i>указ.</i></head>
+               <head/>
             </m>
-            <tg lang="ru"><t>этот, вот этот</t></tg>
+            <tg lang="rus">
+               <t>этот, вот этот</t>
+            </tg>
             <xg>
                <x>этайӧ зонмыслы тшӧкты лэптыны</x>
-               <xtg lang="ru"><xt>вот этого парня попроси поднять</xt></xtg>
+               <xt lang="rus">вот этого парня попроси поднять</xt>
             </xg>
             <xg>
                <x>этайӧ небӧгыс зэв дона</x>
-               <xtg lang="ru"><xt>эта книга очень дорогая</xt></xtg>
+               <xt lang="rus">эта книга очень дорогая</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>эталань</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG-APR</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>эталань</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG-APR">эталань</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>сюда, ближе сюда (к этому месту)</t></tg>
-            <tg lang="ru"><t> в этом направлении</t></tg>
+            <tg lang="rus">
+               <t>сюда, ближе сюда (к этому месту)</t>
+            </tg>
+            <tg lang="rus">
+               <t>в этом направлении</t>
+            </tg>
             <xg>
                <x>эталань лок</x>
-               <xtg lang="ru"><xt>подойди сюда</xt></xtg>
-               <xtg lang="ru"><xt> иди сюда</xt></xtg>
+               <xt lang="rus">подойди сюда</xt>
+               <xt lang="rus">иди сюда</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>эталаньсянь</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG-APR-EGR</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>эталаньсянь</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG-APR-EGR">эталаньсянь</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>с этой стороны</t></tg>
+            <tg lang="rus">
+               <t>с этой стороны</t>
+            </tg>
             <xg>
                <x>эталаньсянь босьтны колӧ</x>
-               <xtg lang="ru"><xt>надо взять с этой стороны</xt></xtg>
+               <xt lang="rus">надо взять с этой стороны</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>эталаньысь</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG-APR-ELA</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>эталаньысь</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG-APR-ELA">эталаньысь</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>вот отсюда</t></tg>
+            <tg lang="rus">
+               <t>вот отсюда</t>
+            </tg>
             <xg>
                <x>эталаньысь вайӧма</x>
-               <xtg lang="ru"><xt>вот отсюда принёс</xt></xtg>
+               <xt lang="rus">вот отсюда принёс</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>эталаньӧ</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG-APR-ILL</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>эталаньӧ</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG-APR-ILL">эталаньӧ</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>сюда, ближе сюда (к этому месту)</t></tg>
-            <tg lang="ru"><t> в этом направлении</t></tg>
+            <tg lang="rus">
+               <t>сюда, ближе сюда (к этому месту)</t>
+            </tg>
+            <tg lang="rus">
+               <t>в этом направлении</t>
+            </tg>
             <xg>
                <x>эталаньӧ лок</x>
-               <xtg lang="ru"><xt>подойди сюда</xt></xtg>
-               <xtg lang="ru"><xt> иди сюда</xt></xtg>
+               <xt lang="rus">подойди сюда</xt>
+               <xt lang="rus">иди сюда</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>этан</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>этан</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG">этан</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>здесь, вот здесь</t></tg>
+            <tg lang="rus">
+               <t>здесь, вот здесь</t>
+            </tg>
             <xg>
                <x>этан олӧ</x>
-               <xtg lang="ru"><xt>он здесь живёт</xt></xtg>
+               <xt lang="rus">он здесь живёт</xt>
             </xg>
             <xg>
                <x>этан уджаліс</x>
-               <xtg lang="ru"><xt>вот здесь работал</xt></xtg>
+               <xt lang="rus">вот здесь работал</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>этані</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>этані</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG">этані</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>здесь, вот здесь</t></tg>
+            <tg lang="rus">
+               <t>здесь, вот здесь</t>
+            </tg>
             <xg>
                <x>этані олӧ</x>
-               <xtg lang="ru"><xt>он здесь живёт</xt></xtg>
+               <xt lang="rus">он здесь живёт</xt>
             </xg>
             <xg>
                <x>этані уджаліс</x>
-               <xtg lang="ru"><xt>вот здесь работал</xt></xtg>
+               <xt lang="rus">вот здесь работал</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>этатшӧм</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG</contlex>
-      <pos>ADN-DEM</pos>
+      <lg>
+         <l>этатшӧм</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG">этатшӧм</st>
+         </stg>
+      </lg>
+      <pos>DEM-ADN</pos>
       <e>
          <mg>
             <m>
-               <head><i>указ.</i></head>
+               <head/>
             </m>
-            <tg lang="ru"><t>вот такой, этакий</t></tg>
+            <tg lang="rus">
+               <t>вот такой, этакий</t>
+            </tg>
             <xg>
                <x>этатшӧм мича серпас</x>
-               <xtg lang="ru"><xt>такое красивое изображение</xt></xtg>
+               <xt lang="rus">такое красивое изображение</xt>
             </xg>
             <xg>
                <x>этатшӧм паськӧма</x>
-               <xtg lang="ru"><xt>в этакой одежде</xt></xtg>
+               <xt lang="rus">в этакой одежде</xt>
             </xg>
             <xg>
                <x>этатшӧм ыджыд сьӧлӧма йӧз</x>
-               <xtg lang="ru"><xt>вот такие сердечные люди</xt></xtg>
+               <xt lang="rus">вот такие сердечные люди</xt>
             </xg>
             <xg>
                <x>этатшӧм нывлӧн ставыс бур лоӧ</x>
-               <xtg lang="ru"><xt>у такой девушки всё будет хорошо</xt></xtg>
+               <xt lang="rus">у такой девушки всё будет хорошо</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>этатшӧма</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM-ADV</pos>
+      <lg>
+         <l>этатшӧма</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG">этатшӧма</st>
+         </stg>
+      </lg>
+      <pos>DEM-ADV</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>так, этак</t></tg>
+            <tg lang="rus">
+               <t>так, этак</t>
+            </tg>
             <xg>
                <x>этатшӧма видзӧдліс</x>
-               <xtg lang="ru"><xt>так посмотрел</xt></xtg>
+               <xt lang="rus">так посмотрел</xt>
             </xg>
             <xg>
                <x>этатшӧма ошкӧ нинӧм абусьыс</x>
-               <xtg lang="ru"><xt>этак хвалит за пустяк</xt></xtg>
+               <xt lang="rus">этак хвалит за пустяк</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>этатшӧмтор</lemma>
-      <stem>этатшӧмторй</stem>
-      <contlex>Noun1</contlex>
-      <pos>PRON-DEM-N</pos>
+      <lg>
+         <l>этатшӧмтор</l>
+         <stg>
+            <st kpvContlex="Noun1">этатшӧмторй</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>такое, этакое</t></tg>
+            <tg lang="rus">
+               <t>такое, этакое</t>
+            </tg>
             <xg>
                <x>этатшӧмтор лысьтін вӧчны!</x>
-               <xtg lang="ru"><xt>такое осмелился сделать!</xt></xtg>
+               <xt lang="rus">такое осмелился сделать!</xt>
             </xg>
             <xg>
                <x>этатшӧмтор эз жӧ ков шуны</x>
-               <xtg lang="ru"><xt>не надо же было говорить такое</xt></xtg>
+               <xt lang="rus">не надо же было говорить такое</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>этатысь</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG-ELA</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>этатысь</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG-ELA">этатысь</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel MNo="1" lemmaID="этась" semRelType="see"/>
+               <semRel No="1" lemmaID="этась" semRelType="see"/>
             </m>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>этатысянь</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG-EGR</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>этатысянь</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG-EGR">этатысянь</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel MNo="1" lemmaID="этасянь" semRelType="see"/>
+               <semRel No="1" lemmaID="этасянь" semRelType="see"/>
             </m>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>этійӧ</lemma>
-      <stem/>
-      <contlex>PRONDEMTAG</contlex>
-      <pos>PRON-DEM</pos>
+      <lg>
+         <l>этійӧ</l>
+         <stg>
+            <st kpvContlex="PRONDEMTAG">этійӧ</st>
+         </stg>
+      </lg>
+      <pos>DEM-PRON</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
    </entry>
-</dict>
+</r>
