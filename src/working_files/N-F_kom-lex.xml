@@ -1,902 +1,1363 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dict xsi:noNamespaceSchemaLocation="../dict.xsd"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema"
-      xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
-      xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-<entry>
-      <lemma>вариант</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+<r xsi:noNamespaceSchemaLocation="../../../myv/script/dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+   <entry>
+      <lg>
+         <l>вариант</l>
+         <stg>
+            <st kpvContlex="Noun1-F">вариант</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
-               <head><field field="GRAM"/></head>
+               <head>
+                  <field fieldType="GRAM"/>
+               </head>
             </m>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>волейбол</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>волейбол</l>
+         <stg>
+            <st kpvContlex="Noun1-F">волейбол</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>волейбол</t></tg>
-            <tg lang="ru"><t pos="A">волейбольный</t></tg>
+            <tg lang="rus">
+               <t>волейбол</t>
+            </tg>
+            <tg lang="rus">
+               <t pos="A">волейбольный</t>
+            </tg>
             <xg>
                <x>волейбол мач</x>
-               <xtg lang="ru"><xt>волейбольный мяч</xt></xtg>
+               <xt lang="rus">волейбольный мяч</xt>
             </xg>
             <xg>
                <x>волейболӧн ворсысь</x>
-               <xtg lang="ru"><xt>волейболист</xt></xtg>
+               <xt lang="rus">волейболист</xt>
             </xg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>волисполком</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
-      <pos>N</pos>
-   </entry><entry>
-      <lemma>волнение</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
-      <pos>N</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="ru"><t>волнение</t></tg>
-         </mg>
-      </e>
-   </entry><entry>
-      <lemma>защитник</lemma>
-      <stem/>
-      <contlex>Noun1</contlex>
-      <pos>N</pos>
-      <e>
-         <mg>
-            <m>
-               <head><field field="SPORT"/></head>
-            </m>
-         </mg>
-      </e>
-   </entry><entry>
-      <lemma>классификация</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
-      <pos>N</pos>
-   </entry><entry>
-      <lemma>лесозавод</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
-      <pos>N</pos>
-   </entry><entry>
-      <lemma>омонимия</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
-      <pos>N</pos>
-   </entry><entry>
-      <lemma>партячейка</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
-      <pos>N</pos>
-   </entry><entry>
-      <lemma>патриот</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
-      <pos>N</pos>
-   </entry><entry>
-      <lemma>периферия</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
-      <pos>N</pos>
-   </entry><entry>
-      <lemma>почта</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>волисполком</l>
+         <stg>
+            <st kpvContlex="Noun1-F">волисполком</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>почта</t></tg>
-            <tg lang="ru"><t>почтовый</t></tg>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>волнение</l>
+         <stg>
+            <st kpvContlex="Noun1-F">волнение</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <t>волнение</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>защитник</l>
+         <stg>
+            <st kpvContlex="Noun1">защитник</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head>
+                  <field fieldType="SPORT"/>
+               </head>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>классификация</l>
+         <stg>
+            <st kpvContlex="Noun1-F">классификация</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>лесозавод</l>
+         <stg>
+            <st kpvContlex="Noun1-F">лесозавод</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>омонимия</l>
+         <stg>
+            <st kpvContlex="Noun1-F">омонимия</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>партячейка</l>
+         <stg>
+            <st kpvContlex="Noun1-F">партячейка</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>патриот</l>
+         <stg>
+            <st kpvContlex="Noun1-F">патриот</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>периферия</l>
+         <stg>
+            <st kpvContlex="Noun1-F">периферия</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>почта</l>
+         <stg>
+            <st kpvContlex="Noun1-F">почта</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <t>почта</t>
+            </tg>
+            <tg lang="rus">
+               <t>почтовый</t>
+            </tg>
             <xg>
                <x>почта куд</x>
-               <xtg lang="ru"><xt>почтовый ящик</xt></xtg>
+               <xt lang="rus">почтовый ящик</xt>
             </xg>
             <xg>
                <x>почта марка</x>
-               <xtg lang="ru"><xt>почтовая марка</xt></xtg>
+               <xt lang="rus">почтовая марка</xt>
             </xg>
             <xg>
                <x>почта новлӧдлысь</x>
-               <xtg lang="ru"><xt>почтальон</xt></xtg>
+               <xt lang="rus">почтальон</xt>
             </xg>
             <xg>
                <x>почта ям</x>
-               <xtg lang="ru"><xt><range>уст.</range>почтовая станция</xt></xtg>
+               <range rangeTemp="historical"/>
+               <xt lang="rus">почтовая станция</xt>
             </xg>
             <xg>
                <x>почта воис</x>
-               <xtg lang="ru"><xt>почта пришла</xt></xtg>
+               <xt lang="rus">почта пришла</xt>
             </xg>
             <xg>
                <x>сарапана почта</x>
-               <xtg lang="ru"><xt>сплетница</xt></xtg>
+               <xt lang="rus">сплетница</xt>
             </xg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>предание</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>предание</l>
+         <stg>
+            <st kpvContlex="Noun1-F">предание</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>предание</t></tg>
+            <tg lang="rus">
+               <t>предание</t>
+            </tg>
             <xg>
                <x>важ преданиеяс</x>
-               <xtg lang="ru"><xt>древние предания</xt></xtg>
+               <xt lang="rus">древние предания</xt>
             </xg>
             <xg>
                <x>миф сяма предание</x>
-               <xtg lang="ru"><xt>мифическое предание</xt></xtg>
+               <xt lang="rus">мифическое предание</xt>
             </xg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>предатель</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>предатель</l>
+         <stg>
+            <st kpvContlex="Noun1-F">предатель</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>предатель</t></tg>
+            <tg lang="rus">
+               <t>предатель</t>
+            </tg>
             <xg>
                <x>предательӧс мустӧмтны</x>
-               <xtg lang="ru"><xt>ненавидеть предателя</xt></xtg>
+               <xt lang="rus">ненавидеть предателя</xt>
             </xg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>предложение</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>предложение</l>
+         <stg>
+            <st kpvContlex="Noun1-F">предложение</st>
+         </stg>
+      </lg>
       <pos>N</pos>
-      <e RN="I">
+      <e RNo="I">
          <mg>
             <m>
-               <head><field>грам.</field></head>
-               <semRel MNo="1" semRelType="seeAlso" stemID="&#x441;&#x451;&#x440;&#x43D;&#x438;&#x43A;&#x443;&#x437;&#x44F;_Noun1_N"/>
+               <head>
+                  <field>грам.</field>
+               </head>
+               <semRel No="1" semRelType="seeAlso" stemID="сёрникузя_Noun1_N"/>
             </m>
-            <tg lang="ru"><t>предложение</t></tg>
+            <tg lang="rus">
+               <t>предложение</t>
+            </tg>
             <xg>
                <x>вводнӧй предложение</x>
-               <xtg lang="ru"><xt>вводное предложение</xt></xtg>
+               <xt lang="rus">вводное предложение</xt>
             </xg>
             <xg>
                <x>шӧр предложение</x>
-               <xtg lang="ru"><xt>главное предложение</xt></xtg>
+               <xt lang="rus">главное предложение</xt>
             </xg>
             <xg>
                <x>эскӧдана предложение</x>
-               <xtg lang="ru"><xt>утвердительное предложение</xt></xtg>
+               <xt lang="rus">утвердительное предложение</xt>
             </xg>
             <xg>
                <x>предложение тэчас</x>
-               <xtg lang="ru"><xt>построение предложения</xt></xtg>
+               <xt lang="rus">построение предложения</xt>
             </xg>
             <xg>
                <x>лӧсьӧдны предложение</x>
-               <xtg lang="ru"><xt>составить предложение</xt></xtg>
+               <xt lang="rus">составить предложение</xt>
             </xg>
          </mg>
       </e>
-      <e RN="II">
+      <e RNo="II">
          <mg>
             <m>
                <head/>
-               <semRel MNo="1" semRelType="seeAlso" stemID="&#x432;&#x4E7;&#x437;&#x439;&#x4E7;&#x43C;&#x442;&#x43E;&#x440;&#x439;_Noun1_N"/>
-               <semRel MNo="1" semRelType="seeAlso" stemID="&#x432;&#x4E7;&#x437;&#x439;&#x4E7;&#x43C;_Noun1_N"/>
+               <semRel No="1" semRelType="seeAlso" stemID="вӧзйӧмторй_Noun1_N"/>
+               <semRel No="1" semRelType="seeAlso" stemID="вӧзйӧм_Noun1_N"/>
             </m>
-            <tg lang="ru"><t>предложение</t></tg>
+            <tg lang="rus">
+               <t>предложение</t>
+            </tg>
             <xg>
                <x>подула предложение</x>
-               <xtg lang="ru"><xt>конструктивное предложение</xt></xtg>
+               <xt lang="rus">конструктивное предложение</xt>
             </xg>
             <xg>
                <x>рационализаторскӧй предложение</x>
-               <xtg lang="ru"><xt>рационализаторское предложение</xt></xtg>
+               <xt lang="rus">рационализаторское предложение</xt>
             </xg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>предмет</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>предмет</l>
+         <stg>
+            <st kpvContlex="Noun1-F">предмет</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
-               <head><com>в разн. знач.</com></head>
+               <head>
+                  <re>в разн. знач.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>предмет</t></tg>
+            <tg lang="rus">
+               <t>предмет</t>
+            </tg>
             <xg>
                <x>ловъя предметъяс</x>
                <field>грам.</field>
-               <xtg lang="ru"><xt>одушевлённые предметы</xt></xtg>
+               <xt lang="rus">одушевлённые предметы</xt>
             </xg>
             <xg>
                <x>медколан предмет</x>
-               <xtg lang="ru"><xt>предмет первой необходимости</xt></xtg>
+               <xt lang="rus">предмет первой необходимости</xt>
             </xg>
             <xg>
                <x>сдайтны экзамен став предметысь</x>
-               <xtg lang="ru"><xt>сдать экзамены по всем предметам</xt></xtg>
+               <xt lang="rus">сдать экзамены по всем предметам</xt>
             </xg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>предприниматель</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>предприниматель</l>
+         <stg>
+            <st kpvContlex="Noun1-F">предприниматель</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel lemmaID="&#x430;&#x441;&#x448;&#x4E7;&#x440; &#x443;&#x434;&#x436;&#x430;&#x43B;&#x44B;&#x441;&#x44C;_XX" semRelType="seeAlso"/>
+               <semRel lemmaID="асшӧр уджалысь_XX" semRelType="seeAlso"/>
             </m>
-            <tg lang="ru"><t>предприниматель</t></tg>
+            <tg lang="rus">
+               <t>предприниматель</t>
+            </tg>
             <xg>
                <x>писькӧс предприниматель</x>
-               <xtg lang="ru"><xt>оборотливый предприниматель</xt></xtg>
+               <xt lang="rus">оборотливый предприниматель</xt>
             </xg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>предприятие</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>предприятие</l>
+         <stg>
+            <st kpvContlex="Noun1-F">предприятие</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>предприятие</t></tg>
+            <tg lang="rus">
+               <t>предприятие</t>
+            </tg>
             <xg>
                <x>видз-му овмӧс предприятие</x>
-               <xtg lang="ru"><xt>сельскохозяйственное предприятие</xt></xtg>
+               <xt lang="rus">сельскохозяйственное предприятие</xt>
             </xg>
             <xg>
                <x>вӧр лэдзан предприятие</x>
-               <xtg lang="ru"><xt>лесозаготовительное предприятие</xt></xtg>
+               <xt lang="rus">лесозаготовительное предприятие</xt>
             </xg>
             <xg>
                <x>зэв ичӧт предприятие</x>
-               <xtg lang="ru"><xt>карликовое предприятие</xt></xtg>
+               <xt lang="rus">карликовое предприятие</xt>
             </xg>
             <xg>
                <x>прибыль вайтӧм предприятие</x>
-               <xtg lang="ru"><xt>нерентабельное предприятие</xt></xtg>
+               <xt lang="rus">нерентабельное предприятие</xt>
             </xg>
             <xg>
                <x>предприятиелӧн вынйӧр</x>
-               <xtg lang="ru"><xt>мощность предприятия</xt></xtg>
+               <xt lang="rus">мощность предприятия</xt>
             </xg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>председатель</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>председатель</l>
+         <stg>
+            <st kpvContlex="Noun1-F">председатель</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel semRelType="seeAlso" stemID="&#x44E;&#x440;&#x43D;&#x443;&#x4E7;&#x434;&#x44B;&#x441;&#x44C;_Noun1"/>
-               <semRel MNo="1" semRelType="seeAlso" stemID="&#x432;&#x435;&#x441;&#x44C;&#x43A;&#x4E7;&#x434;&#x43B;&#x44B;&#x441;&#x44C;_Noun1"/>
+               <semRel semRelType="seeAlso" stemID="юрнуӧдысь_Noun1"/>
+               <semRel No="1" semRelType="seeAlso" stemID="веськӧдлысь_Noun1"/>
             </m>
-            <tg lang="ru"><t>председатель</t></tg>
-            <tg lang="ru"><t>председательский</t></tg>
+            <tg lang="rus">
+               <t>председатель</t>
+            </tg>
+            <tg lang="rus">
+               <t>председательский</t>
+            </tg>
             <xg>
                <x>сиктсӧветса председатель</x>
-               <xtg lang="ru"><xt>председатель сельского совета</xt></xtg>
+               <xt lang="rus">председатель сельского совета</xt>
             </xg>
             <xg>
                <x>председатель кабинет</x>
-               <xtg lang="ru"><xt>председательский кабинет</xt></xtg>
+               <xt lang="rus">председательский кабинет</xt>
             </xg>
             <xg>
                <x>председательӧс бӧрйӧм</x>
-               <xtg lang="ru"><xt>выборы председателя</xt></xtg>
+               <xt lang="rus">выборы председателя</xt>
             </xg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>президент</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>президент</l>
+         <stg>
+            <st kpvContlex="Noun1-F">президент</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>президент</t></tg>
+            <tg lang="rus">
+               <t>президент</t>
+            </tg>
             <xg>
                <x>республикаса президент</x>
-               <xtg lang="ru"><xt>президент республики</xt></xtg>
+               <xt lang="rus">президент республики</xt>
             </xg>
             <xg>
                <x>президентӧс бӧрйыны</x>
-               <xtg lang="ru"><xt>избрать президента</xt></xtg>
+               <xt lang="rus">избрать президента</xt>
             </xg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>премия</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>премия</l>
+         <stg>
+            <st kpvContlex="Noun1-F">премия</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>премия</t></tg>
-            <tg><t>премиальный</t></tg>
+            <tg lang="rus">
+               <t>премия</t>
+            </tg>
+            <tg>
+               <t>премиальный</t>
+            </tg>
             <xg>
                <x>премия сьӧм</x>
-               <xtg lang="ru"><xt>премиальные деньги</xt></xtg>
+               <xt lang="rus">премиальные деньги</xt>
             </xg>
             <xg>
                <x>премия фонд</x>
-               <xtg lang="ru"><xt>премиальный фонд</xt></xtg>
+               <xt lang="rus">премиальный фонд</xt>
             </xg>
             <xg>
                <x>премия сетны</x>
-               <xtg lang="ru"><xt>выдать премию</xt></xtg>
+               <xt lang="rus">выдать премию</xt>
             </xg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>препинание</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>препинание</l>
+         <stg>
+            <st kpvContlex="Noun1-F">препинание</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
-               <head><field>грам.</field></head>
+               <head>
+                  <field>грам.</field>
+               </head>
             </m>
-            <tg lang="ru"><t>препинание</t></tg>
+            <tg lang="rus">
+               <t>препинание</t>
+            </tg>
             <xg>
                <x>препинание пасъяс</x>
-               <xtg lang="ru"><xt>знаки препинания</xt></xtg>
+               <xt lang="rus">знаки препинания</xt>
             </xg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>преподаватель</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>преподаватель</l>
+         <stg>
+            <st kpvContlex="Noun1-F">преподаватель</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel MNo="1" lemmaID="&#x432;&#x435;&#x43B;&#x4E7;&#x434;&#x44B;&#x441;&#x44C;_XX" semRelType="seeAlso"/>
+               <semRel No="1" lemmaID="велӧдысь_XX" semRelType="seeAlso"/>
             </m>
-            <tg lang="ru"><t>преподаватель, преподавательница</t></tg>
+            <tg lang="rus">
+               <t>преподаватель, преподавательница</t>
+            </tg>
             <xg>
                <x>коми кывйысь преподаватель</x>
-               <xtg lang="ru"><xt>преподаватель коми языка</xt></xtg>
+               <xt lang="rus">преподаватель коми языка</xt>
             </xg>
             <xg>
                <x>сетны преподавательяслы тырмымӧн удж</x>
-               <xtg lang="ru"><xt>загружать преподавателей</xt></xtg>
+               <xt lang="rus">загружать преподавателей</xt>
             </xg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>преступник</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>преступник</l>
+         <stg>
+            <st kpvContlex="Noun1-F">преступник</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel semRelType="seeAlso" stemID="&#x43C;&#x44B;&#x436; &#x432;&#x4E7;&#x447;&#x44B;&#x441;&#x44C;_Noun1"/>
+               <semRel semRelType="seeAlso" stemID="мыж вӧчысь_Noun1"/>
             </m>
-            <tg lang="ru"><t>преступник</t></tg>
+            <tg lang="rus">
+               <t>преступник</t>
+            </tg>
             <xg>
                <x>вельмӧм преступник</x>
-               <xtg lang="ru"><xt>закоренелый преступник</xt></xtg>
+               <xt lang="rus">закоренелый преступник</xt>
             </xg>
             <xg>
                <x>преступникӧс кутны</x>
-               <xtg lang="ru"><xt>задержать преступника</xt></xtg>
+               <xt lang="rus">задержать преступника</xt>
             </xg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>прибыль</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>прибыль</l>
+         <stg>
+            <st kpvContlex="Noun1-F">прибыль</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel MNo="1" lemmaID="&#x447;&#x443;&#x43A;&#x442;&#x4E7;&#x441;_XX" semRelType="seeAlso"/>
+               <semRel No="1" lemmaID="чуктӧс_XX" semRelType="seeAlso"/>
             </m>
-            <tg lang="ru"><t>прибыль</t></tg>
+            <tg lang="rus">
+               <t>прибыль</t>
+            </tg>
             <xg>
                <x>ыджыд прибыль</x>
-               <xtg lang="ru"><xt>большая прибыль</xt></xtg>
+               <xt lang="rus">большая прибыль</xt>
             </xg>
             <xg>
                <x>прибыль вайны</x>
-               <xtg lang="ru"><xt>давать, приносить прибыль</xt></xtg>
+               <xt lang="rus">давать, приносить прибыль</xt>
             </xg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>приватизация</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>приватизация</l>
+         <stg>
+            <st kpvContlex="Noun1-F">приватизация</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel lemmaID="&#x430;&#x441;&#x44D;&#x43C;&#x431;&#x443;&#x440;&#x430;&#x43B;&#x4E7;&#x43C;_XX" semRelType="seeAlso"/>
+               <semRel lemmaID="асэмбуралӧм_XX" semRelType="seeAlso"/>
             </m>
-            <tg lang="ru"><t>приватизация</t></tg>
+            <tg lang="rus">
+               <t>приватизация</t>
+            </tg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>привет</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>привет</l>
+         <stg>
+            <st kpvContlex="Noun1-F">привет</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>привет</t></tg>
+            <tg lang="rus">
+               <t>привет</t>
+            </tg>
             <xg>
                <x>ыстыны привет</x>
-               <xtg lang="ru"><xt>передать привет</xt></xtg>
+               <xt lang="rus">передать привет</xt>
             </xg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>привилегия</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>привилегия</l>
+         <stg>
+            <st kpvContlex="Noun1-F">привилегия</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel lemmaID="&#x442;&#x43E;&#x440;&#x44A;&#x44F; &#x43F;&#x440;&#x430;&#x432;&#x43E;_XX" semRelType="seeAlso"/>
+               <semRel lemmaID="торъя право_XX" semRelType="seeAlso"/>
             </m>
-            <tg lang="ru"><t>привилегия</t></tg>
+            <tg lang="rus">
+               <t>привилегия</t>
+            </tg>
             <xg>
                <x>привилегия сетны</x>
-               <xtg lang="ru"><xt>предоставить привилегию</xt></xtg>
+               <xt lang="rus">предоставить привилегию</xt>
             </xg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>приговор</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>приговор</l>
+         <stg>
+            <st kpvContlex="Noun1-F">приговор</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>приговор</t></tg>
+            <tg lang="rus">
+               <t>приговор</t>
+            </tg>
             <xg>
                <x>мыждан приговор</x>
-               <xtg lang="ru"><xt>обвинительный приговор</xt></xtg>
+               <xt lang="rus">обвинительный приговор</xt>
             </xg>
             <xg>
                <x>чорыд приговор</x>
-               <xtg lang="ru"><xt>суровый приговор</xt></xtg>
+               <xt lang="rus">суровый приговор</xt>
             </xg>
             <xg>
                <x>приговор лыддьӧм</x>
-               <xtg lang="ru"><xt>произнесение приговора</xt></xtg>
+               <xt lang="rus">произнесение приговора</xt>
             </xg>
             <xg>
                <x>ёрд приговор серти</x>
-               <xtg lang="ru"><xt>по приговору суда</xt></xtg>
+               <xt lang="rus">по приговору суда</xt>
             </xg>
             <xg>
                <x>выльысь видлавны приговор</x>
-               <xtg lang="ru"><xt>пересмотреть приговор</xt></xtg>
+               <xt lang="rus">пересмотреть приговор</xt>
             </xg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>приз</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>приз</l>
+         <stg>
+            <st kpvContlex="Noun1-F">приз</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>приз</t></tg>
+            <tg lang="rus">
+               <t>приз</t>
+            </tg>
             <xg>
                <x>босьтны первой приз</x>
-               <xtg lang="ru"><xt>взять первый приз</xt></xtg>
+               <xt lang="rus">взять первый приз</xt>
             </xg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>признак</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>признак</l>
+         <stg>
+            <st kpvContlex="Noun1-F">признак</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel MNo="1" lemmaID="&#x442;&#x4E7;&#x434;&#x43C;&#x4E7;&#x441;_XX" semRelType="seeAlso"/>
+               <semRel No="1" lemmaID="тӧдмӧс_XX" semRelType="seeAlso"/>
             </m>
-            <tg lang="ru"><t>признак</t></tg>
+            <tg lang="rus">
+               <t>признак</t>
+            </tg>
             <xg>
                <x>биа висьӧмлӧн признакъяс</x>
-               <xtg lang="ru"><xt>признаки тифа</xt></xtg>
+               <xt lang="rus">признаки тифа</xt>
             </xg>
             <xg>
                <x>торъялан признак</x>
-               <xtg lang="ru"><xt>различительный признак</xt></xtg>
+               <xt lang="rus">различительный признак</xt>
             </xg>
             <xg>
                <x>тыдалан признак</x>
-               <xtg lang="ru"><xt>заметный признак</xt></xtg>
+               <xt lang="rus">заметный признак</xt>
             </xg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>призыв</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>призыв</l>
+         <stg>
+            <st kpvContlex="Noun1-F">призыв</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>призыв</t></tg>
+            <tg lang="rus">
+               <t>призыв</t>
+            </tg>
             <xg>
                <x>военнӧй служба вылӧ призыв</x>
-               <xtg lang="ru"><xt>призыв на военную службу</xt></xtg>
+               <xt lang="rus">призыв на военную службу</xt>
             </xg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>приказ</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>приказ</l>
+         <stg>
+            <st kpvContlex="Noun1-F">приказ</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>приказ</t></tg>
+            <tg lang="rus">
+               <t>приказ</t>
+            </tg>
             <xg>
                <x>приказ серти</x>
-               <xtg lang="ru"><xt>соответственно приказу</xt></xtg>
+               <xt lang="rus">соответственно приказу</xt>
             </xg>
             <xg>
                <x>приказӧн лыддьысьтӧг</x>
-               <xtg lang="ru"><xt>вопреки приказу</xt></xtg>
+               <xt lang="rus">вопреки приказу</xt>
             </xg>
             <xg>
                <x>приказ гижны</x>
-               <xtg lang="ru"><xt>написать приказ</xt></xtg>
+               <xt lang="rus">написать приказ</xt>
             </xg>
             <xg>
                <x>приказ олӧмӧ пӧртны</x>
-               <xtg lang="ru"><xt>исполнить приказ</xt></xtg>
+               <xt lang="rus">исполнить приказ</xt>
             </xg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>приложение</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>приложение</l>
+         <stg>
+            <st kpvContlex="Noun1-F">приложение</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
-               <head><field>грам.</field></head>
+               <head>
+                  <field>грам.</field>
+               </head>
             </m>
-            <tg lang="ru"><t>приложение</t></tg>
+            <tg lang="rus">
+               <t>приложение</t>
+            </tg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>пример</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>пример</l>
+         <stg>
+            <st kpvContlex="Noun1-F">пример</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>пример</t></tg>
-            <tg lang="ru"><t>образец</t></tg>
+            <tg lang="rus">
+               <t>пример</t>
+            </tg>
+            <tg lang="rus">
+               <t>образец</t>
+            </tg>
             <xg>
                <x>синводзса пример</x>
-               <xtg lang="ru"><xt>наглядный пример</xt></xtg>
+               <xt lang="rus">наглядный пример</xt>
             </xg>
             <xg>
                <x>синмӧ шыбитчан пример</x>
-               <xtg lang="ru"><xt>красочный пример</xt></xtg>
+               <xt lang="rus">красочный пример</xt>
             </xg>
             <xg>
                <x>пример петкӧдлыны</x>
-               <xtg lang="ru"><xt>подать пример, задать тон</xt></xtg>
+               <xt lang="rus">подать пример, задать тон</xt>
             </xg>
             <xg>
                <x>пример пыдди босьтны</x>
-               <xtg lang="ru"><xt>взять за образец</xt></xtg>
+               <xt lang="rus">взять за образец</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
-               <head><field>мат.</field></head>
+               <head>
+                  <field>мат.</field>
+               </head>
             </m>
-            <tg lang="ru"><t>пример</t></tg>
+            <tg lang="rus">
+               <t>пример</t>
+            </tg>
             <xg>
                <x>пример решитны</x>
-               <xtg lang="ru"><xt>решить пример</xt></xtg>
+               <xt lang="rus">решить пример</xt>
             </xg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>примета</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>примета</l>
+         <stg>
+            <st kpvContlex="Noun1-F">примета</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>примета</t></tg>
-            <tg lang="ru"><t>признак</t></tg>
+            <tg lang="rus">
+               <t>примета</t>
+            </tg>
+            <tg lang="rus">
+               <t>признак</t>
+            </tg>
             <xg>
                <x>йӧзкостса приметаяс</x>
-               <xtg lang="ru"><xt>народные приметы</xt></xtg>
+               <xt lang="rus">народные приметы</xt>
             </xg>
             <xg>
                <x>ортсыса приметаяс</x>
-               <xtg lang="ru"><xt>внешние признаки</xt></xtg>
+               <xt lang="rus">внешние признаки</xt>
             </xg>
             <xg>
                <x>приметаясӧ веритны</x>
-               <xtg lang="ru"><xt>верить приметам</xt></xtg>
+               <xt lang="rus">верить приметам</xt>
             </xg>
             <xg>
                <x>тӧдмавны приметаяс серти</x>
-               <xtg lang="ru"><xt>узнать по приметам</xt></xtg>
+               <xt lang="rus">узнать по приметам</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>предзнаменование</t></tg>
+            <tg lang="rus">
+               <t>предзнаменование</t>
+            </tg>
             <xg>
                <x>бур примета</x>
-               <xtg lang="ru"><xt>доброе предзнаменование</xt></xtg>
+               <xt lang="rus">доброе предзнаменование</xt>
             </xg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>примыкание</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>примыкание</l>
+         <stg>
+            <st kpvContlex="Noun1-F">примыкание</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
-               <head><field>грам.</field></head>
+               <head>
+                  <field>грам.</field>
+               </head>
             </m>
-            <tg lang="ru"><t>примыкание</t></tg>
+            <tg lang="rus">
+               <t>примыкание</t>
+            </tg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>принцип</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>принцип</l>
+         <stg>
+            <st kpvContlex="Noun1-F">принцип</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>принцип</t></tg>
+            <tg lang="rus">
+               <t>принцип</t>
+            </tg>
             <xg>
                <x>физикалӧн принципъяс</x>
-               <xtg lang="ru"><xt>принципы физики</xt></xtg>
+               <xt lang="rus">принципы физики</xt>
             </xg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>природа</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>природа</l>
+         <stg>
+            <st kpvContlex="Noun1-F">природа</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel MNo="2" lemmaID="&#x44B;&#x432;&#x43B;&#x430;_XX" semRelType="seeAlso"/>
+               <semRel No="2" lemmaID="ывла_XX" semRelType="seeAlso"/>
             </m>
-            <tg lang="ru"><t>природа</t></tg>
+            <tg lang="rus">
+               <t>природа</t>
+            </tg>
             <xg>
                <x>войвывса природа</x>
-               <xtg lang="ru"><xt>северная природа</xt></xtg>
+               <xt lang="rus">северная природа</xt>
             </xg>
             <xg>
                <x>ловъя природа</x>
-               <xtg lang="ru"><xt>живая природа</xt></xtg>
+               <xt lang="rus">живая природа</xt>
             </xg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>приставка</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>приставка</l>
+         <stg>
+            <st kpvContlex="Noun1-F">приставка</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
-               <head><field>грам.</field></head>
+               <head>
+                  <field>грам.</field>
+               </head>
             </m>
-            <tg lang="ru"><t>приставка, префикс</t></tg>
+            <tg lang="rus">
+               <t>приставка, префикс</t>
+            </tg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>проблема</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
-      <pos>N</pos>
-   </entry><entry>
-      <lemma>секретарь</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
-      <pos>N</pos>
-   </entry><entry>
-      <lemma>спорт</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
-      <pos>N</pos>
-   </entry><entry>
-      <lemma>стиль</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
-      <pos>N</pos>
-   </entry><entry>
-      <lemma>структура</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
-      <pos>N</pos>
-   </entry><entry>
-      <lemma>тайм</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
-      <pos>N</pos>
-      <e>
-         <mg>
-            <m>
-               <head><field field="SPORT"/></head>
-            </m>
-         </mg>
-      </e>
-   </entry><entry>
-      <lemma>терминология</lemma>
-      <stem/>
-      <contlex>Noun1</contlex>
-      <pos>N</pos>
-   </entry><entry>
-      <lemma>типология</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
-      <pos>N</pos>
-      <e>
-         <mg>
-            <m>
-               <head><field field="GRAM"/></head>
-            </m>
-         </mg>
-      </e>
-   </entry><entry>
-      <lemma>транспозиция</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
-      <pos>N</pos>
-      <e>
-         <mg>
-            <m>
-               <head><field field="GRAM"/></head>
-            </m>
-         </mg>
-      </e>
-   </entry><entry>
-      <lemma>тренер</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
-      <pos>N</pos>
-      <e>
-         <mg>
-            <m>
-               <head><field field="SPORT"/></head>
-            </m>
-         </mg>
-      </e>
-   </entry><entry>
-      <lemma>учительница</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>проблема</l>
+         <stg>
+            <st kpvContlex="Noun1-F">проблема</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel lemmaID="&#x432;&#x435;&#x43B;&#x4E7;&#x434;&#x44B;&#x441;&#x44C;_N" semRelType="seeNative"/>
             </m>
-            <tg/>
+            <tg>
+               <t/>
+            </tg>
          </mg>
       </e>
-   </entry><entry>
-      <lemma>художество</lemma>
-      <stem/>
-      <contlex>Noun1</contlex>
-      <pos>N</pos>
-   </entry><entry>
-      <lemma>чемпионат</lemma>
-      <stem/>
-      <contlex>Noun1-F</contlex>
+   </entry>
+   <entry>
+      <lg>
+         <l>секретарь</l>
+         <stg>
+            <st kpvContlex="Noun1-F">секретарь</st>
+         </stg>
+      </lg>
       <pos>N</pos>
       <e>
          <mg>
             <m>
-               <head><field field="SPORT"/></head>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>спорт</l>
+         <stg>
+            <st kpvContlex="Noun1-F">спорт</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>стиль</l>
+         <stg>
+            <st kpvContlex="Noun1-F">стиль</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>структура</l>
+         <stg>
+            <st kpvContlex="Noun1-F">структура</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>тайм</l>
+         <stg>
+            <st kpvContlex="Noun1-F">тайм</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head>
+                  <field fieldType="SPORT"/>
+               </head>
             </m>
          </mg>
       </e>
-   </entry></dict>
+   </entry>
+   <entry>
+      <lg>
+         <l>терминология</l>
+         <stg>
+            <st kpvContlex="Noun1">терминология</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>типология</l>
+         <stg>
+            <st kpvContlex="Noun1-F">типология</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head>
+                  <field fieldType="GRAM"/>
+               </head>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>транспозиция</l>
+         <stg>
+            <st kpvContlex="Noun1-F">транспозиция</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head>
+                  <field fieldType="GRAM"/>
+               </head>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>тренер</l>
+         <stg>
+            <st kpvContlex="Noun1-F">тренер</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head>
+                  <field fieldType="SPORT"/>
+               </head>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>учительница</l>
+         <stg>
+            <st kpvContlex="Noun1-F">учительница</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <semRel lemmaID="велӧдысь_N" semRelType="seeNative"/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>художество</l>
+         <stg>
+            <st kpvContlex="Noun1">художество</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>чемпионат</l>
+         <stg>
+            <st kpvContlex="Noun1-F">чемпионат</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head>
+                  <field fieldType="SPORT"/>
+               </head>
+            </m>
+         </mg>
+      </e>
+   </entry>
+</r>
