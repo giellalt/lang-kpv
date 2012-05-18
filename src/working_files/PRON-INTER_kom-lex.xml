@@ -1,1342 +1,1741 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dict xsi:noNamespaceSchemaLocation="../dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty">
+<r xsi:noNamespaceSchemaLocation="../../../myv/script/dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty">
    <entry exclude="fst">
-      <lemma>кин</lemma>
-      <stem/>
-      <contlex/>
-      <pos>PRON-INTERR</pos>
+      <lg>
+         <l>кин</l>
+         <stg>
+            <st kpvContlex="">кин</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
       <e>
          <mg>
             <m>
-               <head><range>диал.</range></head>
-               <semRel RN="I" lemmaID="код" semRelType="see"/>
+               <head>
+                  <range rangeSpat="dialect"/>
+               </head>
+               <semRel RNo="I" lemmaID="код" semRelType="see"/>
                <semRel lemmaID="коді" semRelType="see"/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кодар</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTERR</pos>
-   </entry>
-   <entry exclude="fst">
-      <lemma>кодныд</lemma>
-      <stem/>
-      <contlex/>
-      <pos>PRON-INTERR</pos>
+      <lg>
+         <l>кодар</l>
+         <stg>
+            <st kpvContlex="PRONQTAG">кодар</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>который из вас (двоих)</t></tg>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lg>
+         <l>кодныд</l>
+         <stg>
+            <st kpvContlex="">кодныд</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <t>который из вас (двоих)</t>
+            </tg>
             <xg>
                <x>кодныд кольчанныд горт овны?</x>
-               <xtg lang="ru"><xt>кто из вас (двоих) останется домовничать?</xt></xtg>
+               <xt lang="rus">кто из вас (двоих) останется домовничать?</xt>
             </xg>
             <xg>
                <x>кодныд ті ыджыдджык?</x>
-               <xtg lang="ru"><xt>который из вас старше?</xt></xtg>
+               <xt lang="rus">который из вас старше?</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кодным</lemma>
-      <stem/>
-      <contlex/>
-      <pos>PRON-INTERR</pos>
+      <lg>
+         <l>кодным</l>
+         <stg>
+            <st kpvContlex="">кодным</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>который из нас (двоих)</t></tg>
+            <tg lang="rus">
+               <t>который из нас (двоих)</t>
+            </tg>
             <xg>
                <x>коднымлы талун джодж мыськыны?</x>
-               <xtg lang="ru"><xt>кому из нас сегодня мыть пол?</xt></xtg>
+               <xt lang="rus">кому из нас сегодня мыть пол?</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кодныс</lemma>
-      <stem/>
-      <contlex/>
-      <pos>PRON-INTERR</pos>
+      <lg>
+         <l>кодныс</l>
+         <stg>
+            <st kpvContlex="">кодныс</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>который из их (двоих)</t></tg>
+            <tg lang="rus">
+               <t>который из их (двоих)</t>
+            </tg>
             <xg>
                <x>кодныс водзджык удитасны?</x>
-               <xtg lang="ru"><xt>кто из них раньше успеет?</xt></xtg>
+               <xt lang="rus">кто из них раньше успеет?</xt>
             </xg>
             <xg>
                <x>кодныс котӧртласны корны батьсӧ?</x>
-               <xtg lang="ru"><xt>кто из них сбегает за отцом?</xt></xtg>
+               <xt lang="rus">кто из них сбегает за отцом?</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кодъяс</lemma>
-      <stem/>
-      <contlex>PRONQTAGPL</contlex>
-      <pos>PRON-INTERR</pos>
-   </entry>
-   <entry exclude="fst">
-      <lemma>кодыр</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTERR-TEMP</pos>
-      <e>
-         <mg MNo="1">
-            <m>
-               <head/>
-               <semRel RN="II" lemmaID="кор" semRelType="see"/>
-            </m>
-            <tg lang="ru"><t>когда</t></tg>
-         </mg>
-      </e>
-   </entry>
-   <entry exclude="fst">
-      <lemma>код</lemma>
-      <stem/>
-      <contlex>PRON-INTER</contlex>
-      <pos>ADN-INTERR</pos>
+      <lg>
+         <l>кодъяс</l>
+         <stg>
+            <st kpvContlex="PRONQTAGPL">кодъяс</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>какой, который </t><re>из двух или многих (определенных)</re></tg>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lg>
+         <l>кодыр</l>
+         <stg>
+            <st kpvContlex="PRONQTAG">кодыр</st>
+         </stg>
+      </lg>
+      <pos>Q_TEMP</pos>
+      <e>
+         <mg No="1">
+            <m>
+               <head/>
+               <semRel RNo="II" lemmaID="кор" semRelType="see"/>
+            </m>
+            <tg lang="rus">
+               <t>когда</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lg>
+         <l>код</l>
+         <stg>
+            <st kpvContlex="PRON-INTER">код</st>
+         </stg>
+      </lg>
+      <pos>Q_DET</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <tCtn>
+                  <t>какой, который</t>
+                  <re>из двух или многих (определенных)</re>
+               </tCtn>
+            </tg>
             <xg>
                <x>код киас?</x>
-               <xtg lang="ru"><xt>в какой руке?</xt></xtg>
+               <xt lang="rus">в какой руке?</xt>
             </xg>
             <xg genreType="saying">
                <x>код чунь курччан, сійӧ и доймӧ</x>
-               <xtg lang="ru"><xt>какой палец ни укуси, одинаково больно</xt></xtg>
+               <xt lang="rus">какой палец ни укуси, одинаково больно</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>коді</lemma>
-      <stem>код</stem>
-      <contlex>PRON-INTER-HUM</contlex>
-      <pos>PRON-INTERR</pos>
-   </entry>
-   <entry exclude="fst">
-      <lemma>кор</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTERR-TEMP</pos>
-      <e RN="II">
+      <lg>
+         <l>коді</l>
+         <stg>
+            <st kpvContlex="PRON-INTER-HUM">код</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
+      <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>когда</t></tg>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lg>
+         <l>кор</l>
+         <stg>
+            <st kpvContlex="PRONQTAG">кор</st>
+         </stg>
+      </lg>
+      <pos>Q_TEMP</pos>
+      <e RNo="II">
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <t>когда</t>
+            </tg>
             <xg>
                <x>кор ковмас</x>
-               <xtg lang="ru"><xt>по мере надобности</xt></xtg>
+               <xt lang="rus">по мере надобности</xt>
             </xg>
             <xg>
                <x>кӧть кор</x>
-               <xtg lang="ru"><xt>во всяком случае</xt></xtg>
+               <xt lang="rus">во всяком случае</xt>
             </xg>
             <xg>
                <x>кор оз ков</x>
-               <xtg lang="ru"><xt>когда не нужно, не вовремя</xt></xtg>
+               <xt lang="rus">когда не нужно, не вовремя</xt>
             </xg>
             <xg>
                <x>кор чеччин?</x>
-               <xtg lang="ru"><xt>когда встал?</xt></xtg>
+               <xt lang="rus">когда встал?</xt>
             </xg>
             <xg genreType="proverb">
                <x>кор верӧс йӧзын ветлӧ, гӧтыр исерга оз новлы</x>
-               <xtg lang="ru"><xt> когда муж в отъезде, жена в серьгах не ходит</xt></xtg>
+               <xt lang="rus">когда муж в отъезде, жена в серьгах не ходит</xt>
             </xg>
             <xg genreType="proverb">
                <x>кор лиыс усьӧ, сэки и лиась</x>
-               <xtg lang="ru"><xt> куй железо, пока горячо</xt></xtg>
-               <literal>
-                  <xtg lang="ru"><xt> когда камбий сходит, тогда снимай</xt></xtg>
-               </literal>
+               <xt lang="rus">куй железо, пока горячо</xt>
+               <xt lang="rus" tType="literal">когда камбий сходит, тогда снимай</xt>
             </xg>
-            <xg>
+            <xg genreType="sign">
                <x>кор лым усьӧ корйӧн, йӧзлы лоӧ сьӧкыд</x>
-               <xtg lang="ru"><xt><i>примета</i> если снег выпадет до листопада, будет тяжёлый год</xt></xtg>
+               <xt lang="rus">если снег выпадет до листопада, будет тяжёлый год</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>корджык</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTERR</pos>
-   </entry>
-   <entry exclude="fst">
-      <lemma>коръя</lemma>
-      <stem/>
-      <contlex/>
-      <pos>PRON-INTERR-TEMP</pos>
-      <e RN="II">
+      <lg>
+         <l>корджык</l>
+         <stg>
+            <st kpvContlex="PRONQTAG">корджык</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
+      <e>
          <mg>
             <m>
                <head/>
-               <semRel RN="II" lemmaID="кор" semRelType="see"/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lg>
+         <l>коръя</l>
+         <stg>
+            <st kpvContlex="">коръя</st>
+         </stg>
+      </lg>
+      <pos>Q_TEMP</pos>
+      <e RNo="II">
+         <mg>
+            <m>
+               <head/>
+               <semRel RNo="II" lemmaID="кор" semRelType="see"/>
+            </m>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>сьӧкыд висьтавны, коръя и воас</x>
-               <xtg lang="ru"><xt>трудно сказать, когда придёт</xt></xtg>
+               <xt lang="rus">трудно сказать, когда придёт</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>коръясӧ</lemma>
-      <stem/>
-      <contlex/>
-      <pos>PRON-INTERR</pos>
+      <lg>
+         <l>коръясӧ</l>
+         <stg>
+            <st kpvContlex="">коръясӧ</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>когда, в какие времена</t></tg>
+            <tg lang="rus">
+               <t>когда, в какие времена</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кудз</lemma>
-      <stem/>
-      <contlex/>
-      <pos>PRON-INTERR</pos>
-      <e RN="II">
+      <lg>
+         <l>кудз</l>
+         <stg>
+            <st kpvContlex="">кудз</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
+      <e RNo="II">
          <mg>
             <m>
-               <head><range>диал.</range></head>
+               <head>
+                  <range rangeSpat="dialect"/>
+               </head>
             </m>
-            <tg lang="ru"><t>как, каким образом</t></tg>
+            <tg lang="rus">
+               <t>как, каким образом</t>
+            </tg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кутшӧм</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTERR</pos>
+      <lg>
+         <l>кутшӧм</l>
+         <stg>
+            <st kpvContlex="PRONQTAG">кутшӧм</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>какой</t><t>каков </t></tg>
-            <tg lang="ru"><t pos="ADV">как</t><t pos="ADV">каково</t></tg>
+            <tg lang="rus">
+               <t>какой</t>
+               <t>каков</t>
+            </tg>
+            <tg lang="rus">
+               <t pos="ADV">как</t>
+               <t pos="ADV">каково</t>
+            </tg>
             <xg>
                <x>кодлы кутшӧм</x>
-               <xtg lang="ru"><xt>кому какой</xt></xtg>
+               <xt lang="rus">кому какой</xt>
             </xg>
             <xg>
                <x>кор кутшӧм</x>
-               <xtg lang="ru"><xt>когда какой</xt></xtg>
+               <xt lang="rus">когда какой</xt>
             </xg>
             <xg>
                <x>кутшӧм лун?</x>
-               <xtg lang="ru"><xt>какой день?</xt></xtg>
+               <xt lang="rus">какой день?</xt>
             </xg>
             <xg>
                <x>кутшӧм гораа шуин</x>
-               <xtg lang="ru"><xt>как громко сказал</xt></xtg>
+               <xt lang="rus">как громко сказал</xt>
             </xg>
             <xg>
                <x>кутшӧм гораа юргӧ йӧлӧгаыс</x>
-               <xtg lang="ru"><xt>как звонко раздаётся эхо</xt></xtg>
+               <xt lang="rus">как звонко раздаётся эхо</xt>
             </xg>
             <xg>
                <x>кутшӧм мича асылыс</x>
-               <xtg lang="ru"><xt>какое красивое утро</xt></xtg>
+               <xt lang="rus">какое красивое утро</xt>
             </xg>
             <xg>
                <x>кутшӧм ногӧн?</x>
-               <xtg lang="ru"><xt>как, каким образом?</xt></xtg>
+               <xt lang="rus">как, каким образом?</xt>
             </xg>
             <xg>
                <x>кутшӧм олӧм колӧ?</x>
-               <xtg lang="ru"><xt>какая жизнь нужна?</xt></xtg>
+               <xt lang="rus">какая жизнь нужна?</xt>
             </xg>
             <xg>
                <x>кутшӧм ӧдйӧ мунӧ</x>
-               <xtg lang="ru"><xt>как быстро идёт</xt></xtg>
+               <xt lang="rus">как быстро идёт</xt>
             </xg>
             <xg>
                <x>тэныд сьӧкыд, а меным кутшӧм ?</x>
-               <xtg lang="ru"><xt>тебе тяжело, а мне каково?</xt></xtg>
+               <xt lang="rus">тебе тяжело, а мне каково?</xt>
             </xg>
             <xg genreType="proverb">
                <x>кутшӧм ай-мам, сэтшӧм и ныв-пи</x>
-               <xtg lang="ru"><xt> яблоко от яблони недалеко падает</xt></xtg>
-               <literal>
-                  <xtg lang="ru"><xt> каковы родители, таковы и дети</xt></xtg>
-               </literal>
+               <xt lang="rus">яблоко от яблони недалеко падает</xt>
+               <xt lang="rus" tType="literal">каковы родители, таковы и дети</xt>
             </xg>
             <xg genreType="proverb">
                <x>кутшӧм рок пуан, сэтшӧмӧс и сёян</x>
-               <xtg lang="ru"><xt> что посеешь, то и пожнёшь</xt></xtg>
-               <literal>
-                  <xtg lang="ru"><xt> какую кашу сваришь, такую и съешь</xt></xtg>
-               </literal>
+               <xt lang="rus">что посеешь, то и пожнёшь</xt>
+               <xt lang="rus" tType="literal">какую кашу сваришь, такую и съешь</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>который</t></tg>
+            <tg lang="rus">
+               <t>который</t>
+            </tg>
             <xg>
                <x>кутшӧм нылӧс бӧрйин?</x>
-               <xtg lang="ru"><xt>которую девушку выбрал?</xt></xtg>
+               <xt lang="rus">которую девушку выбрал?</xt>
             </xg>
             <xg>
                <x>кутшӧм ӧдзӧсӧд пырны?</x>
-               <xtg lang="ru"><xt>в которую дверь войти?</xt></xtg>
+               <xt lang="rus">в которую дверь войти?</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кутшӧма</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTERR</pos>
+      <lg>
+         <l>кутшӧма</l>
+         <stg>
+            <st kpvContlex="PRONQTAG">кутшӧма</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>как, каково</t></tg>
+            <tg lang="rus">
+               <t>как, каково</t>
+            </tg>
             <xg>
                <x>кутшӧма висьӧ сьӧлӧмыс</x>
-               <xtg lang="ru"><xt>как болит сердце</xt></xtg>
+               <xt lang="rus">как болит сердце</xt>
             </xg>
             <xg>
                <x>кутшӧма мудзсьӧма</x>
-               <xtg lang="ru"><xt>как я устал, оказывается</xt></xtg>
+               <xt lang="rus">как я устал, оказывается</xt>
             </xg>
             <xg>
                <x>кутшӧма олан?</x>
-               <xtg lang="ru"><xt>как живёшь? как поживаешь? каково живётся?</xt></xtg>
+               <xt lang="rus">как живёшь? как поживаешь? каково живётся?</xt>
             </xg>
             <xg>
                <x>сьӧкыд висьтавны, кутшӧма сійӧ велӧдчӧ</x>
-               <xtg lang="ru"><xt>трудно сказать, как он учится</xt></xtg>
+               <xt lang="rus">трудно сказать, как он учится</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кутшӧмджык</lemma>
-      <stem/>
-      <contlex/>
-      <pos>ADN-INTERR</pos>
+      <lg>
+         <l>кутшӧмджык</l>
+         <stg>
+            <st kpvContlex="">кутшӧмджык</st>
+         </stg>
+      </lg>
+      <pos>Q_DET</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t pos="A">какой, каков</t><t pos="ADV">как, каково</t></tg>
+            <tg lang="rus">
+               <t pos="A">какой, каков</t>
+               <t pos="ADV">как, каково</t>
+            </tg>
             <xg>
                <x>кутшӧмджык дӧра тэныд колӧ?</x>
-               <xtg lang="ru"><xt>какой материал тебе нужен?</xt></xtg>
+               <xt lang="rus">какой материал тебе нужен?</xt>
             </xg>
             <xg>
                <x>кутшӧмджык тані овны?</x>
-               <xtg lang="ru"><xt>как здесь живётся?</xt></xtg>
+               <xt lang="rus">как здесь живётся?</xt>
             </xg>
             <xg>
                <x>чужӧм вылас кутшӧмджык?</x>
-               <xtg lang="ru"><xt>каков он собой?</xt></xtg>
+               <xt lang="rus">каков он собой?</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кутшӧмджыка</lemma>
-      <stem/>
-      <contlex/>
-      <pos>PRON-ADV-INTERR</pos>
+      <lg>
+         <l>кутшӧмджыка</l>
+         <stg>
+            <st kpvContlex="">кутшӧмджыка</st>
+         </stg>
+      </lg>
+      <pos>Q_ADV</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>как, каково</t></tg>
+            <tg lang="rus">
+               <t>как, каково</t>
+            </tg>
             <xg>
                <x>кутшӧмджыка видзӧны?</x>
-               <xtg lang="ru"><xt>как охраняют?</xt></xtg>
+               <xt lang="rus">как охраняют?</xt>
             </xg>
             <xg>
                <x>кутшӧмджыка тані вердӧны?</x>
-               <xtg lang="ru"><xt>как здесь кормят?</xt></xtg>
+               <xt lang="rus">как здесь кормят?</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кутшӧми</lemma>
-      <stem/>
-      <contlex/>
-      <pos>PRON-INTERR</pos>
+      <lg>
+         <l>кутшӧми</l>
+         <stg>
+            <st kpvContlex="">кутшӧми</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
       <e>
          <mg>
             <m>
-               <head><i>вопр.</i></head>
-               <semRel MNo="1" lemmaID="кутшӧм" semRelType="see"/>
+               <head/>
+               <semRel No="1" lemmaID="кутшӧм" semRelType="see"/>
             </m>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кыдз</lemma>
-      <stem/>
-      <contlex/>
-      <pos>PRON-INTERR</pos>
-      <e RN="II">
+      <lg>
+         <l>кыдз</l>
+         <stg>
+            <st kpvContlex="">кыдз</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
+      <e RNo="II">
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>как, каким образом</t></tg>
+            <tg lang="rus">
+               <t>как, каким образом</t>
+            </tg>
             <xg>
                <x>кыдз бара</x>
-               <xtg lang="ru"><xt>как уж</xt></xtg>
-               <xtg lang="ru"><xt> как-то</xt></xtg>
+               <xt lang="rus">как уж</xt>
+               <xt lang="rus">как-то</xt>
             </xg>
             <xg>
                <x>кыдз бара воисны гортас?</x>
-               <xtg lang="ru"><xt>как-то они доехали до дому?</xt></xtg>
+               <xt lang="rus">как-то они доехали до дому?</xt>
             </xg>
             <xg>
                <x>кыдз велалӧма</x>
-               <xtg lang="ru"><xt>по старой памяти</xt></xtg>
+               <xt lang="rus">по старой памяти</xt>
             </xg>
             <xg>
                <x>кыдз веськалӧ</x>
-               <xtg lang="ru"><xt>как попало</xt></xtg>
+               <xt lang="rus">как попало</xt>
             </xg>
             <xg>
                <x>кыдз ворсан?</x>
-               <xtg lang="ru"><xt>как играешь?</xt></xtg>
+               <xt lang="rus">как играешь?</xt>
             </xg>
             <xg>
                <x>кыдз гажыд</x>
-               <xtg lang="ru"><xt>как хочешь</xt></xtg>
+               <xt lang="rus">как хочешь</xt>
             </xg>
             <xg>
                <x>кыдз жӧ сідз</x>
-               <xtg lang="ru"><xt>как же так</xt></xtg>
+               <xt lang="rus">как же так</xt>
             </xg>
             <xg>
                <x>кыдз инӧ</x>
-               <xtg lang="ru"><xt>как же</xt></xtg>
+               <xt lang="rus">как же</xt>
             </xg>
             <xg>
                <x>кыдз колӧ</x>
-               <xtg lang="ru"><xt>как следует</xt></xtg>
+               <xt lang="rus">как следует</xt>
             </xg>
             <xg>
                <x>кыдз мый верман</x>
-               <xtg lang="ru"><xt>по мере сил, при первой возможности</xt></xtg>
+               <xt lang="rus">по мере сил, при первой возможности</xt>
             </xg>
             <xg>
                <x>кыдз мый позьӧ</x>
-               <xtg lang="ru"><xt>как возможно</xt></xtg>
-               <xtg lang="ru"><xt> как можно</xt></xtg>
-               <xtg lang="ru"><xt> максимально</xt></xtg>
+               <xt lang="rus">как возможно</xt>
+               <xt lang="rus">как можно</xt>
+               <xt lang="rus">максимально</xt>
             </xg>
             <xg>
                <x>кыдз позьӧ</x>
-               <xtg lang="ru"><xt>по мере сил</xt></xtg>
+               <xt lang="rus">по мере сил</xt>
             </xg>
             <xg>
                <x>со кыдз</x>
-               <xtg lang="ru"><xt>вот как</xt></xtg>
+               <xt lang="rus">вот как</xt>
             </xg>
             <xg>
                <x>кыдз тай горӧдас!</x>
-               <xtg lang="ru"><xt> как он вскрикнет! </xt></xtg>
+               <xt lang="rus">как он вскрикнет!</xt>
             </xg>
             <xg>
                <x>кыдз тӧдса</x>
-               <xtg lang="ru"><xt> как известно</xt></xtg>
+               <xt lang="rus">как известно</xt>
             </xg>
             <xg>
                <x>кыдз тэнӧ шуӧны?</x>
-               <xtg lang="ru"><xt> как тебя зовут? </xt></xtg>
+               <xt lang="rus">как тебя зовут?</xt>
             </xg>
             <xg>
                <x>кыдз усин?</x>
-               <xtg lang="ru"><xt> как упал? </xt></xtg>
+               <xt lang="rus">как упал?</xt>
             </xg>
             <xg>
                <x>кыдз шуласны</x>
-               <xtg lang="ru"><xt> как говорится</xt></xtg>
-               <xtg lang="ru"><xt> что называется</xt></xtg>
+               <xt lang="rus">как говорится</xt>
+               <xt lang="rus">что называется</xt>
             </xg>
             <xg>
                <x>эн аддзыв, кыдз сійӧ йӧктӧ?</x>
-               <xtg lang="ru"><xt> ты не видел, как он отплясывает?</xt></xtg>
+               <xt lang="rus">ты не видел, как он отплясывает?</xt>
             </xg>
             <xg>
                <x>кыдз кужан</x>
-               <xtg lang="ru"><xt>как хочешь</xt></xtg>
+               <xt lang="rus">как хочешь</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кыдзджык</lemma>
-      <stem/>
-      <contlex/>
-      <pos>PRON-INTERR</pos>
+      <lg>
+         <l>кыдзджык</l>
+         <stg>
+            <st kpvContlex="">кыдзджык</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel MNo="1" lemmaID="кыдзиджык" semRelType="see"/>
+               <semRel No="1" lemmaID="кыдзиджык" semRelType="see"/>
             </m>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кыдзи</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTERR</pos>
+      <lg>
+         <l>кыдзи</l>
+         <stg>
+            <st kpvContlex="PRONQTAG">кыдзи</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel RN="II" lemmaID="кыдз" semRelType="see"/>
+               <semRel RNo="II" lemmaID="кыдз" semRelType="see"/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>видзӧдны, кыдзи ва вылын разалӧны кытшъяс</x>
-               <xtg lang="ru"><xt> смотреть, как на воде расходятся круги</xt></xtg>
+               <xt lang="rus">смотреть, как на воде расходятся круги</xt>
             </xg>
             <xg>
                <x>кыдзи нӧ ме верма тэныд эскыны?</x>
-               <xtg lang="ru"><xt>как же я могу тебе верить?</xt></xtg>
+               <xt lang="rus">как же я могу тебе верить?</xt>
             </xg>
             <xg>
                <x>кӧть сэсся кыдзи ов</x>
-               <xtg lang="ru"><xt>хоть как живи</xt></xtg>
+               <xt lang="rus">хоть как живи</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>кыдзи-мый</lemma>
-      <stem/>
-      <contlex>INTERR-REL</contlex>
-      <pos>PRON-INTERR</pos>
+      <lg>
+         <l>кыдзи-мый</l>
+         <stg>
+            <st kpvContlex="INTERR-REL">кыдзи-мый</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>как, каким образом</t></tg>
+            <tg lang="rus">
+               <t>как, каким образом</t>
+            </tg>
             <xg>
                <x>кыдзи-мый висьталіс</x>
-               <xtg lang="ru"><xt>как рассказал</xt></xtg>
+               <xt lang="rus">как рассказал</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кыдзиджык</lemma>
-      <stem/>
-      <contlex/>
-      <pos>PRON-INTERR</pos>
+      <lg>
+         <l>кыдзиджык</l>
+         <stg>
+            <st kpvContlex="">кыдзиджык</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>как именно</t></tg>
+            <tg lang="rus">
+               <t>как именно</t>
+            </tg>
             <xg>
                <x>висьталышта, кыдзиджык тайӧ лои</x>
-               <xtg lang="ru"><xt>расскажу немножко, как именно это произошло</xt></xtg>
+               <xt lang="rus">расскажу немножко, как именно это произошло</xt>
             </xg>
             <xg>
                <x>кыдзиджык сійӧ уджалӧ</x>
-               <xtg lang="ru"><xt>как именно он работает</xt></xtg>
+               <xt lang="rus">как именно он работает</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кыдзик</lemma>
-      <stem/>
-      <contlex/>
-      <pos>PRON-INTERR</pos>
+      <lg>
+         <l>кыдзик</l>
+         <stg>
+            <st kpvContlex="">кыдзик</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>как, каким образом</t></tg>
+            <tg lang="rus">
+               <t>как, каким образом</t>
+            </tg>
             <xg>
                <x>кыдзик кага вермис усьны потанысь?</x>
-               <xtg lang="ru"><xt>каким образом ребёнок мог выпасть из люльки?</xt></xtg>
+               <xt lang="rus">каким образом ребёнок мог выпасть из люльки?</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кыдзикӧн</lemma>
-      <stem/>
-      <contlex/>
-      <pos>PRON-INTERR</pos>
+      <lg>
+         <l>кыдзикӧн</l>
+         <stg>
+            <st kpvContlex="">кыдзикӧн</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>как, каким образом</t></tg>
+            <tg lang="rus">
+               <t>как, каким образом</t>
+            </tg>
             <xg>
                <x>кыдзикӧн кага вермис усьны потанысь?</x>
-               <xtg lang="ru"><xt>каким образом ребёнок мог выпасть из люльки?</xt></xtg>
+               <xt lang="rus">каким образом ребёнок мог выпасть из люльки?</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кымын</lemma>
-      <stem/>
-      <contlex/>
-      <pos>PRON-INTERR</pos>
+      <lg>
+         <l>кымын</l>
+         <stg>
+            <st kpvContlex="">кымын</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t><i>вопр. и относ.</i> сколько</t></tg>
+            <tg lang="rus">
+               <t>сколько</t>
+            </tg>
             <xg>
                <x>кымын арӧс тэныд?</x>
-               <xtg lang="ru"><xt>сколько лет тебе?</xt></xtg>
+               <xt lang="rus">сколько лет тебе?</xt>
             </xg>
             <xg>
                <x>кымын ногӧн?</x>
-               <xtg lang="ru"><xt>по сколько?</xt></xtg>
+               <xt lang="rus">по сколько?</xt>
             </xg>
             <xg>
                <x>кымын пельӧ?</x>
-               <xtg lang="ru"><xt>на сколько частей?</xt></xtg>
+               <xt lang="rus">на сколько частей?</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кымынысь</lemma>
-      <stem/>
-      <contlex/>
-      <pos>PRON-ITER-INTERR</pos>
+      <lg>
+         <l>кымын</l>
+         <stg>
+            <st kpvContlex="">кымын</st>
+         </stg>
+      </lg>
+      <pos>R_PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>сколько раз</t></tg>
+            <tg lang="rus">
+               <t>сколько</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lg>
+         <l>кымынысь</l>
+         <stg>
+            <st kpvContlex="">кымынысь</st>
+         </stg>
+      </lg>
+      <pos>Q_ITER</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <t>сколько раз</t>
+            </tg>
             <xg>
                <x>кымынысь ветлін?</x>
-               <xtg lang="ru"><xt>сколько раз ты съездил?</xt></xtg>
+               <xt lang="rus">сколько раз ты съездил?</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кымынӧд</lemma>
-      <stem/>
-      <contlex/>
-      <pos>PRON-INTERR</pos>
-      <e>
-         <mg>
-            <m>
-               <head><i>вопр. и относ.</i></head>
-            </m>
-            <tg lang="ru"><t>который</t></tg>
-            <xg>
-               <x>кымынӧд лун турӧбалӧ</x>
-               <xtg lang="ru"><xt>который день бушует вьюга</xt></xtg>
-            </xg>
-            <xg>
-               <x>кымынӧд тӧлысь велӧдчан?</x>
-               <xtg lang="ru"><xt>который месяц учишься?</xt></xtg>
-            </xg>
-         </mg>
-      </e>
-   </entry>
-   <entry exclude="fst">
-      <lemma>кымынӧдысь</lemma>
-      <stem/>
-      <contlex/>
-      <pos>PRON-ORD-ITER-INTERR</pos>
+      <lg>
+         <l>кымынӧд</l>
+         <stg>
+            <st kpvContlex="">кымынӧд</st>
+         </stg>
+      </lg>
+      <pos>Q_ORD</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>который раз</t></tg>
+            <tg lang="rus">
+               <t>который</t>
+            </tg>
+            <xg>
+               <x>кымынӧд тӧлысь велӧдчан?</x>
+               <xt lang="rus">который месяц учишься?</xt>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lg>
+         <l>кымынӧд</l>
+         <stg>
+            <st kpvContlex="">кымынӧд</st>
+         </stg>
+      </lg>
+      <pos>R_ORD</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <t>который</t>
+            </tg>
+            <xg>
+               <x>кымынӧд лун турӧбалӧ</x>
+               <xt lang="rus">который день бушует вьюга</xt>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lg>
+         <l>кымынӧдысь</l>
+         <stg>
+            <st kpvContlex="">кымынӧдысь</st>
+         </stg>
+      </lg>
+      <pos>Q_ORD-ITER</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <t>который раз</t>
+            </tg>
             <xg>
                <x>кымынӧдысь кӧсйысян?</x>
-               <xtg lang="ru"><xt>который раз обещаешь?</xt></xtg>
+               <xt lang="rus">который раз обещаешь?</xt>
             </xg>
             <xg>
                <x>кымынӧдысь нин шыӧдчис</x>
-               <xtg lang="ru"><xt>который раз уже обратился</xt></xtg>
+               <xt lang="rus">который раз уже обратился</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кысь</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTERR</pos>
-      <e RN="I">
-         <mg MNo="1">
+      <lg>
+         <l>кысь</l>
+         <stg>
+            <st kpvContlex="PRONQTAG">кысь</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
+      <e RNo="I">
+         <mg No="1">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>откуда</t></tg>
+            <tg lang="rus">
+               <t>откуда</t>
+            </tg>
             <xg>
                <x>кысь ваян вотӧстӧ?</x>
-               <xtg lang="ru"><xt>откуда несёшь ягоды?</xt></xtg>
+               <xt lang="rus">откуда несёшь ягоды?</xt>
             </xg>
             <xg>
                <x>кысь локтан?</x>
-               <xtg lang="ru"><xt>откуда идёшь?</xt></xtg>
+               <xt lang="rus">откуда идёшь?</xt>
             </xg>
             <xg>
                <x>кысь усин?</x>
-               <xtg lang="ru"><xt>откуда явился?</xt></xtg>
+               <xt lang="rus">откуда явился?</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>где</t></tg>
+            <tg lang="rus">
+               <t>где</t>
+            </tg>
             <xg>
                <x>кысь аддзин?</x>
-               <xtg lang="ru"><xt>где нашёл?</xt></xtg>
+               <xt lang="rus">где нашёл?</xt>
             </xg>
          </mg>
-         <mg MNo="3">
+         <mg No="3">
             <m>
-               <head><i>с отриц.</i></head>
+               <head>
+                  <re>с отриц.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>как</t></tg>
+            <tg lang="rus">
+               <t>как</t>
+            </tg>
             <xg>
                <x>кысь он висьтав</x>
-               <xtg lang="ru"><xt>как не скажешь</xt></xtg>
+               <xt lang="rus">как не скажешь</xt>
             </xg>
             <xg>
                <x>кысь он сет</x>
-               <xtg lang="ru"><xt>как не отдашь</xt></xtg>
+               <xt lang="rus">как не отдашь</xt>
             </xg>
             <xg>
                <x>кысь бара</x>
-               <xtg lang="ru"><xt>не тут-то было</xt></xtg>
+               <xt lang="rus">не тут-то было</xt>
             </xg>
             <xg>
                <x>кысь веськалӧ</x>
-               <xtg lang="ru"><xt>с бору да с сосенки</xt></xtg>
+               <xt lang="rus">с бору да с сосенки</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кытчӧ</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTERR</pos>
-   </entry>
-   <entry exclude="fst">
-      <lemma>кытчӧдз</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTERR</pos>
-   </entry>
-   <entry exclude="fst">
-      <lemma>кытысь</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTERR</pos>
-   </entry>
-   <entry exclude="fst">
-      <lemma>кыті</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTERR</pos>
-   </entry>
-   <entry exclude="fst">
-      <lemma>кытӧн</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTERR</pos>
-   </entry>
-   <entry exclude="fst">
-      <lemma>кӧн</lemma>
-      <stem/>
-      <contlex/>
-      <pos>PRON-INTERR-SPAT</pos>
-      <e RN="I">
-         <mg MNo="1">
+      <lg>
+         <l>кытчӧ</l>
+         <stg>
+            <st kpvContlex="PRONQTAG">кытчӧ</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
+      <e>
+         <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>где</t></tg>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lg>
+         <l>кытчӧдз</l>
+         <stg>
+            <st kpvContlex="PRONQTAG">кытчӧдз</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lg>
+         <l>кытысь</l>
+         <stg>
+            <st kpvContlex="PRONQTAG">кытысь</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lg>
+         <l>кыті</l>
+         <stg>
+            <st kpvContlex="PRONQTAG">кыті</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lg>
+         <l>кытӧн</l>
+         <stg>
+            <st kpvContlex="PRONQTAG">кытӧн</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lg>
+         <l>кӧн</l>
+         <stg>
+            <st kpvContlex="">кӧн</st>
+         </stg>
+      </lg>
+      <pos>Q_SPAT</pos>
+      <e RNo="I">
+         <mg No="1">
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <t>где</t>
+            </tg>
             <xg>
                <x>кӧн сійӧ?</x>
-               <xtg lang="ru"><xt>где он?</xt></xtg>
+               <xt lang="rus">где он?</xt>
             </xg>
             <xg>
                <x>кӧн ті уджаланныд?</x>
-               <xtg lang="ru"><xt>где вы работаете?</xt></xtg>
+               <xt lang="rus">где вы работаете?</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>который</t></tg>
+            <tg lang="rus">
+               <t>который</t>
+            </tg>
             <xg>
                <x>со керка, кӧн быдмис гижысь</x>
-               <xtg lang="ru"><xt>вот дом, в котором вырос писатель</xt></xtg>
+               <xt lang="rus">вот дом, в котором вырос писатель</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>кӧн-мый</lemma>
-      <stem/>
-      <contlex>INTERR-REL</contlex>
-      <pos>PRON-INTERR</pos>
+      <lg>
+         <l>кӧн-мый</l>
+         <stg>
+            <st kpvContlex="INTERR-REL">кӧн-мый</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>где</t></tg>
+            <tg lang="rus">
+               <t>где</t>
+            </tg>
             <xg>
                <x>кӧн-мый ветлан</x>
-               <xtg lang="ru"><xt>где ходишь, где пропадаешь</xt></xtg>
+               <xt lang="rus">где ходишь, где пропадаешь</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>кӧні</lemma>
-      <stem/>
-      <contlex>PRONQTAG</contlex>
-      <pos>PRON-INTERR</pos>
+      <lg>
+         <l>кӧні</l>
+         <stg>
+            <st kpvContlex="PRONQTAG">кӧні</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel RN="I" lemmaID="кӧн" semRelType="see"/>
+               <semRel RNo="I" lemmaID="кӧн" semRelType="see"/>
             </m>
-            <tg lang="ru"><t>где</t></tg>
+            <tg lang="rus">
+               <t>где</t>
+            </tg>
             <xg>
                <x>кӧні тэ ӧні?</x>
-               <xtg lang="ru"><xt>где ты сейчас?</xt></xtg>
+               <xt lang="rus">где ты сейчас?</xt>
             </xg>
             <xg>
                <x>кӧні сійӧ велӧдчис?</x>
-               <xtg lang="ru"><xt>где он учился?</xt></xtg>
+               <xt lang="rus">где он учился?</xt>
             </xg>
             <xg>
                <x>кӧні олан, сэні и колан</x>
-               <xtg lang="ru"><xt>где родился, там и пригодился</xt></xtg>
-               <literal>
-                  <xtg lang="ru"><xt>где живёшь, там и нужен</xt></xtg>
-               </literal>
+               <xt lang="rus">где родился, там и пригодился</xt>
+               <xt lang="rus" tType="literal">где живёшь, там и нужен</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>мыетш</lemma>
-      <stem/>
-      <contlex>INTERR-REL</contlex>
-      <pos>PRON-INTERR</pos>
-   </entry>
-   <entry exclude="fst">
-      <lemma>мый</lemma>
-      <stem/>
-      <contlex>PRON-INTER-NONHUM</contlex>
-      <pos>PRON-INTERR</pos>
+      <lg>
+         <l>мыетш</l>
+         <stg>
+            <st kpvContlex="INTERR-REL">мыетш</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
       <e>
-         <mg MNo="1">
+         <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>что</t></tg>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lg>
+         <l>мый</l>
+         <stg>
+            <st kpvContlex="PRON-INTER-NONHUM">мый</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
+      <e>
+         <mg No="1">
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <t>что</t>
+            </tg>
             <xg>
                <x>мый понда?</x>
-               <xtg lang="ru"><xt>по какой причине? почему?</xt></xtg>
+               <xt lang="rus">по какой причине? почему?</xt>
             </xg>
             <xg>
                <x>мый тайӧ?</x>
-               <xtg lang="ru"><xt>что это?</xt></xtg>
+               <xt lang="rus">что это?</xt>
             </xg>
             <xg>
                <x>мый шуин?</x>
-               <xtg lang="ru"><xt>что ты сказал?</xt></xtg>
+               <xt lang="rus">что ты сказал?</xt>
             </xg>
             <xg>
                <x>мыйла тэныд пуртыс?</x>
-               <xtg lang="ru"><xt>для чего тебе нож?</xt></xtg>
+               <xt lang="rus">для чего тебе нож?</xt>
             </xg>
             <xg>
                <x>мыйла ветліс?</x>
-               <xtg lang="ru"><xt> за чем он ходил? </xt></xtg>
+               <xt lang="rus">за чем он ходил?</xt>
             </xg>
             <xg>
                <x>мыйӧ нӧ велӧдіс?</x>
-               <xtg lang="ru"><xt> чему же он научил? </xt></xtg>
+               <xt lang="rus">чему же он научил?</xt>
             </xg>
             <xg>
                <x>мыйӧдз воис!</x>
-               <xtg lang="ru"><xt> до чего дошёл! до чего дожил! </xt></xtg>
+               <xt lang="rus">до чего дошёл! до чего дожил!</xt>
             </xg>
             <xg>
                <x>мыйӧн гижӧма?</x>
-               <xtg lang="ru"><xt> чем это написано? </xt></xtg>
+               <xt lang="rus">чем это написано?</xt>
             </xg>
             <xg>
                <x>мыйсянь заводитны?</x>
-               <xtg lang="ru"><xt> с чего начать? </xt></xtg>
+               <xt lang="rus">с чего начать?</xt>
             </xg>
             <xg>
                <x>мыйын делӧыс?</x>
-               <xtg lang="ru"><xt> в чём дело? </xt></xtg>
+               <xt lang="rus">в чём дело?</xt>
             </xg>
             <xg>
                <x>мыйысь видіс?</x>
-               <xtg lang="ru"><xt> за что (он) ругал? </xt></xtg>
+               <xt lang="rus">за что (он) ругал?</xt>
             </xg>
             <xg>
                <x>мыйысь тайӧ вӧчӧма?</x>
-               <xtg lang="ru"><xt> из чего это сделано? </xt></xtg>
+               <xt lang="rus">из чего это сделано?</xt>
             </xg>
             <xg>
                <x>мыйяс ньӧбин?</x>
-               <xtg lang="ru"><xt> чего ты накупил? </xt></xtg>
+               <xt lang="rus">чего ты накупил?</xt>
             </xg>
             <xg>
                <x>мый веськалӧ</x>
-               <xtg lang="ru"><xt> что попало</xt></xtg>
+               <xt lang="rus">что попало</xt>
             </xg>
             <xg>
                <x>мыйӧн веськалӧ</x>
-               <xtg lang="ru"><xt>чем попало</xt></xtg>
+               <xt lang="rus">чем попало</xt>
             </xg>
             <xg genreType="saying">
                <x>мый ас вывтіыд оз мун, он вермы сійӧтор тӧдны</x>
-               <xtg lang="ru"><xt> что сам не испытаешь, того не поймёшь</xt></xtg>
+               <xt lang="rus">что сам не испытаешь, того не поймёшь</xt>
             </xg>
             <xg genreType="saying">
                <x>мый аслыд он кӧсйы, сійӧс и мӧдлы эн кӧсйы</x>
-               <xtg lang="ru"><xt> чего себе не желаешь, того и другим не желай</xt></xtg>
+               <xt lang="rus">чего себе не желаешь, того и другим не желай</xt>
             </xg>
             <xg genreType="saying">
                <x>мый гӧран-кӧдзан, сійӧ и петалас</x>
-               <xtg lang="ru"><xt> что посеял, то и взойдёт</xt></xtg>
+               <xt lang="rus">что посеял, то и взойдёт</xt>
             </xg>
             <xg genreType="saying">
                <x>мый корсис, сійӧ и сюрис</x>
-               <xtg lang="ru"><xt> что искал, то и нашёл</xt><re>поделом ему</re></xtg>
+               <xtCtn>
+                  <xt lang="rus">что искал, то и нашёл</xt>
+                  <re>поделом ему</re>
+               </xtCtn>
             </xg>
             <xg genreType="saying">
                <x>мыйӧн локтін, сійӧн и мунан</x>
-               <xtg lang="ru"><xt> с чем пришёл, с тем и уйдёшь</xt></xtg>
+               <xt lang="rus">с чем пришёл, с тем и уйдёшь</xt>
             </xg>
             <xg genreType="saying">
                <x>мыйӧн он вӧдитчы, сійӧн он ляксьы</x>
-               <xtg lang="ru"><xt> тот не ошибается, кто ничего не делает</xt></xtg>
-               <literal>
-                  <xtg lang="ru"><xt> чем не пользуешься, тем не запачкаешься</xt></xtg>
-               </literal>
+               <xt lang="rus">тот не ошибается, кто ничего не делает</xt>
+               <xt lang="rus" tType="literal">чем не пользуешься, тем не запачкаешься</xt>
             </xg>
             <xg genreType="saying">
                <x>мыйысь лӧгасян, сыысь и бурасян</x>
-               <xtg lang="ru"><xt> отчего рассердился, на том и помиришься</xt></xtg>
+               <xt lang="rus">отчего рассердился, на том и помиришься</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>что</t></tg>
-            <tg lang="ru"><t> сколько</t></tg>
+            <tg lang="rus">
+               <t>что</t>
+            </tg>
+            <tg lang="rus">
+               <t>сколько</t>
+            </tg>
             <xg>
                <x>мый вермӧмысь</x>
-               <xtg lang="ru"><xt>что есть (было) сил</xt></xtg>
+               <xt lang="rus">что есть (было) сил</xt>
             </xg>
             <xg>
                <x>мый вынысь</x>
-               <xtg lang="ru"><xt>изо всех сил, что было сил</xt></xtg>
+               <xt lang="rus">изо всех сил, что было сил</xt>
             </xg>
             <xg>
                <x>мый вынысь уджавны</x>
-               <xtg lang="ru"><xt>работать изо всех сил</xt></xtg>
+               <xt lang="rus">работать изо всех сил</xt>
             </xg>
             <xg>
                <x>котӧртны мый вынысь</x>
-               <xtg lang="ru"><xt>бежать изо всех сил</xt></xtg>
+               <xt lang="rus">бежать изо всех сил</xt>
             </xg>
             <xg>
                <x>мый мында?</x>
-               <xtg lang="ru"><xt>сколько примерно?</xt></xtg>
+               <xt lang="rus">сколько примерно?</xt>
             </xg>
             <xg>
                <x>мый этшысь</x>
-               <xtg lang="ru"><xt>что есть духу</xt></xtg>
+               <xt lang="rus">что есть духу</xt>
             </xg>
             <xg>
                <x>мый нин чӧвтіс, а ньӧти эз мудз</x>
-               <xtg lang="ru"><xt>сколько уже стоговал, а совсем не устал</xt></xtg>
+               <xt lang="rus">сколько уже стоговал, а совсем не устал</xt>
             </xg>
             <xg>
                <x>мыйӧ тайӧ сувтас?</x>
-               <xtg lang="ru"><xt>во что это обойдётся?</xt></xtg>
+               <xt lang="rus">во что это обойдётся?</xt>
             </xg>
          </mg>
-         <mg MNo="3">
+         <mg No="3">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>как</t></tg>
+            <tg lang="rus">
+               <t>как</t>
+            </tg>
             <xg>
                <x>мый дыра?</x>
-               <xtg lang="ru"><xt>как долго?</xt></xtg>
+               <xt lang="rus">как долго?</xt>
             </xg>
             <xg>
                <x>мый нимыд?</x>
-               <xtg lang="ru"><xt>как тебя зовут?</xt></xtg>
+               <xt lang="rus">как тебя зовут?</xt>
             </xg>
          </mg>
-         <mg MNo="4">
+         <mg No="4">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>какой</t></tg>
+            <tg lang="rus">
+               <t>какой</t>
+            </tg>
             <xg>
                <x>мый кузя?</x>
-               <xtg lang="ru"><xt>какой длины?</xt></xtg>
+               <xt lang="rus">какой длины?</xt>
             </xg>
             <xg>
                <x>мый могӧн?</x>
-               <xtg lang="ru"><xt>с какой целью?</xt></xtg>
+               <xt lang="rus">с какой целью?</xt>
             </xg>
             <xg>
                <x>мый ыджда!</x>
-               <xtg lang="ru"><xt>какой большой!</xt></xtg>
+               <xt lang="rus">какой большой!</xt>
             </xg>
          </mg>
-         <mg MNo="5">
+         <mg No="5">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>что, почему, зачем</t></tg>
+            <tg lang="rus">
+               <t>что, почему, зачем</t>
+            </tg>
             <xg genreType="saying">
                <x>мый вугралан, войнас ӧмӧй понъяскӧд увтін?</x>
-               <xtg lang="ru"><xt> что дремлешь, разве ночью вместе с собаками лаял?</xt></xtg>
+               <xt lang="rus">что дремлешь, разве ночью вместе с собаками лаял?</xt>
             </xg>
             <xg genreType="saying">
                <x>мый сылы тэрмасьнысӧ, сійӧс ва оз кылӧд</x>
-               <xtg lang="ru"><xt> что ему спешить, его водой не сносит</xt></xtg>
+               <xt lang="rus">что ему спешить, его водой не сносит</xt>
             </xg>
             <xg>
                <x>мый керан</x>
-               <xtg lang="ru"><xt>что поделаешь</xt></xtg>
+               <xt lang="rus">что поделаешь</xt>
             </xg>
             <xg>
                <x>мый керан, быть ӧд мун</x>
-               <xtg lang="ru"><xt>что поделаешь, приходится идти</xt></xtg>
+               <xt lang="rus">что поделаешь, приходится идти</xt>
             </xg>
             <xg>
                <x>мый кӧть эз ло</x>
-               <xtg lang="ru"><xt>во что бы то ни стало</xt></xtg>
+               <xt lang="rus">во что бы то ни стало</xt>
             </xg>
             <xg>
                <x>мый лоаныс ло</x>
-               <xtg lang="ru"><xt>будь что будет</xt></xtg>
+               <xt lang="rus">будь что будет</xt>
             </xg>
             <xg>
                <x>мый морла!</x>
-               <xtg lang="ru"><xt>какого дьявола!</xt><re>прост.</re></xtg>
+               <xtCtn>
+                  <xt lang="rus">какого дьявола!</xt>
+                  <re>прост.</re>
+               </xtCtn>
             </xg>
             <xg>
                <x>мый морла сэтчӧ муннысӧ?</x>
-               <xtg lang="ru"><xt>на кой чёрт тебе туда идти?</xt></xtg>
+               <xt lang="rus">на кой чёрт тебе туда идти?</xt>
             </xg>
             <xg>
                <x>да мый да</x>
-               <xtg lang="ru"><xt>и прочее, и тому подобное</xt></xtg>
+               <xt lang="rus">и прочее, и тому подобное</xt>
             </xg>
             <xg>
                <x>нянь да мый да</x>
-               <xtg lang="ru"><xt>хлеб и прочее</xt></xtg>
+               <xt lang="rus">хлеб и прочее</xt>
             </xg>
             <xg>
                <x>мыйыс сӧмын абу!</x>
-               <xtg lang="ru"><xt>чего только нет!</xt></xtg>
+               <xt lang="rus">чего только нет!</xt>
             </xg>
             <xg>
                <x>мый эськӧ оз ков да!</x>
-               <xtg lang="ru"><xt>мало ли что хочется!</xt></xtg>
+               <xt lang="rus">мало ли что хочется!</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>мыйда</lemma>
-      <stem/>
-      <contlex/>
-      <pos>PRON-INTERR</pos>
+      <lg>
+         <l>мыйда</l>
+         <stg>
+            <st kpvContlex="">мыйда</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
                <semRel lemmaID="мыйта" semRelType="see"/>
             </m>
-            <tg lang="ru"><t/></tg>
+            <tg lang="rus">
+               <t/>
+            </tg>
             <xg>
                <x>мыйда кӧсъян</x>
-               <xtg lang="ru"><xt>вволю</xt></xtg>
-               <xtg lang="ru"><xt>сколько хочешь</xt></xtg>
+               <xt lang="rus">вволю</xt>
+               <xt lang="rus">сколько хочешь</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>мыйла</lemma>
-      <stem>мый</stem>
-      <contlex>PRON-INTERR-CNS</contlex>
-      <pos>PRON-INTERR</pos>
+      <lg>
+         <l>мыйла</l>
+         <stg>
+            <st kpvContlex="Q_PRON-CNS">мый</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
       <e>
-         <mg MNo="1">
+         <mg No="1">
             <m>
                <head/>
                <semRel lemmaID="мый" semRelType="see"/>
             </m>
-            <tg lang="ru"><t>отчего</t><t>почему</t></tg>
+            <tg lang="rus">
+               <t>отчего</t>
+               <t>почему</t>
+            </tg>
             <xg>
                <x>мыйла бӧрдан?</x>
-               <xtg lang="ru"><xt>отчего ты плачешь?</xt><xt>о чём ты плачешь?</xt></xtg>
+               <xt lang="rus">отчего ты плачешь?</xt>
+               <xt lang="rus">о чём ты плачешь?</xt>
             </xg>
             <xg>
                <x>мыйла ме эг кывлы?</x>
-               <xtg lang="ru"><xt>почему я не слышал?</xt></xtg>
+               <xt lang="rus">почему я не слышал?</xt>
             </xg>
             <xg>
                <x>мыйла нӧ он сёй?</x>
-               <xtg lang="ru"><xt>почему же ты не ешь?</xt></xtg>
+               <xt lang="rus">почему же ты не ешь?</xt>
             </xg>
          </mg>
-         <mg MNo="2">
+         <mg No="2">
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>зачем</t></tg>
+            <tg lang="rus">
+               <t>зачем</t>
+            </tg>
             <xg>
                <x>мыйла тіянлы сымда деньгаыс?</x>
-               <xtg lang="ru"><xt>зачем вам столько денег?</xt></xtg>
+               <xt lang="rus">зачем вам столько денег?</xt>
             </xg>
             <xg>
                <x>мыйла тэ локтін?</x>
-               <xtg lang="ru"><xt>зачем ты пришёл?</xt></xtg>
+               <xt lang="rus">зачем ты пришёл?</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>мыйся</lemma>
-      <stem/>
-      <contlex/>
-      <pos>PRON-INTERR</pos>
+      <lg>
+         <l>мыйся</l>
+         <stg>
+            <st kpvContlex="">мыйся</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
       <e>
          <mg>
             <m>
-               <head><range>диал.</range></head>
-               <semRel MNo="1" lemmaID="мыйсяма" semRelType="see"/>
+               <head>
+                  <range rangeSpat="dialect"/>
+               </head>
+               <semRel No="1" lemmaID="мыйсяма" semRelType="see"/>
             </m>
             <xg>
                <x>весьшӧрӧ лэптӧны сійӧс, мыйся нӧ сійӧ герой!</x>
-               <xtg lang="ru"><xt>напрасно превозносят его, что он за герой!</xt></xtg>
+               <xt lang="rus">напрасно превозносят его, что он за герой!</xt>
             </xg>
             <xg>
                <x>кодъяс найӧ сэтшӧмъясыс, мыйся олӧмӧн олӧны?</x>
-               <xtg lang="ru"><xt>кто они такие, какой жизнью они живут?</xt></xtg>
+               <xt lang="rus">кто они такие, какой жизнью они живут?</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry>
-      <lemma>мыйсяма</lemma>
-      <stem/>
-      <contlex>INTERR-REL</contlex>
-      <pos>PRON-INTERR</pos>
+      <lg>
+         <l>мыйсяма</l>
+         <stg>
+            <st kpvContlex="PCLE_STRENGTH">мыйсяма</st>
+         </stg>
+      </lg>
+      <pos>PCLE_STRENGTH</pos>
       <e>
          <mg>
             <m>
-               <head><i>част. усил.</i></head>
+               <head>
+                  <re>част. усил.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>что за</t></tg>
+            <tg lang="rus">
+               <t>что за</t>
+            </tg>
             <xg>
                <x>мыйсяма сёрни!</x>
-               <xtg lang="ru"><xt>что за разговоры!</xt></xtg>
+               <xt lang="rus">что за разговоры!</xt>
             </xg>
             <xg>
                <x>мыйсяма тэ морт!</x>
-               <xtg lang="ru"><xt>что ты за человек!</xt></xtg>
+               <xt lang="rus">что ты за человек!</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>мыйта</lemma>
-      <stem/>
-      <contlex>INTERR-REL</contlex>
-      <pos>PRON-INTERR</pos>
+      <lg>
+         <l>мыйта</l>
+         <stg>
+            <st kpvContlex="INTERR-REL">мыйта</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
       <e>
          <mg>
             <m>
-               <head><i>вопр.-относ.</i></head>
+               <head>
+                  <re>вопр.-относ.</re>
+               </head>
             </m>
-            <tg lang="ru"><t>сколько</t></tg>
+            <tg lang="rus">
+               <t>сколько</t>
+            </tg>
             <xg>
                <x>мыйта колӧ</x>
-               <xtg lang="ru"><xt>сколько надо, сколько угодно</xt></xtg>
+               <xt lang="rus">сколько надо, сколько угодно</xt>
             </xg>
             <xg>
                <x>мыйта йӧз чукӧрмӧма!</x>
-               <xtg lang="ru"><xt>сколько народу собралось!</xt></xtg>
+               <xt lang="rus">сколько народу собралось!</xt>
             </xg>
             <xg>
                <x>мыйта мынтӧны, сымда и босьта</x>
-               <xtg lang="ru"><xt>сколько платят, столько и получаю</xt></xtg>
+               <xt lang="rus">сколько платят, столько и получаю</xt>
             </xg>
             <xg>
                <x>мыйтаӧн ми татӧн олам</x>
-               <xtg lang="ru"><xt>сколько нас тут живёт</xt></xtg>
+               <xt lang="rus">сколько нас тут живёт</xt>
             </xg>
             <xg>
                <x>мыйтаысь вир кисьтіс</x>
-               <xtg lang="ru"><xt>сколько раз он проливал кровь</xt></xtg>
+               <xt lang="rus">сколько раз он проливал кровь</xt>
             </xg>
             <xg>
                <x>мыйта тэд колӧ?</x>
-               <xtg lang="ru"><xt>сколько тебе надо?</xt></xtg>
+               <xt lang="rus">сколько тебе надо?</xt>
             </xg>
             <xg>
                <x>мыйта эг кодйӧй, ва сідзи эз и волы</x>
-               <xtg lang="ru"><xt>сколько ни копали, вода так и не появилась ☺</xt></xtg>
+               <xt lang="rus">сколько ни копали, вода так и не появилась ☺</xt>
             </xg>
             <xg genreType="saying">
                <x>мыйта деньга, сы серти и босьтасян</x>
-               <xtg lang="ru"><xt> по деньгам и покупки делаются</xt></xtg>
+               <xt lang="rus">по деньгам и покупки делаются</xt>
             </xg>
             <xg>
                <x>мыйта гажыс</x>
-               <xtg lang="ru"><xt>сколько угодно</xt></xtg>
+               <xt lang="rus">сколько угодно</xt>
             </xg>
             <xg>
                <x>мед сӧрӧны, мыйта гажыс</x>
-               <xtg lang="ru"><xt>пусть говорят сколько угодно</xt></xtg>
+               <xt lang="rus">пусть говорят сколько угодно</xt>
             </xg>
             <xg>
                <x>мыйта лолыд лэптас</x>
-               <xtg lang="ru"><xt>сколько душе угодно</xt></xtg>
+               <xt lang="rus">сколько душе угодно</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>мыйтӧм</lemma>
-      <stem/>
-      <contlex/>
+      <lg>
+         <l>мыйтӧм</l>
+         <stg>
+            <st kpvContlex="">мыйтӧм</st>
+         </stg>
+      </lg>
       <pos>PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
-               <semRel MNo="1" lemmaID="мыйта" semRelType="see"/>
+               <semRel No="1" lemmaID="мыйта" semRelType="see"/>
             </m>
             <xg>
                <x>мыйтӧм прӧмыс ваян, сы мында тӧвартӧ сетӧны</x>
-               <xtg lang="ru"><xt>сколько добычи принесёшь, столько товаров дадут</xt></xtg>
+               <xt lang="rus">сколько добычи принесёшь, столько товаров дадут</xt>
             </xg>
             <xg>
                <x>со ми мыйтӧмӧн чукӧрмим татчӧ</x>
-               <xtg lang="ru"><xt>вот сколько нас собралось здесь</xt></xtg>
+               <xt lang="rus">вот сколько нас собралось здесь</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>мыйӧн</lemma>
-      <stem/>
-      <contlex/>
-      <pos>PRON-INTERR</pos>
+      <lg>
+         <l>мыйӧн</l>
+         <stg>
+            <st kpvContlex="">мыйӧн</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
-            <tg lang="ru"><t>сколько</t><t>почём</t><register>разг.</register></tg>
+            <tg lang="rus">
+               <t>сколько</t>
+               <tCtn>
+                  <t>почём</t>
+                  <register register="conversation"/>
+               </tCtn>
+            </tg>
             <xg>
                <x>мыйӧн кило?</x>
-               <xtg lang="ru"><xt>сколько (стоит) килограмм? </xt><xt>почём килограмм?</xt></xtg>
+               <xt lang="rus">сколько (стоит) килограмм?</xt>
+               <xt lang="rus">почём килограмм?</xt>
             </xg>
             <xg>
                <x>мыйӧн тайӧ</x>
-               <xtg lang="ru"><xt>сколько стоит? </xt><xt>почём это?</xt></xtg>
+               <xt lang="rus">сколько стоит?</xt>
+               <xt>почём это?</xt>
             </xg>
             <xg>
                <x>нойыс мыйӧн ?</x>
-               <xtg lang="ru"><xt>почём сукно?</xt></xtg>
+               <xt lang="rus">почём сукно?</xt>
             </xg>
          </mg>
       </e>
    </entry>
    <entry exclude="fst">
-      <lemma>мыйӧс</lemma>
-      <stem/>
-      <contlex/>
-      <pos>PRON-INTERR</pos>
+      <lg>
+         <l>мыйӧс</l>
+         <stg>
+            <st kpvContlex="">мыйӧс</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
       <e>
          <mg>
             <m>
-               <head><range>диал.</range></head>
-               <semRel MNo="1" lemmaID="мыйла" semRelType="see"/>
+               <head>
+                  <range rangeSpat="dialect"/>
+               </head>
+               <semRel No="1" lemmaID="мыйла" semRelType="see"/>
             </m>
          </mg>
       </e>
    </entry>
-</dict>
+</r>
