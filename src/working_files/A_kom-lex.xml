@@ -2713,9 +2713,8 @@
             </tg>
             <xg>
                <x>джаджъя морӧса</x>
-               <xtCtn>
-                  <xt lang="rus"><sense sense="figurative"/>грудь колесом</xt>
-               </xtCtn>
+               <sense sense="figurative"/>
+               <xt lang="rus">грудь колесом</xt>
             </xg>
             <xg>
                <x>джаджъя рушку</x>
@@ -3087,7 +3086,7 @@
             <m>
                <head>
                   <range rangeSpat="dialect"/>
-                  <i>по суеверным представлениям</i>
+                  <re>по суеверным представлениям</re>
                </head>
             </m>
             <tg lang="rus">
@@ -3950,7 +3949,11 @@
                <head/>
             </m>
             <tg lang="rus">
-               <t>беловато-серый; <sense sense="figurative"/>седой</t>
+               <t>беловато-серый</t>
+               <tCtn>
+                  <t>седой</t>
+                  <sense sense="figurative"/>
+               </tCtn>
             </tg>
          </mg>
       </e>
@@ -4175,7 +4178,11 @@
                <head/>
             </m>
             <tg lang="rus">
-               <t>занозистый <i>разг. (плохо выструганный),</i> такой, о который можно занозить <gov>что-л.</gov></t>
+               <tCtn>
+                  <t>занозистый </t>
+                  <re>разг. (плохо выструганный)</re>
+               </tCtn>
+               <t>такой, о который можно занозить (что-л.)</t>
             </tg>
          </mg>
       </e>
@@ -4233,10 +4240,8 @@
             </xg>
             <xg>
                <x>жер пинь</x>
-               <xtCtn>
-                  <att att="abusive"/>
-                  <xt lang="rus">зубоскал</xt>
-               </xtCtn>
+               <att att="abusive"/>
+               <xt lang="rus">зубоскал</xt>
             </xg>
          </mg>
       </e>
@@ -4966,9 +4971,8 @@
             </tg>
             <xg>
                <x>калича вом</x>
-               <xtCtn>
-                  <xt lang="rus"><sense sense="figurative"/>не болтливый, воздержанный на язык</xt>
-               </xtCtn>
+               <sense sense="figurative"/>
+               <xt lang="rus">не болтливый, воздержанный на язык</xt>
             </xg>
          </mg>
       </e>
@@ -5546,9 +5550,8 @@
             </xg>
             <xg>
                <x>кода сынӧд</x>
-               <xtCtn>
-                  <xt lang="rus"><sense sense="figurative"/>пьянящий воздух</xt>
-               </xtCtn>
+               <sense sense="figurative"/>
+               <xt lang="rus">пьянящий воздух</xt>
             </xg>
             <xg>
                <x>кода юанторъяс</x>
@@ -5575,9 +5578,8 @@
             </tg>
             <xg>
                <x>коддзӧдана кӧр</x>
-               <xtCtn>
-                  <xt lang="rus"><sense sense="figurative"/>одуряющий запах</xt>
-               </xtCtn>
+               <sense sense="figurative"/>
+               <xt lang="rus">одуряющий запах</xt>
             </xg>
             <xg>
                <x>коддзӧдана юанъяс</x>
@@ -5773,9 +5775,8 @@
             </tg>
             <xg>
                <x>кока-бордъя озырлун</x>
-               <xtCtn>
-                  <xt lang="rus"><sense sense="figurative"/>бегающее и летающее богатство</xt>
-               </xtCtn>
+               <sense sense="figurative"/>
+               <xt lang="rus">бегающее и летающее богатство</xt>
             </xg>
          </mg>
       </e>
@@ -7535,7 +7536,11 @@
                <head/>
             </m>
             <tg lang="rus">
-               <t>злющий <register register="conversation"/>; очень злой</t>
+               <tCtn>
+                  <t>злющий </t>
+                  <register register="conversation"/>
+               </tCtn>
+               <t>очень злой</t>
             </tg>
          </mg>
       </e>
@@ -9594,7 +9599,14 @@
                <head/>
             </m>
             <tg lang="rus">
-               <t>охочий, охоч <i>до чего-л. прост.,</i> охотник <i>до чего-л.</i></t>
+               <tCtn>
+                  <t>охочий, охоч </t>
+                  <re>до чего-л. прост.</re>
+               </tCtn>
+               <tCtn>
+                  <t> охотник </t>
+                  <re>до чего-л.</re>
+               </tCtn>
             </tg>
             <xg>
                <x>асьсӧ ошкыны окоч</x>
@@ -10861,17 +10873,19 @@
             </tg>
             <xg>
                <x>сира гез</x>
+               <xt lang="rus">просмолённая верёвка</xt>
                <xtCtn>
-                  <xt lang="rus">а) просмолённая верёвка; б) <sense sense="figurative"/> навязчивый, назойливый
-                  человек</xt>
+                  <xt lang="rus">навязчивый</xt>
+                  <sense sense="figurative"/>
                </xtCtn>
+               <xt>назойливый человек</xt>
             </xg>
             <xg genreType="riddle">
                <x>керка гӧгӧр сира гез</x>
                <xt lang="rus">вокруг дома просмолённая верёвка</xt>
                <answer>
                   <native>нитш</native>
-                  <xt lang="rus">мох)</xt>
+                  <xt lang="rus">мох</xt>
                </answer>
             </xg>
             <xg>
@@ -10915,7 +10929,11 @@
                <head/>
             </m>
             <tg lang="rus">
-               <t>злющий <register register="conversation"/>; очень злой</t>
+               <tCtn>
+                  <t>злющий</t>
+                  <register register="conversation"/>
+               </tCtn>
+               <t>очень злой</t>
             </tg>
          </mg>
       </e>
@@ -13022,6 +13040,37 @@
          </mg>
       </e>
    </entry>
+   <entry exclude="fst">
+      <lg>
+         <l>чангыль ныра</l>
+         <stg>
+            <st kpvContlex="Adj">чангыль ныра</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="rus">
+               <tCtn>
+                  <t>с загнутым вверх носком </t>
+                  <re>об обуви</re>
+               </tCtn>
+               <t>курносый, со вздёрнутым носом</t>
+            </tg>
+            <xg>
+               <x>чангыль ныра нывка</x>
+               <xt lang="rus">девочка со вздёрнутым носиком</xt>
+            </xg>
+            <xg>
+               <x>чангыль ныра сапӧг</x>
+               <xt lang="rus">сапоги с загнутыми носками</xt>
+            </xg>
+         </mg>
+      </e>
+   </entry>
    <entry>
       <lg>
          <l>чангыль</l>
@@ -13038,20 +13087,6 @@
             <tg lang="rus">
                <t>вздёрнутый, согнутый, приподнятый</t>
             </tg>
-            <xg>
-               <x>чангыль ныра</x>
-               <xtCtn>
-                  <xt lang="rus">а) с загнутым вверх носком <i>(об обуви</i>); б) курносый, со вздёрнутым носом</xt>
-               </xtCtn>
-            </xg>
-            <xg>
-               <x>чангыль ныра нывка</x>
-               <xt lang="rus">девочка со вздёрнутым носиком</xt>
-            </xg>
-            <xg>
-               <x>чангыль ныра сапӧг</x>
-               <xt lang="rus">сапоги с загнутыми носками</xt>
-            </xg>
          </mg>
       </e>
    </entry>
@@ -14918,7 +14953,11 @@
                </head>
             </m>
             <tg lang="rus">
-               <t><att att="ironic"/>не лучше, такой же (о вещах)</t>
+               <tCtn>
+                  <t>не лучше</t>
+                  <att att="ironic"/>
+               </tCtn>
+               <t>такой же (о вещах)</t>
             </tg>
          </mg>
          <mg No="2">
@@ -14926,7 +14965,9 @@
                <head/>
             </m>
             <tg lang="rus">
-               <t>один другого стоит; одного поля ягода; одним миром мазаны</t>
+               <t>один другого стоит</t>
+               <t>одного поля ягода</t>
+               <t>одним миром мазаны</t>
             </tg>
             <xg>
                <x>гозъя найӧ ӧбаӧсь</x>
@@ -15077,7 +15118,12 @@
                <head/>
             </m>
             <tg lang="rus">
-               <t>жаркий; парной <register register="conversation"/>; горячий</t>
+               <t>жаркий</t>
+               <tCtn>
+                  <t>парной</t>
+                  <register register="conversation"/>
+               </tCtn>
+               <t>горячий</t>
             </tg>
             <xg>
                <x>ӧдъя пач</x>
@@ -15962,8 +16008,14 @@
                <head/>
             </m>
             <tg lang="rus">
-               <t>ровня <register register="conversation"/></t>
-               <t>равный (кому-л.)</t>
+               <tCtn>
+                  <t>ровня</t>
+                  <register register="conversation"/>
+               </tCtn>
+               <tCtn>
+                  <t>равный </t>
+                  <re>кому-л.</re>
+               </tCtn>
             </tg>
             <xg>
                <x>сійӧс видзис ас бердас ӧтрӧвня туйӧ</x>
