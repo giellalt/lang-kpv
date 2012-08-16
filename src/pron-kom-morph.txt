@@ -415,6 +415,24 @@ LEXICON PRON-NONHUM
 ! +Der/джык+Compar:%>джык INTERR-REL ;
 !               INTERR-REL ;
 
+LEXICON Ill4INTERR-REL-INDEF
++Ill: INTERR-REL-INDEF ;
+
+LEXICON EgrIll4INTERR-REL-INDEF
++Egr+Ill: INTERR-REL-INDEF ;
+
+LEXICON Egr4INTERR-REL-INDEF
++Egr: INTERR-REL-INDEF ;
+
+LEXICON Tra4INTERR-REL-INDEF
++Pron+Tra: INTERR-REL-INDEF ;
+
+LEXICON TraEgr4INTERR-REL-INDEF
++Tra+Egr: INTERR-REL-INDEF ;
+
+LEXICON Ter4INTERR-REL-INDEF
++Ter: INTERR-REL-INDEF ;
+
 LEXICON INTERR-REL-INDEF ! 3 types of pronouns are congregated here
  PRON-INDEFTAG ; ! This leads to a variety of indefinite pronouns
  INTERR-REL ; ! This leads to a split between relative and interrogative pronouns
@@ -451,6 +469,7 @@ LEXICON PRONINDEF-PERS-KO-END
 +Der/кӧ+Indef:%>кӧ K ;
 +Der/сюрӧ+Indef:%>сюрӧ K ; !Basically both endings can be used for deriving 
                      !indefinite pronouns from the interrogative/relative pronouns.
+
 
 LEXICON IS_PRON-INDEF-KO
 +Pron+Der/кӧ+Indef: K ;
