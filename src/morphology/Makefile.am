@@ -41,6 +41,7 @@ GENERATED_LEXC_SRCS=\
 		 stems/interjections.lexc \
 		 stems/nouns-deverbal.lexc \
 		 stems/nouns.lexc \
+		 stems/nouns-russian-homographs.lexc \
 		 stems/particles.lexc \
 		 stems/postpositions.lexc \
 		 stems/pronouns.lexc \
@@ -65,6 +66,7 @@ GT_XML_SRCS=\
 		 stems/interjections.xml \
 		 stems/nouns-deverbal.xml \
 		 stems/nouns.xml \
+		 stems/nouns-russian-homographs.xml \
 		 stems/particles.xml \
 		 stems/postpositions.xml \
 		 stems/pronouns.xml \
