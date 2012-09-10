@@ -1,0 +1,51 @@
+!! Proper noun inflection
+!! ----------------------
+!! The UNDEFINED language proper nouns inflect in the same cases as regular
+!! nouns, but with a colon (':') as separator.
+
+LEXICON Prop ! Basic nouns.
++N+Prop+Sg: CASEPOSSLEX ;
+
+LEXICON Prop-R-RY
++Prop: Noun1-R-RY ; ! This will bring about problems with ordering 2012-02-07
+
+LEXICON Prop-Derivable
++N+Prop+Sur+Mal+Sg: CASEPOSSLEX ; ! Владимиров
+а+N+Prop+Sur+Fem+Sg:%^FEM%>а CASEPOSSLEX ; ! Владимирова
+
+! Prop-Derivable end  in: ев, ов, ёв, ий, ин
+! Prop-Derivable for fem: ева, ова, ёва, ая, ина
+
+
+!This might need some working on 2012-01-23
+LEXICON Prop-Mal-Derivable !Patronyms
+ович+N+Prop+Patr+Mal+Sg:%>ович CASEPOSSLEX ; ! Владимирович
+овна+N+Prop+Patr+Fem+Sg:%>овна CASEPOSSLEX ; ! Владимировна
+ Prop-Mal ; ! Владимир
+
+
+LEXICON Prop-Plc ! Inanimate proper nouns. Place names
++N+Prop+Plc+Sg: CASEPOSSLEX ;
+
+LEXICON Prop-Plc-Rus ! Inanimate proper nouns. Place names
++N+Prop+Plc+Src/F+Sg: CASEPOSSLEX ;
+
+LEXICON Prop-Org ! Inanimate proper nouns. Name of organization
++N+Prop+Org+Sg: CASEPOSSLEX ;
+
+LEXICON Prop-Sur-Mal ! Basic nouns.
++N+Prop+Sur+Mal+Sg: CASEPOSSLEX ;
+
+LEXICON Prop-Mal ! Male given names
++N+Prop+Mal+Sg: CASEPOSSLEX ;
+
+LEXICON Prop-Sur-Fem ! Basic nouns.
++N+Prop+Sur+Fem+Sg: CASEPOSSLEX ;
+
+LEXICON Prop-Fem ! Female given names
++N+Prop+Fem+Sg: CASEPOSSLEX ;
+
+
+
+! vim: set ft=xfst-lexc:
+
