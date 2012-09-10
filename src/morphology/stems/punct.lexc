@@ -1,0 +1,73 @@
+! ================= !
+! Punctuation marks !
+! ================= !
+
+
+LEXICON Punctuation
+
+
+! Clause boundary symbols
+
+%,+CLB:%,           # ;
+%.+CLB:%.           # ;
+%.%.+CLB:%.%.       # ;
+%.%.%.+CLB:%.%.%.   # ;
+%:+CLB:%:           # ;
+%;+CLB:%;	        # ;
+^excl+CLB:%!	    # ;	!^C^
+%?+CLB:%?	        # ;
+…+CLB:…		        # ;
+¿+CLB:¿		        # ;	! Only seen as noise.
+¶+CLB:¶		        # ;	
+
+ §+N+ABBR:§ # ;    ! §:s	!
+ §§+N+ABBR:§§ # ;  ! §:ain	!
+ $+N+ABBR:$  # ;    ! $:s	!
+ €+N+ABBR:€  # ;    ! €:s	!
+ £+N+ABBR:£  # ;    ! €:s	!
+®+N+ABBR:® # ;
+©+N+ABBR:© # ;
+
+
+
+•+PUNCT:•	        # ;
+-+PUNCT:-           # ; !hyphen
+--+PUNCT:--         # ; !double hyphen
+–+PUNCT:–           # ; !endash
+—+PUNCT:—           # ; !emdash
+―+PUNCT:―           # ; ! even emmer dash?
+=+PUNCT:=           # ;
+&+PUNCT:&           # ;
+++PUNCT:+           # ;
+`+PUNCT:`           # ;
+´+PUNCT:´           # ;
+'+PUNCT:'           # ;
+
+!%%+PUNCT:%%         # ; ! This one causes problems in HFST
+!%"+PUNCT:%"         # ;
+!%*+PUNCT:%*         # ;
+!/+PUNCT:/           # ; 
+!+/-+PUNCT:+/-       # ;
+!%~+PUNCT:%~	        # ;
+
+! Paired punctuation marks
+
+
+%"+PUNCT:%"    # ;
+%«+PUNCT+RIGHT:%«   # ;
+%»+PUNCT+RIGHT:%»   # ;
+%“+PUNCT+LEFT:%“    # ;
+%”+PUNCT+RIGHT:%”   # ;
+%‘+PUNCT+LEFT:%‘    # ;
+%’+PUNCT+RIGHT:%’   # ;
+%‹+PUNCT+LEFT:%‹    # ;
+%›+PUNCT+RIGHT:%›   # ;
+%(+PUNCT+LEFT:%(    # ;
+%)+PUNCT+RIGHT:%)   # ;
+%[+PUNCT+LEFT:%[    # ;
+%]+PUNCT+RIGHT:%]   # ;
+%{+PUNCT+LEFT:%{    # ;
+%}+PUNCT+RIGHT:%}   # ;
+%<+PUNCT+LEFT:%<    # ;
+%>+PUNCT+LEFT:%>    # ;
+
