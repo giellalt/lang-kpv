@@ -1,0 +1,407 @@
+!Distributed under the terms of the GNU General Public License version 2 
+! or any later version.
+
+LEXICON Root
+HUNDREDSM ;		     ! 200M
+сё:1 HUNDREDM ; ! 100M
+TENSM ;		         ! 20-99M
+TEENSM ;	         ! 10-19M
+1MILJON ;            ! 1M
+ONESM ;		         ! 1-9M
+1GIGA ;            	 ! 1G
+ONESG ;		         ! 1-9G
+HUNDREDST ;	         ! 200000-999999
+сё:1 HUNDREDT ; ! 100000-100999
+TENST ;			     ! 20000-99999,10000-10999
+TEENST ;		     ! 11000-19999
+ONEST ;			     ! 2000-9999
+сюрс:1 THOUSAND ; ! 1000-1999
+
+UNDERTHOUSAND ;		 ! 100-999
+TENS ;			     ! 20-99
+TEENS ;			     ! 10-19
+ONES ;			     ! 1-9
+
+LEXICON ONESG
+ӧти% :   1GIGA ;
+
+кык:2    GIGA ;
+куим:3  GIGA ;
+нёль:4 GIGA ;
+
+вит:5  GIGA ;
+квайт:6  GIGA ;
+сизим:7  GIGA ;
+
+
+кӧкъямыс:8  GIGA ;
+ӧкмыс:9   GIGA ; 
+
+LEXICON 1GIGA
+милярд% :1 OVERMILLIONS ;
+
+LEXICON GIGA
+% милярд% : OVERMILLIONS ;
+
+LEXICON HUNDREDSM
+
+кык:2    CUODIM ;
+куим:3  CUODIM ;
+нёль:4 CUODIM ;
+
+вит:5  CUODIM ;
+квайт:6  CUODIM ;
+сизим:7  CUODIM ;
+
+
+кӧкъямыс:8  CUODIM ;
+ӧкмыс:9   CUODIM ;
+
+LEXICON CUODIM
+сё: HUNDREDM ; !200, not 100
+
+LEXICON HUNDREDM
+      TENSM ;
+      TEENSM ;
+:%0   ONESM ;
+:%0%0 MILJON ;
+
+LEXICON TEENSM
+:1 TEENM ;
+
+LEXICON TEENM
+ӧти:1     LOHKAIM ;
+
+кык:2     LOHKAIM ;
+куим:3   LOHKAIM ;
+нёль:4  LOHKAIM ;
+
+вит:5   LOHKAIM ;
+квайт:6   LOHKAIM ;
+сизим:7   LOHKAIM ;
+
+
+кӧкъямыс:8   LOHKAIM ;
+ӧкмыс:9    LOHKAIM ;
+
+LEXICON LOHKAIM
+дас: MILJON ;
+
+LEXICON TENSM
+дас:1%0 MILJON ;
+
+кык:2    LÅGEVM ;
+куим:3  LÅGEVM ;
+нёль:4 LÅGEVM ;
+
+вит:5  LÅGEVM ;
+квайт:6  LÅGEVM ;
+сизим:7  LÅGEVM ;
+
+
+кӧкъямыс:8  LÅGEVM ;
+ӧкмыс:9   LÅGEVM ;
+
+LEXICON LÅGEVM
+дас:%0 MILJON ;
+дас:     ONESM ;
+
+LEXICON ONESM
+ӧти% :   1MILJON ;
+
+кык:2    MILJON ;
+куим:3  MILJON ;
+нёль:4 MILJON ;
+
+вит:5  MILJON ;
+квайт:6  MILJON ;
+сизим:7  MILJON ;
+
+
+кӧкъямыс:8  MILJON ;
+ӧкмыс:9   MILJON ; 
+
+LEXICON 1MILJON
+миллион% :1 OVERTHOUSANDS ;
+миллион% :1  OVERTHOUSANDS ;
+
+LEXICON MILJON
+% милюн% : OVERTHOUSANDS ;
+
+! =================
+! Under the million
+! =================
+
+LEXICON OVERMILLIONS
+                    HUNDREDSM ;
+сё:1           HUNDREDM ;
+:%0                 TENSM ;
+:%0                 TEENSM ;
+:%0%0               1MILJON ;
+:%0%0               ONESM ;
+:%0%0%0             HUNDREDST ;		        ! x00.000.000
+сё:%0%0%01     HUNDREDT ;    ! 100.000.000
+:%0%0%0%0           TENST ;		        !  20.000.000
+:%0%0%0%0           TEENST ;		    !  10.000.000
+:%0%0%0%0%0         ONEST ;		    !   2.000.000
+сюрс:%0%0%0%0%01  THOUSAND ;	!   1.000.000
+:%0%0%0%0%0%0       UNDERTHOUSAND ;	
+:%0%0%0%0%0%0%0     TENS ;
+:%0%0%0%0%0%0%0     TEENS ;
+:%0%0%0%0%0%0%0%0   ONES ;
+:%0%0%0%0%0%0%0%0%0 COMMA ;	     !  x000000
+
+LEXICON OVERTHOUSANDS
+HUNDREDST ;		        ! x00.000.000
+сё:1 HUNDREDT ;    ! 100.000.000
+:%0 TENST ;		        !  20.000.000
+:%0 TEENST ;		    !  10.000.000
+:%0%0 ONEST ;		    !   2.000.000
+сюрс:%0%01 THOUSAND ;	!   1.000.000
+:%0%0%0 UNDERTHOUSAND ;	
+:%0%0%0%0 TENS ;
+:%0%0%0%0 TEENS ;
+:%0%0%0%0%0 ONES ;
+:%0%0%0%0%0%0 COMMA ;	     !  x000000
+
+LEXICON HUNDREDST
+
+кык:2    CUODIT ;
+куим:3  CUODIT ;	! 300000-399999
+нёль:4 CUODIT ;	! 400000-499999
+
+вит:5  CUODIT ;	! 500000-599999
+квайт:6  CUODIT ;	! 600000-699999
+сизим:7  CUODIT ;
+
+
+кӧкъямыс:8  CUODIT ;	! 800000-899999
+ӧкмыс:9   CUODIT ;	! 900000-999999
+
+LEXICON CUODIT
+сё: HUNDREDT ;	! 200000-199999
+
+LEXICON HUNDREDT	     ! X = 1-9, Y = 0-9
+TENST ;			     ! X2XYYY, X10YYY
+TEENST ;		     ! X1XYYY
+ӧти:%01 THOUSANDS ;
+:%0 ONEST ;		     ! XX0YYY
+:%0%0 THOUSANDS ;	 ! X00YYY
+
+LEXICON TEENST
+:1 TEENT ;
+
+LEXICON TEENT
+дас:%0 THOUSANDS ;
+ӧти:1 LOHKAIT ;
+
+кык:2 LOHKAIT ;
+куим:3 LOHKAIT ;
+нёль:4 LOHKAIT ;
+
+вит:5 LOHKAIT ;
+квайт:6 LOHKAIT ;
+сизим:7 LOHKAIT ;
+
+
+кӧкъямыс:8 LOHKAIT ;
+ӧкмыс:9 LOHKAIT ;
+
+LEXICON LOHKAIT
+дас: THOUSANDS ;
+
+LEXICON TENST
+
+кык:2 LÅGEVT ;
+куим:3 LÅGEVT ;
+нёль:4 LÅGEVT ;
+
+вит:5 LÅGEVT ;
+квайт:6 LÅGEVT ;
+сизим:7 LÅGEVT ;
+
+
+кӧкъямыс:8 LÅGEVT ;
+ӧкмыс:9 LÅGEVT ;
+
+LEXICON LÅGEVT
+дас:%0 THOUSANDS ;
+дас#ӧти#сюрс:1 THOUSAND ;
+дас: ONEST ;
+
+LEXICON ONEST
+
+кык:2 THOUSANDS ;
+куим:3 THOUSANDS ;
+нёль:4 THOUSANDS ;
+
+вит:5 THOUSANDS ;
+квайт:6 THOUSANDS ;
+сизим:7 THOUSANDS ;
+
+
+кӧкъямыс:8 THOUSANDS ;
+ӧкмыс:9 THOUSANDS ;
+
+LEXICON THOUSANDS      ! x > 1
+сюрс: THOUSAND ;
+
+
+LEXICON THOUSAND
+UNDERTHOUSAND ;	   ! 1100-1999
+:%0 TENS ;	   ! 1020-1099
+:%0 TEENS ;	   ! 1010-1019
+:%0%0 ONES ;	   ! 1001-1009
+:%0%0%0 COMMA ;	   ! 1000
+
+!===========================
+!Here starts the 999 numbers
+!===========================
+
+LEXICON UNDERTHOUSAND
+HUNDREDS ;
+сё:1 HUNDRED ;
+
+tjuodát:1 CUODAAT ;
+
+LEXICON HUNDREDS
+
+кык:2 CUODI ;
+куим:3 CUODI ;
+нёль:4 CUODI ;
+
+вит:5 CUODI ;
+квайт:6 CUODI ;
+сизим:7 CUODI ;
+
+
+кӧкъямыс:8 CUODI ;
+ӧкмыс:9 CUODI ;
+
+LEXICON CUODI
+сё: HUNDRED ;
+
+tjuodát: CUODAAT ;
+
+LEXICON HUNDRED
+TENS ;
+TEENS ;
+:%0 ONES ;
+:%0%0 COMMA ;
+
+LEXICON CUODAAT
+:%0%0%.    COMMA ;
+
+
+LEXICON TEENS
+:1 TEEN ;
+%дас:1 TEEN2 ;
+
+LEXICON TEEN
+ӧти:1 LOHKAI ;
+
+кык:2 LOHKAI ;
+куим:3 LOHKAI ;
+нёль:4 LOHKAI ;
+
+вит:5 LOHKAI ;
+квайт:6 LOHKAI ;
+сизим:7 LOHKAI ;
+
+
+кӧкъямыс:8 LOHKAI ;
+ӧкмыс:9 LOHKAI ;
+
+LEXICON TEEN2
+ӧти:1 COMMA ;
+
+кык:2 COMMA ;
+куим:3 COMMA ;
+нёль:4 COMMA ;
+
+вит:5 COMMA ;
+квайт:6 COMMA ;
+сизим:7 COMMA ;
+
+
+кӧкъямыс:8 COMMA ;
+ӧкмыс:9 COMMA ;
+
+LEXICON LOHKAI
+дас: COMMA ;
+:%.      LOGAAT ;
+
+LEXICON LOGAAT
+lågåt: COMMA ;
+
+
+LEXICON TENS
+дас:1%0 COMMA ;
+дасde:1%0%. COMMA ; ! sma, correct this
+
+кык:2 LÅGEV ;
+куим:3 LÅGEV ;
+нёль:4 LÅGEV ;
+
+вит:5 LÅGEV ;
+квайт:6 LÅGEV ;
+сизим:7 LÅGEV ;
+
+
+кӧкъямыс:8 LÅGEV ;
+ӧкмыс:9 LÅGEV ;
+
+LEXICON LÅGEV
+дас:%0 COMMA ;
+дас:%0 COMMA ;
+дас: ONES ;
+
+
+LEXICON ONES
+CARDINAL ;
+ORDINAL ;
+
+LEXICON CARDINAL
+ӧти:1    COMMA ;
+
+кык:2    COMMA ;
+куим:3  COMMA ;
+нёль:4 COMMA ;
+
+вит:5  COMMA ;
+квайт:6  COMMA ;
+сизим:7  COMMA ;
+
+кӧкъямыс:8  COMMA ;
+ӧкмыс:9   COMMA ;
+
+LEXICON ORDINAL
+vuosttasj:1%.     COMMA ;
+nuppát:2%.   COMMA ;
+goalmát:3%.   COMMA ;
+nælját:4%. COMMA ;
+viđát:5%.   COMMA ;
+gudát:6%.   COMMA ;
+giehttjit:7%.    COMMA ;
+gávtsát:8%.   COMMA ;
+avtsát:9%.    COMMA ;
+
+LEXICON COMMA
+ ENDLEX ;
+ COMMASECTION ;
+
+LEXICON COMMASECTION  ! these are not spellchecked!!!
+                  ENDLEX ;
+! % komma% :,      Root ;
+! % tjuohkkis% :%. Root ;
+! % kolon% :%:     Root ;
+! % sárggis% :%-   Root ; 
+ % la% :%=         Root ; 
+ % gráda% :%°      Root ; 
+ % paragráfa% :§   Root ; 
+! % násti% :%*     Root ; 
+ % ja% :&          Root ; 
+
+LEXICON ENDLEX
+ # ;
+
