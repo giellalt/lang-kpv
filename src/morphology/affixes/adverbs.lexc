@@ -1,0 +1,138 @@
+!! Adverb inflection
+!! ---------------
+!! Komi adverbs inflect for direction.
+
+
+LEXICON Ad-ATAG ! these are checked as advs.
++AdA: # ;
+
+LEXICON ADV-IS_GER-IGON ! these are checked as gerunds in +Der/иг
++V+Der/иг+Instr: ADVTAG ;
+
+LEXICON ADV-IS_GER-IGTYRJI ! these are checked as gerunds in +Der/иг
++V+Der/иг+Der/тырйи: ADVTAG ;
+
+LEXICON ADV-IS_GER-MON ! these are checked as gerunds in +Der/мӧн
++V+Der/мӧн: ADVTAG ;
+
+LEXICON ADV-IS_GER-TOG ! these are checked as gerunds in +Der/тӧг
++V+Der/тӧг: ADVTAG ;
+
+LEXICON ADV-IS_GER-TODZ ! these are checked as gerunds in +Der/тӧдз
++V+Der/тӧдз: ADVTAG ;
+
+LEXICON ADV-IS_N-TOG ! these are checked as state adverbials in +Der/тӧг
++N+Der/тӧг: ADVTAG ;
+
+LEXICON ADV-IS_ADV-TOG ! polar adverbials in +Der/тӧг
++Adv+Der/тӧг: ADVTAG ;
+
+LEXICON ADV-IS_Q-TOG ! polar adverbials in +Der/тӧг
++Qnt+Der/тӧг: ADVTAG ;
+
+LEXICON ADV-IS_SUPERL !
++Der/мед: ADVTAG ;
+
+LEXICON ADV-F !
++Src/F: ADVTAG ;
+
+LEXICON ADV-STATE !
++Adv+State: COMPARATIVE ; !
+
+LEXICON AdvParenthetic
++Adv+Parenthetic: # ;
+
+LEXICON ADVTAG ! these are checked as advs.
++Adv: COMPARATIVE ;
+
+LEXICON ADV-SPAT ! these are adverbs in spatial cases
+      !and they probably are equivalent in morphology to postpositions
+ ADV-SPAT-APR ;
+ ADV-SPAT-APRILL ;
+ ADV-SPAT-APRINE ;
+ ADV-SPAT-APRELA ;
+ ADV-SPAT-EGR ;
+ ADV-SPAT-ELA ;
+ ADV-SPAT-ILL ;
+ ADV-SPAT-INE ;
+ ADV-SPAT-PRL ;
+ ADV-SPAT-TER ;
+ ADV-SPAT-TRA ;
+
+LEXICON ADV-SPAT-LA ! These adverbs have a formative in ла
++Der/ла: ADV-SPAT ;
+
+LEXICON ADV-SPAT-APR
++Adv+Spat+Apr:%>лань SPAT-COMPARATIVE ;
+
+LEXICON ADV-SPAT-APRELA
++Adv+Spat+Apr:%>ланьысь SPAT-COMPARATIVE ;
+
+LEXICON ADV-SPAT-APRILL
++Adv+Spat+Apr:%>ланьӧ SPAT-COMPARATIVE ;
+
+LEXICON ADV-SPAT-APRINE
++Adv+Spat+Apr:%>ланьын SPAT-COMPARATIVE ;
+
+LEXICON ADV-SPAT-EGR
++Adv+Spat+Egr:%>сянь SPAT-COMPARATIVE ;
+
+LEXICON ADV-SPAT-ELA
++Adv+Spat+Ela:%>ысь SPAT-COMPARATIVE ;
+
+LEXICON ADV-SPAT-ILL
++Adv+Spat+Ill:%>ӧ SPAT-COMPARATIVE ;
+
+LEXICON ADV-SPAT-INE
++Adv+Spat+Ine:%>ын SPAT-COMPARATIVE ;
+
+LEXICON ADV-SPAT-PRL
++Adv+Spat+Prl:%>ӧд K ;
+
+LEXICON ADV-SPAT-TRA
++Adv+Spat+Tra:%>ті COMPARATIVE ;
+
+LEXICON ADV-SPAT-TER
++Adv+Spat+Ter:%>ӧдз COMPARATIVE ;
+
+LEXICON ADV-VTER
++V+Der/тӧдз+Adv+Temp+Ter:%>тӧдз K ;
+
+! Adverbs with ready morphology
+LEXICON ADV-IS_APRELA
++Adv+Apr+Ela: SPAT-COMPARATIVE ;
+
+LEXICON ADV-IS_APRILL
++Adv+Apr+Ill: SPAT-COMPARATIVE ;
+
+LEXICON ADV-IS_APRINE
++Adv+Apr+Ine: SPAT-COMPARATIVE ;
+
+LEXICON ADV-IS_APR
++Adv+Apr: SPAT-COMPARATIVE ;
+
+LEXICON ADV-IS_EGR
++Adv+Egr: SPAT-COMPARATIVE ;
+
+LEXICON ADV-IS_ELA
++Adv+Ela: SPAT-COMPARATIVE ;
+
+LEXICON ADV-IS_ILL
++Adv+Ill: IllCompar ;
+
+LEXICON ADV-IS_INE
++Adv+Ine: SPAT-COMPARATIVE ;
+
+LEXICON ADV-IS_PROL
++Adv+Prol: K ;
+
+LEXICON ADV-IS_TER
++Adv+Ter: K ;
+
+LEXICON ADV-IS_TRA
++Adv+Tra: K ;
+
+
+
+! vim: set ft=xfst-lexc:
+
