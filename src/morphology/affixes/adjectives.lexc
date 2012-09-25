@@ -1,0 +1,36 @@
+!! Adjective inflection
+!! --------------------
+!! Komi (Zyrien) adjectives compare.
+
+
+
+LEXICON Adj-IS_PTC-TOM ! 2011-11-15 participle = derivation type; 
++V+Der/тӧм: Adj ;
+
+LEXICON Adj-IS_PTC-YSJ
++V+Der/ысь: Adj ;
+
+LEXICON Adj-IS_PTC-ANA !
++V+Der/ана: Adj ;
+
+LEXICON Adj-IS_TOM
++N+Der/тӧм: Adj ;
+
+LEXICON Adj-IS_SUPERL !
++Superl: Adj ;
+
+LEXICON Adj-SUPERL !
++Superl: Adj ;
+
+LEXICON A-PRED ! ӧбиднӧ
++A+Pred: # ; !
+
+
+LEXICON Adj
++A: AdjCompar ;
++A+Der/лун:%>лун Noun1 ; !Derivational suffix for A-N
++A+Der/а:%>а ADVTAG ; ! Derivation for adjective-to-adverb
+
+
+! vim: set ft=xfst-lexc:
+
