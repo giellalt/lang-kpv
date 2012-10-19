@@ -216,7 +216,7 @@ LEXICON VerbEnd-Comparison
 
 LEXICON VerbEnd
  Serial-Verbs ;
- # ;
+ WordEnd ;
 
 LEXICON Serial-Verbs
 +SerialVerb:- verbs-A2M ;
@@ -321,16 +321,16 @@ LEXICON Verb-ynyDer
 +Der/ышт+Dim@C.CONJ-INF@@C.CONJ-POSS@:ышт@C.CONJ-INF@@C.CONJ-POSS@ Verb-ny ; !!кольмыштны
 !+V+Der/ышт+Dim+V:%>ышт  VerbConj ;
 !+V+Der/ышт+Dim+V+Inf:%>ыштны K ;
-!+V+Der/ышт+Dim+V+ConNeg0@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ыштны@U.CONJ-CONNEG.YES@0@U.CONJ-NX.PL@@U.CONJ-PX.3@ # ;
-!+V+Der/ышт+Dim+V+ConNeg@U.CONJ-CONNEG.YES@:%>ышт0@U.CONJ-CONNEG.YES@ # ;
-!+V+Der/ышт+Dim+V+Imprt+Sg2:%>ышт # ;
+!+V+Der/ышт+Dim+V+ConNeg0@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ыштны@U.CONJ-CONNEG.YES@0@U.CONJ-NX.PL@@U.CONJ-PX.3@ WordEnd ;
+!+V+Der/ышт+Dim+V+ConNeg@U.CONJ-CONNEG.YES@:%>ышт0@U.CONJ-CONNEG.YES@ WordEnd ;
+!+V+Der/ышт+Dim+V+Imprt+Sg2:%>ышт WordEnd ;
 
 +Der/ышт+Dim+Der/лы@C.CONJ-INF@@C.CONJ-POSS@:ыштл@C.CONJ-INF@@C.CONJ-POSS@ Verb-yny ;   !!??кольмыштлыны
 !+V+Der/ышт+Dim+V+Der/лы+V:%>ыштл  VerbConj ;
 !+V+Der/ышт+Dim+V+Der/лы+V+Inf:%>ыштлыны K ;
-!+V+Der/ышт+Dim+V+Der/лы+V+ConNeg0@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ыштлыны@U.CONJ-CONNEG.YES@0@U.CONJ-NX.PL@@U.CONJ-PX.3@ # ;
-!+V+Der/ышт+Dim+V+Der/лы+V+ConNeg@U.CONJ-CONNEG.YES@:%>ыштл00@U.CONJ-CONNEG.YES@ # ;
-!+V+Der/ышт+Dim+V+Der/лы+V+Imprt+Sg2:%>ыштл # ;
+!+V+Der/ышт+Dim+V+Der/лы+V+ConNeg0@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ыштлыны@U.CONJ-CONNEG.YES@0@U.CONJ-NX.PL@@U.CONJ-PX.3@ WordEnd ;
+!+V+Der/ышт+Dim+V+Der/лы+V+ConNeg@U.CONJ-CONNEG.YES@:%>ыштл00@U.CONJ-CONNEG.YES@ WordEnd ;
+!+V+Der/ышт+Dim+V+Der/лы+V+Imprt+Sg2:%>ыштл WordEnd ;
 
 +Der/ышт+Dim+Der/лывлы@C.CONJ-INF@@C.CONJ-POSS@:ыштлывл@C.CONJ-INF@@C.CONJ-POSS@ Verb-yny ;  !!??кольмыштлывлыны
 
@@ -339,9 +339,9 @@ LEXICON Verb-ynyDer
 +Der/лывлы@C.CONJ-INF@@C.CONJ-POSS@:ывл@C.CONJ-INF@@C.CONJ-POSS@ Verb-yny ; !!тшӧктывлыны
 !+V+Der/ывлы+V:%>ывл VerbConj ; ! мынтывл - мынтывлан
 !+V+Der/ывлы+V+Inf:%>ывлыны K ;
-!+V+Der/ывлы+V+ConNeg000@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ывлыны@U.CONJ-CONNEG.YES@0@U.CONJ-NX.PL@@U.CONJ-PX.3@ # ;
-!+V+Der/ывлы+V+ConNeg0@U.CONJ-CONNEG.YES@:%>ывлы@U.CONJ-CONNEG.YES@ # ;
-!+V+Der/ывлы+V+Imprt+Sg2:%>ывлы # ;
+!+V+Der/ывлы+V+ConNeg000@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ывлыны@U.CONJ-CONNEG.YES@0@U.CONJ-NX.PL@@U.CONJ-PX.3@ WordEnd ;
+!+V+Der/ывлы+V+ConNeg0@U.CONJ-CONNEG.YES@:%>ывлы@U.CONJ-CONNEG.YES@ WordEnd ;
+!+V+Der/ывлы+V+Imprt+Sg2:%>ывлы WordEnd ;
 
 +Der/сьы@C.CONJ-INF@@C.CONJ-POSS@:ысь@C.CONJ-INF@@C.CONJ-POSS@ Verb-yny ; !! вевттьысьыны
 +Der/сь+Der/ышт+Dim@C.CONJ-INF@@C.CONJ-POSS@:ысьышт@C.CONJ-INF@@C.CONJ-POSS@ Verb-ny ; !!лэптысьыштны
@@ -368,7 +368,7 @@ LEXICON VerbDer-V
 +Der/мысь:%>мысь K ; ! !353
 +Der/тӧдз:%>тӧдз PossessiveSuffixes_NoSg1 ; !396
 +Der/мӧн:%>мӧн PossessiveSuffixes_NoSg1 ; !399-403
-+Der/мӧнъя:%>мӧнъя # ; !399-403
++Der/мӧнъя:%>мӧнъя WordEnd ; !399-403
 +Der/тӧм+VAbe:%>тӧм PossessiveSuffixes ;
 +Car:%>тӧг PossessiveSuffixes_NoSg1 ; ! 390
 +Car+Use/Sub:%>тӧгъя K ; !387
@@ -380,14 +380,14 @@ LEXICON VerbDer-V
 ! 2012-02-11 This is a problem; олан-вӧлан, овны-вӧвны
 LEXICON VerbPRT ! one verb, вӧвны 
 +V: preterite ;
-+V+ConNeg+Pl3@U.CONJ-CONNEG.YES@@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ны@U.CONJ-CONNEG.YES@@U.CONJ-NX.PL@@U.CONJ-PX.3@ # ;
-+V+ConNeg@U.CONJ-CONNEG.YES@:@U.CONJ-CONNEG.YES@ # ;
++V+ConNeg+Pl3@U.CONJ-CONNEG.YES@@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ны@U.CONJ-CONNEG.YES@@U.CONJ-NX.PL@@U.CONJ-PX.3@ WordEnd ;
++V+ConNeg@U.CONJ-CONNEG.YES@:@U.CONJ-CONNEG.YES@ WordEnd ;
 
 LEXICON EMYSHT ! эмышт "is a little / are a few"
-+V+Ind+Prs+Sg3@U.CONJ-MX.IND@:@U.CONJ-MX.IND@ # ;
-+V+Ind+Prs+Pl3@U.CONJ-MX.IND@@U.CONJ-NX.PL@@U.CONJ-PX.3@:@U.CONJ-MX.IND@@U.CONJ-NX.PL@@U.CONJ-PX.3@ # ;
++V+Ind+Prs+Sg3@U.CONJ-MX.IND@:@U.CONJ-MX.IND@ WordEnd ;
++V+Ind+Prs+Pl3@U.CONJ-MX.IND@@U.CONJ-NX.PL@@U.CONJ-PX.3@:@U.CONJ-MX.IND@@U.CONJ-NX.PL@@U.CONJ-PX.3@ WordEnd ;
  
 LEXICON GER ! 3 lexicalised +Ger forms.
-+V+Ger: # ;
++V+Ger: WordEnd ;
 
 ! vim: set ft=xfst-lexc:

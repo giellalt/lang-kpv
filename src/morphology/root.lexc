@@ -41,7 +41,16 @@ Multichar_Symbols
  +Sg +Pl
  +Nom
  +Gen +Abl +Dat 
- +Acc +Ill +Loc +Com +Com/Sh
+ +Acc +Instr +Com +Car +Cns +Comp
+ +Ine +Ela +Ill 
+ +Apr +Egr +Prl +Tra +Ter 
+! Compounding regular derivation case
+! +Der/Apr+Ine, +Der/Apr+Ela
+! +Der/Apr+Ill, +Der/Apr+Egr
+! +Der/Apr+Prl, +Der/Apr+Tra
+! +Der/Apr+Ter
+
+ 
 
 !! The possession is marked as such:
  +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
@@ -79,6 +88,7 @@ Multichar_Symbols
 
 !! Question and Focus particles:
  +Qst +Foc
++Der/И ! This comes at the end of a word _-и_ or after vowels some authors use _-й_
 +Clt
 +Clt/а !
 +Clt/ӧ !
@@ -203,7 +213,7 @@ Multichar_Symbols
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
  {aä} {oö} {uü}
-к2 л2 м2 т2 ь2 К2 Л2 М2 Т2 Ь2 %>
+к2 л2 м2 т2 ь2 К2 Л2 М2 Т2 Ь2 И2 %>
 
 !! And following triggers to control variation
  {front} {back}
@@ -254,6 +264,53 @@ Multichar_Symbols
 @C.CONJ-NX@
 @C.CONJ-PX@
 @C.CONJ-POSS@
+
+!! FLAGS USED WITH COLLECTIVE NOUNS
+! number
+@U.DECL-NX.SG@
+@U.DECL-NX.PL@
+@R.DECL-NX.PL@
+! case
+@U.DECL-CX.ABE@
+ @U.DECL-CX.ABL@
+ @U.DECL-CX.ACC@
+ @U.DECL-CX.APR@
+ @U.DECL-CX.APRINE@
+ @U.DECL-CX.APRILL@
+ @U.DECL-CX.APRELA@
+ @U.DECL-CX.APREGR@
+ @U.DECL-CX.APRPRL@
+ @U.DECL-CX.APRTRA@
+ @U.DECL-CX.APRTER@
+ @U.DECL-CX.CAR@
+ @U.DECL-CX.CMP@
+ @U.DECL-CX.CNS@
+ @U.DECL-CX.COM@
+ @U.DECL-CX.DAT@
+ @U.DECL-CX.EGR@
+ @U.DECL-CX.ELA@
+ @U.DECL-CX.GEN@
+ @U.DECL-CX.ILL@
+ @U.DECL-CX.INE@
+ @U.DECL-CX.INS@
+ @U.DECL-CX.NOM@
+ @U.DECL-CX.PRL@
+ @U.DECL-CX.TRA@
+ @U.DECL-CX.TER@
+
+! declension type
+@U.DECL-DX.INDEF@
+@U.DECL-DX.PX@
+
+! predicate
+!@U.DECL-PR.1@
+!@C.DECL-PR@
+
+!! Removal
+@C.DECL-NX@
+@C.DECL-DX@
+@C.DECL-CX@
+
 
 LEXICON Root
 TESTINGTESTING ;
@@ -314,32 +371,32 @@ LEXICON ABBR-IS_ADV
 +ABBR: ADVTAG ;
 
 LEXICON ABBR-IS_N
-+ABBR+N: # ; ! This needs a Noun1 continuation but the hyphen must 
++ABBR+N: WordEnd ; ! This needs a Noun1 continuation but the hyphen must 
              ! be dealt with for non-nominative-singular marking 2012-01-27
 
 LEXICON EndConj
-+CC: # ;
++CC: WordEnd ;
 
 LEXICON EndPart
-+Pcle: # ;
++Pcle: WordEnd ;
 
 LEXICON PcleIntens
-+Pcle+Intens: # ;
++Pcle+Intens: WordEnd ;
 
 LEXICON EndInterj
-+Interj: # ;
++Interj: WordEnd ;
 
 LEXICON EndNeg 
-+CC+Neg: # ; ! ни
++CC+Neg: WordEnd ; ! ни
 
 LEXICON EndQST
-+Qst: # ;
++Qst: WordEnd ;
 
 LEXICON ONOM-End
-+Onom: # ;
++Onom: WordEnd ;
 
 LEXICON DESCR-End
-+Descr: # ;
++Descr: WordEnd ;
 
 
 
@@ -348,19 +405,24 @@ LEXICON DESCR-End
 ! ======= !
 
 LEXICON K
-                 # ; 
-+Clt+Clt/а:%>%-а # ;
-+Clt+Clt/ӧ:%>%-ӧ # ;
-+Clt+Clt/тӧ:%>тӧ # ;
-+Clt+Clt/сӧ:%>сӧ # ;
+                 WordEnd ; 
++Clt+Clt/а:%>%-а WordEnd ;
++Clt+Clt/ӧ:%>%-ӧ WordEnd ;
++Clt+Clt/тӧ:%>тӧ WordEnd ;
++Clt+Clt/сӧ:%>сӧ WordEnd ;
 
+! For this all instances of _#_
+! were converted to _WordEnd_
+LEXICON WordEnd
+            # ;
++Der/И:%-И2 # ;
 
 ! List of spurious lexica
 ! These should be fixed.
 
 
 LEXICON ADV-SUPERL
-+Adv+Superl: # ;
++Adv+Superl: WordEnd ;
 
 ! 2012-02-11
 ! This should have the following case forms pointing toward it:
