@@ -193,11 +193,13 @@ define NoTrippleLetters [ с -> 0 || с _ %> с ,,
  !€ Блатт>тӧг:Блаттӧг
  !€ металл>лӧн:металлӧн
 
+define IClitic [ И2 (->) й || Vow %- _ .#. ] ;
+
 echo << defining cleanup rules >>
 
 define Cleanup ӧ2 -> ӧ, е2 -> е, о2 -> о, к2 -> к, л2 -> л, м2 -> м, т2 -> т,
                Ӧ2 -> Ӧ, Е2 -> Е, О2 -> О, К2 -> К, Л2 -> Л, М2 -> М, Т2 -> Т, 
-               ь2 -> ь, Ь2 -> Ь ;
+               ь2 -> ь, Ь2 -> Ь , И2 -> и ;
 
 define Deletion [ %@ -> 0 ] ;
 
@@ -224,6 +226,7 @@ read regex [
 .o. HardMarkDeletion
 .o. HardMarkPalatalisation
 .o. NoTrippleLetters
+.o. IClitic
 .o. Cleanup
 .o. Deletion
 .o. DummyDeletion

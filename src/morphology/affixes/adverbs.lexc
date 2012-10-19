@@ -4,7 +4,7 @@
 
 
 LEXICON Ad-ATAG ! these are checked as advs.
-+AdA: # ;
++AdA: WordEnd ;
 
 LEXICON ADV-IS_GER-IGON ! these are checked as gerunds in +Der/иг
 +V+Der/иг+Instr: ADVTAG ;
@@ -40,7 +40,7 @@ LEXICON ADV-STATE !
 +Adv+State: COMPARATIVE ; !
 
 LEXICON AdvParenthetic
-+Adv+Parenthetic: # ;
++Adv+Parenthetic: WordEnd ;
 
 LEXICON ADVTAG ! these are checked as advs.
 +Adv: COMPARATIVE ;
