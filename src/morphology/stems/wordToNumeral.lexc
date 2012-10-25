@@ -3,39 +3,35 @@
 
 LEXICON wordToNumeral
 HUNDREDSM ;		     ! 200M
-сё:1 HUNDREDM ; ! 100M
-TENSM ;		         ! 20-99M
-TEENSM ;	         ! 10-19M
-1MILJON ;            ! 1M
-ONESM ;		         ! 1-9M
-1GIGA ;            	 ! 1G
-ONESG ;		         ! 1-9G
-HUNDREDST ;	         ! 200000-999999
-сё:1 HUNDREDT ; ! 100000-100999
+сё:1 HUNDREDM ; 	     ! 100M
+TENSM ;		             ! 20-99M
+TEENSM ;	             ! 10-19M
+1MILJON ;            	     ! 1M
+ONESM ;		             ! 1-9M
+1GIGA ;            	     ! 1G
+ONESG ;		             ! 1-9G
+HUNDREDST ;	             ! 200000-999999
+сё:1 HUNDREDT ; 	     ! 100000-100999
 TENST ;			     ! 20000-99999,10000-10999
 TEENST ;		     ! 11000-19999
 ONEST ;			     ! 2000-9999
-сюрс:1 THOUSAND ; ! 1000-1999
+сюрс:1 THOUSAND ; 	     ! 1000-1999
 
-UNDERTHOUSAND ;		 ! 100-999
+UNDERTHOUSAND ;		     ! 100-999
 TENS ;			     ! 20-99
 TEENS ;			     ! 10-19
 ONES ;			     ! 1-9
 
 LEXICON ONESG
 ӧти% :   1GIGA ;
-
 кык:2    GIGA ;
-куим:3  GIGA ;
-нёль:4 GIGA ;
-
-вит:5  GIGA ;
+куим:3   GIGA ;
+нёль:4 	 GIGA ;
+вит:5  	 GIGA ;
 квайт:6  GIGA ;
 сизим:7  GIGA ;
-
-
 кӧкъямыс:8  GIGA ;
-ӧкмыс:9   GIGA ; 
+ӧкмыс:9     GIGA ; 
 
 LEXICON 1GIGA
 милярд% :1 OVERMILLIONS ;
@@ -44,18 +40,14 @@ LEXICON GIGA
 % милярд% : OVERMILLIONS ;
 
 LEXICON HUNDREDSM
-
-кык:2    CUODIM ;
-куим:3  CUODIM ;
-нёль:4 CUODIM ;
-
-вит:5  CUODIM ;
-квайт:6  CUODIM ;
-сизим:7  CUODIM ;
-
-
+кык:2       CUODIM ;
+куим:3      CUODIM ;
+нёль:4 	    CUODIM ;
+вит:5  	    CUODIM ;
+квайт:6     CUODIM ;
+сизим:7     CUODIM ;
 кӧкъямыс:8  CUODIM ;
-ӧкмыс:9   CUODIM ;
+ӧкмыс:9     CUODIM ;
 
 LEXICON CUODIM
 сё: HUNDREDM ; !200, not 100
@@ -70,19 +62,15 @@ LEXICON TEENSM
 :1 TEENM ;
 
 LEXICON TEENM
-ӧти:1     LOHKAIM ;
-
-кык:2     LOHKAIM ;
-куим:3   LOHKAIM ;
-нёль:4  LOHKAIM ;
-
-вит:5   LOHKAIM ;
-квайт:6   LOHKAIM ;
-сизим:7   LOHKAIM ;
-
-
-кӧкъямыс:8   LOHKAIM ;
-ӧкмыс:9    LOHKAIM ;
+ӧти:1         LOHKAIM ;
+кык:2         LOHKAIM ;
+куим:3        LOHKAIM ;
+нёль:4        LOHKAIM ;
+вит:5         LOHKAIM ;
+квайт:6       LOHKAIM ;
+сизим:7       LOHKAIM ;
+кӧкъямыс:8    LOHKAIM ;
+ӧкмыс:9       LOHKAIM ;
 
 LEXICON LOHKAIM
 дас: MILJON ;
@@ -93,12 +81,9 @@ LEXICON TENSM
 кык:2    LÅGEVM ;
 куим:3  LÅGEVM ;
 нёль:4 LÅGEVM ;
-
 вит:5  LÅGEVM ;
 квайт:6  LÅGEVM ;
 сизим:7  LÅGEVM ;
-
-
 кӧкъямыс:8  LÅGEVM ;
 ӧкмыс:9   LÅGEVM ;
 
@@ -108,16 +93,12 @@ LEXICON LÅGEVM
 
 LEXICON ONESM
 ӧти% :   1MILJON ;
-
 кык:2    MILJON ;
 куим:3  MILJON ;
 нёль:4 MILJON ;
-
 вит:5  MILJON ;
 квайт:6  MILJON ;
 сизим:7  MILJON ;
-
-
 кӧкъямыс:8  MILJON ;
 ӧкмыс:9   MILJON ; 
 
@@ -169,12 +150,9 @@ LEXICON HUNDREDST
 кык:2    CUODIT ;
 куим:3  CUODIT ;	! 300000-399999
 нёль:4 CUODIT ;	! 400000-499999
-
 вит:5  CUODIT ;	! 500000-599999
 квайт:6  CUODIT ;	! 600000-699999
 сизим:7  CUODIT ;
-
-
 кӧкъямыс:8  CUODIT ;	! 800000-899999
 ӧкмыс:9   CUODIT ;	! 900000-999999
 
@@ -194,16 +172,12 @@ LEXICON TEENST
 LEXICON TEENT
 дас:%0 THOUSANDS ;
 ӧти:1 LOHKAIT ;
-
 кык:2 LOHKAIT ;
 куим:3 LOHKAIT ;
 нёль:4 LOHKAIT ;
-
 вит:5 LOHKAIT ;
 квайт:6 LOHKAIT ;
 сизим:7 LOHKAIT ;
-
-
 кӧкъямыс:8 LOHKAIT ;
 ӧкмыс:9 LOHKAIT ;
 
@@ -211,40 +185,33 @@ LEXICON LOHKAIT
 дас: THOUSANDS ;
 
 LEXICON TENST
-
-кык:2 LÅGEVT ;
-куим:3 LÅGEVT ;
-нёль:4 LÅGEVT ;
-
-вит:5 LÅGEVT ;
-квайт:6 LÅGEVT ;
-сизим:7 LÅGEVT ;
-
-
+кык:2    LÅGEVT ;
+куим:3 	 LÅGEVT ;
+нёль:4 	 LÅGEVT ;
+вит:5 	 LÅGEVT ;
+квайт:6  LÅGEVT ;
+сизим:7  LÅGEVT ;
 кӧкъямыс:8 LÅGEVT ;
-ӧкмыс:9 LÅGEVT ;
+ӧкмыс:9  LÅGEVT ;
 
 LEXICON LÅGEVT
 дас:%0 THOUSANDS ;
 дас#ӧти#сюрс:1 THOUSAND ;
-дас: ONEST ;
+дас% : ONEST ;
 
 LEXICON ONEST
 
-кык:2 THOUSANDS ;
-куим:3 THOUSANDS ;
-нёль:4 THOUSANDS ;
-
-вит:5 THOUSANDS ;
-квайт:6 THOUSANDS ;
-сизим:7 THOUSANDS ;
-
-
-кӧкъямыс:8 THOUSANDS ;
-ӧкмыс:9 THOUSANDS ;
+кык% :2       THOUSANDS ;
+куим% :3 	    THOUSANDS ;
+нёль% :4 	    THOUSANDS ;
+вит% :5 	    THOUSANDS ;
+квайт% :6     THOUSANDS ;
+сизим% :7     THOUSANDS ;
+кӧкъямыс% :8  THOUSANDS ;
+ӧкмыс% :9     THOUSANDS ;
 
 LEXICON THOUSANDS      ! x > 1
-сюрс: THOUSAND ;
+сюрс% : THOUSAND ;
 
 
 LEXICON THOUSAND
@@ -269,17 +236,14 @@ LEXICON HUNDREDS
 кык:2 CUODI ;
 куим:3 CUODI ;
 нёль:4 CUODI ;
-
 вит:5 CUODI ;
 квайт:6 CUODI ;
 сизим:7 CUODI ;
-
-
 кӧкъямыс:8 CUODI ;
 ӧкмыс:9 CUODI ;
 
 LEXICON CUODI
-сё: HUNDRED ;
+сё% : HUNDRED ;
 
 tjuodát: CUODAAT ;
 
@@ -339,23 +303,24 @@ LEXICON TENS
 дас:1%0 COMMA ;
 дасde:1%0%. COMMA ; ! sma, correct this
 
-кык:2 LÅGEV ;
-куим:3 LÅGEV ;
-нёль:4 LÅGEV ;
-
-вит:5 LÅGEV ;
-квайт:6 LÅGEV ;
+кызь% :2 LÅGEV2-6 ;
+комын% :3 LÅGEV2-6 ;
+нелямын% :4 LÅGEV2-6 ;
+ветымын% :5 LÅGEV2-6 ;
+квайтымын% :6 LÅGEV2-6 ;
 сизим:7 LÅGEV ;
-
-
 кӧкъямыс:8 LÅGEV ;
 ӧкмыс:9 LÅGEV ;
 
 LEXICON LÅGEV
 дас:%0 COMMA ;
 дас:%0 COMMA ;
-дас: ONES ;
+дас% : ONES ;
 
+! This is for the numerals 20-69
+LEXICON LÅGEV2-6
+:%0 COMMA ;
+ ONES 	  ;
 
 LEXICON ONES
 CARDINAL ;
