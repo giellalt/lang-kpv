@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<r xsi:noNamespaceSchemaLocation="../../../myv/script/dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
-   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+<r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <entry>
       <lg>
          <l>аддза</l>
@@ -1159,7 +1159,7 @@
             <st Contlex="ADVTAG">бокладор</st>
          </stg>
       </lg>
-      <pos>SPAT-0ARG</pos>
+      <pos>ADV-SPAT</pos>
       <e>
          <mg>
             <m>
@@ -1182,7 +1182,7 @@
             <st Contlex="PO-EGR">бокладор</st>
          </stg>
       </lg>
-      <pos>SPAT-0ARG</pos>
+      <pos>ADV-SPAT</pos>
       <e>
          <mg>
             <m>
@@ -2238,7 +2238,7 @@
             <st Contlex="PO-TEMP-IS_TRA-INSTR-SG3">бӧртинас</st>
          </stg>
       </lg>
-      <pos>TEMP-1ARG</pos>
+      <pos>POSTP-TEMP</pos>
       <e>
          <mg>
             <m>
@@ -2544,7 +2544,7 @@
             <st Contlex="PO-TER">бӧр</st>
          </stg>
       </lg>
-      <pos>TEMP-1ARG</pos>
+      <pos>POSTP-TEMP</pos>
       <e>
          <mg>
             <m>
@@ -2693,7 +2693,7 @@
             <st Contlex="POSTP1">веркыд</st>
          </stg>
       </lg>
-      <pos>TEMP-1ARG</pos>
+      <pos>POSTP-TEMP</pos>
       <e RNo="I">
          <mg>
             <m>
@@ -2725,7 +2725,7 @@
             <st Contlex="PO-INE">веркыд</st>
          </stg>
       </lg>
-      <pos>TEMP-1ARG</pos>
+      <pos>POSTP-TEMP</pos>
       <e>
          <mg>
             <m>
@@ -2761,7 +2761,7 @@
             <st Contlex="PO-TER">веркыд</st>
          </stg>
       </lg>
-      <pos>TEMP-1ARG</pos>
+      <pos>POSTP-TEMP</pos>
       <e>
          <mg>
             <m>
@@ -3341,7 +3341,7 @@
             <st Contlex="PO-INE">водзвыл</st>
          </stg>
       </lg>
-      <pos>TEMP-1ARG</pos>
+      <pos>POSTP-TEMP</pos>
       <e>
          <mg No="2">
             <m>
@@ -3819,7 +3819,7 @@
             <st Contlex="POSTP1">войдӧр</st>
          </stg>
       </lg>
-      <pos>TEMP-1ARG</pos>
+      <pos>POSTP-TEMP</pos>
       <e>
          <mg No="1">
             <m>
@@ -5624,7 +5624,7 @@
             <st Contlex="POSTP-NOUN">гӧгӧр</st>
          </stg>
       </lg>
-      <pos>TEMP-1ARG</pos>
+      <pos>POSTP-TEMP</pos>
       <e>
          <mg No="2">
             <m>
@@ -6432,7 +6432,6 @@
          <mg>
             <m>
                <head>
-                   
                   <re>(употр. тж. с опред.-притяж. суф.) </re>
                </head>
             </m>
@@ -11741,7 +11740,7 @@
             <st Contlex="PO-INE">сай</st>
          </stg>
       </lg>
-      <pos>TEMP-1ARG</pos>
+      <pos>POSTP-TEMP</pos>
       <e>
          <mg No="2">
             <m>
