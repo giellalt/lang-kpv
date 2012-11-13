@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<r xsi:noNamespaceSchemaLocation="../../../myv/script/dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty">
+<r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty">
    <entry exclude="fst">
       <lg>
          <l>мед-</l>
@@ -17,7 +18,7 @@
                </head>
             </m>
             <tg lang="rus">
-               <t pos="PART">наи-</t>
+               <t pos="PCLE_SUPERL">наи-</t>
             </tg>
             <tg lang="rus">
                <t pos="A">самый</t>
