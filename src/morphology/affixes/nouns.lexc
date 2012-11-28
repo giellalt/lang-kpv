@@ -37,10 +37,15 @@ LEXICON Noun1-SYT-STY !
 +Use/Sub:ть Noun1 ;  ! This deals with гӧсть
 :ьт         Noun1 ; ! This is the new proper spelling гӧсьт
 
-LEXICON Noun1 ! Basic nouns.
-+N+Cmp: R ;
-+N+Sg: CASEPOSSLEX ;
-+N+Pl:%>ъяс CASEPOSSLEX ;
+!! Basic nouns.
+LEXICON Noun1
++N: Noun1_01 ;
+
+LEXICON Noun1_01
++Cmp: R ;
++Sg: CASEPOSSLEX ;
++Pl:%>ъяс CASEPOSSLEX ;
+
 
 LEXICON Noun1-JM ! понйыс, понмыс 
 +N+Cmp:м R ;
