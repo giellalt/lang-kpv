@@ -4,9 +4,14 @@
 !! nouns, but with a colon (':') as separator.
 
 LEXICON ACRON
-+Acron:	Prop	;
++Acron:	PropTag	;
 
-LEXICON Prop ! Basic nouns.
+
+!LEXICON Prop 
+! PropTag ;
+
+! Basic nouns.
+LEXICON PropTag
 +N+Prop+Sg: CASEPOSSLEX ;
 
 LEXICON Prop-R-RY

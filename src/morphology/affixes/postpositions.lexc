@@ -7,6 +7,15 @@
 ! Postp lexica !
 ! ============ !
 
+LEXICON PoATag
++Po: AdjTag ;
+
+LEXICON PoNTag
++Po: NTag ;
+
+LEXICON PoTag
++Po: WordEnd ;
+
 ! Jaska! mikä on näiden kahden +Po -ryhmien erot?
 ! Poistetaan se ero toistaiseksi
 

@@ -4,6 +4,77 @@
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty">
    <e>
       <lg>
+         <l>ичӧта</l>
+         <stg>
+            <st Contlex="QntTag">ичӧта</st>
+         </stg>
+      </lg>
+      <pos>QNT</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>понемногу; небольшими порциями</t>
+         </tg>
+         <xg>
+            <x>лучковкаыс ичӧта босьтӧ, омӧля содӧ уджыс</x>
+            <xt lang="rus">лучковая пила понемногу берёт, работа идёт медленно</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ичӧтика</l>
+         <stg>
+            <st Contlex="QntTag">ичӧтика</st>
+         </stg>
+      </lg>
+      <pos>QNT</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>немного, немножко</t>
+         </tg>
+         <xg>
+            <x>ичӧтика сёйыштны</x>
+            <xt lang="rus">немного поесть, покушать</xt>
+         </xg>
+         <xg>
+            <x>ичӧтика шойччыштны</x>
+            <xt lang="rus">немножко отдохнуть</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>кыка-кык</l>
+         <stg>
+            <st Contlex="QntTag">кыка-кык</st>
+         </stg>
+      </lg>
+      <pos>QNT</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>целых два</t>
+         </tg>
+         <xg>
+            <x>кыка-кыкӧн пӧрӧдчыны</x>
+            <xt lang="rus">рубить лес вдвоём;</xt>
+         </xg>
+         <xg>
+            <x>кыка-кыкӧс быдтыны</x>
+            <xt lang="rus">вырастить целых двоих</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
          <l>ветымын</l>
          <stg>
             <st Contlex="NUMTAG">ветымын</st>
@@ -1214,7 +1285,7 @@
       <lg>
          <l>коймӧд-кӧ</l>
          <stg>
-            <st Contlex="ADVTAG">коймӧд-кӧ</st>
+            <st Contlex="AdvTag">коймӧд-кӧ</st>
          </stg>
       </lg>
       <pos>ADV-PARENTHETIC</pos>
@@ -4107,7 +4178,7 @@
       <lg>
          <l>уна</l>
          <stg>
-            <st Contlex="QNT">уна</st>
+            <st Contlex="QntTag">уна</st>
          </stg>
       </lg>
       <pos>QNT</pos>
@@ -4235,7 +4306,7 @@
       <lg>
          <l>этша</l>
          <stg>
-            <st Contlex="QNT">этша</st>
+            <st Contlex="QntTag">этша</st>
          </stg>
       </lg>
       <pos>NUM</pos>
@@ -4763,7 +4834,7 @@
       <lg>
          <l>ӧтиысь</l>
          <stg>
-            <st Contlex="ADVTAG">ӧтиысь</st>
+            <st Contlex="AdvTag">ӧтиысь</st>
          </stg>
       </lg>
       <pos>CARD-ITER</pos>
@@ -4780,7 +4851,7 @@
       <lg>
          <l>ӧткымын</l>
          <stg>
-            <st Contlex="QNT">ӧткымын</st>
+            <st Contlex="QntTag">ӧткымын</st>
          </stg>
       </lg>
       <pos>NUM</pos>
@@ -4820,7 +4891,7 @@
       <lg>
          <l>ӧтчыд-мӧдысь</l>
          <stg>
-            <st Contlex="ADVTAG">ӧтчыд-мӧдысь</st>
+            <st Contlex="AdvTag">ӧтчыд-мӧдысь</st>
          </stg>
       </lg>
       <pos>ORD-ITER</pos>
@@ -4841,7 +4912,7 @@
       <lg>
          <l>ӧтчыдысь</l>
          <stg>
-            <st Contlex="ADVTAG">ӧтчыдысь</st>
+            <st Contlex="AdvTag">ӧтчыдысь</st>
          </stg>
       </lg>
       <pos>CARD-ITER</pos>

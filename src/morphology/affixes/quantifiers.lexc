@@ -32,7 +32,10 @@ LEXICON ORD
 LEXICON NUM-IS_DISTR
 +Num+Distr: K ;
 
-LEXICON QNT
+!LEXICON QNT
+! QntTag ;
+
+LEXICON QntTag
 +Qnt: NumCASEPOSSLEX ;
 +Qnt+Card+Iter:%>ысь K ;
 +Qnt+Card+Iter+Instr:%>ысьӧн K ;
