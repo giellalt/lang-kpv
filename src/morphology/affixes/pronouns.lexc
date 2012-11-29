@@ -1133,4 +1133,12 @@ LEXICON PRON-NEG-SPAT
 LEXICON PRON-NEG-IS_ILL
 +Pron+Neg+Ill: K ;
 
+!! Tagged in the src/morphology/stems/pronouns.xml file
+LEXICON PronTag
++Pron: K ;
+LEXICON PronInterr
++Pron+Interr: WordEnd ;
+LEXICON PronIndef
++Pron+Indef: WordEnd ;
+
 ! vim: set ft=xfst-lexc:

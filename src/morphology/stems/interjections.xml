@@ -4,6 +4,77 @@
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty">
    <e>
       <lg>
+         <l>ей</l>
+         <stg>
+            <st Contlex="InterjTag">ей</st>
+         </stg>
+      </lg>
+      <pos>INTERJ</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>екуня-ваня</l>
+         <stg>
+            <st Contlex="InterjTag">екуня-ваня</st>
+         </stg>
+      </lg>
+      <pos>INTERJ</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <tCtn>
+               <t>ёлки-палки</t>
+               <re>(восклицание, выражающее удивление, негодование, возмущение)</re>
+            </tCtn>
+         </tg>
+         <xg>
+            <x>Но, екуня-ваняӧ! Кодкӧ тай войнас купайтчӧ</x>
+            <xt lang="rus">ну, ёлки-палки! Кто-то ночью купается</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>икӧтапызь</l>
+         <stg>
+            <st Contlex="InterjTag">икӧтапызь</st>
+         </stg>
+      </lg>
+      <pos>INTERJ</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="икӧта" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>кува</l>
+         <stg>
+            <st Contlex="InterjTag">кува</st>
+         </stg>
+      </lg>
+      <pos>INTERJ</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel RNo="II" lemmaID="куа" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+   <e>
+      <lg>
          <l>ало</l>
          <stg>
             <st Contlex="EndInterj">ало</st>

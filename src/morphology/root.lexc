@@ -387,7 +387,7 @@ LEXICON R
 ! ==================================== !
 
 LEXICON ABBR-IS_ADV
-+ABBR: ADVTAG ;
++ABBR: AdvTag ;
 
 LEXICON ABBR-IS_N
 +ABBR+N: WordEnd ; ! This needs a Noun1 continuation but the hyphen must 
@@ -396,13 +396,19 @@ LEXICON ABBR-IS_N
 LEXICON EndConj
 +CC: WordEnd ;
 
-LEXICON EndPart
+LEXICON PcleTag
 +Pcle: WordEnd ;
+
+LEXICON EndPart
+ PcleTag ;
 
 LEXICON PcleIntens
 +Pcle+Intens: WordEnd ;
 
 LEXICON EndInterj
+ InterjTag ;
+
+LEXICON InterjTag
 +Interj: WordEnd ;
 
 LEXICON EndNeg 
@@ -414,7 +420,9 @@ LEXICON EndQST
 LEXICON ONOM-End
 +Onom: WordEnd ;
 
-LEXICON DESCR-End
+!LEXICON DESCR-End
+! DescrTag ;
+LEXICON DescrTag
 +Descr: WordEnd ;
 
 

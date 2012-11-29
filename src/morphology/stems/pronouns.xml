@@ -17,7 +17,8 @@
             </head>
          </m>
          <tg lang="rus">
-            <t pos="A">свой, собственный</t>
+            <t pos="A">свой</t>
+            <t pos="A">собственный</t>
          </tg>
          <xg>
             <x>ас вӧляысь</x>
@@ -2572,7 +2573,7 @@
       <lg>
          <l>душ-мӧд</l>
          <stg>
-            <st Contlex="QNT">душ-мӧд</st>
+            <st Contlex="QntTag">душ-мӧд</st>
          </stg>
       </lg>
       <pos>QNT</pos>
@@ -2601,7 +2602,7 @@
       <lg>
          <l>мукӧд</l>
          <stg>
-            <st Contlex="QNT">мукӧд</st>
+            <st Contlex="QntTag">мукӧд</st>
          </stg>
       </lg>
       <pos>QNT</pos>
@@ -2702,7 +2703,7 @@
       <lg>
          <l>ӧткымын</l>
          <stg>
-            <st Contlex="QNT">ӧткымын</st>
+            <st Contlex="QntTag">ӧткымын</st>
          </stg>
       </lg>
       <pos>QNT</pos>
@@ -11015,7 +11016,7 @@
       <lg>
          <l>мӧдарвыв</l>
          <stg>
-            <st Contlex="ADVTAG">мӧдарвыв</st>
+            <st Contlex="AdvTag">мӧдарвыв</st>
          </stg>
       </lg>
       <pos>ADV</pos>
@@ -12672,7 +12673,7 @@
       <lg>
          <l>самӧй</l>
          <stg>
-            <st Contlex="EndPart">самӧй</st>
+            <st Contlex="PcleTag">самӧй</st>
          </stg>
       </lg>
       <pos>PCLE</pos>
@@ -13011,7 +13012,7 @@
       <lg>
          <l>ӧтарвыв</l>
          <stg>
-            <st Contlex="ADVTAG">ӧтарвыв</st>
+            <st Contlex="AdvTag">ӧтарвыв</st>
          </stg>
       </lg>
       <pos>ADV-SPAT</pos>
@@ -13180,7 +13181,7 @@
       <lg>
          <l>ӧтарсянь-мӧдарсянь</l>
          <stg>
-            <st Contlex="ADVTAG">ӧтарсянь-мӧдарсянь</st>
+            <st Contlex="AdvTag">ӧтарсянь-мӧдарсянь</st>
          </stg>
       </lg>
       <pos>QNT-PRON</pos>
@@ -13237,7 +13238,7 @@
       <lg>
          <l>ӧтарын-мӧдарын</l>
          <stg>
-            <st Contlex="ADVTAG">ӧтарын-мӧдарын</st>
+            <st Contlex="AdvTag">ӧтарын-мӧдарын</st>
          </stg>
       </lg>
       <pos>QNT-PRON</pos>
@@ -13369,7 +13370,7 @@
       <lg>
          <l>ӧтарӧ-мӧдарӧ</l>
          <stg>
-            <st Contlex="ADVTAG">ӧтарӧ-мӧдарӧ</st>
+            <st Contlex="AdvTag">ӧтарӧ-мӧдарӧ</st>
          </stg>
       </lg>
       <pos>QNT-PRON</pos>
@@ -13466,7 +13467,7 @@
       <lg>
          <l>ӧтмында</l>
          <stg>
-            <st Contlex="QNT">ӧтмында</st>
+            <st Contlex="QntTag">ӧтмында</st>
          </stg>
       </lg>
       <pos>QNT-PRON</pos>
@@ -13643,6 +13644,246 @@
             <x>челядь ӧтмӧдарӧ сявмунісны</x>
             <xt lang="rus">дети бросились в разные стороны</xt>
          </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>кор-нибудь</l>
+         <stg>
+            <st Contlex="PronIndef">кор-нибудь</st>
+         </stg>
+      </lg>
+      <pos>PRON-INDEF</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>когда-нибудь</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>кыдз-мый</l>
+         <stg>
+            <st Contlex="PronTag">кыдз-мый</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="кыдзи-мый" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>кыт</l>
+         <stg>
+            <st Contlex="PronInterr">кыт</st>
+         </stg>
+      </lg>
+      <pos>PRON-INTERR</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>где, по какому месту</t>
+         </tg>
+         <xg>
+            <x>кыт ті мунінныд?</x>
+            <xt lang="rus">где вы шли?</xt>
+         </xg>
+         <xg genreType="proverb">
+            <x>кыті емыс, сэті и сунисыс</x>
+            <xt lang="rus">куда иголка, туда и нитка</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>кытчань</l>
+         <stg>
+            <st Contlex="PronInterr">кытчань</st>
+         </stg>
+      </lg>
+      <pos>PRON-INTERR</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>в какую сторону; куда</t>
+         </tg>
+         <xg>
+            <x>кытчань колӧ пӧрӧдны пусӧ</x>
+            <xt lang="rus">в какую сторону надо повалить дерево</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>кытчӧ-мый</l>
+         <stg>
+            <st Contlex="PronTag">кытчӧ-мый</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>где-как</t>
+         </tg>
+         <xg>
+            <x>кӧсйи тӧдмавны, кытчӧ-мый узьмӧдчас ош</x>
+            <xt lang="rus">хотел узнать, где-как устроиться медведь на зиму</xt>
+         </xg>
+      </mg>
+   </e>
+   <e exclude="fst">
+      <lg>
+         <l>кытшалысьяс</l>
+         <stg>
+            <st Contlex="NTag">кытшалысьяс</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>окружающие</t>
+         </tg>
+         <xg>
+            <x>мед не лоны сійӧс кытшалысьяслы серам пыдди</x>
+            <xt lang="rus">чтобы не стать предметом для его окружающих</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>кытысь</l>
+         <stg>
+            <st Contlex="PronInterr">кытысь</st>
+         </stg>
+      </lg>
+      <pos>PRON-INTERR</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel RNo="I" lemmaID="кысь" semRelType="see"/>
+         </m>
+         <tg lang="rus">
+            <t/>
+         </tg>
+         <xg>
+            <x>кытысь сійӧс аддзыны?</x>
+            <xt lang="rus">где его увидеть?</xt>
+         </xg>
+         <xg genreType="saying">
+            <x>кытысь гурйыштан, сэтысь и кокыштан</x>
+            <literal>
+               <xt lang="rus">где выроешь, там и выклюнешь</xt>
+            </literal>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>кытӧн</l>
+         <stg>
+            <st Contlex="PronInterr">кытӧн</st>
+         </stg>
+      </lg>
+      <pos>PRON-INTERR</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>где</t>
+         </tg>
+         <xg>
+            <x>сійӧ кытӧн?</x>
+            <xt lang="rus">где он?</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>в котором</t>
+         </tg>
+         <xg>
+            <x>школа, кытӧн велӧдчис вок</x>
+            <xt lang="rus">школа, в которой учился брат</xt>
+         </xg>
+         <xg>
+            <x>кытӧн висьӧ, сэтӧн ки; кытӧн муса (мича), сэтӧн син</x>
+            <xt lang="rus">где больно, там рука; где мило, там глаза</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>кӧнъя</l>
+         <stg>
+            <st Contlex="PronInterr">кӧнъя</st>
+         </stg>
+      </lg>
+      <pos>PRON-INTERR</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>где и</t>
+         </tg>
+         <xg>
+            <x>кӧнъя тэ ветлан!</x>
+            <xt lang="rus">где ты и ходишь!</xt>
+         </xg>
+         <xg>
+            <x>кӧнъясын тэ вӧлін?</x>
+            <xt lang="rus">в каких местах ты бывал?</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>быдсӧн</l>
+         <stg>
+            <st Contlex="PronTag">быдсӧн</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel RNo="I" lemmaID="быдӧн" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>быдсӧн</l>
+         <stg>
+            <st Contlex="PronTag">быдсӧн</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel RNo="II" lemmaID="быдӧн" semRelType="see"/>
+         </m>
       </mg>
    </e>
 </r>
