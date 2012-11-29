@@ -4,6 +4,102 @@
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <e>
       <lg>
+         <l>кабыра</l>
+         <stg>
+            <st Contlex="PoNTag">кабыра</st>
+         </stg>
+      </lg>
+      <pos>POSTP-N</pos>
+      <mg>
+         <m>
+            <head>
+               <re>только с опр.</re>
+            </head>
+         </m>
+         <tg lang="rus">
+            <t>:</t>
+         </tg>
+         <xg>
+            <x>чорыд кабыра</x>
+            <xt lang="rus">хваткий</xt>
+         </xg>
+         <xg>
+            <x>киыс тшапыд кабыра</x>
+            <xt lang="rus">(у него) руки хваткие</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>килоа</l>
+         <stg>
+            <st Contlex="PoATag">килоа</st>
+         </stg>
+      </lg>
+      <pos>POSTP-A</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="килограмма" semRelType="see"/>
+         </m>
+         <xg>
+            <x>килоа гира</x>
+            <xt lang="rus">килограммовая гиря</xt>
+         </xg>
+         <xg>
+            <x>килоа сир</x>
+            <xt lang="rus">килограммовая щука</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>кодься</l>
+         <stg>
+            <st Contlex="PoATag">кодься</st>
+         </stg>
+      </lg>
+      <pos>POSTP-A</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="кодь" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>кышӧда</l>
+         <stg>
+            <st Contlex="PoATag">кышӧда</st>
+         </stg>
+      </lg>
+      <pos>POSTP-A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>крытый чем-л.</t>
+         </tg>
+         <xg>
+            <x>ной кышӧда малича</x>
+            <xt lang="rus">малица, крытая сукном</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head>
+               <range rangeSpat="dialect"/>
+            </head>
+         </m>
+         <tg lang="rus">
+            <t>одетый</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
          <l>аддза</l>
          <stg>
             <st Contlex="PO-PX">аддза</st>
@@ -1072,7 +1168,7 @@
       <lg>
          <l>бокладор</l>
          <stg>
-            <st Contlex="ADVTAG">бокладор</st>
+            <st Contlex="AdvTag">бокладор</st>
          </stg>
       </lg>
       <pos>ADV-SPAT</pos>
@@ -2232,7 +2328,7 @@
       <lg>
          <l>бӧрыннас</l>
          <stg>
-            <st Contlex="ADVTAG">бӧрыннас</st>
+            <st Contlex="AdvTag">бӧрыннас</st>
          </stg>
       </lg>
       <pos>ADV</pos>

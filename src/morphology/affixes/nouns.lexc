@@ -38,8 +38,11 @@ LEXICON Noun1-SYT-STY !
 :ьт         Noun1 ; ! This is the new proper spelling гӧсьт
 
 !! Basic nouns.
-LEXICON Noun1
+LEXICON NTag
 +N: Noun1_01 ;
+
+LEXICON Noun1
+ NTag ;
 
 LEXICON Noun1_01
 +Cmp: R ;
@@ -352,7 +355,7 @@ LEXICON DERIVEDADJ
 LEXICON AdjCompar
 PredMonLex ;
 +Der/джык+Compar:%>джык PredMonLex ;
-+Der/джык+Compar+Der/а:%>джыка ADVTAG ;
++Der/джык+Compar+Der/а:%>джыка AdvTag ;
 +Der/джык+Compar+Der/MWN+N+Sg:%>джык CASEPOSSLEX-afterDerivation ;
 +Der/джык+Compar+Der/MWN+N+Pl:%>джыкъяс CASEPOSSLEX-afterDerivation ;
 +Der/MWN+N+Sg: CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
