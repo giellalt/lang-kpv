@@ -338,7 +338,6 @@ SUBSTANDARDS ; ! temporary solution
 
 !! The word forms in UNDEFINED language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
-	adjectives-superl	;
 	adjectives	;
 	adverbs	;
 	conjunctions	;
@@ -393,7 +392,14 @@ LEXICON ABBR-IS_N
 +ABBR+N: WordEnd ; ! This needs a Noun1 continuation but the hyphen must 
              ! be dealt with for non-nominative-singular marking 2012-01-27
 
-LEXICON EndConj
+LEXICON CcTag
++CC: WordEnd ;
+
+LEXICON CsTag
++CS: WordEnd ;
+
+
+LEXICON ConjTag
 +CC: WordEnd ;
 
 LEXICON PcleTag

@@ -4,9 +4,170 @@
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty">
    <e>
       <lg>
+         <l>кӧть</l>
+         <stg>
+            <st Contlex="CsTag">кӧть</st>
+         </stg>
+      </lg>
+      <pos>CS</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>хоть</t>
+         </tg>
+         <xg>
+            <x>кӧть ви</x>
+            <xt lang="rus">хоть убей</xt>
+         </xg>
+         <xg>
+            <x>кӧть коді</x>
+            <xt lang="rus">любой; хоть кто, кто угодно</xt>
+         </xg>
+         <xg>
+            <x>кӧть кор</x>
+            <xt lang="rus">в любой момент</xt>
+         </xg>
+         <xg>
+            <x>кӧть кутшӧм</x>
+            <xt lang="rus">хоть какой</xt>
+         </xg>
+         <xg>
+            <x>кӧть кыдз</x>
+            <xt lang="rus">во чтобы то ни стало</xt>
+         </xg>
+         <xg>
+            <x>кӧть мый</x>
+            <xt lang="rus">как-никак</xt>
+         </xg>
+         <xg>
+            <x>кӧть шуам</x>
+            <xt lang="rus">например</xt>
+         </xg>
+         <xg>
+            <x>кӧть эськӧ</x>
+            <xt lang="rus">хотя бы, хоть бы</xt>
+         </xg>
+         <xg>
+            <x>колӧ кӧть оз</x>
+            <xt lang="rus">хоть рад, хоть не рад</xt>
+         </xg>
+         <xg>
+            <x>виччысь кӧть вежон</x>
+            <xt lang="rus">жди хоть неделю</xt>
+         </xg>
+         <xg genreType="riddle">
+            <x>кӧть кыдз мунӧ, но бӧръя кокыс век панйӧ</x>
+            <xt lang="rus">как ни идёт, а задние лапы всегда обгоняют передние</xt>
+            <answer>
+               <native>кӧч</native>
+               <xt lang="rus">заяц</xt>
+            </answer>
+         </xg>
+         <xg>
+            <x>кӧть ваӧ пыр</x>
+            <xt lang="rus">хоть лопни</xt>
+         </xg>
+         <xg>
+            <x>кӧть гугӧд, кӧть банӧд</x>
+            <xt lang="rus">ни дать ни взять (совершенно такой же)</xt>
+         </xg>
+         <xg>
+            <x>кӧть шӧри орӧдчы</x>
+            <xt lang="rus">хоть разорвись</xt>
+         </xg>
+         <xg>
+            <x>кӧть юр вылас пес чипас тэч</x>
+            <xt lang="rus">хоть кол на голове теши</xt>
+            <xt tType="literal">хоть на голове сложи поленницу</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>либӧнӧсь</l>
+         <stg>
+            <st Contlex="CcTag">либӧнӧсь</st>
+         </stg>
+      </lg>
+      <pos>CC</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="либӧ" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медым</l>
+         <stg>
+            <st Contlex="CsTag">медым</st>
+         </stg>
+      </lg>
+      <pos>CS</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel RNo="I" lemmaID="мед" semRelType="see"/>
+         </m>
+         <tg lang="rus">
+            <t/>
+         </tg>
+         <xg>
+            <x>медым батьыд ачыс волас</x>
+            <xt lang="rus">пусть отец (твой) сам придёт</xt>
+         </xg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t/>
+         </tg>
+         <xg>
+            <x>виччысьлы, медым мӧдысь эз ков волыны</x>
+            <xt lang="rus">подожди, чтобы ещё раз не пришлось приходить</xt>
+         </xg>
+         <xg>
+            <x>колӧ, медым быдӧн ас местаас бура уджалісны</x>
+            <xt lang="rus">нужно, чтобы каждый на своём месте работал хорошо</xt>
+         </xg>
+         <xg>
+            <x>медым юяс да тыяс пыр вӧліны чериаӧсь, тӧждысьнысӧ колӧ ӧні</x>
+            <xt lang="rus">заботиться о том, чтобы реки и озёра всегда были богаты рыбой, нужно сегодня</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>мон</l>
+         <stg>
+            <st Contlex="CsTag">мон</st>
+         </stg>
+      </lg>
+      <pos>CS</pos>
+      <mg>
+         <m>
+            <head>
+               <re>сокр. ф.</re>
+            </head>
+         </m>
+         <tg lang="rus">
+            <t/>
+         </tg>
+         <xg>
+            <x>мед он</x>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
          <l>а</l>
          <stg>
-            <st Contlex="EndConj">а</st>
+            <st Contlex="CcTag">а</st>
          </stg>
       </lg>
       <pos>CC-ADVERSATIVE</pos>
@@ -85,7 +246,7 @@
       <lg>
          <l>али</l>
          <stg>
-            <st Contlex="EndConj">али</st>
+            <st Contlex="CcTag">али</st>
          </stg>
       </lg>
       <pos>CC-DISJUNCTIVE</pos>
@@ -110,7 +271,7 @@
       <lg>
          <l>быттьӧ</l>
          <stg>
-            <st Contlex="EndConj">быттьӧ</st>
+            <st Contlex="CsTag">быттьӧ</st>
          </stg>
       </lg>
       <pos>CS-COMPARISON</pos>
@@ -142,7 +303,7 @@
       <lg>
          <l>да</l>
          <stg>
-            <st Contlex="EndConj">да</st>
+            <st Contlex="CcTag">да</st>
          </stg>
       </lg>
       <pos>CC-ADDITIVE</pos>
@@ -175,7 +336,7 @@
       <lg>
          <l>да</l>
          <stg>
-            <st Contlex="EndConj">да</st>
+            <st Contlex="CcTag">да</st>
          </stg>
       </lg>
       <pos>CC-ADVERSATIVE</pos>
@@ -207,7 +368,7 @@
       <lg>
          <l>да</l>
          <stg>
-            <st Contlex="EndConj">да</st>
+            <st Contlex="CsTag">да</st>
          </stg>
       </lg>
       <pos>CS-CAUSE</pos>
@@ -247,7 +408,7 @@
       <lg>
          <l>да</l>
          <stg>
-            <st Contlex="EndConj">да</st>
+            <st Contlex="CcTag">да</st>
          </stg>
       </lg>
       <pos>CC-CORRELATIVE</pos>
@@ -292,7 +453,7 @@
       <lg>
          <l>дай</l>
          <stg>
-            <st Contlex="EndConj">дай</st>
+            <st Contlex="ConjTag">дай</st>
          </stg>
       </lg>
       <pos>CONJ</pos>
@@ -325,7 +486,7 @@
       <lg>
          <l>жӧ</l>
          <stg>
-            <st Contlex="EndConj">жӧ</st>
+            <st Contlex="CcTag">жӧ</st>
          </stg>
       </lg>
       <pos>CC-ADVERSATIVE</pos>
@@ -346,7 +507,7 @@
       <lg>
          <l>за</l>
          <stg>
-            <st Contlex="EndConj">за</st>
+            <st Contlex="ConjTag">за</st>
          </stg>
       </lg>
       <pos>CONJ</pos>
@@ -363,7 +524,7 @@
       <lg>
          <l>зато</l>
          <stg>
-            <st Contlex="EndConj">зато</st>
+            <st Contlex="CcTag">зато</st>
          </stg>
       </lg>
       <pos>CC-ADVERSATIVE</pos>
@@ -384,7 +545,7 @@
       <lg>
          <l>и</l>
          <stg>
-            <st Contlex="EndConj">и</st>
+            <st Contlex="CcTag">и</st>
          </stg>
       </lg>
       <pos>CC-ADDITIVE</pos>
@@ -425,7 +586,7 @@
       <lg>
          <l>и</l>
          <stg>
-            <st Contlex="EndConj">и</st>
+            <st Contlex="CcTag">и</st>
          </stg>
       </lg>
       <pos>CC-ADVERSATIVE</pos>
@@ -446,7 +607,7 @@
       <lg>
          <l>и</l>
          <stg>
-            <st Contlex="EndConj">и</st>
+            <st Contlex="CcTag">и</st>
          </stg>
       </lg>
       <pos>CC-EMPHATIC</pos>
@@ -481,7 +642,7 @@
       <lg>
          <l>и</l>
          <stg>
-            <st Contlex="EndConj">и</st>
+            <st Contlex="CsTag">и</st>
          </stg>
       </lg>
       <pos>CS-CONCESSIVE</pos>
@@ -509,7 +670,7 @@
       <lg>
          <l>кодыр</l>
          <stg>
-            <st Contlex="EndConj">кодыр</st>
+            <st Contlex="ConjTag">кодыр</st>
          </stg>
       </lg>
       <pos>CONJ</pos>
@@ -526,7 +687,7 @@
       <lg>
          <l>кымын</l>
          <stg>
-            <st Contlex="EndConj">кымын</st>
+            <st Contlex="CsTag">кымын</st>
          </stg>
       </lg>
       <pos>CS-CORRELATIVE</pos>
@@ -551,7 +712,7 @@
       <lg>
          <l>кӧ</l>
          <stg>
-            <st Contlex="EndConj">кӧ</st>
+            <st Contlex="CsTag">кӧ</st>
          </stg>
       </lg>
       <pos>CS</pos>
@@ -640,7 +801,7 @@
       <lg>
          <l>кӧть</l>
          <stg>
-            <st Contlex="EndConj">кӧть</st>
+            <st Contlex="CsTag">кӧть</st>
          </stg>
       </lg>
       <pos>CS</pos>
@@ -657,7 +818,7 @@
       <lg>
          <l>ли</l>
          <stg>
-            <st Contlex="EndConj">ли</st>
+            <st Contlex="CcTag">ли</st>
          </stg>
       </lg>
       <pos>CC-CORRELATIVE</pos>
@@ -686,7 +847,7 @@
       <lg>
          <l>либӧ</l>
          <stg>
-            <st Contlex="EndConj">либӧ</st>
+            <st Contlex="CcTag">либӧ</st>
          </stg>
       </lg>
       <pos>CC-DISJUNCTIVE</pos>
@@ -712,7 +873,7 @@
       <lg>
          <l>лёка</l>
          <stg>
-            <st Contlex="EndConj">лёка</st>
+            <st Contlex="CsTag">лёка</st>
          </stg>
       </lg>
       <pos>CS-CAUSE</pos>
@@ -737,7 +898,7 @@
       <lg>
          <l>мед</l>
          <stg>
-            <st Contlex="EndConj">мед</st>
+            <st Contlex="CsTag">мед</st>
          </stg>
       </lg>
       <pos>CS</pos>
@@ -767,7 +928,7 @@
       <lg>
          <l>медым</l>
          <stg>
-            <st Contlex="EndConj">медым</st>
+            <st Contlex="ConjTag">медым</st>
          </stg>
       </lg>
       <pos>CONJ</pos>
@@ -784,7 +945,7 @@
       <lg>
          <l>мый</l>
          <stg>
-            <st Contlex="EndConj">мый</st>
+            <st Contlex="ConjTag">мый</st>
          </stg>
       </lg>
       <pos>CONJ</pos>
@@ -805,7 +966,7 @@
       <lg>
          <l>мыйла</l>
          <stg>
-            <st Contlex="EndConj">мыйла</st>
+            <st Contlex="ConjTag">мыйла</st>
          </stg>
       </lg>
       <pos>CONJ</pos>
@@ -846,7 +1007,7 @@
       <lg>
          <l>мыйӧн</l>
          <stg>
-            <st Contlex="EndConj">мыйӧн</st>
+            <st Contlex="CsTag">мыйӧн</st>
          </stg>
       </lg>
       <pos>CS</pos>
@@ -887,7 +1048,7 @@
       <lg>
          <l>не то ..., не то</l>
          <stg>
-            <st Contlex="EndConj">не то ..., не то</st>
+            <st Contlex="CcTag">не то ..., не то</st>
          </stg>
       </lg>
       <pos>CC-CORRELATIVE</pos>
@@ -919,7 +1080,7 @@
       <lg>
          <l>непӧштӧ</l>
          <stg>
-            <st Contlex="EndConj">непӧштӧ</st>
+            <st Contlex="ConjTag">непӧштӧ</st>
          </stg>
       </lg>
       <pos>CONJ</pos>
@@ -947,7 +1108,7 @@
       <lg>
          <l>ни</l>
          <stg>
-            <st Contlex="EndConj">ни</st>
+            <st Contlex="CcTag">ни</st>
          </stg>
       </lg>
       <pos>CC</pos>
@@ -1011,7 +1172,7 @@
       <lg>
          <l>нисьӧ</l>
          <stg>
-            <st Contlex="EndConj">нисьӧ</st>
+            <st Contlex="ConjTag">нисьӧ</st>
          </stg>
       </lg>
       <pos>CONJ</pos>
@@ -1075,7 +1236,7 @@
       <lg>
          <l>но</l>
          <stg>
-            <st Contlex="EndConj">но</st>
+            <st Contlex="CcTag">но</st>
          </stg>
       </lg>
       <pos>CC-ADVERSATIVE</pos>
@@ -1100,7 +1261,7 @@
       <lg>
          <l>но_и</l>
          <stg>
-            <st Contlex="EndConj">но_и</st>
+            <st Contlex="ConjTag">но_и</st>
          </stg>
       </lg>
       <pos>CONJ</pos>
@@ -1117,7 +1278,7 @@
       <lg>
          <l>пӧ</l>
          <stg>
-            <st Contlex="EndConj">пӧ</st>
+            <st Contlex="ConjTag">пӧ</st>
          </stg>
       </lg>
       <pos>CONJ</pos>
@@ -1138,7 +1299,7 @@
       <lg>
          <l>стӧчджыка кӧ</l>
          <stg>
-            <st Contlex="EndConj">стӧчджыка кӧ</st>
+            <st Contlex="ConjTag">стӧчджыка кӧ</st>
          </stg>
       </lg>
       <pos>CONJ</pos>
@@ -1172,7 +1333,7 @@
       <lg>
          <l>сы_вӧсна_мый</l>
          <stg>
-            <st Contlex="EndConj">сы_вӧсна_мый</st>
+            <st Contlex="ConjTag">сы_вӧсна_мый</st>
          </stg>
       </lg>
       <pos>CONJ</pos>
@@ -1189,7 +1350,7 @@
       <lg>
          <l>сы_понда_мый</l>
          <stg>
-            <st Contlex="EndConj">сы_понда_мый</st>
+            <st Contlex="ConjTag">сы_понда_мый</st>
          </stg>
       </lg>
       <pos>CONJ</pos>
@@ -1206,7 +1367,7 @@
       <lg>
          <l>сыла</l>
          <stg>
-            <st Contlex="EndConj">сыла</st>
+            <st Contlex="ConjTag">сыла</st>
          </stg>
       </lg>
       <pos>CONJ</pos>
@@ -1239,7 +1400,7 @@
       <lg>
          <l>сымын</l>
          <stg>
-            <st Contlex="EndConj">сымын</st>
+            <st Contlex="ConjTag">сымын</st>
          </stg>
       </lg>
       <pos>CONJ</pos>
@@ -1272,7 +1433,7 @@
       <lg>
          <l>сэк</l>
          <stg>
-            <st Contlex="EndConj">сэк</st>
+            <st Contlex="CsTag">сэк</st>
          </stg>
       </lg>
       <pos>CS-CORRELATIVE-MAIN</pos>
@@ -1293,7 +1454,7 @@
       <lg>
          <l>сэсся</l>
          <stg>
-            <st Contlex="EndConj">сэсся</st>
+            <st Contlex="ConjTag">сэсся</st>
          </stg>
       </lg>
       <pos>CONJ</pos>
@@ -1314,7 +1475,7 @@
       <lg>
          <l>сідзкӧ</l>
          <stg>
-            <st Contlex="EndConj">сідзкӧ</st>
+            <st Contlex="ConjTag">сідзкӧ</st>
          </stg>
       </lg>
       <pos>CONJ</pos>
@@ -1331,7 +1492,7 @@
       <lg>
          <l>сійӧн</l>
          <stg>
-            <st Contlex="EndConj">сійӧн</st>
+            <st Contlex="ConjTag">сійӧн</st>
          </stg>
       </lg>
       <pos>CONJ</pos>
@@ -1362,7 +1523,7 @@
       <lg>
          <l>сӧмын</l>
          <stg>
-            <st Contlex="EndConj">сӧмын</st>
+            <st Contlex="CcTag">сӧмын</st>
          </stg>
       </lg>
       <pos>CC-ADVERSATIVE</pos>
@@ -1391,7 +1552,7 @@
       <lg>
          <l>та_вӧсна</l>
          <stg>
-            <st Contlex="EndConj">та_вӧсна</st>
+            <st Contlex="ConjTag">та_вӧсна</st>
          </stg>
       </lg>
       <pos>CONJ</pos>
@@ -1408,7 +1569,7 @@
       <lg>
          <l>то</l>
          <stg>
-            <st Contlex="EndConj">то</st>
+            <st Contlex="ConjTag">то</st>
          </stg>
       </lg>
       <pos>CONJ</pos>
@@ -1433,7 +1594,7 @@
       <lg>
          <l>ыштӧ</l>
          <stg>
-            <st Contlex="EndConj">ыштӧ</st>
+            <st Contlex="ConjTag">ыштӧ</st>
          </stg>
       </lg>
       <pos>CONJ</pos>
@@ -1461,7 +1622,7 @@
       <lg>
          <l>ыштӧкӧ</l>
          <stg>
-            <st Contlex="EndConj">ыштӧкӧ</st>
+            <st Contlex="ConjTag">ыштӧкӧ</st>
          </stg>
       </lg>
       <pos>CONJ</pos>

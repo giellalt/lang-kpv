@@ -4,6 +4,417 @@
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty">
    <e>
       <lg>
+         <l>медуна</l>
+         <stg>
+            <st Contlex="QntTag">медуна</st>
+         </stg>
+      </lg>
+      <pos>QNT</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>больше всего</t>
+         </tg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>больше, чем у других</t>
+         </tg>
+         <xg>
+            <x>сылӧн быдтор медуна</x>
+            <xt lang="rus">у него всего больше, чем у других</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медэтша</l>
+         <stg>
+            <st Contlex="QntTag">медэтша</st>
+         </stg>
+      </lg>
+      <pos>QNT</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>меньше всего; меньше, чем у других</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>мӧдйӧз</l>
+         <stg>
+            <st Contlex="QntTag">мӧдйӧз</st>
+         </stg>
+      </lg>
+      <pos>QNT</pos>
+      <mg>
+         <m>
+            <head>
+               <range rangeSpat="dialect"/>
+            </head>
+            <semRel No="2" lemmaID="мӧдысь" semRelType="see"/>
+            <semRel No="3" lemmaID="мӧдысь" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>мӧдпӧвст</l>
+         <stg>
+            <st Contlex="QntTag">мӧдпӧвст</st>
+         </stg>
+      </lg>
+      <pos>QNT</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>:</t>
+         </tg>
+         <xg>
+            <x>мӧдпӧвст сёян</x>
+            <xt lang="rus">второе блюдо</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>мӧдысьджык</l>
+         <stg>
+            <st Contlex="QntTag">мӧдысьджык</st>
+         </stg>
+      </lg>
+      <pos>QNT</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>как-нибудь попозже</t>
+         </tg>
+         <xg>
+            <x>мӧдысьджык волы</x>
+            <xt lang="rus">приходи как-нибудь попозже</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>неуна</l>
+         <stg>
+            <st Contlex="QntTag">неуна</st>
+         </stg>
+      </lg>
+      <pos>QNT</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>немного, немножко</t>
+         </tg>
+         <xg>
+            <x>неуна озджык тырмы</x>
+            <xt lang="rus">немного не хватает</xt>
+         </xg>
+         <xg>
+            <x>неуна шойччыштны</x>
+            <xt lang="rus">немного отдохнуть</xt>
+         </xg>
+         <xg>
+            <x>неуна шӧйӧвошны</x>
+            <xt lang="rus">слегка смутиться</xt>
+         </xg>
+         <xg>
+            <x>ва неуна ямис</x>
+            <xt lang="rus">вода немного убыла</xt>
+         </xg>
+         <xg>
+            <x>неуна виччысьышт</x>
+            <xt lang="rus">подожди немножко</xt>
+         </xg>
+         <xg>
+            <x>сійӧ неуна висьӧдчӧ</x>
+            <xt lang="rus">ему немного нездоровится</xt>
+         </xg>
+         <xg>
+            <x>юрӧй неуна висьӧ</x>
+            <xt lang="rus">голова немного болит</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>немного, несколько; слегка</t>
+         </tg>
+         <xg>
+            <x>неуна чангылякодь ныр</x>
+            <xt lang="rus">слегка курносый нос</xt>
+         </xg>
+         <xg>
+            <x>перк неуна ыджыдджык кеняысь</x>
+            <xt lang="rus">кедровка несколько крупнее кукши</xt>
+         </xg>
+      </mg>
+      <mg No="3">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>едва; чуть</t>
+         </tg>
+         <xg>
+            <x>неуна эг кув</x>
+            <xt lang="rus">я чуть не умер</xt>
+         </xg>
+         <xg>
+            <x>неуна эг усь</x>
+            <xt lang="rus">я едва не упал</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>неэтша</l>
+         <stg>
+            <st Contlex="QntTag">неэтша</st>
+         </stg>
+      </lg>
+      <pos>QNT</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <tCtn>
+               <t>немало; изрядно; порядком</t>
+               <register register="conversation"/>
+            </tCtn>
+         </tg>
+         <xg>
+            <x>неэтша повзьыны</x>
+            <xt lang="rus">порядком оробеть</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ньӧти</l>
+         <stg>
+            <st Contlex="QntTag">ньӧти</st>
+         </stg>
+      </lg>
+      <pos>QNT</pos>
+      <mg No="1">
+         <m>
+            <head/>
+            <semRel semRelType="see">ни ӧти</semRel>
+         </m>
+         <tg lang="rus">
+            <t>ни одного</t>
+         </tg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>нисколько, совсем, совершенно, ничуть, отнюдь, нимало</t>
+         </tg>
+         <xg>
+            <x>ньӧти абу</x>
+            <xt lang="rus">совсем нет</xt>
+         </xg>
+         <xg>
+            <x>ньӧти абу веськодь</x>
+            <xt lang="rus">далеко не безразлично</xt>
+         </xg>
+         <xg>
+            <x>ньӧти абу жаль</x>
+            <xt lang="rus">нисколько не жалко</xt>
+         </xg>
+         <xg>
+            <x>ньӧти виччысьтӧг</x>
+            <xt lang="rus">совершенно неожиданно</xt>
+         </xg>
+         <xg>
+            <x>ньӧти жалиттӧг</x>
+            <xt lang="rus">без всякой жалости</xt>
+         </xg>
+         <xg>
+            <x>ньӧти ошйысьтӧг</x>
+            <xt lang="rus">без хвастовства</xt>
+         </xg>
+         <xg>
+            <x>ньӧти повтӧг</x>
+            <xt lang="rus">нимало не смущаясь, ничуть не стесняясь</xt>
+         </xg>
+         <xg>
+            <x>ньӧти содтытӧг</x>
+            <xt lang="rus">без преувеличения</xt>
+         </xg>
+         <xg>
+            <x>ньӧти чинтытӧг</x>
+            <xt lang="rus">без (всякого) преуменьшения</xt>
+         </xg>
+         <xg>
+            <x>ньӧти содтытӧг и ньӧти чинтытӧг</x>
+            <xt lang="rus">без преувеличения и без преуменьшения; не более и не менее как ...</xt>
+         </xg>
+         <xg>
+            <x>ньӧти яндысьтӧг</x>
+            <xt lang="rus">без зазрения совести;</xt>
+         </xg>
+         <xg>
+            <x>деньга ньӧти эз коль</x>
+            <xt lang="rus">денег совсем не осталось</xt>
+         </xg>
+         <xg>
+            <x>ме ньӧти ог пов</x>
+            <xt lang="rus">я нисколько не боюсь, совсем не боюсь, ничуть не боюсь</xt>
+         </xg>
+         <xg>
+            <x>ньӧти сійӧ оз ков</x>
+            <xt lang="rus">он вовсе не нужен</xt>
+         </xg>
+         <xg>
+            <x>сійӧ ньӧти абу мича</x>
+            <xt lang="rus">она далеко не красавица</xt>
+         </xg>
+         <xg>
+            <x>тайӧ ньӧти миянлысь веж оз петкӧд</x>
+            <xt lang="rus">это нас нимало не прельщает</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>бугри</l>
+         <stg>
+            <st Contlex="QntTag">бугри</st>
+         </stg>
+      </lg>
+      <pos>QNT</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>уйма, прорва</t>
+         </tg>
+         <xg>
+            <x>сьӧмыс сылӧн бугри</x>
+            <xt lang="rus">денег у него куры не клюют</xt>
+         </xg>
+         <xg>
+            <x>тшакыд таво бугри</x>
+            <xt lang="rus">грибов в этом году очень много</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>вит</l>
+         <stg>
+            <st Contlex="QntTag">вит</st>
+         </stg>
+      </lg>
+      <pos>QNT</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>пять</t>
+         </tg>
+         <xg>
+            <x>вит пӧвстӧн</x>
+            <xtCtn>
+               <xt lang="rus">в пять слоёв</xt>
+               <re>(рядов)</re>
+            </xtCtn>
+         </xg>
+         <xg>
+            <x>вит пӧв унджык</x>
+            <xt lang="rus">в пять раз больше</xt>
+         </xg>
+         <xg>
+            <x>витысь</x>
+            <xt lang="rus">а) из пяти; б) пять раз</xt>
+         </xg>
+         <xg genreType="riddle">
+            <x>вит детинка торъя кумъясӧ разӧдчисны</x>
+            <xt lang="rus">пять парней разошлись по разным клетям</xt>
+            <answer>
+               <native>чуня кепысьын чуньяс</native>
+               <xt lang="rus">пальцы в перчатках</xt>
+            </answer>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>витӧн</l>
+         <stg>
+            <st Contlex="QntTag">витӧн</st>
+         </stg>
+      </lg>
+      <pos>QNT</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>впятером</t>
+         </tg>
+         <tg lang="rus">
+            <t>пятеро</t>
+         </tg>
+         <xg>
+            <x>витӧн уджавны</x>
+            <xt lang="rus">впятером работать</xt>
+         </xg>
+         <xg>
+            <x>найӧ вӧліны витӧн</x>
+            <xt lang="rus">их было пятеро</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>мӧдкодь</l>
+         <stg>
+            <st Contlex="QntTag">мӧдкодь</st>
+         </stg>
+      </lg>
+      <pos>QNT</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>иной, другой, не такой</t>
+         </tg>
+         <xg>
+            <x>керка пытшкӧсыс сылы талун кажитчис мӧдкодьӧн</x>
+            <xt lang="rus">комната показалась ему сегодня другой</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
          <l>ичӧта</l>
          <stg>
             <st Contlex="QntTag">ичӧта</st>

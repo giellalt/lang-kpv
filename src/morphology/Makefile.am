@@ -34,7 +34,6 @@ GT_LEXC_SRCS=\
 
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=\
-		 stems/adjectives-superl.lexc \
 		 stems/adjectives.lexc \
 		 stems/adverbs.lexc \
 		 stems/conjunctions.lexc \
@@ -59,7 +58,6 @@ GENERATED_LEXC_SRCS=\
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
-		 stems/adjectives-superl.xml \
 		 stems/adjectives.xml \
 		 stems/adverbs.xml \
 		 stems/conjunctions.xml \
