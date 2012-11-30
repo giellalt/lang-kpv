@@ -2,6 +2,5194 @@
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+   <e exclude="fst">
+      <lg>
+         <l>мед-</l>
+         <stg>
+            <st Contlex="">мед-</st>
+         </stg>
+      </lg>
+      <pos>PREF</pos>
+      <mg>
+         <m>
+            <head>
+               <re>приставка, образующая превосх. ст. прил.</re>
+            </head>
+         </m>
+         <tg lang="rus">
+            <t pos="PCLE_SUPERL">наи-</t>
+         </tg>
+         <tg lang="rus">
+            <t pos="A">самый</t>
+         </tg>
+         <xg>
+            <x>медбур</x>
+            <xt lang="rus">самый хороший, самый лучший, наилучший</xt>
+         </xg>
+         <xg>
+            <x>медлёк</x>
+            <xt lang="rus">самый плохой, самый худший, наихудший</xt>
+         </xg>
+         <xg>
+            <x>медічӧт</x>
+            <xt lang="rus">самый маленький, наименьший</xt>
+         </xg>
+         <xg>
+            <x>медыджыд</x>
+            <xt lang="rus">самый большой, наибольший</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медбур</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медбур</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t pos="A">самый хороший</t>
+         </tg>
+         <tg lang="rus">
+            <t pos="A">лучший</t>
+         </tg>
+         <tg lang="rus">
+            <t pos="A">самый лучший, наилучший</t>
+         </tg>
+         <xg>
+            <x>медбур велӧдчысь</x>
+            <xt lang="rus">первый ученик</xt>
+         </xg>
+         <xg>
+            <x>медбур вӧв</x>
+            <xt lang="rus">самая лучшая лошадь</xt>
+         </xg>
+         <xg>
+            <x>медбур уджалысь</x>
+            <xt lang="rus">самый лучший работник</xt>
+         </xg>
+         <xg>
+            <x>пасьтавны медбур платтьӧ</x>
+            <xt lang="rus">надеть лучшее платье</xt>
+         </xg>
+         <xg>
+            <x>ставсьыс медбур</x>
+            <xt lang="rus">лучший из всех</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медбӧб</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медбӧб</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый глупый, глупейший</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медбӧръя</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медбӧръя</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t pos="A">последний</t>
+         </tg>
+         <tg lang="rus">
+            <t pos="A">самый последний</t>
+         </tg>
+         <tg lang="rus">
+            <t pos="A">окончательный</t>
+         </tg>
+         <tg lang="rus">
+            <t pos="A">конечный</t>
+         </tg>
+         <xg>
+            <x>медбӧръя вагон</x>
+            <xt lang="rus">последний вагон</xt>
+         </xg>
+         <xg>
+            <x>медбӧръя олысьяс</x>
+            <xt lang="rus">последние жители</xt>
+         </xg>
+         <xg>
+            <x>медбӧръя станция</x>
+            <xt lang="rus">конечная станция</xt>
+         </xg>
+         <xg>
+            <x>медбӧръясьыс мӧдыс</x>
+            <xt lang="rus">предпоследний</xt>
+         </xg>
+         <xg genreType="proverb">
+            <x>медбӧръя кывтӧ медводз эн шу</x>
+            <xtCtn>
+               <xt lang="rus">последнего слова не произноси первым</xt>
+               <re>не следует обижать людей сгоряча</re>
+            </xtCtn>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медваж</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медваж</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t pos="A">самый старый, самый ветхий</t>
+         </tg>
+         <tg lang="rus">
+            <t pos="A">самый древний, древнейший</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медвизув</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медвизул</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый быстрый</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медвильыд</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медвильыд</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый скользкий</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медводз</l>
+         <stg>
+            <st Contlex="ADV-IS_SUPERL">медводдз</st>
+         </stg>
+      </lg>
+      <pos>ADV_SUPERL</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t pos="ADV">первым</t>
+         </tg>
+         <tg lang="rus">
+            <t pos="ADV">в первую очередь</t>
+         </tg>
+         <tg lang="rus">
+            <t pos="ADV">раньше всех</t>
+         </tg>
+         <xg>
+            <x>медводз локны</x>
+            <xt lang="rus">прийти первым</xt>
+         </xg>
+         <xg>
+            <x>медводз пуксьӧдны кагаа мамъясӧс</x>
+            <xt lang="rus">в первую очередь усадить матерей с детьми</xt>
+         </xg>
+         <xg>
+            <x>тулыс воӧм йылысь медводз висьталасны керка жӧлӧбъясӧ ӧшйӧм йинёньяс</x>
+            <xt lang="rus">о приходе весны первыми сообщат повисшие на желобах сосульки</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>прежде всего</t>
+         </tg>
+         <xg>
+            <x>салдатӧс медводз донъялӧны сы серти, кыдзи сійӧ асьсӧ петкӧдлӧ стройын</x>
+            <xt lang="rus">солдата прежде всего оценивают по тому, как он показывает себя в строю</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медводдза</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медводдза</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t pos="A">первый, самый первый</t>
+         </tg>
+         <tg lang="rus">
+            <t pos="A">первейший</t>
+         </tg>
+         <xg>
+            <x>медводдза аддзысьлӧм</x>
+            <xt lang="rus">первая встреча</xt>
+         </xg>
+         <xg>
+            <x>медводдза вотӧс</x>
+            <xt lang="rus">первые ягоды</xt>
+         </xg>
+         <xg>
+            <x>медводдза мог</x>
+            <xt lang="rus">первоочередная задача</xt>
+         </xg>
+         <xg>
+            <x>война вылӧ сійӧс босьтісны медводдзаяс лыдас</x>
+            <xt lang="rus">его взяли на войну в числе первых</xt>
+         </xg>
+         <xg genreType="saying">
+            <x>медводдза дӧра гӧрӧдӧсь, медводдза лыйӧм — сьӧд рака</x>
+            <xt lang="rus">первый холст — в узлах, первый выстрел — чёрная ворона</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медвостер</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медвостер</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый бойкий</t>
+         </tg>
+         <xg>
+            <x>медвостер йӧз</x>
+            <xt lang="rus">самые бойкие люди</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медвылысса</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медвылысса</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg No="1">
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="медвылыс_A-SUPERL" semRelType="see"/>
+         </m>
+      </mg>
+      <mg No="2">
+         <m>
+            <head>
+               <sense sense="figurative"/>
+            </head>
+         </m>
+         <tg lang="rus">
+            <t>Всевышний, бог</t>
+         </tg>
+         <xg>
+            <x>Медвылыссалӧн вын</x>
+            <xt lang="rus">сила Всевышнего</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медвыль</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медвыль</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t pos="A">самый новый, новейший</t>
+         </tg>
+         <tg lang="rus">
+            <t pos="A">последний</t>
+         </tg>
+         <xg>
+            <x>медвыль мода</x>
+            <xt lang="rus">последняя мода</xt>
+         </xg>
+         <xg>
+            <x>медвыль платтьӧ</x>
+            <xt lang="rus">самое новое платье</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медгажа</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медгажа</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg>
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>меддженьыд</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">меддженьыд</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый короткий</t>
+         </tg>
+         <tg lang="rus">
+            <t>кратчайший</t>
+         </tg>
+         <xg>
+            <x>меддженьыд лунъяс</x>
+            <xt lang="rus">самые короткие дни</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медджуджыд</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медджуджыд</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый высокий</t>
+         </tg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый глубокий</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>меддонтӧм</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">меддонтӧм</st>
+         </stg>
+      </lg>
+      <pos>CAR_A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый дешёвый</t>
+         </tg>
+         <tg lang="rus">
+            <t>дешевле всего</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медічӧт</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медічӧт</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t pos="A">самый маленький</t>
+         </tg>
+         <tg lang="rus">
+            <t pos="A">самый меньший, наименьший</t>
+         </tg>
+         <tg lang="rus">
+            <t pos="A">минимальный</t>
+         </tg>
+         <xg>
+            <x>медічӧт арлыд</x>
+            <xt lang="rus">минимальный возраст</xt>
+         </xg>
+         <xg>
+            <x>босьтны медічӧт ставкасӧ</x>
+            <xt lang="rus">взять минимальную ставку</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t pos="A">самый младший</t>
+         </tg>
+         <tg lang="rus">
+            <tCtn>
+               <t pos="A">меньшой</t>
+               <register register="conversation"/>
+            </tCtn>
+         </tg>
+         <xg>
+            <x>медічӧтсяньыс медыджыдӧдзыс</x>
+            <xt lang="rus">от мала до велика</xt>
+         </xg>
+         <xg>
+            <x>менам медічӧт вок</x>
+            <xt lang="rus">мой младший брат</xt>
+         </xg>
+         <xg>
+            <x>семья пытшкын медічӧт</x>
+            <xt lang="rus">младший в семье</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медыджыд</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медыджыд</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый большой</t>
+         </tg>
+         <tg lang="rus">
+            <t>самый просторный</t>
+         </tg>
+         <xg>
+            <x>медыджыд выльтор</x>
+            <xt lang="rus">самая большая новость</xt>
+         </xg>
+         <xg>
+            <x>медыджыд керкаыс</x>
+            <xt lang="rus">самый большой дом</xt>
+         </xg>
+         <xg>
+            <x>медыджыд жыр</x>
+            <xt lang="rus">самая просторная комната</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый старший</t>
+         </tg>
+      </mg>
+      <mg No="3">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый главный</t>
+         </tg>
+         <xg>
+            <x>коді тан медыджыдыс?</x>
+            <xt lang="rus">кто здесь самый главный?</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медкокни</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медкокни</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg>
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медкузь</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медкузь</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t pos="A">самый длинный</t>
+         </tg>
+         <tg lang="rus">
+            <t pos="A">самый долгий</t>
+         </tg>
+         <xg>
+            <x>медкузь войяс</x>
+            <xt lang="rus">самые долгие ночи</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медкӧдзыд</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медкӧдзыд</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый холодный</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медлэчыд</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медлэчыд</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый острый</t>
+         </tg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый резкий</t>
+         </tg>
+         <xg>
+            <x>медлэчыд шыяс</x>
+            <xt lang="rus">самые резкие звуки</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медлӧсьыд</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медлӧсьыд</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый красивый</t>
+         </tg>
+         <tg lang="rus">
+            <t>самый хороший</t>
+         </tg>
+         <xg>
+            <x>во пиын медлӧсьыд кадыс — вундан кад</x>
+            <xt lang="rus">самое лучшее время в году — время жатвы</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медматіса</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медматіса</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый близкий</t>
+         </tg>
+         <xg>
+            <x>медматіса морт</x>
+            <xt lang="rus">самый близкий человек</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медматысса</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медматысса</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="медматіса_A-SUPERL" semRelType="see"/>
+         </m>
+         <xg>
+            <x>медматысса ёрт</x>
+            <xt lang="rus">самый близкий друг</xt>
+         </xg>
+         <xg>
+            <x>медматысса мог</x>
+            <xt lang="rus">то, что нужно сделать в самое ближайшее время</xt>
+         </xg>
+         <xg>
+            <x>медматыссаяс</x>
+            <xt lang="rus">самые близкие</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медмисьтӧм</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медмисьтӧм</st>
+         </stg>
+      </lg>
+      <pos>CAR_A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый некрасивый</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медмуса</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медмуса</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый милый, самый любимый</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медсьӧкыд</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медсьӧкыд</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый тяжёлый</t>
+         </tg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый трудный</t>
+         </tg>
+         <xg>
+            <x>медсьӧкыд кад</x>
+            <xt lang="rus">самое тяжёлое время</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медчӧскыд</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медчӧскыд</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый вкусный</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медшӧр</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медшӧр</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>главный</t>
+         </tg>
+         <xg>
+            <x>медшӧр лоӧмтор</x>
+            <xt lang="rus">главное событие</xt>
+         </xg>
+         <xg>
+            <x>медшӧр мог</x>
+            <xt lang="rus">главная задача</xt>
+         </xg>
+         <xg>
+            <x>пызан вылад медшӧрыс — нянь</x>
+            <xt lang="rus">самое главное на столе — хлеб</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медтӧдчана</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медтӧдчана</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый значительный, самый существенный, самый важный</t>
+         </tg>
+         <xg>
+            <x>медтӧдчана нырвизьяс</x>
+            <xt lang="rus">самые важные направления</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медъён</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медъён</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый сильный, сильнейший</t>
+         </tg>
+         <xg>
+            <x>доддявны медъён вӧвсӧ</x>
+            <xt lang="rus">запрячь самую сильную лошадь</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медъюгыд</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медъюгыд</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg>
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>меддор</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">меддор</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>крайний</t>
+         </tg>
+         <xg>
+            <x>меддор места</x>
+            <xt lang="rus">место с самого краю</xt>
+         </xg>
+         <xg>
+            <x>меддор ӧшинь</x>
+            <xt lang="rus">самое крайнее окно</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медгора</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медгора</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый громкий</t>
+         </tg>
+         <xg>
+            <x>медгора шыяс</x>
+            <xt lang="rus">самые громкие звуки</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медгуся</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медгуся</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый секретный</t>
+         </tg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый скрытый, самый сокровенный</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медгырысь</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медгырысь</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый крупный; крупнейший</t>
+         </tg>
+         <xg>
+            <x>медгырысь льӧм тусьяс</x>
+            <xt lang="rus">самые крупные ягоды черёмухи</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медгӧль</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медгӧль</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый бедный, беднейший</t>
+         </tg>
+         <xg>
+            <x>медгӧль крестьяна</x>
+            <xt lang="rus">беднейшее крестьянство</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>меддона</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">меддона</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый дорогой; дороже всех, дороже всего</t>
+         </tg>
+         <xg>
+            <x>меддона сикас</x>
+            <xt lang="rus">самый дорогой сорт</xt>
+         </xg>
+         <xg>
+            <x>сійӧ меным меддона</x>
+            <xt lang="rus">он мне дороже всех</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медзбой</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медзбой</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый бойкий</t>
+         </tg>
+         <xg>
+            <x>зонкаяс пиысь сійӧ вӧлі медзбой</x>
+            <xt lang="rus">среди мальчишек он был самым бойким</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медколан</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медколан</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый нужный</t>
+         </tg>
+         <xg>
+            <x>медколан морт</x>
+            <xt lang="rus">самый нужный человек</xt>
+         </xg>
+         <xg>
+            <x>медколан удж</x>
+            <xt lang="rus">самая нужная работа</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медлёк</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медлёк</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый плохой; худший; наихудший</t>
+         </tg>
+         <xg>
+            <x>медлёк враг</x>
+            <xt lang="rus">злейший враг</xt>
+         </xg>
+         <xg>
+            <x>медлёк сорт</x>
+            <xt lang="rus">низший сорт</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медлӧнь</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медлӧнь</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый тихий</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медлӧсьыда</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медлӧсьыда</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>лучше всего</t>
+         </tg>
+         <xg>
+            <x>тайӧ платтьӧыс медлӧсьыда пукаліс сы вылын</x>
+            <xt lang="rus">это платье лучше всего сидело на ней</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медмича</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медмича</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый красивый, красивейший</t>
+         </tg>
+         <xg>
+            <x>медмича нывсӧ коравны</x>
+            <xt lang="rus">сватать самую красивую девушку</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медмудер</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медмудер</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый хитрый</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медозыр</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медозыр</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый богатый, богаче всех; богатейший</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медомӧль</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медомӧль</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый плохой, худший; самый дурной</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медпосни</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медпосни</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый мелкий; мельчайший</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медпыді</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медпыді</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>находящийся в самой глубине; самый дальний</t>
+         </tg>
+         <xg>
+            <x>медпыді пельӧс</x>
+            <xt lang="rus">самый дальний угол</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медпӧрысь</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медпӧрысь</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <tCtn>
+               <t>самый старый, старейший</t>
+               <re>о возрасте</re>
+            </tCtn>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медрадейтана</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медрадейтана</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый любимый</t>
+         </tg>
+         <xg>
+            <x>медрадейтана мӧс</x>
+            <xt lang="rus">самая любимая корова</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медсюсь</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медсюсь</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый умный, умнейший</t>
+         </tg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый умелый</t>
+         </tg>
+         <xg>
+            <x>миян зонъяс пӧвстын сійӧ медсюсь кыйсьысь</x>
+            <xt lang="rus">среди наших парней он самый умелый охотник</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медтыдалана</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медтыдалана</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый видный</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>медтэрыб</l>
+         <stg>
+            <st Contlex="Adj-IS_SUPERL">медтэрыб</st>
+         </stg>
+      </lg>
+      <pos>A-SUPERL</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>самый быстрый</t>
+         </tg>
+         <xg>
+            <x>быдӧнлы окота вӧлі лоны медтэрыбӧн</x>
+            <xt lang="rus">каждому хотелось быть самым быстрым</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>кӧрыма</l>
+         <stg>
+            <st Contlex="AdjTag">кӧрыма</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>упитанный</t>
+         </tg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>обеспеченный кормами; имеющий корм</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>кӧт</l>
+         <stg>
+            <st Contlex="AdjTag">кӧт</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head>
+               <range rangeSpat="dialect"/>
+            </head>
+         </m>
+         <tg lang="rus">
+            <t>совершенно сухой, без капли воды</t>
+         </tg>
+         <xg>
+            <x>ва кӧт муас абу</x>
+            <xt lang="rus">в земле нет ни капли влаги</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>лаб</l>
+         <stg>
+            <st Contlex="AdjTag">лаб</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <tCtn>
+               <t>слабоссученный, слабоскрученный</t>
+               <re>о нитке, пряже</re>
+            </tCtn>
+         </tg>
+         <xg>
+            <x>лаб шӧрт</x>
+            <xt lang="rus">слабоссученная пряжа</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>лаба</l>
+         <stg>
+            <st Contlex="AdjTag">лаба</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <tCtn>
+               <t>слабо скрутить, ссучить</t>
+               <re>о нитке, пряже, верёвке</re>
+            </tCtn>
+         </tg>
+         <xg>
+            <x>лаба гартны гез</x>
+            <xt lang="rus">слабо свить верёвку</xt>
+         </xg>
+         <xg>
+            <x>лаба путшкыны сунис</x>
+            <xt lang="rus">слабо ссучить нитки</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>лажмыдик</l>
+         <stg>
+            <st Contlex="AdjTag">лажмыдик</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>пологий, покатый</t>
+         </tg>
+         <xg>
+            <x>лажмыдик мыльк</x>
+            <xt lang="rus">покатый холмик</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>низенький, приземистый</t>
+         </tg>
+         <xg>
+            <x>лажмыдик керка</x>
+            <xt lang="rus">низенький домик</xt>
+         </xg>
+         <xg>
+            <x>лажмыдик морт</x>
+            <xt lang="rus">приземистый человек</xt>
+         </xg>
+      </mg>
+      <mg No="3">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>неглубокий, мелкий</t>
+         </tg>
+         <xg>
+            <x>лажмыдик , но визув ёль</x>
+            <xt lang="rus">неглубокий, но быстротечный лесной ручей</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>лажмыдкодь</l>
+         <stg>
+            <st Contlex="AdjTag">лажмыдкодь</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="лажмыдик" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>лайкъя</l>
+         <stg>
+            <st Contlex="AdjTag">лайкъя</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>с седловиной; с выгибом в спине животного</t>
+         </tg>
+         <xg>
+            <x>лайкъя вӧв</x>
+            <xt lang="rus">лошадь с седловиной</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>с седловиной, с неглубокой выемкой</t>
+         </tg>
+         <xg>
+            <x>лайкъя мыльк</x>
+            <xt lang="rus">холм с седловиной</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>лапъя</l>
+         <stg>
+            <st Contlex="AdjTag">лапъя</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>раскидистый, развесистый</t>
+         </tg>
+         <xg>
+            <x>лапъя коз</x>
+            <xt lang="rus">раскидистая, лапчатая ель</xt>
+         </xg>
+         <xg>
+            <x>лапъя сус пу</x>
+            <xt lang="rus">развесистый кедр</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>свисающий, свислый</t>
+         </tg>
+         <xg>
+            <x>лапъя пеля пон</x>
+            <xt lang="rus">вислоухая собака</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>лапыдкодь</l>
+         <stg>
+            <st Contlex="AdjTag">лапыдкодь</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>довольно сырой</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>латшкӧс</l>
+         <stg>
+            <st Contlex="AdjTag">латшкӧс</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="лажмыд" semRelType="see"/>
+            <semRel No="2" lemmaID="лажмыд" semRelType="see"/>
+         </m>
+         <xg>
+            <x>латшкӧс тушаа морт</x>
+            <xt lang="rus">коренастый человек</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>лесть</l>
+         <stg>
+            <st Contlex="AdjTag">лесть</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>ласковый</t>
+         </tg>
+         <xg>
+            <x>лесть кага</x>
+            <xt lang="rus">ласковый ребёнок</xt>
+         </xg>
+         <xg>
+            <x>лесть кывъяс</x>
+            <xt lang="rus">ласковые слова</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>льстивый, угодливый</t>
+         </tg>
+         <xg>
+            <x>лесть морт</x>
+            <xt lang="rus">льстец</xt>
+         </xg>
+         <xg>
+            <x>лесть сёрни</x>
+            <xt lang="rus">угодливые речи</xt>
+         </xg>
+         <xg>
+            <x>ас дінӧ сибӧдны лесть йӧзӧс</x>
+            <xt lang="rus">окружить себя подхалимами</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>лиш</l>
+         <stg>
+            <st Contlex="AdjTag">лиш</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>нечет</t>
+         </tg>
+         <xg>
+            <x>лиш али тшӧт</x>
+            <xt lang="rus">нечет или чёт</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>лоана</l>
+         <stg>
+            <st Contlex="AdjTag">лоана</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>будущее QXQX будущий, предстоящий</t>
+         </tg>
+         <xg>
+            <x>водзӧ лоана удж</x>
+            <xt lang="rus">предстоящая работа</xt>
+         </xg>
+         <xg>
+            <x>лоана керка места</x>
+            <xt lang="rus">место будущего дома</xt>
+         </xg>
+         <xg>
+            <x>думайтны бӧрӧ кольӧм йылысь, водзӧ лоана йылысь</x>
+            <xt lang="rus">думать о прошедшем и о будущем</xt>
+         </xg>
+         <xg>
+            <x>ныла-зонмаӧс падмӧдіс тӧдтӧм водзӧ лоанаыс</x>
+            <xt lang="rus">девушку и парня привело в замешательство неясное будущее</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ловъякодь</l>
+         <stg>
+            <st Contlex="AdjTag">ловъякодь</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>как живой</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>лоддя</l>
+         <stg>
+            <st Contlex="AdjTag">лоддя</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>лукав</l>
+         <stg>
+            <st Contlex="AdjTag">лукав</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>лукавый, коварный, хитрый</t>
+         </tg>
+         <xg>
+            <x>лукав видзӧдлас</x>
+            <xt lang="rus">лукавый взгляд</xt>
+         </xg>
+         <xg>
+            <x>лукав морт</x>
+            <xt lang="rus">лукавый, коварный человек</xt>
+         </xg>
+         <xg>
+            <x>лукав синъяса</x>
+            <xt lang="rus">с лукавыми глазами</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>непослушный, своевольный; упрямый</t>
+         </tg>
+         <xg>
+            <x>лукав вӧв</x>
+            <xt lang="rus">упрямая лошадь</xt>
+         </xg>
+         <xg>
+            <x>лукав зонка</x>
+            <xt lang="rus">непослушный, своевольный мальчик</xt>
+         </xg>
+         <xg>
+            <x>лукав мортлысь ныртӧ он чег</x>
+            <xt lang="rus">упрямого человека не переломить</xt>
+            <xt lang="rus" tType="literal">нос не переломишь</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>лунтыръя</l>
+         <stg>
+            <st Contlex="AdjTag">лунтыръя</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <tCtn>
+               <t>целодневный; дневной</t>
+               <re>сделанный за день</re>
+            </tCtn>
+         </tg>
+         <xg>
+            <x>лунтыръя удж воштыны</x>
+            <xt lang="rus">потерять работу целого дня</xt>
+         </xg>
+         <xg>
+            <x>сійӧс личкис лунтыръя мудзӧмыс</x>
+            <xt lang="rus">свалила с ног его целодневная усталость</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>лунчӧжся</l>
+         <stg>
+            <st Contlex="AdjTag">лунчӧжся</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="лунтыръя" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>лупи-лопи</l>
+         <stg>
+            <st Contlex="AdjTag">лупи-лопи</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <tCtn>
+               <t>широкий, свободный, большой</t>
+               <re>об одежде</re>
+            </tCtn>
+         </tg>
+         <xg>
+            <x>пальтоыс лупи-лопи</x>
+            <xt lang="rus">пальто свободное, широкое</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>лыавевъя</l>
+         <stg>
+            <st Contlex="AdjTag">лыавевъя</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>с преобладанием песка</t>
+         </tg>
+         <xg>
+            <x>лыавевъя сьӧд му</x>
+            <xt lang="rus">супесчаный чернозём</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>лымъя</l>
+         <stg>
+            <st Contlex="AdjTag">лымъя</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>покрытый, засыпанный снегом, заснеженный</t>
+         </tg>
+         <xg>
+            <x>лымъя дырйи</x>
+            <xt lang="rus">когда земля под снегом</xt>
+         </xg>
+         <xg>
+            <x>лымъя кильчӧ выв</x>
+            <xt lang="rus">засыпанное снегом крыльцо</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>снежный</t>
+         </tg>
+         <xg>
+            <x>лымъя тӧв</x>
+            <xt lang="rus">снежная зима</xt>
+         </xg>
+         <xg>
+            <x>этша лымъя тӧв</x>
+            <xt lang="rus">малоснежная зима</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>лышкыдкодь</l>
+         <stg>
+            <st Contlex="AdjTag">лышкыдкодь</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>довольно щедрый</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>люви-ляви</l>
+         <stg>
+            <st Contlex="AdjTag">люви-ляви</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="лювъя-лявъя" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>люг-лег</l>
+         <stg>
+            <st Contlex="AdjTag">люг-лег</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="люги-леги" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>люзи-лёзи</l>
+         <stg>
+            <st Contlex="AdjTag">люзи-лёзи</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="люзь-лязь" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ляб</l>
+         <stg>
+            <st Contlex="AdjTag">ляб</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>невыносливый; чувствительный к боли; слабый; изнеженный</t>
+         </tg>
+         <xg>
+            <x>ляб зонка</x>
+            <att att="ironic"/>
+            <xt lang="rus">маменькин сынок</xt>
+         </xg>
+         <xg>
+            <x>ляб морт</x>
+            <xt lang="rus">изнеженный, слабый человек</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>слезливый</t>
+         </tg>
+         <xg>
+            <x>ляб нывбаба</x>
+            <xt lang="rus">слезливая женщина</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>лябкодь</l>
+         <stg>
+            <st Contlex="AdjTag">лябкодь</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>довольно изнеженный, слабый</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ляп</l>
+         <stg>
+            <st Contlex="AdjTag">ляп</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head>
+               <range rangeSpat="dialect"/>
+            </head>
+         </m>
+         <tg lang="rus">
+            <t>низкорослый</t>
+         </tg>
+         <xg>
+            <x>ляп вӧр</x>
+            <xt lang="rus">низкорослый лес</xt>
+         </xg>
+         <xg>
+            <x>ляп пожӧм</x>
+            <xt lang="rus">низкорослая сосна</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ляпкыдкодь</l>
+         <stg>
+            <st Contlex="AdjTag">ляпкыдкодь</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="ляпкыдик" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>лӧзвевъя</l>
+         <stg>
+            <st Contlex="AdjTag">лӧзвевъя</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>с преобладанием синего цвета</t>
+         </tg>
+         <xg>
+            <x>лӧзвевъя дӧра</x>
+            <xt lang="rus">холст с преобладанием синего цвета</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>лӧзоват</l>
+         <stg>
+            <st Contlex="AdjTag">лӧзоват</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="лӧзов" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>лӧма</l>
+         <stg>
+            <st Contlex="AdjTag">лӧма</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head>
+               <range rangeSpat="dialect"/>
+            </head>
+         </m>
+         <tg lang="rus">
+            <t/>
+         </tg>
+         <xg>
+            <x>лӧма би</x>
+            <xt lang="rus">пламя, открытый огонь</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>лӧнь</l>
+         <stg>
+            <st Contlex="AdjTag">лӧнь</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>тихий; спокойный; безветренный QXQX тихо, спокойно QXQX тишь, тишина; безветрие</t>
+         </tg>
+         <xg>
+            <x>лӧнь вой</x>
+            <xt lang="rus">тихая ночь</xt>
+         </xg>
+         <xg>
+            <x>лӧнь лун</x>
+            <xt lang="rus">тихий, безветренный день</xt>
+         </xg>
+         <xg>
+            <x>войся лӧняс</x>
+            <xt lang="rus">в ночной тиши</xt>
+         </xg>
+         <xg>
+            <x>вӧрын вӧлі лӧнь</x>
+            <xt lang="rus">в лесу было тихо</xt>
+         </xg>
+         <xg>
+            <x>гӧгӧр лӧнь</x>
+            <xt lang="rus">кругом спокойно</xt>
+         </xg>
+         <xg>
+            <x>мореыс лӧнь</x>
+            <xt lang="rus">море спокойно</xt>
+         </xg>
+         <xg>
+            <x>лӧнь дырйи</x>
+            <xt lang="rus">в безветрие</xt>
+         </xg>
+         <xg>
+            <x>мегыр помын кӧлӧкӧл шызьӧдіс лӧньсӧ</x>
+            <xt lang="rus">колокольчик на дуге нарушил тишину</xt>
+         </xg>
+         <xg genreType="proverb">
+            <x>лӧнь ва вылын унджык шактарыс</x>
+            <xt lang="rus">в тихом омуте черти водятся</xt>
+            <xt lang="rus" tType="literal">в тихой воде больше наносного хлама</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>спокойный, тихий, смирный</t>
+         </tg>
+         <xg>
+            <x>лӧнь кага</x>
+            <xt lang="rus">тихий, спокойный ребёнок</xt>
+         </xg>
+         <xg>
+            <x>лӧнь оласног</x>
+            <xt lang="rus">тихий нрав</xt>
+         </xg>
+         <xg>
+            <x>лӧнь сусед</x>
+            <xt lang="rus">смирный сосед</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>лӧньысь-лӧнь</l>
+         <stg>
+            <st Contlex="AdjTag">лӧньысь-лӧнь</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>очень тихо</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>лӧсьыдик</l>
+         <stg>
+            <st Contlex="AdjTag">лӧсьыдик</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>миленький; хорошенький</t>
+         </tg>
+         <xg>
+            <x>лӧсьыдик ныв</x>
+            <xt lang="rus">миленькая девочка</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>аккуратненький</t>
+         </tg>
+         <xg>
+            <x>кокньыдик да лӧсьыдик кӧрт плуг</x>
+            <xt lang="rus">лёгонький и аккуратненький железный плуг</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>маа</l>
+         <stg>
+            <st Contlex="AdjTag">маа</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>медовый, с мёдом</t>
+         </tg>
+         <xg>
+            <x>маа нянь</x>
+            <xt lang="rus">хлеб с мёдом</xt>
+         </xg>
+         <xg>
+            <x>маа преник</x>
+            <xt lang="rus">медовый пряник</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>медоносный</t>
+         </tg>
+         <xg>
+            <x>маа быдмӧгъяс</x>
+            <xt lang="rus">медоносные растения</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>маркаа</l>
+         <stg>
+            <st Contlex="AdjTag">маркаа</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>с маркой</t>
+         </tg>
+         <xg>
+            <x>маркаа письмӧ</x>
+            <xt lang="rus">письмо с маркой</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>матыс</l>
+         <stg>
+            <st Contlex="AdjTag">матыс</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel lemmaID="матіса" semRelType="see"/>
+         </m>
+         <tg lang="rus">
+            <t/>
+         </tg>
+         <xg genreType="saying">
+            <x>матыс невестаыд лёк, а ылысыс кык пӧв лёкджык вермас лоны</x>
+            <xt lang="rus">ближняя невеста плоха, а дальняя может быть вдвое хуже</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>мераа</l>
+         <stg>
+            <st Contlex="AdjTag">мераа</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>мерный</t>
+         </tg>
+         <xg>
+            <x>мераа дӧрапомъяс</x>
+            <xt lang="rus">мерный лоскут</xt>
+         </xg>
+         <xg>
+            <x>мераа тӧвар</x>
+            <xt lang="rus">мерный товар</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>измеренный</t>
+         </tg>
+         <xg>
+            <x>мераа вӧлӧк</x>
+            <xt lang="rus">измеренный перегон (расстояние между двумя населёнными пунктами)</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>мижуй</l>
+         <stg>
+            <st Contlex="AdjTag">мижуй</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>медлительный QXQX копун <register register="colloquial"/>; мямля, тихоня; недотёпа</t>
+            <register register="conversation"/>
+         </tg>
+         <xg>
+            <x>мижуй кодь</x>
+            <xt lang="rus">неповоротливый</xt>
+         </xg>
+         <xg>
+            <x>ӧтиыс зэв востер, а мӧдыс дзик мижуй</x>
+            <xt lang="rus">один из них очень бойкий, а другой совсем мямля</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head>
+               <sense sense="figurative"/>
+            </head>
+         </m>
+         <tg lang="rus">
+            <t>недалёкий</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>мога</l>
+         <stg>
+            <st Contlex="AdjTag">мога</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head>
+               <re>в роли сказ.</re>
+            </head>
+         </m>
+         <tg lang="rus">
+            <t>по делу, с просьбой</t>
+         </tg>
+         <xg>
+            <x>ме тэ дорӧ мога</x>
+            <xt lang="rus">я к тебе с просьбой</xt>
+         </xg>
+         <xg>
+            <x>пуксьы, шойччы! — Ог эшты, ме мога</x>
+            <xt lang="rus">садись, отдохни! — Некогда, я по делу</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>могтӧма</l>
+         <stg>
+            <st Contlex="AdjTag">могтӧма</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>бесцельно, без дела</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>модаа</l>
+         <stg>
+            <st Contlex="AdjTag">модаа</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>на манер, наподобие <gov>чего-л.</gov>; похожий <i>на что-л.</i></t>
+         </tg>
+         <xg>
+            <x>черань модаа</x>
+            <xt lang="rus">паукообразный</xt>
+         </xg>
+         <xg>
+            <x>шар модаа</x>
+            <xt lang="rus">в форме шара</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>молодеч</l>
+         <stg>
+            <st Contlex="AdjTag">молодеч</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>молодец</t>
+         </tg>
+         <xg>
+            <x>том молодеч</x>
+            <xt lang="rus">добрый молодец</xt>
+         </xg>
+         <xg>
+            <x>сылӧн став пиыс молодечьяс кодьӧсь, быттьӧ бӧрйӧма</x>
+            <xt lang="rus">у него все сыновья молодцы, как на подбор</xt>
+         </xg>
+         <xg genreType="riddle">
+            <x>мича-мича молодеч да вылас он вермы видзӧдны</x>
+            <xt lang="rus">красавец-молодец, но смотреть на него невозможно</xt>
+            <answer>
+               <native>шонді</native>
+               <xt lang="rus">солнце</xt>
+            </answer>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <tCtn>
+               <t>молодец, молодчина</t>
+               <register register="conversation"/>
+            </tCtn>
+         </tg>
+         <xg>
+            <x>молодечӧн шуны</x>
+            <xt lang="rus">назвать молодцом, молодчиной</xt>
+         </xg>
+         <xg>
+            <x>сійӧ миян молодеч!</x>
+            <xt lang="rus">он у нас молодец!</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>мора</l>
+         <stg>
+            <st Contlex="AdjTag">мора</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head>
+               <range rangeSpat="dialect"/>
+            </head>
+         </m>
+         <tg lang="rus">
+            <t>весенний, незатвердевший рог оленя</t>
+         </tg>
+         <xg>
+            <x>мора — сійӧ кӧр сюр, кор небыд на</x>
+            <xt lang="rus">это рог оленя, когда он ещё мягкий</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>морттуя</l>
+         <stg>
+            <st Contlex="AdjTag">морттуя</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>разумный</t>
+         </tg>
+         <xg>
+            <x>морттуя сёрни</x>
+            <xt lang="rus">разумная речь</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>умелый, способный QXQX с какими-л. способностями</t>
+         </tg>
+         <xg>
+            <x>шӧркодь морттуя йӧз</x>
+            <xt lang="rus">люди со средними способностями</xt>
+         </xg>
+         <xg>
+            <x>эз шыбитана монь меным веськав: морттуя и шань</x>
+            <xt lang="rus">неплохая невестка мне досталась: умелая и скромная</xt>
+         </xg>
+      </mg>
+      <mg No="3">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>с каким-л. характером</t>
+         </tg>
+         <xg>
+            <x>шань морттуя</x>
+            <xt lang="rus">приветливый</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>мотора</l>
+         <stg>
+            <st Contlex="AdjTag">мотора</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>с мотором; моторный</t>
+         </tg>
+         <xg>
+            <x>нёль мотора лайнер</x>
+            <xt lang="rus">четырёхмоторный лайнер</xt>
+         </xg>
+         <xg>
+            <x>мотора пыж</x>
+            <xt lang="rus">моторная лодка</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>моторист</l>
+         <stg>
+            <st Contlex="AdjTag">моторист</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>моторист</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>муговгӧрд</l>
+         <stg>
+            <st Contlex="AdjTag">муговгӧрд</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="мугӧмгӧрд" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>мужика</l>
+         <stg>
+            <st Contlex="AdjTag">мужика</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>замужняя</t>
+         </tg>
+         <xg>
+            <x>мужика бабаяс</x>
+            <xt lang="rus">замужние женщины</xt>
+         </xg>
+         <xg>
+            <x>мужика дӧва</x>
+            <xt lang="rus">замужняя женщина, живущая отдельно от мужа; соломенная вдова</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>муня-моня</l>
+         <stg>
+            <st Contlex="AdjTag">муня-моня</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head>
+               <range rangeSpat="dialect"/>
+            </head>
+         </m>
+         <tg lang="rus">
+            <t>невнятный</t>
+         </tg>
+         <xg>
+            <x>муня-моня сёрни</x>
+            <xt lang="rus">невнятный разговор</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>мургана</l>
+         <stg>
+            <st Contlex="AdjTag">мургана</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel lemmaID="мурган" semRelType="see"/>
+         </m>
+         <tg lang="rus">
+            <t/>
+         </tg>
+         <xg>
+            <x>гӧлӧсыс сылӧн вӧлі мургана</x>
+            <xt lang="rus">голос у него был рокочущий</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>мурыш</l>
+         <stg>
+            <st Contlex="AdjTag">мурыш</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head>
+               <range rangeSpat="dialect"/>
+            </head>
+            <semRel No="1" lemmaID="зумыш" semRelType="seeAlso"/>
+         </m>
+         <tg lang="rus">
+            <t>угрюмый, хмурый</t>
+         </tg>
+         <xg>
+            <x>сійӧ мурыш да кыввортӧм</x>
+            <xt lang="rus">он угрюмый и неразговорчивый</xt>
+         </xg>
+         <xg>
+            <x>мурыш сулалӧ коми парма</x>
+            <xt lang="rus">угрюмая стоит коми парма</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>мутшкӧс</l>
+         <stg>
+            <st Contlex="AdjTag">мутшкӧс</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>густой QXQX заросли</t>
+         </tg>
+         <xg>
+            <x>понӧля мутшкӧс</x>
+            <xt lang="rus">заросли хвойной поросли</xt>
+         </xg>
+         <xg>
+            <x>мутшкӧс вӧр</x>
+            <xt lang="rus">густой лес, лес с подлеском; с подсадом</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <tCtn>
+               <t>сырой, заросший высоким мхом</t>
+               <re>о почве в лесу</re>
+            </tCtn>
+         </tg>
+         <xg>
+            <x>мутшкӧс нюкӧс</x>
+            <xt lang="rus">сырой овраг</xt>
+         </xg>
+      </mg>
+      <mg No="3">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <tCtn>
+               <t>мягкий, рыхлый</t>
+               <re>о снеге в оттепель</re>
+            </tCtn>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>мыгӧра</l>
+         <stg>
+            <st Contlex="AdjTag">мыгӧра</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <tCtn>
+               <t>крупный, солидный</t>
+               <re>о человеке</re>
+            </tCtn>
+         </tg>
+         <xg>
+            <x>мыгӧра морт</x>
+            <xt lang="rus">человек с крупным телосложением</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>мыкыра</l>
+         <stg>
+            <st Contlex="AdjTag">мыкыра</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head>
+               <range rangeSpat="dialect"/>
+            </head>
+         </m>
+         <tg lang="rus">
+            <t>горбатый; сутулый</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>мыла</l>
+         <stg>
+            <st Contlex="AdjTag">мыла</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>мелодичный, мелодический; напевный, приятный, красивый, музыкальный QXQX мелодично; красиво; приятно</t>
+         </tg>
+         <xg>
+            <x>мыла гӧлӧс</x>
+            <xt lang="rus">красивый, мелодичный голос</xt>
+         </xg>
+         <xg>
+            <x>мыла сьыланкыв</x>
+            <xt lang="rus">мелодичная песня</xt>
+         </xg>
+         <xg>
+            <x>сьылісны сьӧлӧмсяньыс, мыла</x>
+            <xt lang="rus">они пели от души, мелодично</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>мылькйыв</l>
+         <stg>
+            <st Contlex="AdjTag">мылькйыв</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <tCtn>
+               <t>навыкат, навыкате; выпуклый</t>
+               <re>о глазах</re>
+            </tCtn>
+         </tg>
+         <xg>
+            <x>синъясыс сылӧн мылькйыв чеччӧмаӧсь</x>
+            <xt lang="rus">глаза его навыкате</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>мӧдза</l>
+         <stg>
+            <st Contlex="AdjTag">мӧдза</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head>
+               <range rangeSpat="dialect"/>
+            </head>
+            <semRel lemmaID="чукля" semRelType="seeAlso"/>
+         </m>
+         <tg lang="rus">
+            <t>кривой</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>надз</l>
+         <stg>
+            <st Contlex="AdjTag">надз</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <tCtn>
+               <t>медлительный; нерасторопный; копотливый, мешкотный</t>
+               <register register="conversation"/>
+            </tCtn>
+         </tg>
+         <xg>
+            <x>надз морт</x>
+            <xt lang="rus">медлительный человек</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>надз</l>
+         <stg>
+            <st Contlex="AdjTag">надз</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head>
+               <range rangeSpat="dialect"/>
+            </head>
+            <semRel No="1" lemmaID="скуп" semRelType="seeAlso"/>
+         </m>
+         <tg lang="rus">
+            <t>скупой</t>
+         </tg>
+         <xg>
+            <x>надз синва войта</x>
+            <xt lang="rus">скуп на слёзы</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>надзмӧс</l>
+         <stg>
+            <st Contlex="AdjTag">надзмӧс</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head>
+               <range rangeSpat="dialect"/>
+            </head>
+         </m>
+         <tg lang="rus">
+            <t>пологий, отлогий</t>
+         </tg>
+         <xg>
+            <x>надзмӧс чой</x>
+            <xt lang="rus">пологий склон</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>надзмӧс</l>
+         <stg>
+            <st Contlex="AdjTag">надзмӧс</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head>
+               <range rangeSpat="dialect"/>
+            </head>
+         </m>
+         <tg lang="rus">
+            <t>тихий; медленный; медлительный</t>
+         </tg>
+         <xg>
+            <x>надзмӧс вӧрасъяса морт</x>
+            <xt lang="rus">медлительный человек</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>нартлив</l>
+         <stg>
+            <st Contlex="AdjTag">нартлив</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+            <semRel No="1" RNo="II" lemmaID="нарт" semRelType="see"/>
+         </m>
+      </mg>
+      <mg No="2">
+         <m>
+            <head>
+               <range rangeSpat="dialect"/>
+            </head>
+         </m>
+         <tg lang="rus">
+            <t>глумливый, насмешливый</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>неважся</l>
+         <stg>
+            <st Contlex="AdjTag">неважся</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="неважӧнся" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>неджӧга</l>
+         <stg>
+            <st Contlex="AdjTag">неджӧга</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="неджӧгӧсь" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>недыркада</l>
+         <stg>
+            <st Contlex="AdjTag">недыркада</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="недырся" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>недырся</l>
+         <stg>
+            <st Contlex="AdjTag">недырся</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>временный</t>
+         </tg>
+         <xg>
+            <x>недырся удж</x>
+            <xt lang="rus">временная работа</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>недолгий</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>недыръя</l>
+         <stg>
+            <st Contlex="AdjTag">недыръя</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel lemmaID="недырся" semRelType="see"/>
+         </m>
+         <tg lang="rus">
+            <t/>
+         </tg>
+         <xg>
+            <x>недыръя отпуск</x>
+            <xt lang="rus">короткий отпуск</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>нездоров</l>
+         <stg>
+            <st Contlex="AdjTag">нездоров</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="висьлӧс" semRelType="seeAlso"/>
+         </m>
+         <tg lang="rus">
+            <t>нездоровый, больной</t>
+         </tg>
+         <xg>
+            <x>нездоров морт</x>
+            <xt lang="rus">больной человек</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>немся</l>
+         <stg>
+            <st Contlex="AdjTag">немся</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head>
+               <range rangeSpat="dialect"/>
+            </head>
+            <semRel No="1" lemmaID="некутшӧм" semRelType="see"/>
+         </m>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>никогда, ни при каких обстоятельствах</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ненога</l>
+         <stg>
+            <st Contlex="AdjTag">ненога</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>бестолковый</t>
+         </tg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>необычный; неестественный; ненормальный; не такой, каким следовало бы быть</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>нерад</l>
+         <stg>
+            <st Contlex="AdjTag">нерад</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>не рад</t>
+         </tg>
+         <xg>
+            <x>ас вылам нерад</x>
+            <xt lang="rus">я (он) сам себе не рад</xt>
+         </xg>
+         <xg>
+            <x>вылас нерад</x>
+            <xt lang="rus">я (он) сам себе не рад</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>нильӧг</l>
+         <stg>
+            <st Contlex="AdjTag">нильӧг</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <tCtn>
+               <t>скользкий</t>
+               <re>от влаги, слизи</re>
+            </tCtn>
+         </tg>
+         <xg>
+            <x>нильӧг ки</x>
+            <xt lang="rus">скользкие руки</xt>
+         </xg>
+         <xg>
+            <x>нильӧг няйт</x>
+            <xt lang="rus">скользкая грязь</xt>
+         </xg>
+         <xg>
+            <x>налим кодь нильӧг</x>
+            <xt lang="rus">скользкий как налим</xt>
+         </xg>
+         <xg>
+            <x>нильӧг пемӧсъяс</x>
+            <xt lang="rus">пресмыкающиеся</xt>
+         </xg>
+         <xg>
+            <x>зэра дырйи сёйӧд туйяс лоӧны нильӧгӧсь</x>
+            <xt lang="rus">в дождливую пору глинистые дороги становятся скользкими</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>водянистый</t>
+         </tg>
+         <xg>
+            <x>нильӧг картупель</x>
+            <xt lang="rus">неразваривающийся, водянистый картофель</xt>
+         </xg>
+      </mg>
+      <mg No="3">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>липкий</t>
+         </tg>
+         <xg>
+            <x>нильӧг пӧсь</x>
+            <xt lang="rus">липкий пот, липкая испарина</xt>
+         </xg>
+      </mg>
+      <mg No="4">
+         <m>
+            <head>
+               <sense sense="figurative"/>
+            </head>
+         </m>
+         <tg lang="rus">
+            <tCtn>
+               <t>гладкий, скользкий</t>
+               <re>о тканях</re>
+            </tCtn>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>нира</l>
+         <stg>
+            <st Contlex="AdjTag">нира</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel semRelType="seeAlso">уль% вый</semRel>
+         </m>
+         <tg lang="rus">
+            <t>нетоплёный</t>
+         </tg>
+         <xg>
+            <x>нира вый</x>
+            <xt lang="rus">нетоплёное масло</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ныа</l>
+         <stg>
+            <st Contlex="AdjTag">ныа</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head>
+               <range rangeSpat="dialect"/>
+            </head>
+         </m>
+         <tg lang="rus">
+            <t>ворсистый; мохнатый</t>
+         </tg>
+         <xg>
+            <x>ныа джодждӧра</x>
+            <xt lang="rus">ворсистый половик</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ныж</l>
+         <stg>
+            <st Contlex="AdjTag">ныж</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head>
+               <sense sense="literal"/>
+               <sense sense="figurative"/>
+            </head>
+         </m>
+         <tg lang="rus">
+            <t>тупой</t>
+         </tg>
+         <xg>
+            <x>ныж вежӧр</x>
+            <xt lang="rus">тупой ум</xt>
+         </xg>
+         <xg>
+            <x>ныж пила</x>
+            <xt lang="rus">тупая пила</xt>
+         </xg>
+         <xg>
+            <x>ныж пуртӧн вундавны</x>
+            <xt lang="rus">изрезать тупым ножом</xt>
+         </xg>
+         <xg genreType="saying">
+            <x>ныж косанад беддьӧн ытшкӧм кодь</x>
+            <xt lang="rus">тупой косой косить — всё равно что палкой</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ныма</l>
+         <stg>
+            <st Contlex="AdjTag">ныма</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <tCtn>
+               <t>как раз, подходящий; по</t>
+               <re>кому-л.</re>
+            </tCtn>
+         </tg>
+         <xg>
+            <x>дӧрӧмыс кузь, ныма тэн ковта и юбка пыдди</x>
+            <xt lang="rus">рубашка длинная, как раз тебе вместо кофты и юбки</xt>
+         </xg>
+         <xg>
+            <x>сылы керкаыс ныма</x>
+            <xt lang="rus">дом как раз для него</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head>
+               <re>в роли сказ.</re>
+            </head>
+            <semRel No="2" lemmaID="таковскӧй" semRelType="seeAlso"/>
+         </m>
+         <tg lang="rus">
+            <t>поделом</t>
+         </tg>
+         <xg>
+            <x>ныма сылы</x>
+            <xt lang="rus">поделом ему, так ему и надо</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ныргора</l>
+         <stg>
+            <st Contlex="AdjTag">ныргора</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>носовой</t>
+         </tg>
+         <xg>
+            <x>ныргора шы</x>
+            <xt lang="rus">носовой звук</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>с храпением, с храпом</t>
+         </tg>
+         <xg>
+            <x>ныргора ун</x>
+            <xt lang="rus">сон, сопровождаемый храпом</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ньывкӧс</l>
+         <stg>
+            <st Contlex="AdjTag">ньывкӧс</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+            <semRel lemmaID="ньывк" semRelType="see"/>
+         </m>
+         <tg lang="rus">
+            <t/>
+         </tg>
+         <xg>
+            <x>ньывкӧс берег</x>
+            <xt lang="rus">отлогий берег</xt>
+         </xg>
+         <xg>
+            <x>ньывкӧс керӧс</x>
+            <xt lang="rus">пологий холм</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>покатый</t>
+         </tg>
+         <xg>
+            <x>ньывкӧс кымӧс</x>
+            <xt lang="rus">покатый лоб</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ньывкӧс</l>
+         <stg>
+            <st Contlex="AdjTag">ньывкӧс</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>не содержащий возражения</t>
+         </tg>
+         <xg>
+            <x>ньывкӧс кывъяс</x>
+            <xt lang="rus">уступка, слова, не содержащие в себе возражения</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ньыла</l>
+         <stg>
+            <st Contlex="AdjTag">ньыла</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head>
+               <re>только в сочет.</re>
+            </head>
+         </m>
+         <tg lang="rus">
+            <t>:</t>
+         </tg>
+         <xg>
+            <x>ньыла кыв</x>
+            <xt lang="rus">слово ((или) выражение), заключающее в себе согласие, уступку</xt>
+         </xg>
+         <xg>
+            <x>ньыла вылын</x>
+            <xt lang="rus">в период сокодвижения</xt>
+         </xg>
+         <xg>
+            <x>ньыла вылын сюмӧд кульны</x>
+            <xt lang="rus">сдирать берёсту в период сокодвижения</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ньылӧма</l>
+         <stg>
+            <st Contlex="AdjTag">ньылӧма</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <tCtn>
+               <t>покрытая жиропотом</t>
+               <re>об овечьй шерсти</re>
+            </tCtn>
+         </tg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>покрытый испариной; в испарине; потный</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ньӧж</l>
+         <stg>
+            <st Contlex="AdjTag">ньӧж</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel RNo="I" lemmaID="надз" semRelType="see"/>
+         </m>
+         <tg lang="rus">
+            <t/>
+         </tg>
+         <xg genreType="saying">
+            <x>ньӧж помӧ воан, а дыш помӧ он во</x>
+            <xt lang="rus">нерасторопный когда-нибудь да сделает, а ленивый — никогда</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ньӧръёла</l>
+         <stg>
+            <st Contlex="AdjTag">ньӧръёла</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <tCtn>
+               <t>не очень холодный, не очень вьюжный; умеренный</t>
+               <re>о зимней погоде</re>
+            </tCtn>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>нэмӧвӧйся</l>
+         <stg>
+            <st Contlex="AdjTag">нэмӧвӧйся</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>вековой</t>
+         </tg>
+         <xg>
+            <x>нэмӧвӧйся оласног</x>
+            <xt lang="rus">вековые обычаи</xt>
+         </xg>
+         <xg>
+            <x>нэмӧвӧйся пу</x>
+            <xt lang="rus">вековое дерево</xt>
+         </xg>
+         <xg>
+            <x>нэмӧвӧйся традиция</x>
+            <xt lang="rus">вековая традиция</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>вековечный</t>
+         </tg>
+         <xg>
+            <x>нэмӧвӧйся лӧгалӧм</x>
+            <xt lang="rus">вековечная вражда</xt>
+         </xg>
+      </mg>
+      <mg No="3">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>вековечный; извечный; исконный</t>
+         </tg>
+         <xg>
+            <x>нэмӧвӧйся олысьяс</x>
+            <xt lang="rus">исконные жители</xt>
+         </xg>
+      </mg>
+      <mg No="4">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>старый</t>
+         </tg>
+         <xg>
+            <x>нэмӧвӧйся керка</x>
+            <xt lang="rus">старый дом</xt>
+         </xg>
+      </mg>
+      <mg No="5">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>старый, опытный; бывалый</t>
+         </tg>
+         <xg>
+            <x>нэмӧвӧйся кыйсьысь</x>
+            <xt lang="rus">старый охотник</xt>
+         </xg>
+      </mg>
+      <mg No="6">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <tCtn>
+               <t>завзятый</t>
+               <register register="conversation"/>
+            </tCtn>
+         </tg>
+         <xg>
+            <x>нэмӧвӧйся вензьысь</x>
+            <xt lang="rus">завзятый спорщик</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>нэмӧвӧйя</l>
+         <stg>
+            <st Contlex="AdjTag">нэмӧвӧйя</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="нэмӧвӧйся" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>нэр</l>
+         <stg>
+            <st Contlex="AdjTag">нэр</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>слабый</t>
+         </tg>
+         <xg>
+            <x>нэр заяса</x>
+            <xt lang="rus">со слабыми стеблями</xt>
+         </xg>
+         <xg>
+            <x>нэр ки</x>
+            <xt lang="rus">слабые руки</xt>
+         </xg>
+         <xg>
+            <x>нэр пельпом</x>
+            <xt lang="rus">слабые плечи</xt>
+         </xg>
+         <xg>
+            <x>нэр петасъяс</x>
+            <xt lang="rus">слабые всходы</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>слабый, лишённый твёрдости</t>
+         </tg>
+         <xg>
+            <x>нэр сьӧлӧм</x>
+            <xt lang="rus">слабое (чувствительное) сердце</xt>
+         </xg>
+      </mg>
+      <mg No="3">
+         <m>
+            <head>
+               <sense sense="figurative"/>
+            </head>
+         </m>
+         <tg lang="rus">
+            <t>незрелый, не достигший возмужалости</t>
+         </tg>
+         <xg>
+            <x>нэр пӧлян кодь</x>
+            <xt lang="rus">молод ещё</xt>
+            <xt lang="rus" tType="literal">как неотвердевший дудчатый стебель</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>нюдз</l>
+         <stg>
+            <st Contlex="AdjTag">нюдз</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head>
+               <sense sense="literal"/>
+               <sense sense="figurative"/>
+            </head>
+         </m>
+         <tg lang="rus">
+            <t>гибкий</t>
+         </tg>
+         <xg>
+            <x>нюдз кос</x>
+            <xt lang="rus">гибкая талия</xt>
+         </xg>
+         <xg>
+            <x>нюдз ньӧрйӧн кӧртавны</x>
+            <xt lang="rus">связать гибкой лозой</xt>
+         </xg>
+         <xg>
+            <x>нюдз пу</x>
+            <xt lang="rus">гибкое дерево</xt>
+         </xg>
+         <xg>
+            <x>кывным нюдз, озыр</x>
+            <xt lang="rus">наш язык гибкий, богатый</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>влажный; сырой; волглый</t>
+         </tg>
+         <xg>
+            <x>туруныс нюдз</x>
+            <xt lang="rus">сено волглое</xt>
+         </xg>
+      </mg>
+      <mg No="3">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>вязкий</t>
+         </tg>
+         <xg>
+            <x>нюдз сёй</x>
+            <xt lang="rus">вязкая глина</xt>
+         </xg>
+      </mg>
+      <mg No="4">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <tCtn>
+               <t>не рассыпчатый, не крошащийся</t>
+               <re>(о сухарях, баранках в результате неудачной сушки или отсыревания)</re>
+            </tCtn>
+         </tg>
+         <xg>
+            <x>нюдз кӧлач</x>
+            <xt lang="rus">не рассыпчатый калач</xt>
+         </xg>
+      </mg>
+      <mg No="5">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>протяжный</t>
+         </tg>
+         <xg>
+            <x>нюдз сьыланкыв</x>
+            <xt lang="rus">протяжная песня</xt>
+         </xg>
+      </mg>
+      <mg No="6">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>нерасторопный, непроворный, вялый</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>нюдз</l>
+         <stg>
+            <st Contlex="AdjTag">нюдз</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <tCtn>
+               <t>зелёный</t>
+               <re>(только о глазах)</re>
+            </tCtn>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>нюжмӧс</l>
+         <stg>
+            <st Contlex="AdjTag">нюжмӧс</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head>
+               <range rangeSpat="dialect"/>
+            </head>
+            <semRel No="1" lemmaID="кузьмӧс" semRelType="seeAlso"/>
+         </m>
+         <tg lang="rus">
+            <t>продолговатый</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>нюз</l>
+         <stg>
+            <st Contlex="AdjTag">нюз</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>низкий, пологий, покатый</t>
+         </tg>
+         <xg>
+            <x>нюз берегъяс</x>
+            <xt lang="rus">пологие берега</xt>
+         </xg>
+         <xg>
+            <x>нюз пельпомъяса морт</x>
+            <xt lang="rus">человек с покатыми плечами</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <tCtn>
+               <t>длинный, вытянутый</t>
+               <re>о носе</re>
+            </tCtn>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>нюмпоштана</l>
+         <stg>
+            <st Contlex="AdjTag">нюмпоштана</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head>
+               <range rangeSpat="dialect"/>
+            </head>
+            <semRel lemmaID="нюмбана" semRelType="see"/>
+         </m>
+         <tg lang="rus">
+            <t/>
+         </tg>
+         <xg>
+            <x>сійӧ век нюмпоштана</x>
+            <xt lang="rus">он всегда улыбчивый</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>няйта</l>
+         <stg>
+            <st Contlex="AdjTag">няйта</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>илистый</t>
+         </tg>
+         <xg>
+            <x>тыыс няйта</x>
+            <xt lang="rus">озеро илистое</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>нямыр</l>
+         <stg>
+            <st Contlex="AdjTag">нямыр</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head>
+               <range rangeSpat="dialect"/>
+            </head>
+         </m>
+         <tg lang="rus">
+            <t>слабый; хилый</t>
+         </tg>
+         <xg>
+            <x>нямыр вом</x>
+            <xt lang="rus">слабые губы</xt>
+         </xg>
+         <xg>
+            <x>нямыр морт</x>
+            <xt lang="rus">слабый человек</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>няня</l>
+         <stg>
+            <st Contlex="AdjTag">няня</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>хлебный, обильный хлебом; хлебородный</t>
+         </tg>
+         <xg>
+            <x>няня во</x>
+            <xt lang="rus">хлебный (урожайный) год</xt>
+         </xg>
+         <xg>
+            <x>няня местаяс</x>
+            <xt lang="rus">хлебные места</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>обладающий достатком хлеба; зажиточный</t>
+         </tg>
+         <xg>
+            <x>няня олысьяс</x>
+            <xt lang="rus">зажиточные, богатые хлебом жители</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>няня-сола</l>
+         <stg>
+            <st Contlex="AdjTag">няня-сола</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>обеспеченный хлебом, продуктами питания</t>
+         </tg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>гостеприимный, хлебосольный</t>
+         </tg>
+         <xg>
+            <x>сылӧн бать-мамыс зэв няня-солаӧсь вӧліны</x>
+            <xt lang="rus">его родители были очень гостеприимными</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>нёптола</l>
+         <stg>
+            <st Contlex="AdjTag">нёптола</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>впалый</t>
+         </tg>
+         <xg>
+            <x>нёптола бандзиб</x>
+            <xt lang="rus">впалые щёки</xt>
+         </xg>
+         <xg>
+            <x>нёптола бокъяса вӧв</x>
+            <xt lang="rus">лошадь со впалыми боками</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>с вмятиной, с выбоиной</t>
+         </tg>
+      </mg>
+      <mg No="3">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <tCtn>
+               <t>с ямочкой</t>
+               <re>(на щеке)</re>
+            </tCtn>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>нёра</l>
+         <stg>
+            <st Contlex="AdjTag">нёра</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel lemmaID="нёриня" semRelType="see"/>
+         </m>
+         <tg lang="rus">
+            <t/>
+         </tg>
+         <xg genreType="saying">
+            <x>нёра пу он веськӧд, лёк мортӧс он велӧд</x>
+            <xt lang="rus">горбатого могила исправит</xt>
+            <literal>
+               <xt lang="rus">кривое дерево не выпрямишь, плохого человека не научишь</xt>
+            </literal>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>нёракодь</l>
+         <stg>
+            <st Contlex="AdjTag">нёракодь</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>слегка наклонившийся, накренившийся</t>
+         </tg>
+         <xg>
+            <x>нёракодь пу</x>
+            <xt lang="rus">слегка накренившееся дерево</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>нёриня</l>
+         <stg>
+            <st Contlex="AdjTag">нёриня</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>с наклоном, с креном; наклонившийся, накренившийся</t>
+         </tg>
+         <xg>
+            <x>нёриня кыдз</x>
+            <xt lang="rus">наклонившаяся берёза</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>нёрола</l>
+         <stg>
+            <st Contlex="AdjTag">нёрола</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>с наклоном, с креном; наклонившийся, покосившийся; кривой</t>
+         </tg>
+         <xg>
+            <x>нёрола пу</x>
+            <xt lang="rus">кривое дерево</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>нӧгыль</l>
+         <stg>
+            <st Contlex="AdjTag">нӧгыль</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>густой</t>
+         </tg>
+         <xg>
+            <x>нӧгыль ру</x>
+            <xt lang="rus">густой туман</xt>
+         </xg>
+         <xg>
+            <x>нӧгыль чужва</x>
+            <xt lang="rus">густое сусло</xt>
+         </xg>
+         <xg>
+            <x>ид шыдӧса нӧгыль шыд</x>
+            <xt lang="rus">перловый суп с густым наваром</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <tCtn>
+               <t>разварившийся; перепревший</t>
+               <re>о каше, супе</re>
+            </tCtn>
+         </tg>
+      </mg>
+      <mg No="3">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>жирный QXQX жирность</t>
+         </tg>
+         <xg>
+            <x>йӧв нӧгыль</x>
+            <xt lang="rus">жирность молока</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>нӧгыля</l>
+         <stg>
+            <st Contlex="AdjTag">нӧгыля</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>густо QXQX густой</t>
+         </tg>
+         <xg>
+            <x>нӧгыля шыд</x>
+            <xt lang="rus">густой суп</xt>
+         </xg>
+         <xg>
+            <x>нӧгыля пуны</x>
+            <xt lang="rus">сварить густо</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>нӧкъя</l>
+         <stg>
+            <st Contlex="AdjTag">нӧкъя</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>со сметаной</t>
+         </tg>
+         <xg>
+            <x>нӧкъя шаньга</x>
+            <xt lang="rus">шаньга со сметаной</xt>
+         </xg>
+         <xg>
+            <x>нӧкъя шыд</x>
+            <xt lang="rus">щи со сметаной</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>оброка</l>
+         <stg>
+            <st Contlex="AdjTag">оброка</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>оброчный; платящий оброк</t>
+         </tg>
+         <xg>
+            <x>оброка крестьянин</x>
+            <xt lang="rus">оброчный крестьянин</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>оброчный, сдаваемый в аренду; в наём</t>
+         </tg>
+         <xg>
+            <x>оброка местаяс, тыяс, юяс</x>
+            <xt lang="rus">сдаваемые в аренду места, водоёмы; оброчные статьи</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ода</l>
+         <stg>
+            <st Contlex="AdjTag">ода</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>:</t>
+         </tg>
+         <xg>
+            <x>ода кора</x>
+            <xt lang="rus">май</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>озъя</l>
+         <stg>
+            <st Contlex="AdjTag">озъя</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>с земляникой</t>
+         </tg>
+         <xg>
+            <x>озъя йӧв</x>
+            <xt lang="rus">земляника с молоком</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>земляничный</t>
+         </tg>
+         <xg>
+            <x>озъя варенньӧ</x>
+            <xt lang="rus">земляничное варенье</xt>
+         </xg>
+      </mg>
+      <mg No="3">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>изобилующий земляникой, обильный земляникой</t>
+         </tg>
+         <xg>
+            <x>озъя во</x>
+            <xt lang="rus">обильный земляникой год</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>олыся</l>
+         <stg>
+            <st Contlex="AdjTag">олыся</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <i>в суеверных представлениях</i>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>домовой</t>
+         </tg>
+         <xg>
+            <x>олыся керка</x>
+            <xt lang="rus">дом, в к-ром обитает домовой</xt>
+         </xg>
+         <xg>
+            <x>олысяяслы ог эскы</x>
+            <xt lang="rus">я не верю в домовых</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>обитаемый</t>
+         </tg>
+         <xg>
+            <x>олыся тайӧ гуыс</x>
+            <xt lang="rus">эта берлога обитаема</xt>
+         </xg>
+         <xg>
+            <x>кывзыштан и гӧгӧрвоан: олыся ягыс</x>
+            <xt lang="rus">прислушаешься и поймёшь: лес обитаем</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>олӧмакодь</l>
+         <stg>
+            <st Contlex="AdjTag">олӧмакодь</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>не первой молодости, не слишком молодой</t>
+         </tg>
+         <xg>
+            <x>олӧмакодь мужичӧй</x>
+            <xt lang="rus">немолодой мужчина</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>олӧмруа</l>
+         <stg>
+            <st Contlex="AdjTag">олӧмруа</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head>
+               <range rangeSpat="dialect"/>
+            </head>
+         </m>
+         <tg lang="rus">
+            <t>пожилой на вид</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>омӧлик</l>
+         <stg>
+            <st Contlex="AdjTag">омӧлик</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <drv>уменьш.</drv>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>плохонький, плоховатый; неважный</t>
+         </tg>
+         <xg>
+            <x>омӧлик кар</x>
+            <xt lang="rus">захудалый город</xt>
+         </xg>
+         <xg>
+            <x>омӧлик поводдя</x>
+            <xt lang="rus">неважная погода</xt>
+         </xg>
+         <xg genreType="saying">
+            <x>омӧлик вӧлӧс сийӧсыд зыртӧ</x>
+            <xt lang="rus">плохую лошадь хомут трёт;</xt>
+         </xg>
+         <xg genreType="saying">
+            <x>омӧлик лэбачлӧн омӧлик и сьылӧмыс</x>
+            <xt lang="rus">у плохой птицы плохое и пение</xt>
+         </xg>
+         <xg genreType="saying">
+            <x>омӧлик мужик саяд мунӧмӧн сӧмын дуб шыд да кӧмтӧм кок нажӧвитан</x>
+            <xt lang="rus">выходя за плохого мужа только щи без соли да босые ноги наживёшь</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>слабенький; худенький</t>
+         </tg>
+         <xg>
+            <x>омӧлик старик</x>
+            <xt lang="rus">тщедушный старик</xt>
+         </xg>
+         <xg>
+            <x>смерть бедь кодь омӧлик мужик</x>
+            <xt lang="rus">мужик, худой, как посох смерти</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>омӧлиник</l>
+         <stg>
+            <st Contlex="AdjTag">омӧлиник</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="омӧлик" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>омӧль</l>
+         <stg>
+            <st Contlex="AdjTag">омӧль</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>плохой, скверный; дурной; худой; гадкий QXQX плохое; дурное; худое</t>
+         </tg>
+         <xg>
+            <x>омӧль морт</x>
+            <xt lang="rus">плохой, гадкий, дурной человек</xt>
+         </xg>
+         <xg>
+            <x>омӧль поводдя</x>
+            <xt lang="rus">плохая, скверная, гадкая погода</xt>
+         </xg>
+         <xg>
+            <x>омӧль син</x>
+            <xt lang="rus">дурной глаз</xt>
+         </xg>
+         <xg>
+            <x>омӧль слава</x>
+            <xt lang="rus">худая слава</xt>
+         </xg>
+         <xg>
+            <x>омӧль удж</x>
+            <xt lang="rus">плохая работа</xt>
+         </xg>
+         <xg genreType="saying">
+            <x>омӧль кӧйдыссьыд омӧль и быдтас петас</x>
+            <xt lang="rus">от плохого семени не жди хорошего племени;</xt>
+         </xg>
+         <xg genreType="saying">
+            <x>омӧль слава смерть дорысь омӧльджык</x>
+            <xt lang="rus">дурная слава хуже смерти</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>худой <register register="conversation"/> (дырявый, старый)</t>
+         </tg>
+         <xg>
+            <x>омӧль паськӧм</x>
+            <xt lang="rus">худая одежонка</xt>
+         </xg>
+         <xg genreType="saying">
+            <x>омӧльӧс кӧ он новлы, бурӧс он аддзыв</x>
+            <xt lang="rus">не носить плохой одежды – не видеть новой</xt>
+         </xg>
+      </mg>
+      <mg No="3">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>худой, тощий</t>
+         </tg>
+         <xg>
+            <x>зэв омӧль, куш кучикыс</x>
+            <xt lang="rus">очень худой, одна кожа</xt>
+         </xg>
+      </mg>
+      <mg No="4">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>хилый, слабый</t>
+         </tg>
+         <xg>
+            <x>омӧль кага</x>
+            <xt lang="rus">хилый ребёнок</xt>
+         </xg>
+         <xg>
+            <x>старикыс зэв нин омӧль</x>
+            <xt lang="rus">старик очень уж слаб</xt>
+         </xg>
+      </mg>
+      <mg No="5">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>чахлый</t>
+         </tg>
+         <xg>
+            <x>петасъяс омӧльӧсь</x>
+            <xt lang="rus">всходы чахлые</xt>
+         </xg>
+      </mg>
+      <mg>
+         <m>
+            <head>
+               <re>в роли сказ.</re>
+            </head>
+         </m>
+         <tg lang="rus">
+            <t>плохо, скверно, дурно</t>
+         </tg>
+         <xg>
+            <x>сійӧ омӧль</x>
+            <xt lang="rus">это плохо</xt>
+         </xg>
+         <xg>
+            <x>омӧль кучик</x>
+            <att att="disparaging"/>
+            <xt lang="rus">нытик, неженка</xt>
+         </xg>
+         <xg>
+            <x>омӧль туйӧ овны</x>
+            <xt lang="rus">быть на плохом счету</xt>
+         </xg>
+         <xg>
+            <x>омӧль туйӧ пуктыны</x>
+            <xt lang="rus">ни во что не ставить, пренебрегать</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>омӧль</l>
+         <stg>
+            <st Contlex="AdjTag">омӧль</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>нечистый, нечистая сила</t>
+         </tg>
+         <xg>
+            <x>пӧчӧяс висьтавлісны, мый керкаас овмӧдчӧмаӧсь омӧльяс</x>
+            <xt lang="rus">старухи рассказывали, что в доме поселились нечистые</xt>
+         </xg>
+         <xg genreType="saying">
+            <x>омӧльысь бурӧн он мын</x>
+            <xt lang="rus">от чёрта добром не избавишься</xt>
+         </xg>
+         <xg>
+            <x>омӧльыс тойыштіс</x>
+            <xt lang="rus">чёрт дёрнул</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>омӧльджык</l>
+         <stg>
+            <st Contlex="AdjTag">омӧльджык</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <i>сравнит. степ. от</i>
+      <kv>омӧль <RN>I</RN></kv>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>хуже, похуже</t>
+         </tg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>слабее</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>недостаточно прочный, слабоватый</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>ота</l>
+         <stg>
+            <st Contlex="AdjTag">ота</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="паськыд" semRelType="seeAlso"/>
+         </m>
+         <tg lang="rus">
+            <t>широкий</t>
+         </tg>
+         <xg>
+            <x>ота покос</x>
+            <xt lang="rus">широкий прокос</xt>
+         </xg>
+         <xg>
+            <x>ота туй</x>
+            <xt lang="rus">широкая дорога</xt>
+         </xg>
+         <xg>
+            <x>паськыд ота дӧра</x>
+            <xt lang="rus">широкий материал</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>состоящий из какого-л. числа полос или полотнищ</t>
+         </tg>
+         <xg>
+            <x>вит ота сарапан</x>
+            <xt lang="rus">сарафан из пяти полотнищ</xt>
+         </xg>
+         <xg>
+            <x>ота вом</x>
+            <xt lang="rus">болтун</xt>
+         </xg>
+         <xg>
+            <x>ота син</x>
+            <xt lang="rus">завидущие глаза</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>пагыр</l>
+         <stg>
+            <st Contlex="AdjTag">пагыр</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>перекисший, прокислый</t>
+         </tg>
+         <xg>
+            <x>пагыр сур</x>
+            <xt lang="rus">перекисшее пиво</xt>
+         </xg>
+         <xg>
+            <x>пагыр ырӧш</x>
+            <xt lang="rus">прокислый квас</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head>
+               <range rangeSpat="dialect"/>
+            </head>
+         </m>
+         <tg lang="rus">
+            <tCtn>
+               <t>безвкусный, выдохшийся</t>
+               <re>о пиве</re>
+            </tCtn>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>пайгӧс</l>
+         <stg>
+            <st Contlex="AdjTag">пайгӧс</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="2" lemmaID="алькӧс" semRelType="seeAlso"/>
+         </m>
+         <tg lang="rus">
+            <t>плоский, неглубокий, с низкими краями; мелкий</t>
+         </tg>
+         <xg>
+            <x>пайгӧс блюд</x>
+            <xt lang="rus">плоская тарелка</xt>
+         </xg>
+         <xg>
+            <x>пайгӧс чуман</x>
+            <xt lang="rus">берестяное лукошко с низкими краями</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>пайӧба</l>
+         <stg>
+            <st Contlex="AdjTag">пайӧба</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="2" lemmaID="вомӧна" semRelType="seeAlso"/>
+         </m>
+         <tg lang="rus">
+            <tCtn>
+               <t>отлогопосаженный</t>
+               <re>(о косе)</re>
+            </tCtn>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>пакӧсьта</l>
+         <stg>
+            <st Contlex="AdjTag">пакӧсьта</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <tCtn>
+               <t>блудливый</t>
+               <re>(о кошке)</re>
+            </tCtn>
+         </tg>
+         <xg>
+            <x>пакӧсьта кань кодь</x>
+            <xt lang="rus">блудлив как кошка</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>зловредный; пакостный, пакостливый</t>
+         </tg>
+         <xg>
+            <x>пакӧсьта морт</x>
+            <xt lang="rus">зловредный человек</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>пальшаа</l>
+         <stg>
+            <st Contlex="AdjTag">пальшаа</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>с изъяном</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>паныда</l>
+         <stg>
+            <st Contlex="AdjTag">паныда</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>со склоном, с подъёмом</t>
+         </tg>
+         <xg>
+            <x>туйыс паныда</x>
+            <xt lang="rus">дорога с подъёмом</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>встречный</t>
+         </tg>
+         <xg>
+            <x>паныда тӧв</x>
+            <xt lang="rus">встречный ветер</xt>
+         </xg>
+      </mg>
+      <mg No="3">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>противоположный; расположенный напротив</t>
+         </tg>
+         <xg>
+            <x>паныда берег</x>
+            <xt lang="rus">противоположный берег</xt>
+         </xg>
+         <xg>
+            <x>паныда керкаын</x>
+            <xt lang="rus">в доме напротив</xt>
+         </xg>
+      </mg>
+      <mg No="4">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>противоположный, совершенно несходный, противоречащий другому</t>
+         </tg>
+         <xg>
+            <x>паныда вежӧртаса кывъяс</x>
+            <xt lang="rus">антонимы</xt>
+         </xg>
+         <xg>
+            <x>паныда видзӧдлас</x>
+            <xt lang="rus">противоположный взгляд</xt>
+         </xg>
+         <xg>
+            <x>паныда мӧвпъяс</x>
+            <xt lang="rus">противоречивые суждения; противоположные мысли</xt>
+         </xg>
+      </mg>
+      <mg No="5">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>негативный; отрицательный</t>
+         </tg>
+         <xg>
+            <x>паныда воча кыв</x>
+            <xt lang="rus">негативный ответ</xt>
+         </xg>
+         <xg>
+            <x>смелмӧдчыны паныда кыв шуны</x>
+            <xt lang="rus">отважиться возразить</xt>
+         </xg>
+      </mg>
+      <mg No="6">
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="паныдӧн" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>паськӧма</l>
+         <stg>
+            <st Contlex="AdjTag">паськӧма</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>одетый</t>
+         </tg>
+         <xg>
+            <x>бур паськӧма</x>
+            <xt lang="rus">хорошо одетый</xt>
+         </xg>
+         <xg>
+            <x>лёк паськӧма</x>
+            <xt lang="rus">плохо одетый</xt>
+         </xg>
+         <xg>
+            <x>тӧвся паськӧма</x>
+            <xt lang="rus">в зимней одежде</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <tCtn>
+               <t>одетый и обутый</t>
+               <re>(обеспеченный одеждой, обувью)</re>
+            </tCtn>
+         </tg>
+         <xg>
+            <x>мам яй паськӧма</x>
+            <xt lang="rus">совсем голый, в чём мать родила</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>пашкыр</l>
+         <stg>
+            <st Contlex="AdjTag">пашкыр</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>раскидистый</t>
+         </tg>
+         <xg>
+            <x>пашкыр кыдз</x>
+            <xt lang="rus">раскидистая берёза</xt>
+         </xg>
+         <xg>
+            <x>пашкыр пожӧмъяс</x>
+            <xt lang="rus">раскидистые сосны</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>пушистый</t>
+         </tg>
+         <xg>
+            <x>пашкыр бӧж</x>
+            <xt lang="rus">пушистый хвост</xt>
+         </xg>
+      </mg>
+      <mg No="3">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>кудрявый</t>
+         </tg>
+         <xg>
+            <x>пашкыр юрсиа зон</x>
+            <xt lang="rus">парень с кудрявыми волосами</xt>
+         </xg>
+      </mg>
+      <mg No="4">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>взъерошенный, взлохмаченный, лохматый</t>
+         </tg>
+         <xg>
+            <x>пашкыр гӧна</x>
+            <xt lang="rus">а) со взъерошенными перьями; б) со взлохмаченной шерстью</xt>
+         </xg>
+      </mg>
+   </e>
    <e>
       <lg>
          <l>вильскӧб</l>

@@ -4,6 +4,212 @@
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <e>
       <lg>
+         <l>мем</l>
+         <stg>
+            <st Contlex="PronTag">мем</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel lemmaID="меным" semRelType="see"/>
+         </m>
+         <tg lang="rus">
+            <t/>
+         </tg>
+         <xg>
+            <x>медся ёна мем кажитчыліс рӧштво</x>
+            <xt lang="rus">больше всего мне нравилось рождество</xt>
+         </xg>
+         <xg>
+            <x>мем тайӧ йӧввыв</x>
+            <xt lang="rus">мне это с руки; мне это выгодно</xt>
+            <xt lang="rus" tType="literal">мне это масленица</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>мен</l>
+         <stg>
+            <st Contlex="PronTag">мен</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="меным" semRelType="see"/>
+         </m>
+         <xg>
+            <x>мен регыд висьтавны</x>
+            <xt lang="rus">скоро сказка сказывается</xt>
+         </xg>
+         <xg>
+            <x>мен сійӧ абу сват ни брат</x>
+            <xt lang="rus">мне он ни сват ни брат</xt>
+         </xg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>месся</l>
+         <stg>
+            <st Contlex="PronTag">месся</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head>
+               <range rangeSpat="dialect"/>
+            </head>
+            <semRel No="1" lemmaID="меысь" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>милы</l>
+         <stg>
+            <st Contlex="PronTag">милы</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="миянлы" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>милысь</l>
+         <stg>
+            <st Contlex="PronTag">милысь</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="миянлысь" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>морта-морт</l>
+         <stg>
+            <st Contlex="PronTag">морта-морт</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <mg>
+         <m>
+            <head>
+               <range rangeSpat="dialect"/>
+            </head>
+            <semRel lemmaID="кодсюрӧ_PRON-INDEF" semRelType="seeAlso"/>
+         </m>
+         <tg lang="rus">
+            <t pos="PRON-INDEF">кое-кто</t>
+            <t pos="PRON-INDEF">некоторые</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>мыя</l>
+         <stg>
+            <st Contlex="PronInterr">мыя</st>
+         </stg>
+      </lg>
+      <pos>PRON-INTERR</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>в какую цену, почём (<register register="conversation"/>)</t>
+         </tg>
+         <xg>
+            <x>мыя кило?</x>
+            <xt lang="rus">почём кило?</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>какого достоинства?</t>
+         </tg>
+         <xg>
+            <x>тайӧ мыя, куима али вита?</x>
+            <xt lang="rus">эта бумажка какого достоинства — трёшница или пятёрка?</xt>
+         </xg>
+      </mg>
+      <mg No="3">
+         <m>
+            <head/>
+         </m>
+         <tg lang="rus">
+            <t>с чем</t>
+         </tg>
+         <xg>
+            <x>рокыс мыя, выя али госа?</x>
+            <xt lang="rus">каша с чем — с маслом или с салом?</xt>
+         </xg>
+      </mg>
+      <mg No="4">
+         <m>
+            <head/>
+            <semRel lemmaID="мыйла" semRelType="see"/>
+         </m>
+         <tg lang="rus">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>нала</l>
+         <stg>
+            <st Contlex="PronTag">нала</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <drv cx="достиг."><kv>найӧ; лоӧ кодӧскӧ нала ыстывны</kv><tg lang="rus">
+            <t>придётся за ними кого-нибудь послать</t>
+         </tg></drv>
+      <mg>
+         <m>
+            <head/>
+         </m>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l>наӧн</l>
+         <stg>
+            <st Contlex="PronTag">наӧн</st>
+         </stg>
+      </lg>
+      <pos>PRON</pos>
+      <drv cx="твор."><kv>найӧ; наӧн сӧмын мырсьы</kv><tg lang="rus">
+            <t>с ними лишь намаешься</t>
+         </tg></drv>
+      <mg>
+         <m>
+            <head/>
+         </m>
+      </mg>
+   </e>
+   <e>
+      <lg>
          <l>ас</l>
          <stg>
             <st Contlex="EndRefl">ас</st>
