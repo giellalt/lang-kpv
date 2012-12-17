@@ -20,33 +20,33 @@ LEXICON Prop-R-RY
 !! Preparing for the template urj-Cyrl
 !! Beginning 2012-11-15
 !! Абдеев:Абдеев
-LEXICON Deriv-RUS-V-surmal
+LEXICON Deriv-RUS-V_surmal
 : PropSurMal-kal ;
 :а PropSurFem-kudo ;
 
 !! Багрий:Багр
-LEXICON Deriv-RUS-IJ-surmal
+LEXICON Deriv-RUS-IJ_surmal
 :ий PropSurMal-kal ;
 :яя PropSurFem-kudo ;
 
 !! Аморский:Аморск
-LEXICON Deriv-RUS-KIJ-surmal
+LEXICON Deriv-RUS-KIJ_surmal
 :ий PropSurMal-kal ;
 :ая PropSurFem-kudo ;
 
-LEXICON Deriv-RUS-OJ-surmal
+LEXICON Deriv-RUS-OJ_surmal
 :ой PropSurMal-kal ;
 :ая PropSurFem-kudo ;
 
-LEXICON Deriv-RUS-YJ-surmal
+LEXICON Deriv-RUS-YJ_surmal
 :ый PropSurMal-kal ;
 :ая PropSurFem-kudo ;
 
-LEXICON Deriv-RUS-AN-surmal
- Deriv-RUS-V-surmal ;
+LEXICON Deriv-RUS-AN_surmal
+ Deriv-RUS-V_surmal ;
 
-LEXICON Deriv-RUS-IN-surmal
- Deriv-RUS-V-surmal ;
+LEXICON Deriv-RUS-IN_surmal
+ Deriv-RUS-V_surmal ;
 
 
 LEXICON PropSurMal-kal
@@ -55,34 +55,34 @@ LEXICON PropSurMal-kal
 LEXICON PropSurFem-kudo
 +N+Prop+Sur+Fem+Sg: CASEPOSSLEX ;
 
-LEXICON CYRL-Cons-sur
+LEXICON CYRL-Cons_sur
  PropSur-kal ;
 
 LEXICON PropSur-kal
 +N+Prop+Sur+Sg: CASEPOSSLEX ;
 
-LEXICON CYRL-T-sur
+LEXICON CYRL-T_sur
  PropSur-kit ;
 
 LEXICON PropSur-kit
  PropSur-kal ;
 
-LEXICON CYRL-K-sur
+LEXICON CYRL-K_sur
  PropSur-lak ;
 
 LEXICON PropSur-lak
  PropSur-kal ;
 
-LEXICON CYRL-Sibilant-sur
+LEXICON CYRL-Sibilant_sur
  PropSur-osh ;
 
 LEXICON PropSur-osh
 +N+Prop+Sur+Sg: CASEPOSSLEX ;
 
-LEXICON CYRL-Vow-sur
+LEXICON CYRL-Vow_sur
  PropSur-kudo ;
 
-LEXICON CYRL-A-sur
+LEXICON CYRL-A_sur
  PropSur-kudo ;
 
 LEXICON PropSur-kudo
