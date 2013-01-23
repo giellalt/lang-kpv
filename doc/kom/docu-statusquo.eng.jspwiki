@@ -1,0 +1,30 @@
+!!!Status quo
+
+This document gives a short status report of the
+[Komi grammatical analyser|http://giellatekno.uit.no/cgi/index.kom.eng.html] 
+ and [its source files|https://victorio.uit.no/langtech/trunk/kt/kom/src/].
+
+
+
+!!!January 1st, 2011
+
+Status for [the source files|https://victorio.uit.no/langtech/trunk/kt/kom/src/]:
+
+* Lexicon: The lexicon contains 12218 entries (5863 nouns, 3990 verbs, 
+  1193 adjectives)
+* Morphology: The morphology files are 1442 lines long, and contain 163
+  continuation lexica. Compared to 9690 lines and 1122 lexica for North Sami,
+  there is still work to do.
+* Morphophonology: The file xfst-kom.txt is 173 lines long. Compared to
+  the one for Greenlandic, 387 lines, the situation is not that bad for Komi.
+
+Tasks ahead:
+
+# Write applications to Russia and Norway
+# Test and correct the morphology and morphophonology
+# Integrate the Komi-Russian dictionary in the analyser
+# Add more words:
+## Test the resulting analyser against text material, and add new words
+## Systematically add Russian loanwords: names and technical terms
+# Work on the spellchecker
+
