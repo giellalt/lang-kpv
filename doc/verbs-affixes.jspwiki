@@ -1,0 +1,109 @@
+
+!!!Verbal morphology               
+
+
+!!Closed class verbs
+
+
+
+
+
+
+
+
+!!Open class verbs
+
+Some Flag diacritic lines are with regexes, other with aligned zeros. We want to migrate to
+regexes < … > , for readability reasons (sic!)
+
+
+
+
+
+
+
+
+
+
+
+
+
+!!Verb conjugation 
+
+ LEXICON VerbConj-V   суф б -- ы 
+
+ LEXICON VerbConj  суф а
+
+ LEXICON Finiteforms   Gives linking vowels for 3 tenses
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!!Derivation
+
+
+ LEXICON Verb-nyDer  
+
+verb-to-verb
+
+This is fed by LEXICON Verb-ny, and therefore certain corrections
+must be made 2012-01-18
+
+овсьыны
+пусьыштлывлыны
+босьтчыштлывлыны
+босьтасьны
+
+
+ LEXICON VerbDer  
+
+verb-to-noun
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+вевттьысьыны
+
+бертласьны
+
+
+
+
+
+
+
+
+
+
+
+
+
