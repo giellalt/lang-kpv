@@ -1,10 +1,11 @@
-!! Postposition inflection
-!! ---------------
+!! !!!Postposition inflection
+!! ----
+
 !! Komi postpositions inflect for direction.
 
 
 ! ============ !
-! Postp lexica !
+!! Postp lexica 
 ! ============ !
 
 LEXICON PoATag
@@ -25,9 +26,10 @@ LEXICON PoTag
 ! ногӧн, выйӧн
 
 
-!This contlex allows for relational word which, otherwise, are open 
-!to extensive declension
-LEXICON POSTP1
+!! This contlex allows for relational word which, otherwise, are open 
+!! to extensive declension
+
+LEXICON POSTP1  !!= * @CODE@
 PO-APR ;
 PO-APR-ILL ;
 PO-APR-INE ;
@@ -40,11 +42,12 @@ PO-INSTR ;
 PO-PROL ;
 PO-TRA ;
 PO-TER ;
-! these are: 
-! аддза, бӧрті, бокиті, боксянь, дырйи, йитӧдын, 
-! кузя, ног, ньылыд, паныдӧн, пӧлӧн, пыдди, пыр, понда, 
-! ради, уліті, выліті, вывті, вомас, вомӧн
-! пӧвст
+!! these are: 
+
+!! аддза, бӧрті, бокиті, боксянь, дырйи, йитӧдын, 
+!! кузя, ног, ньылыд, паныдӧн, пӧлӧн, пыдди, пыр, понда, 
+!! ради, уліті, выліті, вывті, вомас, вомӧн
+!! пӧвст
 
 LEXICON PO-APR
 +Po+Sg+Apr:%>лань PO-PX ;

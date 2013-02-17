@@ -1,23 +1,22 @@
-!!
 
 ! ============================= !
-!  Noun morphological lexica !
+!! !!!Noun morphological lexica !
 ! ============================= !
 
 ! ===== !
 ! Nouns !
 ! ===== !
 
-LEXICON Vocative
+LEXICON Vocative   !!= * @CODE@
 +N+Voc: # ;
 
-LEXICON Noun1-IS_PTC-OM ! This is to provide deverbal nouns with +Der/ӧм tags
+LEXICON Noun1-IS_PTC-OM !!= * @CODE@ is to provide deverbal nouns with +Der/ӧм tags
 +V+Der/ӧм: Noun1 ;
 
-LEXICON Noun1-IS_PTC-AN !
+LEXICON Noun1-IS_PTC-AN !!= * @CODE@
 +V+Der/ан: Noun1 ;
 
-LEXICON Noun1-IS_PTC-YSJ !
+LEXICON Noun1-IS_PTC-YSJ !!= * @CODE@
 +V+Der/ысь: Noun1 ;
 
 LEXICON N-DOR ! мӧдладор The Russian is an adverbial phrase
@@ -38,7 +37,8 @@ LEXICON Noun1-SYT-STY !
 :ьт         Noun1 ; ! This is the new proper spelling гӧсьт
 
 !! Basic nouns.
-LEXICON NTag
+
+LEXICON NTag   !!= * @CODE@
 +N: Noun1_01 ;
 
 LEXICON Noun1
@@ -93,18 +93,20 @@ LEXICON ACRONDELIMITER
 
 
 ! =================== !
-! Inflectional lexica !
+!! !!Inflectional lexica 
 ! =================== !
 
-!
-!All nouns follow one contlex "Noun1"
-!to begin with here is simply a list of all variant
-!with no more variants beyond:
-! Numbers
-!Case + Poss or Poss+Case
-!
 
-LEXICON CASEPOSSLEX
+!! All nouns follow one contlex "Noun1"
+!! to begin with here is simply a list of all variant
+!! with no more variants beyond:
+
+! Numbers
+! Case + Poss or Poss+Case
+
+
+LEXICON CASEPOSSLEX !!= * @CODE@
+
  DERIVEDADJ ;    ! Deriving prenominal adjectives, республикаса
 CASEPOSSLEX-afterDerivation ;
 
@@ -136,7 +138,7 @@ LEXICON CASEPOSSLEX-afterDerivation
 +Apr+Tra:%>ланьті K ; !
 +Apr+Ter:%>ланьӧдз K ; ! Tähän asti
 
-!1SG
+!! 1SG
 +PxSg1+Nom:%>ӧй K ;
 +PxSg1+Gen:%>ӧйлӧн K ;
 +PxSg1+Abl:%>ӧйлысь K ;
@@ -170,7 +172,7 @@ LEXICON CASEPOSSLEX-afterDerivation
 +Apr+Tra+PxSg1:%>ланьтіым K ;
 +Apr+Ter+PxSg1:%>ланьӧдзым K ;
 
-!2SG
+!! 2SG
 +PxSg2+Nom:%>ыд K ;
 +PxSg2+Gen:%>ыдлӧн K ;
 +PxSg2+Abl:%>ыдлысь K ;
@@ -203,7 +205,7 @@ LEXICON CASEPOSSLEX-afterDerivation
 +Apr+Ter+PxSg2:%>ланьӧдзыд K ;
 
 
-!3SG
+!! 3SG
 +PxSg3+Nom:%>ыс K ;
 +PxSg3+Gen:%>ыслӧн K ;
 +PxSg3+Abl:%>ыслысь K ;
@@ -237,7 +239,7 @@ LEXICON CASEPOSSLEX-afterDerivation
 
 
 
-!1PL
+!! 1PL
 +PxPl1+Nom:%>ным K ;
 +PxPl1+Gen:%>нымлӧн K ;
 +PxPl1+Abl:%>нымлысь K ;
@@ -272,7 +274,7 @@ LEXICON CASEPOSSLEX-afterDerivation
 +Apr+Tra+PxPl1:%>ланьтіным K ;
 +Apr+Ter+PxPl1:%>ланьӧдзным K ;
 
-!2PL
+!! 2PL
 +PxPl2+Nom:%>ныд K ;
 +PxPl2+Gen:%>ныдлӧн K ;
 +PxPl2+Abl:%>ныдлысь K ;
@@ -305,7 +307,7 @@ LEXICON CASEPOSSLEX-afterDerivation
 +Apr+Tra+PxPl2:%>ланьтіныд K ;
 +Apr+Ter+PxPl2:%>ланьӧдзныд K ;
 
-!3PL
+!! 3PL
 +PxPl3+Nom:%>ныс K ;
 +PxPl3+Gen:%>ныслӧн K ;
 +PxPl3+Abl:%>ныслысь K ;
@@ -339,7 +341,8 @@ LEXICON CASEPOSSLEX-afterDerivation
 +Apr+Tra+PxPl3:%>ланьтіныс K ;
 +Apr+Ter+PxPl3:%>ланьӧдзныс K ;
 
-!Case
+!! !!Case
+
 LEXICON Noun1-IS_INE
 +N+Ine: SPAT-COMPARATIVE ;
 
