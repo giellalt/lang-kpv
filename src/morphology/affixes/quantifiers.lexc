@@ -1,9 +1,9 @@
 
 
 
-! ============================= !
-!  Numeral morphological lexica !
-! ============================= !
+! ================================ !
+!! !!!Numeral morphological lexica 
+! ================================ !
 
 !This has to be worked on 2012-01-19
 LEXICON NUMTAG
@@ -51,16 +51,16 @@ LEXICON CARD-ITER-APPR
 
 
 ! =================== !
-! Inflectional lexica !
+!! !!Inflectional lexica 
 ! =================== !
 
-!
-!All nouns follow one contlex "Noun1"
-!to begin with here is simply a list of all variant
-!with no more variants beyond:
+!! All nouns follow one contlex "Noun1"
+!! to begin with here is simply a list of all variant
+!! with no more variants beyond:
+
 ! Numbers
-!Case + Px or Px+Case
-!
+! Case + Px or Px+Case
+
 
 LEXICON NumCASEPOSSLEX
 +Abs: # ;
@@ -239,10 +239,10 @@ LEXICON NumMWN
 
                      
  
-! Arabic numerals
+!! !!Arabic numerals
 ! ===============
 
-LEXICON NUM-PREFIXES                            !^C^                               
+LEXICON NUM-PREFIXES     !!= @CODE@  
         ARABIC ;
 §       ARABIC ;      ! §24                     !^C^                               
 §§      ARABIC ;     ! §§24                     !^C^                               
@@ -268,7 +268,7 @@ s%.     ARABIC ;     ! s.24                     !^C^
 
 
 
-LEXICON ARABIC                                  !^C^                               
+LEXICON ARABIC          !!= @CODE@ 
 1 ARABICLOOP ;                                  !^C^                               
 2 ARABICLOOP ;                                  !^C^                               
 3 ARABICLOOP ;                                  !^C^                               

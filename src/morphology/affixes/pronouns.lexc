@@ -1,12 +1,12 @@
 ! ========================================================================== !
-!                           Pronominal morphology                            !
+!!                        !!!Pronominal morphology                           
 ! ========================================================================== !
 
-! Closed class personal pronouns
+!! !!Closed class personal pronouns
 ! ------------------------------
 
-LEXICON PERS
-ме+Pron+Pers+Sg1: perssg1decl ;
+LEXICON PERS                        !!= * @CODE@ 
+ме+Pron+Pers+Sg1: perssg1decl ;    !!= * @CODE@ ...
 тэ+Pron+Pers+Sg2: perssg2decl ; 
 сійӧ+Pron+Pers+Sg3: perssg3decl ;
 ми+Pron+Pers+Pl1: perspl1decl ;
@@ -14,7 +14,7 @@ LEXICON PERS
 найӧ+Pron+Pers+Pl3: perspl3decl ;
 
 
-LEXICON perssg1decl
+LEXICON perssg1decl   !!= @CODE@ 
 +Nom:ме WordEnd ;
 +Cmpl:ме WordEnd ; !Postposition complement
 +GenStem:менам WordEnd ;
@@ -37,7 +37,7 @@ LEXICON perssg1decl
 +GenStem+Ter:менамӧдз WordEnd ;
 +Cmpl:ме perssg ; ! for the regular obl sg
 
-LEXICON perspl1decl
+LEXICON perspl1decl    !!= * @CODE@
 +Nom:ми WordEnd ;
 +Der/йӧ+Nom:мийӧ WordEnd ;
 +GenStem:миян WordEnd ;
@@ -60,7 +60,7 @@ LEXICON perspl1decl
 +Tra:миті WordEnd ; !Synomymous with: миянӧд
 +Ter:миӧдз WordEnd ; !Synomymous with: миянӧдз
 
-LEXICON perssg2decl
+LEXICON perssg2decl     !!= * @CODE@
 +Nom:тэ WordEnd ;
 +Cmpl:тэ WordEnd ;
 +Cmpl+Gen:тэлӧн WordEnd ;
@@ -84,7 +84,7 @@ LEXICON perssg2decl
 +GenStem+Ter:тэнадӧдз WordEnd ;
 +Cmpl:тэ perssg ;  ! for the regular obl sg
 
-LEXICON perspl2decl
+LEXICON perspl2decl !!= * @CODE@ 
 +Nom:ті WordEnd ;
 +Cmpl:ті WordEnd ;
 +Der/йӧ+Nom:тійӧ WordEnd ; !We need a special tag for discerning +Nom forms
@@ -107,7 +107,7 @@ LEXICON perspl2decl
 +GenStem+Egr+PxPl2:тіянсяньныд WordEnd ;
 +Ter:тіӧдз WordEnd ;
 
-LEXICON perssg3decl
+LEXICON perssg3decl  !!= * @CODE@ 
 +Der/йӧ+Nom:сійӧ WordEnd ;
 +Cmpl+Gen:сылӧн WordEnd ;
 +Cmpl+Abl:сылысь WordEnd ;
@@ -130,12 +130,12 @@ LEXICON perssg3decl
 ! Special expressions
 +Cmpl+Com+Instr:сыкӧдӧн WordEnd ; ! Ен сыкӧдӧн!
 
-!!ми мийӧ The 1st and 2nd persons have Oblique case stem strategies
+!! ми мийӧ The 1st and 2nd persons have Oblique case stem strategies
 !! that differ from the 3rd person: 
-!!ті тійӧ nämä ovat aivan eri asioita
-!!сы сійӧ tosin joskus 
+!! ті тійӧ nämä ovat aivan eri asioita
+!! сы сійӧ tosin joskus 
 
-LEXICON perspl3decl
+LEXICON perspl3decl !!= * @CODE@
 +Der/йӧ+Nom:найӧ WordEnd ;
 +Der/йӧ+Acc:найӧс WordEnd ;
 +Cmpl+Gen:налӧн WordEnd ;
@@ -160,7 +160,7 @@ LEXICON perspl3decl
 +Cmpl+Ter+PxSg3:наӧдзыс WordEnd ;
 
 
-LEXICON perssg 
+LEXICON perssg !!= * @CODE@
 +Instr:ӧн WordEnd ;
 +Com:кӧд WordEnd ;
 +Car:тӧг WordEnd ;
@@ -177,7 +177,7 @@ LEXICON perssg
 
 
 
-LEXICON persplobl
+LEXICON persplobl !!= * @CODE@
 +Abl:лысь WordEnd ;
 +Dat:лы WordEnd ;
 +Acc:ӧс WordEnd ;
@@ -205,79 +205,79 @@ LEXICON persplobl
 
 
 ! These ones to be removed:
-!!! LEXICON PRON-PERS-PL1-ACC
-!!! +Pron+Pers+Pl1+Acc: WordEnd ;
-!!! LEXICON PRON-PERS-PL1-COM
-!!! +Pron+Pers+Pl1+Com: WordEnd ;
-!!! LEXICON PRON-PERS-PL1-DAT
-!!! +Pron+Pers+Pl1+Dat: WordEnd ;
-!!! LEXICON PRON-PERS-PL1-GEN
-!!! +Pron+Pers+Pl1+Gen: WordEnd ;
-!!! LEXICON PRON-PERS-PL1-NOM
-!!! +Pron+Pers+Pl1+Nom: WordEnd ;
-!!! LEXICON PRON-PERS-PL2-ACC
-!!! +Pron+Pers+Pl2+Acc: WordEnd ;
-!!! LEXICON PRON-PERS-PL2-COM
-!!! +Pron+Pers+Pl2+Com: WordEnd ;
-!!! LEXICON PRON-PERS-PL2-DAT
-!!! +Pron+Pers+Pl2+Dat: WordEnd ;
-!!! LEXICON PRON-PERS-PL2-GEN
-!!! +Pron+Pers+Pl2+Gen: WordEnd ;
-!!! LEXICON PRON-PERS-PL2-NOM
-!!! +Pron+Pers+Pl2+Nom: WordEnd ;
-!!! LEXICON PRON-PERS-PL3-ACC
-!!! +Pron+Pers+Pl3+Acc: WordEnd ;
-!!! LEXICON PRON-PERS-PL3-COM
-!!! +Pron+Pers+Pl3+Com: WordEnd ;
-!!! LEXICON PRON-PERS-PL3-DAT
-!!! +Pron+Pers+Pl3+Dat: WordEnd ;
-!!! LEXICON PRON-PERS-PL3-ELA
-!!! +Pron+Pers+Pl3+Ela: WordEnd ;
-!!! LEXICON PRON-PERS-PL3-GEN
-!!! +Pron+Pers+Pl3+Gen: WordEnd ;
-!!! LEXICON PRON-PERS-PL3-NOM
-!!! +Pron+Pers+Pl3+Nom: WordEnd ;
-!!! LEXICON PRON-PERS-SG1-ACC
-!!! +Pron+Pers+Sg1+Acc: WordEnd ;
-!!! LEXICON PRON-PERS-SG1-DAT
-!!! +Pron+Pers+Sg1+Dat: WordEnd ;
-!!! LEXICON PRON-PERS-SG1-ELA
-!!! +Pron+Pers+Sg1+Ela: WordEnd ;
-!!! LEXICON PRON-PERS-SG1-GEN
-!!! +Pron+Pers+Sg1+Gen: WordEnd ;
-!!! LEXICON PRON-PERS-SG1-NOM ! tähän tulee ме
-!!! +Pron+Pers+Sg1+Nom: WordEnd ;
-!!! LEXICON PRON-PERS-SG2-ACC
-!!! +Pron+Pers+Sg2+Acc: WordEnd ;
-!!! LEXICON PRON-PERS-SG2-COM
-!!! +Pron+Pers+Sg2+Com: WordEnd ;
-!!! LEXICON PRON-PERS-SG2-DAT
-!!! +Pron+Pers+Sg2+Dat: WordEnd ;
-!!! LEXICON PRON-PERS-SG2-ELA
-!!! +Pron+Pers+Sg2+Ela: WordEnd ;
-!!! LEXICON PRON-PERS-SG2-GEN
-!!! +Pron+Pers+Sg2+Gen: WordEnd ;
-!!! LEXICON PRON-PERS-SG2-NOM
-!!! +Pron+Pers+Sg2+Nom: WordEnd ;
-!!! LEXICON PRON-PERS-SG2-ABL
-!!! +Pron+Pers+Sg2+Abl: WordEnd ;
-!!! LEXICON PRON-PERS-SG3-ACC
-!!! +Pron+Pers+Sg3+Acc: WordEnd ;
-!!! LEXICON PRON-PERS-SG3-COM
-!!! +Pron+Pers+Sg3+Com: WordEnd ;
-!!! LEXICON PRON-PERS-SG3-DAT
-!!! +Pron+Pers+Sg3+Dat: WordEnd ;
-!!! LEXICON PRON-PERS-SG3-ELA
-!!! +Pron+Pers+Sg3+Ela: WordEnd ;
-!!! LEXICON PRON-PERS-SG3-GEN
-!!! +Pron+Pers+Sg3+Gen: WordEnd ;
-!!! LEXICON PRON-PERS-SG3-NOM
-!!! +Pron+Pers+Sg3+Nom: WordEnd ;
-!!! LEXICON PRON-PERS-SG3-ABL
-!!! +Pron+Pers+Sg3+Abl: WordEnd ;
-!!! LEXICON PRON-PERS-SG3-OBL
-!!! +Pron+Pers+Sg3+Dat:%>лы WordEnd ;
-!!! +Pron+Pers+Sg3+Abl:%>лысь WordEnd ;
+! LEXICON PRON-PERS-PL1-ACC
+! +Pron+Pers+Pl1+Acc: WordEnd ;
+! LEXICON PRON-PERS-PL1-COM
+! +Pron+Pers+Pl1+Com: WordEnd ;
+! LEXICON PRON-PERS-PL1-DAT
+! +Pron+Pers+Pl1+Dat: WordEnd ;
+! LEXICON PRON-PERS-PL1-GEN
+! +Pron+Pers+Pl1+Gen: WordEnd ;
+! LEXICON PRON-PERS-PL1-NOM
+! +Pron+Pers+Pl1+Nom: WordEnd ;
+! LEXICON PRON-PERS-PL2-ACC
+! +Pron+Pers+Pl2+Acc: WordEnd ;
+! LEXICON PRON-PERS-PL2-COM
+! +Pron+Pers+Pl2+Com: WordEnd ;
+! LEXICON PRON-PERS-PL2-DAT
+! +Pron+Pers+Pl2+Dat: WordEnd ;
+! LEXICON PRON-PERS-PL2-GEN
+! +Pron+Pers+Pl2+Gen: WordEnd ;
+! LEXICON PRON-PERS-PL2-NOM
+! +Pron+Pers+Pl2+Nom: WordEnd ;
+! LEXICON PRON-PERS-PL3-ACC
+! +Pron+Pers+Pl3+Acc: WordEnd ;
+! LEXICON PRON-PERS-PL3-COM
+! +Pron+Pers+Pl3+Com: WordEnd ;
+! LEXICON PRON-PERS-PL3-DAT
+! +Pron+Pers+Pl3+Dat: WordEnd ;
+! LEXICON PRON-PERS-PL3-ELA
+! +Pron+Pers+Pl3+Ela: WordEnd ;
+! LEXICON PRON-PERS-PL3-GEN
+! +Pron+Pers+Pl3+Gen: WordEnd ;
+! LEXICON PRON-PERS-PL3-NOM
+! +Pron+Pers+Pl3+Nom: WordEnd ;
+! LEXICON PRON-PERS-SG1-ACC
+! +Pron+Pers+Sg1+Acc: WordEnd ;
+! LEXICON PRON-PERS-SG1-DAT
+! +Pron+Pers+Sg1+Dat: WordEnd ;
+! LEXICON PRON-PERS-SG1-ELA
+! +Pron+Pers+Sg1+Ela: WordEnd ;
+! LEXICON PRON-PERS-SG1-GEN
+! +Pron+Pers+Sg1+Gen: WordEnd ;
+! LEXICON PRON-PERS-SG1-NOM ! tähän tulee ме
+! +Pron+Pers+Sg1+Nom: WordEnd ;
+! LEXICON PRON-PERS-SG2-ACC
+! +Pron+Pers+Sg2+Acc: WordEnd ;
+! LEXICON PRON-PERS-SG2-COM
+! +Pron+Pers+Sg2+Com: WordEnd ;
+! LEXICON PRON-PERS-SG2-DAT
+! +Pron+Pers+Sg2+Dat: WordEnd ;
+! LEXICON PRON-PERS-SG2-ELA
+! +Pron+Pers+Sg2+Ela: WordEnd ;
+! LEXICON PRON-PERS-SG2-GEN
+! +Pron+Pers+Sg2+Gen: WordEnd ;
+! LEXICON PRON-PERS-SG2-NOM
+! +Pron+Pers+Sg2+Nom: WordEnd ;
+! LEXICON PRON-PERS-SG2-ABL
+! +Pron+Pers+Sg2+Abl: WordEnd ;
+! LEXICON PRON-PERS-SG3-ACC
+! +Pron+Pers+Sg3+Acc: WordEnd ;
+! LEXICON PRON-PERS-SG3-COM
+! +Pron+Pers+Sg3+Com: WordEnd ;
+! LEXICON PRON-PERS-SG3-DAT
+! +Pron+Pers+Sg3+Dat: WordEnd ;
+! LEXICON PRON-PERS-SG3-ELA
+! +Pron+Pers+Sg3+Ela: WordEnd ;
+! LEXICON PRON-PERS-SG3-GEN
+! +Pron+Pers+Sg3+Gen: WordEnd ;
+! LEXICON PRON-PERS-SG3-NOM
+! +Pron+Pers+Sg3+Nom: WordEnd ;
+! LEXICON PRON-PERS-SG3-ABL
+! +Pron+Pers+Sg3+Abl: WordEnd ;
+! LEXICON PRON-PERS-SG3-OBL
+! +Pron+Pers+Sg3+Dat:%>лы WordEnd ;
+! +Pron+Pers+Sg3+Abl:%>лысь WordEnd ;
 
 
 !Interrogative pronouns serve as the base of interrogative, relative, indefinite and distributional pronouns.
@@ -287,7 +287,7 @@ LEXICON INTERR
 кодар+Pron+A:кодар INTERR-REL-INDEF ;
 кодар+Pron+A+Der/MWN:кодар PRON-HUM-OBL ;
 кодар+Pron+A+Der/ладор:кодарладор PRON-HUM-OBL ;
- !
+
 коді:код PRON-HUM ;
 
 кодыр+Pron+Adv+Temp:кодыр INTERR-REL-INDEF ;
@@ -318,7 +318,7 @@ LEXICON INTERR
 кытсюрӧ+Pron+Spat+Tra+Der/сюрӧ+Indef:кытсюрӧ K ;
 кытӧн+Pron+Spat+Ine:кытӧн INTERR-REL-INDEF ;
 кытӧні+Pron+Spat+Ine:кытӧні INTERR-REL ;
- !
+ 
 кӧні+Pron+Adv+Spat+Ine+Pred+Sg:кӧні INTERR-REL-INDEF ;
 кӧні+Pron+Adv+Spat+Ine+Pred+Pl:кӧнӧсь INTERR-REL ;
 кӧні+Pron+Adv+Spat+Ine:кӧн PRON-INDEFTAG ;
@@ -410,7 +410,7 @@ LEXICON PRON-NONHUM
 +Tra:ті INTERR-REL-INDEF ;
 +Ter:ӧдз INTERR-REL-INDEF ;
 
-!!Removing 2012-02-08 The comparative can be taken care of once
+! Removing 2012-02-08 The comparative can be taken care of once
 ! LEXICON INTERR-REL-INDEF_COMPARISON
 ! +Der/джык+Compar:%>джык INTERR-REL ;
 !               INTERR-REL ;
@@ -468,7 +468,7 @@ LEXICON PRONINDEF-PERS-KO-CX
 LEXICON PRONINDEF-PERS-KO-END
 +Der/кӧ+Indef:%>кӧ K ;
 +Der/сюрӧ+Indef:%>сюрӧ K ; !Basically both endings can be used for deriving 
-                     !indefinite pronouns from the interrogative/relative pronouns.
+ !indefinite pronouns from the interrogative/relative pronouns.
 
 
 LEXICON IS_PRON-INDEF-KO
@@ -480,15 +480,15 @@ LEXICON IS_PRON-INDEF-SJURO
 LEXICON IS_PRON-INTERR
 +Pron+Interr: K ;
 
-!!LEXICON PRONINDEF-PERS-END
-!!+Der/сюрӧ:%>сюрӧ WordEnd ;
+!LEXICON PRONINDEF-PERS-END
+!+Der/сюрӧ:%>сюрӧ WordEnd ;
 
-!!LEXICON PRONINDEF-PERS-KO
-!!+Nom: PRONINDEF-PERS-KO-END ;
-!!+Acc:%>ӧс PRONINDEF-PERS-KO-END ;
-!!+Gen:%>лӧн PRONINDEF-PERS-KO-END ;
-!!+Dat:%>лы PRONINDEF-PERS-KO-END ;
-!!!!+Acc:%>ӧс PRONINDEF-PERS-KO-END ;
+!LEXICON PRONINDEF-PERS-KO
+!+Nom: PRONINDEF-PERS-KO-END ;
+!+Acc:%>ӧс PRONINDEF-PERS-KO-END ;
+!+Gen:%>лӧн PRONINDEF-PERS-KO-END ;
+!+Dat:%>лы PRONINDEF-PERS-KO-END ;
+!+Acc:%>ӧс PRONINDEF-PERS-KO-END ;
 
 
 LEXICON PRON-SPAT
@@ -843,39 +843,39 @@ LEXICON PRON-NEG-HUM
 LEXICON PRON-DUAL
 +Pron+Du: PRON-NEG-OBL ;
 
-!!! LEXICON PRON-INTER-REL-HUM-COLL
-!!! +Coll:нан PRON-INTER-REL-HUM-COLL-PERS ;
-!!! +ZeroColl: PRON-INTER-REL-HUM-COLL-PERS ;
-!!! +ZeroColl+PxPl2+Acc2:ныдтӧ PRON-INTER-REL-HUM-COLL-INDEF ;
-!!! +Coll+PxPl2+Acc2:наннытӧ PRON-INTER-REL-HUM-COLL-INDEF ;
-!!! 
-!!! LEXICON PRON-INTER-REL-HUM-COLL-PERS
-!!! +PxPl1:ным PRON-INTER-REL-HUM-COLL-CASES ;
-!!! +PxPl2:ныд PRON-INTER-REL-HUM-COLL-CASES ;
-!!! +PxPl3:ныс PRON-INTER-REL-HUM-COLL-CASES ;
-!!! +PxPl1+Acc:нымӧс PRON-INTER-REL-HUM-COLL-INDEF ;
-!!! +PxPl3+Acc3:ныссӧ PRON-INTER-REL-HUM-COLL-INDEF ;
-!!! 
-!!! LEXICON PRON-INTER-REL-HUM-COLL-CASES
-!!! +Nom: PRON-INTER-REL-HUM-COLL-INDEF ;
-!!! +Gen:лӧн PRON-INTER-REL-HUM-COLL-INDEF ;
-!!! +Abl:лысь PRON-INTER-REL-HUM-COLL-INDEF ;
-!!! +Dat:лы PRON-INTER-REL-HUM-COLL-INDEF ;
-!!! +Instr:ӧн PRON-INTER-REL-HUM-COLL-INDEF ;
-!!! +Com:кӧд PRON-INTER-REL-HUM-COLL-INDEF ;
-!!! +Car:тӧг PRON-INTER-REL-HUM-COLL-INDEF ;
-!!! +Cns:ла PRON-INTER-REL-HUM-COLL-INDEF ;
-!!! +Ine:ын PRON-INTER-REL-HUM-COLL-INDEF ;
-!!! +Ela:ысь PRON-INTER-REL-HUM-COLL-INDEF ;
-!!! +Ill:ӧ PRON-INTER-REL-HUM-COLL-INDEF ;
-!!! +Apr:лань PRON-INTER-REL-HUM-COLL-INDEF ;
-!!! +Egr:сянь PRON-INTER-REL-HUM-COLL-INDEF ;
-!!! +Tra:ті PRON-INTER-REL-HUM-COLL-INDEF ;
-!!! +Ter:ӧдз PRON-INTER-REL-HUM-COLL-INDEF ;
-!!! 
-!!! LEXICON PRON-INTER-REL-HUM-COLL-INDEF
-!!! +Der/кӧ+Indef:кӧ K ;
-!!!  K ;
+! LEXICON PRON-INTER-REL-HUM-COLL
+! +Coll:нан PRON-INTER-REL-HUM-COLL-PERS ;
+! +ZeroColl: PRON-INTER-REL-HUM-COLL-PERS ;
+! +ZeroColl+PxPl2+Acc2:ныдтӧ PRON-INTER-REL-HUM-COLL-INDEF ;
+! +Coll+PxPl2+Acc2:наннытӧ PRON-INTER-REL-HUM-COLL-INDEF ;
+! 
+! LEXICON PRON-INTER-REL-HUM-COLL-PERS
+! +PxPl1:ным PRON-INTER-REL-HUM-COLL-CASES ;
+! +PxPl2:ныд PRON-INTER-REL-HUM-COLL-CASES ;
+! +PxPl3:ныс PRON-INTER-REL-HUM-COLL-CASES ;
+! +PxPl1+Acc:нымӧс PRON-INTER-REL-HUM-COLL-INDEF ;
+! +PxPl3+Acc3:ныссӧ PRON-INTER-REL-HUM-COLL-INDEF ;
+! 
+! LEXICON PRON-INTER-REL-HUM-COLL-CASES
+! +Nom: PRON-INTER-REL-HUM-COLL-INDEF ;
+! +Gen:лӧн PRON-INTER-REL-HUM-COLL-INDEF ;
+! +Abl:лысь PRON-INTER-REL-HUM-COLL-INDEF ;
+! +Dat:лы PRON-INTER-REL-HUM-COLL-INDEF ;
+! +Instr:ӧн PRON-INTER-REL-HUM-COLL-INDEF ;
+! +Com:кӧд PRON-INTER-REL-HUM-COLL-INDEF ;
+! +Car:тӧг PRON-INTER-REL-HUM-COLL-INDEF ;
+! +Cns:ла PRON-INTER-REL-HUM-COLL-INDEF ;
+! +Ine:ын PRON-INTER-REL-HUM-COLL-INDEF ;
+! +Ela:ысь PRON-INTER-REL-HUM-COLL-INDEF ;
+! +Ill:ӧ PRON-INTER-REL-HUM-COLL-INDEF ;
+! +Apr:лань PRON-INTER-REL-HUM-COLL-INDEF ;
+! +Egr:сянь PRON-INTER-REL-HUM-COLL-INDEF ;
+! +Tra:ті PRON-INTER-REL-HUM-COLL-INDEF ;
+! +Ter:ӧдз PRON-INTER-REL-HUM-COLL-INDEF ;
+! 
+! LEXICON PRON-INTER-REL-HUM-COLL-INDEF
+! +Der/кӧ+Indef:кӧ K ;
+!  K ;
 
 !Actually there might be reason to consider +Der/MWN
 LEXICON PRONQ-MUKOD

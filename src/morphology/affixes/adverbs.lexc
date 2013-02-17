@@ -1,5 +1,5 @@
-!! Adverb inflection
-!! ---------------
+!! !!!Adverb inflection
+!! ----
 !! Komi adverbs inflect for direction.
 
 
@@ -48,8 +48,9 @@ LEXICON AdvTag ! these are checked as advs.
 LEXICON AdvTemp
 +Adv+Temp: COMPARATIVE ;
 
-LEXICON ADV-SPAT ! these are adverbs in spatial cases
-      !and they probably are equivalent in morphology to postpositions
+LEXICON ADV-SPAT  !!= * @CODE@
+      !! these are adverbs in spatial cases
+      !! and they probably are equivalent in morphology to postpositions
  ADV-SPAT-APR ;
  ADV-SPAT-APRILL ;
  ADV-SPAT-APRINE ;

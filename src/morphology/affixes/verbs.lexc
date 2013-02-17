@@ -1,10 +1,10 @@
 
 ! ====================================== !
-!        Verbal morphology               !
+!! !!!Verbal morphology               
 ! ====================================== !
 
 
-! Closed class verbs
+!! !!Closed class verbs
 ! ------------------
 
 LEXICON VERBNEGATIVE
@@ -41,11 +41,13 @@ LEXICON VERBNEGATIVE
 моз+V+Neg+Final+3:моз K ; ! мед оз
 
 
-! Open class verbs
+
+
+!! !!Open class verbs
 ! ----------------
 
-! Some Flag diacritic lines are with regexes, other with aligned zeros. We want to migrate to
-! regexes < … > , for readability reasons (sic!)
+!! Some Flag diacritic lines are with regexes, other with aligned zeros. We want to migrate to
+!! regexes < … > , for readability reasons (sic!)
 
 LEXICON Verb-lokny ! One verb only, локны
 +V+Inf@U.CONJ-INF.YES@:%>ны@U.CONJ-INF.YES@ VerbEnd-Comparison ;
@@ -102,11 +104,11 @@ LEXICON Verb-yny ! ярмыны. Multiple-syllable verb ending in -ыны.
 
 
 
-! ================ !
-! Verb conjugation !
-! ================ !
+! =================== !
+!! !!Verb conjugation 
+! =================== !
 
-LEXICON VerbConj-V ! суф б -- ы --
+LEXICON VerbConj-V !!= @CODE@  суф б -- ы 
 +Inf@U.CONJ-INF.YES@:%>ны@U.CONJ-INF.YES@ VerbEnd-Comparison ;
 +Inf+Px100@U.CONJ-INF.YES@@U.CONJ-POSS.1@:%>ным@U.CONJ-INF.YES@@U.CONJ-POSS.1@ VerbEnd-Comparison ;
 +Inf+Px200@U.CONJ-INF.YES@@U.CONJ-POSS.2@:%>ныд@U.CONJ-INF.YES@@U.CONJ-POSS.2@ VerbEnd-Comparison ;
@@ -117,11 +119,11 @@ LEXICON VerbConj-V ! суф б -- ы --
 +ConNeg@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@:0@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@ VerbEnd ;
 +Imprt+Sg2@U.CONJ-INF.NO@@U.CONJ-MX.IMP@@U.CONJ-NX.SG@@U.CONJ-PX.2@:00@U.CONJ-INF.NO@@U.CONJ-MX.IMP@@U.CONJ-NX.SG@@U.CONJ-PX.2@ VerbEnd ;
 
-LEXICON VerbConj ! суф а -------
+LEXICON VerbConj !!= @CODE@ суф а
 @U.CONJ-INF.NO@ Finiteforms ;
 @U.CONJ-INF.YES@ Non-finiteforms ;
 
-LEXICON Finiteforms  ! Gives linking vowels for 3 tenses
+LEXICON Finiteforms  !!= @CODE@ Gives linking vowels for 3 tenses
  present ;
  future ;
  preterite ;
@@ -222,7 +224,7 @@ LEXICON Serial-Verbs
 +SerialVerb:- verbs-A2M ;
 +SerialVerb:- verbs-N2END ;
 
-! Derivation
+!! !!Derivation
 ! ==========
 
 LEXICON Non-finiteforms
@@ -230,19 +232,22 @@ VerbDer ; ! to be merged with next
           !2011-11-02 dealing with serial verbs there may be
           ! reason to distinguish between V2V derivation and non-finite forms
 
-LEXICON Verb-nyDer
-  ! verb-to-verb
-  ! This is fed by LEXICON Verb-ny, and therefore certain corrections
-  ! must be made 2012-01-18
+LEXICON Verb-nyDer !!= @CODE@ 
+
+!! verb-to-verb
+
+!! This is fed by LEXICON Verb-ny, and therefore certain corrections
+!! must be made 2012-01-18
+
 +Der/лы0@C.CONJ-INF@@C.CONJ-POSS@:%>л@C.CONJ-INF@@C.CONJ-POSS@  Verb-yny ; !!босьтлыны
 +Der/лывлы0000@C.CONJ-INF@@C.CONJ-POSS@:%>лывл@C.CONJ-INF@@C.CONJ-POSS@ Verb-yny ; !!босьтлывлыны
 +Der/сьы00@C.CONJ-INF@@C.CONJ-POSS@:%>сь@C.CONJ-INF@@C.CONJ-POSS@ Verb-yny ; !! овсьыны
 +Der/сьы+Der/ышт0000@C.CONJ-INF@@C.CONJ-POSS@:%>сьышт@C.CONJ-INF@@C.CONJ-POSS@ Verb-ny ; !!вежсьыштны
 +Der/сьы+Der/ышт+Der/лывлы0000000@C.CONJ-INF@@C.CONJ-POSS@:%>сьыштлывл@C.CONJ-INF@@C.CONJ-POSS@ Verb-yny ; !! пусьыштлывлыны
 +Der/сьы+Der/ышт+Der/лы0000@C.CONJ-INF@@C.CONJ-POSS@:%>сьыштл@C.CONJ-INF@@C.CONJ-POSS@ Verb-yny ; !!?? пусьыштлыны
-!!!!зь:зь  !!югзьыны
-!! Why do the suffixes above have ">" marking
-!! while the ones below do not?
+! зь:зь  !!югзьыны
+! Why do the suffixes above have ">" marking
+! while the ones below do not?
 +Der/чы@C.CONJ-INF@@C.CONJ-POSS@:ч@C.CONJ-INF@@C.CONJ-POSS@ Verb-yny ; !!босьтчыны
 +Der/чы+Der/л0@C.CONJ-INF@@C.CONJ-POSS@:чыл@C.CONJ-INF@@C.CONJ-POSS@ Verb-ny ; !!дӧзмӧдчывны
 +Der/чы+Der/ышт+Der/лы00@C.CONJ-INF@@C.CONJ-POSS@:чыштл@C.CONJ-INF@@C.CONJ-POSS@ Verb-yny ; !!босьтчыштлыны
@@ -256,11 +261,10 @@ LEXICON Verb-nyDer
 +Der/ась00@C.CONJ-INF@@C.CONJ-POSS@:ась@C.CONJ-INF@@C.CONJ-POSS@ Verb-ny ; !! босьтасьны
 
  
-LEXICON VerbDer 
+LEXICON VerbDer !!= @CODE@ 
 
+!! verb-to-noun
 
-
-  ! verb-to-noun
 +Der/ӧм+Event:%>ӧм Noun1 ;
 
   ! nonfinites
