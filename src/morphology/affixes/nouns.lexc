@@ -38,13 +38,13 @@ LEXICON Noun1-SYT-STY !
 
 !! Basic nouns.
 
-LEXICON NTag   !!= * @CODE@
-+N: Noun1_01 ;
+LEXICON N_   !!= * @CODE@
++N: NMN_ ;
 
 LEXICON Noun1
- NTag ;
+ N_ ;
 
-LEXICON Noun1_01
+LEXICON NMN_
 +Cmp: R ;
 +Sg: CASEPOSSLEX ;
 +Pl:%>ъяс CASEPOSSLEX ;
@@ -117,7 +117,7 @@ LEXICON CASEPOSSLEX-afterDerivation
 +Abl:%>лысь K ;
 +Dat:%>лы K ;
 +Acc:%>ӧс K ;
-+Instr:%>ӧн K ;
++Ins:%>ӧн K ;
 +Com:%>кӧд K ;
 +Car:%>тӧг K ;
 +Cns:%>ла K ;
@@ -145,7 +145,7 @@ LEXICON CASEPOSSLEX-afterDerivation
 +PxSg1+Dat:%>ӧйлы K ;
 +PxSg1+Acc:%>ӧс K ;
 
-+Instr+PxSg1:%>нам K ;
++Ins+PxSg1:%>нам K ;
 
 +PxSg1+Com:%>ӧйкӧд K ;
 +PxSg1+Car:%>ӧйтӧг K ;
@@ -179,7 +179,7 @@ LEXICON CASEPOSSLEX-afterDerivation
 +PxSg2+Dat:%>ыдлы K ;
 +PxSg2+Acc2:%>тӧ K ;
 
-+Instr+PxSg2:%>над K ;
++Ins+PxSg2:%>над K ;
 
 +PxSg2+Com:%>ыдкӧд K ;
 
@@ -212,7 +212,7 @@ LEXICON CASEPOSSLEX-afterDerivation
 +PxSg3+Dat:%>ыслы K ;
 +PxSg3+Acc3:%>сӧ K ;
 
-+Instr+PxSg3:%>нас K ;
++Ins+PxSg3:%>нас K ;
 
 +PxSg3+Com:%>ыскӧд K ;
 
@@ -246,7 +246,7 @@ LEXICON CASEPOSSLEX-afterDerivation
 +PxPl1+Dat:%>нымлы K ;
 +PxPl1+Acc:%>нымӧс K ;
 
-+Instr+PxPl1:%>наным K ;
++Ins+PxPl1:%>наным K ;
 
 +PxPl1+Com:%>нымкӧд K ;
 
@@ -281,7 +281,7 @@ LEXICON CASEPOSSLEX-afterDerivation
 +PxPl2+Dat:%>ныдлы K ;
 +PxPl2+Acc2:%>нытӧ K ;
 
-+Instr+PxPl2:%>наныд K ;
++Ins+PxPl2:%>наныд K ;
 
 +PxPl2+Com:%>ныдкӧд K ;
 
@@ -314,7 +314,7 @@ LEXICON CASEPOSSLEX-afterDerivation
 +PxPl3+Dat:%>ныслы K ;
 +PxPl3+Acc3:%>нысӧ K ;
 
-+Instr+PxPl3:%>наныс K ;
++Ins+PxPl3:%>наныс K ;
 
 +PxPl3+Com:%>ныскӧд K ;
 
@@ -358,7 +358,7 @@ LEXICON DERIVEDADJ
 LEXICON AdjCompar
 PredMonLex ;
 +Der/джык+Compar:%>джык PredMonLex ;
-+Der/джык+Compar+Der/а:%>джыка AdvTag ;
++Der/джык+Compar+Der/а:%>джыка ADV_ ;
 +Der/джык+Compar+Der/MWN+N+Sg:%>джык CASEPOSSLEX-afterDerivation ;
 +Der/джык+Compar+Der/MWN+N+Pl:%>джыкъяс CASEPOSSLEX-afterDerivation ;
 +Der/MWN+N+Sg: CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns

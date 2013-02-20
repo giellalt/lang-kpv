@@ -7,34 +7,34 @@ LEXICON Ad-ATAG ! these are checked as advs.
 +AdA: WordEnd ;
 
 LEXICON ADV-IS_GER-IGON ! these are checked as gerunds in +Der/иг
-+V+Der/иг+Instr: AdvTag ;
++V+Der/иг+Ins: ADV_ ;
 
 LEXICON ADV-IS_GER-IGTYRJI ! these are checked as gerunds in +Der/иг
-+V+Der/иг+Der/тырйи: AdvTag ;
++V+Der/иг+Der/тырйи: ADV_ ;
 
 LEXICON ADV-IS_GER-MON ! these are checked as gerunds in +Der/мӧн
-+V+Der/мӧн: AdvTag ;
++V+Der/мӧн: ADV_ ;
 
 LEXICON ADV-IS_GER-TOG ! these are checked as gerunds in +Der/тӧг
-+V+Der/тӧг: AdvTag ;
++V+Der/тӧг: ADV_ ;
 
 LEXICON ADV-IS_GER-TODZ ! these are checked as gerunds in +Der/тӧдз
-+V+Der/тӧдз: AdvTag ;
++V+Der/тӧдз: ADV_ ;
 
 LEXICON ADV-IS_N-TOG ! these are checked as state adverbials in +Der/тӧг
-+N+Der/тӧг: AdvTag ;
++N+Der/тӧг: ADV_ ;
 
 LEXICON ADV-IS_ADV-TOG ! polar adverbials in +Der/тӧг
-+Adv+Der/тӧг: AdvTag ;
++Adv+Der/тӧг: ADV_ ;
 
 LEXICON ADV-IS_Q-TOG ! polar adverbials in +Der/тӧг
-+Qnt+Der/тӧг: AdvTag ;
++Qnt+Der/тӧг: ADV_ ;
 
 LEXICON ADV-IS_SUPERL !
-+Der/мед: AdvTag ;
++Der/мед: ADV_ ;
 
 LEXICON ADV-F !
-+Src/F: AdvTag ;
++Src/F: ADV_ ;
 
 LEXICON ADV-STATE !
 +Adv+State: COMPARATIVE ; !
@@ -42,7 +42,7 @@ LEXICON ADV-STATE !
 LEXICON AdvParenthetic
 +Adv+Parenthetic: WordEnd ;
 
-LEXICON AdvTag ! these are checked as advs.
+LEXICON ADV_ ! these are checked as advs.
 +Adv: COMPARATIVE ;
 
 LEXICON AdvTemp

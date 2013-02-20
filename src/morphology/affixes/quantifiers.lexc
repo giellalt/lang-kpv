@@ -16,18 +16,18 @@ LEXICON CARD
 +Num+Card+Der/кӧ+Presentational:%>%-кӧ WordEnd ;
 !+Num+Ord:%>ӧд NumCASEPOSSLEX ;
 +Qnt+Card+Iter:%>ысь K ;
-+Qnt+Card+Iter+Instr:%>ысьӧн K ;
++Qnt+Card+Iter+Ins:%>ысьӧн K ;
 +Qnt+Card+Distr:%>ӧн K ;
 
 LEXICON COLL
 +Num+Coll: NumCASEPOSSLEX ; ! _нан_ is already part of the stem
 +Num+Coll+Iter:%>ысь K ;
-+Num+Coll+Iter+Instr:%>ысьӧн K ;
++Num+Coll+Iter+Ins:%>ысьӧн K ;
 
 LEXICON ORD
 +Num+Ord: NumCASEPOSSLEX ; ! ӧд part of the stem
 +Num+Ord+Iter:%>ысь K ;
-+Num+Ord+Iter+Instr:%>ысьӧн K ;
++Num+Ord+Iter+Ins:%>ысьӧн K ;
 
 LEXICON NUM-IS_DISTR
 +Num+Distr: K ;
@@ -38,7 +38,7 @@ LEXICON NUM-IS_DISTR
 LEXICON QntTag
 +Qnt: NumCASEPOSSLEX ;
 +Qnt+Card+Iter:%>ысь K ;
-+Qnt+Card+Iter+Instr:%>ысьӧн K ;
++Qnt+Card+Iter+Ins:%>ысьӧн K ;
 +Qnt+Card+Distr:%>ӧн K ;
 
 
@@ -77,7 +77,7 @@ LEXICON NumMWN
 +Abl:%>лысь K ;
 +Dat:%>лы K ;
 +Acc:%>сӧ K ;
-+Instr:%>ӧн K ;
++Ins:%>ӧн K ;
 +Com:%>кӧд K ;
 +Car:%>тӧг K ;
 +Cns:%>ла K ;
@@ -99,7 +99,7 @@ LEXICON NumMWN
 +PxSg1+Dat:%>ӧйлы K ;
 +PxSg1+Acc:%>ӧс K ; !Zero marking on the possessive suffix, as it were.
 
-+Instr+PxSg1:%>нам K ;
++Ins+PxSg1:%>нам K ;
 
 +PxSg1+Com:%>ӧйкӧд K ;
 +PxSg1+Car:%>ӧйтӧг K ;
@@ -122,7 +122,7 @@ LEXICON NumMWN
 +PxSg2+Dat:%>ыдлы K ;
 +PxSg2+Acc:%>тӧ K ;
 
-+Instr+PxSg2:%>над K ;
++Ins+PxSg2:%>над K ;
 
 +PxSg2+Com:%>ыдкӧд K ;
 
@@ -146,7 +146,7 @@ LEXICON NumMWN
 +PxSg3+Dat:%>ыслы K ;
 +PxSg3+Acc:%>сӧ K ;
 
-+Instr+PxSg3:%>нас K ;
++Ins+PxSg3:%>нас K ;
 
 +PxSg3+Com:%>ыскӧд K ;
 
@@ -171,7 +171,7 @@ LEXICON NumMWN
 +PxPl1+Dat:%>нымлы K ;
 +PxPl1+Acc:%>нымӧс K ;
 
-+Instr+PxPl1:%>наным K ;
++Ins+PxPl1:%>наным K ;
 
 +PxPl1+Com:%>нымкӧд K ;
 
@@ -194,7 +194,7 @@ LEXICON NumMWN
 +PxPl2+Dat:%>ныдлы K ;
 +PxPl2+Acc:%>нытӧ K ;
 
-+Instr+PxPl2:%>наныд K ;
++Ins+PxPl2:%>наныд K ;
 
 +PxPl2+Com:%>ныдкӧд K ;
 
@@ -218,7 +218,7 @@ LEXICON NumMWN
 +PxPl3+Dat:%>ныслы K ;
 +PxPl3+Acc:%>нысӧ K ;
 
-!+Instr+PxPl3:%>наныс K ; ! ста
+!+Ins+PxPl3:%>наныс K ; ! ста
 !+Nom+PxPl3:%>нанныс K ; ! 2012-02-16 this should be removed
 
 +PxPl3+Com:%>ныскӧд K ;
