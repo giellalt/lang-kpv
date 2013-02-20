@@ -14,7 +14,7 @@
 
 !! Morphology
 !! ----------
-!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF UNDEFINED LANGUAGE.
+!! INTRODUCTION TO THE MORPHOLOGICAL ANALYSER OF THE KOMI (ZYRIAN) LANGUAGE.
 
 
 Multichar_Symbols
@@ -25,25 +25,89 @@ Multichar_Symbols
 !! (It is highly suggested to follow existing standards when adding new tags).
 
 !! The parts-of-speech are:
- +N +A +Adv +V
- +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle
- +Num ! numeral
- +Qnt  ! Quantifier
+ +A      !! adjective
+ +Adp 	 !! Aposition
+ +Adv    !! adverb
+ +CS     !! subordinating conjunction
+ +CC     !! coordinating conjunction
+ +Interj !! interjection
+ +N      !! noun
+ +Pcle   !! particle
+ +Po     !! postposition
+ +Pron   !! pronoun
+ +Qnt    !! Quantifier
+ +V      !! verb
 
 !! The parts of speech are further split up into:
- +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
+!! Adjectives
 
-!! The Usage extents are marked using following tags:
- +Use/Sub   
- +Use/-Spell 
+!! Adverbs
+ +Adv-Ideoph !! These are ideophonic descriptors used to modify the verb
+             !! вырк ливтясь "__flit__ and it flew off"
+ +AdA        !! Ad-adjective
+ +Manner     !! with reference to type of adverb
+ +Spat       !! spatial
+ +Temp       !! temporal
 
-!! The nominals are inflected in the following Case and Number
- +Sg +Pl
- +Nom
- +Gen +Abl +Dat 
- +Acc +Instr +Com +Car +Cns +Comp
- +Ine +Ela +Ill 
- +Apr +Egr +Prl +Tra +Ter 
+!! Interjections
+ +Formulaic !!
+
+!! Nouns
+ +Prop  !! proper
+ +CollN !! used with paired nouns __collective nouns__
+
+!! Postpositions
+! _+ Spat_, _+ Temp_
+
+!! !!Pronouns
+ +Dem    !!≈ ;@CODE@: demonstrative
+ +Indef  !!≈ ;@CODE@: indefinite
+ +Interr !!≈ ;@CODE@: interrogative
+ +Pers   !!≈ ;@CODE@: personal
+ +Recipr !!≈ ;@CODE@: reciprocal
+ +Refl   !!≈ ;@CODE@: reflexive
+ +Rel    !!≈ ;@CODE@: relative
+
+!! !!Quantifiers (numerals)
+!! Quantifiers and Numerals are classified under:
+ +Num       !!≈ ;@CODE@: numeral
+ +Appr      !!≈ ;@CODE@: Approximative numeral кавто-колмо, колмошка ''two o\
+r three''
+            !!           NB! do not confuse with Komi case +Apr
+ +AssocColl !!≈ ;@CODE@: -ne- ; avide-
+ +Assoc     !!≈ ;@CODE@: +мезть
+ +Card      !!≈ ;@CODE@: cardinal + NCard
+ +Coll      !!≈ ;@CODE@: collective
+ +Distr     !!≈ ;@CODE@: Distributive
+ +Iter      !!≈ ;@CODE@: Iterative form expressing number of times; kpv: {{кыкысь}}
+ +Ord       !!≈ ;@CODE@: ordinal + NOrd
+
+
+!! !!Nominals are inflected for Number and Case
+!! !!Number
+ +Sg !! singular
+ +Pl !! plural
+!! !!Case
+ +Acc !! accusative -ӧс
+ +Abl !! ablative case -лысь
+ +Apr !! approximative -лань
+ +Car !! carative -тӧг
+ +Cns !! consecultative -ла
+ +Com !! Comitative -кӧд
+ +Comp !! Comparative case form -ся
+ +Dat !! dative case -лы
+ +Egr !! egressive -сянь
+ +Ela !! elative -ысь
+ +Gen !! genitive case -лӧн
+ +Ill !! illative -ӧ
+ +Ine !! inessive -ын
+ +Ins !! instrumental -ӧн
+ +Nom !! nominative case
+ +Prl !! prolative -ӧд
+ +Tra !! translative -ті
+ +Ter !! Terminative -ӧдз
+ +Voc !! Vocative
+
 ! Compounding regular derivation case
 ! +Der/Apr+Ine, +Der/Apr+Ela
 ! +Der/Apr+Ill, +Der/Apr+Egr
@@ -53,7 +117,7 @@ Multichar_Symbols
  
 
 !! The possession is marked as such:
- +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
+ +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
 !! The comparative forms are:
  +Comp +Superl
 !! Numerals are classified under:
@@ -95,6 +159,10 @@ Multichar_Symbols
 +Clt/ӧ !
 +Clt/тӧ !
 +Clt/сӧ !
+
+!! The Usage extents are marked using following tags:
+ +Use/Sub   
+ +Use/-Spell 
 
 
 !! Semantics are classified with
@@ -140,7 +208,7 @@ Multichar_Symbols
 !!to replace +OM
 !+Der/ӧм+Event 
 !This, of course, implicates a discussion 
-!of the so-called gerund "ӧмӧн" +Event+N+Instr and
+!of the so-called gerund "ӧмӧн" +Event+N+Ins and
 
 ! These should be added below in derivation declarations
 !
@@ -336,7 +404,7 @@ LEXICON Root
 TESTINGTESTING ;
 SUBSTANDARDS ; ! temporary solution
 
-!! The word forms in UNDEFINED language start from the lexeme roots of basic
+!! The word forms in Komi (Zyrian) language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
 	adjectives	;
 	adverbs	;
@@ -365,7 +433,7 @@ SUBSTANDARDS ; ! temporary solution
 	Abbreviation	;
 	Acronym		;
 	Punctuation	;
-
+	EXCEPTIONS	;
 !RussianSurnamesDerive ; ! Only testing 2012-11-15
 
 ! ======================================================= !
@@ -386,7 +454,7 @@ LEXICON R
 ! ==================================== !
 
 LEXICON ABBR-IS_ADV
-+ABBR: AdvTag ;
++ABBR: ADV_ ;
 
 LEXICON ABBR-IS_N
 +ABBR+N: WordEnd ; ! This needs a Noun1 continuation but the hyphen must 
