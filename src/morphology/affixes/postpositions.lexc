@@ -9,10 +9,10 @@
 ! ============ !
 
 LEXICON PoATag
-+Po: AdjTag ;
++Po: A_ ;
 
 LEXICON PoNTag
-+Po: NTag ;
++Po: N_ ;
 
 LEXICON PoTag
 +Po: WordEnd ;
@@ -107,13 +107,13 @@ LEXICON PO-INE
 +Po+Sg+Ine+PxPl3:%>аныс K ;
 
 LEXICON PO-INSTR
-+Po+Sg+Instr:%>ӧн K ;
-+Po+Sg+Instr+PxSg1-ym:%>нам K ;
-+Po+Sg+Instr+PxPl1:%>наным K ;
-+Po+Sg+Instr+PxSg2:%>над K ;
-+Po+Sg+Instr+PxPl2:%>наныд K ;
-+Po+Sg+Instr+PxSg3:%>нас K ;
-+Po+Sg+Instr+PxPl3:%>наныс K ;
++Po+Sg+Ins:%>ӧн K ;
++Po+Sg+Ins+PxSg1-ym:%>нам K ;
++Po+Sg+Ins+PxPl1:%>наным K ;
++Po+Sg+Ins+PxSg2:%>над K ;
++Po+Sg+Ins+PxPl2:%>наныд K ;
++Po+Sg+Ins+PxSg3:%>нас K ;
++Po+Sg+Ins+PxPl3:%>наныс K ;
 
 LEXICON PO-PROL
 +Po+Sg+Prl:%>ӧд K ;
@@ -160,7 +160,7 @@ LEXICON PO-PX
 ! вӧсна, кындзи, моз,  мында, мысьт, серти,
 
 LEXICON PO-TEMP-IS_TRA-INSTR-SG3
-+Po+Temp+Tra+Instr+PxSg3: K ;
++Po+Temp+Tra+Ins+PxSg3: K ;
 
 LEXICON PO-IS_ILL
 +Po+Ill: K ;

@@ -4,7 +4,9 @@
 
 !! Continuation lexicon has been assigned according to <pos/> content
 
-LEXICON AdjTag
+!LEXICON AdjTag
+! Adj ;
+LEXICON A_
  Adj ;
 
 LEXICON Adj-IS_PTC-TOM ! 2011-11-15 participle = derivation type; 
@@ -32,7 +34,7 @@ LEXICON A-PRED ! ӧбиднӧ
 LEXICON Adj
 +A: AdjCompar ;
 +A+Der/лун:%>лун Noun1 ; !Derivational suffix for A-N
-+A+Der/а:%>а AdvTag ; ! Derivation for adjective-to-adverb
++A+Der/а:%>а ADV_ ; ! Derivation for adjective-to-adverb
 
 
 ! vim: set ft=xfst-lexc:
