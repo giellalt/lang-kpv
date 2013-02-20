@@ -134,6 +134,7 @@ define jDeletionBeforeA [ й Flags* %> Flags* а ->   я || Vow _ ,,
  !€ сёй>а:сёя
  !€ кӧсй>а:кӧсъя
 
+define jDeletionBeforeI [ й Flags* %> Flags* і ->  и || Vow _ ] ;
 
 define lDeletion л -> 0 || л _  ь       [ .#. | %> Cns ] ;
  !€ вакулль>ыс:вакулльыс
@@ -217,6 +218,7 @@ read regex [
 .o. tDeletion
 .o. jDeletion
 .o. jDeletionBeforeA
+.o. jDeletionBeforeI
 .o. lDeletion
 .o. dDeletion
 !.о. Surnames
