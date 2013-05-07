@@ -39,6 +39,7 @@ GENERATED_LEXC_SRCS=\
 		 stems/adverbs.lexc \
 		 stems/conjunctions.lexc \
 		 stems/descriptives.lexc \
+		 stems/gerunds.lexc \
 		 stems/interjections.lexc \
 		 stems/nouns-deverbal.lexc \
 		 stems/nouns.lexc \
@@ -63,6 +64,7 @@ GT_XML_SRCS=\
 		 stems/adverbs.xml \
 		 stems/conjunctions.xml \
 		 stems/descriptives.xml \
+		 stems/gerunds.xml \
 		 stems/interjections.xml \
 		 stems/nouns-deverbal.xml \
 		 stems/nouns.xml \

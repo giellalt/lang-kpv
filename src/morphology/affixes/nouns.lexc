@@ -11,37 +11,37 @@ LEXICON Vocative   !!= * @CODE@
 +N+Voc: # ;
 
 LEXICON Noun1-IS_PTC-OM !!= * @CODE@ is to provide deverbal nouns with +Der/ӧм tags
-+V+Der/ӧм: Noun1 ;
++V+Der/ӧм: N_ ;
 
 LEXICON Noun1-IS_PTC-AN !!= * @CODE@
-+V+Der/ан: Noun1 ;
++V+Der/ан: N_ ;
 
 LEXICON Noun1-IS_PTC-YSJ !!= * @CODE@
-+V+Der/ысь: Noun1 ;
++V+Der/ысь: N_ ;
 
 LEXICON N-DOR ! мӧдладор The Russian is an adverbial phrase
-+Der/дор: Noun1 ;
++Der/дор: N_ ;
 
 LEXICON N-VYV ! тулысвыв The Russian is an adverbial phrase
-+Der/выв: Noun1 ;
++Der/выв: N_ ;
 
 LEXICON Noun1-F !
-+Src/F: Noun1 ;
++Src/F: N_ ;
 
 LEXICON Noun1-R-RY !
-+Use/Sub:ь Noun1 ;  ! This deals with январь
-           Noun1 ; ! This is the new proper spelling январ
++Use/Sub:ь N_ ;  ! This deals with январь
+           N_ ; ! This is the new proper spelling январ
 
 LEXICON Noun1-SYT-STY !
-+Use/Sub:ть Noun1 ;  ! This deals with гӧсть
-:ьт         Noun1 ; ! This is the new proper spelling гӧсьт
++Use/Sub:ть N_ ;  ! This deals with гӧсть
+:ьт         N_ ; ! This is the new proper spelling гӧсьт
 
 !! Basic nouns.
 
 LEXICON N_   !!= * @CODE@
 +N: NMN_ ;
 
-LEXICON Noun1
+LEXICON Noun1 !! This should be phased out 2013-05-07
  N_ ;
 
 LEXICON NMN_
@@ -58,10 +58,10 @@ LEXICON Noun1-JM ! понйыс, понмыс
 +N+Pl:%>ъяс CASEPOSSLEX ;
 
 LEXICON NounLA ! ӧтила
-Noun1 ; ! Difference betw Noun1 and NounLA still to be documented.
+N_ ; ! Difference betw N_ and NounLA still to be documented.
 
 LEXICON NounMort
-Noun1 ; ! Difference betw Noun1 and NounMort still to be documented.
+N_ ; ! Difference betw N_ and NounMort still to be documented.
 
 LEXICON NounSG ! м орт
 +N+Sg: CASEPOSSLEX ;
@@ -77,10 +77,10 @@ LEXICON Noun1-IS_ACRON ! А*С*СР ! АТП Note the inconcistencies in the sta
 LEXICON NounPL ! бедьторъяс
 +N+Pl: CASEPOSSLEX ; ! here, %>ъяс is put as part of the stem
 ! Very many plural nouns do not have this tag. We could change яс-final
-! nouns from Noun1 to NounPL, I guess.
+! nouns from N_ to NounPL, I guess.
 
 LEXICON NounPOSS ! чой niece, nephew
-Noun1 ; ! Declension to be determined.
+N_ ; ! Declension to be determined.
 
 LEXICON FIRST
 +Cmp: # ;
@@ -97,7 +97,7 @@ LEXICON ACRONDELIMITER
 ! =================== !
 
 
-!! All nouns follow one contlex "Noun1"
+!! All nouns follow one contlex "N_"
 !! to begin with here is simply a list of all variant
 !! with no more variants beyond:
 

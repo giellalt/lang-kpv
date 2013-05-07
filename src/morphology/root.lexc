@@ -133,7 +133,7 @@ Multichar_Symbols
  +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
 !! Other verb forms are
  +Inf
- +Ger !Gerund This is used with derivations
+ +Ger !! Gerund This is used with derivations
 
 +ConNeg +Neg
 ! +ConNegII +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
@@ -409,6 +409,7 @@ SUBSTANDARDS ; ! temporary solution
 	adverbs	;
 	conjunctions	;
 	descriptives	;
+	gerunds	;
 	interjections	;
 	nouns-deverbal	;
 	nouns	;
@@ -495,7 +496,7 @@ LEXICON ONOM-End
 
 !LEXICON DESCR-End
 ! DescrTag ;
-LEXICON DescrTag
+LEXICON DESCR_
 +Descr: WordEnd ;
 
 

@@ -1,349 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-   <e>
-      <lg>
-         <l pos="Descr">лотш</l>
-         <stg>
-            <st Contlex="DescrTag">лотш</st>
-         </stg>
-      </lg>
-      <pos>DESCR</pos>
-      <mg>
-         <m>
-            <head>
-               <re>подражание хрусту в суставе</re>
-            </head>
-         </m>
-         <tg xml:lang="rus">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="Descr">луйк-лайк</l>
-         <stg>
-            <st Contlex="DescrTag">луйк-лайк</st>
-         </stg>
-      </lg>
-      <pos>DESCR</pos>
-      <mg No="1">
-         <m>
-            <head>
-               <re>в роли сказ.</re>
-            </head>
-         </m>
-         <tg xml:lang="rus">
-            <t>шаткий</t>
-         </tg>
-         <xg>
-            <x>джоджыс луйк-лайк</x>
-            <xt xml:lang="rus">пол шаткий</xt>
-         </xg>
-         <xg>
-            <x>керкаын луйк-лайк</x>
-            <xt xml:lang="rus">,</xt>
-         </xg>
-         <xg genreType="riddle">
-            <x>ывлаын гунь-гонь</x>
-            <xt xml:lang="rus">в избе шаткий, на улице быстрый</xt>
-            <answer>
-               <native>тшын</native>
-               <xt xml:lang="rus">дым</xt>
-            </answer>
-         </xg>
-      </mg>
-      <mg No="2">
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="rus">
-            <t>качаясь, пружиня</t>
-         </tg>
-         <xg>
-            <x>мыльк сайысь быйкнитіс дадюв да луйк-лайк исковтіс веж турун вывтіыс</x>
-            <xt xml:lang="rus">из-за холма вынырнула саночная упряжка и покатилась по зелёной траве</xt>
-         </xg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="Descr">мурч</l>
-         <stg>
-            <st Contlex="DescrTag">мурч</st>
-         </stg>
-      </lg>
-      <pos>DESCR</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="rus">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="Descr">гури-люки</l>
-         <stg>
-            <st Contlex="DescrTag">гури-люки</st>
-         </stg>
-      </lg>
-      <pos>DESCR</pos>
-      <mg>
-         <m>
-            <head/>
-            <semRel No="1" lemmaID="гири-люки" semRelType="see"/>
-         </m>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="Descr">йирк-йирк</l>
-         <stg>
-            <st Contlex="DescrTag">йирк-йирк</st>
-         </stg>
-      </lg>
-      <pos>DESCR</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="rus">
-            <t>тук-тук</t>
-         </tg>
-         <xg>
-            <x>посводзын кылӧ йирк-йирк</x>
-            <xt xml:lang="rus">в сенях стучат тук-тук</xt>
-         </xg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="Descr">йирт</l>
-         <stg>
-            <st Contlex="DescrTag">йирт</st>
-         </stg>
-      </lg>
-      <pos>DESCR</pos>
-      <mg>
-         <m>
-            <head/>
-            <semRel No="1" lemmaID="йирк" semRelType="see"/>
-         </m>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="Descr">кивыль-ковыль</l>
-         <stg>
-            <st Contlex="DescrTag">кивыль-ковыль</st>
-         </stg>
-      </lg>
-      <pos>DESCR</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="rus">
-            <t>ковыляя</t>
-         </tg>
-         <xg>
-            <x>муніс кивыль-ковыль</x>
-            <xt xml:lang="rus">он ушёл ковыляя</xt>
-         </xg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="Descr">киль-кильк</l>
-         <stg>
-            <st Contlex="DescrTag">киль-кильк</st>
-         </stg>
-      </lg>
-      <pos>DESCR</pos>
-      <mg>
-         <m>
-            <head/>
-            <semRel No="1" lemmaID="кильк-кильк" semRelType="see"/>
-         </m>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="Descr">крукыль-мукыль</l>
-         <stg>
-            <st Contlex="DescrTag">крукыль-мукыль</st>
-         </stg>
-      </lg>
-      <pos>DESCR</pos>
-      <mg>
-         <m>
-            <head/>
-            <semRel lemmaID="чукыль-мукыль" semRelType="seeAlso"/>
-         </m>
-         <tg xml:lang="rus">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="Descr">кулс-колс</l>
-         <stg>
-            <st Contlex="DescrTag">кулс-колс</st>
-         </stg>
-      </lg>
-      <pos>DESCR</pos>
-      <mg>
-         <m>
-            <head/>
-            <semRel No="1" lemmaID="колс" semRelType="see"/>
-         </m>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="Descr">кунды-мунды</l>
-         <stg>
-            <st Contlex="DescrTag">кунды-мунды</st>
-         </stg>
-      </lg>
-      <pos>DESCR</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="rus">
-            <t>барахло, манатки</t>
-         </tg>
-         <xg>
-            <x>мунны став кунды-мундыӧн</x>
-            <xt xml:lang="rus">уехать со всем барахлом</xt>
-         </xg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="Descr">куньки-каньки</l>
-         <stg>
-            <st Contlex="DescrTag">куньки-каньки</st>
-         </stg>
-      </lg>
-      <pos>DESCR</pos>
-      <mg>
-         <m>
-            <head/>
-            <semRel No="1" lemmaID="кунь-кань" semRelType="see"/>
-         </m>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="Descr">курч-карч</l>
-         <stg>
-            <st Contlex="DescrTag">курч-карч</st>
-         </stg>
-      </lg>
-      <pos>DESCR</pos>
-      <mg>
-         <m>
-            <head/>
-            <semRel No="1" lemmaID="куж-каж" semRelType="see"/>
-         </m>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="Descr">кутов-катов</l>
-         <stg>
-            <st Contlex="DescrTag">кутов-катов</st>
-         </stg>
-      </lg>
-      <pos>DESCR</pos>
-      <mg No="1">
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="rus">
-            <tCtn>
-               <t>шатаясь, едва держась на ногах</t>
-               <re>(из-за худобы)</re>
-            </tCtn>
-         </tg>
-         <xg>
-            <x>кутов-катов мунны</x>
-            <xt xml:lang="rus">идти шатаясь</xt>
-         </xg>
-      </mg>
-      <mg No="2">
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="rus">
-            <t>переваливаясь с боку на бок</t>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="Descr">кыньки-каньки</l>
-         <stg>
-            <st Contlex="DescrTag">кыньки-каньки</st>
-         </stg>
-      </lg>
-      <pos>DESCR</pos>
-      <mg>
-         <m>
-            <head/>
-            <semRel No="1" lemmaID="кань-каньӧн" semRelType="see"/>
-         </m>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="Descr">кыштым-каштым</l>
-         <stg>
-            <st Contlex="DescrTag">кыштым-каштым</st>
-         </stg>
-      </lg>
-      <pos>DESCR</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="rus">
-            <t>тайком, втихомолку</t>
-         </tg>
-         <xg>
-            <x>кыштым-каштым мунны</x>
-            <xt xml:lang="rus">уйти втихомолку</xt>
-         </xg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="Descr">кӧлуй-мӧлуй</l>
-         <stg>
-            <st Contlex="DescrTag">кӧлуй-мӧлуй</st>
-         </stg>
-      </lg>
-      <pos>DESCR</pos>
-      <mg>
-         <m>
-            <head/>
-            <semRel No="1" lemmaID="кӧлуй" semRelType="see"/>
-         </m>
-         <xg>
-            <x>кӧлуй-мӧлуй чукӧртны</x>
-            <xt xml:lang="rus">собрать вещи</xt>
-         </xg>
-      </mg>
-   </e>
-   <e>
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e>
       <lg>
          <l pos="Descr">бау</l>
          <stg>
@@ -360,7 +21,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">бов</l>
          <stg>
@@ -377,14 +38,14 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">боль-боль</l>
          <stg>
-            <st Contlex="DescrTag">боль-боль</st>
+            <st Contlex="DESCR_">боль-боль</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -401,14 +62,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">бринь</l>
          <stg>
-            <st Contlex="DescrTag">бринь</st>
+            <st Contlex="DESCR_">бринь</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -438,14 +99,14 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">бриньк</l>
          <stg>
-            <st Contlex="DescrTag">бриньк</st>
+            <st Contlex="DESCR_">бриньк</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -475,14 +136,14 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">брон</l>
          <stg>
-            <st Contlex="DescrTag">брон</st>
+            <st Contlex="DESCR_">брон</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -496,14 +157,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">брун</l>
          <stg>
-            <st Contlex="DescrTag">брун</st>
+            <st Contlex="DESCR_">брун</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -553,14 +214,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">брун-брон</l>
          <stg>
-            <st Contlex="DescrTag">брун-брон</st>
+            <st Contlex="DESCR_">брун-брон</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -574,14 +235,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">брункылӧ</l>
          <stg>
-            <st Contlex="DescrTag">брункылӧ</st>
+            <st Contlex="DESCR_">брункылӧ</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -595,14 +256,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">брыз-браз</l>
          <stg>
-            <st Contlex="DescrTag">брыз-браз</st>
+            <st Contlex="DESCR_">брыз-браз</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -616,14 +277,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">брызь</l>
          <stg>
-            <st Contlex="DescrTag">брызь</st>
+            <st Contlex="DESCR_">брызь</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -641,7 +302,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">буз</l>
          <stg>
@@ -668,14 +329,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">буз-баз</l>
          <stg>
-            <st Contlex="DescrTag">буз-баз</st>
+            <st Contlex="DESCR_">буз-баз</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -696,14 +357,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">бузкылӧ</l>
          <stg>
-            <st Contlex="DescrTag">бузкылӧ</st>
+            <st Contlex="DESCR_">бузкылӧ</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -717,14 +378,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">булс-болс</l>
          <stg>
-            <st Contlex="DescrTag">булс-болс</st>
+            <st Contlex="DESCR_">булс-болс</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -744,7 +405,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">булы-болы</l>
          <stg>
@@ -768,14 +429,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">буль-боль</l>
          <stg>
-            <st Contlex="DescrTag">буль-боль</st>
+            <st Contlex="DESCR_">буль-боль</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -796,7 +457,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">бульс-больс</l>
          <stg>
@@ -811,7 +472,7 @@
          </m>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">бультік</l>
          <stg>
@@ -820,14 +481,14 @@
       </lg>
       <pos>PCLE-ONOM</pos>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">буля-боля</l>
          <stg>
-            <st Contlex="DescrTag">буля-боля</st>
+            <st Contlex="DESCR_">буля-боля</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -841,7 +502,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">бум-бом</l>
          <stg>
@@ -862,7 +523,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">бур-бор</l>
          <stg>
@@ -883,7 +544,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">бурс</l>
          <stg>
@@ -916,7 +577,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">бут</l>
          <stg>
@@ -939,7 +600,8 @@
          </m>
       </mg>
    </e>
-   <e>
+  <e> <lg> <l>быз</l> <stg> <st Contlex="DESCR_">быз</st> </stg> </lg> <pos>Descr</pos> <mg> <m> <head/> <semRel No="1" lemmaID="буз" semRelType="see"/> </m> </mg> </e>
+  <e>
       <lg>
          <l pos="Descr">быз</l>
          <stg>
@@ -948,14 +610,15 @@
       </lg>
       <pos>PCLE-ONOM</pos>
    </e>
-   <e>
+  <e> <lg> <l>быз-баз</l> <stg> <st Contlex="DESCR_">быз-баз</st> </stg> </lg> <pos>Descr</pos> <mg> <m> <head/> <semRel No="1" lemmaID="буз-баз" semRelType="see"/> </m> </mg> </e>
+  <e>
       <lg>
          <l pos="Descr">быйк</l>
          <stg>
-            <st Contlex="DescrTag">быйк</st>
+            <st Contlex="DESCR_">быйк</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -973,14 +636,15 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e> <lg> <l>бырс</l> <stg> <st Contlex="DESCR_">бырс</st> </stg> </lg> <pos>Descr</pos> <mg> <m> <head/> <semRel No="1" lemmaID="быйк" semRelType="see"/> </m> </mg> </e>
+  <e>
       <lg>
          <l pos="Descr">бырс</l>
          <stg>
-            <st Contlex="DescrTag">бырс</st>
+            <st Contlex="DESCR_">бырс</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -991,14 +655,14 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">бытш</l>
          <stg>
-            <st Contlex="DescrTag">бытш</st>
+            <st Contlex="DESCR_">бытш</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -1013,14 +677,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">ваз</l>
          <stg>
-            <st Contlex="DescrTag">ваз</st>
+            <st Contlex="DESCR_">ваз</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -1038,14 +702,17 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e> <lg> <l>варс</l> <stg> <st Contlex="DESCR_">варс</st> </stg> </lg> <pos>Descr</pos> <mg> <m> <head/> <semRel No="1" lemmaID="ваз" semRelType="see"/> </m> </mg> </e>
+  <e> <lg> <l>варс</l> <stg> <st Contlex="DESCR_">варс</st> </stg> </lg> <pos>Descr</pos> <mg> <m> <head> <range rangeSpat="dialect"/> </head> <semRel lemmaID="ор" semRelType="seeAlso"/> </m> <tg xml:lang="rus"> <t>гной</t> </tg> </mg> </e>
+  <e> <lg> <l>варч</l> <stg> <st Contlex="DESCR_">варч</st> </stg> </lg> <pos>Descr</pos> <mg> <m> <head/> <semRel No="1" lemmaID="ваз" semRelType="see"/> </m> </mg> </e>
+  <e>
       <lg>
          <l pos="Descr">вач</l>
          <stg>
-            <st Contlex="DescrTag">вач</st>
+            <st Contlex="DESCR_">вач</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -1059,14 +726,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">визгыр</l>
          <stg>
-            <st Contlex="DescrTag">визгыр</st>
+            <st Contlex="DESCR_">визгыр</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -1080,14 +747,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">вильски-вольски</l>
          <stg>
-            <st Contlex="DescrTag">вильски-вольски</st>
+            <st Contlex="DESCR_">вильски-вольски</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -1101,14 +768,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">вуз-ваз</l>
          <stg>
-            <st Contlex="DescrTag">вуз-ваз</st>
+            <st Contlex="DESCR_">вуз-ваз</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -1122,14 +789,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">вур-вар</l>
          <stg>
-            <st Contlex="DescrTag">вур-вар</st>
+            <st Contlex="DESCR_">вур-вар</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -1139,14 +806,14 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">вуш-ваш</l>
          <stg>
-            <st Contlex="DescrTag">вуш-ваш</st>
+            <st Contlex="DESCR_">вуш-ваш</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -1160,7 +827,8 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e> <lg> <l>вушки-вашки</l> <stg> <st Contlex="DESCR_">вушки-вашки</st> </stg> </lg> <pos>Descr</pos> <mg> <m> <head/> <semRel No="1" lemmaID="вуш-ваш" semRelType="see"/> </m> </mg> </e>
+  <e>
       <lg>
          <l pos="Descr">герч</l>
          <stg>
@@ -1195,7 +863,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">гизь</l>
          <stg>
@@ -1204,14 +872,14 @@
       </lg>
       <pos>PCLE-ONOM</pos>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">гизь-гизьӧн</l>
          <stg>
-            <st Contlex="DescrTag">гизь-гизьӧн</st>
+            <st Contlex="DESCR_">гизь-гизьӧн</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -1237,14 +905,17 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e> <lg> <l>гиль-голь</l> <stg> <st Contlex="DESCR_">гиль-голь</st> </stg> </lg> <pos>Descr</pos> <mg> <m> <head/> <semRel No="1" lemmaID="гуль-голь" semRelType="see"/> </m> </mg> </e>
+  <e> <lg> <l>гир-гар</l> <stg> <st Contlex="DESCR_">гир-гар</st> </stg> </lg> <pos>Descr</pos> <mg> <m> <head> <re>подражание шуму при скатывании по неровной поверхности</re> </head> </m> <tg xml:lang="rus"> <t/> </tg> <xg> <x>вильдіс да поскӧдыс гир-гар лэччис</x> <xt xml:lang="rus">он поскользнулся и с грохотом скатился по лестнице</xt> </xg> </mg> </e>
+  <e> <lg> <l>гир-гир</l> <stg> <st Contlex="DESCR_">гир-гир</st> </stg> </lg> <pos>Descr</pos> <mg> <m> <head> <re>подражание громкому раскатистому смеху</re> </head> </m> <tg xml:lang="rus"> <t/> </tg> <xg> <x>гир-гир серӧктыны</x> <xt xml:lang="rus">громко рассмеяться, расхохотаться</xt> </xg> </mg> </e>
+  <e>
       <lg>
          <l pos="Descr">гира-гара</l>
          <stg>
-            <st Contlex="DescrTag">гира-гара</st>
+            <st Contlex="DESCR_">гира-гара</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -1258,14 +929,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">гири-люки</l>
          <stg>
-            <st Contlex="DescrTag">гири-люки</st>
+            <st Contlex="DESCR_">гири-люки</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -1302,14 +973,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">гирч</l>
          <stg>
-            <st Contlex="DescrTag">гирч</st>
+            <st Contlex="DESCR_">гирч</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -1323,7 +994,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">голь</l>
          <stg>
@@ -1332,7 +1003,8 @@
       </lg>
       <pos>PCLE-ONOM</pos>
    </e>
-   <e>
+  <e> <lg> <l>гольс</l> <stg> <st Contlex="DESCR_">гольс</st> </stg> </lg> <pos>Descr</pos> <mg> <m> <head> <re>подражание дребезжанию, звяканью, скрежету</re> </head> </m> <tg xml:lang="rus"> <t/> </tg> <xg> <x>кильчӧсӧ гольс игналіс</x> <xt xml:lang="rus">он, звякнув, закрыл крыльцо</xt> </xg> <xg> <x>мой гольс йирыштіс клетка сутугасӧ</x> <xt xml:lang="rus">бобр со скрежетом погрыз проволоку клетки</xt> </xg> </mg> </e>
+  <e>
       <lg>
          <l pos="Descr">гольс</l>
          <stg>
@@ -1341,14 +1013,14 @@
       </lg>
       <pos>PCLE-ONOM</pos>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">гонь</l>
          <stg>
-            <st Contlex="DescrTag">гонь</st>
+            <st Contlex="DESCR_">гонь</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -1362,14 +1034,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">гот-готӧн</l>
          <stg>
-            <st Contlex="DescrTag">гот-готӧн</st>
+            <st Contlex="DESCR_">гот-готӧн</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -1383,14 +1055,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">грыма-грама</l>
          <stg>
-            <st Contlex="DescrTag">грыма-грама</st>
+            <st Contlex="DESCR_">грыма-грама</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -1412,7 +1084,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">грыма-йирка</l>
          <stg>
@@ -1427,14 +1099,14 @@
          </m>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">грымкылӧ</l>
          <stg>
-            <st Contlex="DescrTag">грымкылӧ</st>
+            <st Contlex="DESCR_">грымкылӧ</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -1456,14 +1128,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">гув</l>
          <stg>
-            <st Contlex="DescrTag">гув</st>
+            <st Contlex="DESCR_">гув</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -1481,7 +1153,8 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e> <lg> <l>гудж</l> <stg> <st Contlex="DESCR_">гудж</st> </stg> </lg> <pos>Descr</pos> <mg> <m> <head> <re>подражание скрежету</re> </head> </m> <tg xml:lang="rus"> <t/> </tg> <xg> <x>шыр кӧнкӧ гудж</x> <xt xml:lang="rus">мышка где-то скребётся</xt> </xg> <xg> <x>перӧыс сӧмын гудж</x> <xt xml:lang="rus">перо только скрипит (так быстро пишет)</xt> </xg> </mg> </e>
+  <e>
       <lg>
          <l pos="Descr">гудж</l>
          <stg>
@@ -1490,7 +1163,8 @@
       </lg>
       <pos>PCLE-ONOM</pos>
    </e>
-   <e>
+  <e> <lg> <l>гузь</l> <stg> <st Contlex="DESCR_">гузь</st> </stg> </lg> <pos>Descr</pos> <mg No="1"> <m> <head> <re>подражание шуму падения рассыпного предмета, массы воды</re> </head> </m> <tg xml:lang="rus"> <t/> </tg> <xg> <x>гузь кисьтны</x> <xt xml:lang="rus">а) вылить с шумом, выплеснуть; б) высыпать что-л.</xt> </xg> </mg> <mg No="2"> <m> <head/> <semRel No="1" lemmaID="гузьӧбӧн" semRelType="see"/> </m> </mg> </e>
+  <e>
       <lg>
          <l pos="Descr">гуль-голь</l>
          <stg>
@@ -1519,7 +1193,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">гульк</l>
          <stg>
@@ -1553,14 +1227,15 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e> <lg> <l>гульс-гольс</l> <stg> <st Contlex="DESCR_">гульс-гольс</st> </stg> </lg> <pos>Descr</pos> <mg No="1"> <m> <head/> <semRel No="1" lemmaID="гуль-голь" semRelType="see"/> </m> </mg> <mg No="2"> <m> <head/> </m> <tg xml:lang="rus"> <tCtn> <t>звонко и гулко</t> <re>о звуке</re> </tCtn> </tg> <xg> <x>гульс-гольс кучкавны бива кӧртӧн биа изйӧ</x> <xt xml:lang="rus">ударять огнивом по кремню (высекать огонь)</xt> </xg> <xg> <x>кутіс лэчтасьны гульс-гольс</x> <xt xml:lang="rus">он стал отбивать косу звонко и гулко</xt> </xg> </mg> </e>
+  <e>
       <lg>
          <l pos="Descr">гунь-гонь</l>
          <stg>
-            <st Contlex="DescrTag">гунь-гонь</st>
+            <st Contlex="DESCR_">гунь-гонь</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -1574,7 +1249,8 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e> <lg> <l>гур</l> <stg> <st Contlex="DESCR_">гур</st> </stg> </lg> <pos>Descr</pos> <mg> <m> <head> <re>подражание громкому тарахтению, скрипу</re> </head> </m> <tg xml:lang="rus"> <t/> </tg> <xg> <x>гур воссьыны</x> <xt xml:lang="rus">открыться со скрипом</xt> </xg> <xg> <x>гур кыскыны</x> <xt xml:lang="rus">тащить с тарахтением</xt> </xg> </mg> </e>
+  <e>
       <lg>
          <l pos="Descr">гур</l>
          <stg>
@@ -1583,14 +1259,14 @@
       </lg>
       <pos>PCLE-ONOM</pos>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">гур-гар</l>
          <stg>
-            <st Contlex="DescrTag">гур-гар</st>
+            <st Contlex="DESCR_">гур-гар</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -1604,14 +1280,29 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
+      <lg>
+         <l pos="Descr">гури-люки</l>
+         <stg>
+            <st Contlex="DESCR_">гури-люки</st>
+         </stg>
+      </lg>
+      <pos>Descr</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="гири-люки" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+  <e>
       <lg>
          <l pos="Descr">гурс</l>
          <stg>
-            <st Contlex="DescrTag">гурс</st>
+            <st Contlex="DESCR_">гурс</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -1621,14 +1312,14 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">гутш</l>
          <stg>
-            <st Contlex="DescrTag">гутш</st>
+            <st Contlex="DESCR_">гутш</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -1642,7 +1333,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">гым</l>
          <stg>
@@ -1671,7 +1362,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">гып</l>
          <stg>
@@ -1689,14 +1380,14 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">дзен</l>
          <stg>
-            <st Contlex="DescrTag">дзен</st>
+            <st Contlex="DESCR_">дзен</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -1714,14 +1405,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">дзен-дзен</l>
          <stg>
-            <st Contlex="DescrTag">дзен-дзен</st>
+            <st Contlex="DESCR_">дзен-дзен</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -1742,7 +1433,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">дзиж</l>
          <stg>
@@ -1767,7 +1458,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">дзиз</l>
          <stg>
@@ -1785,14 +1476,15 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e> <lg> <l>дзуж-дзаж</l> <stg> <st Contlex="DESCR_">дзуж-дзаж</st> </stg> </lg> <pos>Descr</pos> <mg> <m> <head/> </m> <tg xml:lang="rus"> <t>с треском; с шипением</t> </tg> <xg> <x>дзуж-дзаж косявны</x> <xt xml:lang="rus">порвать с треском</xt> </xg> <xg> <x>дзуж-дзаж кусны</x> <xt xml:lang="rus">с шипением погаснуть</xt> </xg> <xg> <x>дзуж-дзаж ӧзйис пожӧм лыс</x> <xt xml:lang="rus">с треском загорелась сосновая хвоя</xt> </xg> </mg> </e>
+  <e>
       <lg>
          <l pos="Descr">дзум</l>
          <stg>
-            <st Contlex="DescrTag">дзум</st>
+            <st Contlex="DESCR_">дзум</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head>
@@ -1829,7 +1521,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">дзурк</l>
          <stg>
@@ -1854,7 +1546,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">дзурлик</l>
          <stg>
@@ -1871,7 +1563,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">дзурс</l>
          <stg>
@@ -1892,14 +1584,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">дув-дов</l>
          <stg>
-            <st Contlex="DescrTag">дув-дов</st>
+            <st Contlex="DESCR_">дув-дов</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -1913,14 +1605,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">дізь</l>
          <stg>
-            <st Contlex="DescrTag">дізь</st>
+            <st Contlex="DESCR_">дізь</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head>
@@ -1963,7 +1655,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">дітш</l>
          <stg>
@@ -1992,7 +1684,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">жбольк-жбольк</l>
          <stg>
@@ -2013,7 +1705,9 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e> <lg> <l>жбыр</l> <stg> <st Contlex="DESCR_">жбыр</st> </stg> </lg> <pos>Descr</pos> <mg> <m> <head/> </m> <tg xml:lang="rus"> <t>звукоподражание шуму крыльев птиц при взлёте</t> </tg> <xg> <x>жбыр лэбзьыны</x> <xt xml:lang="rus">вспорхнуть</xt> </xg> <xg> <x>некӧн жбыр ни жбор эз кывлы</x> <xt xml:lang="rus">нигде не было слышно шума крыльев</xt> </xg> </mg> </e>
+  <e> <lg> <l>жбырк</l> <stg> <st Contlex="DESCR_">жбырк</st> </stg> </lg> <pos>Descr</pos> <mg> <m> <head/> <semRel No="1" lemmaID="жбыр" semRelType="see"/> </m> </mg> </e>
+  <e>
       <lg>
          <l pos="Descr">жмут</l>
          <stg>
@@ -2034,7 +1728,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">журк</l>
          <stg>
@@ -2059,7 +1753,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">зиль-зёль</l>
          <stg>
@@ -2092,7 +1786,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">зильк-зёльк</l>
          <stg>
@@ -2107,14 +1801,14 @@
          </m>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">зур</l>
          <stg>
-            <st Contlex="DescrTag">зур</st>
+            <st Contlex="DESCR_">зур</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head>
@@ -2126,7 +1820,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">зур-зар</l>
          <stg>
@@ -2164,7 +1858,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">зури-зари</l>
          <stg>
@@ -2179,7 +1873,7 @@
          </m>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">зурк-зӧрк</l>
          <stg>
@@ -2194,7 +1888,7 @@
          </m>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">зутш</l>
          <stg>
@@ -2229,7 +1923,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">зым</l>
          <stg>
@@ -2254,14 +1948,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">зыми-йирки</l>
          <stg>
-            <st Contlex="DescrTag">зыми-йирки</st>
+            <st Contlex="DESCR_">зыми-йирки</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -2275,7 +1969,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">зырк</l>
          <stg>
@@ -2293,14 +1987,14 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">зіми-йирки</l>
          <stg>
-            <st Contlex="DescrTag">зіми-йирки</st>
+            <st Contlex="DESCR_">зіми-йирки</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -2314,7 +2008,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">зӧрк</l>
          <stg>
@@ -2338,7 +2032,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">йирк</l>
          <stg>
@@ -2367,14 +2061,35 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
+      <lg>
+         <l pos="Descr">йирк-йирк</l>
+         <stg>
+            <st Contlex="DESCR_">йирк-йирк</st>
+         </stg>
+      </lg>
+      <pos>Descr</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>тук-тук</t>
+         </tg>
+         <xg>
+            <x>посводзын кылӧ йирк-йирк</x>
+            <xt xml:lang="rus">в сенях стучат тук-тук</xt>
+         </xg>
+      </mg>
+   </e>
+  <e>
       <lg>
          <l pos="Descr">йирк-кам</l>
          <stg>
-            <st Contlex="DescrTag">йирк-кам</st>
+            <st Contlex="DESCR_">йирк-кам</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -2388,7 +2103,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">йирки-тарки</l>
          <stg>
@@ -2410,7 +2125,22 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
+      <lg>
+         <l pos="Descr">йирт</l>
+         <stg>
+            <st Contlex="DESCR_">йирт</st>
+         </stg>
+      </lg>
+      <pos>Descr</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="йирк" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+  <e>
       <lg>
          <l pos="Descr">каж</l>
          <stg>
@@ -2435,7 +2165,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">кам</l>
          <stg>
@@ -2444,7 +2174,7 @@
       </lg>
       <pos>PCLE-ONOM</pos>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">катш</l>
          <stg>
@@ -2459,7 +2189,28 @@
          </m>
       </mg>
    </e>
-   <e>
+  <e>
+      <lg>
+         <l pos="Descr">кивыль-ковыль</l>
+         <stg>
+            <st Contlex="DESCR_">кивыль-ковыль</st>
+         </stg>
+      </lg>
+      <pos>Descr</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>ковыляя</t>
+         </tg>
+         <xg>
+            <x>муніс кивыль-ковыль</x>
+            <xt xml:lang="rus">он ушёл ковыляя</xt>
+         </xg>
+      </mg>
+   </e>
+  <e>
       <lg>
          <l pos="Descr">кикуруллю</l>
          <stg>
@@ -2484,7 +2235,22 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
+      <lg>
+         <l pos="Descr">киль-кильк</l>
+         <stg>
+            <st Contlex="DESCR_">киль-кильк</st>
+         </stg>
+      </lg>
+      <pos>Descr</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="кильк-кильк" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+  <e>
       <lg>
          <l pos="Descr">кильк-кильк</l>
          <stg>
@@ -2501,14 +2267,14 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">китш</l>
          <stg>
-            <st Contlex="DescrTag">китш</st>
+            <st Contlex="DESCR_">китш</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head>
@@ -2532,7 +2298,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">китши-котши</l>
          <stg>
@@ -2553,7 +2319,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">клес</l>
          <stg>
@@ -2577,7 +2343,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">клоп</l>
          <stg>
@@ -2607,7 +2373,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">клотш</l>
          <stg>
@@ -2625,7 +2391,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">клуп-клоп</l>
          <stg>
@@ -2642,7 +2408,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">клюв</l>
          <stg>
@@ -2660,7 +2426,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">клюн-клён</l>
          <stg>
@@ -2680,7 +2446,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">клён</l>
          <stg>
@@ -2708,7 +2474,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">ков</l>
          <stg>
@@ -2725,7 +2491,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">колс</l>
          <stg>
@@ -2742,7 +2508,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">котш</l>
          <stg>
@@ -2774,7 +2540,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">крав-крав</l>
          <stg>
@@ -2792,7 +2558,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">крап</l>
          <stg>
@@ -2825,7 +2591,25 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
+      <lg>
+         <l pos="Descr">крукыль-мукыль</l>
+         <stg>
+            <st Contlex="DESCR_">крукыль-мукыль</st>
+         </stg>
+      </lg>
+      <pos>Descr</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel lemmaID="чукыль-мукыль" semRelType="seeAlso"/>
+         </m>
+         <tg xml:lang="rus">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+  <e>
       <lg>
          <l pos="Descr">кув</l>
          <stg>
@@ -2846,7 +2630,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">куж-каж</l>
          <stg>
@@ -2871,7 +2655,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">кукку</l>
          <stg>
@@ -2892,7 +2676,22 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
+      <lg>
+         <l pos="Descr">кулс-колс</l>
+         <stg>
+            <st Contlex="DESCR_">кулс-колс</st>
+         </stg>
+      </lg>
+      <pos>Descr</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="колс" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+  <e>
       <lg>
          <l pos="Descr">кун-кон</l>
          <stg>
@@ -2921,7 +2720,28 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
+      <lg>
+         <l pos="Descr">кунды-мунды</l>
+         <stg>
+            <st Contlex="DESCR_">кунды-мунды</st>
+         </stg>
+      </lg>
+      <pos>Descr</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>барахло, манатки</t>
+         </tg>
+         <xg>
+            <x>мунны став кунды-мундыӧн</x>
+            <xt xml:lang="rus">уехать со всем барахлом</xt>
+         </xg>
+      </mg>
+   </e>
+  <e>
       <lg>
          <l pos="Descr">куннар-каннар</l>
          <stg>
@@ -2942,7 +2762,22 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
+      <lg>
+         <l pos="Descr">куньки-каньки</l>
+         <stg>
+            <st Contlex="DESCR_">куньки-каньки</st>
+         </stg>
+      </lg>
+      <pos>Descr</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="кунь-кань" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+  <e>
       <lg>
          <l pos="Descr">кур</l>
          <stg>
@@ -2969,7 +2804,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">курр</l>
          <stg>
@@ -2996,7 +2831,54 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
+      <lg>
+         <l pos="Descr">курч-карч</l>
+         <stg>
+            <st Contlex="DESCR_">курч-карч</st>
+         </stg>
+      </lg>
+      <pos>Descr</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="куж-каж" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+  <e>
+      <lg>
+         <l pos="Descr">кутов-катов</l>
+         <stg>
+            <st Contlex="DESCR_">кутов-катов</st>
+         </stg>
+      </lg>
+      <pos>Descr</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <tCtn>
+               <t>шатаясь, едва держась на ногах</t>
+               <re>(из-за худобы)</re>
+            </tCtn>
+         </tg>
+         <xg>
+            <x>кутов-катов мунны</x>
+            <xt xml:lang="rus">идти шатаясь</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>переваливаясь с боку на бок</t>
+         </tg>
+      </mg>
+   </e>
+  <e>
       <lg>
          <l pos="Descr">кутш-котш</l>
          <stg>
@@ -3017,14 +2899,69 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
+      <lg>
+         <l pos="Descr">кыньки-каньки</l>
+         <stg>
+            <st Contlex="DESCR_">кыньки-каньки</st>
+         </stg>
+      </lg>
+      <pos>Descr</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="кань-каньӧн" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+  <e>
+      <lg>
+         <l pos="Descr">кыштым-каштым</l>
+         <stg>
+            <st Contlex="DESCR_">кыштым-каштым</st>
+         </stg>
+      </lg>
+      <pos>Descr</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>тайком, втихомолку</t>
+         </tg>
+         <xg>
+            <x>кыштым-каштым мунны</x>
+            <xt xml:lang="rus">уйти втихомолку</xt>
+         </xg>
+      </mg>
+   </e>
+  <e>
+      <lg>
+         <l pos="Descr">кӧлуй-мӧлуй</l>
+         <stg>
+            <st Contlex="DESCR_">кӧлуй-мӧлуй</st>
+         </stg>
+      </lg>
+      <pos>Descr</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="кӧлуй" semRelType="see"/>
+         </m>
+         <xg>
+            <x>кӧлуй-мӧлуй чукӧртны</x>
+            <xt xml:lang="rus">собрать вещи</xt>
+         </xg>
+      </mg>
+   </e>
+  <e>
       <lg>
          <l pos="Descr">лиги-леги</l>
          <stg>
-            <st Contlex="DescrTag">лиги-леги</st>
+            <st Contlex="DESCR_">лиги-леги</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -3032,7 +2969,73 @@
          </m>
       </mg>
    </e>
-   <e>
+  <e>
+      <lg>
+         <l pos="Descr">лотш</l>
+         <stg>
+            <st Contlex="DESCR_">лотш</st>
+         </stg>
+      </lg>
+      <pos>Descr</pos>
+      <mg>
+         <m>
+            <head>
+               <re>подражание хрусту в суставе</re>
+            </head>
+         </m>
+         <tg xml:lang="rus">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+  <e>
+      <lg>
+         <l pos="Descr">луйк-лайк</l>
+         <stg>
+            <st Contlex="DESCR_">луйк-лайк</st>
+         </stg>
+      </lg>
+      <pos>Descr</pos>
+      <mg No="1">
+         <m>
+            <head>
+               <re>в роли сказ.</re>
+            </head>
+         </m>
+         <tg xml:lang="rus">
+            <t>шаткий</t>
+         </tg>
+         <xg>
+            <x>джоджыс луйк-лайк</x>
+            <xt xml:lang="rus">пол шаткий</xt>
+         </xg>
+         <xg>
+            <x>керкаын луйк-лайк</x>
+            <xt xml:lang="rus">,</xt>
+         </xg>
+         <xg genreType="riddle">
+            <x>ывлаын гунь-гонь</x>
+            <xt xml:lang="rus">в избе шаткий, на улице быстрый</xt>
+            <answer>
+               <native>тшын</native>
+               <xt xml:lang="rus">дым</xt>
+            </answer>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>качаясь, пружиня</t>
+         </tg>
+         <xg>
+            <x>мыльк сайысь быйкнитіс дадюв да луйк-лайк исковтіс веж турун вывтіыс</x>
+            <xt xml:lang="rus">из-за холма вынырнула саночная упряжка и покатилась по зелёной траве</xt>
+         </xg>
+      </mg>
+   </e>
+  <e>
       <lg>
          <l pos="Descr">люв-ляв</l>
          <stg>
@@ -3053,14 +3056,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">люки-буки</l>
          <stg>
-            <st Contlex="DescrTag">люки-буки</st>
+            <st Contlex="DESCR_">люки-буки</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -3083,14 +3086,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">лютки-летки</l>
          <stg>
-            <st Contlex="DescrTag">лютки-летки</st>
+            <st Contlex="DESCR_">лютки-летки</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -3113,14 +3116,14 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">лютки-петки</l>
          <stg>
-            <st Contlex="DescrTag">лютки-петки</st>
+            <st Contlex="DESCR_">лютки-петки</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -3139,14 +3142,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">лёт</l>
          <stg>
-            <st Contlex="DescrTag">лёт</st>
+            <st Contlex="DESCR_">лёт</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -3160,14 +3163,31 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
+      <lg>
+         <l pos="Descr">мурч</l>
+         <stg>
+            <st Contlex="DESCR_">мурч</st>
+         </stg>
+      </lg>
+      <pos>Descr</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+  <e>
       <lg>
          <l pos="Descr">муткыль-пескыль</l>
          <stg>
-            <st Contlex="DescrTag">муткыль-пескыль</st>
+            <st Contlex="DESCR_">муткыль-пескыль</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -3180,7 +3200,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">няв</l>
          <stg>
@@ -3197,7 +3217,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">ням</l>
          <stg>
@@ -3214,14 +3234,14 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">пульс-пальс</l>
          <stg>
-            <st Contlex="DescrTag">пульс-пальс</st>
+            <st Contlex="DESCR_">пульс-пальс</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -3235,14 +3255,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">пурк-парк</l>
          <stg>
-            <st Contlex="DescrTag">пурк-парк</st>
+            <st Contlex="DESCR_">пурк-парк</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -3256,14 +3276,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">пусь-пась</l>
          <stg>
-            <st Contlex="DescrTag">пусь-пась</st>
+            <st Contlex="DESCR_">пусь-пась</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -3290,14 +3310,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">пушкыр-пашкыр</l>
          <stg>
-            <st Contlex="DescrTag">пушкыр-пашкыр</st>
+            <st Contlex="DESCR_">пушкыр-пашкыр</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -3317,7 +3337,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">ратш</l>
          <stg>
@@ -3338,14 +3358,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">резь</l>
          <stg>
-            <st Contlex="DescrTag">резь</st>
+            <st Contlex="DESCR_">резь</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -3362,14 +3382,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">резь-резь</l>
          <stg>
-            <st Contlex="DescrTag">резь-резь</st>
+            <st Contlex="DESCR_">резь-резь</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -3383,14 +3403,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">руз-паз</l>
          <stg>
-            <st Contlex="DescrTag">руз-паз</st>
+            <st Contlex="DESCR_">руз-паз</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -3419,7 +3439,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">руз-раз</l>
          <stg>
@@ -3434,14 +3454,14 @@
          </m>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">рук-рук</l>
          <stg>
-            <st Contlex="DescrTag">рук-рук</st>
+            <st Contlex="DESCR_">рук-рук</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -3455,7 +3475,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">рук-рукӧн</l>
          <stg>
@@ -3470,14 +3490,14 @@
          </m>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">руп-роп</l>
          <stg>
-            <st Contlex="DescrTag">руп-роп</st>
+            <st Contlex="DESCR_">руп-роп</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -3488,7 +3508,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">сюль-сяль</l>
          <stg>
@@ -3509,7 +3529,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">сюр-сяр</l>
          <stg>
@@ -3530,7 +3550,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">сюр-сярк</l>
          <stg>
@@ -3545,7 +3565,7 @@
          </m>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тарк</l>
          <stg>
@@ -3569,14 +3589,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тив</l>
          <stg>
-            <st Contlex="DescrTag">тив</st>
+            <st Contlex="DESCR_">тив</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -3598,14 +3618,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тивк</l>
          <stg>
-            <st Contlex="DescrTag">тивк</st>
+            <st Contlex="DESCR_">тивк</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -3619,7 +3639,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тинь</l>
          <stg>
@@ -3634,7 +3654,7 @@
          </m>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тиу</l>
          <stg>
@@ -3658,7 +3678,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тотш</l>
          <stg>
@@ -3681,14 +3701,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тран</l>
          <stg>
-            <st Contlex="DescrTag">тран</st>
+            <st Contlex="DESCR_">тран</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -3702,7 +3722,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">трин-трон</l>
          <stg>
@@ -3723,7 +3743,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тринь</l>
          <stg>
@@ -3740,14 +3760,14 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тринь-бринь</l>
          <stg>
-            <st Contlex="DescrTag">тринь-бринь</st>
+            <st Contlex="DESCR_">тринь-бринь</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -3761,7 +3781,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тринь-тринь</l>
          <stg>
@@ -3778,7 +3798,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тринь-тронь</l>
          <stg>
@@ -3795,7 +3815,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">трич</l>
          <stg>
@@ -3816,7 +3836,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">трунь-тронь</l>
          <stg>
@@ -3837,7 +3857,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тулуллу</l>
          <stg>
@@ -3846,7 +3866,7 @@
       </lg>
       <pos>PCLE-ONOM</pos>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">туль-толь</l>
          <stg>
@@ -3863,7 +3883,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">туп-тап</l>
          <stg>
@@ -3891,7 +3911,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тур-бар</l>
          <stg>
@@ -3912,7 +3932,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тур-бор</l>
          <stg>
@@ -3933,7 +3953,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тур-тар</l>
          <stg>
@@ -3961,7 +3981,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">турки-тарки</l>
          <stg>
@@ -4001,7 +4021,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">турки-таркиӧн</l>
          <stg>
@@ -4041,7 +4061,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тутш-татш</l>
          <stg>
@@ -4065,7 +4085,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тутш-тотш</l>
          <stg>
@@ -4089,14 +4109,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тшавк</l>
          <stg>
-            <st Contlex="DescrTag">тшавк</st>
+            <st Contlex="DESCR_">тшавк</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -4110,14 +4130,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тшувк-тшавк</l>
          <stg>
-            <st Contlex="DescrTag">тшувк-тшавк</st>
+            <st Contlex="DESCR_">тшувк-тшавк</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -4131,14 +4151,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тювк</l>
          <stg>
-            <st Contlex="DescrTag">тювк</st>
+            <st Contlex="DESCR_">тювк</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -4159,7 +4179,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тюп-тяп</l>
          <stg>
@@ -4211,7 +4231,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тюп-тёп</l>
          <stg>
@@ -4232,7 +4252,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тяп</l>
          <stg>
@@ -4247,7 +4267,7 @@
          </m>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тёльс</l>
          <stg>
@@ -4264,7 +4284,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тёп</l>
          <stg>
@@ -4304,14 +4324,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тіг-тіг</l>
          <stg>
-            <st Contlex="DescrTag">тіг-тіг</st>
+            <st Contlex="DESCR_">тіг-тіг</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -4321,7 +4341,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тільс</l>
          <stg>
@@ -4342,7 +4362,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тільс-тольс</l>
          <stg>
@@ -4363,7 +4383,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тінь</l>
          <stg>
@@ -4388,14 +4408,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тір-тір</l>
          <stg>
-            <st Contlex="DescrTag">тір-тір</st>
+            <st Contlex="DESCR_">тір-тір</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head>
@@ -4411,7 +4431,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тітш-тотш</l>
          <stg>
@@ -4428,7 +4448,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тіч-тач</l>
          <stg>
@@ -4445,7 +4465,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тіч-точ</l>
          <stg>
@@ -4462,7 +4482,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тічи-точи</l>
          <stg>
@@ -4477,7 +4497,7 @@
          </m>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">тӧрс</l>
          <stg>
@@ -4498,7 +4518,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">ув</l>
          <stg>
@@ -4519,7 +4539,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">ув-ав</l>
          <stg>
@@ -4540,7 +4560,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">ува-ава</l>
          <stg>
@@ -4561,7 +4581,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">ур-вар</l>
          <stg>
@@ -4576,7 +4596,7 @@
          </m>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">чарс</l>
          <stg>
@@ -4601,7 +4621,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">чив-чив</l>
          <stg>
@@ -4618,7 +4638,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">чилик-чок</l>
          <stg>
@@ -4635,7 +4655,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">чилс</l>
          <stg>
@@ -4659,7 +4679,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">чирк</l>
          <stg>
@@ -4684,7 +4704,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">чуж-чаж</l>
          <stg>
@@ -4705,7 +4725,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">чук-чуки</l>
          <stg>
@@ -4726,7 +4746,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">чуп</l>
          <stg>
@@ -4747,7 +4767,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">чуш-чаш</l>
          <stg>
@@ -4780,7 +4800,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">швач-швач</l>
          <stg>
@@ -4801,7 +4821,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">швуч-швач</l>
          <stg>
@@ -4818,7 +4838,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">швырк</l>
          <stg>
@@ -4847,7 +4867,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">шков</l>
          <stg>
@@ -4872,14 +4892,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">шкув-шков</l>
          <stg>
-            <st Contlex="DescrTag">шкув-шков</st>
+            <st Contlex="DESCR_">шкув-шков</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -4909,14 +4929,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">шлап</l>
          <stg>
-            <st Contlex="DescrTag">шлап</st>
+            <st Contlex="DESCR_">шлап</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head>
@@ -4936,7 +4956,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">шлич-шляч</l>
          <stg>
@@ -4957,7 +4977,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">шлоп</l>
          <stg>
@@ -4979,14 +4999,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">шлыв</l>
          <stg>
-            <st Contlex="DescrTag">шлыв</st>
+            <st Contlex="DESCR_">шлыв</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -5007,7 +5027,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">шляп</l>
          <stg>
@@ -5035,7 +5055,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">шлёп</l>
          <stg>
@@ -5071,14 +5091,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">шняп</l>
          <stg>
-            <st Contlex="DescrTag">шняп</st>
+            <st Contlex="DESCR_">шняп</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -5092,7 +5112,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">шпач-шпач</l>
          <stg>
@@ -5113,7 +5133,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">шпорк</l>
          <stg>
@@ -5134,7 +5154,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">штяп</l>
          <stg>
@@ -5151,14 +5171,44 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
+      <lg>
+         <l pos="Descr">шув-шав</l>
+         <stg>
+            <st Contlex="PcleTag">шув-шав</st>
+         </stg>
+      </lg>
+      <pos>PCLE-ONOM</pos>
+      <drvg>
+         <drv drvType="Descriptive">
+            <lemma/>
+            <stem/>
+         </drv>
+      </drvg>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>растрёпанный</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t>лохматый</t>
+         </tg>
+         <xg>
+            <x>пашкыр юрсиыс шув-шав</x>
+            <xt xml:lang="rus">пышные волосы растрёпаны</xt>
+         </xg>
+      </mg>
+   </e>
+  <e>
       <lg>
          <l pos="Descr">шувки-павки</l>
          <stg>
-            <st Contlex="DescrTag">шувки-павки</st>
+            <st Contlex="DESCR_">шувки-павки</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -5178,7 +5228,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">шувки-шевки</l>
          <stg>
@@ -5222,44 +5272,14 @@
          </xg>
       </mg>
    </e>
-   <e>
-      <lg>
-         <l pos="Descr">шув-шав</l>
-         <stg>
-            <st Contlex="PcleTag">шув-шав</st>
-         </stg>
-      </lg>
-      <pos>PCLE-ONOM</pos>
-      <drvg>
-         <drv drvType="Descriptive">
-            <lemma/>
-            <stem/>
-         </drv>
-      </drvg>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="rus">
-            <t>растрёпанный</t>
-         </tg>
-         <tg xml:lang="rus">
-            <t>лохматый</t>
-         </tg>
-         <xg>
-            <x>пашкыр юрсиыс шув-шав</x>
-            <xt xml:lang="rus">пышные волосы растрёпаны</xt>
-         </xg>
-      </mg>
-   </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">шурк</l>
          <stg>
-            <st Contlex="DescrTag">шурк</st>
+            <st Contlex="DESCR_">шурк</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>
@@ -5306,7 +5326,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">шурк-шарк</l>
          <stg>
@@ -5332,7 +5352,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">шурки-шарки</l>
          <stg>
@@ -5357,7 +5377,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">ыз</l>
          <stg>
@@ -5403,14 +5423,14 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Descr">ышки-пошки</l>
          <stg>
-            <st Contlex="DescrTag">ышки-пошки</st>
+            <st Contlex="DESCR_">ышки-пошки</st>
          </stg>
       </lg>
-      <pos>DESCR</pos>
+      <pos>Descr</pos>
       <mg>
          <m>
             <head/>

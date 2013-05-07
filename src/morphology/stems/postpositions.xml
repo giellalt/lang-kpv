@@ -1,307 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-   <e>
-      <lg>
-         <l pos="Po">нога</l>
-         <stg>
-            <st Contlex="PoATag">нога</st>
-         </stg>
-      </lg>
-      <pos>POSTP-A</pos>
-      <mg>
-         <m>
-            <head>
-               <re>только в сочет.:</re>
-            </head>
-         </m>
-         <tg xml:lang="rus">
-            <t/>
-         </tg>
-         <xg>
-            <x>быд нога</x>
-            <xt xml:lang="rus">всякий, разный</xt>
-         </xg>
-         <xg>
-            <x>быд нога олӧмсӧ ми тӧдлім</x>
-            <xt xml:lang="rus">всякую жизнь мы изведали</xt>
-         </xg>
-         <xg>
-            <x>выль нога</x>
-            <xt xml:lang="rus">новый, нового типа, нового образца; сделанный по-новому</xt>
-         </xg>
-         <xg>
-            <x>мӧд нога</x>
-            <xt xml:lang="rus">не такой, иной, другой</xt>
-         </xg>
-         <xg>
-            <x>уна нога</x>
-            <xt xml:lang="rus">разный, различный, разнообразный; многообразный; сделанный по-разному</xt>
-         </xg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="Po">ныр-вома</l>
-         <stg>
-            <st Contlex="PoATag">ныр-вома</st>
-         </stg>
-      </lg>
-      <pos>POSTP-A</pos>
-      <mg>
-         <m>
-            <head>
-               <re>с опр.</re>
-            </head>
-         </m>
-         <tg xml:lang="rus">
-            <t>с <i>каким-л.</i> лицом; с <i>какой-л.</i> мордой</t>
-         </tg>
-         <xg>
-            <x>вӧсни ныр-вома</x>
-            <xt xml:lang="rus">с тонкими чертами лица; с хорошеньким личиком; с приятной мордочкой</xt>
-         </xg>
-         <xg>
-            <x>пельк ныр-вома</x>
-            <xt xml:lang="rus">с тонкими чертами лица; с хорошеньким личиком; с приятной мордочкой</xt>
-         </xg>
-         <xg>
-            <x>ёсиник ныр-вома</x>
-            <xt xml:lang="rus">с остреньким личиком</xt>
-         </xg>
-         <xg>
-            <x>кыз ныр-вома</x>
-            <xtCtn>
-               <xt xml:lang="rus">с толстой мордой, толстомордый; мордастый</xt>
-               <register register="conversation"/>
-            </xtCtn>
-         </xg>
-         <xg>
-            <x>мича ныр-вома</x>
-            <xt xml:lang="rus">с красивой мордочкой</xt>
-         </xg>
-         <xg>
-            <x>лӧсьыд ныр-вома</x>
-            <xt xml:lang="rus">с красивой мордочкой</xt>
-         </xg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="Po">ныра</l>
-         <stg>
-            <st Contlex="PoATag">ныра</st>
-         </stg>
-      </lg>
-      <pos>POSTP-A</pos>
-      <mg No="1">
-         <m>
-            <head>
-               <re>с опр.</re>
-            </head>
-         </m>
-         <tg xml:lang="rus">
-            <t>с каким-л. носом</t>
-         </tg>
-         <xg>
-            <x>гӧрба ныра</x>
-            <xt xml:lang="rus">с горбатым носом, горбоносый</xt>
-         </xg>
-         <xg>
-            <x>крука ныра</x>
-            <xt xml:lang="rus">с крючковатым носом</xt>
-         </xg>
-         <xg>
-            <x>кузь ныра</x>
-            <xt xml:lang="rus">с длинным носом, длинноносый</xt>
-         </xg>
-         <xg>
-            <x>кыз ныра</x>
-            <xt xml:lang="rus">с толстым носом, толстоносый</xt>
-         </xg>
-         <xg>
-            <x>нюз ныра</x>
-            <xt xml:lang="rus">с прямым носом</xt>
-         </xg>
-         <xg>
-            <x>пӧлӧс ныра</x>
-            <xt xml:lang="rus">кривоносый</xt>
-         </xg>
-         <xg>
-            <x>чангыль ныра</x>
-            <xt xml:lang="rus">курносый</xt>
-         </xg>
-         <xg>
-            <x>ыджыд ныра</x>
-            <xt xml:lang="rus">с большим носом; большеносый</xt>
-         </xg>
-         <xg genreType="riddle">
-            <x>ныра и бӧжа, а абу ловъя</x>
-            <xt xml:lang="rus">с носом и с хвостом, но не живой</xt>
-            <answer>
-               <native>пыж</native>
-               <xt xml:lang="rus">лодка</xt>
-            </answer>
-         </xg>
-      </mg>
-      <mg No="2">
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="rus">
-            <t>с каким-л. носом, клювом</t>
-         </tg>
-         <xg>
-            <x>ён ныра сизь</x>
-            <xt xml:lang="rus">дятел с сильным клювом</xt>
-         </xg>
-      </mg>
-      <mg No="3">
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="rus">
-            <t>с каким-л. носком</t>
-         </tg>
-         <xg>
-            <x>ёсь ныра кӧмкот</x>
-            <xt xml:lang="rus">обувь с узкими носками</xt>
-         </xg>
-         <xg>
-            <x>тшӧтшыд ныра сапӧг</x>
-            <xt xml:lang="rus">сапоги с тупыми носками</xt>
-         </xg>
-      </mg>
-      <mg No="4">
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="rus">
-            <t>с ростком, проращённый</t>
-         </tg>
-         <xg>
-            <x>ныра картупель ӧдйӧджык петалӧ</x>
-            <xt xml:lang="rus">проращённый картофель быстрее всходит</xt>
-         </xg>
-      </mg>
-      <mg No="5">
-         <m>
-            <head>
-               <sense sense="figurative"/>
-            </head>
-         </m>
-         <tg xml:lang="rus">
-            <t>с норовом, норовистый; упрямый, своевольный, строптивый</t>
-         </tg>
-         <xg>
-            <x>вылын ныра</x>
-            <xt xml:lang="rus">высокомерный, надменный, кичливый, заносчивый</xt>
-         </xg>
-         <xg>
-            <x>ныра кӧм кодь</x>
-            <xt xml:lang="rus">упрямец</xt>
-            <xt xml:lang="rus" tType="literal">как лапоть с носом</xt>
-         </xg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="Po">кабыра</l>
-         <stg>
-            <st Contlex="PoNTag">кабыра</st>
-         </stg>
-      </lg>
-      <pos>POSTP-N</pos>
-      <mg>
-         <m>
-            <head>
-               <re>только с опр.</re>
-            </head>
-         </m>
-         <tg xml:lang="rus">
-            <t>:</t>
-         </tg>
-         <xg>
-            <x>чорыд кабыра</x>
-            <xt xml:lang="rus">хваткий</xt>
-         </xg>
-         <xg>
-            <x>киыс тшапыд кабыра</x>
-            <xt xml:lang="rus">(у него) руки хваткие</xt>
-         </xg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="Po">килоа</l>
-         <stg>
-            <st Contlex="PoATag">килоа</st>
-         </stg>
-      </lg>
-      <pos>POSTP-A</pos>
-      <mg>
-         <m>
-            <head/>
-            <semRel No="1" lemmaID="килограмма" semRelType="see"/>
-         </m>
-         <xg>
-            <x>килоа гира</x>
-            <xt xml:lang="rus">килограммовая гиря</xt>
-         </xg>
-         <xg>
-            <x>килоа сир</x>
-            <xt xml:lang="rus">килограммовая щука</xt>
-         </xg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="Po">кодься</l>
-         <stg>
-            <st Contlex="PoATag">кодься</st>
-         </stg>
-      </lg>
-      <pos>POSTP-A</pos>
-      <mg>
-         <m>
-            <head/>
-            <semRel No="1" lemmaID="кодь" semRelType="see"/>
-         </m>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="Po">кышӧда</l>
-         <stg>
-            <st Contlex="PoATag">кышӧда</st>
-         </stg>
-      </lg>
-      <pos>POSTP-A</pos>
-      <mg No="1">
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="rus">
-            <t>крытый чем-л.</t>
-         </tg>
-         <xg>
-            <x>ной кышӧда малича</x>
-            <xt xml:lang="rus">малица, крытая сукном</xt>
-         </xg>
-      </mg>
-      <mg No="2">
-         <m>
-            <head>
-               <range rangeSpat="dialect"/>
-            </head>
-         </m>
-         <tg xml:lang="rus">
-            <t>одетый</t>
-         </tg>
-      </mg>
-   </e>
-   <e>
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e>
       <lg>
          <l pos="Po">аддза</l>
          <stg>
@@ -329,11 +32,31 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e>
       <lg>
-         <l pos="Po">бердланьысь</l>
+         <l pos="Po">берд</l>
          <stg>
-            <st Contlex="PO-IS_APRELA">бердланьысь</st>
+            <st Contlex="POSTP1">берд</st>
+         </stg>
+      </lg>
+      <pos>POSTP-SPAT</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel lemmaID="бердам_POSTP-SPAT"/>
+            <semRel lemmaID="бердад_POSTP-SPAT"/>
+            <semRel lemmaID="бердас_POSTP-SPAT"/>
+            <semRel lemmaID="берданым_POSTP-SPAT"/>
+            <semRel lemmaID="берданыд_POSTP-SPAT"/>
+            <semRel lemmaID="берданыс_POSTP-SPAT"/>
+         </m>
+      </mg>
+   </e>
+  <e exclude="fst">
+      <lg>
+         <l pos="Po">бердад</l>
+         <stg>
+            <st Contlex="PO-IS_ILL-PxSG2">бердад</st>
          </stg>
       </lg>
       <pos>POSTP-SPAT</pos>
@@ -343,197 +66,17 @@
             <semRel/>
          </m>
          <tg xml:lang="rus">
-            <tCtn>
-               <t>из места, прилегающего, примыкающего к</t>
-               <re>кому-чему-л.</re>
-            </tCtn>
-         </tg>
-         <tg xml:lang="rus">
-            <t>от (чего-л.)</t>
+            <t>при тебе</t>
+            <t>к себе</t>
+            <t>к тебе</t>
          </tg>
          <xg>
-            <x>вӧр бердланьысь котӧртіс миянлань тӧдтӧм морт</x>
-            <xt xml:lang="rus">от опушки леса бежал в нашу сторону (по направлению к нам) незнакомец</xt>
+            <x>бердад видзан</x>
+            <xt xml:lang="rus">при себе (ты) держишь</xt>
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
-      <lg>
-         <l pos="Po">бердланьсьыд</l>
-         <stg>
-            <st Contlex="POSTP-IS_AprELA-Sg2">бердланьсьыд</st>
-         </stg>
-      </lg>
-      <pos>POSTP</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="rus">
-            <t>от тебя</t>
-         </tg>
-      </mg>
-   </e>
-   <e exclude="fst">
-      <lg>
-         <l pos="Po">бердланьсьыс</l>
-         <stg>
-            <st Contlex="POSTP-IS_AprELA-Sg3">бердланьсьыс</st>
-         </stg>
-      </lg>
-      <pos>POSTP</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="rus">
-            <t>от него</t>
-         </tg>
-      </mg>
-   </e>
-   <e exclude="fst">
-      <lg>
-         <l pos="Po">бердланьын</l>
-         <stg>
-            <st Contlex="PO-IS_APRINE">бердланьын</st>
-         </stg>
-      </lg>
-      <pos>POSTP-SPAT</pos>
-      <mg>
-         <m>
-            <head/>
-            <semRel/>
-         </m>
-         <tg xml:lang="rus">
-            <tCtn>
-               <t>на месте, прилегающем, примыкающем к</t>
-               <re>кому-чему-л.</re>
-            </tCtn>
-         </tg>
-         <xg>
-            <x>торган шы кылӧ вӧр бердланьын</x>
-            <xt xml:lang="rus">у лесной опушки слышится звон бубенца</xt>
-         </xg>
-      </mg>
-   </e>
-   <e exclude="fst">
-      <lg>
-         <l pos="Po">бердысь</l>
-         <stg>
-            <st Contlex="PO-IS_ELA">бердысь</st>
-         </stg>
-      </lg>
-      <pos>POSTP-SPAT</pos>
-      <mg>
-         <m>
-            <head/>
-            <semRel/>
-         </m>
-         <tg xml:lang="rus">
-            <tCtn>
-               <t>вблизи, поблизости</t>
-               <re>от кого-л.</re>
-            </tCtn>
-         </tg>
-         <tg xml:lang="rus">
-            <tCtn>
-               <t>рядом</t>
-               <re>со кого-л.</re>
-            </tCtn>
-         </tg>
-      </mg>
-   </e>
-   <e exclude="fst">
-      <lg>
-         <l pos="Po">бердсьым</l>
-         <stg>
-            <st Contlex="PO-IS_ELA-PxSG1">бердсьым</st>
-         </stg>
-      </lg>
-      <pos>POSTP-SPAT</pos>
-      <mg>
-         <m>
-            <head/>
-            <semRel/>
-         </m>
-         <tg xml:lang="rus">
-            <t>вблизи, поблизости от меня</t>
-            <t>рядом с собой не вижу</t>
-         </tg>
-         <xg>
-            <x>бердсьым ог аддзы</x>
-            <xt xml:lang="rus">рядом с собой не вижу</xt>
-         </xg>
-      </mg>
-   </e>
-   <e exclude="fst">
-      <lg>
-         <l pos="Po">бердсьыд</l>
-         <stg>
-            <st Contlex="PO-IS_ELA-PxSG2">бердсьыд</st>
-         </stg>
-      </lg>
-      <pos>POSTP-SPAT</pos>
-      <mg>
-         <m>
-            <head/>
-            <semRel/>
-         </m>
-         <tg xml:lang="rus">
-            <t>вблизи от тебя</t>
-            <t>рядом с тобой</t>
-         </tg>
-         <xg>
-            <x>сьӧла кыпӧдчис бердсьыд да эн слӧймы лыйны!</x>
-            <xt xml:lang="rus">рябчик поднялся поблизости от тебя, и ты не мог его подстрелить!</xt>
-         </xg>
-      </mg>
-   </e>
-   <e exclude="fst">
-      <lg>
-         <l pos="Po">бердсьыныд</l>
-         <stg>
-            <st Contlex="PO-IS_ELA-PxPL2">бердсьыныд</st>
-         </stg>
-      </lg>
-      <pos>POSTP-SPAT</pos>
-      <mg>
-         <m>
-            <head/>
-            <semRel/>
-         </m>
-         <tg xml:lang="rus">
-            <t>вблизи, поблизости от вас</t>
-            <t>рядом с вами</t>
-         </tg>
-         <xg>
-            <x>бердсьыныд корсьӧй</x>
-            <xt xml:lang="rus">поблизости от себя ищите</xt>
-         </xg>
-      </mg>
-   </e>
-   <e exclude="fst">
-      <lg>
-         <l pos="Po">бердӧ</l>
-         <stg>
-            <st Contlex="PO-IS_ILL">бердӧ</st>
-         </stg>
-      </lg>
-      <pos>POSTP-SPAT</pos>
-      <mg>
-         <m>
-            <head/>
-            <semRel/>
-         </m>
-         <tg xml:lang="rus">
-            <t>при</t>
-         </tg>
-         <tg xml:lang="rus">
-            <t>к</t>
-         </tg>
-      </mg>
-   </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">бердам</l>
          <stg>
@@ -559,57 +102,32 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
-         <l pos="Po">бердад</l>
+         <l pos="Po">берданыд</l>
          <stg>
-            <st Contlex="PO-IS_ILL-PxSG2">бердад</st>
+            <st Contlex="PO-IS_ILL-PxPL2">берданыд</st>
          </stg>
       </lg>
       <pos>POSTP-SPAT</pos>
       <mg>
          <m>
             <head/>
-            <semRel/>
          </m>
          <tg xml:lang="rus">
-            <t>при тебе</t>
+            <t>при вас</t>
+         </tg>
+         <tg xml:lang="rus">
             <t>к себе</t>
-            <t>к тебе</t>
+            <t>к вам</t>
          </tg>
          <xg>
-            <x>бердад видзан</x>
-            <xt xml:lang="rus">при себе (ты) держишь</xt>
+            <x>берданыд видзӧй</x>
+            <xt xml:lang="rus">храните при себе</xt>
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
-      <lg>
-         <l pos="Po">бердас</l>
-         <stg>
-            <st Contlex="PO-IS_ILL-PxSG3">бердас</st>
-         </stg>
-      </lg>
-      <pos>POSTP-SPAT</pos>
-      <mg>
-         <m>
-            <head/>
-            <semRel/>
-         </m>
-         <tg xml:lang="rus">
-            <t>при нём (нет)</t>
-            <tCtn>
-               <t>у себя</t>
-               <re>у него</re>
-            </tCtn>
-         </tg>
-         <xg>
-            <x>бердас сылӧн кык пи</x>
-            <xt xml:lang="rus">при нём два сына</xt>
-         </xg>
-      </mg>
-   </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">берданым</l>
          <stg>
@@ -637,52 +155,7 @@
          </xg>
       </mg>
    </e>
-   <e>
-      <lg>
-         <l pos="Po">берд</l>
-         <stg>
-            <st Contlex="POSTP1">берд</st>
-         </stg>
-      </lg>
-      <pos>POSTP-SPAT</pos>
-      <mg>
-         <m>
-            <head/>
-            <semRel lemmaID="бердам_POSTP-SPAT"/>
-            <semRel lemmaID="бердад_POSTP-SPAT"/>
-            <semRel lemmaID="бердас_POSTP-SPAT"/>
-            <semRel lemmaID="берданым_POSTP-SPAT"/>
-            <semRel lemmaID="берданыд_POSTP-SPAT"/>
-            <semRel lemmaID="берданыс_POSTP-SPAT"/>
-         </m>
-      </mg>
-   </e>
-   <e exclude="fst">
-      <lg>
-         <l pos="Po">берданыд</l>
-         <stg>
-            <st Contlex="PO-IS_ILL-PxPL2">берданыд</st>
-         </stg>
-      </lg>
-      <pos>POSTP-SPAT</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="rus">
-            <t>при вас</t>
-         </tg>
-         <tg xml:lang="rus">
-            <t>к себе</t>
-            <t>к вам</t>
-         </tg>
-         <xg>
-            <x>берданыд видзӧй</x>
-            <xt xml:lang="rus">храните при себе</xt>
-         </xg>
-      </mg>
-   </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">берданыс</l>
          <stg>
@@ -705,118 +178,33 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
-         <l pos="Po">бердӧдзым</l>
+         <l pos="Po">бердас</l>
          <stg>
-            <st Contlex="PO-IS_TER-PxSG1">бердӧдзым</st>
+            <st Contlex="PO-IS_ILL-PxSG3">бердас</st>
          </stg>
       </lg>
       <pos>POSTP-SPAT</pos>
       <mg>
          <m>
             <head/>
+            <semRel/>
          </m>
          <tg xml:lang="rus">
-            <t>вплотную ко мне</t>
-         </tg>
-      </mg>
-   </e>
-   <e exclude="fst">
-      <lg>
-         <l pos="Po">бердӧдзыд</l>
-         <stg>
-            <st Contlex="PO-IS_TER-PxSG2">бердӧдзыд</st>
-         </stg>
-      </lg>
-      <pos>POSTP-SPAT</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="rus">
-            <t>вплотную к тебе</t>
-         </tg>
-      </mg>
-   </e>
-   <e exclude="fst">
-      <lg>
-         <l pos="Po">бердӧдзыс</l>
-         <stg>
-            <st Contlex="PO-IS_TER-PxSG3">бердӧдзыс</st>
-         </stg>
-      </lg>
-      <pos>POSTP-SPAT</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="rus">
-            <t>вплотную к нему</t>
-         </tg>
-      </mg>
-   </e>
-   <e exclude="fst">
-      <lg>
-         <l pos="Po">бердӧдзным</l>
-         <stg>
-            <st Contlex="PO-IS_TER-PxPL1">бердӧдзным</st>
-         </stg>
-      </lg>
-      <pos>POSTP-SPAT</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="rus">
-            <t>вплотную к нам</t>
-         </tg>
-      </mg>
-   </e>
-   <e exclude="fst">
-      <lg>
-         <l pos="Po">бердӧдзныс</l>
-         <stg>
-            <st Contlex="PO-IS_TER-PxPL3">бердӧдзныс</st>
-         </stg>
-      </lg>
-      <pos>POSTP-SPAT</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="rus">
-            <t>вплотную к ним</t>
+            <t>при нём (нет)</t>
+            <tCtn>
+               <t>у себя</t>
+               <re>у него</re>
+            </tCtn>
          </tg>
          <xg>
-            <x>ме матыстчи бердӧдзныс, а найӧ эз казявны</x>
-            <xt xml:lang="rus">я подошёл к ним вплотную, но они не заметили меня</xt>
+            <x>бердас сылӧн кык пи</x>
+            <xt xml:lang="rus">при нём два сына</xt>
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
-      <lg>
-         <l pos="Po">бердланьсянь</l>
-         <stg>
-            <st Contlex="PO-IS_APRERG">бердланьсянь</st>
-         </stg>
-      </lg>
-      <pos>POSTP-SPAT</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="rus">
-            <t>с места</t>
-            <t>прилегающего</t>
-            <tCtn>
-               <t>примыкающего</t>
-               <re>к чему-л.</re>
-            </tCtn>
-         </tg>
-      </mg>
-   </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бердлань</l>
          <stg>
@@ -848,7 +236,63 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
+      <lg>
+         <l pos="Po">бердланьсьыд</l>
+         <stg>
+            <st Contlex="POSTP-IS_AprELA-Sg2">бердланьсьыд</st>
+         </stg>
+      </lg>
+      <pos>POSTP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>от тебя</t>
+         </tg>
+      </mg>
+   </e>
+  <e exclude="fst">
+      <lg>
+         <l pos="Po">бердланьсьыс</l>
+         <stg>
+            <st Contlex="POSTP-IS_AprELA-Sg3">бердланьсьыс</st>
+         </stg>
+      </lg>
+      <pos>POSTP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>от него</t>
+         </tg>
+      </mg>
+   </e>
+  <e exclude="fst">
+      <lg>
+         <l pos="Po">бердланьсянь</l>
+         <stg>
+            <st Contlex="PO-IS_APRERG">бердланьсянь</st>
+         </stg>
+      </lg>
+      <pos>POSTP-SPAT</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>с места</t>
+            <t>прилегающего</t>
+            <tCtn>
+               <t>примыкающего</t>
+               <re>к чему-л.</re>
+            </tCtn>
+         </tg>
+      </mg>
+   </e>
+  <e exclude="fst">
       <lg>
          <l pos="Po">бердланьсянь</l>
          <stg>
@@ -876,7 +320,129 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
+      <lg>
+         <l pos="Po">бердланьын</l>
+         <stg>
+            <st Contlex="PO-IS_APRINE">бердланьын</st>
+         </stg>
+      </lg>
+      <pos>POSTP-SPAT</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel/>
+         </m>
+         <tg xml:lang="rus">
+            <tCtn>
+               <t>на месте, прилегающем, примыкающем к</t>
+               <re>кому-чему-л.</re>
+            </tCtn>
+         </tg>
+         <xg>
+            <x>торган шы кылӧ вӧр бердланьын</x>
+            <xt xml:lang="rus">у лесной опушки слышится звон бубенца</xt>
+         </xg>
+      </mg>
+   </e>
+  <e exclude="fst">
+      <lg>
+         <l pos="Po">бердланьысь</l>
+         <stg>
+            <st Contlex="PO-IS_APRELA">бердланьысь</st>
+         </stg>
+      </lg>
+      <pos>POSTP-SPAT</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel/>
+         </m>
+         <tg xml:lang="rus">
+            <tCtn>
+               <t>из места, прилегающего, примыкающего к</t>
+               <re>кому-чему-л.</re>
+            </tCtn>
+         </tg>
+         <tg xml:lang="rus">
+            <t>от (чего-л.)</t>
+         </tg>
+         <xg>
+            <x>вӧр бердланьысь котӧртіс миянлань тӧдтӧм морт</x>
+            <xt xml:lang="rus">от опушки леса бежал в нашу сторону (по направлению к нам) незнакомец</xt>
+         </xg>
+      </mg>
+   </e>
+  <e exclude="fst">
+      <lg>
+         <l pos="Po">бердсьыд</l>
+         <stg>
+            <st Contlex="PO-IS_ELA-PxSG2">бердсьыд</st>
+         </stg>
+      </lg>
+      <pos>POSTP-SPAT</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel/>
+         </m>
+         <tg xml:lang="rus">
+            <t>вблизи от тебя</t>
+            <t>рядом с тобой</t>
+         </tg>
+         <xg>
+            <x>сьӧла кыпӧдчис бердсьыд да эн слӧймы лыйны!</x>
+            <xt xml:lang="rus">рябчик поднялся поблизости от тебя, и ты не мог его подстрелить!</xt>
+         </xg>
+      </mg>
+   </e>
+  <e exclude="fst">
+      <lg>
+         <l pos="Po">бердсьым</l>
+         <stg>
+            <st Contlex="PO-IS_ELA-PxSG1">бердсьым</st>
+         </stg>
+      </lg>
+      <pos>POSTP-SPAT</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel/>
+         </m>
+         <tg xml:lang="rus">
+            <t>вблизи, поблизости от меня</t>
+            <t>рядом с собой не вижу</t>
+         </tg>
+         <xg>
+            <x>бердсьым ог аддзы</x>
+            <xt xml:lang="rus">рядом с собой не вижу</xt>
+         </xg>
+      </mg>
+   </e>
+  <e exclude="fst">
+      <lg>
+         <l pos="Po">бердсьыныд</l>
+         <stg>
+            <st Contlex="PO-IS_ELA-PxPL2">бердсьыныд</st>
+         </stg>
+      </lg>
+      <pos>POSTP-SPAT</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel/>
+         </m>
+         <tg xml:lang="rus">
+            <t>вблизи, поблизости от вас</t>
+            <t>рядом с вами</t>
+         </tg>
+         <xg>
+            <x>бердсьыныд корсьӧй</x>
+            <xt xml:lang="rus">поблизости от себя ищите</xt>
+         </xg>
+      </mg>
+   </e>
+  <e exclude="fst">
       <lg>
          <l pos="Po">бердсьыным</l>
          <stg>
@@ -899,7 +465,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">бердсьыныс</l>
          <stg>
@@ -925,7 +491,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">бердсьыс</l>
          <stg>
@@ -955,7 +521,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бердсянь</l>
          <stg>
@@ -978,7 +544,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бердті</l>
          <stg>
@@ -1009,7 +575,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бердын</l>
          <stg>
@@ -1040,7 +606,34 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e exclude="fst">
+      <lg>
+         <l pos="Po">бердысь</l>
+         <stg>
+            <st Contlex="PO-IS_ELA">бердысь</st>
+         </stg>
+      </lg>
+      <pos>POSTP-SPAT</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel/>
+         </m>
+         <tg xml:lang="rus">
+            <tCtn>
+               <t>вблизи, поблизости</t>
+               <re>от кого-л.</re>
+            </tCtn>
+         </tg>
+         <tg xml:lang="rus">
+            <tCtn>
+               <t>рядом</t>
+               <re>со кого-л.</re>
+            </tCtn>
+         </tg>
+      </mg>
+   </e>
+  <e>
       <lg>
          <l pos="Po">бердысь</l>
          <stg>
@@ -1067,7 +660,28 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e exclude="fst">
+      <lg>
+         <l pos="Po">бердӧ</l>
+         <stg>
+            <st Contlex="PO-IS_ILL">бердӧ</st>
+         </stg>
+      </lg>
+      <pos>POSTP-SPAT</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel/>
+         </m>
+         <tg xml:lang="rus">
+            <t>при</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t>к</t>
+         </tg>
+      </mg>
+   </e>
+  <e>
       <lg>
          <l pos="Po">бердӧ</l>
          <stg>
@@ -1147,7 +761,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бердӧд</l>
          <stg>
@@ -1175,7 +789,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бердӧдз</l>
          <stg>
@@ -1215,7 +829,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">бердӧдзныд</l>
          <stg>
@@ -1234,7 +848,96 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e exclude="fst">
+      <lg>
+         <l pos="Po">бердӧдзным</l>
+         <stg>
+            <st Contlex="PO-IS_TER-PxPL1">бердӧдзным</st>
+         </stg>
+      </lg>
+      <pos>POSTP-SPAT</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>вплотную к нам</t>
+         </tg>
+      </mg>
+   </e>
+  <e exclude="fst">
+      <lg>
+         <l pos="Po">бердӧдзныс</l>
+         <stg>
+            <st Contlex="PO-IS_TER-PxPL3">бердӧдзныс</st>
+         </stg>
+      </lg>
+      <pos>POSTP-SPAT</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>вплотную к ним</t>
+         </tg>
+         <xg>
+            <x>ме матыстчи бердӧдзныс, а найӧ эз казявны</x>
+            <xt xml:lang="rus">я подошёл к ним вплотную, но они не заметили меня</xt>
+         </xg>
+      </mg>
+   </e>
+  <e exclude="fst">
+      <lg>
+         <l pos="Po">бердӧдзыд</l>
+         <stg>
+            <st Contlex="PO-IS_TER-PxSG2">бердӧдзыд</st>
+         </stg>
+      </lg>
+      <pos>POSTP-SPAT</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>вплотную к тебе</t>
+         </tg>
+      </mg>
+   </e>
+  <e exclude="fst">
+      <lg>
+         <l pos="Po">бердӧдзым</l>
+         <stg>
+            <st Contlex="PO-IS_TER-PxSG1">бердӧдзым</st>
+         </stg>
+      </lg>
+      <pos>POSTP-SPAT</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>вплотную ко мне</t>
+         </tg>
+      </mg>
+   </e>
+  <e exclude="fst">
+      <lg>
+         <l pos="Po">бердӧдзыс</l>
+         <stg>
+            <st Contlex="PO-IS_TER-PxSG3">бердӧдзыс</st>
+         </stg>
+      </lg>
+      <pos>POSTP-SPAT</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>вплотную к нему</t>
+         </tg>
+      </mg>
+   </e>
+  <e>
       <lg>
          <l pos="Po">боки</l>
          <stg>
@@ -1251,7 +954,7 @@
          </m>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">бокиад</l>
          <stg>
@@ -1266,7 +969,7 @@
          </m>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">бокиас</l>
          <stg>
@@ -1281,7 +984,7 @@
          </m>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бокисянь</l>
          <stg>
@@ -1306,7 +1009,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бокиті</l>
          <stg>
@@ -1334,7 +1037,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бокиын</l>
          <stg>
@@ -1367,7 +1070,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бокладор</l>
          <stg>
@@ -1388,7 +1091,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бокладорсянь</l>
          <stg>
@@ -1409,7 +1112,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">боклань</l>
          <stg>
@@ -1438,7 +1141,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бокланьын</l>
          <stg>
@@ -1463,7 +1166,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">боксянь</l>
          <stg>
@@ -1512,7 +1215,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бокті</l>
          <stg>
@@ -1543,7 +1246,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бокын</l>
          <stg>
@@ -1574,7 +1277,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бокысь</l>
          <stg>
@@ -1600,7 +1303,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бокӧ</l>
          <stg>
@@ -1625,7 +1328,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бокӧдз</l>
          <stg>
@@ -1649,7 +1352,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">бокӧн</l>
          <stg>
@@ -1670,7 +1373,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бӧр</l>
          <stg>
@@ -1704,25 +1407,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
-      <lg>
-         <l pos="Po">бӧрам</l>
-         <stg>
-            <st Contlex="PO-IS_INE-ILL-PxSG1">бӧрам</st>
-         </stg>
-      </lg>
-      <pos>POSTP-SPAT</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="rus">
-            <t>за мной</t>
-            <t>позади меня</t>
-         </tg>
-      </mg>
-   </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">бӧрад</l>
          <stg>
@@ -1747,7 +1432,83 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
+      <lg>
+         <l pos="Po">бӧрам</l>
+         <stg>
+            <st Contlex="PO-IS_INE-ILL-PxSG1">бӧрам</st>
+         </stg>
+      </lg>
+      <pos>POSTP-SPAT</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>за мной</t>
+            <t>позади меня</t>
+         </tg>
+      </mg>
+   </e>
+  <e exclude="fst">
+      <lg>
+         <l pos="Po">бӧраныд</l>
+         <stg>
+            <st Contlex="PO-IS_INE-ILL-PxPL2">бӧраныд</st>
+         </stg>
+      </lg>
+      <pos>POSTP-SPAT</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>за вами</t>
+            <t>позади вас</t>
+         </tg>
+      </mg>
+   </e>
+  <e exclude="fst">
+      <lg>
+         <l pos="Po">бӧраным</l>
+         <stg>
+            <st Contlex="PO-IS_INE-ILL-PxPL1">бӧраным</st>
+         </stg>
+      </lg>
+      <pos>POSTP-SPAT</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>за нами</t>
+            <t>позади нас</t>
+         </tg>
+         <xg>
+            <x>бӧраным вӧлі локтӧны сёян тыра вӧлаяс</x>
+            <xt xml:lang="rus">позади нас шли подводы с продовольствием</xt>
+         </xg>
+      </mg>
+   </e>
+  <e exclude="fst">
+      <lg>
+         <l pos="Po">бӧраныс</l>
+         <stg>
+            <st Contlex="PO-IS_INE-ILL-PxPL3">бӧраныс</st>
+         </stg>
+      </lg>
+      <pos>POSTP-SPAT</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>за ними</t>
+            <t>позади них</t>
+         </tg>
+      </mg>
+   </e>
+  <e exclude="fst">
       <lg>
          <l pos="Po">бӧрас</l>
          <stg>
@@ -1772,65 +1533,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
-      <lg>
-         <l pos="Po">бӧраным</l>
-         <stg>
-            <st Contlex="PO-IS_INE-ILL-PxPL1">бӧраным</st>
-         </stg>
-      </lg>
-      <pos>POSTP-SPAT</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="rus">
-            <t>за нами</t>
-            <t>позади нас</t>
-         </tg>
-         <xg>
-            <x>бӧраным вӧлі локтӧны сёян тыра вӧлаяс</x>
-            <xt xml:lang="rus">позади нас шли подводы с продовольствием</xt>
-         </xg>
-      </mg>
-   </e>
-   <e exclude="fst">
-      <lg>
-         <l pos="Po">бӧраныд</l>
-         <stg>
-            <st Contlex="PO-IS_INE-ILL-PxPL2">бӧраныд</st>
-         </stg>
-      </lg>
-      <pos>POSTP-SPAT</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="rus">
-            <t>за вами</t>
-            <t>позади вас</t>
-         </tg>
-      </mg>
-   </e>
-   <e exclude="fst">
-      <lg>
-         <l pos="Po">бӧраныс</l>
-         <stg>
-            <st Contlex="PO-IS_INE-ILL-PxPL3">бӧраныс</st>
-         </stg>
-      </lg>
-      <pos>POSTP-SPAT</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="rus">
-            <t>за ними</t>
-            <t>позади них</t>
-         </tg>
-      </mg>
-   </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бӧрвывті</l>
          <stg>
@@ -1865,7 +1568,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">бӧрвылас</l>
          <stg>
@@ -1886,7 +1589,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бӧрвылын</l>
          <stg>
@@ -1911,7 +1614,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бӧрвылысь</l>
          <stg>
@@ -1932,7 +1635,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бӧрвылӧ</l>
          <stg>
@@ -1953,7 +1656,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">бӧрлань</l>
          <stg>
@@ -1979,7 +1682,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бӧрланьын</l>
          <stg>
@@ -2000,7 +1703,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бӧрланьӧ</l>
          <stg>
@@ -2021,7 +1724,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">бӧрсьыд</l>
          <stg>
@@ -2038,7 +1741,7 @@
          </m>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">бӧрсьым</l>
          <stg>
@@ -2055,7 +1758,7 @@
          </m>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">бӧрсьыныд</l>
          <stg>
@@ -2072,7 +1775,7 @@
          </m>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">бӧрсьыным</l>
          <stg>
@@ -2089,7 +1792,7 @@
          </m>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">бӧрсьыныс</l>
          <stg>
@@ -2106,7 +1809,7 @@
          </m>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">бӧрсьыс</l>
          <stg>
@@ -2127,7 +1830,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бӧрся</l>
          <stg>
@@ -2163,7 +1866,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бӧрсянь</l>
          <stg>
@@ -2208,7 +1911,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">бӧрсяньныд</l>
          <stg>
@@ -2227,7 +1930,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">бӧрсяньным</l>
          <stg>
@@ -2250,7 +1953,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">бӧрсяньныс</l>
          <stg>
@@ -2269,7 +1972,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">бӧрсяньыд</l>
          <stg>
@@ -2296,7 +1999,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">бӧрсяньым</l>
          <stg>
@@ -2315,7 +2018,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">бӧрсяньыс</l>
          <stg>
@@ -2338,7 +2041,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бӧрти</l>
          <stg>
@@ -2363,8 +2066,7 @@
          </xg>
       </mg>
    </e>
-   <!--2011-12-21 Check this -->
-   <e>
+  <e>
       <lg>
          <l pos="Po">бӧртинас</l>
          <stg>
@@ -2386,7 +2088,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">бӧрті</l>
          <stg>
@@ -2416,7 +2118,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бӧрын</l>
          <stg>
@@ -2490,7 +2192,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">бӧрынджык</l>
          <stg>
@@ -2527,7 +2229,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бӧрыннас</l>
          <stg>
@@ -2565,7 +2267,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бӧрысь</l>
          <stg>
@@ -2605,7 +2307,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бӧрӧ</l>
          <stg>
@@ -2639,7 +2341,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бӧрӧд</l>
          <stg>
@@ -2654,7 +2356,7 @@
          </m>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">бӧрӧдз</l>
          <stg>
@@ -2680,24 +2382,7 @@
          </xg>
       </mg>
    </e>
-   <e>
-      <lg>
-         <l pos="Po">вӧсна</l>
-         <stg>
-            <st Contlex="PO-PX">вӧсна</st>
-         </stg>
-      </lg>
-      <pos>POSTP</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg>
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">вевдорсянь</l>
          <stg>
@@ -2714,7 +2399,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">вевдорті</l>
          <stg>
@@ -2735,7 +2420,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">вевдорын</l>
          <stg>
@@ -2770,7 +2455,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">вевдорӧдз</l>
          <stg>
@@ -2791,7 +2476,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">веркыд</l>
          <stg>
@@ -2821,7 +2506,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">веркыдын</l>
          <stg>
@@ -2855,7 +2540,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">веркыдӧдз</l>
          <stg>
@@ -2882,7 +2567,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">веськыдладор</l>
          <stg>
@@ -2900,7 +2585,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">весьт</l>
          <stg>
@@ -2923,7 +2608,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">весьтса</l>
          <stg>
@@ -2950,7 +2635,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">весьтті</l>
          <stg>
@@ -2974,7 +2659,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">весьтын</l>
          <stg>
@@ -3021,7 +2706,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">весьтысь</l>
          <stg>
@@ -3046,7 +2731,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">весьтӧ</l>
          <stg>
@@ -3124,7 +2809,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">весьтӧд</l>
          <stg>
@@ -3139,7 +2824,7 @@
          </m>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">весьтӧдз</l>
          <stg>
@@ -3160,7 +2845,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">водз</l>
          <stg>
@@ -3180,7 +2865,7 @@
          </m>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">водзад</l>
          <stg>
@@ -3210,7 +2895,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">водзам</l>
          <stg>
@@ -3240,7 +2925,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">водзаныд</l>
          <stg>
@@ -3270,7 +2955,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">водзаным</l>
          <stg>
@@ -3300,7 +2985,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">водзаныс</l>
          <stg>
@@ -3334,7 +3019,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">водзас</l>
          <stg>
@@ -3371,7 +3056,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">водзвылын</l>
          <stg>
@@ -3399,7 +3084,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">водзвылын</l>
          <stg>
@@ -3437,7 +3122,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">водзвылысь</l>
          <stg>
@@ -3458,7 +3143,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">водзвылӧ</l>
          <stg>
@@ -3479,7 +3164,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">водзсьыд</l>
          <stg>
@@ -3501,7 +3186,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">водзсьым</l>
          <stg>
@@ -3523,7 +3208,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">водзсьыныд</l>
          <stg>
@@ -3545,7 +3230,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">водзсьыным</l>
          <stg>
@@ -3567,7 +3252,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">водзсьыныс</l>
          <stg>
@@ -3589,7 +3274,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">водзсьыс</l>
          <stg>
@@ -3611,7 +3296,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">водзті</l>
          <stg>
@@ -3641,7 +3326,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">водзын</l>
          <stg>
@@ -3710,7 +3395,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">водзысь</l>
          <stg>
@@ -3736,7 +3421,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">водзӧ</l>
          <stg>
@@ -3808,7 +3493,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">водзӧд</l>
          <stg>
@@ -3826,7 +3511,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">водзӧдз</l>
          <stg>
@@ -3847,7 +3532,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">войдӧр</l>
          <stg>
@@ -3895,7 +3580,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">вом</l>
          <stg>
@@ -3912,7 +3597,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">вомӧн</l>
          <stg>
@@ -3952,7 +3637,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">вывсьыд</l>
          <stg>
@@ -3979,7 +3664,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">вывсьым</l>
          <stg>
@@ -4002,7 +3687,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">вывсьыныд</l>
          <stg>
@@ -4021,7 +3706,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">вывсьыным</l>
          <stg>
@@ -4044,7 +3729,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">вывсьыныс</l>
          <stg>
@@ -4063,7 +3748,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">вывсьыс</l>
          <stg>
@@ -4086,7 +3771,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">вывсянь</l>
          <stg>
@@ -4111,7 +3796,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">вывті</l>
          <stg>
@@ -4161,7 +3846,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">вывтіныд</l>
          <stg>
@@ -4180,7 +3865,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">вывтіным</l>
          <stg>
@@ -4199,7 +3884,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">вывтіныс</l>
          <stg>
@@ -4218,7 +3903,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">вывтіыд</l>
          <stg>
@@ -4237,7 +3922,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">вывтіым</l>
          <stg>
@@ -4256,7 +3941,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">вывтіыс</l>
          <stg>
@@ -4275,7 +3960,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">выйын</l>
          <stg>
@@ -4330,7 +4015,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">выйысь</l>
          <stg>
@@ -4352,7 +4037,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">выйӧ</l>
          <stg>
@@ -4385,7 +4070,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">выйӧдз</l>
          <stg>
@@ -4443,7 +4128,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">выйӧдзтӧ</l>
          <stg>
@@ -4458,7 +4143,7 @@
          </m>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">выйӧн</l>
          <stg>
@@ -4486,7 +4171,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">вылад</l>
          <stg>
@@ -4516,7 +4201,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">вылам</l>
          <stg>
@@ -4546,7 +4231,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">выланыд</l>
          <stg>
@@ -4572,7 +4257,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">выланым</l>
          <stg>
@@ -4602,7 +4287,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">выланыс</l>
          <stg>
@@ -4625,7 +4310,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">вылас</l>
          <stg>
@@ -4659,7 +4344,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">вылын</l>
          <stg>
@@ -4753,7 +4438,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">вылынджык</l>
          <stg>
@@ -4783,7 +4468,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">вылысь</l>
          <stg>
@@ -4825,7 +4510,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">выліті</l>
          <stg>
@@ -4846,7 +4531,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">вылӧ</l>
          <stg>
@@ -5042,7 +4727,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">вылӧд</l>
          <stg>
@@ -5060,7 +4745,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">вылӧдз</l>
          <stg>
@@ -5088,7 +4773,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">вылӧдзныд</l>
          <stg>
@@ -5110,7 +4795,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">вылӧдзным</l>
          <stg>
@@ -5132,7 +4817,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">вылӧдзныс</l>
          <stg>
@@ -5154,7 +4839,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">вылӧдзыд</l>
          <stg>
@@ -5176,7 +4861,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">вылӧдзым</l>
          <stg>
@@ -5198,7 +4883,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">вылӧдзыс</l>
          <stg>
@@ -5220,7 +4905,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">выяын</l>
          <stg>
@@ -5249,7 +4934,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">выяысь</l>
          <stg>
@@ -5280,7 +4965,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">выяӧ</l>
          <stg>
@@ -5308,7 +4993,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">выяӧдз</l>
          <stg>
@@ -5336,7 +5021,24 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
+      <lg>
+         <l pos="Po">вӧсна</l>
+         <stg>
+            <st Contlex="PO-PX">вӧсна</st>
+         </stg>
+      </lg>
+      <pos>POSTP</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg>
+            <t/>
+         </tg>
+      </mg>
+   </e>
+  <e>
       <lg>
          <l pos="Po">вӧсна</l>
          <stg>
@@ -5424,7 +5126,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">горув</l>
          <stg>
@@ -5447,7 +5149,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">гырся</l>
          <stg>
@@ -5480,7 +5182,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">гӧгӧр</l>
          <stg>
@@ -5552,7 +5254,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">гӧгӧр</l>
          <stg>
@@ -5594,7 +5296,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">гӧгӧрын</l>
          <stg>
@@ -5622,7 +5324,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">гӧгӧрысь</l>
          <stg>
@@ -5648,7 +5350,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">дор</l>
          <stg>
@@ -5695,7 +5397,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дорад</l>
          <stg>
@@ -5717,7 +5419,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дорам</l>
          <stg>
@@ -5739,7 +5441,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дораныд</l>
          <stg>
@@ -5761,7 +5463,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дораным</l>
          <stg>
@@ -5783,7 +5485,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дораныс</l>
          <stg>
@@ -5805,7 +5507,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дорас</l>
          <stg>
@@ -5827,7 +5529,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дорлань</l>
          <stg>
@@ -5851,7 +5553,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дорсьыд</l>
          <stg>
@@ -5884,7 +5586,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дорсьым</l>
          <stg>
@@ -5910,7 +5612,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дорсьыныд</l>
          <stg>
@@ -5935,7 +5637,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дорсьыным</l>
          <stg>
@@ -5961,7 +5663,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дорсьыныс</l>
          <stg>
@@ -5990,7 +5692,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">дорсянь</l>
          <stg>
@@ -6013,7 +5715,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">дорті</l>
          <stg>
@@ -6040,7 +5742,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">дорын</l>
          <stg>
@@ -6146,7 +5848,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">дорысь</l>
          <stg>
@@ -6226,7 +5928,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">дорӧ</l>
          <stg>
@@ -6313,7 +6015,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">дорӧд</l>
          <stg>
@@ -6336,7 +6038,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">дорӧдз</l>
          <stg>
@@ -6365,7 +6067,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">дыра</l>
          <stg>
@@ -6442,7 +6144,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">дырйи</l>
          <stg>
@@ -6537,7 +6239,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дінад</l>
          <stg>
@@ -6563,7 +6265,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дінам</l>
          <stg>
@@ -6592,7 +6294,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дінаныд</l>
          <stg>
@@ -6621,7 +6323,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дінаным</l>
          <stg>
@@ -6650,7 +6352,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дінаныс</l>
          <stg>
@@ -6676,7 +6378,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дінас</l>
          <stg>
@@ -6702,7 +6404,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дінлань</l>
          <stg>
@@ -6726,7 +6428,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дінсьыд</l>
          <stg>
@@ -6749,7 +6451,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дінсьым</l>
          <stg>
@@ -6772,7 +6474,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дінсьыныд</l>
          <stg>
@@ -6791,7 +6493,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дінсьыным</l>
          <stg>
@@ -6810,7 +6512,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дінсьыныс</l>
          <stg>
@@ -6833,7 +6535,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дінсьыс</l>
          <stg>
@@ -6852,7 +6554,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">дінсянь</l>
          <stg>
@@ -6883,7 +6585,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">дінті</l>
          <stg>
@@ -6910,7 +6612,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дінтіныд</l>
          <stg>
@@ -6933,7 +6635,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дінтіным</l>
          <stg>
@@ -6952,7 +6654,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дінтіныс</l>
          <stg>
@@ -6971,7 +6673,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дінтіыд</l>
          <stg>
@@ -6994,7 +6696,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дінтіым</l>
          <stg>
@@ -7013,7 +6715,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">дінтіыс</l>
          <stg>
@@ -7035,7 +6737,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">дінын</l>
          <stg>
@@ -7096,7 +6798,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">дінысь</l>
          <stg>
@@ -7121,7 +6823,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">дінӧ</l>
          <stg>
@@ -7179,7 +6881,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">дінӧд</l>
          <stg>
@@ -7204,7 +6906,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">дінӧдз</l>
          <stg>
@@ -7239,7 +6941,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">йитӧдын</l>
          <stg>
@@ -7267,7 +6969,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">йывті</l>
          <stg>
@@ -7288,7 +6990,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">йылын</l>
          <stg>
@@ -7349,7 +7051,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">йылысь</l>
          <stg>
@@ -7440,7 +7142,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">йылӧ</l>
          <stg>
@@ -7491,7 +7193,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">йылӧдз</l>
          <stg>
@@ -7515,7 +7217,34 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
+      <lg>
+         <l pos="Po">кабыра</l>
+         <stg>
+            <st Contlex="PoNTag">кабыра</st>
+         </stg>
+      </lg>
+      <pos>POSTP-N</pos>
+      <mg>
+         <m>
+            <head>
+               <re>только с опр.</re>
+            </head>
+         </m>
+         <tg xml:lang="rus">
+            <t>:</t>
+         </tg>
+         <xg>
+            <x>чорыд кабыра</x>
+            <xt xml:lang="rus">хваткий</xt>
+         </xg>
+         <xg>
+            <x>киыс тшапыд кабыра</x>
+            <xt xml:lang="rus">(у него) руки хваткие</xt>
+         </xg>
+      </mg>
+   </e>
+  <e>
       <lg>
          <l pos="Po">катыд</l>
          <stg>
@@ -7532,7 +7261,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">кежлад</l>
          <stg>
@@ -7556,7 +7285,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">кежлам</l>
          <stg>
@@ -7584,7 +7313,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">кежланыд</l>
          <stg>
@@ -7608,7 +7337,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">кежланым</l>
          <stg>
@@ -7632,7 +7361,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">кежланыс</l>
          <stg>
@@ -7656,7 +7385,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">кежлас</l>
          <stg>
@@ -7680,7 +7409,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">кежлӧ</l>
          <stg>
@@ -7789,7 +7518,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">кежсьыд</l>
          <stg>
@@ -7813,7 +7542,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">кежсьым</l>
          <stg>
@@ -7833,7 +7562,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">кежсьыныд</l>
          <stg>
@@ -7853,7 +7582,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">кежсьыным</l>
          <stg>
@@ -7873,7 +7602,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">кежсьыныс</l>
          <stg>
@@ -7893,7 +7622,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">кежсьыс</l>
          <stg>
@@ -7913,7 +7642,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">кежысь</l>
          <stg>
@@ -7960,7 +7689,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">кежӧ</l>
          <stg>
@@ -7975,7 +7704,30 @@
          </m>
       </mg>
    </e>
-   <e>
+  <e>
+      <lg>
+         <l pos="Po">килоа</l>
+         <stg>
+            <st Contlex="PoATag">килоа</st>
+         </stg>
+      </lg>
+      <pos>POSTP-A</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="килограмма" semRelType="see"/>
+         </m>
+         <xg>
+            <x>килоа гира</x>
+            <xt xml:lang="rus">килограммовая гиря</xt>
+         </xg>
+         <xg>
+            <x>килоа сир</x>
+            <xt xml:lang="rus">килограммовая щука</xt>
+         </xg>
+      </mg>
+   </e>
+  <e>
       <lg>
          <l pos="Po">кодь</l>
          <stg>
@@ -8056,7 +7808,22 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
+      <lg>
+         <l pos="Po">кодься</l>
+         <stg>
+            <st Contlex="PoATag">кодься</st>
+         </stg>
+      </lg>
+      <pos>POSTP-A</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="кодь" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+  <e>
       <lg>
          <l pos="Po">костын</l>
          <stg>
@@ -8106,7 +7873,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">костысь</l>
          <stg>
@@ -8143,7 +7910,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">костӧ</l>
          <stg>
@@ -8199,7 +7966,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">костӧд</l>
          <stg>
@@ -8227,7 +7994,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">кузя</l>
          <stg>
@@ -8337,7 +8104,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">кузяла</l>
          <stg>
@@ -8376,7 +8143,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">кымын</l>
          <stg>
@@ -8420,7 +8187,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">кындзи</l>
          <stg>
@@ -8448,7 +8215,38 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
+      <lg>
+         <l pos="Po">кышӧда</l>
+         <stg>
+            <st Contlex="PoATag">кышӧда</st>
+         </stg>
+      </lg>
+      <pos>POSTP-A</pos>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>крытый чем-л.</t>
+         </tg>
+         <xg>
+            <x>ной кышӧда малича</x>
+            <xt xml:lang="rus">малица, крытая сукном</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head>
+               <range rangeSpat="dialect"/>
+            </head>
+         </m>
+         <tg xml:lang="rus">
+            <t>одетый</t>
+         </tg>
+      </mg>
+   </e>
+  <e>
       <lg>
          <l pos="Po">лыд</l>
          <stg>
@@ -8465,7 +8263,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">мат</l>
          <stg>
@@ -8482,7 +8280,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">могысь</l>
          <stg>
@@ -8535,7 +8333,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">моз</l>
          <stg>
@@ -8603,7 +8401,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">мында</l>
          <stg>
@@ -8635,7 +8433,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">мысти</l>
          <stg>
@@ -8714,7 +8512,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">мысьт</l>
          <stg>
@@ -8729,7 +8527,7 @@
          </m>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">мӧдлапӧв</l>
          <stg>
@@ -8746,7 +8544,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">ног</l>
          <stg>
@@ -8842,7 +8640,46 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
+      <lg>
+         <l pos="Po">нога</l>
+         <stg>
+            <st Contlex="PoATag">нога</st>
+         </stg>
+      </lg>
+      <pos>POSTP-A</pos>
+      <mg>
+         <m>
+            <head>
+               <re>только в сочет.:</re>
+            </head>
+         </m>
+         <tg xml:lang="rus">
+            <t/>
+         </tg>
+         <xg>
+            <x>быд нога</x>
+            <xt xml:lang="rus">всякий, разный</xt>
+         </xg>
+         <xg>
+            <x>быд нога олӧмсӧ ми тӧдлім</x>
+            <xt xml:lang="rus">всякую жизнь мы изведали</xt>
+         </xg>
+         <xg>
+            <x>выль нога</x>
+            <xt xml:lang="rus">новый, нового типа, нового образца; сделанный по-новому</xt>
+         </xg>
+         <xg>
+            <x>мӧд нога</x>
+            <xt xml:lang="rus">не такой, иной, другой</xt>
+         </xg>
+         <xg>
+            <x>уна нога</x>
+            <xt xml:lang="rus">разный, различный, разнообразный; многообразный; сделанный по-разному</xt>
+         </xg>
+      </mg>
+   </e>
+  <e>
       <lg>
          <l pos="Po">ногӧн</l>
          <stg>
@@ -8874,7 +8711,171 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
+      <lg>
+         <l pos="Po">ныр-вома</l>
+         <stg>
+            <st Contlex="PoATag">ныр-вома</st>
+         </stg>
+      </lg>
+      <pos>POSTP-A</pos>
+      <mg>
+         <m>
+            <head>
+               <re>с опр.</re>
+            </head>
+         </m>
+         <tg xml:lang="rus">
+            <t>с <i>каким-л.</i> лицом; с <i>какой-л.</i> мордой</t>
+         </tg>
+         <xg>
+            <x>вӧсни ныр-вома</x>
+            <xt xml:lang="rus">с тонкими чертами лица; с хорошеньким личиком; с приятной мордочкой</xt>
+         </xg>
+         <xg>
+            <x>пельк ныр-вома</x>
+            <xt xml:lang="rus">с тонкими чертами лица; с хорошеньким личиком; с приятной мордочкой</xt>
+         </xg>
+         <xg>
+            <x>ёсиник ныр-вома</x>
+            <xt xml:lang="rus">с остреньким личиком</xt>
+         </xg>
+         <xg>
+            <x>кыз ныр-вома</x>
+            <xtCtn>
+               <xt xml:lang="rus">с толстой мордой, толстомордый; мордастый</xt>
+               <register register="conversation"/>
+            </xtCtn>
+         </xg>
+         <xg>
+            <x>мича ныр-вома</x>
+            <xt xml:lang="rus">с красивой мордочкой</xt>
+         </xg>
+         <xg>
+            <x>лӧсьыд ныр-вома</x>
+            <xt xml:lang="rus">с красивой мордочкой</xt>
+         </xg>
+      </mg>
+   </e>
+  <e>
+      <lg>
+         <l pos="Po">ныра</l>
+         <stg>
+            <st Contlex="PoATag">ныра</st>
+         </stg>
+      </lg>
+      <pos>POSTP-A</pos>
+      <mg No="1">
+         <m>
+            <head>
+               <re>с опр.</re>
+            </head>
+         </m>
+         <tg xml:lang="rus">
+            <t>с каким-л. носом</t>
+         </tg>
+         <xg>
+            <x>гӧрба ныра</x>
+            <xt xml:lang="rus">с горбатым носом, горбоносый</xt>
+         </xg>
+         <xg>
+            <x>крука ныра</x>
+            <xt xml:lang="rus">с крючковатым носом</xt>
+         </xg>
+         <xg>
+            <x>кузь ныра</x>
+            <xt xml:lang="rus">с длинным носом, длинноносый</xt>
+         </xg>
+         <xg>
+            <x>кыз ныра</x>
+            <xt xml:lang="rus">с толстым носом, толстоносый</xt>
+         </xg>
+         <xg>
+            <x>нюз ныра</x>
+            <xt xml:lang="rus">с прямым носом</xt>
+         </xg>
+         <xg>
+            <x>пӧлӧс ныра</x>
+            <xt xml:lang="rus">кривоносый</xt>
+         </xg>
+         <xg>
+            <x>чангыль ныра</x>
+            <xt xml:lang="rus">курносый</xt>
+         </xg>
+         <xg>
+            <x>ыджыд ныра</x>
+            <xt xml:lang="rus">с большим носом; большеносый</xt>
+         </xg>
+         <xg genreType="riddle">
+            <x>ныра и бӧжа, а абу ловъя</x>
+            <xt xml:lang="rus">с носом и с хвостом, но не живой</xt>
+            <answer>
+               <native>пыж</native>
+               <xt xml:lang="rus">лодка</xt>
+            </answer>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>с каким-л. носом, клювом</t>
+         </tg>
+         <xg>
+            <x>ён ныра сизь</x>
+            <xt xml:lang="rus">дятел с сильным клювом</xt>
+         </xg>
+      </mg>
+      <mg No="3">
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>с каким-л. носком</t>
+         </tg>
+         <xg>
+            <x>ёсь ныра кӧмкот</x>
+            <xt xml:lang="rus">обувь с узкими носками</xt>
+         </xg>
+         <xg>
+            <x>тшӧтшыд ныра сапӧг</x>
+            <xt xml:lang="rus">сапоги с тупыми носками</xt>
+         </xg>
+      </mg>
+      <mg No="4">
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>с ростком, проращённый</t>
+         </tg>
+         <xg>
+            <x>ныра картупель ӧдйӧджык петалӧ</x>
+            <xt xml:lang="rus">проращённый картофель быстрее всходит</xt>
+         </xg>
+      </mg>
+      <mg No="5">
+         <m>
+            <head>
+               <sense sense="figurative"/>
+            </head>
+         </m>
+         <tg xml:lang="rus">
+            <t>с норовом, норовистый; упрямый, своевольный, строптивый</t>
+         </tg>
+         <xg>
+            <x>вылын ныра</x>
+            <xt xml:lang="rus">высокомерный, надменный, кичливый, заносчивый</xt>
+         </xg>
+         <xg>
+            <x>ныра кӧм кодь</x>
+            <xt xml:lang="rus">упрямец</xt>
+            <xt xml:lang="rus" tType="literal">как лапоть с носом</xt>
+         </xg>
+      </mg>
+   </e>
+  <e>
       <lg>
          <l pos="Po">ньылыд</l>
          <stg>
@@ -8935,7 +8936,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">ордад</l>
          <stg>
@@ -8973,7 +8974,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">ордам</l>
          <stg>
@@ -9021,7 +9022,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">орданыд</l>
          <stg>
@@ -9061,7 +9062,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">орданыс</l>
          <stg>
@@ -9101,7 +9102,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">ордас</l>
          <stg>
@@ -9149,7 +9150,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">ордсянь</l>
          <stg>
@@ -9173,7 +9174,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">ордын</l>
          <stg>
@@ -9222,7 +9223,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">ордысь</l>
          <stg>
@@ -9263,7 +9264,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">ордӧ</l>
          <stg>
@@ -9322,7 +9323,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">ордӧдз</l>
          <stg>
@@ -9346,7 +9347,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">паныд</l>
          <stg>
@@ -9429,7 +9430,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">паныдӧн</l>
          <stg>
@@ -9472,7 +9473,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">пасьтала</l>
          <stg>
@@ -9493,7 +9494,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">пельын</l>
          <stg>
@@ -9521,7 +9522,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">пельысь</l>
          <stg>
@@ -9545,7 +9546,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">пельӧ</l>
          <stg>
@@ -9576,7 +9577,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">пи</l>
          <stg>
@@ -9593,7 +9594,22 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
+      <lg>
+         <l pos="Po">питі</l>
+         <stg>
+            <st Contlex="POSTP1">питі</st>
+         </stg>
+      </lg>
+      <pos>POSTP-SPAT</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="пиӧд" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+  <e>
       <lg>
          <l pos="Po">пиын</l>
          <stg>
@@ -9643,7 +9659,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">пиысь</l>
          <stg>
@@ -9695,7 +9711,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">пиӧ</l>
          <stg>
@@ -9728,7 +9744,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">пиӧд</l>
          <stg>
@@ -9762,7 +9778,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">помын</l>
          <stg>
@@ -9821,7 +9837,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">помысь</l>
          <stg>
@@ -9919,7 +9935,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">помӧ</l>
          <stg>
@@ -9943,7 +9959,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">понда</l>
          <stg>
@@ -10070,7 +10086,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">пуд</l>
          <stg>
@@ -10123,7 +10139,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">пуджыд</l>
          <stg>
@@ -10144,7 +10160,8 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e> <lg> <l>пыдди</l> <stg> <st Contlex="POSTP_">пыдди</st> </stg> </lg> <pos>POSTP</pos> <mg> <m> <head> <re>с мест.</re> </head> </m> <tg xml:lang="rus"> <t/> </tg> <xg> <x>сы</x> <xtCtn> <i>употр. в роли союза</i> <xt xml:lang="rus">зато</xt> </xtCtn> </xg> <xg> <x>татчӧссалӧн ас няньыс тырмывлӧма уна пыдди тӧв шӧрӧдз, сы пыдди вӧр ягыс тані кутшӧм</x> <xt xml:lang="rus">у здешних жителей свой хлеб максимум до середины зимы хватал, зато какой здесь сосняк (лес)</xt> </xg> </mg> </e>
+  <e>
       <lg>
          <l pos="Po">пыдди</l>
          <stg>
@@ -10357,7 +10374,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">пыр</l>
          <stg>
@@ -10469,7 +10486,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">пырся</l>
          <stg>
@@ -10503,7 +10520,8 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e exclude="fst"> <lg> <l>пырыс</l> <stg> <st Contlex="POSTP_">пырыс</st> </stg> </lg> <pos>POSTP</pos> <mg No="1"> <m> <head/> </m> <tg xml:lang="rus"> <t>навылет</t> </tg> <xg> <x>пуляыс пырыс мунӧма</x> <xt xml:lang="rus">пуля прошла навылет</xt> </xg> </mg> <mg No="2"> <m> <head/> </m> <tg xml:lang="rus"> <t>насквозь</t> </tg> <xg> <x>пырыс тыдалана</x> <xt xml:lang="rus">а) прозрачный; б) просвечивающий</xt> </xg> <xg> <x>важ керкаад тӧлыс пырыс ветлӧ</x> <xt xml:lang="rus">старый дом продувает</xt> </xg> <xg genreType="riddle"> <x>кыз-кыз пӧч да пырыс тыдалӧ</x> <xt xml:lang="rus">толстая старуха насквозь просвечивает</xt> <answer> <native>гымга</native> <xt xml:lang="rus">верша</xt> </answer> </xg> </mg> </e>
+  <e>
       <lg>
          <l pos="Po">пытш</l>
          <stg>
@@ -10520,7 +10538,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">пытшкад</l>
          <stg>
@@ -10546,7 +10564,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">пытшкам</l>
          <stg>
@@ -10576,7 +10594,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">пытшканыд</l>
          <stg>
@@ -10602,7 +10620,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">пытшканым</l>
          <stg>
@@ -10628,7 +10646,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">пытшканыс</l>
          <stg>
@@ -10654,7 +10672,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">пытшкас</l>
          <stg>
@@ -10681,7 +10699,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">пытшкын</l>
          <stg>
@@ -10726,7 +10744,7 @@
          </m>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">пытшкысь</l>
          <stg>
@@ -10766,7 +10784,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">пытшкӧ</l>
          <stg>
@@ -10809,7 +10827,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">пытшлань</l>
          <stg>
@@ -10830,7 +10848,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">пӧвст</l>
          <stg>
@@ -10847,7 +10865,22 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e>
+      <lg>
+         <l pos="Po">пӧвстті</l>
+         <stg>
+            <st Contlex="POSTP1">пӧвстті</st>
+         </stg>
+      </lg>
+      <pos>POSTP</pos>
+      <mg>
+         <m>
+            <head/>
+            <semRel No="1" lemmaID="пӧвстӧд" semRelType="see"/>
+         </m>
+      </mg>
+   </e>
+  <e exclude="fst">
       <lg>
          <l pos="Po">пӧвстын</l>
          <stg>
@@ -10890,7 +10923,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">пӧвстысь</l>
          <stg>
@@ -10905,7 +10938,7 @@
          </m>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">пӧвстӧ</l>
          <stg>
@@ -10933,7 +10966,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">пӧвстӧд</l>
          <stg>
@@ -10980,7 +11013,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">пӧлӧн</l>
          <stg>
@@ -11009,7 +11042,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">пӧперег</l>
          <stg>
@@ -11035,7 +11068,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">ради</l>
          <stg>
@@ -11133,7 +11166,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">сай</l>
          <stg>
@@ -11173,7 +11206,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">сайлань</l>
          <stg>
@@ -11200,7 +11233,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">сайсянь</l>
          <stg>
@@ -11256,7 +11289,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">сайті</l>
          <stg>
@@ -11292,7 +11325,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">сайын</l>
          <stg>
@@ -11374,7 +11407,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">сайын</l>
          <stg>
@@ -11399,7 +11432,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">сайысь</l>
          <stg>
@@ -11455,7 +11488,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">сайӧ</l>
          <stg>
@@ -11527,7 +11560,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">сайӧд</l>
          <stg>
@@ -11558,7 +11591,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">сайӧдз</l>
          <stg>
@@ -11579,7 +11612,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">саяд</l>
          <stg>
@@ -11598,7 +11631,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">саям</l>
          <stg>
@@ -11617,7 +11650,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">саяныд</l>
          <stg>
@@ -11636,7 +11669,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">саяным</l>
          <stg>
@@ -11655,7 +11688,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">саяныс</l>
          <stg>
@@ -11674,7 +11707,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">саяс</l>
          <stg>
@@ -11693,7 +11726,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">серти</l>
          <stg>
@@ -11831,7 +11864,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">сорӧн</l>
          <stg>
@@ -11867,7 +11900,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">сьӧр</l>
          <stg>
@@ -11907,7 +11940,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">сьӧрад</l>
          <stg>
@@ -11937,7 +11970,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">сьӧрам</l>
          <stg>
@@ -11971,7 +12004,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">сьӧраныд</l>
          <stg>
@@ -11997,7 +12030,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">сьӧраным</l>
          <stg>
@@ -12023,7 +12056,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">сьӧраныс</l>
          <stg>
@@ -12049,7 +12082,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">сьӧрас</l>
          <stg>
@@ -12075,7 +12108,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">сьӧрсьыд</l>
          <stg>
@@ -12090,7 +12123,7 @@
          </m>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">сьӧрсьым</l>
          <stg>
@@ -12105,7 +12138,7 @@
          </m>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">сьӧрсьыныд</l>
          <stg>
@@ -12120,7 +12153,7 @@
          </m>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">сьӧрсьыным</l>
          <stg>
@@ -12135,7 +12168,7 @@
          </m>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">сьӧрсьыныс</l>
          <stg>
@@ -12150,7 +12183,7 @@
          </m>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">сьӧрсьыс</l>
          <stg>
@@ -12165,7 +12198,7 @@
          </m>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">сьӧрсьыс</l>
          <stg>
@@ -12189,7 +12222,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">сьӧрын</l>
          <stg>
@@ -12204,7 +12237,7 @@
          </m>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">сьӧрысь</l>
          <stg>
@@ -12223,7 +12256,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">сьӧрысь</l>
          <stg>
@@ -12244,7 +12277,7 @@
          </m>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">сьӧрӧ</l>
          <stg>
@@ -12267,7 +12300,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">сямӧн</l>
          <stg>
@@ -12311,40 +12344,7 @@
          </xg>
       </mg>
    </e>
-   <e>
-      <lg>
-         <l pos="Po">туйӧд</l>
-         <stg>
-            <st Contlex="PO-PROL">туй</st>
-         </stg>
-      </lg>
-      <pos>POSTP-SPAT</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="rus">
-            <t>в этом отношении</t>
-         </tg>
-         <xg>
-            <x>та туйӧд бур</x>
-            <xt xml:lang="rus">в этом отношении хорошо</xt>
-         </xg>
-         <xg>
-            <x>та туйӧд дзескӧдны оз позь</x>
-            <xt xml:lang="rus">притеснять в этом отношении нельзя</xt>
-         </xg>
-         <xg>
-            <x>сы туйӧд на отсаліс</x>
-            <xt xml:lang="rus">в этом отношении ещё помогал</xt>
-         </xg>
-         <xg>
-            <x>эз кольччы та туйӧд</x>
-            <xt xml:lang="rus">не отставал в этом отношении</xt>
-         </xg>
-      </mg>
-   </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">туйын</l>
          <stg>
@@ -12384,7 +12384,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">туйӧ</l>
          <stg>
@@ -12470,7 +12470,40 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
+      <lg>
+         <l pos="Po">туйӧд</l>
+         <stg>
+            <st Contlex="PO-PROL">туй</st>
+         </stg>
+      </lg>
+      <pos>POSTP-SPAT</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>в этом отношении</t>
+         </tg>
+         <xg>
+            <x>та туйӧд бур</x>
+            <xt xml:lang="rus">в этом отношении хорошо</xt>
+         </xg>
+         <xg>
+            <x>та туйӧд дзескӧдны оз позь</x>
+            <xt xml:lang="rus">притеснять в этом отношении нельзя</xt>
+         </xg>
+         <xg>
+            <x>сы туйӧд на отсаліс</x>
+            <xt xml:lang="rus">в этом отношении ещё помогал</xt>
+         </xg>
+         <xg>
+            <x>эз кольччы та туйӧд</x>
+            <xt xml:lang="rus">не отставал в этом отношении</xt>
+         </xg>
+      </mg>
+   </e>
+  <e>
       <lg>
          <l pos="Po">туйӧд</l>
          <stg>
@@ -12487,7 +12520,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">туйӧн</l>
          <stg>
@@ -12520,7 +12553,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">ув</l>
          <stg>
@@ -12557,7 +12590,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">увсьыд</l>
          <stg>
@@ -12580,7 +12613,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">увсьым</l>
          <stg>
@@ -12603,7 +12636,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">увсьыныд</l>
          <stg>
@@ -12626,7 +12659,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">увсьыным</l>
          <stg>
@@ -12645,7 +12678,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">увсьыныс</l>
          <stg>
@@ -12668,7 +12701,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">увсьыс</l>
          <stg>
@@ -12687,7 +12720,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">увсянь</l>
          <stg>
@@ -12710,7 +12743,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">увті</l>
          <stg>
@@ -12748,7 +12781,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">улад</l>
          <stg>
@@ -12775,7 +12808,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">улам</l>
          <stg>
@@ -12798,7 +12831,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">уланыд</l>
          <stg>
@@ -12817,7 +12850,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">уланым</l>
          <stg>
@@ -12840,7 +12873,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">уланыс</l>
          <stg>
@@ -12859,7 +12892,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">улас</l>
          <stg>
@@ -12878,7 +12911,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">улын</l>
          <stg>
@@ -12923,7 +12956,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">улысь</l>
          <stg>
@@ -12963,7 +12996,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">уліті</l>
          <stg>
@@ -12988,7 +13021,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">улӧ</l>
          <stg>
@@ -13106,7 +13139,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">улӧд</l>
          <stg>
@@ -13130,7 +13163,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">улӧдз</l>
          <stg>
@@ -13155,7 +13188,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">чӧж</l>
          <stg>
@@ -13216,7 +13249,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">чӧжӧн</l>
          <stg>
@@ -13237,7 +13270,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">шогысь</l>
          <stg>
@@ -13264,7 +13297,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">шӧрад</l>
          <stg>
@@ -13283,7 +13316,7 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">шӧрам</l>
          <stg>
@@ -13306,7 +13339,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">шӧраныд</l>
          <stg>
@@ -13332,7 +13365,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">шӧраным</l>
          <stg>
@@ -13358,7 +13391,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">шӧраныс</l>
          <stg>
@@ -13384,7 +13417,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">шӧрас</l>
          <stg>
@@ -13410,7 +13443,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">шӧрвыйӧ</l>
          <stg>
@@ -13431,7 +13464,7 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+  <e exclude="fst">
       <lg>
          <l pos="Po">шӧрлань</l>
          <stg>
@@ -13460,7 +13493,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">шӧрсянь</l>
          <stg>
@@ -13491,7 +13524,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">шӧрті</l>
          <stg>
@@ -13519,7 +13552,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">шӧрын</l>
          <stg>
@@ -13568,7 +13601,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">шӧрысь</l>
          <stg>
@@ -13603,7 +13636,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">шӧрӧ</l>
          <stg>
@@ -13697,7 +13730,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">шӧрӧдз</l>
          <stg>
@@ -13730,7 +13763,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">ылӧс</l>
          <stg>
@@ -13747,7 +13780,7 @@
          </tg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">ӧприч</l>
          <stg>
@@ -13789,7 +13822,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">ӧтдор</l>
          <stg>
@@ -13840,7 +13873,7 @@
          </xg>
       </mg>
    </e>
-   <e>
+  <e>
       <lg>
          <l pos="Po">ӧтсор</l>
          <stg>
@@ -13888,36 +13921,6 @@
             <x>мӧслы сетны идзас турункӧд ӧтсор</x>
             <xt xml:lang="rus">дать корове солому в смеси с сеном</xt>
          </xg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="Po">питі</l>
-         <stg>
-            <st Contlex="POSTP1">питі</st>
-         </stg>
-      </lg>
-      <pos>POSTP-SPAT</pos>
-      <mg>
-         <m>
-            <head/>
-            <semRel No="1" lemmaID="пиӧд" semRelType="see"/>
-         </m>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="Po">пӧвстті</l>
-         <stg>
-            <st Contlex="POSTP1">пӧвстті</st>
-         </stg>
-      </lg>
-      <pos>POSTP</pos>
-      <mg>
-         <m>
-            <head/>
-            <semRel No="1" lemmaID="пӧвстӧд" semRelType="see"/>
-         </m>
       </mg>
    </e>
 </r>
