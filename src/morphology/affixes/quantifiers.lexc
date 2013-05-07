@@ -32,15 +32,14 @@ LEXICON ORD
 LEXICON NUM-IS_DISTR
 +Num+Distr: K ;
 
-!LEXICON QNT
-! QntTag ;
-
-LEXICON QntTag
+LEXICON QNT_
 +Qnt: NumCASEPOSSLEX ;
 +Qnt+Card+Iter:%>ысь K ;
 +Qnt+Card+Iter+Ins:%>ысьӧн K ;
 +Qnt+Card+Distr:%>ӧн K ;
 
+LEXICON ITER_
++Qnt+Iter: K ;
 
 !! LEXICON NUM-APPR ! 2011-11-03 This will need work
 LEXICON CARD-APPR
