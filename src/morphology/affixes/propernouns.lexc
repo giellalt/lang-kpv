@@ -5,14 +5,11 @@
 !! nouns.
 
 LEXICON ACRON
-+Acron:	PropTag	;
++Acron:	PROP_	;
 
 
-!LEXICON Prop 
-! PropTag ;
-
-! Basic nouns.
-LEXICON PropTag
+! Basic proper nouns.
+LEXICON PROP_
 +N+Prop+Sg: CASEPOSSLEX ;
 
 LEXICON Prop-R-RY
