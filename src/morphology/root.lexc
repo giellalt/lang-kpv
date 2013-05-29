@@ -470,19 +470,13 @@ LEXICON CsTag
 LEXICON ConjTag
 +CC: WordEnd ;
 
-LEXICON PcleTag
+LEXICON PCLE_
 +Pcle: WordEnd ;
-
-LEXICON EndPart
- PcleTag ;
 
 LEXICON PcleIntens
 +Pcle+Intens: WordEnd ;
 
-LEXICON EndInterj
- InterjTag ;
-
-LEXICON InterjTag
+LEXICON INTERJ_
 +Interj: WordEnd ;
 
 LEXICON EndNeg 
