@@ -4,6 +4,65 @@
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <e exclude="fst">
       <lg>
+         <l>сьӧлӧм_гудыртчымӧн_оз_ков</l>
+         <stg>
+            <st Contlex="">сьӧлӧм_гудыртчымӧн_оз_ков</st>
+         </stg>
+      </lg>
+      <pos/>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>совсем не надо, душа не принимает</t>
+         </tg>
+      </mg>
+   </e>
+   <e exclude="fst">
+      <lg>
+         <l>рудз лэдзны ки</l>
+         <stg>
+            <st Contlex="">рудз лэдзны ки</st>
+         </stg>
+      </lg>
+      <pos>PHRASE_V</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>расслабить руку</t>
+         </tg>
+      </mg>
+   </e>
+   <e exclude="fst">
+      <lg>
+         <l>мурч курччыны пинь</l>
+         <stg>
+            <st Contlex="">мурч курччыны пинь</st>
+         </stg>
+      </lg>
+      <pos>PHRASE_V</pos>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>стиснуть зубы</t>
+         </tg>
+         <xg>
+            <x>мурч курччыны пинь курччӧм пиньӧн</x>
+            <xt xml:lang="rus">со стиснутыми зубами</xt>
+         </xg>
+         <xg>
+            <x>вомтӧ мурч курччыны пинь курччы да терпит</x>
+            <xt xml:lang="rus">прикуси язык и терпи</xt>
+         </xg>
+      </mg>
+   </e>
+   <e exclude="fst">
+      <lg>
          <l pos="V">агсавны-сёйны</l>
          <stg>
             <st Contlex="Serial-V">агсавны-сёйны</st>
@@ -247,8 +306,8 @@
          <xg>
             <x>ветлін-мунін!</x>
             <xtCtn>
-               <xt xml:lang="rus">приветствие возвратившемуся домой после долгой отлучки, <i>соотв.:</i> с приездом! добро
-               пожаловать!</xt>
+               <xt xml:lang="rus">приветствие возвратившемуся домой после долгой отлучки, <i>соотв.:</i> с приездом!
+               добро пожаловать!</xt>
             </xtCtn>
          </xg>
       </mg>
@@ -356,7 +415,7 @@
          <xg>
             <x>гижны-сёртны важӧн эз велӧдлыны</x>
             <xt xml:lang="rus">грамоте раньше не учили</xt>
-            <xt xml:lang="rus" tType="literal">писать-насекать раньше не учили</xt>
+            <xt tType="literal" xml:lang="rus">писать-насекать раньше не учили</xt>
          </xg>
       </mg>
    </e>
