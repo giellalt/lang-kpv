@@ -1,26 +1,530 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-   <e>
-      <lg>
-         <l pos="A">баддя-ловпуа</l>
-         <stg>
-            <st Contlex="Adj">баддя-ловпуа</st>
-         </stg>
-      </lg>
-      <pos>A</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="rus">
-            <t>заросший ивой и ольхой</t>
-         </tg>
-         <xg>
-            <x>баддя-ловпуа діяс</x>
-            <xt xml:lang="rus">островки, заросшие ивой и ольхой</xt>
-         </xg>
-      </mg>
-   </e>
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+  <e>
+    <lg>
+      <l pos="A">буланӧй гӧна</l>
+
+      <stg>
+        <st Contlex="A_">буланӧй гӧна</st>
+      </stg>
+    </lg>
+
+    <pos>Phrase_A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="rus">
+        <t>буланой масти</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">бука плеша</l>
+
+      <stg>
+        <st Contlex="A_">бука плеша</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="rus">
+        <t>нахмуренный, насупленный, с нахмуренным лбом</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">батьыс пертаса</l>
+
+      <stg>
+        <st Contlex="A_">батьыс пертаса</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="rus">
+        <t>похожий внешностью на отца</t>
+      </tg>
+
+      <xg>
+        <x>батьыс пертаса ныв</x>
+
+        <xt xml:lang="rus">девочка, похожая внешностью на отца</xt>
+      </xg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">асшӧр вежӧртаса</l>
+
+      <stg>
+        <st Contlex="A_">асшӧр вежӧртаса</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="rus">
+        <tCtn>
+          <t>знаменательный</t>
+
+          <re>о частях речи</re>
+        </tCtn>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ас вӧлятӧм</l>
+
+      <stg>
+        <st Contlex="A_">ас вӧлятӧм</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="rus">
+        <t>зависимый</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ас дінӧ кыскана</l>
+
+      <stg>
+        <st Contlex="A_">ас дінӧ кыскана</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="rus">
+        <t>привлекательный</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ас кежся</l>
+
+      <stg>
+        <st Contlex="A_">ас кежся</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="rus">
+        <t>без посторонних, наедине</t>
+      </tg>
+
+      <xg>
+        <x>ас ас кежся сёрни</x>
+
+        <xt xml:lang="rus">разговор наедине</xt>
+      </xg>
+
+      <xg>
+        <x>ас ас кежся тыв</x>
+
+        <xt xml:lang="rus">индивидуальная сеть</xt>
+      </xg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">арсянь кӧдзан</l>
+
+      <stg>
+        <st Contlex="A_">арсянь кӧдзан</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg>
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ар джынъя</l>
+
+      <stg>
+        <st Contlex="A_">ар джынъя</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg>
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">акцизнӧй маркатӧм</l>
+
+      <stg>
+        <st Contlex="A_">акцизнӧй маркатӧм</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg>
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">айршырскӧй пӧрӧдаа</l>
+
+      <stg>
+        <st Contlex="A_">айршырскӧй пӧрӧдаа</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg>
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">ад горш</l>
+
+      <stg>
+        <st Contlex="A_">ад горш</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="rus">
+        <t>ненасытное горло, прорва</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">авария бырӧдан</l>
+
+      <stg>
+        <st Contlex="A_">авария бырӧдан</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg>
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">август тӧлысся</l>
+
+      <stg>
+        <st Contlex="A_">август тӧлысся</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="rus">
+        <t>августовский</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="A">абу коммерческӧй</l>
+
+      <stg>
+        <st Contlex="A_">абу коммерческӧй</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg>
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="A">абу кувтӧм</l>
+
+      <stg>
+        <st Contlex="A_">абу кувтӧм</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg>
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">абача кодь</l>
+
+      <stg>
+        <st Contlex="A_">абача кодь</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg>
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">Полярнӧй кытшсайса</l>
+
+      <stg>
+        <st Contlex="A_">Полярнӧй кытшсайса</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg>
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">гӧж киа</l>
+
+      <stg>
+        <st Contlex="A_">гӧж киа</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="rus">
+        <t>неуклюжий</t>
+
+        <t>с мёрзлыми руками</t>
+      </tg>
+
+      <xg>
+        <x>гӧж киа тӧрӧкан кодь</x>
+
+        <xt xml:lang="rus">нерасторопный</xt>
+
+        <xt tType="literal" xml:lang="rus">зябкий как таракан</xt>
+      </xg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">гӧгрӧс чужӧма</l>
+
+      <stg>
+        <st Contlex="A_">гӧгрӧс чужӧма</st>
+      </stg>
+    </lg>
+
+    <pos>Phrase_A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="rus">
+        <t>круглолицый</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">гӧгрӧс лотшака</l>
+
+      <stg>
+        <st Contlex="A_">гӧгрӧс лотшака</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="rus">
+        <t/>
+      </tg>
+
+      <xg>
+        <x>гӧгрӧс лотшака чусу</x>
+
+        <xt xml:lang="rus">серьги с круглой подвеской</xt>
+      </xg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">баддя-ловпуа</l>
+
+      <stg>
+        <st Contlex="Adj">баддя-ловпуа</st>
+      </stg>
+    </lg>
+
+    <pos>A</pos>
+
+    <mg>
+      <m>
+        <head/>
+      </m>
+
+      <tg xml:lang="rus">
+        <t>заросший ивой и ольхой</t>
+      </tg>
+
+      <xg>
+        <x>баддя-ловпуа діяс</x>
+
+        <xt xml:lang="rus">островки, заросшие ивой и ольхой</xt>
+      </xg>
+    </mg>
+  </e>
 </r>
