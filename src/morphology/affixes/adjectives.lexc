@@ -4,34 +4,52 @@
 
 !! Continuation lexicon has been assigned according to <pos/> content
 
-!LEXICON AdjTag
-! Adj ;
-LEXICON A_
- Adj ;
+
+LEXICON A_RU-ӦЙ
++Use/SpellNoSugg: A_ ;
+
+LEXICON Adj
+ A_ ;
+
+LEXICON A-IS_INE-MOD-СА
++Der/са+IneMod: A_ ;
+LEXICON A-IS_COMP-MOD-КОДЬ
++Der/кодь+CompMod: A_ ;
+LEXICON A-IS_ABE-MOD-ТӦМ
++Der/тӧм+AbeMod: A_ ;
+LEXICON A-IS_HAB-OBJ-MOD-А
++Der/а+HabObjMod: A_ ;
+LEXICON A-IS_TEMP-MOD-СЯ
++Der/ся+TempMod: A_ ;
 
 LEXICON Adj-IS_PTC-TOM ! 2011-11-15 participle = derivation type; 
-+V+Der/тӧм: Adj ;
++V+Der/тӧм: A_ ;
 
 LEXICON Adj-IS_PTC-YSJ
-+V+Der/ысь: Adj ;
++V+Der/ысь: A_ ;
 
 LEXICON Adj-IS_PTC-ANA !
-+V+Der/ана: Adj ;
++V+Der/ана: A_ ;
+
+LEXICON A-IS_DIM-НИК
++A+Der/Иник: A_ ;
 
 LEXICON Adj-IS_TOM
-+N+Der/тӧм: Adj ;
+ A-IS_TOM ;
+LEXICON A-IS_TOM
++N+Der/тӧм: A_ ;
 
 LEXICON Adj-IS_SUPERL !
-+Superl: Adj ;
++Superl: A_ ;
 
 LEXICON Adj-SUPERL !
-+Superl: Adj ;
++Superl: A_ ;
 
 LEXICON A-PRED ! ӧбиднӧ
 +A+Pred: WordEnd ; !
 
 
-LEXICON Adj
+LEXICON A_
 +A: AdjCompar ;
 +A+Der/лун:%>лун Noun1 ; !Derivational suffix for A-N
 +A+Der/а:%>а ADV_ ; ! Derivation for adjective-to-adverb

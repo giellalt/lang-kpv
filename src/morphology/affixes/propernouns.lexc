@@ -119,13 +119,13 @@ LEXICON Prop-kudo_fem
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
-LEXICON Prop-Plc ! Inanimate proper nouns. Place names
+LEXICON PROP-PLC ! Inanimate proper nouns. Place names
 +N+Prop+Plc+Sg: CASEPOSSLEX ;
 
-LEXICON Prop-Plc-Rus ! Inanimate proper nouns. Place names
+LEXICON PROP-PLC-RUS ! Inanimate proper nouns. Place names
 +N+Prop+Plc+Src/F+Sg: CASEPOSSLEX ;
 
-LEXICON Prop-Org ! Inanimate proper nouns. Name of organization
+LEXICON PROP-ORG ! Inanimate proper nouns. Name of organization
 +N+Prop+Org+Sg: CASEPOSSLEX ;
 
 LEXICON Prop-Sur-Mal ! Basic nouns.
@@ -137,7 +137,7 @@ LEXICON PROP-MAL ! Male given names
 LEXICON Prop-Sur-Fem ! Basic nouns.
 +N+Prop+Sur+Fem+Sg: CASEPOSSLEX ;
 
-LEXICON Prop-Fem ! Female given names
+LEXICON PROP-FEM ! Female given names
 +N+Prop+Fem+Sg: CASEPOSSLEX ;
 
 
