@@ -4,6 +4,93 @@
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+   <e>
+      <lg>
+         <l pos="A">жар</l>
+         <stg>
+            <st Contlex="A_">жар</st>
+         </stg>
+      </lg>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>жаркий</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t>жарко</t>
+         </tg>
+         <xg>
+            <x>жар лун</x>
+            <xt xml:lang="rus">жаркий день</xt>
+         </xg>
+         <xg>
+            <x>жар пывсян</x>
+            <xt xml:lang="rus">жаркая баня</xt>
+         </xg>
+         <xg>
+            <x>жар сынӧд</x>
+            <xt xml:lang="rus">жаркий воздух</xt>
+         </xg>
+         <xg>
+            <x>керкаыс жар</x>
+            <xt xml:lang="rus">в доме жарко</xt>
+         </xg>
+         <xg>
+            <x>талун жар</x>
+            <xt xml:lang="rus">сегодня жарко</xt>
+         </xg>
+      </mg>
+</e>
+   <e>
+      <lg>
+         <l pos="A">долыд</l>
+         <stg>
+            <st Contlex="A_">долыд</st>
+         </stg>
+      </lg>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t pos="A">радостый, весёлый, жизнерадостный</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="ADV">радостно, весело</t>
+         </tg>
+         <xg>
+            <x>зэв долыд морт</x>
+            <xt xml:lang="rus">очень жизнерадостный человек</xt>
+         </xg>
+         <xg>
+            <x>долыд олӧм</x>
+            <xt xml:lang="rus">радостная жизнь</xt>
+         </xg>
+         <xg>
+            <x>меным талун зэв долыд</x>
+            <xt xml:lang="rus">мне сегодня очень весело</xt>
+         </xg>
+         <xg>
+            <x>сьӧлӧм вылын кокни да долыд</x>
+            <xt xml:lang="rus">на сердце легко и радостно</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head>
+               <range rangeSpat="dialect"/>
+            </head>
+         </m>
+         <tg xml:lang="rus">
+            <tCtn>
+               <t>ходкий, быстроходный</t>
+               <re>о лодке</re>
+            </tCtn>
+         </tg>
+      </mg>
+   </e>
   <e>
     <lg>
       <l pos="A">Российскӧй</l>
@@ -32850,6 +32937,180 @@
     </mg>
   </e>
 
+   <e>
+      <lg>
+         <l pos="A">ёсь</l>
+         <stg>
+            <st Contlex="A_">ёсь</st>
+         </stg>
+      </lg>
+      <mg No="1">
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <tCtn>
+               <t>острый</t>
+               <re>о конце</re>
+            </tCtn>
+         </tg>
+         <tg xml:lang="rus">
+            <t>заострённый</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="A">остриё</t>
+         </tg>
+         <xg>
+            <x>ёсь вугыр</x>
+            <xt xml:lang="rus">острый крючок</xt>
+         </xg>
+         <xg>
+            <x>ёсь гыжъя</x>
+            <xt xml:lang="rus">с острыми когтями</xt>
+         </xg>
+         <xg>
+            <x>ёсь йыла</x>
+            <xt xml:lang="rus">островерхий</xt>
+         </xg>
+         <xg>
+            <x>ёсь ныра</x>
+            <xt xml:lang="rus">остроносый</xt>
+            <xt xml:lang="rus">остроклювый</xt>
+         </xg>
+         <xg>
+            <x>ёсь ныр-вома</x>
+            <xt xml:lang="rus">с острой мордой</xt>
+         </xg>
+         <xg>
+            <x>ёсь пельпом</x>
+            <xt xml:lang="rus">острые плечи</xt>
+         </xg>
+         <xg>
+            <x>ёсь пинь</x>
+            <xt xml:lang="rus">острые зубы</xt>
+         </xg>
+         <xg>
+            <x>ёсь пиня агас</x>
+            <xt xml:lang="rus">борона с острыми зубьями</xt>
+         </xg>
+         <xg>
+            <x>ёсь пурт</x>
+            <xt xml:lang="rus">нож с острым концом</xt>
+         </xg>
+         <xg>
+            <x>ёсь юра керка</x>
+            <xt xml:lang="rus">островерхий дом</xt>
+            <xt xml:lang="rus">дом с двускатной крутой крышей</xt>
+         </xg>
+         <xg>
+            <x>башня ёсь</x>
+            <xt xml:lang="rus">остриё башни</xt>
+         </xg>
+         <xg>
+            <x>сюрыслысь ёсьсӧ тшӧтшӧдны</x>
+            <xt xml:lang="rus">обрезать, спилить острые концы рогов</xt>
+         </xg>
+      </mg>
+      <mg No="2">
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>резкий</t>
+         </tg>
+         <xg>
+            <x>ёсь гӧлӧс</x>
+            <xt xml:lang="rus">резкий голос</xt>
+         </xg>
+         <xg>
+            <x>ёсь тӧв</x>
+            <xt xml:lang="rus">резкий ветер</xt>
+         </xg>
+      </mg>
+      <mg No="3">
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>острый, зоркий</t>
+         </tg>
+         <xg>
+            <x>ёсь видзӧдлас</x>
+            <xt xml:lang="rus">пронизывающий взгляд</xt>
+         </xg>
+         <xg>
+            <x>ёсь пель</x>
+            <xt xml:lang="rus">изощрённый слух</xt>
+         </xg>
+         <xg>
+            <x>ёсь син</x>
+            <xt xml:lang="rus">зоркий глаз</xt>
+            <xt xml:lang="rus">острый взгляд</xt>
+         </xg>
+      </mg>
+      <mg No="4">
+         <m>
+            <head/>
+         </m>
+         <tg xml:lang="rus">
+            <t>дерзкий</t>
+         </tg>
+         <xg>
+            <x>ёсь кывъя</x>
+            <xt xml:lang="rus">острый на язык</xt>
+         </xg>
+         <xg>
+            <x>ёсь</x>
+            <xt xml:lang="rus">острый на язык</xt>
+         </xg>
+         <xg>
+            <x>ёсь син</x>
+            <xt xml:lang="rus">дерзкий взгляд</xt>
+         </xg>
+         <xg>
+            <x>ёсь синма</x>
+            <xt xml:lang="rus">с вызывающим видом</xt>
+         </xg>
+         <xg>
+            <x>нылыс ёсь , мамыс кодь жӧ</x>
+            <xt xml:lang="rus">дочка языкаста, в мать</xt>
+         </xg>
+      </mg>
+      <mg No="5">
+         <m>
+            <head>
+               <sense sense="figurative"/>
+            </head>
+         </m>
+         <tg xml:lang="rus">
+            <t>едкий</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t>язвительный</t>
+         </tg>
+         <xg>
+            <x>ёсь шутка</x>
+            <xt xml:lang="rus">а) солёная шутка</xt>
+            <xt xml:lang="rus">б) остроумная шутка</xt>
+         </xg>
+         <xg>
+            <x>ёсь фельетон</x>
+            <xt xml:lang="rus">язвительный фельетон</xt>
+         </xg>
+         <xg>
+            <x>ёсь пуртӧн керыштӧм кодь</x>
+            <xtCtn>
+               <xt xml:lang="rus">как нож острый</xt>
+               <re>для кого-л.</re>
+            </xtCtn>
+         </xg>
+         <xg>
+            <x>ёсь чуня</x>
+            <xt xml:lang="rus">чёрт</xt>
+            <xt tType="literal" xml:lang="rus">с острыми пальцами</xt>
+         </xg>
+      </mg>
+   </e>
   <e>
     <lg>
       <l pos="A">идӧртӧм</l>

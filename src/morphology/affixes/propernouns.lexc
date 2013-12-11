@@ -97,10 +97,10 @@ LEXICON Prop-Derivable
 
 
 !This might need some working on 2012-01-23
-LEXICON Prop-Mal-Derivable !Patronyms
+LEXICON PROP-MAL-DERIVABLE !Patronyms
 ович+N+Prop+Patr+Mal+Sg:%>ович CASEPOSSLEX ; ! Владимирович
 овна+N+Prop+Patr+Fem+Sg:%>овна CASEPOSSLEX ; ! Владимировна
- Prop-Mal ; ! Владимир
+ PROP-MAL ; ! Владимир
 
 !! FEMALE NAMES FROM TEMPLATE
 LEXICON Prop-kal_fem
@@ -131,7 +131,7 @@ LEXICON Prop-Org ! Inanimate proper nouns. Name of organization
 LEXICON Prop-Sur-Mal ! Basic nouns.
 +N+Prop+Sur+Mal+Sg: CASEPOSSLEX ;
 
-LEXICON Prop-Mal ! Male given names
+LEXICON PROP-MAL ! Male given names
 +N+Prop+Mal+Sg: CASEPOSSLEX ;
 
 LEXICON Prop-Sur-Fem ! Basic nouns.
