@@ -121,11 +121,11 @@ LEXICON Prop-kudo_fem
 
 LEXICON PROP-PLC ! Inanimate proper nouns. Place names
 +N+Prop+Plc+Sg: CASEPOSSLEX ;
-+N+Prop+Plc+Der/са: A_ ;
+!+N+Prop+Plc+Der/са: A_ ; !!= @CODE@ This requires down-casing
 
 LEXICON PROP-PLC-RUS ! Inanimate proper nouns. Place names
 +N+Prop+Plc+Src/F+Sg: CASEPOSSLEX ;
-+N+Prop+Plc+Src/F+Der/са: A_ ;
+!+N+Prop+Plc+Src/F+Der/са: A_ ; !!= @CODE@ This requires down-casing
 
 LEXICON PROP-ORG ! Inanimate proper nouns. Name of organization
 +N+Prop+Org+Sg: CASEPOSSLEX ;
