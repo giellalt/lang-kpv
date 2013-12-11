@@ -2,19 +2,23 @@
 <hfstspeller dtdversion="1.0" hfstversion="3">
   <info>
     <locale>kpv</locale>
-    <title>Giellatekno/divvun/UiT morphological analyser-based speller (Komi-Zyrian)</title>
-    <description>
+    <title>Giellatekno/Divvun/UiT fst-based speller for Komi-Zyrian</title>
+    <description>This is an fst-based speller for Komi-Zyrian. It is based
+    on the normative subset of the morphological analyser for Komi-Zyrian.
+    The source code can be found at:
+    https://victorio.uit.no/langtech/trunk/langs/kpv/
+    License: GPL3+.
     </description>
     <version vcsrev="GT_REVISION">GT_VERSION</version>
     <date>DATE</date>
-    <producer>giellatekno/divvun/UiT contributors</producer>
-    <contact email="bugs@divvun.no" 
+    <producer>giellatekno/Divvun/UiT contributors</producer>
+    <contact email="feedback@divvun.no" 
         website="http://divvun.no"/>
   </info>
   <acceptor type="general" id="acceptor.default.hfst">
-    <title>Giellatekno/divvun/UiT dictionary Komi-Zyrian</title>
+    <title>Giellatekno/Divvun/UiT dictionary Komi-Zyrian</title>
     <description>
-        Giellatekno/divvun/UiT dictionary for Komi-Zyrian compiled for HFST.
+        Giellatekno/Divvun/UiT dictionary for Komi-Zyrian compiled for HFST.
     </description>
   </acceptor>
   <errmodel id="errmodel.default.hfst">
