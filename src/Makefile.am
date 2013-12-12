@@ -39,6 +39,8 @@ GT_TRANSFORMERS_XFST=transcriptor-clock2text-desc.xfst \
 
 if WANT_DICTIONARIES
 GT_ANALYSERS_XFST+=analyser-dict-gt-desc.xfst \
+					analyser-dict-gt-desc-mobile.xfst \
+					analyser-dict-gt-desc-molotsov.xfst \
 					analyser-dict-gt-norm.xfst
 GT_GENERATORS_XFST+=generator-dict-gt-norm.xfst \
 					generator-dict-gt-desc.xfst
@@ -108,6 +110,16 @@ endif
 analyser-mt-%.und.hfst: analyser-mt-%.tmp.hfst
 	$(AM_V_GEN)$(HFST_INVERT) $< \
 		| $(HFST_FST2FST) $(HFST_FLAGS) -t -o $@
+
+analyser-dict-gt-desc-molotsov.tmp.xfst: analyser-dict-gt-desc.tmp.xfst \
+					orthography/spellrelax-molotsov-keyboard.xfst
+	$(AM_V_GEN)$(PRINTF) "read regex                              \
+			    @\"$<\" \
+			.o. @\"orthography/spellrelax-molotsov-keyboard.xfst\" \
+			;\n\
+		 save stack $@\n\
+		 quit\n" | $(XFST)
+
 
 ##################################################################
 #### END: Add local processing instructions ABOVE this line ######
