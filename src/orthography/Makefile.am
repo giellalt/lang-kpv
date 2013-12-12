@@ -8,7 +8,8 @@
 GT_ORTHOGRAPHIC_SRCS=inituppercase.regex \
 					 allcaps.xfscript    \
 					 spellrelax.regex    \
-					 spellrelax-mobile-keyboard.regex
+					 spellrelax-mobile-keyboard.regex \
+					 spellrelax-molotsov-keyboard.regex
 
 ####### Automake targets: ########
 
@@ -17,13 +18,15 @@ if CAN_HFST
 GT_ORTHOGRAPHIC_FSTS+=allcaps.hfst \
 					  inituppercase.hfst \
 					  spellrelax.hfst \
-					  spellrelax-mobile-keyboard.hfst
+					  spellrelax-mobile-keyboard.hfst \
+					  spellrelax-molotsov-keyboard.hfst
 endif
 if CAN_XFST
 GT_ORTHOGRAPHIC_FSTS+=allcaps.xfst \
 					  inituppercase.xfst \
 					  spellrelax.xfst \
-					  spellrelax-mobile-keyboard.xfst
+					  spellrelax-mobile-keyboard.xfst \
+					  spellrelax-molotsov-keyboard.xfst
 endif
 
 include $(top_srcdir)/am-shared/orthography-include.am
