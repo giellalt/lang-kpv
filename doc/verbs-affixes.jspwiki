@@ -16,10 +16,13 @@
 Some Flag diacritic lines are with regexes, other with aligned zeros. We want to migrate to
 regexes < … > , for readability reasons (sic!)
 
+ LEXICON V_ЛОКНЫ  One verb only, локны:лок
 
 
 
+ LEXICON V_ШУНЫ  шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
 
+ LEXICON V_ЛЫДДЬЫНЫ  лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
 
 
 
@@ -64,7 +67,7 @@ regexes < … > , for readability reasons (sic!)
 
 verb-to-verb
 
-This is fed by LEXICON Verb-ny, and therefore certain corrections
+This is fed by LEXICON V_ШУНЫ, and therefore certain corrections
 must be made 2012-01-18
 
 овсьыны
