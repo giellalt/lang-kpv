@@ -49,7 +49,7 @@ LEXICON VERBNEGATIVE
 !! Some Flag diacritic lines are with regexes, other with aligned zeros. We want to migrate to
 !! regexes < … > , for readability reasons (sic!)
 
-LEXICON Verb-lokny ! One verb only, локны
+LEXICON V_ЛОКНЫ !!= @CODE@ One verb only, локны:лок
 +V+Inf@U.CONJ-INF.YES@:%>ны@U.CONJ-INF.YES@ VerbEnd-Comparison ;
 +V+Inf+Px10@U.CONJ-INF.YES@@U.CONJ-POSS.1@:%>ным@U.CONJ-INF.YES@@U.CONJ-POSS.1@ VerbEnd-Comparison ;
 +V+Inf+Px20@U.CONJ-INF.YES@@U.CONJ-POSS.2@:%>ныд@U.CONJ-INF.YES@@U.CONJ-POSS.2@ VerbEnd-Comparison ;
@@ -65,14 +65,14 @@ LEXICON Verb-lokny ! One verb only, локны
 
 
 
-LEXICON Verb-ny ! янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+LEXICON V_ШУНЫ !!= @CODE@ шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
 +V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@ Verb-nyDer ; !
 +V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@ VerbDer ; !
 +V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@ VerbDer-V ; !
 +V: VerbConj ; !а
 +V: VerbConj-V ; !б
 
-LEXICON Verb-yny ! ярмыны. Multiple-syllable verb ending in -ыны.
+LEXICON V_ЛЫДДЬЫНЫ !!= @CODE@ лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
 +V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@ Verb-ynyDer ; !
 +V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@ VerbDer ; !
 +V@U.CONJ-INF.YES@:ы@U.CONJ-INF.YES@ VerbDer-V ; !
@@ -236,29 +236,29 @@ LEXICON Verb-nyDer !!= @CODE@
 
 !! verb-to-verb
 
-!! This is fed by LEXICON Verb-ny, and therefore certain corrections
+!! This is fed by LEXICON V_ШУНЫ, and therefore certain corrections
 !! must be made 2012-01-18
 
-+Der/лы0@C.CONJ-INF@@C.CONJ-POSS@:%>л@C.CONJ-INF@@C.CONJ-POSS@  Verb-yny ; !!босьтлыны
-+Der/лывлы0000@C.CONJ-INF@@C.CONJ-POSS@:%>лывл@C.CONJ-INF@@C.CONJ-POSS@ Verb-yny ; !!босьтлывлыны
-+Der/сьы00@C.CONJ-INF@@C.CONJ-POSS@:%>сь@C.CONJ-INF@@C.CONJ-POSS@ Verb-yny ; !! овсьыны
-+Der/сьы+Der/ышт0000@C.CONJ-INF@@C.CONJ-POSS@:%>сьышт@C.CONJ-INF@@C.CONJ-POSS@ Verb-ny ; !!вежсьыштны
-+Der/сьы+Der/ышт+Der/лывлы0000000@C.CONJ-INF@@C.CONJ-POSS@:%>сьыштлывл@C.CONJ-INF@@C.CONJ-POSS@ Verb-yny ; !! пусьыштлывлыны
-+Der/сьы+Der/ышт+Der/лы0000@C.CONJ-INF@@C.CONJ-POSS@:%>сьыштл@C.CONJ-INF@@C.CONJ-POSS@ Verb-yny ; !!?? пусьыштлыны
++Der/лы0@C.CONJ-INF@@C.CONJ-POSS@:%>л@C.CONJ-INF@@C.CONJ-POSS@  V_ЛЫДДЬЫНЫ ; !!босьтлыны
++Der/лывлы0000@C.CONJ-INF@@C.CONJ-POSS@:%>лывл@C.CONJ-INF@@C.CONJ-POSS@ V_ЛЫДДЬЫНЫ ; !!босьтлывлыны
++Der/сьы00@C.CONJ-INF@@C.CONJ-POSS@:%>сь@C.CONJ-INF@@C.CONJ-POSS@ V_ЛЫДДЬЫНЫ ; !! овсьыны
++Der/сьы+Der/ышт0000@C.CONJ-INF@@C.CONJ-POSS@:%>сьышт@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !!вежсьыштны
++Der/сьы+Der/ышт+Der/лывлы0000000@C.CONJ-INF@@C.CONJ-POSS@:%>сьыштлывл@C.CONJ-INF@@C.CONJ-POSS@ V_ЛЫДДЬЫНЫ ; !! пусьыштлывлыны
++Der/сьы+Der/ышт+Der/лы0000@C.CONJ-INF@@C.CONJ-POSS@:%>сьыштл@C.CONJ-INF@@C.CONJ-POSS@ V_ЛЫДДЬЫНЫ ; !!?? пусьыштлыны
 ! зь:зь  !!югзьыны
 ! Why do the suffixes above have ">" marking
 ! while the ones below do not?
-+Der/чы@C.CONJ-INF@@C.CONJ-POSS@:ч@C.CONJ-INF@@C.CONJ-POSS@ Verb-yny ; !!босьтчыны
-+Der/чы+Der/л0@C.CONJ-INF@@C.CONJ-POSS@:чыл@C.CONJ-INF@@C.CONJ-POSS@ Verb-ny ; !!дӧзмӧдчывны
-+Der/чы+Der/ышт+Der/лы00@C.CONJ-INF@@C.CONJ-POSS@:чыштл@C.CONJ-INF@@C.CONJ-POSS@ Verb-yny ; !!босьтчыштлыны
-+Der/чы+Der/ышт+Der/лывлы00000@C.CONJ-INF@@C.CONJ-POSS@:чыштлывл@C.CONJ-INF@@C.CONJ-POSS@ Verb-yny ; !! босьтчыштлывлыны
-+Der/ышт+Der/лы00@C.CONJ-INF@@C.CONJ-POSS@:ыштл@C.CONJ-INF@@C.CONJ-POSS@ Verb-yny ;   !!сёйыштлыны
-+Der/ышт+Der/лывлы00000@C.CONJ-INF@@C.CONJ-POSS@:ыштлывл@C.CONJ-INF@@C.CONJ-POSS@ Verb-yny ;  !!сёйыштлывлыны
-+Der/ышт00@C.CONJ-INF@@C.CONJ-POSS@:ышт@C.CONJ-INF@@C.CONJ-POSS@ Verb-ny ; !!сёйыштны
-+Der/чы+Der/ышт00@C.CONJ-INF@@C.CONJ-POSS@:чышт@C.CONJ-INF@@C.CONJ-POSS@ Verb-ny ; !!босьтчыштны
-+Der/ал0@C.CONJ-INF@@C.CONJ-POSS@:ал@C.CONJ-INF@@C.CONJ-POSS@ Verb-ny ; !!сетавны
-+Der/овт00@C.CONJ-INF@@C.CONJ-POSS@:овт@C.CONJ-INF@@C.CONJ-POSS@ Verb-ny ; !!пановтны
-+Der/ась00@C.CONJ-INF@@C.CONJ-POSS@:ась@C.CONJ-INF@@C.CONJ-POSS@ Verb-ny ; !! босьтасьны
++Der/чы@C.CONJ-INF@@C.CONJ-POSS@:ч@C.CONJ-INF@@C.CONJ-POSS@ V_ЛЫДДЬЫНЫ ; !!босьтчыны
++Der/чы+Der/л0@C.CONJ-INF@@C.CONJ-POSS@:чыл@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !!дӧзмӧдчывны
++Der/чы+Der/ышт+Der/лы00@C.CONJ-INF@@C.CONJ-POSS@:чыштл@C.CONJ-INF@@C.CONJ-POSS@ V_ЛЫДДЬЫНЫ ; !!босьтчыштлыны
++Der/чы+Der/ышт+Der/лывлы00000@C.CONJ-INF@@C.CONJ-POSS@:чыштлывл@C.CONJ-INF@@C.CONJ-POSS@ V_ЛЫДДЬЫНЫ ; !! босьтчыштлывлыны
++Der/ышт+Der/лы00@C.CONJ-INF@@C.CONJ-POSS@:ыштл@C.CONJ-INF@@C.CONJ-POSS@ V_ЛЫДДЬЫНЫ ;   !!сёйыштлыны
++Der/ышт+Der/лывлы00000@C.CONJ-INF@@C.CONJ-POSS@:ыштлывл@C.CONJ-INF@@C.CONJ-POSS@ V_ЛЫДДЬЫНЫ ;  !!сёйыштлывлыны
++Der/ышт00@C.CONJ-INF@@C.CONJ-POSS@:ышт@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !!сёйыштны
++Der/чы+Der/ышт00@C.CONJ-INF@@C.CONJ-POSS@:чышт@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !!босьтчыштны
++Der/ал0@C.CONJ-INF@@C.CONJ-POSS@:ал@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !!сетавны
++Der/овт00@C.CONJ-INF@@C.CONJ-POSS@:овт@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !!пановтны
++Der/ась00@C.CONJ-INF@@C.CONJ-POSS@:ась@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !! босьтасьны
 
  
 LEXICON VerbDer !!= @CODE@ 
@@ -322,45 +322,45 @@ LEXICON Verb-ynyDer
 ! The source stems have no stem vowel "ы", and therefore
 ! dervational suffixes come with an onset vowel
 
-+Der/ышт+Dim0@C.CONJ-INF@@C.CONJ-POSS@:ышт@C.CONJ-INF@@C.CONJ-POSS@ Verb-ny ; !!кольмыштны
++Der/ышт+Dim0@C.CONJ-INF@@C.CONJ-POSS@:ышт@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !!кольмыштны
 !+V+Der/ышт+Dim+V:%>ышт  VerbConj ;
 !+V+Der/ышт+Dim+V+Inf:%>ыштны K ;
 !+V+Der/ышт+Dim+V+ConNeg0@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ыштны@U.CONJ-CONNEG.YES@0@U.CONJ-NX.PL@@U.CONJ-PX.3@ WordEnd ;
 !+V+Der/ышт+Dim+V+ConNeg@U.CONJ-CONNEG.YES@:%>ышт0@U.CONJ-CONNEG.YES@ WordEnd ;
 !+V+Der/ышт+Dim+V+Imprt+Sg2:%>ышт WordEnd ;
 
-+Der/ышт+Dim+Der/лы0@C.CONJ-INF@@C.CONJ-POSS@:ыштл@C.CONJ-INF@@C.CONJ-POSS@ Verb-yny ;   !!??кольмыштлыны
++Der/ышт+Dim+Der/лы0@C.CONJ-INF@@C.CONJ-POSS@:ыштл@C.CONJ-INF@@C.CONJ-POSS@ V_ЛЫДДЬЫНЫ ;   !!??кольмыштлыны
 !+V+Der/ышт+Dim+V+Der/лы+V:%>ыштл  VerbConj ;
 !+V+Der/ышт+Dim+V+Der/лы+V+Inf:%>ыштлыны K ;
 !+V+Der/ышт+Dim+V+Der/лы+V+ConNeg0@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ыштлыны@U.CONJ-CONNEG.YES@0@U.CONJ-NX.PL@@U.CONJ-PX.3@ WordEnd ;
 !+V+Der/ышт+Dim+V+Der/лы+V+ConNeg@U.CONJ-CONNEG.YES@:%>ыштл00@U.CONJ-CONNEG.YES@ WordEnd ;
 !+V+Der/ышт+Dim+V+Der/лы+V+Imprt+Sg2:%>ыштл WordEnd ;
 
-+Der/ышт+Dim+Der/лывлы0000@C.CONJ-INF@@C.CONJ-POSS@:ыштлывл@C.CONJ-INF@@C.CONJ-POSS@ Verb-yny ;  !!??кольмыштлывлыны
++Der/ышт+Dim+Der/лывлы0000@C.CONJ-INF@@C.CONJ-POSS@:ыштлывл@C.CONJ-INF@@C.CONJ-POSS@ V_ЛЫДДЬЫНЫ ;  !!??кольмыштлывлыны
 
-+Der/л0@C.CONJ-INF@@C.CONJ-POSS@:ыл@C.CONJ-INF@@C.CONJ-POSS@ Verb-ny ;  !!тшӧктывны
++Der/л0@C.CONJ-INF@@C.CONJ-POSS@:ыл@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ;  !!тшӧктывны
 
-+Der/лывлы00@C.CONJ-INF@@C.CONJ-POSS@:ывл@C.CONJ-INF@@C.CONJ-POSS@ Verb-yny ; !!тшӧктывлыны
++Der/лывлы00@C.CONJ-INF@@C.CONJ-POSS@:ывл@C.CONJ-INF@@C.CONJ-POSS@ V_ЛЫДДЬЫНЫ ; !!тшӧктывлыны
 !+V+Der/ывлы+V:%>ывл VerbConj ; ! мынтывл - мынтывлан
 !+V+Der/ывлы+V+Inf:%>ывлыны K ;
 !+V+Der/ывлы+V+ConNeg000@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ывлыны@U.CONJ-CONNEG.YES@0@U.CONJ-NX.PL@@U.CONJ-PX.3@ WordEnd ;
 !+V+Der/ывлы+V+ConNeg0@U.CONJ-CONNEG.YES@:%>ывлы@U.CONJ-CONNEG.YES@ WordEnd ;
 !+V+Der/ывлы+V+Imprt+Sg2:%>ывлы WordEnd ;
 
-+Der/сьы00@C.CONJ-INF@@C.CONJ-POSS@:ысь@C.CONJ-INF@@C.CONJ-POSS@ Verb-yny ; !! вевттьысьыны
-+Der/сь+Der/ышт+Dim000@C.CONJ-INF@@C.CONJ-POSS@:ысьышт@C.CONJ-INF@@C.CONJ-POSS@ Verb-ny ; !!лэптысьыштны
-+Der/сьы+Der/ышт+Der/лывлы0000000@C.CONJ-INF@@C.CONJ-POSS@:ысьыштлывл@C.CONJ-INF@@C.CONJ-POSS@ Verb-yny ; !!?? вевттьысьыштлывлыны
-+Der/сьы+Der/ышт+Der/лы0000@C.CONJ-INF@@C.CONJ-POSS@:ысьыштл@C.CONJ-INF@@C.CONJ-POSS@ Verb-yny ; !!лэптысьыштлыны
-+Der/сь+Der/л00@C.CONJ-INF@@C.CONJ-POSS@:ысьл@C.CONJ-INF@@C.CONJ-POSS@ Verb-yny ; !!кутчысьлыны
++Der/сьы00@C.CONJ-INF@@C.CONJ-POSS@:ысь@C.CONJ-INF@@C.CONJ-POSS@ V_ЛЫДДЬЫНЫ ; !! вевттьысьыны
++Der/сь+Der/ышт+Dim000@C.CONJ-INF@@C.CONJ-POSS@:ысьышт@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !!лэптысьыштны
++Der/сьы+Der/ышт+Der/лывлы0000000@C.CONJ-INF@@C.CONJ-POSS@:ысьыштлывл@C.CONJ-INF@@C.CONJ-POSS@ V_ЛЫДДЬЫНЫ ; !!?? вевттьысьыштлывлыны
++Der/сьы+Der/ышт+Der/лы0000@C.CONJ-INF@@C.CONJ-POSS@:ысьыштл@C.CONJ-INF@@C.CONJ-POSS@ V_ЛЫДДЬЫНЫ ; !!лэптысьыштлыны
++Der/сь+Der/л00@C.CONJ-INF@@C.CONJ-POSS@:ысьл@C.CONJ-INF@@C.CONJ-POSS@ V_ЛЫДДЬЫНЫ ; !!кутчысьлыны
 
-+Der/ал0@C.CONJ-INF@@C.CONJ-POSS@:ал@C.CONJ-INF@@C.CONJ-POSS@ Verb-ny ; !!бергӧдчавны
-+Der/ал+Der/лы0@C.CONJ-INF@@C.CONJ-POSS@:авл@C.CONJ-INF@@C.CONJ-POSS@ Verb-yny ; !!бергӧдчавлыны
-+Der/ась00@C.CONJ-INF@@C.CONJ-POSS@:ась@C.CONJ-INF@@C.CONJ-POSS@ Verb-ny ; !! бертласьны
++Der/ал0@C.CONJ-INF@@C.CONJ-POSS@:ал@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !!бергӧдчавны
++Der/ал+Der/лы0@C.CONJ-INF@@C.CONJ-POSS@:авл@C.CONJ-INF@@C.CONJ-POSS@ V_ЛЫДДЬЫНЫ ; !!бергӧдчавлыны
++Der/ась00@C.CONJ-INF@@C.CONJ-POSS@:ась@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !! бертласьны
 
 
 !<!-- This far 2012-01-19 -->
 
-!+Der/овт@C.CONJ-INF@@C.CONJ-POSS@:овт@C.CONJ-INF@@C.CONJ-POSS@ Verb-ny ; !!пановтны
+!+Der/овт@C.CONJ-INF@@C.CONJ-POSS@:овт@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !!пановтны
 
 
 ! Stray verb forms :-о
