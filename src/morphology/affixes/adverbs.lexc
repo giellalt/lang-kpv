@@ -45,10 +45,16 @@ LEXICON ADV-STATE !
 LEXICON AdvParenthetic
 +Adv+Parenthetic: WordEnd ;
 
+LEXICON ADV_SUB
++Use/Sub: ADV_ ;
+
 LEXICON ADV_ ! these are checked as advs.
 +Adv: COMPARATIVE ;
 
 LEXICON AdvTemp
+ ADV-TEMP_ ;
+
+LEXICON ADV-TEMP_
 +Adv+Temp: COMPARATIVE ;
 
 LEXICON ADV-SPAT  !!= * @CODE@
