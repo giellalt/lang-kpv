@@ -4,7 +4,7 @@
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">бугри</l>
 
@@ -13,12 +13,8 @@
       </stg>
     </lg>
 
-    <pos>Qnt</pos>
-
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>уйма, прорва</t>
@@ -38,16 +34,26 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">ветымын</l>
 
       <stg>
-        <st Contlex="NUMTAG">ветымын</st>
+        <st Contlex="QNT-CARD_">ветымын</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>fifty</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>viisikymmentä</t>
+      </tg>
+    </mg>
 
     <mg>
       <m>
@@ -62,21 +68,17 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">ветымын кык</l>
 
       <stg>
-        <st Contlex="NUMTAG">ветымын кык</st>
+        <st Contlex="QNT-CARD_">ветымын кык</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
-
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>пятьдесят два</t>
@@ -84,7 +86,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">ветымынӧд</l>
 
@@ -96,9 +98,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>пятидесятый</t>
@@ -112,7 +112,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">вит</l>
 
@@ -124,9 +124,19 @@
     <pos>Qnt</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>five</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>viisi</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>пять</t>
@@ -168,21 +178,17 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">вит</l>
 
       <stg>
-        <st Contlex="NUMTAG">вит</st>
+        <st Contlex="QNT-CARD_">вит</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
-
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg>
         <t/>
@@ -190,7 +196,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">витнан</l>
 
@@ -202,9 +208,7 @@
     <pos>QNT-COLL-UNIV</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>все пять</t>
@@ -228,7 +232,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">витнанныд</l>
 
@@ -240,9 +244,7 @@
     <pos>QNT-COLL-UNIV</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>вы пятеро</t>
@@ -256,7 +258,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">витнанным</l>
 
@@ -268,9 +270,7 @@
     <pos>QNT-COLL-UNIV</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>мы пятеро</t>
@@ -284,7 +284,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">витнанныс</l>
 
@@ -296,9 +296,7 @@
     <pos>QNT-COLL-UNIV</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>они пятеро</t>
@@ -312,16 +310,26 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">витсё</l>
 
       <stg>
-        <st Contlex="NUMTAG">витсё</st>
+        <st Contlex="QNT-CARD_">витсё</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>five hundred</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>viisisataa</t>
+      </tg>
+    </mg>
 
     <mg>
       <m>
@@ -342,7 +350,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">витсёа</l>
 
@@ -354,9 +362,7 @@
     <pos>Qnt</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>пятисотенный</t>
@@ -370,7 +376,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">витсёысь</l>
 
@@ -379,12 +385,8 @@
       </stg>
     </lg>
 
-    <pos>CARD</pos>
-
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>пятьсот раз</t>
@@ -392,7 +394,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">витсёӧд</l>
 
@@ -404,9 +406,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>пятисотый</t>
@@ -420,7 +420,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">витӧд</l>
 
@@ -432,9 +432,19 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>(the) fifth</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>viides</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>пятый</t>
@@ -454,7 +464,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">витӧд кӧ</l>
 
@@ -466,9 +476,7 @@
     <pos>ADV-PARENTHETIC</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>в-пятых</t>
@@ -476,7 +484,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">витӧн</l>
 
@@ -488,9 +496,7 @@
     <pos>Qnt</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>впятером</t>
@@ -514,7 +520,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">гоз-мӧдысь</l>
 
@@ -526,9 +532,7 @@
     <pos>ORD-ITER</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>раза-два, раз-другой, несколько раз</t>
@@ -548,21 +552,29 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">дас</l>
 
       <stg>
-        <st Contlex="NUMTAG">дас</st>
+        <st Contlex="QNT-CARD_">дас</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>ten</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kymmenen</t>
+      </tg>
+    </mg>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t pos="CARD">десять</t>
@@ -659,21 +671,17 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">дас вит</l>
 
       <stg>
-        <st Contlex="NUMTAG">дас вит</st>
+        <st Contlex="QNT-CARD_">дас вит</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
-
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>пятнадцать</t>
@@ -681,21 +689,17 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">дас квайт</l>
 
       <stg>
-        <st Contlex="NUMTAG">дас квайт</st>
+        <st Contlex="QNT-CARD_">дас квайт</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
-
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>шестнадцать</t>
@@ -703,21 +707,17 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">дас куим</l>
 
       <stg>
-        <st Contlex="NUMTAG">дас куим</st>
+        <st Contlex="QNT-CARD_">дас куим</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
-
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>тринадцать</t>
@@ -725,21 +725,17 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">дас кык</l>
 
       <stg>
-        <st Contlex="NUMTAG">дас кык</st>
+        <st Contlex="QNT-CARD_">дас кык</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
-
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>двенадцать</t>
@@ -747,21 +743,17 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">дас кӧкъямыс</l>
 
       <stg>
-        <st Contlex="NUMTAG">дас кӧкъямыс</st>
+        <st Contlex="QNT-CARD_">дас кӧкъямыс</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
-
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>восемнадцать</t>
@@ -769,21 +761,17 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">дас нёль</l>
 
       <stg>
-        <st Contlex="NUMTAG">дас нёль</st>
+        <st Contlex="QNT-CARD_">дас нёль</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
-
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>четырнадцать</t>
@@ -791,21 +779,17 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">дас сизим</l>
 
       <stg>
-        <st Contlex="NUMTAG">дас сизим</st>
+        <st Contlex="QNT-CARD_">дас сизим</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
-
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>семнадцать</t>
@@ -813,21 +797,17 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">дас ӧкмыс</l>
 
       <stg>
-        <st Contlex="NUMTAG">дас ӧкмыс</st>
+        <st Contlex="QNT-CARD_">дас ӧкмыс</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
-
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>девятнадцать</t>
@@ -835,21 +815,17 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">дас ӧти</l>
 
       <stg>
-        <st Contlex="NUMTAG">дас ӧти</st>
+        <st Contlex="QNT-CARD_">дас ӧти</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
-
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>одиннадцать</t>
@@ -857,21 +833,17 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">дас ӧтик</l>
 
       <stg>
-        <st Contlex="NUMTAG">дас ӧтик</st>
+        <st Contlex="QNT-CARD_">дас ӧтик</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
-
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>одиннадцать</t>
@@ -879,7 +851,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">даса</l>
 
@@ -891,9 +863,7 @@
     <pos>Qnt</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t pos="N">десятка</t>
@@ -943,7 +913,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">дасысь</l>
 
@@ -955,9 +925,7 @@
     <pos>CARD-ITER</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>десять раз</t>
@@ -987,7 +955,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">дасӧд</l>
 
@@ -999,9 +967,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>десятый</t>
@@ -1021,7 +987,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">дасӧн</l>
 
@@ -1033,9 +999,7 @@
     <pos>QNT-COLL-UNIV</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>вдесятером</t>
@@ -1059,7 +1023,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">джынйӧн</l>
 
@@ -1071,9 +1035,7 @@
     <pos>Qnt</pos>
 
     <mg No="1">
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <tCtn>
@@ -1139,7 +1101,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">джынъя</l>
 
@@ -1151,9 +1113,7 @@
     <pos>Qnt</pos>
 
     <mg No="1">
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>неполный, початый</t>
@@ -1179,9 +1139,7 @@
     </mg>
 
     <mg No="2">
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>равный половине</t>
@@ -1205,21 +1163,35 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">дзурс</l>
 
       <stg>
-        <st Contlex="NUMTAG">дзурс</st>
+        <st Contlex="QNT-CARD_">дзурс</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
-
     <mg>
       <m>
-        <head/>
+        <head>
+          <range dialect="SDW" rangeSpat="dialect"/>
+
+          <sci>1,000,000</sci>
+        </head>
       </m>
+
+      <tg xml:lang="eng">
+        <t>million</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>miljoona</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
 
       <tg>
         <t/>
@@ -1227,7 +1199,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">ичӧта</l>
 
@@ -1239,9 +1211,7 @@
     <pos>Qnt</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>понемногу; небольшими порциями</t>
@@ -1256,7 +1226,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">ичӧтика</l>
 
@@ -1268,9 +1238,7 @@
     <pos>Qnt</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>немного, немножко</t>
@@ -1290,16 +1258,26 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">квайт</l>
 
       <stg>
-        <st Contlex="NUMTAG">квайт</st>
+        <st Contlex="QNT-CARD_">квайт</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>six</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kuusi</t>
+      </tg>
+    </mg>
 
     <mg>
       <m>
@@ -1364,7 +1342,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">квайта</l>
 
@@ -1376,9 +1354,7 @@
     <pos>Qnt</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>шестёрка, шестерик</t>
@@ -1392,7 +1368,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">квайтнан</l>
 
@@ -1404,9 +1380,7 @@
     <pos>QNT-COLL-UNIV</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>все шесть, все шестеро</t>
@@ -1430,7 +1404,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">квайтнанныд</l>
 
@@ -1442,9 +1416,7 @@
     <pos>QNT-COLL-UNIV</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>вы все шестеро</t>
@@ -1458,7 +1430,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">квайтнанным</l>
 
@@ -1470,9 +1442,7 @@
     <pos>QNT-COLL-UNIV</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>мы все шестеро</t>
@@ -1486,7 +1456,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">квайтнанныс</l>
 
@@ -1498,9 +1468,7 @@
     <pos>QNT-COLL-UNIV</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>они все шестеро</t>
@@ -1514,16 +1482,26 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">квайтсё</l>
 
       <stg>
-        <st Contlex="NUMTAG">квайтсё</st>
+        <st Contlex="QNT-CARD_">квайтсё</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>six hundred</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kuusisataa</t>
+      </tg>
+    </mg>
 
     <mg>
       <m>
@@ -1538,7 +1516,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">квайтсёӧд</l>
 
@@ -1550,9 +1528,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>шестисотый</t>
@@ -1560,16 +1536,26 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">квайтымын</l>
 
       <stg>
-        <st Contlex="NUMTAG">квайтымын</st>
+        <st Contlex="QNT-CARD_">квайтымын</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>sixty</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kuusikymmentä</t>
+      </tg>
+    </mg>
 
     <mg>
       <m>
@@ -1590,21 +1576,17 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">квайтымын нёль</l>
 
       <stg>
-        <st Contlex="NUMTAG">квайтымын нёль</st>
+        <st Contlex="QNT-CARD_">квайтымын нёль</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
-
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>шестьдесят четыре</t>
@@ -1612,7 +1594,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">квайтымынӧд</l>
 
@@ -1624,9 +1606,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>шестидесятый</t>
@@ -1646,7 +1626,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">квайтысь</l>
 
@@ -1658,9 +1638,7 @@
     <pos>CARD-ITER</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>шесть раз</t>
@@ -1680,7 +1658,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">квайтӧд</l>
 
@@ -1692,9 +1670,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>шестой</t>
@@ -1728,7 +1704,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">квайтӧдысь</l>
 
@@ -1740,9 +1716,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>(в) шестой раз</t>
@@ -1750,7 +1724,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">квайтӧн</l>
 
@@ -1762,9 +1736,7 @@
     <pos>QNT-DISTR</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>вшестером</t>
@@ -1780,6 +1752,30 @@
 
   <e>
     <lg>
+      <l pos="Qnt">коимӧд</l>
+
+      <stg>
+        <st Contlex="ORD">коимӧд</st>
+      </stg>
+    </lg>
+
+    <pos>NUM</pos>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>third</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kolmas</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e order="2">
+    <lg>
       <l pos="Qnt">коймӧд</l>
 
       <stg>
@@ -1790,9 +1786,19 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>(the) third</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kolmas</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>третий</t>
@@ -1824,7 +1830,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">коймӧд-кӧ</l>
 
@@ -1836,9 +1842,7 @@
     <pos>ADV-PARENTHETIC</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>в-третьих</t>
@@ -1846,7 +1850,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">коймӧдысь</l>
 
@@ -1858,9 +1862,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>(в) третий раз</t>
@@ -1874,16 +1876,26 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">комын</l>
 
       <stg>
-        <st Contlex="NUMTAG">комын</st>
+        <st Contlex="QNT-CARD_">комын</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>thirty</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kolmekymmentä</t>
+      </tg>
+    </mg>
 
     <mg>
       <m>
@@ -1922,7 +1934,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">комына</l>
 
@@ -1953,7 +1965,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">комынысь</l>
 
@@ -1965,9 +1977,7 @@
     <pos>CARD-ITER</pos>
 
     <mg No="1">
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>тридцать раз</t>
@@ -1981,9 +1991,7 @@
     </mg>
 
     <mg No="2">
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>из тридцати</t>
@@ -1997,7 +2005,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">комынӧд</l>
 
@@ -2009,9 +2017,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>тридцатый</t>
@@ -2025,7 +2031,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">куим</l>
 
@@ -2034,7 +2040,17 @@
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>three</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kolme</t>
+      </tg>
+    </mg>
 
     <mg>
       <m>
@@ -2125,7 +2141,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">куим-ӧ-нёль</l>
 
@@ -2149,7 +2165,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">куима</l>
 
@@ -2161,9 +2177,7 @@
     <pos>Qnt</pos>
 
     <mg No="1">
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>состоящий из трёх единиц</t>
@@ -2181,9 +2195,7 @@
     </mg>
 
     <mg No="2">
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <tCtn>
@@ -2201,7 +2213,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">куимнан</l>
 
@@ -2261,16 +2273,26 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">куимсё</l>
 
       <stg>
-        <st Contlex="NUMTAG">куимсё</st>
+        <st Contlex="QNT-CARD_">куимсё</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>three hundred</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kolmesataa</t>
+      </tg>
+    </mg>
 
     <mg>
       <m>
@@ -2285,7 +2307,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">куимсёӧд</l>
 
@@ -2297,9 +2319,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>трёхсотый</t>
@@ -2307,7 +2327,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">куимысь</l>
 
@@ -2319,9 +2339,7 @@
     <pos>CARD-ITER</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>трижды</t>
@@ -2341,7 +2359,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">куимӧн</l>
 
@@ -2353,9 +2371,7 @@
     <pos>QNT-DISTR</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>втроём</t>
@@ -2369,16 +2385,26 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">кызь</l>
 
       <stg>
-        <st Contlex="NUMTAG">кызь</st>
+        <st Contlex="QNT-CARD_">кызь</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>twenty</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kaksikymmentä</t>
+      </tg>
+    </mg>
 
     <mg>
       <m>
@@ -2435,21 +2461,17 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">кызь ӧти</l>
 
       <stg>
-        <st Contlex="NUMTAG">кызь ӧти</st>
+        <st Contlex="QNT-CARD_">кызь ӧти</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
-
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>двадцать один</t>
@@ -2457,7 +2479,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">кызьысь</l>
 
@@ -2469,9 +2491,7 @@
     <pos>CARD-ITER</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>двадцать раз</t>
@@ -2485,7 +2505,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">кызьӧд</l>
 
@@ -2497,9 +2517,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>двадцатый</t>
@@ -2525,16 +2543,26 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">кык</l>
 
       <stg>
-        <st Contlex="NUMTAG">кык</st>
+        <st Contlex="QNT-CARD_">кык</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>two</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kaksi</t>
+      </tg>
+    </mg>
 
     <mg No="1">
       <m>
@@ -2641,9 +2669,7 @@
     </mg>
 
     <mg No="2">
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>двойной, сдвоенный</t>
@@ -2746,7 +2772,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">кык-куим</l>
 
@@ -2770,7 +2796,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">кыка</l>
 
@@ -2782,9 +2808,7 @@
     <pos>Qnt</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>двойной</t>
@@ -2798,7 +2822,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">кыка-кык</l>
 
@@ -2810,9 +2834,7 @@
     <pos>Qnt</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>целых два</t>
@@ -2832,7 +2854,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">кыклаті</l>
 
@@ -2844,9 +2866,7 @@
     <pos>ADV-SPAT</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>в двух местах</t>
@@ -2866,7 +2886,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">кыклаын</l>
 
@@ -2878,9 +2898,7 @@
     <pos>ADV-SPAT</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>в двух местах</t>
@@ -2900,21 +2918,27 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">кыкнан</l>
 
       <stg>
-        <st Contlex="">кыкнан</st>
+        <st Contlex="COLL">кыкнан</st>
       </stg>
     </lg>
 
     <pos>QNT-COLL-UNIV</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>both</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>molemmat</t>
+      </tg>
 
       <tg xml:lang="rus">
         <t>оба</t>
@@ -2964,7 +2988,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">кыкнанлабокса</l>
 
@@ -2976,9 +3000,7 @@
     <pos>Qnt</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>обоюдный</t>
@@ -2992,7 +3014,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">кыкнанладор</l>
 
@@ -3004,9 +3026,7 @@
     <pos>Qnt</pos>
 
     <mg No="1">
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>обе стороны</t>
@@ -3024,9 +3044,7 @@
     </mg>
 
     <mg No="2">
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>оба берега</t>
@@ -3040,7 +3058,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">кыкнанладорса</l>
 
@@ -3052,9 +3070,7 @@
     <pos>Qnt</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>двусторонний</t>
@@ -3072,7 +3088,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">кыкнанныд</l>
 
@@ -3084,9 +3100,7 @@
     <pos>QNT-COLL-UNIV</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>вы оба</t>
@@ -3107,7 +3121,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">кыкнанным</l>
 
@@ -3119,9 +3133,7 @@
     <pos>QNT-COLL-UNIV</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>мы оба</t>
@@ -3135,7 +3147,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">кыкнанныс</l>
 
@@ -3147,9 +3159,7 @@
     <pos>QNT-COLL-UNIV</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>они оба</t>
@@ -3169,7 +3179,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">кыкнанысь</l>
 
@@ -3181,9 +3191,7 @@
     <pos>UNIV-ITER</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>оба раза</t>
@@ -3198,16 +3206,26 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">кыксё</l>
 
       <stg>
-        <st Contlex="NUMTAG">кыксё</st>
+        <st Contlex="QNT-CARD_">кыксё</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>two hundred</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kaksisataa</t>
+      </tg>
+    </mg>
 
     <mg>
       <m>
@@ -3234,7 +3252,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">кыксёысь</l>
 
@@ -3246,9 +3264,7 @@
     <pos>CARD-ITER</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>двести раз</t>
@@ -3262,7 +3278,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">кыксёӧд</l>
 
@@ -3274,9 +3290,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>двухсотый</t>
@@ -3290,7 +3304,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">кыкысь</l>
 
@@ -3302,9 +3316,7 @@
     <pos>CARD-ITER</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t pos="A">двукратный</t>
@@ -3356,7 +3368,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">кыкысь-куимысь</l>
 
@@ -3368,9 +3380,7 @@
     <pos>CARD-ITER-APPR</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>два-три раза</t>
@@ -3388,7 +3398,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">кыкӧд</l>
 
@@ -3400,9 +3410,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <tCtn>
@@ -3426,7 +3434,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">кыкӧн</l>
 
@@ -3438,9 +3446,7 @@
     <pos>QNT-COLL</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>вдвоём</t>
@@ -3454,7 +3460,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">кыкӧн-кыкӧн</l>
 
@@ -3466,9 +3472,7 @@
     <pos>NUM-DISTR</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>парами</t>
@@ -3482,16 +3486,26 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">кӧкъямыс</l>
 
       <stg>
-        <st Contlex="NUMTAG">кӧкъямыс</st>
+        <st Contlex="QNT-CARD_">кӧкъямыс</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>eight</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kahdeksan</t>
+      </tg>
+    </mg>
 
     <mg>
       <m>
@@ -3548,16 +3562,26 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">кӧкъямысдас</l>
 
       <stg>
-        <st Contlex="NUMTAG">кӧкъямысдас</st>
+        <st Contlex="QNT-CARD_">кӧкъямысдас</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>eighty</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kahdeksankymmentä</t>
+      </tg>
+    </mg>
 
     <mg>
       <m>
@@ -3578,7 +3602,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">кӧкъямысдасӧд</l>
 
@@ -3590,9 +3614,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>восьмидесятый</t>
@@ -3606,16 +3628,26 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">кӧкъямыссё</l>
 
       <stg>
-        <st Contlex="NUMTAG">кӧкъямыссё</st>
+        <st Contlex="QNT-CARD_">кӧкъямыссё</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>eight hundred</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kahdeksansataa</t>
+      </tg>
+    </mg>
 
     <mg>
       <m>
@@ -3630,7 +3662,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">кӧкъямыссёӧд</l>
 
@@ -3642,9 +3674,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>восьмисотый</t>
@@ -3652,7 +3682,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">кӧкъямысысь</l>
 
@@ -3664,9 +3694,7 @@
     <pos>CARD-ITER</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>восемь раз</t>
@@ -3680,7 +3708,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">кӧкъямысӧд</l>
 
@@ -3692,9 +3720,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>восьмой</t>
@@ -3722,7 +3748,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">медуна</l>
 
@@ -3734,9 +3760,7 @@
     <pos>Qnt</pos>
 
     <mg No="1">
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>больше всего</t>
@@ -3744,9 +3768,7 @@
     </mg>
 
     <mg No="2">
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>больше, чем у других</t>
@@ -3760,7 +3782,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">медэтша</l>
 
@@ -3772,9 +3794,7 @@
     <pos>Qnt</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>меньше всего; меньше, чем у других</t>
@@ -3782,16 +3802,32 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">миллиард</l>
 
       <stg>
-        <st Contlex="NUMTAG">миллиард</st>
+        <st Contlex="QNT-CARD_">миллиард</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <m>
+        <head>
+          <sci>1,000,000,000</sci>
+        </head>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>billion (AmE)</t>
+
+        <t>milliard (BrE)</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>miljaardi</t>
+      </tg>
+    </mg>
 
     <mg>
       <m>
@@ -3806,7 +3842,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">миллиардӧд</l>
 
@@ -3818,9 +3854,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>миллиардный</t>
@@ -3828,16 +3862,26 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">миллион</l>
 
       <stg>
-        <st Contlex="NUMTAG">миллион</st>
+        <st Contlex="QNT-CARD_">миллион</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>million</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>miljoona</t>
+      </tg>
+    </mg>
 
     <mg>
       <m>
@@ -3852,7 +3896,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">миллионӧд</l>
 
@@ -3864,9 +3908,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>миллионный</t>
@@ -3874,7 +3916,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">мӧд</l>
 
@@ -3886,9 +3928,21 @@
     <pos>NUM</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>second</t>
+
+        <t>other</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>toinen</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
 
       <tg>
         <t/>
@@ -3896,7 +3950,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">мӧд</l>
 
@@ -3908,9 +3962,7 @@
     <pos>NUM-ORD</pos>
 
     <mg No="1">
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>второй</t>
@@ -3980,7 +4032,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">мӧдйӧз</l>
 
@@ -4004,7 +4056,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">мӧдкодь</l>
 
@@ -4016,9 +4068,7 @@
     <pos>Qnt</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>иной, другой, не такой</t>
@@ -4032,7 +4082,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">мӧдпӧвст</l>
 
@@ -4044,9 +4094,7 @@
     <pos>Qnt</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>:</t>
@@ -4060,7 +4108,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">мӧдысьджык</l>
 
@@ -4072,9 +4120,7 @@
     <pos>Qnt</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>как-нибудь попозже</t>
@@ -4088,7 +4134,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">мӧдӧд</l>
 
@@ -4102,7 +4148,23 @@
     <mg>
       <m>
         <head/>
+
+        <semRel lemmaID="мӧд" semRelType="synonym"/>
       </m>
+
+      <tg xml:lang="eng">
+        <t>second</t>
+
+        <t>other</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>toinen</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
 
       <tg>
         <t/>
@@ -4110,16 +4172,26 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">нелямын</l>
 
       <stg>
-        <st Contlex="NUMTAG">нелямын</st>
+        <st Contlex="QNT-CARD_">нелямын</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>forty</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>neljäkymmentä</t>
+      </tg>
+    </mg>
 
     <mg>
       <m>
@@ -4143,7 +4215,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">нелямынӧд</l>
 
@@ -4155,9 +4227,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>сороковой</t>
@@ -4165,7 +4235,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">неуна</l>
 
@@ -4177,9 +4247,7 @@
     <pos>Qnt</pos>
 
     <mg No="1">
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>немного, немножко</t>
@@ -4229,9 +4297,7 @@
     </mg>
 
     <mg No="2">
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>немного, несколько; слегка</t>
@@ -4251,9 +4317,7 @@
     </mg>
 
     <mg No="3">
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>едва; чуть</t>
@@ -4273,7 +4337,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">неэтша</l>
 
@@ -4285,9 +4349,7 @@
     <pos>Qnt</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <tCtn>
@@ -4305,7 +4367,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">ньӧти</l>
 
@@ -4329,9 +4391,7 @@
     </mg>
 
     <mg No="2">
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>нисколько, совсем, совершенно, ничуть, отнюдь, нимало</t>
@@ -4437,16 +4497,26 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">нёль</l>
 
       <stg>
-        <st Contlex="NUMTAG">нёль</st>
+        <st Contlex="QNT-CARD_">нёль</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>four</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>neljä</t>
+      </tg>
+    </mg>
 
     <mg>
       <m>
@@ -4572,7 +4642,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">нёль-вит</l>
 
@@ -4592,7 +4662,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">нёль-ӧ-вит</l>
 
@@ -4622,7 +4692,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">нёльнан</l>
 
@@ -4634,9 +4704,7 @@
     <pos>QNT-COLL-UNIV</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>все четыре</t>
@@ -4736,16 +4804,26 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">нёльсё</l>
 
       <stg>
-        <st Contlex="NUMTAG">нёльсё</st>
+        <st Contlex="QNT-CARD_">нёльсё</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>four hundred</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>neljäsataa</t>
+      </tg>
+    </mg>
 
     <mg>
       <m>
@@ -4770,7 +4848,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">нёльсёӧд</l>
 
@@ -4782,9 +4860,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>четырёхсотый</t>
@@ -4792,7 +4868,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">нёльӧд</l>
 
@@ -4804,9 +4880,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>четвёртый</t>
@@ -4862,7 +4936,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">нёльӧд-кӧ</l>
 
@@ -4874,9 +4948,7 @@
     <pos>ADV-PARENTHETIC</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>в-четвёртых</t>
@@ -4884,7 +4956,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">нёльӧн</l>
 
@@ -4896,9 +4968,7 @@
     <pos>QNT-DISTR</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>вчетвером</t>
@@ -4912,7 +4982,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">первой</l>
 
@@ -4926,7 +4996,21 @@
     <mg>
       <m>
         <head/>
+
+        <semRel lemmaID="медводдза" semRelType="confer"/>
       </m>
+
+      <tg xml:lang="eng">
+        <t>first</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>ensimmäinen</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
 
       <tg>
         <t/>
@@ -4934,7 +5018,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">первой</l>
 
@@ -4946,9 +5030,7 @@
     <pos>NUM-ORD</pos>
 
     <mg No="1">
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>первый</t>
@@ -4974,9 +5056,7 @@
     </mg>
 
     <mg No="2">
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>первичный</t>
@@ -4996,7 +5076,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">первойсянь</l>
 
@@ -5008,9 +5088,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>с самого начала</t>
@@ -5034,7 +5112,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">первойысь</l>
 
@@ -5046,9 +5124,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>первый раз, в первый раз, впервые</t>
@@ -5074,7 +5150,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">первойя</l>
 
@@ -5118,9 +5194,7 @@
     </mg>
 
     <mg No="2">
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>самый ранний</t>
@@ -5134,7 +5208,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">первойяысь</l>
 
@@ -5158,7 +5232,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">первӧй</l>
 
@@ -5172,7 +5246,21 @@
     <mg>
       <m>
         <head/>
+
+        <semRel lemmaID="медводдза" semRelType="confer"/>
       </m>
+
+      <tg xml:lang="eng">
+        <t>first</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>ensimmäinen</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
 
       <tg>
         <t/>
@@ -5180,7 +5268,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">пӧв-мӧдысь</l>
 
@@ -5192,9 +5280,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>пару раз, несколько раз</t>
@@ -5208,7 +5294,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">пӧлысь-мӧдысь</l>
 
@@ -5220,9 +5306,7 @@
     <pos>ORD-ITER</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>раз-другой, несколько раз</t>
@@ -5230,16 +5314,26 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">сизим</l>
 
       <stg>
-        <st Contlex="NUMTAG">сизим</st>
+        <st Contlex="QNT-CARD_">сизим</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>seven</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>seitsemän</t>
+      </tg>
+    </mg>
 
     <mg>
       <m>
@@ -5316,7 +5410,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">сизима</l>
 
@@ -5328,9 +5422,7 @@
     <pos>Qnt</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>семёрка</t>
@@ -5354,16 +5446,26 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">сизимдас</l>
 
       <stg>
-        <st Contlex="NUMTAG">сизимдас</st>
+        <st Contlex="QNT-CARD_">сизимдас</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>seventy</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>seitsemänkymmentä</t>
+      </tg>
+    </mg>
 
     <mg>
       <m>
@@ -5390,7 +5492,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">сизимдасӧд</l>
 
@@ -5402,9 +5504,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>семидесятый</t>
@@ -5424,7 +5524,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">сизимнан</l>
 
@@ -5436,9 +5536,7 @@
     <pos>QNT-COLL-UNIV</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <tCtn>
@@ -5456,7 +5554,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">сизимнанныд</l>
 
@@ -5468,9 +5566,7 @@
     <pos>QNT-COLL-UNIV</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>вы семеро, вы всемером</t>
@@ -5484,7 +5580,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">сизимнанным</l>
 
@@ -5496,9 +5592,7 @@
     <pos>QNT-COLL-UNIV</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>мы всемером</t>
@@ -5512,7 +5606,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">сизимнанныс</l>
 
@@ -5524,9 +5618,7 @@
     <pos>QNT-COLL-UNIV</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>они всемером</t>
@@ -5544,16 +5636,26 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">сизимсё</l>
 
       <stg>
-        <st Contlex="NUMTAG">сизимсё</st>
+        <st Contlex="QNT-CARD_">сизимсё</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>seven hundred</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>seitsemänsataa</t>
+      </tg>
+    </mg>
 
     <mg>
       <m>
@@ -5574,7 +5676,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">сизимсёӧд</l>
 
@@ -5586,9 +5688,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>семисотый</t>
@@ -5602,7 +5702,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">сизимысь</l>
 
@@ -5614,9 +5714,7 @@
     <pos>CARD-ITER</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>много раз</t>
@@ -5646,7 +5744,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">сизимӧд</l>
 
@@ -5658,9 +5756,7 @@
     <pos>NUM-ORD</pos>
 
     <mg No="1">
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>седьмой</t>
@@ -5680,9 +5776,7 @@
     </mg>
 
     <mg No="2">
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <tCtn>
@@ -5709,7 +5803,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">сизимӧн</l>
 
@@ -5721,9 +5815,7 @@
     <pos>QNT-DISTR</pos>
 
     <mg No="1">
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>семеро</t>
@@ -5762,9 +5854,7 @@
     </mg>
 
     <mg No="2">
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>по семь, в количестве семи</t>
@@ -5778,16 +5868,26 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">сюрс</l>
 
       <stg>
-        <st Contlex="NUMTAG">сюрс</st>
+        <st Contlex="QNT-CARD_">сюрс</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>thousand</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>tuhat</t>
+      </tg>
+    </mg>
 
     <mg>
       <m>
@@ -5838,7 +5938,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">сюрсъясӧн</l>
 
@@ -5850,9 +5950,7 @@
     <pos>QNT-COLL-UNIV</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>тысячами</t>
@@ -5866,7 +5964,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">сюрсӧд</l>
 
@@ -5878,9 +5976,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>тысячный</t>
@@ -5894,21 +5990,29 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">сё</l>
 
       <stg>
-        <st Contlex="NUMTAG">сё</st>
+        <st Contlex="QNT-CARD_">сё</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>hundred</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>sata</t>
+      </tg>
+    </mg>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>сто</t>
@@ -6002,21 +6106,17 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">сё нелямын</l>
 
       <stg>
-        <st Contlex="NUMTAG">сё нелямын</st>
+        <st Contlex="QNT-CARD_">сё нелямын</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
-
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>сто сорок</t>
@@ -6024,7 +6124,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">сёа</l>
 
@@ -6036,9 +6136,7 @@
     <pos>Qnt</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>сотенный</t>
@@ -6066,7 +6164,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">сёнан</l>
 
@@ -6078,9 +6176,7 @@
     <pos>QNT-COLL-UNIV</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>все сто</t>
@@ -6102,7 +6198,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">сёӧд</l>
 
@@ -6114,9 +6210,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>сотый</t>
@@ -6136,7 +6230,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">сёӧн</l>
 
@@ -6148,9 +6242,7 @@
     <pos>QNT-DISTR</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>по сто, в количестве ста</t>
@@ -6176,21 +6268,37 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">триллион</l>
 
       <stg>
-        <st Contlex="NUMTAG">триллион</st>
+        <st Contlex="QNT-CARD_">триллион</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
-
     <mg>
       <m>
-        <head/>
+        <head>
+          <sci>1,000,000,000,000</sci>
+        </head>
       </m>
+
+      <tg xml:lang="eng_US">
+        <t>trillion</t>
+      </tg>
+
+      <tg xml:lang="eng_UK">
+        <t>billion</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>biljoona</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
 
       <tg>
         <t/>
@@ -6198,16 +6306,30 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">тысяча</l>
 
       <stg>
-        <st Contlex="NUMTAG">тысяча</st>
+        <st Contlex="QNT-CARD_">тысяча</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <m>
+        <head/>
+
+        <semRel lemmaID="сюрс" semRelType="see"/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t>thousand</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>tuhat</t>
+      </tg>
+    </mg>
 
     <mg>
       <m>
@@ -6232,7 +6354,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">тысячаӧд</l>
 
@@ -6244,9 +6366,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>тысячный</t>
@@ -6254,7 +6374,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">уна</l>
 
@@ -6265,10 +6385,40 @@
 
     <pos>Qnt</pos>
 
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>many</t>
+
+        <t>several</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>useampi</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>much</t>
+
+        <t>a lot of</t>
+
+        <t>plenty of</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>paljon</t>
+
+        <t>monta</t>
+      </tg>
+    </mg>
+
     <mg No="1">
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>много</t>
@@ -6441,7 +6591,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">этша</l>
 
@@ -6453,9 +6603,21 @@
     <pos>NUM</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>little</t>
+
+        <t>few</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>vähän</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
 
       <tg>
         <t/>
@@ -6463,16 +6625,26 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">ӧкмыс</l>
 
       <stg>
-        <st Contlex="NUMTAG">ӧкмыс</st>
+        <st Contlex="QNT-CARD_">ӧкмыс</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>nine</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>yhdeksän</t>
+      </tg>
+    </mg>
 
     <mg>
       <m>
@@ -6579,7 +6751,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">ӧкмыса</l>
 
@@ -6591,9 +6763,7 @@
     <pos>Qnt</pos>
 
     <mg No="1">
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>девятка</t>
@@ -6607,9 +6777,7 @@
     </mg>
 
     <mg No="2">
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>из девяти</t>
@@ -6629,16 +6797,26 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">ӧкмысдас</l>
 
       <stg>
-        <st Contlex="NUMTAG">ӧкмысдас</st>
+        <st Contlex="QNT-CARD_">ӧкмысдас</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>ninety</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>yhdeksänkymmentä</t>
+      </tg>
+    </mg>
 
     <mg>
       <m>
@@ -6659,7 +6837,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">ӧкмысдасӧд</l>
 
@@ -6671,9 +6849,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>девяностый</t>
@@ -6681,16 +6857,26 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">ӧкмыссё</l>
 
       <stg>
-        <st Contlex="NUMTAG">ӧкмыссё</st>
+        <st Contlex="QNT-CARD_">ӧкмыссё</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>nine hundred</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>yhdeksänsataa</t>
+      </tg>
+    </mg>
 
     <mg>
       <m>
@@ -6712,7 +6898,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">ӧкмыссёӧд</l>
 
@@ -6724,9 +6910,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>девятисотый</t>
@@ -6734,7 +6918,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">ӧкмысӧд</l>
 
@@ -6746,9 +6930,7 @@
     <pos>NUM-ORD</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>девятый</t>
@@ -6762,7 +6944,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Prop">ӧт</l>
 
@@ -6772,6 +6954,18 @@
     </lg>
 
     <pos>Num</pos>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>one (part of compound words)</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>yksi (yhdyssanoissa)</t>
+      </tg>
+    </mg>
 
     <mg>
       <m>
@@ -6792,7 +6986,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">ӧт</l>
 
@@ -6801,12 +6995,8 @@
       </stg>
     </lg>
 
-    <pos>CARD</pos>
-
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg>
         <t/>
@@ -6814,24 +7004,52 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">ӧти</l>
 
       <stg>
-        <st Contlex="NUMTAG">ӧти</st>
+        <st Contlex="QNT-CARD_">ӧти</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>one</t>
+
+        <t>same</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>yksi</t>
+
+        <t>sama</t>
+      </tg>
+
+      <xg>
+        <x>ӧти бӧрся мӧд</x>
+
+        <xt xml:lang="eng">one after the other</xt>
+
+        <xt xml:lang="fin">yksi toisensa jälkeen</xt>
+      </xg>
+
+      <xg>
+        <x>ӧти и сійӧ жӧ</x>
+
+        <xt xml:lang="eng">one and the same</xt>
+
+        <xt xml:lang="fin">yksi ja sama</xt>
+      </xg>
+    </mg>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t pos="NUM">один</t>
+        <t pos="Num">один</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -7036,9 +7254,7 @@
     </mg>
 
     <mg No="2">
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>одинаково</t>
@@ -7120,7 +7336,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">ӧтиа</l>
 
@@ -7132,9 +7348,7 @@
     <pos>A</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>для одного</t>
@@ -7152,16 +7366,30 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">ӧтик</l>
 
       <stg>
-        <st Contlex="NUMTAG">ӧтик</st>
+        <st Contlex="QNT-CARD_">ӧтик</st>
       </stg>
     </lg>
 
-    <pos>CARD</pos>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>one</t>
+
+        <t>same</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>yksi</t>
+
+        <t>sama</t>
+      </tg>
+    </mg>
 
     <mg>
       <m>
@@ -7172,7 +7400,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">ӧтиныд</l>
 
@@ -7213,7 +7441,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">ӧтиысь</l>
 
@@ -7225,9 +7453,19 @@
     <pos>CARD-ITER</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>once</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>kerran</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
 
       <tg>
         <t/>
@@ -7235,7 +7473,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">ӧткымын</l>
 
@@ -7247,9 +7485,19 @@
     <pos>NUM</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t>a few</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t>muutama</t>
+      </tg>
+    </mg>
+
+    <mg>
+      <defNative/>
 
       <tg>
         <t/>
@@ -7257,7 +7505,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">ӧтнаныд</l>
 
@@ -7287,7 +7535,7 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e exclude="fst" order="2">
     <lg>
       <l pos="Qnt">ӧтчыд-мӧдысь</l>
 
@@ -7299,9 +7547,7 @@
     <pos>ORD-ITER</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="rus">
         <t>раз-другой</t>
@@ -7315,7 +7561,7 @@
     </mg>
   </e>
 
-  <e>
+  <e order="2">
     <lg>
       <l pos="Qnt">ӧтчыдысь</l>
 
@@ -7327,9 +7573,7 @@
     <pos>CARD-ITER</pos>
 
     <mg>
-      <m>
-        <head/>
-      </m>
+      <defNative/>
 
       <tg>
         <t/>
