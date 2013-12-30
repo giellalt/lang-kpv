@@ -52,6 +52,7 @@ Multichar_Symbols
 
 !! Interjections
  +Formulaic !!
+ +Conative  !!= @CODE@ Used for calling animals, for example
 
 !! Nouns
  +Prop  !! proper
@@ -409,7 +410,7 @@ SUBSTANDARDS ; ! temporary solution
 !! word classes, or optionally from prefixes:
 	adjectives	;
 	adverbs	;
-	conjunctions	;
+	conjunctors	;
 	descriptives	;
 	gerunds	;
 	interjections	;
@@ -462,38 +463,11 @@ LEXICON ABBR-IS_N
 +ABBR+N: WordEnd ; ! This needs a Noun1 continuation but the hyphen must 
              ! be dealt with for non-nominative-singular marking 2012-01-27
 
-LEXICON CcTag
-+CC: WordEnd ;
-
-LEXICON CsTag
-+CS: WordEnd ;
-
-
-LEXICON ConjTag
-+CC: WordEnd ;
-
-LEXICON PCLE_
-+Pcle: WordEnd ;
-
-LEXICON PcleIntens
-+Pcle+Intens: WordEnd ;
-
-LEXICON INTERJ_
-+Interj: WordEnd ;
-
 LEXICON EndNeg 
 +CC+Neg: WordEnd ; ! ни
 
 LEXICON EndQST
 +Qst: WordEnd ;
-
-LEXICON ONOM-End
-+Onom: WordEnd ;
-
-!LEXICON DESCR-End
-! DescrTag ;
-LEXICON DESCR_
-+Descr: WordEnd ;
 
 
 
