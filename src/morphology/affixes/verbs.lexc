@@ -64,6 +64,12 @@ LEXICON V_ЛОКНЫ !!= @CODE@ One verb only, локны:лок
 +V:т  VerbConj ; !а
 
 
+LEXICON VR_ШУНЫ !!= @CODE@ 
++V+Refl@U.CONJ-INF.YES@:00@U.CONJ-INF.YES@ Verb-nyDer ; !
++V+Refl@U.CONJ-INF.YES@:00@U.CONJ-INF.YES@ VerbDer ; !
++V+Refl@U.CONJ-INF.YES@:00@U.CONJ-INF.YES@ VerbDer-V ; !
++V+Refl: VerbConj ; !а
++V+Refl: VerbConj-V ; !б
 
 LEXICON V_ШУНЫ !!= @CODE@ шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
 +V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@ Verb-nyDer ; !
@@ -71,6 +77,13 @@ LEXICON V_ШУНЫ !!= @CODE@ шуны:шу янӧдны, контролируй
 +V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@ VerbDer-V ; !
 +V: VerbConj ; !а
 +V: VerbConj-V ; !б
+
+LEXICON VR_ЛЫДДЬЫНЫ !!= @CODE@ 
++V+Refl@U.CONJ-INF.YES@:00@U.CONJ-INF.YES@ Verb-ynyDer ; !
++V+Refl@U.CONJ-INF.YES@:00@U.CONJ-INF.YES@ VerbDer ; !
++V+Refl@U.CONJ-INF.YES@:ы0@U.CONJ-INF.YES@ VerbDer-V ; !
++V+Refl: VerbConj ; ! check this!!!
++V+Refl:ы VerbConj-V ; ! check this!!!
 
 LEXICON V_ЛЫДДЬЫНЫ !!= @CODE@ лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
 +V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@ Verb-ynyDer ; !

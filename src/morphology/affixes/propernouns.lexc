@@ -4,6 +4,9 @@
 !! Komi proper nouns inflect in the same cases as regular
 !! nouns.
 
+LEXICON ACRON-F
++Src/F+: ACRON ;
+
 LEXICON ACRON
 +Acron:	PROP_	;
 
@@ -126,6 +129,10 @@ LEXICON PROP-PLC ! Inanimate proper nouns. Place names
 LEXICON PROP-PLC-RUS ! Inanimate proper nouns. Place names
 +N+Prop+Plc+Src/F+Sg: CASEPOSSLEX ;
 !+N+Prop+Plc+Src/F+Der/са: A_ ; !!= @CODE@ This requires down-casing
+
+LEXICON PROP-PLC_SUB ! Inanimate proper nouns. Place names
++N+Prop+Plc+Use/Sub+Sg: CASEPOSSLEX ;
+!+N+Prop+Plc+Use/Sub+Der/са: A_ ; !!= @CODE@ This requires down-casing
 
 LEXICON PROP-ORG ! Inanimate proper nouns. Name of organization
 +N+Prop+Org+Sg: CASEPOSSLEX ;
