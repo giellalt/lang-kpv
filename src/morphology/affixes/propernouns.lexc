@@ -51,16 +51,16 @@ LEXICON Deriv-RUS-IN_surmal
 
 
 LEXICON PropSurMal-kal
-+N+Prop+Sur+Mal+Sg: CASEPOSSLEX ;
++N+Prop+Sem/Sur+Sem/Mal+Sg: CASEPOSSLEX ;
 
 LEXICON PropSurFem-kudo
-+N+Prop+Sur+Fem+Sg: CASEPOSSLEX ;
++N+Prop+Sem/Sur+Sem/Fem+Sg: CASEPOSSLEX ;
 
 LEXICON CYRL-Cons_sur
  PropSur-kal ;
 
 LEXICON PropSur-kal
-+N+Prop+Sur+Sg: CASEPOSSLEX ;
++N+Prop+Sem/Sur+Sg: CASEPOSSLEX ;
 
 LEXICON CYRL-T_sur
  PropSur-kit ;
@@ -78,7 +78,7 @@ LEXICON CYRL-Sibilant_sur
  PropSur-osh ;
 
 LEXICON PropSur-osh
-+N+Prop+Sur+Sg: CASEPOSSLEX ;
++N+Prop+Sem/Sur+Sg: CASEPOSSLEX ;
 
 LEXICON CYRL-Vow_sur
  PropSur-kudo ;
@@ -87,13 +87,13 @@ LEXICON CYRL-A_sur
  PropSur-kudo ;
 
 LEXICON PropSur-kudo
-+N+Prop+Sur+Sg: CASEPOSSLEX ;
++N+Prop+Sem/Sur+Sg: CASEPOSSLEX ;
 
 !! Ending 2012-11-15
 
 LEXICON Prop-Derivable
-+N+Prop+Sur+Mal+Sg: CASEPOSSLEX ; ! Владимиров
-а+N+Prop+Sur+Fem+Sg:%^FEM%>а CASEPOSSLEX ; ! Владимирова
++N+Prop+Sem/Sur+Sem/Mal+Sg: CASEPOSSLEX ; ! Владимиров
+а+N+Prop+Sem/Sur+Sem/Fem+Sg:%^FEM%>а CASEPOSSLEX ; ! Владимирова
 
 ! Prop-Derivable end  in: ев, ов, ёв, ий, ин
 ! Prop-Derivable for fem: ева, ова, ёва, ая, ина
@@ -101,21 +101,21 @@ LEXICON Prop-Derivable
 
 !This might need some working on 2012-01-23
 LEXICON PROP-MAL-DERIVABLE !Patronyms
-ович+N+Prop+Patr+Mal+Sg:%>ович CASEPOSSLEX ; ! Владимирович
-овна+N+Prop+Patr+Fem+Sg:%>овна CASEPOSSLEX ; ! Владимировна
+ович+N+Prop+Sem/Patr+Sem/Mal+Sg:%>ович CASEPOSSLEX ; ! Владимирович
+овна+N+Prop+Sem/Patr+Sem/Fem+Sg:%>овна CASEPOSSLEX ; ! Владимировна
  PROP-MAL ; ! Владимир
 
 !! FEMALE NAMES FROM TEMPLATE
 LEXICON Prop-kal_fem
-+N+Prop+Fem: NMN_ ;
++N+Prop+Sem/Fem: NMN_ ;
 LEXICON Prop-lak_fem
-+N+Prop+Fem: NMN_ ;
++N+Prop+Sem/Fem: NMN_ ;
 LEXICON Prop-kit_fem
-+N+Prop+Fem: NMN_ ;
++N+Prop+Sem/Fem: NMN_ ;
 LEXICON Prop-osh_fem
-+N+Prop+Fem: NMN_ ;
++N+Prop+Sem/Fem: NMN_ ;
 LEXICON Prop-kudo_fem
-+N+Prop+Fem: NMN_ ;
++N+Prop+Sem/Fem: NMN_ ;
  
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! PLACE NAMES FROM TEMPLATES !!
@@ -123,31 +123,31 @@ LEXICON Prop-kudo_fem
 
 
 LEXICON PROP-PLC ! Inanimate proper nouns. Place names
-+N+Prop+Plc+Sg: CASEPOSSLEX ;
-!+N+Prop+Plc+Der/са: A_ ; !!= @CODE@ This requires down-casing
++N+Prop+Sem/Plc+Sg: CASEPOSSLEX ;
+!+N+Prop+Sem/Plc+Der/са: A_ ; !!= @CODE@ This requires down-casing
 
 LEXICON PROP-PLC-RUS ! Inanimate proper nouns. Place names
-+N+Prop+Plc+Src/F+Sg: CASEPOSSLEX ;
-!+N+Prop+Plc+Src/F+Der/са: A_ ; !!= @CODE@ This requires down-casing
++N+Prop+Sem/Plc+Src/F+Sg: CASEPOSSLEX ;
+!+N+Prop+Sem/Plc+Src/F+Der/са: A_ ; !!= @CODE@ This requires down-casing
 
 LEXICON PROP-PLC_SUB ! Inanimate proper nouns. Place names
-+N+Prop+Plc+Use/Sub+Sg: CASEPOSSLEX ;
-!+N+Prop+Plc+Use/Sub+Der/са: A_ ; !!= @CODE@ This requires down-casing
++N+Prop+Sem/Plc+Use/Sub+Sg: CASEPOSSLEX ;
+!+N+Prop+Sem/Plc+Use/Sub+Der/са: A_ ; !!= @CODE@ This requires down-casing
 
 LEXICON PROP-ORG ! Inanimate proper nouns. Name of organization
-+N+Prop+Org+Sg: CASEPOSSLEX ;
++N+Prop+Sem/Org+Sg: CASEPOSSLEX ;
 
 LEXICON Prop-Sur-Mal ! Basic nouns.
-+N+Prop+Sur+Mal+Sg: CASEPOSSLEX ;
++N+Prop+Sem/Sur+Sem/Mal+Sg: CASEPOSSLEX ;
 
 LEXICON PROP-MAL ! Male given names
-+N+Prop+Mal+Sg: CASEPOSSLEX ;
++N+Prop+Sem/Mal+Sg: CASEPOSSLEX ;
 
 LEXICON Prop-Sur-Fem ! Basic nouns.
-+N+Prop+Sur+Fem+Sg: CASEPOSSLEX ;
++N+Prop+Sem/Sur+Sem/Fem+Sg: CASEPOSSLEX ;
 
 LEXICON PROP-FEM ! Female given names
-+N+Prop+Fem+Sg: CASEPOSSLEX ;
++N+Prop+Sem/Fem+Sg: CASEPOSSLEX ;
 
 
 
