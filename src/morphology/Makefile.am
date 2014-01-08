@@ -20,69 +20,69 @@ GT_LEXC_ROOT=root.lexc
 
 # Set this to the names of all other source lexc files
 GT_LEXC_SRCS=\
-		 stems/abbr.lexc \
-		 stems/acro.lexc \
-		 stems/exceptions.lexc \
-		 stems/punct.lexc \
-		 affixes/adjectives.lexc \
-		 affixes/adverbs.lexc \
-		 affixes/conjunctors.lexc \
+		 stems/abbr.lexc            \
+		 stems/acro.lexc            \
+		 stems/exceptions.lexc      \
+		 stems/punct.lexc           \
+		 affixes/adjectives.lexc    \
+		 affixes/adverbs.lexc       \
+		 affixes/conjunctors.lexc   \
 		 affixes/interjections.lexc \
-		 affixes/nouns.lexc \
-		 affixes/particles.lexc \
+		 affixes/nouns.lexc         \
+		 affixes/particles.lexc     \
 		 affixes/postpositions.lexc \
-		 affixes/pronouns.lexc \
-		 affixes/propernouns.lexc \
-		 affixes/quantifiers.lexc \
+		 affixes/pronouns.lexc      \
+		 affixes/propernouns.lexc   \
+		 affixes/quantifiers.lexc   \
 		 affixes/verbs.lexc
 
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=\
-		 stems/adjectives.lexc \
-		 stems/adverbs.lexc \
-		 stems/conjunctors.lexc \
-		 stems/descriptives.lexc \
-		 stems/gerunds.lexc \
-		 stems/interjections.lexc \
-		 stems/nouns-deverbal.lexc \
-		 stems/nouns.lexc \
-		 stems/nouns-russian-homographs.lexc \
-		 stems/particles.lexc \
-		 stems/postpositions.lexc \
-		 stems/pronouns.lexc \
-		 stems/propernouns-malenames-cyrillic.lexc \
-		 stems/propernouns-malenames-russian-derivable.lexc \
-		 stems/propernouns-malesurnames-cyrillic.lexc \
+		 stems/adjectives.lexc                                 \
+		 stems/adverbs.lexc                                    \
+		 stems/conjunctors.lexc                                \
+		 stems/descriptives.lexc                               \
+		 stems/gerunds.lexc                                    \
+		 stems/interjections.lexc                              \
+		 stems/nouns-deverbal.lexc                             \
+		 stems/nouns.lexc                                      \
+		 stems/nouns-russian-homographs.lexc                   \
+		 stems/particles.lexc                                  \
+		 stems/postpositions.lexc                              \
+		 stems/pronouns.lexc                                   \
+		 stems/propernouns-malenames-cyrillic.lexc             \
+		 stems/propernouns-malenames-russian-derivable.lexc    \
+		 stems/propernouns-malesurnames-cyrillic.lexc          \
 		 stems/propernouns-malesurnames-russian-derivable.lexc \
-		 stems/propernouns-toponyms-Russian.lexc \
-		 stems/propernouns.lexc \
-		 stems/quantifiers.lexc \
-		 stems/verbs-A2M.lexc \
+		 stems/propernouns-toponyms-Russian.lexc               \
+		 stems/propernouns.lexc                                \
+		 stems/quantifiers.lexc                                \
+		 stems/verbs-A2M.lexc                                  \
 		 stems/verbs-N2END.lexc
 
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
-		 stems/adjectives.xml \
-		 stems/adverbs.xml \
-		 stems/conjunctors.xml \
-		 stems/descriptives.xml \
-		 stems/gerunds.xml \
-		 stems/interjections.xml \
-		 stems/nouns-deverbal.xml \
-		 stems/nouns.xml \
-		 stems/nouns-russian-homographs.xml \
-		 stems/particles.xml \
-		 stems/postpositions.xml \
-		 stems/pronouns.xml \
-		 stems/propernouns-malenames-cyrillic.xml \
-		 stems/propernouns-malenames-russian-derivable.xml \
-		 stems/propernouns-malesurnames-cyrillic.xml \
+		 stems/adjectives.xml                                 \
+		 stems/adverbs.xml                                    \
+		 stems/conjunctors.xml                                \
+		 stems/descriptives.xml                               \
+		 stems/gerunds.xml                                    \
+		 stems/interjections.xml                              \
+		 stems/nouns-deverbal.xml                             \
+		 stems/nouns.xml                                      \
+		 stems/nouns-russian-homographs.xml                   \
+		 stems/particles.xml                                  \
+		 stems/postpositions.xml                              \
+		 stems/pronouns.xml                                   \
+		 stems/propernouns-malenames-cyrillic.xml             \
+		 stems/propernouns-malenames-russian-derivable.xml    \
+		 stems/propernouns-malesurnames-cyrillic.xml          \
 		 stems/propernouns-malesurnames-russian-derivable.xml \
-		 stems/propernouns-toponyms-Russian.xml \
-		 stems/propernouns.xml \
-		 stems/quantifiers.xml \
-		 stems/verbs-A2M.xml \
+		 stems/propernouns-toponyms-Russian.xml               \
+		 stems/propernouns.xml                                \
+		 stems/quantifiers.xml                                \
+		 stems/verbs-A2M.xml                                  \
 		 stems/verbs-N2END.xml
 
 
