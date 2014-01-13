@@ -9,7 +9,7 @@
 
 ! To test: in kt/kom/src, do: 
 ! xfst -e "source xfst-kom.txt"
-! invert net
+! 
 ! save s
 ! quit
 ! cat xfst-kom.txt | grep €|cut -d" " -f3|cut -d":" -f1|lookup s
