@@ -241,7 +241,7 @@ LEXICON NumMWN
 !! !!Arabic numerals
 ! ===============
 
-LEXICON NUM-PREFIXES     !!= @CODE@  
+LEXICON NUM-PREFIXES     !!= * __@CODE@__  
         ARABIC ;
 §       ARABIC ;      ! §24                     !^C^                               
 §§      ARABIC ;     ! §§24                     !^C^                               
@@ -267,7 +267,7 @@ s%.     ARABIC ;     ! s.24                     !^C^
 
 
 
-LEXICON ARABIC          !!= @CODE@ 
+LEXICON ARABIC          !!= * __@CODE@__ 
 1 ARABICLOOP ;                                  !^C^                               
 2 ARABICLOOP ;                                  !^C^                               
 3 ARABICLOOP ;                                  !^C^                               
