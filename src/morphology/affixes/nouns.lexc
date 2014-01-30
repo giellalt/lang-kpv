@@ -7,16 +7,16 @@
 ! Nouns !
 ! ===== !
 
-LEXICON Vocative   !!= * @CODE@
+LEXICON Vocative   !!= * __@CODE@__
 +N+Voc: # ;
 
-LEXICON Noun1-IS_PTC-OM !!= * @CODE@ is to provide deverbal nouns with +Der/ӧм tags
+LEXICON Noun1-IS_PTC-OM !!= * __@CODE@__ is to provide deverbal nouns with +Der/ӧм tags
 +V+Der/ӧм: N_ ;
 
-LEXICON Noun1-IS_PTC-AN !!= * @CODE@
+LEXICON Noun1-IS_PTC-AN !!= * __@CODE@__
 +V+Der/ан: N_ ;
 
-LEXICON Noun1-IS_PTC-YSJ !!= * @CODE@
+LEXICON Noun1-IS_PTC-YSJ !!= * __@CODE@__
 +V+Der/ысь: N_ ;
 
 LEXICON N-DOR ! мӧдладор The Russian is an adverbial phrase
@@ -38,7 +38,7 @@ LEXICON Noun1-SYT-STY !
 
 !! Basic nouns.
 
-LEXICON N_   !!= * @CODE@
+LEXICON N_   !!= * __@CODE@__
 +N: NMN_ ;
 
 LEXICON Noun1 !! This should be phased out 2013-05-07
@@ -105,7 +105,7 @@ LEXICON ACRONDELIMITER
 ! Case + Poss or Poss+Case
 
 
-LEXICON CASEPOSSLEX !!= * @CODE@
+LEXICON CASEPOSSLEX !!= * __@CODE@__
 
  DERIVEDADJ ;    ! Deriving prenominal adjectives, республикаса
 CASEPOSSLEX-afterDerivation ;

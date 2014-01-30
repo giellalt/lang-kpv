@@ -5,8 +5,8 @@
 !! !!Closed class personal pronouns
 ! ------------------------------
 
-LEXICON PERS                        !!= * @CODE@ 
-ме+Pron+Pers+Sg1: perssg1decl ;    !!= * @CODE@ ...
+LEXICON PERS                        !!= * __@CODE@__ 
+ме+Pron+Pers+Sg1: perssg1decl ;    !!= * __@CODE@__ ...
 тэ+Pron+Pers+Sg2: perssg2decl ; 
 сійӧ+Pron+Pers+Sg3: perssg3decl ;
 ми+Pron+Pers+Pl1: perspl1decl ;
@@ -37,7 +37,7 @@ LEXICON perssg1decl   !!= @CODE@
 +GenStem+Ter:менамӧдз WordEnd ;
 +Cmpl:ме perssg ; ! for the regular obl sg
 
-LEXICON perspl1decl    !!= * @CODE@
+LEXICON perspl1decl    !!= * __@CODE@__
 +Nom:ми WordEnd ;
 +Der/йӧ+Nom:мийӧ WordEnd ;
 +GenStem:миян WordEnd ;
@@ -60,7 +60,7 @@ LEXICON perspl1decl    !!= * @CODE@
 +Tra:миті WordEnd ; !Synomymous with: миянӧд
 +Ter:миӧдз WordEnd ; !Synomymous with: миянӧдз
 
-LEXICON perssg2decl     !!= * @CODE@
+LEXICON perssg2decl     !!= * __@CODE@__
 +Nom:тэ WordEnd ;
 +Cmpl:тэ WordEnd ;
 +Cmpl+Gen:тэлӧн WordEnd ;
@@ -84,7 +84,7 @@ LEXICON perssg2decl     !!= * @CODE@
 +GenStem+Ter:тэнадӧдз WordEnd ;
 +Cmpl:тэ perssg ;  ! for the regular obl sg
 
-LEXICON perspl2decl !!= * @CODE@ 
+LEXICON perspl2decl !!= * __@CODE@__ 
 +Nom:ті WordEnd ;
 +Cmpl:ті WordEnd ;
 +Der/йӧ+Nom:тійӧ WordEnd ; !We need a special tag for discerning +Nom forms
@@ -107,7 +107,7 @@ LEXICON perspl2decl !!= * @CODE@
 +GenStem+Egr+PxPl2:тіянсяньныд WordEnd ;
 +Ter:тіӧдз WordEnd ;
 
-LEXICON perssg3decl  !!= * @CODE@ 
+LEXICON perssg3decl  !!= * __@CODE@__ 
 +Der/йӧ+Nom:сійӧ WordEnd ;
 +Cmpl+Gen:сылӧн WordEnd ;
 +Cmpl+Abl:сылысь WordEnd ;
@@ -135,7 +135,7 @@ LEXICON perssg3decl  !!= * @CODE@
 !! ті тійӧ nämä ovat aivan eri asioita
 !! сы сійӧ tosin joskus 
 
-LEXICON perspl3decl !!= * @CODE@
+LEXICON perspl3decl !!= * __@CODE@__
 +Der/йӧ+Nom:найӧ WordEnd ;
 +Der/йӧ+Acc:найӧс WordEnd ;
 +Cmpl+Gen:налӧн WordEnd ;
@@ -160,7 +160,7 @@ LEXICON perspl3decl !!= * @CODE@
 +Cmpl+Ter+PxSg3:наӧдзыс WordEnd ;
 
 
-LEXICON perssg !!= * @CODE@
+LEXICON perssg !!= * __@CODE@__
 +Ins:ӧн WordEnd ;
 +Com:кӧд WordEnd ;
 +Car:тӧг WordEnd ;
@@ -177,7 +177,7 @@ LEXICON perssg !!= * @CODE@
 
 
 
-LEXICON persplobl !!= * @CODE@
+LEXICON persplobl !!= * __@CODE@__
 +Abl:лысь WordEnd ;
 +Dat:лы WordEnd ;
 +Acc:ӧс WordEnd ;
