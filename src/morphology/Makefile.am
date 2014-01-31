@@ -38,27 +38,27 @@ GT_LEXC_SRCS=\
 
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=\
-		 stems/adjectives.lexc                                 \
-		 stems/adverbs.lexc                                    \
-		 stems/conjunctors.lexc                                \
-		 stems/descriptives.lexc                               \
-		 stems/gerunds.lexc                                    \
-		 stems/interjections.lexc                              \
-		 stems/nouns-deverbal.lexc                             \
-		 stems/nouns.lexc                                      \
-		 stems/nouns-russian-homographs.lexc                   \
-		 stems/particles.lexc                                  \
-		 stems/postpositions.lexc                              \
-		 stems/pronouns.lexc                                   \
-		 stems/propernouns-malenames-cyrillic.lexc             \
-		 stems/propernouns-malenames-russian-derivable.lexc    \
-		 stems/propernouns-malesurnames-cyrillic.lexc          \
-		 stems/propernouns-malesurnames-russian-derivable.lexc \
-		 stems/propernouns-toponyms-Russian.lexc               \
-		 stems/propernouns.lexc                                \
-		 stems/quantifiers.lexc                                \
-		 stems/verbs-A2M.lexc                                  \
-		 stems/verbs-N2END.lexc
+		 $(srcdir)/stems/adjectives.lexc                                 \
+		 $(srcdir)/stems/adverbs.lexc                                    \
+		 $(srcdir)/stems/conjunctors.lexc                                \
+		 $(srcdir)/stems/descriptives.lexc                               \
+		 $(srcdir)/stems/gerunds.lexc                                    \
+		 $(srcdir)/stems/interjections.lexc                              \
+		 $(srcdir)/stems/nouns-deverbal.lexc                             \
+		 $(srcdir)/stems/nouns.lexc                                      \
+		 $(srcdir)/stems/nouns-russian-homographs.lexc                   \
+		 $(srcdir)/stems/particles.lexc                                  \
+		 $(srcdir)/stems/postpositions.lexc                              \
+		 $(srcdir)/stems/pronouns.lexc                                   \
+		 $(srcdir)/stems/propernouns-malenames-cyrillic.lexc             \
+		 $(srcdir)/stems/propernouns-malenames-russian-derivable.lexc    \
+		 $(srcdir)/stems/propernouns-malesurnames-cyrillic.lexc          \
+		 $(srcdir)/stems/propernouns-malesurnames-russian-derivable.lexc \
+		 $(srcdir)/stems/propernouns-toponyms-Russian.lexc               \
+		 $(srcdir)/stems/propernouns.lexc                                \
+		 $(srcdir)/stems/quantifiers.lexc                                \
+		 $(srcdir)/stems/verbs-A2M.lexc                                  \
+		 $(srcdir)/stems/verbs-N2END.lexc
 
 
 # Set this to the names of all source xml files, if any
