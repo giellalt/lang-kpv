@@ -1,0 +1,49 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+  Noun - вӧв: # Noun 'horse / лошадь'
+
+     вӧв+N+Sg+Nom: вӧв
+     вӧв+N+Sg+Gen: вӧвлӧн
+     вӧв+N+Sg+Abl: вӧвлысь
+     вӧв+N+Sg+Dat: вӧвлы
+     вӧв+N+Sg+Acc: вӧлӧс
+     вӧв+N+Sg+Ins: вӧлӧн
+     вӧв+N+Sg+Com: вӧвкӧд
+     вӧв+N+Sg+Car: вӧвтӧг
+     вӧв+N+Sg+Cns: вӧвла
+     вӧв+N+Sg+Comp: вӧвся
+     вӧв+N+Sg+Ine: вӧлын
+     вӧв+N+Sg+Ela: вӧлысь
+     вӧв+N+Sg+Ill: вӧлӧ
+     вӧв+N+Sg+Apr: вӧвлань
+     вӧв+N+Sg+Egr: вӧвсянь
+     вӧв+N+Sg+Ter: вӧлӧдз
+     вӧв+N+Sg+Tra: вӧвті
+     вӧв+N+Sg+Prl: вӧлӧд
+     вӧв+N+Pl+Nom: вӧвъяс
+     вӧв+N+Pl+Gen: вӧвъяслӧн
+     вӧв+N+Pl+Abl: вӧвъяслысь
+     вӧв+N+Pl+Acc: вӧвъясӧс
+     вӧв+N+Pl+Dat: вӧвъяслы
+     вӧв+N+Pl+Comp: вӧвъясся
+     вӧв+N+Pl+Cns: вӧвъясла
+     вӧв+N+Pl+Ins: вӧвъясӧн
+     вӧв+N+Pl+Ill: вӧвъясӧ
+     вӧв+N+Pl+Ine: вӧвъясын
+     вӧв+N+Pl+Ela: вӧвъясысь
+     вӧв+N+Pl+Car: вӧвъястӧг
+     вӧв+N+Pl+Egr: вӧвъяссянь
+     вӧв+N+Pl+Tra: вӧвъясті
+     вӧв+N+Pl+Apr: вӧвъяслань
+     вӧв+N+Pl+Ter: вӧвъясӧдз
+     вӧв+N+Pl+Prl: вӧвъясӧд
