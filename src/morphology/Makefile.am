@@ -85,7 +85,6 @@ GT_XML_SRCS=\
 		 stems/verbs-A2M.xml                                  \
 		 stems/verbs-N2END.xml
 
-
-include $(top_srcdir)/am-shared/lexc-include.am
+include $(top_srcdir)/am-shared/src-morphology-dir-include.am
 
 # vim: set ft=automake:
