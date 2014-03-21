@@ -177,7 +177,7 @@ LEXICON HUNDREDST
 ӧкмыс:9   CUODIT ;	! 900000-999999
 
 LEXICON CUODIT
-% сё: HUNDREDT ;	! 200000-199999
+% сё% : HUNDREDT ;	! 200000-199999
 
 LEXICON HUNDREDT	     ! X = 1-9, Y = 0-9
 TENST ;			     ! X2XYYY, X10YYY
@@ -321,7 +321,8 @@ LEXICON LÅGEV2-6
 
 LEXICON CARD-ORD
  COMMA ;
-ӧд:%-ӧд COMMA ;
+ӧд:%. COMMA ; ! 2014-03-21 this will allow the demo to work.
+!ӧд:%-ӧд COMMA ;
 
 !LEXICON CARDINAL
 !ӧти:1    COMMA ;
