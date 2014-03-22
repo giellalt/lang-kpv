@@ -188,7 +188,6 @@ LEXICON BEF
 куим% :27 TOHALF ;
 кык% :28 TOHALF ; 
 ӧти% :29 TOHALF ;
-пель% :3%0 HOUR ;
 кызь% ӧкмыс% :31 TO ;
 кызь% кӧкъямыс% :32 TO ;
 кызь% сизим% :33 TO ;
@@ -254,7 +253,7 @@ LEXICON ANDMINUTES_first
 минута% марто% :+Use/NG HOUR ;
 
 LEXICON TOHALF
-минутавтомо% пель% : HOUR ;
+минуттӧг% : HOUR-AND-HALF ;
 
 LEXICON TO
 минуттӧг% : HOUR ; ! variant
@@ -272,3 +271,20 @@ LEXICON HOUR
 дас@U.TIME.10@:@U.TIME.10@ # ;
 дас% ӧти@U.TIME.11@:@U.TIME.11@ # ;
 дас% кык@U.TIME.12@:@U.TIME.12@ # ;
+
+LEXICON HOUR-AND-HALF
+ӧти@U.TIME.2@:@U.TIME.2@ AND-HALF ;
+кык@U.TIME.3@:@U.TIME.3@ AND-HALF ;
+куим@U.TIME.4@:@U.TIME.4@ AND-HALF ;
+нёль@U.TIME.5@:@U.TIME.5@ AND-HALF ;
+вит@U.TIME.6@:@U.TIME.6@ AND-HALF ;
+квайт@U.TIME.7@:@U.TIME.7@ AND-HALF ;
+сизим@U.TIME.8@:@U.TIME.8@ AND-HALF ;
+кӧкъямыс@U.TIME.9@:@U.TIME.9@ AND-HALF ;
+ӧкмыс@U.TIME.10@:@U.TIME.10@ AND-HALF ;
+дас@U.TIME.11@:@U.TIME.11@ AND-HALF ;
+дас% ӧти@U.TIME.12@:@U.TIME.12@ AND-HALF ;
+дас% кык@U.TIME.1@:@U.TIME.1@ AND-HALF ;
+
+LEXICON AND-HALF
+% да% джын: # ;
