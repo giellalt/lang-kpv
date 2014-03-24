@@ -90,16 +90,19 @@ GT_FILTER_TARGETS+=\
 				   remove-variant-strings.xfst
 endif
 
+GENERATED_REGEXES=remove-semantic-tags.regex \
+                  make-optional-semantic-tags.regex
+
 # Add the target of local additions here:
 # HFST targets here:
 if CAN_HFST
-GT_FILTER_TARGETS+=remove-semantic-tags-except-prop.hfst
+GT_FILTER_TARGETS+=
 
 endif
 
 # And Xerox targets here:
 if CAN_XFST
-GT_FILTER_TARGETS+=remove-semantic-tags-except-prop.xfst
+GT_FILTER_TARGETS+=
 
 endif
 
