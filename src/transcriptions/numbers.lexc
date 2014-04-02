@@ -42,7 +42,7 @@ ONEST ;			     ! 2000-9999
 UNDERTHOUSAND ;		     ! 100-999
 TENS ;			     ! 20-99
 TEENS ;			     ! 10-19
-ONES ;			     ! 1-9
+REAL-ONES ;			     ! 1-9
 
 LEXICON ONESG
 ӧти% :   1GIGA ;
@@ -265,7 +265,7 @@ LEXICON HUNDREDS
 LEXICON CUODI
 % сё: HUNDRED ;
 
-tjuodát: CUODAAT ;
+!tjuodát: CUODAAT ;
 
 LEXICON HUNDRED
 % : TENS ;
@@ -282,11 +282,13 @@ LEXICON TEENS
 
 LEXICON ONES
 ӧти:1 COMMA ;
-ӧтик:1 CARD-ORD ;
+ӧтик+Use/NG:1 COMMA ;
+ӧтикӧд:1%. COMMA ;
 
 кык:2 CARD-ORD ;
-куим:3 COMMA ;
-коймӧд:3%-ӧд COMMA ;
+куим:3 COMMA ;!
+коймӧд:3%. COMMA ; ! This allows demo to function
+!коймӧд:3%-ӧд COMMA ;
 нёль:4 CARD-ORD ;
 
 вит:5 CARD-ORD ;
@@ -323,6 +325,23 @@ LEXICON CARD-ORD
  COMMA ;
 ӧд:%. COMMA ; ! 2014-03-21 this will allow the demo to work.
 !ӧд:%-ӧд COMMA ;
+
+LEXICON REAL-ONES
+ӧти:1 COMMA ;
+ӧтик:1 COMMA ;
+первой:1%. COMMA ;
+кык:2 COMMA ;
+мӧд:2%. COMMA ;
+куим:3 COMMA ;!
+коймӧд:3%. COMMA ; ! This allows demo to function
+!коймӧд:3%-ӧд COMMA ;
+нёль:4 CARD-ORD ;
+вит:5 CARD-ORD ;
+квайт:6 CARD-ORD ;
+сизим:7 CARD-ORD ;
+кӧкъямыс:8 CARD-ORD ;
+ӧкмыс:9 CARD-ORD ;
+
 
 !LEXICON CARDINAL
 !ӧти:1    COMMA ;
