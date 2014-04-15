@@ -7,7 +7,7 @@
 
 # HfstTester.py 1.4 - Copyright (c) 2011
 # Brendan Molloy <brendan@bbqsrc.net>
-# Børre Gaup <boerre@skolelinux.no>
+# Børre Gaup <borre.gaup@uit.no>
 # Licensed under Creative Commons Zero (CC0)
 
 # Taken from:
@@ -35,7 +35,7 @@ except:
 	except:
 		print "Looks like you're on an older Python version."
 		print "Please do `sudo easy_install ordereddict`."
-		
+
 try:
 	import yaml
 except:
@@ -74,17 +74,17 @@ def l2s(thing):
 
 def colourise(string, opt=None):
 	def red(s="", r="\033[m"):
-		return "\033[1;31m%s%s" % (s, r) 
+		return "\033[1;31m%s%s" % (s, r)
 	def green(s="", r="\033[m"):
-		return "\033[0;32m%s%s" % (s, r) 
+		return "\033[0;32m%s%s" % (s, r)
 	def orange(s="", r="\033[m"):
-		return "\033[0;33m%s%s" % (s, r) 
+		return "\033[0;33m%s%s" % (s, r)
 	def yellow(s="", r="\033[m"):
-		return "\033[1;33m%s%s" % (s, r) 
+		return "\033[1;33m%s%s" % (s, r)
 	def blue(s="", r="\033[m"):
-		return "\033[0;34m%s%s" % (s, r) 
+		return "\033[0;34m%s%s" % (s, r)
 	def light_blue(s="", r="\033[m"):
-		return "\033[0;36m%s%s" % (s, r) 
+		return "\033[0;36m%s%s" % (s, r)
 	def reset(s=""):
 		return "\033[m%s" % s
 
@@ -96,7 +96,7 @@ def colourise(string, opt=None):
 		x = x.replace("[PASS]", green("[PASS]"))
 		x = x.replace("[FAIL]", red("[FAIL]"))
 		return x
-	
+
 	elif opt == 1:
 		return yellow(string)
 
@@ -158,7 +158,7 @@ class HfstTester:
 		self.count = []
 
 		argparser = argparse.ArgumentParser(
-			description="""Test morphological transducers for consistency. 
+			description="""Test morphological transducers for consistency.
 			`hfst-lookup` (or Xerox' `lookup` with argument -x) must be
 			available on the PATH.""",
 			epilog="Will run all tests in the test_file by default."
@@ -195,7 +195,7 @@ class HfstTester:
 			'Noun - gåetie' (remember quotes if the ID contains spaces)""")
 		argparser.add_argument("test_file", nargs=1,
 			help="YAML/JSON file with test rules")
-		self.args = argparser.parse_args()	
+		self.args = argparser.parse_args()
 
 		try:
 			f = yaml.load(open(self.args.test_file[0]), OrderedDictYAMLLoader)
@@ -207,7 +207,7 @@ class HfstTester:
 				print "File not valid YAML or JSON. Bailing out."
 				print "Check your YAML for spurious hidden tabs."
 				sys.exit(255)
-		
+
 		if self.args.xerox:
 			print "Testing Xerox FST dictionaries"
 			configkey = "xerox"
@@ -226,14 +226,14 @@ class HfstTester:
 		for i in (self.gen, self.morph):
 			if not os.path.isfile(i):
 				print "File %s does not exist." % i
-				sys.exit(255)	
+				sys.exit(255)
 		self.tests = f["Tests"]
 
 		if self.args.test:
 			# Assume that the command line input is utf-8, convert it to unicode
 			self.args.test[0] = self.args.test[0].decode('utf-8')
 		self.run_tests(self.args.test)
-	
+
 	def c(self, s, o=None):
 		if self.args.colour:
 			return colourise(s, o)
@@ -242,11 +242,11 @@ class HfstTester:
 	def run_tests(self, input=None):
 		if self.args.surface == self.args.lexical == False:
 			self.args.surface = self.args.lexical = True
-		
+
 		if(input != None):
 			if self.args.lexical: self.run_lexical_test(input[0])
 			if self.args.surface: self.run_surface_test(input[0])
-		
+
 		else:
 			for t in self.tests.keys():
 				if self.args.lexical: self.run_lexical_test(t)
@@ -255,7 +255,7 @@ class HfstTester:
 	def run_surface_test(self, input):
 		c = len(self.count)
 		self.count.append([0, 0])
-		
+
 		title = "Test %d: %s (Surface/Analysis)" % (c, input)
 		if not self.args.compact:
 			print self.c("-"*len(title), 1).encode('utf-8')
@@ -276,14 +276,14 @@ class HfstTester:
 				args += sform + '\n'
 			app.stdin.write(args.encode('utf-8'))
 			res = app.communicate()[0].split('\n\n')
-			#for i in res: print i, 
+			#for i in res: print i,
 
 			for num, sform in enumerate(sforms):
 				lexes = self.parse_fst_output(res[num].decode('utf-8'))
 				#print "Lexes: ", lexes
 				#print "\nl: ", l, "sform", sform, "res", res[num]
 				#print "Lexors: ", lexors
-				
+
 				passed = False
 				for lexor in lexors: # for each "facit" analysis
 					if lexor in lexes: # We have a positive hit
@@ -292,7 +292,7 @@ class HfstTester:
 						self.count[c][0] += 1
 						lexes.remove(lexor) # remove the hit from the lookup results
 						passed = True
-				
+
 				# If we have passed the test above AND ignore_extra_analyses is set,
 				# don't print the fails
 				if self.args.ignore_extra_analyses == False or passed == False:
@@ -302,7 +302,7 @@ class HfstTester:
 						self.count[c][1] += 1
 				else:
 					self.ignores += len(lexes)
-		
+
 		if not self.args.compact:
 			print self.c("Test %d - Passes: %d, Fails: %d, Total: %d\n" % (c, self.count[c][0],
 				self.count[c][1], self.count[c][0] + self.count[c][1]), 2).encode('utf-8')
@@ -311,7 +311,7 @@ class HfstTester:
 				print self.c("[FAIL] - %s" % title)
 			else:
 				print self.c("[PASS] - %s" % title)
-		
+
 		self.passes += self.count[c][0]
 		self.fails += self.count[c][1]
 
@@ -319,18 +319,18 @@ class HfstTester:
 		c = len(self.count)
 		self.count.append([0, 0])
 		title = "Test %d: %s (Lexical/Generation)" % (c, input)
-		if not self.args.compact:	
+		if not self.args.compact:
 			print self.c("-"*len(title), 1).encode('utf-8')
 			print self.c(title, 1).encode('utf-8')
 			print self.c("-"*len(title), 1).encode('utf-8')
-		
+
 		app = Popen([self.program, self.gen], stdin=PIPE, stdout=PIPE, stderr=PIPE)
 		args = ""
 		for k in self.tests[input].keys():
 			args += k + '\n'
 		app.stdin.write(args.encode('utf-8'))
 		res = app.communicate()[0].split('\n\n')
-		#for i in res: print i, 
+		#for i in res: print i,
 		for num, l in enumerate(self.tests[input].keys()):
 			sforms = s2l(self.tests[input][l])
 			lexes = self.parse_fst_output(res[num].decode('utf-8'))
@@ -343,16 +343,16 @@ class HfstTester:
 					if not self.args.hide_fail and not self.args.compact:
 						print self.c("[FAIL] %s => Expected: %s, Got: %s" % (l, l2s(sforms), r)).encode('utf-8')
 					self.count[c][1] += 1
-		
+
 		if not self.args.compact:
-			print self.c("Test %d - Passes: %d, Fails: %d, Total: %d\n" % (c, self.count[c][0], 
+			print self.c("Test %d - Passes: %d, Fails: %d, Total: %d\n" % (c, self.count[c][0],
 				self.count[c][1], self.count[c][0] + self.count[c][1]), 2).encode('utf-8')
 		else:
 			if self.count[c][1] > 0:
 				print self.c("[FAIL] - %s" % title)
 			else:
 				print self.c("[PASS] - %s" % title)
-		
+
 		self.passes += self.count[c][0]
 		self.fails += self.count[c][1]
 
@@ -363,7 +363,7 @@ class HfstTester:
 			for i in res.replace('\r\n', '\n').replace('\r', '\n').split('\n'):
 				if i.strip() != '':
 					lexes = i.split('\t')
-					
+
 					# This test is needed because xfst's lookup
 					# sometimes output strings like
 					# bearkoe\tbearkoe\t+N+Sg+Nom, instead of the expected
