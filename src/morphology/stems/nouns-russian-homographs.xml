@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xml:lang="kpv">
    <e>
       <lg>
          <l pos="N">вариант</l>
@@ -27,13 +27,14 @@
       </lg>
       <pos>N</pos>
       <mg>
+         <tg xml:lang="fin">
+            <t pos="N">lentopallo</t>
+         </tg>
          <m>
             <head/>
          </m>
          <tg xml:lang="rus">
-            <t>волейбол</t>
-         </tg>
-         <tg xml:lang="rus">
+            <t pos="N">волейбол</t>
             <t pos="A">волейбольный</t>
          </tg>
          <xg>
@@ -58,9 +59,6 @@
          <m>
             <head/>
          </m>
-         <tg>
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -76,7 +74,7 @@
             <head/>
          </m>
          <tg xml:lang="rus">
-            <t>волнение</t>
+            <t pos="N">волнение</t>
          </tg>
       </mg>
    </e>
@@ -108,8 +106,8 @@
          <m>
             <head/>
          </m>
-         <tg>
-            <t/>
+         <tg xml:lang="fin">
+            <t pos="N">luokittelu</t>
          </tg>
       </mg>
    </e>
@@ -125,9 +123,6 @@
          <m>
             <head/>
          </m>
-         <tg>
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -142,9 +137,6 @@
          <m>
             <head/>
          </m>
-         <tg>
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -159,9 +151,6 @@
          <m>
             <head/>
          </m>
-         <tg>
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -176,9 +165,6 @@
          <m>
             <head/>
          </m>
-         <tg>
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -193,9 +179,6 @@
          <m>
             <head/>
          </m>
-         <tg>
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -211,10 +194,10 @@
             <head/>
          </m>
          <tg xml:lang="rus">
-            <t>почта</t>
+            <t pos="N">почта</t>
          </tg>
          <tg xml:lang="rus">
-            <t>почтовый</t>
+            <t pos="N">почтовый</t>
          </tg>
          <xg>
             <x>почта куд</x>
@@ -256,7 +239,7 @@
             <head/>
          </m>
          <tg xml:lang="rus">
-            <t>предание</t>
+            <t pos="N">предание</t>
          </tg>
          <xg>
             <x>важ преданиеяс</x>
@@ -281,7 +264,7 @@
             <head/>
          </m>
          <tg xml:lang="rus">
-            <t>предатель</t>
+            <t pos="N">предатель</t>
          </tg>
          <xg>
             <x>предательӧс мустӧмтны</x>
@@ -305,7 +288,7 @@
             <semRel No="1" semRelType="seeAlso" stemID="сёрникузя_Noun1_N"/>
          </m>
          <tg xml:lang="rus">
-            <t>предложение</t>
+            <t pos="N">предложение</t>
          </tg>
          <xg>
             <x>вводнӧй предложение</x>
@@ -344,7 +327,7 @@
             <semRel No="1" semRelType="seeAlso" stemID="вӧзйӧм_Noun1_N"/>
          </m>
          <tg xml:lang="rus">
-            <t>предложение</t>
+            <t pos="N">предложение</t>
          </tg>
          <xg>
             <x>подула предложение</x>
@@ -371,7 +354,7 @@
             </head>
          </m>
          <tg xml:lang="rus">
-            <t>предмет</t>
+            <t pos="N">предмет</t>
          </tg>
          <xg>
             <x>ловъя предметъяс</x>
@@ -402,7 +385,7 @@
             <semRel lemmaID="асшӧр уджалысь_XX" semRelType="seeAlso"/>
          </m>
          <tg xml:lang="rus">
-            <t>предприниматель</t>
+            <t pos="N">предприниматель</t>
          </tg>
          <xg>
             <x>писькӧс предприниматель</x>
@@ -423,7 +406,7 @@
             <head/>
          </m>
          <tg xml:lang="rus">
-            <t>предприятие</t>
+            <t pos="N">предприятие</t>
          </tg>
          <xg>
             <x>видз-му овмӧс предприятие</x>
@@ -462,10 +445,10 @@
             <semRel No="1" semRelType="seeAlso" stemID="веськӧдлысь_Noun1"/>
          </m>
          <tg xml:lang="rus">
-            <t>председатель</t>
+            <t pos="N">председатель</t>
          </tg>
          <tg xml:lang="rus">
-            <t>председательский</t>
+            <t pos="N">председательский</t>
          </tg>
          <xg>
             <x>сиктсӧветса председатель</x>
@@ -494,7 +477,7 @@
             <head/>
          </m>
          <tg xml:lang="rus">
-            <t>президент</t>
+            <t pos="N">президент</t>
          </tg>
          <xg>
             <x>республикаса президент</x>
@@ -519,10 +502,10 @@
             <head/>
          </m>
          <tg xml:lang="rus">
-            <t>премия</t>
+            <t pos="N">премия</t>
          </tg>
          <tg>
-            <t>премиальный</t>
+            <t pos="N">премиальный</t>
          </tg>
          <xg>
             <x>премия сьӧм</x>
@@ -553,7 +536,7 @@
             </head>
          </m>
          <tg xml:lang="rus">
-            <t>препинание</t>
+            <t pos="N">препинание</t>
          </tg>
          <xg>
             <x>препинание пасъяс</x>
@@ -575,7 +558,7 @@
             <semRel No="1" lemmaID="велӧдысь_XX" semRelType="seeAlso"/>
          </m>
          <tg xml:lang="rus">
-            <t>преподаватель, преподавательница</t>
+            <t pos="N">преподаватель, преподавательница</t>
          </tg>
          <xg>
             <x>коми кывйысь преподаватель</x>
@@ -601,7 +584,7 @@
             <semRel semRelType="seeAlso" stemID="мыж вӧчысь_Noun1"/>
          </m>
          <tg xml:lang="rus">
-            <t>преступник</t>
+            <t pos="N">преступник</t>
          </tg>
          <xg>
             <x>вельмӧм преступник</x>
@@ -627,7 +610,7 @@
             <semRel No="1" lemmaID="чуктӧс_XX" semRelType="seeAlso"/>
          </m>
          <tg xml:lang="rus">
-            <t>прибыль</t>
+            <t pos="N">прибыль</t>
          </tg>
          <xg>
             <x>ыджыд прибыль</x>
@@ -653,7 +636,7 @@
             <semRel lemmaID="асэмбуралӧм_XX" semRelType="seeAlso"/>
          </m>
          <tg xml:lang="rus">
-            <t>приватизация</t>
+            <t pos="N">приватизация</t>
          </tg>
       </mg>
    </e>
@@ -670,7 +653,7 @@
             <head/>
          </m>
          <tg xml:lang="rus">
-            <t>привет</t>
+            <t pos="N">привет</t>
          </tg>
          <xg>
             <x>ыстыны привет</x>
@@ -692,7 +675,7 @@
             <semRel lemmaID="торъя право_XX" semRelType="seeAlso"/>
          </m>
          <tg xml:lang="rus">
-            <t>привилегия</t>
+            <t pos="N">привилегия</t>
          </tg>
          <xg>
             <x>привилегия сетны</x>
@@ -713,7 +696,7 @@
             <head/>
          </m>
          <tg xml:lang="rus">
-            <t>приговор</t>
+            <t pos="N">приговор</t>
          </tg>
          <xg>
             <x>мыждан приговор</x>
@@ -750,7 +733,7 @@
             <head/>
          </m>
          <tg xml:lang="rus">
-            <t>приз</t>
+            <t pos="N">приз</t>
          </tg>
          <xg>
             <x>босьтны первой приз</x>
@@ -772,7 +755,7 @@
             <semRel No="1" lemmaID="тӧдмӧс_XX" semRelType="seeAlso"/>
          </m>
          <tg xml:lang="rus">
-            <t>признак</t>
+            <t pos="N">признак</t>
          </tg>
          <xg>
             <x>биа висьӧмлӧн признакъяс</x>
@@ -801,7 +784,7 @@
             <head/>
          </m>
          <tg xml:lang="rus">
-            <t>призыв</t>
+            <t pos="N">призыв</t>
          </tg>
          <xg>
             <x>военнӧй служба вылӧ призыв</x>
@@ -822,7 +805,7 @@
             <head/>
          </m>
          <tg xml:lang="rus">
-            <t>приказ</t>
+            <t pos="N">приказ</t>
          </tg>
          <xg>
             <x>приказ серти</x>
@@ -857,7 +840,7 @@
             </head>
          </m>
          <tg xml:lang="rus">
-            <t>приложение</t>
+            <t pos="N">приложение</t>
          </tg>
       </mg>
    </e>
@@ -874,10 +857,10 @@
             <head/>
          </m>
          <tg xml:lang="rus">
-            <t>пример</t>
+            <t pos="N">пример</t>
          </tg>
          <tg xml:lang="rus">
-            <t>образец</t>
+            <t pos="N">образец</t>
          </tg>
          <xg>
             <x>синводзса пример</x>
@@ -903,7 +886,7 @@
             </head>
          </m>
          <tg xml:lang="rus">
-            <t>пример</t>
+            <t pos="N">пример</t>
          </tg>
          <xg>
             <x>пример решитны</x>
@@ -924,10 +907,10 @@
             <head/>
          </m>
          <tg xml:lang="rus">
-            <t>примета</t>
+            <t pos="N">примета</t>
          </tg>
          <tg xml:lang="rus">
-            <t>признак</t>
+            <t pos="N">признак</t>
          </tg>
          <xg>
             <x>йӧзкостса приметаяс</x>
@@ -951,7 +934,7 @@
             <head/>
          </m>
          <tg xml:lang="rus">
-            <t>предзнаменование</t>
+            <t pos="N">предзнаменование</t>
          </tg>
          <xg>
             <x>бур примета</x>
@@ -974,7 +957,7 @@
             </head>
          </m>
          <tg xml:lang="rus">
-            <t>примыкание</t>
+            <t pos="N">примыкание</t>
          </tg>
       </mg>
    </e>
@@ -991,7 +974,7 @@
             <head/>
          </m>
          <tg xml:lang="rus">
-            <t>принцип</t>
+            <t pos="N">принцип</t>
          </tg>
          <xg>
             <x>физикалӧн принципъяс</x>
@@ -1013,7 +996,7 @@
             <semRel No="2" lemmaID="ывла_XX" semRelType="seeAlso"/>
          </m>
          <tg xml:lang="rus">
-            <t>природа</t>
+            <t pos="N">природа</t>
          </tg>
          <xg>
             <x>войвывса природа</x>
@@ -1040,7 +1023,7 @@
             </head>
          </m>
          <tg xml:lang="rus">
-            <t>приставка, префикс</t>
+            <t pos="N">приставка, префикс</t>
          </tg>
       </mg>
    </e>
@@ -1056,9 +1039,6 @@
          <m>
             <head/>
          </m>
-         <tg>
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -1073,9 +1053,6 @@
          <m>
             <head/>
          </m>
-         <tg>
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -1090,9 +1067,6 @@
          <m>
             <head/>
          </m>
-         <tg>
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -1107,9 +1081,6 @@
          <m>
             <head/>
          </m>
-         <tg>
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -1124,9 +1095,6 @@
          <m>
             <head/>
          </m>
-         <tg>
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -1157,9 +1125,6 @@
          <m>
             <head/>
          </m>
-         <tg>
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -1223,9 +1188,6 @@
             <head/>
             <semRel lemmaID="велӧдысь_N" semRelType="seeNative"/>
          </m>
-         <tg>
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -1240,8 +1202,8 @@
          <m>
             <head/>
          </m>
-         <tg>
-            <t/>
+         <tg xml:lang="fin">
+            <t pos="N">mestaruus</t>
          </tg>
       </mg>
    </e>
