@@ -16,10 +16,10 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>а</t>
+        <t pos="Interj">а</t>
 
         <tCtn>
-          <t>ба</t>
+          <t pos="Interj">ба</t>
 
           <register register="conversation"/>
         </tCtn>
@@ -56,14 +56,14 @@
 
       <tg xml:lang="rus">
         <tCtn>
-          <t>о, ой, ох</t>
+          <t pos="Interj">о, ой, ох</t>
 
           <re>восклицание, выражающее восхищение; вскрик от внезапной боли, от неожиданности</re>
         </tCtn>
       </tg>
 
       <tg xml:lang="rus">
-        <t>боже</t>
+        <t pos="Interj">боже</t>
       </tg>
     </mg>
   </e>
@@ -81,7 +81,7 @@
 
       <tg xml:lang="eng">
         <tCtn>
-          <t>oh</t>
+          <t pos="Interj">oh</t>
 
           <re>expression of pity, hate, joy</re>
         </tCtn>
@@ -89,7 +89,7 @@
 
       <tg xml:lang="fin">
         <tCtn>
-          <t>voi</t>
+          <t pos="Interj">voi</t>
 
           <re>ilmaisee sääliä, vihaa, iloa</re>
         </tCtn>
@@ -101,7 +101,7 @@
 
       <tg xml:lang="rus">
         <tCtn>
-          <t>ах</t>
+          <t pos="Interj">ах</t>
 
           <re>выражает сожаление, гнев, радость</re>
         </tCtn>
@@ -134,7 +134,7 @@
 
       <tg xml:lang="eng">
         <tCtn>
-          <t>hello</t>
+          <t pos="Interj">hello</t>
 
           <re>on the phone instead of using name</re>
         </tCtn>
@@ -142,20 +142,13 @@
 
       <tg xml:lang="fin">
         <tCtn>
-          <t>haloo!</t>
+          <t pos="Interj">haloo!</t>
 
           <re>puhelimessa nimen sijasta</re>
         </tCtn>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -170,21 +163,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -200,7 +186,7 @@
 
       <tg xml:lang="rus">
         <tCtn>
-          <t>ой</t>
+          <t pos="Interj">ой</t>
 
           <re>выражает удивление или испуг</re>
         </tCtn>
@@ -229,11 +215,11 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>аминь</t>
+        <t pos="Interj">аминь</t>
       </tg>
 
       <tg xml:lang="rus">
-        <t>конец</t>
+        <t pos="Interj">конец</t>
       </tg>
 
       <xg>
@@ -257,7 +243,7 @@
 
       <tg xml:lang="rus">
         <tCtn>
-          <t>ой-ой</t>
+          <t pos="Interj">ой-ой</t>
 
           <re>выражает удивление, испуг</re>
         </tCtn>
@@ -294,21 +280,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>thank you</t>
+        <t pos="Interj">thank you</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>kiitos</t>
+        <t pos="Interj">kiitos</t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -323,11 +302,11 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>спасибо,</t>
+        <t pos="Interj">спасибо,</t>
       </tg>
 
       <tg xml:lang="rus">
-        <t>благодарю</t>
+        <t pos="Interj">благодарю</t>
       </tg>
 
       <xg>
@@ -356,11 +335,11 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>oh</t>
+        <t pos="Interj">oh</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>voi</t>
+        <t pos="Interj">voi</t>
       </tg>
     </mg>
 
@@ -368,7 +347,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>ах! ох!</t>
+        <t pos="Interj">ах! ох!</t>
       </tg>
 
       <xg>
@@ -407,7 +386,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t>баю-бай</t>
+        <t pos="Interj">баю-бай</t>
       </tg>
     </mg>
   </e>
@@ -428,7 +407,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
   </e>
@@ -455,7 +434,7 @@
 
       <tg xml:lang="rus">
         <tCtn>
-          <t>с богом</t>
+          <t pos="Interj">с богом</t>
 
           <re>пожелание успеха, удачи при каком-л. деле</re>
         </tCtn>
@@ -481,21 +460,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e exclude="fst" order="2">
@@ -506,13 +478,6 @@
         <st Contlex="INTERJ_">бри да бра</st>
       </stg>
     </lg>
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e exclude="fst" order="2">
@@ -527,11 +492,11 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>бодро</t>
+        <t pos="Interj">бодро</t>
       </tg>
 
       <tg xml:lang="rus">
-        <t>как ни в чём не бывало</t>
+        <t pos="Interj">как ни в чём не бывало</t>
       </tg>
     </mg>
   </e>
@@ -548,23 +513,16 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>plop!</t>
+        <t pos="Interj">plop!</t>
 
-        <t>splash!</t>
+        <t pos="Interj">splash!</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -583,23 +541,16 @@
       </m>
 
       <tg xml:lang="eng">
-        <t>splash!</t>
+        <t pos="Interj">splash!</t>
 
-        <t>plop!</t>
+        <t pos="Interj">plop!</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>polskahdus</t>
+        <t pos="Interj">polskahdus</t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -614,11 +565,11 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>shoo</t>
+        <t pos="Interj">shoo</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>hyss??</t>
+        <t pos="Interj">hyss??</t>
       </tg>
     </mg>
 
@@ -630,7 +581,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
 
       <xg>
@@ -653,21 +604,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>good morning</t>
+        <t pos="Interj">good morning</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>hyvää huomenta</t>
+        <t pos="Interj">hyvää huomenta</t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e exclude="fst" order="2">
@@ -682,25 +626,18 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>good night</t>
+        <t pos="Interj">good night</t>
       </tg>
 
       <tg xml:lang="fin">
         <tCtn>
-          <t>hyvää yötä</t>
+          <t pos="Interj">hyvää yötä</t>
 
           <re>nukkumaan mentäessä</re>
         </tCtn>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e exclude="fst" order="2">
@@ -715,25 +652,18 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>your welcome</t>
+        <t pos="Interj">your welcome</t>
 
-        <t>don't mention it</t>
+        <t pos="Interj">don't mention it</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>ole hyvä</t>
+        <t pos="Interj">ole hyvä</t>
 
-        <t>olkaa hyvä</t>
+        <t pos="Interj">olkaa hyvä</t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e exclude="fst" order="2">
@@ -748,23 +678,16 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>good afternoon</t>
+        <t pos="Interj">good afternoon</t>
 
-        <t>good morning</t>
+        <t pos="Interj">good morning</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>hyvää päivää</t>
+        <t pos="Interj">hyvää päivää</t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e exclude="fst" order="2">
@@ -779,21 +702,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>good evening</t>
+        <t pos="Interj">good evening</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>hyvää iltaa</t>
+        <t pos="Interj">hyvää iltaa</t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -812,7 +728,7 @@
 
       <tg xml:lang="rus">
         <tCtn>
-          <t>дай, давай</t>
+          <t pos="Interj">дай, давай</t>
 
           <re>употр. при понуждении к действию</re>
         </tCtn>
@@ -853,7 +769,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>давай, давай-ка</t>
+        <t pos="Interj">давай, давай-ка</t>
       </tg>
 
       <xg>
@@ -880,7 +796,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
   </e>
@@ -897,21 +813,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>see you later</t>
+        <t pos="Interj">see you later</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>näkemiin</t>
+        <t pos="Interj">näkemiin</t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e exclude="fst" order="2">
@@ -926,21 +835,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>see you later</t>
+        <t pos="Interj">see you later</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>näkemiin</t>
+        <t pos="Interj">näkemiin</t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e exclude="fst" order="2">
@@ -955,21 +857,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>hello</t>
+        <t pos="Interj">hello</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>hyvää päivää</t>
+        <t pos="Interj">hyvää päivää</t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e exclude="fst" order="2">
@@ -984,21 +879,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>hello</t>
+        <t pos="Interj">hello</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>hyvää päivää</t>
+        <t pos="Interj">hyvää päivää</t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e exclude="fst" order="2">
@@ -1013,23 +901,16 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>that's great</t>
+        <t pos="Interj">that's great</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>mainiota</t>
+        <t pos="Interj">mainiota</t>
 
-        <t>ihanaa</t>
+        <t pos="Interj">ihanaa</t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -1044,23 +925,16 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>perhaps</t>
+        <t pos="Interj">perhaps</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>kenties</t>
+        <t pos="Interj">kenties</t>
 
-        <t>ehkä</t>
+        <t pos="Interj">ehkä</t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -1075,7 +949,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>боже</t>
+        <t pos="Interj">боже</t>
       </tg>
 
       <xg>
@@ -1098,21 +972,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>bang!</t>
+        <t pos="Interj">bang!</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>pau! (kivääristä, vatsasta)</t>
+        <t pos="Interj">pau! (kivääristä, vatsasta)</t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -1131,7 +998,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t>☺</t>
+        <t pos="Interj">☺</t>
       </tg>
 
       <xg>
@@ -1154,7 +1021,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
   </e>
@@ -1171,7 +1038,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>ей богу</t>
+        <t pos="Interj">ей богу</t>
       </tg>
     </mg>
   </e>
@@ -1189,7 +1056,7 @@
 
       <tg xml:lang="rus">
         <tCtn>
-          <t>ёлки-палки</t>
+          <t pos="Interj">ёлки-палки</t>
 
           <re>(восклицание, выражающее удивление, негодование, возмущение)</re>
         </tCtn>
@@ -1215,25 +1082,18 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>pity</t>
+        <t pos="Interj">pity</t>
 
-        <t>too bad</t>
+        <t pos="Interj">too bad</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>sääli</t>
+        <t pos="Interj">sääli</t>
 
-        <t>vahinko</t>
+        <t pos="Interj">vahinko</t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -1257,7 +1117,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t>милый, любимый</t>
+        <t pos="Interj">милый, любимый</t>
       </tg>
     </mg>
   </e>
@@ -1274,7 +1134,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>у-у!</t>
+        <t pos="Interj">у-у!</t>
       </tg>
 
       <xg>
@@ -1298,7 +1158,7 @@
 
       <tg xml:lang="rus">
         <tCtn>
-          <t>гей!</t>
+          <t pos="Interj">гей!</t>
 
           <re>возглас радости</re>
         </tCtn>
@@ -1335,11 +1195,11 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>sign of agreement (in a game)</t>
+        <t pos="Interj">sign of agreement (in a game)</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
 
@@ -1351,7 +1211,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
   </e>
@@ -1369,7 +1229,7 @@
 
       <tg xml:lang="rus">
         <tCtn>
-          <t>кш, кши, кшиш</t>
+          <t pos="Interj">кш, кши, кшиш</t>
 
           <re>возглас, к-рым отгоняют овец, птиц</re>
         </tCtn>
@@ -1389,21 +1249,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>who knows</t>
+        <t pos="Interj">who knows</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>kenties</t>
+        <t pos="Interj">kenties</t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -1422,7 +1275,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
   </e>
@@ -1439,7 +1292,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>ко-ко</t>
+        <t pos="Interj">ко-ко</t>
       </tg>
 
       <xg>
@@ -1463,7 +1316,7 @@
 
       <tg xml:lang="rus">
         <tCtn>
-          <t>уа</t>
+          <t pos="Interj">уа</t>
 
           <re>о плаче маленького ребёнка</re>
         </tCtn>
@@ -1504,7 +1357,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
   </e>
@@ -1521,21 +1374,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>not a word</t>
+        <t pos="Interj">not a word</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>ei sanaakaan</t>
+        <t pos="Interj">ei sanaakaan</t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -1550,7 +1396,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>кис-кис</t>
+        <t pos="Interj">кис-кис</t>
       </tg>
     </mg>
   </e>
@@ -1584,23 +1430,16 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>terrific</t>
+        <t pos="Interj">terrific</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>tosi mainio</t>
+        <t pos="Interj">tosi mainio</t>
 
-        <t>nasta</t>
+        <t pos="Interj">nasta</t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -1615,23 +1454,16 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>okay</t>
+        <t pos="Interj">okay</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>selvä</t>
+        <t pos="Interj">selvä</t>
 
-        <t>hyvä on</t>
+        <t pos="Interj">hyvä on</t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e>
@@ -1646,11 +1478,11 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
   </e>
@@ -1670,7 +1502,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>мама</t>
+        <t pos="Interj">мама</t>
       </tg>
     </mg>
   </e>
@@ -1688,7 +1520,7 @@
 
       <tg xml:lang="rus">
         <tCtn>
-          <t>чур меня!</t>
+          <t pos="Interj">чур меня!</t>
 
           <re>возглас в детских играх</re>
         </tCtn>
@@ -1714,7 +1546,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t>ну и пусть, ну и ладно</t>
+        <t pos="Interj">ну и пусть, ну и ладно</t>
       </tg>
 
       <xg>
@@ -1738,21 +1570,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e exclude="fst" order="2">
@@ -1767,21 +1592,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -1796,7 +1614,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>небось</t>
+        <t pos="Interj">небось</t>
       </tg>
 
       <xg>
@@ -1832,11 +1650,11 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>but</t>
+        <t pos="Interj">but</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>mutta (silti)??</t>
+        <t pos="Interj">mutta (silti)??</t>
       </tg>
     </mg>
 
@@ -1845,7 +1663,7 @@
 
       <tg xml:lang="rus">
         <tCtn>
-          <t>но, ну</t>
+          <t pos="Interj">но, ну</t>
 
           <re>понукание</re>
         </tCtn>
@@ -1871,17 +1689,17 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>now</t>
+        <t pos="Interj">now</t>
 
-        <t>well</t>
+        <t pos="Interj">well</t>
 
-        <t>well then</t>
+        <t pos="Interj">well then</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>no</t>
+        <t pos="Interj">no</t>
 
-        <t>no niin</t>
+        <t pos="Interj">no niin</t>
       </tg>
     </mg>
 
@@ -1889,7 +1707,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>ну-ка</t>
+        <t pos="Interj">ну-ка</t>
       </tg>
 
       <xg>
@@ -1928,11 +1746,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
 
@@ -1944,7 +1762,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t>ну-ка</t>
+        <t pos="Interj">ну-ка</t>
       </tg>
 
       <xg>
@@ -1971,7 +1789,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
 
       <xg>
@@ -2011,21 +1829,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -2044,7 +1855,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t>ну-ка!</t>
+        <t pos="Interj">ну-ка!</t>
       </tg>
 
       <xg>
@@ -2084,21 +1895,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>a whole lot</t>
+        <t pos="Interj">a whole lot</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -2120,7 +1924,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t>девонька; доченька</t>
+        <t pos="Interj">девонька; доченька</t>
       </tg>
 
       <xg>
@@ -2143,21 +1947,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -2176,7 +1973,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t>потягушеньки!</t>
+        <t pos="Interj">потягушеньки!</t>
       </tg>
     </mg>
   </e>
@@ -2193,11 +1990,11 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>о, а, ох, ах, ух</t>
+        <t pos="Interj">о, а, ох, ах, ух</t>
       </tg>
 
       <tg xml:lang="rus">
-        <t>ого, ага</t>
+        <t pos="Interj">ого, ага</t>
       </tg>
 
       <xg>
@@ -2260,11 +2057,11 @@
       </m>
 
       <tg xml:lang="eng">
-        <t>oh</t>
+        <t pos="Interj">oh</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>oi</t>
+        <t pos="Interj">oi</t>
       </tg>
     </mg>
 
@@ -2272,7 +2069,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>ой, ох</t>
+        <t pos="Interj">ой, ох</t>
       </tg>
 
       <xg>
@@ -2309,7 +2106,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>ой, какой! ух, какой! ух, как!</t>
+        <t pos="Interj">ой, какой! ух, какой! ух, как!</t>
       </tg>
 
       <xg>
@@ -2342,7 +2139,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t>ой, ай</t>
+        <t pos="Interj">ой, ай</t>
       </tg>
 
       <xg>
@@ -2389,7 +2186,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>ох, ах, ух, эх, ну</t>
+        <t pos="Interj">ох, ах, ух, эх, ну</t>
       </tg>
 
       <xg>
@@ -2461,7 +2258,7 @@
 
       <tg xml:lang="rus">
         <tCtn>
-          <t>эхма</t>
+          <t pos="Interj">эхма</t>
 
           <re>разг.</re>
         </tCtn>
@@ -2491,7 +2288,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t>довольно, достаточно, хватит, больше не надо; сойдёт</t>
+        <t pos="Interj">довольно, достаточно, хватит, больше не надо; сойдёт</t>
       </tg>
 
       <xg>
@@ -2514,21 +2311,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -2543,21 +2333,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -2576,21 +2359,14 @@
       </m>
 
       <tg xml:lang="eng">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e>
@@ -2605,11 +2381,11 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>from dawn till dusk</t>
+        <t pos="Interj">from dawn till dusk</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
   </e>
@@ -2633,7 +2409,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t>сын, сынок</t>
+        <t pos="Interj">сын, сынок</t>
       </tg>
 
       <xg>
@@ -2647,7 +2423,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>голубчик</t>
+        <t pos="Interj">голубчик</t>
       </tg>
 
       <xg>
@@ -2670,7 +2446,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>возглас, которым подзывают телят</t>
+        <t pos="Interj">возглас, которым подзывают телят</t>
       </tg>
     </mg>
   </e>
@@ -2691,27 +2467,20 @@
       </m>
 
       <tg xml:lang="eng">
-        <t>be my guest</t>
+        <t pos="Interj">be my guest</t>
 
-        <t>help yourself</t>
+        <t pos="Interj">help yourself</t>
 
-        <t>_ XXX-utf-8</t>
+        <t pos="Interj">_ XXX-utf-8</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>ole hyvä</t>
+        <t pos="Interj">ole hyvä</t>
 
-        <t>olkaa hyvä</t>
+        <t pos="Interj">olkaa hyvä</t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -2745,7 +2514,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>возглас, к-рым подзывают кур</t>
+        <t pos="Interj">возглас, к-рым подзывают кур</t>
       </tg>
 
       <xg>
@@ -2768,11 +2537,11 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
 
@@ -2780,7 +2549,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>слава богу; хорошо, благополучно</t>
+        <t pos="Interj">слава богу; хорошо, благополучно</t>
       </tg>
 
       <xg>
@@ -2808,13 +2577,6 @@
         <st Contlex="INTERJ_">слабог</st>
       </stg>
     </lg>
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -2830,7 +2592,7 @@
 
       <tg xml:lang="rus">
         <tCtn>
-          <t>смотри, смотрите</t>
+          <t pos="Interj">смотри, смотрите</t>
 
           <re>употр. в знач. предупреждения</re>
         </tCtn>
@@ -2862,11 +2624,11 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
 
@@ -2874,7 +2636,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>возглас, к-рым подзывают собаку</t>
+        <t pos="Interj">возглас, к-рым подзывают собаку</t>
       </tg>
     </mg>
   </e>
@@ -2887,13 +2649,6 @@
         <st Contlex="INTERJ_">сьта</st>
       </stg>
     </lg>
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -2908,11 +2663,11 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
 
@@ -2920,7 +2675,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>возглас, к-рым подзывают лошадь</t>
+        <t pos="Interj">возглас, к-рым подзывают лошадь</t>
       </tg>
     </mg>
   </e>
@@ -2933,13 +2688,6 @@
         <st Contlex="INTERJ_">сьтпро</st>
       </stg>
     </lg>
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e exclude="fst" order="2">
@@ -2954,7 +2702,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>ей богу</t>
+        <t pos="Interj">ей богу</t>
       </tg>
     </mg>
   </e>
@@ -2971,21 +2719,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e exclude="fst" order="2">
@@ -3003,21 +2744,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>et cetra</t>
+        <t pos="Interj">et cetra</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>ja niin edelleen</t>
+        <t pos="Interj">ja niin edelleen</t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -3032,27 +2766,20 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>apparently</t>
+        <t pos="Interj">apparently</t>
 
-        <t>I see</t>
+        <t pos="Interj">I see</t>
 
-        <t>you know</t>
+        <t pos="Interj">you know</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>-han</t>
+        <t pos="Interj">-han</t>
 
-        <t>-pa</t>
+        <t pos="Interj">-pa</t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -3067,7 +2794,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>бряк</t>
+        <t pos="Interj">бряк</t>
       </tg>
 
       <xg>
@@ -3090,11 +2817,11 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
 
@@ -3103,7 +2830,7 @@
 
       <tg xml:lang="rus">
         <tCtn>
-          <t>тпру</t>
+          <t pos="Interj">тпру</t>
 
           <re>возглас, к-рым останавливают лошадь</re>
         </tCtn>
@@ -3145,7 +2872,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
   </e>
@@ -3166,7 +2893,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
   </e>
@@ -3183,21 +2910,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -3216,21 +2936,14 @@
       </m>
 
       <tg xml:lang="eng">
-        <t>that's nothing</t>
+        <t pos="Interj">that's nothing</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>ei se mitään</t>
+        <t pos="Interj">ei se mitään</t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e exclude="fst" order="2">
@@ -3245,21 +2958,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>(neither hungry nor full) half-starved</t>
+        <t pos="Interj">(neither hungry nor full) half-starved</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>(ei nälässä eikä kylläinen) puoliksi nälissään</t>
+        <t pos="Interj">(ei nälässä eikä kylläinen) puoliksi nälissään</t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -3274,11 +2980,11 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>pooh</t>
+        <t pos="Interj">pooh</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>hyi</t>
+        <t pos="Interj">hyi</t>
       </tg>
     </mg>
 
@@ -3286,7 +2992,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>тьфу</t>
+        <t pos="Interj">тьфу</t>
       </tg>
     </mg>
   </e>
@@ -3307,7 +3013,7 @@
 
       <tg xml:lang="rus">
         <tCtn>
-          <t>тётя, тётушка</t>
+          <t pos="Interj">тётя, тётушка</t>
 
           <re>обращение к тётке и мачехе</re>
         </tCtn>
@@ -3331,7 +3037,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
   </e>
@@ -3352,7 +3058,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t>нажимай! давай!</t>
+        <t pos="Interj">нажимай! давай!</t>
       </tg>
     </mg>
   </e>
@@ -3369,21 +3075,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -3398,21 +3097,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -3431,7 +3123,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
   </e>
@@ -3448,21 +3140,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -3477,7 +3162,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>уф</t>
+        <t pos="Interj">уф</t>
       </tg>
 
       <xg>
@@ -3500,7 +3185,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>ура</t>
+        <t pos="Interj">ура</t>
       </tg>
 
       <xg>
@@ -3532,7 +3217,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t>чадо, дитя</t>
+        <t pos="Interj">чадо, дитя</t>
       </tg>
     </mg>
   </e>
@@ -3553,7 +3238,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
   </e>
@@ -3573,7 +3258,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>прыг</t>
+        <t pos="Interj">прыг</t>
       </tg>
 
       <xg>
@@ -3596,7 +3281,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>цып-цып</t>
+        <t pos="Interj">цып-цып</t>
       </tg>
     </mg>
   </e>
@@ -3613,27 +3298,20 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>hi!</t>
+        <t pos="Interj">hi!</t>
 
-        <t>hello!</t>
+        <t pos="Interj">hello!</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>hei!</t>
+        <t pos="Interj">hei!</t>
 
-        <t>moi!</t>
+        <t pos="Interj">moi!</t>
 
-        <t>terve!</t>
+        <t pos="Interj">terve!</t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -3648,7 +3326,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>чур</t>
+        <t pos="Interj">чур</t>
       </tg>
 
       <xg>
@@ -3671,11 +3349,11 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>что ты, что вы</t>
+        <t pos="Interj">что ты, что вы</t>
       </tg>
 
       <tg xml:lang="rus">
-        <t>неужели</t>
+        <t pos="Interj">неужели</t>
       </tg>
 
       <xg>
@@ -3698,7 +3376,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>к чертям; к чёрту</t>
+        <t pos="Interj">к чертям; к чёрту</t>
       </tg>
 
       <xg>
@@ -3721,12 +3399,12 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>ша</t>
+        <t pos="Interj">ша</t>
       </tg>
 
       <tg xml:lang="rus">
         <tCtn>
-          <t>ни гугу</t>
+          <t pos="Interj">ни гугу</t>
 
           <re>просьба или требование молчать</re>
         </tCtn>
@@ -3758,7 +3436,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>бряк, хлоп, бух, бац</t>
+        <t pos="Interj">бряк, хлоп, бух, бац</t>
       </tg>
 
       <xg>
@@ -3819,21 +3497,14 @@
       </m>
 
       <tg xml:lang="eng">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -3865,11 +3536,11 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
 
@@ -3881,7 +3552,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
   </e>
@@ -3898,21 +3569,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>thank you very much!</t>
+        <t pos="Interj">thank you very much!</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>suurkiitos!</t>
+        <t pos="Interj">suurkiitos!</t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -3927,7 +3591,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>бр-р</t>
+        <t pos="Interj">бр-р</t>
       </tg>
 
       <xg>
@@ -3950,7 +3614,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>вдруг, неожиданно</t>
+        <t pos="Interj">вдруг, неожиданно</t>
       </tg>
 
       <xg>
@@ -3970,15 +3634,15 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>стремительно, быстро</t>
+        <t pos="Interj">стремительно, быстро</t>
       </tg>
 
       <tg xml:lang="rus">
-        <t>круто</t>
+        <t pos="Interj">круто</t>
       </tg>
 
       <tg xml:lang="rus">
-        <t>резко</t>
+        <t pos="Interj">резко</t>
       </tg>
 
       <xg>
@@ -4014,11 +3678,11 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>э</t>
+        <t pos="Interj">э</t>
       </tg>
 
       <tg xml:lang="rus">
-        <t>а</t>
+        <t pos="Interj">а</t>
       </tg>
 
       <xg>
@@ -4053,7 +3717,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>эй!</t>
+        <t pos="Interj">эй!</t>
       </tg>
 
       <xg>
@@ -4082,7 +3746,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>эх!</t>
+        <t pos="Interj">эх!</t>
       </tg>
 
       <xg>
@@ -4111,7 +3775,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>эхма!</t>
+        <t pos="Interj">эхма!</t>
       </tg>
 
       <xg>
@@ -4142,21 +3806,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e exclude="fst" order="2">
@@ -4171,25 +3828,18 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>very little</t>
+        <t pos="Interj">very little</t>
 
-        <t>almost nothing</t>
+        <t pos="Interj">almost nothing</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>erittäin vähän</t>
+        <t pos="Interj">erittäin vähän</t>
 
-        <t>häviävän vähän</t>
+        <t pos="Interj">häviävän vähän</t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e exclude="fst" order="2">
@@ -4204,21 +3854,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>excuse me (lit. don't judge)</t>
+        <t pos="Interj">excuse me (lit. don't judge)</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>anna anteeksi (kirj. älä tuomitse)</t>
+        <t pos="Interj">anna anteeksi (kirj. älä tuomitse)</t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e exclude="fst" order="2">
@@ -4234,7 +3877,7 @@
 
       <tg xml:lang="eng">
         <tCtn>
-          <t>exuse me</t>
+          <t pos="Interj">exuse me</t>
 
           <re>lit. don't judge</re>
         </tCtn>
@@ -4242,20 +3885,13 @@
 
       <tg xml:lang="fin">
         <tCtn>
-          <t>antakaa anteeksi</t>
+          <t pos="Interj">antakaa anteeksi</t>
 
           <re>kirj. älkää tuomitko</re>
         </tCtn>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -4271,13 +3907,13 @@
 
       <tg xml:lang="eng">
         <tCtn>
-          <t>my, how</t>
+          <t pos="Interj">my, how</t>
 
           <re>of wonder</re>
         </tCtn>
 
         <tCtn>
-          <t>how</t>
+          <t pos="Interj">how</t>
 
           <re>of wonder</re>
         </tCtn>
@@ -4285,24 +3921,16 @@
 
       <tg xml:lang="fin">
         <tCtn>
-          <t>miten</t>
+          <t pos="Interj">miten</t>
 
           <re>ihmettely</re>
         </tCtn>
 
         <tCtn>
-          <t>kuinka</t>
+          <t pos="Interj">kuinka</t>
 
           <re>ihmettely</re>
         </tCtn>
-      </tg>
-    </mg>
-
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
       </tg>
     </mg>
   </e>
@@ -4320,7 +3948,7 @@
 
       <tg xml:lang="rus">
         <tCtn>
-          <t>но!</t>
+          <t pos="Interj">но!</t>
 
           <re>понукание лошади</re>
         </tCtn>
@@ -4340,11 +3968,11 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>bye-bye (as in a lully-bye)</t>
+        <t pos="Interj">bye-bye (as in a lully-bye)</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>tuu-tuu (lasta tuuditettaessa)</t>
+        <t pos="Interj">tuu-tuu (lasta tuuditettaessa)</t>
       </tg>
     </mg>
 
@@ -4353,7 +3981,7 @@
 
       <tg xml:lang="rus">
         <tCtn>
-          <t>колыбель; зыбка</t>
+          <t pos="Interj">колыбель; зыбка</t>
 
           <re>обл.</re>
         </tCtn>
@@ -4373,7 +4001,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>бай</t>
+        <t pos="Interj">бай</t>
       </tg>
 
       <xg>
@@ -4402,11 +4030,11 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>пусть (раз на то пошло)</t>
+        <t pos="Interj">пусть (раз на то пошло)</t>
       </tg>
 
       <tg xml:lang="rus">
-        <t>так и быть</t>
+        <t pos="Interj">так и быть</t>
       </tg>
     </mg>
   </e>
@@ -4440,20 +4068,20 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>видишь</t>
+        <t pos="Interj">видишь</t>
       </tg>
 
       <tg xml:lang="rus">
-        <t>вишь</t>
+        <t pos="Interj">вишь</t>
       </tg>
 
       <tg xml:lang="rus">
-        <t>ишь</t>
+        <t pos="Interj">ишь</t>
       </tg>
 
       <tg xml:lang="rus">
         <tCtn>
-          <t>ишь ты</t>
+          <t pos="Interj">ишь ты</t>
 
           <re>прост.</re>
         </tCtn>
@@ -4491,15 +4119,15 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>really?</t>
+        <t pos="Interj">really?</t>
 
-        <t>... isn't it?</t>
+        <t pos="Interj">... isn't it?</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t>kohan</t>
+        <t pos="Interj">kohan</t>
 
-        <t>niinkö</t>
+        <t pos="Interj">niinkö</t>
       </tg>
     </mg>
 
@@ -4507,21 +4135,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t>is it possible?</t>
+        <t pos="Interj">is it possible?</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t/>
+        <t pos="Interj"></t>
       </tg>
     </mg>
 
-    <mg>
-        <defNative/>
-
-      <tg>
-        <t/>
-      </tg>
-    </mg>
   </e>
 
   <e order="2">
@@ -4536,7 +4157,7 @@
         <defNative/>
 
       <tg xml:lang="rus">
-        <t>возглас, которым подзывают овец</t>
+        <t pos="Interj">возглас, которым подзывают овец</t>
       </tg>
     </mg>
   </e>
@@ -4557,7 +4178,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t>возглас, которым погоняют лошадей</t>
+        <t pos="Interj">возглас, которым погоняют лошадей</t>
       </tg>
     </mg>
   </e>
