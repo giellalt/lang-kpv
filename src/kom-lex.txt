@@ -227,7 +227,7 @@ Multichar_Symbols
 %^PATR
 %^FEM
 
-+Use/Sub ! Для не-литературного слова / форма / и.т.д.
++Err/Sub ! Для не-литературного слова / форма / и.т.д.
 +Src/F ! Majority-language words that might be utilized in several languages 
        ! Let's begin with nouns книга, учитель
 
@@ -1268,5 +1268,5 @@ LEXICON TESTCOMP
 ! TODO: Integrate this in xml-files in working…
 
 LEXICON SUBSTANDARDS 
-коръя+Use/Sub:корья Noun1 ;
+коръя+Err/Sub:корья Noun1 ;
 
