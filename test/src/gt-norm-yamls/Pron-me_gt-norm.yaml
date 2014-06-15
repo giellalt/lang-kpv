@@ -1,0 +1,46 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Pronoun - ме: # Personal Pronoun 'I / minä / я'
+    ме+Pron+Pers+Sg1+Nom: 
+    ме+Pron+Pers+Sg1+Acc: 
+    ме+Pron+Pers+Sg1+Gen: 
+    ме+Pron+Pers+Sg1+GenStem: 
+    ме+Pron+Pers+Sg1+GenStem+Gen: 
+    ме+Pron+Pers+Sg1+GenStem+Instr: 
+    ме+Pron+Pers+Sg1+GenStem+Com: 
+    ме+Pron+Pers+Sg1+GenStem+Car: 
+    ме+Pron+Pers+Sg1+GenStem+Ine: 
+    ме+Pron+Pers+Sg1+GenStem+Ela: 
+    ме+Pron+Pers+Sg1+GenStem+Ill: 
+    ме+Pron+Pers+Sg1+GenStem+Egr: 
+    ме+Pron+Pers+Sg1+GenStem+Ter: 
+    ме+Pron+Pers+Sg1+Dat: 
+    ме+Pron+Pers+Sg1+Instr: 
+    ме+Pron+Pers+Sg1+Com: 
+    ме+Pron+Pers+Sg1+Car: 
+    ме+Pron+Pers+Sg1+Cns: 
+    ме+Pron+Pers+Sg1+Ine: 
+    ме+Pron+Pers+Sg1+Ela: 
+    ме+Pron+Pers+Sg1+Ela+PxSg1: 
+    ме+Pron+Pers+Sg1+Ill: 
+    ме+Pron+Pers+Sg1+Apr: 
+    ме+Pron+Pers+Sg1+Egr: 
+    ме+Pron+Pers+Sg1+Prl: 
+    ме+Pron+Pers+Sg1+Tra: 
+    ме+Pron+Pers+Sg1+Ter: 
+
+    
