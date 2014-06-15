@@ -1,10 +1,10 @@
 Config:
   hfst:
-    Gen: ../bin/kom-gen.hfstol
-    Morph: ../bin/kom.hfstol
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
   xerox:
-    Gen: ../bin/ikom.fst
-    Morph: ../bin/kom.fst
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
     App: lookup
 
 Tests:
@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - кыйны: # Verb1 in j
+  Verb - кыйны: # Verb1 in j 'catch'
      кыйны+V+ConNeg+Pl3: кыйны
      кыйны+V+ConNeg: кый
      кыйны+V+Imprt+Sg2: кый
