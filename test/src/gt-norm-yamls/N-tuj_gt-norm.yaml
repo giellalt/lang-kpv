@@ -1,15 +1,15 @@
 Config:
   hfst:
-    Gen: ../bin/kom-gen.hfstol
-    Morph: ../bin/kom.hfstol
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
   xerox:
-    Gen: ../bin/ikom.fst
-    Morph: ../bin/kom.fst
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
     App: lookup
 
 Tests:
   
-  Noun - туй: # Ordinary nouns - full paradigm
+  Noun - туй: # Ordinary nouns - full paradigm 'road / tie / дорога'
      туй+N+Sg+Nom: туй
      туй+N+Sg+Acc: [туй, туйӧс]
      туй+N+Sg+Gen: туйлӧн

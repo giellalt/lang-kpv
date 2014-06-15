@@ -1,10 +1,10 @@
 Config:
   hfst:
-    Gen: ../bin/kom-gen.hfst
-    Morph: ../bin/kom.hfst
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
   xerox:
-    Gen: ../bin/ikom.fst
-    Morph: ../bin/kom.fst
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
     App: lookup
 
 Tests:
@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Numeral - нёль: # Ordinary numerals - full paradigm including MNW
+  Numeral - нёль: # Ordinary numerals - full paradigm including MNW 'four/neljä'
      нёль+Num+Card+Abs: нёль
      нёль+Num+Card+Der/MWN+N+Sg+Nom: нёль
      нёль+Num+Card+Der/MWN+N+Sg+Acc: [нёль, нёльсӧ]
