@@ -25,7 +25,9 @@ GT_LEXC_SRCS=\
 		 stems/exceptions.lexc      \
 		 stems/punct.lexc           \
 		 stems/adjectives_newwords.lexc      \
+		 stems/adjectives-russian-like_newwords.lexc      \
 		 stems/nouns_newwords.lexc      \
+		 stems/propernouns_newwords.lexc      \
 		 stems/verbs_newwords.lexc      \
 		 affixes/adjectives.lexc    \
 		 affixes/adpositions.lexc \
@@ -42,6 +44,7 @@ GT_LEXC_SRCS=\
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=\
 		 $(srcdir)/stems/adjectives.lexc                         \
+		 $(srcdir)/stems/adjectives-russian-like.lexc            \
 		 $(srcdir)/stems/adpositions.lexc                        \
 		 $(srcdir)/stems/adverbs.lexc                            \
 		 $(srcdir)/stems/conjunctors.lexc                        \
@@ -66,7 +69,8 @@ GENERATED_LEXC_SRCS=\
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
-		 stems/adjectives.xml                                 \
+		 stems/adjectives.xml                              \
+		 stems/adjectives-russian-like.xml                  \
 		 stems/adpositions.xml                              \
 		 stems/adverbs.xml                                    \
 		 stems/conjunctors.xml                                \
