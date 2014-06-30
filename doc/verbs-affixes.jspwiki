@@ -1,1 +1,115 @@
 
+!!!Verbal morphology               
+
+
+!!Closed class verbs
+
+
+
+
+
+
+
+
+!!Open class verbs
+
+Some Flag diacritic lines are with regexes, other with aligned zeros. We want to migrate to
+regexes < … > , for readability reasons (sic!)
+
+ * __LEXICON V_ЛОКНЫ__ One verb only, локны:лок
+
+
+ * __LEXICON VR_ШУНЫ__ 
+
+ * __LEXICON V_ШУНЫ__ шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+
+ * __LEXICON VR_ЛЫДДЬЫНЫ__ 
+
+ * __LEXICON V_ЛЫДДЬЫНЫ__ лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
+
+
+
+
+
+
+
+
+!!Verb conjugation 
+
+ * __LEXICON VerbConj-V__  суф б -- ы 
+
+ * __LEXICON VerbConj__ суф а
+
+ * __LEXICON Finiteforms__ Gives linking vowels for 3 tenses
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!!Derivation
+
+
+ * __LEXICON Verb-nyDer__ 
+
+verb-to-verb
+
+This is fed by LEXICON V_ШУНЫ, and therefore certain corrections
+must be made 2012-01-18
+
+овсьыны
+пусьыштлывлыны
+босьтчыштлывлыны
+босьтасьны
+
+
+ * __LEXICON VerbDer__ 
+
+verb-to-noun
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+вевттьысьыны
+
+бертласьны
+
+
+
+
+
+
+
+
+
+
+
+
+
