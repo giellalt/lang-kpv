@@ -51,7 +51,7 @@ LEXICON VERBNEGATIVE
 !! Some Flag diacritic lines are with regexes, other with aligned zeros. We want to migrate to
 !! regexes < … > , for readability reasons (sic!)
 
-LEXICON V_ЛОКНЫ !!= * __@CODE@__ One verb only, локны:лок
+LEXICON V_ЛОКНЫ !!≈ * __@CODE@__ One verb only, локны:лок
 +V+Inf@U.CONJ-INF.YES@:%>ны@U.CONJ-INF.YES@ VerbEnd-Comparison ;
 +V+Inf+Px10@U.CONJ-INF.YES@@U.CONJ-POSS.1@:%>ным@U.CONJ-INF.YES@@U.CONJ-POSS.1@ VerbEnd-Comparison ;
 +V+Inf+Px20@U.CONJ-INF.YES@@U.CONJ-POSS.2@:%>ныд@U.CONJ-INF.YES@@U.CONJ-POSS.2@ VerbEnd-Comparison ;
@@ -66,28 +66,28 @@ LEXICON V_ЛОКНЫ !!= * __@CODE@__ One verb only, локны:лок
 +V:т  VerbConj ; !а
 
 
-LEXICON VR_ШУНЫ !!= * __@CODE@__ 
+LEXICON VR_ШУНЫ !!≈ * __@CODE@__ 
 +V+Refl@U.CONJ-INF.YES@:00@U.CONJ-INF.YES@ Verb-nyDer ; !
 +V+Refl@U.CONJ-INF.YES@:00@U.CONJ-INF.YES@ VerbDer ; !
 +V+Refl@U.CONJ-INF.YES@:00@U.CONJ-INF.YES@ VerbDer-V ; !
 +V+Refl: VerbConj ; !а
 +V+Refl: VerbConj-V ; !б
 
-LEXICON V_ШУНЫ !!= * __@CODE@__ шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+LEXICON V_ШУНЫ !!≈ * __@CODE@__ шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
 +V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@ Verb-nyDer ; !
 +V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@ VerbDer ; !
 +V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@ VerbDer-V ; !
 +V: VerbConj ; !а
 +V: VerbConj-V ; !б
 
-LEXICON VR_ЛЫДДЬЫНЫ !!= * __@CODE@__ 
+LEXICON VR_ЛЫДДЬЫНЫ !!≈ * __@CODE@__ 
 +V+Refl@U.CONJ-INF.YES@:00@U.CONJ-INF.YES@ Verb-ynyDer ; !
 +V+Refl@U.CONJ-INF.YES@:00@U.CONJ-INF.YES@ VerbDer ; !
 +V+Refl@U.CONJ-INF.YES@:ы0@U.CONJ-INF.YES@ VerbDer-V ; !
 +V+Refl: VerbConj ; ! check this!!!
 +V+Refl:ы VerbConj-V ; ! check this!!!
 
-LEXICON V_ЛЫДДЬЫНЫ !!= * __@CODE@__ лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
+LEXICON V_ЛЫДДЬЫНЫ !!≈ * __@CODE@__ лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
 +V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@ Verb-ynyDer ; !
 +V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@ VerbDer ; !
 +V@U.CONJ-INF.YES@:ы@U.CONJ-INF.YES@ VerbDer-V ; !
@@ -123,7 +123,7 @@ LEXICON V_ЛЫДДЬЫНЫ !!= * __@CODE@__ лыддьыны:лыддь ! ярм
 !! !!Verb conjugation 
 ! =================== !
 
-LEXICON VerbConj-V !!= * __@CODE@__  суф б -- ы 
+LEXICON VerbConj-V !!≈ * __@CODE@__  суф б -- ы 
 +Inf@U.CONJ-INF.YES@:%>ны@U.CONJ-INF.YES@ VerbEnd-Comparison ;
 +Inf+Px100@U.CONJ-INF.YES@@U.CONJ-POSS.1@:%>ным@U.CONJ-INF.YES@@U.CONJ-POSS.1@ VerbEnd-Comparison ;
 +Inf+Px200@U.CONJ-INF.YES@@U.CONJ-POSS.2@:%>ныд@U.CONJ-INF.YES@@U.CONJ-POSS.2@ VerbEnd-Comparison ;
@@ -134,11 +134,11 @@ LEXICON VerbConj-V !!= * __@CODE@__  суф б -- ы
 +ConNeg@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@:0@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@ VerbEnd ;
 +Imprt+Sg2@U.CONJ-INF.NO@@U.CONJ-MX.IMP@@U.CONJ-NX.SG@@U.CONJ-PX.2@:00@U.CONJ-INF.NO@@U.CONJ-MX.IMP@@U.CONJ-NX.SG@@U.CONJ-PX.2@ VerbEnd ;
 
-LEXICON VerbConj !!= * __@CODE@__ суф а
+LEXICON VerbConj !!≈ * __@CODE@__ суф а
 @U.CONJ-INF.NO@ Finiteforms ;
 @U.CONJ-INF.YES@ Non-finiteforms ;
 
-LEXICON Finiteforms  !!= * __@CODE@__ Gives linking vowels for 3 tenses
+LEXICON Finiteforms  !!≈ * __@CODE@__ Gives linking vowels for 3 tenses
  present ;
  future ;
  preterite ;
@@ -247,7 +247,7 @@ VerbDer ; ! to be merged with next
           !2011-11-02 dealing with serial verbs there may be
           ! reason to distinguish between V2V derivation and non-finite forms
 
-LEXICON Verb-nyDer !!= * __@CODE@__ 
+LEXICON Verb-nyDer !!≈ * __@CODE@__ 
 
 !! verb-to-verb
 
@@ -276,7 +276,7 @@ LEXICON Verb-nyDer !!= * __@CODE@__
 +Der/ась00@C.CONJ-INF@@C.CONJ-POSS@:ась@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !! босьтасьны
 
  
-LEXICON VerbDer !!= * __@CODE@__ 
+LEXICON VerbDer !!≈ * __@CODE@__ 
 
 !! verb-to-noun
 

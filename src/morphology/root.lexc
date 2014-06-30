@@ -404,6 +404,8 @@ Multichar_Symbols
 @C.DECL-DX@
 @C.DECL-CX@
 
+ @U.Cap.Obl@      !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj
+ @U.Cap.Opt@      !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj
 
 LEXICON Root
 TESTINGTESTING ;
@@ -412,6 +414,7 @@ SUBSTANDARDS ; ! temporary solution
 !! The word forms in Komi (Zyrian) language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
 	adjectives	;
+	adjectives-russian-like	;  
 	adpositions	;
 	adverbs	;
 	conjunctors	;
@@ -443,6 +446,10 @@ SUBSTANDARDS ; ! temporary solution
 !RussianSurnamesDerive ; ! Only testing 2012-11-15
 
 !! Feeding new words
+ A_NEWWORDS    ;
+ A-Russian-like_NEWWORDS    ;
+ N_NEWWORDS    ;
+ PROP_NEWWORDS    ;
  V_NEWWORDS    ;
 
 ! ======================================================= !
