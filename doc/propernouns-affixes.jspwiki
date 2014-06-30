@@ -45,11 +45,13 @@ FEMALE NAMES FROM TEMPLATE
 PLACE NAMES FROM TEMPLATES !!
 
 
- * __!+N+Prop+Sem/Plc+Der/са: A_ ; __ This requires down-casing
+ * __+N+Prop+Sem/Plc+Der/са@U.Cap.Obl@:0%>са@U.Cap.Obl@ A_ ; __ This requires down-casing
 
- * __!+N+Prop+Sem/Plc+Src/F+Der/са: A_ ; __ This requires down-casing
+ * __+N+Prop+Sem/Plc+Der/са@U.Cap.Obl@:0%>са@U.Cap.Obl@ A_ ; __ This requires down-casing
 
- * __!+N+Prop+Sem/Plc+Err/Sub+Der/са: A_ ; __ This requires down-casing
+ * __+N+Prop+Sem/Plc+Src/F+Der/са@U.Cap.Obl@:00%>са@U.Cap.Obl@ A_ ; __ This requires down-casing
+
+ * __+N+Prop+Sem/Plc+Err/Sub+Der/са@U.Cap.Obl@:00%>са@U.Cap.Obl@ A_ ; __ This requires down-casing
 
 
 
