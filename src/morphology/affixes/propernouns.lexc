@@ -124,15 +124,19 @@ LEXICON Prop-kudo_fem
 
 LEXICON PROP-PLC ! Inanimate proper nouns. Place names
 +N+Prop+Sem/Plc+Sg: CASEPOSSLEX ;
-!+N+Prop+Sem/Plc+Der/са: A_ ; !!= * __@CODE@__ This requires down-casing
++N+Prop+Sem/Plc+Der/са@U.Cap.Obl@:0%>са@U.Cap.Obl@ A_ ; !!= * __@CODE@__ This requires down-casing
+
+LEXICON PROP-PLC-KPV ! Inanimate proper nouns. Place names
++N+Prop+Sem/Plc+Sg: CASEPOSSLEX ;
++N+Prop+Sem/Plc+Der/са@U.Cap.Obl@:0%>са@U.Cap.Obl@ A_ ; !!= * __@CODE@__ This requires down-casing
 
 LEXICON PROP-PLC-RUS ! Inanimate proper nouns. Place names
 +N+Prop+Sem/Plc+Src/F+Sg: CASEPOSSLEX ;
-!+N+Prop+Sem/Plc+Src/F+Der/са: A_ ; !!= * __@CODE@__ This requires down-casing
++N+Prop+Sem/Plc+Src/F+Der/са@U.Cap.Obl@:00%>са@U.Cap.Obl@ A_ ; !!= * __@CODE@__ This requires down-casing
 
 LEXICON PROP-PLC_SUB ! Inanimate proper nouns. Place names
 +N+Prop+Sem/Plc+Err/Sub+Sg: CASEPOSSLEX ;
-!+N+Prop+Sem/Plc+Err/Sub+Der/са: A_ ; !!= * __@CODE@__ This requires down-casing
++N+Prop+Sem/Plc+Err/Sub+Der/са@U.Cap.Obl@:00%>са@U.Cap.Obl@ A_ ; !!= * __@CODE@__ This requires down-casing
 
 LEXICON PROP-ORG ! Inanimate proper nouns. Name of organization
 +N+Prop+Sem/Org+Sg: CASEPOSSLEX ;
