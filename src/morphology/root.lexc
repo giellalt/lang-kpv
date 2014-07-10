@@ -116,7 +116,7 @@ Multichar_Symbols
 ! +Der/Apr+Prl, +Der/Apr+Tra
 ! +Der/Apr+Ter
 
- 
+
 
 !! The possession is marked as such:
  +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
@@ -124,14 +124,14 @@ Multichar_Symbols
  +Comp +Superl
 !! Numerals are classified under:
  +Attr +Card
- +Ord 
+ +Ord
  +Coll !Collective
  +Distr ! Distributive
  +Iter ! Iterative form expressing number of times
 
 !! Verb moods are:
- +Ind +Prs +Prt1 +Prt2 +Imprt 
-!!!!! +Pot +Cond 
+ +Ind +Prs +Prt1 +Prt2 +Imprt
+!!!!! +Pot +Cond
 !! Verb personal forms are:
  +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
 !! Other verb forms are
@@ -143,7 +143,7 @@ Multichar_Symbols
 +Final ! мог, мон, моз 'so that I won't'
 
 ! Abbreviated words are classified with:
- +ABBR +ACR 
+ +ABBR +ACR
 !! Special symbols are classified with:
 +CLB +PUNCT +LEFT +RIGHT
 !! The verbs are syntactically split according to transitivity:
@@ -163,15 +163,15 @@ Multichar_Symbols
 +Clt/сӧ !
 
 !! The Usage extents are marked using following tags:
- +Err/Sub   
- +Use/-Spell 
+ +Err/Sub
+ +Use/-Spell
  +Use/SpellNoSugg
 
 !! Semantics are classified with
  +Sem/Mal 	!!= * @CODE@
  +Sem/Fem	!!= * @CODE@
  +Sem/Sur	!!= * @CODE@ Surname
- +Sem/Patr	!!= * @CODE@ Patronym 
+ +Sem/Patr	!!= * @CODE@ Patronym
  +Sem/Kin 			 !!= * @CODE@ Kinship
  +Sem/Plc 			 !!= * @CODE@ Place name
  +Sem/Org			 !!= * @CODE@ name of organization
@@ -197,7 +197,7 @@ Multichar_Symbols
  +Der/xxx
 ! tags
 +AN ! Process Participle
-+ANA !Process Participle 
++ANA !Process Participle
 +ANAA ! adverb derived from participle (+ANA)
 +Der/чӧж !+CHOZH
 
@@ -206,19 +206,19 @@ Multichar_Symbols
 +Event
 +Duration
 !+IG This will be replaced by the segments:
-!!+Der/иг+Duration+Ger!! 
+!!+Der/иг+Duration+Ger!!
 +Der/иг
 !Here we need the two sequential characters
 !!to replace +OM
-!+Der/ӧм+Event 
-!This, of course, implicates a discussion 
+!+Der/ӧм+Event
+!This, of course, implicates a discussion
 !of the so-called gerund "ӧмӧн" +Event+N+Ins and
 
 ! These should be added below in derivation declarations
 !
 !
 !+Der/ан
-! +Der/ана +Der/анаа +Der/чӧж 
+! +Der/ана +Der/анаа +Der/чӧж
 !!Then they should have indication of whether they are gerunds or participles!!
 !!
 +Der/тӧдз !+VTer
@@ -269,8 +269,8 @@ Multichar_Symbols
 +Der/ӧм ! verb-to-noun
 
 !Declaring Deverbal derivations of verbs
-+Der/л 
-+Der/лы 
++Der/л
++Der/лы
 +Der/ывлы
 +Der/ышт
 +Der/лывлы
@@ -414,7 +414,7 @@ SUBSTANDARDS ; ! temporary solution
 !! The word forms in Komi (Zyrian) language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
 	adjectives	;
-	adjectives-russian-like	;  
+	adjectives-russian-like	;
 	adpositions	;
 	adverbs	;
 	conjunctors	;
@@ -473,10 +473,10 @@ LEXICON ABBR-IS_ADV
 +ABBR: ADV_ ;
 
 LEXICON ABBR-IS_N
-+ABBR+N: WordEnd ; ! This needs a Noun1 continuation but the hyphen must 
++ABBR+N: WordEnd ; ! This needs a Noun1 continuation but the hyphen must
              ! be dealt with for non-nominative-singular marking 2012-01-27
 
-LEXICON EndNeg 
+LEXICON EndNeg
 +CC+Neg: WordEnd ; ! ни
 
 LEXICON EndQST
@@ -489,7 +489,7 @@ LEXICON EndQST
 ! ======= !
 
 LEXICON K
-                 WordEnd ; 
+                 WordEnd ;
 +Clt+Clt/а:%>%-а WordEnd ;
 +Clt+Clt/ӧ:%>%-ӧ WordEnd ;
 +Clt+Clt/тӧ:%>тӧ WordEnd ;
@@ -1094,7 +1094,7 @@ LEXICON TESTCOMP
 
 ! TODO: Integrate this in xml-files in working…
 
-LEXICON SUBSTANDARDS 
+LEXICON SUBSTANDARDS
 коръя+Err/Sub:корья Noun1 ;
 
 
