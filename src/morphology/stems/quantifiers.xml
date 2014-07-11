@@ -60,6 +60,9 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="Num">viisikymmentäkaksi</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="Num">пятьдесят два</t>
          </tg>
@@ -75,6 +78,9 @@
       <pos>NUM-ORD</pos>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="Num">viideskymmenes</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="Num">пятидесятый</t>
          </tg>
@@ -189,7 +195,7 @@
       <mg>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="Qnt">te viisi</t>
+            <t pos="Qnt">te kaikki viisi</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">вы пятеро</t>
@@ -211,7 +217,7 @@
       <mg>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="Qnt">me viisi</t>
+            <t pos="Qnt">me kaikki viisi</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">мы пятеро</t>
@@ -233,7 +239,7 @@
       <mg>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="Qnt">he viisi</t>
+            <t pos="Qnt">he kaikki viisi</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">они пятеро</t>
@@ -1348,6 +1354,7 @@
          </tg>
          <xg>
             <x>квайтӧд морт</x>
+            <xt xml:lang="fin">kuudes ihminen</xt>
             <xt xml:lang="rus">шестой человек</xt>
          </xg>
          <xg>
@@ -1401,6 +1408,7 @@
          </tg>
          <xg>
             <x>квайтӧн мунны</x>
+            <xt xml:lang="fin">mennä kuudestaan</xt>
             <xt xml:lang="rus">идти вшестером</xt>
          </xg>
       </mg>
@@ -1447,6 +1455,7 @@
          </tg>
          <xg>
             <x>коймӧд вежон</x>
+            <xt xml:lang="fin">kolmas viikko</xt>
             <xt xml:lang="rus">третья неделя</xt>
          </xg>
          <xg>
@@ -1680,6 +1689,8 @@
          </xg>
          <xg>
             <x>мӧдӧдчим куимӧн</x>
+            <xt xml:lang="fin">lähdimme kolmisin</xt>
+            <xt>lähdimme kolmestaan</xt>
             <xt xml:lang="rus">мы отправились втроём</xt>
          </xg>
          <xg genreType="proverb">
@@ -2446,8 +2457,8 @@
       <mg>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="Qnt">te kaksi</t>
-            <t>te molemmat</t>
+            <t pos="Qnt">te molemmat</t>
+            <t>te kaksi</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">вы оба</t>
@@ -2474,8 +2485,8 @@
       <mg>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="Qnt">me kaksi</t>
-            <t>me molemmat</t>
+            <t pos="Qnt">me molemmat</t>
+            <t>me kaksi</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">мы оба</t>
@@ -2498,8 +2509,8 @@
       <mg>
          <defNative/>
          <tg>
-            <t>he kaksi</t>
             <t>he molemmat</t>
+            <t>he kaksi</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">они оба</t>
@@ -2526,6 +2537,9 @@
       <pos>UNIV-ITER</pos>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="Num">molemmilla kerroilla</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">оба раза</t>
          </tg>
@@ -2732,7 +2746,7 @@
       <mg>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="Qnt">kaksittain</t>
+            <t pos="Qnt">kahdestaan</t>
             <t>kaksin</t>
          </tg>
          <tg xml:lang="rus">
@@ -2804,14 +2818,17 @@
          </xg>
          <xg>
             <x>кӧкъямыс ногӧн</x>
+            <xt xml:lang="fin">kahdeksalla tavalla</xt>
             <xt xml:lang="rus">по восемь</xt>
          </xg>
          <xg>
             <x>кӧкъямыс пельӧ</x>
+            <xt xml:lang="fin">kahdeksaan osaan</xt>
             <xt xml:lang="rus">на восемь частей</xt>
          </xg>
          <xg>
             <x>кӧкъямыс пӧв</x>
+            <xt xml:lang="fin">kahdeksan kertaa</xt>
             <xt xml:lang="rus">восемь раз</xt>
          </xg>
          <xg>
@@ -2841,6 +2858,7 @@
          </tg>
          <xg>
             <x>кӧкъямысдас арӧс</x>
+            <xt xml:lang="fin">kahdeksankymmentä vuotta</xt>
             <xt xml:lang="rus">восемьдесят лет</xt>
          </xg>
       </mg>
@@ -2920,6 +2938,7 @@
          </tg>
          <xg>
             <x>кӧкъямысысь ветлыны</x>
+            <xt xml:lang="fin">käydä kahdeksan kertaa</xt>
             <xt xml:lang="rus">сходить восемь раз</xt>
          </xg>
       </mg>
@@ -2934,15 +2953,21 @@
       <pos>NUM-ORD</pos>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="Num">kahdeksas</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="Num">восьмой</t>
          </tg>
          <xg>
             <x>кӧкъямысӧдысь</x>
+            <xt xml:lang="fin">kahdeksannen kerran</xt>
             <xt xml:lang="rus">восьмой раз</xt>
          </xg>
          <xg>
             <x>дас кӧкъямысӧд</x>
+            <xt xml:lang="fin">kahdeksastoista</xt>
+            <xt/>
             <xt xml:lang="rus">восемнадцатый</xt>
          </xg>
          <xg genreType="saying">
@@ -2962,17 +2987,24 @@
       <pos>Qnt</pos>
       <mg No="1">
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="Qnt">eniten</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">больше всего</t>
          </tg>
       </mg>
       <mg No="2">
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="Qnt">enemmän kuin muilla</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">больше, чем у других</t>
          </tg>
          <xg>
             <x>сылӧн быдтор медуна</x>
+            <xt xml:lang="fin">hänellä on kaikkea enemmän kuin muilla</xt>
             <xt xml:lang="rus">у него всего больше, чем у других</xt>
          </xg>
       </mg>
@@ -2987,6 +3019,10 @@
       <pos>Qnt</pos>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="Qnt">vähiten</t>
+            <t>vähemmän kuin muilla</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">меньше всего; меньше, чем у других</t>
          </tg>
@@ -3113,6 +3149,7 @@
          </tg>
          <xg>
             <x>мӧд пӧв</x>
+            <xt xml:lang="fin">toisen kerran</xt>
             <xt xml:lang="rus">(во) второй раз, вторично</xt>
          </xg>
          <xg>
@@ -3121,6 +3158,7 @@
          </xg>
          <xg>
             <x>мӧд классӧ вуджны</x>
+            <xt xml:lang="fin">siirtyä toiselle luokalle</xt>
             <xt xml:lang="rus">перейти во второй класс</xt>
          </xg>
          <xg>
@@ -3134,6 +3172,7 @@
          </xg>
          <xg>
             <x>пиыс мӧд во велӧдчӧ</x>
+            <xt xml:lang="fin">hänen poikansa opiskelee toista vuotta</xt>
             <xt xml:lang="rus">его сын учится второй год</xt>
          </xg>
       </mg>
@@ -3152,6 +3191,8 @@
          </xg>
          <xg>
             <x>морт-мӧд</x>
+            <xt xml:lang="fin">pari ihmistä</xt>
+            <xt>jokunen ihminen</xt>
             <xt xml:lang="rus">несколько человек</xt>
          </xg>
       </mg>
@@ -3189,6 +3230,8 @@
          </tg>
          <xg>
             <x>керка пытшкӧсыс сылы талун кажитчис мӧдкодьӧн</x>
+            <xt xml:lang="fin">tänään hänestä talo vaikutti sisältä erilaiselta</xt>
+            <xt/>
             <xt xml:lang="rus">комната показалась ему сегодня другой</xt>
          </xg>
       </mg>
@@ -3227,6 +3270,7 @@
          </tg>
          <xg>
             <x>мӧдысьджык волы</x>
+            <xt xml:lang="fin">tule joskus toiste</xt>
             <xt xml:lang="rus">приходи как-нибудь попозже</xt>
          </xg>
       </mg>
@@ -3321,10 +3365,12 @@
          </tg>
          <xg>
             <x>неуна озджык тырмы</x>
+            <xt xml:lang="fin">ei aivan riitä</xt>
             <xt xml:lang="rus">немного не хватает</xt>
          </xg>
          <xg>
             <x>неуна шойччыштны</x>
+            <xt xml:lang="fin">levätä vähän</xt>
             <xt xml:lang="rus">немного отдохнуть</xt>
          </xg>
          <xg>
@@ -3337,10 +3383,12 @@
          </xg>
          <xg>
             <x>неуна виччысьышт</x>
+            <xt xml:lang="fin">odota vähän</xt>
             <xt xml:lang="rus">подожди немножко</xt>
          </xg>
          <xg>
             <x>сійӧ неуна висьӧдчӧ</x>
+            <xt xml:lang="fin">hän on vähän huonovointinen</xt>
             <xt xml:lang="rus">ему немного нездоровится</xt>
          </xg>
          <xg>
@@ -3376,6 +3424,7 @@
          </xg>
          <xg>
             <x>неуна эг усь</x>
+            <xt xml:lang="fin">olin vähällä kaatua</xt>
             <xt xml:lang="rus">я едва не упал</xt>
          </xg>
       </mg>
@@ -4342,6 +4391,9 @@
       <pos>QNT-COLL-UNIV</pos>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="Qnt">te kaikki seitsemän</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">вы семеро, вы всемером</t>
          </tg>
@@ -4362,6 +4414,9 @@
       <pos>QNT-COLL-UNIV</pos>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="Qnt">me kaikki seitsemän</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">мы всемером</t>
          </tg>
@@ -4382,6 +4437,9 @@
       <pos>QNT-COLL-UNIV</pos>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="Qnt">he kaikki seitsemän</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">они всемером</t>
          </tg>
