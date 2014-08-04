@@ -12,14 +12,12 @@ Tests:
 
 # Possible lower case letters of the alphabet:
 #
-# a b c d e f g h i ï j k l m n o p q r s t u v w x y z
-# æ ä ø ö å
-# á é ó ú í à è ò ù ì ë ü ï â ê ô û î ã ý þ ñ ð ß ç
-# č ǩ ǯ ǧ ž đ ǥ ʒ š ŋ
+# а б в г д е ё ж з и й к л м н о п р с т у ф х ц 
+# ч ш щ ъ ы ь э ю я ҥ
 
-# This test sample should be replaced with real strings from
+# The test sample should be replaced with real strings from
 # the language in question:
   Optional Initial Upper:
-    oslo: [oslo, Oslo]
-    hAre: [hAre, HAre]
-    teST: [teST, TeST]
+    москва: [москва, Москва]
+    газета: [газета, Газета]
+    теСТ: [теСТ, ТеСТ]
