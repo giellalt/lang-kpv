@@ -43,18 +43,17 @@ LEXICON Root
 
 ! For each month: First the normative, then the non-normatives, then initial capital
 
-@U.MONTH.1@:тӧв% шӧр% тӧлысь% @U.MONTH.1@ 31DAYS ;
-@U.MONTH.1@+Use/NG:январь% @U.MONTH.1@ 31DAYS ;
+тӧв% шӧр% тӧлысь% @U.MONTH.1@:@U.MONTH.1@ 31DAYS ;
+январь+Use/NG% @U.MONTH.1@:@U.MONTH.1@+Use/NG 31DAYS ;
 
-@U.MONTH.1@+Use/NG:Тӧв% шӧр% тӧлысь% @U.MONTH.1@ 31DAYS ;
-@U.MONTH.1@+Use/NG:Январь% @U.MONTH.1@ 31DAYS ;
+Тӧв% шӧр% тӧлысь+Use/NG% @U.MONTH.1@:@U.MONTH.1@ 31DAYS ;
+Январь+Use/NG% @U.MONTH.1@:@U.MONTH.1@+Use/NG 31DAYS ;
 
+урасьӧм% тӧлысь% @U.MONTH.2@:@U.MONTH.2@ 29DAYS ;
+февраль+Use/NG% @U.MONTH.2@:@U.MONTH.2@ 29DAYS ;
 
-@U.MONTH.2@:урасьӧм% тӧлысь% @U.MONTH.2@ 29DAYS ;
-@U.MONTH.2@+Use/NG:февраль% @U.MONTH.2@ 29DAYS ;
-
-@U.MONTH.2@+Use/NG:Урасьӧм% тӧлысь% @U.MONTH.2@ 29DAYS ;
-@U.MONTH.2@+Use/NG:Февраль% @U.MONTH.2@ 29DAYS ;
+Урасьӧм% тӧлысь+Use/NG% @U.MONTH.2@:@U.MONTH.2@ 29DAYS ;
+Февраль+Use/NG% @U.MONTH.2@:@U.MONTH.2@ 29DAYS ;
 
 
 @U.MONTH.3@:рака% тӧлысь% @U.MONTH.3@ 31DAYS ;
@@ -127,61 +126,61 @@ LEXICON Root
 
 
 LEXICON 29DAYS
-1:первой B ;
-2:мӧд B ;
-3:коймӧд B ;
-4:нёльӧд B ;
-5:витӧд B ;
-6:квайтӧд B ;
-7:сизимӧд B ;
-8:кӧкъямысӧд B ;
-9:ӧкмысӧд B ;
-1%0:дасӧд B ;
-11:дас% ӧтикӧд B ;
-12:дас% мӧдӧд B ;
-13:дас% коймӧд B ;
-14:дас% нёльӧд B ;
-15:дас% витӧд B ;
-16:дас% квайтӧд B ;
-17:дас% сизимӧд B ;
-18:дас% кӧкъямысӧд B ;
-19:дас% ӧкмысӧд B ;
-2%0:кызьӧд B ;
-21:кызь% ӧтикӧд B ;
-22:кызь% кыкӧд B ;
-23:кызь% коймӧд B ;
-24:кызь% нёльӧд B ;
-25:кызь% витӧд B ;
-26:кызь% квайтӧд B ;
-27:кызь% сизимӧд B ;
-28:кызь% кӧкъямысӧд B ;
-29:кызь% ӧкмысӧд B ;
+первой% :1 B ;
+мӧд% :2 B ;
+коймӧд% :3 B ;
+нёльӧд% :4 B ;
+витӧд% :5 B ;
+квайтӧд% :6 B ;
+сизимӧд% :7 B ;
+кӧкъямысӧд% :8 B ;
+ӧкмысӧд% :9 B ;
+дасӧд% :1%0 B ;
+дас% ӧтикӧд% :11 B ;
+дас% мӧдӧд% :12 B ;
+дас% коймӧд% :13 B ;
+дас% нёльӧд% :14 B ;
+дас% витӧд% :15 B ;
+дас% квайтӧд% :16 B ;
+дас% сизимӧд% :17 B ;
+дас% кӧкъямысӧд% :18 B ;
+дас% ӧкмысӧд% :19 B ;
+кызьӧд% :2%0 B ;
+кызь% ӧтикӧд% :21 B ;
+кызь% кыкӧд% :22 B ;
+кызь% коймӧд% :23 B ;
+кызь% нёльӧд% :24 B ;
+кызь% витӧд% :25 B ;
+кызь% квайтӧд% :26 B ;
+кызь% сизимӧд% :27 B ;
+кызь% кӧкъямысӧд% :28 B ;
+кызь% ӧкмысӧд% :29 B ;
 
 LEXICON 30DAYS
-3%0:комынӧд B ;
+комынӧд% :3%0 B ;
 29DAYS ;
 
 LEXICON 31DAYS
-31:комын% ӧтикӧд B ;
+комын% ӧтикӧд% :31 B ;
 30DAYS ;
 
 LEXICON B
-%.:% лун MONTH ;
+лун:%. MONTH ;
 
 LEXICON MONTH
-1@U.MONTH.1@:@U.MONTH.1@ X ;
-2@U.MONTH.2@:@U.MONTH.2@ X ;
-3@U.MONTH.3@:@U.MONTH.3@ X ;
-4@U.MONTH.4@:@U.MONTH.4@ X ;
-5@U.MONTH.5@:@U.MONTH.5@ X ;
-6@U.MONTH.6@:@U.MONTH.6@ X ;
-7@U.MONTH.7@:@U.MONTH.7@ X ;
-8@U.MONTH.8@:@U.MONTH.8@ X ;
-9@U.MONTH.9@:@U.MONTH.9@ X ;
-1%0@U.MONTH.10@:@U.MONTH.10@ X ;
-11@U.MONTH.11@:@U.MONTH.11@ X ;
-12@U.MONTH.12@:@U.MONTH.12@ X ;
+@U.MONTH.1@:1@U.MONTH.1@ X ;
+@U.MONTH.2@:2@U.MONTH.2@ X ;
+@U.MONTH.3@:3@U.MONTH.3@ X ;
+@U.MONTH.4@:4@U.MONTH.4@ X ;
+@U.MONTH.5@:5@U.MONTH.5@ X ;
+@U.MONTH.6@:6@U.MONTH.6@ X ;
+@U.MONTH.7@:7@U.MONTH.7@ X ;
+@U.MONTH.8@:8@U.MONTH.8@ X ;
+@U.MONTH.9@:9@U.MONTH.9@ X ;
+@U.MONTH.10@:1%0@U.MONTH.10@ X ;
+@U.MONTH.11@:11@U.MONTH.11@ X ;
+@U.MONTH.12@:12@U.MONTH.12@ X ;
 
 LEXICON X
-%.: # ;
+:%. # ;
 ! # ; ! sloppy punctuation
