@@ -18,7 +18,8 @@
 
 ! Note! This is NOT checked with native speakers nor
 ! textbooks, just based upon guessing from a dictionary.
-
+! 24:00 ... вой
+! 12:00 ... лун
 Multichar_Symbols
 
 @U.TIME.1@ 
@@ -45,7 +46,7 @@ REST ; ! 1-30
 
 LEXICON BEFORE
 :%0 beforesmallhours ;
-:+Use/NA beforesmallhours ;
+:+Use/NG beforesmallhours ;
 beforelargehours ;
  
 LEXICON beforesmallhours
@@ -107,14 +108,14 @@ LEXICON REST
 
 
 LEXICON BEFpunkt
-:%:+Use/NA BEF ;
-:%.+Use/NA BEF ;
+:%:+Use/NG BEF ;
+:%.+Use/NG BEF ;
 
 LEXICON AFTpunkt
-% час% да% :%:+Use/NA H-MAFT_minutes ; ! 2:00 = göökte
+% час% да% :%:+Use/NG H-MAFT_minutes ; ! 2:00 = göökte
 % час% :%:%0%0 # ;
-:%.+Use/NA AFT ; ! 2.00 = göökte
-:+Use/NA HOUR ; ! 2 = göökte
+:%.+Use/NG AFT ; ! 2.00 = göökte
+:+Use/NG HOUR ; ! 2 = göökte
 
 
 
@@ -138,7 +139,7 @@ LEXICON H-MAFT_minutes
 дас% сизим% :17 ANDMINUTES ;
 дас% кӧкъямыс% :18 ANDMINUTES ;
 дас% ӧкмыс% :19 ANDMINUTES ;
-кызь% :20 ANDMINUTES ;
+кызь% :2%0 ANDMINUTES ;
 кызь% ӧти% :21 ANDMINUTES ;
 кызь% кык% :22 ANDMINUTES ;
 кызь% куим% :23 ANDMINUTES ;
@@ -168,26 +169,53 @@ LEXICON H-MAFT_minutes
 нелямын% сизим% :47 ANDMINUTES ;
 нелямын% кӧкъямыс% :48 ANDMINUTES ;
 нелямын% ӧкмыс% :49 ANDMINUTES ;
-витдас% :5%0 ANDMINUTES ;
-витдас% ӧти% :51 ANDMINUTES ;
-витдас% кык% :52 ANDMINUTES ;
-витдас% куим% :53 ANDMINUTES ;
-витдас% нёль% :54 ANDMINUTES ;
-витдас% вит% :55 ANDMINUTES ; 
-витдас% квайт% :56 ANDMINUTES ;
-витдас% сизим% :57 ANDMINUTES ;
-витдас% кӧкъямыс% :58 ANDMINUTES ; 
-витдас% ӧкмыс% :59 ANDMINUTES ;
+ветымын% :5%0 ANDMINUTES ;
+ветымын% ӧти% :51 ANDMINUTES ;
+ветымын% кык% :52 ANDMINUTES ;
+ветымын% куим% :53 ANDMINUTES ;
+ветымын% нёль% :54 ANDMINUTES ;
+ветымын% вит% :55 ANDMINUTES ; 
+ветымын% квайт% :56 ANDMINUTES ;
+ветымын% сизим% :57 ANDMINUTES ;
+ветымын% кӧкъямыс% :58 ANDMINUTES ; 
+ветымын% ӧкмыс% :59 ANDMINUTES ;
 
 LEXICON ANDMINUTES
 минут: # ;
 
 LEXICON BEF
-вит% :25+Use/NG TOHALF ; 
-нёль% :26 TOHALF ; 
-куим% :27 TOHALF ;
-кык% :28 TOHALF ; 
-ӧти% :29 TOHALF ;
+ӧти% :%01 TOFULL ; 
+кык% :%02 TOFULL ; 
+куим% :%03 TOFULL ; 
+нёль% :%04 TOFULL ; 
+вит% :%05 TOFULL ; 
+квайт% :%06 TOFULL ; 
+сизим% :%07 TOFULL ; 
+кӧкъямыс% :%08 TOFULL ; 
+ӧкмыс% :%09 TOFULL ; 
+дас% :1%0 TOFULL ; 
+дас% ӧтик% :11 TOFULL ; 
+дас% ӧти% :11+Use/NG TOFULL ; 
+дас% кык% :12 TOFULL ; 
+дас% куим% :13 TOFULL ; 
+дас% нёль% :14 TOFULL ; 
+дас% вит% :15 TOFULL ; 
+дас% квайт% :16 TOFULL ; 
+дас% сизим% :17 TOFULL ; 
+дас% кӧкъямыс% :18 TOFULL ; 
+дас% ӧкмыс% :19 TOFULL ; 
+кызь% :2%0 TOFULL ; 
+кызь% ӧтик% :21 TOFULL ; 
+кызь% ӧти% :21+Use/NG TOFULL ; 
+кызь% кык% :22 TOFULL ; 
+кызь% куим% :23 TOFULL ; 
+кызь% нёль% :24 TOFULL ; 
+кызь% вит% :25 TOFULL ; 
+кызь% квайт% :26 TOFULL ; 
+кызь% сизим% :27 TOFULL ; 
+кызь% кӧкъямыс% :28 TOFULL ; 
+кызь% ӧкмыс% :29 TOFULL ; 
+
 кызь% ӧкмыс% :31 TO ;
 кызь% кӧкъямыс% :32 TO ;
 кызь% сизим% :33 TO ;
@@ -253,10 +281,13 @@ LEXICON ANDMINUTES_first
 минута% марто% :+Use/NG HOUR ;
 
 LEXICON TOHALF
-минуттӧг% : HOUR-AND-HALF ;
+минуттӧм% : HOUR-AND-HALF ;
 
 LEXICON TO
-минуттӧг% : HOUR ; ! variant
+минуттӧм% : HOUR ; ! variant
+
+LEXICON TOFULL
+минут% : ORDERED-HOUR ; ! variant
 
 LEXICON HOUR
 ӧти@U.TIME.1@:@U.TIME.1@ # ;
@@ -271,6 +302,21 @@ LEXICON HOUR
 дас@U.TIME.10@:@U.TIME.10@ # ;
 дас% ӧти@U.TIME.11@:@U.TIME.11@ # ;
 дас% кык@U.TIME.12@:@U.TIME.12@ # ;
+
+LEXICON ORDERED-HOUR
+!12:13 дас куим минут дас коймӧд час вылӧ
+первой@U.TIME.1@:@U.TIME.1@ ORDERED-HOUR_1 ;
+мӧд@U.TIME.2@:@U.TIME.2@ ORDERED-HOUR_1 ;
+коймӧд@U.TIME.3@:@U.TIME.3@ ORDERED-HOUR_1 ;
+нёльӧд@U.TIME.4@:@U.TIME.4@ ORDERED-HOUR_1 ;
+витӧд@U.TIME.5@:@U.TIME.5@ ORDERED-HOUR_1 ;
+квайтӧд@U.TIME.6@:@U.TIME.6@ ORDERED-HOUR_1 ;
+сизимӧд@U.TIME.7@:@U.TIME.7@ ORDERED-HOUR_1 ;
+кӧкъямысӧд@U.TIME.8@:@U.TIME.8@ ORDERED-HOUR_1 ;
+ӧкмысӧд@U.TIME.9@:@U.TIME.9@ ORDERED-HOUR_1 ;
+дас@U.TIME.10@:@U.TIME.10@ ORDERED-HOUR_1 ;
+дас% ӧтикӧд@U.TIME.11@:@U.TIME.11@ ORDERED-HOUR_1 ;
+дас% кыкӧд@U.TIME.12@:@U.TIME.12@ ORDERED-HOUR_1 ;
 
 LEXICON HOUR-AND-HALF
 ӧти@U.TIME.2@:@U.TIME.2@ AND-HALF ;
@@ -288,3 +334,7 @@ LEXICON HOUR-AND-HALF
 
 LEXICON AND-HALF
 % да% джын: # ;
+% да% комын% минут:+Use/NG # ;
+
+LEXICON ORDERED-HOUR_1
+% час% вылӧ: # ;
