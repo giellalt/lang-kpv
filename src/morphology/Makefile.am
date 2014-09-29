@@ -107,6 +107,15 @@ GT_XML_SRCS=\
 		 stems/verbs-A2M.xml                                  \
 		 stems/verbs-N2END.xml
 
+# Define any additional sources here (compiled on their own, or just included
+# in the distro):
+GT_LOCAL_SRCS=
+
+### BEGIN: Local processing: ###
+
+
+### END: Local processing: ###
+
 include $(top_srcdir)/am-shared/src-morphology-dir-include.am
 
 # vim: set ft=automake:
