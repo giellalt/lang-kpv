@@ -7,79 +7,11 @@ SUBDIRS = phonology morphology filters phonetics hyphenation orthography syntax 
 
 ####### Automake targets: ########
 
-# Define target variables first, with obligatory raw fst's included:
+# Define target variables first, before assigning to them:
 GT_ANALYSERS_HFST=
 GT_GENERATORS_HFST=
 GT_ANALYSERS_XFST=
 GT_GENERATORS_XFST=
-
-##### BEGIN Hfst target list #####
-if CAN_HFST
-
-# Always build the raw generator if hfst is enabled:
-GT_GENERATORS_HFST+=generator-raw-gt-desc.hfst
-
-if WANT_MORPHOLOGY
-GT_ANALYSERS_HFST+=analyser-gt-desc.hfst \
-				   analyser-gt-norm.hfst \
-				   analyser-disamb-gt-desc.hfst
-endif # WANT_MORPHOLOGY
-
-if WANT_GENERATION
-GT_GENERATORS_HFST+=generator-gt-desc.hfst \
-					generator-gt-norm.hfst 
-endif # WANT_GENERATION
-
-if WANT_DICTIONARIES
-GT_ANALYSERS_HFST+=analyser-dict-gt-desc.hfst \
-				   analyser-dict-gt-desc-mobile.hfst
-GT_GENERATORS_HFST+=generator-dict-gt-norm.hfst
-
-endif # WANT_DICTIONARIES
-
-if WANT_OAHPA
-GT_ANALYSERS_HFST+=analyser-oahpa-gt-norm.hfst
-GT_GENERATORS_HFST+=generator-oahpa-gt-norm.hfst \
-					$(DIALECT_TARGETS_HFST)
-endif # WANT_OAHPA
-
-endif # CAN_HFST
-##### END Hfst target list #####
-
-##### BEGIN Xerox target list #####
-if CAN_XFST
-
-# Always build the raw analsyer if Xerox is enabled:
-GT_ANALYSERS_XFST+=analyser-raw-gt-desc.xfst
-
-if WANT_MORPHOLOGY
-GT_ANALYSERS_XFST+=analyser-gt-desc.xfst \
-				   analyser-gt-norm.xfst \
-				   analyser-disamb-gt-desc.xfst
-endif # WANT_MORPHOLOGY
-
-if WANT_GENERATION
-GT_GENERATORS_XFST+=generator-gt-desc.xfst \
-					generator-gt-norm.xfst
-endif # WANT_GENERATION
-
-if WANT_DICTIONARIES
-GT_ANALYSERS_XFST+=analyser-dict-gt-desc.xfst \
-				   analyser-dict-gt-desc-mobile.xfst \
-				   analyser-dict-gt-desc-molotsov.xfst
-GT_GENERATORS_XFST+=generator-dict-gt-norm.xfst
-
-endif # WANT_DICTIONARIES
-
-if WANT_OAHPA
-GT_ANALYSERS_XFST+=analyser-oahpa-gt-norm.xfst
-GT_GENERATORS_XFST+=generator-oahpa-gt-norm.xfst \
-					$(DIALECT_TARGETS_XFST)
-endif # WANT_OAHPA
-
-endif # CAN_XFST
-##### END Xerox target list #####
-
 
 #### Local modifications in *fst processing: ####
 ####
@@ -116,12 +48,22 @@ endif # CAN_XFST
 if CAN_XFST
 GT_ANALYSERS_XFST+=
 GT_GENERATORS_XFST+=
+
+if WANT_DICTIONARIES
+GT_ANALYSERS_XFST+=analyser-dict-gt-desc-molotsov.xfst
+endif # WANT_DICTIONARIES
+
 endif # CAN_XFST
 
 #### HFST transducers
 if CAN_HFST
 GT_ANALYSERS_HFST+=
 GT_GENERATORS_HFST+=
+
+if WANT_DICTIONARIES
+GT_ANALYSERS_XFST+=analyser-dict-gt-desc-molotsov.hfst
+endif # WANT_DICTIONARIES
+
 endif # CAN_HFST
 
 #################################################
@@ -136,6 +78,14 @@ analyser-dict-gt-desc-molotsov.tmp.xfst: analyser-dict-gt-desc.tmp.xfst \
 		 save stack $@\n\
 		 quit\n" | $(XFST)
 
+analyser-dict-gt-desc-molotsov.tmp.hfst: analyser-dict-gt-desc.tmp.hfst \
+					orthography/spellrelax-molotsov-keyboard.hfst
+	$(AM_V_GEN)$(PRINTF) "read regex                              \
+			    @\"$<\" \
+			.o. @\"orthography/spellrelax-molotsov-keyboard.hfst\" \
+			;\n\
+		 save stack $@\n\
+		 quit\n" | $(XFST)
 
 ##################################################################
 #### END: Add local processing instructions ABOVE this line ######
@@ -146,11 +96,10 @@ analyser-dict-gt-desc-molotsov.tmp.xfst: analyser-dict-gt-desc.tmp.xfst \
 #### down compared to Xerox AT APPLICATION TIME. The other command makes the
 #### final transducer ready for use.
 analyser%.hfst: analyser%.tmp.hfst
-	$(AM_V_GEN)$(HFST_INVERT) $< \
-		| $(HFST_FST2FST) $(HFST_FLAGS) -f olw -o $@
+	$(AM_V_INVERT)$(HFST_INVERT) -i $< -o $@
 
 generator%.hfst: generator%.tmp.hfst
-	$(AM_V_GEN)$(HFST_FST2FST) $(HFST_FLAGS) -t -i $< -o $@
+	$(AM_V_CP)cp -f $< $@
 
 #### Xerox transducer fallback target:
 %.xfst: %.tmp.xfst
