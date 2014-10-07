@@ -25,7 +25,7 @@ Multichar_Symbols
 
 LEXICON Root
 HUNDREDSM ;		     ! 200M
-сё:1 HUNDREDM ; 	     ! 100M
+1:сё HUNDREDM ; 	     ! 100M
 TENSM ;		             ! 20-99M
 TEENSM ;	             ! 10-19M
 1MILJON ;            	     ! 1M
@@ -33,11 +33,11 @@ ONESM ;		             ! 1-9M
 1GIGA ;            	     ! 1G
 ONESG ;		             ! 1-9G
 HUNDREDST ;	             ! 200000-999999
-сё:1 HUNDREDT ; 	     ! 100000-100999
+1:сё HUNDREDT ; 	     ! 100000-100999
 TENST ;			     ! 20000-99999,10000-10999
 TEENST ;		     ! 11000-19999
 ONEST ;			     ! 2000-9999
-сюрс:1 THOUSAND ; 	     ! 1000-1999
+1:сюрс THOUSAND ; 	     ! 1000-1999
 
 UNDERTHOUSAND ;		     ! 100-999
 TENS ;			     ! 20-99
@@ -45,89 +45,89 @@ TEENS ;			     ! 10-19
 REAL-ONES ;			     ! 1-9
 
 LEXICON ONESG
-ӧти% :   1GIGA ;
-кык:2    GIGA ;
-куим:3   GIGA ;
-нёль:4 	 GIGA ;
-вит:5  	 GIGA ;
-квайт:6  GIGA ;
-сизим:7  GIGA ;
-кӧкъямыс:8  GIGA ;
-ӧкмыс:9     GIGA ; 
+:ӧти%    1GIGA ;
+2:кык    GIGA ;
+3:куим   GIGA ;
+4:нёль 	 GIGA ;
+5:вит  	 GIGA ;
+6:квайт  GIGA ;
+7:сизим  GIGA ;
+8:кӧкъямыс  GIGA ;
+9:ӧкмыс     GIGA ; 
 
 LEXICON 1GIGA
-милярд% :1 OVERMILLIONS ;
+1:милярд%  OVERMILLIONS ;
 
 LEXICON GIGA
-% милярд% : OVERMILLIONS ;
+:% милярд%   OVERMILLIONS ;
 
 LEXICON HUNDREDSM
-кык:2       CUODIM ;
-куим:3      CUODIM ;
-нёль:4 	    CUODIM ;
-вит:5  	    CUODIM ;
-квайт:6     CUODIM ;
-сизим:7     CUODIM ;
-кӧкъямыс:8  CUODIM ;
-ӧкмыс:9     CUODIM ;
+2:кык       CUODIM ;
+3:куим      CUODIM ;
+4:нёль 	    CUODIM ;
+5:вит  	    CUODIM ;
+6:квайт     CUODIM ;
+7:сизим     CUODIM ;
+8:кӧкъямыс  CUODIM ;
+9:ӧкмыс     CUODIM ;
 
 LEXICON CUODIM
-сё: HUNDREDM ; !200, not 100
+:сё HUNDREDM ; !200, not 100
 
 LEXICON HUNDREDM
       TENSM ;
       TEENSM ;
-:%0   ONESM ;
-:%0%0 MILJON ;
+%0:   ONESM ;
+%0%0: MILJON ;
 
 LEXICON TEENSM
-дас% :1 TEENM ;
+1:дас%   TEENM ;
 
 LEXICON TEENM
-ӧти:1         MILJON ;
-кык:2         MILJON ;
-куим:3        MILJON ;
-нёль:4        MILJON ;
-вит:5         MILJON ;
-квайт:6       MILJON ;
-сизим:7       MILJON ;
-кӧкъямыс:8    MILJON ;
-ӧкмыс:9       MILJON ;
+1:ӧти         MILJON ;
+2:кык         MILJON ;
+3:куим        MILJON ;
+4:нёль        MILJON ;
+5:вит         MILJON ;
+6:квайт       MILJON ;
+7:сизим       MILJON ;
+8:кӧкъямыс    MILJON ;
+9:ӧкмыс       MILJON ;
 
 
 LEXICON TENSM
-дас:1%0 MILJON ;
+1%0:дас MILJON ;
 
-кык:2    LÅGEVM ;
-куим:3  LÅGEVM ;
-нёль:4 LÅGEVM ;
-вит:5  LÅGEVM ;
-квайт:6  LÅGEVM ;
-сизим:7  LÅGEVM ;
-кӧкъямыс:8  LÅGEVM ;
-ӧкмыс:9   LÅGEVM ;
+2:кык     LÅGEVM ;
+3:куим   LÅGEVM ;
+4:нёль  LÅGEVM ;
+5:вит   LÅGEVM ;
+6:квайт   LÅGEVM ;
+7:сизим   LÅGEVM ;
+8:кӧкъямыс   LÅGEVM ;
+9:ӧкмыс    LÅGEVM ;
 
 LEXICON LÅGEVM
-дас:%0 MILJON ;
-дас:     ONESM ;
+%0:дас MILJON ;
+:дас     ONESM ;
 
 LEXICON ONESM
-ӧти% :   1MILJON ; !!= @CODE@ What is this for 2013-11-08?
-кык:2    MILJON ;
-куим:3  MILJON ;
-нёль:4 MILJON ;
-вит:5  MILJON ;
-квайт:6  MILJON ;
-сизим:7  MILJON ;
-кӧкъямыс:8  MILJON ;
-ӧкмыс:9   MILJON ; 
+:ӧти%    1MILJON ; !!= @CODE@ What is this for 2013-11-08?
+2:кык     MILJON ;
+3:куим   MILJON ;
+4:нёль  MILJON ;
+5:вит   MILJON ;
+6:квайт   MILJON ;
+7:сизим   MILJON ;
+8:кӧкъямыс   MILJON ;
+9:ӧкмыс    MILJON ; 
 
 LEXICON 1MILJON
-миллион% :1 OVERTHOUSANDS ;
-миллион% :1  OVERTHOUSANDS ;
+1:миллион%   OVERTHOUSANDS ;
+1:миллион%    OVERTHOUSANDS ;
 
 LEXICON MILJON
-% милюн% : OVERTHOUSANDS ;
+:% милюн%  OVERTHOUSANDS ;
 
 ! =================
 ! Under the million
@@ -135,111 +135,110 @@ LEXICON MILJON
 
 LEXICON OVERMILLIONS
                     HUNDREDSM ;
-сё:1           HUNDREDM ;
-:%0                 TENSM ;
-:%0                 TEENSM ;
-:%0%0               1MILJON ;
-:%0%0               ONESM ;
-:%0%0%0             HUNDREDST ;		        ! x00.000.000
-сё:%0%0%01     HUNDREDT ;    ! 100.000.000
-:%0%0%0%0           TENST ;		        !  20.000.000
-:%0%0%0%0           TEENST ;		    !  10.000.000
-:%0%0%0%0%0         ONEST ;		    !   2.000.000
-сюрс:%0%0%0%0%01  THOUSAND ;	!   1.000.000
-:%0%0%0%0%0%0       UNDERTHOUSAND ;	
-:%0%0%0%0%0%0%0     TENS ;
-:%0%0%0%0%0%0%0     TEENS ;
-:%0%0%0%0%0%0%0%0   ONES ;
-:%0%0%0%0%0%0%0%0%0 COMMA ;	     !  x000000
+1:сё           HUNDREDM ;
+%0:                 TENSM ;
+%0:                 TEENSM ;
+%0%0:               1MILJON ;
+%0%0:               ONESM ;
+%0%0%0:             HUNDREDST ;		        ! x00.000.000
+%0%0%01:сё     HUNDREDT ;    ! 100.000.000
+%0%0%0%0:           TENST ;		        !  20.000.000
+%0%0%0%0:           TEENST ;		    !  10.000.000
+%0%0%0%0%0:         ONEST ;		    !   2.000.000
+%0%0%0%0%01:сюрс  THOUSAND ;	!   1.000.000
+%0%0%0%0%0%0:       UNDERTHOUSAND ;	
+%0%0%0%0%0%0%0:     TENS ;
+%0%0%0%0%0%0%0:     TEENS ;
+%0%0%0%0%0%0%0%0:   ONES ;
+%0%0%0%0%0%0%0%0%0: COMMA ;	     !  x000000
 
 LEXICON OVERTHOUSANDS
 HUNDREDST ;		        ! x00.000.000
-% сё:1 HUNDREDT ;    ! 100.000.000
-% :%0 TENST ;		        !  20.000.000
-% :%0 TEENST ;		    !  10.000.000
-% :%0%0 ONEST ;		    !   2.000.000
-% сюрс:%0%01 THOUSAND ;	!   1.000.000
-% :%0%0%0 UNDERTHOUSAND ;	
-% :%0%0%0%0 TENS ;
-% :%0%0%0%0 TEENS ;
-% :%0%0%0%0%0 ONES ;
-:%0%0%0%0%0%0 CARD-ORD ;	     !  x000000
+1:% сё HUNDREDT ;    ! 100.000.000
+%0:%  TENST ;		        !  20.000.000
+%0:%  TEENST ;		    !  10.000.000
+%0%0:%  ONEST ;		    !   2.000.000
+%0%01:% сюрс THOUSAND ;	!   1.000.000
+%0%0%0:%  UNDERTHOUSAND ;	
+%0%0%0%0:%  TENS ;
+%0%0%0%0:%  TEENS ;
+%0%0%0%0%0:%  ONES ;
+%0%0%0%0%0%0: CARD-ORD ;	     !  x000000
 
 LEXICON HUNDREDST
-
-кык:2    CUODIT ;
-куим:3  CUODIT ;	! 300000-399999
-нёль:4 CUODIT ;	! 400000-499999
-вит:5  CUODIT ;	! 500000-599999
-квайт:6  CUODIT ;	! 600000-699999
-сизим:7  CUODIT ;
-кӧкъямыс:8  CUODIT ;	! 800000-899999
-ӧкмыс:9   CUODIT ;	! 900000-999999
+2:кык     CUODIT ;
+3:куим   CUODIT ;	! 300000-399999
+4:нёль  CUODIT ;	! 400000-499999
+5:вит   CUODIT ;	! 500000-599999
+6:квайт   CUODIT ;	! 600000-699999
+7:сизим   CUODIT ;
+8:кӧкъямыс   CUODIT ;	! 800000-899999
+9:ӧкмыс    CUODIT ;	! 900000-999999
 
 LEXICON CUODIT
-% сё% : HUNDREDT ;	! 200000-199999
+:% сё%  HUNDREDT ;	! 200000-199999
 
 LEXICON HUNDREDT	     ! X = 1-9, Y = 0-9
 TENST ;			     ! X2XYYY, X10YYY
 TEENST ;		     ! X1XYYY
-ӧти:%01 THOUSANDS ;
-:%0 ONEST ;		     ! XX0YYY
-:%0%0 THOUSANDS ;	 ! X00YYY
+%01:ӧти THOUSANDS ;
+%0: ONEST ;		     ! XX0YYY
+%0%0: THOUSANDS ;	 ! X00YYY
 
 LEXICON TEENST
-дас% :1 TEENT ;
+1:дас%   TEENT ;
 
 LEXICON TEENT
-:%0 THOUSANDS ;
-ӧти:1 THOUSANDS ;
-кык:2 THOUSANDS ;
-куим:3 THOUSANDS ;
-нёль:4 THOUSANDS ;
-вит:5 THOUSANDS ;
-квайт:6 THOUSANDS ;
-сизим:7 THOUSANDS ;
-кӧкъямыс:8 THOUSANDS ;
-ӧкмыс:9 THOUSANDS ;
+%0: THOUSANDS ;
+1:ӧти  THOUSANDS ;
+2:кык  THOUSANDS ;
+3:куим  THOUSANDS ;
+4:нёль  THOUSANDS ;
+5:вит  THOUSANDS ;
+6:квайт  THOUSANDS ;
+7:сизим  THOUSANDS ;
+8:кӧкъямыс  THOUSANDS ;
+9:ӧкмыс  THOUSANDS ;
 
 !LEXICON LOHKAIT
-!дас: THOUSANDS ;
+!:дас THOUSANDS ;
 
 LEXICON TENST
-кык:2    LÅGEVT ;
-куим:3 	 LÅGEVT ;
-нёль:4 	 LÅGEVT ;
-вит:5 	 LÅGEVT ;
-квайт:6  LÅGEVT ;
-сизим:7  LÅGEVT ;
-кӧкъямыс:8 LÅGEVT ;
-ӧкмыс:9  LÅGEVT ;
+2:кык     LÅGEVT ;
+3:куим  	 LÅGEVT ;
+4:нёль  	 LÅGEVT ;
+5:вит  	 LÅGEVT ;
+6:квайт   LÅGEVT ;
+7:сизим   LÅGEVT ;
+8:кӧкъямыс  LÅGEVT ;
+9:ӧкмыс   LÅGEVT ;
 
 LEXICON LÅGEVT
-дас:%0 THOUSANDS ;
-дас#ӧти#сюрс:1 THOUSAND ;
-дас% : ONEST ;
+%0:дас THOUSANDS ;
+1:дас% ӧти% сюрс THOUSAND ;
+:дас%  ONEST ;
 
 LEXICON ONEST
 
-кык% :2       THOUSANDS ;
-куим% :3 	    THOUSANDS ;
-нёль% :4 	    THOUSANDS ;
-вит% :5 	    THOUSANDS ;
-квайт% :6     THOUSANDS ;
-сизим% :7     THOUSANDS ;
-кӧкъямыс% :8  THOUSANDS ;
-ӧкмыс% :9     THOUSANDS ;
+2:кык%         THOUSANDS ;
+3:куим%   	    THOUSANDS ;
+4:нёль%   	    THOUSANDS ;
+5:вит%   	    THOUSANDS ;
+6:квайт%       THOUSANDS ;
+7:сизим%       THOUSANDS ;
+8:кӧкъямыс%    THOUSANDS ;
+9:ӧкмыс%       THOUSANDS ;
 
 LEXICON THOUSANDS      ! x > 1
-% сюрс: THOUSAND ;
+:% сюрс THOUSAND ;
 
 
 LEXICON THOUSAND
-% : UNDERTHOUSAND ;	   ! 1100-1999
-% :%0 TENS ;	   ! 1020-1099
-% :%0 TEENS ;	   ! 1010-1019
-% :%0%0 ONES ;	   ! 1001-1009
-:%0%0%0 CARD-ORD ;	   ! 1000
+:%  UNDERTHOUSAND ;	   ! 1100-1999
+%0:%  TENS ;	   ! 1020-1099
+%0:%  TEENS ;	   ! 1010-1019
+%0%0:%   ONES ;	   ! 1001-1009
+%0%0%0: CARD-ORD ;	   ! 1000
 
 !===========================
 !Here starts the 999 numbers
@@ -247,127 +246,98 @@ LEXICON THOUSAND
 
 LEXICON UNDERTHOUSAND
 HUNDREDS ;
-сё:1 HUNDRED ;
+1:сё  HUNDRED ;
 
-tjuodát:1 CUODAAT ;
 
 LEXICON HUNDREDS
 
-кык:2 CUODI ;
-куим:3 CUODI ;
-нёль:4 CUODI ;
-вит:5 CUODI ;
-квайт:6 CUODI ;
-сизим:7 CUODI ;
-кӧкъямыс:8 CUODI ;
-ӧкмыс:9 CUODI ;
+2:кык  CUODI ;
+3:куим  CUODI ;
+4:нёль  CUODI ;
+5:вит  CUODI ;
+6:квайт  CUODI ;
+7:сизим  CUODI ;
+8:кӧкъямыс  CUODI ;
+9:ӧкмыс  CUODI ;
 
 LEXICON CUODI
-% сё: HUNDRED ;
+:% сё HUNDRED ;
 
 !tjuodát: CUODAAT ;
 
 LEXICON HUNDRED
-% : TENS ;
-% : TEENS ;
-% :%0 ONES ;
-:%0%0 CARD-ORD ;
+:%   TENS ;
+:%   TEENS ;
+%0:%  ONES ;
+%0%0: CARD-ORD ;
 
 LEXICON CUODAAT
-:%0%0%.    COMMA ;
+%0%0%.:    COMMA ;
 
 
 LEXICON TEENS
-дас% :1 ONES ;
+1:дас%  ONES ;
 
 LEXICON ONES
-ӧти:1 COMMA ;
-ӧтик+Use/NG:1 COMMA ;
-ӧтикӧд:1%. COMMA ;
+1:ӧти COMMA ;
+1:ӧтик+Use/NG COMMA ;
+1%.:ӧтикӧд  COMMA ;
 
-кык:2 CARD-ORD ;
-куим:3 COMMA ;!
-коймӧд:3%. COMMA ; ! This allows demo to function
-!коймӧд:3%-ӧд COMMA ;
-нёль:4 CARD-ORD ;
-
-вит:5 CARD-ORD ;
-квайт:6 CARD-ORD ;
-сизим:7 CARD-ORD ;
-
-кӧкъямыс:8 CARD-ORD ;
-ӧкмыс:9 CARD-ORD ;
+2:кык  CARD-ORD ;
+3:куим  COMMA ;!
+3%.:коймӧд COMMA ; ! This allows demo to function
+!3%-ӧд:коймӧд COMMA ;
+4:нёль  CARD-ORD ;
+5:вит  CARD-ORD ;
+6:квайт  CARD-ORD ;
+7:сизим  CARD-ORD ;
+8:кӧкъямыс  CARD-ORD ;
+9:ӧкмыс  CARD-ORD ;
 
 
 LEXICON TENS
-дас:1%0 CARD-ORD ;
+1%0:дас CARD-ORD ;
 
-кызь:2 LÅGEV2-6 ;
-комын:3 LÅGEV2-6 ;
-нелямын:4 LÅGEV2-6 ;
-ветымын:5 LÅGEV2-6 ;
-квайтымын:6 LÅGEV2-6 ;
-сизим:7 LÅGEV ;
-кӧкъямыс:8 LÅGEV ;
-ӧкмыс:9 LÅGEV ;
+2:кызь  LÅGEV2-6 ;
+3:комын  LÅGEV2-6 ;
+4:нелямын  LÅGEV2-6 ;
+5:ветымын  LÅGEV2-6 ;
+6:квайтымын  LÅGEV2-6 ;
+7:сизим  LÅGEV ;
+8:кӧкъямыс  LÅGEV ;
+9:ӧкмыс  LÅGEV ;
 
 LEXICON LÅGEV
-дас:%0 CARD-ORD ;
-!дас:%0 CARD-ORD ;
-дас% : ONES ;
+%0:дас CARD-ORD ;
+:дас%  ONES ;
 
 ! This is for the numerals 20-69
 LEXICON LÅGEV2-6
-:%0 CARD-ORD ;
-% : ONES 	  ;
+%0: CARD-ORD ;
+:%   ONES 	  ;
 
 LEXICON CARD-ORD
  COMMA ;
-ӧд:%. COMMA ; ! 2014-03-21 this will allow the demo to work.
-!ӧд:%-ӧд COMMA ;
+%.:ӧд COMMA ; ! 2014-03-21 this will allow the demo to work.
+!%-ӧд:ӧд COMMA ;
 
 LEXICON REAL-ONES
-ӧти:1 COMMA ;
-ӧтик:1 COMMA ;
-первой:1%. COMMA ;
-кык:2 COMMA ;
-мӧд:2%. COMMA ;
-куим:3 COMMA ;!
-коймӧд:3%. COMMA ; ! This allows demo to function
-!коймӧд:3%-ӧд COMMA ;
-нёль:4 CARD-ORD ;
-вит:5 CARD-ORD ;
-квайт:6 CARD-ORD ;
-сизим:7 CARD-ORD ;
-кӧкъямыс:8 CARD-ORD ;
-ӧкмыс:9 CARD-ORD ;
+1:ӧти  COMMA ;
+1:ӧтик  COMMA ;
+1%.:первой COMMA ;
+2:кык  COMMA ;
+2%.:мӧд COMMA ;
+3:куим  COMMA ;!
+3%.:коймӧд  COMMA ; ! This allows demo to function
+!3%-ӧд:коймӧд COMMA ;
+4:нёль  CARD-ORD ;
+5:вит  CARD-ORD ;
+6:квайт  CARD-ORD ;
+7:сизим  CARD-ORD ;
+8:кӧкъямыс  CARD-ORD ;
+9:ӧкмыс  CARD-ORD ;
 
 
-!LEXICON CARDINAL
-!ӧти:1    COMMA ;
-!ӧтик:1    COMMA ;
-
-!кык:2    COMMA ;
-!куим:3  COMMA ;
-!нёль:4 COMMA ;
-
-!вит:5  COMMA ;
-!квайт:6  COMMA ;
-!сизим:7  COMMA ;
-
-!кӧкъямыс:8  COMMA ;
-!ӧкмыс:9   COMMA ;
-
-!LEXICON ORDINAL
-!vuosttasj:1%.     COMMA ;
-!nuppát:2%.   COMMA ;
-!goalmát:3%.   COMMA ;
-!nælját:4%. COMMA ;
-!viđát:5%.   COMMA ;
-!gudát:6%.   COMMA ;
-!giehttjit:7%.    COMMA ;
-!gávtsát:8%.   COMMA ;
-!avtsát:9%.    COMMA ;
 
 LEXICON COMMA
  ENDLEX ;
