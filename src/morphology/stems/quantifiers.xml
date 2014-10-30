@@ -12,9 +12,9 @@
       <mg>
          <tg xml:lang="fin">
             <t pos="Qnt">suunnaton määrä</t>
-            <t>valtavan paljon</t>
-            <t>hirveän paljon</t>
-            <t>hurjan paljon</t>
+            <t pos="Qnt">valtavan paljon</t>
+            <t pos="Qnt">hirveän paljon</t>
+            <t pos="Qnt">hurjan paljon</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">уйма, прорва</t>
@@ -408,8 +408,8 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="Qnt">viidestään</t>
-            <t>viisin</t>
-            <t>viisistään</t>
+            <t pos="Qnt">viisin</t>
+            <t pos="Qnt">viisistään</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">впятером</t>
@@ -722,17 +722,16 @@
    </e>
    <e order="2">
       <lg>
-         <l pos="Qnt">даса</l>
+         <l pos="N">даса</l>
          <stg>
             <st Contlex="Noun1">даса</st>
          </stg>
       </lg>
-      <pos>Qnt</pos>
       <mg>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="Qnt">kymmenikkö</t>
-            <t>kymppi</t>
+            <t pos="N">kymmenikkö</t>
+            <t pos="N">kymppi</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="N">десятка</t>
@@ -784,7 +783,7 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="Qnt">kymmenen kertaa</t>
-            <t>kymmenesti</t>
+            <t pos="Qnt">kymmenesti</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">десять раз</t>
@@ -1887,7 +1886,7 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="Qnt">kolmesti</t>
-            <t>kolme kertaa</t>
+            <t pos="Qnt">kolme kertaa</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">трижды</t>
@@ -1915,7 +1914,7 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="Qnt">kolmisin</t>
-            <t>kolmistaan</t>
+            <t pos="Qnt">kolmistaan</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">втроём</t>
@@ -2495,7 +2494,7 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="Qnt">te molemmat</t>
-            <t>te kaksi</t>
+            <t pos="Qnt">te kaksi</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">вы оба</t>
@@ -2523,7 +2522,7 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="Qnt">me molemmat</t>
-            <t>me kaksi</t>
+            <t pos="Qnt">me kaksi</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">мы оба</t>
@@ -2546,8 +2545,8 @@
       <mg>
          <defNative/>
          <tg>
-            <t>he molemmat</t>
-            <t>he kaksi</t>
+            <t pos="Qnt">he molemmat</t>
+            <t pos="Qnt">he kaksi</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">они оба</t>
@@ -2675,7 +2674,7 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="Qnt">kahdesti</t>
-            <t>kaksi kertaa</t>
+            <t pos="Qnt">kaksi kertaa</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">двукратный</t>
@@ -2750,8 +2749,8 @@
       <mg>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="Num">toinen</t>
-            <t>kahdes</t>
+            <t pos="Ord">toinen</t>
+            <t pos="Ord">kahdes</t>
          </tg>
          <tg xml:lang="rus">
             <tCtn>
@@ -2784,7 +2783,7 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="Qnt">kahdestaan</t>
-            <t>kaksin</t>
+            <t pos="Qnt">kaksin</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">вдвоём</t>
@@ -3058,7 +3057,7 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="Qnt">vähiten</t>
-            <t>vähemmän kuin muilla</t>
+            <t pos="Qnt">vähemmän kuin muilla</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">меньше всего; меньше, чем у других</t>
@@ -3395,7 +3394,7 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="Qnt">vähän</t>
-            <t>hiukan</t>
+            <t pos="Qnt">hiukan</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">немного, немножко</t>
@@ -3961,8 +3960,8 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="Qnt">nelisin</t>
-            <t>neljästään</t>
-            <t>nelistään</t>
+            <t pos="Qnt">neljästään</t>
+            <t pos="Qnt">nelistään</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">вчетвером</t>
@@ -4078,7 +4077,7 @@
    </e>
    <e exclude="fst" order="2">
       <lg>
-         <l pos="Qnt">первойысь</l>
+         <l pos="Adv">первойысь</l>
          <stg>
             <st Contlex="">первойысь</st>
          </stg>
@@ -4087,8 +4086,8 @@
       <mg>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="Qnt">ensiksi</t>
-            <t>ensi kertaa</t>
+            <t pos="Adv">ensiksi</t>
+            <t pos="Adv">ensi kertaa</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">первый раз, в первый раз, впервые</t>
@@ -4308,17 +4307,16 @@
    </e>
    <e order="2">
       <lg>
-         <l pos="Qnt">сизима</l>
+         <l pos="N">сизима</l>
          <stg>
             <st Contlex="Noun1">сизима</st>
          </stg>
       </lg>
-      <pos>Qnt</pos>
       <mg>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="Qnt">seitsikko</t>
-            <t>seitsemäinen</t>
+            <t pos="N">seitsikko</t>
+            <t pos="N">seitsemäinen</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">семёрка</t>
@@ -5085,7 +5083,7 @@
          <tg xml:lang="fin">
             <t pos="Qnt">monta</t>
             <t pos="Qnt">paljon</t>
-            <t>runsaasti</t>
+            <t pos="Qnt">runsaasti</t>
          </tg>
       </mg>
       <mg No="1">
@@ -5356,17 +5354,16 @@
    </e>
    <e order="2">
       <lg>
-         <l pos="Qnt">ӧкмыса</l>
+         <l pos="N">ӧкмыса</l>
          <stg>
             <st Contlex="Noun1">ӧкмыса</st>
          </stg>
       </lg>
-      <pos>Qnt</pos>
       <mg No="1">
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="Num">yhdeksikkö</t>
-            <t>yhdeksäinen</t>
+            <t pos="N">yhdeksikkö</t>
+            <t pos="N">yhdeksäinen</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">девятка</t>
