@@ -21,7 +21,7 @@
 <e exclude="fst"> <lg> <l pos="N">Россияса Правительство</l> <stg> <st Contlex="Noun1">Россияса Правительство</st> </stg> </lg> <mg> <defNative/> <tg xml:lang="eng"> <t/> </tg> <tg xml:lang="fin"> <t>Venäjän hallitus</t> </tg> </mg> </e>
 <e exclude="fst"> <lg> <l pos="N" type="Prop">Россияса Правительство</l> <stg> <st Contlex="N_">Россияса Правительство</st> </stg> </lg> <mg> <defNative/> <tg> <t/> </tg> </mg> </e>
 <e exclude="fst"> <lg> <l pos="N" type="Prop">Скандинавияса кӧдж</l> <stg> <st Contlex="N_">Скандинавияса кӧдж</st> </stg> </lg> <mg> <defNative/> <tg> <t/> </tg> </mg> </e>
-<e> <lg> <l pos="N">Скандинавияса муяс</l> <stg> <st Contlex="Noun1">Скандинавияса муяс</st> </stg> </lg> <mg> <m> <head> <field fieldType="POLIT"/> </head> </m> <tg xml:lang="eng"> <t>Scandinavian countries</t> </tg> <tg xml:lang="fin"> <t>skandinaviset maat</t> </tg> </mg> </e>
+<e> <lg> <l pos="N">Скандинавияса муяс</l> <stg> <st Contlex="Noun1">Скандинавияса муяс</st> </stg> </lg> <mg> <m> <head> <domain domainType="POLIT"/> </head> </m> <tg xml:lang="eng"> <t>Scandinavian countries</t> </tg> <tg xml:lang="fin"> <t>skandinaviset maat</t> </tg> </mg> </e>
 <e exclude="fst"> <lg> <l pos="N" type="Prop">Скандинавияса муяс</l> <stg> <st Contlex="NounPL">Скандинавияса муяс</st> </stg> </lg> <mg> <defNative/> <tg> <t/> </tg> </mg> </e>
    <e exclude="fst">
       <lg>
@@ -89,14 +89,10 @@
       </lg>
       <pos>PROP-INANIM</pos>
       <mg>
-         <m>
-            <head>
-               <field>астр.</field>
-            </head>
-         </m>
-         <tg xml:lang="rus">
-            <t>Пояс Ориона</t>
-         </tg>
+        <domain>астр.</domain>
+        <tg xml:lang="rus">
+          <t>Пояс Ориона</t>
+        </tg>
       </mg>
    </e>
    <e exclude="fst">
