@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xml:lang="kpv" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+<r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd" xml:lang="kpv"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <e order="2">
       <lg>
@@ -441,6 +441,11 @@
       <pos>ORD-ITER</pos>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="Qnt">pari kertaa</t>
+            <t>kerran pari</t>
+            <t>muutaman kerran</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">раза-два, раз-другой, несколько раз</t>
          </tg>
@@ -732,6 +737,7 @@
          <tg xml:lang="fin">
             <t pos="N">kymmenikkö</t>
             <t pos="N">kymppi</t>
+            <t>kymmenruplanen</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="N">десятка</t>
@@ -759,6 +765,7 @@
          <xg>
             <x>удждонсӧ вайис дасаясӧн</x>
             <xt xml:lang="fin">Hän toi palkan kymppeinä.</xt>
+            <xt>Hän toi palkan kymmenruplasina.</xt>
             <xt xml:lang="rus">зарплату принёс десятками</xt>
          </xg>
          <xg>
@@ -849,6 +856,10 @@
       <pos>QNT-COLL-UNIV</pos>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="Qnt">kymmenen</t>
+            <t>kymmenet</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">вдесятером</t>
          </tg>
@@ -877,6 +888,12 @@
       <pos>Qnt</pos>
       <mg No="1">
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="Qnt">puoliksi</t>
+            <t>puolilleen</t>
+            <t>puolittain</t>
+            <t>vajaasti</t>
+         </tg>
          <tg xml:lang="rus">
             <tCtn>
                <t pos="Qnt">по половине</t>
@@ -938,19 +955,28 @@
       <pos>Qnt</pos>
       <mg No="1">
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="Qnt">vajaa</t>
+            <t>vaillinainen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">неполный, початый</t>
          </tg>
          <xg>
             <x>джынъя гырнич</x>
+            <xt xml:lang="fin">vajaa ruukku</xt>
             <xt xml:lang="rus">неполный горшок</xt>
          </xg>
          <xg>
             <x>джынъя додь</x>
+            <xt xml:lang="fin">vajaa kuorma</xt>
             <xt xml:lang="rus">неполный воз</xt>
          </xg>
          <xg>
             <x>джынъя зорӧд</x>
+            <xt xml:lang="fin">vajaa auma</xt>
+            <xt>vajaa suova</xt>
+            <xt>vajaa keko</xt>
             <xt xml:lang="rus">початый стог</xt>
          </xg>
       </mg>
@@ -1012,6 +1038,12 @@
       <pos>Qnt</pos>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="Qnt">vähin erin</t>
+            <t>vähän kerrallaan</t>
+            <t>vähittäin</t>
+            <t>vähitellen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">понемногу; небольшими порциями</t>
          </tg>
@@ -1031,6 +1063,12 @@
       <pos>Qnt</pos>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="Qnt">vähän</t>
+            <t>hieman</t>
+            <t>hiukan</t>
+            <t>pikkuisen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">немного, немножко</t>
          </tg>
@@ -3199,11 +3237,13 @@
          </xg>
          <xg>
             <x>мӧд пӧв лыддьыны</x>
+            <xt xml:lang="fin">lukea toisen kerran</xt>
             <xt xml:lang="rus">вторично прочесть, перечитать</xt>
             <xt xml:lang="rus">вторично сосчитать, пересчитать</xt>
          </xg>
          <xg>
             <x>мӧд фронт восьтыны</x>
+            <xt xml:lang="fin">avata toinen rintama</xt>
             <xt xml:lang="rus">открыть второй фронт</xt>
          </xg>
          <xg>
@@ -5798,6 +5838,10 @@
       <pos>A</pos>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="Qnt">yhden hengen</t>
+            <t>yksipaikkainen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="Qnt">для одного</t>
          </tg>
