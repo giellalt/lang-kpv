@@ -33,7 +33,7 @@ ONESM ;		             ! 1-9M
 1GIGA ;            	     ! 1G
 ONESG ;		             ! 1-9G
 HUNDREDST ;	             ! 200000-999999
-1:сё HUNDREDT ; 	     ! 100000-100999
+1:сё%  HUNDREDT ; 	     ! 100000-100999
 TENST ;			     ! 20000-99999,10000-10999
 TEENST ;		     ! 11000-19999
 ONEST ;			     ! 2000-9999
@@ -46,20 +46,20 @@ REAL-ONES ;			     ! 1-9
 
 LEXICON ONESG
 :ӧти%    1GIGA ;
-2:кык    GIGA ;
-3:куим   GIGA ;
-4:нёль 	 GIGA ;
-5:вит  	 GIGA ;
-6:квайт  GIGA ;
-7:сизим  GIGA ;
-8:кӧкъямыс  GIGA ;
-9:ӧкмыс     GIGA ; 
+2:кык%    GIGA ;
+3:куим%   GIGA ;
+4:нёль% 	 GIGA ;
+5:вит%  	 GIGA ;
+6:квайт%  GIGA ;
+7:сизим%  GIGA ;
+8:кӧкъямыс%  GIGA ;
+9:ӧкмыс%     GIGA ; 
 
 LEXICON 1GIGA
 1:милярд%  OVERMILLIONS ;
 
 LEXICON GIGA
-:% милярд%   OVERMILLIONS ;
+:милярд%   OVERMILLIONS ;
 
 LEXICON HUNDREDSM
 2:кык       CUODIM ;
@@ -72,7 +72,7 @@ LEXICON HUNDREDSM
 9:ӧкмыс     CUODIM ;
 
 LEXICON CUODIM
-:сё HUNDREDM ; !200, not 100
+:сё%  HUNDREDM ; !200, not 100
 
 LEXICON HUNDREDM
       TENSM ;
@@ -98,36 +98,40 @@ LEXICON TEENM
 LEXICON TENSM
 1%0:дас MILJON ;
 
-2:кык     LÅGEVM ;
-3:куим   LÅGEVM ;
-4:нёль  LÅGEVM ;
-5:вит   LÅGEVM ;
-6:квайт   LÅGEVM ;
+2:кызь%     LÅGEVM2-6 ;
+3:комын%   LÅGEVM2-6 ;
+4:нелямын%  LÅGEVM2-6 ;
+5:ветымын%   LÅGEVM2-6 ;
+6:квайтымын%   LÅGEVM2-6 ;
 7:сизим   LÅGEVM ;
 8:кӧкъямыс   LÅGEVM ;
 9:ӧкмыс    LÅGEVM ;
 
 LEXICON LÅGEVM
-%0:дас MILJON ;
-:дас     ONESM ;
+%0:дас%  MILJON ;
+:дас%     ONESM ;
+
+LEXICON LÅGEVM2-6
+%0:  MILJON ;
+:     ONESM ;
 
 LEXICON ONESM
 :ӧти%    1MILJON ; !!= @CODE@ What is this for 2013-11-08?
-2:кык     MILJON ;
-3:куим   MILJON ;
-4:нёль  MILJON ;
-5:вит   MILJON ;
-6:квайт   MILJON ;
-7:сизим   MILJON ;
-8:кӧкъямыс   MILJON ;
-9:ӧкмыс    MILJON ; 
+2:кык%     MILJON ;
+3:куим%   MILJON ;
+4:нёль%  MILJON ;
+5:вит%   MILJON ;
+6:квайт%   MILJON ;
+7:сизим%   MILJON ;
+8:кӧкъямыс%   MILJON ;
+9:ӧкмыс%    MILJON ; 
 
 LEXICON 1MILJON
 1:миллион%   OVERTHOUSANDS ;
 1:миллион%    OVERTHOUSANDS ;
 
 LEXICON MILJON
-:% милюн%  OVERTHOUSANDS ;
+:милюн%  OVERTHOUSANDS ;
 
 ! =================
 ! Under the million
@@ -141,7 +145,7 @@ LEXICON OVERMILLIONS
 %0%0:               1MILJON ;
 %0%0:               ONESM ;
 %0%0%0:             HUNDREDST ;		        ! x00.000.000
-%0%0%01:сё     HUNDREDT ;    ! 100.000.000
+%0%0%01:сё%     HUNDREDT ;    ! 100.000.000
 %0%0%0%0:           TENST ;		        !  20.000.000
 %0%0%0%0:           TEENST ;		    !  10.000.000
 %0%0%0%0%0:         ONEST ;		    !   2.000.000
@@ -154,7 +158,7 @@ LEXICON OVERMILLIONS
 
 LEXICON OVERTHOUSANDS
 HUNDREDST ;		        ! x00.000.000
-1:% сё HUNDREDT ;    ! 100.000.000
+1:% сё%  HUNDREDT ;    ! 100.000.000
 %0:%  TENST ;		        !  20.000.000
 %0:%  TEENST ;		    !  10.000.000
 %0%0:%  ONEST ;		    !   2.000.000
@@ -181,7 +185,7 @@ LEXICON CUODIT
 LEXICON HUNDREDT	     ! X = 1-9, Y = 0-9
 TENST ;			     ! X2XYYY, X10YYY
 TEENST ;		     ! X1XYYY
-%01:ӧти THOUSANDS ;
+%01:ӧти%  THOUSANDS ;
 %0: ONEST ;		     ! XX0YYY
 %0%0: THOUSANDS ;	 ! X00YYY
 
@@ -190,33 +194,38 @@ LEXICON TEENST
 
 LEXICON TEENT
 %0: THOUSANDS ;
-1:ӧти  THOUSANDS ;
-2:кык  THOUSANDS ;
-3:куим  THOUSANDS ;
-4:нёль  THOUSANDS ;
-5:вит  THOUSANDS ;
-6:квайт  THOUSANDS ;
-7:сизим  THOUSANDS ;
-8:кӧкъямыс  THOUSANDS ;
-9:ӧкмыс  THOUSANDS ;
+1:ӧти%  THOUSANDS ;
+2:кык%  THOUSANDS ;
+3:куим%  THOUSANDS ;
+4:нёль%  THOUSANDS ;
+5:вит%  THOUSANDS ;
+6:квайт%  THOUSANDS ;
+7:сизим%  THOUSANDS ;
+8:кӧкъямыс%  THOUSANDS ;
+9:ӧкмыс%  THOUSANDS ;
 
 !LEXICON LOHKAIT
-!:дас THOUSANDS ;
+!:дас%  THOUSANDS ;
 
 LEXICON TENST
-2:кык     LÅGEVT ;
-3:куим  	 LÅGEVT ;
-4:нёль  	 LÅGEVT ;
-5:вит  	 LÅGEVT ;
-6:квайт   LÅGEVT ;
+2:кызь%     LÅGEVT2-6 ;
+3:комын%  	 LÅGEVT2-6 ;
+4:нелямын%  	 LÅGEVT2-6 ;
+5:ветымын%  	 LÅGEVT2-6 ;
+6:квайтымын%   LÅGEVT2-6 ;
 7:сизим   LÅGEVT ;
 8:кӧкъямыс  LÅGEVT ;
 9:ӧкмыс   LÅGEVT ;
 
 LEXICON LÅGEVT
-%0:дас THOUSANDS ;
+%0:дас%  THOUSANDS ;
 1:дас% ӧти% сюрс THOUSAND ;
 :дас%  ONEST ;
+
+LEXICON LÅGEVT2-6
+%0:  THOUSANDS ;
+:  ONEST ;
+
 
 LEXICON ONEST
 
@@ -230,7 +239,7 @@ LEXICON ONEST
 9:ӧкмыс%       THOUSANDS ;
 
 LEXICON THOUSANDS      ! x > 1
-:% сюрс THOUSAND ;
+:сюрс THOUSAND ;
 
 
 LEXICON THOUSAND
