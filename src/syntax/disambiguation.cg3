@@ -39,6 +39,7 @@ LIST Num = Num ;
 LIST Pcle = Pcle ; 
 LIST Clt = Clt ; 
 LIST Po = Po ; 
+LIST Dem = Dem ;
 
 LIST WORD = N V A Adv CC CS Interj Pron Num Pcle Clt Po ;
 
@@ -154,6 +155,10 @@ SET OBLCASE = CASE - Nom ;
 SET V-FIN = Ind | Cond | Opt ; 
 
 SECTION
+
+
+SELECT Dem IF (0 Dem)(1 N + Nom);
+
 
 # Early, word-internal rules
 
