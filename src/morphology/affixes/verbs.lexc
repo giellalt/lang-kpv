@@ -178,10 +178,10 @@ LEXICON PresPret1  ! First and second person
 +Sg1@U.CONJ-NX.SG@@U.CONJ-PX.1@:0@U.CONJ-NX.SG@@U.CONJ-PX.1@ VerbEnd-Comparison ; 
 +Sg20@U.CONJ-NX.SG@@U.CONJ-PX.2@:%>н@U.CONJ-NX.SG@@U.CONJ-PX.2@ VerbEnd-Comparison ;
 +Pl10@U.CONJ-NX.PL@@U.CONJ-PX.1@:%>м@U.CONJ-NX.PL@@U.CONJ-PX.1@ VerbEnd-Comparison ; 
-+Pl1+Err/Sub0@U.CONJ-NX.PL@@U.CONJ-PX.1@:%>мӧ@U.CONJ-NX.PL@@U.CONJ-PX.1@ VerbEnd-Comparison ; 
++Pl1+Err/Orth0@U.CONJ-NX.PL@@U.CONJ-PX.1@:%>мӧ@U.CONJ-NX.PL@@U.CONJ-PX.1@ VerbEnd-Comparison ; 
 +Pl1000@U.CONJ-NX.PL@@U.CONJ-PX.1@:%>мӧй@U.CONJ-NX.PL@@U.CONJ-PX.1@ VerbEnd-Comparison ;  ! imperatiivi / optatiivi ??
 +Pl20000@U.CONJ-NX.PL@@U.CONJ-PX.2@:%>нныд@U.CONJ-NX.PL@@U.CONJ-PX.2@ VerbEnd-Comparison ;
-+Pl2+Err/Sub@U.CONJ-NX.PL@@U.CONJ-PX.2@:%>д@U.CONJ-NX.PL@@U.CONJ-PX.2@ VerbEnd-Comparison ; 
++Pl2+Err/Orth@U.CONJ-NX.PL@@U.CONJ-PX.2@:%>д@U.CONJ-NX.PL@@U.CONJ-PX.2@ VerbEnd-Comparison ; 
 
 LEXICON P3         
 @U.CONJ-PX.3@:%>с@U.CONJ-PX.3@ PresPret1-SgPl3 ; ! This is regular
@@ -213,10 +213,10 @@ LEXICON PRET2PL2
 +Pl300@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ны@U.CONJ-NX.PL@@U.CONJ-PX.3@ VerbEnd-Comparison ; !227
 
 LEXICON PRET2-linkki-a
-!+Sg1+Err/Sub: VerbEnd-Comparison ; ! no Sg1 for Prt2 in the standard
+!+Sg1+Err/Orth: VerbEnd-Comparison ; ! no Sg1 for Prt2 in the standard
 +Sg1@U.CONJ-NX.SG@@U.CONJ-PX.1@:0@U.CONJ-NX.SG@@U.CONJ-PX.1@ VerbEnd-Comparison ;  
 +Sg3@U.CONJ-NX.SG@@U.CONJ-PX.3@:0@U.CONJ-NX.SG@@U.CONJ-PX.3@ VerbEnd-Comparison ;
-!+Pl1+Err/Sub:%>ӧсь VerbEnd-Comparison ; ! no Pl1 for Prt2 in the standard
+!+Pl1+Err/Orth:%>ӧсь VerbEnd-Comparison ; ! no Pl1 for Prt2 in the standard
 +Pl1000@U.CONJ-NX.PL@@U.CONJ-PX.1@:%>ӧсь@U.CONJ-NX.PL@@U.CONJ-PX.1@ VerbEnd-Comparison ; 
 +Pl3000@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ӧсь@U.CONJ-NX.PL@@U.CONJ-PX.3@ VerbEnd-Comparison ;
 
@@ -390,8 +390,8 @@ LEXICON VerbDer-V
 +Der/мӧнъя:%>мӧнъя WordEnd ; !399-403
 +Der/тӧм+VAbe:%>тӧм PossessiveSuffixes ;
 +Car:%>тӧг PossessiveSuffixes_NoSg1 ; ! 390
-+Car+Err/Sub:%>тӧгъя K ; !387
-+Car+Err/Sub:%>тӧга K ; !387
++Car+Err/Orth:%>тӧгъя K ; !387
++Car+Err/Orth:%>тӧга K ; !387
 +Car+Der/моз:%>тӧгмоз PossessiveSuffixes_NoSg1 ; !
 
 
