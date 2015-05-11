@@ -48,9 +48,8 @@ GT_ANALYSERS+=
 GT_GENERATORS+=
 
 if WANT_DICTIONARIES
-GT_ANALYSERS_XFST+=analyser-dict-gt-desc-molotsov.xfst
+GT_ANALYSERS+=analyser-dict-gt-desc-molotsov.xfst
 endif # WANT_DICTIONARIES
-
 endif # CAN_XFST
 
 #### HFST transducers
@@ -59,37 +58,31 @@ GT_ANALYSERS+=
 GT_GENERATORS+=
 
 if WANT_DICTIONARIES
-GT_ANALYSERS_XFST+=analyser-dict-gt-desc-molotsov.hfst
+GT_ANALYSERS+=analyser-dict-gt-desc-molotsov.hfst
 endif # WANT_DICTIONARIES
-
 endif # CAN_HFST
 
 #### FOMA transducers
 if CAN_FOMA
 GT_ANALYSERS+=
 GT_GENERATORS+=
+
+if WANT_DICTIONARIES
+GT_ANALYSERS+=analyser-dict-gt-desc-molotsov.foma
+endif # WANT_DICTIONARIES
 endif # CAN_FOMA
 
 #################################################
 #### Add language-specific build rules here: ####
 
-analyser-dict-gt-desc-molotsov.tmp.xfst: analyser-dict-gt-desc.tmp.xfst \
-					orthography/spellrelax-molotsov-keyboard.xfst
-	$(AM_V_GEN)$(PRINTF) "read regex                              \
+analyser-dict-gt-desc-molotsov.tmp.%: analyser-dict-gt-desc.tmp.% \
+					orthography/spellrelax-molotsov-keyboard.%
+	$(AM_V_XFST_TOOL)$(PRINTF) "read regex                              \
 			    @\"$<\" \
-			.o. @\"orthography/spellrelax-molotsov-keyboard.xfst\" \
+			.o. @\"orthography/spellrelax-molotsov-keyboard.$*\" \
 			;\n\
 		 save stack $@\n\
-		 quit\n" | $(XFST)
-
-analyser-dict-gt-desc-molotsov.tmp.hfst: analyser-dict-gt-desc.tmp.hfst \
-					orthography/spellrelax-molotsov-keyboard.hfst
-	$(AM_V_GEN)$(PRINTF) "read regex                              \
-			    @\"$<\" \
-			.o. @\"orthography/spellrelax-molotsov-keyboard.hfst\" \
-			;\n\
-		 save stack $@\n\
-		 quit\n" | $(XFST)
+		 quit\n" | $(XFST_TOOL)
 
 ##################################################################
 #### END: Add local processing instructions ABOVE this line ######
