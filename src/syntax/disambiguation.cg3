@@ -1,6 +1,6 @@
 
 
-
+# Komi disambiguator
 
 # ========== #
 # Delimiters #
@@ -154,8 +154,13 @@ SET OBLCASE = CASE - Nom ;
 
 SET V-FIN = Ind | Cond | Opt ; 
 
+LIST DerTag = Der/MWN Der/И Der/а Der/ал Der/ась Der/выв Der/джык Der/дор Der/иг Der/кежлӧ Der/кодь Der/коста Der/кості Der/л Der/ла Der/ладор Der/лун Der/лы Der/лывлы Der/мед Der/моз Der/мысь Der/мысьт Der/мӧн Der/мӧнъя Der/овт Der/сор Der/сь Der/сьы Der/сюрӧ Der/тыр Der/тырйи Der/тыръя Der/тӧдз Der/тӧм Der/чы Der/чӧж Der/ывлы Der/ысь Der/ышт Der/ӧм ;
+
+
 SECTION
 
+
+REMOVE DerTag ;
 
 SELECT Dem IF (0 Dem)(1 N + Nom);
 
