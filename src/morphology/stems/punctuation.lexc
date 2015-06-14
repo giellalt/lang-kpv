@@ -1,0 +1,88 @@
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or divvun@samediggi.no
+
+LEXICON Punctuation
+
+! Clause boundary symbols:
+    %,+CLB:%,     # ;
+    %.+CLB:%.     # ;
+  %.%.+CLB:%.%.   # ;
+%.%.%.+CLB:%.%.%. # ;
+    %:+CLB:%:     # ;
+    %;+CLB:%;     # ;
+ ^excl+CLB:%!     # ;
+ ^pipe+CLB:%|     # ;
+    %?+CLB:%?     # ; ! Question mark
+     …+CLB:…      # ;
+     ¿+CLB:¿      # ; ! Only seen as noise.
+     ¶+CLB:¶      # ; ! This sign is for titles, it is introduced by the
+                      ! catxml script, and may be changed if it interferes 
+                      ! with real pilcrow signs.
+
+! Miscellaneous symbols, abbreviation symbols (could be moved to abbr-sme-lex.txt) 
+  
+ §+N+ABBR+Use/Circ:§  # ;
+§§+N+ABBR+Use/Circ:§§ # ;
+ $+N+ABBR+Use/Circ:$  # ;
+ €+N+ABBR+Use/Circ:€  # ;
+ £+N+ABBR+Use/Circ:£  # ;
+          ®+N+ABBR:®  # ;
+          ©+N+ABBR:©  # ;
+
+! Single punctuation marks
+
+  •+PUNCT:•   # ;
+  ●+PUNCT:●   # ;
+  ·+PUNCT:·   # ;
+   ּ+PUNCT:ּ    # ;
+  ·+PUNCT:·   # ;
+  -+PUNCT:-   # ; ! hyphen
+ --+PUNCT:--  # ; ! double hyphen
+  –+PUNCT:–   # ; ! endash
+  —+PUNCT:—   # ; ! emdash
+  ―+PUNCT:―   # ; ! horizontal bar
+  =+PUNCT:=   # ;
+  ≈+PUNCT:≈   # ;
+ %%+PUNCT:%%  # ;
+  &+PUNCT:&   # ;
+ %"+PUNCT:%"  # ;
+  '+PUNCT:'7  # ; ! We use "'7" to avoid the CG symbol of ái'gi etc.
+ %*+PUNCT:%*  # ;
+  ++PUNCT:+   # ;
+  ±+PUNCT:±   # ;
+  `+PUNCT:`   # ;
+  ´+PUNCT:´   # ;
+  /+PUNCT:/   # ; 
++/-+PUNCT:+/- # ;
+ %~+PUNCT:%~  # ;
+
+! Paired punctuation marks
+
+   «+PUNCT+LEFT:«7     # ;
+  »+PUNCT+RIGHT:»7     # ;
+  %“+PUNCT+LEFT:%“     # ;
+ %”+PUNCT+RIGHT:%”     # ;
+  %‘+PUNCT+LEFT:%‘     # ;
+ %’+PUNCT+RIGHT:%’     # ;
+  %„+PUNCT+LEFT:%„     # ;
+  %‹+PUNCT+LEFT:%‹     # ;
+ %›+PUNCT+RIGHT:%›     # ;
+  %(+PUNCT+LEFT:%(     # ;
+ %)+PUNCT+RIGHT:%)     # ;
+  %[+PUNCT+LEFT:%[     # ;
+ %]+PUNCT+RIGHT:%]     # ;
+  %{+PUNCT+LEFT:%{     # ;
+ %}+PUNCT+RIGHT:%}     # ;
+  %<+PUNCT+LEFT:%[%<%] # ;
+  %>+PUNCT+LEFT:%[%>%] # ;
