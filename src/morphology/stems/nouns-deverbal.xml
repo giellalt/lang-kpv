@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xml:lang="kpv" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+<r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd" xml:lang="kpv"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <e>
       <lg>
@@ -29,6 +29,19 @@
          <m>
             <head/>
          </m>
+         <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">parku</t>
+            <t>huuto</t>
+            <t>kirkuna</t>
+            <t>kiljunta</t>
+            <t>ulvonta</t>
+            <t>vongunta</t>
+            <t>karjunta</t>
+            <t>ärinä</t>
+            <t>urina</t>
+            <t>murina</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="N">вопль</t>
             <t pos="N">вой</t>
@@ -38,6 +51,7 @@
          </tg>
          <xg>
             <x>кагалӧн авзӧм</x>
+            <xt xml:lang="fin">lapsen parku</xt>
             <xt xml:lang="rus">вопль ребёнка</xt>
          </xg>
       </mg>
@@ -51,6 +65,7 @@
          </tg>
          <xg>
             <x>ошлӧн авзӧм</x>
+            <xt xml:lang="fin">karhun murina</xt>
             <xt xml:lang="rus">рёв медведя</xt>
          </xg>
       </mg>
@@ -64,6 +79,7 @@
          </tg>
          <xg>
             <x>тӧвлӧн авзӧм</x>
+            <xt xml:lang="fin">tuulen ulvonta</xt>
             <xt xml:lang="rus">завывание ветра</xt>
          </xg>
       </mg>
@@ -77,6 +93,7 @@
          </tg>
          <xg>
             <x>понлӧн авзӧм</x>
+            <xt xml:lang="fin">koiran haukunta</xt>
             <xt xml:lang="rus">гавканье собаки</xt>
          </xg>
       </mg>
@@ -93,10 +110,15 @@
          <m>
             <head/>
          </m>
-         <tg xml:lang="rus">
-            <t pos="N">рык</t>
-            <t pos="N">рявканье</t>
-            <t pos="N">рычание</t>
+         <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">huuto</t>
+            <t>huudahdus</t>
+            <t>kirkaisu</t>
+            <t>kiljahdus</t>
+            <t>parkaisu</t>
+            <t>parahdus</t>
+            <t/>
          </tg>
       </mg>
       <mg No="2">
@@ -108,6 +130,7 @@
          </tg>
          <xg>
             <x>лёкгоршӧн авӧстӧм</x>
+            <xt xml:lang="fin">räkytys</xt>
             <xt xml:lang="rus">истошный крик</xt>
          </xg>
       </mg>
@@ -141,6 +164,7 @@
          </tg>
          <xg>
             <x>агсалӧм бӧрын</x>
+            <xt xml:lang="fin">äestyksen jälkeen</xt>
             <xt xml:lang="rus">после боронования</xt>
          </xg>
       </mg>
@@ -164,6 +188,7 @@
          </tg>
          <xg>
             <x>агсасьӧм эштӧдны</x>
+            <xt xml:lang="fin">lopettaa äestys</xt>
             <xt xml:lang="rus">закончить боронование</xt>
          </xg>
       </mg>
@@ -180,6 +205,11 @@
          <m>
             <head/>
          </m>
+         <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">näkeminen</t>
+            <t>näkö</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="N">видение</t>
          </tg>
@@ -191,28 +221,34 @@
          </tg>
          <xg>
             <x>водзӧ аддзӧм</x>
+            <xt xml:lang="fin">ennakkonäkemys</xt>
             <xt xml:lang="rus">предвидение</xt>
             <xt xml:lang="rus">прозорливость</xt>
          </xg>
          <xg>
             <x>водзысь аддзӧм</x>
+            <xt xml:lang="fin">harkitsevuus</xt>
             <xt xml:lang="rus">предусмотрительность</xt>
          </xg>
          <xg>
             <x>матысь аддзӧм</x>
+            <xt xml:lang="fin">likinäköisyys</xt>
             <xt xml:lang="rus">а) близорукость</xt>
             <xt xml:lang="rus">б) узость взглядов</xt>
          </xg>
          <xg>
             <x>омӧля аддзӧмла</x>
+            <xt xml:lang="fin">huononäköisyyden vuoksi</xt>
             <xt xml:lang="rus">сослепу</xt>
          </xg>
          <xg>
             <x>бура аддзӧм</x>
+            <xt xml:lang="fin">hyvä näkyvyys</xt>
             <xt xml:lang="rus">хорошая видимость</xt>
          </xg>
          <xg>
             <x>ылысь аддзӧм</x>
+            <xt xml:lang="fin">pitkänäköisyys</xt>
             <xt xml:lang="rus">дальнозоркость</xt>
          </xg>
       </mg>
@@ -220,6 +256,11 @@
          <m>
             <head/>
          </m>
+         <tg xml:lang="fin">
+            <t pos="N">löydetty</t>
+            <t>löytö</t>
+            <t>löydös</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="N">найденное</t>
             <t pos="N">находка</t>
@@ -229,10 +270,12 @@
          </tg>
          <xg>
             <x>выль из шом места аддзӧм</x>
+            <xt xml:lang="fin">uuden kivihiiliesiintymän löytyminen</xt>
             <xt xml:lang="rus">открытие нового угольного месторождения</xt>
          </xg>
          <xg>
             <x>аддзӧм сьӧм</x>
+            <xt xml:lang="fin">rahalöytö</xt>
             <xt xml:lang="rus">найденные деньги</xt>
          </xg>
       </mg>
@@ -3422,7 +3465,7 @@
          <xg>
             <x>быдмалӧм сюри кодь</x>
             <xt xml:lang="rus">аккуратный</xt>
-            <xt xml:lang="rus" tType="literal">как намотанный на цевку уток</xt>
+            <xt tType="literal" xml:lang="rus">как намотанный на цевку уток</xt>
          </xg>
       </mg>
    </e>
@@ -4126,7 +4169,7 @@
          <xg>
             <x>кальскӧм шы бырӧмкӧд тшӧтш вошисны зарни кодзувъяс</x>
             <xt xml:lang="rus">вместе с исчезновением звяканья исчезли и искры</xt>
-            <xt xml:lang="rus" tType="literal">золотые звезды</xt>
+            <xt tType="literal" xml:lang="rus">золотые звезды</xt>
          </xg>
       </mg>
       <mg No="2">
@@ -7990,7 +8033,7 @@
          <xg>
             <x>вежӧм кодь омӧлик</x>
             <xt xml:lang="rus">худой как тень</xt>
-            <xt xml:lang="rus" tType="literal">как оборотень</xt>
+            <xt tType="literal" xml:lang="rus">как оборотень</xt>
          </xg>
       </mg>
    </e>
@@ -14569,7 +14612,7 @@
          <xg genreType="saying">
             <x>нэмтӧ коллялӧмыд абу ва вомӧн вуджӧм</x>
             <xt xml:lang="rus">век прожить — не поле перейти</xt>
-            <xt xml:lang="rus" tType="literal">не реку переплыть</xt>
+            <xt tType="literal" xml:lang="rus">не реку переплыть</xt>
          </xg>
       </mg>
       <mg No="2">
@@ -15266,7 +15309,7 @@
             <x>вит кер вундӧмыс кӧні?</x>
             <xt xml:lang="rus">где дверь?</xt>
             <xtCtn>
-               <xt xml:lang="rus" tType="literal">где пять прорубленных брёвен (в стене)</xt>
+               <xt tType="literal" xml:lang="rus">где пять прорубленных брёвен (в стене)</xt>
                <re>говорят, когда выгоняют из дома</re>
             </xtCtn>
          </xg>
@@ -18601,7 +18644,7 @@
          <xg>
             <x>чигарка гартыштӧм дыра</x>
             <xt xml:lang="rus">очень быстро</xt>
-            <xt xml:lang="rus" tType="literal">за такой период, что успеешь скрутить цигарку</xt>
+            <xt tType="literal" xml:lang="rus">за такой период, что успеешь скрутить цигарку</xt>
          </xg>
       </mg>
    </e>
@@ -19874,7 +19917,7 @@
          <xg genreType="saying">
             <x>гожӧмын кӧ коктӧ кыскалан, тӧвнас кынӧмтӧ кыскас</x>
             <xt xml:lang="rus">летний день год кормит</xt>
-            <xt xml:lang="rus" tType="literal">если летом будешь ноги волочить, зимой живот затянет</xt>
+            <xt tType="literal" xml:lang="rus">если летом будешь ноги волочить, зимой живот затянет</xt>
          </xg>
       </mg>
       <mg No="2">
@@ -23137,7 +23180,7 @@
          <xg>
             <x>крестьянскӧй гӧститӧдӧмыд ӧд абу карса</x>
             <xt xml:lang="rus">крестьянское угощение ведь небогатое</xt>
-            <xt xml:lang="rus" tType="literal">не как в городе</xt>
+            <xt tType="literal" xml:lang="rus">не как в городе</xt>
          </xg>
       </mg>
    </e>
@@ -26184,12 +26227,12 @@
          <xg genreType="saying">
             <x>донтӧм дона, да бур ёна</x>
             <xt xml:lang="rus">и дёшево, и сердито</xt>
-            <xt xml:lang="rus" tType="literal">и дёшево, и очень хорошо</xt>
+            <xt tType="literal" xml:lang="rus">и дёшево, и очень хорошо</xt>
          </xg>
          <xg genreType="saying">
             <x>донтӧм вугырнад он кый</x>
             <xt xml:lang="rus">на дешёвую удочку не поймаешь</xt>
-            <xt xml:lang="rus" tType="equivalent">на кривой не объедешь</xt>
+            <xt tType="equivalent" xml:lang="rus">на кривой не объедешь</xt>
          </xg>
       </mg>
       <mg No="2">
@@ -26206,7 +26249,7 @@
          <xg>
             <x>донтӧм вина юны</x>
             <xt xml:lang="rus">угореть</xt>
-            <xt xml:lang="rus" tType="literal">выпить дешёвое вино</xt>
+            <xt tType="literal" xml:lang="rus">выпить дешёвое вино</xt>
          </xg>
       </mg>
    </e>
@@ -27847,7 +27890,7 @@
          <xg>
             <x>эг гӧгӧрво сылысь дэльӧдӧмсӧ</x>
             <xt xml:lang="rus">я не понял, что он дразнится</xt>
-            <xt xml:lang="rus" tType="literal">я не понял его дразнения</xt>
+            <xt tType="literal" xml:lang="rus">я не понял его дразнения</xt>
          </xg>
       </mg>
    </e>
@@ -28446,13 +28489,13 @@
             <x>дӧрӧмыс висьӧ</x>
             <xt xml:lang="rus">притворяется больным</xt>
             <xt xml:lang="rus">симулирует</xt>
-            <xt xml:lang="rus" tType="literal">рубашка болеет</xt>
+            <xt tType="literal" xml:lang="rus">рубашка болеет</xt>
             <!---->
          </xg>
          <xg>
             <x>дӧрӧмыс сӧмын узьӧ</x>
             <xt xml:lang="rus">притворяется спящим</xt>
-            <xt xml:lang="rus" tType="literal">только рубашка спит</xt>
+            <xt tType="literal" xml:lang="rus">только рубашка спит</xt>
          </xg>
       </mg>
    </e>
@@ -35139,7 +35182,7 @@
          <xg genreType="proverb">
             <x>мый мам керӧ, сійӧ и йылӧм керӧ</x>
             <xt xml:lang="rus">яблоко от яблони недалеко падает</xt>
-            <xt xml:lang="rus" tType="literal">что делает мать, то и дети делают</xt>
+            <xt tType="literal" xml:lang="rus">что делает мать, то и дети делают</xt>
          </xg>
          <xg>
             <x>бес йылӧм</x>
@@ -40374,7 +40417,7 @@
          <xg>
             <x>кольмӧм тӧрӧкан кодь</x>
             <xt xml:lang="rus">как сонная муха</xt>
-            <xt xml:lang="rus" tType="literal">как угорелый таракан</xt>
+            <xt tType="literal" xml:lang="rus">как угорелый таракан</xt>
          </xg>
       </mg>
    </e>
@@ -45648,7 +45691,7 @@
          <xg>
             <x>котралӧмӧн мездысьны кызӧмысь</x>
             <xt xml:lang="rus">бегом избавиться от лишнего веса</xt>
-            <xt xml:lang="rus" tType="literal">полноты</xt>
+            <xt tType="literal" xml:lang="rus">полноты</xt>
          </xg>
       </mg>
    </e>
@@ -46437,7 +46480,7 @@
          <xg genreType="saying">
             <x>кынӧмтӧ тув йылӧ он ӧшӧд</x>
             <xt xml:lang="rus">зубы на полку не поставишь</xt>
-            <xt xml:lang="rus" tType="literal">желудок не повесишь на гвоздь</xt>
+            <xt tType="literal" xml:lang="rus">желудок не повесишь на гвоздь</xt>
          </xg>
          <xg genreType="proverb">
             <x>кынӧмыд вылын он ыждав</x>
@@ -48073,7 +48116,7 @@
          <xg>
             <x>кӧдзавлӧм уклад оз нин пузьы</x>
             <xt xml:lang="rus">что с возу упало, то пропало</xt>
-            <xt xml:lang="rus" tType="literal">остывшая сталь не приварится</xt>
+            <xt tType="literal" xml:lang="rus">остывшая сталь не приварится</xt>
          </xg>
       </mg>
    </e>
@@ -48361,7 +48404,7 @@
          <xg>
             <x>мам кӧм новлыны</x>
             <xt xml:lang="rus">ходить босиком</xt>
-            <xt xml:lang="rus" tType="literal">носить материнскую обувь</xt>
+            <xt tType="literal" xml:lang="rus">носить материнскую обувь</xt>
          </xg>
          <xg>
             <x>кӧм ни гач</x>
@@ -52362,7 +52405,7 @@
          <xg>
             <x>чери лысьӧм</x>
             <xt xml:lang="rus">объедки рыбы, рыбьи отбросы</xt>
-            <xt xml:lang="rus" tType="literal">кости и чешуя</xt>
+            <xt tType="literal" xml:lang="rus">кости и чешуя</xt>
          </xg>
       </mg>
    </e>
@@ -53545,7 +53588,7 @@
          <xg>
             <x>сылӧн уджыс джуджыд гӧра люкалӧм кодь</x>
             <xt xml:lang="rus">у него работа не имеет пользы</xt>
-            <xt xml:lang="rus" tType="literal">его работа похожа на бодание высокой горы</xt>
+            <xt tType="literal" xml:lang="rus">его работа похожа на бодание высокой горы</xt>
          </xg>
       </mg>
    </e>
@@ -54087,7 +54130,8 @@
          </tg>
          <xg>
             <x>сійӧ дась нин вӧлі водзӧс мыйкӧ виньдӧданаӧс жӧ шуны, но эз сетчы лёкӧдчӧмас</x>
-            <xt xml:lang="rus">она была готова в ответ сказать тоже что-то обидное, но не поддалась разжиганию вражды</xt>
+            <xt xml:lang="rus">она была готова в ответ сказать тоже что-то обидное, но не поддалась разжиганию
+            вражды</xt>
          </xg>
       </mg>
       <mg No="2">
@@ -54443,7 +54487,7 @@
          <xg>
             <x>лӧм ни парч</x>
             <xt xml:lang="rus">о красивом, чистом теле человека</xt>
-            <xt xml:lang="rus" tType="literal">ни коросты, ни струпьев</xt>
+            <xt tType="literal" xml:lang="rus">ни коросты, ни струпьев</xt>
          </xg>
       </mg>
    </e>
@@ -56215,7 +56259,7 @@
             <x>мисьтӧм чужӧм</x>
             <att att="abusive"/>
             <xt xml:lang="rus">противный, противная рожа</xt>
-            <xt xml:lang="rus" tType="literal">некрасивое лицо</xt>
+            <xt tType="literal" xml:lang="rus">некрасивое лицо</xt>
          </xg>
          <xg genreType="saying">
             <x>мисьтӧм нимыд абу на из ноп кыскӧм</x>
@@ -59757,7 +59801,7 @@
          <xg>
             <x>нинкӧма олӧм овлыны</x>
             <xt xml:lang="rus">бедовать</xt>
-            <xt xml:lang="rus" tType="literal">лапотную жизнь прожить</xt>
+            <xt tType="literal" xml:lang="rus">лапотную жизнь прожить</xt>
          </xg>
          <xg>
             <x>нинкӧмӧн кӧмӧдны</x>
@@ -59765,12 +59809,12 @@
                <xt xml:lang="rus">обмануть, надуть, облапошить</xt>
                <register register="colloquial"/>
             </xtCtn>
-            <xt xml:lang="rus" tType="literal">обуть в лапти</xt>
+            <xt tType="literal" xml:lang="rus">обуть в лапти</xt>
          </xg>
          <xg>
             <x>нинкӧмсянь нинӧмӧдз</x>
             <xt xml:lang="rus">остаться у разбитого корыта</xt>
-            <xt xml:lang="rus" tType="literal">от лаптей до ничего</xt>
+            <xt tType="literal" xml:lang="rus">от лаптей до ничего</xt>
          </xg>
       </mg>
    </e>
@@ -62718,12 +62762,12 @@
          <xg genreType="saying">
             <x>олӧмыд абу ва вомӧн вуджны</x>
             <xt xml:lang="rus">жизнь прожить – не поле перейти</xt>
-            <xt xml:lang="rus" tType="literal">не воду</xt>
+            <xt tType="literal" xml:lang="rus">не воду</xt>
          </xg>
          <xg genreType="saying">
             <x>олӧмыд ӧд ас саяд</x>
             <xt xml:lang="rus">человек — кузнец своего счастья</xt>
-            <xt xml:lang="rus" tType="literal">жизнь ведь за собой</xt>
+            <xt tType="literal" xml:lang="rus">жизнь ведь за собой</xt>
          </xg>
          <xg genreType="saying">
             <x>олӧмыс визув ва моз визувтӧ</x>
@@ -65198,7 +65242,7 @@
          <xg>
             <x>ӧткӧн олӧмыд абу ма панялӧм</x>
             <xt xml:lang="rus">одинокая жизнь — не сахар</xt>
-            <xt xml:lang="rus" tType="literal">не мёд хлебать</xt>
+            <xt tType="literal" xml:lang="rus">не мёд хлебать</xt>
          </xg>
          <xg>
             <x>шыд панялӧм бӧрын сёйим рок</x>
@@ -65845,7 +65889,8 @@
          </tg>
          <xg>
             <x>ки-кок пасъялӧм</x>
-            <xt xml:lang="rus">ритуальный обряд, совершаемый над безудержно плачущим ребёнком для избавления от порчи</xt>
+            <xt xml:lang="rus">ритуальный обряд, совершаемый над безудержно плачущим ребёнком для избавления от
+            порчи</xt>
          </xg>
       </mg>
    </e>
@@ -66828,12 +66873,12 @@
          <xg>
             <x>верӧс сайӧ мунӧм нылыд — пельӧм чаг</x>
             <xt xml:lang="rus">замужняя дочь — отрезанный ломоть</xt>
-            <xt xml:lang="rus" tType="literal">отколотая щепа</xt>
+            <xt tType="literal" xml:lang="rus">отколотая щепа</xt>
          </xg>
          <xg genreType="saying">
             <x>кутшӧм сюрӧс пуыс, сэтшӧм и пельӧм чагйыс</x>
             <xt xml:lang="rus">каковы родители, таковы и дети</xt>
-            <xt xml:lang="rus" tType="literal">каково дерево, таковы и щепки</xt>
+            <xt tType="literal" xml:lang="rus">каково дерево, таковы и щепки</xt>
          </xg>
       </mg>
    </e>
@@ -69595,7 +69640,7 @@
          <xg genreType="proverb">
             <x>ошкысь повзьылӧм морт сьӧд мырйысь полӧ</x>
             <xt xml:lang="rus">пуганая ворона куста боится</xt>
-            <xt xml:lang="rus" tType="literal">человек, пуганный медведем, чёрного пня боится</xt>
+            <xt tType="literal" xml:lang="rus">человек, пуганный медведем, чёрного пня боится</xt>
          </xg>
       </mg>
    </e>
@@ -75588,7 +75633,7 @@
          <xg>
             <x>кӧч моз пыльӧмӧ пырны</x>
             <xt xml:lang="rus">связать себя по рукам и ногам</xt>
-            <xt xml:lang="rus" tType="literal">попасть, как заяц, в западню</xt>
+            <xt tType="literal" xml:lang="rus">попасть, как заяц, в западню</xt>
          </xg>
       </mg>
    </e>
@@ -77351,7 +77396,7 @@
          <xg>
             <x>рака улын пӧжӧм</x>
             <xt xml:lang="rus">плакса</xt>
-            <xt xml:lang="rus" tType="literal">высижен под вороной</xt>
+            <xt tType="literal" xml:lang="rus">высижен под вороной</xt>
          </xg>
       </mg>
    </e>
@@ -84297,7 +84342,7 @@
          <xg>
             <x>йӧзтӧ серавлӧмыд абу телега мавтӧм, он сирӧссьы</x>
             <xt xml:lang="rus">заниматься высмеиванием людей — дело нехитрое</xt>
-            <xt xml:lang="rus" tType="literal">высмеивание людей — не мазанье телеги, не запачкаешься смолой</xt>
+            <xt tType="literal" xml:lang="rus">высмеивание людей — не мазанье телеги, не запачкаешься смолой</xt>
          </xg>
       </mg>
    </e>
@@ -88339,7 +88384,7 @@
          <xg genreType="proverb">
             <x>стружитӧм бӧрын черӧн оз лӧсавны</x>
             <xt xml:lang="rus">после драки кулаками не машут</xt>
-            <xt xml:lang="rus" tType="literal">после строгания топором не тешут</xt>
+            <xt tType="literal" xml:lang="rus">после строгания топором не тешут</xt>
          </xg>
       </mg>
    </e>
@@ -91984,7 +92029,7 @@
          <xg>
             <x>сімӧм грӧш оз сулав</x>
             <xt xml:lang="rus">ломаного гроша не стоит</xt>
-            <xt xml:lang="rus" tType="literal">ржавого гроша не стоит</xt>
+            <xt tType="literal" xml:lang="rus">ржавого гроша не стоит</xt>
          </xg>
       </mg>
    </e>
@@ -96513,7 +96558,7 @@
          <xg>
             <x>лунся тшыгйӧдчӧм</x>
             <xt xml:lang="rus">однодневное голодание</xt>
-            <xt xml:lang="rus" pos="A">проголодавшийся</xt>
+            <xt pos="A" xml:lang="rus">проголодавшийся</xt>
          </xg>
       </mg>
    </e>
@@ -97706,7 +97751,7 @@
          <xg>
             <x>тыӧдӧм пыш кодь</x>
             <xt xml:lang="rus">мокрый, как водяной</xt>
-            <xt xml:lang="rus" tType="literal">мокрый, как моченая конопля</xt>
+            <xt tType="literal" xml:lang="rus">мокрый, как моченая конопля</xt>
          </xg>
       </mg>
    </e>
@@ -97737,7 +97782,7 @@
          <xg genreType="proverb">
             <x>тэрмасьӧмнад кӧч моз чепӧсъян да ачыд жӧ пуӧ люкасян</x>
             <xt xml:lang="rus">поспешишь — людей насмешишь</xt>
-            <xt xml:lang="rus" tType="literal">второпях выскочишь, как заяц, и на дерево наткнёшься)</xt>
+            <xt tType="literal" xml:lang="rus">второпях выскочишь, как заяц, и на дерево наткнёшься)</xt>
          </xg>
       </mg>
    </e>
@@ -98526,7 +98571,7 @@
             <x>тӧвйӧм гут (рака)</x>
             <xt xml:lang="rus">стреляный воробей</xt>
             <xt xml:lang="rus">тёртый калач</xt>
-            <xt xml:lang="rus" tType="literal">прозимовавшая муха, ворона)</xt>
+            <xt tType="literal" xml:lang="rus">прозимовавшая муха, ворона)</xt>
          </xg>
       </mg>
    </e>
@@ -98763,7 +98808,7 @@
          <xg>
             <x>лӧз тӧдчӧм</x>
             <xt xml:lang="rus">рассвет</xt>
-            <xt xml:lang="rus" tType="literal">обозначение синевы</xt>
+            <xt tType="literal" xml:lang="rus">обозначение синевы</xt>
          </xg>
       </mg>
       <mg No="3">
@@ -102129,7 +102174,7 @@
          <xg>
             <x>чегӧм лы йитны</x>
             <xt xml:lang="rus">уговорить ласковыми словами</xt>
-            <xt xml:lang="rus" tType="literal">срастить сломанную кость</xt>
+            <xt tType="literal" xml:lang="rus">срастить сломанную кость</xt>
          </xg>
       </mg>
    </e>
@@ -107631,7 +107676,7 @@
          <xg genreType="proverb">
             <x>олӧмыд абу пелыса пыжӧн шлывгӧм</x>
             <xt xml:lang="rus">жизнь не плавание на вёсельной лодке</xt>
-            <xt xml:lang="rus" tType="equivalent">жизнь прожить — не поле перейти</xt>
+            <xt tType="equivalent" xml:lang="rus">жизнь прожить — не поле перейти</xt>
          </xg>
       </mg>
       <mg No="2">
@@ -108932,7 +108977,7 @@
          <xg>
             <x>кута, дерт, кывзыны сылысь шуӧм</x>
             <xt xml:lang="rus">буду ещё слушать его</xt>
-            <xt xml:lang="rus" tType="literal">его слова</xt>
+            <xt tType="literal" xml:lang="rus">его слова</xt>
          </xg>
       </mg>
       <mg No="3">
@@ -112178,7 +112223,7 @@
          <xg genreType="proverb">
             <x>юалӧмысь вомад оз кучкыны</x>
             <xt xml:lang="rus">спрос не беда</xt>
-            <xt xml:lang="rus" tType="literal">за спрос по рту не ударят</xt>
+            <xt tType="literal" xml:lang="rus">за спрос по рту не ударят</xt>
          </xg>
       </mg>
    </e>
@@ -112321,7 +112366,7 @@
          <xg>
             <x>югдӧдӧм ваяс тіянлы бур</x>
             <xt xml:lang="rus">просвещение принесёт вам счастье</xt>
-            <xt xml:lang="rus" tType="literal">добро</xt>
+            <xt tType="literal" xml:lang="rus">добро</xt>
          </xg>
       </mg>
    </e>
@@ -112923,7 +112968,7 @@
          <xg>
             <x>юрбитӧм юр ыстыны</x>
             <xt xml:lang="rus">послать поклон, послать привет</xt>
-            <xt xml:lang="rus" tType="literal">послать поклонную голову</xt>
+            <xt tType="literal" xml:lang="rus">послать поклонную голову</xt>
          </xg>
       </mg>
    </e>
@@ -114807,9 +114852,9 @@
          </xg>
       </mg>
       <mg No="2">
-        <domain domainType="TEXT"/>
-        <tg xml:lang="rus">
-          <t pos="N">набивка</t>
+         <domain domainType="TEXT"/>
+         <tg xml:lang="rus">
+            <t pos="N">набивка</t>
             <t pos="A">набивной</t>
          </tg>
          <xg>
@@ -115379,9 +115424,9 @@
          </xg>
       </mg>
       <mg No="8">
-        <domain>эл.</domain>
-        <tg xml:lang="rus">
-          <t>замыкание</t>
+         <domain>эл.</domain>
+         <tg xml:lang="rus">
+            <t>замыкание</t>
          </tg>
          <xg>
             <x>кык провод ӧтлаасьӧм</x>
