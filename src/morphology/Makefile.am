@@ -107,9 +107,11 @@ GT_XML_SRCS=\
 		 stems/verbs-A2M.xml                                  \
 		 stems/verbs-N2END.xml
 
-# Define any additional sources here (compiled on their own, or just included
-# in the distro):
+# Define any additional sources here (compiled on their own):
 GT_LOCAL_SRCS=
+
+# Define here any additional sources just included in the distro:
+GT_DISTRO_SRCS=
 
 ### BEGIN: Local processing: ###
 
