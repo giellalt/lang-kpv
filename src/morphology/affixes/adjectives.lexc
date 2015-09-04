@@ -56,9 +56,18 @@ LEXICON A-PRED ! ӧбиднӧ
 
 
 LEXICON A_
++A: PredMonLex ;
 +A: AdjCompar ;
-+A+Der/лун:%>лун Noun1 ; !Derivational suffix for A-N
++A+Der/лун:%>лун N_ ; !Derivational suffix for A-N
 +A+Der/а:%>а ADV_ ; ! Derivation for adjective-to-adverb
+
+LEXICON A_PARAGOGIC-В/Л !!= * @CODE@ юмов:юмо юмолӧсь
++A:в K ; !! Singular predicative 
++A+Pred+Pl:л%>ӧсь K ; ! Plural predicative.
++A:в AdjCompar ;
++A+Der/лун:в%>лун N_ ; !Derivational suffix for A-N
+
+
 
 
 ! vim: set ft=xfst-lexc:
