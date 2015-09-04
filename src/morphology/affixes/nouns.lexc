@@ -63,6 +63,79 @@ LEXICON Noun1-JM ! понйыс, понмыс
 +N+Sg:й CASEPOSSLEX ;
 +N+Pl:%>ъяс CASEPOSSLEX ;
 
+!! subsequent Cns vs Vow
+LEXICON N_PARAGOGIC-В/Л !!= * @CODE@ ныв:ны нылыс
++N+Cmp:в R ;
++N+Sg:в CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
++N+Sg:л CASEPOSSLEX-AFTERDERIVATION_VOW ;
++N+Pl:в%>ъяс CASEPOSSLEX ;
+
+LEXICON N_PARAGOGIC-Й !!= * @CODE@ ав:ав авйыс
++N+Cmp: R ;
++N+Sg: CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
++N+Sg:й CASEPOSSLEX-AFTERDERIVATION_VOW ;
++N+Pl:%>ъяс CASEPOSSLEX ;
+
+LEXICON N_PARAGOGIC-К !!= * @CODE@ кытш:кытш кытшкыс
++N+Cmp: R ;
++N+Sg: CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
++N+Sg:к CASEPOSSLEX-AFTERDERIVATION_VOW ;
++N+Pl:%>ъяс CASEPOSSLEX ;
+
+LEXICON N_PARAGOGIC-М !!= * @CODE@ зон:зон зонмыс
++N+Cmp: R ;
++N+Sg: CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
++N+Sg:м CASEPOSSLEX-AFTERDERIVATION_VOW ;
++N+Pl:%>ъяс CASEPOSSLEX ;
+
+LEXICON N_PARAGOGIC-Т !!= * @CODE@ зеп:зеп зептыс
++N+Cmp: R ;
++N+Sg: CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
++N+Sg:т CASEPOSSLEX-AFTERDERIVATION_VOW ;
++N+Pl:%>ъяс CASEPOSSLEX ;
+
+LEXICON N_END-IN-Й !!= * @CODE@ абай:аба абайыс
++N+Cmp:й R ;
++N+Sg:й CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
++N+Sg: CASEPOSSLEX-AFTERDERIVATION_Я ;
++N+Sg:й CASEPOSSLEX-AFTERDERIVATION_Ӧ ;
++N+Pl:й%>яс CASEPOSSLEX ;
+
+LEXICON N_END-IN-ДДЬ !!= * @CODE@ автомобиль:автомобил автомобильыс
++N+Cmp:ь R ;
++N+Sg:ь CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
++N+Sg:д CASEPOSSLEX-AFTERDERIVATION_Я ;
++N+Sg:дь CASEPOSSLEX-AFTERDERIVATION_Ӧ ;
++N+Pl:ьяс CASEPOSSLEX ; !!= * @CODE@ 2015-09-04 change to ь%>яс after xfst rules are removed
+
+LEXICON N_END-IN-ДДЗ !!= * @CODE@ автомобиль:автомобил автомобильыс
++N+Cmp:з R ;
++N+Sg:з CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
++N+Sg:дз CASEPOSSLEX-AFTERDERIVATION_VOW ;
++N+Pl:з%>ьяс CASEPOSSLEX ;
+
+LEXICON N_END-IN-ЛЛЬ !!= * @CODE@ моль:мол молльӧ
++N+Cmp:ь R ;
++N+Sg:ь CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
++N+Sg:л CASEPOSSLEX-AFTERDERIVATION_Я ;
++N+Sg:ль CASEPOSSLEX-AFTERDERIVATION_Ӧ ;
++N+Pl:%>ьяс CASEPOSSLEX ; !! 2015-09-04 change to ь%>яс after xfst rules are removed
+
+LEXICON N_END-IN-Ч/ДЗ !!= * @CODE@ автомобиль:автомобил автомобильыс
++N+Cmp: R ;
++N+Sg: CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
++N+Sg: CASEPOSSLEX-AFTERDERIVATION_VOW ;
++N+Pl:%>ьяс CASEPOSSLEX ;
+
+LEXICON N_END-IN-Ь !!= * @CODE@ автомобиль:автомобил автомобильыс
++N+Cmp:ь R ;
++N+Sg:ь CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
++N+Sg: CASEPOSSLEX-AFTERDERIVATION_Я ;
++N+Sg:ь CASEPOSSLEX-AFTERDERIVATION_Ӧ ;
++N+Pl:%>ьяс CASEPOSSLEX ; !! 2015-09-04 change to ь%>яс after xfst rules are removed
+
+
+
 LEXICON NounLA ! ӧтила
 N_ ; ! Difference betw N_ and NounLA still to be documented.
 
@@ -117,25 +190,22 @@ LEXICON CASEPOSSLEX !!≈ * __@CODE@__
 CASEPOSSLEX-afterDerivation ;
 
 LEXICON CASEPOSSLEX-afterDerivation
+ CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
+  CASEPOSSLEX-AFTERDERIVATION_VOW ;
+
+LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END
 +Nom: K ;
 !+ZeroAcc: K ;
 +Gen:%>лӧн K ;
 +Abl:%>лысь K ;
 +Dat:%>лы K ;
-+Acc:%>ӧс K ;
-+Ins:%>ӧн K ;
 +Com:%>кӧд K ;
 +Car:%>тӧг K ;
 +Cns:%>ла K ;
 +Comp:%>ся K ;
-+Ine:%>ын SPAT-COMPARATIVE ;
-+Ela:%>ысь SPAT-COMPARATIVE ;
-+Ill:%>ӧ IllCompar ;
 +Apr:%>лань SPAT-COMPARATIVE ;
 +Egr:%>сянь SPAT-COMPARATIVE ;
-+Prl:%>ӧд K ;
 +Tra:%>ті K ;
-+Ter:%>ӧдз K ;
 +Apr+Ine:%>ланьын SPAT-COMPARATIVE ;  ! New cases in last grammar
 +Apr+Ela:%>ланьысь SPAT-COMPARATIVE ;  !
 +Apr+Ill:%>ланьӧ IllCompar ; !
@@ -143,65 +213,26 @@ LEXICON CASEPOSSLEX-afterDerivation
 +Apr+Prl:%>ланьӧд K ; !
 +Apr+Tra:%>ланьті K ; !
 +Apr+Ter:%>ланьӧдз K ; ! Tähän asti
-
-!! 1SG
-+PxSg1+Nom:%>ӧй K ;
-+PxSg1+Gen:%>ӧйлӧн K ;
-+PxSg1+Abl:%>ӧйлысь K ;
-+PxSg1+Dat:%>ӧйлы K ;
-+PxSg1+Acc:%>ӧс K ;
-
+!! SG1
 +Ins+PxSg1:%>нам K ;
-
-+PxSg1+Com:%>ӧйкӧд K ;
-+PxSg1+Car:%>ӧйтӧг K ;
-+PxSg1+Cns:%>ӧйла K ;
-+PxSg1+Comp:%>ӧйся K ;
-
-+Ine+PxSg1:%>ам SPAT-COMPARATIVE ;
 +Ela+PxSg1:%>сьым SPAT-COMPARATIVE ;
-+Ill+PxSg1:%>ам IllCompar ; !
-
-+PxSg1+Apr:%>ӧйлань SPAT-COMPARATIVE ;
-+PxSg1+Egr:%>ӧйсянь SPAT-COMPARATIVE ;
-
-+Prl+PxSg1:%>ӧдым K ;
 +Tra+PxSg1:%>тіым K ;
-+Ter+PxSg1:%>ӧдзым K ;
 +Apr+Ine+PxSg1:%>ланям SPAT-COMPARATIVE ;
 +Apr+Ela+PxSg1:%>ланьсьым SPAT-COMPARATIVE ;
 +Apr+Ill+PxSg1:%>ланям IllCompar ; !
-
-+PxSg1+Apr+Egr:%>ӧйланьсянь SPAT-COMPARATIVE ;
-
 +Apr+Prl+PxSg1:%>ланьӧдым K ;
 +Apr+Tra+PxSg1:%>ланьтіым K ;
 +Apr+Ter+PxSg1:%>ланьӧдзым K ;
 
-!! 2SG
-+PxSg2+Nom:%>ыд K ;
-+PxSg2+Gen:%>ыдлӧн K ;
-+PxSg2+Abl:%>ыдлысь K ;
-+PxSg2+Dat:%>ыдлы K ;
-+PxSg2+Acc2:%>тӧ K ;
-
+!! SG2
 +Ins+PxSg2:%>над K ;
-
-+PxSg2+Com:%>ыдкӧд K ;
-
 +Car+PxSg2:%>тӧгыд K ;
-
-+PxSg2+Cns:%>ыдла K ;
-
 +Comp+PxSg2:%>сяыд K ;
-+Ine+PxSg2:%>ад SPAT-COMPARATIVE ;
 +Ela+PxSg2:%>сьыд SPAT-COMPARATIVE ;
-+Ill+PxSg2:%>ад IllCompar ; !
 +Apr+PxSg2:%>ланьыд SPAT-COMPARATIVE ;
 +Egr+PxSg2:%>сяньыд SPAT-COMPARATIVE ;
-+Prl+PxSg2:%>ӧдыд K ;
 +Tra+PxSg2:%>тіыд K ;
-+Ter+PxSg2:%>ӧдзыд K ;
++PxSg2+Acc2:%>тӧ K ;
 +Apr+Ine+PxSg2:%>ланяд SPAT-COMPARATIVE ;
 +Apr+Ela+PxSg2:%>ланьсьыд SPAT-COMPARATIVE ;
 +Apr+Ill+PxSg2:%>ланяд IllCompar ; !
@@ -210,31 +241,15 @@ LEXICON CASEPOSSLEX-afterDerivation
 +Apr+Tra+PxSg2:%>ланьтіыд K ;
 +Apr+Ter+PxSg2:%>ланьӧдзыд K ;
 
-
-!! 3SG
-+PxSg3+Nom:%>ыс K ;
-+PxSg3+Gen:%>ыслӧн K ;
-+PxSg3+Abl:%>ыслысь K ;
-+PxSg3+Dat:%>ыслы K ;
+!! SG3
 +PxSg3+Acc3:%>сӧ K ;
-
 +Ins+PxSg3:%>нас K ;
-
-+PxSg3+Com:%>ыскӧд K ;
-
 +Car+PxSg3:%>тӧгыс K ;
-
-+PxSg3+Cns:%>ысла K ;
-
 +Comp+PxSg3:%>сяыс K ;
-+Ine+PxSg3:%>ас SPAT-COMPARATIVE ;
 +Ela+PxSg3:%>сьыс SPAT-COMPARATIVE ;
-+Ill+PxSg3:%>ас IllCompar ; !
 +Apr+PxSg3:%>ланьыс SPAT-COMPARATIVE ;
 +Egr+PxSg3:%>сяньыс SPAT-COMPARATIVE ;
-+Prl+PxSg3:%>ӧдыс K ;
 +Tra+PxSg3:%>тіыс K ;
-+Ter+PxSg3:%>ӧдзыс K ;
 +Apr+Ine+PxSg3:%>ланяс SPAT-COMPARATIVE ;
 +Apr+Ela+PxSg3:%>ланьсьыс SPAT-COMPARATIVE ;
 +Apr+Ill+PxSg3:%>ланяс IllCompar ; !
@@ -243,35 +258,25 @@ LEXICON CASEPOSSLEX-afterDerivation
 +Apr+Tra+PxSg3:%>ланьтіыс K ;
 +Apr+Ter+PxSg3:%>ланьӧдзыc K ;
 
-
-
-!! 1PL
+!! PL1
 +PxPl1+Nom:%>ным K ;
 +PxPl1+Gen:%>нымлӧн K ;
 +PxPl1+Abl:%>нымлысь K ;
 +PxPl1+Dat:%>нымлы K ;
 +PxPl1+Acc:%>нымӧс K ;
-
 +Ins+PxPl1:%>наным K ;
-
 +PxPl1+Com:%>нымкӧд K ;
-
 +Car+PxPl1:%>тӧгным K ;
 +PxPl1+Car:%>нымтӧг K ;
-
 +PxPl1+Cns:%>нымла K ;
-
 +Comp+PxPl1:%>сяным K ;
-+Ine+PxPl1:%>аным SPAT-COMPARATIVE ;
 +Ela+PxPl1:%>сьыным SPAT-COMPARATIVE ;
-+Ill+PxPl1:%>аным IllCompar ; !
+
 +Apr+PxPl1:%>ланьным SPAT-COMPARATIVE ;
 +PxPl1+Apr:%>нымлань SPAT-COMPARATIVE ;
 +Egr+PxPl1:%>сяньным SPAT-COMPARATIVE ; ! _ставсяньным_
 +PxPl1+Egr:%>нымсянь SPAT-COMPARATIVE ; ! _ставнымсянь_
-+Prl+PxPl1:%>ӧдным K ;
 +Tra+PxPl1:%>тіным K ;
-+Ter+PxPl1:%>ӧдзным K ;
 +Apr+Ine+PxPl1:%>ланяным SPAT-COMPARATIVE ;
 +Apr+Ela+PxPl1:%>ланьсьыным SPAT-COMPARATIVE ;
 +Apr+Ill+PxPl1:%>ланяным IllCompar ; !
@@ -280,31 +285,22 @@ LEXICON CASEPOSSLEX-afterDerivation
 +Apr+Tra+PxPl1:%>ланьтіным K ;
 +Apr+Ter+PxPl1:%>ланьӧдзным K ;
 
-!! 2PL
+!! PL2
 +PxPl2+Nom:%>ныд K ;
 +PxPl2+Gen:%>ныдлӧн K ;
 +PxPl2+Abl:%>ныдлысь K ;
 +PxPl2+Dat:%>ныдлы K ;
 +PxPl2+Acc2:%>нытӧ K ;
-
 +Ins+PxPl2:%>наныд K ;
-
 +PxPl2+Com:%>ныдкӧд K ;
-
 +Car+PxPl2:%>тӧгныд K ;
-
 +PxPl2+Cns:%>ныдла K ;
-
 +Comp+PxPl2:%>сяныд K ;
-+Ine+PxPl2:%>аныд SPAT-COMPARATIVE ;
 +Ela+PxPl2:%>сьыныд SPAT-COMPARATIVE ;
-+Ill+PxPl2:%>аныд IllCompar ; !
 +PxPl2+Apr:%>ныдлань SPAT-COMPARATIVE ;
 +Egr+PxPl2:%>сяньныд SPAT-COMPARATIVE ;
 +PxPl2+Egr:%>ныдсянь SPAT-COMPARATIVE ;
-+Prl+PxPl2:%>ӧдныд K ;
 +Tra+PxPl2:%>тіныд K ;
-+Ter+PxPl2:%>ӧдзныд K ;
 +Apr+Ine+PxPl2:%>ланяныд SPAT-COMPARATIVE ;
 +Apr+Ela+PxPl2:%>ланьсьыныд SPAT-COMPARATIVE ;
 +Apr+Ill+PxPl2:%>ланяныд IllCompar ; !
@@ -313,32 +309,23 @@ LEXICON CASEPOSSLEX-afterDerivation
 +Apr+Tra+PxPl2:%>ланьтіныд K ;
 +Apr+Ter+PxPl2:%>ланьӧдзныд K ;
 
-!! 3PL
+!! PL3
 +PxPl3+Nom:%>ныс K ;
 +PxPl3+Gen:%>ныслӧн K ;
 +PxPl3+Abl:%>ныслысь K ;
 +PxPl3+Dat:%>ныслы K ;
 +PxPl3+Acc3:%>нысӧ K ;
-
 +Ins+PxPl3:%>наныс K ;
-
 +PxPl3+Com:%>ныскӧд K ;
-
 +Car+PxPl3:%>тӧгныс K ;
-
 +PxPl3+Cns:%>нысла K ;
-
 +Comp+PxPl3:%>сяныс K ;
-+Ine+PxPl3:%>аныс SPAT-COMPARATIVE ;
 +Ela+PxPl3:%>сьыныс SPAT-COMPARATIVE ;
-+Ill+PxPl3:%>аныс IllCompar ; !
 +PxPl3+Apr:%>ныслань SPAT-COMPARATIVE ;
 +Apr+PxPl3:%>ланьныс SPAT-COMPARATIVE ;
 +Egr+PxPl3:%>сяньныс SPAT-COMPARATIVE ;
 +PxPl3+Egr:%>ныссянь SPAT-COMPARATIVE ;
-+Prl+PxPl3:%>ӧдныс K ;
 +Tra+PxPl3:%>тіныс K ;
-+Ter+PxPl3:%>ӧдзныс K ;
 +Apr+Ine+PxPl3:%>ланяныс SPAT-COMPARATIVE ;
 +Apr+Ela+PxPl3:%>ланьсьыныс SPAT-COMPARATIVE ;
 +Apr+Ill+PxPl3:%>ланяныс IllCompar ; !
@@ -346,6 +333,109 @@ LEXICON CASEPOSSLEX-afterDerivation
 +Apr+Prl+PxPl3:%>ланьӧдныс K ;
 +Apr+Tra+PxPl3:%>ланьтіныс K ;
 +Apr+Ter+PxPl3:%>ланьӧдзныс K ;
+
+LEXICON CASEPOSSLEX-AFTERDERIVATION_VOW
+ CASEPOSSLEX-AFTERDERIVATION_А ;
+ CASEPOSSLEX-AFTERDERIVATION_Ӧ ;
+
+LEXICON CASEPOSSLEX-AFTERDERIVATION_А
+!! SG1
++Ine+PxSg1:%>ам SPAT-COMPARATIVE ;
++Ill+PxSg1:%>ам IllCompar ; !
+!! SG2
++Ine+PxSg2:%>ад SPAT-COMPARATIVE ;
++Ill+PxSg2:%>ад IllCompar ; !
+!! SG3
++Ine+PxSg3:%>ас SPAT-COMPARATIVE ;
++Ill+PxSg3:%>ас IllCompar ; !
+!! PL1
++Ine+PxPl1:%>аным SPAT-COMPARATIVE ;
++Ill+PxPl1:%>аным IllCompar ; !
+!! PL2
++Ine+PxPl2:%>аныд SPAT-COMPARATIVE ;
++Ill+PxPl2:%>аныд IllCompar ; !
+!! PL3
++Ine+PxPl3:%>аныс SPAT-COMPARATIVE ;
++Ill+PxPl3:%>аныс IllCompar ; !
+
+LEXICON CASEPOSSLEX-AFTERDERIVATION_Я
+!! SG1
++Ine+PxSg1:%>ям SPAT-COMPARATIVE ;
++Ill+PxSg1:%>ям IllCompar ; !
+!! SG2
++Ine+PxSg2:%>яд SPAT-COMPARATIVE ;
++Ill+PxSg2:%>яд IllCompar ; !
+!! SG3
++Ine+PxSg3:%>яс SPAT-COMPARATIVE ;
++Ill+PxSg3:%>яс IllCompar ; !
+!! PL1
++Ine+PxPl1:%>яным SPAT-COMPARATIVE ;
++Ill+PxPl1:%>яным IllCompar ; !
+!! PL2
++Ine+PxPl2:%>яныд SPAT-COMPARATIVE ;
++Ill+PxPl2:%>яныд IllCompar ; !
+!! PL3
++Ine+PxPl3:%>яныс SPAT-COMPARATIVE ;
++Ill+PxPl3:%>яныс IllCompar ; !
+
+
+LEXICON CASEPOSSLEX-AFTERDERIVATION_Ӧ
++Acc:%>ӧс K ;
++Ins:%>ӧн K ;
++Ine:%>ын SPAT-COMPARATIVE ;
++Ela:%>ысь SPAT-COMPARATIVE ;
++Ill:%>ӧ IllCompar ;
++Prl:%>ӧд K ;
++Ter:%>ӧдз K ;
+
+!! SG1
++PxSg1+Nom:%>ӧй K ;
++PxSg1+Gen:%>ӧйлӧн K ;
++PxSg1+Abl:%>ӧйлысь K ;
++PxSg1+Dat:%>ӧйлы K ;
++PxSg1+Acc:%>ӧс K ;
++PxSg1+Com:%>ӧйкӧд K ;
++PxSg1+Car:%>ӧйтӧг K ;
++PxSg1+Cns:%>ӧйла K ;
++PxSg1+Comp:%>ӧйся K ;
++PxSg1+Apr:%>ӧйлань SPAT-COMPARATIVE ;
++PxSg1+Egr:%>ӧйсянь SPAT-COMPARATIVE ;
++Prl+PxSg1:%>ӧдым K ;
++Ter+PxSg1:%>ӧдзым K ;
++PxSg1+Apr+Egr:%>ӧйланьсянь SPAT-COMPARATIVE ;
+
+!! SG2
++PxSg2+Nom:%>ыд K ;
++PxSg2+Gen:%>ыдлӧн K ;
++PxSg2+Abl:%>ыдлысь K ;
++PxSg2+Dat:%>ыдлы K ;
++PxSg2+Com:%>ыдкӧд K ;
++PxSg2+Cns:%>ыдла K ;
++Prl+PxSg2:%>ӧдыд K ;
++Ter+PxSg2:%>ӧдзыд K ;
+
+!! SG3
++PxSg3+Nom:%>ыс K ;
++PxSg3+Gen:%>ыслӧн K ;
++PxSg3+Abl:%>ыслысь K ;
++PxSg3+Dat:%>ыслы K ;
++PxSg3+Com:%>ыскӧд K ;
++PxSg3+Cns:%>ысла K ;
++Prl+PxSg3:%>ӧдыс K ;
++Ter+PxSg3:%>ӧдзыс K ;
+
+!! PL1
++Prl+PxPl1:%>ӧдным K ;
++Ter+PxPl1:%>ӧдзным K ;
+
+!! PL2
++Prl+PxPl2:%>ӧдныд K ;
++Ter+PxPl2:%>ӧдзныд K ;
+
+!! PL3
++Prl+PxPl3:%>ӧдныс K ;
++Ter+PxPl3:%>ӧдзныс K ;
+
 
 !! !!Case
 

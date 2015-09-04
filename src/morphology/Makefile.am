@@ -26,6 +26,7 @@ GT_LEXC_SRCS_L1_L2=\
 		 stems/punctuation.lexc     \
 		 stems/adjectives_newwords.lexc              \
 		 stems/adjectives-russian-like_newwords.lexc \
+		 stems/adverbs_newwords.lexc              \
 		 stems/propernouns_newwords.lexc             \
 		 stems/nouns_newwords.lexc  \
 		 stems/verbs_newwords.lexc  \
