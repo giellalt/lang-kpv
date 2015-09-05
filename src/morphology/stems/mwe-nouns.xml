@@ -17,17 +17,17 @@
 <e exclude="fst"> <lg> <l pos="N" type="Prop">Отечественнӧй война</l> <stg> <st Contlex="N_">Отечественнӧй война</st> </stg> </lg> <mg> <defNative/> <tg xml:lang="eng"> <t>the Great Patriotic War</t> <t>World War II</t> </tg> <tg xml:lang="fin"> <t>isänmaallinen sota</t> </tg> <tg> <t/> </tg> </mg> </e>
 <e exclude="fst"> <lg> <l pos="N" type="Prop">Печать керка</l> <stg> <st Contlex="N_">Печать керка</st> </stg> </lg> <mg> <defNative/> <tg xml:lang="eng"> <t/> </tg> <tg xml:lang="fin"> <t>(kirja)painotalo</t> </tg> <tg> <t/> </tg> </mg> </e>
 <e exclude="fst"> <lg> <l pos="N" type="Prop">Полярнӧй кытш</l> <stg> <st Contlex="N_">Полярнӧй кытш</st> </stg> </lg> <mg> <defNative/> <tg> <t/> </tg> </mg> </e>
-<e> <lg> <l pos="N">Римса Папа</l> <stg> <st Contlex="Noun1">Римса Папа</st> </stg> </lg> <mg> <defNative/> <tg xml:lang="eng"> <t>The Pope in Rome</t> </tg> <tg xml:lang="fin"> <t>Rooman paavi</t> </tg> </mg> </e>
-<e exclude="fst"> <lg> <l pos="N">Россияса Правительство</l> <stg> <st Contlex="Noun1">Россияса Правительство</st> </stg> </lg> <mg> <defNative/> <tg xml:lang="eng"> <t/> </tg> <tg xml:lang="fin"> <t>Venäjän hallitus</t> </tg> </mg> </e>
+<e exclude="fst"> <lg> <l pos="N">Римса Папа</l> <stg> <st Contlex="N_">Римса Папа</st> </stg> </lg> <mg> <defNative/> <tg xml:lang="eng"> <t>The Pope in Rome</t> </tg> <tg xml:lang="fin"> <t>Rooman paavi</t> </tg> </mg> </e>
+<e exclude="fst"> <lg> <l pos="N">Россияса Правительство</l> <stg> <st Contlex="N_">Россияса Правительство</st> </stg> </lg> <mg> <defNative/> <tg xml:lang="eng"> <t/> </tg> <tg xml:lang="fin"> <t>Venäjän hallitus</t> </tg> </mg> </e>
 <e exclude="fst"> <lg> <l pos="N" type="Prop">Россияса Правительство</l> <stg> <st Contlex="N_">Россияса Правительство</st> </stg> </lg> <mg> <defNative/> <tg> <t/> </tg> </mg> </e>
 <e exclude="fst"> <lg> <l pos="N" type="Prop">Скандинавияса кӧдж</l> <stg> <st Contlex="N_">Скандинавияса кӧдж</st> </stg> </lg> <mg> <defNative/> <tg> <t/> </tg> </mg> </e>
-<e> <lg> <l pos="N">Скандинавияса муяс</l> <stg> <st Contlex="Noun1">Скандинавияса муяс</st> </stg> </lg> <mg> <m> <head> <domain domainType="POLIT"/> </head> </m> <tg xml:lang="eng"> <t>Scandinavian countries</t> </tg> <tg xml:lang="fin"> <t>skandinaviset maat</t> </tg> </mg> </e>
+<e exclude="fst"> <lg> <l pos="N">Скандинавияса муяс</l> <stg> <st Contlex="N_">Скандинавияса муяс</st> </stg> </lg> <mg> <m> <head> <domain domainType="POLIT"/> </head> </m> <tg xml:lang="eng"> <t>Scandinavian countries</t> </tg> <tg xml:lang="fin"> <t>skandinaviset maat</t> </tg> </mg> </e>
 <e exclude="fst"> <lg> <l pos="N" type="Prop">Скандинавияса муяс</l> <stg> <st Contlex="NounPL">Скандинавияса муяс</st> </stg> </lg> <mg> <defNative/> <tg> <t/> </tg> </mg> </e>
    <e exclude="fst">
       <lg>
-         <l>сёрниттӧмъяслы_школа</l>
+         <l>сёрниттӧмъяслы школа</l>
          <stg>
-            <st Contlex="">сёрниттӧмъяслы_школа</st>
+            <st Contlex="">сёрниттӧмъяслы школа</st>
          </stg>
       </lg>
       <pos/>
@@ -84,7 +84,7 @@
       <lg>
          <l pos="Prop">куима кодзув</l>
          <stg>
-            <st Contlex="Noun1">куима кодзул</st>
+            <st Contlex="N_">куима кодзул</st>
          </stg>
       </lg>
       <pos>PROP-INANIM</pos>
@@ -99,7 +99,7 @@
       <lg>
          <l pos="N">пӧрысь пӧч</l>
          <stg>
-            <st Contlex="Noun1">пӧрысь пӧч</st>
+            <st Contlex="N_">пӧрысь пӧч</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -116,7 +116,7 @@
       <lg>
          <l pos="N">пӧчӧн шуысь</l>
          <stg>
-            <st Contlex="Noun1">пӧчӧн шуысь</st>
+            <st Contlex="N_">пӧчӧн шуысь</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -129,4 +129,191 @@
          </tg>
       </mg>
    </e>
+  <e exclude="fst">
+    <lg>
+      <l pos="N">кар берд</l>
+      <stg>
+        <st Contlex="N_">кар берд</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="N">suburbs of a town</t>
+
+        <t pos="N">outskirts</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">laitakaupunki</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">кар вежӧдӧм</l>
+      <stg>
+        <st Contlex="N_">кар вежӧдӧм</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="N">planting of trees and shrubs in town</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t/>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">кар стрӧитан сӧвет</l>
+      <stg>
+        <st Contlex="N_">кар стрӧитан сӧвет</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t/>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">kaupungin rakennusneuvosto??</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">кар сӧвет</l>
+      <stg>
+        <st Contlex="N_">кар сӧвет</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="N">city soviet</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">kaupunkineuvosto</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">кар шӧр</l>
+      <stg>
+        <st Contlex="N_">кар шӧр</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="eng">
+        <t pos="N">city center</t>
+
+        <t pos="N">downtown</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">keskusta</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">карандаш из</l>
+      <stg>
+        <st Contlex="N_PARAGOGIC-Й">карандаш из</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head>
+          <field fieldType="MIN"/>
+        </head>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N">graphite</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">grafiitti</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">Америкаса Ӧтувтӧм Штатъяс</l>
+      <stg>
+        <st Contlex="N_">Америкаса Ӧтувтӧм Штатъяс</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <semRel lemmaID="Америкаса Ӧтувтчӧм Штатъяс" semRelType="see"/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N">United States of America</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">Amerikan Yhdysvallat</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="N">Полярнӧй кытш</l>
+      <stg>
+        <st Contlex="N_PARAGOGIC-К">Полярнӧй кытш</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <semRel lemmaID="Войвывса кытш" semRelType="confer"/>
+
+        <semRel lemmaID="Лунвывса кытш" semRelType="confer"/>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="N">Polar Circle</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="N">napapiiri</t>
+      </tg>
+    </mg>
+  </e>
+
+
 </r>
