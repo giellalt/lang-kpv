@@ -59,54 +59,55 @@ GT_LEXC_L2_SRCS=\
 
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=\
-		 $(srcdir)/stems/adjectives.lexc                         \
-		 $(srcdir)/stems/adjectives-russian-like.lexc            \
-		 $(srcdir)/stems/adpositions.lexc                        \
-		 $(srcdir)/stems/adverbs.lexc                            \
-		 $(srcdir)/stems/conjunctors.lexc                        \
-		 $(srcdir)/stems/descriptives.lexc                       \
-		 $(srcdir)/stems/gerunds.lexc                            \
-		 $(srcdir)/stems/interjections.lexc                      \
-		 $(srcdir)/stems/nouns-deverbal.lexc                     \
-		 $(srcdir)/stems/nouns.lexc                              \
-		 $(srcdir)/stems/nouns-russian-homographs.lexc           \
-		 $(srcdir)/stems/particles.lexc                          \
-		 $(srcdir)/stems/pronouns.lexc                           \
-		 $(srcdir)/stems/propernouns-malenames-cyrillic.lexc     \
-		 $(srcdir)/stems/propernouns-malenames-russian-derivable.lexc    \
-		 $(srcdir)/stems/propernouns-malesurnames-cyrillic.lexc  \
-		 $(srcdir)/stems/propernouns-malesurnames-russian-derivable.lexc \
-		 $(srcdir)/stems/propernouns-toponyms-Russian.lexc       \
-		 $(srcdir)/stems/propernouns.lexc                        \
-		 $(srcdir)/stems/quantifiers.lexc                        \
-		 $(srcdir)/stems/verbs-A2M.lexc                          \
-		 $(srcdir)/stems/verbs-N2END.lexc
+		generated_files/urj-Cyrl-propernouns.lexc \
+		$(srcdir)/stems/adjectives.lexc                         \
+		$(srcdir)/stems/adjectives-russian-like.lexc            \
+		$(srcdir)/stems/adpositions.lexc                        \
+		$(srcdir)/stems/adverbs.lexc                            \
+		$(srcdir)/stems/conjunctors.lexc                        \
+		$(srcdir)/stems/descriptives.lexc                       \
+		$(srcdir)/stems/gerunds.lexc                            \
+		$(srcdir)/stems/interjections.lexc                      \
+		$(srcdir)/stems/nouns-deverbal.lexc                     \
+		$(srcdir)/stems/nouns.lexc                              \
+		$(srcdir)/stems/nouns-russian-homographs.lexc           \
+		$(srcdir)/stems/particles.lexc                          \
+		$(srcdir)/stems/pronouns.lexc                           \
+		$(srcdir)/stems/propernouns-malenames-cyrillic.lexc     \
+		$(srcdir)/stems/propernouns-malenames-russian-derivable.lexc    \
+		$(srcdir)/stems/propernouns-malesurnames-cyrillic.lexc  \
+		$(srcdir)/stems/propernouns-malesurnames-russian-derivable.lexc \
+		$(srcdir)/stems/propernouns-toponyms-Russian.lexc       \
+		$(srcdir)/stems/propernouns.lexc                        \
+		$(srcdir)/stems/quantifiers.lexc                        \
+		$(srcdir)/stems/verbs-A2M.lexc                          \
+		$(srcdir)/stems/verbs-N2END.lexc
 
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
-		 stems/adjectives.xml                              \
-		 stems/adjectives-russian-like.xml                  \
-		 stems/adpositions.xml                              \
-		 stems/adverbs.xml                                    \
-		 stems/conjunctors.xml                                \
-		 stems/descriptives.xml                               \
-		 stems/gerunds.xml                                    \
-		 stems/interjections.xml                              \
-		 stems/nouns-deverbal.xml                             \
-		 stems/nouns.xml                                      \
-		 stems/nouns-russian-homographs.xml                   \
-		 stems/particles.xml                                  \
-		 stems/pronouns.xml                                   \
-		 stems/propernouns-malenames-cyrillic.xml             \
-		 stems/propernouns-malenames-russian-derivable.xml    \
-		 stems/propernouns-malesurnames-cyrillic.xml          \
-		 stems/propernouns-malesurnames-russian-derivable.xml \
-		 stems/propernouns-toponyms-Russian.xml               \
-		 stems/propernouns.xml                                \
-		 stems/quantifiers.xml                                \
-		 stems/verbs-A2M.xml                                  \
-		 stems/verbs-N2END.xml
+		stems/adjectives.xml                              \
+		stems/adjectives-russian-like.xml                  \
+		stems/adpositions.xml                              \
+		stems/adverbs.xml                                    \
+		stems/conjunctors.xml                                \
+		stems/descriptives.xml                               \
+		stems/gerunds.xml                                    \
+		stems/interjections.xml                              \
+		stems/nouns-deverbal.xml                             \
+		stems/nouns.xml                                      \
+		stems/nouns-russian-homographs.xml                   \
+		stems/particles.xml                                  \
+		stems/pronouns.xml                                   \
+		stems/propernouns-malenames-cyrillic.xml             \
+		stems/propernouns-malenames-russian-derivable.xml    \
+		stems/propernouns-malesurnames-cyrillic.xml          \
+		stems/propernouns-malesurnames-russian-derivable.xml \
+		stems/propernouns-toponyms-Russian.xml               \
+		stems/propernouns.xml                                \
+		stems/quantifiers.xml                                \
+		stems/verbs-A2M.xml                                  \
+		stems/verbs-N2END.xml
 
 # Define any additional sources here (compiled on their own):
 GT_LOCAL_SRCS=
@@ -116,6 +117,10 @@ GT_DISTRO_SRCS=
 
 ### BEGIN: Local processing: ###
 
+generated_files/urj-Cyrl-propernouns.lexc: \
+        $(GTCORE)/gtdshared/urj-Cyrl/src/morphology/stems/urj-Cyrl-propernouns.lexc
+        $(AM_V_at)$(MKDIR_P) generated_files
+        $(AM_V_GEN)cp -f $< $@
 
 ### END: Local processing: ###
 
