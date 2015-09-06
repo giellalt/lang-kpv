@@ -18,37 +18,164 @@ LEXICON PROP_
 LEXICON Prop-R-RY
 +Prop: Noun1-R-RY ; ! This will bring about problems with ordering 2012-02-07
 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! Russian type Surnames 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 !! Preparing for the template urj-Cyrl
 !! Beginning 2012-11-15
+LEXICON CYRL-CONS_SUR
+ PropSur-kal ;
+
+LEXICON CYRL-SIBILANT_SUR
+ PropSur-osh ;
+
+LEXICON CYRL-VOW_SUR
+ PropSur-kudo ;
+
+LEXICON CYRL-А_SUR
+ PropSur-kudo ;
+
+LEXICON CYRL-К_SUR 
+ PropSur-lak ;
+
+LEXICON CYRL-Т_SUR
+ PropSur-kit ;
+
+LEXICON Deriv-RUS-АН_SURMAL
+ Deriv-RUS-В_SURMAL ;
+
 !! Абдеев:Абдеев
-LEXICON Deriv-RUS-V_surmal
+LEXICON Deriv-RUS-В_SURMAL
 : PropSurMal-kal ;
 :а PropSurFem-kudo ;
 
 !! Багрий:Багр
-LEXICON Deriv-RUS-IJ_surmal
+LEXICON Deriv-RUS-ИЙ_SURMAL
 :ий PropSurMal-kal ;
 :яя PropSurFem-kudo ;
 
+LEXICON Deriv-RUS-ИН_SURMAL
+ Deriv-RUS-V_surmal ;
+
 !! Аморский:Аморск
-LEXICON Deriv-RUS-KIJ_surmal
+LEXICON Deriv-RUS-КИЙ_SURMAL
 :ий PropSurMal-kal ;
 :ая PropSurFem-kudo ;
 
-LEXICON Deriv-RUS-OJ_surmal
+LEXICON Deriv-RUS-ОЙ_SURMAL
 :ой PropSurMal-kal ;
 :ая PropSurFem-kudo ;
 
-LEXICON Deriv-RUS-YJ_surmal
+LEXICON Deriv-RUS-ЫЙ_SURMAL
 :ый PropSurMal-kal ;
 :ая PropSurFem-kudo ;
 
-LEXICON Deriv-RUS-AN_surmal
- Deriv-RUS-V_surmal ;
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! PLACE NAMES FROM TEMPLATES !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON PROP-PLC_КАЛ
++N+Prop+Sem/Plc:%>О1 LAT-INDEF ;
++N+Prop+Sem/Plc: NMN_КАЛ ;
 
-LEXICON Deriv-RUS-IN_surmal
- Deriv-RUS-V_surmal ;
+LEXICON PROP-PLC_КИТ
++N+Prop+Sem/Plc:%>О1 LAT-INDEF ;
++N+Prop+Sem/Plc: NMN_КИТ ;
 
+LEXICON PROP-PLC_КУДО
++N+Prop+Sem/Plc:%> LAT-INDEF ;
++N+Prop+Sem/Plc: NMN_КУДО ;
+
+LEXICON PROP-PLC_ОШ
++N+Prop+Sem/Plc:%>О1 LAT-INDEF ;
++N+Prop+Sem/Plc: NMN_ОШ ;
+
+!! These are vowel-final stems
+!! They have previously received +Sem/Fem tags
+
+LEXICON PROP_МА !!= * @CODE@ Ага+Sem/Fem:Аг 
++N+Prop+Sg:а  CASEPOSSLEX ;
+LEXICON PROP_НА	!!= * @CODE@ Ада+Sem/Fem:Ад
++N+Prop+Sg:а  CASEPOSSLEX ;
+LEXICON PROP_НЯ	!!= * @CODE@ Аня+Sem/Fem:Ан
++N+Prop+Sg:я  CASEPOSSLEX ;
+
+!!
+LEXICON PROP_КАЛ_FEM
++N+Prop+Sem/Fem: NMN_КАЛ ;
+LEXICON PROP_КАЛ_MAL
++N+Prop+Sem/Mal: NMN_КАЛ ;
+LEXICON PROP_КИТ_FEM
++N+Prop+Sem/Fem: NMN_КИТ ;
+LEXICON PROP_КИТ_MAL
++N+Prop+Sem/Mal: NMN_КИТ ;
+LEXICON PROP_КИТ_SUR
++N+Prop+Sem/Sur: NMN_КИТ ;
+
+
+LEXICON PROP_КУДО_FEM
++N+Prop+Sem/Fem: NMN_КУДО ;
+LEXICON PROP_КУДО_MAL
++N+Prop+Sem/Mal: NMN_КУДО ;
+
+LEXICON PROP_КУДО_PATRFEM
++Sem/Patr: PROP_КУДО_FEM ; 
+
+LEXICON PROP_КУДО_PATRFEM
++Sem/Patr: PROP_КУДО_MAL ; 
+LEXICON PROP_ЛАК_MAL
++N+Prop+Sem/Mal: NMN_ЛАК ;
+LEXICON PROP_ОШ_FEM
++N+Prop+Sem/Fem: NMN_ОШ ;
+LEXICON PROP_ОШ_MAL
++N+Prop+Sem/Mal: NMN_ОШ ;
+LEXICON PROP_ОШ_PATRMAL
++N+Prop+Sem/Patr: PROP_ОШ_MAL ;
+LEXICON PROP_ОШ_SUR
++N+Prop+Sem/Sur: NMN_ОШ ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!! Male given name for deriving patronyms 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON PropNameMaleDer-I-YEvich
+!! Вили:Вил
++Orth/Colloq:ич PROP_ОШ_PATRMAL ;
+:ьевич PROP_ОШ_PATRMAL ;
+:ьевна PROP_КУДО_PATRFEM ;
+:и PROP_КАЛ_MAL ;
+
+LEXICON PropNameMaleDer-IJ-I0Evich
++Orth/Colloq:ьич PROP_ОШ_PATRMAL ;
+:иевич PROP_ОШ_PATRMAL ;
+:иевна PROP_КУДО_PATRFEM ;
+:ий PROP_КАЛ_MAL ;
+
+LEXICON PropNameMaleDer-IJ-Y0Evich
++Orth/Colloq:ьич PROP_ОШ_PATRMAL ;
+:ьевич PROP_ОШ_PATRMAL ;
+:ьевна PROP_КУДО_PATRFEM ;
+:ий PROP_КАЛ_MAL ;
+
+LEXICON PropNameMaleDer-J-0Evich
+!! Андрей:Андре
++Orth/Colloq:ич PROP_ОШ_PATRMAL ;
+:евич PROP_ОШ_PATRMAL ;
+:евна PROP_КУДО_PATRFEM ;
+:й PROP_КАЛ_MAL ;
+
+LEXICON PropNameMaleDer-Y-0Evich
++Orth/Colloq:ич PROP_ОШ_PATRMAL ;
+:евич PROP_ОШ_PATRMAL ;
+:евна PROP_КУДО_PATRFEM ;
+:ь PROP_КАЛ_MAL ;
+
+LEXICON PropNameMaleDer-Ovich
++Orth/Colloq:ыч PROP_ОШ_PATRMAL ;
+:ович PROP_ОШ_PATRMAL ;
+:овна PROP_КУДО_PATRFEM ;
+ PROP_КАЛ_MAL ;
+
+!!
 
 LEXICON PropSurMal-kal
 +N+Prop+Sem/Sur+Sem/Mal+Sg: CASEPOSSLEX ;
@@ -56,40 +183,28 @@ LEXICON PropSurMal-kal
 LEXICON PropSurFem-kudo
 +N+Prop+Sem/Sur+Sem/Fem+Sg: CASEPOSSLEX ;
 
-LEXICON CYRL-Cons_sur
- PropSur-kal ;
-
 LEXICON PropSur-kal
 +N+Prop+Sem/Sur+Sg: CASEPOSSLEX ;
-
-LEXICON CYRL-T_sur
- PropSur-kit ;
 
 LEXICON PropSur-kit
  PropSur-kal ;
 
-LEXICON CYRL-K_sur
- PropSur-lak ;
-
 LEXICON PropSur-lak
  PropSur-kal ;
-
-LEXICON CYRL-Sibilant_sur
- PropSur-osh ;
 
 LEXICON PropSur-osh
 +N+Prop+Sem/Sur+Sg: CASEPOSSLEX ;
 
-LEXICON CYRL-Vow_sur
- PropSur-kudo ;
-
-LEXICON CYRL-A_sur
- PropSur-kudo ;
 
 LEXICON PropSur-kudo
 +N+Prop+Sem/Sur+Sg: CASEPOSSLEX ;
 
 !! Ending 2012-11-15
+
+
+
+!!!! 2015-09-06
+
 
 LEXICON Prop-Derivable
 +N+Prop+Sem/Sur+Sem/Mal+Sg: CASEPOSSLEX ; ! Владимиров
