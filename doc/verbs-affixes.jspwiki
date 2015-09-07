@@ -23,6 +23,18 @@ regexes < … > , for readability reasons (sic!)
 
  * __LEXICON V_ШУНЫ__ шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
 
+ * __LEXICON VR_КУТНЫ__
+
+ * __LEXICON V_КУТНЫ__ шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+
+ * __LEXICON VR_НУАВНЫ__ нуавны:нуа
+
+ * __LEXICON V_НУАВНЫ__ нуавны:нуа
+
+ * __LEXICON VR_АРТАСЬНЫ__
+
+ * __LEXICON V_АРТАСЬНЫ__ артасьны:артас -Cны.
+
  * __LEXICON VR_ЛЫДДЬЫНЫ__ 
 
  * __LEXICON V_ЛЫДДЬЫНЫ__ лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
@@ -40,7 +52,16 @@ regexes < … > , for readability reasons (sic!)
 
  * __LEXICON VerbConj__ суф а
 
+ * __LEXICON VerbConj_КУТНЫ__ суф а
+
+
  * __LEXICON Finiteforms__ Gives linking vowels for 3 tenses
+
+ * __LEXICON Finiteforms_КУТНЫ__ Gives linking vowels for 3 tenses
+
+
+
+
 
 
 
@@ -68,6 +89,7 @@ regexes < … > , for readability reasons (sic!)
 
  * __LEXICON Verb-nyDer__ 
 
+ * __LEXICON Verb-nyDer-ONSET-CONS__ Derivation onset in consonant
 verb-to-verb
 
 This is fed by LEXICON V_ШУНЫ, and therefore certain corrections
@@ -76,17 +98,45 @@ must be made 2012-01-18
 овсьыны
 пусьыштлывлыны
 босьтчыштлывлыны
+
+ * __LEXICON Verb-nyDer-ONSET-VOW__ Derivation onset	in vowel
+
+ * __LEXICON Verb-nyDer-ONSET-Ы__ Derivation onset	in vowel
+
+ * __LEXICON Verb-nyDer-ONSET-А__ Derivation onset	in vowel
+босьтасьны
+
+ * __LEXICON Verb-nyDer-ONSET-Я__ Derivation onset	in vowel
 босьтасьны
 
 
- * __LEXICON VerbDer__ 
-
 verb-to-noun
 
+ * __LEXICON VerbDer__ 
+FIX THIS 2015-09-06
+
+ * __LEXICON VerbDer_КУТНЫ__
+ * __VerbDer-ONSET_Ӧ ;__
+ * __VerbDer-ONSET_А ;__ 
+ * __VerbDer-ONSET_І ;__
+
+ * __LEXICON VerbDer_АРТАСЬНЫ__
+ * __:ь VerbDer-ONSET_Ӧ ;__
+ * __VerbDer-ONSET_Я ;__ 
+ * __VerbDer-ONSET_И ;__
+
+ * __LEXICON VerbDer-ONSET_Ӧ__ 
+
+ * __LEXICON VerbDer-ONSET_І__ 
+
+
+ * __LEXICON VerbDer-ONSET_И__ 
 
 
 
+ * __LEXICON VerbDer-ONSET_А__ 
 
+ * __LEXICON VerbDer-ONSET_Я__ 
 
 
 

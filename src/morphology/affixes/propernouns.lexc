@@ -56,7 +56,7 @@ LEXICON Deriv-RUS-ИЙ_SURMAL
 :яя PropSurFem-kudo ;
 
 LEXICON Deriv-RUS-ИН_SURMAL
- Deriv-RUS-V_surmal ;
+ Deriv-RUS-В_SURMAL ;
 
 !! Аморский:Аморск
 LEXICON Deriv-RUS-КИЙ_SURMAL
@@ -75,20 +75,16 @@ LEXICON Deriv-RUS-ЫЙ_SURMAL
 !! PLACE NAMES FROM TEMPLATES !!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON PROP-PLC_КАЛ
-+N+Prop+Sem/Plc:%>О1 LAT-INDEF ;
-+N+Prop+Sem/Plc: NMN_КАЛ ;
++N+Prop+Sem/Plc+Sg: CASEPOSSLEX ;
 
 LEXICON PROP-PLC_КИТ
-+N+Prop+Sem/Plc:%>О1 LAT-INDEF ;
-+N+Prop+Sem/Plc: NMN_КИТ ;
++N+Prop+Sem/Plc+Sg: CASEPOSSLEX ;
 
 LEXICON PROP-PLC_КУДО
-+N+Prop+Sem/Plc:%> LAT-INDEF ;
-+N+Prop+Sem/Plc: NMN_КУДО ;
++N+Prop+Sem/Plc+Sg: CASEPOSSLEX ;
 
 LEXICON PROP-PLC_ОШ
-+N+Prop+Sem/Plc:%>О1 LAT-INDEF ;
-+N+Prop+Sem/Plc: NMN_ОШ ;
++N+Prop+Sem/Plc+Sg: CASEPOSSLEX ;
 
 !! These are vowel-final stems
 !! They have previously received +Sem/Fem tags
@@ -102,76 +98,79 @@ LEXICON PROP_НЯ	!!= * @CODE@ Аня+Sem/Fem:Ан
 
 !!
 LEXICON PROP_КАЛ_FEM
-+N+Prop+Sem/Fem: NMN_КАЛ ;
++N+Prop+Sem/Fem+Sg: CASEPOSSLEX ;
 LEXICON PROP_КАЛ_MAL
-+N+Prop+Sem/Mal: NMN_КАЛ ;
++N+Prop+Sem/Mal+Sg: CASEPOSSLEX ;
 LEXICON PROP_КИТ_FEM
-+N+Prop+Sem/Fem: NMN_КИТ ;
++N+Prop+Sem/Fem+Sg: CASEPOSSLEX ;
 LEXICON PROP_КИТ_MAL
-+N+Prop+Sem/Mal: NMN_КИТ ;
++N+Prop+Sem/Mal+Sg: CASEPOSSLEX ;
 LEXICON PROP_КИТ_SUR
-+N+Prop+Sem/Sur: NMN_КИТ ;
++N+Prop+Sem/Sur+Sg: CASEPOSSLEX ;
 
 
 LEXICON PROP_КУДО_FEM
-+N+Prop+Sem/Fem: NMN_КУДО ;
++N+Prop+Sem/Fem+Sg: CASEPOSSLEX ;
 LEXICON PROP_КУДО_MAL
-+N+Prop+Sem/Mal: NMN_КУДО ;
++N+Prop+Sem/Mal+Sg: CASEPOSSLEX ;
 
 LEXICON PROP_КУДО_PATRFEM
-+Sem/Patr: PROP_КУДО_FEM ; 
++Sem/Patr+Sem/Fem+N+Prop+Sg: CASEPOSSLEX ; 
 
-LEXICON PROP_КУДО_PATRFEM
-+Sem/Patr: PROP_КУДО_MAL ; 
+LEXICON PROP_КУДО_PATRMAL
++Sem/Patr+Sem/Mal+N+Prop+Sg: CASEPOSSLEX ; 
 LEXICON PROP_ЛАК_MAL
-+N+Prop+Sem/Mal: NMN_ЛАК ;
++N+Prop+Sem/Mal+Sg: CASEPOSSLEX ;
 LEXICON PROP_ОШ_FEM
-+N+Prop+Sem/Fem: NMN_ОШ ;
++N+Prop+Sem/Fem+Sg: CASEPOSSLEX ;
 LEXICON PROP_ОШ_MAL
-+N+Prop+Sem/Mal: NMN_ОШ ;
++N+Prop+Sem/Mal+Sg: CASEPOSSLEX ;
 LEXICON PROP_ОШ_PATRMAL
-+N+Prop+Sem/Patr: PROP_ОШ_MAL ;
++N+Prop+Sem/Patr+Sg: CASEPOSSLEX ;
 LEXICON PROP_ОШ_SUR
-+N+Prop+Sem/Sur: NMN_ОШ ;
++N+Prop+Sem/Sur+Sg: CASEPOSSLEX ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!! Male given name for deriving patronyms 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON PROP-PATR-MAL_END-IN-Ч/ДЗ
++Sem/Patr+Sem/Mal+N+Prop: NMN_END-IN-Ч/ДЗ ; !! Should this be limited to +Sg? 2015-09-06
+
 LEXICON PropNameMaleDer-I-YEvich
 !! Вили:Вил
-+Orth/Colloq:ич PROP_ОШ_PATRMAL ;
-:ьевич PROP_ОШ_PATRMAL ;
++Orth/Colloq:ич PROP-PATR-MAL_END-IN-Ч/ДЗ ;
+:ьевич PROP-PATR-MAL_END-IN-Ч/ДЗ ;
 :ьевна PROP_КУДО_PATRFEM ;
 :и PROP_КАЛ_MAL ;
 
 LEXICON PropNameMaleDer-IJ-I0Evich
-+Orth/Colloq:ьич PROP_ОШ_PATRMAL ;
-:иевич PROP_ОШ_PATRMAL ;
++Orth/Colloq:ьич PROP-PATR-MAL_END-IN-Ч/ДЗ ;
+:иевич PROP-PATR-MAL_END-IN-Ч/ДЗ ;
 :иевна PROP_КУДО_PATRFEM ;
 :ий PROP_КАЛ_MAL ;
 
 LEXICON PropNameMaleDer-IJ-Y0Evich
-+Orth/Colloq:ьич PROP_ОШ_PATRMAL ;
-:ьевич PROP_ОШ_PATRMAL ;
++Orth/Colloq:ьич PROP-PATR-MAL_END-IN-Ч/ДЗ ;
+:ьевич PROP-PATR-MAL_END-IN-Ч/ДЗ ;
 :ьевна PROP_КУДО_PATRFEM ;
 :ий PROP_КАЛ_MAL ;
 
 LEXICON PropNameMaleDer-J-0Evich
 !! Андрей:Андре
-+Orth/Colloq:ич PROP_ОШ_PATRMAL ;
-:евич PROP_ОШ_PATRMAL ;
++Orth/Colloq:ич PROP-PATR-MAL_END-IN-Ч/ДЗ ;
+:евич PROP-PATR-MAL_END-IN-Ч/ДЗ ;
 :евна PROP_КУДО_PATRFEM ;
 :й PROP_КАЛ_MAL ;
 
 LEXICON PropNameMaleDer-Y-0Evich
-+Orth/Colloq:ич PROP_ОШ_PATRMAL ;
-:евич PROP_ОШ_PATRMAL ;
++Orth/Colloq:ич PROP-PATR-MAL_END-IN-Ч/ДЗ ;
+:евич PROP-PATR-MAL_END-IN-Ч/ДЗ ;
 :евна PROP_КУДО_PATRFEM ;
 :ь PROP_КАЛ_MAL ;
 
 LEXICON PropNameMaleDer-Ovich
-+Orth/Colloq:ыч PROP_ОШ_PATRMAL ;
-:ович PROP_ОШ_PATRMAL ;
++Orth/Colloq:ыч PROP-PATR-MAL_END-IN-Ч/ДЗ ;
+:ович PROP-PATR-MAL_END-IN-Ч/ДЗ ;
 :овна PROP_КУДО_PATRFEM ;
  PROP_КАЛ_MAL ;
 
