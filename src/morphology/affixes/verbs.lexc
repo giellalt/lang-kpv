@@ -1,4 +1,5 @@
 
+
 ! ====================================== !
 !! !!!Verbal morphology               
 ! ====================================== !
@@ -88,9 +89,9 @@ LEXICON VR_КУТНЫ !!≈ * __@CODE@__
 +V+Refl: VerbConj-V ; !б
 
 LEXICON V_КУТНЫ !!≈ * __@CODE@__ шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
-+V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@ Verb-nyDer ; !
-+V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@ VerbDer ; !
-+V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@ VerbDer-V ; !
++V@U.CONJ-INF.YES@:0@U.CONJ-INF.YES@ Verb-nyDer ; !
++V@U.CONJ-INF.YES@:0@U.CONJ-INF.YES@ VerbDer ; !
++V@U.CONJ-INF.YES@:0@U.CONJ-INF.YES@ VerbDer-V ; !
 +V: VerbConj_КУТНЫ ; !а
 +V: VerbConj-V ; !б
 
@@ -121,7 +122,7 @@ LEXICON VR_АРТАСЬНЫ !!≈ * __@CODE@__
 
 LEXICON V_АРТАСЬНЫ !!≈ * __@CODE@__ артасьны:артас -Cны.
 +V@U.CONJ-INF.YES@:ь@U.CONJ-INF.YES@ Verb-nyDer ; !
-+V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@ VerbDer_АРТАСЬНЫ ; !
++V@U.CONJ-INF.YES@:0@U.CONJ-INF.YES@ VerbDer_АРТАСЬНЫ ; !
 +V@U.CONJ-INF.YES@:ь@U.CONJ-INF.YES@ VerbDer-V ; !
 +V:ь VerbConj ; !а
 +V:ь VerbConj-V ; !б
@@ -134,8 +135,8 @@ LEXICON VR_ЛЫДДЬЫНЫ !!≈ * __@CODE@__
 +V+Refl:ы VerbConj-V ; ! check this!!!
 
 LEXICON V_ЛЫДДЬЫНЫ !!≈ * __@CODE@__ лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
-+V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@ Verb-ynyDer ; !
-+V@U.CONJ-INF.YES@:@U.CONJ-INF.YES@ VerbDer ; !
++V@U.CONJ-INF.YES@:0@U.CONJ-INF.YES@ Verb-ynyDer ; !
++V@U.CONJ-INF.YES@:0@U.CONJ-INF.YES@ VerbDer ; !
 +V@U.CONJ-INF.YES@:ы@U.CONJ-INF.YES@ VerbDer-V ; !
 +V: VerbConj ; ! check this!!!
 +V:ы VerbConj-V ; ! check this!!!
