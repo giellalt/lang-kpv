@@ -122,10 +122,12 @@ LEXICON N_END-IN-ЛЛЬ !!= * @CODE@ моль:мол молльӧ
 +N+Pl:%>ьяс CASEPOSSLEX ; !! 2015-09-04 change to ь%>яс after xfst rules are removed
 
 LEXICON N_END-IN-Ч/ДЗ !!= * @CODE@ автомобиль:автомобил автомобильыс
-+N+Cmp: R ;
-+N+Sg: CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
-+N+Sg: CASEPOSSLEX-AFTERDERIVATION_VOW ;
-+N+Pl:%>ьяс CASEPOSSLEX ;
++N: NMN_END-IN-Ч/ДЗ ;
+LEXICON NMN_END-IN-Ч/ДЗ !!= * @CODE@ автомобиль:автомобил автомобильыс
++Cmp: R ;
++Sg: CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
++Sg: CASEPOSSLEX-AFTERDERIVATION_VOW ;
++Pl:%>ьяс CASEPOSSLEX ;
 
 LEXICON N_END-IN-Ь !!= * @CODE@ автомобиль:автомобил автомобильыс
 +N+Cmp:ь R ;

@@ -74,16 +74,15 @@ GENERATED_LEXC_SRCS=\
 		$(srcdir)/stems/particles.lexc                          \
 		$(srcdir)/stems/pronouns.lexc                           \
 		$(srcdir)/stems/propernouns-malenames-cyrillic.lexc     \
-		$(srcdir)/stems/propernouns-malenames-russian-derivable.lexc    \
 		$(srcdir)/stems/propernouns-malesurnames-cyrillic.lexc  \
-		$(srcdir)/stems/propernouns-malesurnames-russian-derivable.lexc \
-		$(srcdir)/stems/propernouns-toponyms-Russian.lexc       \
 		$(srcdir)/stems/propernouns.lexc                        \
 		$(srcdir)/stems/quantifiers.lexc                        \
 		$(srcdir)/stems/verbs-A2M.lexc                          \
 		$(srcdir)/stems/verbs-N2END.lexc
 
-
+# $(srcdir)/stems/propernouns-malenames-russian-derivable.lexc
+# $(srcdir)/stems/propernouns-malesurnames-russian-derivable.lexc
+# $(srcdir)/stems/propernouns-toponyms-Russian.lexc
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
 		stems/adjectives.xml                              \
@@ -100,14 +99,15 @@ GT_XML_SRCS=\
 		stems/particles.xml                                  \
 		stems/pronouns.xml                                   \
 		stems/propernouns-malenames-cyrillic.xml             \
-		stems/propernouns-malenames-russian-derivable.xml    \
 		stems/propernouns-malesurnames-cyrillic.xml          \
-		stems/propernouns-malesurnames-russian-derivable.xml \
-		stems/propernouns-toponyms-Russian.xml               \
 		stems/propernouns.xml                                \
 		stems/quantifiers.xml                                \
 		stems/verbs-A2M.xml                                  \
 		stems/verbs-N2END.xml
+
+# stems/propernouns-malenames-russian-derivable.xml
+# stems/propernouns-malesurnames-russian-derivable.xml
+# stems/propernouns-toponyms-Russian.xml
 
 # Define any additional sources here (compiled on their own):
 GT_LOCAL_SRCS=
