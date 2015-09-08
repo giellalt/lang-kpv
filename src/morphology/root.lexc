@@ -120,6 +120,9 @@ Multichar_Symbols
 
 !! The possession is marked as such:
  +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
+!! ODD
+ +Px1 +Px2 +Px3
+ 
 !! The comparative forms are:
  +Comp +Superl
 !! Numerals are classified under:
@@ -130,7 +133,7 @@ Multichar_Symbols
  +Iter ! Iterative form expressing number of times
 
 !! Verb moods are:
- +Ind +Prs +Prt1 +Prt2 +Imprt
+ +Ind +Prs +Prt1 +Prt2 +Fut +Imprt 
 !!!!! +Pot +Cond
 !! Verb personal forms are:
  +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
@@ -167,6 +170,9 @@ Multichar_Symbols
  +Use/-Spell
  +Use/SpellNoSugg
 
+!! Where do these come from source
++Src/F         !!≈ * __@CODE@__ foreign source apparently 2015-09-08
++Dim         !!≈ * __@CODE@__ diminutive
 
 ! Semantic tags to help disambiguation & synt. analysis: (before POS)
 ! Borrowed from main/langs/sme/src/morphology/root.lexc
