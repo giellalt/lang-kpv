@@ -20,27 +20,27 @@ GT_LEXC_ROOT=root.lexc
 
 # Set this to the names of all regular lexc source files:
 GT_LEXC_SRCS_L1_L2=\
-		 stems/abbreviations.lexc   \
-		 stems/acronyms.lexc        \
-		 stems/exceptions.lexc      \
-		 stems/punctuation.lexc     \
-		 stems/adjectives_newwords.lexc              \
-		 stems/adjectives-russian-like_newwords.lexc \
-		 stems/adverbs_newwords.lexc              \
-		 stems/propernouns_newwords.lexc             \
-		 stems/nouns_newwords.lexc  \
-		 stems/verbs_newwords.lexc  \
-		 affixes/adjectives.lexc    \
-		 affixes/adpositions.lexc   \
-		 affixes/adverbs.lexc       \
-		 affixes/conjunctors.lexc   \
-		 affixes/interjections.lexc \
-		 affixes/nouns.lexc         \
-		 affixes/particles.lexc     \
-		 affixes/pronouns.lexc      \
-		 affixes/propernouns.lexc   \
-		 affixes/quantifiers.lexc   \
-		 affixes/verbs.lexc
+		stems/abbreviations.lexc   \
+		stems/acronyms.lexc        \
+		stems/exceptions.lexc      \
+		stems/punctuation.lexc     \
+		stems/adjectives_newwords.lexc              \
+		stems/adjectives-russian-like_newwords.lexc \
+		stems/adverbs_newwords.lexc                 \
+		stems/propernouns_newwords.lexc             \
+		stems/nouns_newwords.lexc  \
+		stems/verbs_newwords.lexc  \
+		affixes/adjectives.lexc    \
+		affixes/adpositions.lexc   \
+		affixes/adverbs.lexc       \
+		affixes/conjunctors.lexc   \
+		affixes/interjections.lexc \
+		affixes/nouns.lexc         \
+		affixes/particles.lexc     \
+		affixes/pronouns.lexc      \
+		affixes/propernouns.lexc   \
+		affixes/quantifiers.lexc   \
+		affixes/verbs.lexc
 
 
 # If you are building an error-detecting L2 analyser, specify the lexc files
@@ -60,7 +60,7 @@ GT_LEXC_L2_SRCS=\
 
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=\
-		generated_files/urj-Cyrl-propernouns.lexc     \
+		generated_files/urj-Cyrl-propernouns.lexc               \
 		$(srcdir)/stems/adjectives.lexc                         \
 		$(srcdir)/stems/adjectives-russian-like.lexc            \
 		$(srcdir)/stems/adpositions.lexc                        \
@@ -86,24 +86,24 @@ GENERATED_LEXC_SRCS=\
 # $(srcdir)/stems/propernouns-toponyms-Russian.lexc
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
-		stems/adjectives.xml                              \
-		stems/adjectives-russian-like.xml                  \
-		stems/adpositions.xml                              \
-		stems/adverbs.xml                                    \
-		stems/conjunctors.xml                                \
-		stems/descriptives.xml                               \
-		stems/gerunds.xml                                    \
-		stems/interjections.xml                              \
-		stems/nouns-deverbal.xml                             \
-		stems/nouns.xml                                      \
-		stems/nouns-russian-homographs.xml                   \
-		stems/particles.xml                                  \
-		stems/pronouns.xml                                   \
-		stems/propernouns-malenames-cyrillic.xml             \
-		stems/propernouns-malesurnames-cyrillic.xml          \
-		stems/propernouns.xml                                \
-		stems/quantifiers.xml                                \
-		stems/verbs-A2M.xml                                  \
+		stems/adjectives.xml                        \
+		stems/adjectives-russian-like.xml           \
+		stems/adpositions.xml                       \
+		stems/adverbs.xml                           \
+		stems/conjunctors.xml                       \
+		stems/descriptives.xml                      \
+		stems/gerunds.xml                           \
+		stems/interjections.xml                     \
+		stems/nouns-deverbal.xml                    \
+		stems/nouns.xml                             \
+		stems/nouns-russian-homographs.xml          \
+		stems/particles.xml                         \
+		stems/pronouns.xml                          \
+		stems/propernouns-malenames-cyrillic.xml    \
+		stems/propernouns-malesurnames-cyrillic.xml \
+		stems/propernouns.xml                       \
+		stems/quantifiers.xml                       \
+		stems/verbs-A2M.xml                         \
 		stems/verbs-N2END.xml
 
 # stems/propernouns-malenames-russian-derivable.xml
