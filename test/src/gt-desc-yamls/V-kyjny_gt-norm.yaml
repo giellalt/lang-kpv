@@ -1,0 +1,228 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Verb - кыйны: # Verb1 in j 'catch'
+     кыйны+V+ConNeg+Pl3: кыйны
+     кыйны+V+ConNeg: кый
+     кыйны+V+Imprt+Sg2: кый
+     кыйны+V+Imprt+Pl2: кыйӧй
+     кыйны+V+Inf: кыйны
+     кыйны+V+Ind+Prs+Sg1: кыя
+     кыйны+V+Ind+Prs+Sg2: кыян
+     кыйны+V+Ind+Prs+Sg3: кыйӧ
+     кыйны+V+Ind+Prs+Pl1: [кыям, кыямӧй]
+     кыйны+V+Ind+Prs+Pl1+Err/Orth: кыямӧ
+     кыйны+V+Ind+Prs+Pl2: кыянныд
+     кыйны+V+Ind+Prs+Pl2+Err/Orth: кыяд
+     кыйны+V+Ind+Prs+Pl3: кыйӧны
+     кыйны+V+Ind+Fut+Sg1: кыя
+     кыйны+V+Ind+Fut+Sg2: кыян
+     кыйны+V+Ind+Fut+Sg3: кыяс
+     кыйны+V+Ind+Fut+Pl1: [кыям, кыямӧй]
+     кыйны+V+Ind+Fut+Pl1+Err/Orth: кыямӧ
+     кыйны+V+Ind+Fut+Pl2: кыянныд
+     кыйны+V+Ind+Fut+Pl2+Err/Orth: кыяд
+     кыйны+V+Ind+Fut+Pl3: кыясны
+     кыйны+V+Ind+Prt1+Sg1: кыйи
+     кыйны+V+Ind+Prt1+Sg2: кыйин
+     кыйны+V+Ind+Prt1+Sg3: [кыйис, кыйи]
+     кыйны+V+Ind+Prt1+Pl1: [кыйим, кыйимӧй]
+     кыйны+V+Ind+Prt1+Pl1+Err/Orth: кыйимӧ
+     кыйны+V+Ind+Prt1+Pl2: кыйинныд
+     кыйны+V+Ind+Prt1+Pl2+Err/Orth: кыйид
+     кыйны+V+Ind+Prt1+Pl3: [кыйисны, кыйины]
+     кыйны+V+Ind+Prt2+Sg1: кыйӧма
+     кыйны+V+Ind+Prt2+Sg2: кыйӧмыд
+     кыйны+V+Ind+Prt2+Sg3: кыйӧма
+     кыйны+V+Ind+Prt2+Pl1: кыйӧмаӧсь
+     кыйны+V+Ind+Prt2+Pl2: [кыйӧмныд, кыйӧмныдӧсь]
+     кыйны+V+Ind+Prt2+Pl3: [кыйӧмаӧсь, кыйӧмны]
+     кыйны+V+Inf+Der/моз: кыйнымоз
+     кыйны+V+Ind+Prs+Sg1+Der/моз: кыямоз
+     кыйны+V+Ind+Prs+Sg2+Der/моз: кыянмоз
+     кыйны+V+Ind+Prs+Sg3+Der/моз: кыйӧмоз
+     кыйны+V+Ind+Prs+Pl1+Der/моз: [кыяммоз, кыямӧймоз]
+     кыйны+V+Ind+Prs+Pl1+Err/Orth+Der/моз: кыямӧмоз
+     кыйны+V+Ind+Prs+Pl2+Der/моз: кыянныдмоз
+     кыйны+V+Ind+Prs+Pl2+Err/Orth+Der/моз: кыядмоз
+     кыйны+V+Ind+Prs+Pl3+Der/моз: кыйӧнымоз
+     кыйны+V+Ind+Fut+Sg1+Der/моз: кыямоз
+     кыйны+V+Ind+Fut+Sg2+Der/моз: кыянмоз
+     кыйны+V+Ind+Fut+Sg3+Der/моз: кыясмоз
+     кыйны+V+Ind+Fut+Pl1+Der/моз: [кыяммоз, кыямӧймоз]
+     кыйны+V+Ind+Fut+Pl1+Err/Orth+Der/моз: кыямӧмоз
+     кыйны+V+Ind+Fut+Pl2+Der/моз: кыянныдмоз
+     кыйны+V+Ind+Fut+Pl2+Err/Orth+Der/моз: кыядмоз
+     кыйны+V+Ind+Fut+Pl3+Der/моз: кыяснымоз
+     кыйны+V+Ind+Prt1+Sg1+Der/моз: кыйимоз
+     кыйны+V+Ind+Prt1+Sg2+Der/моз: кыйинмоз
+     кыйны+V+Ind+Prt1+Sg3+Der/моз: [кыйисмоз, кыйимоз]
+     кыйны+V+Ind+Prt1+Pl1+Der/моз: [кыйиммоз, кыйимӧймоз]
+     кыйны+V+Ind+Prt1+Pl1+Err/Orth+Der/моз: кыйимӧмоз
+     кыйны+V+Ind+Prt1+Pl2+Der/моз: кыйинныдмоз
+     кыйны+V+Ind+Prt1+Pl2+Err/Orth+Der/моз: кыйидмоз
+     кыйны+V+Ind+Prt1+Pl3+Der/моз: [кыйиснымоз, кыйинымоз]
+     кыйны+V+Ind+Prt2+Sg1+Der/моз: кыйӧмамоз
+     кыйны+V+Ind+Prt2+Sg2+Der/моз: кыйӧмыдмоз
+     кыйны+V+Ind+Prt2+Sg3+Der/моз: кыйӧмамоз
+     кыйны+V+Ind+Prt2+Pl1+Der/моз: кыйӧмаӧсьмоз
+     кыйны+V+Ind+Prt2+Pl2+Der/моз: [кыйӧмныдмоз, кыйӧмныдӧсьмоз]
+     кыйны+V+Ind+Prt2+Pl3+Der/моз: [кыйӧмаӧсьмоз, кыйӧмнымоз]
+     кыйны+V+Inf+Der/кодь: кыйныкодь
+     кыйны+V+Ind+Prs+Sg1+Der/кодь: кыякодь
+     кыйны+V+Ind+Prs+Sg2+Der/кодь: кыянкодь
+     кыйны+V+Ind+Prs+Sg3+Der/кодь: кыйӧкодь
+     кыйны+V+Ind+Prs+Pl1+Der/кодь: [кыямкодь, кыямӧйкодь]
+     кыйны+V+Ind+Prs+Pl1+Err/Orth+Der/кодь: кыямӧкодь
+     кыйны+V+Ind+Prs+Pl2+Der/кодь: кыянныдкодь
+     кыйны+V+Ind+Prs+Pl2+Err/Orth+Der/кодь: кыядкодь
+     кыйны+V+Ind+Prs+Pl3+Der/кодь: кыйӧныкодь
+     кыйны+V+Ind+Fut+Sg1+Der/кодь: кыякодь
+     кыйны+V+Ind+Fut+Sg2+Der/кодь: кыянкодь
+     кыйны+V+Ind+Fut+Sg3+Der/кодь: кыяскодь
+     кыйны+V+Ind+Fut+Pl1+Der/кодь: [кыямкодь, кыямӧйкодь]
+     кыйны+V+Ind+Fut+Pl1+Err/Orth+Der/кодь: кыямӧкодь
+     кыйны+V+Ind+Fut+Pl2+Der/кодь: кыянныдкодь
+     кыйны+V+Ind+Fut+Pl2+Err/Orth+Der/кодь: кыядкодь
+     кыйны+V+Ind+Fut+Pl3+Der/кодь: кыясныкодь
+     кыйны+V+Ind+Prt1+Sg1+Der/кодь: кыйикодь
+     кыйны+V+Ind+Prt1+Sg2+Der/кодь: кыйинкодь
+     кыйны+V+Ind+Prt1+Sg3+Der/кодь: [кыйискодь, кыйикодь]
+     кыйны+V+Ind+Prt1+Pl1+Der/кодь: [кыйимкодь, кыйимӧйкодь]
+     кыйны+V+Ind+Prt1+Pl1+Err/Orth+Der/кодь: кыйимӧкодь
+     кыйны+V+Ind+Prt1+Pl2+Der/кодь: кыйинныдкодь
+     кыйны+V+Ind+Prt1+Pl2+Err/Orth+Der/кодь: кыйидкодь
+     кыйны+V+Ind+Prt1+Pl3+Der/кодь: [кыйисныкодь, кыйиныкодь]
+     кыйны+V+Ind+Prt2+Sg1+Der/кодь: кыйӧмакодь
+     кыйны+V+Ind+Prt2+Sg2+Der/кодь: кыйӧмыдкодь
+     кыйны+V+Ind+Prt2+Sg3+Der/кодь: кыйӧмакодь
+     кыйны+V+Ind+Prt2+Pl1+Der/кодь: кыйӧмаӧськодь
+     кыйны+V+Ind+Prt2+Pl2+Der/кодь: [кыйӧмныдкодь, кыйӧмныдӧськодь]
+     кыйны+V+Ind+Prt2+Pl3+Der/кодь: [кыйӧмаӧськодь, кыйӧмныкодь]
+     кыйны+V+Inf+Compar: кыйныджык
+     кыйны+V+Ind+Prs+Sg1+Compar: кыяджык
+     кыйны+V+Ind+Prs+Sg2+Compar: кыянджык
+     кыйны+V+Ind+Prs+Sg3+Compar: кыйӧджык
+     кыйны+V+Ind+Prs+Pl1+Compar: [кыямджык, кыямӧйджык]
+     кыйны+V+Ind+Prs+Pl1+Err/Orth+Compar: кыямӧджык
+     кыйны+V+Ind+Prs+Pl2+Compar: кыянныдджык
+     кыйны+V+Ind+Prs+Pl2+Err/Orth+Compar: кыядджык
+     кыйны+V+Ind+Prs+Pl3+Compar: кыйӧныджык
+     кыйны+V+Ind+Fut+Sg1+Compar: кыяджык
+     кыйны+V+Ind+Fut+Sg2+Compar: кыянджык
+     кыйны+V+Ind+Fut+Sg3+Compar: кыясджык
+     кыйны+V+Ind+Fut+Pl1+Compar: [кыямджык, кыямӧйджык]
+     кыйны+V+Ind+Fut+Pl1+Err/Orth+Compar: кыямӧджык
+     кыйны+V+Ind+Fut+Pl2+Compar: кыянныдджык
+     кыйны+V+Ind+Fut+Pl2+Err/Orth+Compar: кыядджык
+     кыйны+V+Ind+Fut+Pl3+Compar: кыясныджык
+     кыйны+V+Ind+Prt1+Sg1+Compar: кыйиджык
+     кыйны+V+Ind+Prt1+Sg2+Compar: кыйинджык
+     кыйны+V+Ind+Prt1+Sg3+Compar: [кыйисджык, кыйиджык]
+     кыйны+V+Ind+Prt1+Pl1+Compar: [кыйимджык, кыйимӧйджык]
+     кыйны+V+Ind+Prt1+Pl1+Err/Orth+Compar: кыйимӧджык
+     кыйны+V+Ind+Prt1+Pl2+Compar: кыйинныдджык
+     кыйны+V+Ind+Prt1+Pl2+Err/Orth+Compar: кыйидджык
+     кыйны+V+Ind+Prt1+Pl3+Compar: [кыйисныджык, кыйиныджык]
+     кыйны+V+Ind+Prt2+Sg1+Compar: кыйӧмаджык
+     кыйны+V+Ind+Prt2+Sg2+Compar: кыйӧмыдджык
+     кыйны+V+Ind+Prt2+Sg3+Compar: кыйӧмаджык
+     кыйны+V+Ind+Prt2+Pl1+Compar: кыйӧмаӧсьджык
+     кыйны+V+Ind+Prt2+Pl2+Compar: [кыйӧмныдджык, кыйӧмныдӧсьджык]
+     кыйны+V+Ind+Prt2+Pl3+Compar: [кыйӧмаӧсьджык, кыйӧмныджык]
+     кыйны+V+Der/мысьт: кыймысьт
+     кыйны+V+Der/мысь: кыймысь
+     кыйны+V+Der/иг+Duration+Ger+Pl: кыйигъяс
+     кыйны+V+Der/иг+Duration+Ger+Pl+Ill: кыйигъясӧ
+     кыйны+V+Der/иг+Duration+Ger+Pl+Ill+PxSg2: кыйигъясам
+     кыйны+V+Der/иг+Duration+Ger+Pl+Ill+PxSg2: кыйигъясад
+     кыйны+V+Der/иг+Duration+Ger+Pl+Ill+PxSg3: кыйигъясас
+     кыйны+V+Der/иг+Duration+Ger+Pl+Ill+PxPl1: кыйигъясаным
+     кыйны+V+Der/иг+Duration+Ger+Pl+Ill+PxPl2: кыйигъясаныд
+     кыйны+V+Der/иг+Duration+Ger+Pl+Ill+PxPl3: кыйигъясаныс
+     кыйны+V+Der/иг+Duration+Ger+Sg+Ill: кыйигӧ
+     кыйны+V+Der/иг+Duration+Ger+Sg+Ill+PxSg2: кыйигам
+     кыйны+V+Der/иг+Duration+Ger+Sg+Ill+PxSg2: кыйигад
+     кыйны+V+Der/иг+Duration+Ger+Sg+Ill+PxSg3: кыйигас
+     кыйны+V+Der/иг+Duration+Ger+Sg+Ill+PxPl1: кыйиганым
+     кыйны+V+Der/иг+Duration+Ger+Sg+Ill+PxPl2: кыйиганыд
+     кыйны+V+Der/иг+Duration+Ger+Sg+Ill+PxPl3: кыйиганыс
+     кыйны+V+Der/иг+Duration+Ger+Pl+Instr+NoPoss: кыйигъясӧн
+     кыйны+V+Der/иг+Duration+Ger+Sg+Instr+NoPoss: кыйигӧн
+     кыйны+V+Der/иг+Duration+Ger+Sg+Instr+PxSg2: кыйигӧныд
+     кыйны+V+Der/иг+Duration+Ger+Sg+Instr+PxSg3: кыйигӧныс
+     кыйны+V+Der/иг+Duration+Ger+Sg+Instr+PxPl1: кыйигӧнным
+     кыйны+V+Der/иг+Duration+Ger+Sg+Instr+PxPl2: кыйигӧнныд
+     кыйны+V+Der/иг+Duration+Ger+Sg+Instr+PxPl3: кыйигӧнныс
+     кыйны+V+Der/иг+Duration+Ger+Der/моз+NoPoss: кыйигмоз
+     кыйны+V+Der/иг+Duration+Ger+Der/моз+PxSg2: кыйигмозыд
+     кыйны+V+Der/иг+Duration+Ger+Der/моз+PxSg3: кыйигмозыс
+     кыйны+V+Der/иг+Duration+Ger+Der/моз+PxPl1: кыйигмозным
+     кыйны+V+Der/иг+Duration+Ger+Der/моз+PxPl2: кыйигмозныд
+     кыйны+V+Der/иг+Duration+Ger+Der/моз+PxPl3: кыйигмозныс
+     кыйны+V+Der/иг+Duration+Ger+Der/сор: кыйигсор
+     кыйны+V+Der/иг+Duration+Ger+Der/сор+Instr: кыйигсорӧн
+     кыйны+V+Der/иг+Duration+Ger+Der/тыр: кыйигтыр
+     кыйны+V+Der/иг+Duration+Ger+Der/тырйи+NoPoss: кыйигтырйи
+     кыйны+V+Der/иг+Duration+Ger+Der/тырйи+PxSg2: кыйигтырйиыд
+     кыйны+V+Der/иг+Duration+Ger+Der/тырйи+PxSg3: кыйигтырйиыс
+     кыйны+V+Der/иг+Duration+Ger+Der/тырйи+PxPl1: кыйигтырйиным
+     кыйны+V+Der/иг+Duration+Ger+Der/тырйи+PxPl2: кыйигтырйиныд
+     кыйны+V+Der/иг+Duration+Ger+Der/тырйи+PxPl3: кыйигтырйиныс
+     кыйны+V+Der/иг+Duration+Ger+Der/тыръя: кыйигтыръя
+     кыйны+V+Der/иг+Duration+Ger+Der/чӧж+NoPoss: кыйигчӧж
+     кыйны+V+Der/иг+Duration+Ger+Der/чӧж+PxSg2: кыйигчӧжыд
+     кыйны+V+Der/иг+Duration+Ger+Der/чӧж+PxSg3: кыйигчӧжыс
+     кыйны+V+Der/иг+Duration+Ger+Der/чӧж+PxPl1: кыйигчӧжным
+     кыйны+V+Der/иг+Duration+Ger+Der/чӧж+PxPl2: кыйигчӧжныд
+     кыйны+V+Der/иг+Duration+Ger+Der/чӧж+PxPl3: кыйигчӧжныс
+     кыйны+V+Der/иг+Duration+Ger+Der/чӧж+Instr: кыйигчӧжӧн
+     кыйны+V+Der/иг+Duration+Ger+Der/кості+NoPoss: кыйигкості
+     кыйны+V+Der/иг+Duration+Ger+Der/кості+PxSg2: кыйигкостіыд
+     кыйны+V+Der/иг+Duration+Ger+Der/кості+PxSg3: кыйигкостіыс
+     кыйны+V+Der/иг+Duration+Ger+Der/кості+PxPl1: кыйигкостіным
+     кыйны+V+Der/иг+Duration+Ger+Der/кості+PxPl2: кыйигкостіныд
+     кыйны+V+Der/иг+Duration+Ger+Der/кості+PxPl3: кыйигкостіныс
+     кыйны+V+Der/иг+Duration+Ger+Der/коста: кыйигкоста
+     кыйны+V+Der/иг+Duration+Ger+Der/кежлӧ: кыйигкежлӧ
+     кыйны+V+Der/иг+Duration+Ger+Der/кежлӧ+PxSg2: кыйигкежлад
+     кыйны+V+Der/иг+Duration+Ger+Der/кежлӧ+PxSg3: кыйигкежлас
+     кыйны+V+Der/иг+Duration+Ger+Der/кежлӧ+PxPl1: кыйигкежланым
+     кыйны+V+Der/иг+Duration+Ger+Der/кежлӧ+PxPl2: кыйигкежланыд
+     кыйны+V+Der/иг+Duration+Ger+Der/кежлӧ+PxPl3: кыйигкежланыс
+     кыйны+V+ANA+Adv: кыяна
+     кыйны+V+ANAA+Adv: кыянаа
+     кыйны+V+AN+Der/моз+NoPoss: кыянмоз
+     кыйны+V+AN+Der/моз+PxSg2: кыянмозыд
+     кыйны+V+AN+Der/моз+PxSg3: кыянмозыс
+     кыйны+V+AN+Der/моз+PxPl1: кыянмозным
+     кыйны+V+AN+Der/моз+PxPl2: кыянмозныд
+     кыйны+V+AN+Der/моз+PxPl3: кыянмозныс
+     кыйны+V+Der/ӧм+Event+N+Instr: кыйӧмӧн
+     кыйны+V+Der/тӧдз+NoPoss: кыйтӧдз
+     кыйны+V+Der/тӧдз+PxSg2: кыйтӧдзыд
+     кыйны+V+Der/тӧдз+PxSg3: кыйтӧдзыс
+     кыйны+V+Der/тӧдз+PxPl1: кыйтӧдзным
+     кыйны+V+Der/тӧдз+PxPl2: кыйтӧдзныд
+     кыйны+V+Der/тӧдз+PxPl3: кыйтӧдзныс
+     кыйны+V+Der/мӧн+NoPoss: кыймӧн
+     кыйны+V+Der/мӧн+PxSg2: кыймӧныд
+     кыйны+V+Der/мӧн+PxSg3: кыймӧныс
+     кыйны+V+Der/мӧн+PxPl1: кыймӧнным
+     кыйны+V+Der/мӧн+PxPl2: кыймӧнныд
+     кыйны+V+Der/мӧн+PxPl3: кыймӧнныс
+     кыйны+V+Der/иг+Duration+Ger: кыйиг
+
