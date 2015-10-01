@@ -9,6 +9,7 @@ use utf8;
 
 while(<>) {
 	# Continuation lexicon substitutions:
+	s/л\ +CYRL-CONS_SUR\ +\"Z\"\ *\;/л\ CYRL-Л_SUR\ \"Z\"\ \;/g ;
 #	s/ C-FI-NEN/nen LONDON/g ;
 #	s/SUND/BERN/g ;
 #	s/HEIM/BERN/g ;
