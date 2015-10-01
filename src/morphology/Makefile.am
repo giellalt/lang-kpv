@@ -76,6 +76,7 @@ GENERATED_LEXC_SRCS=\
 		$(srcdir)/stems/pronouns.lexc                           \
 		$(srcdir)/stems/propernouns-malenames-cyrillic.lexc     \
 		$(srcdir)/stems/propernouns-malesurnames-cyrillic.lexc  \
+		$(srcdir)/stems/propernouns-toponyms-Komi.lexc  \
 		$(srcdir)/stems/propernouns.lexc                        \
 		$(srcdir)/stems/quantifiers.lexc                        \
 		$(srcdir)/stems/verbs-A2M.lexc                          \
@@ -101,6 +102,7 @@ GT_XML_SRCS=\
 		stems/pronouns.xml                          \
 		stems/propernouns-malenames-cyrillic.xml    \
 		stems/propernouns-malesurnames-cyrillic.xml \
+		stems/propernouns-toponyms-Komi.xml \
 		stems/propernouns.xml                       \
 		stems/quantifiers.xml                       \
 		stems/verbs-A2M.xml                         \
