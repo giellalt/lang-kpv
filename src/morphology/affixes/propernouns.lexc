@@ -39,6 +39,9 @@ LEXICON CYRL-А_SUR
 LEXICON CYRL-К_SUR 
  PropSur-lak ;
 
+LEXICON CYRL-Л_SUR 
+:2 PropSur-kal ; !!= * @CODE@ These are foreign Л words
+
 LEXICON CYRL-Т_SUR
  PropSur-kit ;
 
@@ -142,6 +145,12 @@ LEXICON PropNameMaleDer-I-YEvich
 :ьевич PROP-PATR-MAL_END-IN-Ч/ДЗ ;
 :ьевна PROP_КУДО_PATRFEM ;
 :и PROP_КАЛ_MAL ;
+
+LEXICON PropNameMaleDer-YYA-Yich
+!! Илья:Иль
+:ич PROP-PATR-MAL_END-IN-Ч/ДЗ ;
+:ьишна PROP_КУДО_PATRFEM ;
+:я PROP_КАЛ_MAL ;
 
 LEXICON PropNameMaleDer-IJ-I0Evich
 +Orth/Colloq:ьич PROP-PATR-MAL_END-IN-Ч/ДЗ ;
