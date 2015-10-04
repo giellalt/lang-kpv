@@ -130,17 +130,8 @@ generated_files/urj-Cyrl-propernouns.lexc: \
 
 generated_files/urj-Cyrl-$(GTLANG)-propernouns.lexc: \
 		generated_files/urj-Cyrl-propernouns.lexc \
-		$(srcdir)/stems/$(GTLANG)-propernouns.lexc
-	$(AM_V_at)rm -f $@
-	$(AM_V_GEN)cp -f $(srcdir)/stems/$(GTLANG)-propernouns.lexc $@
-	$(AM_V_at)echo "" >> $@
-	$(AM_V_at)echo "! <--- Dump from urj-Cyrl -->" >> $@
-	$(AM_V_at)echo "" >> $@
-	$(AM_V_GEN)$(top_srcdir)/src/scripts/urj-Cyrl-kpv-conversion.pl $< >> $@
-
-# DOES THIS WORK 2015-10-02
-#	$(AM_V_at)$(MKDIR_P) generated_files
-#	$(AM_V_GEN)cp -f $< $@
+	$(AM_V_at)$(MKDIR_P) generated_files
+	$(AM_V_GEN)cp -f $< $@
 
 ### END: Local processing: ###
 
