@@ -122,16 +122,8 @@ GT_DISTRO_SRCS=
 
 generated_files/urj-Cyrl-propernouns.lexc: \
 	$(GTCORE)/giella-shared/urj-Cyrl/src/morphology/stems/urj-Cyrl-propernouns.lexc
-	$(AM_V_CP)cp -f $< $@
-
-# step two:   copy the local file, add a comment (using echo) ...
-# step three: ... and run the gtcore copy through the  perl script and add it to
-#             the copy of the local file
-
-generated_files/urj-Cyrl-$(GTLANG)-propernouns.lexc: \
-		generated_files/urj-Cyrl-propernouns.lexc \
 	$(AM_V_at)$(MKDIR_P) generated_files
-	$(AM_V_GEN)cp -f $< $@
+	$(AM_V_CP)cp -f $< $@
 
 ### END: Local processing: ###
 
