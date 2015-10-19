@@ -76,10 +76,10 @@ endif # CAN_FOMA
 #### Add language-specific build rules here: ####
 
 analyser-dict-gt-desc-molotsov.tmp.%: analyser-dict-gt-desc.tmp.% \
-					orthography/spellrelax-molotsov-keyboard.%
+					orthography/spellrelax-molotsov-keyboard.compose.%
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex                              \
 			    @\"$<\" \
-			.o. @\"orthography/spellrelax-molotsov-keyboard.$*\" \
+			.o. @\"orthography/spellrelax-molotsov-keyboard.compose.$*\" \
 			;\n\
 		 save stack $@\n\
 		 quit\n" | $(XFST_TOOL)
