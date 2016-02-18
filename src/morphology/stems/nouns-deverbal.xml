@@ -64,16 +64,16 @@
          <tg xml:lang="fin">
             <t pos="N">kiljuminen</t>
             <t>kiljumis-</t>
-            <t>kiljunta</t>
-            <t>karjuminen</t>
+            <t pos="N">kiljunta</t>
+            <t pos="N">karjuminen</t>
             <t>karjumis-</t>
-            <t>karjunta</t>
-            <t>ärjyminen</t>
+            <t pos="N">karjunta</t>
+            <t pos="N">ärjyminen</t>
             <t>ärjymis-</t>
-            <t>ärjyntä</t>
-            <t>mylviminen</t>
+            <t pos="N">ärjyntä</t>
+            <t pos="N">mylviminen</t>
             <t>mylvimis-</t>
-            <t>mylvintä</t>
+            <t pos="N">mylvintä</t>
             <t>möliseminen</t>
             <t>mölisemis-</t>
             <t>mölinä</t>
@@ -269,7 +269,8 @@
             <t>karhiminen</t>
             <t>karhimis-</t>
             <t>karhinta</t>
-            <t pos="Prc">äestetty, karhittu</t>
+            <t pos="Prc">äestetty</t>
+            <t pos="Prc">karhittu</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="N">боронование</t>
@@ -81254,59 +81255,6 @@
    </e>
    <e>
       <lg>
-         <l pos="DV_N">пожӧм</l>
-         <stg>
-            <st Contlex="Noun1-IS_PTC-OM">пожӧм</st>
-         </stg>
-      </lg>
-      <pos>DV_N</pos>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="fin">
-            <t pos="N">mänty</t>
-            <t>petäjä</t>
-         </tg>
-         <tg xml:lang="rus">
-            <t>сосна</t>
-         </tg>
-         <tg xml:lang="rus">
-            <t pos="A">сосновый</t>
-         </tg>
-         <xg>
-            <x>корабль стрӧитан пожӧм</x>
-            <xt xml:lang="rus">корабельная сосна</xt>
-         </xg>
-         <xg>
-            <x>ли выв пожӧм</x>
-            <xt xml:lang="rus">сосна в период, когда снимается камбий</xt>
-         </xg>
-         <xg>
-            <x>пожӧм вӧр</x>
-            <xt xml:lang="rus">сосняк</xt>
-         </xg>
-         <xg>
-            <x>пожӧм коляоз</x>
-            <xt xml:lang="rus">соцветие сосны</xt>
-         </xg>
-         <xg>
-            <x>пожӧм лыс</x>
-            <xt xml:lang="rus">сосновые иглы</xt>
-         </xg>
-         <xg>
-            <x>пожӧм пу</x>
-            <xt xml:lang="rus">а) сосна</xt>
-            <xt xml:lang="rus">б) сосновая древесина</xt>
-         </xg>
-         <xg>
-            <x>пожӧм тьӧс</x>
-            <xt xml:lang="rus">сосновый тёс</xt>
-         </xg>
-      </mg>
-   </e>
-   <e>
-      <lg>
          <l pos="DV_N">поздысьӧм</l>
          <stg>
             <st Contlex="Noun1-IS_PTC-OM">поздысьӧм</st>
@@ -81320,7 +81268,7 @@
          <tg xml:lang="fin">
             <t>pesiminen</t>
             <t>pesimis-</t>
-            <t>pesintä(-)</t>
+            <t>pesintä</t>
             <t>pesänteko</t>
          </tg>
          <tg xml:lang="rus">
