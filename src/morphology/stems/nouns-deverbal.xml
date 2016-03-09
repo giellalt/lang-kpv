@@ -5154,10 +5154,12 @@
          </tg>
          <xg>
             <x>оз позь веритны быд бызгӧмлы</x>
+            <xt xml:lang="fin">Kaikkea lörpötystä ei saa uskoa.</xt>
             <xt xml:lang="rus">нельзя верить всякой болтовне</xt>
          </xg>
          <xg>
             <x>эз кут вермыны виччысьны сылӧн бызгӧмлысь помсӧ</x>
+            <xt xml:lang="fin">Hän ei alkanut odottaa hänen jaaritusksensa loppua.</xt>
             <xt xml:lang="rus">он не мог дождаться конца его пустословия</xt>
          </xg>
       </mg>
@@ -8257,6 +8259,8 @@
          </tg>
          <xg>
             <x>ӧтчыд вартӧмысь</x>
+            <xt xml:lang="fin">kerran iskemisestä</xt>
+            <xt>yhdestä iskusta</xt>
             <xt xml:lang="rus">от одного удара</xt>
          </xg>
       </mg>
@@ -8432,6 +8436,7 @@
          </tg>
          <xg>
             <x>кагалӧн ватолитӧм</x>
+            <xt xml:lang="fin">lapsen jokellus</xt>
             <xt xml:lang="rus">лепет ребёнка</xt>
             <xt xml:lang="rus">детский лепет</xt>
          </xg>
@@ -8504,6 +8509,7 @@
          </tg>
          <xg>
             <x>лягушаяслӧн ватшкӧм</x>
+            <xt xml:lang="fin">sammakkojen kurnutus</xt>
             <xt xml:lang="rus">кваканье лягушек</xt>
          </xg>
       </mg>
@@ -8573,6 +8579,7 @@
          </tg>
          <xg>
             <x>вачкӧмысь бӧрддзыны</x>
+            <xt xml:lang="fin">alkaa itkeä iskun vuoksi</xt>
             <xt xml:lang="rus">заплакать от удара</xt>
          </xg>
       </mg>
@@ -55009,12 +55016,12 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>kylvön päättäminen</t>
+            <t pos="N">kylvön päättäminen</t>
             <t>kylvön päättämis-</t>
-            <t>kylvön päätös(-)</t>
-            <t>kylvön lopettaminen</t>
+            <t pos="N">kylvön päätös</t>
+            <t pos="N">kylvön lopettaminen</t>
             <t>kylvön lopettamis-</t>
-            <t>kylvön lopetus(-)</t>
+            <t pos="N">kylvön lopetus</t>
          </tg>
          <tg xml:lang="rus">
             <t>окончание сева</t>
@@ -55039,9 +55046,9 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>pakastuminen</t>
+            <t pos="N">pakastuminen</t>
             <t>pakastumis-</t>
-            <t>kylmeneminen</t>
+            <t pos="N">kylmeneminen</t>
             <t>kylmenemis-</t>
          </tg>
          <tg xml:lang="rus">
@@ -55066,13 +55073,14 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>jäähdyttäminen</t>
+            <t pos="N">jäähdyttäminen</t>
             <t>jäähdyttämis-</t>
-            <t>jäähdytys(-)</t>
-            <t>kylmentäminen</t>
+            <t pos="N">jäähdytys</t>
+            <t pos="N">kylmentäminen</t>
             <t>kylmentämis-</t>
-            <t>kylmennys(-)</t>
-            <t pos="Prc">jäähdytetty, kylmetetty</t>
+            <t pos="N">kylmennys</t>
+            <t pos="Prc">jäähdytetty</t>
+            <t pos="Prc">kylmetetty</t>
          </tg>
          <tg xml:lang="rus">
             <t>охлаждение</t>
@@ -55100,11 +55108,12 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>vieraantuminen</t>
+            <t pos="N">vieraantuminen</t>
             <t>vieraantumis-</t>
-            <t>vieroittuminen</t>
+            <t pos="N">vieroittuminen</t>
             <t>vieroittumis-</t>
-            <t pos="Prc">vieraantunut, vieroittunut</t>
+            <t pos="Prc">vieraantunut</t>
+            <t pos="Prc">vieroittunut</t>
          </tg>
          <tg xml:lang="rus">
             <t>отчуждение</t>
@@ -55127,9 +55136,9 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>kylväminen</t>
+            <t pos="N">kylväminen</t>
             <t>kylvämis-</t>
-            <t>kylvö(-)</t>
+            <t pos="N">kylvö</t>
             <t pos="Prc">kylvetty</t>
          </tg>
          <tg xml:lang="rus">
@@ -55184,11 +55193,12 @@
             <semRel lemmaID="кӧдзалӧм_N" semRelType="see"/>
          </m>
          <tg xml:lang="fin">
-            <t>jäähtyminen</t>
+            <t pos="N">jäähtyminen</t>
             <t>jäähtymis-</t>
-            <t>kylmeneminen</t>
+            <t pos="N">kylmeneminen</t>
             <t>kylmenemis-</t>
-            <t pos="Prc">jäähtynyt, kylmentynyt</t>
+            <t pos="Prc">jäähtynyt</t>
+            <t pos="Prc">kylmentynyt</t>
          </tg>
          <xg>
             <x>кӧйдӧм вир</x>
@@ -55211,15 +55221,15 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>pyyteleminen</t>
+            <t pos="N">pyyteleminen</t>
             <t>pyytelemis-</t>
-            <t>pyytely(-)</t>
-            <t>suostutteleminen</t>
+            <t pos="N">pyytely</t>
+            <t pos="N">suostutteleminen</t>
             <t>suostuttelemis-</t>
-            <t>suostuttelu(-)</t>
-            <t>kehottaminen</t>
+            <t pos="N">suostuttelu</t>
+            <t pos="N">kehottaminen</t>
             <t>kehottamis-</t>
-            <t>kehotus(-)</t>
+            <t pos="N">kehotus</t>
          </tg>
          <tg xml:lang="rus">
             <t>упрашивание, уговоры, увещевание</t>
@@ -55246,7 +55256,7 @@
          <tg xml:lang="fin">
             <t pos="N">kukkuminen</t>
             <t>kukkumis-</t>
-            <t>kukunta(-)</t>
+            <t pos="N">kukunta</t>
          </tg>
          <tg xml:lang="rus">
             <t>кукование</t>
@@ -55273,10 +55283,10 @@
          <tg xml:lang="fin">
             <t pos="N">noituminen</t>
             <t>noitumis-</t>
-            <t>noidunta(-)</t>
-            <t>taikominen</t>
+            <t pos="N">noidunta</t>
+            <t pos="N">taikominen</t>
             <t>taikomis-</t>
-            <t>taionta(-)</t>
+            <t pos="N">taionta</t>
          </tg>
          <tg xml:lang="rus">
             <t>колдовство</t>
@@ -55306,7 +55316,7 @@
          </m>
          <tg xml:lang="fin">
             <t pos="N">kenkä</t>
-            <t>jalkine</t>
+            <t pos="N">jalkine</t>
          </tg>
          <tg xml:lang="rus">
             <t>обувь</t>
@@ -55390,7 +55400,7 @@
          </m>
          <tg xml:lang="fin">
             <t pos="N">vaatteet</t>
-            <t>pukimet</t>
+            <t pos="N">pukimet</t>
          </tg>
          <tg xml:lang="rus">
             <t>одежда</t>
@@ -55434,7 +55444,7 @@
          </m>
          <tg xml:lang="fin">
             <t pos="N">kenkien laittaminen jalkaan</t>
-            <t>kenkien jalkaan laitto</t>
+            <t pos="N">kenkien jalkaan laitto</t>
          </tg>
          <tg xml:lang="rus">
             <t>обувание</t>
@@ -55470,7 +55480,7 @@
          </m>
          <tg xml:lang="fin">
             <t pos="N">kenkien laittaminen jalkaan</t>
-            <t>kenkien jalkaan laitto</t>
+            <t pos="N">kenkien jalkaan laitto</t>
             <t pos="Prc">kengät jalassa oleva</t>
          </tg>
          <tg xml:lang="rus">
@@ -55488,8 +55498,8 @@
          </m>
          <tg xml:lang="fin">
             <t pos="N">petkutus</t>
-            <t>puijaus</t>
-            <t>veijaus</t>
+            <t pos="N">puijaus</t>
+            <t pos="N">veijaus</t>
          </tg>
          <tg xml:lang="rus">
             <t>надувательство</t>
@@ -55513,9 +55523,9 @@
          </m>
          <tg xml:lang="fin">
             <t pos="N">kenkien laitto jalkaan ja vaatteiden pukeminen</t>
-            <t>kengin ja vaattein varustaminen</t>
+            <t pos="N">kengin ja vaattein varustaminen</t>
             <t pos="Prc">kengät jalassa ja vaatteet yllä oleva</t>
-            <t>kengin ja vaattein varustettu</t>
+            <t pos="Prc">kengin ja vaattein varustettu</t>
          </tg>
          <tg xml:lang="rus">
             <t>обувание и одевание</t>
@@ -55547,7 +55557,7 @@
          </m>
          <tg xml:lang="fin">
             <t pos="Prc">(pohjaan) palanut</t>
-            <t>kärventynyt</t>
+            <t pos="Prc">kärventynyt</t>
          </tg>
          <tg xml:lang="rus">
             <t>пригорелый</t>
@@ -55575,7 +55585,7 @@
          <tg xml:lang="fin">
             <t pos="N">näperteleminen</t>
             <t>näpertelemis-</t>
-            <t>näpertely</t>
+            <t pos="N">näpertely</t>
          </tg>
          <tg xml:lang="rus">
             <t>делячество</t>
@@ -55597,12 +55607,12 @@
          <tg xml:lang="fin">
             <t pos="N">tilkitseminen</t>
             <t>tilkitsemis-</t>
-            <t>tinkintä(-)</t>
-            <t>tilkitys</t>
-            <t>riveäminen</t>
+            <t pos="N">tinkintä</t>
+            <t pos="N">tilkitys</t>
+            <t pos="N">riveäminen</t>
             <t>riveämis-</t>
-            <t>riveys</t>
-            <t pos="Prc">tilkitty, rivetty</t>
+            <t pos="Prc">tilkitty</t>
+            <t pos="Prc">rivetty</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="N">конопатка, конопа́чение</t>
@@ -55662,7 +55672,7 @@
          <tg xml:lang="fin">
             <t pos="N">sitominen</t>
             <t>sitomis-</t>
-            <t>sidonta</t>
+            <t pos="N">sidonta</t>
             <t pos="Prc">sidottu</t>
          </tg>
          <tg xml:lang="rus">
@@ -55690,7 +55700,7 @@
          <tg xml:lang="fin">
             <t pos="N">kääriminen</t>
             <t>käärimis-</t>
-            <t>käärintä</t>
+            <t pos="N">käärintä</t>
             <t pos="Prc">kääritty</t>
          </tg>
          <tg xml:lang="rus">
@@ -55713,7 +55723,7 @@
          <tg xml:lang="fin">
             <t pos="N">köyttäminen</t>
             <t>köyttämis-</t>
-            <t>köytäntä</t>
+            <t pos="N">köytäntä</t>
          </tg>
          <tg xml:lang="rus">
             <t>вязка, связывание</t>
@@ -55754,17 +55764,20 @@
          <tg xml:lang="fin">
             <t pos="N">sitominen</t>
             <t>sitomis-</t>
-            <t>sidonta</t>
-            <t>solmiminen</t>
+            <t pos="N">sidonta</t>
+            <t pos="N">solmiminen</t>
             <t>solmimis-</t>
-            <t>solminta</t>
-            <t>kääriminen</t>
+            <t pos="N">solminta</t>
+            <t pos="N">kääriminen</t>
             <t>käärimis-</t>
-            <t>käärintä</t>
-            <t>kytkeminen</t>
+            <t pos="N">käärintä</t>
+            <t pos="N">kytkeminen</t>
             <t>kytkemis-</t>
-            <t>kytkentä</t>
-            <t pos="Prc">solmittu, sidottu, kääritty, kytketty</t>
+            <t pos="N">kytkentä</t>
+            <t pos="Prc">solmittu</t>
+            <t pos="Prc">sidottu</t>
+            <t pos="Prc">kääritty</t>
+            <t pos="Prc">kytketty</t>
          </tg>
          <tg xml:lang="rus">
             <t>завязывание, перевязывание, перевязка</t>
@@ -55853,14 +55866,16 @@
          <tg xml:lang="fin">
             <t pos="N">sitominen</t>
             <t>sitomis-</t>
-            <t>sidonta</t>
-            <t>solmiminen</t>
+            <t pos="N">sidonta</t>
+            <t pos="N">solmiminen</t>
             <t>solmimis-</t>
-            <t>solminta</t>
-            <t>kiinnittäminen</t>
+            <t pos="N">solminta</t>
+            <t pos="N">kiinnittäminen</t>
             <t>kiinnittämis-</t>
-            <t>kiinnitys</t>
-            <t pos="Prc">solmittu, sidottu, kiinnitetty</t>
+            <t pos="N">kiinnitys</t>
+            <t pos="Prc">solmittu</t>
+            <t pos="Prc">sidottu</t>
+            <t pos="Prc">kiinnitetty</t>
          </tg>
          <tg xml:lang="rus">
             <t>перевязка</t>
@@ -56027,14 +56042,16 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>poimu</t>
-            <t>laskos</t>
-            <t>ryppy</t>
-            <t>kure</t>
+            <t pos="N">poimu</t>
+            <t pos="N">laskos</t>
+            <t pos="N">ryppy</t>
+            <t pos="N">kure</t>
             <t pos="A">poimuinen</t>
-            <t>poimukas</t>
-            <t>laskoksinen</t>
-            <t pos="Prc">poimutettu, laskostettu, rypytetty</t>
+            <t pos="A">poimukas</t>
+            <t pos="A">laskoksinen</t>
+            <t pos="Prc">poimutettu</t>
+            <t pos="Prc">laskostettu</t>
+            <t pos="Prc">rypytetty</t>
          </tg>
          <tg xml:lang="rus">
             <t>собранный, присобранный</t>
@@ -56077,7 +56094,7 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>lupaus</t>
+            <t pos="N">lupaus</t>
             <t pos="Prc">luvattu</t>
          </tg>
          <tg xml:lang="rus">
@@ -56111,7 +56128,7 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>lupaus</t>
+            <t pos="N">lupaus</t>
             <t pos="Prc">luvattu</t>
          </tg>
          <tg xml:lang="rus">
@@ -56146,9 +56163,9 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>sitoumus</t>
-            <t>velvoitus</t>
-            <t>velvoite</t>
+            <t pos="N">sitoumus</t>
+            <t pos="N">velvoitus</t>
+            <t pos="N">velvoite</t>
          </tg>
          <tg xml:lang="rus">
             <t>обязательство</t>
@@ -56185,8 +56202,8 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>neuvo</t>
-            <t>ohje</t>
+            <t pos="N">neuvo</t>
+            <t pos="N">ohje</t>
          </tg>
          <tg xml:lang="rus">
             <t>завет</t>
@@ -56217,13 +56234,13 @@
          </m>
          <tg xml:lang="fin">
             <t pos="N">halu</t>
-            <t>tahto</t>
-            <t>toivomus</t>
-            <t>toive</t>
-            <t>aikomus</t>
-            <t>aie</t>
-            <t>tarkoitus</t>
-            <t>lupaus</t>
+            <t pos="N">tahto</t>
+            <t pos="N">toivomus</t>
+            <t pos="N">toive</t>
+            <t pos="N">aikomus</t>
+            <t pos="N">aie</t>
+            <t pos="N">tarkoitus</t>
+            <t pos="N">lupaus</t>
          </tg>
          <tg xml:lang="rus">
             <t>желание, намерение, замысел, обещание</t>
@@ -56321,14 +56338,15 @@
          <tg xml:lang="fin">
             <t pos="N">liottaminen</t>
             <t>liottamis-</t>
-            <t>liotus</t>
-            <t>kostuttaminen</t>
+            <t pos="N">liotus</t>
+            <t pos="N">kostuttaminen</t>
             <t>kostuttamis-</t>
-            <t>kostutus</t>
-            <t>mausteliemeen säilöminen</t>
+            <t pos="N">kostutus</t>
+            <t pos="N">mausteliemeen säilöminen</t>
             <t>mausteliemeen säilömis-</t>
-            <t>mausteliemeen säilöntä</t>
-            <t pos="Prc">liotettu, kostutettu</t>
+            <t pos="N">mausteliemeen säilöntä</t>
+            <t pos="Prc">liotettu</t>
+            <t pos="Prc">kostutettu</t>
          </tg>
          <tg xml:lang="rus">
             <t>мочение</t>
@@ -56356,9 +56374,9 @@
          </m>
          <tg xml:lang="fin">
             <t pos="N">likoon paneminen</t>
-            <t>liottaminen</t>
+            <t pos="N">liottaminen</t>
             <t>liottamis-</t>
-            <t>liotus</t>
+            <t pos="N">liotus</t>
          </tg>
          <tg xml:lang="rus">
             <t>замачивание</t>
@@ -56384,7 +56402,7 @@
          <tg xml:lang="fin">
             <t pos="N">liottaminen</t>
             <t>liottamis-</t>
-            <t>liotus</t>
+            <t pos="N">liotus</t>
          </tg>
          <tg xml:lang="rus">
             <t>вымачивание</t>
@@ -56394,6 +56412,7 @@
          </tg>
          <xg>
             <x>кӧтӧдӧм жуг</x>
+            <xt xml:lang="fin">liotetut ruumenet</xt>
             <xt xml:lang="rus">вымоченная мякина</xt>
          </xg>
          <xg>
@@ -56411,6 +56430,7 @@
          </tg>
          <xg>
             <x>кӧтӧдӧм ветьӧк</x>
+            <xt xml:lang="fin">kostutettu riepu</xt>
             <xt xml:lang="rus">смоченная тряпка</xt>
          </xg>
       </mg>
@@ -56443,7 +56463,7 @@
          <tg xml:lang="fin">
             <t pos="N">alustaminen</t>
             <t>alustamis-</t>
-            <t>alustus</t>
+            <t pos="N">alustus</t>
          </tg>
          <tg xml:lang="rus">
             <t>творение</t>
@@ -56483,10 +56503,10 @@
          <tg xml:lang="fin">
             <t pos="N">vaeltaminen</t>
             <t>vaeltamis-</t>
-            <t>vaellus(-)</t>
-            <t>jutaaminen</t>
+            <t pos="N">vaellus</t>
+            <t pos="N">jutaaminen</t>
             <t>jutaamis-</t>
-            <t>jutaus(-)</t>
+            <t pos="N">jutaus</t>
          </tg>
          <tg xml:lang="rus">
             <t>кочевье, кочёвка</t>
@@ -57488,6 +57508,7 @@
          </tg>
          <xg>
             <x>пинь легӧм</x>
+            <xt xml:lang="fin">hampaan heiluminen</xt>
             <xt xml:lang="rus">шатание зуба</xt>
          </xg>
       </mg>
@@ -57743,6 +57764,7 @@
          </tg>
          <xg>
             <x>леститчӧм вӧк петкӧдӧ</x>
+            <xt xml:lang="fin">Liehittely ilmentää vastenmielisyyttä.</xt>
             <xt xml:lang="rus">лесть вызывает отвращение</xt>
          </xg>
       </mg>
@@ -57934,6 +57956,7 @@
          </xg>
          <xg>
             <x>летӧм еджыд вурун кодь кымӧръяс</x>
+            <xt xml:lang="fin">pilvet kuin valkoinen piesty villa</xt>
             <xt xml:lang="rus">облака, похожие на белую взбитую шерсть</xt>
          </xg>
       </mg>
@@ -57967,6 +57990,7 @@
          </tg>
          <xg>
             <x>тӧв летӧмысь пась пӧла кутны</x>
+            <xt xml:lang="fin">pitää kiinni turkin liepeestä, ettei tuli pieksäisi sitä</xt>
             <xt xml:lang="rus">придерживать рукой полы шубы, чтобы ветер не распахивал их</xt>
          </xg>
       </mg>
@@ -65593,18 +65617,23 @@
          </tg>
          <xg>
             <x>мудзӧм войтыр</x>
+            <xt xml:lang="fin">väsyneet ihmiset</xt>
+            <xt>väsynyt väki</xt>
             <xt xml:lang="rus">уставшие люди</xt>
          </xg>
          <xg>
             <x>мудзӧм гӧлӧс</x>
+            <xt xml:lang="fin">väsynyt ääni</xt>
             <xt xml:lang="rus">усталый голос</xt>
          </xg>
          <xg>
             <x>мудзӧм кывны</x>
+            <xt xml:lang="fin">tuntea väsymystä</xt>
             <xt xml:lang="rus">чувствовать усталость</xt>
          </xg>
          <xg>
             <x>мудзӧмлы сетчыны</x>
+            <xt xml:lang="fin">antaa periksi väsymykselle</xt>
             <xt xml:lang="rus">поддаться усталости</xt>
          </xg>
          <xg>
@@ -65614,7 +65643,7 @@
          </xg>
          <xg>
             <x>мудзӧм ме эг тӧдлы</x>
-            <xt xml:lang="fin">En tuntenut väsymystä.i</xt>
+            <xt xml:lang="fin">En tuntenut väsymystä.</xt>
             <xt xml:lang="rus">я не знала усталости</xt>
          </xg>
          <xg genreType="saying">
@@ -69093,15 +69122,15 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>vinkuminen</t>
+            <t pos="N">vinkuminen</t>
             <t>vinkumis-</t>
-            <t>vingunta</t>
-            <t>vikiseminen</t>
+            <t pos="N">vingunta</t>
+            <t pos="N">vikiseminen</t>
             <t>vikisemis-</t>
-            <t>vikinä</t>
-            <t>kirkuminen</t>
+            <t pos="N">vikinä</t>
+            <t pos="N">kirkuminen</t>
             <t>kirkumis-</t>
-            <t>kirkuna</t>
+            <t pos="N">kirkuna</t>
          </tg>
          <tg xml:lang="rus">
             <t>визг</t>
@@ -69127,15 +69156,15 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>pehmentyminen</t>
+            <t pos="N">pehmentyminen</t>
             <t>pehmentymis-</t>
-            <t>pehmeneminen</t>
+            <t pos="N">pehmeneminen</t>
             <t>pehmenemis-</t>
-            <t>likoaminen</t>
+            <t pos="N">likoaminen</t>
             <t>likoamis-</t>
-            <t>limoittuminen</t>
+            <t pos="N">limoittuminen</t>
             <t>limoittumis-</t>
-            <t>niljakkuus</t>
+            <t pos="N">niljakkuus</t>
             <t pos="Prc">pehmennyt</t>
             <t pos="Prc">lionnut</t>
          </tg>
@@ -69181,15 +69210,15 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>ylistäminen</t>
+            <t pos="N">ylistäminen</t>
             <t>ylistämis-</t>
-            <t>ylistys</t>
-            <t>kehuminen</t>
+            <t pos="N">ylistys</t>
+            <t pos="N">kehuminen</t>
             <t>kehumis-</t>
-            <t>kehunta</t>
-            <t>kuuluisuus</t>
-            <t>tunnettavuus</t>
-            <t>tiettävyys</t>
+            <t pos="N">kehunta</t>
+            <t pos="N">kuuluisuus</t>
+            <t pos="N">tunnettavuus</t>
+            <t pos="N">tiettävyys</t>
          </tg>
          <tg xml:lang="rus">
             <t>известность, слава, популярность</t>
@@ -69219,18 +69248,18 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>manaaminen</t>
+            <t pos="N">manaaminen</t>
             <t>manaamis-</t>
-            <t>manaus</t>
-            <t>noituminen</t>
+            <t pos="N">manaus</t>
+            <t pos="N">noituminen</t>
             <t>noitumis-</t>
-            <t>noidunta</t>
-            <t>taikominen</t>
-            <t>taikominen</t>
-            <t>taionta</t>
-            <t>panetteleminen</t>
+            <t pos="N">noidunta</t>
+            <t pos="N">taikominen</t>
+            <t>taikomis-</t>
+            <t pos="N">taionta</t>
+            <t pos="N">panetteleminen</t>
             <t>panettelemis-</t>
-            <t>panettelu</t>
+            <t pos="N">panettelu</t>
          </tg>
          <tg xml:lang="rus">
             <t>наговор</t>
@@ -69253,12 +69282,12 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>iloitseminen</t>
+            <t pos="N">iloitseminen</t>
             <t>iloitsemis-</t>
-            <t>ilo</t>
-            <t>riemuitseminen</t>
+            <t pos="N">ilo</t>
+            <t pos="N">riemuitseminen</t>
             <t>riemuitsemis-</t>
-            <t>riemu</t>
+            <t pos="N">riemu</t>
          </tg>
          <tg xml:lang="rus">
             <t>радость</t>
@@ -74329,6 +74358,7 @@
          </tg>
          <xg>
             <x>пагӧдӧм чери</x>
+            <xt xml:lang="fin">tainnutettu kala</xt>
             <xt xml:lang="rus">оглушённая рыба</xt>
          </xg>
       </mg>
@@ -74350,6 +74380,7 @@
          </tg>
          <xg>
             <x>висьысь понйӧс пагӧдӧм</x>
+            <xt xml:lang="fin">sairaan koiran nukutus</xt>
             <xt xml:lang="rus">усыпление больной собаки</xt>
          </xg>
       </mg>
@@ -74436,10 +74467,12 @@
          </tg>
          <xg>
             <x>казявны ёртлысь падмылӧм</x>
+            <xt xml:lang="fin">huomata ystävän hämillisyys</xt>
             <xt xml:lang="rus">заметить растерянность друга</xt>
          </xg>
          <xg>
             <x>виччысьтӧмла падмылӧм челядь воисны асас</x>
+            <xt xml:lang="fin">Yllätyksen vuoksi ymmälleen joutuneet lapset rauhoittuivat.</xt>
             <xt xml:lang="rus">от неожиданности растерявшиеся дети пришли в себя</xt>
          </xg>
       </mg>
@@ -74507,7 +74540,7 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t pos="N">viivytäminen</t>
+            <t pos="N">viivyttäminen</t>
             <t>viivyttämis-</t>
             <t pos="N">viivytys</t>
             <t pos="N">jarruttaminen</t>
@@ -74533,6 +74566,7 @@
          </tg>
          <xg>
             <x>зэръясӧн турун пуктӧм падмӧдӧм</x>
+            <xt xml:lang="fin">sateiden heinänteolle aiheuttama viivytys</xt>
             <xt xml:lang="rus">задержка сенокоса из-за дождей</xt>
          </xg>
       </mg>
@@ -74548,6 +74582,7 @@
          </tg>
          <xg>
             <x>сёрниясӧн уджысь падмӧдӧм</x>
+            <xt xml:lang="fin">työn häirintä puheilla</xt>
             <xt xml:lang="rus">отвлечение от работы разговорами</xt>
          </xg>
       </mg>
@@ -74563,6 +74598,7 @@
          </tg>
          <xg>
             <x>вредительясӧн падмӧдӧм стройка</x>
+            <xt xml:lang="fin">tuholaisten hajottama rakennus</xt>
             <xt xml:lang="rus">дезорганизованная вредителями стройка</xt>
          </xg>
       </mg>
@@ -74578,6 +74614,7 @@
          </tg>
          <xg>
             <x>виччысьтӧм юалӧмӧн падмӧдӧм морт</x>
+            <xt xml:lang="fin">odottamattomasta kyselystä häkeltynyt ihminen</xt>
             <xt xml:lang="rus">человек, ошеломлённый неожиданным вопросом</xt>
          </xg>
       </mg>
@@ -74618,18 +74655,22 @@
          </tg>
          <xg>
             <x>падмӧм чужӧма</x>
+            <xt xml:lang="fin">hämillisin kasvoin</xt>
             <xt xml:lang="rus">с растерянным лицом</xt>
          </xg>
          <xg>
             <x>повзьӧмысла падмӧм зонпосни сулалісны мыр моз</x>
+            <xt xml:lang="fin">Pelästymisestä häkeltyneet lapset seisoivat kuin kannot.</xt>
             <xt xml:lang="rus">растерявшиеся от испуга мальчишки стояли как вкопанные</xt>
          </xg>
          <xg>
             <x>йӧз падмӧмӧн пӧльзуйтчыны</x>
+            <xt xml:lang="fin">käyttää hyväkseen ihmisten häkeltymistä</xt>
             <xt xml:lang="rus">воспользоваться замешательством людей</xt>
          </xg>
          <xg>
             <x>эз петкӧдлы ни шензьӧм, ни падмӧм</x>
+            <xt xml:lang="fin">Hän ei osoittanut ihmetystä eikä häkeltymistä.</xt>
             <xt xml:lang="rus">у него не было видно ни удивления, ни растерянности</xt>
          </xg>
       </mg>
@@ -74644,6 +74685,7 @@
          </tg>
          <xg>
             <x>овмӧс падмӧм</x>
+            <xt xml:lang="fin">talouskriisi</xt>
             <xt xml:lang="rus">экономический кризис</xt>
          </xg>
       </mg>
@@ -74696,7 +74738,7 @@
             <t pos="N">ymmällä(än) olo</t>
             <t pos="N">empiminen</t>
             <t>empimis-</t>
-            <t pos="N">ujous</t>
+            <t pos="N">ujous </t>
          </tg>
          <tg xml:lang="rus">
             <t>смущение</t>
@@ -74709,6 +74751,7 @@
          </tg>
          <xg>
             <x>сы гӧлӧсын тӧдчис падъялӧм</x>
+            <xt xml:lang="fin">Hänen äänestään kuului hämmennys.</xt>
             <xt xml:lang="rus">в его голосе звучала растерянность</xt>
          </xg>
       </mg>
@@ -74734,10 +74777,12 @@
          </tg>
          <xg>
             <x>пажнайтӧм бӧрын куртны</x>
+            <xt xml:lang="fin">haravoida päivällisen jälkeen</xt>
             <xt xml:lang="rus">после обеда сгребать</xt>
          </xg>
          <xg>
             <x>пажнайтӧмыс дум вывсьыс вошліс</x>
+            <xt xml:lang="fin">Hän vallan unohti päivällisen.</xt>
             <xt xml:lang="rus">он совсем забыл об обеде</xt>
          </xg>
       </mg>
@@ -74776,10 +74821,12 @@
          </tg>
          <xg>
             <x>пазалӧм бутылка</x>
+            <xt xml:lang="fin">rikkoutunut pullo</xt>
             <xt xml:lang="rus">разбившаяся бутылка</xt>
          </xg>
          <xg>
             <x>пазалӧм ӧшинь</x>
+            <xt xml:lang="fin">rikkoutunut ikkuna</xt>
             <xt xml:lang="rus">разбитое окно</xt>
          </xg>
       </mg>
@@ -74875,6 +74922,7 @@
          </tg>
          <xg>
             <x>пазйӧм чашкаяс</x>
+            <xt xml:lang="fin">rikkonaiset lasit</xt>
             <xt xml:lang="rus">битые чашки</xt>
          </xg>
       </mg>
@@ -75000,10 +75048,12 @@
          </tg>
          <xg>
             <x>куйӧд пазӧдӧм</x>
+            <xt xml:lang="fin">lannan levittäminen</xt>
             <xt xml:lang="rus">разброска навоза</xt>
          </xg>
          <xg>
             <x>пазӧдӧм турун юр</x>
+            <xt xml:lang="fin">hajotettu heinäkasa</xt>
             <xt xml:lang="rus">раскиданная копна сена</xt>
          </xg>
       </mg>
@@ -75020,6 +75070,7 @@
          </tg>
          <xg>
             <x>дозмук пазӧдӧм</x>
+            <xt xml:lang="fin">astian särkeminen</xt>
             <xt xml:lang="rus">битьё посуды</xt>
          </xg>
       </mg>
@@ -75037,6 +75088,7 @@
          </tg>
          <xg>
             <x>пазӧдӧм кирпич</x>
+            <xt xml:lang="fin">rikottu tiili</xt>
             <xt xml:lang="rus">раздробленный кирпич</xt>
          </xg>
       </mg>
@@ -75075,6 +75127,7 @@
          </tg>
          <xg>
             <x>пакталӧм шыд пиӧ содтыны кондӧс</x>
+            <xt xml:lang="fin">lisätä kuiviin kiehuneeseen keittoon nestettä</xt>
             <xt xml:lang="rus">в выкипевший суп долить ранее отлитое</xt>
          </xg>
       </mg>
@@ -75135,10 +75188,12 @@
          </tg>
          <xg>
             <x>сола ва пактӧдӧм</x>
+            <xt xml:lang="fin">suolaveden haihdutus</xt>
             <xt xml:lang="rus">выпаривание соляного раствора</xt>
          </xg>
          <xg>
             <x>пактӧдӧм сола ва</x>
+            <xt xml:lang="fin">haihdutettu suolavesi</xt>
             <xt xml:lang="rus">выпаренный солёный раствор</xt>
          </xg>
       </mg>
@@ -75827,6 +75882,7 @@
          </tg>
          <xg>
             <x>кагаӧс паньӧдӧм</x>
+            <xt xml:lang="fin">lapsen syöttäminen lusikalla</xt>
             <xt xml:lang="rus">кормление ребёнка с ложки</xt>
          </xg>
       </mg>
@@ -77046,6 +77102,7 @@
          </tg>
          <xg>
             <x>патрайтӧм паськӧм</x>
+            <xt xml:lang="fin">tahraiset vaatteet</xt>
             <xt xml:lang="rus">измаранная одежда</xt>
          </xg>
       </mg>
@@ -77156,6 +77213,7 @@
          </tg>
          <xg>
             <x>кудель пачӧсайтӧм</x>
+            <xt xml:lang="fin">rohtimien karstaus</xt>
             <xt xml:lang="rus">чесание кудели</xt>
          </xg>
       </mg>
@@ -77176,6 +77234,7 @@
          </tg>
          <xg>
             <x>юрсиӧд пачӧсайтӧм</x>
+            <xt xml:lang="fin">tukistus</xt>
             <xt xml:lang="rus">трёпка волос, драка</xt>
          </xg>
       </mg>
@@ -77209,10 +77268,12 @@
          </tg>
          <xg>
             <x>озысьӧн паяйтӧм</x>
+            <xt xml:lang="fin">tinaaminen</xt>
             <xt xml:lang="rus">паяние оловом</xt>
          </xg>
          <xg>
             <x>паяйтӧм кӧш</x>
+            <xt xml:lang="fin">tinattu kauha</xt>
             <xt xml:lang="rus">паянный ковш</xt>
          </xg>
       </mg>
@@ -77342,6 +77403,7 @@
          </tg>
          <xg>
             <x>места вылын педзӧм</x>
+            <xt xml:lang="fin">paikallaan polkeminen</xt>
             <xt xml:lang="rus">топтание на месте</xt>
          </xg>
       </mg>
@@ -77392,6 +77454,7 @@
          </xg>
          <xg>
             <x>пежалӧм сёян</x>
+            <xt xml:lang="fin">saastunut ruoka</xt>
             <xt xml:lang="rus">осквернённая пища</xt>
          </xg>
          <xg>
@@ -77474,10 +77537,12 @@
          </tg>
          <xg>
             <x>пежасьӧм дой</x>
+            <xt xml:lang="fin">tulehtunut haava</xt>
             <xt xml:lang="rus">воспалённая, воспалившаяся рана</xt>
          </xg>
          <xg>
             <x>рана видзны пежасьӧмысь</x>
+            <xt xml:lang="fin">suojella haava tulehtumiselta</xt>
             <xt xml:lang="rus">беречь рану от воспаления</xt>
          </xg>
       </mg>
@@ -77632,6 +77697,7 @@
          </tg>
          <xg>
             <x>лёка пелегуйтӧм</x>
+            <xt xml:lang="fin">huono hoito</xt>
             <xt xml:lang="rus">плохой уход</xt>
          </xg>
       </mg>
@@ -77664,14 +77730,17 @@
          </tg>
          <xg>
             <x>асъя пелькӧдчӧм</x>
+            <xt xml:lang="fin">aamusiivous</xt>
             <xt xml:lang="rus">утренняя уборка</xt>
          </xg>
          <xg>
             <x>праздникводзвывса пелькӧдчӧм</x>
+            <xt xml:lang="fin">juhlia edeltävä siivous</xt>
             <xt xml:lang="rus">предпраздничная уборка</xt>
          </xg>
          <xg>
             <x>пелькӧдчӧм помавны</x>
+            <xt xml:lang="fin">lopettaa siivous</xt>
             <xtCtn>
                <xt xml:lang="rus">обрядиться</xt>
                <range rangeSpat="regional"/>
@@ -77709,10 +77778,12 @@
          </tg>
          <xg>
             <x>керка пытшкӧс пелькӧдӧм</x>
+            <xt xml:lang="fin">sisätilojen siivous</xt>
             <xt xml:lang="rus">приборка комнат</xt>
          </xg>
          <xg>
             <x>пелькӧдӧм улича</x>
+            <xt xml:lang="fin">lakaistu katu</xt>
             <xt xml:lang="rus">прибранная улица</xt>
          </xg>
       </mg>
@@ -77737,10 +77808,12 @@
          </tg>
          <xg>
             <x>куран пу пелькӧдӧм</x>
+            <xt xml:lang="fin">haravanvarren viimeistely</xt>
             <xt xml:lang="rus">отделка рукоятки грабель</xt>
          </xg>
          <xg>
             <x>пелькӧдӧм пурт вороп</x>
+            <xt xml:lang="fin">viimeistelty puukonkahva</xt>
             <xt xml:lang="rus">отделанный черенок ножа</xt>
          </xg>
       </mg>
@@ -77773,6 +77846,7 @@
          </tg>
          <xg>
             <x>гриппӧн висьӧм бӧрын пельтӧммӧм кага</x>
+            <xt xml:lang="fin">nuhakuumeen jälkeen kuuroutunut lapsi</xt>
             <xt xml:lang="rus">ребёнок, потерявший слух после болезни гриппом</xt>
          </xg>
       </mg>
@@ -77818,19 +77892,25 @@
          </tg>
          <xg>
             <x>плака пельӧм</x>
+            <xt xml:lang="fin">lankun halkaisu</xt>
             <xt xml:lang="rus">сколок доски</xt>
          </xg>
          <xg>
             <x>тьӧс пельӧм</x>
+            <xt xml:lang="fin">laudan halkaisu</xt>
             <xt xml:lang="rus">сколок тёса</xt>
          </xg>
          <xg>
             <x>верӧс сайӧ мунӧм нылыд — пельӧм чаг</x>
+            <xt xml:lang="fin">Naimisiin mennyt tytär on etääntynyt (muista).</xt>
+            <xt tType="literal" xml:lang="fin">Naimisiin mennyt tytär on veistetty lastu.</xt>
             <xt xml:lang="rus">замужняя дочь — отрезанный ломоть</xt>
             <xt tType="literal" xml:lang="rus">отколотая щепа</xt>
          </xg>
          <xg genreType="saying">
             <x>кутшӧм сюрӧс пуыс, сэтшӧм и пельӧм чагйыс</x>
+            <xt xml:lang="fin">Millaiset vanhemmat, sellaiset lapset.</xt>
+            <xt tType="literal" xml:lang="fin">Millainen on puuaines, sellainen on veistetty lastu</xt>
             <xt xml:lang="rus">каковы родители, таковы и дети</xt>
             <xt tType="literal" xml:lang="rus">каково дерево, таковы и щепки</xt>
          </xg>
@@ -77871,6 +77951,7 @@
          </tg>
          <xg>
             <x>пелялӧм пӧв</x>
+            <xt xml:lang="fin">halottu lauta</xt>
             <xt xml:lang="rus">расщеплённая доска</xt>
          </xg>
       </mg>
@@ -77923,6 +78004,7 @@
          </tg>
          <xg>
             <x>кино видзӧдӧм могысь пемдӧдӧм класс</x>
+            <xt xml:lang="fin">elokuvan katsomista varten pimennetty luokka</xt>
             <xt xml:lang="rus">затемнённый класс для просмотра кинофильма</xt>
          </xg>
       </mg>
@@ -78018,10 +78100,10 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t pos="N">uudestiaseistaminen</t>
-            <t>uudestiaseistamis-</t>
+            <t pos="N">uudelleenaseistaminen</t>
+            <t>uudelleensseistamis-</t>
             <t pos="N">uusilla aseilla varustaminen</t>
-            <t pos="Prc">uudestiaseistettu</t>
+            <t pos="Prc">uudelleenaseistettu</t>
             <t pos="Prc">uusilla aseilla varustettu</t>
          </tg>
          <tg xml:lang="rus">
@@ -78032,7 +78114,7 @@
          </tg>
          <xg>
             <x>армия перевооружитӧм</x>
-            <xt xml:lang="fin">armeijan uudestiaseistaminen</xt>
+            <xt xml:lang="fin">armeijan uudelleenaseistaminen</xt>
             <xt xml:lang="rus">перевооружение армии</xt>
          </xg>
       </mg>
@@ -87811,14 +87893,17 @@
          </tg>
          <xg>
             <x>пыкталӧм кокъяс</x>
+            <xt xml:lang="fin">turvonneet jalat</xt>
             <xt xml:lang="rus">опухшие ноги</xt>
          </xg>
          <xg>
             <x>син гуран пыкталӧм</x>
+            <xt xml:lang="fin">silmänalusten turvotus</xt>
             <xt xml:lang="rus">отёки под глазами</xt>
          </xg>
          <xg>
             <x>чужӧм пыкталӧм</x>
+            <xt xml:lang="fin">kasvojen turvotus</xt>
             <xt xml:lang="rus">отёк лица</xt>
          </xg>
       </mg>
@@ -87851,10 +87936,12 @@
          </tg>
          <xg>
             <x>пыктыштӧм бан бокъяс</x>
+            <xt xml:lang="fin">turvonneet posket</xt>
             <xt xml:lang="rus">пухлые щёки</xt>
          </xg>
          <xg>
             <x>пыктыштӧм ныра</x>
+            <xt xml:lang="fin">turpeanenäinen</xt>
             <xt xml:lang="rus">с припухлым носом</xt>
          </xg>
       </mg>
@@ -87888,18 +87975,22 @@
          </tg>
          <xg>
             <x>пыктӧм бан бок</x>
+            <xt xml:lang="fin">turvonnut poski</xt>
             <xt xml:lang="rus">вздутая щека</xt>
          </xg>
          <xg>
             <x>пыктӧм ныр</x>
+            <xt xml:lang="fin">turvonnut nenä</xt>
             <xt xml:lang="rus">распухший нос</xt>
          </xg>
          <xg>
             <x>пыктӧм синъяс</x>
+            <xt xml:lang="fin">turvonneet silmät</xt>
             <xt xml:lang="rus">опухшие глаза</xt>
          </xg>
          <xg>
             <x>кок пыктӧм вӧсна</x>
+            <xt xml:lang="fin">jalan turpoamisen vuoksi</xt>
             <xt xml:lang="rus">из-за опухлости ног</xt>
          </xg>
       </mg>
@@ -87945,6 +88036,7 @@
          </tg>
          <xg>
             <x>майӧгъясӧн пыкӧм забор</x>
+            <xt xml:lang="fin">seipäin tuettu aita</xt>
             <xt xml:lang="rus">кольями подпёртый забор</xt>
          </xg>
       </mg>
@@ -87966,6 +88058,7 @@
          </tg>
          <xg>
             <x>стенӧ пыкӧм кер</x>
+            <xt xml:lang="fin">seinään nojautuva hirsi</xt>
             <xt xml:lang="rus">упёртое в стену бревно</xt>
          </xg>
       </mg>
@@ -87987,10 +88080,12 @@
          </tg>
          <xg>
             <x>дой пыкӧм</x>
+            <xt xml:lang="fin">kivun kestäminen</xt>
             <xt xml:lang="rus">перенесение боли</xt>
          </xg>
          <xg>
             <x>шог пыкӧм</x>
+            <xt xml:lang="fin">surun kestäminen</xt>
             <xt xml:lang="rus">перенесение горя</xt>
          </xg>
       </mg>
@@ -88022,6 +88117,7 @@
          </tg>
          <xg>
             <x>пылльӧм ӧрешки</x>
+            <xt xml:lang="fin">kuoritut pähkinät</xt>
             <xt xml:lang="rus">лущёный орех</xt>
          </xg>
       </mg>
@@ -88047,6 +88143,7 @@
          </tg>
          <xg>
             <x>дозмук пылльӧм</x>
+            <xt xml:lang="fin">astian särkeminen</xt>
             <xt xml:lang="rus">битьё посуды</xt>
          </xg>
       </mg>
@@ -88074,6 +88171,7 @@
          </tg>
          <xg>
             <x>пылльӧм сьӧм</x>
+            <xt xml:lang="fin">tuhlattu raha</xt>
             <xt xml:lang="rus">растранжиренные деньги</xt>
          </xg>
       </mg>
@@ -88140,10 +88238,12 @@
          </tg>
          <xg>
             <x>кӧч пыльӧм</x>
+            <xt xml:lang="fin">jäniksen pyydys</xt>
             <xt xml:lang="rus">ловушка, приспособленная для ловли зайца</xt>
          </xg>
          <xg>
             <x>ош пыльӧм</x>
+            <xt xml:lang="fin">karhun pyydys</xt>
             <xt xml:lang="rus">западня, приспособленная для ловли медведя</xt>
          </xg>
          <xg>
@@ -88152,6 +88252,7 @@
          </xg>
          <xg>
             <x>кӧч моз пыльӧмӧ пырны</x>
+            <xt tType="literal" xml:lang="fin">astua loukkuun kuin jänis</xt>
             <xt xml:lang="rus">связать себя по рукам и ногам</xt>
             <xt tType="literal" xml:lang="rus">попасть, как заяц, в западню</xt>
          </xg>
@@ -88182,6 +88283,7 @@
          </tg>
          <xg>
             <x>гортӧ пыралӧм бӧрын</x>
+            <xt xml:lang="fin">kotona käymisen jälkeen</xt>
             <xt xml:lang="rus">после того, как заходил домой</xt>
          </xg>
          <xg>
@@ -95729,10 +95831,12 @@
          </tg>
          <xg>
             <x>йӧв рысьмӧм</x>
+            <xt xml:lang="fin">paidon piimiminen</xt>
             <xt xml:lang="rus">свёртывание молока</xt>
          </xg>
          <xg>
             <x>рысьмӧм шомйӧв</x>
+            <xt xml:lang="fin">kokkelipiimä</xt>
             <xt xml:lang="rus">створожившаяся простокваша</xt>
          </xg>
       </mg>
@@ -95771,11 +95875,12 @@
             <semRel No="1" lemmaID="рытйысьӧм_N" semRelType="see"/>
          </m>
          <tg xml:lang="fin">
-            <t>illanistujaiset</t>
-            <t>illanvietto</t>
+            <t pos="N">illanistujaiset</t>
+            <t pos="N">illanvietto</t>
          </tg>
          <xg>
             <x>рытпукӧм вӧчны</x>
+            <xt xml:lang="fin">järjestää illanistujaiset</xt>
             <xt xml:lang="rus">устроить вечеринку</xt>
          </xg>
       </mg>
@@ -95835,10 +95940,12 @@
          </tg>
          <xg>
             <x>виччысьны кага рӧдитчӧм</x>
+            <xt xml:lang="fin">odottaa lapsen syntymää</xt>
             <xt xml:lang="rus">ждать рождение ребёнка</xt>
          </xg>
          <xg>
             <x>сійӧ рӧдитчӧмсяньыс пельтӧм</x>
+            <xt xml:lang="fin">Hän on syntymäkuuro.</xt>
             <xt xml:lang="rus">он глухой от рождения</xt>
          </xg>
       </mg>
@@ -95882,14 +95989,17 @@
          </tg>
          <xg>
             <x>вежон сайын рӧдитӧм кага</x>
+            <xt xml:lang="fin">viikko sitten syntynyt lapsi</xt>
             <xt xml:lang="rus">рождённый неделю назад ребёнок</xt>
          </xg>
          <xg>
             <x>срокысь водз рӧдитӧм</x>
+            <xt xml:lang="fin">ennenaikainen syntyminen</xt>
             <xt xml:lang="rus">преждевременные роды</xt>
          </xg>
          <xg>
             <x>сьӧкыда рӧдитӧм</x>
+            <xt xml:lang="fin">vaikea synnytys</xt>
             <xt xml:lang="rus">тяжёлые роды</xt>
          </xg>
       </mg>
@@ -96204,60 +96314,79 @@
          </tg>
          <xg>
             <x>асъя кыа рӧмъяс</x>
+            <xt xml:lang="fin">aamuruskon värit</xt>
             <xt xml:lang="rus">краски утренней зари</xt>
          </xg>
          <xg>
             <x>гулю зоб рӧм</x>
+            <xt xml:lang="fin">violetti</xt>
+            <xt>lila</xt>
+            <xt>sinipunainen</xt>
             <xt xml:lang="rus">фиолетовый, фиолетового цвета</xt>
          </xg>
          <xg>
             <x>идзас рӧм , мырпом рӧм</x>
+            <xt xml:lang="fin">oljenvärinen</xt>
             <xt xml:lang="rus">соломенный цвет</xt>
          </xg>
          <xg>
             <x>льӧм рӧм</x>
+            <xt xml:lang="fin">ruskea</xt>
+            <xt>tuomen väri</xt>
             <xt xml:lang="rus">коричневый, тёмно-бордовый цвет</xt>
          </xg>
          <xg>
             <x>му рӧм</x>
+            <xt xml:lang="fin">harmaanruskea</xt>
+            <xt>maan väri</xt>
             <xt xml:lang="rus">бурый цвет</xt>
          </xg>
          <xg>
             <x>пемыдгӧрд рӧм</x>
+            <xt xml:lang="fin">tummanpunainen</xt>
+            <xt>purppuranpunainen</xt>
             <xt xml:lang="rus">багрянец</xt>
          </xg>
          <xg>
             <x>пӧжӧм йӧв рӧм</x>
+            <xt xml:lang="fin">beige (keitetyn maidon väri)</xt>
             <xt xml:lang="rus">бежевый</xt>
             <xt xml:lang="rus">кремовый</xt>
          </xg>
          <xg>
             <x>пув рӧм</x>
+            <xt xml:lang="fin">puolukan väri</xt>
             <xt xml:lang="rus">густо-розовый, брусничный цвет</xt>
          </xg>
          <xg>
             <x>сайӧдан рӧм</x>
             <domain>зоол.</domain>
+            <xt xml:lang="fin">suojaväri</xt>
             <xt xml:lang="rus">покровительственная окраска</xt>
          </xg>
          <xg>
             <x>синмӧ шыбитчан рӧм</x>
+            <xt xml:lang="fin">silmäänpistävä väri</xt>
             <xt xml:lang="rus">броский цвет</xt>
          </xg>
          <xg>
             <x>синлӧн югыдлӧз рӧм</x>
+            <xt xml:lang="fin">(taivaan)siniset silmät</xt>
             <xt xml:lang="rus">голубизна глаз</xt>
          </xg>
          <xg>
             <x>югыд да пемыд рӧмъяс</x>
+            <xt xml:lang="fin">vaaleat ja tummat sävyt</xt>
             <xt xml:lang="rus">светлые и тёмные тона</xt>
          </xg>
          <xg>
             <x>ӧшкамӧшка рӧмӧн пӧртмасьны</x>
+            <xt xml:lang="fin">välkkyä sateenkaaren väreissä</xt>
             <xt xml:lang="rus">переливаться всеми цветами радуги</xt>
          </xg>
          <xg>
             <x>зарни рӧмӧн югъялӧны муяс</x>
+            <xt xml:lang="fin">kullanvärisinä hehkuvat pellot</xt>
             <xt xml:lang="rus">золотистым отливом сияют поля</xt>
          </xg>
       </mg>
@@ -109477,18 +109606,18 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>koputtaminen</t>
+            <t pos="N">koputtaminen</t>
             <t>koputtamis-</t>
-            <t>koputus</t>
-            <t>kolkuttaminen</t>
+            <t pos="N">koputus</t>
+            <t pos="N">kolkuttaminen</t>
             <t>kolkuttamis-</t>
-            <t>kolkutus</t>
-            <t>nakuttaminen</t>
+            <t pos="N">kolkutus</t>
+            <t pos="N">nakuttaminen</t>
             <t>nakuttamis-</t>
-            <t>nakutus</t>
-            <t>naputtaminen</t>
+            <t pos="N">nakutus</t>
+            <t pos="N">naputtaminen</t>
             <t>naputtamis-</t>
-            <t>naputus</t>
+            <t pos="N">naputus</t>
          </tg>
          <tg xml:lang="rus">
             <t>стук</t>
@@ -109512,13 +109641,14 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>rikkominen</t>
+            <t pos="N">rikkominen</t>
             <t>rikkomis-</t>
-            <t>rikkomus</t>
-            <t>häiritseminen</t>
+            <t pos="N">rikkomus</t>
+            <t pos="N">häiritseminen</t>
             <t>häiritsemis-</t>
-            <t>häirintä</t>
-            <t pos="Prc">rikottu, häiritty</t>
+            <t pos="N">häirintä</t>
+            <t pos="Prc">rikottu</t>
+            <t pos="Prc">häiritty</t>
          </tg>
          <tg xml:lang="rus">
             <t>нарушение</t>
@@ -109549,23 +109679,23 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>murskaaminen</t>
+            <t pos="N">murskaaminen</t>
             <t>murskaamis-</t>
-            <t>murskaus</t>
-            <t>murentaminen</t>
+            <t pos="N">murskaus</t>
+            <t pos="N">murentaminen</t>
             <t>murentamis-</t>
-            <t>murennus</t>
-            <t>rouhiminen</t>
+            <t pos="N">murennus</t>
+            <t pos="N">rouhiminen</t>
             <t>rouhimis-</t>
-            <t>rouhinta</t>
-            <t>pirstominen</t>
+            <t pos="N">rouhinta</t>
+            <t pos="N">pirstominen</t>
             <t>pirstomis-</t>
-            <t>pirstonta</t>
-            <t>pilkkominen</t>
+            <t pos="N">pirstonta</t>
+            <t pos="N">pilkkominen</t>
             <t>pilkkomis-</t>
-            <t>pienentäminen</t>
+            <t pos="N">pienentäminen</t>
             <t>pienentämis-</t>
-            <t>pienennys</t>
+            <t pos="N">pienennys</t>
          </tg>
          <tg xml:lang="rus">
             <t>дробление</t>
@@ -109595,17 +109725,17 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>moittiminen</t>
+            <t pos="N">moittiminen</t>
             <t>moittimis-</t>
-            <t>moitinta</t>
-            <t>paheksuminen</t>
+            <t pos="N">moitinta</t>
+            <t pos="N">paheksuminen</t>
             <t>paheksumis-</t>
-            <t>paheksunta</t>
-            <t>nuhteleminen</t>
+            <t pos="N">paheksunta</t>
+            <t pos="N">nuhteleminen</t>
             <t>nuhtelemis-</t>
-            <t>läksyttäminen</t>
+            <t pos="N">läksyttäminen</t>
             <t>läksyttämis-</t>
-            <t>läksytys</t>
+            <t pos="N">läksytys</t>
          </tg>
          <tg xml:lang="rus">
             <t>порицание, выговор</t>
@@ -109660,13 +109790,13 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>eroavuus</t>
-            <t>eroavaisuus</t>
-            <t>eriävyys</t>
-            <t>erilaisuus</t>
-            <t>ero</t>
-            <t>erikoispiirre</t>
-            <t>poikkeavuus</t>
+            <t pos="N">eroavuus</t>
+            <t pos="N">eroavaisuus</t>
+            <t pos="N">eriävyys</t>
+            <t pos="N">erilaisuus</t>
+            <t pos="N">ero</t>
+            <t pos="N">erikoispiirre</t>
+            <t pos="N">poikkeavuus</t>
          </tg>
          <tg xml:lang="rus">
             <t>особенность, отличие, различие</t>
@@ -109744,15 +109874,15 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>marmattaminen</t>
+            <t pos="N">marmattaminen</t>
             <t>marmattamis-</t>
-            <t>marmatus</t>
-            <t>mariseminen</t>
+            <t pos="N">marmatus</t>
+            <t pos="N">mariseminen</t>
             <t>marisemis-</t>
             <t>marina</t>
-            <t>purpattaminen</t>
+            <t pos="N">purpattaminen</t>
             <t>purpattamis-</t>
-            <t>purpatus</t>
+            <t pos="N">purpatus</t>
          </tg>
          <tg xml:lang="rus">
             <t>воркотня</t>
@@ -109773,15 +109903,15 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>mariseminen</t>
+            <t pos="N">mariseminen</t>
             <t>marisemis-</t>
-            <t>marina</t>
-            <t>marmattaminen</t>
+            <t pos="N">marina</t>
+            <t pos="N">marmattaminen</t>
             <t>marmattamis-</t>
-            <t>marmatus</t>
-            <t>jupiseminen</t>
+            <t pos="N">marmatus</t>
+            <t pos="N">jupiseminen</t>
             <t>jupisemis-</t>
-            <t>jupina</t>
+            <t pos="N">jupina</t>
          </tg>
          <tg xml:lang="rus">
             <t>брюзжание, ворчание, воркотня</t>
@@ -109802,18 +109932,18 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>koputtaminen</t>
+            <t pos="N">koputtaminen</t>
             <t>koputtamis-</t>
-            <t>koputus</t>
-            <t>kolkuttaminen</t>
+            <t pos="N">koputus</t>
+            <t pos="N">kolkuttaminen</t>
             <t>kolkuttamis-</t>
-            <t>kolkutus</t>
-            <t>nakuttaminen</t>
+            <t pos="N">kolkutus</t>
+            <t pos="N">nakuttaminen</t>
             <t>nakuttamis-</t>
-            <t>nakutus</t>
-            <t>naputtaminen</t>
+            <t pos="N">nakutus</t>
+            <t pos="N">naputtaminen</t>
             <t>naputtamis-</t>
-            <t>naputus</t>
+            <t pos="N">naputus</t>
          </tg>
          <tg xml:lang="rus">
             <t>стук</t>
@@ -109840,18 +109970,18 @@
             <semRel No="1" lemmaID="тотшкӧдчӧм_N" semRelType="see"/>
          </m>
          <tg xml:lang="fin">
-            <t>koputtaminen</t>
+            <t pos="N">koputtaminen</t>
             <t>koputtamis-</t>
-            <t>koputus</t>
-            <t>kolkuttaminen</t>
+            <t pos="N">koputus</t>
+            <t pos="N">kolkuttaminen</t>
             <t>kolkuttamis-</t>
-            <t>kolkutus</t>
-            <t>nakuttaminen</t>
+            <t pos="N">kolkutus</t>
+            <t pos="N">nakuttaminen</t>
             <t>nakuttamis-</t>
-            <t>nakutus</t>
-            <t>naputtaminen</t>
+            <t pos="N">nakutus</t>
+            <t pos="N">naputtaminen</t>
             <t>naputtamis-</t>
-            <t>naputus</t>
+            <t pos="N">naputus</t>
          </tg>
       </mg>
    </e>
@@ -109868,18 +109998,18 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>koputtaminen</t>
+            <t pos="N">koputtaminen</t>
             <t>koputtamis-</t>
-            <t>koputus</t>
-            <t>kolkuttaminen</t>
+            <t pos="N">koputus</t>
+            <t pos="N">kolkuttaminen</t>
             <t>kolkuttamis-</t>
-            <t>kolkutus</t>
-            <t>nakuttaminen</t>
+            <t pos="N">kolkutus</t>
+            <t pos="N">nakuttaminen</t>
             <t>nakuttamis-</t>
-            <t>nakutus</t>
-            <t>naputtaminen</t>
+            <t pos="N">nakutus</t>
+            <t pos="N">naputtaminen</t>
             <t>naputtamis-</t>
-            <t>naputus</t>
+            <t pos="N">naputus</t>
          </tg>
          <tg xml:lang="rus">
             <t>стук</t>
@@ -109904,9 +110034,9 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>kopiseminen</t>
+            <t pos="N">kopiseminen</t>
             <t>kopisemis-</t>
-            <t>kopina</t>
+            <t pos="N">kopina</t>
          </tg>
          <tg xml:lang="rus">
             <tCtn>
@@ -109933,18 +110063,18 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>kopiseminen</t>
+            <t pos="N">kopiseminen</t>
             <t>kopisemis-</t>
-            <t>kopina</t>
-            <t>jymiseminen</t>
+            <t pos="N">kopina</t>
+            <t pos="N">jymiseminen</t>
             <t>jymisemis-</t>
-            <t>jyminä</t>
-            <t>jyliseminen</t>
+            <t pos="N">jyminä</t>
+            <t pos="N">jyliseminen</t>
             <t>jylisemis-</t>
-            <t>jylinä</t>
-            <t>jyly</t>
-            <t>jyminä</t>
-            <t>pauhu</t>
+            <t pos="N">jylinä</t>
+            <t pos="N">jyly</t>
+            <t pos="N">jyminä</t>
+            <t pos="N">pauhu</t>
          </tg>
          <tg xml:lang="rus">
             <t>стук</t>
@@ -109974,18 +110104,18 @@
             <semRel No="1" lemmaID="тотшкӧдӧм_N" semRelType="see"/>
          </m>
          <tg xml:lang="fin">
-            <t>koputtaminen</t>
+            <t pos="N">koputtaminen</t>
             <t>koputtamis-</t>
-            <t>koputus</t>
-            <t>kolkuttaminen</t>
+            <t pos="N">koputus</t>
+            <t pos="N">kolkuttaminen</t>
             <t>kolkuttamis-</t>
-            <t>kolkutus</t>
-            <t>nakuttaminen</t>
+            <t pos="N">kolkutus</t>
+            <t pos="N">nakuttaminen</t>
             <t>nakuttamis-</t>
-            <t>nakutus</t>
-            <t>naputtaminen</t>
+            <t pos="N">nakutus</t>
+            <t pos="N">naputtaminen</t>
             <t>naputtamis-</t>
-            <t>naputus</t>
+            <t pos="N">naputus</t>
          </tg>
       </mg>
    </e>
@@ -110003,15 +110133,15 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>raksuttaminen</t>
+            <t pos="N">raksuttaminen</t>
             <t>raksuttamis-</t>
-            <t>raksutus</t>
-            <t>tikittäminen</t>
+            <t pos="N">raksutus</t>
+            <t pos="N">tikittäminen</t>
             <t>tikittämis-</t>
-            <t>tikitys</t>
-            <t>naksuttaminen</t>
+            <t pos="N">tikitys</t>
+            <t pos="N">naksuttaminen</t>
             <t>naksuttamis-</t>
-            <t>naksutus</t>
+            <t pos="N">naksutus</t>
          </tg>
          <tg xml:lang="rus">
             <t>тиканье</t>
@@ -110035,12 +110165,12 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>parroittuminen</t>
+            <t pos="N">parroittuminen</t>
             <t>parroittumis-</t>
-            <t>parroitus</t>
-            <t>parran kasvaminen</t>
+            <t pos="N">parroitus</t>
+            <t pos="N">parran kasvaminen</t>
             <t>parran kasvamis-</t>
-            <t>parrankasvu</t>
+            <t pos="N">parrankasvu</t>
          </tg>
          <tg xml:lang="rus">
             <t>обрастание бородой</t>
@@ -110063,14 +110193,15 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>vahingoittaminen</t>
+            <t pos="N">vahingoittaminen</t>
             <t>vahingoittamis-</t>
-            <t>vahingoitus</t>
-            <t>haaskaaminen</t>
+            <t pos="N">vahingoitus</t>
+            <t pos="N">haaskaaminen</t>
             <t>haaskaamis-</t>
-            <t>haaskaus</t>
-            <t>haaskuu</t>
-            <t pos="Prc">vahingoitettu, haaskattu</t>
+            <t pos="N">haaskaus</t>
+            <t pos="N">haaskuu</t>
+            <t pos="Prc">vahingoitettu</t>
+            <t pos="Prc">haaskattu</t>
          </tg>
          <tg xml:lang="rus">
             <t>потрава</t>
@@ -110088,12 +110219,12 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>syövyttäminen</t>
+            <t pos="N">syövyttäminen</t>
             <t>syövyttämis-</t>
-            <t>syövytys</t>
-            <t>etsaaminen</t>
+            <t pos="N">syövytys</t>
+            <t pos="N">etsaaminen</t>
             <t>etsaamis-</t>
-            <t>etsaus</t>
+            <t pos="N">etsaus</t>
          </tg>
          <tg xml:lang="rus">
             <t>травление</t>
@@ -110118,16 +110249,16 @@
             <semRel No="1" lemmaID="трачкӧм_N" semRelType="see"/>
          </m>
          <tg xml:lang="fin">
-            <t>rytiseminen</t>
+            <t pos="N">rytiseminen</t>
             <t>rytisemis-</t>
-            <t>rytinä</t>
-            <t>rasahteleminen</t>
+            <t pos="N">rytinä</t>
+            <t pos="N">rasahteleminen</t>
             <t>rasahtelemis-</t>
-            <t>rasahtelu</t>
-            <t>rasahdus</t>
-            <t>ritinä</t>
-            <t>ryske</t>
-            <t>pauke</t>
+            <t pos="N">rasahtelu</t>
+            <t pos="N">rasahdus</t>
+            <t pos="N">ritinä</t>
+            <t pos="N">ryske</t>
+            <t pos="N">pauke</t>
          </tg>
       </mg>
    </e>
@@ -110144,21 +110275,21 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>ritiseminen</t>
+            <t pos="N">ritiseminen</t>
             <t>ritisemis-</t>
-            <t>ritinä</t>
-            <t>rätiseminen</t>
+            <t pos="N">ritinä</t>
+            <t pos="N">rätiseminen</t>
             <t>rätisemis-</t>
-            <t>rätinä</t>
-            <t>rytiseminen</t>
+            <t pos="N">rätinä</t>
+            <t pos="N">rytiseminen</t>
             <t>rytisemis-</t>
-            <t>rytinä</t>
-            <t>rasahteleminen</t>
+            <t pos="N">rytinä</t>
+            <t pos="N">rasahteleminen</t>
             <t>rasahtelemis-</t>
-            <t>rasahtelu</t>
-            <t>rasahdus</t>
-            <t>ryske</t>
-            <t>pauke</t>
+            <t pos="N">rasahtelu</t>
+            <t pos="N">rasahdus</t>
+            <t pos="N">ryske</t>
+            <t pos="N">pauke</t>
          </tg>
          <tg xml:lang="rus">
             <t>треск, трескотня</t>
@@ -110187,16 +110318,16 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>rytiseminen</t>
+            <t pos="N">rytiseminen</t>
             <t>rytisemis-</t>
-            <t>rytinä</t>
-            <t>rasahteleminen</t>
+            <t pos="N">rytinä</t>
+            <t pos="N">rasahteleminen</t>
             <t>rasahtelemis-</t>
-            <t>rasahtelu</t>
-            <t>rasahdus</t>
-            <t>ritinä</t>
-            <t>ryske</t>
-            <t>pauke</t>
+            <t pos="N">rasahtelu</t>
+            <t pos="N">rasahdus</t>
+            <t pos="N">ritinä</t>
+            <t pos="N">ryske</t>
+            <t pos="N">pauke</t>
          </tg>
          <tg xml:lang="rus">
             <t>треск</t>
@@ -110225,16 +110356,16 @@
             <semRel lemmaID="трачкӧм_N" semRelType="see"/>
          </m>
          <tg xml:lang="fin">
-            <t>rytiseminen</t>
+            <t pos="N">rytiseminen</t>
             <t>rytisemis-</t>
-            <t>rytinä</t>
-            <t>rasahteleminen</t>
+            <t pos="N">rytinä</t>
+            <t pos="N">rasahteleminen</t>
             <t>rasahtelemis-</t>
-            <t>rasahtelu</t>
-            <t>rasahdus</t>
-            <t>ritinä</t>
-            <t>ryske</t>
-            <t>pauke</t>
+            <t pos="N">rasahtelu</t>
+            <t pos="N">rasahdus</t>
+            <t pos="N">ritinä</t>
+            <t pos="N">ryske</t>
+            <t pos="N">pauke</t>
          </tg>
          <xg>
             <x>дрӧгнитны трачмунӧмысь</x>
@@ -110331,14 +110462,14 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>valmentautuminen</t>
+            <t pos="N">valmentautuminen</t>
             <t>valmentautumis-</t>
-            <t>harjoitteleminen</t>
+            <t pos="N">harjoitteleminen</t>
             <t>harjoittelemis-</t>
-            <t>harjoittelu</t>
-            <t>treenaaminen</t>
+            <t pos="N">harjoittelu</t>
+            <t pos="N">treenaaminen</t>
             <t>treenaamis-</t>
-            <t>treenaus</t>
+            <t pos="N">treenaus</t>
          </tg>
          <tg xml:lang="rus">
             <t>тренировка</t>
@@ -110362,18 +110493,18 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>valmentaminen</t>
+            <t pos="N">valmentaminen</t>
             <t>valmentamis-</t>
-            <t>valmennus</t>
-            <t>harjoittaminen</t>
+            <t pos="N">valmennus</t>
+            <t pos="N">harjoittaminen</t>
             <t>harjoittamis-</t>
-            <t>harjoitus</t>
-            <t>harjaannuttaminen</t>
+            <t pos="N">harjoitus</t>
+            <t pos="N">harjaannuttaminen</t>
             <t>harjaannuttamis-</t>
-            <t>harjaannutus</t>
-            <t>treenaaminen</t>
+            <t pos="N">harjaannutus</t>
+            <t pos="N">treenaaminen</t>
             <t>treenaamis-</t>
-            <t>treenaus</t>
+            <t pos="N">treenaus</t>
          </tg>
          <tg xml:lang="rus">
             <t>тренировка</t>
@@ -110397,16 +110528,16 @@
             <semRel No="1" lemmaID="трачкӧм" semRelType="see"/>
          </m>
          <tg xml:lang="fin">
-            <t>rytiseminen</t>
+            <t pos="N">rytiseminen</t>
             <t>rytisemis-</t>
-            <t>rytinä</t>
-            <t>rasahteleminen</t>
+            <t pos="N">rytinä</t>
+            <t pos="N">rasahteleminen</t>
             <t>rasahtelemis-</t>
-            <t>rasahtelu</t>
-            <t>rasahdus</t>
-            <t>ritinä</t>
-            <t>ryske</t>
-            <t>pauke</t>
+            <t pos="N">rasahtelu</t>
+            <t pos="N">rasahdus</t>
+            <t pos="N">ritinä</t>
+            <t pos="N">ryske</t>
+            <t pos="N">pauke</t>
          </tg>
          <tg xml:lang="rus">
             <t/>
@@ -110426,22 +110557,22 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>kilkkaminen</t>
+            <t pos="N">kilkkaminen</t>
             <t>kilkkamis-</t>
-            <t>kilke</t>
-            <t>kalkkaminen</t>
+            <t pos="N">kilke</t>
+            <t pos="N">kalkkaminen</t>
             <t>kalkkamis-</t>
-            <t>kalke</t>
-            <t>sointi</t>
-            <t>soitto</t>
-            <t>helkyntä</t>
-            <t>helinä</t>
-            <t>rimputtaminen</t>
+            <t pos="N">kalke</t>
+            <t pos="N">sointi</t>
+            <t pos="N">soitto</t>
+            <t pos="N">helkyntä</t>
+            <t pos="N">helinä</t>
+            <t pos="N">rimputtaminen</t>
             <t>rimputtamis-</t>
-            <t>rimputus</t>
-            <t>rämpyttäminen</t>
+            <t pos="N">rimputus</t>
+            <t pos="N">rämpyttäminen</t>
             <t>rämpyttämis-</t>
-            <t>rämpytys</t>
+            <t pos="N">rämpytys</t>
          </tg>
          <tg xml:lang="rus">
             <t>звон</t>
@@ -110501,16 +110632,16 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>rytiseminen</t>
+            <t pos="N">rytiseminen</t>
             <t>rytisemis-</t>
-            <t>rytinä</t>
-            <t>rasahteleminen</t>
+            <t pos="N">rytinä</t>
+            <t pos="N">rasahteleminen</t>
             <t>rasahtelemis-</t>
-            <t>rasahtelu</t>
-            <t>rasahdus</t>
-            <t>ritinä</t>
-            <t>ryske</t>
-            <t>pauke</t>
+            <t pos="N">rasahtelu</t>
+            <t pos="N">rasahdus</t>
+            <t pos="N">ritinä</t>
+            <t pos="N">ryske</t>
+            <t pos="N">pauke</t>
          </tg>
          <tg xml:lang="rus">
             <t>хруст, треск</t>
@@ -110952,13 +111083,13 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>kelpaaminen</t>
+            <t pos="N">kelpaaminen</t>
             <t>kelpaamis-</t>
-            <t>kelpoisuus</t>
-            <t>kelvollisuus</t>
-            <t>soveltuminen</t>
+            <t pos="N">kelpoisuus</t>
+            <t pos="N">kelvollisuus</t>
+            <t pos="N">soveltuminen</t>
             <t>soveltumis-</t>
-            <t>soveltuvuus</t>
+            <t pos="N">soveltuvuus</t>
          </tg>
          <tg xml:lang="rus">
             <t>годность, пригодность</t>
@@ -111018,9 +111149,9 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>ennustaminen</t>
+            <t pos="N">ennustaminen</t>
             <t>ennustamis-</t>
-            <t>ennustus</t>
+            <t pos="N">ennustus</t>
          </tg>
          <tg xml:lang="rus">
             <t>предвестие</t>
@@ -111095,11 +111226,12 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>sulkeminen</t>
+            <t pos="N">sulkeminen</t>
             <t>sulkemis-</t>
-            <t>peittäminen</t>
+            <t pos="N">peittäminen</t>
             <t>peittämis-</t>
-            <t pos="Prc">sulettu, peitetty</t>
+            <t pos="Prc">sulettu</t>
+            <t pos="N">peitetty</t>
          </tg>
          <tg xml:lang="rus">
             <t>закрытие</t>
@@ -118141,11 +118273,11 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>raapaisu</t>
-            <t>raapaiseminen</t>
+            <t pos="N">raapaisu</t>
+            <t pos="N">raapaiseminen</t>
             <t>raapaisemis-</t>
-            <t>sähähdys</t>
-            <t>sähähtäminen</t>
+            <t pos="N">sähähdys</t>
+            <t pos="N">sähähtäminen</t>
             <t>sähähtämis-</t>
          </tg>
          <tg xml:lang="rus">
@@ -118162,8 +118294,8 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>ammennus</t>
-            <t>ammentaminen</t>
+            <t pos="N">ammennus</t>
+            <t pos="N">ammentaminen</t>
             <t>ammentamis-</t>
          </tg>
          <tg xml:lang="rus">
@@ -118190,9 +118322,9 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>hanki</t>
-            <t>hankikanto</t>
-            <t>hankiainen</t>
+            <t pos="N">hanki</t>
+            <t pos="N">hankikanto</t>
+            <t pos="N">hankiainen</t>
          </tg>
          <tg xml:lang="rus">
             <t>наст</t>
@@ -118227,15 +118359,15 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>vingunta</t>
-            <t>kirkuna</t>
-            <t>kirkaisu</t>
-            <t>kiljaisu</t>
-            <t>kiljahdus</t>
-            <t>kiljunta</t>
-            <t>parkaisu</t>
-            <t>parku</t>
-            <t>vikinä</t>
+            <t pos="N">vingunta</t>
+            <t pos="N">kirkuna</t>
+            <t pos="N">kirkaisu</t>
+            <t pos="N">kiljaisu</t>
+            <t pos="N">kiljahdus</t>
+            <t pos="N">kiljunta</t>
+            <t pos="N">parkaisu</t>
+            <t pos="N">parku</t>
+            <t pos="N">vikinä</t>
          </tg>
          <tg xml:lang="rus">
             <t>визг, пронзительный крик, писк</t>
@@ -118260,19 +118392,19 @@
             <head/>
          </m>
          <tg xml:lang="fin">
-            <t>halkominen</t>
+            <t pos="N">halkominen</t>
             <t>halkomis-</t>
-            <t>halkaisu</t>
-            <t>pilkkominen</t>
+            <t pos="N">halkaisu</t>
+            <t pos="N">pilkkominen</t>
             <t>pilkkomis-</t>
-            <t>pilkonta</t>
-            <t>pirstominen</t>
+            <t pos="N">pilkonta</t>
+            <t pos="N">pirstominen</t>
             <t>pirstomis-</t>
-            <t>pirstonta</t>
-            <t>paloittelu</t>
+            <t pos="N">pirstonta</t>
+            <t pos="N">paloittelu</t>
             <t pos="Prc">halottu</t>
-            <t>pilkottu</t>
-            <t>pirstottu</t>
+            <t pos="Prc">pilkottu</t>
+            <t pos="Prc">pirstottu</t>
          </tg>
          <tg xml:lang="rus">
             <t>расщепление, расколка</t>
