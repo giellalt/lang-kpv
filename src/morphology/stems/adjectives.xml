@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xml:lang="kpv" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+<r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd" xml:lang="kpv"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <e>
       <lg>
@@ -38184,42 +38184,33 @@
          </tg>
       </mg>
    </e>
-  <e>
-    <lg>
-      <l pos="A">кывсьысь</l>
-      <stg>
-        <st Contlex="Adj-IS_PTC-YSJ">кывсьысь</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="eng">
-        <t pos="A">renouned</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="A">kuuluisa</t>
-
-        <t pos="A">nimekäs</t>
-      </tg>
-      <tg xml:lang="rus">
-        <t pos="A">известный, прославленный</t>
-
-        <t pos="A">признанный</t>
-
-        <t pos="A">знаменитый</t>
-      </tg>
-
-      <xg>
-        <x>кывсьысь журналист</x>
-
-        <xt xml:lang="rus">известный журналист</xt>
-      </xg>
-    </mg>
-  </e>
-
+   <e>
+      <lg>
+         <l pos="A">кывсьысь</l>
+         <stg>
+            <st Contlex="Adj-IS_PTC-YSJ">кывсьысь</st>
+         </stg>
+      </lg>
+      <mg>
+         <defNative/>
+         <tg xml:lang="eng">
+            <t pos="A">renouned</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="A">kuuluisa</t>
+            <t pos="A">nimekäs</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="A">известный, прославленный</t>
+            <t pos="A">признанный</t>
+            <t pos="A">знаменитый</t>
+         </tg>
+         <xg>
+            <x>кывсьысь журналист</x>
+            <xt xml:lang="rus">известный журналист</xt>
+         </xg>
+      </mg>
+   </e>
    <e order="2">
       <lg>
          <l pos="A">кывсьытӧм</l>
@@ -72988,7 +72979,7 @@
          <xg>
             <x>сука меным чайсӧ кисьт!</x>
             <xt xml:lang="eng">pour me some strong tea</xt>
-            <xt xml:lang="fin">kaada minulle väkevää teetä</xt>
+            <xt xml:lang="fin">Kaada minulle väkevää teetä!</xt>
          </xg>
       </mg>
       <mg No="1">
@@ -72999,10 +72990,12 @@
          </tg>
          <xg>
             <x>сук нӧк</x>
+            <xt xml:lang="fin">sakea smetana</xt>
             <xt xml:lang="rus">густая сметана</xt>
          </xg>
          <xg>
             <x>сук рок</x>
+            <xt xml:lang="fin">sakea puuro</xt>
             <xt xml:lang="rus">густая каша</xt>
          </xg>
       </mg>
@@ -73014,18 +73007,23 @@
          </tg>
          <xg>
             <x>сук вӧр</x>
+            <xt xml:lang="fin">sankka metsä</xt>
             <xt xml:lang="rus">густой лес</xt>
          </xg>
          <xg>
             <x>сук турун</x>
+            <xt xml:lang="fin">sakea heinä</xt>
             <xt xml:lang="rus">густая трава</xt>
          </xg>
          <xg>
             <x>сук юрси</x>
+            <xt xml:lang="fin">tuuhea tukka</xt>
+            <xt>tuuheat hiukset</xt>
             <xt xml:lang="rus">густые волосы</xt>
          </xg>
          <xg>
             <x>сю петӧма сук</x>
+            <xt xml:lang="fin">Ruis on kasvanut sakeaan.</xt>
             <xt xml:lang="rus">рожь взошла густо</xt>
          </xg>
       </mg>
@@ -73036,14 +73034,18 @@
          </tg>
          <xg>
             <x>сук кымӧръяс</x>
+            <xt xml:lang="fin">paksut pilvet</xt>
             <xt xml:lang="rus">густые облака</xt>
          </xg>
          <xg>
             <x>сук пемыд</x>
+            <xt xml:lang="fin">pilkkopimeä</xt>
+            <xt>säkkipimeä</xt>
             <xt xml:lang="rus">густой мрак</xt>
          </xg>
          <xg>
             <x>сук ру</x>
+            <xt xml:lang="fin">sankka sumu</xt>
             <xt xml:lang="rus">густой туман</xt>
          </xg>
       </mg>
@@ -73054,6 +73056,7 @@
          </tg>
          <xg>
             <x>сук йӧв</x>
+            <xt xml:lang="fin">rasvainen maito</xt>
             <xt xml:lang="rus">жирное молоко</xt>
          </xg>
       </mg>
@@ -73604,11 +73607,19 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">hapsullinen</t>
+            <t pos="A">hapsuinen</t>
+            <t pos="A">rimpsullinen</t>
+            <t pos="A">rimpsullinen</t>
+         </tg>
          <tg xml:lang="rus">
             <t/>
          </tg>
          <xg>
             <x>сыръя шаль</x>
+            <xt xml:lang="fin">hapsuhuivi</xt>
+            <xt>hapsullinen huivi</xt>
             <xt xml:lang="rus">бахромчатая шаль, шаль с бахромой</xt>
          </xg>
       </mg>
@@ -73619,6 +73630,7 @@
          </tg>
          <xg>
             <x>сыръя исерга</x>
+            <xt xml:lang="fin">riippuvat korvakorut</xt>
             <xt xml:lang="rus">серьги с подвесками</xt>
          </xg>
       </mg>
@@ -73637,6 +73649,7 @@
          </tg>
          <tg xml:lang="fin">
             <t pos="A">musta</t>
+            <t pos="A">tumma</t>
          </tg>
       </mg>
    </e>
@@ -73654,44 +73667,59 @@
          </tg>
          <xg>
             <x>сьӧд керка</x>
+            <xt xml:lang="fin">savupirtti</xt>
             <xt xml:lang="rus">чёрная, курная изба</xt>
          </xg>
          <xg>
             <x>сьӧд нянь</x>
+            <xt xml:lang="fin">tumma leipä</xt>
+            <xt>ruisleipä</xt>
             <xt xml:lang="rus">чёрный хлеб</xt>
          </xg>
          <xg>
             <x>са кодь сьӧд</x>
+            <xt xml:lang="fin">sysimusta</xt>
+            <xt>pikimusta</xt>
             <xt xml:lang="rus">чёрный как сажа</xt>
          </xg>
          <xg>
             <x>сьӧдӧн краситны</x>
+            <xt xml:lang="fin">värittää mustaksi</xt>
             <xt xml:lang="rus">окрасить в чёрный цвет</xt>
          </xg>
          <xg genreType="riddle">
             <x>сьӧд мӧскӧс гӧрд мӧс нюлӧ</x>
+            <xt xml:lang="fin">Mustaa lehmää nuolee punainen lehmä.</xt>
             <xt xml:lang="rus">чёрную корову рыжая корова лижет</xt>
             <answer>
                <native>би, тшын</native>
+               <xt xml:lang="fin">tuli</xt>
                <xt xml:lang="rus">огонь, дым</xt>
             </answer>
          </xg>
       </mg>
       <mg No="2">
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">likainen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">грязный</t>
          </tg>
          <xg>
             <x>сьӧд дӧрӧм-гач</x>
+            <xt xml:lang="fin">likapyykki</xt>
             <xt xml:lang="rus">грязное бельё</xt>
          </xg>
          <xg>
             <x>сьӧд удж</x>
+            <xt xml:lang="fin">sekatyö</xt>
+            <xt>likainen työ</xt>
             <xt xml:lang="rus">грязная, чёрная работа</xt>
          </xg>
          <xg>
             <x>джоджыс зэв сьӧд</x>
+            <xt xml:lang="fin">Lattia on hyvin likainen.</xt>
             <xt xml:lang="rus">пол очень грязный</xt>
          </xg>
       </mg>
@@ -73702,6 +73730,7 @@
          </tg>
          <xg>
             <x>сьӧд турун</x>
+            <xt xml:lang="fin">(pilalle) mustunut heinä</xt>
             <xtCtn>
                <xt xml:lang="rus">побуревшее сено</xt>
                <re>от долгого лежания</re>
@@ -73714,15 +73743,23 @@
                <sense sense="figurative"/>
             </head>
          </m>
+         <tg xml:lang="fin">
+            <t pos="A">tumma</t>
+            <t pos="A">synkkä</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">тёмный, глухой</t>
          </tg>
          <xg>
             <x>сьӧд вой</x>
+            <xt xml:lang="fin">synkkä yö</xt>
+            <xt>tumma yö</xt>
             <xt xml:lang="rus">глухая ночь</xt>
          </xg>
          <xg>
             <x>сьӧд вӧрын овны</x>
+            <xt xml:lang="fin">elää korvessa</xt>
+            <xt>elää synkässä metsässä</xt>
             <xt xml:lang="rus">жить в глухом лесу</xt>
          </xg>
       </mg>
@@ -73737,34 +73774,51 @@
          </tg>
          <xg>
             <x>сьӧд гыяс</x>
+            <xt xml:lang="fin">tummat aallot</xt>
             <xt xml:lang="rus">свинцовые волны</xt>
          </xg>
          <xg>
             <x>сьӧд кымӧр</x>
+            <xt xml:lang="fin">tumma pilvi</xt>
             <xt xml:lang="rus">свинцовая туча</xt>
          </xg>
       </mg>
       <mg No="6">
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="Adv">mustanaan</t>
+            <t pos="Adv">pilvin pimein</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">тьма; туча, множество</t>
          </tg>
          <xg>
             <x>гутыс сьӧд лэбалӧ</x>
+            <xt xml:lang="fin">Kärpäsiä lentää mustanaan.</xt>
+            <xt>Kärpäsiä lentää pilvin pimein.</xt>
             <xt xml:lang="rus">тучами летают мухи</xt>
          </xg>
          <xg>
             <x>йӧзыс сьӧд</x>
+            <xt xml:lang="fin">imustanaan ihmisiä</xt>
+            <xt>ihmisiä pilvin pimein</xt>
+            <xt>ihmisiä kuin meren mutaa</xt>
             <xt xml:lang="rus">людей туча</xt>
          </xg>
       </mg>
       <mg No="7">
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="Prc">parhaimmillaan oleva</t>
+            <t pos="Prc">keskipaikkeilla oleva</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">в середине, в разгар</t>
          </tg>
          <xg>
             <x>сьӧд гожӧмнас</x>
+            <xt xml:lang="fin">keskikesällä</xt>
+            <xt>kesän ollessa parhaimmillaan</xt>
             <xt xml:lang="rus">в середине лета, в разгар лета</xt>
          </xg>
       </mg>
@@ -73779,30 +73833,40 @@
          </tg>
          <xg>
             <x>сьӧд дозмӧр</x>
+            <xt xml:lang="fin">musta metso</xt>
             <xt xml:lang="rus">чёрный тетерев</xt>
          </xg>
          <xg>
             <x>сьӧд руч</x>
+            <xt xml:lang="fin">hopeakettu</xt>
             <xt xml:lang="rus">черно-бурая лиса</xt>
          </xg>
          <xg>
             <x>сьӧд сэтӧр</x>
+            <xt xml:lang="fin">mustaherukka</xt>
+            <xt>musta viinimarja</xt>
             <xt xml:lang="rus">чёрная смородина</xt>
          </xg>
          <xg>
             <x>сьӧд босьтны</x>
+            <xt xml:lang="fin">tottua</xt>
+            <xt>mukautua</xt>
+            <xt>sopeutua</xt>
             <xt xml:lang="rus">привыкнуть, приспособиться</xt>
          </xg>
          <xg>
             <x>сьӧд вын</x>
+            <xt xml:lang="fin">fyysinen voima</xt>
             <xt xml:lang="rus">физическая сила</xt>
          </xg>
          <xg>
             <x>сьӧд джодж</x>
+            <xt xml:lang="fin">maalattia?</xt>
             <xt xml:lang="rus">накат (пола)</xt>
          </xg>
          <xg>
             <x>сьӧд книга</x>
+            <xt xml:lang="fin">mustakirja</xt>
             <xtCtn>
                <xt xml:lang="rus">чёрная книга</xt>
                <range rangeTemp="obsolete"/>
@@ -73814,18 +73878,24 @@
          </xg>
          <xg>
             <x>сьӧд морт</x>
+            <xt xml:lang="fin">tummaverinen</xt>
+            <xt>tummaverikkö</xt>
+            <xt>brunetti</xt>
             <xt xml:lang="rus">брюнет</xt>
          </xg>
          <xg>
             <x>сьӧд синва</x>
+            <xt xml:lang="fin">katkerat kyyneleet</xt>
             <xt xml:lang="rus">горькие слёзы</xt>
          </xg>
          <xg>
             <x>сьӧд воштавны</x>
+            <xt xml:lang="fin">peittää jäljet</xt>
             <xt xml:lang="rus">заметать следы</xt>
          </xg>
          <xg>
             <x>сьӧд синваӧн бӧрдны</x>
+            <xt xml:lang="fin">itkeä katkeria kyyneliä</xt>
             <xt xml:lang="rus">плакать чёрными слезами; плакать горькими слезами;</xt>
          </xg>
          <xg>
@@ -73843,11 +73913,16 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">mustaraitainen</t>
+            <t pos="A">tummaraitainen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="Phrase_A">с чёрной полоской</t>
          </tg>
          <xg>
             <x>сьӧд асыка сарапан</x>
+            <xt xml:lang="fin">mustaraitainen sarafaani</xt>
             <xt xml:lang="rus">сарафан с чёрной полоской</xt>
          </xg>
       </mg>
@@ -73861,11 +73936,15 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">mustakenkäinen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="Phrase_A">в чёрных ботинках</t>
          </tg>
          <xg>
             <x>сьӧд башмака морт</x>
+            <xt xml:lang="fin">mustakenkäinen ihminen</xt>
             <xt xml:lang="rus">человек в чёрных ботинках</xt>
          </xg>
       </mg>
@@ -73879,11 +73958,16 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">musta ja punainen</t>
+            <t pos="A">punamusta</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">чёрный и красный</t>
          </tg>
          <xg>
             <x>сьӧда-гӧрда розъясӧн сярвидзӧны льӧм пуяс, пелысь пуяс</x>
+            <xt xml:lang="fin">Mustia ja punaisia terttuja täynnä olivat tuomet ja pihlajat.</xt>
             <xt xml:lang="rus">черёмухи, рябины усыпаны чёрными и красными гроздьями</xt>
          </xg>
       </mg>
@@ -73897,15 +73981,21 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">musta ja valkoinen</t>
+            <t pos="A">mustavalkoinen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">чёрный и белый; чёрно-белый</t>
          </tg>
          <xg>
             <x>сьӧда-еджыда нянь тупӧсь</x>
+            <xt xml:lang="fin">sekaleipä?</xt>
             <xt xml:lang="rus">буханки чёрного и белого хлеба</xt>
          </xg>
          <xg>
             <x>сьӧда-еджыда телевизор</x>
+            <xt xml:lang="fin">mustavalkoinen televisio</xt>
             <xt xml:lang="rus">чёрно-белый телевизор</xt>
          </xg>
       </mg>
@@ -73919,11 +74009,16 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">musta ja sininen</t>
+            <t pos="A">sinimusta</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">чёрный и синий; чёрно-синий</t>
          </tg>
          <xg>
             <x>син доръясыс печенча кодь сьӧда-лӧзаӧсь</x>
+            <xt xml:lang="fin">Hänen silmäluomissaan on sinimustia veripahkoja.</xt>
             <xt xml:lang="rus">у него под глазами чёрно-синие кровоподтёки</xt>
          </xg>
       </mg>
@@ -73937,6 +74032,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">aivan mustanaan jtak</t>
+            <t pos="A">pilvin pimein jtak</t>
+         </tg>
          <tg xml:lang="rus">
             <tCtn>
                <t pos="A">тьма-тьмущая</t>
@@ -73946,6 +74045,8 @@
          </tg>
          <xg>
             <x>йӧзыс сьӧда-сьӧд</x>
+            <xt xml:lang="fin">ihmisiä pilvin pimein</xt>
+            <xt>ihmisiä aivan mustanaan</xt>
             <xt xml:lang="rus">людей бесчисленное множество</xt>
          </xg>
       </mg>
@@ -73960,11 +74061,16 @@
       <drv drvType="Der/тӧм"/>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">ei lianarka</t>
+            <t pos="A">ei helposti likaantuva</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">немаркий</t>
          </tg>
          <xg>
             <x>сьӧдасьтӧм дӧрӧм</x>
+            <xt xml:lang="fin">ei lianarka paita</xt>
             <xt xml:lang="rus">немаркая рубашка</xt>
          </xg>
       </mg>
@@ -73992,15 +74098,20 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">tummanpunainen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">тёмно-красный; тёмно-рыжий</t>
          </tg>
          <xg>
             <x>сьӧдгӧрд пув</x>
+            <xt xml:lang="fin">tummanpunaiset puolukat</xt>
             <xt xml:lang="rus">тёмно-красная брусника</xt>
          </xg>
          <xg>
             <x>сьӧдгӧрд рӧмӧн дзирдалысь юрси</x>
+            <xt xml:lang="fin">tummanpunaisena hehkuva tukka</xt>
             <xt xml:lang="rus">шелковистые тёмно-рыжие волосы</xt>
          </xg>
       </mg>
@@ -74014,15 +74125,20 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">tummansininen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">тёмно-синий</t>
          </tg>
          <xg>
             <x>сьӧдлӧз ной</x>
+            <xt xml:lang="fin">tummansininen verka</xt>
             <xt xml:lang="rus">тёмно-синее сукно</xt>
          </xg>
          <xg>
             <x>сьӧдлӧз синъяс</x>
+            <xt xml:lang="fin">tummansiniset silmät</xt>
             <xt xml:lang="rus">тёмно-синие глаза</xt>
          </xg>
       </mg>
@@ -74055,21 +74171,30 @@
       </lg>
       <mg No="1">
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">tummanpunainen</t>
+            <t pos="A">punaruskea</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">тёмно-красный; бордовый</t>
          </tg>
          <xg>
             <x>сьӧдовгӧрд пальто</x>
+            <xt xml:lang="fin">tummanpunainen takki</xt>
             <xt xml:lang="rus">бордовое пальто</xt>
          </xg>
       </mg>
       <mg No="2">
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">ruskea</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">коричневый; бурый</t>
          </tg>
          <xg>
             <x>сьӧдовгӧрд ош</x>
+            <xt xml:lang="fin">ruskea karhu</xt>
             <xt xml:lang="rus">бурый медведь</xt>
          </xg>
       </mg>
@@ -74083,15 +74208,21 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">tummansininen</t>
+            <t pos="A">syvänsininen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">тёмно-синий; кубовый</t>
          </tg>
          <xg>
             <x>сьӧдовлӧз краска</x>
+            <xt xml:lang="fin">syvänsininen väri</xt>
             <xt xml:lang="rus">кубовая краска</xt>
          </xg>
          <xg>
             <x>сьӧдовлӧз сарапан</x>
+            <xt xml:lang="fin">syvänsininen sarafaani</xt>
             <xt xml:lang="rus">тёмно-синий сарафан</xt>
          </xg>
       </mg>
@@ -74105,11 +74236,15 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">tummanharmaa</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">тёмно-серый</t>
          </tg>
          <xg>
             <x>сьӧдовруд костюм</x>
+            <xt xml:lang="fin">tummanharmaa puku</xt>
             <xt xml:lang="rus">тёмно-серый костюм</xt>
          </xg>
       </mg>
@@ -74123,14 +74258,20 @@
       </lg>
       <mg No="1">
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">mustahko</t>
+            <t pos="A">tummahko</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">чёрненький</t>
          </tg>
          <xg genreType="riddle">
             <x>сьӧдΙник пон куйлӧ, оз курччась ни оз увт, а керкаӧ оз лэдз</x>
+            <xt xml:lang="fin">Tummahko koira makaa, ei pure, eikä hauku, mutta taloon ei päästä.</xt>
             <xt xml:lang="rus">чёрненькая собака лежит, не лает, не кусает, а в избу не пускает</xt>
             <answer>
                <native>томан</native>
+               <xt xml:lang="fin">lukko</xt>
                <xt xml:lang="rus">замок</xt>
             </answer>
          </xg>
@@ -74142,6 +74283,7 @@
          </tg>
          <xg>
             <x>сьӧдΙник нывка</x>
+            <xt xml:lang="fin">tummahko tyttö</xt>
             <xt xml:lang="rus">чернявая девочка</xt>
          </xg>
       </mg>
@@ -74155,11 +74297,15 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">kantokykyinen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">грузоподъёмный</t>
          </tg>
          <xg>
             <x>сьӧклӧс пыж</x>
+            <xt xml:lang="fin">kuormankuljetusvene</xt>
             <xt xml:lang="rus">грузоподъёмная большая лодка</xt>
          </xg>
       </mg>
@@ -74180,6 +74326,7 @@
          </tg>
          <xg>
             <x>из сьӧкта</x>
+            <xt xml:lang="fin">kiven painoinen</xt>
             <xtCtn>
                <xt xml:lang="rus">как камень</xt>
                <re>тяжёлый</re>
@@ -74187,11 +74334,13 @@
          </xg>
          <xg>
             <x>пуд сьӧкта</x>
+            <xt xml:lang="fin">puudan painoinen</xt>
             <xt xml:lang="rus">с пуд</xt>
             <xt xml:lang="rus">около пуда</xt>
          </xg>
          <xg>
             <x>свинеч сьӧкта ноп</x>
+            <xt xml:lang="fin">lyijyn painoinen reppu</xt>
             <xtCtn>
                <xt xml:lang="rus">котомка как свинец</xt>
                <re>тяжёлая</re>
@@ -74215,6 +74364,8 @@
          </tg>
          <tg xml:lang="fin">
             <t pos="A">raskas</t>
+            <t pos="A">painava</t>
+            <t pos="A">hankala</t>
             <t pos="A">vaikea</t>
          </tg>
       </mg>
@@ -74228,26 +74379,32 @@
          </tg>
          <xg>
             <x>сьӧкыд додь</x>
+            <xt xml:lang="fin">raskas reki(kuorma)</xt>
             <xt xml:lang="rus">тяжёлый воз</xt>
          </xg>
          <xg>
             <x>сьӧкыд из</x>
+            <xt xml:lang="fin">painava kivi</xt>
             <xt xml:lang="rus">увесистый камень</xt>
          </xg>
          <xg>
             <x>сьӧкыд кӧлуй</x>
+            <xt xml:lang="fin">raskaat tavarat</xt>
             <xt xml:lang="rus">грузные вещи</xt>
          </xg>
          <xg>
             <x>сьӧкыд ноп</x>
+            <xt xml:lang="fin">painava reppu</xt>
             <xt xml:lang="rus">тяжёлая, увесистая ноша</xt>
          </xg>
          <xg>
             <x>олӧмыс став сьӧкыднас водіс сы пельпомъяс вылӧ</x>
+            <xt xml:lang="fin">Elämä kaikkine rasituksineen asettui hänen hartioilleen.</xt>
             <xt xml:lang="rus">жизнь со всеми тяготами легла на его плечи</xt>
          </xg>
          <xg>
             <x>тэныд абу сьӧкыд , оз ков отсавны?</x>
+            <xt xml:lang="fin">Onko sinulla vaikeaa! Tarvitsetko apua?</xt>
             <xt xml:lang="rus">тебе не тяжело, помочь не надо?</xt>
          </xg>
       </mg>
@@ -74260,26 +74417,32 @@
          </tg>
          <xg>
             <x>сьӧкыд задача</x>
+            <xt xml:lang="fin">vaikea tehtävä</xt>
             <xt xml:lang="rus">трудная задача</xt>
          </xg>
          <xg>
             <x>сьӧкыд удж</x>
+            <xt xml:lang="fin">raskas työ</xt>
             <xt xml:lang="rus">тяжёлая, трудная работа</xt>
          </xg>
          <xg>
             <x>сьӧкыд висьтавны</x>
+            <xt xml:lang="fin">vaikea kertoa</xt>
             <xt xml:lang="rus">трудно сказать</xt>
          </xg>
          <xg>
             <x>венны став сьӧкыдсӧ</x>
+            <xt xml:lang="fin">voittaa kaikki rasitukset</xt>
             <xt xml:lang="rus">преодолеть все трудности</xt>
          </xg>
          <xg>
             <x>сьӧкыд гӧгӧрвоны</x>
+            <xt xml:lang="fin">vaikea ymmärtää</xt>
             <xt xml:lang="rus">трудно понять</xt>
          </xg>
          <xg>
             <x>сьӧкыдысь повтӧг</x>
+            <xt xml:lang="fin">vaikeuksia pelkäämättä</xt>
             <xt xml:lang="rus">не боясь трудностей</xt>
          </xg>
       </mg>
@@ -74291,10 +74454,12 @@
          </tg>
          <xg>
             <x>сьӧкыд мыж</x>
+            <xt xml:lang="fin">raskas rikos</xt>
             <xt xml:lang="rus">тяжкое преступление</xt>
          </xg>
          <xg>
             <x>сьӧкыд оласног</x>
+            <xt xml:lang="fin">vaikea luonne</xt>
             <xt xml:lang="rus">тяжкий характер</xt>
          </xg>
       </mg>
@@ -74308,6 +74473,7 @@
          </tg>
          <xg>
             <x>сьӧкыд висьӧм</x>
+            <xt xml:lang="fin">vaikea sairaus</xt>
             <xt xml:lang="rus">тяжёлая болезнь</xt>
             <xtCtn>
                <xt xml:lang="rus">зараза</xt>
@@ -74323,6 +74489,7 @@
          </tg>
          <xg>
             <x>сьӧкыд сынӧд</x>
+            <xt xml:lang="fin">raskas ilma</xt>
             <xt xml:lang="rus">тяжёлый воздух</xt>
          </xg>
       </mg>
@@ -74333,6 +74500,7 @@
          </tg>
          <xg>
             <x>сьӧкыд ичӧтдыр</x>
+            <xt xml:lang="fin">karu lapsuus</xt>
             <xt xml:lang="rus">суровое детство</xt>
          </xg>
       </mg>
@@ -74343,10 +74511,12 @@
          </tg>
          <xg>
             <x>сьӧкыд лун</x>
+            <xt xml:lang="fin">raskas päivä</xt>
             <xt xml:lang="rus">тяжёлый день</xt>
          </xg>
          <xg>
             <x>сьӧкыд мӧвпъяс</x>
+            <xt xml:lang="fin">raskaat ajatukset</xt>
             <xt xml:lang="rus">гнетущие, тяжёлые мысли</xt>
          </xg>
       </mg>
@@ -74358,6 +74528,7 @@
          </tg>
          <xg>
             <x>сьӧкыд олӧм</x>
+            <xt xml:lang="fin">rasittava elämä</xt>
             <xt xml:lang="rus">тягостное существование</xt>
          </xg>
       </mg>
@@ -74372,10 +74543,12 @@
          </xg>
          <xg>
             <x>сьӧкыд дырйи номсасьны</x>
+            <xt xml:lang="fin">tehdä mieli syödä jtak raskauden aikana</xt>
             <xt xml:lang="rus">привередничать во время беременности</xt>
          </xg>
          <xg>
             <x>сьӧкыд нин сэк вӧлі</x>
+            <xt xml:lang="fin">Olin jo silloin raskaana.</xt>
             <xt xml:lang="rus">я тогда была уже беременна</xt>
          </xg>
       </mg>
@@ -74390,6 +74563,7 @@
          </tg>
          <xg>
             <x>меным сьӧкыд лолыштны</x>
+            <xt xml:lang="fin">Minun on raskasta hengittää.</xt>
             <xt xml:lang="rus">мне больно вздохнуть</xt>
          </xg>
       </mg>
@@ -74404,6 +74578,7 @@
          </tg>
          <xg>
             <x>водзӧ терпитны сьӧкыд</x>
+            <xt xml:lang="fin">vaikea kestää edelleen</xt>
             <xt xml:lang="rus">дальше терпеть невыносимо</xt>
          </xg>
       </mg>
@@ -74418,14 +74593,18 @@
          </tg>
          <xg>
             <x>татшӧм кӧдзыд дырйи абу сьӧкыд кынмыны</x>
+            <xt xml:lang="fin">Tällaisella pakkasella ei ole vaikea jäätyä.</xt>
             <xt xml:lang="rus">в такой мороз не мудрено простудиться</xt>
          </xg>
          <xg>
             <x>сьӧкыд пеля</x>
+            <xt xml:lang="fin">heikkokuuloinen</xt>
+            <xt>huonokuuloinen</xt>
             <xt xml:lang="rus">тугой на ухо</xt>
          </xg>
          <xg>
             <x>сьӧкыд унма</x>
+            <xt xml:lang="fin">huonouninen</xt>
             <xt xml:lang="rus">крепко спящий</xt>
          </xg>
       </mg>
@@ -74512,6 +74691,7 @@
          </tg>
          <xg>
             <x>корсюрӧ сьӧкыдкодь вӧлі</x>
+            <xt xml:lang="fin">Joskus oli vaikeaa.</xt>
             <xt xml:lang="rus">временами бывало нелегко</xt>
          </xg>
       </mg>
@@ -74525,6 +74705,12 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">hyvin raskas</t>
+            <t pos="A">hyvin painava</t>
+            <t pos="A">hyvin hankala</t>
+            <t pos="A">hyvin vaikea</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">очень тяжёлый</t>
          </tg>
@@ -74539,15 +74725,23 @@
       </lg>
       <mg No="1">
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">innokas</t>
+            <t pos="A">tulinen</t>
+            <t pos="A">kiihkeä</t>
+            <t pos="A">uuttera</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">ретивый, рьяный; усердный</t>
          </tg>
          <xg>
             <x>сьӧлӧма вӧв</x>
+            <xt xml:lang="fin">tulinen hevonen</xt>
             <xt xml:lang="rus">ретивая лошадь</xt>
          </xg>
          <xg>
             <x>сьӧлӧма уджалысь</x>
+            <xt xml:lang="fin">innokas työntekijä</xt>
             <xt xml:lang="rus">усердный работник</xt>
          </xg>
       </mg>
@@ -74559,6 +74753,10 @@
       </mg>
       <mg No="3">
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">hyväsydäminen</t>
+            <t pos="A">myötätuntoinen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">добросердечный, отзывчивый, участливый</t>
          </tg>
@@ -74574,34 +74772,52 @@
          </tg>
          <xg>
             <x>бур сьӧлӧма</x>
+            <xt xml:lang="fin">hyväsydäminen</xt>
+            <xt>lempeä</xt>
             <xt xml:lang="rus">с добрым сердцем, добросердечный, отзывчивый, проявляющий ко всем жалость</xt>
          </xg>
          <xg>
             <x>ичӧт сьӧлӧма</x>
+            <xt xml:lang="fin">pelkurimainen</xt>
+            <xt>raukkamainen</xt>
             <xt xml:lang="rus">робкий, трусливый, малодушный</xt>
          </xg>
          <xg>
             <x>кӧч сьӧлӧма</x>
+            <xt xml:lang="fin">pelokas</xt>
+            <xt>arka</xt>
+            <xt>säikky</xt>
             <xt xml:lang="rus">боязливый, пугливый</xt>
          </xg>
          <xg>
             <x>кын сьӧлӧма</x>
+            <xt xml:lang="fin">paksunahkainen</xt>
+            <xt>kova</xt>
             <xt xml:lang="rus">толстокожий</xt>
          </xg>
          <xg>
             <x>лёк сьӧлӧма</x>
+            <xt xml:lang="fin">paha</xt>
+            <xt>ilkeä</xt>
             <xt xml:lang="rus">злой, со злым сердцем</xt>
          </xg>
          <xg>
             <x>небыд сьӧлӧма</x>
+            <xt xml:lang="fin">helläsydäminen</xt>
             <xt xml:lang="rus">мягкосердечный</xt>
          </xg>
          <xg>
             <x>чорыд сьӧлӧма</x>
+            <xt xml:lang="fin">kovasydäminen</xt>
+            <xt>säälimätön</xt>
             <xt xml:lang="rus">а) безжалостный; жестокосердный; б) стойкий, хладнокровный</xt>
          </xg>
          <xg>
             <x>ыджыд сьӧлӧма</x>
+            <xt xml:lang="fin">rohkea</xt>
+            <xt>urhoollinen</xt>
+            <xt>urhea</xt>
+            <xt>uljas</xt>
             <xt xml:lang="rus">отважный, храбрый; смелый</xt>
          </xg>
       </mg>
@@ -74615,11 +74831,19 @@
       </lg>
       <mg No="1">
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">sydämetön</t>
+            <t pos="A">ankara</t>
+            <t pos="A">kova</t>
+            <t pos="A">tuima</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">бессердечный, жестокий, свирепый, безжалостный</t>
          </tg>
          <xg>
             <x>сьӧлӧмтӧм мам</x>
+            <xt xml:lang="fin">sydämetön äiti</xt>
+            <xt>ankara äiti</xt>
             <xt xml:lang="rus">жестокая, бессердечная мать</xt>
          </xg>
       </mg>
@@ -74691,11 +74915,17 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">rahaton</t>
+            <t pos="A">varaton</t>
+            <t pos="A">köyhä</t>
+         </tg>
          <tg xml:lang="rus">
             <t/>
          </tg>
          <xg>
             <x>сьӧмтӧм гыч</x>
+            <xt xml:lang="fin">mutu</xt>
             <xtCtn>
                <xt xml:lang="rus">гольян озёрный</xt>
                <re>мелкая непромысловая рыба</re>
@@ -97198,7 +97428,7 @@
          </tg>
       </mg>
       <mg>
-        <domain domainType="LING"/>
+         <domain domainType="LING"/>
          <tg xml:lang="eng">
             <t pos="A">present</t>
          </tg>
