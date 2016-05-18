@@ -115,8 +115,11 @@ GT_XML_SRCS=\
 # stems/propernouns-malesurnames-russian-derivable.xml
 # stems/propernouns-toponyms-Russian.xml
 
-# Define any additional sources here (compiled on their own):
+# Define any additional lexc sources here (compiled on their own):
 GT_LOCAL_SRCS=
+
+# Define local xfscripts here:
+GT_LOCAL_XFSCRIPT_SRCS=
 
 # Define here any additional sources just included in the distro:
 GT_DISTRO_SRCS=
