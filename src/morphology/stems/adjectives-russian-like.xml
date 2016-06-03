@@ -16,7 +16,7 @@
          </tg>
          <tg xml:lang="fin">
             <t pos="A">venäläinen</t>
-            <t pos="A">Venäjän</t>
+            <t pos="N">Venäjän</t>
          </tg>
       </mg>
    </e>
@@ -34,7 +34,7 @@
          </tg>
          <tg xml:lang="fin">
             <t pos="A">ruotsalainen</t>
-            <t pos="A">Ruotsin</t>
+            <t pos="N">Ruotsin</t>
          </tg>
       </mg>
    </e>
@@ -75,9 +75,9 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="A">abstraktinen</t>
-            <t>ajatuksellinen</t>
-            <t>käsitteellinen</t>
-            <t>epähavainnollinen</t>
+            <t pos="A">ajatuksellinen</t>
+            <t pos="A">käsitteellinen</t>
+            <t pos="A">epähavainnollinen</t>
          </tg>
       </mg>
    </e>
@@ -115,7 +115,7 @@
             <t pos="A">avantgardelle ominainen</t>
             <t pos="A">uraauurtava</t>
             <t pos="A">edelläkäyvä</t>
-            <t pos="A">eturintaman</t>
+            <t pos="N">eturintaman</t>
             <t pos="A">kokeileva</t>
          </tg>
       </mg>
@@ -133,7 +133,7 @@
             <t pos="A">аварийный</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">hätä-</t>
+            <t pos="N">hätä-</t>
          </tg>
          <xg>
             <x>аварийнӧй сигнал</x>
@@ -161,8 +161,8 @@
             <t pos="A">aircraft</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">ilmailu-</t>
-            <t pos="A">lentoliikenne-</t>
+            <t pos="N">ilmailu-</t>
+            <t pos="N">lentoliikenne-</t>
          </tg>
       </mg>
       <mg>
@@ -188,9 +188,9 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="A">aromaattinen</t>
-            <t>arominen</t>
-            <t>hyvänhajuinen</t>
-            <t>hyväntuoksuinen</t>
+            <t pos="A">arominen</t>
+            <t pos="A">hyvänhajuinen</t>
+            <t pos="A">hyväntuoksuinen</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">автоматический</t>
@@ -219,10 +219,10 @@
          </tg>
          <tg xml:lang="fin">
             <t pos="A">autonominen</t>
-            <t>jolla on sisäinen itsehallinto</t>
-            <t>itsemääräävä</t>
-            <t>omaehtoinen</t>
-            <t>itsenäinen</t>
+            <t pos="Prc">sisäisen itsehallinnon omaava</t>
+            <t pos="A">itsemääräävä</t>
+            <t pos="A">omaehtoinen</t>
+            <t pos="A">itsenäinen</t>
          </tg>
       </mg>
       <mg>
@@ -251,10 +251,10 @@
          </tg>
          <tg xml:lang="fin">
             <t pos="A">arvovaltainen</t>
-            <t>arvostettu</t>
-            <t>arvossa pidetty</t>
-            <t>autoritatiivinen</t>
-            <t>auktoritatiivinen</t>
+            <t pos="Prc">arvostettu</t>
+            <t pos="Prc">arvossa pidetty</t>
+            <t pos="A">autoritatiivinen</t>
+            <t pos="A">auktoritatiivinen</t>
          </tg>
          <xg>
             <x>авторитетнӧй комиссия</x>
@@ -276,8 +276,8 @@
             <t pos="A">author's</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">tekijän</t>
-            <t pos="A">kirjailijan</t>
+            <t pos="N">tekijän</t>
+            <t pos="N">kirjailijan</t>
          </tg>
       </mg>
    </e>
@@ -291,8 +291,8 @@
       <mg>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="A">agitaatio-</t>
-            <t>agitatorinen</t>
+            <t pos="N">agitaatio-</t>
+            <t pos="A">agitatorinen</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">агитационный</t>
@@ -314,11 +314,11 @@
       <mg>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="A">agraari-</t>
-            <t>agraarinen</t>
-            <t>maatalous-</t>
-            <t>maataloudellinen</t>
-            <t>maa-</t>
+            <t pos="N">agraari-</t>
+            <t pos="A">agraarinen</t>
+            <t pos="N">maatalous-</t>
+            <t pos="A">maataloudellinen</t>
+            <t pos="N">maa-</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">аграрный</t>
@@ -341,9 +341,9 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="A">aggressiivinen</t>
-            <t>hyökkäävä</t>
-            <t>hyökkäyshenkinen</t>
-            <t>hyökkäys</t>
+            <t pos="Prc">hyökkäävä</t>
+            <t pos="A">hyökkäyshenkinen</t>
+            <t pos="N">hyökkäys-</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">агрессивный</t>
@@ -366,9 +366,9 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="A">maataloustekninen</t>
-            <t>maatalousteknillinen</t>
-            <t>maanviljelystekninen</t>
-            <t>maanvilvelysteknillinen</t>
+            <t pos="A">maatalousteknillinen</t>
+            <t pos="A">maanviljelystekninen</t>
+            <t pos="A">maanvilvelysteknillinen</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">агротехнический</t>
@@ -391,8 +391,8 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="A">helvetillinen</t>
-            <t>helvetin</t>
-            <t>helvetin-</t>
+            <t pos="N">helvetin</t>
+            <t pos="N">helvetin-</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">адский</t>
@@ -415,7 +415,7 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="A">kiihkoisa</t>
-            <t>kiihkoinen</t>
+            <t pos="A">kiihkoinen</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">азартный</t>
@@ -441,7 +441,7 @@
          </tg>
          <tg xml:lang="fin">
             <t pos="A">aktiivinen</t>
-            <t pos="A">aktiivi-</t>
+            <t pos="N">aktiivi-</t>
          </tg>
       </mg>
       <mg>
@@ -470,8 +470,8 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="A">ajankohtainen</t>
-            <t>aktuaalinen</t>
-            <t>nykytärkeä</t>
+            <t pos="A">aktuaalinen</t>
+            <t pos="A">nykytärkeä</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">актуальный</t>
@@ -518,9 +518,9 @@
          </tg>
          <tg xml:lang="fin">
             <t pos="A">osakas-</t>
-            <t pos="A">osakkaan</t>
-            <t pos="A">osakkeenomistaja-</t>
-            <t pos="A">osakkeenomistajan</t>
+            <t pos="N">osakkaan</t>
+            <t pos="N">osakkeenomistaja-</t>
+            <t pos="N">osakkeenomistajan</t>
          </tg>
       </mg>
    </e>
@@ -605,7 +605,7 @@
          </tg>
          <tg xml:lang="fin">
             <t pos="A">englantilainen</t>
-            <t pos="A">Englannin</t>
+            <t pos="N">Englannin</t>
          </tg>
       </mg>
       <mg>
@@ -632,6 +632,9 @@
             <head/>
             <semRel No="1" lemmaID="нимпастӧм_A" semRelType="seeNative"/>
          </m>
+         <tg xml:lang="fin">
+            <t pos="A">anonyymi</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">анонимный</t>
          </tg>
@@ -685,6 +688,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">antiikkinen</t>
+            <t pos="N">antiikin</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">античный</t>
          </tg>
@@ -708,7 +715,7 @@
             <t pos="A">arbitrational</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">välitys-</t>
+            <t pos="N">välitys-</t>
          </tg>
       </mg>
    </e>
@@ -728,8 +735,8 @@
             <t pos="A">rent</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">vuokra-</t>
-            <t pos="A">arenti-</t>
+            <t pos="N">vuokra-</t>
+            <t pos="N">arenti-</t>
          </tg>
       </mg>
    </e>
@@ -742,6 +749,10 @@
       </lg>
       <mg No="1">
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">arttelin</t>
+            <t pos="N">artteli-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">артельный</t>
          </tg>
@@ -777,7 +788,7 @@
       <mg>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="A">atomi-</t>
+            <t pos="N">atomi-</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">атомный</t>
@@ -798,6 +809,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">naisen</t>
+            <t pos="N">nais-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">женщина, баба</t>
             <t pos="A">бабий</t>
@@ -841,7 +856,7 @@
          <tg xml:lang="fin">
             <t pos="A">aatelis-</t>
             <t pos="A">herras-</t>
-            <t pos="A">herran-</t>
+            <t pos="N">herran-</t>
          </tg>
       </mg>
       <mg>
@@ -1043,7 +1058,7 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="A">puhdas</t>
-            <t>puhtaaksi kirjoitettu</t>
+            <t pos="Prc">puhtaaksi kirjoitettu</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">чистовой</t>
@@ -1066,7 +1081,7 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="A">valkokaartilainen</t>
-            <t>valkokaartilais-</t>
+            <t pos="A">valkokaartilais-</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">белогвардейский</t>
@@ -1287,8 +1302,8 @@
          </tg>
          <tg xml:lang="fin">
             <t pos="A">irstas</t>
-            <t pos="A">elosteleva</t>
-            <t pos="A">huikenteleva</t>
+            <t pos="Prc">elosteleva</t>
+            <t pos="Prc">huikenteleva</t>
             <t pos="A">tolkuton</t>
          </tg>
       </mg>
@@ -1343,7 +1358,7 @@
             <t pos="A">theological</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">teologian</t>
+            <t pos="N">teologian</t>
             <t pos="A">teologinen</t>
             <t pos="A">jumaluusopillinen</t>
          </tg>
@@ -1386,7 +1401,7 @@
             <t pos="A">fighting</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">taistelu-</t>
+            <t pos="N">taistelu-</t>
             <t pos="A">railakas</t>
          </tg>
       </mg>
@@ -1498,6 +1513,9 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">sairaus-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">больничный</t>
          </tg>
@@ -1522,6 +1540,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">bolševistinen</t>
+            <t pos="N">bolševikki-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">большевистский</t>
          </tg>
@@ -1539,6 +1561,9 @@
             <head/>
             <semRel lemmaID="пемыдгӧрд_A" semRelType="seeAlso"/>
          </m>
+         <tg xml:lang="fin">
+            <t pos="A">tummanpunainen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">бордовый</t>
          </tg>
@@ -1574,6 +1599,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">pronssinen</t>
+            <t pos="N">pronssi-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">бронзовый</t>
          </tg>
@@ -1620,6 +1649,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">tanko-</t>
+            <t pos="N">kanki-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">брусковый</t>
          </tg>
@@ -1660,6 +1693,9 @@
       </lg>
       <mg No="1">
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">vehnä</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">булочный</t>
          </tg>
@@ -1671,6 +1707,10 @@
       </mg>
       <mg No="2">
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">leipämyymälä</t>
+            <t pos="N">leipäkauppa</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">булочная</t>
          </tg>
@@ -1717,8 +1757,8 @@
             <t pos="A">made of paper</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">paperista tehty</t>
-            <t pos="A">paperi-</t>
+            <t pos="Prc">paperista tehty</t>
+            <t pos="N">paperi-</t>
          </tg>
       </mg>
       <mg>
@@ -1741,6 +1781,9 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">porvarillis-demokraattinen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">буржуазно-демократический</t>
          </tg>
@@ -1755,6 +1798,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">porvarillinen</t>
+            <t pos="N">porvari-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">буржуазный</t>
          </tg>
@@ -1779,8 +1826,8 @@
             <t pos="A">oil rig</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">poraus-</t>
-            <t pos="A">pora-</t>
+            <t pos="N">poraus-</t>
+            <t pos="N">pora-</t>
          </tg>
       </mg>
       <mg No="1">
@@ -1843,8 +1890,8 @@
          </tg>
          <tg xml:lang="fin">
             <t pos="A">sosiaali-</t>
-            <t pos="A">elin-</t>
-            <t pos="A">elämän-</t>
+            <t pos="N">elin-</t>
+            <t pos="N">elämän-</t>
             <t pos="A">jokapäiväinen</t>
          </tg>
       </mg>
@@ -1862,8 +1909,8 @@
             <t pos="A">budjet</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">talousarvio-</t>
-            <t pos="A">budjetti-</t>
+            <t pos="N">talousarvio-</t>
+            <t pos="N">budjetti-</t>
          </tg>
       </mg>
    </e>
@@ -1876,6 +1923,9 @@
       </lg>
       <mg No="1">
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">tärkeä</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">важный</t>
          </tg>
@@ -1958,7 +2008,7 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">vanu-</t>
+            <t pos="N">vanu-</t>
             <t pos="A">pumpulinen</t>
          </tg>
       </mg>
@@ -1986,8 +2036,8 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">johtava</t>
-            <t pos="A">johto-</t>
+            <t pos="Prc">johtava</t>
+            <t pos="N">johto-</t>
          </tg>
       </mg>
    </e>
@@ -2003,6 +2053,9 @@
             <head/>
             <semRel No="1" lemmaID="вежлив_A" semRelType="see"/>
          </m>
+         <tg xml:lang="fin">
+            <t pos="A">kohtelias</t>
+         </tg>
          <tg xml:lang="rus">
             <t/>
          </tg>
@@ -2020,6 +2073,10 @@
             <head/>
             <semRel No="1" lemmaID="векӧвӧйся_A" semRelType="see"/>
          </m>
+         <tg xml:lang="fin">
+            <t pos="A">vuosisatainen</t>
+            <t pos="A">ikivanha</t>
+         </tg>
          <tg xml:lang="rus">
             <t/>
          </tg>
@@ -2038,10 +2095,10 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">värvätty</t>
-            <t pos="A">värväys-</t>
-            <t pos="A">pestattu</t>
-            <t pos="A">pestaus-</t>
+            <t pos="Prc">värvätty</t>
+            <t pos="N">värväys-</t>
+            <t pos="Prc">pestattu</t>
+            <t pos="N">pestaus-</t>
          </tg>
       </mg>
    </e>
@@ -2065,6 +2122,11 @@
       </mg>
       <mg No="1">
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">uskollinen</t>
+            <t pos="A">tarkka</t>
+            <t pos="A">varma</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">верный</t>
             <t pos="A">надёжный</t>
@@ -2176,12 +2238,12 @@
          </tg>
          <tg xml:lang="fin">
             <t pos="A">ulkonainen</t>
-            <t pos="A">ulko-</t>
+            <t pos="N">ulko-</t>
             <t pos="A">ulkopuolinen</t>
-            <t pos="A">pinta-</t>
+            <t pos="N">pinta-</t>
             <t pos="A">pinnallinen</t>
             <t pos="A">ulkomainen</t>
-            <t pos="A">ulkomaan-</t>
+            <t pos="N">ulkomaan-</t>
          </tg>
       </mg>
    </e>
@@ -2202,7 +2264,7 @@
          </tg>
          <tg xml:lang="fin">
             <t pos="A">sisäinen</t>
-            <t pos="A">sisä-</t>
+            <t pos="N">sisä-</t>
          </tg>
       </mg>
    </e>
@@ -2219,10 +2281,10 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">sota-</t>
+            <t pos="N">sota-</t>
             <t pos="A">sotilaallinen</t>
-            <t pos="A">sotilashenkilö-</t>
-            <t pos="A">sotilas-</t>
+            <t pos="N">sotilashenkilö-</t>
+            <t pos="N">sotilas-</t>
          </tg>
       </mg>
       <mg>
@@ -2263,6 +2325,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">ilma-</t>
+            <t pos="N">lento-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">воздушный</t>
          </tg>
@@ -2285,10 +2351,10 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">volostin-</t>
-            <t pos="A">volostin</t>
-            <t pos="A">kunnan-</t>
-            <t pos="A">kunnan</t>
+            <t pos="N">volostin-</t>
+            <t pos="N">volostin</t>
+            <t pos="N">kunnan-</t>
+            <t pos="N">kunnan</t>
          </tg>
       </mg>
       <mg>
@@ -2320,6 +2386,10 @@
                <field fieldType="GRAM"/>
             </head>
          </m>
+         <tg xml:lang="fin">
+            <t pos="Prc">kysyvä</t>
+            <t pos="N">kysymys-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">вопросительный</t>
          </tg>
@@ -2338,7 +2408,8 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t/>
+            <t pos="A">vorgašorilainen</t>
+            <t pos="N">Vorgašorin</t>
          </tg>
       </mg>
    </e>
@@ -2382,6 +2453,10 @@
                <field fieldType="GRAM"/>
             </head>
          </m>
+         <tg xml:lang="fin">
+            <t pos="N">huuto-</t>
+            <t pos="N">huudahtus-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">восклицательный</t>
          </tg>
@@ -2396,6 +2471,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">vihamielinen</t>
+            <t pos="A">vihollis-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">враждебный</t>
          </tg>
@@ -2438,7 +2517,7 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">maailman-</t>
+            <t pos="N">maailman-</t>
             <t pos="A">yleismaailmallinen</t>
          </tg>
       </mg>
@@ -2456,7 +2535,7 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">koko kansan</t>
+            <t pos="N">koko kansan</t>
             <t pos="A">yleiskansallinen</t>
          </tg>
       </mg>
@@ -2514,7 +2593,7 @@
             <t pos="A">auxiliary</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">apu-</t>
+            <t pos="N">apu-</t>
          </tg>
       </mg>
    </e>
@@ -2527,6 +2606,9 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">edullinen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">выгодный</t>
             <t pos="A">прибыльный</t>
@@ -2550,6 +2632,10 @@
                <re>о сапогах, у к-рых подъём вытянут, а не выкроен</re>
             </head>
          </m>
+         <tg xml:lang="fin">
+            <t pos="N">venytys-</t>
+            <t pos="N">veto-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">вытяжной</t>
          </tg>
@@ -2621,6 +2707,9 @@
       </lg>
       <mg No="1">
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">vapaa</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">вольный, свободный, независимый</t>
          </tg>
@@ -2730,6 +2819,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">villalankainen</t>
+            <t pos="N">villa-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">гарусный</t>
          </tg>
@@ -2753,7 +2846,7 @@
             <t pos="A">general</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">pää-</t>
+            <t pos="N">pää-</t>
             <t pos="A">yleis-</t>
             <t pos="A">yleinen</t>
          </tg>
@@ -2768,6 +2861,9 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">nerokas</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">гениальный</t>
          </tg>
@@ -2841,7 +2937,7 @@
             <t pos="A">German</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">Saksan</t>
+            <t pos="N">Saksan</t>
             <t pos="A">saksalainen</t>
          </tg>
       </mg>
@@ -2855,6 +2951,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">sankarillinen</t>
+            <t pos="N">sankari-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">геройский</t>
          </tg>
@@ -2873,6 +2973,9 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">ylipäällikkö</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">главнокомандующий</t>
          </tg>
@@ -2901,9 +3004,9 @@
             <t pos="A">principal</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">pää-</t>
+            <t pos="N">pää-</t>
             <t pos="A">pääasiallinen</t>
-            <t pos="A">johto-</t>
+            <t pos="N">johto-</t>
             <t pos="A">yli-</t>
             <t pos="A">tärkein</t>
          </tg>
@@ -2969,6 +3072,9 @@
                <field fieldType="LING"/>
             </head>
          </m>
+         <tg xml:lang="fin">
+            <t pos="N">vokaali-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">гласный</t>
          </tg>
@@ -3022,7 +3128,7 @@
             <t pos="A">bay (of a horse)</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">ruunikko</t>
+            <t pos="N">ruunikko</t>
          </tg>
       </mg>
       <mg>
@@ -3049,6 +3155,9 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">ajo-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">гончая</t>
          </tg>
@@ -3071,8 +3180,8 @@
             <t pos="A">mining</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">kalliomalmi-</t>
-            <t pos="A">vuorimalmi-</t>
+            <t pos="N">kalliomalmi-</t>
+            <t pos="N">vuorimalmi-</t>
          </tg>
       </mg>
    </e>
@@ -3114,7 +3223,7 @@
             <t pos="A">national</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">valtion-</t>
+            <t pos="N">valtion-</t>
             <t pos="A">valtiollinen</t>
          </tg>
       </mg>
@@ -3144,7 +3253,7 @@
          </tg>
          <tg xml:lang="fin">
             <t pos="A">kansalais-</t>
-            <t pos="A">siviili-</t>
+            <t pos="N">siviili-</t>
          </tg>
       </mg>
       <mg>
@@ -3187,8 +3296,8 @@
             <t pos="A">educated</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">oppinut</t>
-            <t pos="A">sivistynyt</t>
+            <t pos="Prc">oppinut</t>
+            <t pos="Prc">sivistynyt</t>
          </tg>
       </mg>
       <mg>
@@ -3240,6 +3349,11 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">kuorma-</t>
+            <t pos="N">lasti-</t>
+            <t pos="N">rahti-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">грузовой</t>
          </tg>
@@ -3279,6 +3393,9 @@
             <head/>
             <semRel lemmaID="кельыдлӧз_A" semRelType="seeAlso"/>
          </m>
+         <tg xml:lang="fin">
+            <t pos="A">vaaleansininen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">голубой</t>
          </tg>
@@ -3297,6 +3414,9 @@
                <range rangeTemp="obsolete"/>
             </head>
          </m>
+         <tg xml:lang="fin">
+            <t pos="N">vierashuone</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">гостиная</t>
          </tg>
@@ -3315,6 +3435,9 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">valmis</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">готовый</t>
          </tg>
@@ -3396,6 +3519,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="Prc">päivystävä</t>
+            <t pos="N">päivystäjä</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">дежурный</t>
          </tg>
@@ -3418,6 +3545,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">todellinen</t>
+            <t pos="N">tosi-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">действительный</t>
          </tg>
@@ -3440,7 +3571,7 @@
             <t pos="A">maternity (leave)</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">äitiysloma-</t>
+            <t pos="N">äitiysloma-</t>
          </tg>
       </mg>
       <mg>
@@ -3530,6 +3661,13 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">asiallinen</t>
+            <t pos="N">asia-</t>
+            <t pos="Prc">työasioita koskeva</t>
+            <t pos="A">toimelias</t>
+            <t pos="A">puuhakas</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">деловой</t>
          </tg>
@@ -3560,6 +3698,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">demokrattinen</t>
+            <t pos="A">kansanvaltainen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">демократический</t>
          </tg>
@@ -3592,6 +3734,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">kymmenysmies</t>
+            <t pos="N">kymmenniekka</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">десятский</t>
          </tg>
@@ -3618,7 +3764,7 @@
             <t pos="A">child's</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">lasten-</t>
+            <t pos="N">lasten-</t>
          </tg>
       </mg>
    </e>
@@ -3739,7 +3885,7 @@
             <t pos="A">contractual</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">sopimus-</t>
+            <t pos="N">sopimus-</t>
             <t pos="A">sopimuksenmukainen</t>
          </tg>
       </mg>
@@ -3762,6 +3908,10 @@
             <head/>
             <semRel RNo="II" lemmaID="арта_A" semRelType="seeAlso"/>
          </m>
+         <tg xml:lang="fin">
+            <t pos="N">virka-</t>
+            <t pos="N">viran-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">должностной</t>
          </tg>
@@ -3823,9 +3973,9 @@
          </tg>
          <tg xml:lang="fin">
             <t pos="A">lastentarhaikäinen</t>
-            <t pos="A">lastentarha-</t>
+            <t pos="N">lastentarha-</t>
             <t pos="A">päiväkoti-ikäinen</t>
-            <t pos="A">päiväkoti-</t>
+            <t pos="N">päiväkoti-</t>
          </tg>
       </mg>
    </e>
@@ -3902,7 +4052,7 @@
          <tg xml:lang="fin">
             <t pos="A">vammainen</t>
             <t pos="A">raajarikkoinen</t>
-            <t pos="A">turmeltunut</t>
+            <t pos="Prc">turmeltunut</t>
          </tg>
       </mg>
       <mg>
@@ -3960,6 +4110,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">ystävyys-</t>
+            <t pos="Prc">ystävyyteen perustuva</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">дружественный</t>
          </tg>
@@ -3974,6 +4128,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">sopuisa</t>
+            <t pos="A">yksimielinen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">дружный</t>
          </tg>
@@ -4011,8 +4169,8 @@
          </tg>
          <tg xml:lang="fin">
             <t pos="A">henkinen</t>
-            <t pos="A">hengen-</t>
-            <t pos="A">sielun-</t>
+            <t pos="N">hengen-</t>
+            <t pos="N">sielun-</t>
             <t pos="A">hengellinen</t>
             <t pos="A">pappis-</t>
          </tg>
@@ -4050,6 +4208,9 @@
       </lg>
       <mg No="1">
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">tyytyväinen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">довольный</t>
          </tg>
@@ -4060,6 +4221,11 @@
       </mg>
       <mg No="2">
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">hyvänsävyinen</t>
+            <t pos="A">hyväntuulinen</t>
+            <t pos="A">hyväsydäminen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">благодушный</t>
          </tg>
@@ -4118,6 +4284,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">santarmi-</t>
+            <t pos="N">santarmin</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">жандармский</t>
          </tg>
@@ -4138,7 +4308,7 @@
          </tg>
          <tg xml:lang="fin">
             <t pos="A">asuin-</t>
-            <t pos="A">asunto-</t>
+            <t pos="N">asunto-</t>
          </tg>
       </mg>
    </e>
@@ -4172,7 +4342,7 @@
             <t pos="A">??(which one bride or groom) enviable</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">kadehdittava</t>
+            <t pos="Prc">kadehdittava</t>
          </tg>
       </mg>
       <mg>
@@ -4690,7 +4860,7 @@
             <t pos="A">audience</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">katsoja-</t>
+            <t pos="N">katsoja-</t>
          </tg>
       </mg>
    </e>
@@ -4709,6 +4879,10 @@
             </head>
             <semRel No="1" lemmaID="зарни_A" semRelType="see"/>
          </m>
+         <tg xml:lang="fin">
+            <t pos="A">kultainen</t>
+            <t pos="N">kulta-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">золотой</t>
          </tg>
@@ -4771,6 +4945,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">aatteellinen</t>
+            <t pos="N">aate-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">идейный</t>
          </tg>
@@ -4797,6 +4975,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">ideologinen</t>
+            <t pos="A">aatteellinen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">идеологический</t>
          </tg>
@@ -4815,6 +4997,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">mittaus-</t>
+            <t pos="N">mitta-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">измерительный</t>
          </tg>
@@ -4847,6 +5033,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">nimellinen</t>
+            <t pos="N">nimikirjoituksella varustettu</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">именной</t>
          </tg>
@@ -4872,7 +5062,7 @@
             <t pos="A">import</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">tuonti-</t>
+            <t pos="N">tuonti-</t>
          </tg>
       </mg>
    </e>
@@ -4889,7 +5079,7 @@
             <t pos="A">investment</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">sijoitus-</t>
+            <t pos="N">sijoitus-</t>
          </tg>
       </mg>
    </e>
@@ -4905,6 +5095,12 @@
             <head/>
             <semRel No="5" lemmaID="ӧтка_A" semRelType="seeAlso"/>
          </m>
+         <tg xml:lang="fin">
+            <t pos="A">yksilöllinen</t>
+            <t pos="A">individuaalinen</t>
+            <t pos="A">yksityinen</t>
+            <t pos="A">yksityis-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">индивидуальный</t>
          </tg>
@@ -4923,6 +5119,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">teollinen</t>
+            <t pos="N">teollisuus-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">индустриальный</t>
          </tg>
@@ -4958,6 +5158,12 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">ulkomaalainen</t>
+            <t pos="A">ulkomainen</t>
+            <t pos="A">ulkolainen</t>
+            <t pos="N">ulkomaan</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">иностранный</t>
          </tg>
@@ -6068,7 +6274,7 @@
             <t pos="A">contract</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">sopimus-</t>
+            <t pos="N">sopimus-</t>
          </tg>
       </mg>
    </e>
@@ -6085,8 +6291,8 @@
             <t pos="A">test</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">koe-</t>
-            <t pos="A">kontrolli-</t>
+            <t pos="N">koe-</t>
+            <t pos="N">kontrolli-</t>
          </tg>
       </mg>
       <mg>
@@ -6109,6 +6315,9 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">vastavallankumouksellinen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">контрреволюционный</t>
          </tg>
@@ -6145,6 +6354,11 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">osuustoiminnallinen</t>
+            <t pos="N">osuus(toiminta)-</t>
+            <t pos="A">kooperatiivinen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">кооперативный</t>
          </tg>
@@ -6167,7 +6381,7 @@
             <t pos="A">coordinative</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">koordinointi-</t>
+            <t pos="N">koordinointi-</t>
          </tg>
       </mg>
    </e>
@@ -6200,6 +6414,9 @@
             <head/>
             <semRel No="1" lemmaID="вердан_A" semRelType="seeAlso"/>
          </m>
+         <tg xml:lang="fin">
+            <t pos="N">rehu-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">кормовой</t>
          </tg>
@@ -6218,6 +6435,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">avaruus-</t>
+            <t pos="A">kosminen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">космический</t>
          </tg>
@@ -6254,6 +6475,10 @@
                <field fieldType="HIST"/>
             </head>
          </m>
+         <tg xml:lang="fin">
+            <t pos="N">puna-armeijalais-</t>
+            <t pos="N">puna-armeijalaisen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">красноармейский</t>
          </tg>
@@ -6268,6 +6493,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">punakaartilais-</t>
+            <t pos="N">punakaartilaisen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">красногвардейский</t>
          </tg>
@@ -6286,7 +6515,7 @@
             <t pos="A">Red Banner</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">Punaisen Lipun kunniamerkillä palkittu</t>
+            <t pos="Prc">Punaisen Lipun kunniamerkillä palkittu</t>
          </tg>
       </mg>
       <mg>
@@ -6325,6 +6554,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">maaorja-</t>
+            <t pos="N">maaorjuus-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">крепостнический</t>
          </tg>
@@ -6339,6 +6572,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">linnan</t>
+            <t pos="N">linnoituksen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">крепостной</t>
          </tg>
@@ -6361,7 +6598,7 @@
             <t pos="A">farmer</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">maanviljelijä-</t>
+            <t pos="N">maanviljelijä-</t>
          </tg>
       </mg>
       <mg>
@@ -6429,6 +6666,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">pitsinen</t>
+            <t pos="N">pitsi-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">кружевной</t>
          </tg>
@@ -6457,6 +6698,9 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">kulttuurijoukko-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">культурно-массовый</t>
          </tg>
@@ -6479,8 +6723,8 @@
             <t pos="A">cultural</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">kulttuuri-</t>
-            <t pos="A">sivistys-</t>
+            <t pos="N">kulttuuri-</t>
+            <t pos="N">sivistys-</t>
             <t pos="A">kulttuurillinen</t>
             <t pos="A">sivistyksellinen</t>
          </tg>
@@ -6540,6 +6784,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">kotiteollinen</t>
+            <t pos="N">kotiteollisuus-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">кустарный</t>
          </tg>
@@ -7233,6 +7481,9 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">lento-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">лётный</t>
          </tg>
@@ -7252,6 +7503,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">valheellinen</t>
+            <t pos="N">vale-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">ложный</t>
          </tg>
@@ -7286,9 +7541,8 @@
             <t pos="A">long-haul</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">pää-</t>
-            <t pos="A">valta-</t>
-            <t pos="A">pitkämatka-??</t>
+            <t pos="N">pää-</t>
+            <t pos="N">valta-</t>
          </tg>
       </mg>
    </e>
@@ -7349,11 +7603,11 @@
          </tg>
          <tg xml:lang="fin">
             <t pos="A">maksimaalinen</t>
-            <t pos="A">maksimi-</t>
-            <t pos="A">maksimmaali-</t>
+            <t pos="N">maksimi-</t>
+            <t pos="N">maksimaali-</t>
             <t pos="A">äärimmäinen</t>
             <t pos="A">enimmäis-</t>
-            <t pos="A">huippu-</t>
+            <t pos="N">huippu-</t>
          </tg>
       </mg>
       <mg>
@@ -7391,6 +7645,9 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">mandaatti-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">мандатный</t>
          </tg>
@@ -7414,7 +7671,7 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">huolellisuutta vaativa</t>
+            <t pos="Prc">huolellisuutta vaativa</t>
          </tg>
       </mg>
       <mg>
@@ -7444,6 +7701,9 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">manna-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">манный</t>
          </tg>
@@ -7590,6 +7850,9 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">materialistinen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">материалистический</t>
          </tg>
@@ -7646,6 +7909,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">matruusi-</t>
+            <t pos="N">merimies-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">матросский</t>
          </tg>
@@ -7664,7 +7931,7 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">koneenrakennus-</t>
+            <t pos="N">koneenrakennus-</t>
          </tg>
       </mg>
       <mg>
@@ -7764,8 +8031,8 @@
             <t pos="A">land improvement</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">perusparannus-</t>
-            <t pos="A">maanparannus-</t>
+            <t pos="N">perusparannus-</t>
+            <t pos="N">maanparannus-</t>
          </tg>
       </mg>
    </e>
@@ -7778,6 +8045,9 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">muisto-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">мемориальный</t>
          </tg>
@@ -8185,6 +8455,9 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">moninkertainen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">многократный</t>
          </tg>
@@ -8217,6 +8490,9 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="Prc">mobilisoitu</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">мобилизованный</t>
          </tg>
@@ -8231,6 +8507,11 @@
       </lg>
       <mg No="1">
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">muodikas</t>
+            <t pos="A">muodinmukainen</t>
+            <t pos="N">muoti-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">модный</t>
          </tg>
@@ -8290,8 +8571,8 @@
          </tg>
          <tg xml:lang="fin">
             <t pos="A">monopolistinen</t>
-            <t>joka on monopoliasemassa</t>
-            <t>joka suosii monopoleja</t>
+            <t pos="Prc">monopoliasemassa oleva</t>
+            <t pos="Prc">monopoleja suosiva</t>
             <t pos="A">yksinoikeudellinen</t>
          </tg>
       </mg>
@@ -8315,8 +8596,8 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">monopoli-</t>
-            <t pos="A">yksinoikeus-</t>
+            <t pos="N">monopoli-</t>
+            <t pos="N">yksinoikeus-</t>
          </tg>
       </mg>
    </e>
@@ -8336,8 +8617,8 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">meri-</t>
-            <t pos="A">meren-</t>
+            <t pos="N">meri-</t>
+            <t pos="N">meren-</t>
             <t pos="A">merellinen</t>
          </tg>
       </mg>
@@ -8355,6 +8636,11 @@
             <semRel No="1" lemmaID="айлов_A" semRelType="seeAlso"/>
             <semRel No="1" lemmaID="вер_A" semRelType="seeAlso"/>
          </m>
+         <tg xml:lang="fin">
+            <t pos="A">miehinen</t>
+            <t pos="N">mies-</t>
+            <t pos="N">miehen-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">мужчина</t>
             <t pos="A">мужской</t>
@@ -9281,6 +9567,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="Prc">epäonnistunut</t>
+            <t pos="A">onnistumaton</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">неудачный</t>
          </tg>
@@ -9295,6 +9585,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">huonosatoinen</t>
+            <t pos="N">kato-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">неурожайный</t>
          </tg>
@@ -9317,7 +9611,7 @@
             <t pos="A">petroleum</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">öljy-</t>
+            <t pos="N">öljy-</t>
          </tg>
       </mg>
    </e>
@@ -9348,6 +9642,9 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">normaali-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">нормальный</t>
          </tg>
@@ -10049,6 +10346,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">alkukantainen</t>
+            <t pos="N">alku-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">первобытный</t>
          </tg>
@@ -10071,6 +10372,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">ensiluokkainen</t>
+            <t pos="N">ensiluokan</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">первоклассный</t>
          </tg>
@@ -10097,11 +10402,11 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">siirto-</t>
-            <t pos="A">siirrettävä</t>
-            <t pos="A">työnnettävä</t>
-            <t pos="A">työntö-</t>
-            <t pos="A">liikkuva</t>
+            <t pos="N">siirto-</t>
+            <t pos="Prc">siirrettävä</t>
+            <t pos="Prc">työnnettävä</t>
+            <t pos="N">työntö-</t>
+            <t pos="Prc">liikkuva</t>
          </tg>
       </mg>
    </e>
@@ -10118,6 +10423,10 @@
                <range rangeTemp="obsolete"/>
             </head>
          </m>
+         <tg xml:lang="fin">
+            <t pos="Prc">vaihteleva</t>
+            <t pos="Prc">muuttuva</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">переменный</t>
          </tg>
@@ -10140,6 +10449,10 @@
                <field fieldType="GRAM"/>
             </head>
          </m>
+         <tg xml:lang="fin">
+            <t pos="A">transitiivinen</t>
+            <t pos="N">transitiivi-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">переходный</t>
          </tg>
@@ -10158,6 +10471,13 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">jaksottainen</t>
+            <t pos="A">ajoittainen</t>
+            <t pos="A">aikakausittainen</t>
+            <t pos="Prc">määräajoin tapahtuva</t>
+            <t pos="A">periodinen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">периодический</t>
          </tg>
@@ -11102,7 +11422,7 @@
             <t pos="A">honorary</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">kunnia-</t>
+            <t pos="N">kunnia-</t>
          </tg>
       </mg>
       <mg>
@@ -11139,6 +11459,10 @@
             <head/>
             <semRel No="1" lemmaID="мисьтӧм_A" semRelType="seeAlso"/>
          </m>
+         <tg xml:lang="fin">
+            <t pos="A">mauton</t>
+            <t pos="A">matalahenkinen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">пошлый</t>
          </tg>
@@ -11192,6 +11516,10 @@
             </head>
             <semRel No="1" lemmaID="гӧгӧрвоӧдан_A" semRelType="seeAlso"/>
          </m>
+         <tg xml:lang="fin">
+            <t pos="N">selitys-</t>
+            <t pos="Prc">selittävä</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">пояснительный</t>
          </tg>
@@ -11211,6 +11539,9 @@
       </lg>
       <mg No="1">
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">oikea</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">правильный</t>
             <t pos="A">безошибочный</t>
@@ -11267,6 +11598,9 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">hallitus-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">правительственный</t>
          </tg>
@@ -11292,7 +11626,7 @@
          <tg xml:lang="fin">
             <t pos="A">lainsäädännöllinen</t>
             <t pos="A">oikeudellinen</t>
-            <t pos="A">oikeus-</t>
+            <t pos="N">oikeus-</t>
             <t pos="A">lainmukainen</t>
          </tg>
       </mg>
@@ -11311,6 +11645,7 @@
          </tg>
          <tg xml:lang="fin">
             <t pos="A">ortodoksinen</t>
+            <t pos="N">ortodoksi-</t>
          </tg>
       </mg>
       <mg>
@@ -11349,7 +11684,7 @@
          <tg xml:lang="fin">
             <t pos="A">lainsäädännöllinen</t>
             <t pos="A">oikeudellinen</t>
-            <t pos="A">oikeus-</t>
+            <t pos="N">oikeus-</t>
             <t pos="A">lainmukainen</t>
          </tg>
       </mg>
@@ -11849,8 +12184,8 @@
          </m>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="A">partisiippi-</t>
-            <t>partisiippinen</t>
+            <t pos="N">partisiippi-</t>
+            <t pos="A">partisiippinen</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">причастный</t>
@@ -11877,8 +12212,8 @@
       <mg No="1">
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="A">vastaanotto-</t>
-            <t>pääsy-</t>
+            <t pos="N">vastaanotto-</t>
+            <t pos="N">pääsy-</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">приёмный</t>
@@ -11910,11 +12245,11 @@
       <mg>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="A">etenevä</t>
-            <t>ylenevä</t>
-            <t>progressiivinen</t>
-            <t>edistyksellinen</t>
-            <t>edistysmielinen</t>
+            <t pos="Prc">etenevä</t>
+            <t pos="Prc">ylenevä</t>
+            <t pos="A">progressiivinen</t>
+            <t pos="A">edistyksellinen</t>
+            <t pos="A">edistysmielinen</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">прогрессивный</t>
@@ -11937,9 +12272,9 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="A">tuottelias</t>
-            <t>tuottoisa</t>
-            <t>produktiivinen</t>
-            <t>hyöty-</t>
+            <t pos="A">tuottoisa</t>
+            <t pos="A">produktiivinen</t>
+            <t pos="N">hyöty-</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">продуктивный</t>
@@ -11966,8 +12301,8 @@
       <mg>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="A">tuottava</t>
-            <t>tuottoisa</t>
+            <t pos="Prc">tuottava</t>
+            <t pos="A">tuottoisa</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">производительный</t>
@@ -11993,7 +12328,7 @@
          </tg>
          <tg xml:lang="fin">
             <t pos="A">tuotannollinen</t>
-            <t pos="A">tuotanto-</t>
+            <t pos="N">tuotanto-</t>
          </tg>
       </mg>
       <mg>
@@ -12023,7 +12358,7 @@
       <mg>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="A">prokuraattorin</t>
+            <t pos="N">prokuraattorin</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">прокурорский</t>
@@ -12046,9 +12381,9 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="A">proletaarinen</t>
-            <t>proletariaatin</t>
-            <t>työläisiin liittyvä</t>
-            <t>köyhälistöön liittyvä</t>
+            <t pos="N">proletariaatin</t>
+            <t pos="Prc">työläisiin liittyvä</t>
+            <t pos="Prc">köyhälistöön liittyvä</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">пролетарский</t>
@@ -12071,7 +12406,7 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="A">teollinen</t>
-            <t>teollisuus-</t>
+            <t pos="N">teollisuus-</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">промышленный</t>
@@ -12099,10 +12434,10 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="A">sopusuhtainen</t>
-            <t>tasasuhtainen</t>
-            <t>suhteellinen</t>
-            <t>verrannollinen</t>
-            <t>proportionaalinen</t>
+            <t pos="A">tasasuhtainen</t>
+            <t pos="A">suhteellinen</t>
+            <t pos="A">verrannollinen</t>
+            <t pos="A">proportionaalinen</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">пропорциональный</t>
@@ -12132,7 +12467,7 @@
          </tg>
          <tg xml:lang="fin">
             <t pos="A">ammattimainen</t>
-            <t pos="A">ammatti-</t>
+            <t pos="N">ammatti-</t>
          </tg>
       </mg>
       <mg>
@@ -12158,7 +12493,7 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="A">yksinkertainen</t>
-            <t>tavallinen</t>
+            <t pos="A">tavallinen</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">простой, обыкновенный</t>
@@ -12307,7 +12642,7 @@
             <t pos="A">publicistic</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">sanomalehti-</t>
+            <t pos="N">sanomalehti-</t>
          </tg>
       </mg>
       <mg>
@@ -12380,12 +12715,12 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="A">tyhjä</t>
-            <t>autio</t>
-            <t>ontto</t>
-            <t>tyhjänpäiväinen</t>
-            <t>tyhjänaikainen</t>
-            <t>joutava</t>
-            <t>turha</t>
+            <t pos="A">autio</t>
+            <t pos="A">ontto</t>
+            <t pos="A">tyhjänpäiväinen</t>
+            <t pos="A">tyhjänaikainen</t>
+            <t pos="A">joutava</t>
+            <t pos="A">turha</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">пустой, порожний</t>
@@ -12399,8 +12734,8 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="A">sisällyksetön</t>
-            <t>sisällötön</t>
-            <t>tyhjä</t>
+            <t pos="A">sisällötön</t>
+            <t pos="A">tyhjä</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">бессодержательный</t>
@@ -12463,7 +12798,7 @@
       <mg>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="A">urakka-</t>
+            <t pos="N">urakka-</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">подрядный</t>
@@ -12491,9 +12826,9 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">kiitos-</t>
-            <t pos="A">kehuva</t>
-            <t pos="A">kiittävä</t>
+            <t pos="N">kiitos-</t>
+            <t pos="Prc">kehuva</t>
+            <t pos="Prc">kiittävä</t>
          </tg>
       </mg>
    </e>
@@ -12508,9 +12843,9 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="A">hyödyllinen</t>
-            <t>hyödykäs</t>
-            <t>hyötyisä</t>
-            <t>hyöty-</t>
+            <t pos="A">hyödykäs</t>
+            <t pos="A">hyötyisä</t>
+            <t pos="N">hyöty-</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">полезный</t>
@@ -12532,8 +12867,8 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="A">poikittainen</t>
-            <t>poikki-</t>
-            <t>poikittais-</t>
+            <t pos="A">poikki-</t>
+            <t pos="A">poikittais-</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">поперечный</t>
@@ -12555,9 +12890,9 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="A">myötäinen</t>
-            <t>myötä-</t>
-            <t>menon suuntainen</t>
-            <t>samansuuntainen</t>
+            <t pos="A">myötä-</t>
+            <t pos="A">menon suuntainen</t>
+            <t pos="A">samansuuntainen</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">попутный</t>
@@ -12682,9 +13017,9 @@
       <mg>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="A">työväen-</t>
-            <t>työläis-</t>
-            <t>työ-</t>
+            <t pos="N">työväen-</t>
+            <t pos="A">työläis-</t>
+            <t pos="N">työ-</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">рабочий</t>
@@ -12726,7 +13061,7 @@
       <mg>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="A">rivi-</t>
+            <t pos="N">rivi-</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">рядовой</t>
@@ -12914,7 +13249,7 @@
             <t pos="A">regional</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">alue-</t>
+            <t pos="N">alue-</t>
             <t pos="A">alueellinen</t>
          </tg>
       </mg>
@@ -13047,8 +13382,8 @@
             <t pos="A">republic</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">tasavalta-</t>
-            <t pos="A">tasavallan</t>
+            <t pos="N">tasavalta-</t>
+            <t pos="N">tasavallan</t>
          </tg>
       </mg>
       <mg>
@@ -13117,7 +13452,7 @@
             <t pos="A">decisive</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">ratkaiseva</t>
+            <t pos="Prc">ratkaiseva</t>
          </tg>
       </mg>
    </e>
@@ -13680,6 +14015,10 @@
             <head/>
             <semRel No="1" lemmaID="гуся_A" semRelType="seeAlso"/>
          </m>
+         <tg xml:lang="fin">
+            <t pos="A">salainen</t>
+            <t pos="N">sala-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">секретный</t>
          </tg>
@@ -13991,7 +14330,7 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">yhteenlaskettava</t>
+            <t pos="Prc">yhteenlaskettava</t>
          </tg>
       </mg>
       <mg>
@@ -14022,6 +14361,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">kermainen</t>
+            <t pos="N">kerma-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">сливочный</t>
          </tg>
@@ -14040,6 +14383,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">sanakirja-</t>
+            <t pos="N">sanakirjan</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">словарный</t>
          </tg>
@@ -14347,7 +14694,7 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">sovittelu-</t>
+            <t pos="N">sovittelu-</t>
          </tg>
       </mg>
    </e>
@@ -14393,6 +14740,9 @@
             <semRel No="1" lemmaID="йитан_A" semRelType="seeAlso"/>
             <semRel No="1" lemmaID="ӧтлаӧдан_A" semRelType="seeAlso"/>
          </m>
+         <tg xml:lang="fin">
+            <t pos="Prc">yhdistävä</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">соединительный</t>
          </tg>
@@ -14415,7 +14765,7 @@
             <t pos="A">solo</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">soolo-</t>
+            <t pos="N">soolo-</t>
          </tg>
       </mg>
    </e>
@@ -14433,8 +14783,8 @@
          </tg>
          <tg xml:lang="fin">
             <t pos="A">laadukas</t>
-            <t pos="A">laatu-</t>
-            <t pos="A">valio-</t>
+            <t pos="N">laatu-</t>
+            <t pos="N">valio-</t>
          </tg>
       </mg>
       <mg>
@@ -14537,6 +14887,9 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">liitto-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">союзный</t>
          </tg>
@@ -14555,6 +14908,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">rauhallinen</t>
+            <t pos="A">rauhaisa</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">спокойный</t>
          </tg>
@@ -14598,6 +14955,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">urheilullinen</t>
+            <t pos="N">urheilu-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">спортивный</t>
          </tg>
@@ -14693,6 +15054,10 @@
             <head/>
             <semRel No="1" lemmaID="шӧр_A" semRelType="seeAlso"/>
          </m>
+         <tg xml:lang="fin">
+            <t pos="A">keskinen</t>
+            <t pos="N">keski-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">средний</t>
          </tg>
@@ -15373,7 +15738,7 @@
             <t pos="A">Soviet</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">neuvosto-</t>
+            <t pos="N">neuvosto-</t>
          </tg>
       </mg>
       <mg>
@@ -15480,6 +15845,9 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">taktinen</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">тактический</t>
          </tg>
@@ -15502,7 +15870,7 @@
             <t pos="A">tank</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">tankki-</t>
+            <t pos="N">tankki-</t>
          </tg>
       </mg>
    </e>
@@ -15520,7 +15888,7 @@
             <t pos="A">Tatar</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">tataari-</t>
+            <t pos="N">tataari-</t>
          </tg>
       </mg>
    </e>
@@ -15578,6 +15946,9 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">televisio-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">телевизионный</t>
          </tg>
@@ -15610,7 +15981,7 @@
             <t pos="A">territorial</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">alue-</t>
+            <t pos="N">alue-</t>
             <t pos="A">alueellinen</t>
          </tg>
       </mg>
@@ -15682,8 +16053,8 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">kuljetus-</t>
-            <t pos="A">liikenne-</t>
+            <t pos="N">kuljetus-</t>
+            <t pos="N">liikenne-</t>
          </tg>
       </mg>
    </e>
@@ -15760,6 +16131,12 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="N">rikos-</t>
+            <t pos="A">rikosluontoinen</t>
+            <t pos="A">kriminaalinen</t>
+            <t pos="N">kriminaali-</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">уголовный</t>
          </tg>
@@ -15964,8 +16341,8 @@
             <t pos="A">district</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">piiri-</t>
-            <t pos="A">piirin-</t>
+            <t pos="N">piiri-</t>
+            <t pos="N">piirin-</t>
          </tg>
       </mg>
    </e>
@@ -16021,7 +16398,7 @@
          </tg>
          <tg xml:lang="fin">
             <t pos="A">tilinpidollinen</t>
-            <t pos="A">tilinpito-</t>
+            <t pos="N">tilinpito-</t>
          </tg>
       </mg>
    </e>
@@ -16070,8 +16447,8 @@
             <t pos="A">federal</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">liittovaltion</t>
-            <t pos="A">liittovaltio-</t>
+            <t pos="N">liittovaltion</t>
+            <t pos="N">liittovaltio-</t>
          </tg>
       </mg>
    </e>
@@ -16088,8 +16465,8 @@
             <t pos="A">farm</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">maatila-</t>
-            <t pos="A">farmi-</t>
+            <t pos="N">maatila-</t>
+            <t pos="N">farmi-</t>
          </tg>
       </mg>
    </e>
@@ -16142,7 +16519,7 @@
             <t pos="A">fiscal</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">finanssi-</t>
+            <t pos="N">finanssi-</t>
          </tg>
       </mg>
    </e>
@@ -16159,7 +16536,7 @@
             <t pos="A">fund</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">rahasto-</t>
+            <t pos="N">rahasto-</t>
          </tg>
       </mg>
    </e>
@@ -16279,8 +16656,8 @@
          </tg>
          <tg xml:lang="fin">
             <t pos="A">arvokas</t>
-            <t pos="A">arvo-</t>
-            <t pos="A">vakuutettu (kirjeestä)</t>
+            <t pos="N">arvo-</t>
+            <t pos="Prc">vakuutettu (kirjeestä)</t>
          </tg>
       </mg>
    </e>
@@ -16300,7 +16677,7 @@
             <t pos="A">central</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">keskus-</t>
+            <t pos="N">keskus-</t>
          </tg>
       </mg>
    </e>
@@ -16317,7 +16694,7 @@
             <t pos="A">zinc</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">sinkki-</t>
+            <t pos="N">sinkki-</t>
             <t pos="A">sinkkinen</t>
          </tg>
       </mg>
@@ -16335,7 +16712,7 @@
             <t pos="A">circus</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">sirkus-</t>
+            <t pos="N">sirkus-</t>
          </tg>
       </mg>
    </e>
@@ -16465,8 +16842,8 @@
             <t pos="A">Chuvassian</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">tshuvassilainen</t>
-            <t pos="A">tshuvassi-</t>
+            <t pos="A">tšuvassilainen</t>
+            <t pos="N">tšuvassi-</t>
          </tg>
       </mg>
    </e>
@@ -16506,7 +16883,7 @@
       <mg>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="A">kuula-</t>
+            <t pos="N">kuula-</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">шариковый</t>
@@ -16616,10 +16993,10 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t>vainaja-</t>
-            <t>edesmennyt</t>
-            <t>poismennyt</t>
-            <t>manalle mennyt</t>
+            <t pos="N">vainaja-</t>
+            <t pos="Prc">edesmennyt</t>
+            <t pos="Prc">poismennyt</t>
+            <t pos="Prc">manalle mennyt</t>
          </tg>
       </mg>
       <mg>
@@ -16644,7 +17021,7 @@
       <mg>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="A">siviili-</t>
+            <t pos="N">siviili-</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">штатский</t>
@@ -16703,8 +17080,8 @@
             <t pos="A">economic</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">talous-</t>
-            <t pos="A">talouden</t>
+            <t pos="N">talous-</t>
+            <t pos="N">talouden</t>
             <t pos="A">taloudellinen</t>
             <t pos="A">ekonominen</t>
          </tg>
@@ -16736,9 +17113,9 @@
             <t pos="A">experimental</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">koe-</t>
+            <t pos="N">koe-</t>
             <t pos="A">kokeellinen</t>
-            <t pos="A">kokeilu-</t>
+            <t pos="N">kokeilu-</t>
          </tg>
       </mg>
    </e>
@@ -16752,9 +17129,9 @@
       <mg>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="A">sähkö-</t>
-            <t>sähkön-</t>
-            <t>sähköinen</t>
+            <t pos="N">sähkö-</t>
+            <t pos="N">sähkön-</t>
+            <t pos="A">sähköinen</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">электрический</t>
@@ -16796,9 +17173,9 @@
             <t pos="A">power supply</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">voimatalous-</t>
-            <t>voimavarain</t>
-            <t>energeettinen</t>
+            <t pos="N">voimatalous-</t>
+            <t pos="N">voimavarain</t>
+            <t pos="A">energeettinen</t>
          </tg>
       </mg>
       <mg>
@@ -16848,12 +17225,12 @@
       <mg>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="A">sydän-</t>
-            <t>ydin-</t>
-            <t>sydämen</t>
-            <t>ytimen</t>
-            <t>tuma-</t>
-            <t>tuman</t>
+            <t pos="N">sydän-</t>
+            <t pos="N">ydin-</t>
+            <t pos="N">sydämen</t>
+            <t pos="N">ytimen</t>
+            <t pos="N">tuma-</t>
+            <t pos="N">tuman</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">ядерный</t>
@@ -16920,8 +17297,8 @@
       <mg>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="A">kyyti-</t>
-            <t>kyyditys-</t>
+            <t pos="N">kyyti-</t>
+            <t pos="N">kyyditys-</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">ямской</t>
@@ -16946,8 +17323,8 @@
       <mg No="1">
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="A">kevät-</t>
-            <t>touko-</t>
+            <t pos="N">kevät-</t>
+            <t pos="N">touko-</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">яровой</t>
@@ -17188,10 +17565,10 @@
          <defNative/>
          <tg xml:lang="fin">
             <t pos="A">epätoivoinen</t>
-            <t>toivoton</t>
-            <t>hurja</t>
-            <t>vimmattu</t>
-            <t>hirveä</t>
+            <t pos="A">toivoton</t>
+            <t pos="A">hurja</t>
+            <t pos="A">vimmattu</t>
+            <t pos="A">hirveä</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="A">отчаянный</t>
