@@ -4433,10 +4433,13 @@
          </tg>
          <xg>
             <x>болкъя автомашина</x>
+            <xt xml:lang="fin">kuomullinen auto</xt>
             <xt xml:lang="rus">крытая автомашина</xt>
          </xg>
          <xg>
             <x>болкъя додь</x>
+            <xt xml:lang="fin">kuomureki</xt>
+            <xt>kuomullinen ajopeli</xt>
             <xt xml:lang="rus">возок с верхом, крытая повозка</xt>
          </xg>
       </mg>
@@ -4455,6 +4458,7 @@
          </tg>
          <xg>
             <x>пинжак мышкыс болкъя</x>
+            <xt xml:lang="fin">pikkutakki, jossa on pussimainen selkäosa</xt>
             <xt xml:lang="rus">спинка пиджака мешковата</xt>
          </xg>
       </mg>
@@ -4473,6 +4477,7 @@
          </tg>
          <xg>
             <x>болоня яй тор</x>
+            <xt xml:lang="fin">lihapala, jossa on kalvoja</xt>
             <xt xml:lang="rus">кусок мяса с плёнками</xt>
          </xg>
       </mg>
@@ -4495,6 +4500,7 @@
          </tg>
          <xg>
             <x>болькйӧдчан ва</x>
+            <xt xml:lang="fin">pulputtava vesi</xt>
             <xt xml:lang="rus">булькающая вода</xt>
          </xg>
       </mg>
@@ -4517,6 +4523,7 @@
          </tg>
          <xg>
             <x>болькйӧдчана ва</x>
+            <xt xml:lang="fin">pulputtava vesi</xt>
             <xt xml:lang="rus">булькающая вода</xt>
          </xg>
       </mg>
@@ -8118,7 +8125,7 @@
             <t pos="A">long-standing</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">vanhanajan</t>
+            <t pos="N">vanhanajan</t>
             <t pos="A">vanha</t>
          </tg>
          <xg>
@@ -8175,7 +8182,7 @@
             <t pos="A">long-standing</t>
          </tg>
          <tg xml:lang="fin">
-            <t pos="A">vanhanajan</t>
+            <t pos="N">vanhanajan</t>
             <t pos="A">vanha</t>
          </tg>
       </mg>
@@ -14450,7 +14457,7 @@
             <t pos="A">hölläsuinen</t>
             <t pos="A">lörpöttelevä</t>
             <t pos="A">-suinen</t>
-            <t pos="A">-suu</t>
+            <t pos="N">-suu</t>
          </tg>
       </mg>
       <mg>
@@ -14473,7 +14480,7 @@
             <x>топыд вома</x>
             <xt xml:lang="fin">juoruilematon</xt>
             <xt>luotettava</xt>
-            <xt xml:lang="fin">salaisuuksia levittämätön</xt>
+            <xt>salaisuuksia levittämätön</xt>
             <xtCtn>
                <xt xml:lang="rus">рот на замке</xt>
                <re>о человеке, способном хранить тайну</re>
@@ -32400,6 +32407,9 @@
             <head/>
             <semRel/>
          </m>
+         <tg xml:lang="fin">
+            <t pos="A">karkaisematon</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">незакалённый, не подвергшийся закаливанию</t>
          </tg>
@@ -32429,6 +32439,9 @@
       <drv drvType="Der/тӧм"/>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">karkaisematon</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">незакалившийся</t>
          </tg>
@@ -32448,6 +32461,10 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="Prc">suljettu</t>
+            <t pos="Prc">lukittu</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">закрытый, запертый</t>
          </tg>
@@ -32468,6 +32485,9 @@
       </lg>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">salpaamaton</t>
+         </tg>
          <tg xml:lang="rus">
             <t pos="A">без запора, не имеющий запора</t>
          </tg>
@@ -32550,6 +32570,11 @@
       </mg>
       <mg No="1">
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="A">vauhko</t>
+            <t pos="A">pelokas</t>
+            <t pos="A">arka</t>
+         </tg>
          <tg xml:lang="rus">
             <tCtn>
                <t pos="A">пугливый</t>
@@ -52969,7 +52994,7 @@
       <mg>
          <defNative/>
          <tg xml:lang="fin">
-            <t pos="A">paikalliskomitea-</t>
+            <t pos="N">paikalliskomitea-</t>
             <t pos="N">paikalliskomitean</t>
          </tg>
          <tg xml:lang="rus">
@@ -53284,6 +53309,7 @@
          </xg>
          <xg>
             <x>веж петана мича</x>
+            <xt xml:lang="fin">kadehdittavan kaunis</xt>
             <xt xml:lang="rus">красива на зависть</xt>
          </xg>
          <xg>
@@ -53324,18 +53350,22 @@
          </xg>
          <xg genreType="saying">
             <x>мича гӧтыртӧ ваян да век лоӧ мырддьӧмысь повны</x>
+            <xt xml:lang="fin">Otat kauniin vaimon ja saat koko ajan pelätä, että hänet viedään.</xt>
             <xt xml:lang="rus">красивую жену приведёшь — всё время придётся бояться, что отобьют</xt>
          </xg>
          <xg genreType="saying">
             <x>мича кывнас небыда вольсалӧ, а сьӧлӧмыс чорыд</x>
+            <xt xml:lang="fin">Kauniilla sanoilla hän petaa pehmeästi, mutta hänen sydämensä on kova.</xt>
             <xt xml:lang="rus">на языке медок, а на сердце ледок</xt>
             <xt tType="literal" xml:lang="rus">красивым словом мягко стелет, а сердце чёрствое</xt>
          </xg>
          <xg genreType="riddle">
             <x>мича - мича ичмонь быд чойӧд ислалӧ</x>
+            <xt xml:lang="fin">Hyvin kaunis nuorikko laskee jokaisen mäen.</xt>
             <xt xml:lang="rus">красавица-молодица на каждой горке катается</xt>
             <answer>
                <native>зу</native>
+               <xt xml:lang="fin">Karsta.</xt>
                <xt xml:lang="rus">чесалка</xt>
             </answer>
          </xg>
@@ -53362,6 +53392,8 @@
          </xg>
          <xg>
             <x>мича дырйи</x>
+            <xt xml:lang="fin">poudalla</xt>
+            <xt>hyvällä säällä</xt>
             <xt xml:lang="rus">в вёдро, в хорошую погоду</xt>
          </xg>
          <xg>
@@ -53377,6 +53409,7 @@
          </tg>
          <xg>
             <x>мича турун</x>
+            <xt xml:lang="fin">hyvä heinä</xt>
             <xt xml:lang="rus">хорошая трава</xt>
             <xtCtn>
                <xt xml:lang="rus">хорошее, доброкачественное сено</xt>
@@ -53385,6 +53418,7 @@
          </xg>
          <xg>
             <x>ид ӧзимыс мича</x>
+            <xt xml:lang="fin">Ohran oraat ovat kauniit.</xt>
             <xt xml:lang="rus">всходы ячменя хорошие</xt>
          </xg>
          <xg>
@@ -53474,6 +53508,7 @@
          </tg>
          <xg>
             <x>регыд шочаммис миянладорсалӧн лыйсьӧм шы</x>
+            <xt xml:lang="fin">Pian meidän puolen ampumisen äänet harvenivat.</xt>
             <xt xml:lang="rus">вскоре стали реже выстрелы с нашей стороны (наших)</xt>
          </xg>
       </mg>
@@ -53580,6 +53615,7 @@
          </tg>
          <xg>
             <x>могмытӧм кӧсйӧм</x>
+            <xt xml:lang="fin">epätyydyttävä toivomus</xt>
             <xt xml:lang="rus">неудовлетворённое желание</xt>
          </xg>
       </mg>
@@ -53612,10 +53648,12 @@
          </tg>
          <xg>
             <x>черань модаа</x>
+            <xt xml:lang="fin">hämähäkin kaltainen</xt>
             <xt xml:lang="rus">паукообразный</xt>
          </xg>
          <xg>
             <x>шар модаа</x>
+            <xt xml:lang="fin">pallon muotoinen</xt>
             <xt xml:lang="rus">в форме шара</xt>
          </xg>
       </mg>
@@ -53649,6 +53687,7 @@
          </tg>
          <xg>
             <x>давлениеыс модатӧм ыджыд</x>
+            <xt xml:lang="fin">Hänen verenpaineensa on epätavallisen korkea.</xt>
             <xt xml:lang="rus">давление (у неё) непривычно большое</xt>
          </xg>
       </mg>
