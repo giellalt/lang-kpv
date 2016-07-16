@@ -53,6 +53,12 @@ LEXICON ADV_SUB
 LEXICON ADV_ ! these are checked as advs.
 +Adv: COMPARATIVE ;
 
+LEXICON ADV-INDEF_
++Adv+Indef: WordEnd ;
+
+LEXICON ADV-REL-TEMP_
++Adv+Rel+Temp: COMPARATIVE ;
+
 LEXICON AdvTemp
  ADV-TEMP_ ;
 
