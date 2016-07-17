@@ -6,25 +6,25 @@ This document gives a short status report of the
 
 
 
-!!!January 1st, 2011
+!!!Juy 15th, 2016
 
-Status for [the source files|https://victorio.uit.no/langtech/trunk/kt/kom/src/]:
+Status for [the source files|https://victorio.uit.no/langtech/trunk/langs/kpv/src/]:
 
-* Lexicon: The lexicon contains 12218 entries (5863 nouns, 3990 verbs, 
-  1193 adjectives)
-* Morphology: The morphology files are 1442 lines long, and contain 163
-  continuation lexica. Compared to 9690 lines and 1122 lexica for North Sami,
+* Lexicon: The lexicon contains 35806 entries (19129 nouns, 12191 verbs, 
+  4486 adjectives)
+* Morphology: The morphology files are 3494 lines long, and contain 479
+  continuation lexica. Compared to 8234 lines and 1309 lexica for Erzya,
   there is still work to do.
-* Morphophonology: The file xfst-kom.txt is 173 lines long. Compared to
-  the one for Greenlandic, 387 lines, the situation is not that bad for Komi.
+* Morphophonology: The file kpv-phon.twolc is 253 lines long. Compared to
+  the one for Erzya, 514 lines, the situation is not that bad for Komi.
 
 Tasks ahead:
 
-# Write applications to Russia and Norway
 # Test and correct the morphology and morphophonology
-# Integrate the Komi-Russian dictionary in the analyser
+# Integrate the Komi-Russian dictionary in the analyser (done)
 # Add more words:
 ## Test the resulting analyser against text material, and add new words
-## Systematically add Russian loanwords: names and technical terms
+## Systematically add Russian loanwords: names and technical terms (partly done)
 # Work on the spellchecker
+## TODO: Collect error corpus
 
