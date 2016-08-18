@@ -127,7 +127,7 @@ GT_DISTRO_SRCS=
 ### BEGIN: Local processing: ###
 
 generated_files/urj-Cyrl-propernouns.lexc: \
-	$(GTCORE)/giella-shared/urj-Cyrl/src/morphology/stems/urj-Cyrl-propernouns.lexc
+	$(GIELLA_SHARED)/urj-Cyrl/src/morphology/stems/urj-Cyrl-propernouns.lexc
 	$(AM_V_at)$(MKDIR_P) generated_files
 	$(AM_V_CP)cp -f $< $@
 
