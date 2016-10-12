@@ -10,6 +10,7 @@ GT_ORTHOGRAPHIC_REGEX_SRCS=\
 		inituppercase.regex \
 		spellrelax.regex    \
 		spellrelax-mobile-keyboard.regex \
+		spellrelax-permyak-text.regex \
 		spellrelax-molotsov-keyboard.regex \
 		spellrelax-tags.regex
 
