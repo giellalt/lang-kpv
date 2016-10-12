@@ -48,7 +48,8 @@ GT_ANALYSERS+=
 GT_GENERATORS+=
 
 if WANT_DICTIONARIES
-GT_ANALYSERS+=analyser-dict-gt-desc-molotsov.xfst
+GT_ANALYSERS+=analyser-dict-gt-desc-molotsov.xfst\
+			  analyser-dict-gt-desc-permyak.xfst
 endif # WANT_DICTIONARIES
 endif # CAN_XFST
 
@@ -58,7 +59,8 @@ GT_ANALYSERS+=
 GT_GENERATORS+=
 
 if WANT_DICTIONARIES
-GT_ANALYSERS+=analyser-dict-gt-desc-molotsov.hfst
+GT_ANALYSERS+=analyser-dict-gt-desc-molotsov.hfst\
+			  analyser-dict-gt-desc-permyak.hfst
 endif # WANT_DICTIONARIES
 endif # CAN_HFST
 
@@ -68,7 +70,8 @@ GT_ANALYSERS+=
 GT_GENERATORS+=
 
 if WANT_DICTIONARIES
-GT_ANALYSERS+=analyser-dict-gt-desc-molotsov.foma
+GT_ANALYSERS+=analyser-dict-gt-desc-molotsov.foma\
+			  analyser-dict-gt-desc-permyak.foma
 endif # WANT_DICTIONARIES
 endif # CAN_FOMA
 
@@ -83,6 +86,16 @@ analyser-dict-gt-desc-molotsov.tmp.%: analyser-dict-gt-desc.tmp.% \
 			;\n\
 		 save stack $@\n\
 		 quit\n" | $(XFST_TOOL)
+
+analyser-dict-gt-desc-permyak.tmp.%: analyser-dict-gt-desc.tmp.% \
+					orthography/spellrelax-permyak-text.compose.%
+	$(AM_V_XFST_TOOL)$(PRINTF) "read regex                              \
+			    @\"$<\" \
+			.o. @\"orthography/spellrelax-permyak-text.compose.$*\" \
+			;\n\
+		 save stack $@\n\
+		 quit\n" | $(XFST_TOOL)
+
 
 ##################################################################
 #### END: Add local processing instructions ABOVE this line ######
