@@ -524,6 +524,16 @@ Multichar_Symbols
 !! And following triggers to control variation
  {front} {back}
 
+!! Valency tags, i.e. tags assigned to verbs for denoting their arbuments
+
++%<acc%>                  !!≈ * @CODE@ accusative
++%<ela%>                  !!≈ * @CODE@ elative -ысь
++%<ins%>                  !!≈ * @CODE@ instrumental -ӧн
++%<inf_ны%>                  !!≈ * @CODE@ infinitive in -ны
++%<po_вылӧ%>                  !!≈ * @CODE@ postposition вылӧ
++%<sub_мый%>                  !!≈ * @CODE@ subordinate clause in мый/that
+
+
 !! !!Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics - only allow compounds
