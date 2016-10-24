@@ -245,8 +245,19 @@ Tags for Ethymological Origin marking. This has initially used used with proper 
 Morphophonology
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
+ * %{иі%}	 for soft and hard
 
 And following triggers to control variation
+
+Valency tags, i.e. tags assigned to verbs for denoting their arbuments
+
+ * +%<acc%> accusative
+ * +%<ela%> elative -ысь
+ * +%<ins%> instrumental -ӧн
+ * +%<inf_ны%> infinitive in -ны
+ * +%<po_вылӧ%> postposition вылӧ
+ * +%<sub_мый%> subordinate clause in мый/that
+
 
 !!Flag diacritics
 We have manually optimised the structure of our lexicon using following

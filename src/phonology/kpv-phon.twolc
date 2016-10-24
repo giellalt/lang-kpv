@@ -13,6 +13,8 @@ Alphabet
 к2:к л2:л м2:м т2:т ь2:ь
 !К2 Л2 М2 Т2 Ь2 
 И2:и
+%{иі%}:и	!!= * @CODE@ for soft and hard
+%{иі%}:і	!!= * @CODE@ for soft and hard
 
 !! !!Archiphonemes for vowels
 !! !!Triggers
@@ -61,6 +63,11 @@ CnsBeforeCyri = б в г ж й к м п р ф х ч ш щ
               	к2 м2 т2 ;
 ! К2 М2 Т2 
 !! Why is т2 here 2015-10-01
+
+!! All but z consonants that can be followed by either і or и
+PairedCnsNoZ =  д л н с т ц
+                Д Л Н С Т Ц
+       	        л2 т2 ;
 
 !! Letters
  Letter = Vow Cns ;
@@ -189,22 +196,29 @@ Rules
 ! Have to look for ь>о:ё, 
 ! ь>у:ю appears in compound words
 
-
-"і 2 и"
+"%{иі%} 2 і"
 !! __@RULENAME@__
- і:и <=> [ Vow | CnsBeforeCyri | й: | ь: | д з ] %>  _ [ # | %> | Cns: | Vow: ] ;
-!!€ ворссь%>і#
+ %{иі%}:і <=>
+ [PairedCnsNoZ | [Vow |[Cns - д]] з ] %>  _ [ # | %> | Cns: | Vow: ] ;
+! [PairedCnsNoZ |  з ] %>  _ [ # | %> | Cns: | Vow: ] ;
+!   except
+!    д з %>  _ [ # | %> | Cns: | Vow: ] ;
+
+"%{иі%} 2 и"
+!! __@RULENAME@__
+ %{иі%}:и <=> [ Vow | CnsBeforeCyri | й: | ь: | д з ] %>  _ [ # | %> | Cns: | Vow: ] ;
+!!€ ворссь%>%{иі%}#
 !!€ ворсс0%>и#
-!!€ ло%>і#
+!!€ ло%>%{иі%}#
 !!€ ло%>и#
-!!€ шу%>іс
+!!€ шу%>%{иі%}с
 !!€ шу%>ис
-!!€ вай%>іс
+!!€ вай%>%{иі%}с
 !!€ вай%>ис
 
 "Soft Sign Deletion"
 !! __@RULENAME@__
- ь:0 <=> Cns _ %> [ а: | о: | у: | і: ] ; 
+ ь:0 <=> Cns _ %> [ а: | о: | у: | і: | %{иі%}: ] ; 
         с _  %> с [ ь | я ] ;
 
 ! Testcases: see VowelPalatalisation above

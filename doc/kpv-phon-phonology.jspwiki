@@ -9,6 +9,8 @@ cf. http://www.ling.helsinki.fi/~rueter/Publications/Rueter_in-Permistika-6_2000
 
  * а б в г д е ё ж з и і й к л м н о ӧ п р с т у ф х ц ч ш щ ъ ы ь э ю я 
  * А Б В Г Д Е Ё Ж З И І Й К Л М Н О Ӧ П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я 
+ * %{иі%}:и	 for soft and hard
+ * %{иі%}:і	 for soft and hard
 
 !!Archiphonemes for vowels
 !!Triggers
@@ -38,6 +40,8 @@ All non-vowels, consonants and hard and soft signs
 All non-vowels with exception of soft sign
 All consonants followed by Cyrillic и
 Why is т2 here 2015-10-01
+
+All but z consonants that can be followed by either і or и
 
 Letters
 
@@ -88,15 +92,16 @@ __а 2 я, о 2 ё, у 2 ю__
 * __картопель%>ъяс __
 * __картопел0%>0яс __
 
+__%{иі%} 2 і__
 
-__і 2 и__
-* __ворссь%>і# __
+__%{иі%} 2 и__
+* __ворссь%>%{иі%}# __
 * __ворсс0%>и# __
-* __ло%>і# __
+* __ло%>%{иі%}# __
 * __ло%>и# __
-* __шу%>іс __
+* __шу%>%{иі%}с __
 * __шу%>ис __
-* __вай%>іс __
+* __вай%>%{иі%}с __
 * __вай%>ис __
 
 __Soft Sign Deletion__
