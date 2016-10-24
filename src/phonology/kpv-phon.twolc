@@ -16,6 +16,9 @@ Alphabet
 %{иі%}:и	!!= * @CODE@ for soft and hard
 %{иі%}:і	!!= * @CODE@ for soft and hard
 
+%{ая%}:а	!!= * @CODE@ for soft and hard
+%{ая%}:я	!!= * @CODE@ for soft and hard
+
 !! !!Archiphonemes for vowels
 !! !!Triggers
 
@@ -138,7 +141,7 @@ Rules
  !!€ кыв0#
  !!€ кывй%>сӧ
  !!€ кыв0%>сӧ
-   Vow _ %> [ а: | і: ] ;
+   Vow _ %> [ а: | %{иі%}: ] ;
  !!€ вый%>а#
  !% вы0%>я#
  !!€ сёй%>а#
@@ -179,7 +182,7 @@ Rules
 !! __@RULENAME@__
  Vx:Vy <=> [~[ д з | ч ]] [ ь: | й: ]  %>  _ [ # | %> | Cns: | Vow: ] ;
         where Vx in (а о у)
-              Vy in (я ё ю)
+              Vy in (я      ё ю)
         matched ;
 !!€ вой%>ас
 !!€ во0%>яс
