@@ -155,7 +155,7 @@ LEXICON V_НУАВНЫ !!≈ * __@CODE@__ нуавны:нуа
 LEXICON VR_АРТАСЬНЫ !!≈ * __@CODE@__
 +V+Refl@U.CONJ-INF.YES@:00@U.CONJ-INF.YES@ Verb-nyDer-ONSET-CONS ; !
 +V+Refl@U.CONJ-INF.YES@:00@U.CONJ-INF.YES@ Verb-nyDer-ONSET-Ы ; !
-+V+Refl@U.CONJ-INF.YES@:00@U.CONJ-INF.YES@ Verb-nyDer-ONSET-Я ; !
++V+Refl@U.CONJ-INF.YES@:00@U.CONJ-INF.YES@ Verb-nyDer-ONSET-Я/А ; !
 +V+Refl@U.CONJ-INF.YES@:00@U.CONJ-INF.YES@ VerbDer_АРТАСЬНЫ ; !
 +V+Refl@U.CONJ-INF.YES@:00@U.CONJ-INF.YES@ VerbDer-V ; !
 +V+Refl: VerbConj ; !а
@@ -415,6 +415,7 @@ LEXICON VerbEnd
 LEXICON Serial-Verbs
 +SerialVerb:- verbs-A2M ;
 +SerialVerb:- verbs-N2END ;
++SerialVerb:- V_NEWWORDS ;
 
 !! !!Derivation
 ! ==========
@@ -459,9 +460,11 @@ LEXICON Verb-nyDer-ONSET-Ы !!≈ * __@CODE@__ Derivation onset	in vowel
 +Der/ышт00@C.CONJ-INF@@C.CONJ-POSS@:ышт@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !!сёйыштны
 
 LEXICON Verb-nyDer-ONSET-А !!≈ * __@CODE@__ Derivation onset	in vowel
-+Der/ал0@C.CONJ-INF@@C.CONJ-POSS@:ал@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !!сетавны
-+Der/овт00@C.CONJ-INF@@C.CONJ-POSS@:овт@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !!пановтны
-+Der/ась00@C.CONJ-INF@@C.CONJ-POSS@:ась@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !! босьтасьны
+	Verb-nyDer-ONSET-А/Я ;
+LEXICON Verb-nyDer-ONSET-А/Я
++Der/ал0@C.CONJ-INF@@C.CONJ-POSS@:%>ал@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !!сетавны
++Der/овт00@C.CONJ-INF@@C.CONJ-POSS@:%>овт@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !!пановтны
++Der/ась00@C.CONJ-INF@@C.CONJ-POSS@:%>ась@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !! босьтасьны
 
 LEXICON Verb-nyDer-ONSET-Я !!≈ * __@CODE@__ Derivation onset	in vowel
 +Der/ал0@C.CONJ-INF@@C.CONJ-POSS@:ял@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !!сетавны
@@ -473,6 +476,7 @@ LEXICON Verb-nyDer-ONSET-Я !!≈ * __@CODE@__ Derivation onset	in vowel
  
 LEXICON VerbDer !!≈ * __@CODE@__ 
  VerbDer-ONSET_Ӧ ; !! FIX THIS 2015-09-06
+ VerbDer-ONSET_А/Я ; !!≈ * __@CODE@__ 
 
 LEXICON VerbDer_КЫЙНЫ !!≈ * __@CODE@__
 :й VerbDer-ONSET_Ӧ ; !!≈ * __@CODE@__
@@ -542,6 +546,8 @@ LEXICON VerbDer-ONSET_И/І !!≈ * __@CODE@__
 
 
 LEXICON VerbDer-ONSET_А !!≈ * __@CODE@__ 
+ VerbDer-ONSET_А/Я ;
+LEXICON VerbDer-ONSET_А/Я !!≈ * __@CODE@__ 
 +ANA+Adv:%>ана K ;
 +ANAA+Adv:%>анаа K ; !Adding after attestation in Komi Grammar 2000: 381
 +AN+Der/моз:%>анмоз PossessiveSuffixes_NoSg1 ; !383
