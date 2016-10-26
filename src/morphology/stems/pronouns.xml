@@ -432,8 +432,8 @@
       <mg No="2">
          <defNative/>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">свой</t>
-            <t pos="PRON-PERS">твой</t>
+            <t pos="Pron" type="Pers">свой</t>
+            <t pos="Pron" type="Pers">твой</t>
          </tg>
          <xg>
             <x>тэ аслад синмӧн аддзылін?</x>
@@ -5839,25 +5839,19 @@
             <st Contlex="PRON-QNT_">кӧні</st>
          </stg>
       </lg>
-      <pos>Q_PRON</pos>
       <mg>
-         <defNative/>
-         <tg xml:lang="eng">
-            <t pos="Pron">where</t>
-         </tg>
-         <tg xml:lang="fin">
-            <t pos="Pron">missä</t>
-         </tg>
-      </mg>
-      <mg>
-         <m>
-            <head/>
-            <semRel RNo="I" lemmaID="кӧн" semRelType="see"/>
-         </m>
-         <tg xml:lang="rus">
-            <t pos="Pron">где</t>
-         </tg>
-         <xg>
+        <semRel RNo="I" lemmaID="кӧн" semRelType="see"/>
+        <defNative/>
+        <tg xml:lang="eng">
+          <t pos="Pron">where</t>
+        </tg>
+        <tg xml:lang="fin">
+          <t pos="Pron">missä</t>
+        </tg>
+        <tg xml:lang="rus">
+          <t pos="Pron">где</t>
+        </tg>
+        <xg>
             <x>кӧні тэ ӧні?</x>
             <xt xml:lang="fin">missä sinä olet nyt?</xt>
             <xt xml:lang="rus">где ты сейчас?</xt>
@@ -5891,12 +5885,6 @@
             <t pos="Pron">jossa</t>
          </tg>
       </mg>
-      <mg>
-         <defNative/>
-         <tg>
-            <t pos="Pron"/>
-         </tg>
-      </mg>
    </e>
    <e exclude="fst" order="2">
       <lg>
@@ -5914,38 +5902,31 @@
          <tg xml:lang="fin">
             <t pos="Pron">minä</t>
          </tg>
-      </mg>
-      <mg>
-         <m>
-            <head>
-               <!--<b>(мен</b> <i>- полная основа в косв. п.)</i>-->
-            </head>
-         </m>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">я</t>
+            <t pos="Pron" type="Pers">я</t>
          </tg>
          <xg>
             <x>ме дась</x>
             <xt xml:lang="fin">Olen valmis.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">я готов</xt>
+            <xt xml:lang="rus">я готов</xt>
          </xg>
          <xg>
             <x>метӧ тӧда</x>
-            <xt pos="PRON-PERS" xml:lang="rus">я-то знаю</xt>
+            <xt xml:lang="rus">я-то знаю</xt>
          </xg>
          <xg>
             <x>тайӧ ме, восьты</x>
             <xt xml:lang="fin">Se olen minä, avaa.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">это я, открой</xt>
+            <xt xml:lang="rus">это я, открой</xt>
          </xg>
          <xg>
             <x>Ме пӧ и эм</x>
-            <xt pos="PRON-PERS" xml:lang="rus">я не я</xt>
+            <xt xml:lang="rus">я не я</xt>
          </xg>
          <xg>
             <x>ме пӧ и мортыс</x>
             <xtCtn>
-               <xt pos="PRON-PERS" xml:lang="rus">нет человека лучше меня</xt>
+               <xt xml:lang="rus">нет человека лучше меня</xt>
                <re>о человеке, составившем о себе преувеличенно высокое мнение</re>
             </xtCtn>
          </xg>
@@ -5958,15 +5939,8 @@
             <semRel No="1" lemmaID="менам" semRelType="see"/>
          </m>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">мой</t>
+            <t pos="Pron" type="Pers">мой</t>
          </tg>
-         <xg>
-            <x/>
-            <xtCtn>
-               <xt xml:lang="rus"/>
-               <re/>
-            </xtCtn>
-         </xg>
       </mg>
       <mg>
          <defNative/>
@@ -5975,39 +5949,39 @@
          </tg>
          <xg>
             <x>ме бердӧ ляскысис</x>
-            <xt pos="PRON-PERS" xml:lang="rus">он прижался ко мне</xt>
+            <xt xml:lang="rus">он прижался ко мне</xt>
          </xg>
          <xg>
             <x>ме бокын</x>
-            <xt pos="PRON-PERS" xml:lang="rus">рядом со мной</xt>
+            <xt xml:lang="rus">рядом со мной</xt>
          </xg>
          <xg>
             <x>тэ ме вылӧ эн надейтчы</x>
             <xt xml:lang="fin">Älä luota minuun.</xt>
             <xt>Älä laske minun varaan.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">ты на меня не рассчитывай</xt>
+            <xt xml:lang="rus">ты на меня не рассчитывай</xt>
          </xg>
          <xg>
             <x>ме дінӧ пуксьы</x>
             <xt xml:lang="fin">Istu minun viereeni.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">садись возле меня</xt>
+            <xt xml:lang="rus">садись возле меня</xt>
          </xg>
          <xg>
             <x>ме дінын олӧ</x>
-            <xt pos="PRON-PERS" xml:lang="rus">он живёт около меня</xt>
+            <xt xml:lang="rus">он живёт около меня</xt>
          </xg>
          <xg>
             <x>ме дор сувт</x>
-            <xt pos="PRON-PERS" xml:lang="rus">заступись за меня</xt>
+            <xt xml:lang="rus">заступись за меня</xt>
          </xg>
          <xg>
             <x>ме дырйи татшӧм сёрни эз вӧвлы</x>
-            <xt pos="PRON-PERS" xml:lang="rus">при мне (в моём присутствии) такого разговора не было</xt>
+            <xt xml:lang="rus">при мне (в моём присутствии) такого разговора не было</xt>
          </xg>
          <xg>
             <x>ме кузя</x>
-            <xt pos="PRON-PERS" xml:lang="rus">с меня ростом</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">ради меня</xt>
+            <xt xml:lang="rus">с меня ростом</xt>
+            <xt xml:lang="rus">ради меня</xt>
          </xg>
          <xg>
             <x>ме ног</x>
@@ -6068,12 +6042,12 @@
          </xg>
          <xg>
             <x>кагасӧ ме ки вылӧ колис</x>
-            <xt pos="PRON-PERS" xml:lang="rus">ребёнка она оставила на моих руках</xt>
+            <xt xml:lang="rus">ребёнка она оставила на моих руках</xt>
          </xg>
          <xg>
             <x>ставыс ме киын, кыдз кӧсъя, сідз и вӧча</x>
             <xt xml:lang="fin">Kaikki on vallassani, teen, kuten haluan.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">всё в моих руках — как захочу, так и сделаю</xt>
+            <xt xml:lang="rus">всё в моих руках — как захочу, так и сделаю</xt>
          </xg>
       </mg>
    </e>
@@ -6088,13 +6062,13 @@
       <mg>
          <defNative/>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">со мной</t>
+            <t pos="Pron" type="Pers">со мной</t>
          </tg>
          <xg>
             <x>мекӧд ветлам</x>
             <xt xml:lang="fin">Menemme yhdessä.</xt>
             <xt>Mennään yhdessä.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">сходим со мной</xt>
+            <xt xml:lang="rus">сходим со мной</xt>
          </xg>
       </mg>
    </e>
@@ -6109,12 +6083,12 @@
       <mg>
          <defNative/>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">за мной</t>
+            <t pos="Pron" type="Pers">за мной</t>
          </tg>
          <xg>
             <x>мела воліс?</x>
             <xt xml:lang="fin">Tuliko hän hakemaan minua.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">он за мной приходил?</xt>
+            <xt xml:lang="rus">он за мной приходил?</xt>
          </xg>
       </mg>
    </e>
@@ -6133,22 +6107,22 @@
             </head>
          </m>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">ко мне</t>
+            <t pos="Pron" type="Pers">ко мне</t>
          </tg>
          <xg>
             <x>мелань бергӧдчы</x>
             <xt xml:lang="fin">Käänny minuun päin.</xt>
             <xt>Käänny minua kohti.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">повернись ко мне</xt>
+            <xt xml:lang="rus">повернись ко мне</xt>
          </xg>
          <xg>
             <x>сійӧ мелань восьлаліс</x>
             <xt xml:lang="fin">Hän käveli minua kohti.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">он шагал ко мне</xt>
+            <xt xml:lang="rus">он шагал ко мне</xt>
          </xg>
          <xg>
             <x>сой нюжӧдіс мелань</x>
-            <xt pos="PRON-PERS" xml:lang="rus">он протянул ко мне руку</xt>
+            <xt xml:lang="rus">он протянул ко мне руку</xt>
          </xg>
       </mg>
    </e>
@@ -6201,18 +6175,19 @@
          </xg>
       </mg>
    </e>
-   <e order="2">
+   <e exclude="fst" order="2">
       <lg>
          <l pos="Pron">мен</l>
          <stg>
             <st Contlex="PRON_">мен</st>
+            <st Contlex="PRON-PERS-SG1-DAT">мен</st>
          </stg>
       </lg>
-      <pos>PRON</pos>
       <mg>
          <m>
             <head/>
             <semRel lemmaID="меным_PERS" semRelType="synonym"/>
+            <semRel No="1" lemmaID="меным" semRelType="see"/>
          </m>
          <tg xml:lang="eng">
             <t pos="Pron">to me</t>
@@ -6220,12 +6195,9 @@
          <tg xml:lang="fin">
             <t pos="Pron">minulle</t>
          </tg>
-      </mg>
-      <mg>
-         <m>
-            <head/>
-            <semRel No="1" lemmaID="меным" semRelType="see"/>
-         </m>
+         <tg xml:lang="rus">
+            <t pos="Pron">мне</t>
+         </tg>
          <xg>
             <x>мен регыд висьтавны</x>
             <xt xml:lang="rus">скоро сказка сказывается</xt>
@@ -6234,21 +6206,6 @@
             <x>мен сійӧ абу сват ни брат</x>
             <xt xml:lang="rus">мне он ни сват ни брат</xt>
          </xg>
-      </mg>
-   </e>
-   <e exclude="fst" order="2">
-      <lg>
-         <l pos="Pron">мен</l>
-         <stg>
-            <st Contlex="PRON-PERS-SG1-DAT">мен</st>
-         </stg>
-      </lg>
-      <pos>PRON-PERS</pos>
-      <mg>
-         <defNative/>
-         <tg xml:lang="rus">
-            <t pos="Pron"/>
-         </tg>
       </mg>
    </e>
    <e exclude="fst">
@@ -6269,32 +6226,20 @@
             <t pos="Pron">minun</t>
             <t pos="Pron">minulla</t>
          </tg>
-      </mg>
-   </e>
-   <e exclude="fst" order="2">
-      <lg>
-         <l pos="Pron">менам</l>
-         <stg>
-            <st Contlex="PRON-PERS-SG1-GEN">мен</st>
-         </stg>
-      </lg>
-      <pos>PRON-PERS</pos>
-      <mg>
-         <defNative/>
          <tg xml:lang="rus">
-            <t pos="Pron"/>
+            <t pos="Pron">меня</t>
          </tg>
          <xg>
             <x>тайӧ менам аслам</x>
-            <xt pos="PRON-PERS" xml:lang="rus">это у меня своё</xt>
+            <xt xml:lang="rus">это у меня своё</xt>
          </xg>
          <xg>
             <x>менам талун узьсьӧма</x>
-            <xt pos="PRON-PERS" xml:lang="rus">я сегодня проспал</xt>
+            <xt xml:lang="rus">я сегодня проспал</xt>
          </xg>
          <xg>
             <x>менам тэныд вӧлі висьталӧма</x>
-            <xt pos="PRON-PERS" xml:lang="rus">мною тебе было сказано</xt>
+            <xt xml:lang="rus">мною тебе было сказано</xt>
          </xg>
          <xg>
             <x>менам ставыс сьӧрын и бӧрын</x>
@@ -6306,7 +6251,7 @@
          <xg>
             <x>менам ӧти юрыс; кык кӧ вӧлі, ӧтисӧ вузавны позис</x>
             <xt xml:lang="fin">Minulla on yksi pää, jos olisi kaksi, toisen voisi myydä.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">у меня одна голова; будь две, то одну можно было бы продать</xt>
+            <xt xml:lang="rus">у меня одна голова; будь две, то одну можно было бы продать</xt>
          </xg>
       </mg>
       <mg>
@@ -6316,26 +6261,26 @@
             </head>
          </m>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">мой</t>
+            <t pos="Pron" type="Pers">мой</t>
          </tg>
          <xg>
             <x>менам бать-мам</x>
             <xt xml:lang="fin">minun vanhempani</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">мои родители</xt>
+            <xt xml:lang="rus">мои родители</xt>
          </xg>
          <xg>
             <x>менам важся друг</x>
             <xt xml:lang="fin">minun vanha ystäväni</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">мой старый друг</xt>
+            <xt xml:lang="rus">мой старый друг</xt>
          </xg>
          <xg>
             <x>менам ныв-пи</x>
             <xt xml:lang="fin">minun lapseni</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">мои дети</xt>
+            <xt xml:lang="rus">мои дети</xt>
          </xg>
          <xg>
             <x>менам локтӧдз</x>
-            <xt pos="PRON-PERS" xml:lang="rus">до моего прихода</xt>
+            <xt xml:lang="rus">до моего прихода</xt>
          </xg>
          <xg>
             <x>менам тшӧктӧм серти</x>
@@ -6345,15 +6290,15 @@
             <xt>kehotuksestani</xt>
             <xt>minun määräykseni mukaan</xt>
             <xt>määräyksestäni</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">по моему велению, по моему приказанию, по моему распоряжению</xt>
+            <xt xml:lang="rus">по моему велению, по моему приказанию, по моему распоряжению</xt>
          </xg>
          <xg>
             <x>менам синва тэныд усьӧ</x>
-            <xt pos="PRON-PERS" xml:lang="rus">мои слёзы тебе отольются</xt>
+            <xt xml:lang="rus">мои слёзы тебе отольются</xt>
          </xg>
          <xg>
             <x>тайӧ абу менам удж</x>
-            <xt pos="PRON-PERS" xml:lang="rus">это не моя работа</xt>
+            <xt xml:lang="rus">это не моя работа</xt>
          </xg>
       </mg>
    </e>
@@ -6364,14 +6309,13 @@
             <st Contlex="PRON-PERS-SG1-CAR">менам</st>
          </stg>
       </lg>
-      <pos>PRON-PERS</pos>
       <mg>
          <m>
             <head/>
             <semRel No="1" lemmaID="метӧг" semRelType="see"/>
          </m>
          <tg xml:lang="rus">
-            <t pos="Pron"/>
+            <t pos="Pron">без меня</t>
          </tg>
       </mg>
    </e>
@@ -6390,21 +6334,21 @@
          </tg>
          <xg>
             <x>менлы вылӧ</x>
-            <xt pos="PRON-PERS" xml:lang="rus">для меня</xt>
+            <xt xml:lang="rus">для меня</xt>
          </xg>
          <xg>
             <x>менлы кодь</x>
-            <xt pos="PRON-PERS" xml:lang="rus">подходящий мне</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">по мне</xt>
+            <xt xml:lang="rus">подходящий мне</xt>
+            <xt xml:lang="rus">по мне</xt>
          </xg>
          <xg>
             <x>тайӧ шапкаыс менлы кодь</x>
-            <xt pos="PRON-PERS" xml:lang="rus">эта шапка по мне</xt>
+            <xt xml:lang="rus">эта шапка по мне</xt>
          </xg>
          <xg>
             <x>тайӧс бать ньӧбӧма менлы вылӧ</x>
             <xt xml:lang="fin">Isä osti tämän minulle.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">это отец купил для меня</xt>
+            <xt xml:lang="rus">это отец купил для меня</xt>
          </xg>
       </mg>
    </e>
@@ -6424,36 +6368,25 @@
          <tg xml:lang="fin">
             <t pos="Pron">minulta</t>
          </tg>
-      </mg>
-   </e>
-   <e exclude="fst" order="2">
-      <lg>
-         <l pos="Pron">менсьым</l>
-         <stg>
-            <st Contlex="PRON-PERS-SG1-ELA">мен</st>
-         </stg>
-      </lg>
-      <pos>PRON-PERS</pos>
-      <mg>
          <defNative/>
          <tg xml:lang="rus">
-            <t pos="Pron"/>
+            <t pos="Pron">у меня</t>
          </tg>
          <xg>
             <x>тэ менсьым юав</x>
             <xt xml:lang="fin">Kysy minulta.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">ты у меня спроси</xt>
+            <xt xml:lang="rus">ты у меня спроси</xt>
          </xg>
       </mg>
       <mg>
          <defNative/>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">мой</t>
+            <t pos="Pron" type="Pers">мой</t>
          </tg>
          <xg>
             <x>книгаӧс менсьым кодкӧ босьтӧма</x>
             <xt xml:lang="fin">Joku on ottanut minulta kirjan.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">кто-то взял мою книгу</xt>
+            <xt xml:lang="rus">кто-то взял мою книгу</xt>
          </xg>
       </mg>
    </e>
@@ -6464,21 +6397,20 @@
             <st Contlex="PRON-PERS-SG1-DAT">мен</st>
          </stg>
       </lg>
-      <pos>PRON-PERS</pos>
       <mg>
          <defNative/>
          <tg xml:lang="rus">
-            <t pos="Pron"/>
+            <t pos="Pron">от меня</t>
          </tg>
          <xg>
             <x>месянь поклон висьтав</x>
             <xt xml:lang="fin">Kerro terveisiä minulta.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">передай от меня привет</xt>
+            <xt xml:lang="rus">передай от меня привет</xt>
          </xg>
          <xg>
             <x>мый тэныд месянь колӧ?</x>
             <xt xml:lang="fin">Mitä haluat minusta?</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">что тебе от меня надо?</xt>
+            <xt xml:lang="rus">что тебе от меня надо?</xt>
          </xg>
       </mg>
    </e>
@@ -6501,43 +6433,31 @@
          <tg xml:lang="fin">
             <t pos="Pron">minulle</t>
          </tg>
-      </mg>
-   </e>
-   <e exclude="fst" order="2">
-      <lg>
-         <l pos="Pron">меным</l>
-         <stg>
-            <st Contlex="PRON-PERS-SG1-DAT">мен</st>
-         </stg>
-      </lg>
-      <pos>PRON-PERS</pos>
-      <mg>
-         <defNative/>
          <tg xml:lang="rus">
-            <t pos="Pron"/>
+            <t pos="Pron">мне</t>
          </tg>
          <xg>
             <x>меным вылӧ</x>
-            <xt pos="PRON-PERS" xml:lang="rus">для меня</xt>
+            <xt xml:lang="rus">для меня</xt>
          </xg>
          <xg>
             <x>кодлы сійӧ шуис, меным али тэныд?</x>
             <xt xml:lang="fin">Kenelle hän sanoi minulle vai sinulle?</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">кому он сказал, мне или тебе?</xt>
+            <xt xml:lang="rus">кому он сказал, мне или тебе?</xt>
          </xg>
          <xg>
             <x>меным гӧгӧрвоана лои</x>
-            <xt pos="PRON-PERS" xml:lang="rus">мне стало понятно</xt>
+            <xt xml:lang="rus">мне стало понятно</xt>
          </xg>
          <xg>
             <x>оз ков меным татшӧм лёк ёртыд</x>
             <xt xml:lang="fin">En tarvitse tuollaista kehnoa ystävää.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">мне не нужен такой плохой друг</xt>
+            <xt xml:lang="rus">мне не нужен такой плохой друг</xt>
          </xg>
          <xg>
             <x>меным тайӧ дуб ва</x>
-            <xt pos="PRON-PERS" xml:lang="rus">это для меня пустяки</xt>
-            <xt pos="PRON-PERS" tType="literal" xml:lang="rus">это для меня пресная вода</xt>
+            <xt xml:lang="rus">это для меня пустяки</xt>
+            <xt tType="literal" xml:lang="rus">это для меня пресная вода</xt>
          </xg>
       </mg>
    </e>
@@ -6548,21 +6468,24 @@
             <st Contlex="PRON-PERS-SG1-ACC">мен</st>
          </stg>
       </lg>
-      <pos>PRON-PERS</pos>
       <mg>
          <defNative/>
+         <tg xml:lang="fin">
+            <t pos="Pron">minut</t>
+            <t pos="Pron">minua</t>
+         </tg>
          <tg xml:lang="rus">
-            <t pos="Pron"/>
+            <t pos="Pron">меня</t>
          </tg>
          <xg>
             <x>коді менӧ юасьӧ?</x>
             <xt xml:lang="fin">Kuka minua kysyy?</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">кто меня спрашивает?</xt>
+            <xt xml:lang="rus">кто меня спрашивает?</xt>
          </xg>
          <xg>
             <x>менӧ тэ тӧдан</x>
             <xt xml:lang="fin">Sinä tunnet minut.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">ты меня знаешь</xt>
+            <xt xml:lang="rus">ты меня знаешь</xt>
          </xg>
          <xg>
             <x>менӧ аслад доддьӧ эн пуксьӧд, ме абу тэ кодь</x>
@@ -6572,10 +6495,10 @@
          <xg genreType="riddle">
             <x>менӧ частӧ корӧны, виччысьӧны, а петкӧдча кӧ, ставыс дзебсьӧны</x>
             <xt xml:lang="fin">Minua kutsutaan ja odotetaan usein, mutta kun näyttäydyn, kaikki kätkeytyvät.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">меня частенько просят, ждут, а как покажусь, прятаться начнут</xt>
+            <xt xml:lang="rus">меня частенько просят, ждут, а как покажусь, прятаться начнут</xt>
             <answer>
                <native>зэр</native>
-               <xt pos="PRON-PERS" xml:lang="rus">дождь</xt>
+               <xt xml:lang="rus">дождь</xt>
             </answer>
          </xg>
       </mg>
@@ -6608,11 +6531,11 @@
       <mg>
          <defNative/>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">без меня</t>
+            <t pos="Pron" type="Pers">без меня</t>
          </tg>
          <xg>
             <x>метӧг волӧма, ме эг вӧв</x>
-            <xt pos="PRON-PERS" xml:lang="rus">он без меня приходил, меня не было</xt>
+            <xt xml:lang="rus">он без меня приходил, меня не было</xt>
          </xg>
       </mg>
    </e>
@@ -6627,11 +6550,11 @@
       <mg>
          <defNative/>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">мест. п. от ме</t>
+            <t pos="Pron" type="Pers">мест. п. от ме</t>
          </tg>
          <xg>
             <x>абу меын делӧыс</x>
-            <xt pos="PRON-PERS" xml:lang="rus">не во мне дело</xt>
+            <xt xml:lang="rus">не во мне дело</xt>
          </xg>
       </mg>
    </e>
@@ -6651,12 +6574,12 @@
          <xg>
             <x>мый тэныд меысь колӧ?</x>
             <xt xml:lang="fin">Mitä sinä minusta haluat?</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">что тебе от меня надо?</xt>
+            <xt xml:lang="rus">что тебе от меня надо?</xt>
          </xg>
          <xg>
             <x>меысь метӧм, тэысь тэтӧм</x>
             <xtCtn>
-               <xt pos="PRON-PERS" xml:lang="rus">ни я к тебе, ни ты ко мне</xt>
+               <xt xml:lang="rus">ни я к тебе, ни ты ко мне</xt>
                <re>заявление о полном разрыве дружбы, связи</re>
             </xtCtn>
          </xg>
@@ -6697,11 +6620,11 @@
             </head>
          </m>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS"/>
+            <t pos="Pron" type="Pers"/>
          </tg>
          <xg>
             <x>кутшӧм тэныд меӧдз мог?</x>
-            <xt pos="PRON-PERS" xml:lang="rus">какое тебе до меня дело?</xt>
+            <xt xml:lang="rus">какое тебе до меня дело?</xt>
          </xg>
       </mg>
    </e>
@@ -6737,35 +6660,35 @@
          </tg>
          <xg>
             <x>ми ставӧн</x>
-            <xt pos="PRON-PERS" xml:lang="rus">все мы</xt>
+            <xt xml:lang="rus">все мы</xt>
          </xg>
          <xg>
             <x>лунсӧ тайӧс ми виччысим дыр</x>
-            <xt pos="PRON-PERS" xml:lang="rus">этого дня мы ждали давно</xt>
+            <xt xml:lang="rus">этого дня мы ждали давно</xt>
          </xg>
          <xg>
             <x>митӧ ог кольччӧй</x>
-            <xt pos="PRON-PERS" xml:lang="rus">мы-то не отстане</xt>
+            <xt xml:lang="rus">мы-то не отстане</xt>
          </xg>
          <xg genreType="saying">
             <x>ми водз чеччывлам: кымӧра кӧ, шонді петтӧдз</x>
-            <xt pos="PRON-PERS" xml:lang="rus">мы рано встаём: если облачно, до восхода солнца</xt>
+            <xt xml:lang="rus">мы рано встаём: если облачно, до восхода солнца</xt>
          </xg>
          <xg>
             <x>Ми вок, ми коддьӧм, ми вок коддьӧм, ми вок кодь</x>
-            <xt pos="PRON-PERS" xml:lang="rus">наш брат; вроде нашего брата</xt>
+            <xt xml:lang="rus">наш брат; вроде нашего брата</xt>
          </xg>
          <xg>
             <x>ми вок кодь нывка-зонкаяс</x>
-            <xt pos="PRON-PERS" xml:lang="rus">такие же, как мы, девочки и мальчики</xt>
+            <xt xml:lang="rus">такие же, как мы, девочки и мальчики</xt>
          </xg>
          <xg>
             <x>ми вок коддьӧмтӧ найӧ морт туйӧ оз пуктыны</x>
-            <xt pos="PRON-PERS" xml:lang="rus">нашего брата они за человека не считают</xt>
+            <xt xml:lang="rus">нашего брата они за человека не считают</xt>
          </xg>
          <xg>
             <x>ми коддьӧмыд сэн уна</x>
-            <xt pos="PRON-PERS" xml:lang="rus">нашего брата там много</xt>
+            <xt xml:lang="rus">нашего брата там много</xt>
          </xg>
       </mg>
    </e>
@@ -6840,7 +6763,7 @@
             <semRel No="1" lemmaID="миянтӧг_PRON-PERS" semRelType="see"/>
          </m>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">без нас</t>
+            <t pos="Pron" type="Pers">без нас</t>
          </tg>
          <xg>
             <x>митӧг тай тані эштӧдчӧны</x>
@@ -6864,27 +6787,27 @@
             </head>
          </m>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">мы</t>
+            <t pos="Pron" type="Pers">мы</t>
          </tg>
          <tg xml:lang="rus">
             <t pos="Pron">полная основа в косв. п. и в конструкциях с послелогами мест. мы</t>
          </tg>
          <xg>
             <x>миян вылӧ</x>
-            <xt pos="PRON-PERS" xml:lang="rus">на нас</xt>
+            <xt xml:lang="rus">на нас</xt>
          </xg>
          <xg>
             <x>миян йылысь</x>
             <xt xml:lang="fin">meistä</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">о нас</xt>
+            <xt xml:lang="rus">о нас</xt>
          </xg>
          <xg>
             <x>бабӧ видзӧдӧ миян вылӧ жугыль синъясӧн</x>
-            <xt pos="PRON-PERS" xml:lang="rus">бабушка смотрит на нас печальными глазами</xt>
+            <xt xml:lang="rus">бабушка смотрит на нас печальными глазами</xt>
          </xg>
          <xg>
             <x>быдӧн миян дор</x>
-            <xt pos="PRON-PERS" xml:lang="rus">все за нас</xt>
+            <xt xml:lang="rus">все за нас</xt>
          </xg>
       </mg>
       <mg>
@@ -6895,11 +6818,11 @@
          <xg>
             <x>миян вӧлі бабӧ да ещӧ дед</x>
             <xt xml:lang="fin">Meillä oli isoäiti ja isoisäkin.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">у нас были бабушка да ещё и дед</xt>
+            <xt xml:lang="rus">у нас были бабушка да ещё и дед</xt>
          </xg>
          <xg>
             <x>миян ставыс на лючки-ладнӧ</x>
-            <xt pos="PRON-PERS" xml:lang="rus">у нас пока всё благополучно</xt>
+            <xt xml:lang="rus">у нас пока всё благополучно</xt>
          </xg>
          <xg>
             <x>миян пӧ няньыс тэкӧд шӧрыштӧма, шыд-рокыс пусьӧма, межаыс юкӧма</x>
@@ -6910,26 +6833,26 @@
       <mg>
          <defNative/>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">наш</t>
+            <t pos="Pron" type="Pers">наш</t>
          </tg>
          <xg>
             <x>миян батьяс да пӧльяс</x>
             <xt xml:lang="fin">meidän isämme ja isoisämme</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">наши отцы и деды</xt>
+            <xt xml:lang="rus">наши отцы и деды</xt>
          </xg>
          <xg>
             <x>миян йӧз</x>
-            <xt pos="PRON-PERS" xml:lang="rus">наши люди</xt>
+            <xt xml:lang="rus">наши люди</xt>
          </xg>
          <xg>
             <x>миян ныв-пи</x>
             <xt xml:lang="fin">meidän lapsemme</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">наши дети</xt>
+            <xt xml:lang="rus">наши дети</xt>
          </xg>
          <xg>
             <x>миян пыж</x>
             <xt xml:lang="fin">meidän veneemme</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">наша лодка</xt>
+            <xt xml:lang="rus">наша лодка</xt>
          </xg>
       </mg>
    </e>
@@ -6948,23 +6871,23 @@
          </tg>
          <xg>
             <x>тэ миянкӧд эн вензьы</x>
-            <xt pos="PRON-PERS" xml:lang="rus">ты с нами не спорь</xt>
+            <xt xml:lang="rus">ты с нами не спорь</xt>
          </xg>
          <xg>
             <x>сійӧ кольччис горт овны миянкӧд</x>
             <xt xml:lang="fin">Hän jäi asumaan kanssamme.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">она осталась с нами домовничать</xt>
+            <xt xml:lang="rus">она осталась с нами домовничать</xt>
          </xg>
       </mg>
       <mg>
          <defNative/>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">с нами, с нашим домом</t>
+            <t pos="Pron" type="Pers">с нами, с нашим домом</t>
          </tg>
          <xg>
             <x>керка, коді сулалӧ дзик миянкӧд воча</x>
             <xt xml:lang="fin">talo, joka on aivan meitä vastapäätä</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">дом, который стоит прямо напротив нашего</xt>
+            <xt xml:lang="rus">дом, который стоит прямо напротив нашего</xt>
          </xg>
       </mg>
    </e>
@@ -6983,7 +6906,7 @@
          </tg>
          <xg>
             <x>миянла кӧсйӧмаӧсь ыстыны машина</x>
-            <xt pos="PRON-PERS" xml:lang="rus">за нами обещали прислать машину</xt>
+            <xt xml:lang="rus">за нами обещали прислать машину</xt>
          </xg>
       </mg>
    </e>
@@ -7006,11 +6929,11 @@
          </tg>
          <xg>
             <x>кодкӧ со миянлань локтӧ</x>
-            <xt pos="PRON-PERS" xml:lang="rus">кто-то, смотри, к нам, в нашу сторону идёт</xt>
+            <xt xml:lang="rus">кто-то, смотри, к нам, в нашу сторону идёт</xt>
          </xg>
          <xg>
             <x>сійӧ зумыша видзӧдліс миянлань</x>
-            <xt pos="PRON-PERS" xml:lang="rus">он хмуро посмотрел в нашу сторону</xt>
+            <xt xml:lang="rus">он хмуро посмотрел в нашу сторону</xt>
          </xg>
       </mg>
    </e>
@@ -7030,11 +6953,11 @@
          <xg>
             <x>ми асьным тӧдам, мый миянлы вӧчны</x>
             <xt xml:lang="fin">Me tiedämme itse, mitä meidän on tehtävä.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">мы сами знаем, что нам делать</xt>
+            <xt xml:lang="rus">мы сами знаем, что нам делать</xt>
          </xg>
          <xg>
             <x>миянлы воссис паськыд туй</x>
-            <xt pos="PRON-PERS" xml:lang="rus">перед нами открылась широкая дорога</xt>
+            <xt xml:lang="rus">перед нами открылась широкая дорога</xt>
          </xg>
       </mg>
    </e>
@@ -7054,18 +6977,18 @@
          <xg>
             <x>тэ миянлысь юав</x>
             <xt xml:lang="fin">Kysy meiltä.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">ты у нас спроси</xt>
+            <xt xml:lang="rus">ты у нас спроси</xt>
          </xg>
       </mg>
       <mg>
          <defNative/>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">наш</t>
+            <t pos="Pron" type="Pers">наш</t>
          </tg>
          <xg>
             <x>миянлысь удж ошкӧны быдӧн</x>
             <xt xml:lang="fin">Meidän työtämme kehuvat kaikki.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">нашу работу все хвалят</xt>
+            <xt xml:lang="rus">нашу работу все хвалят</xt>
          </xg>
       </mg>
    </e>
@@ -7087,11 +7010,11 @@
          </tg>
          <xg>
             <x>миянлӧн кодь</x>
-            <xt pos="PRON-PERS" xml:lang="rus">как у нас, как наш</xt>
+            <xt xml:lang="rus">как у нас, как наш</xt>
          </xg>
          <xg>
             <x>тайӧ мӧскыс дзик миянлӧн кодь</x>
-            <xt pos="PRON-PERS" xml:lang="rus">эта корова совсем как наша</xt>
+            <xt xml:lang="rus">эта корова совсем как наша</xt>
          </xg>
       </mg>
    </e>
@@ -7106,29 +7029,29 @@
       <mg>
          <defNative/>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">от нас</t>
+            <t pos="Pron" type="Pers">от нас</t>
          </tg>
          <xg>
             <x>виччысьӧны миянсянь отсӧг</x>
             <xt xml:lang="fin">Meiltä odotetaan apua.</xt>
             <xt>He odottavat meiltä apua.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">они ждут от нас помощи</xt>
+            <xt xml:lang="rus">они ждут от нас помощи</xt>
          </xg>
          <xg>
             <x>мый миянсянь колӧ?</x>
-            <xt pos="PRON-PERS" xml:lang="rus">что тебе от нас надо?</xt>
+            <xt xml:lang="rus">что тебе от нас надо?</xt>
          </xg>
       </mg>
       <mg>
          <defNative/>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">от нас,</t>
-            <t pos="PRON-PERS">от нашего дома</t>
+            <t pos="Pron" type="Pers">от нас,</t>
+            <t pos="Pron" type="Pers">от нашего дома</t>
          </tg>
          <xg>
             <x>миянсянь кык керка сайын</x>
             <xt xml:lang="fin">meistä kahden talon päässä</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">через два дома от нас</xt>
+            <xt xml:lang="rus">через два дома от нас</xt>
          </xg>
       </mg>
    </e>
@@ -7143,12 +7066,12 @@
       <mg>
          <defNative/>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">без нас</t>
+            <t pos="Pron" type="Pers">без нас</t>
          </tg>
          <xg>
             <x>миянтӧг он вермы овны</x>
             <xt xml:lang="fin">Et tule toimeen ilman meitä.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">без нас ты не обойдёшься</xt>
+            <xt xml:lang="rus">без нас ты не обойдёшься</xt>
          </xg>
       </mg>
    </e>
@@ -7163,12 +7086,12 @@
       <mg>
          <defNative/>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">у нас,</t>
-            <t pos="PRON-PERS">в нашем доме</t>
+            <t pos="Pron" type="Pers">у нас,</t>
+            <t pos="Pron" type="Pers">в нашем доме</t>
          </tg>
          <xg>
             <x>патеранас агроном миянын олӧ</x>
-            <xt pos="PRON-PERS" xml:lang="rus">агроном живёт у нас на квартире</xt>
+            <xt xml:lang="rus">агроном живёт у нас на квартире</xt>
          </xg>
       </mg>
       <mg>
@@ -7178,7 +7101,7 @@
          </tg>
          <xg>
             <x>делӧыс абу миянын</x>
-            <xt pos="PRON-PERS" xml:lang="rus">не в нас дело</xt>
+            <xt xml:lang="rus">не в нас дело</xt>
          </xg>
       </mg>
    </e>
@@ -7193,13 +7116,13 @@
       <mg>
          <defNative/>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">к нам,</t>
-            <t pos="PRON-PERS">в наш дом</t>
+            <t pos="Pron" type="Pers">к нам,</t>
+            <t pos="Pron" type="Pers">в наш дом</t>
          </tg>
          <xg>
             <x>кодкӧ миянӧ локтӧ</x>
             <xt xml:lang="fin">Joku tulee meille.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">кто-то к нам (в наш дом) идёт</xt>
+            <xt xml:lang="rus">кто-то к нам (в наш дом) идёт</xt>
          </xg>
       </mg>
    </e>
@@ -7218,11 +7141,11 @@
          </tg>
          <xg>
             <x>тэныд миянӧдз кутшӧм мог?</x>
-            <xt pos="PRON-PERS" xml:lang="rus">какое тебе до нас дело?</xt>
+            <xt xml:lang="rus">какое тебе до нас дело?</xt>
          </xg>
          <xg>
             <x>ылын кӧнкӧ мунӧ войнаыд, а йӧлӧгаыс сылӧн локтӧ миянӧдз</x>
-            <xt pos="PRON-PERS" xml:lang="rus">далеко где-то идёт война, а эхо её доходит до нас</xt>
+            <xt xml:lang="rus">далеко где-то идёт война, а эхо её доходит до нас</xt>
          </xg>
       </mg>
    </e>
@@ -7237,13 +7160,13 @@
       <mg>
          <defNative/>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">нас</t>
+            <t pos="Pron" type="Pers">нас</t>
          </tg>
          <xg>
             <x>тэ миянӧс эн велӧд</x>
             <xt xml:lang="fin">Älä opeta meitä.</xt>
             <xt>Älä neuvo meitä.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">ты нас не учи</xt>
+            <xt xml:lang="rus">ты нас не учи</xt>
          </xg>
       </mg>
    </e>
@@ -8718,7 +8641,7 @@
             </head>
          </m>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">их</t>
+            <t pos="Pron" type="Pers">их</t>
          </tg>
          <xg>
             <x>на керкаын</x>
@@ -8769,7 +8692,7 @@
       <mg>
          <defNative/>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">они</t>
+            <t pos="Pron" type="Pers">они</t>
          </tg>
          <xg>
             <x>найӧ талун локтасны</x>
@@ -8791,7 +8714,7 @@
             </head>
          </m>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">их</t>
+            <t pos="Pron" type="Pers">их</t>
          </tg>
          <xg>
             <x>найӧ вӧлӧн локті</x>
@@ -8932,7 +8855,7 @@
       <mg>
          <defNative/>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">их</t>
+            <t pos="Pron" type="Pers">их</t>
          </tg>
          <xg>
             <x>налысь керкасӧ тэ тӧдан?</x>
@@ -8967,7 +8890,7 @@
       <mg>
          <defNative/>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">их</t>
+            <t pos="Pron" type="Pers">их</t>
          </tg>
          <xg>
             <x>налӧн керканыс чукыль саяс</x>
@@ -11231,9 +11154,9 @@
       <mg>
          <defNative/>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">он</t>
-            <t pos="PRON-PERS">она</t>
-            <t pos="PRON-PERS">оно</t>
+            <t pos="Pron" type="Pers">он</t>
+            <t pos="Pron" type="Pers">она</t>
+            <t pos="Pron" type="Pers">оно</t>
          </tg>
          <xg>
             <x>сы вылын выль дӧрӧм</x>
@@ -11279,8 +11202,8 @@
             </head>
          </m>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">его</t>
-            <t pos="PRON-PERS">её</t>
+            <t pos="Pron" type="Pers">его</t>
+            <t pos="Pron" type="Pers">её</t>
          </tg>
          <xg>
             <x>сы син водзын</x>
@@ -11323,7 +11246,7 @@
             </head>
          </m>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">мы кроме тебя</t>
+            <t pos="Pron" type="Pers">мы кроме тебя</t>
          </tg>
          <xg>
             <x>Сыа-меа костын</x>
@@ -12131,9 +12054,9 @@
             </head>
          </m>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">он</t>
-            <t pos="PRON-PERS">она</t>
-            <t pos="PRON-PERS">оно</t>
+            <t pos="Pron" type="Pers">он</t>
+            <t pos="Pron" type="Pers">она</t>
+            <t pos="Pron" type="Pers">оно</t>
          </tg>
       </mg>
    </e>
@@ -12604,11 +12527,11 @@
             </head>
          </m>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">ты</t>
+            <t pos="Pron" type="Pers">ты</t>
          </tg>
          <xg>
             <x>тэ выяджык али госаджык?</x>
-            <xt pos="PRON-PERS" xml:lang="rus">чем ты лучше других?</xt>
+            <xt xml:lang="rus">чем ты лучше других?</xt>
          </xg>
       </mg>
       <mg>
@@ -12618,7 +12541,7 @@
          </tg>
          <xg>
             <x>тэ вомысь да ен пельӧ</x>
-            <xt pos="PRON-PERS" xml:lang="rus">твоими бы устами да мёд пить</xt>
+            <xt xml:lang="rus">твоими бы устами да мёд пить</xt>
             <xt tType="literal" xml:lang="rus">из твоих уст до слуха бога</xt>
          </xg>
       </mg>
@@ -12629,15 +12552,15 @@
          </tg>
          <xg>
             <x>тэ ног</x>
-            <xt pos="PRON-PERS" xml:lang="rus">по-твоему</xt>
+            <xt xml:lang="rus">по-твоему</xt>
          </xg>
          <xg>
             <x>тэ ордӧ</x>
-            <xt pos="PRON-PERS" xml:lang="rus">к тебе</xt>
+            <xt xml:lang="rus">к тебе</xt>
          </xg>
          <xg>
             <x>тэ сайӧ дзебся</x>
-            <xt pos="PRON-PERS" xml:lang="rus">спрячусь за тебя</xt>
+            <xt xml:lang="rus">спрячусь за тебя</xt>
          </xg>
       </mg>
    </e>
@@ -12656,7 +12579,7 @@
             </head>
          </m>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">без нас с тобой</t>
+            <t pos="Pron" type="Pers">без нас с тобой</t>
          </tg>
       </mg>
    </e>
@@ -12675,7 +12598,7 @@
             </head>
          </m>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">нас с тобой</t>
+            <t pos="Pron" type="Pers">нас с тобой</t>
          </tg>
       </mg>
    </e>
@@ -12694,7 +12617,7 @@
             </head>
          </m>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">мы с тобой</t>
+            <t pos="Pron" type="Pers">мы с тобой</t>
          </tg>
          <xg>
             <x/>
@@ -12720,7 +12643,7 @@
             </head>
          </m>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">нам с тобой</t>
+            <t pos="Pron" type="Pers">нам с тобой</t>
          </tg>
       </mg>
    </e>
@@ -12739,7 +12662,7 @@
             </head>
          </m>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">у нас с тобой</t>
+            <t pos="Pron" type="Pers">у нас с тобой</t>
          </tg>
          <xg genreType="saying">
             <x>тэа-меалӧн шудыс кӧвтымын ва кодь: кыскигас польдӧма, а кыскан да немтор абу</x>
@@ -12814,12 +12737,12 @@
          </tg>
          <xg>
             <x>тэкӧд ӧти пос вылӧ оз позь сувтны</x>
-            <xt pos="PRON-PERS" xml:lang="rus">с тобой каши не сваришь</xt>
+            <xt xml:lang="rus">с тобой каши не сваришь</xt>
             <xt tType="literal" xml:lang="rus">с тобой на одну ступеньку нельзя становиться</xt>
          </xg>
          <xg>
             <x>ветла тэкӧд</x>
-            <xt pos="PRON-PERS" xml:lang="rus">схожу с тобой</xt>
+            <xt xml:lang="rus">схожу с тобой</xt>
          </xg>
       </mg>
    </e>
@@ -12839,7 +12762,7 @@
          <xg>
             <x>тэла локтім</x>
             <xt xml:lang="fin">Tulimme hakemaan sinua.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">мы пришли за тобой</xt>
+            <xt xml:lang="rus">мы пришли за тобой</xt>
          </xg>
       </mg>
    </e>
@@ -12927,27 +12850,27 @@
          </tg>
          <xg>
             <x>тэнад понйыд?</x>
-            <xt pos="PRON-PERS" xml:lang="rus">твоя собака?</xt>
+            <xt xml:lang="rus">твоя собака?</xt>
          </xg>
       </mg>
       <mg>
          <defNative/>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">твой</t>
+            <t pos="Pron" type="Pers">твой</t>
          </tg>
          <xg>
             <x>тэнад кепысь</x>
             <xt xml:lang="fin">sinun käsineesi</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">твои варежки</xt>
+            <xt xml:lang="rus">твои варежки</xt>
          </xg>
          <xg>
             <x>тэнад кылыд чертӧг-пурттӧг юртӧ кералас</x>
-            <xt pos="PRON-PERS" xml:lang="rus">твоё слово без топора и ножа голову отсечёт</xt>
+            <xt xml:lang="rus">твоё слово без топора и ножа голову отсечёт</xt>
          </xg>
          <xg>
             <x>тэнад помысь</x>
-            <xt pos="PRON-PERS" xml:lang="rus">где уж тебе</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">от тебя пользы не будет</xt>
+            <xt xml:lang="rus">где уж тебе</xt>
+            <xt xml:lang="rus">от тебя пользы не будет</xt>
          </xg>
       </mg>
       <mg>
@@ -12957,7 +12880,7 @@
          </tg>
          <xg>
             <x>тэнад понйыд?</x>
-            <xt pos="PRON-PERS" xml:lang="rus">твоя собака?</xt>
+            <xt xml:lang="rus">твоя собака?</xt>
          </xg>
       </mg>
    </e>
@@ -12985,17 +12908,17 @@
          </tg>
          <xg>
             <x>тэнсьыд он босьт</x>
-            <xt pos="PRON-PERS" xml:lang="rus">у тебя не возьмёшь</xt>
+            <xt xml:lang="rus">у тебя не возьмёшь</xt>
          </xg>
       </mg>
       <mg>
          <defNative/>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">твой</t>
+            <t pos="Pron" type="Pers">твой</t>
          </tg>
          <xg>
             <x>тэнсьыд гижӧдтӧ сьӧкыд гӧгӧрвоны</x>
-            <xt pos="PRON-PERS" xml:lang="rus">твой почерк трудно разобрать</xt>
+            <xt xml:lang="rus">твой почерк трудно разобрать</xt>
          </xg>
       </mg>
    </e>
@@ -13023,7 +12946,7 @@
          </tg>
          <xg>
             <x>тэныд вӧзъя</x>
-            <xt pos="PRON-PERS" xml:lang="rus">предлагаю тебе</xt>
+            <xt xml:lang="rus">предлагаю тебе</xt>
          </xg>
       </mg>
    </e>
@@ -13042,7 +12965,7 @@
          </tg>
          <xg>
             <x>кора тэнӧ</x>
-            <xt pos="PRON-PERS" xml:lang="rus">прошу тебя</xt>
+            <xt xml:lang="rus">прошу тебя</xt>
          </xg>
       </mg>
    </e>
@@ -13061,7 +12984,7 @@
          </tg>
          <xg>
             <x>тэтӧг оз мунны</x>
-            <xt pos="PRON-PERS" xml:lang="rus">без тебя не идут</xt>
+            <xt xml:lang="rus">без тебя не идут</xt>
          </xg>
       </mg>
    </e>
@@ -13081,7 +13004,7 @@
          <xg>
             <x>тэысь ог кут повны</x>
             <xt xml:lang="fin">Sinua en pelkää.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">тебя не буду бояться</xt>
+            <xt xml:lang="rus">тебя не буду бояться</xt>
          </xg>
       </mg>
    </e>
@@ -13106,19 +13029,19 @@
          </m>
          <tg xml:lang="rus">
             <tCtn>
-               <t pos="PRON-PERS">вы</t>
+               <t pos="Pron" type="Pers">вы</t>
                <re>полная основа "тіян"</re>
             </tCtn>
          </tg>
          <xg>
             <x>ті асьныд тӧданныд</x>
             <xt xml:lang="fin">Te tiedätte itse.</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">вы сами знаете</xt>
+            <xt xml:lang="rus">вы сами знаете</xt>
          </xg>
          <xg>
             <x>ті кысь локтанныд?</x>
             <xt xml:lang="fin">Mistä te tulette?</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">вы откуда идёте?</xt>
+            <xt xml:lang="rus">вы откуда идёте?</xt>
          </xg>
       </mg>
       <mg>
@@ -13129,7 +13052,7 @@
          <xg>
             <x>Ті вок (ті коддьӧм)</x>
             <att att="disapprovingly"/>
-            <xt pos="PRON-PERS" xml:lang="rus">ваш брат</xt>
+            <xt xml:lang="rus">ваш брат</xt>
          </xg>
       </mg>
    </e>
@@ -13144,12 +13067,12 @@
       <mg>
          <defNative/>
          <tg xml:lang="rus">
-            <t pos="PRON-PERS">ваш</t>
+            <t pos="Pron" type="Pers">ваш</t>
          </tg>
          <xg>
             <x>кӧн тіян юкмӧсыд?</x>
             <xt xml:lang="fin">Missä teidän kaivonne on?</xt>
-            <xt pos="PRON-PERS" xml:lang="rus">где ваш колодец?</xt>
+            <xt xml:lang="rus">где ваш колодец?</xt>
          </xg>
          <xg>
             <x>тіян лызьясыд век мавтасаӧсь</x>
@@ -13158,7 +13081,7 @@
          </xg>
          <xg>
             <x>тіян служба — кывзысьны, а менам — не пыксьыны</x>
-            <xt pos="PRON-PERS" xml:lang="rus">ваша служба — слушаться, а моя — не сопротивляться</xt>
+            <xt xml:lang="rus">ваша служба — слушаться, а моя — не сопротивляться</xt>
          </xg>
       </mg>
    </e>
@@ -13177,7 +13100,7 @@
          </tg>
          <xg>
             <x>тіянлы ковмас висьтавны</x>
-            <xt pos="PRON-PERS" xml:lang="rus">вам придётся рассказать</xt>
+            <xt xml:lang="rus">вам придётся рассказать</xt>
          </xg>
       </mg>
    </e>
@@ -13196,7 +13119,7 @@
          </tg>
          <xg>
             <x>тіянтӧг тайӧ оз артмы</x>
-            <xt pos="PRON-PERS" xml:lang="rus">без вас это не получится</xt>
+            <xt xml:lang="rus">без вас это не получится</xt>
          </xg>
       </mg>
    </e>
@@ -13215,7 +13138,7 @@
          </tg>
          <xg>
             <x>тіянысь абу омӧльӧсь</x>
-            <xt pos="PRON-PERS" xml:lang="rus">не хуже вас</xt>
+            <xt xml:lang="rus">не хуже вас</xt>
          </xg>
       </mg>
    </e>
@@ -13234,7 +13157,7 @@
          </tg>
          <xg>
             <x>тіянӧс ог босьтӧй</x>
-            <xt pos="PRON-PERS" xml:lang="rus">вас не возьмём</xt>
+            <xt xml:lang="rus">вас не возьмём</xt>
          </xg>
       </mg>
    </e>
