@@ -169,6 +169,7 @@ Multichar_Symbols
  +Err/Orth
  +Use/-Spell
  +Use/SpellNoSugg
+ 
 
 !! Where do these come from source
 +Src/F         !!≈ * __@CODE@__ foreign source apparently 2015-09-08
@@ -537,6 +538,8 @@ Multichar_Symbols
 
 
 !! !!Flag diacritics
+
+
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics - only allow compounds
 !! with verbs if the verb is further derived into a noun again:
@@ -546,6 +549,7 @@ Multichar_Symbols
 !! 
 !! For languages that allow compounding, the following flag diacritics are needed
 !! to control position-based compounding restrictions for nominals. Their use is
+
 !! handled automatically if combined with +CmpN/xxx tags. If not used, they will
 !! do no harm.
  @P.CmpFrst.FALSE@ !!≈ | @CODE@ | Require that words tagged as such only appear first
@@ -563,6 +567,9 @@ Multichar_Symbols
 !! given the proper use of these flags.
  @U.Cap.Obl@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
  @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
+
++Cmp
++Cmp/Serial   !!≈ | @CODE@ used with serial verbs
 
 ! Flags used with serial verbs
 ! INF = Infinitive
