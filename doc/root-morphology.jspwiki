@@ -115,6 +115,7 @@ Question and Focus particles:
 
 The Usage extents are marked using following tags:
 
+
 Where do these come from source
  * __+Src/F__ foreign source apparently 2015-09-08
  * __+Dim__ diminutive
@@ -261,6 +262,8 @@ Valency tags, i.e. tags assigned to verbs for denoting their arbuments
 
 
 !!Flag diacritics
+
+
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
@@ -270,6 +273,7 @@ with verbs if the verb is further derived into a noun again:
 
 For languages that allow compounding, the following flag diacritics are needed
 to control position-based compounding restrictions for nominals. Their use is
+
 handled automatically if combined with +CmpN/xxx tags. If not used, they will
 do no harm.
  | @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
@@ -287,6 +291,8 @@ these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
  | @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
  | @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+
+ | +Cmp/Serial used with serial verbs
 
 
 

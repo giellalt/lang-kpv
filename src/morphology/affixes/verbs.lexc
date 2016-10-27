@@ -413,9 +413,9 @@ LEXICON VerbEnd
  WordEnd ;
 
 LEXICON Serial-Verbs
-+SerialVerb:- verbs-A2M ;
-+SerialVerb:- verbs-N2END ;
-+SerialVerb:- V_NEWWORDS ;
++Cmp/Serial#:%- verbs-A2M ;
++Cmp/Serial#:%- verbs-N2END ;
++Cmp/Serial#:%- V_NEWWORDS ;
 
 !! !!Derivation
 ! ==========
