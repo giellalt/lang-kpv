@@ -737,14 +737,14 @@ SUBSTANDARDS ; ! temporary solution
 ! Compounding
 
 LEXICON R
-+Cmp#:%- nouns ;
-+Cmp#:%- nouns-russian-homographs ;
-+Cmp#:%- nouns-deverbal ;
++Cmp%-:%- nouns ;
++Cmp%-:%- nouns-russian-homographs ;
++Cmp%-:%- nouns-deverbal ;
 
 LEXICON Serial-Verbs
-+Cmp/Serial#:%- verbs-A2M ;
-+Cmp/Serial#:%- verbs-N2END ;
-+Cmp/Serial#:%- V_NEWWORDS ;
++Cmp/Serial%-:%- verbs-A2M ;
++Cmp/Serial%-:%- verbs-N2END ;
++Cmp/Serial%-:%- V_NEWWORDS ;
 
 
 
