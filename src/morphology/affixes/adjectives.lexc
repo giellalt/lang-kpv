@@ -82,6 +82,9 @@ LEXICON A-PRED ! ӧбиднӧ
 LEXICON A_
 +A: PredMonLex ;
 +A: AdjCompar ;
++A+Der/кодь+A:%>кодь PredMonLex ;
++A+Der/кодь+A:%>кодь AdjCompar ;
++A+Der/Ин:%>%{иі%}н N_ ;
 +A+Der/лун:%>лун N_ ; !Derivational suffix for A-N
 +A+Der/а:%>а ADV_ ; ! Derivation for adjective-to-adverb
 
@@ -89,6 +92,9 @@ LEXICON A_PARAGOGIC-В/Л !!= * @CODE@ юмов:юмо юмолӧсь
 +A:в K ; !! Singular predicative 
 +A+Pred+Pl:л%>ӧсь K ; ! Plural predicative.
 +A:в AdjCompar ;
++A+Der/кодь+A:в%>кодь PredMonLex ;
++A+Der/кодь+A:в%>кодь AdjCompar ;
++A+Der/Ин:л%>%{иі%}н N_ ;
 +A+Der/лун:в%>лун N_ ; !Derivational suffix for A-N
 
 
