@@ -39,7 +39,7 @@ LEXICON perssg1decl   !!≈ * __@CODE@__
 
 LEXICON perspl1decl    !!≈ * __@CODE@__
 +Nom:ми WordEnd ;
-+Der/йӧ+Nom:мийӧ WordEnd ;
++Nom:мийӧ WordEnd ; !Der/йӧ
 +GenStem:миян WordEnd ;
 +Acc:миянӧс WordEnd ;
 +GenStem:миян persplobl ;
@@ -87,7 +87,7 @@ LEXICON perssg2decl     !!≈ * __@CODE@__
 LEXICON perspl2decl !!≈ * __@CODE@__ 
 +Nom:ті WordEnd ;
 +Cmpl:ті WordEnd ;
-+Der/йӧ+Nom:тійӧ WordEnd ; !We need a special tag for discerning +Nom forms
++Nom:тійӧ WordEnd ; !We need a special tag for discerning +Nom forms  Der/йӧ
 +GenStem:тіян WordEnd ;
 +GenStem+Gen:тіянлӧн WordEnd ;
 +Acc:тіянӧс WordEnd ;
@@ -108,25 +108,25 @@ LEXICON perspl2decl !!≈ * __@CODE@__
 +Ter:тіӧдз WordEnd ;
 
 LEXICON perssg3decl  !!≈ * __@CODE@__ 
-+Der/йӧ+Nom:сійӧ WordEnd ;
++Nom:сійӧ WordEnd ; !+Der/йӧ
 +Cmpl+Gen:сылӧн WordEnd ;
 +Cmpl+Abl:сылысь WordEnd ;
 +Cmpl+Ela:сыысь WordEnd ;
 +Cmpl+Dat:сылы WordEnd ;
-+Der/йӧ+Acc:сійӧс WordEnd ;
-+Der/йӧ+Ins:сійӧн WordEnd ;
++Acc:сійӧс WordEnd ; !Der/йӧ
++Ins:сійӧн WordEnd ; !Der/йӧ
 +Cmpl:сы perssg ;  ! for the regular obl sg
 +Cmpl:сы WordEnd ;
 !More form ӧния коми кыв 163
-+Der/йӧ+Gen:сійӧлӧн WordEnd ;
-+Der/йӧ+Abl:сійӧлысь WordEnd ;
-+Der/йӧ+Dat:сійӧлы WordEnd ;
-+Der/йӧ+Com:сійӧкӧд WordEnd ;
-+Der/йӧ+Car:сійӧтӧг WordEnd ;
-+Der/йӧ+Apr:сійӧлань WordEnd ;
-+Der/йӧ+Egr:сійӧсянь WordEnd ;
-+Der/йӧ+Egr+PxSg3:сійӧсяньыс WordEnd ;
-+Der/йӧ+Ter:сійӧӧдз WordEnd ;
++Gen:сійӧлӧн WordEnd ; !Der/йӧ
++Abl:сійӧлысь WordEnd ; !Der/йӧ
++Dat:сійӧлы WordEnd ; !Der/йӧ
++Com:сійӧкӧд WordEnd ; !Der/йӧ
++Car:сійӧтӧг WordEnd ; !Der/йӧ
++Apr:сійӧлань WordEnd ; !Der/йӧ
++Egr:сійӧсянь WordEnd ; !Der/йӧ
++Egr+PxSg3:сійӧсяньыс WordEnd ; !Der/йӧ
++Ter:сійӧӧдз WordEnd ; !Der/йӧ
 ! Special expressions
 +Cmpl+Com+Ins:сыкӧдӧн WordEnd ; ! Ен сыкӧдӧн!
 
@@ -136,19 +136,19 @@ LEXICON perssg3decl  !!≈ * __@CODE@__
 !! сы сійӧ tosin joskus 
 
 LEXICON perspl3decl !!≈ * __@CODE@__
-+Der/йӧ+Nom:найӧ WordEnd ;
-+Der/йӧ+Acc:найӧс WordEnd ;
++Nom:найӧ WordEnd ; !Der/йӧ
++Acc:найӧс WordEnd ; !Der/йӧ
 +Cmpl+Gen:налӧн WordEnd ;
 +Cmpl:на persplobl ; !This might be one solution for the different stem types
 +Cmpl:на WordEnd ;
 !
-+Der/йӧ+Gen:найӧлӧн WordEnd ;
-+Der/йӧ+Abl:найӧлысь WordEnd ;
-+Der/йӧ+Dat:найӧлы WordEnd ;
-+Der/йӧ+Ins:найӧӧн WordEnd ;
-+Der/йӧ+Com:найӧкӧд WordEnd ;
++Gen:найӧлӧн WordEnd ; !Der/йӧ
++Abl:найӧлысь WordEnd ; !Der/йӧ
++Dat:найӧлы WordEnd ; !Der/йӧ
++Ins:найӧӧн WordEnd ; !Der/йӧ
++Com:найӧкӧд WordEnd ; !Der/йӧ
 +Cmpl+Com:накӧдыс WordEnd ;
-+Der/йӧ+Car:найӧтӧг WordEnd ;
++Car:найӧтӧг WordEnd ; !Der/йӧ
 +Cmpl+Car+PxSg3:натӧгыс WordEnd ;
 +Cmpl+PxSg3+Cns:наысла WordEnd ;
 +Cmpl+Ela+PxSg3:насьыс WordEnd ;
