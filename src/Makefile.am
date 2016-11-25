@@ -48,7 +48,7 @@ GT_ANALYSERS+=
 GT_GENERATORS+=
 
 if WANT_DICTIONARIES
-GT_ANALYSERS+=analyser-dict-gt-desc-molotsov.xfst\
+GT_ANALYSERS+=analyser-dict-gt-desc-molodtsov.xfst\
 			  analyser-dict-gt-desc-permyak.xfst
 endif # WANT_DICTIONARIES
 endif # CAN_XFST
@@ -59,7 +59,7 @@ GT_ANALYSERS+=
 GT_GENERATORS+=
 
 if WANT_DICTIONARIES
-GT_ANALYSERS+=analyser-dict-gt-desc-molotsov.hfst\
+GT_ANALYSERS+=analyser-dict-gt-desc-molodtsov.hfst\
 			  analyser-dict-gt-desc-permyak.hfst
 endif # WANT_DICTIONARIES
 endif # CAN_HFST
@@ -70,7 +70,7 @@ GT_ANALYSERS+=
 GT_GENERATORS+=
 
 if WANT_DICTIONARIES
-GT_ANALYSERS+=analyser-dict-gt-desc-molotsov.foma\
+GT_ANALYSERS+=analyser-dict-gt-desc-molodtsov.foma\
 			  analyser-dict-gt-desc-permyak.foma
 endif # WANT_DICTIONARIES
 endif # CAN_FOMA
@@ -78,11 +78,11 @@ endif # CAN_FOMA
 #################################################
 #### Add language-specific build rules here: ####
 
-analyser-dict-gt-desc-molotsov.tmp.%: analyser-dict-gt-desc.tmp.% \
-					orthography/spellrelax-molotsov-keyboard.compose.%
+analyser-dict-gt-desc-molodtsov.tmp.%: analyser-dict-gt-desc.tmp.% \
+					orthography/spellrelax-molodtsov-keyboard.compose.%
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex                              \
 			    @\"$<\" \
-			.o. @\"orthography/spellrelax-molotsov-keyboard.compose.$*\" \
+			.o. @\"orthography/spellrelax-molodtsov-keyboard.compose.$*\" \
 			;\n\
 		 save stack $@\n\
 		 quit\n" | $(XFST_TOOL)
