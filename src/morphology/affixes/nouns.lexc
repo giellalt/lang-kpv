@@ -204,7 +204,7 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END
 +Com:%>кӧд K ;
 +Car:%>тӧг K ;
 +Cns:%>ла K ;
-+Comp:%>ся K ;
++Cmpr:%>ся K ;
 +Apr:%>лань SPAT-COMPARATIVE ;
 +Egr:%>сянь SPAT-COMPARATIVE ;
 +Tra:%>ті K ;
@@ -230,7 +230,7 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END
 +Ins+PxSg2:%>над K ;
 +Car+PxSg2:%>тӧгыд K ;
 +Car+PxSg2:%>ыдтӧг K ; ! Px + Case
-+Comp+PxSg2:%>сяыд K ;
++Cmpr+PxSg2:%>сяыд K ;
 +Ela+PxSg2:%>сьыд SPAT-COMPARATIVE ;
 +Apr+PxSg2:%>ланьыд SPAT-COMPARATIVE ;
 +Egr+PxSg2:%>сяньыд SPAT-COMPARATIVE ;
@@ -249,7 +249,7 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END
 +Acc+PxSg3:%>сӧ K ; !Acc3
 +Ins+PxSg3:%>нас K ;
 +Car+PxSg3:%>тӧгыс K ;
-+Comp+PxSg3:%>сяыс K ;
++Cmpr+PxSg3:%>сяыс K ;
 +Ela+PxSg3:%>сьыс SPAT-COMPARATIVE ;
 +Apr+PxSg3:%>ланьыс SPAT-COMPARATIVE ;
 +Egr+PxSg3:%>сяньыс SPAT-COMPARATIVE ;
@@ -273,7 +273,7 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END
 +Car+PxPl1:%>тӧгным K ; ! Case+Px
 +Car+PxPl1:%>нымтӧг K ; ! Px+Case
 +Cns+PxPl1:%>нымла K ;
-+Comp+PxPl1:%>сяным K ;
++Cmpr+PxPl1:%>сяным K ;
 +Ela+PxPl1:%>сьыным SPAT-COMPARATIVE ;
 
 +Apr+PxPl1:%>ланьным SPAT-COMPARATIVE ; ! Case+Px
@@ -301,7 +301,7 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END
 +Com+PxPl2:%>ныдкӧд K ;
 +Car+PxPl2:%>тӧгныд K ;
 +Cns+PxPl2:%>ныдла K ;
-+Comp+PxPl2:%>сяныд K ;
++Cmpr+PxPl2:%>сяныд K ;
 +Ela+PxPl2:%>сьыныд SPAT-COMPARATIVE ;
 +Apr+PxPl2:%>ныдлань SPAT-COMPARATIVE ;
 +Apr+PxPl2:%>ланьныд K ; ! Case + Px
@@ -326,7 +326,7 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END
 +Com+PxPl3:%>ныскӧд K ; ! Px + Case
 +Car+PxPl3:%>тӧгныс K ;
 +Cns+PxPl3:%>нысла K ; ! Px + Case
-+Comp+PxPl3:%>сяныс K ;
++Cmpr+PxPl3:%>сяныс K ;
 +Ela+PxPl3:%>сьыныс SPAT-COMPARATIVE ;
 +Apr+PxPl3:%>ныслань SPAT-COMPARATIVE ; ! Px + Case
 +Apr+PxPl3:%>ланьныс SPAT-COMPARATIVE ;
@@ -404,7 +404,7 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_Ӧ
 +Com+PxSg1:%>ӧйкӧд K ;
 +Car+PxSg1:%>ӧйтӧг K ;
 +Cns+PxSg1:%>ӧйла K ;
-+Comp+PxSg1:%>ӧйся K ;
++Cmpr+PxSg1:%>ӧйся K ;
 +Apr+PxSg1:%>ӧйлань SPAT-COMPARATIVE ;
 +Egr+PxSg1:%>ӧйсянь SPAT-COMPARATIVE ;
 +Prl+PxSg1:%>ӧдым K ;
@@ -459,16 +459,16 @@ LEXICON DERIVEDADJ
 
 
 LEXICON AdjCompar
-+Der/джык+Compar:%>джык PredMonLex ;
-+Der/джык+Compar+Der/а:%>джыка ADV_ ;
-+Der/джык+Compar+Der/MWN+N+Sg:%>джык CASEPOSSLEX-afterDerivation ;
-+Der/джык+Compar+Der/MWN+N+Pl:%>джыкъяс CASEPOSSLEX-afterDerivation ;
++Der/джык+Comp:%>джык PredMonLex ;
++Der/джык+Comp+Der/а:%>джыка ADV_ ;
++Der/джык+Comp+Der/MWN+N+Sg:%>джык CASEPOSSLEX-afterDerivation ;
++Der/джык+Comp+Der/MWN+N+Pl:%>джыкъяс CASEPOSSLEX-afterDerivation ;
 +Der/MWN+N+Sg: CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
 +Der/MWN+N+Pl:%>ъяс CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
 
 LEXICON IllCompar
  K ;
-+Der/джык+Compar:%>джык K ;
++Der/джык+Comp:%>джык K ;
 
 LEXICON PredMonLex-Spat
  K ;      ! Singular predicative
@@ -477,8 +477,8 @@ LEXICON PredMonLex-Spat
 LEXICON PredMonLex-Spat-Add-Morphology ! This allows consistency 
                                        ! with SPAT elsewhere
 +Pred+Pl:ӧсь K ; ! Plural predicative.
-+Der/джык+Compar:%>джык K ; !ывлаынджык
-+Der/джык+Compar+Pred+Pl:%>джыкӧсь K ; !ывлаынджыкӧсь
++Der/джык+Comp:%>джык K ; !ывлаынджык
++Der/джык+Comp+Pred+Pl:%>джыкӧсь K ; !ывлаынджыкӧсь
 
 
 LEXICON PredMonLex
