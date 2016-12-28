@@ -186,7 +186,7 @@ LEXICON persplobl !!≈ * __@CODE@__
 +Com:кӧд WordEnd ;
 +Car:тӧг WordEnd ;
 +Cns:ла WordEnd ;
-+Comp:ся WordEnd ;
++Cmpr:ся WordEnd ;
 +Ine:ын WordEnd ;
 +Ela:ысь WordEnd ;
 +Ill:ӧ WordEnd ;
@@ -399,7 +399,7 @@ LEXICON PRON-NONHUM
 +Ins:ӧн INTERR-REL-INDEF ;
 +Com:кӧд INTERR-REL-INDEF ;
 +Car:тӧг INTERR-REL-INDEF ;
-+Comp:ся INTERR-REL-INDEF ;
++Cmpr:ся INTERR-REL-INDEF ;
 +Cns:ла INTERR-REL-INDEF ;
 +Ine:ын INTERR-REL-INDEF ;
 +Ela:ысь INTERR-REL-INDEF ; 
@@ -412,7 +412,7 @@ LEXICON PRON-NONHUM
 
 ! Removing 2012-02-08 The comparative can be taken care of once
 ! LEXICON INTERR-REL-INDEF_COMPARISON
-! +Der/джык+Compar:%>джык INTERR-REL ;
+! +Der/джык+Comp:%>джык INTERR-REL ;
 !               INTERR-REL ;
 
 LEXICON Ill4INTERR-REL-INDEF
@@ -959,7 +959,7 @@ LEXICON PRONQ-STAV-CASES
 +PxPl2+Cns:ныдла K ;
 +PxPl3+Cns:нысла K ;
 
-+Comp+PxSg3:сяыс K ;
++Cmpr+PxSg3:сяыс K ;
 
 +Ine:ын K ;
 +PxPl1+Ine:нымын K ;
