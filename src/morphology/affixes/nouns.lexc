@@ -476,16 +476,17 @@ LEXICON PredMonLex-Spat
 
 LEXICON PredMonLex-Spat-Add-Morphology ! This allows consistency 
                                        ! with SPAT elsewhere
-+Pred+Pl:ӧсь K ; ! Plural predicative.
++Cop+Pl:ӧсь K ; ! Plural predicative.
 +Der/джык+Comp:%>джык K ; !ывлаынджык
-+Der/джык+Comp+Pred+Pl:%>джыкӧсь K ; !ывлаынджыкӧсь
++Der/джык+Comp+Cop+Pl:%>джыкӧсь K ; !ывлаынджыкӧсь
 
 
 LEXICON PredMonLex
  K ;      ! Singular predicative
-+Pred+Pl:ӧсь K ; ! Plural predicative.
++Cop+Pl:ӧсь K ; ! Plural predicative.
 !! 2012-02-07 !!+Der/а+Adv:%>а K ;
  
+
 
 
 ! vim: set ft=xfst-lexc:
