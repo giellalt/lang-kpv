@@ -512,8 +512,9 @@ Multichar_Symbols
 +EOLang/MYV
 +EOLang/RUS
 +EOLang/YRK
+!! Sentence markers
 
-
++Cop
 
 
 !! Morphophonology
@@ -536,6 +537,14 @@ Multichar_Symbols
 +%<inf_ны%>                  !!≈ * @CODE@ infinitive in -ны
 +%<po_вылӧ%>                  !!≈ * @CODE@ postposition вылӧ
 +%<sub_мый%>                  !!≈ * @CODE@ subordinate clause in мый/that
+
+
+!! !Symbols that need to be escaped on the lower side (towards twolc):
+
+ »7     !! * »
+ «7     !! * «
+ %[%>%] !! * > (written with square brackets, see the root.lexc file)
+ %[%<%] !! * < (written with square brackets, see the root.lexc file)
 
 
 !! !!Flag diacritics

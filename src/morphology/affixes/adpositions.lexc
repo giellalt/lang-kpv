@@ -57,7 +57,7 @@ PO-TER ;
 !! пӧвст
 
 LEXICON PO-APR
-+Po+Sg+Apr:%>лань PO-PX ;
++Po+Sg+Apr:%>лань PX-FOR-PO/NO ;
 
 LEXICON PO-APR-ILL
 +Po+Sg+Apr+Ill:%>ланьӧ K ;
@@ -79,11 +79,11 @@ LEXICON PO-APR-INE
 
 
 LEXICON PO-COMP
-+Po+Sg+Cmpr:%>ся PO-PX ;
++Po+Sg+Cmpr:%>ся PX-FOR-PO/NO ;
 ! бӧрся, гырся
 
 LEXICON PO-EGR
-+Po+Sg+Egr:%>сянь PO-PX ;
++Po+Sg+Egr:%>сянь PX-FOR-PO/NO ;
 
 LEXICON PO-ELA
 +Po+Sg+Ela:%>ысь K ;
@@ -95,7 +95,7 @@ LEXICON PO-ELA
 +Po+Sg+Ela+PxPl3:%>сьыныс K ;
 
 LEXICON PO-ILL
-+Po+Sg+Ill:%>ӧ PO-PX ;
++Po+Sg+Ill:%>ӧ PX-FOR-PO/NO ;
 +Po+Sg+Ill+PxSg1-ym:%>ам K ;
 +Po+Sg+Ill+PxPl1:%>аным K ;
 +Po+Sg+Ill+PxSg2:%>ад K ;
@@ -141,7 +141,7 @@ LEXICON PO-TRA
 +Po+Sg+Tra+PxPl3:%>тіныс K ;
 
 LEXICON PO-TER
-+Po+Sg+Term:%>ӧдз PO-PX ;
++Po+Sg+Term:%>ӧдз PX-FOR-PO/NO ;
 
 !!
 LEXICON PO-SPAT_  !!= * __@CODE@__
@@ -165,7 +165,7 @@ PO-SPAT-TER ;
 !! пӧвст
 
 LEXICON PO-SPAT-APR
-+Po+Spat+Sg+Apr:%>лань PO-PX ;
++Po+Spat+Sg+Apr:%>лань PX-FOR-PO/NO ;
 
 LEXICON PO-SPAT-APR-ILL
 +Po+Spat+Sg+Apr+Ill:%>ланьӧ K ;
@@ -187,11 +187,11 @@ LEXICON PO-SPAT-APR-INE
 
 
 LEXICON PO-SPAT-COMP
-+Po+Spat+Sg+Cmpr:%>ся PO-PX ;
++Po+Spat+Sg+Cmpr:%>ся PX-FOR-PO/NO ;
 ! бӧрся, гырся
 
 LEXICON PO-SPAT-EGR
-+Po+Spat+Sg+Egr:%>сянь PO-PX ;
++Po+Spat+Sg+Egr:%>сянь PX-FOR-PO/NO ;
 
 LEXICON PO-SPAT-ELA
 +Po+Spat+Sg+Ela:%>ысь K ;
@@ -203,7 +203,7 @@ LEXICON PO-SPAT-ELA
 +Po+Spat+Sg+Ela+PxPl3:%>сьыныс K ;
 
 LEXICON PO-SPAT-ILL
-+Po+Spat+Sg+Ill:%>ӧ PO-PX ;
++Po+Spat+Sg+Ill:%>ӧ PX-FOR-PO/NO ;
 +Po+Spat+Sg+Ill+PxSg1-ym:%>ам K ;
 +Po+Spat+Sg+Ill+PxPl1:%>аным K ;
 +Po+Spat+Sg+Ill+PxSg2:%>ад K ;
@@ -249,7 +249,7 @@ LEXICON PO-SPAT-TRA
 +Po+Spat+Sg+Tra+PxPl3:%>тіныс K ;
 
 LEXICON PO-SPAT-TER
-+Po+Spat+Sg+Term:%>ӧдз PO-PX ;
++Po+Spat+Sg+Term:%>ӧдз PX-FOR-PO/NO ;
 
 !!
 
@@ -266,13 +266,16 @@ LEXICON POSTP-NOUN
 ! гӧгӧр, 
 
 LEXICON PO-PX
-+Po: WordEnd ;
-+Po+PxSg1-oj:%>ӧй WordEnd ;
-+Po+PxSg2:%>ыд WordEnd ;
-+Po+PxSg3:%>ыс WordEnd ;
-+Po+PxPl1:%>ным WordEnd ;
-+Po+PxPl2:%>ныд WordEnd ;
-+Po+PxPl3:%>ныс WordEnd ;
++Po: PX-FOR-PO/NO ;
+
+LEXICON PX-FOR-PO/NO
+: WordEnd ;
++PxSg1:%>ӧй WordEnd ;
++PxSg2:%>ыд WordEnd ;
++PxSg3:%>ыс WordEnd ;
++PxPl1:%>ным WordEnd ;
++PxPl2:%>ныд WordEnd ;
++PxPl3:%>ныс WordEnd ;
 ! вӧсна, кындзи, моз,  мында, мысьт, серти,
 
 LEXICON PO-TEMP-IS_TRA-INSTR-SG3
