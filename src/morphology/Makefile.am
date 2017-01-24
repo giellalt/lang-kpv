@@ -70,6 +70,7 @@ GENERATED_LEXC_SRCS=\
 		$(srcdir)/stems/adverbs.lexc                            \
 		$(srcdir)/stems/conjunctors.lexc                        \
 		$(srcdir)/stems/descriptives.lexc                       \
+		$(srcdir)/stems/determiners.lexc                            \
 		$(srcdir)/stems/gerunds.lexc                            \
 		$(srcdir)/stems/interjections.lexc                      \
 		$(srcdir)/stems/nouns-deverbal.lexc                     \
@@ -96,6 +97,7 @@ GT_XML_SRCS=\
 		stems/adverbs.xml                           \
 		stems/conjunctors.xml                       \
 		stems/descriptives.xml                      \
+		stems/determiners.xml                           \
 		stems/gerunds.xml                           \
 		stems/interjections.xml                     \
 		stems/nouns-deverbal.xml                    \
