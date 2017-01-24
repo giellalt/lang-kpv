@@ -6,7 +6,7 @@
 # Delimiters #
 # ========== #
 
-DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>";
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" sent ;
 
 #PARENTHESES = "<$(>" "<$)>" "<$[>" "<$]>" "<${>" "<$}>" "<$«>" "<$»>" ;
 
@@ -199,8 +199,10 @@ REMOVE (Prt1 Sg1) IF (NOT *0 (Pers Sg1 Nom)) ;
 # This may be too strong, it precludes zero Sg1 subjects
 
 # ConNeg or not
-REMOVE ConNeg IF (NOT *-1 Neg BARRIER CLB);
-REMOVE ConNeg IF (-1* ConNeg BARRIER Neg);
+REMOVE:NoNegForMe ConNeg IF (NOT *-1 Neg BARRIER CLB);
+REMOVE:OtherConNeg ConNeg IF (-1* ConNeg BARRIER Neg);
+
+SELECT:OnlyConNeg ConNeg IF (-1C Neg)(NOT *1 ConNeg) ;
 
 # Imperative or noun
 
