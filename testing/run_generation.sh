@@ -1,3 +1,0 @@
-
-./gen-paradigms.sh 
-
