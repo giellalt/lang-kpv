@@ -284,9 +284,9 @@ LEXICON persplobl !!≈ * __@CODE@__
 
 LEXICON INTERR
 кин+Pron+Sem/Hum+Nom:кин INTERR-REL ; ! 2011-11-09 This will need cases
-кодар+Pron+A:кодар INTERR-REL-INDEF ;
-кодар+Pron+A+Der/MWN:кодар PRON-HUM-OBL ;
-кодар+Pron+A+Der/ладор:кодарладор PRON-HUM-OBL ;
+кодар+Det:кодар INTERR-REL-INDEF ;
+кодар+Det+Der/MWN:кодар PRON-HUM-OBL ;
+кодар+Det+Der/ладор:кодарладор PRON-HUM-OBL ;
 
 коді:код PRON-HUM ;
 
@@ -298,45 +298,45 @@ LEXICON INTERR
 кутшӧм+Pron:кутшӧм INTERR-REL-INDEF ; ! This needs to be 
 кутшӧм+Pron+Rel+Cop+Pl:кутшӧмӧсь INTERR-REL-INDEF ; ! This needs to be 
 кутшӧма+Adv+Manner:кутшӧма INTERR-REL-INDEF ; ! This needs to be 
-кутшӧм+Pron+A+Der/MWN+N+Sg:кутшӧм PRON-NONHUM ;
-кутшӧм+Pron+A+Der/MWN+N+Pl:кутшӧмъяс PRON-NONHUM ;
+кутшӧм+A+Der/MWN+N+Sg:кутшӧм PRON-NONHUM ;
+кутшӧм+A+Der/MWN+N+Pl:кутшӧмъяс PRON-NONHUM ;
 кутшӧми+Pron+A:кутшӧми INTERR-REL-INDEF ; ! This needs to be 
 кыдз+Pron+Adv+Manner:кыдз INTERR-REL-INDEF ;
 кыдзи+Pron+Adv+Manner:кыдзи INTERR-REL-INDEF ;
 кыдзик+Pron+Adv+Manner:кыдзик INTERR-REL-INDEF ;
 кыдзик+Pron+Adv+Manner+Ins:кыдзикӧн INTERR-REL-INDEF ;
-кымын+Pron+Qnt:кымын INTERR-REL-INDEF ; ! Quantifier info required
-кымын+Pron+Qnt+Iter:кымынысь INTERR-REL-INDEF ; ! Quantifier info required
-кымын+Pron+Qnt+Ord:кымынӧд INTERR-REL-INDEF ; ! Quantifier info required
-кымын+Pron+Qnt+Ord+Iter:кымынӧдысь INTERR-REL-INDEF ; ! Quantifier info required
-кысь+Pron+Spat+Ela:кысь INTERR-REL-INDEF ;
-кытчӧ+Pron+Spat+Ill:кытчӧ INTERR-REL-INDEF ;
-кытчӧдз+Pron+Spat+Ter:кытчӧдз INTERR-REL-INDEF ;
-кытысь+Pron+Spat+Ela:кытысь INTERR-REL-INDEF ;
-кыті+Pron+Spat+Tra:кыті INTERR-REL-INDEF ;
-кыткӧ+Pron+Spat+Tra+Der/кӧ+Indef:кыткӧ K ;
-кытсюрӧ+Pron+Spat+Tra+Der/сюрӧ+Indef:кытсюрӧ K ;
-кытӧн+Pron+Spat+Ine:кытӧн INTERR-REL-INDEF ;
-кытӧні+Pron+Spat+Ine:кытӧні INTERR-REL ;
+кымын+Det:кымын INTERR-REL-INDEF ; ! Quantifier info required
+кымын+Det+Iter:кымынысь INTERR-REL-INDEF ; ! Quantifier info required
+кымын+Det+Ord:кымынӧд INTERR-REL-INDEF ; ! Quantifier info required
+кымын+Det+Ord+Iter:кымынӧдысь INTERR-REL-INDEF ; ! Quantifier info required
+кысь+Adv+Spat+Ela:кысь INTERR-REL-INDEF ;
+кытчӧ+Adv+Spat+Ill:кытчӧ INTERR-REL-INDEF ;
+кытчӧдз+Adv+Spat+Ter:кытчӧдз INTERR-REL-INDEF ;
+кытысь+Adv+Spat+Ela:кытысь INTERR-REL-INDEF ;
+кыті+Adv+Spat+Tra:кыті INTERR-REL-INDEF ;
+кыткӧ+Adv+Spat+Tra+Der/кӧ+Indef:кыткӧ K ;
+кытсюрӧ+Adv+Spat+Tra+Der/сюрӧ+Indef:кытсюрӧ K ;
+кытӧн+Adv+Spat+Ine:кытӧн INTERR-REL-INDEF ;
+кытӧні+Adv+Spat+Ine:кытӧні INTERR-REL ;
  
-кӧні+Pron+Adv+Spat+Ine+Pred+Sg:кӧні INTERR-REL-INDEF ;
-кӧні+Pron+Adv+Spat+Ine+Pred+Pl:кӧнӧсь INTERR-REL ;
-кӧні+Pron+Adv+Spat+Ine:кӧн PRON-INDEFTAG ;
+кӧні+Adv+Spat+Ine+Pred+Sg:кӧні INTERR-REL-INDEF ;
+кӧні+Adv+Spat+Ine+Pred+Pl:кӧнӧсь INTERR-REL ;
+кӧні+Adv+Spat+Ine:кӧн PRON-INDEFTAG ;
 мый+Pron+NonHum:мый PRON-NONHUM ;
 мыйда+Pron+NonHum:мыйда INTERR-REL-INDEF ;
 мыйта+Pron+NonHum:мыйта INTERR-REL-INDEF ;
 мыйтӧм+Pron+NonHum:мыйтӧм INTERR-REL-INDEF ;
 мыйӧс+Pron+NonHum+Err/Orth:мыйӧс INTERR-REL-INDEF ;
 !Here are some negative pronouns out of place 2011-11-22
-некысь+Pron+Neg+Spat+Ela:некысь K ;
-некысянь+Pron+Neg+Spat+Egr:некысянь K ;
-некыт+Pron+Neg+Spat+Tra:некыт K ;
-некытчӧ+Pron+Neg+Spat+Ill:некытчӧ K ;
-некытчӧдз+Pron+Neg+Spat+Ter:некытчӧдз K ;
-некытысь+Pron+Neg+Spat+Ela:некытысь K ;
-некыті+Pron+Neg+Spat+Tra:некыті K ;
-некытӧн+Pron+Neg+Spat+Ine:некытӧн K ;
-некӧн+Pron+Neg+Spat+Ine:некӧн K ;
+некысь+Adv+Neg+Spat+Ela:некысь K ;
+некысянь+Adv+Neg+Spat+Egr:некысянь K ;
+некыт+Adv+Neg+Spat+Tra:некыт K ;
+некытчӧ+Adv+Neg+Spat+Ill:некытчӧ K ;
+некытчӧдз+Adv+Neg+Spat+Ter:некытчӧдз K ;
+некытысь+Adv+Neg+Spat+Ela:некытысь K ;
+некыті+Adv+Neg+Spat+Tra:некыті K ;
+некытӧн+Adv+Neg+Spat+Ine:некытӧн K ;
+некӧн+Adv+Neg+Spat+Ine:некӧн K ;
 
 
 
