@@ -239,7 +239,7 @@ source and target part-of-speech.
 
 
 Tags for Ethymological Origin marking. This has initially used used with proper nouns
-
+Sentence markers
 
 
 
@@ -259,6 +259,14 @@ Valency tags, i.e. tags assigned to verbs for denoting their arbuments
  * +%<inf_ны%> infinitive in -ны
  * +%<po_вылӧ%> postposition вылӧ
  * +%<sub_мый%> subordinate clause in мый/that
+
+
+!Symbols that need to be escaped on the lower side (towards twolc):
+
+* »
+* «
+* > (written with square brackets, see the root.lexc file)
+* < (written with square brackets, see the root.lexc file)
 
 
 !!Flag diacritics
