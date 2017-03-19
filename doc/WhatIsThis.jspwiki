@@ -1,12 +1,15 @@
 
-This is a grammatical analyser for Komi Zyryan.
 
-The lexicon is full-sized (90000 entries), but parts of the
-morphological component still needs more work.
+This is a grammatical analyser for Komi.
 
-The analyser is in use in a morphologically enriched Komi Zyryan
-dictionary. 
+The lexicon is full-sized (it contains approximately 60000 
+entries + 120 000 aspectual verbs), and the analyser 
+is in use in a morphologically enriched Komi dictionary and a
+spellchecker in beta version. 
 
+The analyser is built in cooperation between FU-lab in
+Syktyvkar, Giellatekno and Divvun at UiT in Norway, and
+AKU in Helsinki.
 
 ----
 
@@ -18,3 +21,4 @@ the languages, it is documented [here|../../infra/infraremake/NewinfraCatalogues
 These pages document how to build the parsers. If you want to know
 how to use them on the command line, read the
 [How to use the morphological parsers|../../tools/docu-sme-manual.html] page.
+
