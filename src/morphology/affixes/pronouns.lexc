@@ -17,56 +17,56 @@ LEXICON PERS                        !!≈ * __@CODE@__
 LEXICON perssg1decl   !!≈ * __@CODE@__ 
 +Nom:ме WordEnd ;
 +Cmpl:ме WordEnd ; !Postposition complement
-+GenStem:менам WordEnd ;
-+Cmpl+Gen:мелӧн WordEnd ;
-+GenStem+Gen:менамлӧн WordEnd ;
-+Ela+PxSg1:менсьым WordEnd ; !The elative case is used in Sg1 and Sg2 
++Gen:менам WordEnd ;
++Gen:мелӧн WordEnd ;
++Gen:менамлӧн WordEnd ;
++Ela:менсьым WordEnd ; !The elative case is used in Sg1 and Sg2 
                  !for the functions of the ablative in other persons
 +Dat:меным WordEnd ; !What should be done with the 4 dative forms?
 +Dat:мем WordEnd ;
 +Dat:мен WordEnd ;
 +Dat:менлы WordEnd ;
 +Acc:менӧ WordEnd ;
-+GenStem+Ins:менамӧн WordEnd ;
-+GenStem+Com:менамкӧд WordEnd ;
-+GenStem+Car:менамтӧг WordEnd ;
-+GenStem+Inе:менамын WordEnd ;
-+GenStem+Ela:менамысь WordEnd ;
-+GenStem+Ill:менамӧ WordEnd ;
-+GenStem+Apr:менамсянь WordEnd ;
-+GenStem+Ter:менамӧдз WordEnd ;
-+Cmpl:ме perssg ; ! for the regular obl sg
++Ins:менамӧн WordEnd ;
++Com:менамкӧд WordEnd ;
++Car:менамтӧг WordEnd ;
++Inе:менамын WordEnd ;
++Ela:менамысь WordEnd ;
++Ill:менамӧ WordEnd ;
++Apr:менамсянь WordEnd ;
++Ter:менамӧдз WordEnd ;
+:ме perssg ; ! for the regular obl sg
 
 LEXICON perspl1decl    !!≈ * __@CODE@__
 +Nom:ми WordEnd ;
 +Nom:мийӧ WordEnd ; !Der/йӧ
-+GenStem:миян WordEnd ;
++Gen:миян WordEnd ;
 +Acc:миянӧс WordEnd ;
-+GenStem:миян persplobl ;
+:миян persplobl ;
 !!Extras form 2000 Grammar: 163
-+GenStem+Gen:миянлӧн WordEnd ; !Synomymous with: миян
-+GenStem+Acc+PxPl1:мияннымӧс WordEnd ; !Synomymous with: миянӧс
-+GenStem+Ela+PxPl1:миянсьыным WordEnd ; !Synomymous with:миянлысь
++Gen:миянлӧн WordEnd ; !Synomymous with: миян
++Acc:мияннымӧс WordEnd ; !Synomymous with: миянӧс
++Ela:миянсьыным WordEnd ; !Synomymous with:миянлысь
 +Com:микӧд WordEnd ; !Synomymous with: миянкӧд
-+GenStem+Com+PxPl1:мияннымкӧд WordEnd ; !Synomymous with: миянкӧд
++Com:мияннымкӧд WordEnd ; !Synomymous with: миянкӧд
 +Car:митӧг WordEnd ; !Synomymous with: миянтӧг
-+GenStem+Car+PxPl1:миянтӧгным WordEnd ; !Synomymous with: миянтӧг
-+GenStem+Cns+PxPl1:мияннымла WordEnd ; !Synomymous with: миянла
++Car:миянтӧгным WordEnd ; !Synomymous with: миянтӧг
++Cns:мияннымла WordEnd ; !Synomymous with: миянла
 +Ela:миысь WordEnd ; !Synomymous with: миянысь
 +Ill:миӧ WordEnd ; !Synomymous with: миянӧ
-+GenStem+Apr+PxPl1:миянланьным WordEnd ; !Synomymous with: миянлань
-+Apr+PxPl1:миланьным WordEnd ; !Synomymous with: миянлань
-+GenStem+Egr+PxPl1:миянсяньным WordEnd ; !Synomymous with: миянсянь
++Apr:миянланьным WordEnd ; !Synomymous with: миянлань
++Apr:миланьным WordEnd ; !Synomymous with: миянлань
++Egr:миянсяньным WordEnd ; !Synomymous with: миянсянь
 +Tra:миті WordEnd ; !Synomymous with: миянӧд
 +Ter:миӧдз WordEnd ; !Synomymous with: миянӧдз
 
 LEXICON perssg2decl     !!≈ * __@CODE@__
 +Nom:тэ WordEnd ;
 +Cmpl:тэ WordEnd ;
-+Cmpl+Gen:тэлӧн WordEnd ;
-+GenStem:тэнад WordEnd ;
-+GenStem+Gen:тэнадлӧн WordEnd ;
-+Ela+PxSg2:тэнсьыд WordEnd ;
++Gen:тэнад WordEnd ;
++Gen:тэлӧн WordEnd ;
++Gen:тэнадлӧн WordEnd ;
++Ela:тэнсьыд WordEnd ;
 +Dat:тэныд WordEnd ;
 +Dat:тэн WordEnd ;
 +Dat:тэд WordEnd ;
@@ -74,48 +74,48 @@ LEXICON perssg2decl     !!≈ * __@CODE@__
 +Dat:тэнлы WordEnd ;
 +Dat:тэныдлы WordEnd ;
 +Acc:тэнӧ WordEnd ;
-+GenStem+Ins:тэнадӧн WordEnd ;
-+GenStem+Com:тэнакӧд WordEnd ;
-+GenStem+Car:тэнатӧг WordEnd ;
-+GenStem+Ine:тэнадын WordEnd ;
-+GenStem+Ela:тэнадысь WordEnd ;
-+GenStem+Ill:тэнадӧ WordEnd ;
-+GenStem+Egr:тэнадсянь WordEnd ;
-+GenStem+Ter:тэнадӧдз WordEnd ;
-+Cmpl:тэ perssg ;  ! for the regular obl sg
++Ins:тэнадӧн WordEnd ;
++Com:тэнакӧд WordEnd ;
++Car:тэнатӧг WordEnd ;
++Ine:тэнадын WordEnd ;
++Ela:тэнадысь WordEnd ;
++Ill:тэнадӧ WordEnd ;
++Egr:тэнадсянь WordEnd ;
++Ter:тэнадӧдз WordEnd ;
+:тэ perssg ;  ! for the regular obl sg
 
 LEXICON perspl2decl !!≈ * __@CODE@__ 
 +Nom:ті WordEnd ;
 +Cmpl:ті WordEnd ;
 +Nom:тійӧ WordEnd ; !We need a special tag for discerning +Nom forms  Der/йӧ
-+GenStem:тіян WordEnd ;
-+GenStem+Gen:тіянлӧн WordEnd ;
++Gen:тіян WordEnd ;
++Gen:тіянлӧн WordEnd ;
 +Acc:тіянӧс WordEnd ;
-+GenStem:тіян persplobl ;
+:тіян persplobl ;
 !More forms from Ӧнія коми кыв 2000: 163
-+GenStem+Abl+PxPl2:тіянлысьныд WordEnd ;
-+GenStem+Dat:тіянлы WordEnd ;
-+GenStem+Acc2+PxPl2:тіянныдтӧ WordEnd ;
++Abl:тіянлысьныд WordEnd ;
++Dat:тіянлы WordEnd ;
++Acc2:тіянныдтӧ WordEnd ;
 +Ins:тіӧн WordEnd ;
-+GenStem+Car+PxPl2:тіянныдтӧг WordEnd ;
++Car:тіянныдтӧг WordEnd ;
 +Car:тітӧг WordEnd ;
-+GenStem+Cns+PxPl2:тіянныдла WordEnd ;
++Cns:тіянныдла WordEnd ;
 +Ela:тіысь WordEnd ;
 +Ill:тіӧ WordEnd ;
-+GenStem+Apr+PxPl2:тіянланьныд WordEnd ;
-+GenStem+Apr+PxSg2:тіянланьыд WordEnd ;
-+GenStem+Egr+PxPl2:тіянсяньныд WordEnd ;
++Apr:тіянланьныд WordEnd ;
++Apr:тіянланьыд WordEnd ;
++Egr:тіянсяньныд WordEnd ;
 +Ter:тіӧдз WordEnd ;
 
 LEXICON perssg3decl  !!≈ * __@CODE@__ 
 +Nom:сійӧ WordEnd ; !+Der/йӧ
-+Cmpl+Gen:сылӧн WordEnd ;
-+Cmpl+Abl:сылысь WordEnd ;
-+Cmpl+Ela:сыысь WordEnd ;
-+Cmpl+Dat:сылы WordEnd ;
++Gen:сылӧн WordEnd ;
++Abl:сылысь WordEnd ;
++Ela:сыысь WordEnd ;
++Dat:сылы WordEnd ;
 +Acc:сійӧс WordEnd ; !Der/йӧ
 +Ins:сійӧн WordEnd ; !Der/йӧ
-+Cmpl:сы perssg ;  ! for the regular obl sg
+:сы perssg ;  ! for the regular obl sg
 +Cmpl:сы WordEnd ;
 !More form ӧния коми кыв 163
 +Gen:сійӧлӧн WordEnd ; !Der/йӧ
@@ -125,10 +125,10 @@ LEXICON perssg3decl  !!≈ * __@CODE@__
 +Car:сійӧтӧг WordEnd ; !Der/йӧ
 +Apr:сійӧлань WordEnd ; !Der/йӧ
 +Egr:сійӧсянь WordEnd ; !Der/йӧ
-+Egr+PxSg3:сійӧсяньыс WordEnd ; !Der/йӧ
++Egr:сійӧсяньыс WordEnd ; !Der/йӧ
 +Ter:сійӧӧдз WordEnd ; !Der/йӧ
 ! Special expressions
-+Cmpl+Com+Ins:сыкӧдӧн WordEnd ; ! Ен сыкӧдӧн!
++Com+Ins:сыкӧдӧн WordEnd ; ! Ен сыкӧдӧн!
 
 !! ми мийӧ The 1st and 2nd persons have Oblique case stem strategies
 !! that differ from the 3rd person: 
@@ -138,8 +138,8 @@ LEXICON perssg3decl  !!≈ * __@CODE@__
 LEXICON perspl3decl !!≈ * __@CODE@__
 +Nom:найӧ WordEnd ; !Der/йӧ
 +Acc:найӧс WordEnd ; !Der/йӧ
-+Cmpl+Gen:налӧн WordEnd ;
-+Cmpl:на persplobl ; !This might be one solution for the different stem types
++Gen:налӧн WordEnd ;
+:на persplobl ; !This might be one solution for the different stem types
 +Cmpl:на WordEnd ;
 !
 +Gen:найӧлӧн WordEnd ; !Der/йӧ
@@ -147,17 +147,17 @@ LEXICON perspl3decl !!≈ * __@CODE@__
 +Dat:найӧлы WordEnd ; !Der/йӧ
 +Ins:найӧӧн WordEnd ; !Der/йӧ
 +Com:найӧкӧд WordEnd ; !Der/йӧ
-+Cmpl+Com:накӧдыс WordEnd ;
++Com:накӧдыс WordEnd ;
 +Car:найӧтӧг WordEnd ; !Der/йӧ
-+Cmpl+Car+PxSg3:натӧгыс WordEnd ;
-+Cmpl+Cns+PxSg3:наысла WordEnd ;
-+Cmpl+Ela+PxSg3:насьыс WordEnd ;
-+Cmpl+Apr+PxSg3:наыслань WordEnd ;
-+Cmpl+Apr+PxSg3:наланьыс WordEnd ;
-+Cmpl+Egr+PxSg3:наыссянь WordEnd ;
-+Cmpl+Egr+PxSg3:насяньыс WordEnd ;
-+Cmpl+Tra+PxSg3:натіыс WordEnd ;
-+Cmpl+Ter+PxSg3:наӧдзыс WordEnd ;
++Car:натӧгыс WordEnd ;
++Cns:наысла WordEnd ;
++Ela:насьыс WordEnd ;
++Apr:наыслань WordEnd ;
++Apr:наланьыс WordEnd ;
++Egr:наыссянь WordEnd ;
++Egr:насяньыс WordEnd ;
++Tra:натіыс WordEnd ;
++Ter:наӧдзыс WordEnd ;
 
 
 LEXICON perssg !!≈ * __@CODE@__
@@ -543,7 +543,7 @@ LEXICON PRON-REFL-OBL-CASES
 +Ela+PxSg3:сьыс K ;
 +Ela+PxPl1:сьыным K ;
 +Ela+PxPl1+Abl:сьынымлысь K ; !CHECKME
-+Ela+PxPl1+Ela:сьынымысь K ; !CHECKME
++Ela+PxPl1:сьынымысь K ; !CHECKME
 +Ela+PxPl2:сьыныд K ;
 +Ela+PxPl3:сьыныс K ;
 +Dat+PxSg1:лым K ;
@@ -551,9 +551,9 @@ LEXICON PRON-REFL-OBL-CASES
 +Dat+PxSg3:лыс K ;
 +Dat+PxPl1:лыным K ;
 +Dat+PxPl2:лыныд K ;
-+Dat+PxPl2+Dat:лыныдлы K ;
++Dat+PxPl2:лыныдлы K ;
 +Dat+PxPl3:лыныс K ;
-+Dat+PxPl3+Dat:лыныслы K ;
++Dat+PxPl3:лыныслы K ;
 +Dat+PxPl3:ныслы K ;
 +Sg1+Ins:ӧн K ; !There is no indication of person. = Sg1, Pl3
 +Pl3+Ins:ӧн K ; !There is no indication of person. = Sg1, Pl3
@@ -929,76 +929,76 @@ LEXICON PRONQ-STAV-CASES
 +Acc2+PxPl2:нытӧ K ;
 +Acc3+PxPl3:нысӧ K ;
 
-+PxSg2+Dat:ыдлы K ; ! This far 2017-03-19
-+PxSg3+Dat:ыслы K ;
-+PxPl1+Dat:нымлы K ;
-+PxPl2+Dat:ныдлы K ;
-+PxPl3+Dat:ныслы K ;
++Dat+PxSg2:ыдлы K ; ! This far 2017-03-19
++Dat+PxSg3:ыслы K ;
++Dat+PxPl1:нымлы K ;
++Dat+PxPl2:ныдлы K ;
++Dat+PxPl3:ныслы K ;
 
 +Abl:лысь K ;
-+PxSg3+Abl:ыслысь K ;
-+PxPl1+Abl:нымлысь K ;
-+PxPl2+Abl:ныдлысь K ;
-+PxPl3+Abl:ныслысь K ;
++Abl+PxSg3:ыслысь K ;
++Abl+PxPl1:нымлысь K ;
++Abl+PxPl2:ныдлысь K ;
++Abl+PxPl3:ныслысь K ;
 
 +Com:кӧд K ;
-+PxSg3+Com:ыскӧд K ;
-+PxPl1+Com:нымкӧд K ;
-+PxPl2+Com:ныдкӧд K ;
-+PxPl3+Com:ныскӧд K ;
++Com+PxSg3:ыскӧд K ;
++Com+Com+PxPl1:нымкӧд K ;
++Com+PxPl2:ныдкӧд K ;
++Com+PxPl3:ныскӧд K ;
 
 +Car:тӧг K ;
-+PxSg3+Car:ыстӧг K ;
-+PxPl1+Car:нымтӧг K ;
-+PxPl2+Car:ныдтӧг K ;
-+PxPl3+Car:ныстӧг K ;
++Car+PxSg3:ыстӧг K ;
++Car+PxPl1:нымтӧг K ;
++Car+PxPl2:ныдтӧг K ;
++Car+PxPl3:ныстӧг K ;
 
 +Cns:ла K ;
-+PxSg3+Cns:ысла K ;
-+PxPl1+Cns:нымла K ;
-+PxPl2+Cns:ныдла K ;
-+PxPl3+Cns:нысла K ;
++Cns+PxSg3:ысла K ;
++Cns+PxPl1:нымла K ;
++Cns+PxPl2:ныдла K ;
++Cns+PxPl3:нысла K ;
 
 +Cmpr+PxSg3:сяыс K ;
 
 +Ine:ын K ;
-+PxPl1+Ine:нымын K ;
-+PxPl2+Ine:ныдын K ;
-+PxPl3+Ine:нысын K ;
++Ine+PxPl1:нымын K ;
++Ine+PxPl2:ныдын K ;
++Ine+PxPl3:нысын K ;
 
 +Ill:ӧ K ;
-+PxPl1+Ill:нымӧ K ;
-+PxPl2+Ill:ныдӧ K ;
-+PxPl3+Ill:нысӧ K ;
++Ill+PxPl1:нымӧ K ;
++Ill+PxPl2:ныдӧ K ;
++Ill+PxPl3:нысӧ K ;
 
 +Egr:сянь K ;
 +Egr+PxSg3:сяньыс K ;
-+PxSg3+Egr:ыссянь K ;
++Egr+PxSg3:ыссянь K ;
 +Egr+PxPl1:сяньным K ;
-+PxPl1+Egr:нымсянь K ;
++Egr+PxPl1:нымсянь K ;
 +Egr+PxPl2:сяньныд K ;
-+PxPl2+Egr:ныдсянь K ;
-+PxPl3+Egr:ныссянь K ;
++Egr+PxPl2:ныдсянь K ;
++Egr+PxPl3:ныссянь K ;
 
 +Apr:лань K ;
 +Apr+PxSg3:ланьыс K ;
-+PxSg3+Apr:ыслань K ;
-+PxPl1+Apr:нымлань K ;
-+PxPl2+Apr:ныдлань K ;
-+PxPl3+Apr:ныслань K ;
++Apr+PxSg3:ыслань K ;
++Apr+PxPl1:нымлань K ;
++Apr+PxPl2:ныдлань K ;
++Apr+PxPl3:ныслань K ;
 
 +Tra:ті K ;
 +Tra+PxSg3:тіыс K ;
-+PxSg3+Tra:ысті K ;
-+PxPl1+Tra:нымті K ;
-+PxPl2+Tra:ныдті K ;
-+PxPl3+Tra:нысті K ;
++Tra+PxSg3:ысті K ;
++Tra+PxPl1:нымті K ;
++Tra+PxPl2:ныдті K ;
++Tra+PxPl3:нысті K ;
 
 +Ter:ӧдз K ;
-+PxSg3+Ter:ысӧдз K ;
-+PxPl1+Ter:нымӧдз K ;
-+PxPl2+Ter:ныдӧдз K ;
-+PxPl3+Ter:нысӧдз K ;
++Ter+PxSg3:ысӧдз K ;
++Ter+PxPl1:нымӧдз K ;
++Ter+PxPl2:ныдӧдз K ;
++Ter+PxPl3:нысӧдз K ;
 
 
 
