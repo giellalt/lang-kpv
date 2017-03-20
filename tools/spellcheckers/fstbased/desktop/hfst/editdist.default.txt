@@ -69,25 +69,21 @@
 
 -
 .
-0
-1
-2
-3
-4
-5
-6
-7
-8
-9
 :
 
 ## Transition pairs + weight - section separator:
 @@
 
-## Transition pair specifications + weight:
-a	á	0.4
-ö	ӧ	0.1
-i	і	0.1
+## Transition pair wrong<tab>correct<tab>weight:
+ö	ӧ	1
+i	і	1
+е	ӧ	4
+ӧ	е	4
+в	л	4
+л	б	4
+і	и	4
+и	і	4
+і	ы	4
 
 ## Swaps:
 ## Change dh into hd with the weight 0.5:
