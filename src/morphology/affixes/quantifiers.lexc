@@ -11,6 +11,7 @@ LEXICON QNT-CARD_
 :%>нан COLL ;
 
 LEXICON CARD
++Num+Card+Attr: # ;
 +Num+Card: NumCASEPOSSLEX ;
 +Num+Card+Der/кӧ+Presentational:%>%-кӧ WordEnd ;
 !+Num+Ord:%>ӧд NumCASEPOSSLEX ;
@@ -19,11 +20,13 @@ LEXICON CARD
 +Num+Distr:%>ӧн K ; !нёльӧн
 
 LEXICON COLL
++Num+Coll+Attr: # ;  
 +Num+Coll: NumCASEPOSSLEX ; ! _нан_ is already part of the stem
 +Num+Coll+Iter:%>ысь K ;
 +Num+Coll+Iter+Ins:%>ысьӧн K ;
 
 LEXICON ORD
++Det+Ord+Attr: # ;
 +Det+Ord: NumCASEPOSSLEX ; ! ӧд part of the stem
 +Det+Ord+Iter:%>ысь K ;
 +Det+Ord+Iter+Ins:%>ысьӧн K ;
