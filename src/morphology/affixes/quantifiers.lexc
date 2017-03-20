@@ -14,9 +14,9 @@ LEXICON CARD
 +Num+Card: NumCASEPOSSLEX ;
 +Num+Card+Der/кӧ+Presentational:%>%-кӧ WordEnd ;
 !+Num+Ord:%>ӧд NumCASEPOSSLEX ;
-+Qnt+Card+Iter:%>ысь K ;
-+Qnt+Card+Iter+Ins:%>ысьӧн K ;
-+Qnt+Card+Distr:%>ӧн K ;
++Num+Card+Iter:%>ысь K ; ! нёльысь
++Num+Card+Iter+Ins:%>ысьӧн K ; !нёльысьӧн
++Num+Distr:%>ӧн K ; !нёльӧн
 
 LEXICON COLL
 +Num+Coll: NumCASEPOSSLEX ; ! _нан_ is already part of the stem
@@ -61,20 +61,19 @@ LEXICON CARD-ITER-APPR
 
 
 LEXICON NumCASEPOSSLEX
-+Abs: # ;
-+Der/MWN+N+Sg: NumMWN ;
-+Der/MWN+N+Pl:%>ъяс NumMWN ;
++Sg: NumMWN ;
++Pl:%>ъяс NumMWN ;
 
 LEXICON NumMWN
 +Nom: K ;
-!+ZeroAcc: K ; !This needs something done to it. There should be a TAG distinction
++Acc: K ; !This needs something done to it. There should be a TAG distinction
           !between +Acc: and +Acc:%>ӧс
           ! Introducing +ZeroAcc
-+Acc:%>ӧс K ;
++Acc1:%>ӧс K ; !вошис эмакыв
++Acc3:%>сӧ K ;
 +Gen:%>лӧн K ;
 +Abl:%>лысь K ;
 +Dat:%>лы K ;
-+Acc:%>сӧ K ;
 +Ins:%>ӧн K ;
 +Com:%>кӧд K ;
 +Car:%>тӧг K ;
@@ -86,7 +85,7 @@ LEXICON NumMWN
 +Apr:%>лань K ;
 +Egr:%>сянь K ;
 +Prl:%>ӧд K ;
-+Prl+Tra:%>ӧдті K ;
+!+Prl+Tra:%>ӧдті K ;
 +Ter:%>ӧдз K ;
 !149
 
