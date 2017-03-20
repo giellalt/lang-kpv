@@ -34,6 +34,27 @@ GT_LEXC_SRCS_L1_L2=\
 		stems/nouns_newwords.lexc  \
 		stems/numerals.lexc  \
 		stems/verbs_newwords.lexc  \
+		stems/adjectives.lexc                         \
+		stems/adjectives-russian-like.lexc            \
+		stems/adpositions.lexc                        \
+		stems/adverbs.lexc                            \
+		stems/conjunctors.lexc                        \
+		stems/descriptives.lexc                       \
+		stems/determiners.lexc                            \
+		stems/gerunds.lexc                            \
+		stems/interjections.lexc                      \
+		stems/nouns-deverbal.lexc                     \
+		stems/nouns.lexc                              \
+		stems/nouns-russian-homographs.lexc           \
+		stems/particles.lexc                          \
+		stems/pronouns.lexc                           \
+		stems/propernouns-malenames-cyrillic.lexc     \
+		stems/propernouns-malesurnames-cyrillic.lexc  \
+		stems/propernouns-toponyms-Komi.lexc  \
+		stems/propernouns.lexc                        \
+		stems/quantifiers.lexc                        \
+		stems/verbs-A2M.lexc                          \
+		stems/verbs-N2END.lexc	\
 		affixes/adjectives.lexc    \
 		affixes/adpositions.lexc   \
 		affixes/adverbs.lexc       \
@@ -64,55 +85,13 @@ GT_LEXC_L2_SRCS=\
 
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=\
-		generated_files/urj-Cyrl-propernouns.lexc               \
-		$(srcdir)/stems/adjectives.lexc                         \
-		$(srcdir)/stems/adjectives-russian-like.lexc            \
-		$(srcdir)/stems/adpositions.lexc                        \
-		$(srcdir)/stems/adverbs.lexc                            \
-		$(srcdir)/stems/conjunctors.lexc                        \
-		$(srcdir)/stems/descriptives.lexc                       \
-		$(srcdir)/stems/determiners.lexc                            \
-		$(srcdir)/stems/gerunds.lexc                            \
-		$(srcdir)/stems/interjections.lexc                      \
-		$(srcdir)/stems/nouns-deverbal.lexc                     \
-		$(srcdir)/stems/nouns.lexc                              \
-		$(srcdir)/stems/nouns-russian-homographs.lexc           \
-		$(srcdir)/stems/particles.lexc                          \
-		$(srcdir)/stems/pronouns.lexc                           \
-		$(srcdir)/stems/propernouns-malenames-cyrillic.lexc     \
-		$(srcdir)/stems/propernouns-malesurnames-cyrillic.lexc  \
-		$(srcdir)/stems/propernouns-toponyms-Komi.lexc  \
-		$(srcdir)/stems/propernouns.lexc                        \
-		$(srcdir)/stems/quantifiers.lexc                        \
-		$(srcdir)/stems/verbs-A2M.lexc                          \
-		$(srcdir)/stems/verbs-N2END.lexc
+		generated_files/urj-Cyrl-propernouns.lexc 
 
 # $(srcdir)/stems/propernouns-malenames-russian-derivable.lexc
 # $(srcdir)/stems/propernouns-malesurnames-russian-derivable.lexc
 # $(srcdir)/stems/propernouns-toponyms-Russian.lexc
 # Set this to the names of all source xml files, if any
-GT_XML_SRCS=\
-		stems/adjectives.xml                        \
-		stems/adjectives-russian-like.xml           \
-		stems/adpositions.xml                       \
-		stems/adverbs.xml                           \
-		stems/conjunctors.xml                       \
-		stems/descriptives.xml                      \
-		stems/determiners.xml                           \
-		stems/gerunds.xml                           \
-		stems/interjections.xml                     \
-		stems/nouns-deverbal.xml                    \
-		stems/nouns.xml                             \
-		stems/nouns-russian-homographs.xml          \
-		stems/particles.xml                         \
-		stems/pronouns.xml                          \
-		stems/propernouns-malenames-cyrillic.xml    \
-		stems/propernouns-malesurnames-cyrillic.xml \
-		stems/propernouns-toponyms-Komi.xml \
-		stems/propernouns.xml                       \
-		stems/quantifiers.xml                       \
-		stems/verbs-A2M.xml                         \
-		stems/verbs-N2END.xml
+GT_XML_SRCS=
 
 # stems/propernouns-malenames-russian-derivable.xml
 # stems/propernouns-malesurnames-russian-derivable.xml
