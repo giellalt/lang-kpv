@@ -720,6 +720,7 @@ SUBSTANDARDS ; ! temporary solution
 	nouns-deverbal	;
 	nouns	;
 	nouns-russian-homographs	;
+	numerals ;
 	particles	;
 	pronouns	;
 	propernouns-malenames-cyrillic	;
@@ -786,7 +787,6 @@ LEXICON EndQST
 +Qst: WordEnd ;
 
 
-
 ! ======= !
 ! Clitics !
 ! ======= !
@@ -807,7 +807,6 @@ LEXICON WordEnd
 ! List of spurious lexica
 ! These should be fixed.
 
-
 LEXICON ADV-SUPERL
 +Adv+Superl: WordEnd ;
 
@@ -817,7 +816,6 @@ LEXICON ADV-SUPERL
 LEXICON SPAT-COMPARATIVE
  COMPARATIVE ;
  PredMonLex-Spat-Add-Morphology ; !
-
 
 LEXICON COMPARATIVE
                         K ;
