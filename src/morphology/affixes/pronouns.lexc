@@ -847,14 +847,14 @@ LEXICON PRON-DUAL
 ! +Coll:нан PRON-INTER-REL-HUM-COLL-PERS ;
 ! +ZeroColl: PRON-INTER-REL-HUM-COLL-PERS ;
 ! +ZeroColl+PxPl2+Acc2:ныдтӧ PRON-INTER-REL-HUM-COLL-INDEF ;
-! +Coll+PxPl2+Acc2:наннытӧ PRON-INTER-REL-HUM-COLL-INDEF ;
+! +Coll+Acc2+PxPl2:наннытӧ PRON-INTER-REL-HUM-COLL-INDEF ;
 ! 
 ! LEXICON PRON-INTER-REL-HUM-COLL-PERS
 ! +PxPl1:ным PRON-INTER-REL-HUM-COLL-CASES ;
 ! +PxPl2:ныд PRON-INTER-REL-HUM-COLL-CASES ;
 ! +PxPl3:ныс PRON-INTER-REL-HUM-COLL-CASES ;
-! +PxPl1+Acc:нымӧс PRON-INTER-REL-HUM-COLL-INDEF ;
-! +PxPl3+Acc3:ныссӧ PRON-INTER-REL-HUM-COLL-INDEF ;
+! +Acc+PxPl1:нымӧс PRON-INTER-REL-HUM-COLL-INDEF ;
+! +Acc3+PxPl3:ныссӧ PRON-INTER-REL-HUM-COLL-INDEF ;
 ! 
 ! LEXICON PRON-INTER-REL-HUM-COLL-CASES
 ! +Nom: PRON-INTER-REL-HUM-COLL-INDEF ;
@@ -1013,8 +1013,8 @@ LEXICON PRONQ-COLL-CASE
 !ӧнія коми кыв 2000: 183
 +Nom: K ;
 +Gen:лӧн K ;
-+PxSg2+Gen:ыдлӧн K ;
-+PxSg3+Gen:ыслӧн K ;
++Gen+PxSg2:ыдлӧн K ;
++Gen+PxSg3:ыслӧн K ;
 +Abl:лысь K ;
 +Abl+PxSg2:ыдлысь K ;
 +Abl+PxSg3:ыслысь K ;
@@ -1022,8 +1022,8 @@ LEXICON PRONQ-COLL-CASE
 +Dat+PxSg2:ыдлысь K ;
 +Dat+PxSg3:ыслысь K ;
 +Acc:ӧс K ;
-+PxSg2+Acc2:тӧ K ;
-+PxSg3+Acc3:сӧ K ;
++Acc2+PxSg2:тӧ K ;
++Acc3+PxSg3:сӧ K ;
 +Ins:ӧн K ;
 +Com:кӧд K ;
 +Com+PxSg2:ыдкӧд K ;
@@ -1079,7 +1079,7 @@ LEXICON PRON-NEG-IN_LA
 +Pron+Neg+Der/ла+Spat: PRON-NEG-SPAT ;
 
 LEXICON PRON-NEG-ITER
-+Pron+Neg+Der/ысь+Iter: K ;
++Pron+Neg+Der/ысь+Adv: K ; !+Iter
 
 LEXICON PRON-NEG
 +Pron+Neg+Sg+Nom: WordEnd ;
@@ -1088,19 +1088,19 @@ LEXICON PRON-NEG
 
 LEXICON PRON-NEG-COLL
 +Coll:нан PRON-NEG-COLL-PERS ;
-+ZeroColl: PRON-NEG-COLL-PERS ;
++Coll: PRON-NEG-COLL-PERS ; !+ZeroColl
 !
-+ZeroColl+PxPl2+Acc2:ныдтӧ K ;
-+Coll+PxPl2+Acc2:наннытӧ K ;
++Coll+Acc2+PxPl2:ныдтӧ K ; !+ZeroColl
++Coll+Acc2+PxPl2:наннытӧ K ;
 
 LEXICON PRON-NEG-COLL-PERS
 +PxPl1:ным PRON-NEG-COLL-CASES ;
 +PxPl2:ныд PRON-NEG-COLL-CASES ;
 +PxPl3:ныс PRON-NEG-COLL-CASES ;
 !
-+PxPl1+Acc:нымӧс K ;
-+PxPl2+Acc2:нытӧ K ;
-+PxPl3+Acc3:ныссӧ K ;
++Acc+PxPl1:нымӧс K ;
++Acc2+PxPl2:нытӧ K ;
++Acc3+PxPl3:ныссӧ K ;
 
 LEXICON PRON-NEG-COLL-CASES
 +Nom: K ;
