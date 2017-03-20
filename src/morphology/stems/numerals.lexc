@@ -16,7 +16,7 @@ LEXICON ARABIC   !!= * __@CODE@__ arabic numerals
 LEXICON ARABICS
  ARABICLOOP      ;
  ARABICLOOPORD   ;
- ARABICLOOPCOLL  ;
+! ARABICLOOPCOLL  ;
  ARABICLOOPphone ;
 
 LEXICON ARABICYEAR
@@ -82,7 +82,7 @@ LEXICON ARABICLOOP   !!= * __@CODE@__
      %/% :%/%      ARABIC ; ! 24/ 12
      % %/:% %/     ARABIC ; ! 24 /12
 
-+Num:         RNum   ; ! Num Cmp Noun, with hyphen
+!+Num:         RNum   ; ! Num Cmp Noun, with hyphen
 
          ,%-+Num:,%-    ARABICCASES     ; ! 10,-
 ,%-+Num+Err/Orth:.%-    ARABICCASES     ; ! 10.- It is wrong, but written.
@@ -100,15 +100,15 @@ LEXICON ARABICLOOPORD   !!= * __@CODE@__ ordinals
 LEXICON ACASETAG   !!= * __@CODE@__  is for 1e+Num+Sg+Num:1e
 +Num: ARABICCASES ;
 
-LEXICON ARABICLOOPCOLL   !!= * __@CODE@__ collectives
- +N+Coll: ARABICDELIMITERCOLL ;
+!LEXICON ARABICLOOPCOLL   !!= * __@CODE@__ collectives
+! +N+Coll: ARABICDELIMITERCOLL ;
 
 
 LEXICON ARABICDELIMITER   !!= * __@CODE@__  blank + 3 delim, what does the lg counc prefer?
  +Num:            ARABICCASE0      ; ! This is the 1984 case, ie NGA
  +Num:%:          ARABICCASE       ; ! This is the 1984:s case.
- +Num:            ARAB_DER ; ! 6-jáhkasaš, 
- +Num: Rhyph ; ! 3-
+! +Num:            ARAB_DER ; ! 6-jáhkasaš, 
+! +Num: Rhyph ; ! 3-
 
 
 LEXICON ARABICDELIMITERORD   !!= * __@CODE@__ ordinals
@@ -295,11 +295,11 @@ LEXICON ROMNUMTAGOBL
  +Rom+Ess:%>n        # ;
  +Rom+Sg+Par:%>d        # ;
 
-LEXICON ARAB_DER ! only for arabics
- +Cmp-#nummeer:»»»-nummeers DER-SAS ;
- +Der+Der/ahasas:-ahas ANOLASJ  ;
- +Cmp-#:»»»- CMP_NAMAG ;
- +Cmp-#:»»»- CMP_IHASAS ;
+!LEXICON ARAB_DER ! only for arabics
+! +Cmp-#nummeer:»»»-nummeers DER-SAS ;
+! +Der+Der/ahasas:-ahas ANOLASJ  ;
+! +Cmp-#:»»»- CMP_NAMAG ;
+! +Cmp-#:»»»- CMP_IHASAS ;
 
 
  
