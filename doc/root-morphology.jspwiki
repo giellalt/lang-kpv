@@ -1,12 +1,13 @@
 
+!!!Tags and root lexicon for Komi
+
 Morphology
-INTRODUCTION TO THE MORPHOLOGICAL ANALYSER OF THE KOMI (ZYRIAN) LANGUAGE.
 
 
-Analysis symbols
+!!Analysis symbols
 The morphological analyses of wordforms for the Komi-Zyrian
 language are presented in this system in terms of the following symbols.
-(It is highly suggested to follow existing standards when adding new tags).
+(It is highly suggeste	d to follow existing standards when adding new tags).
 
 The parts-of-speech tags are:
  ;+A: adjective
@@ -56,7 +57,7 @@ Postpositions
 
 !!Quantifiers (numerals)
 Quantifiers and Numerals are classified under:
- ;+Num: numeral
+ ;+Num: numeral лыдакыв
  ;+Appr: Approximative numeral кавто-колмо, колмошка ''two or three''
           NB! do not confuse with Komi case +Apr
  ;+AssocColl: -ne- ; avide-
@@ -73,41 +74,53 @@ Quantifiers and Numerals are classified under:
 singular
 plural
 !!Case
-accusative -ӧс
-ablative case -лысь
-approximative -лань
-approximative egressive -ланьсянь
-approximative elative -ланьысь
-approximative illative -ланьӧ
-approximative inessive -ланьын
-approximative prolative -ланьӧд
-approximative terminative -ланьӧдз
-approximative translative -ланьті
-carative -тӧг
-consecultative -ла
-Comitative -кӧд
-Comparative case form -ся
-dative case -лы
-egressive -сянь
-elative -ысь
-genitive case -лӧн
-illative -ӧ
-inessive -ын
-instrumental -ӧн
-nominative case
-prolative -ӧд
-translative -ті
-Terminative -ӧдз
-Vocative
+
+ * __ +Acc __ accusative ZERO керан
+ * __ +Acc1 __ accusative -ӧс керан
+ * __ +Acc3 __ accusative -сӧ керан
+ * __ +Abl __ ablative case -лысь босьтан
+ * __ +Apr __ approximative -лань матыстчан
+ ** __ +AprEgr __ approximative egressive -ланьсянь 
+ ** __ +AprEla __ approximative elative -ланьысь
+ ** __ +AprIll __ approximative illative -ланьӧ
+ ** __ +AprIne __ approximative inessive -ланьын
+ ** __ +AprPrl __ approximative prolative -ланьӧд
+ ** __ +AprTer __ approximative terminative -ланьӧдз
+ ** __ +AprTra __ approximative translative -ланьті
+ * __ +Car __ carative -тӧг торйӧдан
+ * __ +Cns __ consecultative -ла могман
+ * __ +Com __ Comitative -кӧд ӧтвывтан
+ * __ +Cmpr __ Comparative case form -ся ӧткодялан
+ * __ +Cmpl  __  Postposition complement
+ * __ +Dat __ dative case -лы сетан
+ * __ +Egr __ egressive -сянь ылыстчан
+ * __ +Ela __ elative -ысь петан
+ * __ +Gen __ genitive case -лӧн асалан
+ * __ +Ill __ illative -ӧ пыран
+ * __ +Ine __ inessive -ын ина
+ * __ +Ins __ instrumental -ӧн керанторъя
+ * __ +Nom __ nominative case нимтан
+ * __ +Prl __ prolative -ӧд вуджан
+ * __ +Tra __ translative -ті вуджан
+ * __ +Ter __ Terminative -ӧдз матыстчан
+ * __ +Voc __ Vocative ??
 
 
 
 
 The possession is marked as such:
+ * __+PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3__ 
 ODD
+ * __+Px1 +Px2 +Px3__ 
 
 The comparative forms are:
+ * __+Comp +Superl__ 
 Numerals are classified under:
+ * __+Attr +Card__ 
+ * __+Ord__ 
+ * __+Coll__ Collective
+ * __+Distr__  Distributive
+ * __+Iter__  Iterative form expressing number of times
 
 Verb moods are:
 Verb personal forms are:
@@ -123,6 +136,9 @@ Non-dictionary words can be recognised with:
 Question and Focus particles:
 
 The Usage extents are marked using following tags:
+ * __+Err/Orth__ 
+ * __+Use/-Spell__ 
+ * __+Use/SpellNoSugg__ 
 
 
 Where do these come from source
@@ -333,6 +349,7 @@ Removal
  | @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj
  | @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj
 
+!!!Lexicon Root
 
 
 The word forms in Komi (Zyrian) language start from the lexeme roots of basic
@@ -362,8 +379,13 @@ Feeding new words
 
 
 
-
-
-
+!!!Lexicon ENDLEX
+And this is the ENDLEX of everything:
+{{{
+ @D.CmpOnly.FALSE@@D.CmpPref.TRUE@@D.NeedNoun.ON@ # ;
+}}}
+The {{@D.CmpOnly.FALSE@}} flag diacritic is ued to disallow words tagged
+with +CmpNP/Only to end here.
+The {{@D.NeedNoun.ON@}} flag diacritic is used to block illegal compounds.
 
 
