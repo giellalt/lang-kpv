@@ -46,20 +46,20 @@ Multichar_Symbols
 !! Adjectives
 
 !! Adverbs
- +Adv-Ideoph !! These are ideophonic descriptors used to modify the verb
-             !! вырк ливтясь "__flit__ and it flew off"
- +AdA        !! Ad-adjective
- +Manner     !! with reference to type of adverb
- +Spat       !! spatial
- +Temp       !! temporal
+ +Adv-Ideoph !! = * __@CODE@__ These are ideophonic descriptors used to modify the verb
+             !! = * __@CODE@__ вырк ливтясь "__flit__ and it flew off"
+ +AdA        !! = * __@CODE@__ Ad-adjective
+ +Manner     !! = * __@CODE@__ with reference to type of adverb
+ +Spat       !! = * __@CODE@__ spatial
+ +Temp       !! = * __@CODE@__ temporal
 
 !! Interjections
  +Formulaic !!
  +Conative  !!= @CODE@ Used for calling animals, for example
 
 !! Nouns
- +Prop  !! proper
- +CollN !! used with paired nouns __collective nouns__
+ +Prop  !! = * __@CODE@__ proper
+ +CollN !! = * __@CODE@__ used with paired nouns __collective nouns__
 
 !! Postpositions
 ! _+ Spat_, _+ Temp_
@@ -88,9 +88,12 @@ Multichar_Symbols
 
 
 !! !!Nominals are inflected for Number and Case
+
 !! !!Number
- +Sg !! singular
- +Pl !! plural
+ +Sg !!= * __@CODE@__  singular
+ +Pl !!= * __@CODE@__  plural
+
+
 !! !!Case
 
  +Acc !!= * __@CODE@__ accusative ZERO керан
@@ -105,7 +108,7 @@ Multichar_Symbols
  +AprPrl !!= ** __@CODE@__ approximative prolative -ланьӧд
  +AprTer !!= ** __@CODE@__ approximative terminative -ланьӧдз
  +AprTra !!= ** __@CODE@__ approximative translative -ланьті
- +Car !!= * __@CODE@__ carative -тӧг торйӧдан
+ +Car !!= * __@CODE@__ cartive -тӧг торйӧдан
  +Cns !!= * __@CODE@__ consecultative -ла могман
  +Com !!= * __@CODE@__ Comitative -кӧд ӧтвывтан
  +Cmpr !!= * __@CODE@__ Comparative case form -ся ӧткодялан
@@ -163,20 +166,23 @@ Multichar_Symbols
 !! Special symbols are classified with:
 +CLB +PUNCT +LEFT +RIGHT
 !! The verbs are syntactically split according to transitivity:
- +TV +IV
+ +TV !!= * __@CODE@__ 
+ +IV !!= * __@CODE@__
+ 
 !! Special multiword units are analysed with:
- +Multi
+ +Multi !!= * __@CODE@__ 
 !! Non-dictionary words can be recognised with:
- +Guess
+ +Guess !!= * __@CODE@__ 
 
 !! Question and Focus particles:
- +Qst +Foc
-+Der/И ! This comes at the end of a word _-и_ or after vowels some authors use _-й_
-+Clt
-+Clt/а !
-+Clt/ӧ !
-+Clt/тӧ !
-+Clt/сӧ !
+ +Qst  !!= * __@CODE@__
+ +Foc  !!= * __@CODE@__ 
++Der/И  !!= * __@CODE@__  This comes at the end of a word _-и_ or after vowels some authors use _-й_
++Clt  !!= * __@CODE@__ 
++Clt/а  !!= * __@CODE@__ 
++Clt/ӧ  !!= * __@CODE@__ 
++Clt/тӧ  !!= * __@CODE@__ 
++Clt/сӧ  !!= * __@CODE@__
 
 !! The Usage extents are marked using following tags:
  +Err/Orth !!≈ * __@CODE@__ 
@@ -190,6 +196,7 @@ Multichar_Symbols
 
 ! Semantic tags to help disambiguation & synt. analysis: (before POS)
 ! Borrowed from main/langs/sme/src/morphology/root.lexc
+
  +Sem/Act         !!≈ * __@CODE@__ Activity
  +Sem/Amount      !!≈ * __@CODE@__ Amount
  +Sem/Ani         !!≈ * __@CODE@__ Animate
@@ -424,23 +431,29 @@ Multichar_Symbols
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
- +V→N +V→V +V→A
+ +V→N  !!= * __@CODE@__
+ +V→V  !!= * __@CODE@__
+ +V→A  !!= * __@CODE@__
+ 
  +Der/xxx
+
 ! tags
-+AN ! Process Participle
-+ANA !Process Participle
-+ANAA ! adverb derived from participle (+ANA)
-+Der/чӧж !+CHOZH
++AN  !!= * __@CODE@__  Process Participle
++ANA  !!= * __@CODE@__ Process Participle
++ANAA  !!= * __@CODE@__  adverb derived from participle (+ANA)
++Der/чӧж  !!= * __@CODE@__  +CHOZH
 
 
-+Instr
-+Event
-+Duration
++Instr  !!= * __@CODE@__ 
++Event  !!= * __@CODE@__ 
++Duration  !!= * __@CODE@__
+
 !+IG This will be replaced by the segments:
-!!+Der/иг+Duration+Ger!!
-+Der/иг
+!+Der/иг+Duration+Ger!!
++Der/иг  !!= * __@CODE@__
+
 !Here we need the two sequential characters
-!!to replace +OM
+!to replace +OM
 !+Der/ӧм+Event
 !This, of course, implicates a discussion
 !of the so-called gerund "ӧмӧн" +Event+N+Ins and
@@ -451,17 +464,18 @@ Multichar_Symbols
 !+Der/ан
 ! +Der/ана +Der/анаа +Der/чӧж
 !Then they should have indication of whether they are gerunds or participles!
-+Der/тӧдз !+VTer
-!!+TODZ Verbal terminative
-+Der/тӧм !+VAbe
-+Der/ысь +ActPrsPtc
++Der/тӧдз    !!= * __@CODE@__  +VTer
+!+TODZ Verbal terminative
++Der/тӧм  !!= * __@CODE@__  +VAbe
++Der/ысь  !!= * __@CODE@__
++ActPrsPtc  !!= * __@CODE@__ 
 
-+Der/кості ! +KOSTI
-+Der/коста !+KOSTA
-+Der/кежлӧ !+KEZHLO
++Der/кості  !!= * __@CODE@__  +KOSTI
++Der/коста  !!= * __@CODE@__  +KOSTA
++Der/кежлӧ  !!= * __@CODE@__  +KEZHLO
 
-+Der/мысь !+MYS
-+Der/мысьт !+MYST
++Der/мысь  !!= * __@CODE@__  +MYS
++Der/мысьт  !!= * __@CODE@__  +MYST
 
 +Der/сор !+SOR
 +Der/тыр !+TYR
@@ -536,22 +550,33 @@ Multichar_Symbols
 +EOLang/MYV
 +EOLang/RUS
 +EOLang/YRK
+
+
 !! Sentence markers
 
-+Cop
++Cop  !!= * __@CODE@__ 
 
 
 !! Morphophonology
 !  ---------------
+
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
- {aä} {oö} {uü}
-к2 л2 м2 т2 ь2 К2 Л2 М2 Т2 Ь2 И2 %> 
+
+{aä}  !!= * __@CODE@__ 
+{oö}  !!= * __@CODE@__  
+{uü}  !!= * __@CODE@__
+
+к2 л2 м2 т2 ь2 К2 Л2 М2 Т2 Ь2 И2  !!= * __@CODE@__ 
+%>   !!= * __@CODE@__  suffix border
+
 %{иі%}	!!= * @CODE@ for soft and hard
 %{ая%}	!!= * @CODE@ for soft and hard
 
 !! And following triggers to control variation
- {front} {back}
+ {front}  !!= * __@CODE@__
+ {back}  !!= * __@CODE@__
+ 
 %^Close	!!= * @CODE@ Close syllable, this triggers final consonant drop, seen in word-final position and before consonant
 
 !! Valency tags, i.e. tags assigned to verbs for denoting their arbuments
@@ -603,7 +628,8 @@ Multichar_Symbols
  @U.Cap.Obl@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
  @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
-+Cmp
++Cmp    !!= * __@CODE@__
+
 +Cmp/Serial   !!≈ | @CODE@ used with serial verbs
 
 ! Flags used with serial verbs
