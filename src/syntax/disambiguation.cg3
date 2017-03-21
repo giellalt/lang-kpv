@@ -40,7 +40,8 @@ LIST Pcle = Pcle ;
 LIST Clt = Clt ; 
 LIST Po = Po ; 
 LIST Dem = Dem ;
-
+LIST Qnt = Qnt ;
+LIST Prop = Prop ;
 LIST WORD = N V A Adv CC CS Interj Pron Num Pcle Clt Po ;
 
 
@@ -93,6 +94,7 @@ LIST Apr = Apr apr ;
 LIST Ter = Ter ter ; 
 LIST Abe = Abe abe ; 
 LIST Prl = Prl prl ; 
+LIST Cmpl = Cmpl ;
 
 LIST HabObj = HabObj ; 
 LIST Instr = Instr ; 
@@ -160,7 +162,7 @@ LIST DerTag = Der/MWN Der/И Der/а Der/ал Der/ась Der/выв Der/джык 
 SECTION
 
 
-REMOVE DerTag ;
+REMOVE:NoDerIfPossible DerTag ;
 
 SELECT Dem IF (0 Dem)(1 N + Nom);
 
@@ -173,13 +175,21 @@ SELECT:CmpTst2 CmpTest ; # Kill'em all
 
 # CC or Pcle
 
-REMOVE CC IF (-1 BOS)(0 Pcle);
+REMOVE Pcle IF (-1 BOS)(0 CC);
+REMOVE CC IF (1 EOS)(0 Pcle);
+REMOVE ABBR IF (0 CC)(NOT 1 Prop);
+
+SELECT CC IF (-1 A)(1 A) ;
+SELECT CC IF (-1 A)(1 Ins)(2 A) ;
 
 # Derivations
 REMOVE (Der/MWN N Nom);
 REMOVE Der/са IF (0 ("<(.*)са>"r) + A);
 
 # Cases
+SELECT:Cmpl1 Cmpl IF (1 Po) ;
+
+REMOVE:Cmpl2 Cmpl ;
 
 # Numerals
 
@@ -204,11 +214,20 @@ REMOVE:OtherConNeg ConNeg IF (-1* ConNeg BARRIER Neg);
 
 SELECT:OnlyConNeg ConNeg IF (-1C Neg)(NOT *1 ConNeg) ;
 
+# Прилагательное или существительное
+
+SELECT:ANnotNN	A IF (-1 Adv OR Qnt)(1 N) ;
+
 # Imperative or noun
 
 REMOVE:NotImpWhenInd Imprt IF (*-1C Ind);
 REMOVE:NotImpWhenWords Imprt IF (-1 N)(0 N);
 REMOVE:NotImpWhenWords Imprt IF (-1 WORD LINK *-1 BOS BARRIER Imprt);
+
+# ConNeg Sg/Pl
+
+REMOVE Pl2 IF (0 Neg + Sg2)(1 ConNeg)(NOT 1 Pl2) ;
+
 
 # да
 
