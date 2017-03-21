@@ -202,6 +202,8 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END
 +Ins+PxSg1:%>нам K ;
 +Ela+PxSg1:%>сьым SPAT-COMPARATIVE ;
 +Tra+PxSg1:%>тіым K ;
++Apr+PxSg1:%>ланьым SPAT-COMPARATIVE ;
++Egr+PxSg1:%>саньым SPAT-COMPARATIVE ;
 +AprIne+PxSg1:%>ланям SPAT-COMPARATIVE ;
 +AprEla+PxSg1:%>ланьсьым SPAT-COMPARATIVE ;
 +AprIll+PxSg1:%>ланям IllCompar ; !
@@ -253,6 +255,7 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END
 +Acc+PxPl1:%>нымӧс K ;
 +Ins+PxPl1:%>наным K ;
 +Com+PxPl1:%>нымкӧд K ;
++Com+PxPl1:%>кӧдным K ;
 +Car+PxPl1:%>тӧгным K ; ! Case+Px
 +Car+PxPl1:%>нымтӧг K ; ! Px+Case
 +Cns+PxPl1:%>нымла K ;
@@ -282,6 +285,7 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END
 +Acc+PxPl2:%>нытӧ K ; ! Acc2
 +Ins+PxPl2:%>наныд K ;
 +Com+PxPl2:%>ныдкӧд K ;
++Com+PxPl2:%>кӧдныд K ;
 +Car+PxPl2:%>тӧгныд K ;
 +Cns+PxPl2:%>ныдла K ;
 +Cmpr+PxPl2:%>сяныд K ;
@@ -307,6 +311,7 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END
 +Acc+PxPl3:%>нысӧ K ; ! Px + Case Acc3
 +Ins+PxPl3:%>наныс K ;
 +Com+PxPl3:%>ныскӧд K ; ! Px + Case
++Com+PxPl3:%>кӧдныс K ; ! Px + Case
 +Car+PxPl3:%>тӧгныс K ;
 +Cns+PxPl3:%>нысла K ; ! Px + Case
 +Cmpr+PxPl3:%>сяныс K ;
@@ -400,6 +405,7 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_Ӧ
 +Abl+PxSg2:%>ыдлысь K ;
 +Dat+PxSg2:%>ыдлы K ;
 +Com+PxSg2:%>ыдкӧд K ;
++Com+PxSg2:%>кӧдыд K ;
 +Cns+PxSg2:%>ыдла K ;
 +Prl+PxSg2:%>ӧдыд K ;
 +Ter+PxSg2:%>ӧдзыд K ;
@@ -410,6 +416,7 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_Ӧ
 +Abl+PxSg3:%>ыслысь K ;
 +Dat+PxSg3:%>ыслы K ;
 +Com+PxSg3:%>ыскӧд K ;
++Com+PxSg3:%>кӧдыс K ;
 +Cns+PxSg3:%>ысла K ;
 +Prl+PxSg3:%>ӧдыс K ;
 +Ter+PxSg3:%>ӧдзыс K ;
@@ -437,6 +444,17 @@ LEXICON DERIVEDADJ
 +Der/тӧм+AbeMod:%>тӧм A_ ;
 +Der/а+HabObjMod:%>а A_ ;
 +Der/ся+TempMod:%>ся A_ ;
++Der/увса:%>увса A_ ;
++Der/сайса:%>сайса A_ ;
++Der/пӧвстса:%>пӧвстса A_ ;
++Der/костса:%>костса A_ ;
++Der/бердса:%>бердса A_ ;
++Der/бӧрса:%>бӧрса A_ ;
++Der/весьтса:%>весьтса A_ ;
++Der/водзса:%>водзса A_ ;
++Der/вывса:%>вывса A_ ;
++Der/гӧгӧрса:%>гӧгӧрса A_ ;
++Der/дорса:%>дорса A_ ;
 
 
 
