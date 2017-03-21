@@ -42,9 +42,9 @@ LEXICON N_RU-ӦЙ
 
 !! Basic nouns.
 
-!! The lexicon for basic nouns is N_ 
+!! The lexicon for basic nouns is N_
 
-LEXICON N_   
+LEXICON N_
 +N: NMN_ ;
 
 LEXICON Noun1 !! This should be phased out 2013-05-07
@@ -56,7 +56,7 @@ LEXICON NMN_
 +Pl:%>ъяс CASEPOSSLEX ;
 
 
-LEXICON Noun1-JM ! понйыс, понмыс 
+LEXICON Noun1-JM ! понйыс, понмыс
 +N+Cmp:м R ;
 +N+Sg:м CASEPOSSLEX ;
 +N+Cmp:й R ;
@@ -148,8 +148,8 @@ LEXICON NounSG ! м орт
 +N+Sg: CASEPOSSLEX ;
 
 LEXICON NounPi ! пи These have a unique  pl marker ян.
-+N+Sg: CASEPOSSLEX ;        
-+N+Pl:%>ян CASEPOSSLEX ;    
++N+Sg: CASEPOSSLEX ;
++N+Pl:%>ян CASEPOSSLEX ;
 
 
 LEXICON Noun1-IS_ACRON ! А*С*СР ! АТП Note the inconcistencies in the star use.
@@ -174,7 +174,7 @@ LEXICON ACRONDELIMITER
 
 
 ! =================== !
-!! !!Inflectional lexica 
+!! !!Inflectional lexica
 ! =================== !
 
 
@@ -450,10 +450,10 @@ LEXICON Noun1-IS_INE
 +N+Ine: SPAT-COMPARATIVE ;
 
 LEXICON DERIVEDADJ
-+Der/са+IneMod:%>са A_ ;     
++Der/са+IneMod:%>са A_ ;
 +Der/тӧм+AbeMod:%>тӧм A_ ;
 +Der/а+HabObjMod:%>а A_ ;
-+Der/ся+TempMod:%>ся A_ ; 
++Der/ся+TempMod:%>ся A_ ;
 
 
 
@@ -474,7 +474,7 @@ LEXICON PredMonLex-Spat
  K ;      ! Singular predicative
  PredMonLex-Spat-Add-Morphology ; !
 
-LEXICON PredMonLex-Spat-Add-Morphology ! This allows consistency 
+LEXICON PredMonLex-Spat-Add-Morphology ! This allows consistency
                                        ! with SPAT elsewhere
 +Cop+Pl:ӧсь K ; ! Plural predicative.
 +Der/джык+Comp:%>джык K ; !ывлаынджык
@@ -485,7 +485,7 @@ LEXICON PredMonLex
  K ;      ! Singular predicative
 +Cop+Pl:ӧсь K ; ! Plural predicative.
 !! 2012-02-07 !!+Der/а+Adv:%>а K ;
- 
+
 
 
 
