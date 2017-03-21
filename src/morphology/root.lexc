@@ -133,7 +133,7 @@ Multichar_Symbols
  +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
 !! ODD
  +Px1 +Px2 +Px3
- 
+
 !! The comparative forms are:
  +Comp +Superl
 !! Numerals are classified under:
@@ -144,7 +144,7 @@ Multichar_Symbols
  +Iter ! Iterative form expressing number of times
 
 !! Verb moods are:
- +Ind +Prs +Prt1 +Prt2 +Fut +Imprt 
+ +Ind +Prs +Prt1 +Prt2 +Fut +Imprt
 !!!!! +Pot +Cond
 !! Verb personal forms are:
  +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
@@ -180,7 +180,7 @@ Multichar_Symbols
  +Err/Orth
  +Use/-Spell
  +Use/SpellNoSugg
- 
+
 
 !! Where do these come from source
 +Src/F         !!≈ * __@CODE@__ foreign source apparently 2015-09-08
@@ -261,9 +261,9 @@ Multichar_Symbols
  +Sem/Route       !!≈ * __@CODE@__ Name of a Route
  +Sem/Rule        !!≈ * __@CODE@__ Rule or convention
  +Sem/Semcon      !!≈ * __@CODE@__ Semantic concept
- +Sem/Sign        !!≈ * __@CODE@__ Sign (e.g. numbers, punctuation) 
+ +Sem/Sign        !!≈ * __@CODE@__ Sign (e.g. numbers, punctuation)
  +Sem/Sport       !!≈ * __@CODE@__ Sport
- +Sem/State       !!≈ * __@CODE@__ 
+ +Sem/State       !!≈ * __@CODE@__
  +Sem/State-sick      !!≈ * __@CODE@__ Illness
  +Sem/Substnc     !!≈ * __@CODE@__ Substance, like Air and Water
  +Sem/Sur         !!≈ * __@CODE@__ Surname
@@ -539,6 +539,7 @@ Multichar_Symbols
 
 !! And following triggers to control variation
  {front} {back}
+%^Close	!!= * @CODE@ Close syllable, this triggers final consonant drop, seen in word-final position and before consonant
 
 !! Valency tags, i.e. tags assigned to verbs for denoting their arbuments
 
@@ -567,7 +568,7 @@ Multichar_Symbols
  @P.NeedNoun.ON@    !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
  @D.NeedNoun.ON@    !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
  @C.NeedNoun@       !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
-!! 
+!!
 !! For languages that allow compounding, the following flag diacritics are needed
 !! to control position-based compounding restrictions for nominals. Their use is
 
@@ -581,7 +582,7 @@ Multichar_Symbols
  @U.CmpNone.FALSE@ !!≈ | @CODE@ | Combines with the prev tag to prohibit compounding
  @P.CmpOnly.TRUE@  !!≈ | @CODE@ | Sets a flag to indicate that the word has passed R
  @D.CmpOnly.FALSE@ !!≈ | @CODE@ | Disallow words coming directly from root.
-!! 
+!!
 !! Use the following flag diacritics to control downcasing of derived proper
 !! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 !! these flags. There exists a ready-made regex that will do the actual down-casing
@@ -594,112 +595,112 @@ Multichar_Symbols
 
 ! Flags used with serial verbs
 ! INF = Infinitive
-@U.CONJ-INF.YES@ 
-@U.CONJ-INF.NO@ 
+@U.CONJ-INF.YES@
+@U.CONJ-INF.NO@
 
 ! TX = tense
-@U.CONJ-TX.FUT@ 
-@U.CONJ-TX.PRES@ 
-@U.CONJ-TX.PRET1@ 
-@U.CONJ-TX.PRET2@ 
+@U.CONJ-TX.FUT@
+@U.CONJ-TX.PRES@
+@U.CONJ-TX.PRET1@
+@U.CONJ-TX.PRET2@
 
 ! MX = mood
-@U.CONJ-MX.IND@ 
-@U.CONJ-MX.IMP@ 
+@U.CONJ-MX.IND@
+@U.CONJ-MX.IMP@
 
 ! CONNEG = negation
-@U.CONJ-CONNEG.YES@ 
-@U.CONJ-CONNEG.NO@ 
+@U.CONJ-CONNEG.YES@
+@U.CONJ-CONNEG.NO@
 
 ! NX = number
-@U.CONJ-NX.PL@ 
-@U.CONJ-NX.SG@ 
+@U.CONJ-NX.PL@
+@U.CONJ-NX.SG@
 
 ! POSS = possessive person
-@U.CONJ-POSS.1@ 
-@U.CONJ-POSS.2@ 
-@U.CONJ-POSS.3@ 
-@U.CONJ-POSS.2ACC@ 
-@U.CONJ-POSS.3ACC@ 
+@U.CONJ-POSS.1@
+@U.CONJ-POSS.2@
+@U.CONJ-POSS.3@
+@U.CONJ-POSS.2ACC@
+@U.CONJ-POSS.3ACC@
 
 ! PX = person
-@U.CONJ-PX.1@ 
-@U.CONJ-PX.2@ 
-@U.CONJ-PX.3@ 
+@U.CONJ-PX.1@
+@U.CONJ-PX.2@
+@U.CONJ-PX.3@
 
 ! Removal
-@C.CONJ-INF@ 
-@C.CONJ-TX@ 
-@C.CONJ-MX@ 
-@C.CONJ-CONNEG@ 
-@C.CONJ-NX@ 
-@C.CONJ-PX@ 
-@C.CONJ-POSS@ 
+@C.CONJ-INF@
+@C.CONJ-TX@
+@C.CONJ-MX@
+@C.CONJ-CONNEG@
+@C.CONJ-NX@
+@C.CONJ-PX@
+@C.CONJ-POSS@
 
 !! FLAGS USED WITH COLLECTIVE NOUNS
-@P.PossPx.Sg1@ 
-@P.PossPx.Sg2@ 
-@P.PossPx.Sg3@ 
-@P.PossPx.Pl1@ 
-@P.PossPx.Pl2@ 
-@P.PossPx.Pl3@ 
+@P.PossPx.Sg1@
+@P.PossPx.Sg2@
+@P.PossPx.Sg3@
+@P.PossPx.Pl1@
+@P.PossPx.Pl2@
+@P.PossPx.Pl3@
 
 
-@U.PossPx.Sg1@ 
-@U.PossPx.Sg2@ 
-@U.PossPx.Sg3@ 
-@U.PossPx.Pl1@ 
-@U.PossPx.Pl2@ 
-@U.PossPx.Pl3@ 
+@U.PossPx.Sg1@
+@U.PossPx.Sg2@
+@U.PossPx.Sg3@
+@U.PossPx.Pl1@
+@U.PossPx.Pl2@
+@U.PossPx.Pl3@
 
-@D.PossPx@ 
-@C.PossPx@ 
+@D.PossPx@
+@C.PossPx@
 
 
 ! number
-@U.DECL-NX.SG@ 
-@U.DECL-NX.PL@ 
-@R.DECL-NX.PL@ 
+@U.DECL-NX.SG@
+@U.DECL-NX.PL@
+@R.DECL-NX.PL@
 ! case
-@U.DECL-CX.ABE@ 
- @U.DECL-CX.ABL@ 
- @U.DECL-CX.ACC@ 
- @U.DECL-CX.APR@ 
- @U.DECL-CX.APRINE@ 
- @U.DECL-CX.APRILL@ 
- @U.DECL-CX.APRELA@ 
- @U.DECL-CX.APREGR@ 
- @U.DECL-CX.APRPRL@ 
- @U.DECL-CX.APRTRA@ 
- @U.DECL-CX.APRTER@ 
- @U.DECL-CX.CAR@ 
- @U.DECL-CX.CMP@ 
- @U.DECL-CX.CNS@ 
- @U.DECL-CX.COM@ 
- @U.DECL-CX.DAT@ 
- @U.DECL-CX.EGR@ 
- @U.DECL-CX.ELA@ 
- @U.DECL-CX.GEN@ 
- @U.DECL-CX.ILL@ 
- @U.DECL-CX.INE@ 
- @U.DECL-CX.INS@ 
- @U.DECL-CX.NOM@ 
- @U.DECL-CX.PRL@ 
- @U.DECL-CX.TRA@ 
- @U.DECL-CX.TER@ 
+@U.DECL-CX.ABE@
+ @U.DECL-CX.ABL@
+ @U.DECL-CX.ACC@
+ @U.DECL-CX.APR@
+ @U.DECL-CX.APRINE@
+ @U.DECL-CX.APRILL@
+ @U.DECL-CX.APRELA@
+ @U.DECL-CX.APREGR@
+ @U.DECL-CX.APRPRL@
+ @U.DECL-CX.APRTRA@
+ @U.DECL-CX.APRTER@
+ @U.DECL-CX.CAR@
+ @U.DECL-CX.CMP@
+ @U.DECL-CX.CNS@
+ @U.DECL-CX.COM@
+ @U.DECL-CX.DAT@
+ @U.DECL-CX.EGR@
+ @U.DECL-CX.ELA@
+ @U.DECL-CX.GEN@
+ @U.DECL-CX.ILL@
+ @U.DECL-CX.INE@
+ @U.DECL-CX.INS@
+ @U.DECL-CX.NOM@
+ @U.DECL-CX.PRL@
+ @U.DECL-CX.TRA@
+ @U.DECL-CX.TER@
 
 ! declension type
-@U.DECL-DX.INDEF@ 
-@U.DECL-DX.PX@ 
+@U.DECL-DX.INDEF@
+@U.DECL-DX.PX@
 
 ! predicate
-!@U.DECL-PR.1@ 
-!@C.DECL-PR@ 
+!@U.DECL-PR.1@
+!@C.DECL-PR@
 
 !! Removal
-@C.DECL-NX@ 
-@C.DECL-DX@ 
-@C.DECL-CX@ 
+@C.DECL-NX@
+@C.DECL-DX@
+@C.DECL-CX@
 
  @U.Cap.Obl@      !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj
  @U.Cap.Opt@      !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj
