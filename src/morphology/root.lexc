@@ -12,18 +12,18 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@uit.no or feedback@divvun.no
 
+!! !!!Tags and root lexicon for Komi
+
 !! Morphology
-!  ----------
-!! INTRODUCTION TO THE MORPHOLOGICAL ANALYSER OF THE KOMI (ZYRIAN) LANGUAGE.
 
 
 Multichar_Symbols
-!! Analysis symbols
+!! !!Analysis symbols
 +WORK
 !  ----------------
 !! The morphological analyses of wordforms for the Komi-Zyrian
 !! language are presented in this system in terms of the following symbols.
-!! (It is highly suggested to follow existing standards when adding new tags).
+!! (It is highly suggeste	d to follow existing standards when adding new tags).
 
 !! The parts-of-speech tags are:
  +A      !!≈ ;@CODE@: adjective
@@ -75,7 +75,7 @@ Multichar_Symbols
 
 !! !!Quantifiers (numerals)
 !! Quantifiers and Numerals are classified under:
- +Num       !!≈ ;@CODE@: numeral
+ +Num       !!≈ ;@CODE@: numeral лыдакыв
  +Appr      !!≈ ;@CODE@: Approximative numeral кавто-колмо, колмошка ''two or three''
             !!           NB! do not confuse with Komi case +Apr
  +AssocColl !!≈ ;@CODE@: -ne- ; avide-
@@ -92,34 +92,36 @@ Multichar_Symbols
  +Sg !! singular
  +Pl !! plural
 !! !!Case
- +Acc !! accusative ZERO
- +Acc1 !! accusative -ӧс
- +Acc3 !! accusative -сӧ
- +Abl !! ablative case -лысь
- +Apr !! approximative -лань
- +AprEgr !! approximative egressive -ланьсянь
- +AprEla !! approximative elative -ланьысь
- +AprIll !! approximative illative -ланьӧ
- +AprIne !! approximative inessive -ланьын
- +AprPrl !! approximative prolative -ланьӧд
- +AprTer !! approximative terminative -ланьӧдз
- +AprTra !! approximative translative -ланьті
- +Car !! carative -тӧг
- +Cns !! consecultative -ла
- +Com !! Comitative -кӧд
- +Cmpr !! Comparative case form -ся
- +Dat !! dative case -лы
- +Egr !! egressive -сянь
- +Ela !! elative -ысь
- +Gen !! genitive case -лӧн
- +Ill !! illative -ӧ
- +Ine !! inessive -ын
- +Ins !! instrumental -ӧн
- +Nom !! nominative case
- +Prl !! prolative -ӧд
- +Tra !! translative -ті
- +Ter !! Terminative -ӧдз
- +Voc !! Vocative
+
+ +Acc !!= * __@CODE@__ accusative ZERO керан
+ +Acc1 !!= * __@CODE@__ accusative -ӧс керан
+ +Acc3 !!= * __@CODE@__ accusative -сӧ керан
+ +Abl !!= * __@CODE@__ ablative case -лысь босьтан
+ +Apr !!= * __@CODE@__ approximative -лань матыстчан
+ +AprEgr !!= ** __@CODE@__ approximative egressive -ланьсянь 
+ +AprEla !!= ** __@CODE@__ approximative elative -ланьысь
+ +AprIll !!= ** __@CODE@__ approximative illative -ланьӧ
+ +AprIne !!= ** __@CODE@__ approximative inessive -ланьын
+ +AprPrl !!= ** __@CODE@__ approximative prolative -ланьӧд
+ +AprTer !!= ** __@CODE@__ approximative terminative -ланьӧдз
+ +AprTra !!= ** __@CODE@__ approximative translative -ланьті
+ +Car !!= * __@CODE@__ carative -тӧг торйӧдан
+ +Cns !!= * __@CODE@__ consecultative -ла могман
+ +Com !!= * __@CODE@__ Comitative -кӧд ӧтвывтан
+ +Cmpr !!= * __@CODE@__ Comparative case form -ся ӧткодялан
+ +Cmpl  !!= * __@CODE@__  Postposition complement
+ +Dat !!= * __@CODE@__ dative case -лы сетан
+ +Egr !!= * __@CODE@__ egressive -сянь ылыстчан
+ +Ela !!= * __@CODE@__ elative -ысь петан
+ +Gen !!= * __@CODE@__ genitive case -лӧн асалан
+ +Ill !!= * __@CODE@__ illative -ӧ пыран
+ +Ine !!= * __@CODE@__ inessive -ын ина
+ +Ins !!= * __@CODE@__ instrumental -ӧн керанторъя
+ +Nom !!= * __@CODE@__ nominative case нимтан
+ +Prl !!= * __@CODE@__ prolative -ӧд вуджан
+ +Tra !!= * __@CODE@__ translative -ті вуджан
+ +Ter !!= * __@CODE@__ Terminative -ӧдз матыстчан
+ +Voc !!= * __@CODE@__ Vocative ??
 
 ! Compounding regular derivation case
 ! +Der/Apr+Ine, +Der/Apr+Ela
@@ -130,18 +132,18 @@ Multichar_Symbols
 
 
 !! The possession is marked as such:
- +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
+ +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3 !!≈ * __@CODE@__ 
 !! ODD
- +Px1 +Px2 +Px3
+ +Px1 +Px2 +Px3 !!≈ * __@CODE@__ 
 
 !! The comparative forms are:
- +Comp +Superl
+ +Comp +Superl !!≈ * __@CODE@__ 
 !! Numerals are classified under:
- +Attr +Card
- +Ord
- +Coll !Collective
- +Distr ! Distributive
- +Iter ! Iterative form expressing number of times
+ +Attr +Card !!≈ * __@CODE@__ 
+ +Ord  !!≈ * __@CODE@__ 
+ +Coll  !!≈ * __@CODE@__ Collective
+ +Distr !!≈ * __@CODE@__  Distributive
+ +Iter !!≈ * __@CODE@__  Iterative form expressing number of times
 
 !! Verb moods are:
  +Ind +Prs +Prt1 +Prt2 +Fut +Imprt
@@ -177,9 +179,9 @@ Multichar_Symbols
 +Clt/сӧ !
 
 !! The Usage extents are marked using following tags:
- +Err/Orth
- +Use/-Spell
- +Use/SpellNoSugg
+ +Err/Orth !!≈ * __@CODE@__ 
+ +Use/-Spell !!≈ * __@CODE@__ 
+ +Use/SpellNoSugg !!≈ * __@CODE@__ 
 
 
 !! Where do these come from source
@@ -418,14 +420,6 @@ Multichar_Symbols
 
 
 !! Semantics are classified with
-! +Sem/Kin    !!≈ * __@CODE@__  Kinship term (reflected in special PxSg2 forms),
-! +Sem/Divinity !!≈ * __@CODE@__  Divinity (god personified),
-! +Sem/Constellation !!≈ * __@CODE@__  Constellation,
-! +Sem/Kin	  !!≈ * __@CODE@__ Kin term
-! +Sem/Patr   	  !!≈ * __@CODE@__  Patronym
-! +Sem/Rvr    !!≈ * __@CODE@__  name of river or water way, media of transportation,
-! +Sem/Inanim !!≈ * __@CODE@__  Inanimate,
-! +Sem/NonHum !!≈ * __@CODE@__  Nonhuman,
 
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
@@ -456,8 +450,7 @@ Multichar_Symbols
 !
 !+Der/ан
 ! +Der/ана +Der/анаа +Der/чӧж
-!!Then they should have indication of whether they are gerunds or participles!!
-!!
+!Then they should have indication of whether they are gerunds or participles!
 +Der/тӧдз !+VTer
 !!+TODZ Verbal terminative
 +Der/тӧм !+VAbe
@@ -541,7 +534,7 @@ Multichar_Symbols
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
  {aä} {oö} {uü}
-к2 л2 м2 т2 ь2 К2 Л2 М2 Т2 Ь2 И2 %>
+к2 л2 м2 т2 ь2 К2 Л2 М2 Т2 Ь2 И2 %> 
 %{иі%}	!!= * @CODE@ for soft and hard
 %{ая%}	!!= * @CODE@ for soft and hard
 
@@ -713,6 +706,7 @@ Multichar_Symbols
  @U.Cap.Obl@      !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj
  @U.Cap.Opt@      !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj
 
+!! !!!Lexicon Root
 LEXICON Root
 
 SUBSTANDARDS ; ! temporary solution
