@@ -64,35 +64,37 @@ LEXICON Noun1-JM ! понйыс, понмыс
 +N+Pl:%>ъяс CASEPOSSLEX ;
 
 !! subsequent Cns vs Vow
+LEXICON N_PARAGOGIC !!= * @CODE@ 
++N+Cmp:%^Close R ;
++N+Sg:%^Close CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
++N+Sg: CASEPOSSLEX-AFTERDERIVATION_VOW ;
++N+Pl:%^Close%>ъяс CASEPOSSLEX ;
+
 LEXICON N_PARAGOGIC-В/Л !!= * @CODE@ ныв:ны нылыс
-+N+Cmp:в R ;
-+N+Sg:в CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
-+N+Sg:л CASEPOSSLEX-AFTERDERIVATION_VOW ;
-+N+Pl:в%>ъяс CASEPOSSLEX ;
+:л N_PARAGOGIC ;
 
 LEXICON N_PARAGOGIC-Й !!= * @CODE@ ав:ав авйыс
-+N+Cmp: R ;
-+N+Sg: CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
-+N+Sg:й CASEPOSSLEX-AFTERDERIVATION_VOW ;
-+N+Pl:%>ъяс CASEPOSSLEX ;
+:й N_PARAGOGIC ;
 
 LEXICON N_PARAGOGIC-К !!= * @CODE@ кытш:кытш кытшкыс
-+N+Cmp: R ;
-+N+Sg: CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
-+N+Sg:к CASEPOSSLEX-AFTERDERIVATION_VOW ;
-+N+Pl:%>ъяс CASEPOSSLEX ;
+:к N_PARAGOGIC ;
 
 LEXICON N_PARAGOGIC-М !!= * @CODE@ зон:зон зонмыс
-+N+Cmp: R ;
-+N+Sg: CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
-+N+Sg:м CASEPOSSLEX-AFTERDERIVATION_VOW ;
-+N+Pl:%>ъяс CASEPOSSLEX ;
+:м N_PARAGOGIC ;
 
 LEXICON N_PARAGOGIC-Т !!= * @CODE@ зеп:зеп зептыс
-+N+Cmp: R ;
-+N+Sg: CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
-+N+Sg:т CASEPOSSLEX-AFTERDERIVATION_VOW ;
-+N+Pl:%>ъяс CASEPOSSLEX ;
+:т N_PARAGOGIC ;
+
+LEXICON N_END-IN-ДДЬ !!= * @CODE@ автомобиль:автомобил автомобильыс
+:дь N_PARAGOGIC ;
+
+LEXICON N_END-IN-ДДЗ !!= * @CODE@ автомобиль:автомобил автомобильыс
+:дз N_PARAGOGIC ;
+
+LEXICON N_END-IN-ЛЛЬ !!= * @CODE@ моль:мол молльӧ
+:ль N_PARAGOGIC ;
+
+
 
 LEXICON N_END-IN-Й !!= * @CODE@ абай:аба абайыс
 +N+Cmp:й R ;
@@ -101,25 +103,6 @@ LEXICON N_END-IN-Й !!= * @CODE@ абай:аба абайыс
 +N+Sg:й CASEPOSSLEX-AFTERDERIVATION_Ӧ ;
 +N+Pl:й%>яс CASEPOSSLEX ;
 
-LEXICON N_END-IN-ДДЬ !!= * @CODE@ автомобиль:автомобил автомобильыс
-+N+Cmp:ь R ;
-+N+Sg:ь CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
-+N+Sg:д CASEPOSSLEX-AFTERDERIVATION_Я ;
-+N+Sg:дь CASEPOSSLEX-AFTERDERIVATION_Ӧ ;
-+N+Pl:ьяс CASEPOSSLEX ; !!= * @CODE@ 2015-09-04 change to ь%>яс after xfst rules are removed
-
-LEXICON N_END-IN-ДДЗ !!= * @CODE@ автомобиль:автомобил автомобильыс
-+N+Cmp:з R ;
-+N+Sg:з CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
-+N+Sg:дз CASEPOSSLEX-AFTERDERIVATION_VOW ;
-+N+Pl:з%>ьяс CASEPOSSLEX ;
-
-LEXICON N_END-IN-ЛЛЬ !!= * @CODE@ моль:мол молльӧ
-+N+Cmp:ь R ;
-+N+Sg:ь CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
-+N+Sg:л CASEPOSSLEX-AFTERDERIVATION_Я ;
-+N+Sg:ль CASEPOSSLEX-AFTERDERIVATION_Ӧ ;
-+N+Pl:%>ьяс CASEPOSSLEX ; !! 2015-09-04 change to ь%>яс after xfst rules are removed
 
 LEXICON N_END-IN-Ч/ДЗ !!= * @CODE@ автомобиль:автомобил автомобильыс
 +N: NMN_END-IN-Ч/ДЗ ;

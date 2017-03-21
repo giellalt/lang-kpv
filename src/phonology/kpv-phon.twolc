@@ -17,7 +17,7 @@ Alphabet
 %{иі%}:і	!!= * @CODE@ for soft and hard
 
 %{ая%}:а	!!= * @CODE@ for soft and hard
-%{ая%}:я	!!= * @CODE@ for soft and hard
+!%{ая%}:я	!!= * @CODE@ for soft and hard
 
 !! !!Archiphonemes for vowels
 !! !!Triggers
@@ -200,8 +200,8 @@ Rules
 "а 2 я, о 2 ё, у 2 ю"
 !! __@RULENAME@__
  Vx:Vy <=> [~[ д з | ч ]] [ ь: | й: ]  (%^Close:) %>  _ [ # | %> | Cns: | Vow: | %{ая%}:] ;
-        where Vx in (а о у)
-              Vy in (я      ё ю)
+        where Vx in (%{ая%} а о у)
+              Vy in (я      я ё ю)
         matched ;
 !!€ вой%>%{ая%}с
 !!€ во0%>яс
@@ -221,14 +221,14 @@ Rules
 "%{иі%} 2 і"
 !! __@RULENAME@__
  %{иі%}:і <=>
- [PairedCnsNoZ | [Vow |[Cns - д]] з ] %>  _ [ # | %> | Cns: | Vow: ] ;
+ [PairedCnsNoZ | [Vow |[Cns - д]] з ] (%^Close:) %>  _ [ # | %> | Cns: | Vow: ] ;
 ! [PairedCnsNoZ |  з ] %>  _ [ # | %> | Cns: | Vow: ] ;
 !   except
 !    д з %>  _ [ # | %> | Cns: | Vow: ] ;
 
 "%{иі%} 2 и"
 !! __@RULENAME@__
- %{иі%}:и <=> [ Vow | CnsBeforeCyri | й: | ь: | д з ] %>  _ [ # | %> | Cns: | Vow: ] ;
+ %{иі%}:и <=> [ Vow | CnsBeforeCyri | й: | ь: | д з ] (%^Close:) %>  _ [ # | %> | Cns: | Vow: ] ;
 !!€ ворссь%>%{иі%}#
 !!€ ворсс0%>и#
 !!€ ло%>%{иі%}#
@@ -253,7 +253,7 @@ Rules
 
 "Hard Sign Deletion"
 !! __@RULENAME@__
- ъ:0 <=> [ Vow (й) | ь ] %> _ ;
+ ъ:0 <=> [ Vow (й) | ь ] (%^Close:) %> _ ;
 !!€ вой%>ъяс
 !!€ вой%>0яс
 !!€ выль%>ъяс
@@ -262,11 +262,12 @@ Rules
 !!€ коми%>0яс
 !!€ автобус%>ъяс
 !!€ автобус%>ъяс
+!!$ автобус%>ъяс
 !!$ автобус%>0яс
 
 "Hard Sign Palatalization"
 !! __@RULENAME@__
- ъ:ь <=> [ д з | ч ] %> _ я ;
+ ъ:ь <=> [ д: з | ч ] (%^Close:) %> _ я ;
 !!€ виддз%>ъяс
 !!€ вид0з%>ьяс
 
