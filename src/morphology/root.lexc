@@ -643,6 +643,9 @@ Multichar_Symbols
 @U.CONJ-TX.PRET1@
 @U.CONJ-TX.PRET2@
 
+! GER = gerund
+@U.CONJ-GER.IG@
+
 ! MX = mood
 @U.CONJ-MX.IND@
 @U.CONJ-MX.IMP@
@@ -671,6 +674,7 @@ Multichar_Symbols
 @C.CONJ-INF@
 @C.CONJ-TX@
 @C.CONJ-MX@
+@C.CONJ-GER@
 @C.CONJ-CONNEG@
 @C.CONJ-NX@
 @C.CONJ-PX@
@@ -862,7 +866,7 @@ LEXICON SPAT-COMPARATIVE
 
 LEXICON COMPARATIVE
                         K ;
-+Der/джык+Compar:%>джык K ;
++Der/джык+Comp:%>джык K ;
 +Der/моз:%>моз K ;
 +Der/кодь:%>кодь K ;
 
