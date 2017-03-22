@@ -181,7 +181,9 @@ LEXICON CASEPOSSLEX-afterDerivation
 LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END
 +Nom: K ;
 +Acc: K ; !ZERO marker
-+Gen:%>лӧн K ;
+	CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END ;
+LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END
++Gen:%>лӧн PredMonLex ;
 +Abl:%>лысь K ;
 +Dat:%>лы K ;
 +Com:%>кӧд K ;
@@ -376,7 +378,7 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_Я
 
 LEXICON CASEPOSSLEX-AFTERDERIVATION_Ӧ
 +Acc:%>ӧс K ;
-+Ins:%>ӧн K ;
++Ins:%>ӧн PredMonLex ;
 +Ine:%>ын SPAT-COMPARATIVE ;
 +Ela:%>ысь SPAT-COMPARATIVE ;
 +Ill:%>ӧ IllCompar ;
@@ -477,14 +479,13 @@ LEXICON PredMonLex-Spat
 
 LEXICON PredMonLex-Spat-Add-Morphology ! This allows consistency
                                        ! with SPAT elsewhere
-+Cop+Pl:ӧсь K ; ! Plural predicative.
-+Der/джык+Comp:%>джык K ; !ывлаынджык
-+Der/джык+Comp+Cop+Pl:%>джыкӧсь K ; !ывлаынджыкӧсь
++Cop+Pl:%>ӧсь K ; ! Plural predicative.
++Der/джык+Comp:%>джык PredMonLex ; !ывлаынджык OR ывлаынджыкӧсь
 
 
 LEXICON PredMonLex
  K ;      ! Singular predicative
-+Cop+Pl:ӧсь K ; ! Plural predicative.
++Cop+Pl:%>ӧсь K ; ! Plural predicative.
 !! 2012-02-07 !!+Der/а+Adv:%>а K ;
 
 

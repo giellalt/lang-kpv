@@ -16,7 +16,7 @@ LEXICON ARABIC   !!= * __@CODE@__ arabic numerals
 LEXICON ARABICS
  ARABICLOOP      ;
  ARABICLOOPORD   ;
-! ARABICLOOPCOLL  ;
+ ARABICLOOPCOLL  ;
  ARABICLOOPphone ;
 
 LEXICON ARABICYEAR
@@ -100,25 +100,26 @@ LEXICON ARABICLOOPORD   !!= * __@CODE@__ ordinals
 LEXICON ACASETAG   !!= * __@CODE@__  is for 1e+Num+Sg+Num:1e
 +Num: ARABICCASES ;
 
-!LEXICON ARABICLOOPCOLL   !!= * __@CODE@__ collectives
+LEXICON ARABICLOOPCOLL   !!= * __@CODE@__ collectives
++Num+Coll+Attr:%-нан K ;
 ! +N+Coll: ARABICDELIMITERCOLL ;
 
 
 LEXICON ARABICDELIMITER   !!= * __@CODE@__  blank + 3 delim, what does the lg counc prefer?
  +Num:            ARABICCASE0      ; ! This is the 1984 case, ie NGA
- +Num:%:          ARABICCASE       ; ! This is the 1984:s case.
+ +Num:%-          ARABICCASE       ; ! This is the 1984:s case.
 ! +Num:            ARAB_DER ; ! 6-jáhkasaš, 
 ! +Num: Rhyph ; ! 3-
 
 
 LEXICON ARABICDELIMITERORD   !!= * __@CODE@__ ordinals
 !             ARABICCASE0   ; ! This is the 1984 case, ie NGA
-          :%: ARABICCASEORD ; ! This is the 1984:s case.
+          :%-ӧд ARABICCASEORD ; ! This is the 1984:s case.
 
 
 LEXICON ARABICCASES   !!= * __@CODE@__  to distinguish between 0 and oblique
 ARABICCASE0 ;
-ARABICCASE ;
+:%- ARABICCASE ;
 
 LEXICON ARABICCASE0   !!= * __@CODE@__
  +Arab+Sg+Nom:      #      ;
@@ -126,10 +127,20 @@ LEXICON ARABICCASE0   !!= * __@CODE@__
 
 
 LEXICON ARABICCASE
- +Arab+Sg+Dqt:%>лы        # ;
+ +Arab+Der/а+Sg+Nom:%>а        # ;
+ +Arab+Sg+Acc1:%>ӧс        # ;
+ +Arab+Sg+Dat:%>лы        # ;
+ +Arab+Sg+Egr:%>сянь        # ;
+ +Arab+Sg+Ela:%>ысь        # ; ! Perhaps +Iter
+ +Arab+Sg+Ill:%>ӧ        # ;
+ +Arab+Sg+Ter:%>ӧдз        # ;
+ +Arab+Sg+Ter+PxSg3:%>ӧдзыс        # ;
 
 LEXICON ARABICCASEORD
- +Arab+Sg+Gen:%>da    K ;
+ +Arab+Sg+Gen:%>лӧн    K ;
+ +Arab+Sg+Ill:%>ӧ        # ;
+ +Arab+Sg+Nom:    K ;
+ +Arab+Sg+Nom+PxSg3:%>ыс    K ;
 
 
 ! The Roman numerals !

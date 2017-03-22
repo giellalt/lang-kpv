@@ -45,6 +45,13 @@ ab-dot-noun ;
 
 LEXICON ab-nodot-noun ! The bulk
 +N+ABBR: # ;  ! no period, that is.
++N+ABBR:%- ab-cases ; 
+
+LEXICON ab-cases
++Sg: CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END ;
++Sg: CASEPOSSLEX-AFTERDERIVATION_VOW ;
+
++Der/са:%>са K ;
 
 LEXICON ab-nodot ! default
 +ABBR: # ;  ! no period, that is.
@@ -73,6 +80,116 @@ LEXICON noperiod
 гг ab-nodot-noun ;
 м3/с ab-nodot-noun ;
 кв  ab-nodot-noun ;
+АССР ab-nodot-noun ;
+БАМ ab-nodot-noun ;
+БАО ab-nodot-noun ;
+БМП ab-nodot-noun ;
+БССР ab-nodot-noun ;
+ВАД ab-nodot-noun ;
+ВАСХНИЛ ab-nodot-noun ;
+ВВС ab-nodot-noun ;
+ВДПО ab-nodot-noun ;
+ВИА  ab-nodot-noun ;
+ВЛКСМ  ab-nodot-noun ;
+ВМП  ab-nodot-noun ;
+ВОИР  ab-nodot-noun ;
+ВООПИК  ab-nodot-noun ;
+ВОХР  ab-nodot-noun ;
+ВУЗ ab-nodot-noun ;
+ВЦИК ab-nodot-noun ;
+ВЧК ab-nodot-noun ;
+ГАИ  ab-nodot-noun ;
+ГДР  ab-nodot-noun ;
+ГПТУ  ab-nodot-noun ;
+ГПУ  ab-nodot-noun ;
+ГРП  ab-nodot-noun ;
+ГУЛАГ  ab-nodot-noun ;
+ГЭС  ab-nodot-noun ;
+ДВП  ab-nodot-noun ;
+ДЗОТ  ab-nodot-noun ;
+ДИП  ab-nodot-noun ;
+ДОСААФ  ab-nodot-noun ;
+ДПД  ab-nodot-noun ;
+ДТ  ab-nodot-noun ;
+ЖЭУ  ab-nodot-noun ;
+ЗАГС  ab-nodot-noun ;
+ЗИЛ  ab-nodot-noun ;
+ИУУ  ab-nodot-noun ;
+КАПП  ab-nodot-noun ;
+КБО  ab-nodot-noun ;
+КВН  ab-nodot-noun ;
+КГБ  ab-nodot-noun ;
+КИМ  ab-nodot-noun ;
+КИППТ  ab-nodot-noun ;
+КИР  ab-nodot-noun ;
+КП  ab-nodot-noun ;
+КПЗ  ab-nodot-noun ;
+КПСС  ab-nodot-noun ;
+КЭБ  ab-nodot-noun ;
+ЛПК  ab-nodot-noun ;
+МА  ab-nodot-noun ;
+МАЗ  ab-nodot-noun ;
+МВД  ab-nodot-noun ;
+МГУ  ab-nodot-noun ;
+МПС  ab-nodot-noun ;
+МТС  ab-nodot-noun ;
+МТФ  ab-nodot-noun ;
+НКВД  ab-nodot-noun ;
+НЛО  ab-nodot-noun ;
+ОБХСС  ab-nodot-noun ;
+ОВС  ab-nodot-noun ;
+ОГПУ  ab-nodot-noun ;
+ОК  ab-nodot-noun ;
+ООН  ab-nodot-noun ;
+ОРС  ab-nodot-noun ;
+ПМК  ab-nodot-noun ;
+ПТО  ab-nodot-noun ;
+ПТУ  ab-nodot-noun ;
+ПУРП  ab-nodot-noun ;
+ПЭС  ab-nodot-noun ;
+РАПО  ab-nodot-noun ;
+РАПП  ab-nodot-noun ;
+РГД  ab-nodot-noun ;
+РИК  ab-nodot-noun ;
+РККА  ab-nodot-noun ;
+РКП  ab-nodot-noun ;
+РКСМ  ab-nodot-noun ;
+РММ  ab-nodot-noun ;
+РМЦ  ab-nodot-noun ;
+РПД  ab-nodot-noun ;
+РСДРП  ab-nodot-noun ;
+РСФСР  ab-nodot-noun ;
+РТС  ab-nodot-noun ;
+СГУ  ab-nodot-noun ;
+СД  ab-nodot-noun ;
+СМЗ  ab-nodot-noun ;
+СМУ  ab-nodot-noun ;
+СПТУ  ab-nodot-noun ;
+ССО  ab-nodot-noun ;
+СССР  ab-nodot-noun ;
+СУС  ab-nodot-noun ;
+США  ab-nodot-noun ;
+ТАП  ab-nodot-noun ;
+ТАСС  ab-nodot-noun ;
+ТУ  ab-nodot-noun ;
+ТЭЦ  ab-nodot-noun ;
+УАЗ  ab-nodot-noun ;
+УОНО  ab-nodot-noun ;
+УРС  ab-nodot-noun ;
+УССР  ab-nodot-noun ;
+УЧК  ab-nodot-noun ;
+ФЗО  ab-nodot-noun ;
+ФЗУ  ab-nodot-noun ;
+ФРГ  ab-nodot-noun ;
+ЦГА  ab-nodot-noun ;
+ЦИК  ab-nodot-noun ;
+ЦК  ab-nodot-noun ;
+ЦСУ  ab-nodot-noun ;
+ЧК  ab-nodot-noun ;
+ЧП  ab-nodot-noun ;
+ШКМ  ab-nodot-noun ;
+ШСУ  ab-nodot-noun ;
+
 
 ! =============================================== !
 !            Intransitive abbreviations           !

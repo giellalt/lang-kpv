@@ -199,7 +199,7 @@ Rules
 !! Vowel Palatalisation
 "а 2 я, о 2 ё, у 2 ю"
 !! __@RULENAME@__
- Vx:Vy <=> [~[ д з | ч ]] [ ь: | й: ]  (%^Close:) %>  _ [ # | %> | Cns: | Vow: | %{ая%}:] ;
+ Vx:Vy <=> [~[ д з | ч ]] [ ь: | й: ]  (%^Close:) %>  _ [ # | %> | %- | Cns: | Vow: | %{ая%}:] ;
         where Vx in (%{ая%} а о у)
               Vy in (я      я ё ю)
         matched ;
@@ -221,14 +221,14 @@ Rules
 "%{иі%} 2 і"
 !! __@RULENAME@__
  %{иі%}:і <=>
- [PairedCnsNoZ | [Vow |[Cns - д]] з ] (%^Close:) %>  _ [ # | %> | Cns: | Vow: ] ;
+ [PairedCnsNoZ | [Vow |[Cns - д]] з ] (%^Close:) %>  _ [ # | %> | %- | Cns: | Vow: ] ;
 ! [PairedCnsNoZ |  з ] %>  _ [ # | %> | Cns: | Vow: ] ;
 !   except
 !    д з %>  _ [ # | %> | Cns: | Vow: ] ;
 
 "%{иі%} 2 и"
 !! __@RULENAME@__
- %{иі%}:и <=> [ Vow | CnsBeforeCyri | й: | ь: | д з ] (%^Close:) %>  _ [ # | %> | Cns: | Vow: ] ;
+ %{иі%}:и <=> [ Vow | CnsBeforeCyri | й: | ь: | д з ] (%^Close:) %>  _ [ # | %> |%- | Cns: | Vow: ] ;
 !!€ ворссь%>%{иі%}#
 !!€ ворсс0%>и#
 !!€ ло%>%{иі%}#
@@ -250,6 +250,8 @@ Rules
 !!€ велӧдыс0%>сянь
 !!€ велӧдысь%>сьыс
 !!€ велӧдыс0%>сьыс
+!!$ гос0%>сянь
+!!$ госъ%>сянь
 
 "Hard Sign Deletion"
 !! __@RULENAME@__
