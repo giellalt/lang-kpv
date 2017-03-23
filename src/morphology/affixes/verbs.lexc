@@ -343,7 +343,7 @@ LEXICON PossessiveSuffixes
 
 
 LEXICON PossessiveSuffixes_NoSg1
-+NoPoss:     K ;
+:     K ; !The ZERO Tag is used for +PxSg1 2017-03-23
 +PxSg2:%>ыд  K ;
 +PxSg3:%>ыс  K ;
 +PxPl1:%>ным K ;
@@ -546,16 +546,12 @@ LEXICON VerbDer-ONSET_И/І !!≈ * __@CODE@__
 LEXICON VerbDer-ONSET_А !!≈ * __@CODE@__ 
  VerbDer-ONSET_А/Я ;
 LEXICON VerbDer-ONSET_А/Я !!≈ * __@CODE@__ 
-+ANA+Adv:%>ана K ;
-+ANAA+Adv:%>анаа K ; !Adding after attestation in Komi Grammar 2000: 381
-+AN+Der/моз:%>анмоз PossessiveSuffixes_NoSg1 ; !383
++Der/Ана+Adv:%>%{ая%}на K ;
++Der/Анаа+Adv:%>%{ая%}наа K ; !Adding after attestation in Komi Grammar 2000: 381
++Der/Ан+Der/моз+Ger:%>%{ая%}нмоз PossessiveSuffixes_NoSg1 ; !383
 
-LEXICON VerbDer-ONSET_Я !!≈ * __@CODE@__ 
-+ANA+Adv:%>яна K ;
-+ANAA+Adv:%>янаа K ; !Adding after attestation in Komi Grammar 2000: 381
-+AN+Der/моз:%>янмоз PossessiveSuffixes_NoSg1 ; !383
-
-
+LEXICON VerbDer-ONSET_Я !!≈ * __@CODE@__
+ VerbDer-ONSET_А/Я ;
 
 
 LEXICON Verb-ynyDer
@@ -611,14 +607,14 @@ LEXICON VerbDer-V
 ! Page 346 in the Komi grammar
 +Der/мысьт:%>мысьт K ; ! gerund (after the action) !353
 +Der/мысь:%>мысь K ; ! !353
-+Der/тӧдз:%>тӧдз PossessiveSuffixes_NoSg1 ; !396
-+Der/мӧн:%>мӧн PossessiveSuffixes_NoSg1 ; !399-403
++Der/тӧдз+Ger:%>тӧдз PossessiveSuffixes_NoSg1 ; !396
++Der/мӧн+Ger:%>мӧн PossessiveSuffixes_NoSg1 ; !399-403
 +Der/мӧнъя:%>мӧнъя WordEnd ; !399-403
 +Der/тӧм+VAbe:%>тӧм PossessiveSuffixes ;
 +Car:%>тӧг PossessiveSuffixes_NoSg1 ; ! 390
 +Car+Err/Orth:%>тӧгъя K ; !387
 +Car+Err/Orth:%>тӧга K ; !387
-+Car+Der/моз:%>тӧгмоз PossessiveSuffixes_NoSg1 ; !
++Car+Der/моз+Ger:%>тӧгмоз PossessiveSuffixes_NoSg1 ; !
 
 
 
