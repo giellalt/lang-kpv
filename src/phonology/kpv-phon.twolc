@@ -101,7 +101,22 @@ Rules
 "Paragogic consonant deletion"
 !! __@RULENAME@__
  Cx:0 <=> Cns _ %^Close: ;
-       where Cx in (к м т) ;
+       where Cx in (к м) ;
+
+"Paragogic т deletion and tripple т"
+!! __@RULENAME@__
+ т:0 <=>
+ Cns _ %^Close: ;
+! т:0 <=> п _ [ # | %> Cns ] ;
+ !!€ зепт%>ыс
+ !!€ зепт%>ыс
+ !!€ зепт%^Close#
+ !!€ зеп00#
+ !!€ зепт%^Close%>сӧ
+ !!€ зеп00%>сӧ
+ т _ %> т ;       
+!!€ Блатт%>тӧг
+!!€ Блат0%>тӧг
 
 !"mDeletion"
 !! __@RULENAME@__
@@ -114,28 +129,18 @@ Rules
  !!€ синм%>сӧ
  !!€ син0%>сӧ
 
-!! Paragogic consonants
-!"tDeletion"
-!! __@RULENAME@__
-! т:0 <=> п _ [ # | %> Cns ] ;
- !!€ зепт%>ыс
- !!€ зепт%>ыс
- !!€ зепт#
- !!€ зеп0#
- !!€ зепт%>сӧ
- !!€ зеп0%>сӧ
 
 !"kDeletion"
 !! __@RULENAME@__
 ! к:0 <=> [ с | ш | с ь | с ь2: | ч ] _ [ # | %> Cns ]  ;
  !!€ воск%>ыс
  !!€ воск%>ыс
- !!€ воск#
- !!€ вос0#
- !!€ воск%>сӧ
- !!€ вос0%>сӧ
- !!€ кось2к%>сянь
- !!€ кось0%>сянь
+ !!€ воск%^Close#
+ !!€ вос00#
+ !!€ воск%^Close%>сӧ
+ !!€ вос00%>сӧ
+ !!€ кось2к%^Close%>сянь
+ !!€ кось00%>сянь
 
 "jDeletion after vowel"
 !! __@RULENAME@__
@@ -172,18 +177,22 @@ Rules
 !!€ кӧсй%>%{ая%}#
 !!€ кӧсъ%>я#
 
-"l deletion"
+"l deletion ALSO tripple letter"
 !! __@RULENAME@__
  л:0 <=>   л _  ь  %^Close: ;
 !  л _  ь  [ # | %> Cns ] ;
  !!€ вакулль%>ыс
  !!€ вакулль%>ыс
- !!€ вакулль#
+ !!€ вакулль%^Close#
  !!€ вакул0ь#
- !!€ вакулль%>сӧ
+ !!€ вакулль%^Close%>сӧ
  !!€ вакул0ь%>сӧ
  !!€ вакулль%^Close%>ъяс
  !!€ вакул0ь0%>0яс
+ л _ %>	л ;
+!!€ металл%>лӧн
+!!€ метал0%>лӧн
+
 
 "d deletion"
 !! __@RULENAME@__
@@ -214,7 +223,7 @@ Rules
 !!€ картопел0%>яс
 !! картопель+Pl+Nom
 !!€ картопель%>ъяс
-!!€ картопел0%>0яс
+!!€ картопель%>0яс
 ! Have to look for ь>о:ё,
 ! ь>у:ю appears in compound words
 
@@ -276,14 +285,12 @@ Rules
 "No triple letters"
 !! __@RULENAME@__
  Cx:0 <=> Cx _ %> Cx ;
-        where Cx in (а о у б в г д ж з й к л м н п р с т ф х ц ч ш щ ) ; ! ХХХ check: was: aou, should be: some cns?
+         where Cx in (с ) ; ! 
+!where Cx in (с т л) ; ! ХХХ %> indicates morphology, at least these three consonants
+! where Cx in (а о у б в г д ж з й к л м н п р с т ф х ц ч ш щ ) ; !
 ! Also orthography _Коми орфография кывкуд 2008: 16_
 !!€ класс%>сянь
 !!€ клас0%>сянь
-!!€ Блатт%>тӧг
-!!€ Блат0%>тӧг
-!!€ металл%>лӧн
-!!€ метал0%>лӧн
 
 "IClitic"
 !! __@RULENAME@__
