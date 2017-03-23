@@ -1,53 +1,6 @@
 !!!Usage
 
-!!Using the analyser online
+!!Using the Komi analyser
 
-The Komi analyser can be used [online|http://giellatekno.uit.no/cgi/index.kom.eng.html].
-Here you may paste in Komi text, or generate word forms or inflectional paradigms in Komi.
-
-!!Using the analyser on your own machine
-
-Using the analyser on you own machine opens up for more efficient text processing.
-If you participate in work on the Komi analyser, you will need this.
-
-!Prerequisites:
-
-In order to use the Komi analyser ''on your own machine'', you need Unix (Macintosh or Linux).
-
-* On Macintosh, you need to install [the Xcode Developer tools|http://developer.apple.com/technologies/tools/xcode.html].
-* You need to [check out the source files|http://giellatekno.uit.no/doc/tools/docu-svn-user.html]  (download them to your own machine)
-* You need compilation tools from Xerox ([they can be found here|http://www.stanford.edu/~laurik/.book2software/], cf. also [the documentation|http://www.fsmbook.com/])
-* Your local Unix guru will know how to set up the ''paths'' so that these programs are available.
-
-!Compilation:
-
-* In the Terminal, go to $GTHOME/kt/kom/src/ and write these two commands, one after 
-  the other (they will take several minutes to finish)
-
-{{{
-make lexfiles
-make
-}}}
-
-!Commands for usage on your own machine
-
-If your machine is set up correctly, you have these aliases: 
-
-* __ukom__ for analysis
-* __dkom__ for generation
-
-Write 
-{{{
-ukom
-}}}
-on the command line. Thereafter you may write a word in Komi, and press enter.
-You leave the program by pressing ctrl-C.
-
-There are some Komi texts available. Stand in $GTHOME/kt/kom/. You may then write:
-
-{{{
-cat corp/kv-wp.all.100430.txt | preprocess | ukom | less
-}}}
-
-
-[Here is a manual for analysing North Sami|http://giellatekno.uit.no/doc/tools/docu-sme-manual.html], the command documented there may be transferred to Komi as well.
+* [Online use|http://giellatekno.uit.no/cgi/index.kpv.eng.html]. Here you may paste in Komi text, or generate word forms or inflectional paradigms in Komi.
+* [Use on your own machine|http://giellatekno.uit.no/doc/tools/docu-sme-manual.html]
