@@ -135,9 +135,6 @@ LEXICON NounPi ! пи These have a unique  pl marker ян.
 +N+Pl:%>ян CASEPOSSLEX ;
 
 
-LEXICON Noun1-IS_ACRON ! А*С*СР ! АТП Note the inconcistencies in the star use.
-+N+ACR: ACRONDELIMITER ;
-
 LEXICON NounPL ! бедьторъяс
 +N+Pl: CASEPOSSLEX ; ! here, %>ъяс is put as part of the stem
 ! Very many plural nouns do not have this tag. We could change яс-final
@@ -148,12 +145,6 @@ N_ ; ! Declension to be determined.
 
 LEXICON FIRST
 +Cmp: # ;
-
-LEXICON ACRONDELIMITER
-    CASEPOSSLEX ;
-:%: CASEPOSSLEX ;
-:%- CASEPOSSLEX ;
-:%' CASEPOSSLEX ;
 
 
 ! =================== !
