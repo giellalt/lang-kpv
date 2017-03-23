@@ -189,12 +189,12 @@ Rules
 !! __@RULENAME@__
  д:0 <=> д _ [ ь | з ]  %^Close: ;
 ! д _ [ ь | з ]  [ # | %> Cns ] ;
- !!€ виддз%>ыс
- !!€ виддз%>ыс
- !!€ виддз#
- !!€ вид0з#
- !!€ виддз%>сӧ
- !!€ вид0з%>сӧ
+ !!€ виддз%^Close%>ыс
+ !!€ виддз0%>ыс
+ !!€ виддз%^Close#
+ !!€ вид0з0#
+ !!€ виддз%^Close%>сӧ
+ !!€ вид0з0%>сӧ
 
 !! Vowel Palatalisation
 "а 2 я, о 2 ё, у 2 ю"
@@ -240,7 +240,7 @@ Rules
 
 "Soft Sign Deletion"
 !! __@RULENAME@__
- ь:0 <=> Cns _ %> [ а: |%{ая%}:| о: | у: | і: | %{иі%}: ] ;
+ ь:0 <=> CnsNotSoft _ %> [ а: |%{ая%}:| о: | у: | і: | ъ: | %{иі%}: ] ;
         с _  %> с [ ь | я ] ;
 
 ! Testcases: see VowelPalatalisation above
@@ -255,7 +255,7 @@ Rules
 
 "Hard Sign Deletion"
 !! __@RULENAME@__
- ъ:0 <=> [ Vow (й) | ь ] (%^Close:) %> _ ;
+ ъ:0 <=> [ Vow (й) | ь: ] (%^Close:) %> _ ;
 !!€ вой%>ъяс
 !!€ вой%>0яс
 !!€ выль%>ъяс
@@ -270,13 +270,13 @@ Rules
 "Hard Sign Palatalization"
 !! __@RULENAME@__
  ъ:ь <=> [ д: з | ч ] (%^Close:) %> _ я ;
-!!€ виддз%>ъяс
-!!€ вид0з%>ьяс
+!!€ виддз%^Close%>ъяс
+!!€ вид0з0%>ьяс
 
 "No triple letters"
 !! __@RULENAME@__
  Cx:0 <=> Cx _ %> Cx ;
-        where Cx in (а о у) ;
+        where Cx in (а о у б в г д ж з й к л м н п р с т ф х ц ч ш щ ) ; ! ХХХ check: was: aou, should be: some cns?
 ! Also orthography _Коми орфография кывкуд 2008: 16_
 !!€ класс%>сянь
 !!€ клас0%>сянь
