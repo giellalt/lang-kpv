@@ -32,11 +32,26 @@ LEXICON acr5
 Ы acr2 ; Ь acr2 ; Э acr2 ; Ю acr2 ; Я acr2 ; Ё acr2 ; І acr2 ; Ӧ acrotag ;
 acrotag ;
 
-LEXICON acrotag
-+N+ACR: ACRONDELIMITER ;
+
+!! !!Acronym inflection
+
 
 LEXICON acros
 см³ acrotag ;
 °C acrotag ;
 K acrotag ; ! Kelvin, Latin letter K
+
+LEXICON acrotag
++N+ACR: ACRONDELIMITER ;
+
+! This lexicon from noun-acronym.xml
+LEXICON Noun1-IS_ACRON ! А*С*СР ! АТП Note the inconcistencies in the star use.
++N+ACR: ACRONDELIMITER ;
+
+
+LEXICON ACRONDELIMITER
+    CASEPOSSLEX ;
+:%: CASEPOSSLEX ;
+:%- CASEPOSSLEX ;
+:%' CASEPOSSLEX ;
 
