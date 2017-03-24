@@ -489,11 +489,12 @@ LEXICON VerbDer_АРТАСЬНЫ !!≈ * __@CODE@__
  VerbDer-ONSET_И ; !!≈ * __@CODE@__
 
 LEXICON VerbDer-ONSET_Ӧ !!≈ * __@CODE@__ 
-+Der/ӧм+Event:%>ӧм Noun1 ;
-+Der/ӧм+Event+N+Ins:%>ӧмӧн K ;
++Der/ӧм+Der/NomAct:%>ӧм Noun1 ;
++Der/ӧм+Der/NomAct+N+Sg+Ins:%>ӧмӧн K ;
 +Der/ӧм+Der/Ин:%>ӧм%>%{иі%}н N_ ;
 +Der/ан+Der/Ин:%>%{ая%}н%>%{иі%}н N_ ;
-+Der/ысь+ActPrsPtc:%>ысь N_ ;
++Der/ысь+ActPrsPtc:%>ысь K ;
++Der/ысь+Der/NomAg:%>ысь N_ ;
 
 LEXICON VerbDer-ONSET_І !!≈ * __@CODE@__ 
   ! nonfinites
