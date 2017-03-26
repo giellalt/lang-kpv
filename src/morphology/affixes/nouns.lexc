@@ -36,8 +36,6 @@ LEXICON Noun1-SYT-STY !
 +Err/Orth:ть N_ ;  ! This deals with гӧсть
 :ьт         N_ ; ! This is the new proper spelling гӧсьт
 
-LEXICON N_RU-ӦЙ
-+Use/SpellNoSugg:ӧй N_ ;
 
 LEXICON N-KINDRED_
  N_ ;
@@ -54,6 +52,8 @@ LEXICON N_
 
 LEXICON Noun1 !! This should be phased out 2013-05-07
  N_ ;
+LEXICON N_RU-ӦЙ
++Use/SpellNoSugg:  N_ ;
 
 LEXICON NMN_
  R ;
@@ -70,34 +70,58 @@ LEXICON Noun1-JM ! понйыс, понмыс
 
 !! subsequent Cns vs Vow
 LEXICON N_PARAGOGIC !!= * @CODE@ 
-+N+Cmp:%^Close R ;
-+N+Sg:%^Close CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
-+N+Sg: CASEPOSSLEX-AFTERDERIVATION_VOW ;
-+N+Pl:%^Close%>ъяс CASEPOSSLEX ;
++N: NMN_PARAGOGIC ;
+LEXICON NMN_PARAGOGIC !!= * @CODE@ 
++Cmp:%^Close R ;
++Sg:%^Close CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
++Sg: CASEPOSSLEX-AFTERDERIVATION_VOW ;
++Pl:%^Close%>ъяс CASEPOSSLEX ;
 
-LEXICON N_PARAGOGIC-В/Л !!= * @CODE@ ныв:ны нылыс
-:л N_PARAGOGIC ;
+LEXICON N_PARAGOGIC-V/L !!= * @CODE@ ныв:ны нылыс
++N: NMN_PARAGOGIC-V/L ;
+LEXICON NMN_PARAGOGIC-V/L !!= * @CODE@ ныв:ны нылыс
+:л NMN_PARAGOGIC ;
 
-LEXICON N_PARAGOGIC-Й !!= * @CODE@ ав:ав авйыс
-:й N_PARAGOGIC ;
++Err/Orth+Dial/л+Cmp:л R ;
++Err/Orth+Dial/л+Sg:л CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
++Err/Orth+Dial/в+Sg:л%^Close CASEPOSSLEX-AFTERDERIVATION_VOW ;
++Err/Orth+Dial/л+Pl:л%>ъяс CASEPOSSLEX ;
 
-LEXICON N_PARAGOGIC-К !!= * @CODE@ кытш:кытш кытшкыс
-:к N_PARAGOGIC ;
 
-LEXICON N_PARAGOGIC-М !!= * @CODE@ зон:зон зонмыс
+LEXICON N_PARAGOGIC-J !!= * @CODE@ ав:ав авйыс
++N: NMN_PARAGOGIC-J ;
+LEXICON NMN_PARAGOGIC-J !!= * @CODE@ ав:ав авйыс
+:й NMN_PARAGOGIC ;
+
+LEXICON N_PARAGOGIC-K !!= * @CODE@ кытш:кытш кытшкыс
++N: NMN_PARAGOGIC-K ;
+LEXICON NMN_PARAGOGIC-K !!= * @CODE@ кытш:кытш кытшкыс
+:к NMN_PARAGOGIC ;
+
+LEXICON N_PARAGOGIC-M !!= * @CODE@ зон:зон зонмыс
++N: NMN_PARAGOGIC-M ;
+LEXICON NMN_PARAGOGIC-M !!= * @CODE@ зон:зон зонмыс
 :м N_PARAGOGIC ;
 
-LEXICON N_PARAGOGIC-Т !!= * @CODE@ зеп:зеп зептыс
+LEXICON N_PARAGOGIC-T !!= * @CODE@ зеп:зеп зептыс
++N: NMN_PARAGOGIC-T ;
+LEXICON NMN_PARAGOGIC-T !!= * @CODE@ зеп:зеп зептыс
 :т N_PARAGOGIC ;
 
-LEXICON N_END-IN-ДДЬ !!= * @CODE@ автомобиль:автомобил автомобильыс
-:дь N_PARAGOGIC ;
+LEXICON N_END-IN-DDY !!= * @CODE@ гадь:гад гаддьыс
++N: NMN_END-IN-DDY ;
+LEXICON NMN_END-IN-DDY !!= * @CODE@ автомобиль:автомобил автомобильыс
+:дь NMN_PARAGOGIC ;
 
-LEXICON N_END-IN-ДДЗ !!= * @CODE@ автомобиль:автомобил автомобильыс
-:дз N_PARAGOGIC ;
+LEXICON N_END-IN-DDZ !!= * @CODE@ кыдз:кыд
++N: NMN_END-IN-DDZ ;
+LEXICON NMN_END-IN-DDZ !!= * @CODE@ кыдз:кыд
+:дз NMN_PARAGOGIC ;
 
-LEXICON N_END-IN-ЛЛЬ !!= * @CODE@ моль:мол молльӧ
-:ль N_PARAGOGIC ;
+LEXICON N_END-IN-LLY !!= * @CODE@ моль:мол молльӧ
++N: NMN_END-IN-LLY ;
+LEXICON NMN_END-IN-LLY !!= * @CODE@ моль:мол молльӧ
+:ль NMN_PARAGOGIC ;
 
 
 

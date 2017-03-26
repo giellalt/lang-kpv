@@ -284,6 +284,33 @@ LEXICON Prop-Sur-Fem ! Basic nouns.
 LEXICON PROP-FEM ! Female given names
 +N+Prop+Sem/Fem+Sg: CASEPOSSLEX ;
 
+LEXICON PROP_PARAGOGIC
++N+Prop: NMN_PARAGOGIC ;
+
+LEXICON PROP_PARAGOGIC-V/L
++N+Prop: NMN_PARAGOGIC-V/L ;
+
+LEXICON PROP_PARAGOGIC-J !!= * @CODE@ ав:ав авйыс
++N+Prop: NMN_PARAGOGIC-J ;
+
+LEXICON PROP_PARAGOGIC-K !!= * @CODE@ кытш:кытш кытшкыс
++N+Prop: NMN_PARAGOGIC-K ;
+
+LEXICON PROP_PARAGOGIC-M !!= * @CODE@ зон:зон зонмыс
++N+Prop: NMN_PARAGOGIC-M ;
+
+LEXICON PROP_PARAGOGIC-T !!= * @CODE@ зеп:зеп зептыс
++N+Prop: NMN_PARAGOGIC-T ;
+
+LEXICON PROP_END-IN-DDY !!= * @CODE@ автомобиль:автомобил автомобильыс
++N+Prop: NMN_END-IN-DDY ;
+
+LEXICON PROP_END-IN-DDZ !!= * @CODE@ кыдз:кыд
++N+Prop: NMN_END-IN-DDZ ;
+
+LEXICON PROP_END-IN-LLY !!= * @CODE@ моль:мол молльӧ
++N+Prop: NMN_END-IN-LLY ;
+
 
 
 ! vim: set ft=xfst-lexc:
