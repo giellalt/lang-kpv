@@ -13,3 +13,14 @@ accordance with our open-source philosophy, but may not be compatible with the
 license of the files to be used for lexicalisation. If so, contact the
 administrators to discuss alternative solutions compatible with the lexical
 resource's license.
+
+
+# hunspell
+S2 (в/л) N_PARAGOGIC-В/Л
+S3 (ль/лль)  N_END-IN-ЛЛЬ 
+S4 (дь/ддь) N_END-IN-ДДЬ 
+S5 (дз/ддз) N_END-IN-ДДЗ 
+S6 (й) N_PARAGOGIC-Й
+S7 (к) N_PARAGOGIC-К 
+S8 (м) N_PARAGOGIC-М 
+S9 (т) N_PARAGOGIC-Т 
