@@ -26,21 +26,21 @@ Multichar_Symbols
 !! (It is highly suggeste	d to follow existing standards when adding new tags).
 
 !! The parts-of-speech tags are:
- +A      !!≈ ;@CODE@: adjective
- +Adp 	 !!≈ ;@CODE@: Aposition
- +Adv    !!≈ ;@CODE@: adverb
+ +A      !!≈ ;@CODE@: adjective  кывберд	прилогательный
+ +Adp 	 !!≈ ;@CODE@: adposition (prepositio, postposition) 	 
+ +Adv    !!≈ ;@CODE@: adverb	 ХХ	      	наречия
  +CS     !!≈ ;@CODE@: subordinating conjunction
  +CC     !!≈ ;@CODE@: coordinating conjunction
  +Det    !!≈ ;@CODE@: determiner
- +Interj !!≈ ;@CODE@: interjection
- +N      !!≈ ;@CODE@: noun
- +Num	 !!≈ ;@CODE@: numeral
- +Pcle   !!≈ ;@CODE@: particle
- +Po     !!≈ ;@CODE@: postposition
- +Pr     !!≈ ;@CODE@: preposition
- +Pron   !!≈ ;@CODE@: pronoun
- +Qnt    !!≈ ;@CODE@: Quantifier
- +V      !!≈ ;@CODE@: verb
+ +Interj !!≈ ;@CODE@: interjection	ХХ	междуметие
+ +N      !!≈ ;@CODE@: noun		эмакыв	существительное
+ +Num	 !!≈ ;@CODE@: numeral		лыдакыв	число
+ +Pcle   !!≈ ;@CODE@: particle		частица
+ +Po     !!≈ ;@CODE@: postposition	кывбӧр	послелог
+ +Pr     !!≈ ;@CODE@: preposition	прилог
+ +Pron   !!≈ ;@CODE@: pronoun		местоимение
+ +Qnt    !!≈ ;@CODE@: Quantifier	ХХ
+ +V      !!≈ ;@CODE@: verb		кадакыв	глагол
 
 !! The parts of speech are further split up into:
 !! Adjectives
@@ -366,7 +366,7 @@ Multichar_Symbols
 +Sem/Edu_Org
 +Sem/Event_Food
 +Sem/Event_Hum
-+Sem/Event_Plc
++Sem/Event_Plc	        !!≈ * __@CODE@__  сёянін
 +Sem/Event_Time
 +Sem/Feat-phys_Tool-write
 +Sem/Feat-phys_Veh
@@ -391,6 +391,7 @@ Multichar_Symbols
 +Sem/Hum_Org
 +Sem/Hum_Plant
 +Sem/Hum_Plc
++Sem/Hum_Prof		!!≈ * __@CODE@__  profession, capacity doctor, tractor driver 
 +Sem/Hum_Tool
 +Sem/Hum_Veh
 +Sem/Hum_Wthr

@@ -249,7 +249,8 @@ Rules
 
 "Soft Sign Deletion"
 !! __@RULENAME@__
- ь:0 <=> CnsNotSoft _ %> [ а: |%{ая%}:| о: | у: | і: | ъ: | %{иі%}: ] ;
+ ь:0 <=> CnsNotSoft _ %> [ а: |%{ая%}:| о: | у: | і: | %{иі%}: ] ;
+ ! CnsNotSoft _ %> [ а: |%{ая%}:| о: | у: | і: | ъ: | %{иі%}: ] ; 2017-03-27
         с _  %> с [ ь | я ] ;
 
 ! Testcases: see VowelPalatalisation above
