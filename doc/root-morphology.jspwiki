@@ -30,19 +30,19 @@ The parts of speech are further split up into:
 Adjectives
 
 Adverbs
-These are ideophonic descriptors used to modify the verb
-вырк ливтясь "__flit__ and it flew off"
-Ad-adjective
-with reference to type of adverb
-spatial
-temporal
+= * __+V__ These are ideophonic descriptors used to modify the verb
+= * __+V__ вырк ливтясь "__flit__ and it flew off"
+= * __+V__ Ad-adjective
+= * __+V__ with reference to type of adverb
+= * __+V__ spatial
+= * __+V__ temporal
 
 Interjections
   +Conative   Used for calling animals, for example
 
 Nouns
-proper
-used with paired nouns __collective nouns__
+= * __ +Conative  __ proper
+= * __ +Conative  __ used with paired nouns __collective nouns__
 
 Postpositions
 
@@ -70,9 +70,12 @@ Quantifiers and Numerals are classified under:
 
 
 !!Nominals are inflected for Number and Case
+
 !!Number
-singular
-plural
+ * __ +Sg __  singular
+ * __ +Pl __  plural
+
+
 !!Case
 
  * __ +Acc __ accusative ZERO керан
@@ -87,7 +90,7 @@ plural
  ** __ +AprPrl __ approximative prolative -ланьӧд
  ** __ +AprTer __ approximative terminative -ланьӧдз
  ** __ +AprTra __ approximative translative -ланьті
- * __ +Car __ carative -тӧг торйӧдан
+ * __ +Car __ cartive -тӧг торйӧдан
  * __ +Cns __ consecultative -ла могман
  * __ +Com __ Comitative -кӧд ӧтвывтан
  * __ +Cmpr __ Comparative case form -ся ӧткодялан
@@ -130,10 +133,23 @@ Gerund This is used with derivations
 
 Special symbols are classified with:
 The verbs are syntactically split according to transitivity:
+ * __ +TV __ 
+ * __ +IV __
+
 Special multiword units are analysed with:
+ * __ +Multi __ 
 Non-dictionary words can be recognised with:
+ * __ +Guess __ 
 
 Question and Focus particles:
+ * __ +Qst  __
+ * __ +Foc  __ 
+ * __+Der/И  __  This comes at the end of a word _-и_ or after vowels some authors use _-й_
+ * __+Clt  __ 
+ * __+Clt/а  __ 
+ * __+Clt/ӧ  __ 
+ * __+Clt/тӧ  __ 
+ * __+Clt/сӧ  __
 
 The Usage extents are marked using following tags:
  * __+Err/Orth__ 
@@ -144,6 +160,7 @@ The Usage extents are marked using following tags:
 Where do these come from source
  * __+Src/F__ foreign source apparently 2015-09-08
  * __+Dim__ diminutive
+
 
  * __+Sem/Act__ Activity
  * __+Sem/Amount__ Amount
@@ -218,9 +235,9 @@ Where do these come from source
  * __+Sem/Route__ Name of a Route
  * __+Sem/Rule__ Rule or convention
  * __+Sem/Semcon__ Semantic concept
- * __+Sem/Sign__ Sign (e.g. numbers, punctuation) 
+ * __+Sem/Sign__ Sign (e.g. numbers, punctuation)
  * __+Sem/Sport__ Sport
- * __+Sem/State__ 
+ * __+Sem/State__
  * __+Sem/State-sick__ Illness
  * __+Sem/Substnc__ Substance, like Air and Water
  * __+Sem/Sur__ Surname
@@ -238,6 +255,14 @@ Where do these come from source
  * __+Sem/Wpn__ Weapon
  * __+Sem/Wthr__ The Weather or the state of ground
 
+ * __+Sem/Sur_Fem__ Surname female
+ * __+Sem/Sur_Mal__ Surname male
+ * __+Sem/Ant__  Anthroponym
+ * __+Sem/Ant_Fem__  Anthroponym female
+ * __+Sem/Ant_Mal__  Anthroponym male
+ * __+Sem/Patr__  Patronym
+ * __+Sem/Patr_Fem__  Patronym female
+ * __+Sem/Patr_Mal__  Patronym male
 
 
 
@@ -247,10 +272,35 @@ Semantics are classified with
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
+ * __ +V→N  __
+ * __ +V→V  __
+ * __ +V→A  __
 
 
+ * __+AN  __  Process Participle
+ * __+ANA  __ Process Participle
+ * __+ANAA  __  adverb derived from participle (+ANA)
+ * __+Der/чӧж  __  +CHOZH
 
 
+ * __+Instr  __ 
+ * __+Event  __ 
+ * __+Duration  __
+
+ * __+Der/иг  __
+
+
+ * __+Der/тӧдз    __  +VTer
+ * __+Der/тӧм  __  +VAbe
+ * __+Der/ысь  __
+ * __+ActPrsPtc  __ 
+
+ * __+Der/кості  __  +KOSTI
+ * __+Der/коста  __  +KOSTA
+ * __+Der/кежлӧ  __  +KEZHLO
+
+ * __+Der/мысь  __  +MYS
+ * __+Der/мысьт  __  +MYST
 
 
 
@@ -264,17 +314,33 @@ source and target part-of-speech.
 
 
 Tags for Ethymological Origin marking. This has initially used used with proper nouns
+
+
 Sentence markers
 
+ * __+Cop  __ 
 
 
 Morphophonology
+
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
+
+ * __{aä}  __ 
+ * __{oö}  __  
+ * __{uü}  __
+
+ * __к2 л2 м2 т2 ь2 К2 Л2 М2 Т2 Ь2 И2  __ 
+ * __%>   __  suffix border
+
  * %{иі%}	 for soft and hard
  * %{ая%}	 for soft and hard
 
 And following triggers to control variation
+ * __ {front}  __
+ * __ {back}  __
+
+ * %^Close	 Close syllable, this triggers final consonant drop, seen in word-final position and before consonant
 
 Valency tags, i.e. tags assigned to verbs for denoting their arbuments
 
@@ -303,7 +369,6 @@ with verbs if the verb is further derived into a noun again:
  | @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
  | @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
  | @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
-
 For languages that allow compounding, the following flag diacritics are needed
 to control position-based compounding restrictions for nominals. Their use is
 
@@ -317,7 +382,6 @@ do no harm.
  | @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
  | @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
  | @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
-
 Use the following flag diacritics to control downcasing of derived proper
 nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 these flags. There exists a ready-made regex that will do the actual down-casing
@@ -325,7 +389,10 @@ given the proper use of these flags.
  | @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
  | @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
+ * __+Cmp    __
+
  | +Cmp/Serial used with serial verbs
+
 
 
 
