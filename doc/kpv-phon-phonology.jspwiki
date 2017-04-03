@@ -13,25 +13,26 @@ cf. http://www.ling.helsinki.fi/~rueter/Publications/Rueter_in-Permistika-6_2000
  * %{иі%}:і	 for soft and hard
 
  * %{ая%}:а	 for soft and hard
- * %{ая%}:я	 for soft and hard
 
 !!Archiphonemes for vowels
 !!Triggers
-
+ * %^Close:0	 Close syllable, this triggers final consonant drop, seen in word-final position and before consonant
 
 
 !!Boundary symbols
 
- *  %>  morpheme boundary
+ *  %>  morpheme boundary мун%>ны
  * hash # word boundary
- *  %-  
+ *  %- 
+ *  «   мед«ічӧт
+ *  »    удж»ал»ышт
 
 Diacritics
 
 
 
 
-!!Sets 
+!!Sets
 
 Vowel
 
@@ -60,20 +61,24 @@ Dummy
 
 __The famous L/V__
 
-Paragogic consonants
-__mDeletion__
 
 Paragogic consonants
-__tDeletion__
 
-__kDeletion__
+__Paragogic consonant deletion__
+
+__Paragogic consonant deletion__
+
+Paragogic consonants
+__Paragogic consonant deletion__
+
+__Paragogic consonant deletion__
 
 __jDeletion after vowel__
 
 __j to hard sign after consonant__
-* __кывй%>а# __
+* __кывй%>%{ая%}# __
 * __кывъ%>я# __
-* __кӧсй%>а# __
+* __кӧсй%>%{ая%}# __
 * __кӧсъ%>я# __
 
 __l deletion__
@@ -82,14 +87,14 @@ __d deletion__
 
 Vowel Palatalisation
 __а 2 я, о 2 ё, у 2 ю__
-* __вой%>ас __
+* __вой%>%{ая%}с __
 * __во0%>яс __
-* __озй%>ас __
+* __озй%>%{ая%}с __
 * __озъ%>яс __
-* __ворссь%>а# __
+* __ворссь%>%{ая%}# __
 * __ворсс0%>я# __
 картопель+Sg+Ine+PxSg3
-* __картопель%>ас __
+* __картопель%>%{ая%}с __
 * __картопел0%>яс __
 картопель+Pl+Nom
 * __картопель%>ъяс __
@@ -113,6 +118,8 @@ __Soft Sign Deletion__
 * __велӧдыс0%>сянь __
 * __велӧдысь%>сьыс __
 * __велӧдыс0%>сьыс __
+* __*гос0%>сянь __ (is not standard language)
+* __*госъ%>сянь __ (is not standard language)
 
 __Hard Sign Deletion__
 * __вой%>ъяс __
@@ -123,6 +130,7 @@ __Hard Sign Deletion__
 * __коми%>0яс __
 * __автобус%>ъяс __
 * __автобус%>ъяс __
+* __*автобус%>ъяс __ (is not standard language)
 * __*автобус%>0яс __ (is not standard language)
 
 __Hard Sign Palatalization__
