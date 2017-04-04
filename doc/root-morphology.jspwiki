@@ -10,21 +10,22 @@ language are presented in this system in terms of the following symbols.
 (It is highly suggeste	d to follow existing standards when adding new tags).
 
 The parts-of-speech tags are:
- ;+A: adjective
- ;+Adp 	: Aposition
- ;+Adv: adverb
- ;+CS: subordinating conjunction
- ;+CC: coordinating conjunction
+ ;+A: adjective  кывберд	прилогательный
+ ;+Adp 	: adposition (prepositio, postposition) 	 
+ ;+Adv: adverb	 ХХ	      	наречия
+ ;+CS: subordinating conjunction подчинительный союз
+ ;+CC: coordinating conjunction сочинительный союз
+ ;+CONJ: conjunction word союзное слово [здесь надо узнать который из 2 выш.]
  ;+Det: determiner
- ;+Interj: interjection
- ;+N: noun
- ;+Num	: numeral
- ;+Pcle: particle
- ;+Po: postposition
- ;+Pr: preposition
- ;+Pron: pronoun
- ;+Qnt: Quantifier
- ;+V: verb
+ ;+Interj: interjection	ХХ	междуметие
+ ;+N: noun		эмакыв	существительное
+ ;+Num	: numeral		лыдакыв	число
+ ;+Pcle: particle		частица
+ ;+Po: postposition	кывбӧр	послелог
+ ;+Pr: preposition	прилог
+ ;+Pron: pronoun		местоимение
+ ;+Qnt: Quantifier	ХХ
+ ;+V: verb		кадакыв	глагол
 
 The parts of speech are further split up into:
 Adjectives
@@ -144,7 +145,7 @@ Non-dictionary words can be recognised with:
 Question and Focus particles:
  * __ +Qst  __
  * __ +Foc  __ 
- * __+Der/И  __  This comes at the end of a word _-и_ or after vowels some authors use _-й_
+ * __+Der/И  __  This comes at the end of a word -и or after vowels (some authors use -й)
  * __+Clt  __ 
  * __+Clt/а  __ 
  * __+Clt/ӧ  __ 
@@ -156,6 +157,7 @@ The Usage extents are marked using following tags:
  * __+Use/-Spell__ 
  * __+Use/SpellNoSugg__ 
 
+Dialect features
 
 Where do these come from source
  * __+Src/F__ foreign source apparently 2015-09-08
@@ -265,6 +267,8 @@ Where do these come from source
  * __+Sem/Patr_Mal__  Patronym male
 
 
+ * __+Sem/Event_Plc	__  сёянін
+ * __+Sem/Hum_Prof		__  profession, capacity doctor, tractor driver 
 
 
 Semantics are classified with
@@ -277,14 +281,15 @@ source and target part-of-speech.
  * __ +V→A  __
 
 
- * __+AN  __  Process Participle
- * __+ANA  __ Process Participle
- * __+ANAA  __  adverb derived from participle (+ANA)
+ * __+Der/Ан  __  Process Participle +AN
+ * __+Der/Ана  __ Process Participle +ANA
+ * __+Der/Анаа  __  adverb derived from participle (+ANA) +ANAA
  * __+Der/чӧж  __  +CHOZH
 
 
  * __+Instr  __ 
- * __+Event  __ 
+ * __+Der/NomAct  __  +Event
+ * __+Der/NomAg  __ 
  * __+Duration  __
 
  * __+Der/иг  __

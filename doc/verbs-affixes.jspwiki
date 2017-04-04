@@ -2,6 +2,8 @@
 
 !!!Verbal morphology               
 
+Lexicon {{ V_ }} contains +WORK only (entries that are not classified)
+
 
 !!Closed class verbs
 
@@ -17,41 +19,41 @@
 Some Flag diacritic lines are with regexes, other with aligned zeros. We want to migrate to
 regexes < … > , for readability reasons (sic!)
 
- * __LEXICON V_ЛОКНЫ__ One verb only, локны:лок
+ * LEXICON V_ЛОКНЫ One verb only, локны:лок
 
 
- * __LEXICON VR_ШУНЫ__ 
+ * LEXICON VR_ШУНЫ 
 
- * __LEXICON V_ШУНЫ__ шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+ * LEXICON V_ШУНЫ шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
 
- * __LEXICON VR_АМНЫ__
+ * LEXICON VR_АМНЫ
 
- * __LEXICON V_АМНЫ__ амны:ам Ending in -мны, -жны, -дзны,
+ * LEXICON V_АМНЫ амны:ам Ending in -мны, -жны, -дзны,
 
- * __LEXICON VR_КЫЙНЫ__ 
+ * LEXICON VR_КЫЙНЫ 
 
- * __LEXICON V_КЫЙНЫ__ кыйны:кы Ending in -йны, 
+ * LEXICON V_КЫЙНЫ кыйны:кы Ending in -йны, 
 
- * __LEXICON VR_КУТНЫ__
+ * LEXICON VR_КУТНЫ
 
- * __LEXICON V_КУТНЫ__ шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+ * LEXICON V_КУТНЫ шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
 
- * __LEXICON VR_НУАВНЫ__ нуавны:нуа
+ * LEXICON VR_НУАВНЫ нуавны:нуа
 
- * __LEXICON V_НУАВНЫ__ нуавны:нуа
+ * LEXICON V_НУАВНЫ нуавны:нуа
 Consonant-onset
 
- * __LEXICON VR_АРТАСЬНЫ__
+ * LEXICON VR_АРТАСЬНЫ
 
- * __LEXICON V_АРТАСЬНЫ__ артасьны:артась 
+ * LEXICON V_АРТАСЬНЫ артасьны:артась 
 
- * __LEXICON VR_ЛЫДДЬЫНЫ__ 
+ * LEXICON VR_ЛЫДДЬЫНЫ 
 
- * __LEXICON V_ЛЫДДЬЫНЫ__ лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
+ * LEXICON V_ЛЫДДЬЫНЫ лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
 
- * __LEXICON VR_ВОЛЫНЫ__ 
+ * LEXICON VR_ВОЛЫНЫ 
 
- * __LEXICON V_ВОЛЫНЫ__ волыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
+ * LEXICON V_ВОЛЫНЫ волыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
 
 
 
@@ -62,24 +64,24 @@ Consonant-onset
 
 !!Verb conjugation 
 
- * __LEXICON VerbConj-V__  суф б -- ы 
+ * LEXICON VerbConj-V  суф б -- ы 
 
- * __LEXICON VerbConj__ суф а
+ * LEXICON VerbConj суф а
 
- * __LEXICON VerbConj_КЫЙНЫ__ суф а
+ * LEXICON VerbConj_КЫЙНЫ суф а
 
- * __LEXICON VerbConj_АМНЫ__ суф а
+ * LEXICON VerbConj_АМНЫ суф а
 
- * __LEXICON VerbConj_КУТНЫ__ суф а
+ * LEXICON VerbConj_КУТНЫ суф а
 
 
- * __LEXICON Finiteforms__ Gives linking vowels for 3 tenses
+ * LEXICON Finiteforms Gives linking vowels for 3 tenses
 
- * __LEXICON Finiteforms_КЫЙНЫ__ Gives linking vowels for 3 tenses
+ * LEXICON Finiteforms_КЫЙНЫ Gives linking vowels for 3 tenses
 
- * __LEXICON Finiteforms_АМНЫ__ Gives linking vowels for 3 tenses
+ * LEXICON Finiteforms_АМНЫ Gives linking vowels for 3 tenses
 
- * __LEXICON Finiteforms_КУТНЫ__ Gives linking vowels for 3 tenses
+ * LEXICON Finiteforms_КУТНЫ Gives linking vowels for 3 tenses
 
 
 
@@ -113,9 +115,9 @@ Consonant-onset
 !!Derivation
 
 
- * __LEXICON Verb-nyDer__ 
+ * LEXICON Verb-nyDer 
 
- * __LEXICON Verb-nyDer-ONSET-CONS__ Derivation onset in consonant
+ * LEXICON Verb-nyDer-ONSET-CONS Derivation onset in consonant
 verb-to-verb
 
 This is fed by LEXICON V_ШУНЫ, and therefore certain corrections
@@ -125,53 +127,51 @@ must be made 2012-01-18
 пусьыштлывлыны
 босьтчыштлывлыны
 
- * __LEXICON Verb-nyDer-ONSET-VOW__ Derivation onset	in vowel
+ * LEXICON Verb-nyDer-ONSET-VOW Derivation onset	in vowel
 
- * __LEXICON Verb-nyDer-ONSET-Ы__ Derivation onset	in vowel
+ * LEXICON Verb-nyDer-ONSET-Ы Derivation onset	in vowel
 
- * __LEXICON Verb-nyDer-ONSET-А__ Derivation onset	in vowel
+ * LEXICON Verb-nyDer-ONSET-А Derivation onset	in vowel
 босьтасьны
 
- * __LEXICON Verb-nyDer-ONSET-Я__ Derivation onset	in vowel
+ * LEXICON Verb-nyDer-ONSET-Я Derivation onset	in vowel
 босьтасьны
 
 
 verb-to-noun
 
- * __LEXICON VerbDer__ 
+ * LEXICON VerbDer 
 FIX THIS 2015-09-06
- * __VerbDer-ONSET_А/Я ;__ 
+ * VerbDer-ONSET_А/Я ; 
 
- * __LEXICON VerbDer_КЫЙНЫ__
- * __:й VerbDer-ONSET_Ӧ ;__
- * __VerbDer-ONSET_Я ;__ 
- * __:й VerbDer-ONSET_И ;__
+ * LEXICON VerbDer_КЫЙНЫ
+ * : VerbDer-ONSET_Ӧ ;
+ * : VerbDer-ONSET_Я ; 
+ * : VerbDer-ONSET_И ;
 
- * __LEXICON VerbDer_КУТНЫ__
- * __VerbDer-ONSET_Ӧ ;__
- * __VerbDer-ONSET_А ;__ 
- * __VerbDer-ONSET_І ;__
+ * LEXICON VerbDer_КУТНЫ
+ * VerbDer-ONSET_Ӧ ;
+ * VerbDer-ONSET_А ; 
+ * VerbDer-ONSET_І ;
 
- * __LEXICON VerbDer_АРТАСЬНЫ__
- * __: VerbDer-ONSET_Ӧ ;__
- * __VerbDer-ONSET_Я ;__ 
- * __VerbDer-ONSET_И ;__
+ * LEXICON VerbDer_АРТАСЬНЫ
+ * : VerbDer-ONSET_Ӧ ;
+ * VerbDer-ONSET_Я ; 
+ * VerbDer-ONSET_И ;
 
- * __LEXICON VerbDer-ONSET_Ӧ__ 
+ * LEXICON VerbDer-ONSET_Ӧ 
 
- * __LEXICON VerbDer-ONSET_І__ 
+ * LEXICON VerbDer-ONSET_І 
 
- * __LEXICON VerbDer-ONSET_И__ 
- * __LEXICON VerbDer-ONSET_И/І__ 
-
-
-
- * __LEXICON VerbDer-ONSET_А__ 
- * __LEXICON VerbDer-ONSET_А/Я__ 
-
- * __LEXICON VerbDer-ONSET_Я__ 
+ * LEXICON VerbDer-ONSET_И 
+ * LEXICON VerbDer-ONSET_И/І 
 
 
+
+ * LEXICON VerbDer-ONSET_А 
+ * LEXICON VerbDer-ONSET_А/Я 
+
+ * LEXICON VerbDer-ONSET_Я
 
 
 
