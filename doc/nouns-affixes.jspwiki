@@ -17,9 +17,10 @@
 
 
 
+таксисталӧ 
 Basic nouns.
 
-The lexicon for basic nouns is N_ 
+The lexicon for basic nouns is {{ N_ }}
 
 
 This should be phased out 2013-05-07
@@ -28,25 +29,39 @@ This should be phased out 2013-05-07
 
 
 subsequent Cns vs Vow
- * LEXICON N_PARAGOGIC-В/Л  ныв:ны нылыс
+ * LEXICON N_PARAGOGIC  
+ * LEXICON NMN_PARAGOGIC  
 
- * LEXICON N_PARAGOGIC-Й  ав:ав авйыс
+ * LEXICON N_PARAGOGIC-V/L  ныв:ны нылыс
+ * LEXICON NMN_PARAGOGIC-V/L  ныв:ны нылыс
 
- * LEXICON N_PARAGOGIC-К  кытш:кытш кытшкыс
 
- * LEXICON N_PARAGOGIC-М  зон:зон зонмыс
 
- * LEXICON N_PARAGOGIC-Т  зеп:зеп зептыс
+ * LEXICON N_PARAGOGIC-J  ав:ав авйыс
+ * LEXICON NMN_PARAGOGIC-J  ав:ав авйыс
+
+ * LEXICON N_PARAGOGIC-K  кытш:кытш кытшкыс
+ * LEXICON NMN_PARAGOGIC-K  кытш:кытш кытшкыс
+
+ * LEXICON N_PARAGOGIC-M  зон:зон зонмыс
+ * LEXICON NMN_PARAGOGIC-M  зон:зон зонмыс
+
+ * LEXICON N_PARAGOGIC-T  зеп:зеп зептыс
+ * LEXICON NMN_PARAGOGIC-T  зеп:зеп зептыс
+
+ * LEXICON N_END-IN-DDY  гадь:гад гаддьыс
+ * LEXICON NMN_END-IN-DDY  автомобиль:автомобил автомобильыс
+
+ * LEXICON N_END-IN-DDZ  кыдз:кыд
+ * LEXICON NMN_END-IN-DDZ  кыдз:кыд
+
+ * LEXICON N_END-IN-LLY  моль:мол молльӧ
+ * LEXICON NMN_END-IN-LLY  моль:мол молльӧ
+
+
 
  * LEXICON N_END-IN-Й  абай:аба абайыс
 
- * LEXICON N_END-IN-ДДЬ  автомобиль:автомобил автомобильыс
- * +N+Pl:ьяс CASEPOSSLEX ;  2015-09-04 change to ь%>яс after xfst rules are removed
-
- * LEXICON N_END-IN-ДДЗ  автомобиль:автомобил автомобильыс
-
- * LEXICON N_END-IN-ЛЛЬ  моль:мол молльӧ
-2015-09-04 change to ь%>яс after xfst rules are removed
 
  * LEXICON N_END-IN-Ч/ДЗ  автомобиль:автомобил автомобильыс
  * LEXICON NMN_END-IN-Ч/ДЗ  автомобиль:автомобил автомобильыс
@@ -65,7 +80,7 @@ subsequent Cns vs Vow
 
 
 
-!!Inflectional lexica 
+!!Inflectional lexica
 
 
 All nouns follow one contlex "N_"
