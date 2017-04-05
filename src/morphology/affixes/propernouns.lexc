@@ -33,155 +33,155 @@ LEXICON CYRL-SIBILANT_SUR
 LEXICON CYRL-VOW_SUR
  PropSur-kudo ;
 
-LEXICON CYRL-А_SUR
+LEXICON CYRL-A_SUR
  PropSur-kudo ;
 
-LEXICON CYRL-К_SUR 
+LEXICON CYRL-K_SUR 
  PropSur-lak ;
 
-LEXICON CYRL-Л_SUR 
+LEXICON CYRL-L_SUR 
 :2 PropSur-kal ; !!= * @CODE@ These are foreign Л words
 
-LEXICON CYRL-Т_SUR
+LEXICON CYRL-T_SUR
  PropSur-kit ;
 
-LEXICON Deriv-RUS-АН_SURMAL
- Deriv-RUS-В_SURMAL ;
+LEXICON Deriv-RUS-AN_SURMAL
+ Deriv-RUS-V_SURMAL ;
 
 !! Абдеев:Абдеев
-LEXICON Deriv-RUS-В_SURMAL
+LEXICON Deriv-RUS-V_SURMAL
 : PropSurMal-kal ;
 :а PropSurFem-kudo ;
 
 !! Багрий:Багр
-LEXICON Deriv-RUS-ИЙ_SURMAL
+LEXICON Deriv-RUS-IJ_SURMAL
 :ий PropSurMal-kal ;
 :яя PropSurFem-kudo ;
 
-LEXICON Deriv-RUS-ИН_SURMAL
- Deriv-RUS-В_SURMAL ;
+LEXICON Deriv-RUS-IN_SURMAL
+ Deriv-RUS-V_SURMAL ;
 
 !! Аморский:Аморск
-LEXICON Deriv-RUS-КИЙ_SURMAL
+LEXICON Deriv-RUS-KIJ_SURMAL
 :ий PropSurMal-kal ;
 :ая PropSurFem-kudo ;
 
-LEXICON Deriv-RUS-ОЙ_SURMAL
+LEXICON Deriv-RUS-OJ_SURMAL
 :ой PropSurMal-kal ;
 :ая PropSurFem-kudo ;
 
-LEXICON Deriv-RUS-ЫЙ_SURMAL
+LEXICON Deriv-RUS-YJ_SURMAL
 :ый PropSurMal-kal ;
 :ая PropSurFem-kudo ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! PLACE NAMES FROM TEMPLATES !!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-LEXICON PROP-PLC_КАЛ
+LEXICON PROP-PLC_KAL
 +N+Prop+Sem/Plc+Sg: CASEPOSSLEX ;
 
-LEXICON PROP-PLC_КИТ
+LEXICON PROP-PLC_KIT
 +N+Prop+Sem/Plc+Sg: CASEPOSSLEX ;
 
-LEXICON PROP-PLC_КУДО
+LEXICON PROP-PLC_KUDO
 +N+Prop+Sem/Plc+Sg: CASEPOSSLEX ;
 
-LEXICON PROP-PLC_ОШ
+LEXICON PROP-PLC_OSH
 +N+Prop+Sem/Plc+Sg: CASEPOSSLEX ;
 
 !! These are vowel-final stems
 !! They have previously received +Sem/Fem tags
 
-LEXICON PROP_МА !!= * @CODE@ Ага+Sem/Fem:Аг 
+LEXICON PROP_MA !!= * @CODE@ Ага+Sem/Fem:Аг 
 +N+Prop+Sg:а  CASEPOSSLEX ;
-LEXICON PROP_НА	!!= * @CODE@ Ада+Sem/Fem:Ад
+LEXICON PROP_NA	!!= * @CODE@ Ада+Sem/Fem:Ад
 +N+Prop+Sg:а  CASEPOSSLEX ;
-LEXICON PROP_НЯ	!!= * @CODE@ Аня+Sem/Fem:Ан
+LEXICON PROP_NIA	!!= * @CODE@ Аня+Sem/Fem:Ан
 +N+Prop+Sg:я  CASEPOSSLEX ;
 
 !!
-LEXICON PROP_КАЛ_FEM
+LEXICON PROP_KAL_FEM
 +N+Prop+Sem/Fem+Sg: CASEPOSSLEX ;
-LEXICON PROP_КАЛ_MAL
+LEXICON PROP_KAL_MAL
 +N+Prop+Sem/Mal+Sg: CASEPOSSLEX ;
-LEXICON PROP_КИТ_FEM
+LEXICON PROP_KIT_FEM
 +N+Prop+Sem/Fem+Sg: CASEPOSSLEX ;
-LEXICON PROP_КИТ_MAL
+LEXICON PROP_KIT_MAL
 +N+Prop+Sem/Mal+Sg: CASEPOSSLEX ;
-LEXICON PROP_КИТ_SUR
+LEXICON PROP_KIT_SUR
 +N+Prop+Sem/Sur+Sg: CASEPOSSLEX ;
 
 
-LEXICON PROP_КУДО_FEM
+LEXICON PROP_KUDO_FEM
 +N+Prop+Sem/Fem+Sg: CASEPOSSLEX ;
-LEXICON PROP_КУДО_MAL
+LEXICON PROP_KUDO_MAL
 +N+Prop+Sem/Mal+Sg: CASEPOSSLEX ;
 
-LEXICON PROP_КУДО_PATRFEM
+LEXICON PROP_KUDO_PATRFEM
 +Sem/Patr+Sem/Fem+N+Prop+Sg: CASEPOSSLEX ; 
 
-LEXICON PROP_КУДО_PATRMAL
+LEXICON PROP_KUDO_PATRMAL
 +Sem/Patr+Sem/Mal+N+Prop+Sg: CASEPOSSLEX ; 
-LEXICON PROP_ЛАК_MAL
+LEXICON PROP_LAK_MAL
 +N+Prop+Sem/Mal+Sg: CASEPOSSLEX ;
-LEXICON PROP_ОШ_FEM
+LEXICON PROP_OSH_FEM
 +N+Prop+Sem/Fem+Sg: CASEPOSSLEX ;
-LEXICON PROP_ОШ_MAL
+LEXICON PROP_OSH_MAL
 +N+Prop+Sem/Mal+Sg: CASEPOSSLEX ;
-LEXICON PROP_ОШ_PATRMAL
+LEXICON PROP_OSH_PATRMAL
 +N+Prop+Sem/Patr+Sg: CASEPOSSLEX ;
-LEXICON PROP_ОШ_SUR
+LEXICON PROP_OSH_SUR
 +N+Prop+Sem/Sur+Sg: CASEPOSSLEX ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!! Male given name for deriving patronyms 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-LEXICON PROP-PATR-MAL_END-IN-Ч/ДЗ
+LEXICON PROP-PATR-MAL_END-IN-CH/DZ
 +N+Prop+Sem/Patr+Sem/Mal: NMN_END-IN-Ч/ДЗ ; !! Should this be limited to +Sg? 2015-09-06
 
 LEXICON PropNameMaleDer-I-YEvich
 !! Вили:Вил
-+Orth/Colloq:ич PROP-PATR-MAL_END-IN-Ч/ДЗ ;
-:ьевич PROP-PATR-MAL_END-IN-Ч/ДЗ ;
-:ьевна PROP_КУДО_PATRFEM ;
-:и PROP_КАЛ_MAL ;
++Orth/Colloq:ич PROP-PATR-MAL_END-IN-CH/DZ ;
+:ьевич PROP-PATR-MAL_END-IN-CH/DZ ;
+:ьевна PROP_KUDO_PATRFEM ;
+:и PROP_KAL_MAL ;
 
 LEXICON PropNameMaleDer-YYA-Yich
 !! Илья:Иль
-:ич PROP-PATR-MAL_END-IN-Ч/ДЗ ;
-:ьишна PROP_КУДО_PATRFEM ;
-:я PROP_КАЛ_MAL ;
+:ич PROP-PATR-MAL_END-IN-CH/DZ ;
+:ьишна PROP_KUDO_PATRFEM ;
+:я PROP_KAL_MAL ;
 
 LEXICON PropNameMaleDer-IJ-I0Evich
-+Orth/Colloq:ьич PROP-PATR-MAL_END-IN-Ч/ДЗ ;
-:иевич PROP-PATR-MAL_END-IN-Ч/ДЗ ;
-:иевна PROP_КУДО_PATRFEM ;
-:ий PROP_КАЛ_MAL ;
++Orth/Colloq:ьич PROP-PATR-MAL_END-IN-CH/DZ ;
+:иевич PROP-PATR-MAL_END-IN-CH/DZ ;
+:иевна PROP_KUDO_PATRFEM ;
+:ий PROP_KAL_MAL ;
 
 LEXICON PropNameMaleDer-IJ-Y0Evich
-+Orth/Colloq:ьич PROP-PATR-MAL_END-IN-Ч/ДЗ ;
-:ьевич PROP-PATR-MAL_END-IN-Ч/ДЗ ;
-:ьевна PROP_КУДО_PATRFEM ;
-:ий PROP_КАЛ_MAL ;
++Orth/Colloq:ьич PROP-PATR-MAL_END-IN-CH/DZ ;
+:ьевич PROP-PATR-MAL_END-IN-CH/DZ ;
+:ьевна PROP_KUDO_PATRFEM ;
+:ий PROP_KAL_MAL ;
 
 LEXICON PropNameMaleDer-J-0Evich
 !! Андрей:Андре
-+Orth/Colloq:ич PROP-PATR-MAL_END-IN-Ч/ДЗ ;
-:евич PROP-PATR-MAL_END-IN-Ч/ДЗ ;
-:евна PROP_КУДО_PATRFEM ;
-:й PROP_КАЛ_MAL ;
++Orth/Colloq:ич PROP-PATR-MAL_END-IN-CH/DZ ;
+:евич PROP-PATR-MAL_END-IN-CH/DZ ;
+:евна PROP_KUDO_PATRFEM ;
+:й PROP_KAL_MAL ;
 
 LEXICON PropNameMaleDer-Y-0Evich
-+Orth/Colloq:ич PROP-PATR-MAL_END-IN-Ч/ДЗ ;
-:евич PROP-PATR-MAL_END-IN-Ч/ДЗ ;
-:евна PROP_КУДО_PATRFEM ;
-:ь PROP_КАЛ_MAL ;
++Orth/Colloq:ич PROP-PATR-MAL_END-IN-CH/DZ ;
+:евич PROP-PATR-MAL_END-IN-CH/DZ ;
+:евна PROP_KUDO_PATRFEM ;
+:ь PROP_KAL_MAL ;
 
 LEXICON PropNameMaleDer-Ovich
-+Orth/Colloq:ыч PROP-PATR-MAL_END-IN-Ч/ДЗ ;
-:ович PROP-PATR-MAL_END-IN-Ч/ДЗ ;
-:овна PROP_КУДО_PATRFEM ;
- PROP_КАЛ_MAL ;
++Orth/Colloq:ыч PROP-PATR-MAL_END-IN-CH/DZ ;
+:ович PROP-PATR-MAL_END-IN-CH/DZ ;
+:овна PROP_KUDO_PATRFEM ;
+ PROP_KAL_MAL ;
 
 !!
 
@@ -302,14 +302,14 @@ LEXICON PROP_PARAGOGIC-M !!= * @CODE@ зон:зон зонмыс
 LEXICON PROP_PARAGOGIC-T !!= * @CODE@ зеп:зеп зептыс
 +N+Prop: NMN_PARAGOGIC-T ;
 
-LEXICON PROP_END-IN-DDY !!= * @CODE@ автомобиль:автомобил автомобильыс
-+N+Prop: NMN_END-IN-DDY ;
+LEXICON PROP_END-IN-DD1 !!= * @CODE@ автомобиль:автомобил автомобильыс
++N+Prop: NMN_END-IN-DD1 ;
 
 LEXICON PROP_END-IN-DDZ !!= * @CODE@ кыдз:кыд
 +N+Prop: NMN_END-IN-DDZ ;
 
-LEXICON PROP_END-IN-LLY !!= * @CODE@ моль:мол молльӧ
-+N+Prop: NMN_END-IN-LLY ;
+LEXICON PROP_END-IN-LL1 !!= * @CODE@ моль:мол молльӧ
++N+Prop: NMN_END-IN-LL1 ;
 
 
 
