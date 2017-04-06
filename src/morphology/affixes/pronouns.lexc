@@ -539,6 +539,12 @@ LEXICON REFL_AS !! * = @CODE@ ас:а
 +Pron+Refl:  REFL_AS-01 ;
 
 LEXICON REFL_AS-01
++Sg1:с PRON-REFL-SG1-4-OBL-CASES ;
++Sg2:с PRON-REFL-SG2-4-OBL-CASES ;
++Sg3:с PRON-REFL-SG3-4-OBL-CASES ;
++Pl1:с PRON-REFL-PL1-4-OBL-CASES ;
++Pl2:с PRON-REFL-PL2-4-OBL-CASES ;
++Pl3:с PRON-REFL-PL3-4-OBL-CASES ;
 :с PRON-REFL-OBL-CASES ;
 
 +Sg1:слам PRON-REFL-SG1-4-GEN  "minun oma -ni" ;
@@ -563,56 +569,66 @@ LEXICON REFL_AS-01
 
 :сладор PRON-REFL-IN_LADOR  "" ;
 
+LEXICON PRON-REFL-SG1-4-OBL-CASES
++Car:тӧг K ; !There is no indication of person. = Sg1
++Com:кӧд K ; !There is no indication of person. = Sg1
++Cns:ла K ; !There is no indication of person. = Sg1
++Dat:лым K ;
++Ela:сьым K ;
++Ins:ӧн K ; !There is no indication of person. = Sg1, Pl3
++Ins:намӧн K ; !CHECKME
+
+LEXICON PRON-REFL-SG2-4-OBL-CASES
++Car:тӧгыд K ; !
++Com:кӧдыд K ; !
++Cns:лаыд K ;
++Cns:ыдла K ;
++Dat:лыд K ;
++Ela:сьыд K ;
++Ine:ад K ;
++Ins:над K ;
+LEXICON PRON-REFL-SG3-4-OBL-CASES
++Car:тӧгыс K ; !
++Com:кӧдыс K ; !
++Cns:ысла K ;
++Dat:лыс K ;
++Ela:сьыс K ;
++Ine:ас K ;
++Ins:нас K ;
+LEXICON PRON-REFL-PL1-4-OBL-CASES
++Car:тӧгным K ; !
++Com:кӧдным K ; !
++Dat:лыным K ;
++Ela:сьыным K ;
++Ela:сьынымлысь K ; !CHECKME
++Ela:сьынымысь K ; !CHECKME
++Ins:наным K ;
+
+LEXICON PRON-REFL-PL2-4-OBL-CASES
++Car:тӧгныд K ; !
++Car:ныдтӧг K ; !
++Cns:ныдла K ;
++Com:кӧдныд K ; !
++Com:ныдкӧд K ; !
++Dat:лыныд K ;
++Dat:лыныдлы K ;
++Ela:сьыныд K ;
++Ins:наныд K ;
+LEXICON PRON-REFL-PL3-4-OBL-CASES
++Car:тӧгныс K ; !
++Car:ныстӧг K ; !
++Cns:нысла K ;
++Com:кӧдныс K ; !
++Com:ныскӧд K ; !
++Dat:лыныс K ;
++Dat:лыныслы K ;
++Dat:ныслы K ;
++Ela:сьыныс K ;
++Ins:ӧн K ; !There is no indication of person. = Sg1, Pl3
++Ins:наныс K ;
+
+
 LEXICON PRON-REFL-OBL-CASES
-+Ela+PxSg1:сьым K ;
-+Ela+PxSg2:сьыд K ;
-+Ela+PxSg3:сьыс K ;
-+Ela+PxPl1:сьыным K ;
-+Ela+PxPl1+Abl:сьынымлысь K ; !CHECKME
-+Ela+PxPl1:сьынымысь K ; !CHECKME
-+Ela+PxPl2:сьыныд K ;
-+Ela+PxPl3:сьыныс K ;
-+Dat+PxSg1:лым K ;
-+Dat+PxSg2:лыд K ;
-+Dat+PxSg3:лыс K ;
-+Dat+PxPl1:лыным K ;
-+Dat+PxPl2:лыныд K ;
-+Dat+PxPl2:лыныдлы K ;
-+Dat+PxPl3:лыныс K ;
-+Dat+PxPl3:лыныслы K ;
-+Dat+PxPl3:ныслы K ;
-+Sg1+Ins:ӧн K ; !There is no indication of person. = Sg1, Pl3
-+Pl3+Ins:ӧн K ; !There is no indication of person. = Sg1, Pl3
-+Ins+PxSg1+Ins:намӧн K ; !CHECKME
-+Ins+PxSg2:над K ;
-+Ins+PxSg3:нас K ;
-+Ins+PxPl1:наным K ;
-+Ins+PxPl2:наныд K ;
-+Ins+PxPl3:наныс K ;
-+Com+PxSg1:кӧд K ; !There is no indication of person. = Sg1
-+Com+PxSg2:кӧдыд K ; !
-+Com+PxSg3:кӧдыс K ; !
-+Com+PxPl1:кӧдным K ; !
-+Com+PxPl2:кӧдныд K ; !
-+Com+PxPl2:ныдкӧд K ; !
-+Com+PxPl3:кӧдныс K ; !
-+Com+PxPl3:ныскӧд K ; !
-+Car+PxSg1:тӧг K ; !There is no indication of person. = Sg1
-+Car+PxSg2:тӧгыд K ; !
-+Car+PxSg3:тӧгыс K ; !
-+Car+PxPl1:тӧгным K ; !
-+Car+PxPl2:тӧгныд K ; !
-+Car+PxPl2:ныдтӧг K ; !
-+Car+PxPl3:тӧгныс K ; !
-+Car+PxPl3:ныстӧг K ; !
-+Cons+PxSg1:ла K ; !There is no indication of person. = Sg1
-+Cons+PxSg2:лаыд K ;
-+Cons+PxSg2:ыдла K ;
-+Cons+PxSg3:ысла K ;
-+Cons+PxPl2:ныдла K ;
-+Cons+PxPl3:нысла K ;
-+Ine+PxSg2:ад K ;
-+Ine+PxSg3:ас K ;
 +Ine+PxPl1:аным K ;
 +Ine+PxPl2:аныд K ;
 +Ine+PxPl3:аныс K ;
