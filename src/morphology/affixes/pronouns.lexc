@@ -534,9 +534,34 @@ LEXICON PRON-REL
 LEXICON PRON-REFL-IN_LADOR
 +Pron+Refl+Der/ладор: Noun1 ; !2011-11-22
 
-LEXICON EndRefl
-+Pron+Refl+Abs: WordEnd ; !ас is an absolute-form modifer
- PRON-REFL-OBL-CASES ;
+LEXICON REFL_AS !! * = @CODE@ ас:а 
++A+Refl+Attr:с WordEnd ; !ас is an absolute-form modifer
++Pron+Refl:  REFL_AS-01 ;
+
+LEXICON REFL_AS-01
+:с PRON-REFL-OBL-CASES ;
+
++Sg1:слам PRON-REFL-SG1-4-GEN  "minun oma -ni" ;
++Sg1:чым PRON-REFL-SG1-4-NOM  "minä itse" ;
+
++Sg2:сьтӧ PRON-REFL-SG2-4-ACC  "" ;
++Sg2:слад PRON-REFL-SG2-4-GEN  "sinun oma -si" ;
++Sg2:чыд PRON-REFL-SG2-4-CAR/ELA/NOM  "sinä itse" ;
++Sg3:сьсӧ PRON-REFL-SG3-4-ACC  "" ;
++Sg3:слас PRON-REFL-SG3-4-GEN  "hänen oma -nsa/ sen oma" ;
++Sg3:чыс PRON-REFL-SG3-4-NOM  "hän itse" ;
+
++Pl1:сланым PRON-REFL-PL1-4-GEN  "meidän oma -mme" ;
++Pl1:сьным PRON-REFL-PL1-4-NOM  "me itse" ;
++Pl2:сь PRON-REFL-PL2-4-ACC  "" ;
++Pl2:сланыд PRON-REFL-PL2-4-GEN  "teidän oma -nne" ;
++Pl2:сьныд PRON-REFL-PL2-4-NOM  "te itse" ;
+
++Pl3:сь PRON-REFL-PL3-4-ACC  "" ;
++Pl3:сланыс PRON-REFL-PL3-4-GEN  "heidän oma -nsa/ niiden oma" ;
++Pl3:сьныс PRON-REFL-PL3-4-NOM  "he/ ne itse" ;
+
+:сладор PRON-REFL-IN_LADOR  "" ;
 
 LEXICON PRON-REFL-OBL-CASES
 +Ela+PxSg1:сьым K ;
@@ -624,90 +649,89 @@ LEXICON PRON-REFL-OBL-CASES
 !Extras 2011-10-07
 
 
-LEXICON PRON-REFL-SG1-NOM
-+Pron+Refl+Sg1+Nom: WordEnd ;
-+Pron+Refl+Sg1+Acc:ӧс WordEnd ;
-+Pron+Refl+Sg1+Ins:ӧн WordEnd ;
-+Pron+Refl+Sg1+Com:кӧд WordEnd ;
-+Pron+Refl+Sg1+Car:тӧг WordEnd ;
-+Pron+Refl+Sg1+Ine:ын WordEnd ;
-+Pron+Refl+Sg1+Ela:ысь WordEnd ;
-+Pron+Refl+Sg1+Ill:ӧ WordEnd ;
+LEXICON PRON-REFL-SG1-4-NOM
+ ACC-WORD-END ;
+ CAR-WORD-END ;
+ COM-WORD-END ;
+ ELA-WORD-END ;
+ ILL-WORD-END ;
+ INE-WORD-END ;
+ INS-WORD-END ;
+ NOM-WORD-END ;
 
 
-LEXICON PRON-REFL-SG1-GEN
-+Pron+Refl+Sg1+Gen: WordEnd ;
-+Pron+Refl+Sg1+Com:кӧд WordEnd ;
-+Pron+Refl+Sg1+Egr:сянь WordEnd ;
+LEXICON PRON-REFL-SG1-4-GEN
++Gen: WordEnd ; !! This is bare
+ COM-WORD-END ;
+ EGR-WORD-END ;
 
-LEXICON PRON-REFL-SG2-NOM
-+Pron+Refl+Sg2+Nom: WordEnd ;
-+Pron+Refl+Sg2+Car:тӧг WordEnd ;
-+Pron+Refl+Sg2+Ela:ысь WordEnd ;
+LEXICON PRON-REFL-SG2-4-CAR/ELA/NOM
+ CAR-WORD-END ;
+ NOM-WORD-END ;
+ ELA-WORD-END ;
 
-LEXICON PRON-REFL-SG2-GEN
-+Pron+Refl+Sg2+Gen: WordEnd ;
-+Pron+Refl+Sg2+Erg:сянь WordEnd ;
+LEXICON PRON-REFL-SG2-4-GEN
++Gen: WordEnd ;
+ EGR-WORD-END ;
 
-LEXICON PRON-REFL-SG2-ACC
-+Pron+Refl+Sg2+Acc2: WordEnd ;
+LEXICON PRON-REFL-SG2-4-ACC
++Acc2: WordEnd ;
 
-LEXICON PRON-REFL-SG3-NOM
-+Pron+Refl+Sg3+Nom: WordEnd ;
-+Pron+Refl+Sg2+Ins:ӧн WordEnd ;
-+Pron+Refl+Sg2+Com:кӧд WordEnd ;
-+Pron+Refl+Sg2+Car:тӧг WordEnd ;
-+Pron+Refl+Sg1+Ela:ысь WordEnd ;
+LEXICON PRON-REFL-SG3-4-NOM
+ CAR-WORD-END ;
+ COM-WORD-END ;
+ ELA-WORD-END ;
+ NOM-WORD-END ;
+ INS-WORD-END ;
 
-LEXICON PRON-REFL-SG3-GEN
-+Pron+Refl+Sg3+Gen: WordEnd ;
-+Pron+Refl+Sg3+Gen:лӧн WordEnd ;
-+Pron+Refl+Sg3+Ine:ӧ WordEnd ;
+LEXICON PRON-REFL-SG3-4-GEN
++Gen: WordEnd ; !! bare
+ GEN-WORD-END ;
+ ILL-WORD-END ;
 
-LEXICON PRON-REFL-SG3-ACC
-+Pron+Refl+Sg3+Acc3: WordEnd ;
+LEXICON PRON-REFL-SG3-4-ACC
++Acc3: WordEnd ;
 
-LEXICON PRON-REFL-PL1-NOM
-+Pron+Refl+Pl1+Nom: WordEnd ;
-+Pron+Refl+Pl1+Acc:ӧс WordEnd ;
-+Pron+Refl+Pl1+Com:кӧд WordEnd ;
-+Pron+Refl+Pl1+Car:тӧг WordEnd ;
-+Pron+Refl+Pl1+Ela:ысь WordEnd ;
-+Pron+Refl+Pl1+Ter:ӧдз WordEnd ;
+LEXICON PRON-REFL-PL1-4-NOM
++Acc:ӧс WordEnd ;
+ CAR-WORD-END ;
+ COM-WORD-END ;
+ ELA-WORD-END ;
+ NOM-WORD-END ;
+ TER-WORD-END ;
 
-LEXICON PRON-REFL-PL1-GEN
-+Pron+Refl+Pl1+Gen: WordEnd ;
-+Pron+Refl+Pl1+Abl:лысь WordEnd ;
-+Pron+Refl+Pl1+Der/ладор:%>ладор Noun1 ;
+LEXICON PRON-REFL-PL1-4-GEN
++Gen: WordEnd ;  !! bare
+ ABL-WORD-END ;
++Der/ладор:%>ладор Noun1 ;
 
-LEXICON PRON-REFL-PL2-NOM
-+Pron+Refl+Pl2+Nom: WordEnd ;
-+Pron+Refl+Pl2+Acc2:тӧ WordEnd ;
-+Pron+Refl+Pl2+Cns:ла WordEnd ;
-+Pron+Refl+Pl2+Car:тӧг WordEnd ;
-+Pron+Refl+Pl2+Ela:ысь WordEnd ;
+LEXICON PRON-REFL-PL2-4-NOM
++Acc2:тӧ WordEnd ;
+ CAR-WORD-END ;
+ CNS-WORD-END ;
+ ELA-WORD-END ;
+ NOM-WORD-END ;
 
-LEXICON PRON-REFL-PL2-GEN
-+Pron+Refl+Pl2+Gen: WordEnd ;
-+Pron+Refl+Pl2+Gen: WordEnd ;
-+Pron+Refl+Pl2+Der/ладор:%>ладор Noun1 ;
+LEXICON PRON-REFL-PL2-4-GEN
++Gen: WordEnd ; !! bare
++Der/ладор:%>ладор Noun1 ;
 
 
-LEXICON PRON-REFL-PL2-ACC
-+Pron+Refl+Pl2+Acc2: WordEnd ;
+LEXICON PRON-REFL-PL2-4-ACC
++Acc2:нытӧ WordEnd ;
 
-LEXICON PRON-REFL-PL3-NOM
-+Pron+Refl+Pl3+Nom: WordEnd ;
-+Pron+Refl+Pl3+Cns:ла WordEnd ;
+LEXICON PRON-REFL-PL3-4-NOM
+ CNS-WORD-END ;
+ NOM-WORD-END ;
 
-LEXICON PRON-REFL-PL3-GEN
-+Pron+Refl+Pl3+Gen: WordEnd ;
-+Pron+Refl+Pl3+Gen:лӧн WordEnd ;
-+Pron+Refl+Pl3+Prl:ӧд WordEnd ;
-+Pron+Refl+Pl3+Der/ладор:%>ладор Noun1 ;
+LEXICON PRON-REFL-PL3-4-GEN
++Gen: WordEnd ; !! bare
+ GEN-WORD-END ;
+ PRL-WORD-END ;
++Der/ладор:%>ладор Noun1 ;
 
-LEXICON PRON-REFL-PL3-ACC
-+Pron+Refl+Pl3+Acc3: WordEnd ;
+LEXICON PRON-REFL-PL3-4-ACC
++Acc3:нысӧ WordEnd ;
 
 
 LEXICON PRONDEMTAG
@@ -1141,5 +1165,36 @@ LEXICON PronInterr
 +Pron+Interr: WordEnd ;
 LEXICON PronIndef
 +Pron+Indef: WordEnd ;
+
+!! Word-final cases
+
+LEXICON ABL-WORD-END
++Abl:лысь WordEnd ;
+LEXICON ACC-WORD-END
++Acc:ӧс WordEnd ;
+LEXICON CAR-WORD-END
++Car:тӧг WordEnd ;
+LEXICON CNS-WORD-END
++Cns:ла WordEnd ;
+LEXICON COM-WORD-END
++Com:кӧд WordEnd ;
+LEXICON EGR-WORD-END
++Egr:сянь WordEnd ;
+LEXICON ELA-WORD-END
++Ela:ысь WordEnd ;
+LEXICON GEN-WORD-END
++Gen:лӧн WordEnd ;
+LEXICON ILL-WORD-END
++Ill:ӧ WordEnd ;
+LEXICON INE-WORD-END
++Ine:ын WordEnd ;
+LEXICON INS-WORD-END
++Ins:ӧн WordEnd ;
+LEXICON NOM-WORD-END
++Nom: WordEnd ;
+LEXICON PRL-WORD-END
++Prl:ӧд WordEnd ;
+LEXICON TER-WORD-END
++Ter:ӧдз WordEnd ;
 
 ! vim: set ft=xfst-lexc:
