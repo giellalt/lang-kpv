@@ -56,6 +56,50 @@ LEXICON ADV_ ! these are checked as advs.
 LEXICON ADV-INDEF_
 +Adv+Indef: WordEnd ;
 
+LEXICON ADV-INDEF_HAS-SJURO
++Adv+Indef+Der/сюрӧ: WordEnd ;
+LEXICON ADV-INDEF_HAS-KO
++Adv+Indef+Der/кӧ: WordEnd ;
+LEXICON ADV-4-INTERR-REL-INDEF
++Adv+Interr: WordEnd ;
++Adv+Rel: WordEnd ;
++Adv+Indef: 4-INDEF-TYPES_KO-SJURO ;
+LEXICON ADV-EGR-4-INTERR-REL-INDEF !! кысянь
++Adv+Interr+Egr: WordEnd ;
++Adv+Rel+Egr: WordEnd ;
++Adv+Indef+Egr: 4-INDEF-TYPES_KO-SJURO ;
+LEXICON ADV-EGR-ILL-4-INTERR-REL-INDEF !! кытчаньӧ
++Adv+Interr+Egr+Ill: WordEnd ;
++Adv+Rel+Egr+Ill: WordEnd ;
++Adv+Indef+Egr+Ill: 4-INDEF-TYPES_KO-SJURO ;
+LEXICON ADV-ELA-4-INTERR-REL-INDEF !! кытысь
++Adv+Interr+Ela: WordEnd ;
++Adv+Rel+Ela: WordEnd ;
++Adv+Indef+Ela: 4-INDEF-TYPES_KO-SJURO ;
+LEXICON ADV-ILL-4-INTERR-REL-INDEF !! кытчӧ
++Adv+Interr+Ill: WordEnd ;
++Adv+Rel+Ill: WordEnd ;
++Adv+Indef+Ill: 4-INDEF-TYPES_KO-SJURO ;
+LEXICON ADV-TRA-4-INTERR-REL-INDEF !! кыті
++Adv+Interr+Tra: WordEnd ;
++Adv+Rel+Tra: WordEnd ;
++Adv+Indef+Tra: 4-INDEF-TYPES_KO-SJURO ;
+LEXICON ADV-TRA-EGR-4-INTERR-REL-INDEF ! This might require something for double case
++Adv+Interr+Tra+Egr: WordEnd ;
++Adv+Rel+Tra+Egr: WordEnd ;
++Adv+Indef+Tra+Egr: 4-INDEF-TYPES_KO-SJURO ;
+LEXICON ADV-TER-4-INTERR-REL-INDEF !! кытчӧдз
++Adv+Interr+Ter: WordEnd ;
++Adv+Rel+Ter: WordEnd ;
++Adv+Indef+Ter: 4-INDEF-TYPES_KO-SJURO ;
+LEXICON 4-INDEF-TYPES_KO-SJURO
++Der/кӧ:кӧ WordEnd ;
++Der/сюрӧ:сюрӧ WordEnd ;
+
+LEXICON ADV-INTERR_
++Adv+Interr: WordEnd ;
+
+
 LEXICON ADV-REL-TEMP_
 +Adv+Rel+Temp: COMPARATIVE ;
 
