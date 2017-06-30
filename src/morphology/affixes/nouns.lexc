@@ -207,10 +207,13 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END
 	CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END ;
 LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END
 +Gen:%>лӧн PredMonLex ;
++Err/Dial+Gen:%>лэн PredMonLex ;
 +Abl:%>лысь K ;
 +Dat:%>лы K ;
 +Com:%>кӧд K ;
++Err/Dial+Com:%>кед K ;
 +Car:%>тӧг K ;
++Err/Dial+Car:%>тэг K ;
 +Cns:%>ла K ;
 +Cmpr:%>ся K ;
 +Apr:%>лань SPAT-COMPARATIVE ;
@@ -219,10 +222,13 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END
 +AprIne:%>ланьын SPAT-COMPARATIVE ;  ! New cases in last grammar
 +AprEla:%>ланьысь SPAT-COMPARATIVE ;  !
 +AprIll:%>ланьӧ IllCompar ; !
++Err/Dial+AprIll:%>лане IllCompar ; !
 +AprEgr:%>ланьсянь SPAT-COMPARATIVE ; !
 +AprPrl:%>ланьӧд K ; !
++Err/Dial+AprPrl:%>ланед K ; !
 +AprTra:%>ланьті K ; !
 +AprTer:%>ланьӧдз K ; ! Tähän asti
++Err/Dial+AprTer:%>ланедз K ; ! Tähän asti
 !! SG1
 +Ins+PxSg1:%>нам K ;
 +Ela+PxSg1:%>сьым SPAT-COMPARATIVE ;
@@ -233,13 +239,17 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END
 +AprEla+PxSg1:%>ланьсьым SPAT-COMPARATIVE ;
 +AprIll+PxSg1:%>ланям IllCompar ; !
 +AprPrl+PxSg1:%>ланьӧдым K ;
++Err/Dial+AprPrl+PxSg1:%>ланедым K ;
 +AprTra+PxSg1:%>ланьтіым K ;
 +AprTer+PxSg1:%>ланьӧдзым K ;
++Err/Dial+AprTer+PxSg1:%>ланедзым K ;
 
 !! SG2
 +Ins+PxSg2:%>над K ;
 +Car+PxSg2:%>тӧгыд K ;
++Err/Dial+Car+PxSg2:%>тэгыд K ;
 +Car+PxSg2:%>ыдтӧг K ; ! Px + Case
++Err/Dial+Car+PxSg2:%>ыдтэг K ; ! Px + Case
 +Cmpr+PxSg2:%>сяыд K ;
 +Ela+PxSg2:%>сьыд SPAT-COMPARATIVE ;
 +Apr+PxSg2:%>ланьыд SPAT-COMPARATIVE ;
@@ -247,18 +257,23 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END
 +Egr+PxSg2:%>ыдсянь K ; ! Px + Case Ильяыдсянь
 +Tra+PxSg2:%>тіыд K ;
 +Acc+PxSg2:%>тӧ K ; ! Acc2
++Err/Dial+Acc+PxSg2:%>тэ K ; ! Acc2
 +AprIne+PxSg2:%>ланяд SPAT-COMPARATIVE ;
 +AprEla+PxSg2:%>ланьсьыд SPAT-COMPARATIVE ;
 +AprIll+PxSg2:%>ланяд IllCompar ; !
 +AprEgr+PxSg2:%>ланьсяньыд SPAT-COMPARATIVE ;
 +AprPrl+PxSg2:%>ланьӧдыд K ;
++Err/Dial+AprPrl+PxSg2:%>ланедыд K ;
 +AprTra+PxSg2:%>ланьтіыд K ;
 +AprTer+PxSg2:%>ланьӧдзыд K ;
++Err/Dial+AprTer+PxSg2:%>ланедзыд K ;
 
 !! SG3
 +Acc+PxSg3:%>сӧ K ; !Acc3
++Err/Dial+Acc+PxSg3:%>сэ K ; !Acc3
 +Ins+PxSg3:%>нас K ;
 +Car+PxSg3:%>тӧгыс K ;
++Err/Dial+Car+PxSg3:%>тэгыс K ;
 +Cmpr+PxSg3:%>сяыс K ;
 +Ela+PxSg3:%>сьыс SPAT-COMPARATIVE ;
 +Apr+PxSg3:%>ланьыс SPAT-COMPARATIVE ;
@@ -269,20 +284,28 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END
 +AprIll+PxSg3:%>ланяс IllCompar ; !
 +AprEgr+PxSg3:%>ланьсяньыс SPAT-COMPARATIVE ;
 +AprPrl+PxSg3:%>ланьӧдыс K ;
++Err/Dial+AprPrl+PxSg3:%>ланедыс K ;
 +AprTra+PxSg3:%>ланьтіыс K ;
 +AprTer+PxSg3:%>ланьӧдзыc K ;
++Err/Dial+AprTer+PxSg3:%>ланедзыc K ;
 
 !! PL1
 +Nom+PxPl1:%>ным K ;
 +Gen+PxPl1:%>нымлӧн K ;
++Err/Dial+Gen+PxPl1:%>нымлэн K ;
 +Abl+PxPl1:%>нымлысь K ;
 +Dat+PxPl1:%>нымлы K ;
 +Acc+PxPl1:%>нымӧс K ;
++Err/Dial+Acc+PxPl1:%>нымес K ;
 +Ins+PxPl1:%>наным K ;
 +Com+PxPl1:%>нымкӧд K ;
++Err/Dial+Com+PxPl1:%>нымкед K ;
 +Com+PxPl1:%>кӧдным K ;
++Err/Dial+Com+PxPl1:%>кедным K ;
 +Car+PxPl1:%>тӧгным K ; ! Case+Px
++Err/Dial+Car+PxPl1:%>тэгным K ; ! Case+Px
 +Car+PxPl1:%>нымтӧг K ; ! Px+Case
++Err/Dial+Car+PxPl1:%>нымтэг K ; ! Px+Case
 +Cns+PxPl1:%>нымла K ;
 +Cmpr+PxPl1:%>сяным K ;
 +Ela+PxPl1:%>сьыным SPAT-COMPARATIVE ;
@@ -293,25 +316,33 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END
 +Egr+PxPl1:%>нымсянь SPAT-COMPARATIVE ; ! _ставнымсянь_  Px+Case
 +Tra+PxPl1:%>тіным K ;
 +Prl+PxPl1:%>нымӧд K ; ! Px + Case туйнымӧд
++Err/Dial+Prl+PxPl1:%>нымед K ; ! Px + Case туйнымӧд
 
 +AprIne+PxPl1:%>ланяным SPAT-COMPARATIVE ;
 +AprEla+PxPl1:%>ланьсьыным SPAT-COMPARATIVE ;
 +AprIll+PxPl1:%>ланяным IllCompar ; !
 +AprEgr+PxPl1:%>ланьсяньным SPAT-COMPARATIVE ;
 +AprPrl+PxPl1:%>ланьӧдным K ;
++Err/Dial+AprPrl+PxPl1:%>ланедным K ;
 +AprTra+PxPl1:%>ланьтіным K ;
 +AprTer+PxPl1:%>ланьӧдзным K ;
++Err/Dial+AprTer+PxPl1:%>ланедзным K ;
 
 !! PL2
 +Nom+PxPl2:%>ныд K ;
 +Gen+PxPl2:%>ныдлӧн K ;
++Err/Dial+Gen+PxPl2:%>ныдлэн K ;
 +Abl+PxPl2:%>ныдлысь K ;
 +Dat+PxPl2:%>ныдлы K ;
 +Acc+PxPl2:%>нытӧ K ; ! Acc2
++Err/Dial+Acc+PxPl2:%>нытэ K ; ! Acc2
 +Ins+PxPl2:%>наныд K ;
 +Com+PxPl2:%>ныдкӧд K ;
++Err/Dial+Com+PxPl2:%>ныдкед K ;
 +Com+PxPl2:%>кӧдныд K ;
++Err/Dial+Com+PxPl2:%>кедныд K ;
 +Car+PxPl2:%>тӧгныд K ;
++Err/Dial+Car+PxPl2:%>тэгныд K ;
 +Cns+PxPl2:%>ныдла K ;
 +Cmpr+PxPl2:%>сяныд K ;
 +Ela+PxPl2:%>сьыныд SPAT-COMPARATIVE ;
@@ -325,19 +356,26 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END
 +AprIll+PxPl2:%>ланяныд IllCompar ; !
 +AprEgr+PxPl2:%>ланьсяньныд SPAT-COMPARATIVE ;
 +AprPrl+PxPl2:%>ланьӧдныд K ;
++Err/Dial+AprPrl+PxPl2:%>ланедныд K ;
 +AprTra+PxPl2:%>ланьтіныд K ;
 +AprTer+PxPl2:%>ланьӧдзныд K ;
++Err/Dial+AprTer+PxPl2:%>ланедзныд K ;
 
 !! PL3
 +Nom+PxPl3:%>ныс K ;
 +Gen+PxPl3:%>ныслӧн K ; ! Px + Case
++Err/Dial+Gen+PxPl3:%>ныслэн K ; ! Px + Case
 +Abl+PxPl3:%>ныслысь K ; ! Px + Case
 +Dat+PxPl3:%>ныслы K ; ! Px + Case
 +Acc+PxPl3:%>нысӧ K ; ! Px + Case Acc3
++Err/Dial+Acc+PxPl3:%>нысэ K ; ! Px + Case Acc3
 +Ins+PxPl3:%>наныс K ;
 +Com+PxPl3:%>ныскӧд K ; ! Px + Case
++Err/Dial+Com+PxPl3:%>ныскед K ; ! Px + Case
 +Com+PxPl3:%>кӧдныс K ; ! Px + Case
++Err/Dial+Com+PxPl3:%>кедныс K ; ! Px + Case
 +Car+PxPl3:%>тӧгныс K ;
++Err/Dial+Car+PxPl3:%>тэгныс K ;
 +Cns+PxPl3:%>нысла K ; ! Px + Case
 +Cmpr+PxPl3:%>сяныс K ;
 +Ela+PxPl3:%>сьыныс SPAT-COMPARATIVE ;
@@ -351,8 +389,10 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END
 +AprIll+PxPl3:%>ланяныс IllCompar ; !
 +AprEgr+PxPl3:%>ланьсяньныс SPAT-COMPARATIVE ;
 +AprPrl+PxPl3:%>ланьӧдныс K ;
++Err/Dial+AprPrl+PxPl3:%>ланедныс K ;
 +AprTra+PxPl3:%>ланьтіныс K ;
 +AprTer+PxPl3:%>ланьӧдзныс K ;
++Err/Dial+AprTer+PxPl3:%>ланедзныс K ;
 
 LEXICON CASEPOSSLEX-AFTERDERIVATION_VOW
  CASEPOSSLEX-AFTERDERIVATION_А ;
@@ -398,7 +438,7 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_Я
 +Ine+PxPl3:%>яныс SPAT-COMPARATIVE ;
 +Ill+PxPl3:%>яныс IllCompar ; !
 
-
+! THIS FAR 2017-06-29 +Err/Dial
 LEXICON CASEPOSSLEX-AFTERDERIVATION_Ӧ
 +Acc:%>ӧс K ;
 +Ins:%>ӧн PredMonLex ;
