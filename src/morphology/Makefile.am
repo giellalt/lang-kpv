@@ -108,6 +108,14 @@ GT_DISTRO_SRCS=
 
 ### BEGIN: Local processing: ###
 
+### List additional targets in the following variable, for build targets not
+### covered by other means. This comes ***in addition to*** what you can do by
+### just targeting lexicon.*: lexicon.tmp.*, and is useful if you want to build
+### separate fst's that need further treatment in the src/ dir. See the language
+### gle/ for an example of how this is used.
+
+GIELLA_LOCAL_TARGETS=
+
 generated_files/urj-Cyrl-propernouns.lexc: \
 	$(GIELLA_SHARED)/urj-Cyrl/src/morphology/stems/urj-Cyrl-propernouns.lexc
 	$(AM_V_at)$(MKDIR_P) generated_files
