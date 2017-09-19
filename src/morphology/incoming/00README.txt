@@ -24,5 +24,3 @@ S6 (й) N_PARAGOGIC-Й
 S7 (к) N_PARAGOGIC-К 
 S8 (м) N_PARAGOGIC-М 
 S9 (т) N_PARAGOGIC-Т
-
-SVN TEST Rogier
