@@ -65,11 +65,13 @@ LEXICON NMN_
 
 
 LEXICON Noun1-JM ! понйыс, понмыс
-+N+Cmp:м R ;
-+N+Sg:м CASEPOSSLEX ;
-+N+Cmp:й R ;
-+N+Sg:й CASEPOSSLEX ;
-+N+Pl:%>ъяс CASEPOSSLEX ;
++N:м NMN_PARAGOGIC ;
+!2017-09-19+N+Cmp:м R ;
+!2017-09-19+N+Sg:м CASEPOSSLEX ;
+!2017-09-19+N+Cmp:й R ;
++N+Sg:й CASEPOSSLEX-AFTERDERIVATION_VOW ;
+!2017-09-19+N+Sg:й CASEPOSSLEX ;
+!2017-09-19+N+Pl:%>ъяс CASEPOSSLEX ;
 
 !! subsequent Cns vs Vow
 LEXICON N_PARAGOGIC !!= * @CODE@ 
@@ -215,7 +217,7 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END
 +Car:%>тӧг K ;
 +Err/Dial+Car:%>тэг K ;
 +Cns:%>ла K ;
-+Cmpr:%>ся K ;
++Err/Dial+Cmpr:%>ся K ;
 +Apr:%>лань SPAT-COMPARATIVE ;
 +Egr:%>сянь SPAT-COMPARATIVE ;
 +Tra:%>ті K ;
@@ -527,10 +529,14 @@ LEXICON DERIVEDADJ
 LEXICON AdjCompar
 +Der/джык+Comp:%>джык PredMonLex ;
 +Der/джык+Comp+Der/а:%>джыка ADV_ ;
-+Der/джык+Comp+Der/MWN+N+Sg:%>джык CASEPOSSLEX-afterDerivation ;
-+Der/джык+Comp+Der/MWN+N+Pl:%>джыкъяс CASEPOSSLEX-afterDerivation ;
-+Der/MWN+N+Sg: CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
-+Der/MWN+N+Pl:%>ъяс CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
++Der/джык+Comp+Sg:%>джык CASEPOSSLEX-afterDerivation ;
++Der/джык+Comp+Pl:%>джыкъяс CASEPOSSLEX-afterDerivation ;
+!2017-09-19+Der/джык+Comp+Der/MWN+N+Sg:%>джык CASEPOSSLEX-afterDerivation ;
+!2017-09-19+Der/джык+Comp+Der/MWN+N+Pl:%>джыкъяс CASEPOSSLEX-afterDerivation ;
++Sg: CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
++Pl:%>ъяс CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
+!2017-09-19+Der/MWN+N+Sg: CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
+!2017-09-19+Der/MWN+N+Pl:%>ъяс CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
 
 LEXICON IllCompar
  K ;
