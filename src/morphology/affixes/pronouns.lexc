@@ -286,7 +286,8 @@ LEXICON persplobl !!≈ * __@CODE@__
 LEXICON INTERR
 кин+Pron+Sem/Hum+Nom:кин INTERR-REL ; ! 2011-11-09 This will need cases
 кодар+Det:кодар INTERR-REL-INDEF ;
-кодар+Det+Der/MWN:кодар PRON-HUM-OBL ;
+!2017-09-19кодар+Det+Der/MWN:кодар PRON-HUM-OBL ;
+!кодар+Det+Der/MWN:кодар PRON-HUM-OBL ;
 кодар+Det+Der/ладор:кодарладор PRON-HUM-OBL ;
 
 коді:код PRON-HUM ;
@@ -299,8 +300,10 @@ LEXICON INTERR
 кутшӧм+Pron:кутшӧм INTERR-REL-INDEF ; ! This needs to be 
 кутшӧм+Pron+Rel+Cop+Pl:кутшӧмӧсь INTERR-REL-INDEF ; ! This needs to be 
 кутшӧма+Adv+Manner:кутшӧма INTERR-REL-INDEF ; ! This needs to be 
-кутшӧм+A+Der/MWN+N+Sg:кутшӧм PRON-NONHUM ;
-кутшӧм+A+Der/MWN+N+Pl:кутшӧмъяс PRON-NONHUM ;
+кутшӧм+Pron+Sg:кутшӧм PRON-NONHUM ;
+кутшӧм+Pron+Pl:кутшӧмъяс PRON-NONHUM ;
+!2017-09-19кутшӧм+A+Der/MWN+N+Sg:кутшӧм PRON-NONHUM ;
+!2017-09-19кутшӧм+A+Der/MWN+N+Pl:кутшӧмъяс PRON-NONHUM ;
 кутшӧми+Pron+A:кутшӧми INTERR-REL-INDEF ; ! This needs to be 
 кыдз+Pron+Adv+Manner:кыдз INTERR-REL-INDEF ;
 кыдзи+Pron+Adv+Manner:кыдзи INTERR-REL-INDEF ;
@@ -754,9 +757,12 @@ LEXICON PRONDEMTAG
 +Pron+Dem: WordEnd ; ! sg/pl?
 
 LEXICON ADNDEMTAG
-+Adn+Dem: K ;
-+Adn+Dem+Pred+Pl:%>ӧсь K ;
-+Adn+Dem+Der/MWN: Noun1 ;
++Det+Dem: K ;
++Det+Dem+Pred+Pl:%>ӧсь K ;
++Det+Dem+Der/MWN: Noun1 ;
+!+Adn+Dem: K ;
+!+Adn+Dem+Pred+Pl:%>ӧсь K ;
+!+Adn+Dem+Der/MWN: Noun1 ;
 
 LEXICON PRONDEMTAG-ES
 +Pron+Dem+Sg+Nom:%>ійӧ K ;
