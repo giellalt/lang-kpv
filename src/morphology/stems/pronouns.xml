@@ -19,7 +19,7 @@
             <t pos="Pron">oma</t>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <m>
             <head>
                <re>притяж.</re>
@@ -414,7 +414,7 @@
             <t pos="Pron">sinun oma -si</t>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron"/>
@@ -514,7 +514,7 @@
          </stg>
       </lg>
       <pos>PRON-REFL</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">на свою сторону</t>
@@ -557,7 +557,7 @@
             <t pos="Pron">minun oma -ni</t>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron"/>
@@ -659,7 +659,7 @@
             <t pos="Pron">meidän oma -mme</t>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron"/>
@@ -718,7 +718,7 @@
             <t pos="Pron">heidän oma -nsa/ niiden oma</t>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron"/>
@@ -793,7 +793,7 @@
          </stg>
       </lg>
       <pos>PRON-REFL</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">на свою сторону</t>
@@ -958,7 +958,7 @@
             <t pos="Pron">hänen oma -nsa/ sen oma</t>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron"/>
@@ -1307,7 +1307,7 @@
             <t pos="Pron"/>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <m>
             <head>
                <re>притяж. пад.</re>
@@ -1366,7 +1366,7 @@
             <t pos="Pron"/>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron"/>
@@ -1413,7 +1413,7 @@
             <t pos="Pron"/>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron"/>
@@ -1461,7 +1461,7 @@
             <t pos="Pron"/>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron"/>
@@ -1504,7 +1504,7 @@
             <t pos="Pron"/>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron"/>
@@ -1552,7 +1552,7 @@
             <t pos="Pron"/>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron"/>
@@ -1736,7 +1736,7 @@
          </stg>
       </lg>
       <pos>PRON-REFL</pos>
-      <mg No="1">
+      <mg relId="0">
          <m>
             <head/>
             <semRel No="1" lemmaID="астӧгым" semRelType="see"/>
@@ -2546,7 +2546,7 @@
             <t pos="Pron">jokainen</t>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <m>
             <head>
                <re>мест.обобщ.-опред.</re>
@@ -2665,10 +2665,7 @@
       <pos>Q_PRON</pos>
       <mg>
          <m>
-            <head>
-               <range rangeSpat="dialect"/>
-            </head>
-            <semRel RNo="I" lemmaID="код" semRelType="see"/>
+<rg><r range_space="dialect"/></rg>            <semRel RNo="I" lemmaID="код" semRelType="see"/>
             <semRel lemmaID="коді" semRelType="see"/>
          </m>
          <tg xml:lang="rus">
@@ -2710,7 +2707,7 @@
          </stg>
       </lg>
       <pos>Q_PRON</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">кто</t>
@@ -3290,7 +3287,7 @@
             <t pos="Pron">kuka tahansa</t>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">кое-кто</t>
@@ -3352,7 +3349,7 @@
             <t pos="Pron">milloin</t>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <m>
             <head/>
             <semRel RNo="II" lemmaID="кор" semRelType="see"/>
@@ -3481,7 +3478,7 @@
          </stg>
       </lg>
       <pos>Q_PRON</pos>
-      <mg No="1">
+      <mg relId="0">
          <m>
             <head/>
             <semRel No="1" lemmaID="код" semRelType="see"/>
@@ -3524,10 +3521,7 @@
       <pos>Q_PRON</pos>
       <mg>
          <m>
-            <head>
-               <range rangeSpat="dialect"/>
-            </head>
-         </m>
+<rg><r range_space="dialect"/></rg>         </m>
          <tg xml:lang="rus">
             <t pos="Pron">как, каким образом</t>
          </tg>
@@ -3551,7 +3545,7 @@
             <t pos="Pron">minkälainen</t>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">какой</t>
@@ -3853,7 +3847,7 @@
             <t pos="Pron">jonkinlainen</t>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">какой-то</t>
@@ -3911,7 +3905,7 @@
             <t pos="Pron">minkälainen tahansa</t>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">какой-нибудь</t>
@@ -4246,7 +4240,7 @@
          </stg>
       </lg>
       <pos>PRON-INDEF</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">как-нибудь; как-либо</t>
@@ -4567,7 +4561,7 @@
             <t pos="Pron">mistä</t>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">откуда</t>
@@ -4643,7 +4637,7 @@
             <t pos="Pron">jostain</t>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">откуда-то</t>
@@ -4893,7 +4887,7 @@
             <t pos="Pron">minne</t>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">куда</t>
@@ -5012,7 +5006,7 @@
             <t pos="Pron">kunnes</t>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">до какого места, предела</t>
@@ -5097,7 +5091,7 @@
          </stg>
       </lg>
       <pos>PRON-INDEF</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">докуда-то; до какого-то места, предела</t>
@@ -5179,7 +5173,7 @@
          </stg>
       </lg>
       <pos>PRON-INDEF</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">кое-куда</t>
@@ -5515,7 +5509,7 @@
          </stg>
       </lg>
       <pos>PRON-INTERR</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">где</t>
@@ -5614,7 +5608,7 @@
          </stg>
       </lg>
       <pos>Q_SPAT</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">где</t>
@@ -6513,10 +6507,7 @@
       <pos>PRON</pos>
       <mg>
          <m>
-            <head>
-               <range rangeSpat="dialect"/>
-            </head>
-            <semRel No="1" lemmaID="меысь" semRelType="see"/>
+<rg><r range_space="dialect"/></rg>            <semRel No="1" lemmaID="меысь" semRelType="see"/>
          </m>
       </mg>
    </e>
@@ -6595,10 +6586,7 @@
       <pos>PRON-PERS</pos>
       <mg>
          <m>
-            <head>
-               <range rangeSpat="dialect"/>
-            </head>
-            <semRel No="1" lemmaID="менам" semRelType="see"/>
+<rg><r range_space="dialect"/></rg>            <semRel No="1" lemmaID="менам" semRelType="see"/>
          </m>
          <tg xml:lang="rus">
             <t pos="Pron"/>
@@ -7180,10 +7168,7 @@
       <pos>PRON</pos>
       <mg>
          <m>
-            <head>
-               <range rangeSpat="dialect"/>
-            </head>
-            <semRel lemmaID="кодсюрӧ_PRON-INDEF" semRelType="seeAlso"/>
+<rg><r range_space="dialect"/></rg>            <semRel lemmaID="кодсюрӧ_PRON-INDEF" semRelType="seeAlso"/>
          </m>
          <tg xml:lang="rus">
             <t pos="PRON-INDEF">кое-кто</t>
@@ -7224,7 +7209,7 @@
          </stg>
       </lg>
       <pos>QNT</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">другой</t>
@@ -7375,7 +7360,7 @@
             <t pos="Pron">mikä</t>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">что</t>
@@ -7683,7 +7668,7 @@
             <t pos="Pron">jotakin</t>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">что-то</t>
@@ -7798,7 +7783,7 @@
          </stg>
       </lg>
       <pos>Q_PRON</pos>
-      <mg No="1">
+      <mg relId="0">
          <m>
             <head/>
             <semRel lemmaID="мый" semRelType="see"/>
@@ -7909,7 +7894,7 @@
             <t pos="Pron">mitä tahansa</t>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">кое-что, кой-что</t>
@@ -7944,10 +7929,7 @@
       <pos>Q_PRON</pos>
       <mg>
          <m>
-            <head>
-               <range rangeSpat="dialect"/>
-            </head>
-            <semRel No="1" lemmaID="мыйсяма" semRelType="see"/>
+<rg><r range_space="dialect"/></rg>            <semRel No="1" lemmaID="мыйсяма" semRelType="see"/>
          </m>
          <xg>
             <x>весьшӧрӧ лэптӧны сійӧс, мыйся нӧ сійӧ герой!</x>
@@ -8077,7 +8059,7 @@
             <t pos="Pron">jonkin verran</t>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">сколько-нибудь, сколько-то</t>
@@ -8209,10 +8191,7 @@
       <pos>Q_PRON</pos>
       <mg>
          <m>
-            <head>
-               <range rangeSpat="dialect"/>
-            </head>
-            <semRel No="1" lemmaID="мыйла" semRelType="see"/>
+<rg><r range_space="dialect"/></rg>            <semRel No="1" lemmaID="мыйла" semRelType="see"/>
          </m>
       </mg>
    </e>
@@ -8224,7 +8203,7 @@
          </stg>
       </lg>
       <pos>PRON-INTERR</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">в какую цену, почём (<register register="conversation"/>)</t>
@@ -8272,7 +8251,7 @@
          </stg>
       </lg>
       <pos>PRON-DEM</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">другой, иной</t>
@@ -8999,10 +8978,7 @@
       <pos>PRON-NEG</pos>
       <mg>
          <m>
-            <head>
-               <range rangeSpat="dialect"/>
-            </head>
-            <semRel No="1" lemmaID="некод" semRelType="see"/>
+<rg><r range_space="dialect"/></rg>            <semRel No="1" lemmaID="некод" semRelType="see"/>
          </m>
       </mg>
    </e>
@@ -9033,7 +9009,7 @@
             <t pos="Pron">ei kukaan (meistä, teistä, heistä)</t>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">никто</t>
@@ -9229,7 +9205,7 @@
          </stg>
       </lg>
       <pos>PRON-NEG</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">ни с кем</t>
@@ -9259,7 +9235,7 @@
          </stg>
       </lg>
       <pos>PRON-NEG</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">никому</t>
@@ -9292,7 +9268,7 @@
          </stg>
       </lg>
       <pos>PRON-NEG</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">ни у кого</t>
@@ -9340,7 +9316,7 @@
          </stg>
       </lg>
       <pos>PRON-NEG</pos>
-      <mg No="1">
+      <mg relId="0">
          <m>
             <head>
                <re>(опред.) при парных сущ.</re>
@@ -9403,7 +9379,7 @@
          </stg>
       </lg>
       <pos>PRON-NEG</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">ни от кого</t>
@@ -9446,7 +9422,7 @@
          </stg>
       </lg>
       <pos>PRON-NEG</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">никем</t>
@@ -9475,7 +9451,7 @@
          </stg>
       </lg>
       <pos>PRON-NEG</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">никого</t>
@@ -9509,7 +9485,7 @@
          </stg>
       </lg>
       <pos>PRON-NEG</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">никогда</t>
@@ -9594,7 +9570,7 @@
          </stg>
       </lg>
       <pos>PRON-NEG</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">никак</t>
@@ -9811,7 +9787,7 @@
             <t pos="Pron">ei mistään</t>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">нигде</t>
@@ -9844,7 +9820,7 @@
          </stg>
       </lg>
       <pos>PRON-NEG</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">ниоткуда</t>
@@ -9873,7 +9849,7 @@
          </stg>
       </lg>
       <pos>PRON-NEG</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">нигде</t>
@@ -9915,7 +9891,7 @@
             <t pos="Pron">ei minnekään</t>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">никуда</t>
@@ -10078,7 +10054,7 @@
          </stg>
       </lg>
       <pos>PRON-NEG</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">нигде</t>
@@ -10286,10 +10262,7 @@
       <pos>PRON-NEG</pos>
       <mg>
          <m>
-            <head>
-               <range rangeSpat="dialect"/>
-            </head>
-            <semRel No="1" lemmaID="некод" semRelType="see"/>
+<rg><r range_space="dialect"/></rg>            <semRel No="1" lemmaID="некод" semRelType="see"/>
          </m>
          <tg xml:lang="rus">
             <t pos="Pron">никто</t>
@@ -10317,10 +10290,7 @@
       <pos>PRON-NEG</pos>
       <mg>
          <m>
-            <head>
-               <range rangeSpat="dialect"/>
-            </head>
-            <semRel No="1" lemmaID="некутшӧм" semRelType="see"/>
+<rg><r range_space="dialect"/></rg>            <semRel No="1" lemmaID="некутшӧм" semRelType="see"/>
          </m>
          <tg xml:lang="rus">
             <t pos="Pron">никакой</t>
@@ -10335,7 +10305,7 @@
          </stg>
       </lg>
       <pos>PRON-NEG</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">ничто</t>
@@ -10710,7 +10680,7 @@
          </stg>
       </lg>
       <pos>Pcle</pos>
-      <mg No="1">
+      <mg relId="0">
          <m>
             <head>
                <re>мест. опред.</re>
@@ -10838,7 +10808,7 @@
             <t pos="Pron">kaikki</t>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">весь, все, всё</t>
@@ -10990,7 +10960,7 @@
          </stg>
       </lg>
       <pos>QNT-UNIV-PRON</pos>
-      <mg No="1">
+      <mg relId="0">
          <m>
             <head/>
             <semRel No="1" lemmaID="ставнас" semRelType="see"/>
@@ -11029,7 +10999,7 @@
             <t pos="Pron">kaikki</t>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">всё; только, лишь, исключительно</t>
@@ -11217,10 +11187,7 @@
       </mg>
       <mg>
          <m>
-            <head>
-               <range rangeSpat="dialect"/>
-            </head>
-            <semRel No="1" lemmaID="сэтшӧм" semRelType="see"/>
+<rg><r range_space="dialect"/></rg>            <semRel No="1" lemmaID="сэтшӧм" semRelType="see"/>
          </m>
          <tg xml:lang="rus">
             <t pos="Pron"/>
@@ -11723,7 +11690,7 @@
          </stg>
       </lg>
       <pos>PRON-DEM</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">такой-сякой</t>
@@ -12147,7 +12114,7 @@
             <t pos="Pron">hän</t>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <m>
             <head>
                <re>в роли опр.</re>
@@ -12430,7 +12397,7 @@
          </stg>
       </lg>
       <pos>DEM-ADN</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">такой</t>
@@ -12494,10 +12461,7 @@
       <pos>PRON-DEM</pos>
       <mg>
          <m>
-            <head>
-               <range rangeSpat="dialect"/>
-            </head>
-         </m>
+<rg><r range_space="dialect"/></rg>         </m>
          <tg xml:lang="rus">
             <t pos="Pron">эти</t>
          </tg>
@@ -13225,7 +13189,7 @@
          </stg>
       </lg>
       <pos>PRON-DEM</pos>
-      <mg No="1">
+      <mg relId="0">
          <m>
             <head>
                <re>усил.-указ.</re>
@@ -13431,7 +13395,7 @@
             <t pos="Pron">tuo</t>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">тот</t>
@@ -14076,7 +14040,7 @@
             </tCtn>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <m>
             <head>
                <re>в роли опр.</re>
@@ -14132,7 +14096,7 @@
          </stg>
       </lg>
       <pos>QNT-UNIV-PRON</pos>
-      <mg No="1">
+      <mg relId="0">
          <m>
             <head>
                <re>в роли опр.</re>
@@ -14249,7 +14213,7 @@
          </stg>
       </lg>
       <pos>ADV-SPAT</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">с перевесом на один край, на один бок, на одну сторону</t>
@@ -14312,7 +14276,7 @@
          </stg>
       </lg>
       <pos>N</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">одна из сторон, одна половина</t>
@@ -14369,7 +14333,7 @@
          </stg>
       </lg>
       <pos>PRON-INDEF</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">с одной стороны, с одного направления</t>
@@ -14493,7 +14457,7 @@
          </stg>
       </lg>
       <pos>PRON-INDEF</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">в одну сторону</t>
@@ -14676,7 +14640,7 @@
          </stg>
       </lg>
       <pos>PRON-RECIP</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">один-другой; кое-кто</t>
@@ -14763,7 +14727,7 @@
          </stg>
       </lg>
       <pos>QNT-PRON</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Pron">в одинаковом количестве (размере)</t>

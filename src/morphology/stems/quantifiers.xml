@@ -776,7 +776,7 @@
          </stg>
       </lg>
       <pos>Qnt</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="fin">
             <t pos="Qnt">puoliksi</t>
@@ -843,7 +843,7 @@
          </stg>
       </lg>
       <pos>Qnt</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="fin">
             <t pos="Qnt">vajaa</t>
@@ -1394,7 +1394,7 @@
          </stg>
       </lg>
       <pos>CARD-ITER</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Qnt">тридцать раз</t>
@@ -1525,7 +1525,7 @@
          </stg>
       </lg>
       <pos>Qnt</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Qnt">состоящий из трёх единиц</t>
@@ -2148,7 +2148,7 @@
          </stg>
       </lg>
       <pos>Qnt</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Qnt">обе стороны</t>
@@ -2607,7 +2607,7 @@
          </stg>
       </lg>
       <pos>Qnt</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="fin">
             <t pos="Qnt">eniten</t>
@@ -2705,10 +2705,7 @@
       <pos>Qnt</pos>
       <mg>
          <m>
-            <head>
-               <range rangeSpat="dialect"/>
-            </head>
-            <semRel No="2" lemmaID="мӧдысь" semRelType="see"/>
+<rg><r range_space="dialect"/></rg>            <semRel No="2" lemmaID="мӧдысь" semRelType="see"/>
             <semRel No="3" lemmaID="мӧдысь" semRelType="see"/>
          </m>
       </mg>
@@ -2806,7 +2803,7 @@
          </stg>
       </lg>
       <pos>Qnt</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="fin">
             <t pos="Qnt">vähän</t>
@@ -2911,7 +2908,7 @@
          </stg>
       </lg>
       <pos>Qnt</pos>
-      <mg No="1">
+      <mg relId="0">
          <m>
             <head/>
             <semRel semRelType="see">ни ӧти</semRel>
@@ -3383,7 +3380,7 @@
          </stg>
       </lg>
       <pos>NUM-ORD</pos>
-      <mg No="1">
+      <mg relId="0">
          <m>
             <head/>
             <semRel No="1" lemmaID="медводдза" semRelType="seeAlso"/>
@@ -3768,7 +3765,7 @@
          </stg>
       </lg>
       <pos>QNT-DISTR</pos>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Qnt">семеро</t>
@@ -4160,7 +4157,7 @@
             <t pos="Qnt">runsaasti</t>
          </tg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="rus">
             <t pos="Qnt">много</t>
@@ -4433,7 +4430,7 @@
             <st Contlex="Noun1">ӧкмыса</st>
          </stg>
       </lg>
-      <mg No="1">
+      <mg relId="0">
          <defNative/>
          <tg xml:lang="fin">
             <t pos="N">yhdeksikkö</t>
@@ -4725,12 +4722,9 @@
             <xt xml:lang="rus">скажешь слово, а прибавят десять</xt>
          </xg>
       </mg>
-      <mg No="1">
+      <mg relId="0">
          <m>
-            <head>
-               <range rangeSpat="dialect"/>
-            </head>
-         </m>
+<rg><r range_space="dialect"/></rg>         </m>
          <tg xml:lang="rus">
             <t pos="Qnt">совсем, совершенно</t>
          </tg>
