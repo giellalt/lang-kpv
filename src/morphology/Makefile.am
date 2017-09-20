@@ -27,7 +27,7 @@ GT_LEXC_SRCS_L1_L2=\
 		stems/acronyms.lexc                           \
 		stems/adjectives-russian-like.lexc            \
 		stems/adjectives-russian-like_newwords.lexc   \
-		stems/adjectives.lexc                         \
+		stems/adjectives-regular.lexc                 \
 		stems/adjectives_newwords.lexc                \
 		stems/adpositions.lexc                        \
 		stems/adverbs.lexc                            \
