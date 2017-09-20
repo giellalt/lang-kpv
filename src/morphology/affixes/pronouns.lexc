@@ -304,7 +304,8 @@ LEXICON INTERR
 кутшӧм+Pron+Pl:кутшӧмъяс PRON-NONHUM ;
 !2017-09-19кутшӧм+A+Der/MWN+N+Sg:кутшӧм PRON-NONHUM ;
 !2017-09-19кутшӧм+A+Der/MWN+N+Pl:кутшӧмъяс PRON-NONHUM ;
-кутшӧми+Pron+A:кутшӧми INTERR-REL-INDEF ; ! This needs to be 
+кутшӧми+A:кутшӧми INTERR-REL-INDEF ; 
+!2017-09-20кутшӧми+Pron+A:кутшӧми INTERR-REL-INDEF ; ! This needs to be 
 кыдз+Pron+Adv+Manner:кыдз INTERR-REL-INDEF ;
 кыдзи+Pron+Adv+Manner:кыдзи INTERR-REL-INDEF ;
 кыдзик+Pron+Adv+Manner:кыдзик INTERR-REL-INDEF ;
@@ -926,14 +927,14 @@ LEXICON PRON-DUAL
 
 !Actually there might be reason to consider +Der/MWN
 LEXICON PRONQ-MUKOD
-+Pron+Abs: WordEnd ;
+!2017-09-20+Pron+Abs: WordEnd ;
 +Pron+Sg+Nom: K ;
 +Pron+Sg: PRONQ-STAV-CASES ;
 +Pron+Pl+Nom:ъяс K ;
 +Pron+Pl:ъяс PRONQ-STAV-CASES ;
 
 LEXICON PRONQ-STAV
-+Pron+Abs: WordEnd ;
+!2017-09-20+Pron+Abs: WordEnd ;
 +Pron+Sg+Nom: K ;
 +Pron+Sg+ZeroAcc: K ;
 +Pron+Sg: PRONQ-STAV-CASES ;
