@@ -40,7 +40,7 @@ GT_LEXC_SRCS_L1_L2=\
 		stems/interjections.lexc                      \
 		stems/nouns-deverbal.lexc                     \
 		stems/nouns-russian-homographs.lexc           \
-		stems/nouns.lexc                              \
+		stems/nouns-regular.lexc                      \
 		stems/nouns_newwords.lexc                     \
 		stems/numerals.lexc                           \
 		stems/particles.lexc                          \
