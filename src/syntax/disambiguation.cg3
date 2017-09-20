@@ -94,6 +94,7 @@ LIST Ter = Ter ter ;
 LIST Abe = Abe abe ; 
 LIST Prl = Prl prl ; 
 LIST Cmpl = Cmpl ;
+LIST Attr = Attr ;
 
 LIST HabObj = HabObj ; 
 LIST Instr = Instr ; 
@@ -165,6 +166,7 @@ REMOVE:NoDerIfPossible DerTag ;
 
 SELECT Dem IF (0 Dem)(1 N + Nom);
 
+SELECT:AttrIfN Attr IF (1 N);
 
 # Early, word-internal rules
 
@@ -174,7 +176,7 @@ SELECT:CmpTst2 CmpTest ; # Kill'em all
 
 # CC or Pcle
 
-REMOVE Pcle IF (-1 BOS)(0 CC);
+REMOVE Pcle IF (-1 BOS)(0 CC); # ?
 REMOVE CC IF (1 EOS)(0 Pcle);
 REMOVE ABBR IF (0 CC)(NOT 1 Prop);
 
@@ -204,14 +206,18 @@ REMOVE:AdvNotPcle Pcle (0 Adv);
 
 SELECT Adv + Rel IF (-1 COMMA)(*1 VFIN);
 
+REMOVE:InitialAdv A IF (-1 BOS)(0 Adv)(NOT 1 N OR CC OR A) ;
+
+
 # Verbs
 # =====
 
 # First or third person
 
-REMOVE (Prt1 Sg3) IF (*-1 (Pers Sg1 Nom) BARRIER N + Nom OR Pers + Sg3 + Nom)(0 (V Prt1 Sg1));
 
-REMOVE (Prt1 Sg1) IF (NOT *0 (Pers Sg1 Nom)) ;
+REMOVE:1not3inPast (Prt1 Sg3) IF (*-1 (Pers Sg1 Nom) BARRIER N + Nom OR Pers + Sg3 + Nom)(0 (V Prt1 Sg1));
+
+REMOVE:3not1inPast (Prt1 Sg1) IF (NOT *0 (Pers Sg1 Nom)) ;
 # This may be too strong, it precludes zero Sg1 subjects
 
 # ConNeg or not
