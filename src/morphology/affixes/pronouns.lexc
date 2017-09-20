@@ -926,17 +926,17 @@ LEXICON PRON-DUAL
 
 !Actually there might be reason to consider +Der/MWN
 LEXICON PRONQ-MUKOD
-+Pron+Qnt+Abs: WordEnd ;
-+Pron+Qnt+Sg+Nom: K ;
-+Pron+Qnt+Sg: PRONQ-STAV-CASES ;
-+Pron+Qnt+Pl+Nom:ъяс K ;
-+Pron+Qnt+Pl:ъяс PRONQ-STAV-CASES ;
++Pron+Abs: WordEnd ;
++Pron+Sg+Nom: K ;
++Pron+Sg: PRONQ-STAV-CASES ;
++Pron+Pl+Nom:ъяс K ;
++Pron+Pl:ъяс PRONQ-STAV-CASES ;
 
 LEXICON PRONQ-STAV
-+Pron+Qnt+Abs: WordEnd ;
-+Pron+Qnt+Sg+Nom: K ;
-+Pron+Qnt+Sg+ZeroAcc: K ;
-+Pron+Qnt+Sg: PRONQ-STAV-CASES ;
++Pron+Abs: WordEnd ;
++Pron+Sg+Nom: K ;
++Pron+Sg+ZeroAcc: K ;
++Pron+Sg: PRONQ-STAV-CASES ;
 
 LEXICON PRONQ-STAV-CASES
 +Nom+PxSg2:ыд K ;
@@ -1052,7 +1052,7 @@ LEXICON PRONQ-STAV-CASES
 ! COMPARATIVE ; ! sg/pl?
 
 LEXICON PRONQ-COLL
-+Pron+Qnt+Coll+Sg: PRONQ-COLL-CASE ; ! sg/pl?
++Pron+Coll+Sg: PRONQ-COLL-CASE ; ! sg/pl?
 
 ! быдӧн, ӧтнасӧн, ӧтнамӧн, ӧтнадӧн, ставӧн, кымынӧн, унаӧн, кыкӧн
 
