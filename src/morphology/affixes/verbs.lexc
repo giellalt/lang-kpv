@@ -55,7 +55,10 @@ LEXICON VERBNEGATIVE
 LEXICON IV_ЛОКНЫ
 +V+IV: V_ЛОКНЫ ;
 LEXICON TV_ЛОКНЫ
++V+TV: V_ЛОКНЫ ;
+LEXICON BV_ЛОКНЫ
 +V+IV: V_ЛОКНЫ ;
++V+TV: V_ЛОКНЫ ;
 
 LEXICON V_ЛОКНЫ !!≈ * __@CODE@__ One verb only, локны:лок
 +Inf00@U.CONJ-INF.YES@:%>ны@U.CONJ-INF.YES@ VerbEnd-Comparison ;
@@ -86,6 +89,9 @@ LEXICON IV_ШУНЫ
 +V+IV: V_ШУНЫ ;
 LEXICON TV_ШУНЫ
 +V+TV: V_ШУНЫ ;
+LEXICON BV_ШУНЫ
++V+IV: V_ШУНЫ ;
++V+TV: V_ШУНЫ ;
 
 LEXICON V_ШУНЫ !!≈ * __@CODE@__ шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
 0@U.CONJ-INF.YES@:0@U.CONJ-INF.YES@ Verb-nyDer ; !
@@ -108,6 +114,9 @@ LEXICON VR_АМНЫ !!≈ * __@CODE@__
 LEXICON IV_АМНЫ
 +V+IV:  V_АМНЫ ;
 LEXICON TV_АМНЫ
++V+TV:  V_АМНЫ ;
+LEXICON BV_АМНЫ
++V+IV:  V_АМНЫ ;
 +V+TV:  V_АМНЫ ;
 
 LEXICON V_АМНЫ !!≈ * __@CODE@__ амны:ам Ending in -мны, -жны, -дзны,
@@ -132,6 +141,9 @@ LEXICON IV_КЫЙНЫ
 +V+IV: V_КЫЙНЫ ;
 LEXICON TV_КЫЙНЫ
 +V+TV: V_КЫЙНЫ ;
+LEXICON BV_КЫЙНЫ
++V+IV: V_КЫЙНЫ ;
++V+TV: V_КЫЙНЫ ;
 LEXICON V_КЫЙНЫ !!≈ * __@CODE@__ кыйны:кы Ending in -йны, 
 0@U.CONJ-INF.YES@:й@U.CONJ-INF.YES@ Verb-nyDer-ONSET-CONS ; !
 0@U.CONJ-INF.YES@:й@U.CONJ-INF.YES@ Verb-nyDer-ONSET-Ы ; !
@@ -152,6 +164,9 @@ LEXICON IV_КУТНЫ
 +V+IV: V_КУТНЫ ;
 LEXICON TV_КУТНЫ
 +V+TV: V_КУТНЫ ;
+LEXICON BV_КУТНЫ
++V+IV: V_КУТНЫ ;
++V+TV: V_КУТНЫ ;
 LEXICON V_КУТНЫ !!≈ * __@CODE@__ шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
 0@U.CONJ-INF.YES@:0@U.CONJ-INF.YES@ Verb-nyDer ; !
 0@U.CONJ-INF.YES@:0@U.CONJ-INF.YES@ VerbDer_КУТНЫ ; !
@@ -170,6 +185,9 @@ LEXICON VR_НУАВНЫ !!≈ * __@CODE@__ нуавны:нуа
 LEXICON IV_НУАВНЫ
 +V+IV: V_НУАВНЫ ;
 LEXICON TV_НУАВНЫ
++V+TV: V_НУАВНЫ ;
+LEXICON BV_НУАВНЫ
++V+IV: V_НУАВНЫ ;
 +V+TV: V_НУАВНЫ ;
 LEXICON V_НУАВНЫ !!≈ * __@CODE@__ нуавны:нуа
 0@U.CONJ-INF.YES@:в@U.CONJ-INF.YES@ Verb-nyDer-ONSET-CONS ; !
@@ -191,6 +209,9 @@ LEXICON VR_АРТАСЬНЫ !!≈ * __@CODE@__
 LEXICON IV_АРТАСЬНЫ 
 +V+IV: V_АРТАСЬНЫ ;
 LEXICON TV_АРТАСЬНЫ 
++V+TV:  V_АРТАСЬНЫ ;
+LEXICON BV_АРТАСЬНЫ 
++V+IV:  V_АРТАСЬНЫ ;
 +V+TV:  V_АРТАСЬНЫ ;
 
 LEXICON V_АРТАСЬНЫ !!≈ * __@CODE@__ артасьны:артась 
@@ -214,6 +235,9 @@ LEXICON IV_ЛЫДДЬЫНЫ
 +V+IV: V_ЛЫДДЬЫНЫ ;
 LEXICON TV_ЛЫДДЬЫНЫ
 +V+TV: V_ЛЫДДЬЫНЫ ;
+LEXICON BV_ЛЫДДЬЫНЫ
++V+IV: V_ЛЫДДЬЫНЫ ;
++V+TV: V_ЛЫДДЬЫНЫ ;
 LEXICON V_ЛЫДДЬЫНЫ !!≈ * __@CODE@__ лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
 0@U.CONJ-INF.YES@:0@U.CONJ-INF.YES@ Verb-ynyDer ; !
 0@U.CONJ-INF.YES@:0@U.CONJ-INF.YES@ VerbDer ; !
@@ -233,6 +257,9 @@ LEXICON VR_ВОЛЫНЫ !!≈ * __@CODE@__
 LEXICON IV_ВОЛЫНЫ 
 +V+IV: V_ВОЛЫНЫ ;
 LEXICON TV_ВОЛЫНЫ 
++V+TV: V_ВОЛЫНЫ ;
+LEXICON BV_ВОЛЫНЫ 
++V+IV: V_ВОЛЫНЫ ;
 +V+TV: V_ВОЛЫНЫ ;
 
 LEXICON V_ВОЛЫНЫ !!≈ * __@CODE@__ волыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
