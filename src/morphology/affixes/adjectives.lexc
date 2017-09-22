@@ -41,32 +41,32 @@ LEXICON Adj
  A_ ;
 
 LEXICON A-IS_INE-MOD-СА
-+Der/са+IneMod: A_ ;
++Der+Der/са+IneMod: A_ ;
 LEXICON A-IS_COMP-MOD-КОДЬ
-+Der/кодь+CompMod: A_ ;
++Der+Der/кодь+CompMod: A_ ;
 LEXICON A-IS_ABE-MOD-ТӦМ
-+Der/тӧм+AbeMod: A_ ;
++Der+Der/тӧм+AbeMod: A_ ;
 LEXICON A-IS_HAB-OBJ-MOD-А
-+Der/а+HabObjMod: A_ ;
++Der+Der/а+HabObjMod: A_ ;
 LEXICON A-IS_TEMP-MOD-СЯ
-+Der/ся+TempMod: A_ ;
++Der+Der/ся+TempMod: A_ ;
 
 LEXICON Adj-IS_PTC-TOM ! 2011-11-15 participle = derivation type; 
-+V+Der/тӧм: A_ ;
++V+Der+Der/тӧм: A_ ;
 
 LEXICON Adj-IS_PTC-YSJ
-+V+Der/ысь: A_ ;
++V+Der+Der/ысь: A_ ;
 
 LEXICON Adj-IS_PTC-ANA !
-+V+Der/ана: A_ ;
++V+Der+Der/ана: A_ ;
 
 LEXICON A-IS_DIM-НИК
-+A+Der/Иник: A_ ;
++A+Der+Der/Иник: A_ ;
 
 LEXICON Adj-IS_TOM
  A-IS_TOM ;
 LEXICON A-IS_TOM
-+N+Der/тӧм: A_ ;
++N+Der+Der/тӧм: A_ ;
 
 LEXICON Adj-IS_SUPERL !
 +Superl: A_ ;
@@ -82,20 +82,20 @@ LEXICON A_
 !2017-09-19+A+Attr: # ;
 +A: PredMonAdj ;
 +A: AdjCompar ;
-+A+Der/кодь+A:%>кодь PredMonAdj ;
-+A+Der/кодь+A:%>кодь AdjCompar ;
-+A+Der/Ин:%>%{иі%}н N_ ;
-+A+Der/лун:%>лун N_ ; !Derivational suffix for A-N
-+A+Der/а:%>а ADV_ ; ! Derivation for adjective-to-adverb
++A+Der+Der/кодь+A:%>кодь PredMonAdj ;
++A+Der+Der/кодь+A:%>кодь AdjCompar ;
++A+Der+Der/Ин:%>%{иі%}н N_ ;
++A+Der+Der/лун:%>лун N_ ; !Derivational suffix for A-N
++A+Der+Der/а:%>а ADV_ ; ! Derivation for adjective-to-adverb
 
 LEXICON A_PARAGOGIC-В/Л !!= * @CODE@ юмов:юмо юмолӧсь
 +A:в K ; !! Singular predicative 
 +A+Pred+Pl:л%>ӧсь K ; ! Plural predicative.
 +A:в AdjCompar ;
-+A+Der/кодь+A:в%>кодь PredMonAdj ;
-+A+Der/кодь+A:в%>кодь AdjCompar ;
-+A+Der/Ин:л%>%{иі%}н N_ ;
-+A+Der/лун:в%>лун N_ ; !Derivational suffix for A-N
++A+Der+Der/кодь+A:в%>кодь PredMonAdj ;
++A+Der+Der/кодь+A:в%>кодь AdjCompar ;
++A+Der+Der/Ин:л%>%{иі%}н N_ ;
++A+Der+Der/лун:в%>лун N_ ; !Derivational suffix for A-N
 
 
 LEXICON PredMonAdj

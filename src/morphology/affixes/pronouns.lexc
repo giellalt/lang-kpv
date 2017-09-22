@@ -723,7 +723,7 @@ LEXICON PRON-REFL-PL1-4-NOM
 LEXICON PRON-REFL-PL1-4-GEN
 +Gen: WordEnd ;  !! bare
  ABL-WORD-END ;
-+Der/ладор:%>ладор Noun1 ;
++Der+Der/ладор:%>ладор Noun1 ;
 
 LEXICON PRON-REFL-PL2-4-NOM
 +Acc2:тӧ WordEnd ;
@@ -734,7 +734,7 @@ LEXICON PRON-REFL-PL2-4-NOM
 
 LEXICON PRON-REFL-PL2-4-GEN
 +Gen: WordEnd ; !! bare
-+Der/ладор:%>ладор Noun1 ;
++Der+Der/ладор:%>ладор Noun1 ;
 
 
 LEXICON PRON-REFL-PL2-4-ACC
@@ -748,7 +748,7 @@ LEXICON PRON-REFL-PL3-4-GEN
 +Gen: WordEnd ; !! bare
  GEN-WORD-END ;
  PRL-WORD-END ;
-+Der/ладор:%>ладор Noun1 ;
++Der+Der/ладор:%>ладор Noun1 ;
 
 LEXICON PRON-REFL-PL3-4-ACC
 +Acc3:нысӧ WordEnd ;
@@ -760,7 +760,7 @@ LEXICON PRONDEMTAG
 LEXICON ADNDEMTAG
 +Det+Dem: K ;
 +Det+Dem+Pred+Pl:%>ӧсь K ;
-+Det+Dem+Der/MWN: Noun1 ;
++Det+Dem: Noun1 ;
 !+Adn+Dem: K ;
 !+Adn+Dem+Pred+Pl:%>ӧсь K ;
 !+Adn+Dem+Der/MWN: Noun1 ;
@@ -1116,18 +1116,20 @@ LEXICON PRON-NEG-End
 +Pron+Neg: K ;
 
 LEXICON PRON-NEG-A
-+Pron+Neg+A: WordEnd ;
-+Pron+Neg+A+Der/MWN+N+Sg+Nom: WordEnd ;
-+Pron+Neg+A+Der/MWN+N+Sg: PRON-NEG-OBL ;
++Pron+Der+Neg+A: WordEnd ;
++Pron+Der+Neg+A+Sg+Nom: WordEnd ;
++Pron+Der+Neg+A+Sg: PRON-NEG-OBL ;
+!+Pron+Neg+A+Der/MWN+N+Sg+Nom: WordEnd ;
+!+Pron+Neg+A+Der/MWN+N+Sg: PRON-NEG-OBL ;
 
 LEXICON PRON-NEG-ADV
-+Pron+Neg+Adv: COMPARATIVE ;
++Pron+Der+Neg+Adv: COMPARATIVE ;
 
 LEXICON PRON-NEG-IN_LA
 +Pron+Neg+Der/ла+Spat: PRON-NEG-SPAT ;
 
 LEXICON PRON-NEG-ITER
-+Pron+Neg+Der/ысь+Adv: K ; !+Iter
++Pron+Der+Neg+Der/ысь+Adv: K ; !+Iter
 
 LEXICON PRON-NEG
 +Pron+Neg+Sg+Nom: WordEnd ;

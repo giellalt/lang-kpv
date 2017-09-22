@@ -11,19 +11,19 @@ LEXICON Vocative   !!≈ * __@CODE@__
 +N+Voc: # ;
 
 LEXICON Noun1-IS_PTC-OM !!≈ * __@CODE@__ is to provide deverbal nouns with +Der/ӧм tags
-+V+Der/ӧм: N_ ;
++V+Der+Der/ӧм: N_ ;
 
 LEXICON Noun1-IS_PTC-AN !!≈ * __@CODE@__
-+V+Der/ан: N_ ;
++V+Der+Der/ан: N_ ;
 
 LEXICON Noun1-IS_PTC-YSJ !!≈ * __@CODE@__
-+V+Der/ысь: N_ ;
++V+Der+Der/ысь: N_ ;
 
 LEXICON N-DOR ! мӧдладор The Russian is an adverbial phrase
-+Der/дор: N_ ;
++Der+Der/дор: N_ ;
 
 LEXICON N-VYV ! тулысвыв The Russian is an adverbial phrase
-+Der/выв: N_ ;
++Der+Der/выв: N_ ;
 
 LEXICON Noun1-F !
 +Src/F: N_ ;
@@ -45,7 +45,7 @@ LEXICON N-KINDRED_
 
 LEXICON N-PROFESSION_
  N_ ;
-+N+Der/ал0@C.CONJ-INF@@C.CONJ-POSS@:%>%{ая%}л@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !! таксисталӧ 
++N+Der+Der/ал0@C.CONJ-INF@@C.CONJ-POSS@:%>%{ая%}л@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !! таксисталӧ 
 !! Basic nouns.
 
 !! The lexicon for basic nouns is {{ N_ }}
@@ -513,28 +513,28 @@ LEXICON Noun1-IS_INE
 +N+Ine: SPAT-COMPARATIVE ;
 
 LEXICON DERIVEDADJ
-+Der/са+IneMod:%>са A_ ;
-+Der/тӧм+AbeMod:%>тӧм A_ ;
-+Der/а+HabObjMod:%>а A_ ;
-+Der/ся+TempMod:%>ся A_ ;
-+Der/увса:%>увса A_ ;
-+Der/сайса:%>сайса A_ ;
-+Der/пӧвстса:%>пӧвстса A_ ;
-+Der/костса:%>костса A_ ;
-+Der/бердса:%>бердса A_ ;
-+Der/бӧрса:%>бӧрса A_ ;
-+Der/весьтса:%>весьтса A_ ;
-+Der/водзса:%>водзса A_ ;
-+Der/вывса:%>вывса A_ ;
-+Der/гӧгӧрса:%>гӧгӧрса A_ ;
-+Der/дорса:%>дорса A_ ;
++Der+Der/са+IneMod:%>са A_ ;
++Der+Der/тӧм+AbeMod:%>тӧм A_ ;
++Der+Der/а+HabObjMod:%>а A_ ;
++Der+Der/ся+TempMod:%>ся A_ ;
++Der+Der/увса:%>увса A_ ;
++Der+Der/сайса:%>сайса A_ ;
++Der+Der/пӧвстса:%>пӧвстса A_ ;
++Der+Der/костса:%>костса A_ ;
++Der+Der/бердса:%>бердса A_ ;
++Der+Der/бӧрса:%>бӧрса A_ ;
++Der+Der/весьтса:%>весьтса A_ ;
++Der+Der/водзса:%>водзса A_ ;
++Der+Der/вывса:%>вывса A_ ;
++Der+Der/гӧгӧрса:%>гӧгӧрса A_ ;
++Der+Der/дорса:%>дорса A_ ;
 
 
 
 
 LEXICON AdjCompar
 +Der/джык+Comp:%>джык PredMonLex ;
-+Der/джык+Comp+Der/а:%>джыка ADV_ ;
++Der/джык+Comp+Der+Der/а:%>джыка ADV_ ;
 +Der/джык+Comp+Sg:%>джык CASEPOSSLEX-afterDerivation ;
 +Der/джык+Comp+Pl:%>джыкъяс CASEPOSSLEX-afterDerivation ;
 !2017-09-19+Der/джык+Comp+Der/MWN+N+Sg:%>джык CASEPOSSLEX-afterDerivation ;

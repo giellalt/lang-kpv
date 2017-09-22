@@ -486,7 +486,7 @@ LEXICON PRET2-linkki-a
 
 LEXICON MatrixVerb-Comparison
                K ;
-+Der/моз:%>моз K ;
++Der+Der/моз+Ger:%>моз K ;
 +Comp:%>джык K ;
 +Der/кодь:%>кодь K ;
 
@@ -576,13 +576,13 @@ LEXICON VerbDer_АРТАСЬНЫ !!≈ * __@CODE@__
  VerbDer-ONSET_И ; !!≈ * __@CODE@__
 
 LEXICON VerbDer-ONSET_Ӧ !!≈ * __@CODE@__ 
-+Der/ӧм+Der/NomAct:%>ӧм Noun1 ;
-+Der/ӧм+Der/NomAct+N+Sg+Ins:%>ӧмӧн K ;
-+Der/ӧм+Der/Ин:%>ӧм%>%{иі%}н N_ ;
-+Der/ан+Der/Ин:%>%{ая%}н%>%{иі%}н N_ ;
-+Der/ан+PrsPrc:%>%{ая%}н N_ ;
-+Der/ысь+ActPrsPtc:%>ысь K ;
-+Der/ысь+Der/NomAg:%>ысь N_ ;
++Der+Der/ӧм+Der/NomAct:%>ӧм Noun1 ;
++Der+Der/ӧм+Der/NomAct+N+Sg+Ins:%>ӧмӧн K ;
++Der+Der/ӧм+Der/Ин:%>ӧм%>%{иі%}н N_ ;
++Der+Der/ан+Der/Ин:%>%{ая%}н%>%{иі%}н N_ ;
++Der+Der/ан+PrsPrc:%>%{ая%}н N_ ;
++Der+Der/ысь+ActPrsPtc:%>ысь K ;
++Der+Der/ысь+Der/NomAg:%>ысь N_ ;
 
 LEXICON VerbDer-ONSET_І !!≈ * __@CODE@__ 
   ! nonfinites
@@ -591,53 +591,53 @@ LEXICON VerbDer-ONSET_І !!≈ * __@CODE@__
 LEXICON VerbDer-ONSET_И !!≈ * __@CODE@__ 
  VerbDer-ONSET_И/І ;
 LEXICON VerbDer-ONSET_И/І !!≈ * __@CODE@__ 
-+Der/иг+Ger0@U.CONJ-GER.IG@:%>%{иі%}г@U.CONJ-GER.IG@ VerbEnd ; ! gerund (at the same time as the action)
++Der+Der/иг+Ger@U.CONJ-GER.IG@:%>%{иі%}г@U.CONJ-GER.IG@ VerbEnd ; ! gerund (at the same time as the action)
 !352 Pl
-+Der/иг+Ger+Pl000@U.CONJ-GER.IG@:%>%{иі%}гъяс@U.CONJ-GER.IG@ K ;
-+Der/иг+Ger+Pl+Ill000@U.CONJ-GER.IG@:%>%{иі%}гъясӧ@U.CONJ-GER.IG@ K ; !345
-+Der/иг+Ger+Pl+Ill+PxSg1000@U.CONJ-GER.IG@:%>%{иі%}гъясам@U.CONJ-GER.IG@ K ;
-+Der/иг+Ger+Pl+Ill+PxSg2000@U.CONJ-GER.IG@:%>%{иі%}гъясад@U.CONJ-GER.IG@ K ;
-+Der/иг+Ger+Pl+Ill+PxSg3000@U.CONJ-GER.IG@:%>%{иі%}гъясас@U.CONJ-GER.IG@ K ;
-+Der/иг+Ger+Pl+Ill+PxPl100000@U.CONJ-GER.IG@:%>%{иі%}гъясаным@U.CONJ-GER.IG@ K ;
-+Der/иг+Ger+Pl+Ill+PxPl200000@U.CONJ-GER.IG@:%>%{иі%}гъясаныд@U.CONJ-GER.IG@ K ;
-+Der/иг+Ger+Pl+Ill+PxPl300000@U.CONJ-GER.IG@:%>%{иі%}гъясаныс@U.CONJ-GER.IG@ K ;
-+Der/иг+Ger+Pl+Ins0000@U.CONJ-GER.IG@:%>%{иі%}гъясӧн@U.CONJ-GER.IG@ K ;! 2000:359 
++Der+Der/иг+Ger+Pl00@U.CONJ-GER.IG@:%>%{иі%}гъяс@U.CONJ-GER.IG@ K ;
++Der+Der/иг+Ger+Pl+Ill00@U.CONJ-GER.IG@:%>%{иі%}гъясӧ@U.CONJ-GER.IG@ K ; !345
++Der+Der/иг+Ger+Pl+Ill+PxSg100@U.CONJ-GER.IG@:%>%{иі%}гъясам@U.CONJ-GER.IG@ K ;
++Der+Der/иг+Ger+Pl+Ill+PxSg200@U.CONJ-GER.IG@:%>%{иі%}гъясад@U.CONJ-GER.IG@ K ;
++Der+Der/иг+Ger+Pl+Ill+PxSg300@U.CONJ-GER.IG@:%>%{иі%}гъясас@U.CONJ-GER.IG@ K ;
++Der+Der/иг+Ger+Pl+Ill+PxPl10000@U.CONJ-GER.IG@:%>%{иі%}гъясаным@U.CONJ-GER.IG@ K ;
++Der+Der/иг+Ger+Pl+Ill+PxPl20000@U.CONJ-GER.IG@:%>%{иі%}гъясаныд@U.CONJ-GER.IG@ K ;
++Der+Der/иг+Ger+Pl+Ill+PxPl30000@U.CONJ-GER.IG@:%>%{иі%}гъясаныс@U.CONJ-GER.IG@ K ;
++Der+Der/иг+Ger+Pl+Ins000@U.CONJ-GER.IG@:%>%{иі%}гъясӧн@U.CONJ-GER.IG@ K ;! 2000:359 
                                            !And Marina 2011-10-05 no Px
-+Der/иг+Ger+Sg+Ill@U.CONJ-GER.IG@:%>%{иі%}гӧ@U.CONJ-GER.IG@ K ;
-+Der/иг+Ger+Sg+Ill+PxSg1@U.CONJ-GER.IG@:%>%{иі%}гам@U.CONJ-GER.IG@ K ;
-+Der/иг+Ger+Sg+Ill+PxSg2@U.CONJ-GER.IG@:%>%{иі%}гад@U.CONJ-GER.IG@ K ;
-+Der/иг+Ger+Sg+Ill+PxSg3@U.CONJ-GER.IG@:%>%{иі%}гас@U.CONJ-GER.IG@ K ;
-+Der/иг+Ger+Sg+Ill+PxPl100@U.CONJ-GER.IG@:%>%{иі%}ганым@U.CONJ-GER.IG@ K ;
-+Der/иг+Ger+Sg+Ill+PxPl200@U.CONJ-GER.IG@:%>%{иі%}ганыд@U.CONJ-GER.IG@ K ;
-+Der/иг+Ger+Sg+Ill+PxPl300@U.CONJ-GER.IG@:%>%{иі%}ганыс@U.CONJ-GER.IG@ K ;
-+Der/иг+Ger+Sg+Ins0@U.CONJ-GER.IG@:%>%{иі%}гӧн@U.CONJ-GER.IG@ PossessiveSuffixes_NoSg1 ; !Ӧнія коми кыв, 2000: 360
++Der+Der/иг+Ger+Sg+Ill@U.CONJ-GER.IG@:%>%{иі%}гӧ0@U.CONJ-GER.IG@ K ;
++Der+Der/иг+Ger+Sg+Ill+PxSg1@U.CONJ-GER.IG@:%>%{иі%}гам0@U.CONJ-GER.IG@ K ;
++Der+Der/иг+Ger+Sg+Ill+PxSg2@U.CONJ-GER.IG@:%>%{иі%}гад0@U.CONJ-GER.IG@ K ;
++Der+Der/иг+Ger+Sg+Ill+PxSg3@U.CONJ-GER.IG@:%>%{иі%}гас0@U.CONJ-GER.IG@ K ;
++Der+Der/иг+Ger+Sg+Ill+PxPl10@U.CONJ-GER.IG@:%>%{иі%}ганым@U.CONJ-GER.IG@ K ;
++Der+Der/иг+Ger+Sg+Ill+PxPl20@U.CONJ-GER.IG@:%>%{иі%}ганыд@U.CONJ-GER.IG@ K ;
++Der+Der/иг+Ger+Sg+Ill+PxPl30@U.CONJ-GER.IG@:%>%{иі%}ганыс@U.CONJ-GER.IG@ K ;
++Der+Der/иг+Ger+Sg+Ins@U.CONJ-GER.IG@:%>%{иі%}гӧн@U.CONJ-GER.IG@ PossessiveSuffixes_NoSg1 ; !Ӧнія коми кыв, 2000: 360
 !351 Pl
-+Der/иг+Ger+Sg+Ins+Der/моз+Ger000@U.CONJ-GER.IG@:%>%{иі%}гӧн%>моз@U.CONJ-GER.IG@ K ; !
-+Der/иг+Ger+Der/моз+Ger00@U.CONJ-GER.IG@:%>%{иі%}гмоз@U.CONJ-GER.IG@ PossessiveSuffixes_NoSg1 ; !371
-+Der/иг+Ger+Der/сор+Ger00@U.CONJ-GER.IG@:%>%{иі%}гсор@U.CONJ-GER.IG@ K ;
-+Der/иг+Ger+Der/сор+Ger+Ins000@U.CONJ-GER.IG@:%>%{иі%}гсорӧн@U.CONJ-GER.IG@ K ;
-+Der/иг+Ger+Der/тыр+Ger00@U.CONJ-GER.IG@:%>%{иі%}гтыр@U.CONJ-GER.IG@ K ;
-+Der/иг+Ger+Der/тырйи+Ger0000@U.CONJ-GER.IG@:%>%{иі%}гтырйи@U.CONJ-GER.IG@ PossessiveSuffixes_NoSg1 ; !374
-+Der/иг+Ger+Der/тыръя+Ger0000@U.CONJ-GER.IG@:%>%{иі%}гтыръя@U.CONJ-GER.IG@ K ;
-+Der/иг+Ger+Der/чӧж+Ger00@U.CONJ-GER.IG@:%>%{иі%}гчӧж@U.CONJ-GER.IG@ PossessiveSuffixes_NoSg1 ; !377
-+Der/иг+Ger+Der/чӧж+Ger+Ins000@U.CONJ-GER.IG@:%>%{иі%}гчӧжӧн@U.CONJ-GER.IG@ K ; !
-+Der/иг+Ger+Der/кості+Ger0000@U.CONJ-GER.IG@:%>%{иі%}гкості@U.CONJ-GER.IG@ PossessiveSuffixes_NoSg1 ; !352, 379
-+Der/иг+Ger+Der/коста+Ger0000@U.CONJ-GER.IG@:%>%{иі%}гкоста@U.CONJ-GER.IG@ K ;
-+Der/иг+Ger+Der/кежлӧ+Ger0000@U.CONJ-GER.IG@:%>%{иі%}гкежлӧ@U.CONJ-GER.IG@ K ; !393
++Der+Der/иг+Ger+Sg+Ins+Der/моз+Ger00@U.CONJ-GER.IG@:%>%{иі%}гӧн%>моз@U.CONJ-GER.IG@ K ; !
++Der+Der/иг+Ger+Der/моз+Ger0@U.CONJ-GER.IG@:%>%{иі%}гмоз@U.CONJ-GER.IG@ PossessiveSuffixes_NoSg1 ; !371
++Der+Der/иг+Ger+Der/сор+Ger0@U.CONJ-GER.IG@:%>%{иі%}гсор@U.CONJ-GER.IG@ K ;
++Der+Der/иг+Ger+Der/сор+Ger+Ins00@U.CONJ-GER.IG@:%>%{иі%}гсорӧн@U.CONJ-GER.IG@ K ;
++Der+Der/иг+Ger+Der/тыр+Ger0@U.CONJ-GER.IG@:%>%{иі%}гтыр@U.CONJ-GER.IG@ K ;
++Der+Der/иг+Ger+Der/тырйи+Ger000@U.CONJ-GER.IG@:%>%{иі%}гтырйи@U.CONJ-GER.IG@ PossessiveSuffixes_NoSg1 ; !374
++Der+Der/иг+Ger+Der/тыръя+Ger000@U.CONJ-GER.IG@:%>%{иі%}гтыръя@U.CONJ-GER.IG@ K ;
++Der+Der/иг+Ger+Der/чӧж+Ger0@U.CONJ-GER.IG@:%>%{иі%}гчӧж@U.CONJ-GER.IG@ PossessiveSuffixes_NoSg1 ; !377
++Der+Der/иг+Ger+Der/чӧж+Ger+Ins00@U.CONJ-GER.IG@:%>%{иі%}гчӧжӧн@U.CONJ-GER.IG@ K ; !
++Der+Der/иг+Ger+Der/кості+Ger000@U.CONJ-GER.IG@:%>%{иі%}гкості@U.CONJ-GER.IG@ PossessiveSuffixes_NoSg1 ; !352, 379
++Der+Der/иг+Ger+Der/коста+Ger000@U.CONJ-GER.IG@:%>%{иі%}гкоста@U.CONJ-GER.IG@ K ;
++Der+Der/иг+Ger+Der/кежлӧ+Ger000@U.CONJ-GER.IG@:%>%{иі%}гкежлӧ@U.CONJ-GER.IG@ K ; !393
 
-+Der/иг+Ger+Der/кежлӧ+Ger+PxSg20000@U.CONJ-GER.IG@:%>%{иі%}гкежлад@U.CONJ-GER.IG@ K ;
-+Der/иг+Ger+Der/кежлӧ+Ger+PxSg30000@U.CONJ-GER.IG@:%>%{иі%}гкежлас@U.CONJ-GER.IG@ K ;
-+Der/иг+Ger+Der/кежлӧ+Ger+PxPl1000000@U.CONJ-GER.IG@:%>%{иі%}гкежланым@U.CONJ-GER.IG@ K ;
-+Der/иг+Ger+Der/кежлӧ+Ger+PxPl2000000@U.CONJ-GER.IG@:%>%{иі%}гкежланыд@U.CONJ-GER.IG@ K ;
-+Der/иг+Ger+Der/кежлӧ+Ger+PxPl3000000@U.CONJ-GER.IG@:%>%{иі%}гкежланыс@U.CONJ-GER.IG@ K ;
++Der+Der/иг+Ger+Der/кежлӧ+Ger+PxSg2000@U.CONJ-GER.IG@:%>%{иі%}гкежлад@U.CONJ-GER.IG@ K ;
++Der+Der/иг+Ger+Der/кежлӧ+Ger+PxSg3000@U.CONJ-GER.IG@:%>%{иі%}гкежлас@U.CONJ-GER.IG@ K ;
++Der+Der/иг+Ger+Der/кежлӧ+Ger+PxPl100000@U.CONJ-GER.IG@:%>%{иі%}гкежланым@U.CONJ-GER.IG@ K ;
++Der+Der/иг+Ger+Der/кежлӧ+Ger+PxPl200000@U.CONJ-GER.IG@:%>%{иі%}гкежланыд@U.CONJ-GER.IG@ K ;
++Der+Der/иг+Ger+Der/кежлӧ+Ger+PxPl300000@U.CONJ-GER.IG@:%>%{иі%}гкежланыс@U.CONJ-GER.IG@ K ;
 
 
 LEXICON VerbDer-ONSET_А !!≈ * __@CODE@__ 
  VerbDer-ONSET_А/Я ;
 LEXICON VerbDer-ONSET_А/Я !!≈ * __@CODE@__ 
-+Der/Ана+Adv:%>%{ая%}на K ;
-+Der/Анаа+Adv:%>%{ая%}наа K ; !Adding after attestation in Komi Grammar 2000: 381
-+Der/Ан+Der/моз+Ger:%>%{ая%}нмоз PossessiveSuffixes_NoSg1 ; !383
++Der+Der/Ана+Adv:%>%{ая%}на K ;
++Der+Der/Анаа+Adv:%>%{ая%}наа K ; !Adding after attestation in Komi Grammar 2000: 381
++Der+Der/Ан+Der/моз+Ger:%>%{ая%}нмоз PossessiveSuffixes_NoSg1 ; !383
 
 LEXICON VerbDer-ONSET_Я !!≈ * __@CODE@__
  VerbDer-ONSET_А/Я ;
@@ -694,16 +694,16 @@ LEXICON Verb-ynyDer
 
 LEXICON VerbDer-V
 ! Page 346 in the Komi grammar
-+Der/мысьт:%>мысьт K ; ! gerund (after the action) !353
-+Der/мысь:%>мысь K ; ! !353
-+Der/тӧдз+Ger:%>тӧдз PossessiveSuffixes_NoSg1 ; !396
-+Der/мӧн+Ger:%>мӧн PossessiveSuffixes_NoSg1 ; !399-403
-+Der/мӧнъя:%>мӧнъя WordEnd ; !399-403
-+Der/тӧм+VAbe:%>тӧм PossessiveSuffixes ;
-+Car:%>тӧг PossessiveSuffixes_NoSg1 ; ! 390
-+Car+Err/Orth:%>тӧгъя K ; !387
-+Car+Err/Orth:%>тӧга K ; !387
-+Car+Der/моз+Ger:%>тӧгмоз PossessiveSuffixes_NoSg1 ; !
++Der+Der/мысьт+Ger:%>мысьт K ; ! gerund (after the action) !353
++Der+Der/мысь+Ger:%>мысь K ; ! !353
++Der+Der/тӧдз+Ger:%>тӧдз PossessiveSuffixes_NoSg1 ; !396
++Der+Der/мӧн+Ger:%>мӧн PossessiveSuffixes_NoSg1 ; !399-403
++Der+Der/мӧнъя+Ger:%>мӧнъя WordEnd ; !399-403
++Der+Der/тӧм+VAbe+Ger:%>тӧм PossessiveSuffixes ;
++Der+Car+Ger:%>тӧг PossessiveSuffixes_NoSg1 ; ! 390
++Der+Car+Err/Orth+Ger:%>тӧгъя K ; !387
++Der+Car+Err/Orth+Ger:%>тӧга K ; !387
++Der+Car+Der/моз+Ger:%>тӧгмоз PossessiveSuffixes_NoSg1 ; !
 
 
 

@@ -179,7 +179,7 @@ Multichar_Symbols
 !! Question and Focus particles:
  +Qst  !!= * __@CODE@__
  +Foc  !!= * __@CODE@__ 
-+Der/И  !!= * __@CODE@__  This comes at the end of a word -и or after vowels (some authors use -й)
++Clt/И  !!= * __@CODE@__  This comes at the end of a word -и or after vowels (some authors use -й)
 +Clt  !!= * __@CODE@__ 
 +Clt/а  !!= * __@CODE@__ 
 +Clt/ӧ  !!= * __@CODE@__ 
@@ -440,13 +440,15 @@ Multichar_Symbols
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
- +V→N  !!= * __@CODE@__
- +V→V  !!= * __@CODE@__
- +V→A  !!= * __@CODE@__
+! +V→N  !!= * __@CODE@__
+! +V→V  !!= * __@CODE@__
+! +V→A  !!= * __@CODE@__
  
  +Der/xxx
 
 ! tags
++Der	!!= * __@CODE@__  In front of every derivation to make it
+	!!  possible to target derivations as a class e.g. in regular expressions etc 
 +Der/Ан  !!= * __@CODE@__  Process Participle +AN
 +Der/Ана  !!= * __@CODE@__ Process Participle +ANA
 +Der/Анаа  !!= * __@CODE@__  adverb derived from participle (+ANA) +ANAA
@@ -869,7 +871,7 @@ LEXICON K
 ! were converted to _WordEnd_
 LEXICON WordEnd
             # ;
-+Der/И:%-И2 # ;
++Clt/И:%-И2 # ;
 
 ! List of spurious lexica
 ! These should be fixed.
@@ -886,9 +888,9 @@ LEXICON SPAT-COMPARATIVE
 
 LEXICON COMPARATIVE
                         K ;
-+Der/джык+Comp:%>джык K ;
-+Der/моз:%>моз K ;
-+Der/кодь:%>кодь K ;
++Der+Der/джык+Comp:%>джык K ;
++Der+Der/моз:%>моз K ;
++Der+Der/кодь:%>кодь K ;
 
 ! TODO: Integrate this in xml-files in working…
 
