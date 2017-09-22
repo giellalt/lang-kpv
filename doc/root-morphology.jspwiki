@@ -146,7 +146,7 @@ Non-dictionary words can be recognised with:
 Question and Focus particles:
  * __ +Qst  __
  * __ +Foc  __ 
- * __+Der/И  __  This comes at the end of a word -и or after vowels (some authors use -й)
+ * __+Clt/И  __  This comes at the end of a word -и or after vowels (some authors use -й)
  * __+Clt  __ 
  * __+Clt/а  __ 
  * __+Clt/ӧ  __ 
@@ -280,11 +280,10 @@ Semantics are classified with
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
- * __ +V→N  __
- * __ +V→V  __
- * __ +V→A  __
 
 
+ * __+Der	__  In front of every derivation to make it
+ possible to target derivations as a class e.g. in regular expressions etc 
  * __+Der/Ан  __  Process Participle +AN
  * __+Der/Ана  __ Process Participle +ANA
  * __+Der/Анаа  __  adverb derived from participle (+ANA) +ANAA
