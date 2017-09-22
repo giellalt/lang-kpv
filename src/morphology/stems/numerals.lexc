@@ -93,7 +93,7 @@ LEXICON ARABICLOOP   !!= * __@CODE@__
                                  ARABICDELIMITER ; ! list of number-case delimiters
 
 LEXICON ARABICLOOPORD   !!= * __@CODE@__ ordinals
- +A+Ord+Attr:%. # ;
+ +A+Ord:%. ABS_ ;
  +A+Ord: ARABICDELIMITERORD ;
  < [a|b|c|d|e|f|f %  f] > ACASETAG ;
 
@@ -101,7 +101,7 @@ LEXICON ACASETAG   !!= * __@CODE@__  is for 1e+Num+Sg+Num:1e
 +Num: ARABICCASES ;
 
 LEXICON ARABICLOOPCOLL   !!= * __@CODE@__ collectives
-+Num+Coll+Attr:%-нан K ;
++Num+Coll:%-нан ABS_ ;
 ! +N+Coll: ARABICDELIMITERCOLL ;
 
 
