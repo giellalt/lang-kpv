@@ -245,11 +245,17 @@ REMOVE Pl2 IF (0 Neg + Sg2)(1 ConNeg)(NOT 1 Pl2) ;
 
 # да
 
-SELECT:da1 Adv IF (-1 BOS)(0 ("да"))(1 EOS OR COMMA);
+SELECT:DaAdv1 Adv IF (-1 BOS)(0 ("да"))(1 EOS OR COMMA);
 ## Да, я знаю
 
-REMOVE:da2 Adv IF (0 ("да"));
+REMOVE:DaAdv2 Adv IF (0 ("да"));
 ## Коми да мари
+
+SELECT:DaPcle Pcle IF (0 ("да"))(-1 Pcle)(1 EOS OR COMMA);
+SELECT:DaCS CS IF (0 ("да"))(1 COMMA OR EOS);
+SELECT:Daa&b CC IF (-1 N) (0 ("да"))(1 N)
+SELECT:Daa&b CC IF (-1 V) (0 ("да"))(1 V)
+SELECT:Daa&b CC IF (-1 A) (0 ("да"))(1 A)
 
 # и
 REMOVE ABBR IF (0 CC)(NOT 1 ("."));
@@ -271,3 +277,4 @@ SELECT A IF (*-1 ("вӧвны") BARRIER N);
 
 SELECT Acc IF (-1 Po) (1 CC);
 #...чужанін дорӧ муслун да...
+
