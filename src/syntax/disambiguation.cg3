@@ -43,6 +43,7 @@ LIST Qnt = Qnt ;
 LIST Prop = Prop ;
 LIST WORD = N V A Adv CC CS Interj Pron Num Pcle Clt Po ;
 
+LIST VNEG = "ог" "он" "оз" "огӧ" "огӧй" "онӧ" "онӧй" "эг" "эн" "эз" "эгӧ" "эгӧй" "энӧ" "энӧй" ;
 
 LIST Prs = Prs ; 
 LIST Fut = Fut ; 
@@ -268,4 +269,5 @@ SELECT A IF (*-1 ("вӧвны") BARRIER N);
 
 # Mapping
 
-
+SELECT Acc IF (-1 Po) (1 CC);
+#...чужанін дорӧ муслун да...
