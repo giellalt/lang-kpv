@@ -160,6 +160,7 @@ SET VFIN = Ind | Cond | Opt ;
 
 LIST DerTag = Der/MWN Der/И Der/а Der/ал Der/ась Der/выв Der/джык Der/дор Der/иг Der/кежлӧ Der/кодь Der/коста Der/кості Der/л Der/ла Der/ладор Der/лун Der/лы Der/лывлы Der/мед Der/моз Der/мысь Der/мысьт Der/мӧн Der/мӧнъя Der/овт Der/сор Der/сь Der/сьы Der/сюрӧ Der/тыр Der/тырйи Der/тыръя Der/тӧдз Der/тӧм Der/чы Der/чӧж Der/ывлы Der/ысь Der/ышт Der/ӧм ;
 
+LIST ASKI = "аски" "понедельникӧ" "вторникӧ" "середаӧ" "четвергӧ" "пекничаӧ" "субӧтаӧ" "вежалунӧ" "регыд" "аскомысь"; # tomorrow set
 
 SECTION
 
@@ -177,6 +178,7 @@ SELECT:CmpTst2 CmpTest ; # Kill'em all
 
 
 # CC or Pcle
+# ==========
 
 REMOVE Pcle IF (-1 BOS)(0 CC); # ?
 REMOVE CC IF (1 EOS)(0 Pcle);
@@ -186,9 +188,11 @@ SELECT CC IF (-1 A)(1 A) ;
 SELECT CC IF (-1 A)(1 Ins)(2 A) ;
 
 # Derivations
+# ==========
 REMOVE (Der/MWN N Nom);
 REMOVE Der/са IF (0 ("<(.*)са>"r) + A);
 
+# NOMINALS
 # Cases
 SELECT:Cmpl1 Cmpl IF (1 Po) ;
 
@@ -201,11 +205,27 @@ REMOVE (Abs) IF (0 Der/MWN + N + Sg + Nom);
 # Pronouns
 REMOVE Interr IF (-2 N)(-1 (","))(0 Rel);
 
+
+# Adjectives
+# ==========
+
+SELECT:AN A + Abs IF (1 N) ;
+SELECT:AAN A + Abs IF (0 A)(1 CC)(2 A + Abs) ;
+
+# Прилагательное или существительное
+
+SELECT:ANnotNN	A IF (-1 Adv OR Qnt)(1 N) ;
+
 # Adverbs
 # =======
 
+REMOVE:NotSg1IFAdv Sg1 IF (-1 N OR Pron)(0 Adv)(1C Ind)(NOT 1 Sg1);
+
 REMOVE:AdvNotPcle Pcle (0 Adv);
 
+REMOVE:AdvNotA A IF (-1 N or Pron)(0 Adv)(1 V);
+	# ме регыд муна
+	
 SELECT Adv + Rel IF (-1 COMMA)(*1 VFIN);
 
 REMOVE:InitialAdv A IF (-1 BOS)(0 Adv)(NOT 1 N OR CC OR A) ;
@@ -214,6 +234,24 @@ REMOVE:InitialAdv A IF (-1 BOS)(0 Adv)(NOT 1 N OR CC OR A) ;
 # Verbs
 # =====
 
+# Select оз that are nouns if only we were able to find them
+SELECT:OzKatastrof N IF (0 ("оз"))(1 ("чӧскыд"));
+# ... другие законы для существителное
+
+# if not, we give in and go for the V reading
+REMOVE:KillOzN N IF (0 ("оз"));
+	# оз - зэв чӧскыд тусь.
+
+# Neg
+# Pl if ConNeg Pl3
+SELECT:NegPlIfConNegPl Neg + Pl3 IF (1 ConNeg + Pl3);
+
+# Not Pl if not ConNeg Pl3
+REMOVE:NegSgIfNotConNegPl Neg + Pl3 IF (NOT 1 ConNeg + Pl3);
+
+SELECT:NegIfConNeg Neg IF (1 ConNeg OR Adv);
+	# оз тырмы
+	
 # First or third person
 
 
@@ -228,9 +266,6 @@ REMOVE:OtherConNeg ConNeg IF (-1* ConNeg BARRIER Neg);
 
 SELECT:OnlyConNeg ConNeg IF (-1C Neg)(NOT *1 ConNeg) ;
 
-# Прилагательное или существительное
-
-SELECT:ANnotNN	A IF (-1 Adv OR Qnt)(1 N) ;
 
 # Imperative or noun
 
@@ -239,9 +274,13 @@ REMOVE:NotImpWhenWords Imprt IF (-1 N)(0 N);
 REMOVE:NotImpWhenWords Imprt IF (-1 WORD LINK *-1 BOS BARRIER Imprt);
 
 # ConNeg Sg/Pl
-
 REMOVE Pl2 IF (0 Neg + Sg2)(1 ConNeg)(NOT 1 Pl2) ;
 
+# Prs or Fut
+#SELECT Fut IF сегодня (...)
+SELECT:Fut Fut IF (-1 ASKI);
+SELECT:Fut Fut IF (1 ASKI);
+REMOVE:KillFut Fut IF (0 Prs);
 
 # да
 
@@ -253,9 +292,9 @@ REMOVE:DaAdv2 Adv IF (0 ("да"));
 
 SELECT:DaPcle Pcle IF (0 ("да"))(-1 Pcle)(1 EOS OR COMMA);
 SELECT:DaCS CS IF (0 ("да"))(1 COMMA OR EOS);
-SELECT:Daa&b CC IF (-1 N) (0 ("да"))(1 N)
-SELECT:Daa&b CC IF (-1 V) (0 ("да"))(1 V)
-SELECT:Daa&b CC IF (-1 A) (0 ("да"))(1 A)
+SELECT:Daa&b CC IF (-1 N) (0 ("да"))(1 N);
+SELECT:Daa&b CC IF (-1 V) (0 ("да"))(1 V);
+SELECT:Daa&b CC IF (-1 A) (0 ("да"))(1 A);
 
 # и
 REMOVE ABBR IF (0 CC)(NOT 1 ("."));
