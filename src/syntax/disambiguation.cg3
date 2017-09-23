@@ -327,6 +327,9 @@ REMOVE:NotNomIfVFINLeft Nom IF (-1 V) (*-1 VFIN BARRIER BOS) (NOT -2 BOS);
 ## Аддзис руч кыз сирпу улысь горс, 
 ## 1. Аддзис руч кыз сирпу улысь горс, ???
 
+REMOVE:NotPoIfSentInitial Po IF (0C Po OR Adv) (-1 PUNCT + LEFT OR BOS) ;
+# « Бӧрті , кор пысавла тшакӧс
+
 # Predicative
 
 SELECT A IF (*-1 ("вӧвны") BARRIER N);
