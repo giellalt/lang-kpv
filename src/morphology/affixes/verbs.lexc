@@ -404,22 +404,25 @@ LEXICON future_КУТНЫ
 LEXICON preterite
 +Ind+Prt1@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@:%>%{иі%}@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@ PresPret1 ; 
 +Ind+Prt1@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@:%>%{иі%}@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@  P3 ; ! 3 
+	Pret2a-0 ;
+LEXICON Pret2a-0
 +Ind+Prt20@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@:%>ӧм@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@ Pret2a ;
+
 
 LEXICON preterite_КЫЙНЫ
 +Ind+Prt1@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@:%>%{иі%}@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@ PresPret1 ; 
 +Ind+Prt1@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@:%>%{иі%}@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@  P3 ; ! 3 
-+Ind+Prt20@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@:%>ӧм@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@ Pret2a ;
+:й	Pret2a-0 ;
 
 LEXICON preterite_АМНЫ
 +Ind+Prt1@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@:%>%{иі%}@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@ PresPret1 ; 
 +Ind+Prt1@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@:%>%{иі%}@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@  P3 ; ! 3 
-+Ind+Prt20@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@:%>ӧм@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@ Pret2a ;
+	Pret2a-0 ;
 
 LEXICON preterite_КУТНЫ
 +Ind+Prt1@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@:%>%{иі%}@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@ PresPret1 ; 
 +Ind+Prt1@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@:%>%{иі%}@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@  P3 ; ! 3 
-+Ind+Prt20@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@:%>ӧм@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@ Pret2a ;
+	Pret2a-0 ;
 
 LEXICON imperative
 +Imprt+Pl20@U.CONJ-MX.IMP@@U.CONJ-NX.PL@@U.CONJ-PX.2@:%>ӧй@U.CONJ-MX.IMP@@U.CONJ-NX.PL@@U.CONJ-PX.2@ VerbEnd ;
@@ -576,7 +579,8 @@ LEXICON VerbDer_АРТАСЬНЫ !!≈ * __@CODE@__
  VerbDer-ONSET_И ; !!≈ * __@CODE@__
 
 LEXICON VerbDer-ONSET_Ӧ !!≈ * __@CODE@__ 
-+Der+Der/ӧм+Der/NomAct:%>ӧм Noun1 ;
++Der+Der/ӧм+Der/NomAct:%>ӧм N_ ;
++Der+Der/ӧм+Der+Der/NomAct+Ger:%>ӧмпырысь K ;
 +Der+Der/ӧм+Der/NomAct+N+Sg+Ins:%>ӧмӧн K ;
 +Der+Der/ӧм+Der/Ин:%>ӧм%>%{иі%}н N_ ;
 +Der+Der/ан+Der/Ин:%>%{ая%}н%>%{иі%}н N_ ;

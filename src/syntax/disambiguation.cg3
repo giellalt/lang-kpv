@@ -176,7 +176,8 @@ REMOVE:NoDerIfPossible DerTag ;
 
 SELECT Dem IF (0 Dem)(1 N + Nom);
 
-SELECT:AttrIfN Attr IF (1 N);
+SELECT:AbsIfN Abs IF (1 N);
+#SELECT:AttrIfN Attr IF (1 N);
 
 # Early, word-internal rules
 
@@ -207,7 +208,9 @@ REMOVE:Cmpl2 Cmpl ;
 
 # Numerals
 
-REMOVE (Abs) IF (0 Der/MWN + N + Sg + Nom);
+REMOVE:NoAbsAtEnd Abs IF (1 CLB) ;
+# Воис мича асыв .
+#REMOVE (Abs) IF (0 Der/MWN + N + Sg + Nom);
 
 # Pronouns
 REMOVE Interr IF (-2 N)(-1 (","))(0 Rel);
@@ -316,8 +319,13 @@ REMOVE Interj IF (NOT 1* ("!") BARRIER COMMA) ;
 
 REMOVE Acc IF (0C Nom OR Acc) (NOT *-1 VFIN BARRIER BOS) (NOT *-1 VFIN BARRIER EOS);
 # REMOVE Acc IF (0C Nom OR Acc) (NOT -1* VFIN BARRIER BOS) (NOT -1* VFIN BARRIER EOS);
+## Аддзис руч  кыз сирпу улысь горс,
+##  V     Nom            Ela   Acc
 
-REMOVE:NotNomIfVFINLeft Nom IF (-1 V) (*-1 VFIN BARRIER BOS);
+REMOVE:NotNomIfVFINLeft Nom IF (-1 V) (*-1 VFIN BARRIER BOS) (NOT -2 BOS);
+#REMOVE:NotNomIfVFINLeft Nom IF (-1 V) (*-1 VFIN BARRIER BOS);
+## Аддзис руч кыз сирпу улысь горс, 
+## 1. Аддзис руч кыз сирпу улысь горс, ???
 
 # Predicative
 
