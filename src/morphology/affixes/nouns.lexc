@@ -45,11 +45,14 @@ LEXICON N-KINDRED_
 
 LEXICON N-PROFESSION_
  N_ ;
-+N+Der+Der/ал0@C.CONJ-INF@@C.CONJ-POSS@:%>%{ая%}л@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !! таксисталӧ 
++N+Der+Der/ал@C.CONJ-INF@@C.CONJ-POSS@:%>%{ая%}л@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !! таксисталӧ 
 !! Basic nouns.
 
 !! The lexicon for basic nouns is {{ N_ }}
 
+
+LEXICON N-RELAT_
++N+Relat: NMN_ ;
 LEXICON N_
 +N: NMN_ ;
 
@@ -83,6 +86,10 @@ LEXICON NMN_PARAGOGIC !!= * @CODE@
 +Sg:%^Close CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
 +Sg: CASEPOSSLEX-AFTERDERIVATION_VOW ;
 +Pl:%^Close%>ъяс CASEPOSSLEX ;
+
+
+LEXICON N-RELAT_PARAGOGIC-V/L !!= * @CODE@ ныв:ны нылыс
++N+Relat: NMN_PARAGOGIC-V/L ;
 
 LEXICON N_PARAGOGIC-V/L !!= * @CODE@ ныв:ны нылыс
 +N: NMN_PARAGOGIC-V/L ;
@@ -133,18 +140,24 @@ LEXICON NMN_END-IN-LL1 !!= * @CODE@ моль:мол молльӧ
 
 
 
+LEXICON N-RELAT_END-IN-J !!= * @CODE@ абай:аба абайыс
++N+Relat: N-0_END-IN-J ;
 LEXICON N_END-IN-J !!= * @CODE@ абай:аба абайыс
-+N+Cmp:й R ;
-+N:й ABS_ ;
-+N+Sg:й CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
-+N+Sg: CASEPOSSLEX-AFTERDERIVATION_Я ;
-+N+Sg:й CASEPOSSLEX-AFTERDERIVATION_Ӧ ;
-+N+Pl:й%>яс CASEPOSSLEX ;
++N: N-0_END-IN-J ;
+LEXICON N-0_END-IN-J !!= * @CODE@ абай:аба абайыс
++Cmp:й R ;
+:й ABS_ ;
++Sg:й CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
++Sg: CASEPOSSLEX-AFTERDERIVATION_Я ;
++Sg:й CASEPOSSLEX-AFTERDERIVATION_Ӧ ;
++Pl:й%>яс CASEPOSSLEX ;
 
 
-LEXICON N_END-IN-Ч/ДЗ !!= * @CODE@ автомобиль:автомобил автомобильыс
+LEXICON N-RELAT_END-IN-Ч/ДЗ !!= * @CODE@ водз:водз
++N+Relat: NMN_END-IN-Ч/ДЗ ;
+LEXICON N_END-IN-Ч/ДЗ !!= * @CODE@ водз:водз
 +N: NMN_END-IN-Ч/ДЗ ;
-LEXICON NMN_END-IN-Ч/ДЗ !!= * @CODE@ автомобиль:автомобил автомобильыс
+LEXICON NMN_END-IN-Ч/ДЗ !!= * @CODE@ водз:водз
 +Cmp: R ;
 : ABS_ ;
 +Sg: CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
