@@ -97,6 +97,7 @@ LIST Prl = Prl prl ;
 LIST Cmpl = Cmpl ;
 LIST Abs = Abs ;
 LIST Attr = Attr ;
+LIST Relat = Relat ;
 
 LIST HabObj = HabObj ; 
 LIST Instr = Instr ; 
@@ -252,6 +253,8 @@ SELECT:OzKatastrof N IF (0 ("оз"))(1 ("чӧскыд"));
 REMOVE:KillOzN N IF (0 ("оз"));
 	# оз - зэв чӧскыд тусь.
 
+SELECT V IF (-1 N);
+
 # Neg
 # Pl if ConNeg Pl3
 SELECT:NegPlIfConNegPl Neg + Pl3 IF (1 ConNeg + Pl3);
@@ -344,11 +347,7 @@ SELECT Prs IF (-2 V) (-1 A) (0 Prs) (1 N);
 
 REMOVE N IF (-1 N) (0 N) (1 Pcle);
 
-SELECT V IF (-1 N);
-
-
-
-
+SELECT: Pcle IF (-1 COMMA) (0 ("тыдалӧ")) (1 COMMA);
 
 
 
