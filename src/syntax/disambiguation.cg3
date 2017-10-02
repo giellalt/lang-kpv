@@ -192,9 +192,12 @@ SELECT:CmpTst2 CmpTest ; # Kill'em all
 REMOVE Pcle IF (-1 BOS)(0 CC); # ?
 REMOVE CC IF (1 EOS)(0 Pcle);
 REMOVE ABBR IF (0 CC)(NOT 1 Prop);
+SELECT: Pcle IF (-1 COMMA) (0 ("тыдалӧ")) (1 COMMA);
+
 
 SELECT CC IF (-1 A)(1 A) ;
 SELECT CC IF (-1 A)(1 Ins)(2 A) ;
+SELECT CC IF (-1 V)(1 V) ;
 
 # Derivations
 # ==========
@@ -347,7 +350,7 @@ SELECT Prs IF (-2 V) (-1 A) (0 Prs) (1 N);
 
 REMOVE N IF (-1 N) (0 N) (1 Pcle);
 
-SELECT: Pcle IF (-1 COMMA) (0 ("тыдалӧ")) (1 COMMA);
+
 
 
 
