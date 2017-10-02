@@ -42,6 +42,12 @@ LIST Dem = Dem ;
 LIST Qnt = Qnt ;
 LIST Prop = Prop ;
 LIST WORD = N V A Adv CC CS Interj Pron Num Pcle Clt Po ;
+LIST Ex/A = Ex/A ;
+LIST Ex/N = Ex/N ;
+LIST Ex/Num = Ex/Num ;
+LIST Ex/V = Ex/V ;
+
+LIST Ex/WORD = Ex/N Ex/V Ex/A Ex/Num ;
 
 LIST VNEG = "ог" "он" "оз" "огӧ" "огӧй" "онӧ" "онӧй" "эг" "эн" "эз" "эгӧ" "эгӧй" "энӧ" "энӧй" ;
 
@@ -231,6 +237,12 @@ SELECT:AAN A + Abs IF (0 A)(1 CC)(2 A + Abs) ;
 
 SELECT:ANnotNN	A IF (-1 Adv OR Qnt)(1 N) ;
 
+REMOVE:WasA2NLeaveN Ex/A + N IF (0C N) ;
+# паськыдінын
+# "паськыдін" N Sg Ine
+# "паськыд" Ex/A Der/Ин N Sg Ine
+
+
 # Adverbs
 # =======
 
@@ -245,6 +257,11 @@ SELECT Adv + Rel IF (-1 COMMA)(*1 VFIN);
 
 REMOVE:InitialAdv A IF (-1 BOS)(0 Adv)(NOT 1 N OR CC OR A) ;
 
+REMOVE:RelatorNotAdv Adv IF (0 N + Relat OR Po) ;
+		     # кыз сирпу улысь
+
+REMOVE:RelatorNotPo Po IF (0 N + Relat OR Adv) ;
+		     # кыз сирпу улысь
 
 # Verbs
 # =====
