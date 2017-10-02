@@ -28,6 +28,7 @@ LIST Err = Err ;
 LIST N = N ; 
 LIST V = V ; 
 LIST A = A ; 
+LIST Ex/A = Ex/A ;
 
 LIST Adv = Adv ; 
 LIST CC = CC ; 
@@ -199,7 +200,7 @@ REMOVE Pcle IF (-1 BOS)(0 CC); # ?
 REMOVE CC IF (1 EOS)(0 Pcle);
 REMOVE ABBR IF (0 CC)(NOT 1 Prop);
 SELECT: Pcle IF (-1 COMMA) (0 ("тыдалӧ")) (1 COMMA);
-
+SELECT: CC IF (-1 COMMA) (0 ("а"));
 
 SELECT CC IF (-1 A)(1 A) ;
 SELECT CC IF (-1 A)(1 Ins)(2 A) ;
