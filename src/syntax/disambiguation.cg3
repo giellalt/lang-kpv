@@ -198,13 +198,18 @@ SELECT:CmpTst2 CmpTest ; # Kill'em all
 # CC or Pcle
 # ==========
 
-REMOVE Pcle IF (-1 BOS)(0 CC); # ?
+#REMOVE Pcle IF (-1 BOS)(0 CC); # ?
 REMOVE CC IF (1 EOS)(0 Pcle);
 REMOVE ABBR IF (0 CC)(NOT 1 Prop);
+
+
 SELECT Pcle IF (-1 PUNCT) (0 ("тыдалӧ")) (1 COMMA);
 SELECT Pcle IF (-1 BOS) (0 ("тыдалӧ")) ;
-
 SELECT Pcle IF (0 ("тыдалӧ")) (1 EOS) ;
+
+REMOVE Pcle IF (-1 COMMA) (0 ("но"));
+SELECT Pcle IF (-1 BOS) (0 ("но")) ;
+
 SELECT CC IF (-1 COMMA) (0 ("а"));
 REMOVE Pcle IF (-1 COMMA) (0 ("и"));
 
