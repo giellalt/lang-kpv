@@ -164,13 +164,17 @@ LEXICON NMN_END-IN-Ч/ДЗ !!= * @CODE@ водз:водз
 +Sg: CASEPOSSLEX-AFTERDERIVATION_VOW ;
 +Pl:%>ьяс CASEPOSSLEX ;
 
+LEXICON N-RELAT_END-IN-Ь !!= * @CODE@ автомобиль:автомобил автомобильыс
++N+Relat:  N-0_END-IN-Ь ;
 LEXICON N_END-IN-Ь !!= * @CODE@ автомобиль:автомобил автомобильыс
-+N+Cmp:ь R ;
-+N:ь ABS_ ;
-+N+Sg:ь CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
-+N+Sg: CASEPOSSLEX-AFTERDERIVATION_Я ;
-+N+Sg:ь CASEPOSSLEX-AFTERDERIVATION_Ӧ ;
-+N+Pl:%>ьяс CASEPOSSLEX ; !! 2015-09-04 change to ь%>яс after xfst rules are removed
++N:  N-0_END-IN-Ь ;
+LEXICON N-0_END-IN-Ь !!= * @CODE@ автомобиль:автомобил автомобильыс
++Cmp:ь R ;
+:ь ABS_ ;
++Sg:ь CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
++Sg: CASEPOSSLEX-AFTERDERIVATION_Я ;
++Sg:ь CASEPOSSLEX-AFTERDERIVATION_Ӧ ;
++Pl:%>ьяс CASEPOSSLEX ; !! 2015-09-04 change to ь%>яс after xfst rules are removed
 
 
 
