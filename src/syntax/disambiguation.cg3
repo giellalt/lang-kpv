@@ -158,7 +158,7 @@ LIST LEFT = LEFT ;
 LIST RIGHT = RIGHT ; 
 LIST COMMA = "," ;
 
-LIST PUNCT = ":" ";" "-" "..." ;
+LIST PUNCT = PUNCT ;
 
 LIST Der/MWN = Der/MWN ;
 LIST Der/са = Der/са ;
@@ -203,9 +203,11 @@ REMOVE CC IF (1 EOS)(0 Pcle);
 REMOVE ABBR IF (0 CC)(NOT 1 Prop);
 
 
-SELECT Pcle IF (-1 PUNCT) (0 ("тыдалӧ")) (1 COMMA);
+SELECT Pcle IF (-1 CLB) (0 ("тыдалӧ")) (1 COMMA);
 SELECT Pcle IF (-1 BOS) (0 ("тыдалӧ")) ;
 SELECT Pcle IF (0 ("тыдалӧ")) (1 EOS) ;
+SELECT Pcle IF (-1 BOS) (0 ("шуам")) ;
+SELECT Pcle IF (-1 COMMA) (0 ("шуам")) (1 COMMA);
 
 REMOVE Pcle IF (-1 COMMA) (0 ("но"));
 SELECT Pcle IF (-1 BOS) (0 ("но")) ;
@@ -270,10 +272,10 @@ SELECT Adv + Rel IF (-1 COMMA)(*1 VFIN);
 
 REMOVE:InitialAdv A IF (-1 BOS)(0 Adv)(NOT 1 N OR CC OR A) ;
 
-REMOVE:RelatorNotAdv Adv IF (0 N + Relat OR Po) ;
+#REMOVE:RelatorNotAdv Adv IF (0 N + Relat OR Po) ;
 		     # кыз сирпу улысь
 
-REMOVE:RelatorNotPo Po IF (0 N + Relat OR Adv) ;
+#REMOVE:RelatorNotPo Po IF (0 N + Relat OR Adv) ;
 		     # кыз сирпу улысь
 
 # Verbs
@@ -381,9 +383,9 @@ SELECT Prs IF (-2 V) (-1 A) (0 Prs) (1 N);
 
 REMOVE N IF (-1 N) (0 N) (1 Pcle);
 
-
-
-
+SELECT Adv IF (-1 (N Ela)) (0 Adv);
+SELECT Adv IF (-1 BOS) (0 Adv);
+SELECT Adv IF (-1 V) (1 EOS);
 
 
 
