@@ -186,7 +186,7 @@ REMOVE:NoDerIfPossible DerTag ;
 
 SELECT Dem IF (0 Dem)(1 N + Nom);
 
-SELECT:AbsIfN Abs IF (1 N);
+#SELECT:AbsIfN Abs IF (1 N);
 #SELECT:AttrIfN Attr IF (1 N);
 
 # Early, word-internal rules
@@ -289,7 +289,7 @@ SELECT:OzKatastrof N IF (0 ("оз"))(1 ("чӧскыд"));
 REMOVE:KillOzN N IF (0 ("оз"));
 	# оз - зэв чӧскыд тусь.
 
-SELECT V IF (-1 N);
+SELECT V IF (-1 (N Nom));
 
 # Neg
 # Pl if ConNeg Pl3
@@ -310,7 +310,7 @@ REMOVE:3not1inPast (Prt1 Sg1) IF (NOT *0 (Pers Sg1 Nom)) ;
 # This may be too strong, it precludes zero Sg1 subjects
 
 # ConNeg or not
-REMOVE:NoNegForMe ConNeg IF (NOT *-1 Neg BARRIER CLB);
+#REMOVE:NoNegForMe ConNeg IF (NOT *-1 Neg BARRIER CLB);
 REMOVE:OtherConNeg ConNeg IF (-1* ConNeg BARRIER Neg);
 
 SELECT:OnlyConNeg ConNeg IF (-1C Neg)(NOT *1 ConNeg) ;
@@ -320,7 +320,7 @@ SELECT:OnlyConNeg ConNeg IF (-1C Neg)(NOT *1 ConNeg) ;
 
 REMOVE:NotImpWhenInd Imprt IF (*-1C Ind);
 REMOVE:NotImpWhenWords Imprt IF (-1 N)(0 N);
-REMOVE:NotImpWhenWords Imprt IF (-1 WORD LINK *-1 BOS BARRIER Imprt);
+#REMOVE:NotImpWhenWords Imprt IF (-1 WORD LINK *-1 BOS BARRIER Imprt);
 
 # ConNeg Sg/Pl
 REMOVE Pl2 IF (0 Neg + Sg2)(1 ConNeg)(NOT 1 Pl2) ;
@@ -356,7 +356,7 @@ REMOVE Pcle IF (-1 N + $$CASE)(1 N + $$CASE);
 
 REMOVE Interj IF (NOT 1* ("!") BARRIER COMMA) ;
 
-REMOVE Acc IF (0C Nom OR Acc) (NOT *-1 VFIN BARRIER BOS) (NOT *-1 VFIN BARRIER EOS);
+#REMOVE Acc IF (0C Nom OR Acc) (NOT *-1 VFIN BARRIER BOS) (NOT *-1 VFIN BARRIER EOS);
 # REMOVE Acc IF (0C Nom OR Acc) (NOT -1* VFIN BARRIER BOS) (NOT -1* VFIN BARRIER EOS);
 ## Аддзис руч  кыз сирпу улысь горс,
 ##  V     Nom            Ela   Acc
@@ -387,6 +387,9 @@ SELECT Adv IF (-1 (N Ela)) (0 Adv);
 SELECT Adv IF (-1 BOS) (0 Adv);
 SELECT Adv IF (-1 V) (1 EOS);
 
-REMOVE Acc IF (-1 V);
+#REMOVE Acc IF (-1 IV);
+#REMOVE Acc IF (1 IV);
 
+SELECT Imprt IF (1 Acc) ;
+REMOVE Nom IF (-1 Imprt) ;
 
