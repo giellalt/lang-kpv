@@ -10,40 +10,42 @@ language are presented in this system in terms of the following symbols.
 (It is highly suggeste	d to follow existing standards when adding new tags).
 
 The parts-of-speech tags are:
- ;+A: adjective  кывберд	прилогательный
+ ;+A: adjective  кывберд	прилагательное
  ;+Adp 	: adposition (prepositio, postposition) 	 
- ;+Adv: adverb	 ХХ	      	наречия
- ;+CS: subordinating conjunction подчинительный союз
- ;+CC: coordinating conjunction сочинительный союз
- ;+CONJ: conjunction word союзное слово (здесь надо узнать который из 2 выш.)
- ;+Det: determiner
- ;+Interj: interjection	ХХ	междометие
- ;+N: noun		эмакыв	существительное
+ ;+Adv: adverb	 урчитан	      	наречие
+ ;+CS: subordinating conjunction		XX	подчинительный союз
+ ;+CC: coordinating conjunction		XX	сочинительный союз
+ ;+CONJ: conjunction word			XX	союзное слово (здесь надо узнать который из 2 выш.)
+ ;+Det: determiner  XX   XX
+ ;+Interj: interjection	междометтьӧ	междометие
+ ;+N: noun		эмакыв	 - существительное
  ;+Num	: numeral		лыдакыв	число
- ;+Pcle: particle		частица
+ ;+Pcle: particle		XX	частица
  ;+Po: postposition	кывбӧр	послелог
- ;+Pr: preposition	прилог
- ;+Pron: pronoun		местоимение
- ;+Qnt: Quantifier	ХХ
+ ;+Pr: preposition	XX	предлог
+ ;+Pron: pronoun	нимвежтас	местоимение
+ ;+Qnt: Quantifier	ХХ	XX
  ;+V: verb		кадакыв	глагол
 
 The parts of speech are further split up into:
 Adjectives
 
 Adverbs
-= * __+V__ These are ideophonic descriptors used to modify the verb
-= * __+V__ вырк ливтясь "__flit__ and it flew off"
-= * __+V__ Ad-adjective
-= * __+V__ with reference to type of adverb
-= * __+V__ spatial
-= * __+V__ temporal
+≈ * __+V__ These are ideophonic descriptors used to modify the verb
+≈ * __+V__ вырк ливтясь "__flit__ and it flew off"
+≈ * __+V__ Degree
+≈ * __+V__ with reference to type of adverb
+≈ * __+V__ spatial
+≈ * __+V__ temporal
+ * _+Parenthetic_ parenthetical phrase
 
 Interjections
-  +Conative   Used for calling animals, for example
+ +Conative Used for calling animals, for example
 
 Nouns
-= * __ +Conative  __ proper
-= * __ +Conative  __ used with paired nouns __collective nouns__
+≈ * __+Conative__ proper
+≈ * __+Conative__ used with paired nouns __collective nouns__
+≈ * __+Conative__ relational noun: выв, ув
 
 Postpositions
 
@@ -73,42 +75,42 @@ Quantifiers and Numerals are classified under:
 !!Nominals are inflected for Number and Case
 
 !!Number
- * __ +Sg __  singular
- * __ +Pl __  plural
+ * __+Sg__  singular
+ * __+Pl__  plural
 
 
 !!Case
 
- * __ +Acc __ accusative ZERO керан
- * __ +Acc1 __ accusative -ӧс керан
- * __ +Acc3 __ accusative -сӧ керан
- * __ +Abl __ ablative case -лысь босьтан
- * __ +Apr __ approximative -лань матыстчан
- ** __ +AprEgr __ approximative egressive -ланьсянь 
- ** __ +AprEla __ approximative elative -ланьысь
- ** __ +AprIll __ approximative illative -ланьӧ
- ** __ +AprIne __ approximative inessive -ланьын
- ** __ +AprPrl __ approximative prolative -ланьӧд
- ** __ +AprTer __ approximative terminative -ланьӧдз
- ** __ +AprTra __ approximative translative -ланьті
- * __ +Car __ cartive -тӧг торйӧдан
- * __ +Cns __ consecultative -ла могман
- * __ +Com __ Comitative -кӧд ӧтвывтан
- * __ +Cmpr __ Comparative case form -ся ӧткодялан
- * __ +Cmpl  __  Postposition complement
- * __ +Dat __ dative case -лы сетан
- * __ +Egr __ egressive -сянь ылыстчан
- * __ +Ela __ elative -ысь петан
- * __ +Gen __ genitive case -лӧн асалан
- * __ +Ill __ illative -ӧ пыран
- * __ +Ine __ inessive -ын ина
- * __ +Ins __ instrumental -ӧн керанторъя
- * __ +Nom __ nominative case нимтан
- * __ +Prl __ prolative -ӧд вуджан
- * __ +Tra __ translative -ті вуджан
- * __ +Ter __ Terminative -ӧдз матыстчан
- * __ +Voc __ Vocative ??
- * __ +Abs __ Absolute = +Sg+Nom
+ * __+Acc__ accusative ZERO керан
+ * __+Acc1__ accusative -ӧс керан
+ * __+Acc3__ accusative -сӧ керан
+ * __+Abl__ ablative case -лысь босьтан
+ * __+Apr__ approximative -лань матыстчан
+ ** __+AprEgr__ approximative egressive -ланьсянь 
+ ** __+AprEla__ approximative elative -ланьысь
+ ** __+AprIll__ approximative illative -ланьӧ
+ ** __+AprIne__ approximative inessive -ланьын
+ ** __+AprPrl__ approximative prolative -ланьӧд
+ ** __+AprTer__ approximative terminative -ланьӧдз
+ ** __+AprTra__ approximative translative -ланьті
+ * __+Car__ cartive -тӧг торйӧдан
+ * __+Cns__ consecultative -ла могман
+ * __+Com__ Comitative -кӧд ӧтвывтан
+ * __+Cmpr__ Comparative case form -ся ӧткодялан
+ * __+Cmpl__  Postposition complement
+ * __+Dat__ dative case -лы сетан
+ * __+Egr__ egressive -сянь ылыстчан
+ * __+Ela__ elative -ысь петан
+ * __+Gen__ genitive case -лӧн асалан
+ * __+Ill__ illative -ӧ пыран
+ * __+Ine__ inessive -ын ина
+ * __+Ins__ instrumental -ӧн керанторъя
+ * __+Nom__ nominative case нимтан
+ * __+Prl__ prolative -ӧд вуджан
+ * __+Tra__ translative -ті вуджан
+ * __+Ter__ Terminative -ӧдз матыстчан
+ * __+Voc__ Vocative ??
+ * __+Abs__ Absolute = +Sg+Nom
 
 
 
@@ -135,23 +137,23 @@ Gerund This is used with derivations
 
 Special symbols are classified with:
 The verbs are syntactically split according to transitivity:
- * __ +TV __ 
- * __ +IV __
+ * __+TV__ 
+ * __+IV__
 
 Special multiword units are analysed with:
- * __ +Multi __ 
+ * __+Multi__ 
 Non-dictionary words can be recognised with:
- * __ +Guess __ 
+ * __+Guess__ 
 
 Question and Focus particles:
- * __ +Qst  __
- * __ +Foc  __ 
- * __+Clt/И  __  This comes at the end of a word -и or after vowels (some authors use -й)
- * __+Clt  __ 
- * __+Clt/а  __ 
- * __+Clt/ӧ  __ 
- * __+Clt/тӧ  __ 
- * __+Clt/сӧ  __
+ * __+Qst__
+ * __+Foc__ 
+ * __+Clt/И__  This comes at the end of a word -и or after vowels (some authors use -й)
+ * __+Clt__ 
+ * __+Clt/а__ 
+ * __+Clt/ӧ__ 
+ * __+Clt/тӧ__ 
+ * __+Clt/сӧ__
 
 The Usage extents are marked using following tags:
  * __+Err/Orth__ 
@@ -167,7 +169,7 @@ Where do these come from source
  * __+Src/F__ foreign source apparently 2015-09-08
  * __+Dim__ diminutive
 
- * __ +NonHum  __ look at this and place somewhere
+ * __+NonHum__ look at this and place somewhere
 
 
  * __+Sem/Act__ Activity
@@ -286,31 +288,31 @@ source and target part-of-speech.
 
  * __+Der	__  In front of every derivation to make it
  possible to target derivations as a class e.g. in regular expressions etc 
- * __+Der/Ан  __  Process Participle +AN
- * __+Der/Ана  __ Process Participle +ANA
- * __+Der/Анаа  __  adverb derived from participle (+ANA) +ANAA
- * __+Der/чӧж  __  +CHOZH
+ * __+Der/Ан__  Process Participle +AN
+ * __+Der/Ана__ Process Participle +ANA
+ * __+Der/Анаа__  adverb derived from participle (+ANA) +ANAA
+ * __+Der/чӧж__  +CHOZH
 
 
- * __+Instr  __ 
- * __+Der/NomAct  __  +Event
- * __+Der/NomAg  __ 
- * __+Duration  __
+ * __+Instr__ 
+ * __+Der/NomAct__  +Event
+ * __+Der/NomAg__ 
+ * __+Duration__
 
- * __+Der/иг  __
+ * __+Der/иг__
 
 
- * __+Der/тӧдз    __  +VTer
- * __+Der/тӧм  __  +VAbe
- * __+Der/ысь  __
- * __+ActPrsPtc  __ 
+ * __+Der/тӧдз__  +VTer
+ * __+Der/тӧм__  +VAbe
+ * __+Der/ысь__
+ * __+ActPrsPtc__ 
 
- * __+Der/кості  __  +KOSTI
- * __+Der/коста  __  +KOSTA
- * __+Der/кежлӧ  __  +KEZHLO
+ * __+Der/кості__  +KOSTI
+ * __+Der/коста__  +KOSTA
+ * __+Der/кежлӧ__  +KEZHLO
 
- * __+Der/мысь  __  +MYS
- * __+Der/мысьт  __  +MYST
+ * __+Der/мысь__  +MYS
+ * __+Der/мысьт__  +MYST
 
 
 
@@ -328,7 +330,7 @@ Tags for Ethymological Origin marking. This has initially used used with proper 
 
 Sentence markers
 
- * __+Cop  __ 
+ * __+Cop__ 
 
 
 Morphophonology
@@ -336,19 +338,19 @@ Morphophonology
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 
- * __{aä}  __ 
- * __{oö}  __  
- * __{uü}  __
+ * __{aä}__ 
+ * __{oö}__  
+ * __{uü}__
 
- * __к2 л2 м2 т2 ь2 К2 Л2 М2 Т2 Ь2 И2  __ 
- * __%>   __  suffix border
+ * __к2 л2 м2 т2 ь2 К2 Л2 М2 Т2 Ь2 И2__ 
+ * __%>__  suffix border
 
  * %{иі%}	 for soft and hard
  * %{ая%}	 for soft and hard
 
 And following triggers to control variation
- * __ {front}  __
- * __ {back}  __
+ * __{front}__
+ * __{back}__
 
  * %^Close	 Close syllable, this triggers final consonant drop, seen in word-final position and before consonant
 
@@ -399,7 +401,7 @@ given the proper use of these flags.
  | @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
  | @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
- * __+Cmp    __
+ * __+Cmp__
 
  | +Cmp/Serial used with serial verbs
 
