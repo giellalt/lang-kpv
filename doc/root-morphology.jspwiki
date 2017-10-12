@@ -31,21 +31,22 @@ The parts of speech are further split up into:
 Adjectives
 
 Adverbs
-≈ * __+V__ These are ideophonic descriptors used to modify the verb
-≈ * __+V__ вырк ливтясь "__flit__ and it flew off"
-≈ * __+V__ Degree
-≈ * __+V__ with reference to type of adverb
-≈ * __+V__ spatial
-≈ * __+V__ temporal
- * _+Parenthetic_ parenthetical phrase
+ * __+Adv-Ideoph__ These are ideophonic descriptors used to modify the verb
+              вырк ливтясь "__flit__ and it flew off"
+ * __+AdA__ Degree
+ * __+Manner__ with reference to type of adverb
+ * __+Spat__ spatial
+ * __+Temp__ temporal
+ * __+Parenthetic__ parenthetical phrase
 
 Interjections
+ +Formulaic = ???
  +Conative Used for calling animals, for example
 
 Nouns
-≈ * __+Conative__ proper
-≈ * __+Conative__ used with paired nouns __collective nouns__
-≈ * __+Conative__ relational noun: выв, ув
+ * __+Prop__ proper
+ * __+CollN__ used with paired nouns __collective nouns__
+ * __+Relat__ relational noun: выв, ув
 
 Postpositions
 
@@ -81,11 +82,11 @@ Quantifiers and Numerals are classified under:
 
 !!Case
 
- * __+Acc__ accusative ZERO керан
- * __+Acc1__ accusative -ӧс керан
- * __+Acc3__ accusative -сӧ керан
- * __+Abl__ ablative case -лысь босьтан
- * __+Apr__ approximative -лань матыстчан
+ *  __+Acc__ accusative ZERO керан
+ *  __+Acc1__ accusative -ӧс керан
+ *  __+Acc3__ accusative -сӧ керан
+ *  __+Abl__ ablative case -лысь босьтан
+ *  __+Apr__ approximative -лань матыстчан
  ** __+AprEgr__ approximative egressive -ланьсянь 
  ** __+AprEla__ approximative elative -ланьысь
  ** __+AprIll__ approximative illative -ланьӧ
@@ -93,24 +94,24 @@ Quantifiers and Numerals are classified under:
  ** __+AprPrl__ approximative prolative -ланьӧд
  ** __+AprTer__ approximative terminative -ланьӧдз
  ** __+AprTra__ approximative translative -ланьті
- * __+Car__ cartive -тӧг торйӧдан
- * __+Cns__ consecultative -ла могман
- * __+Com__ Comitative -кӧд ӧтвывтан
- * __+Cmpr__ Comparative case form -ся ӧткодялан
- * __+Cmpl__  Postposition complement
- * __+Dat__ dative case -лы сетан
- * __+Egr__ egressive -сянь ылыстчан
- * __+Ela__ elative -ысь петан
- * __+Gen__ genitive case -лӧн асалан
- * __+Ill__ illative -ӧ пыран
- * __+Ine__ inessive -ын ина
- * __+Ins__ instrumental -ӧн керанторъя
- * __+Nom__ nominative case нимтан
- * __+Prl__ prolative -ӧд вуджан
- * __+Tra__ translative -ті вуджан
- * __+Ter__ Terminative -ӧдз матыстчан
- * __+Voc__ Vocative ??
- * __+Abs__ Absolute = +Sg+Nom
+ *  __+Car__ cartive -тӧг торйӧдан
+ *  __+Cns__ consecultative -ла могман
+ *  __+Com__ Comitative -кӧд ӧтвывтан
+ *  __+Cmpr__ Comparative case form -ся ӧткодялан
+ *  __+Cmpl__  Postposition complement
+ *  __+Dat__ dative case -лы сетан
+ *  __+Egr__ egressive -сянь ылыстчан
+ *  __+Ela__ elative -ысь петан
+ *  __+Gen__ genitive case -лӧн асалан
+ *  __+Ill__ illative -ӧ пыран
+ *  __+Ine__ inessive -ын ина
+ *  __+Ins__ instrumental -ӧн керанторъя
+ *  __+Nom__ nominative case нимтан
+ *  __+Prl__ prolative -ӧд вуджан
+ *  __+Tra__ translative -ті вуджан
+ *  __+Ter__ Terminative -ӧдз матыстчан
+ *  __+Voc__ Vocative ??
+ *  __+Abs__ Absolute = +Sg+Nom
 
 
 
@@ -338,21 +339,22 @@ Morphophonology
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 
- * __{aä}__ 
- * __{oö}__  
- * __{uü}__
+ ; {aä} : Vowel alternating symbol
+ ; {oö} : Vowel alternating symbol 
+ ; {uü} : Vowel alternating symbol
 
  * __к2 л2 м2 т2 ь2 К2 Л2 М2 Т2 Ь2 И2__ 
  * __%>__  suffix border
 
- * %{иі%}	 for soft and hard
- * %{ая%}	 for soft and hard
+ ; %{иі%}	 : for soft and hard
+ ; %{ая%}	 : for soft and hard
 
 And following triggers to control variation
- * __{front}__
- * __{back}__
+ ; {front} : Vowel change triggers
+ ; {back} : Vowel change triggers
 
- * %^Close	 Close syllable, this triggers final consonant drop, seen in word-final position and before consonant
+ * %^Close	 Close syllable, this triggers final consonant drop, seen in
+   word-final position and before consonant
 
 Valency tags, i.e. tags assigned to verbs for denoting their arbuments
 
