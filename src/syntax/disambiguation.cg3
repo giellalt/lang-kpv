@@ -245,7 +245,7 @@ REMOVE Interr IF (-2 N)(-1 (","))(0 Rel);
 # Adjectives
 # ==========
 
-SELECT:AN A + Abs IF (1 N) ;
+#SELECT:AN A + Abs IF (1 N) ;
 SELECT:AAN A + Abs IF (0 A)(1 CC)(2 A + Abs) ;
 
 # Прилагательное или существительное
@@ -263,7 +263,7 @@ REMOVE:WasA2NLeaveN Ex/A + N IF (0C N) ;
 
 REMOVE:NotSg1IFAdv Sg1 IF (-1 N OR Pron)(0 Adv)(1C Ind)(NOT 1 Sg1);
 
-REMOVE:AdvNotPcle Pcle (0 Adv);
+#REMOVE:AdvNotPcle Pcle (0 Adv);
 
 REMOVE:AdvNotA A IF (-1 N or Pron)(0 Adv)(1 V);
 	# ме регыд муна
@@ -295,7 +295,7 @@ SELECT V IF (-1 (N Nom));
 # Pl if ConNeg Pl3
 SELECT:NegPlIfConNegPl Neg + Pl3 IF (1 ConNeg + Pl3);
 
-# Not Pl if not ConNeg Pl3
+#Not Pl if not ConNeg Pl3
 REMOVE:NegSgIfNotConNegPl Neg + Pl3 IF (NOT 1 ConNeg + Pl3);
 
 SELECT:NegIfConNeg Neg IF (1 ConNeg OR Adv);
@@ -361,7 +361,7 @@ REMOVE Interj IF (NOT 1* ("!") BARRIER COMMA) ;
 ## Аддзис руч  кыз сирпу улысь горс,
 ##  V     Nom            Ela   Acc
 
-REMOVE:NotNomIfVFINLeft Nom IF (-1 V) (*-1 VFIN BARRIER BOS) (NOT -2 BOS);
+#REMOVE:NotNomIfVFINLeft Nom IF (-1 V) (*-1 VFIN BARRIER BOS) (NOT -2 BOS);
 #REMOVE:NotNomIfVFINLeft Nom IF (-1 V) (*-1 VFIN BARRIER BOS);
 ## Аддзис руч кыз сирпу улысь горс, 
 ## 1. Аддзис руч кыз сирпу улысь горс, ???
@@ -394,3 +394,7 @@ SELECT Imprt IF (1 Acc) ;
 REMOVE Nom IF (-1 Imprt) ;
 
 SELECT Inf IF (-1 V) ;
+
+SELECT Pcle IF (1 A) ;
+SELECT Inf IF (-1 BOS) (0 V) ;
+
