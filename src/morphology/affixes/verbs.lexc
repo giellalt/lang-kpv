@@ -524,7 +524,7 @@ LEXICON Verb-nyDer-ONSET-CONS !!≈ * __@CODE@__ Derivation onset in consonant
 +Der/лывл0000@C.CONJ-INF@@C.CONJ-POSS@:%>лывл@C.CONJ-INF@@C.CONJ-POSS@ V_ВОЛЫНЫ ; !!босьтлывлыны
 +Der/сь00@C.CONJ-INF@@C.CONJ-POSS@:%>сь@C.CONJ-INF@@C.CONJ-POSS@ V_ЛЫДДЬЫНЫ ; !! овсьыны
 +Der/сь+Der/ышт0000@C.CONJ-INF@@C.CONJ-POSS@:%>сьышт@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !!вежсьыштны
-+Der/сь+Der/ышт+Der/лывлы0000000@C.CONJ-INF@@C.CONJ-POSS@:%>сьыштлывл@C.CONJ-INF@@C.CONJ-POSS@ V_ВОЛЫНЫ ; !! пусьыштлывлыны
++Der/сь+Der/ышт+Der/лывл0000000@C.CONJ-INF@@C.CONJ-POSS@:%>сьыштлывл@C.CONJ-INF@@C.CONJ-POSS@ V_ВОЛЫНЫ ; !! пусьыштлывлыны
 +Der/сь+Der/ышт+Der/лы0000@C.CONJ-INF@@C.CONJ-POSS@:%>сьыштл@C.CONJ-INF@@C.CONJ-POSS@ V_ВОЛЫНЫ ; !!?? пусьыштлыны
 ! зь:зь  !!югзьыны
 ! Why do the suffixes above have ">" marking
@@ -532,7 +532,7 @@ LEXICON Verb-nyDer-ONSET-CONS !!≈ * __@CODE@__ Derivation onset in consonant
 +Der/ч@C.CONJ-INF@@C.CONJ-POSS@:ч@C.CONJ-INF@@C.CONJ-POSS@ V_ЛЫДДЬЫНЫ ; !!босьтчыны
 +Der/ч+Der/л0@C.CONJ-INF@@C.CONJ-POSS@:чыл@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !!дӧзмӧдчывны
 +Der/ч+Der/ышт+Der/лы00@C.CONJ-INF@@C.CONJ-POSS@:чыштл@C.CONJ-INF@@C.CONJ-POSS@ V_ВОЛЫНЫ ; !!босьтчыштлыны
-+Der/ч+Der/ышт+Der/лывлы00000@C.CONJ-INF@@C.CONJ-POSS@:чыштлывл@C.CONJ-INF@@C.CONJ-POSS@ V_ВОЛЫНЫ ; !! босьтчыштлывлыны
++Der/ч+Der/ышт+Der/лывл00000@C.CONJ-INF@@C.CONJ-POSS@:чыштлывл@C.CONJ-INF@@C.CONJ-POSS@ V_ВОЛЫНЫ ; !! босьтчыштлывлыны
 +Der/ч+Der/ышт00@C.CONJ-INF@@C.CONJ-POSS@:чышт@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !!босьтчыштны
 
 LEXICON Verb-nyDer-ONSET-VOW !!≈ * __@CODE@__ Derivation onset	in vowel
@@ -541,7 +541,7 @@ LEXICON Verb-nyDer-ONSET-VOW !!≈ * __@CODE@__ Derivation onset	in vowel
 
 LEXICON Verb-nyDer-ONSET-Ы !!≈ * __@CODE@__ Derivation onset	in vowel
 +Der/ышт+Der/лы00@C.CONJ-INF@@C.CONJ-POSS@:ыштл@C.CONJ-INF@@C.CONJ-POSS@ V_ВОЛЫНЫ ;   !!сёйыштлыны
-+Der/ышт+Der/лывлы00000@C.CONJ-INF@@C.CONJ-POSS@:ыштлывл@C.CONJ-INF@@C.CONJ-POSS@ V_ВОЛЫНЫ ;  !!сёйыштлывлыны
++Der/ышт+Der/лывл00000@C.CONJ-INF@@C.CONJ-POSS@:ыштлывл@C.CONJ-INF@@C.CONJ-POSS@ V_ВОЛЫНЫ ;  !!сёйыштлывлыны
 +Der/ышт00@C.CONJ-INF@@C.CONJ-POSS@:ышт@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !!сёйыштны
 
 LEXICON Verb-nyDer-ONSET-А !!≈ * __@CODE@__ Derivation onset	in vowel
@@ -666,20 +666,20 @@ LEXICON Verb-ynyDer
 !+V+Der/ышт+Dim+V+Der/лы+V+ConNeg@U.CONJ-CONNEG.YES@:%>ыштл00@U.CONJ-CONNEG.YES@ WordEnd ;
 !+V+Der/ышт+Dim+V+Der/лы+V+Imprt+Sg2:%>ыштл WordEnd ;
 
-+Der/ышт+Dim+Der/лывлы0000@C.CONJ-INF@@C.CONJ-POSS@:ыштлывл@C.CONJ-INF@@C.CONJ-POSS@ V_ВОЛЫНЫ ;  !!??кольмыштлывлыны
++Der/ышт+Dim+Der/лывл0000@C.CONJ-INF@@C.CONJ-POSS@:ыштлывл@C.CONJ-INF@@C.CONJ-POSS@ V_ВОЛЫНЫ ;  !!??кольмыштлывлыны
 
 +Der/л0@C.CONJ-INF@@C.CONJ-POSS@:ыл@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ;  !!тшӧктывны
 
-+Der/лывлы00@C.CONJ-INF@@C.CONJ-POSS@:ывл@C.CONJ-INF@@C.CONJ-POSS@ V_ВОЛЫНЫ ; !!тшӧктывлыны
-!+V+Der/ывлы+V:%>ывл VerbConj ; ! мынтывл - мынтывлан
-!+V+Der/ывлы+V+Inf:%>ывлыны K ;
-!+V+Der/ывлы+V+ConNeg000@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ывлыны@U.CONJ-CONNEG.YES@0@U.CONJ-NX.PL@@U.CONJ-PX.3@ WordEnd ;
-!+V+Der/ывлы+V+ConNeg0@U.CONJ-CONNEG.YES@:%>ывлы@U.CONJ-CONNEG.YES@ WordEnd ;
-!+V+Der/ывлы+V+Imprt+Sg2:%>ывлы WordEnd ;
++Der/лывл00@C.CONJ-INF@@C.CONJ-POSS@:ывл@C.CONJ-INF@@C.CONJ-POSS@ V_ВОЛЫНЫ ; !!тшӧктывлыны
+!+V+Der/ывл+V:%>ывл VerbConj ; ! мынтывл - мынтывлан
+!+V+Der/ывл+V+Inf:%>ывлыны K ;
+!+V+Der/ывл+V+ConNeg000@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ывлыны@U.CONJ-CONNEG.YES@0@U.CONJ-NX.PL@@U.CONJ-PX.3@ WordEnd ;
+!+V+Der/ывл+V+ConNeg0@U.CONJ-CONNEG.YES@:%>ывлы@U.CONJ-CONNEG.YES@ WordEnd ;
+!+V+Der/ывл+V+Imprt+Sg2:%>ывлы WordEnd ;
 
 +Der/сьы00@C.CONJ-INF@@C.CONJ-POSS@:ысь@C.CONJ-INF@@C.CONJ-POSS@ V_ЛЫДДЬЫНЫ ; !! вевттьысьыны
 +Der/сь+Der/ышт+Dim000@C.CONJ-INF@@C.CONJ-POSS@:ысьышт@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !!лэптысьыштны
-+Der/сьы+Der/ышт+Der/лывлы0000000@C.CONJ-INF@@C.CONJ-POSS@:ысьыштлывл@C.CONJ-INF@@C.CONJ-POSS@ V_ВОЛЫНЫ ; !!?? вевттьысьыштлывлыны
++Der/сьы+Der/ышт+Der/лывл0000000@C.CONJ-INF@@C.CONJ-POSS@:ысьыштлывл@C.CONJ-INF@@C.CONJ-POSS@ V_ВОЛЫНЫ ; !!?? вевттьысьыштлывлыны
 +Der/сьы+Der/ышт+Der/лы0000@C.CONJ-INF@@C.CONJ-POSS@:ысьыштл@C.CONJ-INF@@C.CONJ-POSS@ V_ВОЛЫНЫ ; !!лэптысьыштлыны
 +Der/сь+Der/л00@C.CONJ-INF@@C.CONJ-POSS@:ысьл@C.CONJ-INF@@C.CONJ-POSS@ V_ВОЛЫНЫ ; !!кутчысьлыны
 
