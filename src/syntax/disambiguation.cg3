@@ -208,7 +208,8 @@ SELECT Pcle IF (-1 BOS) (0 ("тыдалӧ")) ;
 SELECT Pcle IF (0 ("тыдалӧ")) (1 EOS) ;
 SELECT Pcle IF (-1 BOS) (0 ("шуам")) ;
 SELECT Pcle IF (-1 COMMA) (0 ("шуам")) (1 COMMA);
-
+SELECT Pcle IF (-1 CLB) (0 ("кӧнкӧ")) (1 CLB);
+SELECT Pcle IF (-1 BOS) (0 ("кӧнкӧ")) (1 CLB);
 REMOVE Pcle IF (-1 COMMA) (0 ("но"));
 SELECT Pcle IF (-1 BOS) (0 ("но")) ;
 
@@ -318,7 +319,7 @@ SELECT:OnlyConNeg ConNeg IF (-1C Neg)(NOT *1 ConNeg) ;
 
 # Imperative or noun
 
-REMOVE:NotImpWhenInd Imprt IF (*-1C Ind);
+#REMOVE:NotImpWhenInd Imprt IF (*-1C Ind);
 REMOVE:NotImpWhenWords Imprt IF (-1 N)(0 N);
 #REMOVE:NotImpWhenWords Imprt IF (-1 WORD LINK *-1 BOS BARRIER Imprt);
 
@@ -387,14 +388,16 @@ SELECT Adv IF (-1 (N Ela)) (0 Adv);
 SELECT Adv IF (-1 BOS) (0 Adv);
 SELECT Adv IF (-1 V) (1 EOS);
 
-#REMOVE Acc IF (-1 IV);
-#REMOVE Acc IF (1 IV);
+SELECT Acc IF (1 (V TV));
+SELECT Acc IF (-1 (V TV));
 
 SELECT Imprt IF (1 Acc) ;
 REMOVE Nom IF (-1 Imprt) ;
 
 SELECT Inf IF (-1 V) ;
-
+SELECT Inf IF (-2 V) ;
 SELECT Pcle IF (1 A) ;
 SELECT Inf IF (-1 BOS) (0 V) ;
-
+REMOVE Acc IF (-1 Refl) ;
+SELECT N IF (1 Po) ;
+SELECT Adv IF (-1 V) ;
