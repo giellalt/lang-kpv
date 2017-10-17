@@ -385,12 +385,13 @@ SELECT Prs IF (-2 V) (-1 A) (0 Prs) (1 N);
 REMOVE N IF (-1 N) (0 N) (1 Pcle);
 
 SELECT Adv IF (-1 (N Ela)) (0 Adv);
-SELECT Adv IF (-1 BOS) (0 Adv);
+#SELECT Adv IF (-1 BOS) (0 Adv);
 SELECT Adv IF (-1 V) (1 EOS);
 
 SELECT Acc IF (1 (V TV));
 SELECT Acc IF (-1 (V TV));
-
+SELECT Nom IF (-1 (V IV)) ;
+SELECT Nom IF (1 (V IV)) ;
 SELECT Imprt IF (1 Acc) ;
 REMOVE Nom IF (-1 Imprt) ;
 
@@ -401,3 +402,9 @@ SELECT Inf IF (-1 BOS) (0 V) ;
 REMOVE Acc IF (-1 Refl) ;
 SELECT N IF (1 Po) ;
 SELECT Adv IF (-1 V) ;
+REMOVE Refl IF (-1 V) ;
+SELECT Pron IF (1 N) ;
+REMOVE V IF (-1 A) ;
+
+
+
