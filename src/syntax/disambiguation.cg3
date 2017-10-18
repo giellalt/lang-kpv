@@ -341,8 +341,8 @@ REMOVE:DaAdv2 Adv IF (0 ("да"));
 ## Коми да мари
 
 SELECT:DaPcle Pcle IF (0 ("да"))(-1 Pcle)(1 EOS OR COMMA);
+SELECT:DaPcle Pcle IF (-1 BOS) (0 ("да"))(1 EOS OR COMMA);
 SELECT:DaCS CS IF (0 ("да"))(1 EOS OR COMMA);
-
 SELECT:DaAllA CC IF (*-1 $$WORD CBARRIER Non-Pcle) (0 ("да"))(1 $$WORD);
 SELECT:DaAllN CC IF (*-1 NOMINAL CBARRIER Non-Pcle) (0 ("да"))(1 NOMINAL);
 
@@ -403,8 +403,11 @@ REMOVE Acc IF (-1 Refl) ;
 SELECT N IF (1 Po) ;
 SELECT Adv IF (-1 V) ;
 REMOVE Refl IF (-1 V) ;
-SELECT Pron IF (1 N) ;
 REMOVE V IF (-1 A) ;
 
-
-
+SELECT Adv IF (1 Ex/V) ;
+SELECT CS IF (-1 COMMA) (0 ("мый")) ;
+REMOVE CS IF (-1 BOS)(0 ("мый")) ;
+SELECT CS IF (-1 COMMA) (0 ("быттьӧ")) ;
+REMOVE ConNeg IF (-1 BOS) ;
+SELECT Pron IF (1 N) ;
