@@ -411,3 +411,5 @@ REMOVE CS IF (-1 BOS)(0 ("мый")) ;
 SELECT CS IF (-1 COMMA) (0 ("быттьӧ")) ;
 REMOVE ConNeg IF (-1 BOS) ;
 SELECT Pron IF (1 N) ;
+SELECT Inf IF (1 (V Neg)) ;
+SELECT CS IF (-1 COMMA) (0 ("мыйла")) ;
