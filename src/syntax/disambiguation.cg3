@@ -1,75 +1,80 @@
 
-# Komi disambiguator
+#!! !!!Komi disambiguator
 
-# ========== #
-# Delimiters #
-# ========== #
+# ============== #
+#!! !!Delimiters 
+# ============== #
 
 DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" sent ;
+#!! Sentence delimiters are: "<.>" "<!>" "<?>" "<...>" "<¶>" sent
 
 #PARENTHESES = "<$(>" "<$)>" "<$[>" "<$]>" "<${>" "<$}>" "<$«>" "<$»>" ;
 
-# ============= #
-# Tags and sets #
-# ============= #
+# ================= #
+#!! !!Tags and sets 
+# ================= #
 
 SETS
 
 # I define end of clause and beginning of clause in a way so that the file
 # may be read both by the CG-2 and the vislcg formalisms.
 
-LIST BOS = (>>>) (<s>);
-LIST EOS = (<<<) (</s>);
+#!! !Beginning and end of sentence	
+LIST BOS = (>>>) (<s>);  #!! BOS
+LIST EOS = (<<<) (</s>); #!! EOS
 
-LIST CmpTest = CmpTest ;
+#!! !Miscellanous
 
-LIST Err = Err ; 
+LIST CmpTest = CmpTest ; #!! CmpTest
+LIST Err = Err ;  #!! Err
 
-LIST N = N ; 
-LIST V = V ; 
-LIST A = A ; 
-LIST Ex/A = Ex/A ;
-
-LIST Adv = Adv ; 
-LIST CC = CC ; 
-LIST CS = CS ; 
-LIST Interj = Interj interj ij; 
-LIST Pron = Pron ; 
-LIST Num = Num ; 
-LIST Pcle = Pcle ; 
-LIST Clt = Clt ; 
-LIST Po = Po ; 
-LIST Dem = Dem ;
-LIST Qnt = Qnt ;
-LIST Prop = Prop ;
+#!! !Parts of speech tags
+LIST N = N ; #!! N
+LIST V = V ; #!! V
+LIST A = A ; #!! A
+LIST Adv = Adv ; #!! Adv
+LIST CC = CC ; #!! CC
+LIST CS = CS ; #!! CS
+LIST Interj = Interj interj ij; #!! Inter
+LIST Pron = Pron ; #!! Pron
+LIST Num = Num ; #!! Num
+LIST Pcle = Pcle ; #!! Pcle
+LIST Clt = Clt ; #!! Clt
+LIST Po = Po ; #!! Po
+LIST Dem = Dem ; #!! Dem
+LIST Qnt = Qnt ; #!! Qnt
+LIST Prop = Prop ; #!! Prop
 LIST WORD = N V A Adv CC CS Interj Pron Num Pcle Clt Po ;
-LIST Ex/A = Ex/A ;
-LIST Ex/N = Ex/N ;
-LIST Ex/Num = Ex/Num ;
-LIST Ex/V = Ex/V ;
 
-LIST Ex/WORD = Ex/N Ex/V Ex/A Ex/Num ;
+#!! !Derivation tags
+LIST Ex/A = Ex/A ; #!! Ex/A (former adj)
+LIST Ex/N = Ex/N ; #!! Ex/N
+LIST Ex/Num = Ex/Num ; #!! Ex/Num
+LIST Ex/V = Ex/V ; #!! Ex/V
+LIST Ex/WORD = Ex/N Ex/V Ex/A Ex/Num ; #!! Ex/WORD
+LIST DerTag = Der/MWN Der/И Der/а Der/ал Der/ась Der/выв Der/джык Der/дор Der/иг Der/кежлӧ Der/кодь Der/коста Der/кості Der/л Der/ла Der/ладор Der/лун Der/лы Der/лывлы Der/мед Der/моз Der/мысь Der/мысьт Der/мӧн Der/мӧнъя Der/овт Der/сор Der/сь Der/сьы Der/сюрӧ Der/тыр Der/тырйи Der/тыръя Der/тӧдз Der/тӧм Der/чы Der/чӧж Der/ывлы Der/ысь Der/ышт Der/ӧм ; #!! DerTag
 
-LIST VNEG = "ог" "он" "оз" "огӧ" "огӧй" "онӧ" "онӧй" "эг" "эн" "эз" "эгӧ" "эгӧй" "энӧ" "энӧй" ;
 
-LIST Prs = Prs ; 
-LIST Fut = Fut ; 
-LIST Fut1 = Fut1 ; 
-LIST Imprt = Imprt ;
-LIST Prt1 = Prt1 ; 
-LIST Prt2 = Prt2 ; 
-LIST Prf = Prf ; 
-LIST PrfIpf = PrfIpf ; 
-LIST HstPrf = HstPrf ; 
-LIST PluPrf = PluPrf ; 
-LIST HstPluPrf = HstPluPrf ; 
-LIST Ind = Ind ind ; 
-LIST Imp = Imp ; 
-LIST Cond = Cond cond ; 
-LIST Opt = Opt opt ; 
-LIST Sg1 = Sg1 ; 
-LIST Sg2 = Sg2 ; 
-LIST Sg3 = Sg3 ; 
+#!! !Verbal categories
+LIST Prs = Prs ; #!! Prs
+LIST Fut = Fut ; #!! Fut
+LIST Fut1 = Fut1 ; #!! Fut1
+LIST Imprt = Imprt ; #!! Imprt
+LIST Prt1 = Prt1 ; #!! Prt1
+LIST Prt2 = Prt2 ; #!! Prt2
+LIST Prf = Prf ;  #!! Prf
+LIST PrfIpf = PrfIpf ; #!! PrfIpf
+LIST HstPrf = HstPrf ; #!! HstPrf
+LIST PluPrf = PluPrf ; #!! PluPrf
+LIST HstPluPrf = HstPluPrf ; #!! HstPluPrf
+LIST Ind = Ind ind ; #!! Ind
+LIST Imp = Imp ;  #!! Imp
+LIST Cond = Cond cond ; #!! Cond
+LIST Opt = Opt opt ; #!! Opt
+
+LIST Sg1 = Sg1 ; #!! Sg1
+LIST Sg2 = Sg2 ; #!! Sg2
+LIST Sg3 = Sg3 ; #!! ...
 LIST Pl1 = Pl1 ; 
 LIST Pl2 = Pl2 ; 
 LIST Pl3 = Pl3 ; 
@@ -78,16 +83,16 @@ LIST Pos = Pos ;
 LIST Neg = Neg neg ; 
 LIST ConNeg = ConNeg conneg; 
 
-LIST Sg = Sg sg ; 
-LIST Pl = Pl pl ; 
-LIST Nom = Nom nom ; 
-LIST Gen = Gen gen ; 
-LIST Abl = Abl abl ; 
-LIST Dat = Dat dat ; 
-LIST Com = Com com ; 
-LIST Cns = Cns cns ; 
-
-LIST Acc = Acc acc ; 
+#!! Nominal categories
+LIST Sg = Sg sg ; #!! Sg
+LIST Pl = Pl pl ; #!! Pl
+LIST Nom = Nom nom ; #!! Nom
+LIST Gen = Gen gen ; #!! Gen
+LIST Abl = Abl abl ; #!! Abl
+LIST Dat = Dat dat ; #!! Dat
+LIST Com = Com com ; #!! Com 
+LIST Cns = Cns cns ; #!! Cns
+LIST Acc = Acc acc ; #!! ...
 LIST Ins = Ins ins ; 
 LIST Ine = Ine ine ; 
 LIST Ill = Ill ill ; 
@@ -166,11 +171,15 @@ LIST Der/са = Der/са ;
 LIST CASE = Nom Gen Abl Dat Com Cns Acc Ins Ine Ill Ela Car Egr Tra Apr Ter Abe Prl ;
 SET OBLCASE = CASE - Nom ;
 
-SET VFIN = Ind | Cond | Opt ; 
 
-LIST DerTag = Der/MWN Der/И Der/а Der/ал Der/ась Der/выв Der/джык Der/дор Der/иг Der/кежлӧ Der/кодь Der/коста Der/кості Der/л Der/ла Der/ладор Der/лун Der/лы Der/лывлы Der/мед Der/моз Der/мысь Der/мысьт Der/мӧн Der/мӧнъя Der/овт Der/сор Der/сь Der/сьы Der/сюрӧ Der/тыр Der/тырйи Der/тыръя Der/тӧдз Der/тӧм Der/чы Der/чӧж Der/ывлы Der/ысь Der/ышт Der/ӧм ;
 
-LIST ASKI = "аски" "понедельникӧ" "вторникӧ" "середаӧ" "четвергӧ" "пекничаӧ" "субӧтаӧ" "вежалунӧ" "регыд" "аскомысь"; # tomorrow set
+#!! !Verb sets
+LIST VNEG = "ог" "он" "оз" "огӧ" "огӧй" "онӧ" "онӧй" "эг" "эн" "эз" "эгӧ" "эгӧй" "энӧ" "энӧй" ; #!! VNEG (all Neg verbs)
+
+SET VFIN = Ind | Cond | Opt ; #!! VFIN
+
+
+LIST ASKI = "аски" "понедельникӧ" "вторникӧ" "середаӧ" "четвергӧ" "пекничаӧ" "субӧтаӧ" "вежалунӧ" "регыд" "аскомысь"; #!! ASKI (tomorrow set)
 
 # Complementary sets
 
@@ -178,13 +187,14 @@ SET Non-Pcle = WORD - Pcle ;
 SET NOMINAL = N | Pron ;
 
 
-
+#!! !!Rule section
 SECTION
 
-
+#!! * __NoDerIfPossible__ removes all derivations
 REMOVE:NoDerIfPossible DerTag ;
 
-SELECT Dem IF (0 Dem)(1 N + Nom);
+#!! * __Dem__ selects Dem if N Nom to the right
+SELECT:Dem Dem IF (0 Dem)(1 N + Nom);
 
 #SELECT:AbsIfN Abs IF (1 N);
 #SELECT:AttrIfN Attr IF (1 N);
@@ -199,8 +209,10 @@ SELECT:CmpTst2 CmpTest ; # Kill'em all
 # ==========
 
 #REMOVE Pcle IF (-1 BOS)(0 CC); # ?
-REMOVE CC IF (1 EOS)(0 Pcle);
-REMOVE ABBR IF (0 CC)(NOT 1 Prop);
+#!! * __NoFinalCC__ removes CC if competing Pcle and sentence-final
+REMOVE:NoFinalCC CC IF (1 EOS)(0 Pcle);
+#!! * __NoABBR__ removes ABBR for competing CC
+REMOVE:NoABBR ABBR IF (0 CC)(NOT 1 Prop);
 
 
 SELECT Pcle IF (-1 CLB) (0 ("тыдалӧ")) (1 COMMA);
