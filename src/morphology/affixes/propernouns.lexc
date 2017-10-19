@@ -272,6 +272,10 @@ LEXICON PROP-PLC_SUB ! Inanimate proper nouns. Place names
 LEXICON PROP-ORG ! Inanimate proper nouns. Name of organization
 +N+Prop+Sem/Org+Sg: CASEPOSSLEX ;
 
+LEXICON Prop-Sur
+Prop-Sur-Mal ;
+Prop-Sur-Fem ;
+
 LEXICON Prop-Sur-Mal ! Basic nouns.
 +N+Prop+Sem/Sur+Sem/Mal+Sg: CASEPOSSLEX ;
 
