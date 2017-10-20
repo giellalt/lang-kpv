@@ -406,7 +406,7 @@ SELECT Nom IF (-1 (V IV)) ;
 SELECT Nom IF (1 (V IV)) ;
 SELECT Imprt IF (1 Acc) ;
 REMOVE Nom IF (-1 Imprt) ;
-
+SELECT A IF (-1 V) (1 N);
 SELECT Inf IF (-1 V) ;
 SELECT Inf IF (-2 V) ;
 SELECT Pcle IF (1 A) ;
@@ -417,7 +417,7 @@ SELECT Adv IF (-1 V) ;
 REMOVE Refl IF (-1 V) ;
 REMOVE V IF (-1 A) ;
 
-SELECT Adv IF (1 Ex/V) ;
+#SELECT Adv IF (1 Ex/V) ;
 SELECT CS IF (-1 COMMA) (0 ("мый")) ;
 REMOVE CS IF (-1 BOS)(0 ("мый")) ;
 SELECT CS IF (-1 COMMA) (0 ("быттьӧ")) ;
@@ -425,3 +425,4 @@ REMOVE ConNeg IF (-1 BOS) ;
 SELECT Pron IF (1 N) ;
 SELECT Inf IF (1 (V Neg)) ;
 SELECT CS IF (-1 COMMA) (0 ("мыйла")) ;
+REMOVE N IF (-1 Adv)(0 ("нин")) ;
