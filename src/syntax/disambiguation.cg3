@@ -368,7 +368,7 @@ SELECT:DaGlobal CC IF (*-1 V BARRIER CS OR CLB) (0 ("да"))(*1 V);
 REMOVE ABBR IF (0 CC)(NOT 1 ("."));
 REMOVE Pcle IF (-1 N + $$CASE)(1 N + $$CASE);
 
-REMOVE Interj IF (NOT 1* ("!") BARRIER COMMA) ;
+#REMOVE Interj IF (NOT 1* ("!") BARRIER COMMA) ;
 
 #REMOVE Acc IF (0C Nom OR Acc) (NOT *-1 VFIN BARRIER BOS) (NOT *-1 VFIN BARRIER EOS);
 # REMOVE Acc IF (0C Nom OR Acc) (NOT -1* VFIN BARRIER BOS) (NOT -1* VFIN BARRIER EOS);
@@ -404,7 +404,7 @@ SELECT Adv IF (-1 V) (1 EOS);
 SELECT Acc IF (1 (V TV));
 SELECT Acc IF (-1 (V TV));
 SELECT Nom IF (-1 (V IV)) ;
-SELECT Nom IF (1 (V IV)) ;
+#SELECT Nom IF (1 (V IV)) ;
 SELECT Imprt IF (1 Acc) ;
 REMOVE Nom IF (-1 Imprt) ;
 SELECT A IF (-1 V) (1 N);
@@ -419,11 +419,15 @@ REMOVE Refl IF (-1 V) ;
 REMOVE V IF (-1 A) ;
 
 #SELECT Adv IF (1 Ex/V) ;
-SELECT CS IF (-1 COMMA) (0 ("мый")) ;
+#SELECT CS IF (-1 COMMA) (0 ("мый")) ;
 REMOVE CS IF (-1 BOS)(0 ("мый")) ;
 SELECT CS IF (-1 COMMA) (0 ("быттьӧ")) ;
 REMOVE ConNeg IF (-1 BOS) ;
 SELECT Pron IF (1 N) ;
 SELECT Inf IF (1 (V Neg)) ;
-SELECT CS IF (-1 COMMA) (0 ("мыйла")) ;
+#SELECT CS IF (-1 COMMA) (0 ("мыйла")) ;
 REMOVE N IF (-1 Adv)(0 ("нин")) ;
+
+REMOVE Imprt IF (-1 V) ;
+SELECT CS IF (-1 COMMA) (0 ("быттьӧ")) ;
+SELECT (N Nom) IF (-1 (A Nom));
