@@ -328,6 +328,7 @@ REMOVE:OtherConNeg ConNeg IF (-1* ConNeg BARRIER Neg);
 
 SELECT:OnlyConNeg ConNeg IF (-1C Neg)(NOT *1 ConNeg) ;
 
+REMOVE:NoConNegAlone ConNeg IF (NOT *0 Neg);
 
 # Imperative or noun
 
