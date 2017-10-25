@@ -216,8 +216,8 @@ REMOVE:NoABBR ABBR IF (0 CC)(NOT 1 Prop);
 
 
 SELECT Pcle IF (-1 CLB) (0 ("тыдалӧ")) (1 COMMA);
-SELECT Pcle IF (-1 BOS) (0 ("тыдалӧ")) ;
-SELECT Pcle IF (0 ("тыдалӧ")) (1 EOS) ;
+SELECT Pcle IF (-1 BOS) (0 ("тыдалӧ")) (1 COMMA);
+SELECT Pcle IF (0 ("тыдалӧ")) (-1 COMMA) (1 EOS);
 SELECT Pcle IF (-1 BOS) (0 ("шуам")) ;
 SELECT Pcle IF (-1 COMMA) (0 ("шуам")) (1 COMMA);
 SELECT Pcle IF (-1 CLB) (0 ("кӧнкӧ")) (1 CLB);
@@ -385,7 +385,7 @@ REMOVE:NotPoIfSentInitial Po IF (0C Po OR Adv) (-1 PUNCT + LEFT OR BOS) ;
 
 # Predicative
 
-SELECT A IF (*-1 ("вӧвны") BARRIER N);
+#SELECT A IF (*-1 ("вӧвны") BARRIER N);
 
 
 # Mapping
@@ -412,10 +412,10 @@ REMOVE Nom IF (-1 Imprt) ;
 SELECT A IF (-1 V) (1 N);
 SELECT Inf IF (-1 V) ;
 SELECT Inf IF (-2 V) ;
-SELECT Pcle IF (1 A) ;
+SELECT Pcle IF (1 A) (0 ("медся"));
 SELECT Inf IF (-1 BOS) (0 V) ;
 REMOVE Acc IF (-1 (V Refl)) ;
-SELECT N IF (1 Po) ;
+SELECT N OR Pron IF (1 Po) ;
 SELECT Adv IF (-1 V) ;
 REMOVE Refl IF (-1 V) ;
 REMOVE V IF (-1 A) ;
@@ -438,3 +438,6 @@ REMOVE Imprt IF (-1 N OR Pron) (0 Imprt);
 REMOVE Nom IF (-3 (V TV)) (-2 Acc) (-1 CC) ;
 REMOVE Pcle IF (-1 BOS)(0 ("и")) ;
 SELECT A IF (1 N) (0 ("кӧдзыд")) ;
+
+REMOVE N IF (-1 ("медся")) ;
+
