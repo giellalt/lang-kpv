@@ -302,7 +302,7 @@ SELECT:OzKatastrof N IF (0 ("оз"))(1 ("чӧскыд"));
 REMOVE:KillOzN N IF (0 ("оз"));
 	# оз - зэв чӧскыд тусь.
 
-SELECT V IF (-1 (N Nom));
+#SELECT V IF (-1 (N Nom));
 
 # Neg
 # Pl if ConNeg Pl3
@@ -406,7 +406,7 @@ SELECT Acc IF (-1 (V TV));
 #  кань юис ва да йӧв.
 
 SELECT Nom IF (-1 (V IV)) ;
-#SELECT Nom IF (1 (V IV)) ;
+SELECT Nom IF (1 (V IV)) ;
 SELECT Imprt IF (1 Acc) ;
 REMOVE Nom IF (-1 Imprt) ;
 SELECT A IF (-1 V) (1 N);
@@ -414,7 +414,7 @@ SELECT Inf IF (-1 V) ;
 SELECT Inf IF (-2 V) ;
 SELECT Pcle IF (1 A) ;
 SELECT Inf IF (-1 BOS) (0 V) ;
-REMOVE Acc IF (-1 Refl) ;
+REMOVE Acc IF (-1 (V Refl)) ;
 SELECT N IF (1 Po) ;
 SELECT Adv IF (-1 V) ;
 REMOVE Refl IF (-1 V) ;
@@ -433,3 +433,8 @@ REMOVE N IF (-1 Adv)(0 ("нин")) ;
 REMOVE Imprt IF (-1 V) ;
 SELECT CS IF (-1 COMMA) (0 ("быттьӧ")) ;
 SELECT (N Nom) IF (-1 (A Nom));
+
+REMOVE Imprt IF (-1 N OR Pron) (0 Imprt);
+REMOVE Nom IF (-3 (V TV)) (-2 Acc) (-1 CC) ;
+REMOVE Pcle IF (-1 BOS)(0 ("и")) ;
+SELECT A IF (1 N) (0 ("кӧдзыд")) ;
