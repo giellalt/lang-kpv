@@ -406,10 +406,10 @@ SELECT Acc IF (-1 (V TV));
 #  кань юис ва да йӧв.
 
 SELECT Nom IF (-1 (V IV)) ;
-SELECT Nom IF (1 (V IV)) ;
+SELECT (N Nom) IF (1 (V IV)) ;
 SELECT Imprt IF (1 Acc) ;
 REMOVE Nom IF (-1 Imprt) ;
-SELECT A IF (-1 V) (1 N);
+#SELECT A IF (-1 V) (1 N);
 SELECT Inf IF (-1 V) ;
 SELECT Inf IF (-2 V) ;
 SELECT Pcle IF (1 A) (0 ("медся"));
@@ -428,11 +428,11 @@ REMOVE ConNeg IF (-1 BOS) ;
 SELECT Pron IF (1 N) ;
 SELECT Inf IF (1 (V Neg)) ;
 #SELECT CS IF (-1 COMMA) (0 ("мыйла")) ;
-REMOVE N IF (-1 Adv)(0 ("нин")) ;
+SELECT Pcle IF (-1 Adv)(0 ("нин")) (1 V);
 
 REMOVE Imprt IF (-1 V) ;
 SELECT CS IF (-1 COMMA) (0 ("быттьӧ")) ;
-SELECT (N Nom) IF (-1 (A Nom));
+#SELECT (N Nom) IF (-1 (A Nom));
 
 REMOVE Imprt IF (-1 N OR Pron) (0 Imprt);
 REMOVE Nom IF (-3 (V TV)) (-2 Acc) (-1 CC) ;
@@ -440,4 +440,5 @@ REMOVE Pcle IF (-1 BOS)(0 ("и")) ;
 SELECT A IF (1 N) (0 ("кӧдзыд")) ;
 
 REMOVE N IF (-1 ("медся")) ;
-
+REMOVE Po IF (-1 BOS) ;
+REMOVE Po IF (-1 CLB) ;
