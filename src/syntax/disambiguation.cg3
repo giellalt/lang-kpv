@@ -170,6 +170,7 @@ LIST Der/са = Der/са ;
 
 LIST CASE = Nom Gen Abl Dat Com Cns Acc Ins Ine Ill Ela Car Egr Tra Apr Ter Abe Prl ;
 SET OBLCASE = CASE - Nom ;
+LIST Prs"Ptc" = Prs"Ptc" ;
 
 
 
@@ -387,27 +388,22 @@ REMOVE:NotPoIfSentInitial Po IF (0C Po OR Adv) (-1 PUNCT + LEFT OR BOS) ;
 
 #SELECT A IF (*-1 ("вӧвны") BARRIER N);
 
-
 # Mapping
 
 SELECT Acc IF (-1 Po) (1 CC);
 #...чужанін дорӧ муслун да...
 
-SELECT Prs IF (-2 V) (-1 A) (0 Prs) (1 N);
 
 REMOVE N IF (-1 N) (0 N) (1 Pcle);
-
 SELECT Adv IF (-1 (N Ela)) (0 Adv);
 #SELECT Adv IF (-1 BOS) (0 Adv);
 SELECT Adv IF (-1 V) (1 EOS);
 
-SELECT Acc IF (1 (V TV));
-SELECT Acc IF (-1 (V TV));
-#  кань юис ва да йӧв.
+#SELECT Acc IF (1 (V TV));
 
-SELECT Nom IF (-1 (V IV)) ;
-SELECT (N Nom) IF (1 (V IV)) ;
-SELECT Imprt IF (1 Acc) ;
+#  кань юис ва да йӧв.
+#SELECT (N Nom) IF (1 (V IV)) ;
+#SELECT Imprt IF (1 Acc) ;
 REMOVE Nom IF (-1 Imprt) ;
 #SELECT A IF (-1 V) (1 N);
 SELECT Inf IF (-1 V) ;
@@ -416,12 +412,11 @@ SELECT Pcle IF (1 A) (0 ("медся"));
 SELECT Inf IF (-1 BOS) (0 V) ;
 REMOVE Acc IF (-1 (V Refl)) ;
 SELECT N OR Pron IF (1 Po) ;
-SELECT Adv IF (-1 V) ;
+#SELECT Adv IF (-1 V) ;
 REMOVE Refl IF (-1 V) ;
 REMOVE V IF (-1 A) ;
-
 #SELECT Adv IF (1 Ex/V) ;
-#SELECT CS IF (-1 COMMA) (0 ("мый")) ;
+SELECT CS IF (-1 COMMA) (0 ("мый")) ;
 REMOVE CS IF (-1 BOS)(0 ("мый")) ;
 SELECT CS IF (-1 COMMA) (0 ("быттьӧ")) ;
 REMOVE ConNeg IF (-1 BOS) ;
@@ -442,3 +437,12 @@ SELECT A IF (1 N) (0 ("кӧдзыд")) ;
 REMOVE N IF (-1 ("медся")) ;
 REMOVE Po IF (-1 BOS) ;
 REMOVE Po IF (-1 CLB) ;
+
+REMOVE Imprt IF (-1 Adv OR Qnt) ;
+SELECT V IF (-1 Inf) (0 V);
+SELECT Acc IF (-1 (V TV));
+SELECT Nom IF (-1 (V IV)) ;
+
+# PrsPtc
+
+SELECT Prs"Ptc" IF (1 N);
