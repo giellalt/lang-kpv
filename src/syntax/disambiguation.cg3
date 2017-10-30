@@ -170,15 +170,16 @@ LIST Der/са = Der/са ;
 
 LIST CASE = Nom Gen Abl Dat Com Cns Acc Ins Ine Ill Ela Car Egr Tra Apr Ter Abe Prl ;
 SET OBLCASE = CASE - Nom ;
-LIST Prs"Ptc" = Prs"Ptc" ;
-
-
+LIST PrsPtc = PrsPtc ;
+LIST PrsPrc = PrsPrc ;
+LIST PastPtc = PastPtc ;
+LIST Noun1 = Noun1 ;
+LIST ActPrsPtc = ActPrsPtc ;
 
 #!! !Verb sets
 LIST VNEG = "ог" "он" "оз" "огӧ" "огӧй" "онӧ" "онӧй" "эг" "эн" "эз" "эгӧ" "эгӧй" "энӧ" "энӧй" ; #!! VNEG (all Neg verbs)
 
 SET VFIN = Ind | Cond | Opt ; #!! VFIN
-
 
 LIST ASKI = "аски" "понедельникӧ" "вторникӧ" "середаӧ" "четвергӧ" "пекничаӧ" "субӧтаӧ" "вежалунӧ" "регыд" "аскомысь"; #!! ASKI (tomorrow set)
 
@@ -223,9 +224,8 @@ SELECT Pcle IF (-1 BOS) (0 ("шуам")) ;
 SELECT Pcle IF (-1 COMMA) (0 ("шуам")) (1 COMMA);
 SELECT Pcle IF (-1 CLB) (0 ("кӧнкӧ")) (1 CLB);
 SELECT Pcle IF (-1 BOS) (0 ("кӧнкӧ")) (1 CLB);
-REMOVE Pcle IF (-1 COMMA) (0 ("но"));
 SELECT Pcle IF (-1 BOS) (0 ("но")) ;
-
+REMOVE Pcle IF (-1 COMMA) (0 ("но"));
 SELECT CC IF (-1 COMMA) (0 ("а"));
 REMOVE Pcle IF (-1 COMMA) (0 ("и"));
 
@@ -404,7 +404,7 @@ SELECT Adv IF (-1 V) (1 EOS);
 #  кань юис ва да йӧв.
 #SELECT (N Nom) IF (1 (V IV)) ;
 #SELECT Imprt IF (1 Acc) ;
-REMOVE Nom IF (-1 Imprt) ;
+
 #SELECT A IF (-1 V) (1 N);
 SELECT Inf IF (-1 V) ;
 SELECT Inf IF (-2 V) ;
@@ -433,7 +433,7 @@ REMOVE Imprt IF (-1 N OR Pron) (0 Imprt);
 REMOVE Nom IF (-3 (V TV)) (-2 Acc) (-1 CC) ;
 REMOVE Pcle IF (-1 BOS)(0 ("и")) ;
 SELECT A IF (1 N) (0 ("кӧдзыд")) ;
-
+REMOVE Nom IF (-1 Imprt) ;
 REMOVE N IF (-1 ("медся")) ;
 REMOVE Po IF (-1 BOS) ;
 REMOVE Po IF (-1 CLB) ;
@@ -441,8 +441,20 @@ REMOVE Po IF (-1 CLB) ;
 REMOVE Imprt IF (-1 Adv OR Qnt) ;
 SELECT V IF (-1 Inf) (0 V);
 SELECT Acc IF (-1 (V TV));
-SELECT Nom IF (-1 (V IV)) ;
+SELECT (N Nom) IF (-1 (V IV)) ;
 
 # PrsPtc
 
-SELECT Prs"Ptc" IF (1 N);
+SELECT PrsPtc IF (1 N);
+
+REMOVE PrsPrc IF (-1 ("тэ")) ;
+REMOVE PrsPtc IF (-1 ("тэ")) ;
+SELECT ConNeg IF (-1 (V Neg)) ;
+REMOVE Adv IF (-1 (N Nom)) ;
+REMOVE Po IF (-1 Adv) ;
+REMOVE (Prt2 Sg1) IF (-1 N) ;
+SELECT PastPtc IF (1 N OR A) ;
+SELECT ActPrsPtc IF (1 N OR A) ;
+SELECT Interj IF (1 CLB) ;
+SELECT (N Acc) IF (-2 (V TV)) (-1 Pron OR A) ;
+
