@@ -193,7 +193,7 @@ SET NOMINAL = N | Pron ;
 SECTION
 
 #!! * __NoDerIfPossible__ removes all derivations
-REMOVE:NoDerIfPossible DerTag ;
+
 
 #!! * __Dem__ selects Dem if N Nom to the right
 SELECT:Dem Dem IF (0 Dem)(1 N + Nom);
@@ -224,11 +224,11 @@ SELECT Pcle IF (-1 BOS) (0 ("шуам")) ;
 SELECT Pcle IF (-1 COMMA) (0 ("шуам")) (1 COMMA);
 SELECT Pcle IF (-1 CLB) (0 ("кӧнкӧ")) (1 CLB);
 SELECT Pcle IF (-1 BOS) (0 ("кӧнкӧ")) (1 CLB);
+SELECT CC IF (-1 COMMA) (0 ("но")) ;
 SELECT Pcle IF (-1 BOS) (0 ("но")) ;
 REMOVE Pcle IF (-1 COMMA) (0 ("но"));
 SELECT CC IF (-1 COMMA) (0 ("а"));
 REMOVE Pcle IF (-1 COMMA) (0 ("и"));
-
 
 SELECT CC IF (-1 A)(1 A) ;
 SELECT CC IF (-1 A)(1 Ins)(2 A) ;
@@ -426,9 +426,9 @@ SELECT Inf IF (1 (V Neg)) ;
 SELECT Pcle IF (-1 Adv)(0 ("нин")) (1 V);
 
 REMOVE Imprt IF (-1 V) ;
-SELECT CS IF (-1 COMMA) (0 ("быттьӧ")) ;
-#SELECT (N Nom) IF (-1 (A Nom));
 
+#SELECT (N Nom) IF (-1 (A Nom));
+SELECT Pcle IF (1 EOS)(0 ("и")) ;
 REMOVE Imprt IF (-1 N OR Pron) (0 Imprt);
 REMOVE Nom IF (-3 (V TV)) (-2 Acc) (-1 CC) ;
 REMOVE Pcle IF (-1 BOS)(0 ("и")) ;
@@ -449,12 +449,17 @@ SELECT PrsPtc IF (1 N);
 
 REMOVE PrsPrc IF (-1 ("тэ")) ;
 REMOVE PrsPtc IF (-1 ("тэ")) ;
+REMOVE PrsPrc IF (1 V) ;
+REMOVE PrsPtc IF (1 V) ;
 SELECT ConNeg IF (-1 (V Neg)) ;
 REMOVE Adv IF (-1 (N Nom)) ;
 REMOVE Po IF (-1 Adv) ;
 REMOVE (Prt2 Sg1) IF (-1 N) ;
 SELECT PastPtc IF (1 N OR A) ;
 SELECT ActPrsPtc IF (1 N OR A) ;
+REMOVE:NoDerIfPossible DerTag ;
 SELECT Interj IF (1 CLB) ;
 SELECT (N Acc) IF (-2 (V TV)) (-1 Pron OR A) ;
+
+REMOVE N IF (0 ("посни")) (1 N);
 
