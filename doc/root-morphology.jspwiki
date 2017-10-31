@@ -19,8 +19,8 @@ The parts-of-speech tags are:
  ;+Det: determiner  XX   XX
  ;+Interj: interjection	междометтьӧ	междометие
  ;+N: noun		эмакыв	 - существительное
- ;+Num	: numeral		лыдакыв	число
- ;+Pcle: particle		XX	частица
+ ;+Num	: numeral		лыдакыв	числительное
+ ;+Pcle: particle		кывтор	частица
  ;+Po: postposition	кывбӧр	послелог
  ;+Pr: preposition	XX	предлог
  ;+Pron: pronoun	нимвежтас	местоимение
@@ -87,13 +87,13 @@ Quantifiers and Numerals are classified under:
  *  __+Acc3__ accusative -сӧ керан
  *  __+Abl__ ablative case -лысь босьтан
  *  __+Apr__ approximative -лань матыстчан
- ** __+AprEgr__ approximative egressive -ланьсянь 
- ** __+AprEla__ approximative elative -ланьысь
- ** __+AprIll__ approximative illative -ланьӧ
- ** __+AprIne__ approximative inessive -ланьын
- ** __+AprPrl__ approximative prolative -ланьӧд
- ** __+AprTer__ approximative terminative -ланьӧдз
- ** __+AprTra__ approximative translative -ланьті
+ ** __+AprEgr__ approximative egressive -ланьсянь матысь ылыстчан
+ ** __+AprEla__ approximative elative -ланьысь матысь петан
+ ** __+AprIll__ approximative illative -ланьӧ матӧ матыстчан
+ ** __+AprIne__ approximative inessive -ланьын матыс ина
+ ** __+AprPrl__ approximative prolative -ланьӧд маті вуджан
+ ** __+AprTer__ approximative terminative -ланьӧдз матіӧдз воан
+ ** __+AprTra__ approximative translative -ланьті маті вуджан
  *  __+Car__ cartive -тӧг торйӧдан
  *  __+Cns__ consecultative -ла могман
  *  __+Com__ Comitative -кӧд ӧтвывтан
@@ -296,6 +296,7 @@ source and target part-of-speech.
 
 
  * __+Instr__ 
+ * __+NomAct__
  * __+Der/NomAct__  +Event
  * __+Der/NomAg__ 
  * __+Duration__
@@ -307,6 +308,11 @@ source and target part-of-speech.
  * __+Der/тӧм__  +VAbe
  * __+Der/ысь__
  * __+ActPrsPtc__ 
+ * __+Der/ан__
+ * __+PrsPrc__
+ * __+PrsPtc__ 
+ * __+Der/ӧм__
+ * __+PastPtc__ 
 
  * __+Der/кості__  +KOSTI
  * __+Der/коста__  +KOSTA
@@ -331,7 +337,7 @@ Tags for Ethymological Origin marking. This has initially used used with proper 
 
 Sentence markers
 
- * __+Cop__ 
+ * __+Cop__ Copula	кадакыв, коді шуӧ: вӧлі либӧ ӧнія кадся	Связка
 
 
 Morphophonology
