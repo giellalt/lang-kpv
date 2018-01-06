@@ -284,7 +284,7 @@ ADD:err-agr (&err-agr) TARGET V IF (-1C Pron + Sg2 + Nom) (0 V) (NOT 0 Sg2);
 ADD:err-agr (&err-agr) TARGET V IF (-1C Pron + Pl1 + Nom) (0 V) (NOT 0 Pl1);
 ADD:err-agr (&err-agr) TARGET V IF (-1C Pron + Pl2 + Nom) (0 V) (NOT 0 Pl2);
 
-ADD:err-conneg-not-3rdsg (&err-conneg-not-3rdsg) TARGET (V Prs Sg3) IF (0 Ind OR Cond)(-1 (V Neg Sg3) LINK NOT 0 Sup);
+ADD:err-conneg-not-3rdsg (&err-conneg-not-3rdsg) TARGET (V Prs Sg3) IF (0 Ind OR Cond)(-1 (V Neg Sg3));
 
 
 # And one with a suggestion where we simply change the tag Sg into Attr:
