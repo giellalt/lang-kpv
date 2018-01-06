@@ -14,7 +14,7 @@
 # giellatekno@hum.uit.no or divvun@hum.uit.no
 
 # ==================================================================== #
-#!! !!!       [ L A N G U A G E ]  G R A M M A R   C H E C K E R
+#!! !!!       K O M I   G R A M M A R   C H E C K E R
 # ==================================================================== #
 # ====================================================================
 
@@ -24,7 +24,7 @@
 #   Development setup:   #
 # ---------------------- #
 #
-# cd $GTHOME/langs/??? # replace ??? with your language code
+# cd $GTHOME/langs/kpv
 # ./autogen.sh
 # ./configure --enable-apertium --with-hfst --enable-syntax --enable-grammarchecker --enable-tokenisers --enable-alignment --enable-reversed-intersect
 # make
@@ -36,7 +36,7 @@
 # ---------------------- #
 #
 # emacs grammarchecker.cg3  # and C-c C-i / C-c C-c if you have cg-mode installed
-# echo "Sun ij puátá." | sh modes/???gram.mode  # from the terminal, replacing ??? with your language code
+# echo "Sun ij puátá." | sh modes/kpvgram.mode  # from the terminal
 #
 # ---------------------- #
 #   Other debug-pipes:   #
@@ -219,8 +219,10 @@ LIST ABBR = ABBR ;
 LIST LEFT = LEFT ; 
 LIST RIGHT = RIGHT ; 
 LIST COMMA = "," ;
-
-LIST PUNCT = PUNCT ;
+LIST QMARK = """ ; # "  #!! QMARK
+LIST PPUNCT = PUNCT ;   #!! PPUNCT 
+SET PUNCT = PPUNCT - QMARK ;  #!! PUNCT
+LIST ¶ = ¶;   #!! ¶
 
 LIST Der/MWN = Der/MWN ;
 LIST Der/са = Der/са ;
@@ -245,6 +247,7 @@ LIST ASKI = "аски" "понедельникӧ" "вторникӧ" "серед
 SET Non-Pcle = WORD - Pcle ;
 SET NOMINAL = N | Pron ;
 
+SET COMMON-N = N - Prop;
 
 
 
@@ -261,6 +264,7 @@ LIST &err-no-conneg = &err-no-conneg ;
 LIST &err-orrood-inf = &err-orrood-inf ;
 LIST &err-ext-agr = &err-ext-agr ;
 LIST &err-ext-vagr = &err-ext-vagr ;
+LIST &err--conneg-not-3rdsg = &err-conneg-not-3rdsg ;
 
 MAPPING-PREFIX = & ;
 
@@ -279,6 +283,9 @@ ADD:err-agr (&err-agr) TARGET V IF (-1C Pron + Sg1 + Nom) (0 V) (NOT 0 Sg1);
 ADD:err-agr (&err-agr) TARGET V IF (-1C Pron + Sg2 + Nom) (0 V) (NOT 0 Sg2);
 ADD:err-agr (&err-agr) TARGET V IF (-1C Pron + Pl1 + Nom) (0 V) (NOT 0 Pl1);
 ADD:err-agr (&err-agr) TARGET V IF (-1C Pron + Pl2 + Nom) (0 V) (NOT 0 Pl2);
+
+ADD:err-conneg-not-3rdsg (&err-conneg-not-3rdsg) TARGET (V Prs Sg3) IF (0 Ind OR Cond)(-1 (V Neg Sg3) LINK NOT 0 Sup);
+
 
 # And one with a suggestion where we simply change the tag Sg into Attr:
 ADD:attr-not-pred (&attr-not-pred) TARGET (A Sg) IF (NOT 0 Attr OR Gen) (1 CC LINK *1 COMMON-N) ;
