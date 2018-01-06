@@ -285,7 +285,9 @@ ADD:err-agr (&err-agr) TARGET V IF (-1C Pron + Pl1 + Nom) (0 V) (NOT 0 Pl1);
 ADD:err-agr (&err-agr) TARGET V IF (-1C Pron + Pl2 + Nom) (0 V) (NOT 0 Pl2);
 
 ADD:err-conneg-not-3rdsg (&err-conneg-not-3rdsg) TARGET (V Prs Sg3) IF (0 Ind OR Cond)(-1 (V Neg Sg3));
-
+#ok вӧлі оз уджав
+#ok вӧлі уджалӧ
+#err вӧлі оз уджалӧ 
 
 # And one with a suggestion where we simply change the tag Sg into Attr:
 ADD:attr-not-pred (&attr-not-pred) TARGET (A Sg) IF (NOT 0 Attr OR Gen) (1 CC LINK *1 COMMON-N) ;
