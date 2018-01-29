@@ -7,10 +7,12 @@
 
 LEXICON A_INT-ӦЙ
 +Use/SpellNoSugg:ӧй A_ ;
++Err/Dial:%>эй A_ ;
 +Use/SpellNoSugg:о%- adjectives-russian-like ;
 
 LEXICON A_RU-ӦЙ
 +Use/SpellNoSugg:ӧй A_ ;
++Err/Dial:%>эй A_ ;
 +Use/SpellNoSugg:о%- adjectives-russian-like ;
 
 LEXICON A_а
@@ -97,6 +99,7 @@ LEXICON A_
 LEXICON A_PARAGOGIC-В/Л !!= * @CODE@ юмов:юмо юмолӧсь
 +A:в K ; !! Singular predicative 
 +A+Pred+Pl:л%>ӧсь K ; ! Plural predicative.
++Err/Dial+A+Pred+Pl:л%>эсь K ; ! Plural predicative.
 +A:в AdjCompar ;
 +A+Der+Der/кодь+A:в%>кодь PredMonAdj ;
 +A+Der+Der/кодь+A:в%>кодь AdjCompar ;
@@ -109,6 +112,7 @@ LEXICON PredMonAdj
 +Cop+Sg: K ;      ! Singular predicative
 !2017-09-21+Attr: K ;      ! Singular predicative
 +Cop+Pl:%>ӧсь K ; ! Plural predicative.
++Err/Dial+Cop+Pl:%>эсь K ; ! Plural predicative.
 
 
 ! vim: set ft=xfst-lexc:
