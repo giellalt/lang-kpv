@@ -469,12 +469,17 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_Я
 ! THIS FAR 2017-06-29 +Err/Dial
 LEXICON CASEPOSSLEX-AFTERDERIVATION_Ӧ
 +Acc:%>ӧс K ;
++Err/Dial+Acc:%>эс K ;
 +Ins:%>ӧн PredMonLex ;
++Err/Dial+Ins:%>эн PredMonLex ;
 +Ine:%>ын SPAT-COMPARATIVE ;
 +Ela:%>ысь SPAT-COMPARATIVE ;
 +Ill:%>ӧ IllCompar ;
++Err/Dial+Ill:%>э IllCompar ;
 +Prl:%>ӧд K ;
 +Ter:%>ӧдз K ;
++Err/Dial+Prl:%>эд K ;
++Err/Dial+Ter:%>эдз K ;
 
 !! SG1
 +Nom+PxSg1:%>ӧй K ;
@@ -492,39 +497,70 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_Ӧ
 +Ter+PxSg1:%>ӧдзым K ;
 +AprEgr+PxSg1:%>ӧйланьсянь SPAT-COMPARATIVE ;
 
++Err/Dial+Nom+PxSg1:%>эй K ;
++Err/Dial+Gen+PxSg1:%>эйлэн K ;
++Err/Dial+Abl+PxSg1:%>эйлысь K ;
++Err/Dial+Dat+PxSg1:%>эйлы K ;
++Err/Dial+Acc+PxSg1:%>эс K ;
++Err/Dial+Com+PxSg1:%>эйкед K ;
++Err/Dial+Car+PxSg1:%>эйтэг K ;
++Err/Dial+Cns+PxSg1:%>эйла K ;
++Err/Dial+Cmpr+PxSg1:%>эйся K ;
++Err/Dial+Apr+PxSg1:%>эйлань SPAT-COMPARATIVE ;
++Err/Dial+Egr+PxSg1:%>эйсянь SPAT-COMPARATIVE ;
++Err/Dial+Prl+PxSg1:%>эдым K ;
++Err/Dial+Ter+PxSg1:%>эдзым K ;
++Err/Dial+AprEgr+PxSg1:%>эйланьсянь SPAT-COMPARATIVE ;
+
 !! SG2
 +Nom+PxSg2:%>ыд K ;
 +Gen+PxSg2:%>ыдлӧн K ;
++Err/Dial+Gen+PxSg2:%>ыдлэн K ;
 +Abl+PxSg2:%>ыдлысь K ;
 +Dat+PxSg2:%>ыдлы K ;
 +Com+PxSg2:%>ыдкӧд K ;
 +Com+PxSg2:%>кӧдыд K ;
++Err/Dial+Com+PxSg2:%>кедыд K ;
++Err/Dial+Com+PxSg2:%>ыдкед K ;
 +Cns+PxSg2:%>ыдла K ;
 +Prl+PxSg2:%>ӧдыд K ;
 +Ter+PxSg2:%>ӧдзыд K ;
++Err/Dial+Prl+PxSg2:%>эдыд K ;
++Err/Dial+Ter+PxSg2:%>эдзыд K ;
 
 !! SG3
 +Nom+PxSg3:%>ыс K ;
 +Gen+PxSg3:%>ыслӧн K ;
++Err/Dial+Gen+PxSg3:%>ыслэн K ;
 +Abl+PxSg3:%>ыслысь K ;
 +Dat+PxSg3:%>ыслы K ;
 +Com+PxSg3:%>ыскӧд K ;
 +Com+PxSg3:%>кӧдыс K ;
++Err/Dial+Com+PxSg3:%>ыскед K ;
++Err/Dial+Com+PxSg3:%>кедыс K ;
 +Cns+PxSg3:%>ысла K ;
 +Prl+PxSg3:%>ӧдыс K ;
 +Ter+PxSg3:%>ӧдзыс K ;
++Err/Dial+Prl+PxSg3:%>эдыс K ;
++Err/Dial+Ter+PxSg3:%>эдзыс K ;
 
 !! PL1
 +Prl+PxPl1:%>ӧдным K ;
 +Ter+PxPl1:%>ӧдзным K ;
++Err/Dial+Prl+PxPl1:%>эдным K ;
++Err/Dial+Ter+PxPl1:%>эдзным K ;
 
 !! PL2
 +Prl+PxPl2:%>ӧдныд K ;
 +Ter+PxPl2:%>ӧдзныд K ;
++Err/Dial+Prl+PxPl2:%>эдныд K ;
++Err/Dial+Ter+PxPl2:%>эдзныд K ;
 
 !! PL3
 +Prl+PxPl3:%>ӧдныс K ;
 +Ter+PxPl3:%>ӧдзныс K ;
++Err/Dial+Prl+PxPl3:%>эдныс K ;
++Err/Dial+Ter+PxPl3:%>эдзныс K ;
 
 
 !! !!Case
@@ -535,18 +571,22 @@ LEXICON Noun1-IS_INE
 LEXICON DERIVEDADJ
 +Der+Der/са+IneMod:%>са A_ ;
 +Der+Der/тӧм+AbeMod:%>тӧм A_ ;
++Err/Dial+Der+Der/тӧм+AbeMod:%>тэм A_ ;
 +Der+Der/а+HabObjMod:%>а A_ ;
 +Der+Der/ся+TempMod:%>ся A_ ;
 +Der+Der/увса:%>увса A_ ;
 +Der+Der/сайса:%>сайса A_ ;
 +Der+Der/пӧвстса:%>пӧвстса A_ ;
++Err/Dial+Der+Der/пӧвстса:%>певстса A_ ;
 +Der+Der/костса:%>костса A_ ;
 +Der+Der/бердса:%>бердса A_ ;
 +Der+Der/бӧрса:%>бӧрса A_ ;
++Err/Dial+Der+Der/бӧрса:%>берса A_ ;
 +Der+Der/весьтса:%>весьтса A_ ;
 +Der+Der/водзса:%>водзса A_ ;
 +Der+Der/вывса:%>вывса A_ ;
 +Der+Der/гӧгӧрса:%>гӧгӧрса A_ ;
++Err/Dial+Der+Der/гӧгӧрса:%>гегерса A_ ;
 +Der+Der/дорса:%>дорса A_ ;
 
 
@@ -575,12 +615,14 @@ LEXICON PredMonLex-Spat
 LEXICON PredMonLex-Spat-Add-Morphology ! This allows consistency
                                        ! with SPAT elsewhere
 +Cop+Pl:%>ӧсь K ; ! Plural predicative.
++Err/Dial+Cop+Pl:%>эсь K ; ! Plural predicative.
 +Der/джык+Comp:%>джык PredMonLex ; !ывлаынджык OR ывлаынджыкӧсь
 
 
 LEXICON PredMonLex
  K ;      ! Singular predicative
 +Cop+Pl:%>ӧсь K ; ! Plural predicative.
++Err/Dial+Cop+Pl:%>эсь K ; ! Plural predicative.
 !! 2012-02-07 !!+Der/а+Adv:%>а K ;
 
 
