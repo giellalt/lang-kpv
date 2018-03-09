@@ -463,3 +463,4 @@ SELECT (N Acc) IF (-2 (V TV)) (-1 Pron OR A) ;
 
 REMOVE N IF (0 ("посни")) (1 N);
 
+REMOVE Abs IF (0 Abs OR Nom) (0 N) ;
