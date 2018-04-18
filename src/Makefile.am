@@ -99,9 +99,11 @@ analyser-dict-gt-desc-permyak.tmp.%: analyser-dict-gt-desc.tmp.% \
 # Change POS tags in front of derivations:
 analyser-disamb-gt-desc.%: analyser-disamb-gt-desc.tmp.% \
 					filters/remove-derivation-position-tags.% \
+					filters/remove-orig_lang-tags.%           \
 					filters/rename-POS_before_Der-tags.%
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
 				@\"filters/remove-derivation-position-tags.$*\" \
+			.o. @\"filters/remove-orig_lang-tags.$*\"           \
 			.o. @\"filters/rename-POS_before_Der-tags.$*\"  \
 			.o. @\"$<\"                                     \
 			;\n\
