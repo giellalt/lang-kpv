@@ -1,42 +1,38 @@
-!!python/object/apply:collections.defaultdict
-args:
-- !!python/name:__builtin__.set ''
-dictitems:
-  Err: !!set
-    !!python/unicode 'Err/Orth': null
-    !!python/unicode 'Err/lex': null
-  Hom: !!set
-    !!python/unicode 'Hom1': null
-    !!python/unicode 'Hom2': null
-  Sem: !!set
-    !!python/unicode 'Sem/Ant': null
-    !!python/unicode 'Sem/Ant_Fem': null
-    !!python/unicode 'Sem/Ant_Mal': null
-    !!python/unicode 'Sem/Event': null
-    !!python/unicode 'Sem/Fem': null
-    !!python/unicode 'Sem/Hum': null
-    !!python/unicode 'Sem/Mal': null
-    !!python/unicode 'Sem/Plc': null
-    !!python/unicode 'Sem/Time': null
-    !!python/unicode 'Sem/Txt': null
-  Use: !!set
-    !!python/unicode 'Use/SpellNoSugg': null
-  resten: !!set
-    !!python/unicode 'CLB': null
-    !!python/unicode 'EOLang/KOM': null
-    !!python/unicode 'Fut': null
-    !!python/unicode 'Ind': null
-    !!python/unicode 'N': null
-    !!python/unicode 'Num': null
-    !!python/unicode 'Pl1': null
-    !!python/unicode 'Pl2': null
-    !!python/unicode 'Pl3': null
-    !!python/unicode 'Prop': null
-    !!python/unicode 'Prs': null
-    !!python/unicode 'Prt1': null
-    !!python/unicode 'Prt1@U.CONJ-PX.3@': null
-    !!python/unicode 'Sg': null
-    !!python/unicode 'Sg1': null
-    !!python/unicode 'Sg2': null
-    !!python/unicode 'Sg3': null
-    !!python/unicode 'V': null
+Err
+	Err/Orth
+	Err/lex
+Hom
+	Hom1
+	Hom2
+Sem
+	Sem/Ant
+	Sem/Ant_Fem
+	Sem/Ant_Mal
+	Sem/Event
+	Sem/Fem
+	Sem/Hum
+	Sem/Mal
+	Sem/Plc
+	Sem/Time
+	Sem/Txt
+Use
+	Use/SpellNoSugg
+resten
+	CLB
+	EOLang/KOM
+	Fut
+	Ind
+	N
+	Num
+	Pl1
+	Pl2
+	Pl3
+	Prop
+	Prs
+	Prt1
+	Prt1@U.CONJ-PX.3@
+	Sg
+	Sg1
+	Sg2
+	Sg3
+	V
