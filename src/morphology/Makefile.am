@@ -50,7 +50,6 @@ GT_LEXC_SRCS_L1_L2=\
 		stems/propernouns-toponyms-Komi.lexc          \
 		stems/propernouns.lexc                        \
 		stems/propernouns_newwords.lexc               \
-		stems/punctuation.lexc                        \
 		stems/quantifiers.lexc                        \
 		stems/verbs-A2M.lexc                          \
 		stems/verbs-N2END.lexc                        \
@@ -85,7 +84,8 @@ GT_LEXC_L2_SRCS=\
 
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=\
-		generated_files/urj-Cyrl-propernouns.lexc 
+		generated_files/urj-Cyrl-propernouns.lexc \
+		generated_files/punctuation.lexc
 
 # $(srcdir)/stems/propernouns-malenames-russian-derivable.lexc
 # $(srcdir)/stems/propernouns-malesurnames-russian-derivable.lexc
