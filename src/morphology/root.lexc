@@ -99,6 +99,13 @@ Multichar_Symbols
 
 !! !!Case
 
+!! A category of case in Komi can be identified as:
+! (1) regular noun morphology
+! (2) affixed to the head of a complex noun phrase,
+! i.e. the noun should be able to take at least ONE modifier, (cf. Rueter 2010: 74--75)
+! (3) regular noun morphology includes the category of number
+! (4) Cases are used for (clause) argument and adjunct marking
+
  +Acc    !!≈ *  __@CODE@__ accusative ZERO керан
  +Acc1   !!≈ *  __@CODE@__ accusative -ӧс керан
  +Acc3   !!≈ *  __@CODE@__ accusative -сӧ керан
@@ -136,6 +143,13 @@ Multichar_Symbols
 ! +Der/Apr+Prl, +Der/Apr+Tra
 ! +Der/Apr+Ter
 
+!! Noun phrase modifiers are generally considered derivational 
+ +MAbe    !!≈ *  __@CODE@__ abessive modifier -тӧм 
+ +MLoc    !!≈ *  __@CODE@__ locative modifier са -
+ +MHab    !!≈ *  __@CODE@__ habeo modifier а -
+ +MTmp    !!≈ *  __@CODE@__ temporal modifier ся -
+
+
 
 
 !! The possession is marked as such:
@@ -162,7 +176,8 @@ Multichar_Symbols
  +Ger !! Gerund This is used with derivations
 
 +ConNeg +Neg
-! +ConNegII +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
+! +ConNegII +ImprtII +PrsPrc +PrfPrc +Sup +VGen 
++VAbess
 +Final ! мог, мон, моз 'so that I won't'
 
 ! Abbreviated words are classified with:
