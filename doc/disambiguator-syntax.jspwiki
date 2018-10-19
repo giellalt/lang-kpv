@@ -18,6 +18,7 @@ EOS
 
 CmpTest
 Err
+вӧлі Sg3
 
 !Parts of speech tags
 N
@@ -104,6 +105,8 @@ ASKI (tomorrow set)
 
 
 
+
+
 !!Rule section
 
 * __NoDerIfPossible__ removes all derivations
@@ -118,6 +121,7 @@ ASKI (tomorrow set)
 
 * __NoFinalCC__ removes CC if competing Pcle and sentence-final
 * __NoABBR__ removes ABBR for competing CC
+
 
 
 
