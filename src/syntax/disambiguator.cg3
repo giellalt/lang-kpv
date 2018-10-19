@@ -27,6 +27,7 @@ LIST EOS = (<<<) (</s>); #!! EOS
 
 LIST CmpTest = CmpTest ; #!! CmpTest
 LIST Err = Err ;  #!! Err
+LIST Err/Dial = Err/Dial ; #!! вӧлі Sg3
 
 #!! !Parts of speech tags
 LIST N = N ; #!! N
@@ -183,6 +184,9 @@ SET VFIN = Ind | Cond | Opt ; #!! VFIN
 
 LIST ASKI = "аски" "понедельникӧ" "вторникӧ" "середаӧ" "четвергӧ" "пекничаӧ" "субӧтаӧ" "вежалунӧ" "регыд" "аскомысь"; #!! ASKI (tomorrow set)
 
+LIST VOELI = "вӧвны" ;
+
+
 # Complementary sets
 
 SET Non-Pcle = WORD - Pcle ;
@@ -322,6 +326,8 @@ REMOVE:1not3inPast (Prt1 Sg3) IF (*-1 (Pers Sg1 Nom) BARRIER N + Nom OR Pers + S
 
 REMOVE:3not1inPast (Prt1 Sg1) IF (NOT *0 (Pers Sg1 Nom)) ;
 # This may be too strong, it precludes zero Sg1 subjects
+
+REMOVE:ErrDial Err/Dial IF (0 VOELI) ;
 
 # ConNeg or not
 #REMOVE:NoNegForMe ConNeg IF (NOT *-1 Neg BARRIER CLB);
