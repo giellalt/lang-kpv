@@ -121,8 +121,17 @@ LEXICON PO-COMP
 LEXICON PO-EGR
 +Po+Sg+Egr:%>сянь PX-FOR-PO/NO ;
 
+LEXICON PO-ELA_V/L
+:л PO-ELA_L ;
+:в PO-ELA_V ;
+
 LEXICON PO-ELA
+ PO-ELA_L ;
+ PO-ELA_V ;
+
+LEXICON PO-ELA_L
 +Po+Sg+Ela:%>ысь K ;
+LEXICON PO-ELA_V
 +Po+Sg+Ela+PxSg1:%>сьым K ;
 +Po+Sg+Ela+PxPl1:%>сьыным K ;
 +Po+Sg+Ela+PxSg2:%>сьыд K ;
