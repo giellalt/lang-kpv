@@ -23,9 +23,11 @@
 К (->) K , # Cyrillic (->) Latin look alikes
 
 
-
-ё (->) е, # Russian long vowel, accept je pro jo
+ё (->) е, # Russian wrong vowel, accept je pro jo
 Ё (->) Е, 
+ӧ (->) о , # Sloppy Komi
+Ӧ (->) О , # Sloppy Komi
+
 
 щ (->) s j t s j , #! latin as cyrillic
 Щ (->) S j t s j , # What are these for? 2018-10-20 Jaska
