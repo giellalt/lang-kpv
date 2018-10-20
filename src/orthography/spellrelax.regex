@@ -6,11 +6,29 @@
 ӧ (->) ö, # Komi
 ӧ (->) ö, # Komi
 
+с (->) c , # These are false friends:
+С (->) C , # Cyrillic (->) Latin look alikes
+а (->) a , # Cyrillic (->) Latin look alikes
+А (->) A , # Cyrillic (->) Latin look alikes
+о (->) o , # Cyrillic (->) Latin look alikes
+О (->) O , # Cyrillic (->) Latin look alikes
+Т (->) T , # Cyrillic (->) Latin look alikes
+х (->) x , # Cyrillic (->) Latin look alikes
+Х (->) X , # Cyrillic (->) Latin look alikes
+е (->) e , # Cyrillic (->) Latin look alikes
+Е (->) E , # Cyrillic (->) Latin look alikes
+р (->) p , # Cyrillic (->) Latin look alikes
+Р (->) P , # Cyrillic (->) Latin look alikes
+у (->) y , # Cyrillic (->) Latin look alikes
+К (->) K , # Cyrillic (->) Latin look alikes
+
+
+
 ё (->) е, # Russian long vowel, accept je pro jo
 Ё (->) Е, 
 
-щ (->) s j t s j , ! latin as cyrillic
-Щ (->) S j t s j ,
+щ (->) s j t s j , #! latin as cyrillic
+Щ (->) S j t s j , # What are these for? 2018-10-20 Jaska
 щ (->) s h c h ,
 Щ (->) S h c h ,
 ж (->) d z j ,
