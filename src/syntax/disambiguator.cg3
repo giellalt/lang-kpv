@@ -166,6 +166,9 @@ LIST COMMA = "," ;
 
 LIST PUNCT = PUNCT ;
 
+LIST FirstName = Sem/Mal Sem/Fem ;
+LIST Surname = Sem/Sur ;
+
 LIST Der/MWN = Der/MWN ;
 LIST Der/са = Der/са ;
 
@@ -460,6 +463,7 @@ REMOVE Po IF (-1 CLB) ;
 REMOVE Imprt IF (-1 Adv OR Qnt) ;
 SELECT V IF (-1 Inf) (0 V);
 SELECT Acc IF (-1 (V TV));
+SELECT:FirstNameWhenNextSurname (N Nom) IF (0 FirstName)(1 Surname) ;
 SELECT (N Nom) IF (-1 (V IV)) ;
 
 # PrsPtc
