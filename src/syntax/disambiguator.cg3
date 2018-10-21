@@ -182,6 +182,7 @@ LIST VNEG = "ог" "он" "оз" "огӧ" "огӧй" "онӧ" "онӧй" "эг" 
 
 SET VFIN = Ind | Cond | Opt ; #!! VFIN
 
+
 LIST ASKI = "аски" "понедельникӧ" "вторникӧ" "середаӧ" "четвергӧ" "пекничаӧ" "субӧтаӧ" "вежалунӧ" "регыд" "аскомысь"; #!! ASKI (tomorrow set)
 
 LIST VOELI = "вӧвны" ;
@@ -191,6 +192,8 @@ LIST VOELI = "вӧвны" ;
 
 SET Non-Pcle = WORD - Pcle ;
 SET NOMINAL = N | Pron ;
+SET Non-VFIN = WORD - V | V - VFIN ;
+
 
 
 #!! !!Rule section
@@ -351,6 +354,16 @@ REMOVE Pl2 IF (0 Neg + Sg2)(1 ConNeg)(NOT 1 Pl2) ;
 SELECT:Fut Fut IF (-1 ASKI);
 SELECT:Fut Fut IF (1 ASKI);
 REMOVE:KillFut Fut IF (0 Prs);
+
+SELECT:AbuNegWhenNextPrt2 Neg IF (0 ("абу"))(1 Prt2 OR N OR A);
+# юркывйысь абу пасйӧма ни ӧти...
+
+SELECT:Prt2WhenPrevAbuNeg Prt2 IF (-1 ("абу"))(0 Prt2);
+# юркывйысь абу пасйӧма ни ӧти...
+
+
+#REMOVE:VfinWhenOtherOnlyVfin VFIN IF (0C Ill)(NOT 1 Non-VFIN);
+# кор венӧ кутчысьӧны ошйысьысь 2018-10-20 Jaska
 
 # да
 
