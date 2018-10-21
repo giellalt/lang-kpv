@@ -86,18 +86,18 @@ LEXICON PROP-PLC_KIT
 LEXICON PROP-PLC_KUDO
 +N+Prop+Sem/Plc+Sg: CASEPOSSLEX ;
 
-LEXICON PROP-PLC_OSH
-+N+Prop+Sem/Plc+Sg: CASEPOSSLEX ;
+!2018-10-21!LEXICON PROP-PLC_OSH
+!2018-10-21!+N+Prop+Sem/Plc+Sg: CASEPOSSLEX ;
 
 !! These are vowel-final stems
 !! They have previously received +Sem/Fem tags
 
-LEXICON PROP_MA !!= * @CODE@ Ага+Sem/Fem:Аг 
-+N+Prop+Sg:а  CASEPOSSLEX ;
-LEXICON PROP_NA	!!= * @CODE@ Ада+Sem/Fem:Ад
-+N+Prop+Sg:а  CASEPOSSLEX ;
-LEXICON PROP_NIA	!!= * @CODE@ Аня+Sem/Fem:Ан
-+N+Prop+Sg:я  CASEPOSSLEX ;
+!2018-10-21!LEXICON PROP_MA !!= * @CODE@ Ага+Sem/Fem:Аг 
+!2018-10-21!+N+Prop+Sg:а  CASEPOSSLEX ;
+!2018-10-21!LEXICON PROP_NA	!!= * @CODE@ Ада+Sem/Fem:Ад
+!2018-10-21!+N+Prop+Sg:а  CASEPOSSLEX ;
+!2018-10-21!LEXICON PROP_NIA	!!= * @CODE@ Аня+Sem/Fem:Ан
+!2018-10-21!+N+Prop+Sg:я  CASEPOSSLEX ;
 
 !!
 LEXICON PROP_KAL_FEM
@@ -120,8 +120,8 @@ LEXICON PROP_KUDO_MAL
 LEXICON PROP_KUDO_PATRFEM
 +Sem/Patr+Sem/Fem+N+Prop+Sg: CASEPOSSLEX ; 
 
-LEXICON PROP_KUDO_PATRMAL
-+Sem/Patr+Sem/Mal+N+Prop+Sg: CASEPOSSLEX ; 
+!2018-10-21!LEXICON PROP_KUDO_PATRMAL
+!2018-10-21!+Sem/Patr+Sem/Mal+N+Prop+Sg: CASEPOSSLEX ; 
 LEXICON PROP_LAK_MAL
 +N+Prop+Sem/Mal+Sg: CASEPOSSLEX ;
 LEXICON PROP_OSH_FEM
@@ -146,11 +146,11 @@ LEXICON PropNameMaleDer-I-YEvich
 :ьевна PROP_KUDO_PATRFEM ;
 :и PROP_KAL_MAL ;
 
-LEXICON PropNameMaleDer-YYA-Yich
-!! Илья:Иль
-:ич PROP-PATR-MAL_END-IN-CH/DZ ;
-:ьишна PROP_KUDO_PATRFEM ;
-:я PROP_KAL_MAL ;
+!2018-10-21!LEXICON PropNameMaleDer-YYA-Yich
+!2018-10-21!!! Илья:Иль
+!2018-10-21!:ич PROP-PATR-MAL_END-IN-CH/DZ ;
+!2018-10-21!:ьишна PROP_KUDO_PATRFEM ;
+!2018-10-21!:я PROP_KAL_MAL ;
 
 LEXICON PropNameMaleDer-IJ-I0Evich
 +Orth/Colloq:ьич PROP-PATR-MAL_END-IN-CH/DZ ;
@@ -214,9 +214,9 @@ LEXICON PropSur-kudo
 !!!! 2015-09-06
 
 
-LEXICON Prop-Derivable
-+N+Prop+Sem/Sur+Sem/Mal+Sg: CASEPOSSLEX ; ! Владимиров
-а+N+Prop+Sem/Sur+Sem/Fem+Sg:%^FEM%>а CASEPOSSLEX ; ! Владимирова
+!2018-10-21!LEXICON Prop-Derivable
+!2018-10-21!+N+Prop+Sem/Sur+Sem/Mal+Sg: CASEPOSSLEX ; ! Владимиров
+!2018-10-21!а+N+Prop+Sem/Sur+Sem/Fem+Sg:%^FEM%>а CASEPOSSLEX ; ! Владимирова
 
 ! Prop-Derivable end  in: ев, ов, ёв, ий, ин
 ! Prop-Derivable for fem: ева, ова, ёва, ая, ина
@@ -229,16 +229,16 @@ LEXICON PROP-MAL-DERIVABLE !Patronyms
  PROP-MAL ; ! Владимир
 
 !! FEMALE NAMES FROM TEMPLATE
-LEXICON Prop-kal_fem
-+N+Prop+Sem/Fem: NMN_ ;
-LEXICON Prop-lak_fem
-+N+Prop+Sem/Fem: NMN_ ;
-LEXICON Prop-kit_fem
-+N+Prop+Sem/Fem: NMN_ ;
-LEXICON Prop-osh_fem
-+N+Prop+Sem/Fem: NMN_ ;
-LEXICON Prop-kudo_fem
-+N+Prop+Sem/Fem: NMN_ ;
+!2018-10-21!LEXICON Prop-kal_fem
+!2018-10-21!+N+Prop+Sem/Fem: NMN_ ;
+!2018-10-21!LEXICON Prop-lak_fem
+!2018-10-21!+N+Prop+Sem/Fem: NMN_ ;
+!2018-10-21!LEXICON Prop-kit_fem
+!2018-10-21!+N+Prop+Sem/Fem: NMN_ ;
+!2018-10-21!LEXICON Prop-osh_fem
+!2018-10-21!+N+Prop+Sem/Fem: NMN_ ;
+!2018-10-21!LEXICON Prop-kudo_fem
+!2018-10-21!+N+Prop+Sem/Fem: NMN_ ;
  
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! PLACE NAMES FROM TEMPLATES !!
@@ -253,17 +253,17 @@ LEXICON PROP-PLC-KPV ! Inanimate proper nouns. Place names
 +N+Prop+Sem/Plc+EOLang/KPV+Sg: CASEPOSSLEX ;
 +N+Der+Prop+Sem/Plc+EOLang/KPV+Der/са@U.Cap.Opt@:000%>са@U.Cap.Opt@ A_ ; !!= * __@CODE@__ This requires down-casing
 
-LEXICON PROP-PLC-RUS ! Inanimate proper nouns. Place names
-+N+Prop+Sem/Plc+Src/F+Sg: CASEPOSSLEX ;
-+N+Der+Prop+Sem/Plc+Src/F+Der/са@U.Cap.Opt@:000%>са@U.Cap.Opt@ A_ ; !!= * __@CODE@__ This requires down-casing
+!2018-10-21!LEXICON PROP-PLC-RUS ! Inanimate proper nouns. Place names
+!2018-10-21!+N+Prop+Sem/Plc+Src/F+Sg: CASEPOSSLEX ;
+!2018-10-21!+N+Der+Prop+Sem/Plc+Src/F+Der/са@U.Cap.Opt@:000%>са@U.Cap.Opt@ A_ ; !!= * __@CODE@__ This requires down-casing
 
-LEXICON PROP-KPV ! Inanimate proper nouns. Place names
-+N+Prop+EOLang/KPV+Sg: CASEPOSSLEX ;
-+N+Der+Prop+EOLang/KPV+Der/са@U.Cap.Opt@:00%>са@U.Cap.Opt@ A_ ; !!= * __@CODE@__ This requires down-casing
+!2018-10-21!LEXICON PROP-KPV ! Inanimate proper nouns. Place names
+!2018-10-21!+N+Prop+EOLang/KPV+Sg: CASEPOSSLEX ;
+!2018-10-21!+N+Der+Prop+EOLang/KPV+Der/са@U.Cap.Opt@:00%>са@U.Cap.Opt@ A_ ; !!= * __@CODE@__ This requires down-casing
 
-LEXICON PROP-RUS ! Inanimate proper nouns. Place names
-+N+Prop+EOLang/RUS+Sg: CASEPOSSLEX ;
-+N+Der+Prop+EOLang/RUS+Der/са@U.Cap.Opt@:00%>са@U.Cap.Opt@ A_ ; !!= * __@CODE@__ This requires down-casing
+!2018-10-21!LEXICON PROP-RUS ! Inanimate proper nouns. Place names
+!2018-10-21!+N+Prop+EOLang/RUS+Sg: CASEPOSSLEX ;
+!2018-10-21!+N+Der+Prop+EOLang/RUS+Der/са@U.Cap.Opt@:00%>са@U.Cap.Opt@ A_ ; !!= * __@CODE@__ This requires down-casing
 
 LEXICON PROP-PLC_SUB ! Inanimate proper nouns. Place names
 +N+Prop+Sem/Plc+Err/Orth+Sg: CASEPOSSLEX ;
@@ -285,35 +285,35 @@ LEXICON PROP-MAL ! Male given names
 LEXICON Prop-Sur-Fem ! Basic nouns.
 +N+Prop+Sem/Sur+Sem/Fem+Sg: CASEPOSSLEX ;
 
-LEXICON PROP-FEM ! Female given names
-+N+Prop+Sem/Fem+Sg: CASEPOSSLEX ;
+!2018-10-21!LEXICON PROP-FEM ! Female given names
+!2018-10-21!+N+Prop+Sem/Fem+Sg: CASEPOSSLEX ;
 
-LEXICON PROP_PARAGOGIC
-+N+Prop: NMN_PARAGOGIC ;
+!2018-10-21!LEXICON PROP_PARAGOGIC
+!2018-10-21!+N+Prop: NMN_PARAGOGIC ;
 
-LEXICON PROP_PARAGOGIC-V/L
-+N+Prop: NMN_PARAGOGIC-V/L ;
+!2018-10-21!LEXICON PROP_PARAGOGIC-V/L
+!2018-10-21!+N+Prop: NMN_PARAGOGIC-V/L ;
 
-LEXICON PROP_PARAGOGIC-J !!= * @CODE@ ав:ав авйыс
-+N+Prop: NMN_PARAGOGIC-J ;
+!2018-10-21!LEXICON PROP_PARAGOGIC-J !!= * @CODE@ ав:ав авйыс
+!2018-10-21!+N+Prop: NMN_PARAGOGIC-J ;
 
-LEXICON PROP_PARAGOGIC-K !!= * @CODE@ кытш:кытш кытшкыс
-+N+Prop: NMN_PARAGOGIC-K ;
+!2018-10-21!LEXICON PROP_PARAGOGIC-K !!= * @CODE@ кытш:кытш кытшкыс
+!2018-10-21!+N+Prop: NMN_PARAGOGIC-K ;
 
-LEXICON PROP_PARAGOGIC-M !!= * @CODE@ зон:зон зонмыс
-+N+Prop: NMN_PARAGOGIC-M ;
+!2018-10-21!LEXICON PROP_PARAGOGIC-M !!= * @CODE@ зон:зон зонмыс
+!2018-10-21!+N+Prop: NMN_PARAGOGIC-M ;
 
-LEXICON PROP_PARAGOGIC-T !!= * @CODE@ зеп:зеп зептыс
-+N+Prop: NMN_PARAGOGIC-T ;
+!2018-10-21!LEXICON PROP_PARAGOGIC-T !!= * @CODE@ зеп:зеп зептыс
+!2018-10-21!+N+Prop: NMN_PARAGOGIC-T ;
 
-LEXICON PROP_END-IN-DD1 !!= * @CODE@ автомобиль:автомобил автомобильыс
-+N+Prop: NMN_END-IN-DD1 ;
+!2018-10-21!LEXICON PROP_END-IN-DD1 !!= * @CODE@ автомобиль:автомобил автомобильыс
+!2018-10-21!+N+Prop: NMN_END-IN-DD1 ;
 
-LEXICON PROP_END-IN-DDZ !!= * @CODE@ кыдз:кыд
-+N+Prop: NMN_END-IN-DDZ ;
+!2018-10-21!LEXICON PROP_END-IN-DDZ !!= * @CODE@ кыдз:кыд
+!2018-10-21!+N+Prop: NMN_END-IN-DDZ ;
 
-LEXICON PROP_END-IN-LL1 !!= * @CODE@ моль:мол молльӧ
-+N+Prop: NMN_END-IN-LL1 ;
+!2018-10-21!LEXICON PROP_END-IN-LL1 !!= * @CODE@ моль:мол молльӧ
+!2018-10-21!+N+Prop: NMN_END-IN-LL1 ;
 
 
 

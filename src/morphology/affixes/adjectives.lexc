@@ -5,10 +5,10 @@
 !! Continuation lexicon has been assigned according to <pos/> content
 
 
-LEXICON A_INT-ӦЙ
-+Use/SpellNoSugg:ӧй A_ ;
-+Err/Dial:%>эй A_ ;
-+Use/SpellNoSugg:о%- adjectives-russian-like ;
+!2018-10-21!LEXICON A_INT-ӦЙ
+!2018-10-21!+Use/SpellNoSugg:ӧй A_ ;
+!2018-10-21!+Err/Dial:%>эй A_ ;
+!2018-10-21!+Use/SpellNoSugg:о%- adjectives-russian-like ;
 
 LEXICON A_RU-ӦЙ
 +Use/SpellNoSugg:ӧй A_ ;
@@ -46,10 +46,10 @@ LEXICON A-IS_INE-MOD-СА
 +Der+Der/са+IneMod: A_ ;
 LEXICON A-IS_COMP-MOD-КОДЬ
 +Der+Der/кодь+CompMod: A_ ;
-LEXICON A-IS_ABE-MOD-ТӦМ
-+Der+Der/тӧм+AbeMod: A_ ;
-LEXICON A-IS_HAB-OBJ-MOD-А
-+Der+Der/а+HabObjMod: A_ ;
+!2018-10-21!LEXICON A-IS_ABE-MOD-ТӦМ
+!2018-10-21!+Der+Der/тӧм+AbeMod: A_ ;
+!2018-10-21!LEXICON A-IS_HAB-OBJ-MOD-А
+!2018-10-21!+Der+Der/а+HabObjMod: A_ ;
 LEXICON A-IS_TEMP-MOD-СЯ
 +Der+Der/ся+TempMod: A_ ;
 
@@ -59,8 +59,8 @@ LEXICON Adj-IS_PTC-TOM ! 2011-11-15 participle = derivation type;
 LEXICON Adj-IS_PTC-YSJ
 +V+Der+Der/ысь: A_ ;
 
-LEXICON Adj-IS_PTC-AN !
-+V+Der+Der/Ан: A_ ;
+!2018-10-21!LEXICON Adj-IS_PTC-AN !
+!2018-10-21!+V+Der+Der/Ан: A_ ;
 
 LEXICON Adj-IS_PTC-ANA !
 +V+Der+Der/Ана: A_ ;
@@ -71,16 +71,16 @@ LEXICON Adj-IS_PTC-ӦМ
 LEXICON A-IS_DIM-НИК
 +A+Der+Der/Иник: A_ ;
 
-LEXICON Adj-IS_TOM
- A-IS_TOM ;
+!2018-10-21!LEXICON Adj-IS_TOM
+!2018-10-21! A-IS_TOM ;
 LEXICON A-IS_TOM
 +N+Der+Der/тӧм: A_ ;
 
 LEXICON Adj-IS_SUPERL !
 +Superl: A_ ;
 
-LEXICON Adj-SUPERL !
-+Superl: A_ ;
+!2018-10-21!LEXICON Adj-SUPERL !
+!2018-10-21!+Superl: A_ ;
 
 LEXICON A-PRED ! ӧбиднӧ
 +A+Pred: WordEnd ; !
