@@ -14,8 +14,8 @@ LEXICON GER_
 LEXICON ADV-IS_GER-IGON ! these are checked as gerunds in +Der/иг
 +V+Der+Der/иг+Ins: ADV_ ;
 
-LEXICON ADV-IS_GER-IGTYRJI ! these are checked as gerunds in +Der/иг
-+V+Der+Der/иг+Der+Der/тырйи: ADV_ ;
+!2018-10-21!LEXICON ADV-IS_GER-IGTYRJI ! these are checked as gerunds in +Der/иг
+!2018-10-21!+V+Der+Der/иг+Der+Der/тырйи: ADV_ ;
 
 LEXICON ADV-IS_GER-MON ! these are checked as gerunds in +Der/мӧн
 +V+Der+Der/мӧн: ADV_ ;
@@ -59,48 +59,48 @@ LEXICON ADV_ ! these are checked as advs.
 LEXICON ADV-INDEF_
 +Adv+Indef: WordEnd ;
 
-LEXICON ADV-INDEF_HAS-SJURO
-+Adv+Indef+Der/сюрӧ: WordEnd ;
-LEXICON ADV-INDEF_HAS-KO
-+Adv+Indef+Der/кӧ: WordEnd ;
-LEXICON ADV-4-INTERR-REL-INDEF
-+Adv+Interr: WordEnd ;
-+Adv+Rel: WordEnd ;
-+Adv+Indef: 4-INDEF-TYPES_KO-SJURO ;
-LEXICON ADV-EGR-4-INTERR-REL-INDEF !! кысянь
-+Adv+Interr+Egr: WordEnd ;
-+Adv+Rel+Egr: WordEnd ;
-+Adv+Indef+Egr: 4-INDEF-TYPES_KO-SJURO ;
-LEXICON ADV-EGR-ILL-4-INTERR-REL-INDEF !! кытчаньӧ
-+Adv+Interr+Egr+Ill: WordEnd ;
-+Adv+Rel+Egr+Ill: WordEnd ;
-+Adv+Indef+Egr+Ill: 4-INDEF-TYPES_KO-SJURO ;
-LEXICON ADV-ELA-4-INTERR-REL-INDEF !! кытысь
-+Adv+Interr+Ela: WordEnd ;
-+Adv+Rel+Ela: WordEnd ;
-+Adv+Indef+Ela: 4-INDEF-TYPES_KO-SJURO ;
-LEXICON ADV-ILL-4-INTERR-REL-INDEF !! кытчӧ
-+Adv+Interr+Ill: WordEnd ;
-+Adv+Rel+Ill: WordEnd ;
-+Adv+Indef+Ill: 4-INDEF-TYPES_KO-SJURO ;
-LEXICON ADV-TRA-4-INTERR-REL-INDEF !! кыті
-+Adv+Interr+Tra: WordEnd ;
-+Adv+Rel+Tra: WordEnd ;
-+Adv+Indef+Tra: 4-INDEF-TYPES_KO-SJURO ;
-LEXICON ADV-TRA-EGR-4-INTERR-REL-INDEF ! This might require something for double case
-+Adv+Interr+Tra+Egr: WordEnd ;
-+Adv+Rel+Tra+Egr: WordEnd ;
-+Adv+Indef+Tra+Egr: 4-INDEF-TYPES_KO-SJURO ;
-LEXICON ADV-TER-4-INTERR-REL-INDEF !! кытчӧдз
-+Adv+Interr+Ter: WordEnd ;
-+Adv+Rel+Ter: WordEnd ;
-+Adv+Indef+Ter: 4-INDEF-TYPES_KO-SJURO ;
-LEXICON 4-INDEF-TYPES_KO-SJURO
-+Der/кӧ:кӧ WordEnd ;
-+Der/сюрӧ:сюрӧ WordEnd ;
+!2018-10-21!LEXICON ADV-INDEF_HAS-SJURO
+!2018-10-21!+Adv+Indef+Der/сюрӧ: WordEnd ;
+!2018-10-21!LEXICON ADV-INDEF_HAS-KO
+!2018-10-21!+Adv+Indef+Der/кӧ: WordEnd ;
+!2018-10-21!LEXICON ADV-4-INTERR-REL-INDEF
+!2018-10-21!+Adv+Interr: WordEnd ;
+!2018-10-21!+Adv+Rel: WordEnd ;
+!2018-10-21!+Adv+Indef: 4-INDEF-TYPES_KO-SJURO ;
+!2018-10-21!LEXICON ADV-EGR-4-INTERR-REL-INDEF !! кысянь
+!2018-10-21!+Adv+Interr+Egr: WordEnd ;
+!2018-10-21!+Adv+Rel+Egr: WordEnd ;
+!2018-10-21!+Adv+Indef+Egr: 4-INDEF-TYPES_KO-SJURO ;
+!2018-10-21!LEXICON ADV-EGR-ILL-4-INTERR-REL-INDEF !! кытчаньӧ
+!2018-10-21!+Adv+Interr+Egr+Ill: WordEnd ;
+!2018-10-21!+Adv+Rel+Egr+Ill: WordEnd ;
+!2018-10-21!+Adv+Indef+Egr+Ill: 4-INDEF-TYPES_KO-SJURO ;
+!2018-10-21!LEXICON ADV-ELA-4-INTERR-REL-INDEF !! кытысь
+!2018-10-21!+Adv+Interr+Ela: WordEnd ;
+!2018-10-21!!2018-10-21!+Adv+Rel+Ela: WordEnd ;
+!2018-10-21!+Adv+Indef+Ela: 4-INDEF-TYPES_KO-SJURO ;
+!2018-10-21!LEXICON ADV-ILL-4-INTERR-REL-INDEF !! кытчӧ
+!2018-10-21!+Adv+Interr+Ill: WordEnd ;
+!2018-10-21!+Adv+Rel+Ill: WordEnd ;
+!2018-10-21!+Adv+Indef+Ill: 4-INDEF-TYPES_KO-SJURO ;
+!2018-10-21!LEXICON ADV-TRA-4-INTERR-REL-INDEF !! кыті
+!2018-10-21!+Adv+Interr+Tra: WordEnd ;
+!2018-10-21!+Adv+Rel+Tra: WordEnd ;
+!2018-10-21!+Adv+Indef+Tra: 4-INDEF-TYPES_KO-SJURO ;
+!2018-10-21!LEXICON ADV-TRA-EGR-4-INTERR-REL-INDEF ! This might require something for double case
+!2018-10-21!+Adv+Interr+Tra+Egr: WordEnd ;
+!2018-10-21!+Adv+Rel+Tra+Egr: WordEnd ;
+!2018-10-21!+Adv+Indef+Tra+Egr: 4-INDEF-TYPES_KO-SJURO ;
+!2018-10-21!LEXICON ADV-TER-4-INTERR-REL-INDEF !! кытчӧдз
+!2018-10-21!+Adv+Interr+Ter: WordEnd ;
+!2018-10-21!+Adv+Rel+Ter: WordEnd ;
+!2018-10-21!+Adv+Indef+Ter: 4-INDEF-TYPES_KO-SJURO ;
+!2018-10-21!LEXICON 4-INDEF-TYPES_KO-SJURO
+!2018-10-21!+Der/кӧ:кӧ WordEnd ;
+!2018-10-21!+Der/сюрӧ:сюрӧ WordEnd ;
 
-LEXICON ADV-INTERR_
-+Adv+Interr: WordEnd ;
+!2018-10-21!LEXICON ADV-INTERR_
+!2018-10-21!+Adv+Interr: WordEnd ;
 
 
 LEXICON ADV-REL-TEMP_
@@ -167,8 +167,8 @@ LEXICON ADV-VTER
 +V+Der+Der/тӧдз+Adv+Temp+Ter:%>тӧдз K ;
 
 ! Adverbs with ready morphology
-LEXICON ADV-IS_APRELA
-+Adv+Apr+Ela: SPAT-COMPARATIVE ;
+!2018-10-21!LEXICON ADV-IS_APRELA
+!2018-10-21!+Adv+Apr+Ela: SPAT-COMPARATIVE ;
 
 LEXICON ADV-IS_APRILL
 +Adv+Apr+Ill: SPAT-COMPARATIVE ;

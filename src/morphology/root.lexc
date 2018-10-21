@@ -886,8 +886,8 @@ LEXICON ABBR-IS_N
 +ABBR+N: WordEnd ; ! This needs a Noun1 continuation but the hyphen must
              ! be dealt with for non-nominative-singular marking 2012-01-27
 
-LEXICON EndNeg
-+CC+Neg: WordEnd ; ! ни
+!2018-10-21!LEXICON EndNeg
+!2018-10-21!+CC+Neg: WordEnd ; ! ни
 
 !LEXICON EndQST
 !+Qst: WordEnd ;
@@ -913,8 +913,8 @@ LEXICON WordEnd
 ! List of spurious lexica
 ! These should be fixed.
 
-LEXICON ADV-SUPERL
-+Adv+Superl: WordEnd ;
+!2018-10-21!LEXICON ADV-SUPERL
+!2018-10-21!+Adv+Superl: WordEnd ;
 
 ! 2012-02-11
 ! This should have the following case forms pointing toward it:

@@ -435,6 +435,7 @@ SELECT Inf IF (-1 BOS) (0 V) ;
 REMOVE Acc IF (-1 (V Refl)) ;
 SELECT N OR Pron IF (1 Po) ;
 #SELECT Adv IF (-1 V) ;
+REMOVE:NoDerIfPossible DerTag ;
 REMOVE Refl IF (-1 V) ;
 REMOVE V IF (-1 A) ;
 #SELECT Adv IF (1 Ex/V) ;
@@ -480,7 +481,6 @@ REMOVE Po IF (-1 Adv) ;
 REMOVE (Prt2 Sg1) IF (-1 N) ;
 SELECT PastPtc IF (1 N OR A) ;
 SELECT ActPrsPtc IF (1 N OR A) ;
-REMOVE:NoDerIfPossible DerTag ;
 SELECT Interj IF (1 CLB) ;
 SELECT (N Acc) IF (-2 (V TV)) (-1 Pron OR A) ;
 

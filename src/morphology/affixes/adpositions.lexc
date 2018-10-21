@@ -6,8 +6,8 @@
 ! ============ !
 !! Prep lexica
 ! ============ !
-LEXICON PR_
-+Pr: WordEnd ; !! Russian на
+!2018-10-21!LEXICON PR_
+!2018-10-21!+Pr: WordEnd ; !! Russian на
 
 
 ! ============ !
@@ -343,8 +343,8 @@ LEXICON PX-FOR-PO/NO
 LEXICON PO-TEMP-IS_TRA-INSTR-SG3
 +Po+Temp+Tra+Ins+PxSg3: K ;
 
-LEXICON PO-IS_ILL
-+Po+Ill: K ;
+!2018-10-21!LEXICON PO-IS_ILL
+!2018-10-21!+Po+Ill: K ;
 
 
 ! vim: set ft=xfst-lexc:

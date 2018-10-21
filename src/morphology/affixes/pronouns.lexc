@@ -290,7 +290,8 @@ LEXICON INTERR
 !кодар+Det+Der/MWN:кодар PRON-HUM-OBL ;
 кодар+Det+Der/ладор:кодарладор PRON-HUM-OBL ;
 
-коді:код PRON-HUM ;
+коді+Pron+Interr:код PRON-HUM ;
+коді+Pron+Rel:код PRON-HUM ;
 
 кодыр+Adv+Temp:кодыр INTERR-REL-INDEF ;
 кор+Adv+Temp:кор INTERR-REL-INDEF ;
@@ -300,8 +301,10 @@ LEXICON INTERR
 кутшӧм+Pron:кутшӧм INTERR-REL-INDEF ; ! This needs to be 
 кутшӧм+Pron+Rel+Cop+Pl:кутшӧмӧсь INTERR-REL-INDEF ; ! This needs to be 
 кутшӧма+Adv+Manner:кутшӧма INTERR-REL-INDEF ; ! This needs to be 
-кутшӧм+Pron+Sg:кутшӧм PRON-NONHUM ;
-кутшӧм+Pron+Pl:кутшӧмъяс PRON-NONHUM ;
+кутшӧм+Pron+Interr+Sg:кутшӧм PRON-NONHUM ;
+кутшӧм+Pron+Interr+Pl:кутшӧмъяс PRON-NONHUM ;
+кутшӧм+Pron+Rel+Sg:кутшӧм PRON-NONHUM ;
+кутшӧм+Pron+Rel+Pl:кутшӧмъяс PRON-NONHUM ;
 !2017-09-19кутшӧм+A+Der/MWN+N+Sg:кутшӧм PRON-NONHUM ;
 !2017-09-19кутшӧм+A+Der/MWN+N+Pl:кутшӧмъяс PRON-NONHUM ;
 кутшӧми+A:кутшӧми INTERR-REL-INDEF ; 
@@ -346,74 +349,74 @@ LEXICON INTERR
 
 
 LEXICON PRON-HUM
-+Pron+Sg+Nom:і INTERR-REL ;
-+Pron+Pl+Nom:ъяс INTERR-REL-INDEF ;
-+Pron+Sg+Nom: INTERR-REL-INDEF ;
-+Pron+Sg: PRON-HUM-OBL ;
-+Pron+Pl:ъяс PRON-HUM-OBL ;
-+Pron: PRON-HUM-COLL ;
++Sg+Nom:і WordEnd ;
++Pl+Nom:ъяс WordEnd ;
++Sg+Nom: WordEnd ;
++Sg: PRON-HUM-OBL ;
++Pl:ъяс PRON-HUM-OBL ;
+: PRON-HUM-COLL ;
 !код, коді
 
 LEXICON PRON-HUM-OBL
 ! 2000: 187
-+Cmpl: INTERR-REL-INDEF ;
-+Gen:лӧн INTERR-REL-INDEF ;
-+Abl:лысь INTERR-REL-INDEF ; !
-+Dat:лы INTERR-REL-INDEF ;
-+Acc:ӧс INTERR-REL-INDEF ;
-+Acc3:сӧ INTERR-REL-INDEF ;
-+Ins:ӧн INTERR-REL-INDEF ;
-+Com:кӧд INTERR-REL-INDEF ;
-+Car:тӧг INTERR-REL-INDEF ;
-+Cns:ла INTERR-REL-INDEF ;
-+Ine:ын INTERR-REL-INDEF ;
-+Ela:ысь INTERR-REL-INDEF ; 
-+Ill:ӧ INTERR-REL-INDEF ; !
-+Apr:лань INTERR-REL-INDEF ;
-+Egr:сянь INTERR-REL-INDEF ;
-+Tra:ті INTERR-REL-INDEF ;
-+Ter:ӧдз INTERR-REL-INDEF ;
++Cmpl: WordEnd ;
++Gen:лӧн WordEnd ;
++Abl:лысь WordEnd ; !
++Dat:лы WordEnd ;
++Acc:ӧс WordEnd ;
++Acc3:сӧ WordEnd ;
++Ins:ӧн WordEnd ;
++Com:кӧд WordEnd ;
++Car:тӧг WordEnd ;
++Cns:ла WordEnd ;
++Ine:ын WordEnd ;
++Ela:ысь WordEnd ; 
++Ill:ӧ WordEnd ; !
++Apr:лань WordEnd ;
++Egr:сянь WordEnd ;
++Tra:ті WordEnd ;
++Ter:ӧдз WordEnd ;
 
 LEXICON PRON-HUM-COLL
 +Coll:нан PRON-HUM-COLL-PERS ;
 +ZeroColl: PRON-HUM-COLL-PERS ;
 !
-+ZeroColl+Acc2+PxPl2:ныдтӧ INTERR-REL-INDEF ;
-+Coll+Acc2+PxPl2:наннытӧ INTERR-REL-INDEF ;
++ZeroColl+Acc2+PxPl2:ныдтӧ WordEnd ;
++Coll+Acc2+PxPl2:наннытӧ WordEnd ;
 
 LEXICON PRON-HUM-COLL-PERS
 +PxPl1:ным PRON-HUM-COLL-CASES ;
 +PxPl2:ныд PRON-HUM-COLL-CASES ;
 +PxPl3:ныс PRON-HUM-COLL-CASES ;
 !
-+Acc+PxPl1:нымӧс INTERR-REL-INDEF ;
-+Acc2+PxPl2:нытӧ INTERR-REL-INDEF ;
-+Acc3+PxPl3:ныссӧ INTERR-REL-INDEF ;
++Acc+PxPl1:нымӧс WordEnd ;
++Acc2+PxPl2:нытӧ WordEnd ;
++Acc3+PxPl3:ныссӧ WordEnd ;
 
 LEXICON PRON-HUM-COLL-CASES
-+Nom: INTERR-REL-INDEF ;
++Nom: WordEnd ;
  PRON-HUM-OBL ;
 
 LEXICON PRON-NONHUM
-+Nom: INTERR-REL-INDEF ;
-+Gen:лӧн INTERR-REL-INDEF ; !
-+Abl:лысь INTERR-REL-INDEF ; !
-+Dat:лы INTERR-REL-INDEF ; !
-+ZeroAcc: INTERR-REL-INDEF ;
-+Acc3:сӧ INTERR-REL-INDEF ;
-+Ins:ӧн INTERR-REL-INDEF ;
-+Com:кӧд INTERR-REL-INDEF ;
-+Car:тӧг INTERR-REL-INDEF ;
-+Cmpr:ся INTERR-REL-INDEF ;
-+Cns:ла INTERR-REL-INDEF ;
-+Ine:ын INTERR-REL-INDEF ;
-+Ela:ысь INTERR-REL-INDEF ; 
-+Ill:ӧ INTERR-REL-INDEF ; !
-+Apr:лань INTERR-REL-INDEF ;
-+Egr:сянь INTERR-REL-INDEF ;
-+Prl:ӧд INTERR-REL-INDEF ;
-+Tra:ті INTERR-REL-INDEF ;
-+Ter:ӧдз INTERR-REL-INDEF ;
++Nom: WordEnd ;
++Gen:лӧн WordEnd ; !
++Abl:лысь WordEnd ; !
++Dat:лы WordEnd ; !
++ZeroAcc: WordEnd ;
++Acc3:сӧ WordEnd ;
++Ins:ӧн WordEnd ;
++Com:кӧд WordEnd ;
++Car:тӧг WordEnd ;
++Cmpr:ся WordEnd ;
++Cns:ла WordEnd ;
++Ine:ын WordEnd ;
++Ela:ысь WordEnd ; 
++Ill:ӧ WordEnd ; !
++Apr:лань WordEnd ;
++Egr:сянь WordEnd ;
++Prl:ӧд WordEnd ;
++Tra:ті WordEnd ;
++Ter:ӧдз WordEnd ;
 
 ! Removing 2012-02-08 The comparative can be taken care of once
 ! LEXICON INTERR-REL-INDEF_COMPARISON
@@ -457,7 +460,7 @@ LEXICON PRONINDEFTAG
 +Pron+Indef: WordEnd ;
 
 LEXICON PRONINDEFTAG-KO
-+Pron: PRONINDEF-PERS-KO-CX ;
++Pron+Indef: PRONINDEF-PERS-KO-CX ;
 
 LEXICON PRONINDEF-PERS-KO-CX
 +Nom: PRONINDEF-PERS-KO-END ;
@@ -471,8 +474,24 @@ LEXICON PRONINDEF-PERS-KO-CX
 +Egr:%>сянь PRONINDEF-PERS-KO-END ;
 
 LEXICON PRONINDEF-PERS-KO-END
-+Der/кӧ+Indef:%>кӧ K ;
-+Der/сюрӧ+Indef:%>сюрӧ K ; !Basically both endings can be used for deriving 
+:%>кӧ K ;
+
+LEXICON PRONINDEFTAG-SJURO
++Pron+Indef: PRONINDEF-PERS-SJURO-CX ;
+
+LEXICON PRONINDEF-PERS-SJURO-CX
++Nom: PRONINDEF-PERS-SJURO-END ;
++Acc:%>ӧс PRONINDEF-PERS-SJURO-END ;
++Gen:%>лӧн PRONINDEF-PERS-SJURO-END ;
++Abl:%>лысь PRONINDEF-PERS-SJURO-END ;
++Dat:%>лы PRONINDEF-PERS-SJURO-END ;
++Ins:%>ӧн PRONINDEF-PERS-SJURO-END ;
++Ela:%>ысь PRONINDEF-PERS-SJURO-END ; !2011-10-19 It might be that this only has to do with мый _what_ and мыйыськӧ _for some reason_
++Com:%>кӧд PRONINDEF-PERS-SJURO-END ;
++Egr:%>сянь PRONINDEF-PERS-SJURO-END ;
+
+LEXICON PRONINDEF-PERS-SJURO-END
+:%>сюрӧ K ;
  !indefinite pronouns from the interrogative/relative pronouns.
 
 
@@ -496,8 +515,8 @@ LEXICON IS_PRON-INTERR
 !+Acc:%>ӧс PRONINDEF-PERS-KO-END ;
 
 
-LEXICON PRON-SPAT
-+Pron+Spat: COMPARATIVE ;
+!2018-10-21!LEXICON PRON-SPAT
+!2018-10-21!+Pron+Spat: COMPARATIVE ;
 
 LEXICON PRON-RECIPR
 +Pron+Recipr: PRON-RECIPR-CASE ;
@@ -865,25 +884,25 @@ LEXICON PRON-DEM-IS_ILL
 
 
 
-LEXICON PRON-INTER-NONHUM
-+Pron+Interr+Nom: WordEnd ;
-+Pron+Interr+Gen:лӧн K ; !
-+Pron+Interr+Abl:лысь K ; !
-+Pron+Interr+Dat:лы K ; !
-+Pron+Interr+ZeroAcc: WordEnd ;
-+Pron+Interr+Acc3:сӧ WordEnd ;
-+Pron+Interr+Ins:ӧн K ;
-+Pron+Interr+Com:кӧд K ;
-+Pron+Interr+Car:тӧг K ;
-+Pron+Interr+Cns:ла K ;
-+Pron+Interr+Ine:ын K ;
-+Pron+Interr+Ela:ысь K ; 
-+Pron+Interr+Ill:ӧ K ; !
-+Pron+Interr+Apr:лань K ;
-+Pron+Interr+Egr:сянь K ;
-+Pron+Interr+Prl:ӧд K ;
-+Pron+Interr+Tra:ті K ;
-+Pron+Interr+Ter:ӧдз K ;
+!2018-10-21!LEXICON PRON-INTER-NONHUM
+!2018-10-21!+Pron+Interr+Nom: WordEnd ;
+!2018-10-21!+Pron+Interr+Gen:лӧн K ; !
+!2018-10-21!+Pron+Interr+Abl:лысь K ; !
+!2018-10-21!+Pron+Interr+Dat:лы K ; !
+!2018-10-21!+Pron+Interr+ZeroAcc: WordEnd ;
+!2018-10-21!+Pron+Interr+Acc3:сӧ WordEnd ;
+!2018-10-21!+Pron+Interr+Ins:ӧн K ;
+!2018-10-21!+Pron+Interr+Com:кӧд K ;
+!2018-10-21!+Pron+Interr+Car:тӧг K ;
+!2018-10-21!+Pron+Interr+Cns:ла K ;
+!2018-10-21!+Pron+Interr+Ine:ын K ;
+!2018-10-21!+Pron+Interr+Ela:ысь K ; 
+!2018-10-21!+Pron+Interr+Ill:ӧ K ; !
+!2018-10-21!+Pron+Interr+Apr:лань K ;
+!2018-10-21!+Pron+Interr+Egr:сянь K ;
+!2018-10-21!+Pron+Interr+Prl:ӧд K ;
+!2018-10-21!+Pron+Interr+Tra:ті K ;
+!2018-10-21!+Pron+Interr+Ter:ӧдз K ;
 
 LEXICON PRON-NEG-HUM
 +Pron+Neg+Sg+Nom: WordEnd ;
@@ -1106,8 +1125,8 @@ LEXICON PRONQ-ATAG
 LEXICON PRON-QNT_
 +Pron+Qnt: COMPARATIVE ; ! sg/pl?
 
-LEXICON PRON-QNT_-PL
-+Pron+Qnt+Pl: WordEnd ;
+!2018-10-21!LEXICON PRON-QNT_-PL
+!2018-10-21!+Pron+Qnt+Pl: WordEnd ;
 
 LEXICON PRON-QNT-IS_ILL
 +Pron+Qnt+Ill: K ;
@@ -1189,8 +1208,8 @@ LEXICON PRON_
 +Pron: K ;
 LEXICON PronInterr
 +Pron+Interr: WordEnd ;
-LEXICON PronIndef
-+Pron+Indef: WordEnd ;
+!2018-10-21!LEXICON PronIndef
+!2018-10-21!+Pron+Indef: WordEnd ;
 
 !! Word-final cases
 

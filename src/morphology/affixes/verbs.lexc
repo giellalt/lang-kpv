@@ -62,14 +62,14 @@ LEXICON VERBNEGATIVE
 
 LEXICON IV_ЛОКНЫ
 +V+IV: V-0_ЛОКНЫ ;
-LEXICON TV_ЛОКНЫ
-+V+TV: V-0_ЛОКНЫ ;
-LEXICON BV_ЛОКНЫ
-+V+IV: V-0_ЛОКНЫ ;
-+V+TV: V-0_ЛОКНЫ ;
+!2018-10-21!LEXICON TV_ЛОКНЫ
+!2018-10-21!+V+TV: V-0_ЛОКНЫ ;
+!2018-10-21!LEXICON BV_ЛОКНЫ
+!2018-10-21!+V+IV: V-0_ЛОКНЫ ;
+!2018-10-21!+V+TV: V-0_ЛОКНЫ ;
 
-LEXICON V_ЛОКНЫ !!≈ * __@CODE@__ One verb only, локны:лок
-+V+IV:  V-0_ЛОКНЫ ;
+!2018-10-21!LEXICON V_ЛОКНЫ !!≈ * __@CODE@__ One verb only, локны:лок
+!2018-10-21!+V+IV:  V-0_ЛОКНЫ ;
 LEXICON V-0_ЛОКНЫ !!≈ * __@CODE@__ One verb only, локны:лок
 +Inf00@U.CONJ-INF.YES@:%>ны@U.CONJ-INF.YES@ VerbEnd-Comparison ;
 +Inf+Px100@U.CONJ-INF.YES@@U.CONJ-POSS.1@:%>ным@U.CONJ-INF.YES@@U.CONJ-POSS.1@ VerbEnd-Comparison ;
@@ -144,14 +144,14 @@ LEXICON V-0_АМНЫ !!≈ * __@CODE@__ амны:ам Ending in -мны, -жны
 : VerbConj_АМНЫ ; !а
 : VerbConj-V ; !б
 
-LEXICON VR_КЫЙНЫ !!≈ * __@CODE@__ 
-+V+Refl@U.CONJ-INF.YES@:й0@U.CONJ-INF.YES@ Verb-nyDer-ONSET-CONS ; !
-+V+Refl@U.CONJ-INF.YES@:й0@U.CONJ-INF.YES@ Verb-nyDer-ONSET-Ы ; !
-+V+Refl@U.CONJ-INF.YES@:й0@U.CONJ-INF.YES@ Verb-nyDer-ONSET-Я ; !
-+V+Refl@U.CONJ-INF.YES@:й0@U.CONJ-INF.YES@ VerbDer_КЫЙНЫ ; !
-+V+Refl@U.CONJ-INF.YES@:й0@U.CONJ-INF.YES@ VerbDer-V ; !
-+V+Refl:й VerbConj_КЫЙНЫ ; !а
-+V+Refl:й VerbConj-V ; !б
+!2018-10-21!LEXICON VR_КЫЙНЫ !!≈ * __@CODE@__ 
+!2018-10-21!+V+Refl@U.CONJ-INF.YES@:й0@U.CONJ-INF.YES@ Verb-nyDer-ONSET-CONS ; !
+!2018-10-21!+V+Refl@U.CONJ-INF.YES@:й0@U.CONJ-INF.YES@ Verb-nyDer-ONSET-Ы ; !
+!2018-10-21!+V+Refl@U.CONJ-INF.YES@:й0@U.CONJ-INF.YES@ Verb-nyDer-ONSET-Я ; !
+!2018-10-21!+V+Refl@U.CONJ-INF.YES@:й0@U.CONJ-INF.YES@ VerbDer_КЫЙНЫ ; !
+!2018-10-21!+V+Refl@U.CONJ-INF.YES@:й0@U.CONJ-INF.YES@ VerbDer-V ; !
+!2018-10-21!+V+Refl:й VerbConj_КЫЙНЫ ; !а
+!2018-10-21!+V+Refl:й VerbConj-V ; !б
 
 LEXICON IV_КЫЙНЫ
 +V+IV: V-0_КЫЙНЫ ;
@@ -233,9 +233,9 @@ LEXICON IV_АРТАСЬНЫ
 +V+IV: V-0_АРТАСЬНЫ ;
 LEXICON TV_АРТАСЬНЫ 
 +V+TV:  V-0_АРТАСЬНЫ ;
-LEXICON BV_АРТАСЬНЫ 
-+V+IV:  V-0_АРТАСЬНЫ ;
-+V+TV:  V-0_АРТАСЬНЫ ;
+!2018-10-21!LEXICON BV_АРТАСЬНЫ 
+!2018-10-21!+V+IV:  V-0_АРТАСЬНЫ ;
+!2018-10-21!+V+TV:  V-0_АРТАСЬНЫ ;
 
 LEXICON V_АРТАСЬНЫ !!≈ * __@CODE@__ артасьны:артась 
 +V+IV:  V-0_АРТАСЬНЫ ;
@@ -766,10 +766,10 @@ LEXICON VerbDer-V
 
 
 ! 2012-02-11 This is a problem; олан-вӧлан, овны-вӧвны
-LEXICON VerbPRT ! one verb, вӧвны 
-+V: preterite ;
-+V+ConNeg+Pl3@U.CONJ-CONNEG.YES@@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ны@U.CONJ-CONNEG.YES@@U.CONJ-NX.PL@@U.CONJ-PX.3@ WordEnd ;
-+V+ConNeg@U.CONJ-CONNEG.YES@:00@U.CONJ-CONNEG.YES@ WordEnd ;
+!2018-10-21!LEXICON VerbPRT ! one verb, вӧвны 
+!2018-10-21!+V: preterite ;
+!2018-10-21!+V+ConNeg+Pl3@U.CONJ-CONNEG.YES@@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ны@U.CONJ-CONNEG.YES@@U.CONJ-NX.PL@@U.CONJ-PX.3@ WordEnd ;
+!2018-10-21!+V+ConNeg@U.CONJ-CONNEG.YES@:00@U.CONJ-CONNEG.YES@ WordEnd ;
 
 LEXICON EM !!≈ * __@CODE@__ эм:эм. Ending in -ӧсь.
 +V+Ind+Prs+Sg3@U.CONJ-MX.IND@:0000@U.CONJ-MX.IND@ WordEnd ;
