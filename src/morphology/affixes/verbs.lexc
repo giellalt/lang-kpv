@@ -617,10 +617,10 @@ LEXICON VerbDer-ONSET_Ӧ !!≈ * __@CODE@__
 +Err/Dial+Der+Der/ӧм+Der/NomAct+N+Sg+Ins:%>эмен K ;
 +Err/Dial+Der+Der/ӧм+Der/Ин:%>эм%>%{иі%}н N_ ;
 
-+Der+Der/ан+Der/Ин:%>%{ая%}н%>%{иі%}н N_ ;
-+Der+Der/ан+PrsPrc:%>%{ая%}н N_ ;
-!2017-10-27+Der+Der/ан+ActPrsPtc:%>%{ая%}н K ;
-+Der+Der/ан+PrsPtc:%>%{ая%}н K ;
++Der+Der/Ан+Der/Ин:%>%{ая%}н%>%{иі%}н N_ ;
++Der+Der/Ан+PrsPrc:%>%{ая%}н N_ ;
+!2017-10-27+Der+Der/Ан+ActPrsPtc:%>%{ая%}н K ;
++Der+Der/Ан+PrsPtc:%>%{ая%}н K ;
 +Der+Der/ысь+ActPrsPtc:%>ысь K ;
 +Der+Der/ысь+Der/NomAg:%>ысь N_ ;
 
@@ -746,19 +746,19 @@ LEXICON VerbDer-V
 ! Page 346 in the Komi grammar
 +Der+Der/мысьт+Ger:%>мысьт K ; ! gerund (after the action) !353
 +Der+Der/мысь+Ger:%>мысь K ; ! !353
-+Der+Der/тӧдз+Ger:%>тӧдз PossessiveSuffixes_NoSg1 ; !396
++VTer:%>тӧдз PossessiveSuffixes_NoSg1 ; !396
 +Der+Der/мӧн+Ger:%>мӧн PossessiveSuffixes_NoSg1 ; !399-403
 +Der+Der/мӧнъя+Ger:%>мӧнъя WordEnd ; !399-403
-+Der+Der/тӧм+VAbe+Ger:%>тӧм PossessiveSuffixes ;
-+Der+Car+Ger:%>тӧг PossessiveSuffixes_NoSg1 ; ! 390
++VAbess:%>тӧм PossessiveSuffixes ;
++VCar:%>тӧг PossessiveSuffixes_NoSg1 ; ! 390
 +Der+Car+Err/Orth+Ger:%>тӧгъя K ; !387
 +Der+Car+Err/Orth+Ger:%>тӧга K ; !387
 +Der+Car+Der/моз+Ger:%>тӧгмоз PossessiveSuffixes_NoSg1 ; !
-+Err/Dial+Der+Der/тӧдз+Ger:%>тэдз PossessiveSuffixes_NoSg1 ; !396
++Err/Dial+VTer:%>тэдз PossessiveSuffixes_NoSg1 ; !396
 +Err/Dial+Der+Der/мӧн+Ger:%>мен PossessiveSuffixes_NoSg1 ; !399-403
 +Err/Dial+Der+Der/мӧнъя+Ger:%>менъя WordEnd ; !399-403
-+Err/Dial+Der+Der/тӧм+VAbe+Ger:%>тэм PossessiveSuffixes ;
-+Err/Dial+Der+Car+Ger:%>тэг PossessiveSuffixes_NoSg1 ; ! 390
++Err/Dial+VAbess:%>тэм PossessiveSuffixes ;
++Err/Dial+VCar:%>тэг PossessiveSuffixes_NoSg1 ; ! 390
 +Err/Dial+Der+Car+Err/Orth+Ger:%>тэгъя K ; !387
 +Err/Dial+Der+Car+Err/Orth+Ger:%>тэга K ; !387
 +Err/Dial+Der+Car+Der/моз+Ger:%>тэгмоз PossessiveSuffixes_NoSg1 ; !
