@@ -37,15 +37,15 @@ LEXICON Noun1-SYT-STY !
 :ьт         N_ ; ! This is the new proper spelling гӧсьт
 
 
-LEXICON N-KINDRED_
- N_ ;
-+N+PxSg1+Assoc+Pl:%>ӧяс CASEPOSSLEX ;
-+N+PxSg2+Assoc+Pl:%>ыдъяс CASEPOSSLEX ;
-+N+PxSg3+Assoc+Pl:%>ысъяс CASEPOSSLEX ;
+!2018-10-21!LEXICON N-KINDRED_
+!2018-10-21! N_ ;
+!2018-10-21!+N+PxSg1+Assoc+Pl:%>ӧяс CASEPOSSLEX ;
+!2018-10-21!+N+PxSg2+Assoc+Pl:%>ыдъяс CASEPOSSLEX ;
+!2018-10-21!+N+PxSg3+Assoc+Pl:%>ысъяс CASEPOSSLEX ;
 
-LEXICON N-PROFESSION_
- N_ ;
-+N+Der+Der/ал@C.CONJ-INF@@C.CONJ-POSS@:%>%{ая%}л@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !! таксисталӧ 
+!2018-10-21!LEXICON N-PROFESSION_
+!2018-10-21! N_ ;
+!2018-10-21!+N+Der+Der/ал@C.CONJ-INF@@C.CONJ-POSS@:%>%{ая%}л@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !! таксисталӧ 
 !! Basic nouns.
 
 !! The lexicon for basic nouns is {{ N_ }}
@@ -178,8 +178,8 @@ LEXICON N-0_END-IN-Ь !!= * @CODE@ автомобиль:автомобил ав�
 
 
 
-LEXICON NounLA ! ӧтила
-N_ ; ! Difference betw N_ and NounLA still to be documented.
+!2018-10-21!LEXICON NounLA ! ӧтила
+!2018-10-21!N_ ; ! Difference betw N_ and NounLA still to be documented.
 
 LEXICON NounMort
 ! медводзаысь гӧгӧрвои, мый ӧтика лыдын морт, уна лыдын йӧз
@@ -200,8 +200,8 @@ LEXICON NounPL ! бедьторъяс
 ! Very many plural nouns do not have this tag. We could change яс-final
 ! nouns from N_ to NounPL, I guess.
 
-LEXICON NounPOSS ! чой niece, nephew
-N_ ; ! Declension to be determined.
+!2018-10-21!LEXICON NounPOSS ! чой niece, nephew
+!2018-10-21!N_ ; ! Declension to be determined.
 
 LEXICON FIRST
 +Cmp: # ;
@@ -608,9 +608,9 @@ LEXICON IllCompar
  K ;
 +Comp:%>джык K ;
 
-LEXICON PredMonLex-Spat
- K ;      ! Singular predicative
- PredMonLex-Spat-Add-Morphology ; !
+!2018-10-21!LEXICON PredMonLex-Spat
+!2018-10-21! K ;      ! Singular predicative
+!2018-10-21! PredMonLex-Spat-Add-Morphology ; !
 
 LEXICON PredMonLex-Spat-Add-Morphology ! This allows consistency
                                        ! with SPAT elsewhere
