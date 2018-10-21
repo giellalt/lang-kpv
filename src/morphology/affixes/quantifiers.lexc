@@ -11,7 +11,7 @@ LEXICON QNT-CARD_
 :%>нан COLL ;
 
 LEXICON CARD
-+Num+Card: ABS_ ;
+!+Num+Card: ABS_ ; 2018-10-21
 +Num+Card: NumCASEPOSSLEX ;
 +Num+Card+Der/кӧ+Presentational:%>%-кӧ WordEnd ;
 !+Num+Ord:%>ӧд NumCASEPOSSLEX ;
@@ -28,7 +28,7 @@ LEXICON COLL
 LEXICON ORD
  DET_ ;
 LEXICON DET_
-+Det+Ord: ABS_ ;
+!+Det+Ord: ABS_ ; 2018-10-21
 +Det+Ord: NumCASEPOSSLEX ; ! ӧд part of the stem
 +Det+Ord+Iter:%>ысь K ;
 +Det+Ord+Iter+Ins:%>ысьӧн K ;
