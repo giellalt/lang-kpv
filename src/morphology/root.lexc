@@ -165,6 +165,7 @@ Multichar_Symbols
  +Coll  !!≈ * __@CODE@__ Collective
  +Distr !!≈ * __@CODE@__  Distributive
  +Iter !!≈ * __@CODE@__  Iterative form expressing number of times
+ +Arab +Rom 
 
 !! Verb moods are:
  +Ind +Prs +Prt1 +Prt2 +Fut +Imprt
@@ -177,7 +178,10 @@ Multichar_Symbols
 
 +ConNeg +Neg
 ! +ConNegII +ImprtII +PrsPrc +PrfPrc +Sup +VGen 
-+VAbess
++VAbess !!≈ * __@CODE@__ тӧм Participle
++VCar !!≈ * __@CODE@__ тӧг Gerund
++VTer !!≈ * __@CODE@__ тӧдз Gerund
+
 +Final ! мог, мон, моз 'so that I won't'
 
 ! Abbreviated words are classified with:
@@ -316,6 +320,7 @@ Multichar_Symbols
  +Sem/Veh         !!≈ * __@CODE@__ Vehicle
  +Sem/Wpn         !!≈ * __@CODE@__ Weapon
  +Sem/Wthr        !!≈ * __@CODE@__ The Weather or the state of ground
+ +Sem/Year        !!≈ * __@CODE@__
 
  +Sem/Sur_Fem         !!≈ * __@CODE@__ Surname female
  +Sem/Sur_Mal         !!≈ * __@CODE@__ Surname male
@@ -472,7 +477,7 @@ Multichar_Symbols
 +Der/Ана  !!≈ * __@CODE@__ Process Participle +ANA
 +Der/Анаа  !!≈ * __@CODE@__  adverb derived from participle (+ANA) +ANAA
 +Der/чӧж  !!≈ * __@CODE@__  +CHOZH
-
++Der/тӧг
 
 +Instr  !!≈ * __@CODE@__ 
 +NomAct  !!≈ * __@CODE@__
@@ -493,15 +498,15 @@ Multichar_Symbols
 ! These should be added below in derivation declarations
 !
 !
-!+Der/ан
-! +Der/ана +Der/анаа +Der/чӧж
+!+Der/Ан
+! +Der/Ана +Der/Анаа +Der/чӧж
 !Then they should have indication of whether they are gerunds or participles!
-+Der/тӧдз    !!≈ * __@CODE@__  +VTer
+!+Der/тӧдз    !!≈ * __@CODE@__  +VTer
 !+TODZ Verbal terminative
-+Der/тӧм  !!≈ * __@CODE@__  +VAbe
 +Der/ысь  !!≈ * __@CODE@__
 +ActPrsPtc  !!≈ * __@CODE@__ 
-+Der/ан  !!≈ * __@CODE@__
++Der/Ан  !!≈ * __@CODE@__ Participle
++Der/Ана  !!≈ * __@CODE@__ Gerund or participle according to context (with...)
 +PrsPrc  !!≈ * __@CODE@__
 +PrsPtc  !!≈ * __@CODE@__ 
 +Der/ӧм  !!≈ * __@CODE@__
@@ -541,6 +546,7 @@ Multichar_Symbols
 
 +IneMod !!≈ * __@CODE@__ Быд во шедӧдӧны бур успеваемость Воркута да Инта каръясса, Прилузскӧй да Княжпогостскӧй районъясса школаяс.
 +CompMod !!≈ * __@CODE@__ 
++Der/тӧм  !!≈ * __@CODE@__  used with nouns and followed by +AbeMod
 +AbeMod !!≈ * __@CODE@__ джуджыд анализъястӧм да обобщениеястӧм статьяяс.
 +HabObjMod !!≈ * __@CODE@__ Весиг киясыс тӧдсаӧсь, найӧ мугов рӧмаӧсь, кузь чорыд чуньясаӧсь.
  +TempMod !!≈ * __@CODE@__ но и Ф. В. Плесовскийлысь квайтымынӧд вояссяяссӧ * позьӧ аддзыны сӧмын библиотекаясысь.
@@ -919,9 +925,9 @@ LEXICON SPAT-COMPARATIVE
 
 LEXICON COMPARATIVE
                         K ;
-+Der+Der/джык+Comp:%>джык K ;
-+Der+Der/моз:%>моз K ;
-+Der+Der/кодь:%>кодь K ;
++Comp:%>джык K ; !more
++Der+Der/моз:%>моз K ; ! like -- in verbal constructions (Jaska thinks 2018-10-21)
++Der+Der/кодь:%>кодь K ; ! like -- in copula constructions
 
 ! TODO: Integrate this in xml-files in working…
 

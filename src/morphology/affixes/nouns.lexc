@@ -14,7 +14,7 @@ LEXICON Noun1-IS_PTC-OM !!≈ * __@CODE@__ is to provide deverbal nouns with +De
 +V+Der+Der/ӧм: N_ ;
 
 LEXICON Noun1-IS_PTC-AN !!≈ * __@CODE@__
-+V+Der+Der/ан: N_ ;
++V+Der+Der/Ан: N_ ;
 
 LEXICON Noun1-IS_PTC-YSJ !!≈ * __@CODE@__
 +V+Der+Der/ысь: N_ ;
@@ -593,12 +593,12 @@ LEXICON DERIVEDADJ
 
 
 LEXICON AdjCompar
-+Der/джык+Comp:%>джык PredMonLex ;
-+Der/джык+Comp+Der+Der/а:%>джыка ADV_ ;
-+Der/джык+Comp+Sg:%>джык CASEPOSSLEX-afterDerivation ;
-+Der/джык+Comp+Pl:%>джыкъяс CASEPOSSLEX-afterDerivation ;
-!2017-09-19+Der/джык+Comp+Der/MWN+N+Sg:%>джык CASEPOSSLEX-afterDerivation ;
-!2017-09-19+Der/джык+Comp+Der/MWN+N+Pl:%>джыкъяс CASEPOSSLEX-afterDerivation ;
++Comp:%>джык PredMonLex ;
++Comp+Der+Der/а:%>джыка ADV_ ;
++Comp+Sg:%>джык CASEPOSSLEX-afterDerivation ;
++Comp+Pl:%>джыкъяс CASEPOSSLEX-afterDerivation ;
+!2017-09-19+Comp+Der/MWN+N+Sg:%>джык CASEPOSSLEX-afterDerivation ;
+!2017-09-19+Comp+Der/MWN+N+Pl:%>джыкъяс CASEPOSSLEX-afterDerivation ;
 +Sg: CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
 +Pl:%>ъяс CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
 !2017-09-19+Der/MWN+N+Sg: CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
@@ -606,7 +606,7 @@ LEXICON AdjCompar
 
 LEXICON IllCompar
  K ;
-+Der/джык+Comp:%>джык K ;
++Comp:%>джык K ;
 
 LEXICON PredMonLex-Spat
  K ;      ! Singular predicative
@@ -616,7 +616,7 @@ LEXICON PredMonLex-Spat-Add-Morphology ! This allows consistency
                                        ! with SPAT elsewhere
 +Cop+Pl:%>ӧсь K ; ! Plural predicative.
 +Err/Dial+Cop+Pl:%>эсь K ; ! Plural predicative.
-+Der/джык+Comp:%>джык PredMonLex ; !ывлаынджык OR ывлаынджыкӧсь
++Comp:%>джык PredMonLex ; !ывлаынджык OR ывлаынджыкӧсь
 
 
 LEXICON PredMonLex
