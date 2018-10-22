@@ -1152,8 +1152,40 @@ LEXICON PRON-NEG-ITER
 +Pron+Der+Neg+Der/ысь+Adv: K ; !+Iter
 
 LEXICON PRON-NEG
-+Pron+Neg+Sg+Nom: WordEnd ;
-+Pron+Neg+Sg: PRON-NEG-OBL ;
++Pron+Neg+Sg: PRON-NEG_0 ;
++Pron+Neg+Sg: PRON-NEG_J ;
++Pron+Neg+Pl:ъяс PRON-NEG_0 ;
++Pron+Neg+Pl:ъяс PRON-NEG_J ;
+
+LEXICON PRON-NEG_0/J
++Pron+Neg+Sg: PRON-NEG_0 ;
++Pron+Neg+Sg:й PRON-NEG_J ;
++Pron+Neg+Pl:ъяс PRON-NEG_0 ;
++Pron+Neg+Pl:ъяс PRON-NEG_J ;
+
+LEXICON PRON-NEG_0
++Nom: WordEnd ;
++Gen:лӧн WordEnd ;
++Abl:лысь K ; !
++Dat:лы WordEnd ;
++Acc+PxSg2:тӧ WordEnd ;
++Acc+PxSg3:сӧ WordEnd ;
++Com:кӧд K ;
++Car:тӧг K ;
++Cns:ла K ;
++Apr:лань K ;
++Egr:сянь K ;
++Tra:ті K ;
+
+LEXICON PRON-NEG_J
++Acc+PxSg1:ӧс WordEnd ;
++Ins:ӧн K ;
++Ine:ын K ;
++Ela:ысь K ; 
++Ill:ӧ K ; !
++Ter:ӧдз K ;
+
+
 
 
 LEXICON PRON-NEG-COLL
