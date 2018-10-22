@@ -54,6 +54,8 @@ LIST Ex/Num = Ex/Num ; #!! Ex/Num
 LIST Ex/V = Ex/V ; #!! Ex/V
 LIST Ex/WORD = Ex/N Ex/V Ex/A Ex/Num ; #!! Ex/WORD
 LIST DerTag = Der/MWN Der/И Der/а Der/ал Der/ась Der/выв Der/джык Der/дор Der/иг Der/кежлӧ Der/кодь Der/коста Der/кості Der/л Der/ла Der/ладор Der/лун Der/лы Der/лывлы Der/мед Der/моз Der/мысь Der/мысьт Der/мӧн Der/мӧнъя Der/овт Der/сор Der/сь Der/сьы Der/сюрӧ Der/тыр Der/тырйи Der/тыръя Der/тӧдз Der/тӧм Der/чы Der/чӧж Der/ывлы Der/ысь Der/ышт Der/ӧм ; #!! DerTag
+LIST AspDerTag = Der/ал Der/ась Der/л Der/лы Der/лывлы Der/овт Der/сь Der/сьы Der/чы Der/ывлы Der/ышт ; #!! AspDerTag
+
 
 
 #!! !Verbal categories
@@ -72,6 +74,8 @@ LIST Ind = Ind ind ; #!! Ind
 LIST Imp = Imp ;  #!! Imp
 LIST Cond = Cond cond ; #!! Cond
 LIST Opt = Opt opt ; #!! Opt
+LIST IV = IV ;
+LIST TV = TV ;
 
 LIST Sg1 = Sg1 ; #!! Sg1
 LIST Sg2 = Sg2 ; #!! Sg2
@@ -83,6 +87,9 @@ LIST Inf = Inf ;
 LIST Pos = Pos ; 
 LIST Neg = Neg neg ; 
 LIST ConNeg = ConNeg conneg; 
+
+LIST V-jylysj = "висьтавны" "гижны" "мойдны" "мӧвпавны" "пасйыны" "сёрнитны" "тӧдны" "шуны" ;
+
 
 #!! Nominal categories
 LIST Sg = Sg sg ; #!! Sg
@@ -130,6 +137,9 @@ LIST PxPl1 = PxPl1 ;
 LIST PxPl2 = PxPl2 ; 
 LIST PxPl3 = PxPl3 ; 
 
+LIST PxTag = PxSg1 PxSg2 PxSg3 PxPl1 PxPl2 PxPl3 ;
+SET NotPxTagN = N - PxTag ;
+
 LIST Card = Card ; 
 
 LIST Coll = Coll ; 
@@ -168,7 +178,9 @@ LIST PUNCT = PUNCT ;
 
 LIST FirstName = Sem/Mal Sem/Fem ;
 LIST Surname = Sem/Sur ;
+LIST Patronym = Sem/Patr ;
 
+LIST Clt/сӧ = Clt/сӧ ;
 LIST Der/MWN = Der/MWN ;
 LIST Der/са = Der/са ;
 
@@ -179,6 +191,7 @@ LIST PrsPrc = PrsPrc ;
 LIST PastPtc = PastPtc ;
 LIST Noun1 = Noun1 ;
 LIST ActPrsPtc = ActPrsPtc ;
+LIST Cop = Cop ;
 
 #!! !Verb sets
 LIST VNEG = "ог" "он" "оз" "огӧ" "огӧй" "онӧ" "онӧй" "эг" "эн" "эз" "эгӧ" "эгӧй" "энӧ" "энӧй" ; #!! VNEG (all Neg verbs)
@@ -215,6 +228,12 @@ SELECT:Dem Dem IF (0 Dem)(1 N + Nom);
 
 REMOVE:CmpTst CmpTest IF (NOT 1 N);
 SELECT:CmpTst2 CmpTest ; # Kill'em all
+
+REMOVE Nom IF (0 Nom + Clt + Clt/сӧ);
+# кывсӧ пыдісянь гӧгӧрвоысьяс
+
+REMOVE:ImprtCltso Imprt (0 Imprt + Sg2 + Clt + Clt/сӧ);
+
 
 
 # CC or Pcle
@@ -254,10 +273,14 @@ REMOVE Der/са IF (0 ("<(.*)са>"r) + A);
 # Cases
 SELECT:Cmpl1 Cmpl IF (1 Po) ;
 
+REMOVE Relat IF (-1 Cmpl);
+# Та йылысь юӧртліс «Коми му»
+
 REMOVE:Cmpl2 Cmpl ;
 
 # Numerals
 
+SELECT:CardNomWhenNextNoun Nom IF (0 Num + Card) (1 N); 
 REMOVE:NoAbsAtEnd Abs IF (1 CLB) ;
 # Воис мича асыв .
 #REMOVE (Abs) IF (0 Der/MWN + N + Sg + Nom);
@@ -302,6 +325,14 @@ REMOVE:InitialAdv A IF (-1 BOS)(0 Adv)(NOT 1 N OR CC OR A) ;
 #REMOVE:RelatorNotPo Po IF (0 N + Relat OR Adv) ;
 		     # кыз сирпу улысь
 
+# Adpositions
+# =======
+SELECT:NomWhenNextPo Nom IF (1 Po);
+
+REMOVE:AdvWhenPoAndPreviousNom Adv IF (-1 Nom)(0 Po);
+
+REMOVE:RelatWhenjylysjVerb Relat IF (0 Po)(*1 V-jylysj BARRIER CLB);
+
 # Verbs
 # =====
 
@@ -324,7 +355,10 @@ REMOVE:NegSgIfNotConNegPl Neg + Pl3 IF (NOT 1 ConNeg + Pl3);
 
 SELECT:NegIfConNeg Neg IF (1 ConNeg OR Adv);
 	# оз тырмы
-	
+
+REMOVE:ConNegWhenNextNeg ConNeg OR Imprt IF (1 Neg);	
+# миянлы ни ӧти кыв эз на шулы
+
 # First or third person
 
 
@@ -335,6 +369,12 @@ REMOVE:3not1inPast (Prt1 Sg1) IF (NOT *0 (Pers Sg1 Nom)) ;
 
 REMOVE:ErrDial Err/Dial IF (0 VOELI) ;
 
+REMOVE:CopWhenVFINprecede Cop IF (-1* VFIN BARRIER CLB)(0 A);
+# сӧвмигӧн кадысь пансьывлӧ выль кывъяс вӧсна вен.
+
+REMOVE:CopWhenVFINfollow Cop IF (0 A)(1* VFIN BARRIER CLB);
+
+REMOVE:CopWhenNextNotPxTagN Cop IF (0 A) (1 NotPxTagN);
 # ConNeg or not
 #REMOVE:NoNegForMe ConNeg IF (NOT *-1 Neg BARRIER CLB);
 REMOVE:OtherConNeg ConNeg IF (-1* ConNeg BARRIER Neg);
@@ -342,6 +382,10 @@ REMOVE:OtherConNeg ConNeg IF (-1* ConNeg BARRIER Neg);
 SELECT:OnlyConNeg ConNeg IF (-1C Neg)(NOT *1 ConNeg) ;
 
 REMOVE:NoConNegAlone ConNeg IF (NOT *0 Neg);
+
+# IV no Acc
+REMOVE:NoAccWhenNextNumAgrees Acc IF (0 Pl + Nom)(1 Prs + Pl3 OR Prt1 + Pl3 OR Prt2 + Pl3);
+# ӧтияс артмӧдӧны выль кывъяссӧ, мӧдъяс...
 
 # Imperative or noun
 
@@ -364,6 +408,7 @@ SELECT:AbuNegWhenNextPrt2 Neg IF (0 ("абу"))(1 Prt2 OR N OR A);
 SELECT:Prt2WhenPrevAbuNeg Prt2 IF (-1 ("абу"))(0 Prt2);
 # юркывйысь абу пасйӧма ни ӧти...
 
+SELECT:AdvOkota Adv IF (-1 ("зэв")) (0 ("окота"));
 
 #REMOVE:VfinWhenOtherOnlyVfin VFIN IF (0C Ill)(NOT 1 Non-VFIN);
 # кор венӧ кутчысьӧны ошйысьысь 2018-10-20 Jaska
@@ -432,13 +477,14 @@ SELECT Inf IF (-1 V) ;
 SELECT Inf IF (-2 V) ;
 SELECT Pcle IF (1 A) (0 ("медся"));
 SELECT Inf IF (-1 BOS) (0 V) ;
+REMOVE:NoAspDerIfPossible AspDerTag ;
 REMOVE Acc IF (-1 (V Refl)) ;
 SELECT N OR Pron IF (1 Po) ;
 #SELECT Adv IF (-1 V) ;
-REMOVE:NoDerIfPossible DerTag ;
-REMOVE Refl IF (-1 V) ;
 REMOVE V IF (-1 A) ;
 #SELECT Adv IF (1 Ex/V) ;
+REMOVE Relat IF (-1 ("мый")) (0 Po);
+# тӧдмавны, мый йылысь гижӧ
 SELECT CS IF (-1 COMMA) (0 ("мый")) ;
 REMOVE CS IF (-1 BOS)(0 ("мый")) ;
 SELECT CS IF (-1 COMMA) (0 ("быттьӧ")) ;
@@ -463,9 +509,12 @@ REMOVE Po IF (-1 CLB) ;
 
 REMOVE Imprt IF (-1 Adv OR Qnt) ;
 SELECT V IF (-1 Inf) (0 V);
-SELECT Acc IF (-1 (V TV));
-SELECT:FirstNameWhenNextSurname (N Nom) IF (0 FirstName)(1 Surname) ;
-SELECT (N Nom) IF (-1 (V IV)) ;
+SELECT Nom IF (*-1 Acc + PxTag BARRIER CLB);
+SELECT Acc IF (-1 (V TV))(0 N OR Pron);
+# ӧтияс артмӧдӧны выль кывъяссӧ, мӧдъяс...
+
+SELECT:FirstNameWhenNextSurname (N Nom) IF (0 FirstName)(1 Surname OR Patronym) ;
+SELECT (N Nom) IF (-1 (V IV VFIN)) ;
 
 # PrsPtc
 
@@ -476,11 +525,16 @@ REMOVE PrsPtc IF (-1 ("тэ")) ;
 REMOVE PrsPrc IF (1 V) ;
 REMOVE PrsPtc IF (1 V) ;
 SELECT ConNeg IF (-1 (V Neg)) ;
-REMOVE Adv IF (-1 (N Nom)) ;
+
+#REMOVE Adv IF (-1 (N Nom)) ;
+# кывсӧ пыдісянь гӧгӧрвоысьяс да гӧгӧрбок
+
 REMOVE Po IF (-1 Adv) ;
 REMOVE (Prt2 Sg1) IF (-1 N) ;
 SELECT PastPtc IF (1 N OR A) ;
 SELECT ActPrsPtc IF (1 N OR A) ;
+REMOVE:NoDerIfPossible DerTag ;
+REMOVE Refl IF (-1 V) ;
 SELECT Interj IF (1 CLB) ;
 SELECT (N Acc) IF (-2 (V TV)) (-1 Pron OR A) ;
 
