@@ -176,6 +176,10 @@ The Usage extents are marked using following tags:
  * __+Use/-Spell__ 
  * __+Use/SpellNoSugg__ 
 
+ * __+Use/PMatch__ means that the following is only used in the analyser feeding the disambiguator
+ * __+Use/-PMatch__ Do not include in fst's made for hfst-pmatch
+
+
 Dialect features
 
 
@@ -407,6 +411,16 @@ with verbs if the verb is further derived into a noun again:
  | @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
  | @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
  | @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
+
+
+
+Two flags copied from sme
+
+ | @P.Pmatch.Loc@ | Used on multi-token analyses; tell hfst-tokenise/pmatch where in the form/analysis the token should be split.
+ | @P.Pmatch.Backtrack@ | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this point in the form (to find combinations of shorter analyses that would otherwise be missed)
+
+
+
 For languages that allow compounding, the following flag diacritics are needed
 to control position-based compounding restrictions for nominals. Their use is
 
