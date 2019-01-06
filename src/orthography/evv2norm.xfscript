@@ -1,0 +1,193 @@
+! ====================================== !
+! Orthographic converter Eric Vászolyi-Vasse's transcription !
+! ====================================== !
+
+! Examples:
+! ićɛt-dyrji mi jona rad'ejtlɨm vorsnɨ ćomjɛn.
+! pervɛj bat'-mam koram vøćnɨ ćom. ćomsɛ vøćɛnɨ
+! pøwjasɨś, čøkɨdǯɨkɛ siʒ́ med øt'i bokɨs inmis śt'enas.
+! me rød'iććyli požńa d'erevńayn kod uht'inskej
+! rajonyn. d'erevńays sulale iźva ju bokyn, di vylyn.
+
+! This program translates text written in the Specimina Sibirica
+! series by Eric Vászolyi-Vasse into modern Komi-Zyrian orthography,
+! or to a close approximant used in IKDP project.
+
+! Based to rus/src/orthography/latin2cyrillic.xfscript
+
+! echo <<defining Cns and Vow...>>
+
+
+define Vow       [ a | á | e | ɛ | i | ɨ | o | u | y | æ | ø | å | ä | ö | 
+                   A | Á | E | I | O | U | Y | Æ | Ø | Å | Ä | Ö | 
+é | ó | ú | í | à | è | ò | ù | ì | ë | ü | ï | â | ê | ô | û | î | ã | ý 
+É | Ó | Ú | Í | À | È | Ò | Ù | Ì | Ë | Ü | Ï | Â | Ê | Ô | Û | Î | Ã | Ý ] ;
+
+
+define Cns [ b | c | ć | č | d | đ | ǯ | ʒ́ | f | g | h | j | k | l | m | n | ń | ŋ | ñ | ń | 
+             B | C | Č | D | Đ | F | G | H | J | K | L | M | N | Ŋ | Ñ | Ń |
+             p | q | r | s | ś | š | t | ŧ | v | w | x | z | ź | ž |   
+             P | Q | R | S | Š | T | Ŧ | V | W | X | Z | Ž] ; 
+
+define Characters [ ' ] ;
+
+define NonpairedCns [ б | в | г | ж | й | к | м | 
+                  п | р | ф | х | ч | ш | щ |
+                  Б | В | Г | Ж | Й | К | М |
+                  П | Р | Ф | Х | Ч | Ш | Щ ] ;
+
+define CyrVow    [ а | э | ы | о | ӧ | у | я | е | и | ё | ю
+                   А | Э | Ы | О | Ӧ | У | Я | Е | И | Ё | Ю ] ;
+
+define NonPalVow [ а | э | ы | о | ӧ | у | я | е | и | ё | ю ] ;
+
+define PalVow    [ А | Э | Ы | О | У | Я | Е | И | Ё | Ю ] ;
+
+define CyrCns   [ б | в | г | д | ж | з | й | к | л | м | н | 
+                  п | р | с | т | ф | х | ц | ч | ш | щ |
+                  Б | В | Г | Д | Ж | З | Й | К | Л | М | Н |
+                  П | Р | С | Т | Ф | Х | Ц | Ч | Ш | Щ ] ;
+
+define Syll Cns* Vow+ Cns* ;
+
+echo << Rules >>
+
+define lexicalexceptions [
+
+{Hamsun} -> {Гамсун} ,
+{Sigurd} -> {Сигурд} , 
+{Harald} -> {Харальд} ,
+{Helsingfors} -> {Гелсингфорс}
+
+] ;
+
+# define frontC c -> s , C -> S || _ [ i | e | æ | y ] ;
+# define backC  c -> k , C -> K || _ [ a | o | u ] ;
+# define backO  o -> u , O -> U || _ n [ g | d ] ;
+
+# define diphth ø y -> о й , Ø y -> О й , 
+#              e y -> е й , E y -> Є й , 
+#              a u -> э у , A u -> Э у ;
+
+define shortUandO u -> у , U -> У , o -> о , O -> О || _ Cns Cns [.#.|Cns] ;
+
+
+define consassim d -> 0 || n _ [.#.|Cns] ,,
+                 d -> 0 || l _ [.#.|Cns] ;
+#                 d -> 0 || r _ [.#.|Cns] ; # they like the -rd
+
+
+define specialL l -> л , L -> Л || [ o | å | a | O | Å | A ] (e|h|r) _ ;
+define generalL l -> л ь , L -> Л Ь ;
+
+define specialI i -> і || \[ NonpairedCns ] _ ;
+define normalI i -> и || [ .#. | Vow | NonpairedCns ] _ ;
+
+define initialconsgroups [ 
+   C h r -> К р ,
+   G j ø -> Ё ,
+   G j o -> Ю ,
+   G j a -> Я ,
+   S k j -> Ш ,
+   S j   -> Ш , 
+   S k i -> Ш и ,
+   S k y -> Ш ю ,
+   H j a -> Я ,
+   H j e -> Е ,
+   H j ø -> Ё ,
+   H j o -> Ю ,
+   K j   -> Х ,
+   k j   -> x
+   ] ;
+
+
+! the big conversion rule
+
+define Convert a -> а , A -> А , 
+      b -> б ,     B -> Б , 
+      c -> к ,     C -> К , 
+      d -> д ,     D -> Д , 
+      ʒ́ -> дз,
+      ǯ -> дж,
+      e -> е ,     E -> Е , 
+      ɛ -> ö,
+      f -> ф ,     F -> Ф , 
+      g -> г ,     G -> Г , 
+      h -> х ,     H -> Х , 
+      i -> и ,     I -> И , 
+      ɨ -> ы ,
+      j -> й ,     J -> Й , 
+      k -> к ,     K -> К , 
+      m -> м ,     M -> М , 
+      n -> н ,     N -> Н , 
+      ń -> нь,
+      o -> о ,     O -> О ,
+      ö -> ӧ ,     Ö -> Ӧ ,
+      p -> п ,     P -> П , 
+      q -> к ,     Q -> К , 
+      r -> р ,     R -> Р , 
+      s -> с ,     S -> С , 
+      ś -> сь,
+      š -> ш,
+      t -> т ,     T -> Т , 
+      u -> у ,     U -> У , 
+      v -> в ,     V -> В , 
+      w -> в ,     W -> В , 
+      x -> к с ,   X -> К С , 
+      y -> ы ,     Y -> Ы , 
+      z -> з ,     Z -> З ,
+      ź -> зь , 
+      ä -> я ,     Ä -> Я , 
+      æ -> я ,     Æ -> Я , 
+      ø -> ӧ ,     Ø -> Ӧ ,
+      å -> о ,     Å -> О , 
+      č -> тш ,    Č -> Тш ,
+      ć -> ч ,      Ć -> Ч ,
+      đ -> д ,     Đ -> Д ,
+      ŋ -> ӊ ,     Ŋ -> Н ,
+      š -> ш ,     Š -> Ш ,
+      Ž -> ж ,     Ž -> Ж ; 
+      
+
+define CVinContext й  -> ь || CyrCns _ CyrVow ;
+
+
+define iDiphthong и -> й || CyrVow _ ;
+
+define CV й а -> я ,
+          Й а -> Я ,
+          й е -> е ,
+          Й е -> Е ,
+          й о -> ё ,
+          Й о -> Ё ,
+          й у -> йы ,
+          Й у -> ЙЫ ;
+
+echo << Compile... >>
+
+read regex [
+     lexicalexceptions
+ .o. specialI
+ .o. shortUandO
+ .o. consassim
+ .o. specialL
+ .o. generalL
+ .o. initialconsgroups
+ .o. Convert
+ .o. CVinContext
+ .o. iDiphthong
+ .o. CV
+ .o. specialI
+ .o. normalI
+ ] ;
+
+
+# xfst -f misc/transliteration_test.xfst && echo "ićɛt-dyrji mi jona rad'ejtlɨm vorsnɨ ćomjɛn. pervɛj bat'-mam koram vøćnɨ ćom. ćomsɛ vøćɛnɨ pøwjasɨś, čøkɨdǯɨkɛ siʒ́ med øt'i bokɨs inmis śt'enas." | lookup o2n.fst 
+
+# xfst -e " source < src/orthography/evv2norm.xfscript"
+# invert net
+# save o2n.fst
+# quit
+# lookup o2n.fst 
+
+# ićɛt-dyrji mi jona rad'ejtlɨm vorsnɨ ćomjɛn.
