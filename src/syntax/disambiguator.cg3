@@ -53,7 +53,7 @@ LIST Ex/N = Ex/N ; #!! Ex/N
 LIST Ex/Num = Ex/Num ; #!! Ex/Num
 LIST Ex/V = Ex/V ; #!! Ex/V
 LIST Ex/WORD = Ex/N Ex/V Ex/A Ex/Num ; #!! Ex/WORD
-LIST DerTag = Der/MWN Der/И Der/а Der/ал Der/ась Der/выв Der/джык Der/дор Der/иг Der/кежлӧ Der/кодь Der/коста Der/кості Der/л Der/ла Der/ладор Der/лун Der/лы Der/лывлы Der/мед Der/моз Der/мысь Der/мысьт Der/мӧн Der/мӧнъя Der/овт Der/сор Der/сь Der/сьы Der/сюрӧ Der/тыр Der/тырйи Der/тыръя Der/тӧдз Der/тӧм Der/чы Der/чӧж Der/ывлы Der/ысь Der/ышт Der/ӧм ; #!! DerTag
+LIST DerTag = Der/NomAct Der/MWN Der/И Der/а Der/ал Der/ась Der/выв Der/джык Der/дор Der/иг Der/кежлӧ Der/кодь Der/коста Der/кості Der/л Der/ла Der/ладор Der/лун Der/лы Der/лывлы Der/мед Der/моз Der/мысь Der/мысьт Der/мӧн Der/мӧнъя Der/овт Der/сор Der/сь Der/сьы Der/сюрӧ Der/тыр Der/тырйи Der/тыръя Der/тӧдз Der/тӧм Der/чы Der/чӧж Der/ывлы Der/ысь Der/ышт Der/ӧм Der/увса ; #!! DerTag
 LIST AspDerTag = Der/ал Der/ась Der/л Der/лы Der/лывлы Der/овт Der/сь Der/сьы Der/чы Der/ывлы Der/ышт ; #!! AspDerTag
 
 
@@ -191,6 +191,7 @@ LIST PrsPrc = PrsPrc ;
 LIST PastPtc = PastPtc ;
 LIST Noun1 = Noun1 ;
 LIST ActPrsPtc = ActPrsPtc ;
+LIST NomAct = Der/NomAct ;
 LIST Cop = Cop ;
 
 #!! !Verb sets
@@ -314,6 +315,9 @@ REMOVE:NotSg1IFAdv Sg1 IF (-1 N OR Pron)(0 Adv)(1C Ind)(NOT 1 Sg1);
 
 REMOVE:AdvNotA A IF (-1 N or Pron)(0 Adv)(1 V);
 	# ме регыд муна
+
+REMOVE:ANotAdv Adv IF (0 A)(1 N);
+	# ме регыд морт
 	
 SELECT Adv + Rel IF (-1 COMMA)(*1 VFIN);
 
@@ -328,6 +332,8 @@ REMOVE:InitialAdv A IF (-1 BOS)(0 Adv)(NOT 1 N OR CC OR A) ;
 # Adpositions
 # =======
 SELECT:NomWhenNextPo Nom IF (1 Po);
+
+# сійӧ пыр breaks the next rule
 
 REMOVE:AdvWhenPoAndPreviousNom Adv IF (-1 Nom)(0 Po);
 
@@ -534,6 +540,7 @@ REMOVE (Prt2 Sg1) IF (-1 N) ;
 SELECT PastPtc IF (1 N OR A) ;
 SELECT ActPrsPtc IF (1 N OR A) ;
 REMOVE:NoDerIfPossible DerTag ;
+SELECT NomAct IF (0 V) ;
 REMOVE Refl IF (-1 V) ;
 SELECT Interj IF (1 CLB) ;
 SELECT (N Acc) IF (-2 (V TV)) (-1 Pron OR A) ;
@@ -541,3 +548,21 @@ SELECT (N Acc) IF (-2 (V TV)) (-1 Pron OR A) ;
 REMOVE N IF (0 ("посни")) (1 N);
 
 REMOVE Abs IF (0 Abs OR Nom) (0 N) ;
+
+SELECT:PoNotRelat Po IF (0 Po) ;
+	# Бӧрйӧ Po, оз босьт Relat, колӧ сёрнитны Дзеккӧд.
+
+# This is just a test, doesn't work
+# SELECT:AisNomNotAccIfFollowedByN Nom IF (1 (N Nom)) ;
+
+## TODO
+#
+# "<идралӧм>"
+#	"идравны" V TV Der Der/ӧм Der/NomAct N Sg Nom @SUBJ> #2->0
+#	"идралӧм" V Der Der/ӧм N Sg Nom @SUBJ> #2->0
+#
+# кылӧ гора "ура" <- this should be Interj
+#
+#
+#
+#
