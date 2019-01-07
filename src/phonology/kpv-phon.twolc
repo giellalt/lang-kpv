@@ -32,6 +32,12 @@ Alphabet
  «  !!= * @CODE@ мед«ічӧт
  »  !!= * @CODE@  удж»ал»ышт
 
+! Literal quotes and angles must be escaped (cf morpheme boundaries further down):
+ »7     ! »
+ «7     ! «
+ %[%>%] ! >
+ %[%<%] ! <
+
 !! Diacritics
 %^Inf:0  %^PATR:0 %^FEM:0
 

@@ -50,59 +50,59 @@ LEXICON BEFORE
 beforelargehours ;
  
 LEXICON beforesmallhours
-1@U.TIME.2@:@U.TIME.2@ BEFpunkt ; !01:31 - 01:59
-2@U.TIME.3@:@U.TIME.3@ BEFpunkt ; !02:31 - 02:59
-3@U.TIME.4@:@U.TIME.4@ BEFpunkt ; !03:31 - 03:59
-4@U.TIME.5@:@U.TIME.5@ BEFpunkt ; !04:31 - 04:59
-5@U.TIME.6@:@U.TIME.6@ BEFpunkt ; !05:31 - 05:59
-6@U.TIME.7@:@U.TIME.7@ BEFpunkt ; !06:31 - 06:59
-7@U.TIME.8@:@U.TIME.8@ BEFpunkt ; !07:31 - 07:59
-8@U.TIME.9@:@U.TIME.9@ BEFpunkt ; !08:31 - 08:59
-9@U.TIME.10@:@U.TIME.10@ BEFpunkt ; !09:31 - 09:59
+@U.TIME.2@1:@U.TIME.2@ BEFpunkt ; !01:31 - 01:59
+@U.TIME.3@2:@U.TIME.3@ BEFpunkt ; !02:31 - 02:59
+@U.TIME.4@3:@U.TIME.4@ BEFpunkt ; !03:31 - 03:59
+@U.TIME.5@4:@U.TIME.5@ BEFpunkt ; !04:31 - 04:59
+@U.TIME.6@5:@U.TIME.6@ BEFpunkt ; !05:31 - 05:59
+@U.TIME.7@6:@U.TIME.7@ BEFpunkt ; !06:31 - 06:59
+@U.TIME.8@7:@U.TIME.8@ BEFpunkt ; !07:31 - 07:59
+@U.TIME.9@8:@U.TIME.9@ BEFpunkt ; !08:31 - 08:59
+@U.TIME.10@9:@U.TIME.10@ BEFpunkt ; !09:31 - 09:59
 
 LEXICON beforelargehours
-1%0@U.TIME.11@:@U.TIME.11@ BEFpunkt ; !10:31 - 10:59
-11@U.TIME.12@:@U.TIME.12@ BEFpunkt ; !11:29 - 11:59
-12@U.TIME.1@:@U.TIME.1@ BEFpunkt ; !12:29 - 12:59
-13@U.TIME.2@:@U.TIME.2@ BEFpunkt ; !13:29 - 13:59
-14@U.TIME.3@:@U.TIME.3@ BEFpunkt ; !14:29 - 14:59
-15@U.TIME.4@:@U.TIME.4@ BEFpunkt ; !15:29 - 15:59
-16@U.TIME.5@:@U.TIME.5@ BEFpunkt ; !16:29 - 16:59
-17@U.TIME.6@:@U.TIME.6@ BEFpunkt ; !17:29 - 17:59
-18@U.TIME.7@:@U.TIME.7@ BEFpunkt ; !18:29 - 18:59
-19@U.TIME.8@:@U.TIME.8@ BEFpunkt ; !19:31 - 19:59
-2%0@U.TIME.9@:@U.TIME.9@ BEFpunkt ; !20:31 - 20:59
-21@U.TIME.10@:@U.TIME.10@ BEFpunkt ; !21:31 - 21:59
-22@U.TIME.11@:@U.TIME.11@ BEFpunkt ; !22:29 - 22:59
-23@U.TIME.12@:@U.TIME.12@ BEFpunkt ; !23:29 - 23:59
-%0%0@U.TIME.1@:@U.TIME.1@ BEFpunkt ; !00:29 - 00:59
+@U.TIME.11@1%0:@U.TIME.11@ BEFpunkt ; !10:31 - 10:59
+@U.TIME.12@11:@U.TIME.12@ BEFpunkt ; !11:29 - 11:59
+@U.TIME.1@12:@U.TIME.1@ BEFpunkt ; !12:29 - 12:59
+@U.TIME.2@13:@U.TIME.2@ BEFpunkt ; !13:29 - 13:59
+@U.TIME.3@14:@U.TIME.3@ BEFpunkt ; !14:29 - 14:59
+@U.TIME.4@15:@U.TIME.4@ BEFpunkt ; !15:29 - 15:59
+@U.TIME.5@16:@U.TIME.5@ BEFpunkt ; !16:29 - 16:59
+@U.TIME.6@17:@U.TIME.6@ BEFpunkt ; !17:29 - 17:59
+@U.TIME.7@18:@U.TIME.7@ BEFpunkt ; !18:29 - 18:59
+@U.TIME.8@19:@U.TIME.8@ BEFpunkt ; !19:31 - 19:59
+@U.TIME.9@2%0:@U.TIME.9@ BEFpunkt ; !20:31 - 20:59
+@U.TIME.10@21:@U.TIME.10@ BEFpunkt ; !21:31 - 21:59
+@U.TIME.11@22:@U.TIME.11@ BEFpunkt ; !22:29 - 22:59
+@U.TIME.12@23:@U.TIME.12@ BEFpunkt ; !23:29 - 23:59
+@U.TIME.1@%0%0:@U.TIME.1@ BEFpunkt ; !00:29 - 00:59
 
 LEXICON REST
-%01@U.TIME.1@:ӧти@U.TIME.1@ AFTpunkt ;
-%02@U.TIME.1@:кык@U.TIME.2@ AFTpunkt ;
-%03@U.TIME.1@:куим@U.TIME.3@ AFTpunkt ;
-%04@U.TIME.1@:нёль@U.TIME.4@ AFTpunkt ;
-%05@U.TIME.1@:вит@U.TIME.5@ AFTpunkt ;
-%06@U.TIME.1@:квайт@U.TIME.6@ AFTpunkt ;
-%07@U.TIME.1@:сизим@U.TIME.7@ AFTpunkt ;
-%08@U.TIME.1@:кӧкъямыс@U.TIME.8@ AFTpunkt ;
-%09@U.TIME.1@:ӧкмыс@U.TIME.9@ AFTpunkt ;
-1%0@U.TIME.1@:дас@U.TIME.10@ AFTpunkt ;
-11@U.TIME.1@:дас% ӧти@U.TIME.11@ AFTpunkt ;
-12@U.TIME.1@:дас% кык@U.TIME.12@ AFTpunkt ;
+@U.TIME.1@%01:@U.TIME.1@ӧти AFTpunkt ;
+@U.TIME.1@%02:@U.TIME.2@кык AFTpunkt ;
+@U.TIME.1@%03:@U.TIME.3@куим AFTpunkt ;
+@U.TIME.1@%04:@U.TIME.4@нёль AFTpunkt ;
+@U.TIME.1@%05:@U.TIME.5@вит AFTpunkt ;
+@U.TIME.1@%06:@U.TIME.6@квайт AFTpunkt ;
+@U.TIME.1@%07:@U.TIME.7@сизим AFTpunkt ;
+@U.TIME.1@%08:@U.TIME.8@кӧкъямыс AFTpunkt ;
+@U.TIME.1@%09:@U.TIME.9@ӧкмыс AFTpunkt ;
+@U.TIME.1@1%0:@U.TIME.10@дас AFTpunkt ;
+@U.TIME.1@11:@U.TIME.11@дас% ӧти AFTpunkt ;
+@U.TIME.1@12:@U.TIME.12@дас% кык AFTpunkt ;
 
-13@U.TIME.1@:ӧти@U.TIME.1@ AFTpunkt ;
-14@U.TIME.1@:кык@U.TIME.2@ AFTpunkt ;
-15@U.TIME.1@:куим@U.TIME.3@ AFTpunkt ;
-16@U.TIME.1@:нёль@U.TIME.4@ AFTpunkt ;
-17@U.TIME.1@:вит@U.TIME.5@ AFTpunkt ;
-18@U.TIME.1@:квайт@U.TIME.6@ AFTpunkt ;
-19@U.TIME.1@:сизим@U.TIME.7@ AFTpunkt ;
-2%0@U.TIME.1@:кӧкъямыс@U.TIME.8@ AFTpunkt ;
-21@U.TIME.1@:ӧкмыс@U.TIME.9@ AFTpunkt ;
-22@U.TIME.1@:дас@U.TIME.10@ AFTpunkt ;
-23@U.TIME.1@:дас% ӧти@U.TIME.11@ AFTpunkt ;
-24@U.TIME.1@:дас% кык@U.TIME.12@ AFTpunkt ;
+@U.TIME.1@13:@U.TIME.1@ӧти AFTpunkt ;
+@U.TIME.1@14:@U.TIME.2@кык AFTpunkt ;
+@U.TIME.1@15:@U.TIME.3@куим AFTpunkt ;
+@U.TIME.1@16:@U.TIME.4@нёль AFTpunkt ;
+@U.TIME.1@17:@U.TIME.5@вит AFTpunkt ;
+@U.TIME.1@18:@U.TIME.6@квайт AFTpunkt ;
+@U.TIME.1@19:@U.TIME.7@сизим AFTpunkt ;
+@U.TIME.1@2%0:@U.TIME.8@кӧкъямыс AFTpunkt ;
+@U.TIME.1@21:@U.TIME.9@ӧкмыс AFTpunkt ;
+@U.TIME.1@22:@U.TIME.10@дас AFTpunkt ;
+@U.TIME.1@23:@U.TIME.11@дас% ӧти AFTpunkt ;
+@U.TIME.1@24:@U.TIME.12@дас% кык AFTpunkt ;
 
 
 
@@ -290,47 +290,47 @@ LEXICON TOFULL
 :минут%  ORDERED-HOUR ; ! variant
 
 LEXICON HOUR
-@U.TIME.1@:ӧти@U.TIME.1@ # ;
-@U.TIME.2@:кык@U.TIME.2@ # ;
-@U.TIME.3@:куим@U.TIME.3@ # ;
-@U.TIME.4@:нёль@U.TIME.4@ # ;
-@U.TIME.5@:вит@U.TIME.5@ # ;
-@U.TIME.6@:квайт@U.TIME.6@ # ;
-@U.TIME.7@:сизим@U.TIME.7@ # ;
-@U.TIME.8@:кӧкъямыс@U.TIME.8@ # ;
-@U.TIME.9@:ӧкмыс@U.TIME.9@ # ;
-@U.TIME.10@:дас@U.TIME.10@ # ;
-@U.TIME.11@:дас% ӧти@U.TIME.11@ # ;
-@U.TIME.12@:дас% кык@U.TIME.12@ # ;
+@U.TIME.1@:@U.TIME.1@ӧти # ;
+@U.TIME.2@:@U.TIME.2@кык # ;
+@U.TIME.3@:@U.TIME.3@куим # ;
+@U.TIME.4@:@U.TIME.4@нёль # ;
+@U.TIME.5@:@U.TIME.5@вит # ;
+@U.TIME.6@:@U.TIME.6@квайт # ;
+@U.TIME.7@:@U.TIME.7@сизим # ;
+@U.TIME.8@:@U.TIME.8@кӧкъямыс # ;
+@U.TIME.9@:@U.TIME.9@ӧкмыс # ;
+@U.TIME.10@:@U.TIME.10@дас # ;
+@U.TIME.11@:@U.TIME.11@дас% ӧти # ;
+@U.TIME.12@:@U.TIME.12@дас% кык # ;
 
 LEXICON ORDERED-HOUR
 !12:13 дас куим минут дас коймӧд час вылӧ
-@U.TIME.1@:первой@U.TIME.1@ ORDERED-HOUR_1 ;
-@U.TIME.2@:мӧд@U.TIME.2@ ORDERED-HOUR_1 ;
-@U.TIME.3@:коймӧд@U.TIME.3@ ORDERED-HOUR_1 ;
-@U.TIME.4@:нёльӧд@U.TIME.4@ ORDERED-HOUR_1 ;
-@U.TIME.5@:витӧд@U.TIME.5@ ORDERED-HOUR_1 ;
-@U.TIME.6@:квайтӧд@U.TIME.6@ ORDERED-HOUR_1 ;
-@U.TIME.7@:сизимӧд@U.TIME.7@ ORDERED-HOUR_1 ;
-@U.TIME.8@:кӧкъямысӧд@U.TIME.8@ ORDERED-HOUR_1 ;
-@U.TIME.9@:ӧкмысӧд@U.TIME.9@ ORDERED-HOUR_1 ;
-@U.TIME.10@:дас@U.TIME.10@ ORDERED-HOUR_1 ;
-@U.TIME.11@:дас% ӧтикӧд@U.TIME.11@ ORDERED-HOUR_1 ;
-@U.TIME.12@:дас% кыкӧд@U.TIME.12@ ORDERED-HOUR_1 ;
+@U.TIME.1@:@U.TIME.1@первой ORDERED-HOUR_1 ;
+@U.TIME.2@:@U.TIME.2@мӧд ORDERED-HOUR_1 ;
+@U.TIME.3@:@U.TIME.3@коймӧд ORDERED-HOUR_1 ;
+@U.TIME.4@:@U.TIME.4@нёльӧд ORDERED-HOUR_1 ;
+@U.TIME.5@:@U.TIME.5@витӧд ORDERED-HOUR_1 ;
+@U.TIME.6@:@U.TIME.6@квайтӧд ORDERED-HOUR_1 ;
+@U.TIME.7@:@U.TIME.7@сизимӧд ORDERED-HOUR_1 ;
+@U.TIME.8@:@U.TIME.8@кӧкъямысӧд ORDERED-HOUR_1 ;
+@U.TIME.9@:@U.TIME.9@ӧкмысӧд ORDERED-HOUR_1 ;
+@U.TIME.10@:@U.TIME.10@дас ORDERED-HOUR_1 ;
+@U.TIME.11@:@U.TIME.11@дас% ӧтикӧд ORDERED-HOUR_1 ;
+@U.TIME.12@:@U.TIME.12@дас% кыкӧд ORDERED-HOUR_1 ;
 
 LEXICON HOUR-AND-HALF
-@U.TIME.2@:ӧти@U.TIME.2@ AND-HALF ;
-@U.TIME.3@:кык@U.TIME.3@ AND-HALF ;
-@U.TIME.4@:куим@U.TIME.4@ AND-HALF ;
-@U.TIME.5@:нёль@U.TIME.5@ AND-HALF ;
-@U.TIME.6@:вит@U.TIME.6@ AND-HALF ;
-@U.TIME.7@:квайт@U.TIME.7@ AND-HALF ;
-@U.TIME.8@:сизим@U.TIME.8@ AND-HALF ;
-@U.TIME.9@:кӧкъямыс@U.TIME.9@ AND-HALF ;
-@U.TIME.10@:ӧкмыс@U.TIME.10@ AND-HALF ;
-@U.TIME.11@:дас@U.TIME.11@ AND-HALF ;
-@U.TIME.12@:дас% ӧти@U.TIME.12@ AND-HALF ;
-@U.TIME.1@:дас% кык@U.TIME.1@ AND-HALF ;
+@U.TIME.2@:@U.TIME.2@ӧти AND-HALF ;
+@U.TIME.3@:@U.TIME.3@кык AND-HALF ;
+@U.TIME.4@:@U.TIME.4@куим AND-HALF ;
+@U.TIME.5@:@U.TIME.5@нёль AND-HALF ;
+@U.TIME.6@:@U.TIME.6@вит AND-HALF ;
+@U.TIME.7@:@U.TIME.7@квайт AND-HALF ;
+@U.TIME.8@:@U.TIME.8@сизим AND-HALF ;
+@U.TIME.9@:@U.TIME.9@кӧкъямыс AND-HALF ;
+@U.TIME.10@:@U.TIME.10@ӧкмыс AND-HALF ;
+@U.TIME.11@:@U.TIME.11@дас AND-HALF ;
+@U.TIME.12@:@U.TIME.12@дас% ӧти AND-HALF ;
+@U.TIME.1@:@U.TIME.1@дас% кык AND-HALF ;
 
 LEXICON AND-HALF
 :% да% джын # ;
