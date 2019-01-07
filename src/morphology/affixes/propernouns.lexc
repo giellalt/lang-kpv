@@ -247,27 +247,27 @@ LEXICON PROP-MAL-DERIVABLE !Patronyms
 
 LEXICON PROP-PLC ! Inanimate proper nouns. Place names
 +N+Prop+Sem/Plc+Sg: CASEPOSSLEX ;
-+N+Der+Prop+Sem/Plc+Der/са@U.Cap.Opt@:0%>са0@U.Cap.Opt@ A_ ; !!= * __@CODE@__ This requires down-casing
+@U.Cap.Opt@+N+Der+Prop+Sem/Plc+Der/са:@U.Cap.Opt@0%>са A_ ; !!= * __@CODE@__ This requires down-casing
 
 LEXICON PROP-PLC-KPV ! Inanimate proper nouns. Place names
 +N+Prop+Sem/Plc+EOLang/KPV+Sg: CASEPOSSLEX ;
-+N+Der+Prop+Sem/Plc+EOLang/KPV+Der/са@U.Cap.Opt@:000%>са@U.Cap.Opt@ A_ ; !!= * __@CODE@__ This requires down-casing
+@U.Cap.Opt@+N+Der+Prop+Sem/Plc+EOLang/KPV+Der/са:@U.Cap.Opt@%>са A_ ; !!= * __@CODE@__ This requires down-casing
 
 !2018-10-21!LEXICON PROP-PLC-RUS ! Inanimate proper nouns. Place names
 !2018-10-21!+N+Prop+Sem/Plc+Src/F+Sg: CASEPOSSLEX ;
-!2018-10-21!+N+Der+Prop+Sem/Plc+Src/F+Der/са@U.Cap.Opt@:000%>са@U.Cap.Opt@ A_ ; !!= * __@CODE@__ This requires down-casing
+!2018-10-21!+N+Der+Prop+Sem/Plc+Src/F+Der/са@U.Cap.Opt@:%>са@U.Cap.Opt@ A_ ; !!= * __@CODE@__ This requires down-casing
 
 !2018-10-21!LEXICON PROP-KPV ! Inanimate proper nouns. Place names
 !2018-10-21!+N+Prop+EOLang/KPV+Sg: CASEPOSSLEX ;
-!2018-10-21!+N+Der+Prop+EOLang/KPV+Der/са@U.Cap.Opt@:00%>са@U.Cap.Opt@ A_ ; !!= * __@CODE@__ This requires down-casing
+!2018-10-21!+N+Der+Prop+EOLang/KPV+Der/са@U.Cap.Opt@:%>са@U.Cap.Opt@ A_ ; !!= * __@CODE@__ This requires down-casing
 
 !2018-10-21!LEXICON PROP-RUS ! Inanimate proper nouns. Place names
 !2018-10-21!+N+Prop+EOLang/RUS+Sg: CASEPOSSLEX ;
-!2018-10-21!+N+Der+Prop+EOLang/RUS+Der/са@U.Cap.Opt@:00%>са@U.Cap.Opt@ A_ ; !!= * __@CODE@__ This requires down-casing
+!2018-10-21!+N+Der+Prop+EOLang/RUS+Der/са@U.Cap.Opt@:%>са@U.Cap.Opt@ A_ ; !!= * __@CODE@__ This requires down-casing
 
 LEXICON PROP-PLC_SUB ! Inanimate proper nouns. Place names
 +N+Prop+Sem/Plc+Err/Orth+Sg: CASEPOSSLEX ;
-+N+Der+Prop+Sem/Plc+Err/Orth+Der/са@U.Cap.Opt@:000%>са@U.Cap.Opt@ A_ ; !!= * __@CODE@__ This requires down-casing
+@U.Cap.Opt@+N+Der+Prop+Sem/Plc+Err/Orth+Der/са:@U.Cap.Opt@%>са A_ ; !!= * __@CODE@__ This requires down-casing
 
 LEXICON PROP-ORG ! Inanimate proper nouns. Name of organization
 +N+Prop+Sem/Org+Sg: CASEPOSSLEX ;
