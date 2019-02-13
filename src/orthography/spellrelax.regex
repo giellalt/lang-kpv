@@ -103,7 +103,41 @@
 У (->) U ,
 Ф (->) F ,
 Ы (->) Y ,
-Э (->) E 
+Э (->) E ,
+
+
+
+# Capital to lowercase spellrelax 
+# ##########################################
+# The following correspondences accept
+# propernouns written with initial small
+# letter. The normative fst is not affected
+# by this. TODO: evaluate this.
+
+А (->) а ,
+Б (->) б ,
+В (->) в ,
+Г (->) ф ,
+Д (->) д ,
+Е (->) е ,
+З (->) з ,
+И (->) и ,
+Й (->) й ,
+К (->) к ,
+Л (->) л ,
+М (->) м ,
+Н (->) н ,
+О (->) о ,
+П (->) п ,
+Р (->) р ,
+С (->) с ,
+Т (->) т ,
+У (->) у ,
+Ф (->) ф ,
+Ы (->) ы ,
+Э (->) э 
+
+
 
 ; # End
 
@@ -111,20 +145,3 @@
 # Explanation:
 # lexical side (->) input 
 
-# Future thought:
-# A posible change is to split this file into lg-specific files.
-# As the number of language grow, this might be more relevant.
-# Especially conflicting rules a -> b, b -> a in different lgs
-# might force a split of this file.
-
-# Note:
-# Some of the lines above seem to contain identical letters, 
-# and in some cases the same right-hand letter seems to occure twice.
-# In each case, the __second__ of these is a non-precomposed letter.
-# In order to check which one is which one, open this file in emacs
-# and read through the line with the arrow key. The letters who span over
-# two characters (press arrow twice) are the precomposed ones.
-
-# Note that the ï/Ï letters are there for sma.
-# They are probably substandard, and should be relegated to sma.fst
-# but removed from a sma.norm.fst.
