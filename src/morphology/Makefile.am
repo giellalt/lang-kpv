@@ -35,6 +35,7 @@ GT_LEXC_SRCS_L1_L2=\
 		stems/conjunctors.lexc                        \
 		stems/descriptives.lexc                       \
 		stems/determiners.lexc                        \
+		stems/dialect_lexicon.lexc                         \
 		stems/exceptions.lexc                         \
 		stems/gerunds.lexc                            \
 		stems/interjections.lexc                      \
