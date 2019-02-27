@@ -65,6 +65,7 @@ GT_LEXC_SRCS_L1_L2=\
 		affixes/pronouns.lexc                         \
 		affixes/propernouns.lexc                      \
 		affixes/quantifiers.lexc                      \
+		affixes/symbols.lexc                          \
 		affixes/verbs.lexc
 
 
@@ -86,7 +87,8 @@ GT_LEXC_L2_SRCS=\
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=\
 		generated_files/urj-Cyrl-propernouns.lexc \
-		generated_files/punctuation.lexc
+		generated_files/punctuation.lexc \
+		generated_files/symbols.lexc
 
 # $(srcdir)/stems/propernouns-malenames-russian-derivable.lexc
 # $(srcdir)/stems/propernouns-malesurnames-russian-derivable.lexc
