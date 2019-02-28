@@ -186,6 +186,7 @@ Multichar_Symbols
 
 ! Abbreviated words are classified with:
  +ABBR +ACR
++Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 !! Special symbols are classified with:
 +CLB +PUNCT +LEFT +RIGHT
 !! The verbs are syntactically split according to transitivity:
@@ -896,9 +897,11 @@ LEXICON Serial-Verbs
 
 LEXICON ABBR-IS_ADV
 +ABBR: ADV_ ;
++Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 
 LEXICON ABBR-IS_N
 +ABBR+N: WordEnd ; ! This needs a Noun1 continuation but the hyphen must
++Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
              ! be dealt with for non-nominative-singular marking 2012-01-27
 
 !2018-10-21!LEXICON EndNeg
