@@ -532,6 +532,8 @@ REMOVE PrsPrc IF (1 V) ;
 REMOVE PrsPtc IF (1 V) ;
 SELECT ConNeg IF (-1 (V Neg)) ;
 
+SELECT:ANomNotAAcc (A Nom) IF (1 N) ;
+
 #REMOVE Adv IF (-1 (N Nom)) ;
 # кывсӧ пыдісянь гӧгӧрвоысьяс да гӧгӧрбок
 
@@ -549,8 +551,20 @@ REMOVE N IF (0 ("посни")) (1 N);
 
 REMOVE Abs IF (0 Abs OR Nom) (0 N) ;
 
-SELECT:PoNotRelat Po IF (0 Po) ;
-	# Бӧрйӧ Po, оз босьт Relat, колӧ сёрнитны Дзеккӧд.
+# олӧ вылӧ
+SELECT:VylöVerb (V "вывны") IF (-1 (V "овны")) ;
+
+# му вылӧ
+SELECT:VylöPo (Po "вылӧ") IF (-1 (N Nom)) ;
+
+# Remove Relat if there is Po reading
+REMOVE:PoNotRelat Relat IF (0 Po) ;
+
+# ветлі батькӧд пыр чери кыйны
+SELECT:AdvNotPo (Adv "пыр") IF (NOT -1 (N Nom)) ;
+
+# уна Adv instead of уна Qnt
+REMOVE:UnaAdv (Qnt "уна") IF (0 Adv) ;
 
 # This is just a test, doesn't work
 # SELECT:AisNomNotAccIfFollowedByN Nom IF (1 (N Nom)) ;
