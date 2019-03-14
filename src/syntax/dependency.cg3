@@ -385,6 +385,7 @@ SETPARENT:r0 @IM TO (1 Inf);
 
 ### NP rules
 
+SETPARENT:SetModToN @>N TO (*1 N) ;
 SETPARENT:r1 @>N TO (*1 N BARRIER NPNH);
 SETPARENT:r1adj @>N TO (*2 Pr OR V OR S-BOUNDARY2 BARRIER NOT-A LINK -1 A);
 SETPARENT:r1adjcomma @>N TO (*3 Pr OR V OR S-BOUNDARY2 BARRIER NOT-A LINK -1 COMMA LINK -1 A);
@@ -536,3 +537,13 @@ SETPARENT:Quotation @FS-OBJ OR @FS-STA TO (*-1 PUNCT + LEFT OR ("at") + CS LINK 
 
 SETPARENT VFIN (NONE p (*)) TO (@0 (*));
 
+### Copied from sje dependency.cg3
+
+SETPARENT:CLB CLB TO (@0 (*) LINK cA (*)) ;
+
+SETPARENT:missingToRoot @X (NONE p (*)) TO (@0 (*));
+#SETPARENT:X (@X) TO (-1 (*)) ; #Hva skal vi gjøre med X?
+
+AFTER-SECTIONS
+SETPARENT:tomissingVerb (@ADVL) TO (*1 @X) ;
+SETPARENT:tomissingVerb (@ADVL) TO (*-1 @X) ;
