@@ -1708,6 +1708,29 @@ MAP:HNOUN<spred (@<SPRED) TARGET (A Nom) OR (N Nom) (*-1 PUNCT BARRIER REAL-V LI
 
 	#$ Báhpaeamit, Margrethe Wiig, gii lei gasku giellamoivvi, ráhkadii iežas sárgumiiguin sámegiela Áppesa, mii lei stuorra ávkin sámegiela oahpahusas.
 
+# Copied from sje dependency.cg3
+
+#!! * __cleanupILL<advl__ (@<ADVL) for N Ill if; there are no boundarysymbols to your left, if you arent already @N< OR @APP-N<, and no mainverb is to yor left.
+MAP:cleanupILL<advl (@<ADVL) TARGET (N Ill) (NEGATE *-1 BOUNDARYSYMBOLS BARRIER V)(NEGATE 0 @N< OR @APP-N< OR ("doarvi"))(NEGATE *1 FMAINV)(NEGATE 1 EOS LINK *-2 BOS BARRIER WORD);
+	#$ Riekti oassálastit luondduriggodagaid hálddašeamis sáhttá čađahuvvot dakko bokte ahte Sámediggi nammada áirasiid oktasaš stivrenorgánaide, nu movt Finnmárkoopmodahkii ja guovllu boraspirelávdegottiide.
+	#% Mearrádusaide nugo namahuvvo nuppi lađđasis bustávas e ja f gáibiduvvo ovttamielalašvuohta.
+	#% Guovdageainnus muittán ahte roagga gándajienat eahketbeaivve huike: Muorravissui, muorravissui!
+
+#!! * __cleanupPo__ (@ADVL) for Po: This rule tags all Po:s as ADVL if they haven't gotten a tag somewhere along the way.
+MAP:cleanupPo (@ADVL) TARGET Po (0 Po);
+	#$ Muhto man sivas?
+	#$ Čakčageasi birra.
+
+#!! * __cleanupPr__ (@ADVL) for Po: This rule tags all Pr:s as ADVL if they haven't gotten a tag somewhere along the way.
+MAP:cleanupPr (@ADVL) TARGET Pr (0 Pr);
+	#$
+	#% Sámeskuvla šattai oktasaš deaivvadanbáikin hárvelohkosaš ja hádjánan lullisámi minoritehtii geaid ruovttut ledje Femundmárkkus gitta Davvi-Rátnui, - badjel 1000 km guhkkosaš guovlu.
+
+
+
+#!! ! __therestX__ adds @X to all what is left, often errouneus disambiguated forms
+
+MAP:leftoversX (@X) TARGET WORD ;
 
 AFTER-SECTIONS
 
