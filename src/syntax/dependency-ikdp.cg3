@@ -1,0 +1,347 @@
+# ========================== #
+# Komi dependency grammar #
+# ========================== #
+
+# This is an attempt to understand CG, which is very difficult when all Northern Saami
+# rules are working together. Eventually this file can certainly be merged to dependency.cg3.
+# There certainly are rules in other CG's that could be used quite directly. 
+#
+# It also has to be thought how the UD treebanks can be used to test when the rules are giving
+# correct output.
+#
+# These rules will take specifically into account IKDP project's spoken language materials, 
+# which may contain some elements that should not be combined into rest of the pipeline.
+
+# ========== #
+# Delimiters #
+# ========== #
+
+
+DELIMITERS = "<.>" "<!>" "<?>" "<¶>";
+
+
+# ============= #
+# Tags and sets #
+# ============= #
+
+
+LIST BOS = (>>>) (<s>); 
+LIST EOS = (<<<) (</s>); # vislcg and CG-2 together.
+
+
+# ========
+   SETS
+# ========
+
+LIST N = N ;
+LIST V = V ;
+LIST A = A ;
+LIST Prop = Prop ;
+LIST Adv = Adv ;
+LIST Num = Num ;
+LIST CC = CC ;
+LIST CS = CS ;
+LIST Interj = Interj ;
+LIST Abbr = Abbr ;
+LIST ACR = ACR ;
+LIST Pr = Pr ;
+LIST Po = Po ;
+LIST Pron = Pron ;
+LIST Pers = Pers ;
+LIST Dem = Dem ;
+LIST Det = Det ;
+LIST Refl = Refl ;
+LIST Recipr = Recipr ;
+LIST Poss = Poss ;
+LIST Interr = Interr ;
+LIST IM = IM ;
+
+LIST Nom = Nom ;
+LIST Acc = Acc ;
+LIST Gen = Gen ;
+LIST Dat = Dat ;
+LIST Msc = Msc ;
+LIST Fem = Fem ;
+LIST Neu = Neu ;
+LIST Sg = Sg ;
+LIST Pl = Pl ;
+LIST Def = Def ;
+LIST Indef = Indef ;
+LIST Cmp = Cmp ;
+LIST Superl = Superl ;
+LIST Prs = Prs ;
+LIST Prt = Prt ;
+LIST 1Sg = 1Sg ;
+LIST 2Sg = 2Sg ;
+LIST 3Sg = 3Sg ;
+LIST Inf = Inf ;
+LIST PrfPrc = PrfPrc ;
+LIST PrsPrc = PrsPrc ;
+LIST Imp = Imp ;
+LIST Sbj = Sbj ;
+LIST Sup = Sup ;
+LIST Cmpnd = Cmpnd ;
+LIST CLB = CLB ;
+LIST PUNCT = PUNCT ;
+LIST LEFT = LEFT ;
+LIST RIGHT = RIGHT ;
+
+LIST V* = V* ;
+ 
+SET WORD = N | V | A | Po | Pr | Pron | Adv | CC | CS | Interj | Num | ("\?") ;
+
+
+LIST TAG = N V A Adv CC CS Interj Pr Pron Pers Det Refl Recipr Poss Nom Acc Gen
+Dat Msc Fem Neu Sg Pl Def Indef Cmp Sup Prs Prt 1Sg 2Sg 3Sg Inf PrfPrc
+PrsPrc Sup Imp CLB PUNCT LEFT RIGHT ;
+
+
+LIST NAGD = Nom Acc Gen Dat ;
+LIST GENDER = Msc Fem Neu ;
+LIST NUMBER = Sg Pl ;
+LIST POS = N V A Adv Pr Pron ;
+
+# Sets
+# ====
+
+# Noun sets
+
+
+SET NounMscFem = (N Msc) OR (N Fem) ;
+SET NounMscNeu = (N Msc) OR (N Neu) ;
+SET NounFemNeu = (N Fem) OR (N Neu) ;
+
+# Nominal sets
+
+LIST NOMINALHEAD = N Num Pron ;
+
+LIST PRENAGR = Det Dem A ;
+
+
+
+# Complementary set
+
+# Case sets
+
+SET NOTDAT = Nom | Gen | Acc ;
+SET NOTACC = Nom | Gen | Dat ;
+SET NOTACCDAT = Nom | Gen ;
+SET OBL = Acc | Dat | Gen ;
+
+#SET NO
+
+SET PRE-N =  A | Det | Dem | (N Gen) | Num ; # Det???
+
+LIST COMMA = "," ; 
+
+SET MARK =  COMMA | ("\") | ("\;") ; #"
+SET WORDMARK = WORD | MARK ;
+
+
+
+
+SET NPNH = WORDMARK - PRE-N ;
+SET NPNHA = WORDMARK - PRE-N - Adv ;
+SET NOT-ADV = WORDMARK - Adv ;
+SET NOT-A = WORDMARK - A ;
+
+
+
+
+# Verb sets
+
+LIST COPULA = "vera" "verða" ;
+
+LIST AUX = "kunna" "skula" "vera" "verða" "hava" ;
+
+LIST VFIN = Prs Prt Imp Sbj ;
+LIST Ind = Prs Prt ;
+
+LIST NONTHIRDV = 1Sg 2Sg 1Pl 2Pl ;
+
+LIST VINFIN = Inf Sup PrfPrs PrsPrc ;
+
+LIST MODV = "kunna" "skula" ;
+
+LIST DATV = "smakka" ;
+
+SET NONVFIN = VINFIN ; # sme compatibility
+
+
+
+
+
+
+
+SET NOT-CC = WORDMARK - CC ;
+SET NOUNADJ = N | A ;
+
+SET NP-MEMBER = PRE-N | N | Pron ;
+
+LIST TIME = "sunnudagur" ;
+
+
+
+# Semantic sets
+
+
+LIST ABSTRACT = "ráð" "byráð" ;
+
+LIST SPEECHACT = "mæla" "siga" ;
+
+
+
+# Syntax tags
+
+LIST @<SUBJ = @<SUBJ ;
+LIST @SUBJ> = @SUBJ> ;
+LIST @<OBJ = @<OBJ ;
+LIST @OBJ> = @OBJ> ;
+LIST @<IOBJ = @<IOBJ ;
+LIST @IOBJ> = @IOBJ> ;
+LIST @>N = @>N ;
+LIST @N< = @N< ;
+LIST @>A = @>A ;
+LIST @A< = @A< ;
+LIST @IM = @IM ;
+LIST @<SPRED = @<SPRED ;
+LIST @SPRED> = @SPRED> ;
+LIST @<OPRED = @<OPRED ;
+LIST @OPRED> = @OPRED> ;
+LIST @+FAUXV = @+FAUXV ;
+LIST @-FAUXV = @-FAUXV ;
+LIST @+FMAINV = @+FMAINV ;
+LIST @-FMAINV = @-FMAINV ;
+
+LIST @-FSUBJ> = @-FSUBJ> ;
+LIST @-F<OBJ = @-F<OBJ ;
+LIST @-FOBJ> = @-FOBJ> ;
+LIST @SPRED<OBJ = @SPRED<OBJ ;
+LIST @-FADVL = @-FADVL ;
+
+SET FOBJ = @-F<OBJ OR @-FOBJ> ; 
+SET FMAINV = @-FMAINV OR @+FMAINV ;
+SET FAUXV = @-FAUXV OR @+FAUXV ;
+
+LIST @<ADVL = @<ADVL ;
+LIST @ADVL> = @ADVL> ;
+LIST @P< = @P< ;
+LIST @CNP = @CNP ;
+LIST @CVP = @CVP ;
+LIST @>CS = @>CS ;
+#LIST @CNP-VP = @CNP-VP ;
+LIST @APP = @APP ;
+
+LIST @IMV = @IMV ;             # infinite main verb
+LIST @ICL-ADVL = @ICL-ADVL ;             # non-finite subclause ...
+LIST @ICL-AUX< = @ICL-AUX< ;             # "right" argument of auxiliary (?)
+LIST @ICL-OBJ = @ICL-OBJ ; 	         # non-finite subclause ...
+LIST @ICL-STA = @ICL-STA ; 	         # non-finite subclause ...
+LIST @HNOUN = @HNOUN ;
+
+# Tags from sme-dep.rle:
+
+LIST @-FOBJ = @-FOBJ ;
+LIST @-FSUBJ = @-FSUBJ ;
+LIST @<-FSUBJ = @<-FSUBJ ;
+LIST @<PPRED = @<PPRED ;
+LIST @>ADVL = @>ADVL ;
+LIST @>CC = @>CC ;
+LIST @>Num = @>Num ;
+LIST @>P = @>P ;
+LIST @>Pron = @>Pron ;
+LIST @ADVL = @<ADVL @ADVL> @ADVL @-FADVL @APP-ADVL< ;
+LIST @ADVL< = @ADVL< ;
+LIST @ADVL<OBJ = @ADVL<OBJ ;
+LIST @ADVL>CS = @ADVL>CS ;
+LIST @ADVL>SUBJ = @ADVL>SUBJ ;
+LIST @APP-ADVL< = @APP-ADVL< ;
+LIST @APP-N< = @APP-N< ;
+LIST @APP-Num< = @APP-Num< ;
+LIST @APP-Pron< = @APP-Pron< ;
+LIST @APP>Pron = @APP>Pron ;
+LIST @CMPND = @CMPND ;
+LIST @COMP-CS< = @COMP-CS< ;
+LIST @FS-ACC>> = @FS-ACC>> ;
+LIST @FS-ADVL = @FS-ADVL ;
+LIST @FS-IMV = @FS-IMV ;
+LIST @FS-N< = @FS-N< ;
+LIST @FS-N<IAUX = @FS-N<IAUX ;
+LIST @FS-OBJ = @FS-OBJ ;
+LIST @FS-STA = @FS-STA ;
+LIST @HAB = @HAB ;
+LIST @INTERJ = @INTERJ ;
+LIST @Num< = @Num< ;
+LIST @OBJ>SPRED = @OBJ>SPRED ;
+LIST @OPRED = @OPRED> @<OPRED ;
+LIST @PCLE = @PCLE ;
+LIST @Pron< = @Pron< ;
+LIST @SPRED = @SPRED> @<SPRED ;
+LIST @SUBJ<ADVL = @SUBJ<ADVL ;
+LIST @SUBJ<OBJ = @SUBJ<OBJ ;
+LIST @V = @FAUX @FMV @FS-IAUX @FS-IMV @FS-N< @FS-N<IAUX @FS-N<IMV @FS-STA @IAUX @IMV ; # 
+LIST @VOC = @VOC ;
+
+
+
+LIST @X = @X ;
+
+
+LIST SYNTAG = (@+FAUXV) (@+FMAINV) (@-F<OBJ) (@-FADVL) (@-FAUXV) (@-FMAINV) (@-FOBJ) (@-FOBJ>) (@-FSUBJ) (@-FSUBJ>) (@<-FSUBJ) (@<ADVL) (@<IOBJ) (@<OBJ) (@<OPRED) (@<PPRED) (@<SPRED) (@<SUBJ) (@>A) (@>ADVL) (@>CC) (@>CS) (@>N) (@>Num) (@>P) (@>Pron) (@A<) (@ADVL) (@ADVL<) (@ADVL<OBJ) (@ADVL>) (@ADVL>CS) (@ADVL>SUBJ) (@APP) (@APP-ADVL<) (@APP-N<) (@APP-Num<) (@APP-Pron<) (@APP>Pron) (@CMPND) (@CNP) (@CNP-VP) (@COMP-CS<) (@CVP) (@FS-ACC>>) (@FS-ADVL) (@FS-IMV) (@FS-N<) (@FS-N<IAUX) (@FS-OBJ) (@FS-STA) (@HAB) (@HNOUN) (@ICL-ADVL) (@ICL-AUX<) (@ICL-OBJ) (@ICL-STA) (@IM) (@IMV) (@INTERJ) (@IOBJ>) (@N<) (@Num<) (@OBJ>) (@OBJ>SPRED) (@OPRED) (@OPRED>) (@P<) (@PCLE) (@Pron<) (@SPRED) (@SPRED<OBJ) (@SPRED>) (@SUBJ<ADVL) (@SUBJ<OBJ) (@SUBJ>) (@V) (@VOC) ;
+
+
+LIST @SUBJ = @<SUBJ @SUBJ> ;
+LIST @OBJ = @<OBJ @OBJ> ;
+LIST @MAINV = @-FMAINV @+FMAINV ;
+LIST @AUXV = @-FAUXV @+FAUXV ;
+LIST @rc-VAUX = @rc-VAUX ;
+
+
+# Syntactic set definitions 
+# =========================
+LIST @IAUX = @IAUX ;
+LIST @FS-IAUX = @FS-IAUX ;
+LIST <mv> = <mv> ;
+LIST <aux> = <aux> ;
+LIST @MCLV = @FMV @IMV @FAUX @IAUX ;
+LIST @SCLV = @FS-STA @FS-IMV @FS-N<IMV @FS-N< @FS-IAUX @FS-N<IAUX;
+LIST @FV = @FMV @FAUX ;
+LIST @AUX = @IAUX @FAUX ;
+LIST @MV = @IMV @FMV ;
+LIST @FMV = @FMV ;
+LIST KONJ = CS CC ;
+
+LIST @-FARG = @-FOBJ @-FSUBJ ;
+SET @ARG = @SUBJ OR @OBJ OR @SPRED OR @OPRED OR @ADVL  ; #  OR @ICL-OBJ OR @<PPRED OR @ADVL>SUBJ
+SET @-FARG/ADVL = @-FARG ; # OR @-FADVL ;
+#SET @ARG/ADVL = @ARG OR @ADVL - (@ADVL + @CC) ;
+#SET @CLAUSE = @ARG/ADVL OR @-FARG/ADVL OR @V ;
+
+
+# Boundary sets
+
+SET S-BOUNDARY  = CS | Interr | (";") | BOS | EOS ;
+SET S-BOUNDARY2 = CS | Interr | (";") | BOS | EOS | (@CVP) ;
+
+
+
+# §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+# §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+# §§§§§§§§§§§§§§§§§§§§§                               §§§§§§§§§§§§§§§§§§§§§§§
+# §§§§§§§§§§§§§§§§§§§§§     dep grammar starts here   §§§§§§§§§§§§§§§§§§§§§§§
+# §§§§§§§§§§§§§§§§§§§§§                               §§§§§§§§§§§§§§§§§§§§§§§
+# §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+# §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+
+
+# вит < керка
+SETPARENT:nummod ( @Num< ) TO (*1 (N Nom));
+
+# мича < керка
+SETPARENT:amod ( @A< ) TO (1 Nom);
+
+# керка > вылын
+SETPARENT:po ( @Po> ) TO (-1 Nom);
+
+# Sets everything to X if nothing is found
+SETPARENT:missingToRoot @X (NONE p (*)) TO (@0 (*));
