@@ -1,0 +1,435 @@
+# Distributed under the terms of the GNU General Public License version 2 
+# or any later version.
+
+# ==================================================================== #
+#    K O M I  D I S A M B I G U A T O R               
+# ==================================================================== #
+# ==================================================================== 
+
+#  Sámi language technology project 2003-2017, University of Tromsø # 
+
+# This is an attempt to understand CG for Komi, which is very difficult when all Northern Saami
+# rules are working together. Eventually this file can certainly be merged to functions.cg3.
+# There certainly are rules in other CG's that could be used quite directly. 
+#
+# It also has to be thought how the UD treebanks can be used to test when the rules are giving
+# correct output.
+#
+# These rules will take specifically into account IKDP project's spoken language materials, 
+# which may contain some elements that should not be combined into rest of the pipeline.
+#
+# It has also been suggested that getting the correct function labels would be very
+# realistic with CG, but the actual dependencies are maybe best resolved by other means.
+
+
+# ========== #
+# Delimiters #
+# ========== #
+
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>";
+
+#PARENTHESES = "<$(>" "<$)>" "<$[>" "<$]>" "<${>" "<$}>" "<$«>" "<$»>" ;
+
+# ============= #
+# Tags and sets #
+# ============= #
+
+SETS
+
+# I define end of clause and beginning of clause in a way so that the file
+# may be read both by the CG-2 and the vislcg formalisms.
+
+LIST BOS = (>>>) (<s>);
+LIST EOS = (<<<) (</s>);
+
+# CG3 doesn´t function without >>> and <<< !
+
+# Tags declared as single-membered LISTs 
+# ======================================
+
+# Parts of speech
+# ---------------
+
+LIST N = N ;
+LIST A = A ;
+LIST Adv = Adv ;
+LIST V = V ;
+LIST Pron = Pron ;
+
+LIST CS = CS ;
+LIST CC = CC ;
+SET CC-CS = CC OR CS ;
+LIST Po = Po ;
+LIST Pr = Pr ;
+LIST Pcle = Pcle ;
+LIST Num = Num ;
+LIST Interj = Interj ;
+LIST ABBR = ABBR ;
+LIST ACR = ACR ;
+
+LIST CLB = CLB ;
+LIST LEFT = LEFT ;
+LIST RIGHT = RIGHT ;
+LIST WEB = WEB ;
+LIST QMARK = """ ; # ADD " FOR SYNTAX COLOURING.
+LIST PPUNCT = PUNCT ;
+SET PUNCT = PPUNCT - QMARK ;
+
+LIST COMMA = "," ;
+LIST ¶ = ¶;
+
+#LIST V* = V* ;
+
+#!! * Sets for POS sub-categories
+# ------------------
+
+LIST Pers = Pers ;
+LIST Dem = Dem ;
+LIST Interr = Interr ;
+LIST Indef = Indef ;
+
+LIST Recipr = Recipr ;
+LIST Refl = Refl ;
+LIST Rel = Rel ;
+ 
+#LIST Adp = Adp ;
+
+LIST Coll = Coll ;
+LIST NomAg = NomAg ;
+LIST G3 = G3 ;
+LIST Prop = Prop ;
+
+#!! * Sets for Semantic tags
+# -------------
+
+LIST Sem/Ani = Sem/Ani ;
+LIST Sem/Date = Sem/Date ;
+LIST Sem/Fem = Sem/Fem ;
+LIST Sem/Group = Sem/Group ;
+LIST Sem/Hum = Sem/Hum ;
+LIST Sem/Mal = Sem/Mal ;
+LIST Sem/Measr = Sem/Measr ;
+LIST Sem/Money = Sem/Money ;
+LIST Sem/Obj = Sem/Obj ;
+LIST Sem/Org = Sem/Org ;
+LIST Sem/Plc = Sem/Plc ;
+LIST Sem/Sur = Sem/Sur ;
+LIST Sem/Time = Sem/Time ;
+LIST Sem/Year = Sem/Year ;
+SET FIRSTNAME = (Prop Sem/Fem) OR (Prop Sem/Mal) ;
+
+LIST TIME-N-SET = (N Sem/Time) ;
+LIST NOT-TIME = "dulvi" "vuorru" ;
+SET TIME-N = TIME-N-SET - NOT-TIME ;
+
+
+LIST HUMAN = Sem/Hum Sem/Mal Sem/Fem Sem/Sur Pers NumAg Der/NumAg ;
+
+#!! * Sets for Morphosyntactic properties
+# --------------------------
+
+LIST Nom = Nom ;
+LIST Acc = Acc ;
+LIST Gen = Gen ;
+LIST Ill = Ill ;
+LIST Loc = Loc ;
+LIST Com = Com ;
+LIST Ess = Ess ;
+LIST Ine = Ine ;
+LIST Ela = Ela ;
+
+LIST LOC = Loc Ine Ela ;
+
+LIST Sg = Sg ;
+LIST Du = Du ;
+LIST Pl = Pl ;
+
+LIST RCmpnd = RCmpnd ;
+
+LIST Cmpnd = Cmpnd ;
+ 
+LIST SgNomCmp = SgNomCmp ;
+ 
+LIST SgGenCmp = SgGenCmp ;
+
+LIST ShCmp = ShCmp ;
+
+LIST PxSg1 = PxSg1 ;
+LIST PxSg2 = PxSg2 ;
+LIST PxSg3 = PxSg3 ;
+ 
+LIST PxDu1 = PxDu1 ;
+LIST PxDu2 = PxDu2 ;
+LIST PxDu3 = PxDu3 ;
+ 
+LIST PxPl1 = PxPl1 ;
+LIST PxPl2 = PxPl2 ;
+LIST PxPl3 = PxPl3 ;
+
+LIST Comp = Comp ;
+LIST Superl = Superl ;
+
+LIST Attr = Attr ;
+LIST Ord = Ord ;
+ 
+LIST Qst = Qst ;
+ 
+# The ("ge" Pcle) etc. are used in Apertium
+LIST Foc/ge = Foc/ge ("ge" Pcle) ;
+LIST Foc/gen = Foc/gen ("gen" Pcle) ;
+LIST Foc/ges = Foc/ges ("ges" Pcle) ;
+LIST Foc/gis = Foc/gis ("gis" Pcle) ;
+LIST Foc/naj = Foc/naj ("naj" Pcle) ;
+LIST Foc/ba = Foc/ba ("ba" Pcle) ;
+LIST Foc/be = Foc/be ("be" Pcle) ;
+LIST Foc/hal = Foc/hal ("hal" Pcle) ;
+LIST Foc/han = Foc/han ("han" Pcle) ;
+LIST Foc/bat = Foc/bat ("bat" Pcle) ;
+LIST Foc/son = Foc/son ("son" Pcle) ;
+
+LIST IV = IV ;
+LIST TV = TV ;
+
+LIST Der/Pass = Der/PassL Der/PassS ;
+
+LIST Prt = Prt;
+LIST Prs = Prs ;
+ 
+
+LIST Ind = Ind ;
+LIST Pot = Pot ;
+LIST Cond = Cond ;
+
+LIST Imprt = Imprt ;
+LIST ImprtII = ImprtII ;
+
+LIST Sg1 = Sg1 ;
+LIST Sg2 = Sg2 ;
+LIST Sg3 = Sg3 ;
+
+LIST Du1 = Du1 ;
+LIST Du2 = Du2 ;
+LIST Du3 = Du3 ;
+
+LIST Pl1 = Pl1 ;
+LIST Pl2 = Pl2 ;
+LIST Pl3 = Pl3 ;
+
+LIST Inf = Inf ;
+LIST ConNeg = ConNeg ;
+LIST Neg = Neg ;
+
+LIST PrfPrc = PrfPrc ;
+LIST VGen = VGen ;
+
+LIST PrsPrc = PrsPrc ;
+ 
+
+LIST Ger = Ger ;
+LIST Sup = Sup ;
+LIST Actio = Actio ;
+
+LIST Der/PassL = Der/PassL ;
+LIST Der/NomAg = Der/NomAg ;
+LIST Actor = NomAg Der/NomAg ;
+LIST VAbess = VAbess ;
+
+# Derivation
+# ----------
+
+LIST Der/adda = Der/adda ;
+LIST Der/ahtti = Der/ahtti ;
+LIST Der/alla = Der/alla ;
+LIST Der/asti = Der/asti ;
+LIST Der/easti = Der/easti ;
+LIST Der/d = Der/d ;
+LIST Der/NomAct = Der/NomAct ;
+LIST Der/eamoš = Der/eamoš ;
+LIST Der/amoš = Der/amoš ;
+LIST Der/eapmi = Der/eapmi ;
+LIST Der/geahtes = Der/geahtes ;
+LIST Der/gielat = Der/gielat ;
+LIST !better: = !better: ;
+LIST Der/NuA = Der/NuA ;
+
+LIST Der/h = Der/h ;
+LIST Der/heapmi = Der/heapmi ;
+LIST Der/hudda = Der/hudda ;
+LIST Der/huhtti = Der/huhtti ;
+LIST Der/huvva = Der/huvva ;
+LIST Der/halla = Der/halla ;
+LIST Der/j = Der/j ;
+LIST Der/l = Der/l ;
+LIST Der/laš = Der/laš ;
+LIST Der/las = Der/las ;
+LIST Der/hat = Der/hat ;
+
+LIST Der/meahttun = Der/meahttun ;
+LIST Der/muš = Der/muš ;
+LIST Der/n = Der/n ;
+LIST Der/st = Der/st ;
+LIST Der/stuvva = Der/stuvva ;
+LIST Der/upmi = Der/upmi ;
+LIST Der/supmi = Der/supmi ;
+LIST Der/vuohta = Der/vuohta ;
+LIST Der/goahti = Der/goahti ;
+
+LIST Der/lágan = Der/lágan ;
+LIST Der/lágán = Der/lágán ;
+LIST Der/lágaš = Der/lágaš ;
+LIST Der/jagáš = Der/jagáš ;
+LIST Der/jahkásaš = Der/jahkásaš ;
+LIST Der/diibmosaš = Der/diibmosaš ;
+
+LIST Der/Dimin = Der/Dimin ;
+LIST Der/viđá = Der/viđá ;
+LIST Der/viđi = Der/viđi ;
+LIST Der/veara = Der/veara ;
+LIST Der/duohke = Der/duohke ;
+LIST Der/duohkai = Der/duohkai ;
+LIST Der/vuolle = Der/vuolle ;
+LIST Der/vuollai = Der/vuollai ;
+LIST Der/vuolde = Der/vuolde ;
+
+# Syntactic tags
+# --------------
+
+LIST @+FAUXV = @+FAUXV ;
+LIST @+FMAINV = @+FMAINV ;
+LIST @-FAUXV = @-FAUXV ;
+ 
+LIST @-FMAINV = @-FMAINV ;
+LIST @-FSUBJ> = @-FSUBJ> ;
+LIST @-F<OBJ = @-F<OBJ ;
+LIST @-FOBJ> = @-FOBJ> ;
+LIST @SPRED<OBJ = @SPRED<OBJ ;
+LIST @-FADVL = @-FADVL ;
+
+SET FOBJ = @-F<OBJ OR @-FOBJ> ; 
+SET FMAINV = @-FMAINV OR @+FMAINV OR (V @<OBJ) OR (V @N<) OR (V @<SUBJ) OR (V @<ADVL) ;
+SET FAUXV = @-FAUXV OR @+FAUXV ;
+
+LIST @ADVL = @ADVL @ADVL> @ADVL< @<ADVL @>ADVL @-F<ADVL ;
+LIST @>ADVL = @>ADVL ;
+LIST @ADVL< = @ADVL< ;
+LIST @<ADVL = @<ADVL ;
+LIST @ADVL> = @ADVL> ;
+LIST @ADVL>CS = @ADVL>CS ;
+
+LIST <hab> = <hab> ;
+LIST <ext> = <ext> ;
+
+ 
+LIST HAB-V-TAGS = Pl3 Sg3 ConNeg PrfPrc Inf ;
+ 
+LIST @>N = @>N ;
+
+LIST @N< = @N< ;
+ 
+
+LIST @>A = @>A ;
+
+LIST @P< = @P< ;
+
+LIST @>P = @>P ;
+
+LIST @HNOUN = @HNOUN ;
+LIST @INTERJ = @INTERJ ;
+ 
+LIST @>Num = @>Num;
+
+LIST @Pron< = @Pron< ;
+LIST @>Pron = @>Pron ;
+
+LIST @Num< = @Num< ;
+
+LIST @OBJ = @OBJ ;
+LIST @<OBJ = @<OBJ ;
+LIST @OBJ> = @OBJ> ;
+LIST @OPRED = @OPRED ;
+LIST @<OPRED = @<OPRED ;
+LIST @OPRED> = @OPRED> ;
+LIST @PCLE = @PCLE ;
+LIST @COMP-CS< = @COMP-CS< ;
+ 
+LIST @SPRED = @SPRED ;
+LIST @<SPRED = @<SPRED ;
+LIST @SPRED> = @SPRED> ;
+LIST @SUBJ = @SUBJ ;
+LIST @<SUBJ = @<SUBJ ;
+LIST @SUBJ> = @SUBJ> ;
+SET SUBJ = @<SUBJ OR @SUBJ> OR @SUBJ ;
+SET SPRED = @<SPRED OR @SPRED> OR @SPRED ;
+SET OPRED = @<OPRED OR @OPRED> OR @OPRED ;
+
+LIST @PPRED = @PPRED ;
+ 
+LIST @APP = @APP ;
+LIST @APP-N< = @APP-N< ;
+LIST @APP-Pron< = @APP-Pron< ;
+LIST @APP>Pron = @APP>Pron ;
+LIST @APP-Num< = @APP-Num< ;
+LIST @APP-ADVL< = @APP-ADVL< ;
+LIST @VOC = @VOC ;
+
+LIST @CVP = @CVP ;
+LIST @CNP = @CNP ;
+
+SET OBJ = (@<OBJ) OR (@OBJ>) OR (@OBJ) OR (@-F<OBJ) OR (@-FOBJ>) ;
+LIST <OBJ = @-F<OBJ @<OBJ ;
+LIST OBJ> = @OBJ> @-FOBJ> ;
+
+SET <OBJ-OTHERS = <OBJ OR (Gen) OR (Nom) OR (Ess) OR (Loc) OR (Adv) OR (Ine) OR (Ela) ;
+SET OBJ>-OTHERS = OBJ> OR (Gen) OR (Nom) OR (Ess) OR (Loc) OR (Adv) OR (Ine) OR (Ela) ;
+
+SET SYN-V = V + SUBJ OR OBJ + V OR @ADVL + V OR (V @N<) OR (V @A<) OR V + SPRED OR (V @COMP-CS<) ;
+
+
+LIST @X = @X ;
+
+
+LIST OKTA = "akta" "okta";
+LIST go = "go" ;
+ 
+
+# Initials
+# --------
+
+LIST INITIAL = "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m"
+        "n" "o" "p" "q" "r" "s" "t" "u" "v" "w" "x" "y" "z"
+        "á" "æ" "ø" "å" "ö" "ä" ;
+
+LIST CAP-INITIAL = "A" "B" "C" "D" "E" "F" "G" "H" "I" "J" "K" "L" "M"
+        "N" "O" "P" "Q" "R" "S" "T" "U" "V" "W" "X" "Y" "Z"
+        "Á" "Æ" "Ø" "Å" "Ö" "Ä" ;
+
+# Tag sets
+# ========
+  SETS
+# ========
+
+
+# Word or not
+# -----------
+LIST WORD = N A Adv V Pron CS CC Po Pr Interj Pcle Num Qnt ABBR ACR  \? ;
+ # any word
+
+# Numerals mapped to nummods
+MAP:nummod (@Num<) TARGET (Num) ;
+
+# Adpositions labeled as such
+MAP:adp (@Po>) TARGET (Po) ;
+
+# Most of the time adjectives are amod anyway
+MAP:amod (@A<) TARGET (A) ;
+
+# This maps together "керка вылын" etc
+# probably not doing right with the direction
+MAP:obl (@ADVL<) TARGET N (1 Po) ;
+
+# This should be in the end
+MAP:leftoversX (@X) TARGET WORD ;
+
+	#=====#
+      END #
+	#=====#
