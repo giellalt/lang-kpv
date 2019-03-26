@@ -53,7 +53,7 @@ LIST Ex/N = Ex/N ; #!! Ex/N
 LIST Ex/Num = Ex/Num ; #!! Ex/Num
 LIST Ex/V = Ex/V ; #!! Ex/V
 LIST Ex/WORD = Ex/N Ex/V Ex/A Ex/Num ; #!! Ex/WORD
-LIST DerTag = Der/NomAct Der/MWN Der/И Der/а Der/ал Der/ась Der/выв Der/джык Der/дор Der/иг Der/кежлӧ Der/кодь Der/коста Der/кості Der/л Der/ла Der/ладор Der/лун Der/лы Der/лывлы Der/мед Der/моз Der/мысь Der/мысьт Der/мӧн Der/мӧнъя Der/овт Der/сор Der/сь Der/сьы Der/сюрӧ Der/тыр Der/тырйи Der/тыръя Der/тӧдз Der/тӧм Der/чы Der/чӧж Der/ывлы Der/ысь Der/ышт Der/ӧм Der/увса ; #!! DerTag
+LIST DerTag = Der/Ин Der/NomAct Der/MWN Der/И Der/а Der/ал Der/ась Der/выв Der/джык Der/дор Der/иг Der/кежлӧ Der/кодь Der/коста Der/кості Der/л Der/ла Der/ладор Der/лун Der/лы Der/лывлы Der/мед Der/моз Der/мысь Der/мысьт Der/мӧн Der/мӧнъя Der/овт Der/сор Der/сь Der/сьы Der/сюрӧ Der/тыр Der/тырйи Der/тыръя Der/тӧдз Der/тӧм Der/чы Der/чӧж Der/ывлы Der/ысь Der/ышт Der/ӧм Der/увса ; #!! DerTag
 LIST AspDerTag = Der/ал Der/ась Der/л Der/лы Der/лывлы Der/овт Der/сь Der/сьы Der/чы Der/ывлы Der/ышт ; #!! AspDerTag
 
 
@@ -559,6 +559,15 @@ SELECT:VylöPo (Po "вылӧ") IF (-1 (N Nom)) ;
 
 # Remove Relat if there is Po reading
 REMOVE:PoNotRelat Relat IF (0 Po) ;
+
+# Remove Qnt if there is Num reading
+REMOVE:NumNotQnt Qnt IF (0 Num) ;
+
+# Remove Pcle reading from сӧмын
+REMOVE:somynAdv (Pcle "сӧмын") IF (0 Adv) ;
+
+# Remove CS reading сӧмын if not after , or clause boundary
+REMOVE:somynCs (CS "сӧмын") IF (NOT -1 EOS OR COMMA) ;
 
 # ветлі батькӧд пыр чери кыйны
 SELECT:AdvNotPo (Adv "пыр") IF (NOT -1 (N Nom)) ;
