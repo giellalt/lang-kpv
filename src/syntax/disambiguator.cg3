@@ -575,6 +575,10 @@ SELECT:AdvNotPo (Adv "пыр") IF (NOT -1 (N Nom)) ;
 # уна Adv instead of уна Qnt
 REMOVE:UnaAdv (Qnt "уна") IF (0 Adv) ;
 
+# We disambiguate all N Sg Nom / Acc + N combinations as 
+# Nom for the first element
+SELECT:nmodNotAcc (N Sg Nom) IF (0 Nom) (1 Nom) ;
+
 # This is just a test, doesn't work
 # SELECT:AisNomNotAccIfFollowedByN Nom IF (1 (N Nom)) ;
 

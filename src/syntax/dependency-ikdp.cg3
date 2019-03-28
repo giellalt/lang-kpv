@@ -345,3 +345,7 @@ SETPARENT:po ( @Po> ) TO (-1 Nom);
 
 # Sets everything to X if nothing is found
 SETPARENT:missingToRoot @X (NONE p (*)) TO (@0 (*));
+
+AFTER-SECTIONS
+SETPARENT:tomissingVerb (@ADVL) TO (*1 @X) ;
+SETPARENT:tomissingVerb (@ADVL) TO (*-1 @X) ;

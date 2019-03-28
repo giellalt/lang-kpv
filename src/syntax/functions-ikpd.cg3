@@ -425,11 +425,14 @@ MAP:amod (@A<) TARGET (A) ;
 
 # This maps together "керка вылын" etc
 # probably not doing right with the direction
-MAP:obl (@ADVL<) TARGET N (1 Po) ;
+MAP:obl (@ADVL) TARGET N (1 Po) ;
+
+# This maps two subsequent nouns together 
+MAP:nmod (@N<) TARGET N (-1 (N Nom Sg));
 
 # This should be in the end
 MAP:leftoversX (@X) TARGET WORD ;
 
-	#=====#
-      END #
-	#=====#
+#=====#
+  END #
+#=====#
