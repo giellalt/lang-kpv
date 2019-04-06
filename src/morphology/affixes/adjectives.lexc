@@ -69,7 +69,7 @@ LEXICON Adj-IS_PTC-ӦМ
 +V+Der+Der/ӧм: A_ ;
 
 LEXICON A-IS_DIM-НИК
-+A+Der+Der/Иник: A_ ;
++Der+Der/Иник: A_ ;
 
 !2018-10-21!LEXICON Adj-IS_TOM
 !2018-10-21! A-IS_TOM ;
@@ -83,28 +83,28 @@ LEXICON Adj-IS_SUPERL !
 !2018-10-21!+Superl: A_ ;
 
 LEXICON A-PRED ! ӧбиднӧ
-+A+Pred: WordEnd ; !
++Pred: WordEnd ; !
 
 
 LEXICON A_
-!2017-09-19+A+Attr: # ;
-+A: PredMonAdj ;
-+A: AdjCompar ;
-+A+Der+Der/кодь+A:%>кодь PredMonAdj ;
-+A+Der+Der/кодь+A:%>кодь AdjCompar ;
-+A+Der+Der/Ин:%>%{иі%}н N_ ;
-+A+Der+Der/лун:%>лун N_ ; !Derivational suffix for A-N
-+A+Der+Der/а:%>а ADV_ ; ! Derivation for adjective-to-adverb
+!2017-09-19+Attr: # ;
+: PredMonAdj ;
+: AdjCompar ;
++Der+Der/кодь+A:%>кодь PredMonAdj ;
++Der+Der/кодь+A:%>кодь AdjCompar ;
++Der+Der/Ин:%>%{иі%}н N_ ;
++Der+Der/лун:%>лун N_ ; !Derivational suffix for A-N
++Der+Der/а:%>а ADV_ ; ! Derivation for adjective-to-adverb
 
 LEXICON A_PARAGOGIC-В/Л !!= * @CODE@ юмов:юмо юмолӧсь
-+A:в K ; !! Singular predicative 
-+A+Pred+Pl:л%>ӧсь K ; ! Plural predicative.
-+Err/Dial+A+Pred+Pl:л%>эсь K ; ! Plural predicative.
-+A:в AdjCompar ;
-+A+Der+Der/кодь+A:в%>кодь PredMonAdj ;
-+A+Der+Der/кодь+A:в%>кодь AdjCompar ;
-+A+Der+Der/Ин:л%>%{иі%}н N_ ;
-+A+Der+Der/лун:в%>лун N_ ; !Derivational suffix for A-N
+:в K ; !! Singular predicative 
++Pred+Pl:л%>ӧсь K ; ! Plural predicative.
++Err/Dial+Pred+Pl:л%>эсь K ; ! Plural predicative.
+:в AdjCompar ;
++Der+Der/кодь+A:в%>кодь PredMonAdj ;
++Der+Der/кодь+A:в%>кодь AdjCompar ;
++Der+Der/Ин:л%>%{иі%}н N_ ;
++Der+Der/лун:в%>лун N_ ; !Derivational suffix for A-N
 
 
 LEXICON PredMonAdj
