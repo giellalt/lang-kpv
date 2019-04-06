@@ -8,7 +8,7 @@
 ! ===== !
 
 LEXICON Vocative   !!≈ * __@CODE@__
-+N+Voc: # ;
++Voc: # ;
 
 LEXICON Noun1-IS_PTC-OM !!≈ * __@CODE@__ is to provide deverbal nouns with +Der/ӧм tags
 +V+Der+Der/ӧм: N_ ;
@@ -39,22 +39,22 @@ LEXICON Noun1-SYT-STY !
 
 !2018-10-21!LEXICON N-KINDRED_
 !2018-10-21! N_ ;
-!2018-10-21!+N+PxSg1+Assoc+Pl:%>ӧяс CASEPOSSLEX ;
-!2018-10-21!+N+PxSg2+Assoc+Pl:%>ыдъяс CASEPOSSLEX ;
-!2018-10-21!+N+PxSg3+Assoc+Pl:%>ысъяс CASEPOSSLEX ;
+!2018-10-21!+PxSg1+Assoc+Pl:%>ӧяс CASEPOSSLEX ;
+!2018-10-21!+PxSg2+Assoc+Pl:%>ыдъяс CASEPOSSLEX ;
+!2018-10-21!+PxSg3+Assoc+Pl:%>ысъяс CASEPOSSLEX ;
 
 !2018-10-21!LEXICON N-PROFESSION_
 !2018-10-21! N_ ;
-!2018-10-21!+N+Der+Der/ал@C.CONJ-INF@@C.CONJ-POSS@:%>%{ая%}л@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !! таксисталӧ 
+!2018-10-21!+Der+Der/ал@C.CONJ-INF@@C.CONJ-POSS@:%>%{ая%}л@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !! таксисталӧ 
 !! Basic nouns.
 
 !! The lexicon for basic nouns is {{ N_ }}
 
 
 LEXICON N-RELAT_
-+N+Relat: NMN_ ;
++Relat: NMN_ ;
 LEXICON N_
-+N: NMN_ ;
+: NMN_ ;
 
 LEXICON Noun1 !! This should be phased out 2013-05-07
  N_ ;
@@ -69,17 +69,17 @@ LEXICON NMN_
 
 
 LEXICON Noun1-JM ! понйыс, понмыс
-+N:м NMN_PARAGOGIC ;
-!2017-09-19+N+Cmp:м R ;
-!2017-09-19+N+Sg:м CASEPOSSLEX ;
-!2017-09-19+N+Cmp:й R ;
-+N+Sg:й CASEPOSSLEX-AFTERDERIVATION_VOW ;
-!2017-09-19+N+Sg:й CASEPOSSLEX ;
-!2017-09-19+N+Pl:%>ъяс CASEPOSSLEX ;
+:м NMN_PARAGOGIC ;
+!2017-09-19+Cmp:м R ;
+!2017-09-19+Sg:м CASEPOSSLEX ;
+!2017-09-19+Cmp:й R ;
++Sg:й CASEPOSSLEX-AFTERDERIVATION_VOW ;
+!2017-09-19+Sg:й CASEPOSSLEX ;
+!2017-09-19+Pl:%>ъяс CASEPOSSLEX ;
 
 !! subsequent Cns vs Vow
 LEXICON N_PARAGOGIC !!= * @CODE@ 
-+N: NMN_PARAGOGIC ;
+: NMN_PARAGOGIC ;
 LEXICON NMN_PARAGOGIC !!= * @CODE@ 
 +Cmp:%^Close R ;
 !:%^Close ABS_ ; 2018-10-21
@@ -89,10 +89,10 @@ LEXICON NMN_PARAGOGIC !!= * @CODE@
 
 
 LEXICON N-RELAT_PARAGOGIC-V/L !!= * @CODE@ ныв:ны нылыс
-+N+Relat: NMN_PARAGOGIC-V/L ;
++Relat: NMN_PARAGOGIC-V/L ;
 
 LEXICON N_PARAGOGIC-V/L !!= * @CODE@ ныв:ны нылыс
-+N: NMN_PARAGOGIC-V/L ;
+: NMN_PARAGOGIC-V/L ;
 LEXICON NMN_PARAGOGIC-V/L !!= * @CODE@ ныв:ны нылыс
 :л NMN_PARAGOGIC ;
 
@@ -104,46 +104,50 @@ LEXICON NMN_PARAGOGIC-V/L !!= * @CODE@ ныв:ны нылыс
 
 
 LEXICON N_PARAGOGIC-J !!= * @CODE@ ав:ав авйыс
-+N: NMN_PARAGOGIC-J ;
+: NMN_PARAGOGIC-J ;
 LEXICON NMN_PARAGOGIC-J !!= * @CODE@ ав:ав авйыс
 :й NMN_PARAGOGIC ;
++Err/Orth-no-paragogic-j: CASEPOSSLEX-AFTERDERIVATION_VOW ;
 
 LEXICON N_PARAGOGIC-K !!= * @CODE@ пос:пос поскыс
-+N: NMN_PARAGOGIC-K ;
+: NMN_PARAGOGIC-K ;
 LEXICON NMN_PARAGOGIC-K !!= * @CODE@ пос:пос поскыс
 :к NMN_PARAGOGIC ;
++Err/Orth-no-paragogic-k: CASEPOSSLEX-AFTERDERIVATION_VOW ;
 
 LEXICON N_PARAGOGIC-M !!= * @CODE@ зон:зон зонмыс
-+N: NMN_PARAGOGIC-M ;
+: NMN_PARAGOGIC-M ;
 LEXICON NMN_PARAGOGIC-M !!= * @CODE@ зон:зон зонмыс
 :м N_PARAGOGIC ;
++Err/Orth-no-paragogic-m: CASEPOSSLEX-AFTERDERIVATION_VOW ;
 
 LEXICON N_PARAGOGIC-T !!= * @CODE@ зеп:зеп зептыс
-+N: NMN_PARAGOGIC-T ;
+: NMN_PARAGOGIC-T ;
 LEXICON NMN_PARAGOGIC-T !!= * @CODE@ зеп:зеп зептыс
 :т N_PARAGOGIC ;
++Err/Orth-no-paragogic-t: CASEPOSSLEX-AFTERDERIVATION_VOW ;
 
 LEXICON N_END-IN-DD1 !!= * @CODE@ гадь:гад гаддьыс
-+N: NMN_END-IN-DD1 ;
+: NMN_END-IN-DD1 ;
 LEXICON NMN_END-IN-DD1 !!= * @CODE@ автомобиль:автомобил автомобильыс
 :дь NMN_PARAGOGIC ;
 
 LEXICON N_END-IN-DDZ !!= * @CODE@ кыдз:кыд
-+N: NMN_END-IN-DDZ ;
+: NMN_END-IN-DDZ ;
 LEXICON NMN_END-IN-DDZ !!= * @CODE@ кыдз:кыд
 :дз NMN_PARAGOGIC ;
 
 LEXICON N_END-IN-LL1 !!= * @CODE@ моль:мол молльӧ
-+N: NMN_END-IN-LL1 ;
+: NMN_END-IN-LL1 ;
 LEXICON NMN_END-IN-LL1 !!= * @CODE@ моль:мол молльӧ
 :ль NMN_PARAGOGIC ;
 
 
 
 LEXICON N-RELAT_END-IN-J !!= * @CODE@ абай:аба абайыс
-+N+Relat: N-0_END-IN-J ;
++Relat: N-0_END-IN-J ;
 LEXICON N_END-IN-J !!= * @CODE@ абай:аба абайыс
-+N: N-0_END-IN-J ;
+: N-0_END-IN-J ;
 LEXICON N-0_END-IN-J !!= * @CODE@ абай:аба абайыс
 +Cmp:й R ;
 !:й ABS_ ; 2018-10-21
@@ -154,9 +158,9 @@ LEXICON N-0_END-IN-J !!= * @CODE@ абай:аба абайыс
 
 
 LEXICON N-RELAT_END-IN-Ч/ДЗ !!= * @CODE@ водз:водз
-+N+Relat: NMN_END-IN-Ч/ДЗ ;
++Relat: NMN_END-IN-Ч/ДЗ ;
 LEXICON N_END-IN-Ч/ДЗ !!= * @CODE@ водз:водз
-+N: NMN_END-IN-Ч/ДЗ ;
+: NMN_END-IN-Ч/ДЗ ;
 LEXICON NMN_END-IN-Ч/ДЗ !!= * @CODE@ водз:водз
 +Cmp: R ;
 !: ABS_ ; 2018-10-21
@@ -165,9 +169,9 @@ LEXICON NMN_END-IN-Ч/ДЗ !!= * @CODE@ водз:водз
 +Pl:%>ьяс CASEPOSSLEX ;
 
 LEXICON N-RELAT_END-IN-Ь !!= * @CODE@ автомобиль:автомобил автомобильыс
-+N+Relat:  N-0_END-IN-Ь ;
++Relat:  N-0_END-IN-Ь ;
 LEXICON N_END-IN-Ь !!= * @CODE@ автомобиль:автомобил автомобильыс
-+N:  N-0_END-IN-Ь ;
+:  N-0_END-IN-Ь ;
 LEXICON N-0_END-IN-Ь !!= * @CODE@ автомобиль:автомобил автомобильыс
 +Cmp:ь R ;
 !:ь ABS_ ; 2018-10-21
@@ -188,15 +192,15 @@ LEXICON NounMort
 N_ ; ! Difference betw N_ and NounMort still to be documented.
 
 LEXICON NounSG ! м орт
-+N+Sg: CASEPOSSLEX ;
++Sg: CASEPOSSLEX ;
 
 LEXICON NounPi ! пи These have a unique  pl marker ян.
-+N+Sg: CASEPOSSLEX ;
-+N+Pl:%>ян CASEPOSSLEX ;
++Sg: CASEPOSSLEX ;
++Pl:%>ян CASEPOSSLEX ;
 
 
 LEXICON NounPL ! бедьторъяс
-+N+Pl: CASEPOSSLEX ; ! here, %>ъяс is put as part of the stem
++Pl: CASEPOSSLEX ; ! here, %>ъяс is put as part of the stem
 ! Very many plural nouns do not have this tag. We could change яс-final
 ! nouns from N_ to NounPL, I guess.
 
@@ -567,7 +571,7 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_Ӧ
 !! !!Case
 
 LEXICON Noun1-IS_INE
-+N+Ine: SPAT-COMPARATIVE ;
++Ine: SPAT-COMPARATIVE ;
 
 LEXICON DERIVEDADJ
 +Der+Der/са+IneMod:%>са A_ ;
@@ -598,11 +602,11 @@ LEXICON AdjCompar
 +Comp+Der+Der/а:%>джыка ADV_ ;
 +Comp+Sg:%>джык CASEPOSSLEX-afterDerivation ;
 +Comp+Pl:%>джыкъяс CASEPOSSLEX-afterDerivation ;
-!2017-09-19+Comp+Der/MWN+N+Sg:%>джык CASEPOSSLEX-afterDerivation ;
-!2017-09-19+Comp+Der/MWN+N+Pl:%>джыкъяс CASEPOSSLEX-afterDerivation ;
+!2017-09-19+Comp+Der/MWN+Sg:%>джык CASEPOSSLEX-afterDerivation ;
+!2017-09-19+Comp+Der/MWN+Pl:%>джыкъяс CASEPOSSLEX-afterDerivation ;
 +Sg: CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
 +Pl:%>ъяс CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
-!2017-09-19+Der/MWN+N+Sg: CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
+!2017-09-19+Der/MWN+Sg: CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
 !2017-09-19+Der/MWN+N+Pl:%>ъяс CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
 
 LEXICON IllCompar

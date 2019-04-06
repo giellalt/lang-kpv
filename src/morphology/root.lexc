@@ -172,6 +172,8 @@ Multichar_Symbols
 !!!!! +Pot +Cond
 !! Verb personal forms are:
  +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
++1 +2 +3 !!Final мед ог _so that I/we won't_ 2019-04-06
+
 !! Other verb forms are
  +Inf
  +Ger !! Gerund This is used with derivations
@@ -210,6 +212,10 @@ Multichar_Symbols
 
 !! The Usage extents are marked using following tags:
  +Err/Orth !!≈ * __@CODE@__ 
+ +Err/Orth-no-paragogic-j !!≈ * __@CODE@__ 
+ +Err/Orth-no-paragogic-k !!≈ * __@CODE@__ 
+ +Err/Orth-no-paragogic-m !!≈ * __@CODE@__ 
+ +Err/Orth-no-paragogic-t !!≈ * __@CODE@__ 
  +Err/Dial !!≈ * __@CODE@__ e.g. тэг instead of тӧг
  +Err/Lex  !!≈ * __@CODE@__ substandard, not in normative fst, no normative lemma помсьыны
  +Use/-Spell !!≈ * __@CODE@__ 
@@ -848,8 +854,7 @@ SUBSTANDARDS ; ! temporary solution
 	verbs-A2M	;
 	verbs-N2END	;
 	VERBNEGATIVE	; ! affixes/verbs.lexc
-	PERS		; ! affixes/pronouns.lexc
-	INTERR 		; ! pron-kom-morph.txt
+        PRONOUN-TYPES ; ! in affixes/pronouns.lexc 2019-04-06
 
 	Abbreviation	;
 	Acronym		;
