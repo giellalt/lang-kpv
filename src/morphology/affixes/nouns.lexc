@@ -85,6 +85,9 @@ LEXICON NMN_PARAGOGIC !!= * @CODE@
 !:%^Close ABS_ ; 2018-10-21
 +Sg:%^Close CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
 +Sg: CASEPOSSLEX-AFTERDERIVATION_VOW ;
++Sg:%^Close DERIVEDADJ-IN-CONS ;
++Sg: DERIVEDADJ-IN-VOW ;
+
 +Pl:%^Close%>ъяс CASEPOSSLEX ;
 
 
@@ -225,7 +228,6 @@ LEXICON FIRST
 
 
 LEXICON CASEPOSSLEX !!≈ * __@CODE@__
-
  DERIVEDADJ ;    ! Deriving prenominal adjectives, республикаса
 CASEPOSSLEX-afterDerivation ;
 
@@ -572,27 +574,6 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_Ӧ
 
 LEXICON Noun1-IS_INE
 +Ine: SPAT-COMPARATIVE ;
-
-LEXICON DERIVEDADJ
-+Der+Der/са+IneMod:%>са A_ ;
-+Der+Der/тӧм+AbeMod:%>тӧм A_ ;
-+Err/Dial+Der+Der/тӧм+AbeMod:%>тэм A_ ;
-+Der+Der/а+HabObjMod:%>а A_ ;
-+Der+Der/ся+TempMod:%>ся A_ ;
-+Der+Der/увса:%>увса A_ ;
-+Der+Der/сайса:%>сайса A_ ;
-+Der+Der/пӧвстса:%>пӧвстса A_ ;
-+Err/Dial+Der+Der/пӧвстса:%>певстса A_ ;
-+Der+Der/костса:%>костса A_ ;
-+Der+Der/бердса:%>бердса A_ ;
-+Der+Der/бӧрса:%>бӧрса A_ ;
-+Err/Dial+Der+Der/бӧрса:%>берса A_ ;
-+Der+Der/весьтса:%>весьтса A_ ;
-+Der+Der/водзса:%>водзса A_ ;
-+Der+Der/вывса:%>вывса A_ ;
-+Der+Der/гӧгӧрса:%>гӧгӧрса A_ ;
-+Err/Dial+Der+Der/гӧгӧрса:%>гегерса A_ ;
-+Der+Der/дорса:%>дорса A_ ;
 
 
 
