@@ -15,6 +15,39 @@ LEXICON A_RU-ӦЙ
 +Err/Dial:%>эй A_ ;
 +Use/SpellNoSugg:о%- adjectives-russian-like ;
 
+LEXICON DENOMINAL-LOCATIVE-ADJECTIVES
+@U.Cap.Opt@+Der+Der/LocMod:@U.Cap.Opt@%>са A_ ;
+
+LEXICON DERIVEDADJ
+ DERIVEDADJ-IN-VOW ;
+ DERIVEDADJ-IN-CONS ;
+
+LEXICON DERIVEDADJ-IN-VOW
++Der+Der/ProprietiveMod:%>а A_ ;
+
+LEXICON DERIVEDADJ-IN-CONS
++Der+Der/LocMod:%>са A_ ;
++Der+Der/PrivMod:%>тӧм A_ ;
++Err/Dial+Der+Der/PrivMod:%>тэм A_ ;
++Der+Der/TempMod:%>ся A_ ;
++Der+Der/увса:%>увса A_ ;
++Der+Der/сайса:%>сайса A_ ;
++Der+Der/пӧвстса:%>пӧвстса A_ ;
++Err/Dial+Der+Der/пӧвстса:%>певстса A_ ;
++Der+Der/костса:%>костса A_ ;
++Der+Der/бердса:%>бердса A_ ;
++Der+Der/бӧрса:%>бӧрса A_ ;
++Err/Dial+Der+Der/бӧрса:%>берса A_ ;
++Der+Der/весьтса:%>весьтса A_ ;
++Der+Der/водзса:%>водзса A_ ;
++Der+Der/вывса:%>вывса A_ ;
++Der+Der/гӧгӧрса:%>гӧгӧрса A_ ;
++Err/Dial+Der+Der/гӧгӧрса:%>гегерса A_ ;
++Der+Der/дорса:%>дорса A_ ;
+
+
+
+
 LEXICON A_а
  A_ ;
 LEXICON A-PL_а

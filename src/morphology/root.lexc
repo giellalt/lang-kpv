@@ -540,6 +540,8 @@ Multichar_Symbols
 
 
 ! Declaring adjectival derivations
++Der/ALoc ! Denominal locative adjective Der/са
++Der/APrior ! Denominal prioritive adjective Der/а
 +Der/а +Der/са +Der/ся +Der/кодь +Der/Иник
 +Der/Ин
 +Der/увса
@@ -555,12 +557,12 @@ Multichar_Symbols
 +Der/дорса
 
 
-+IneMod !!≈ * __@CODE@__ Быд во шедӧдӧны бур успеваемость Воркута да Инта каръясса, Прилузскӧй да Княжпогостскӧй районъясса школаяс.
++LocMod !!≈ * __@CODE@__ IneMod Быд во шедӧдӧны бур успеваемость Воркута да Инта каръясса, Прилузскӧй да Княжпогостскӧй районъясса школаяс.
 +CompMod !!≈ * __@CODE@__ 
 +Der/тӧм  !!≈ * __@CODE@__  used with nouns and followed by +AbeMod
-+AbeMod !!≈ * __@CODE@__ джуджыд анализъястӧм да обобщениеястӧм статьяяс.
-+HabObjMod !!≈ * __@CODE@__ Весиг киясыс тӧдсаӧсь, найӧ мугов рӧмаӧсь, кузь чорыд чуньясаӧсь.
- +TempMod !!≈ * __@CODE@__ но и Ф. В. Плесовскийлысь квайтымынӧд вояссяяссӧ * позьӧ аддзыны сӧмын библиотекаясысь.
++PrivMod !!≈ * __@CODE@__ AbeMod джуджыд анализъястӧм да обобщениеястӧм статьяяс.
++ProprietiveMod !!≈ * __@CODE@__ HabObjMod Весиг киясыс тӧдсаӧсь, найӧ мугов рӧмаӧсь, кузь чорыд чуньясаӧсь.
+ +Der/TempMod !!≈ * __@CODE@__ TempMod Der/ся но и Ф. В. Плесовскийлысь квайтымынӧд вояссяяссӧ * позьӧ аддзыны сӧмын библиотекаясысь.
 ! Declaring spatial adverb derivations; see also spatial postpositions
 +Der/ла
 +Der/ладор
@@ -848,7 +850,8 @@ SUBSTANDARDS ; ! temporary solution
 	propernouns-malesurnames-cyrillic	;
 !!2015-09-07	propernouns-malesurnames-russian-derivable	;
 !!2015-09-07	propernouns-toponyms-Russian	;
-	propernouns-toponyms-Komi ;
+@U.Cap.Obl@	propernouns-toponyms-Komi ;
+@U.Cap.Opt@	propernouns-toponyms-Komi ;
 	propernouns	;
 	quantifiers	;
 	verbs-A2M	;
@@ -869,7 +872,8 @@ SUBSTANDARDS ; ! temporary solution
  A-Russian-like_NEWWORDS    ;
  ADV_NEWWORDS    ;
  N_NEWWORDS    ;
- PROP_NEWWORDS    ;
+@U.Cap.Obl@ PROP_NEWWORDS    ;
+@U.Cap.Opt@ PROP_NEWWORDS    ;
  V_NEWWORDS    ;
 
 ! ======================================================= !
