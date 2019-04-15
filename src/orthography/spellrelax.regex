@@ -1,10 +1,12 @@
 
-І (->) I, # Komi cyrillic (->) latin
-і (->) i, # Komi etc
-Ӧ (->) Ö, # Komi
-Ӧ (->) Ö, # Komi
-ӧ (->) ö, # Komi
-ӧ (->) ö, # Komi
+І (->) I, # Komi Cyrillic (->) Latin
+і (->) i, # Komi Cyrillic (->) Latin
+Ӧ (->) Ӧ, # Komi Cyrillic U+04E6 (->) Cyrillic  О And U+0308  ̈
+Ӧ (->) Ö, # Komi Cyrillic U+04E6 (->) Cyrillic Ö
+Ӧ (->) Ö, # Komi Cyrillic U+04E6 (->) Latin O And U+0308  ̈
+ӧ (->) ӧ, # Komi Cyrillic U+04E7 (->) Cyrillic о And U+0308    C ̈ 
+ӧ (->) ö, # Komi Cyrillic U+04E7 (->) Latin ö
+ӧ (->) ö, # Komi Cyrillic U+04E7 (->) Latin o And U+0308    C ̈ 
 
 с (->) c , # These are false friends:
 С (->) C , # Cyrillic (->) Latin look alikes
@@ -21,89 +23,92 @@
 Р (->) P , # Cyrillic (->) Latin look alikes
 у (->) y , # Cyrillic (->) Latin look alikes
 К (->) K , # Cyrillic (->) Latin look alikes
+В (->) B , # Cyrillic (->) Latin look alikes
+Н (->) H , # Cyrillic (->) Latin look alikes
+М (->) M , # Cyrillic (->) Latin look alikes
 
 
 ё (->) е, # Russian wrong vowel, accept je pro jo
 Ё (->) Е, 
 ӧ (->) о , # Sloppy Komi
-Ӧ (->) О , # Sloppy Komi
+Ӧ (->) О ; # Sloppy Komi
+# End
 
+#щ (->) s j t s j , #! latin as cyrillic
+#Щ (->) S j t s j , # What are these for? 2018-10-20 Jaska
+#щ (->) s h c h ,
+#Щ (->) S h c h ,
+#ж (->) d z j ,
+#ч (->) t s j ,
+#ж (->) d z h ,
+#ч (->) c h ,
+#ё (->) j o ,
+#ё (->) y o ,
+#х (->) k h ,
+#ц (->) t s ,
+#ц (->) c ,
+#ш (->) s j ,
+#ш (->) s h ,
+#ю (->) j u ,
+#я (->) j a ,
+#Ë (->) J o ,
+#ю (->) y u ,
+#я (->) y a ,
+#Ë (->) Y o ,
+#Х (->) K h ,
+#Ц (->) T s ,
+#Ц (->) C ,
+#Ш (->) S j ,
+#Ш (->) S h ,
+#Ю (->) J u ,
+#Я (->) J a ,
+#Ю (->) Y u ,
+#Я (->) Y a ,
 
-щ (->) s j t s j , #! latin as cyrillic
-Щ (->) S j t s j , # What are these for? 2018-10-20 Jaska
-щ (->) s h c h ,
-Щ (->) S h c h ,
-ж (->) d z j ,
-ч (->) t s j ,
-ж (->) d z h ,
-ч (->) c h ,
-ё (->) j o ,
-ё (->) y o ,
-х (->) k h ,
-ц (->) t s ,
-ц (->) c ,
-ш (->) s j ,
-ш (->) s h ,
-ю (->) j u ,
-я (->) j a ,
-Ë (->) J o ,
-ю (->) y u ,
-я (->) y a ,
-Ë (->) Y o ,
-Х (->) K h ,
-Ц (->) T s ,
-Ц (->) C ,
-Ш (->) S j ,
-Ш (->) S h ,
-Ю (->) J u ,
-Я (->) J a ,
-Ю (->) Y u ,
-Я (->) Y a ,
-
-а (->) a ,
-б (->) b ,
-в (->) v ,
-г (->) g ,
-д (->) d ,
-е (->) e ,
-з (->) z ,
-и (->) i ,
-й (->) j ,
-к (->) k ,
-л (->) l ,
-м (->) m ,
-н (->) n ,
-о (->) o ,
-п (->) p ,
-р (->) r ,
-с (->) s ,
-т (->) t ,
-у (->) u ,
-ф (->) f ,
-ы (->) y ,
-э (->) e ,
-А (->) A ,
-Б (->) B ,
-В (->) V ,
-Г (->) G ,
-Д (->) D ,
-Е (->) E ,
-З (->) Z ,
-И (->) I ,
-Й (->) J ,
-К (->) K ,
-Л (->) L ,
-М (->) M ,
-Н (->) N ,
-О (->) O ,
-П (->) P ,
-Р (->) R ,
-С (->) S ,
-Т (->) T ,
-У (->) U ,
-Ф (->) F ,
-Ы (->) Y ,
-Э (->) E ,
+#а (->) a ,
+#б (->) b ,
+#в (->) v ,
+#г (->) g ,
+#д (->) d ,
+#е (->) e ,
+#з (->) z ,
+#и (->) i ,
+#й (->) j ,
+#к (->) k ,
+#л (->) l ,
+#м (->) m ,
+#н (->) n ,
+#о (->) o ,
+#п (->) p ,
+#р (->) r ,
+#с (->) s ,
+#т (->) t ,
+#у (->) u ,
+#ф (->) f ,
+#ы (->) y ,
+#э (->) e ,
+#А (->) A ,
+#Б (->) B ,
+#В (->) V ,
+#Г (->) G ,
+#Д (->) D ,
+#Е (->) E ,
+#З (->) Z ,
+#И (->) I ,
+#Й (->) J ,
+#К (->) K ,
+#Л (->) L ,
+#М (->) M ,
+#Н (->) N ,
+#О (->) O ,
+#П (->) P ,
+#Р (->) R ,
+#С (->) S ,
+#Т (->) T ,
+#У (->) U ,
+#Ф (->) F ,
+#Ы (->) Y ,
+#Э (->) E ,
 
 
 
@@ -114,32 +119,30 @@
 # letter. The normative fst is not affected
 # by this. TODO: evaluate this.
 
-А (->) а ,
-Б (->) б ,
-В (->) в ,
-Г (->) ф ,
-Д (->) д ,
-Е (->) е ,
-З (->) з ,
-И (->) и ,
-Й (->) й ,
-К (->) к ,
-Л (->) л ,
-М (->) м ,
-Н (->) н ,
-О (->) о ,
-П (->) п ,
-Р (->) р ,
-С (->) с ,
-Т (->) т ,
-У (->) у ,
-Ф (->) ф ,
-Ы (->) ы ,
-Э (->) э 
+#А (->) а ,
+#Б (->) б ,
+#В (->) в ,
+#Г (->) ф ,
+#Д (->) д ,
+#Е (->) е ,
+#З (->) з ,
+#И (->) и ,
+#Й (->) й ,
+#К (->) к ,
+#Л (->) л ,
+#М (->) м ,
+#Н (->) н ,
+#О (->) о ,
+#П (->) п ,
+#Р (->) р ,
+#С (->) с ,
+#Т (->) т ,
+#У (->) у ,
+#Ф (->) ф ,
+#Ы (->) ы ,
+#Э (->) э 
 
-
-
-; # End
+#; # End
 
 
 # Explanation:
