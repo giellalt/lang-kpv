@@ -634,6 +634,22 @@ LEXICON REFL_AS !! * = @CODE@ ас:а
 +A+Refl:с ABS_ ; !ас is an absolute-form modifer
 +Pron+Refl:  REFL_AS-01 ;
 
++Pron+Poss+Sg1:слам PRON-POSS  "minun oma -ni" ;
++Pron+Poss+Sg2:слад PRON-POSS  "sinun oma -si" ;
++Pron+Poss+Sg3:слас PRON-POSS  "hänen oma -nsa/ sen oma" ;
++Pron+Poss+Pl1:сланым PRON-POSS  "meidän oma -mme" ;
++Pron+Poss+Pl2:сланыд PRON-POSS  "teidän oma -nne" ;
++Pron+Poss+Pl3:сланыс PRON-POSS  "heidän oma -nsa/ niiden oma" ;
+
++Det+Poss+Sg1:слам WordEnd-PredMonAdj  "minun oma -ni" ;
++Det+Poss+Sg2:слад WordEnd-PredMonAdj  "sinun oma -si" ;
++Det+Poss+Sg3:слас WordEnd-PredMonAdj  "hänen oma -nsa/ sen oma" ;
++Det+Poss+Pl1:сланым WordEnd-PredMonAdj  "meidän oma -mme" ;
++Det+Poss+Pl2:сланыд WordEnd-PredMonAdj  "teidän oma -nne" ;
++Det+Poss+Pl3:сланыс WordEnd-PredMonAdj  "heidän oma -nsa/ niiden oma" ;
+
+
+
 LEXICON REFL_AS-01
 +Sg1:с PRON-REFL-SG1-4-OBL-CASES ;
 +Sg2:с PRON-REFL-SG2-4-OBL-CASES ;
@@ -643,24 +659,18 @@ LEXICON REFL_AS-01
 +Pl3:с PRON-REFL-PL3-4-OBL-CASES ;
 :с PRON-REFL-OBL-CASES ;
 
-+Sg1:слам PRON-REFL-SG1-4-GEN  "minun oma -ni" ;
 +Sg1:чым PRON-REFL-SG1-4-NOM  "minä itse" ;
 
 +Sg2:сьтӧ PRON-REFL-SG2-4-ACC  "" ;
-+Sg2:слад PRON-REFL-SG2-4-GEN  "sinun oma -si" ;
 +Sg2:чыд PRON-REFL-SG2-4-CAR/ELA/NOM  "sinä itse" ;
 +Sg3:сьсӧ PRON-REFL-SG3-4-ACC  "" ;
-+Sg3:слас PRON-REFL-SG3-4-GEN  "hänen oma -nsa/ sen oma" ;
 +Sg3:чыс PRON-REFL-SG3-4-NOM  "hän itse" ;
 
-+Pl1:сланым PRON-REFL-PL1-4-GEN  "meidän oma -mme" ;
 +Pl1:сьным PRON-REFL-PL1-4-NOM  "me itse" ;
 +Pl2:сь PRON-REFL-PL2-4-ACC  "" ;
-+Pl2:сланыд PRON-REFL-PL2-4-GEN  "teidän oma -nne" ;
 +Pl2:сьныд PRON-REFL-PL2-4-NOM  "te itse" ;
 
 +Pl3:сь PRON-REFL-PL3-4-ACC  "" ;
-+Pl3:сланыс PRON-REFL-PL3-4-GEN  "heidän oma -nsa/ niiden oma" ;
 +Pl3:сьныс PRON-REFL-PL3-4-NOM  "he/ ne itse" ;
 
 :сладор PRON-REFL-IN_LADOR  "" ;
@@ -771,20 +781,45 @@ LEXICON PRON-REFL-SG1-4-NOM
  INS-WORD-END ;
  NOM-WORD-END ;
 
+LEXICON PRON-POSS
++Sg: PRON-POSS_CASES ;
++Pl:%>ъяс PRON-POSS_CASES ;
 
-LEXICON PRON-REFL-SG1-4-GEN
-+Gen: WordEnd ; !! This is bare
+LEXICON PRON-POSS_CASES
+ ABL-WORD-END ;
+ ACC-WORD-END ;
+ CAR-WORD-END ;
  COM-WORD-END ;
  EGR-WORD-END ;
+ ELA-WORD-END ;
+ GEN-WORD-END ;
+ ILL-WORD-END ;
+ INE-WORD-END ;
+ INS-WORD-END ;
+ NOM-WORD-END ;
+ PRL-WORD-END ;
+ PRONDEMTAG-APR ;
+PRONDEMTAG-APR-EGR ;
+CNS-WORD-END ;
++Dat:лы WordEnd ;
++AprIll:%>ланьӧ IllCompar ; !
+
++Nom+PxSg2:%>ыд K ;
++Nom+PxSg3:%>ыс K ;
+
+!LEXICON PRON-REFL-SG1-4-GEN
+!+Gen: WordEnd ; !! This is bare
+! COM-WORD-END ;
+! EGR-WORD-END ;
 
 LEXICON PRON-REFL-SG2-4-CAR/ELA/NOM
  CAR-WORD-END ;
  NOM-WORD-END ;
  ELA-WORD-END ;
 
-LEXICON PRON-REFL-SG2-4-GEN
-+Gen: WordEnd ;
- EGR-WORD-END ;
+!LEXICON PRON-REFL-SG2-4-GEN
+!+Gen: WordEnd ;
+! EGR-WORD-END ;
 
 LEXICON PRON-REFL-SG2-4-ACC
 +Acc2: WordEnd ;
@@ -796,10 +831,10 @@ LEXICON PRON-REFL-SG3-4-NOM
  NOM-WORD-END ;
  INS-WORD-END ;
 
-LEXICON PRON-REFL-SG3-4-GEN
-+Gen: WordEnd ; !! bare
- GEN-WORD-END ;
- ILL-WORD-END ;
+!LEXICON PRON-REFL-SG3-4-GEN
+!+Gen: WordEnd ; !! bare
+! GEN-WORD-END ;
+! ILL-WORD-END ;
 
 LEXICON PRON-REFL-SG3-4-ACC
 +Acc3: WordEnd ;
@@ -812,10 +847,10 @@ LEXICON PRON-REFL-PL1-4-NOM
  NOM-WORD-END ;
  TER-WORD-END ;
 
-LEXICON PRON-REFL-PL1-4-GEN
-+Gen: WordEnd ;  !! bare
- ABL-WORD-END ;
-+Der+Der/ладор:%>ладор Noun1 ;
+!LEXICON PRON-REFL-PL1-4-GEN
+!+Gen: WordEnd ;  !! bare
+! ABL-WORD-END ;
+!+Der+Der/ладор:%>ладор Noun1 ;
 
 LEXICON PRON-REFL-PL2-4-NOM
 +Acc2:тӧ WordEnd ;
@@ -824,9 +859,9 @@ LEXICON PRON-REFL-PL2-4-NOM
  ELA-WORD-END ;
  NOM-WORD-END ;
 
-LEXICON PRON-REFL-PL2-4-GEN
-+Gen: WordEnd ; !! bare
-+Der+Der/ладор:%>ладор Noun1 ;
+!LEXICON PRON-REFL-PL2-4-GEN
+!+Gen: WordEnd ; !! bare
+!+Der+Der/ладор:%>ладор Noun1 ;
 
 
 LEXICON PRON-REFL-PL2-4-ACC
@@ -836,11 +871,11 @@ LEXICON PRON-REFL-PL3-4-NOM
  CNS-WORD-END ;
  NOM-WORD-END ;
 
-LEXICON PRON-REFL-PL3-4-GEN
-+Gen: WordEnd ; !! bare
- GEN-WORD-END ;
- PRL-WORD-END ;
-+Der+Der/ладор:%>ладор Noun1 ;
+!LEXICON PRON-REFL-PL3-4-GEN
+!+Gen: WordEnd ; !! bare
+! GEN-WORD-END ;
+! PRL-WORD-END ;
+!
 
 LEXICON PRON-REFL-PL3-4-ACC
 +Acc3:нысӧ WordEnd ;
