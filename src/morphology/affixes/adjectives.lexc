@@ -109,8 +109,8 @@ LEXICON A-IS_DIM-НИК
 LEXICON A-IS_TOM
 +N+Der+Der/тӧм: A_ ;
 
-LEXICON Adj-IS_SUPERL !
-+Superl: A_ ;
+!LEXICON Adj-IS_SUPERL !
+!+Superl: A_ ;
 
 !2018-10-21!LEXICON Adj-SUPERL !
 !2018-10-21!+Superl: A_ ;
@@ -123,6 +123,14 @@ LEXICON A_
 !2017-09-19+Attr: # ;
 : PredMonAdj ;
 : AdjCompar ;
++Der+Der/кодь+A:%>кодь PredMonAdj ;
++Der+Der/кодь+A:%>кодь AdjCompar ;
++Der+Der/Ин:%>%{иі%}н N_ ;
++Der+Der/лун:%>лун N_ ; !Derivational suffix for A-N
++Der+Der/а:%>а ADV_ ; ! Derivation for adjective-to-adverb
+
+LEXICON SUPERL-A_
+: PredMonAdj ;
 +Der+Der/кодь+A:%>кодь PredMonAdj ;
 +Der+Der/кодь+A:%>кодь AdjCompar ;
 +Der+Der/Ин:%>%{иі%}н N_ ;
