@@ -978,12 +978,16 @@ LEXICON SPAT-COMPARATIVE
  PredMonLex-Spat-Add-Morphology ; !
 
 LEXICON COMPARATIVE
-                        K ;
+               K ;
 +Comp:%>джык K ; !more
 +Der+Der/моз:%>моз K ; ! like -- in verbal constructions (Jaska thinks 2018-10-21)
 +Der+Der/кодь:%>кодь K ; ! like -- in copula constructions
 
 ! TODO: Integrate this in xml-files in working…
+
+LEXICON SUPERL-ADV_
+               K ;
+
 
 LEXICON SUBSTANDARDS
 коръя+Err/Orth:корья Noun1 ;
