@@ -352,12 +352,14 @@ LEXICON NEG-PRON
 некытӧн+Adv+Neg+Spat+Ine:некытӧн K ;
 некӧн+Adv+Neg+Spat+Ine:некӧн K ;
 
+
 LEXICON INDEFINITE-PRON
 мыйсюрӧ+Pron+Indef+Sg+Nom:мыйсюрӧ K ;
 кодсюрӧ+Pron+Indef+Sg+Acc:кодсюрӧӧс K ;
 кодсюрӧ+Pron+Indef+Sg+Dat:кодсюрӧлы K ;
 кодсюрӧ+Pron+Indef+Sg+Abl:кодсюрӧлысь K ;
 кодсюрӧ+Pron+Indef+Pl+Nom:кодсюрӧяс K ;
+
 корсюрӧ+Adv+Indef+Temp:корсюрӧ K ;
 кудзсюрӧ+Adv+Indef+Manner+Err/Orth:кудзсюрӧ K ;
 кутшӧмсюрӧ+Pron+Indef:кутшӧмсюрӧ K ;
@@ -519,7 +521,8 @@ LEXICON PRONINDEFTAG
 +Pron+Indef: WordEnd ;
 
 LEXICON PRONINDEFTAG-KO
-+Pron+Indef: PRONINDEF-PERS-KO-CX ;
++Pron+Indef+Sg: PRONINDEF-PERS-KO-CX ;
++Pron+Indef+Pl:%>ъяс PRONINDEF-PERS-KO-CX ;
 
 LEXICON PRONINDEF-PERS-KO-CX
 +Nom: PRONINDEF-PERS-KO-END ;
@@ -976,7 +979,10 @@ LEXICON PRON-DEM-IS_ILL
 
 LEXICON PRON-NEG-HUM
 +Pron+Neg+Sg+Nom: WordEnd ;
++Pron+Neg+Sg+Nom:і WordEnd ;
 +Pron+Neg+Sg: PRON-NEG-OBL ;
++Pron+Neg+Pl+Nom:%>ъяс WordEnd ;
++Pron+Neg+Pl:%>ъяс PRON-NEG-OBL ;
 
 LEXICON PRON-DUAL
 +Pron+Du: PRON-NEG-OBL ;
@@ -1284,7 +1290,7 @@ LEXICON PRON-NEG-OBL
 +Cmpl: WordEnd ;
 +Gen:лӧн WordEnd ;
 +Abl:лысь K ; !
-+Dat:лы WordEnd ;
++Dat:лы K ;
 +Acc:ӧс WordEnd ;
 +Acc3:сӧ WordEnd ;
 +Ins:ӧн K ;
