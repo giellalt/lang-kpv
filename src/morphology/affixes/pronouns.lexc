@@ -631,8 +631,9 @@ LEXICON PRON-REFL-IN_LADOR
 +Pron+Refl+Der/ладор: Noun1 ; !2011-11-22
 
 LEXICON REFL_AS !! * = @CODE@ ас:а 
-+A+Refl:с ABS_ ; !ас is an absolute-form modifer
++Det+Refl:с ABS_ ; !ас is an absolute-form modifer
 +Pron+Refl:  REFL_AS-01 ;
++Pron+Refl+Ins:сӧн K ; !There is no indication of person. = Sg1, Sg3, Pl3
 
 +Pron+Poss+Sg1:слам PRON-POSS  "minun oma -ni" ;
 +Pron+Poss+Sg2:слад PRON-POSS  "sinun oma -si" ;
@@ -681,7 +682,7 @@ LEXICON PRON-REFL-SG1-4-OBL-CASES
 +Cns:ла K ; !There is no indication of person. = Sg1
 +Dat:лым K ;
 +Ela:сьым K ;
-+Ins:ӧн K ; !There is no indication of person. = Sg1, Pl3
+!+Ins:ӧн K ; !There is no indication of person. = Sg1, Sg3, Pl3
 +Ins:намӧн K ; !CHECKME
 
 LEXICON PRON-REFL-SG2-4-OBL-CASES
@@ -701,6 +702,7 @@ LEXICON PRON-REFL-SG3-4-OBL-CASES
 +Ela:сьыс K ;
 +Ine:ас K ;
 +Ins:нас K ;
+!+Ins:ӧн K ; !There is no indication of person. = Sg1, Sg3, Pl3
 LEXICON PRON-REFL-PL1-4-OBL-CASES
 +Car:тӧгным K ; !
 +Com:кӧдным K ; !
@@ -730,8 +732,8 @@ LEXICON PRON-REFL-PL3-4-OBL-CASES
 +Dat:лыныслы K ;
 +Dat:ныслы K ;
 +Ela:сьыныс K ;
-+Ins:ӧн K ; !There is no indication of person. = Sg1, Pl3
 +Ins:наныс K ;
+!+Ins:ӧн K ; !There is no indication of person. = Sg1, Sg3, Pl3
 
 
 LEXICON PRON-REFL-OBL-CASES
