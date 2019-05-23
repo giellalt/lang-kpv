@@ -8,7 +8,7 @@
 LEXICON QNT-CARD_
  CARD ;
 :%>ӧд ORD ;
-:%>нан COLL ;
+!:%>нан COLL ;
 
 LEXICON CARD
 !+Num+Card: ABS_ ; 2018-10-21
@@ -25,6 +25,8 @@ LEXICON COLL
 +Num+Coll+Iter:%>ысь K ;
 +Num+Coll+Iter+Ins:%>ысьӧн K ;
 
+
+
 LEXICON ORD
  DET_ ;
 LEXICON DET_
@@ -34,6 +36,9 @@ LEXICON DET_
 +Det+Ord+Iter+Ins:%>ысьӧн K ;
 +Det+Card+Distr:%>ӧн K ;
 
+LEXICON DET_END
+!кыкнан
++Coll: # ;
 
 
 LEXICON NUM-IS_DISTR
