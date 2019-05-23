@@ -19,11 +19,6 @@ LEXICON CARD
 +Num+Card+Iter+Ins:%>ысьӧн K ; !нёльысьӧн
 +Num+Distr:%>ӧн K ; !нёльӧн
 
-LEXICON COLL
-+Num+Coll: ABS_ ;  
-+Num+Coll: NumCASEPOSSLEX ; ! _нан_ is already part of the stem
-+Num+Coll+Iter:%>ысь K ;
-+Num+Coll+Iter+Ins:%>ысьӧн K ;
 
 
 
@@ -51,15 +46,9 @@ LEXICON QNT_
 +Qnt+Card+Distr:%>ӧн K ;
 
 
-LEXICON ITER_
-+Qnt+Iter: K ;
-
 !! LEXICON NUM-APPR ! 2011-11-03 This will need work
 LEXICON CARD-APPR
 +Num+Card+Appr: K ;
-
-LEXICON CARD-ITER-APPR
-+Num+Card+Iter+Appr: K ;
 
 
 ! =================== !

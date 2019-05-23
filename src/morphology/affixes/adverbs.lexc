@@ -112,6 +112,21 @@ LEXICON AdvTemp
 LEXICON ADV-TEMP_
 +Temp: COMPARATIVE ;
 
+LEXICON ADV-MULT_
++Mult: COMPARATIVE ;
+
+LEXICON ADV-ITER_
++Iter: COMPARATIVE ;
+
+LEXICON CARD-ITER-APPR
+!кыкысь-куимысь
++Card+Iter+Appr: K ;
+
+LEXICON ORD-ITER-APPR
+!мӧдысь-коймӧдысь
++Ord+Iter+Appr: K ;
+
+
 LEXICON ADV-SPAT  !!= * __@CODE@__
       !! these are adverbs in spatial cases
       !! and they probably are equivalent in morphology to postpositions
