@@ -9,6 +9,7 @@ LEXICON PRONOUN-TYPES
  INTERR ;
  INDEFINITE-PRON ;
  NEG-PRON ;
+ COLL-PRON ;
 
 LEXICON PERS                        !!≈ * __@CODE@__ 
 ме+Pron+Pers+Sg1: perssg1decl ;    !!≈ * __@CODE@__ ...
@@ -351,6 +352,23 @@ LEXICON NEG-PRON
 некыті+Adv+Neg+Spat+Tra:некыті K ;
 некытӧн+Adv+Neg+Spat+Ine:некытӧн K ;
 некӧн+Adv+Neg+Spat+Ine:некӧн K ;
+
+LEXICON COLL-PRON
+некоднан+Pron:некоднан COLL-PRON_CASE ;
+кыкнан+Pron:кыкнан COLL-PRON_CASE ;
+куимнан+Pron:куимнан COLL-PRON_CASE ;
+нёльнан+Pron:нёльнан COLL-PRON_CASE ;
+витнан+Pron:витнан COLL-PRON_CASE ;
+квайтнан+Pron:квайтнан COLL-PRON_CASE ;
+сизимнан+Pron:сизимнан COLL-PRON_CASE ;
+кӧкъямыснан+Pron:кӧкъямыснан COLL-PRON_CASE ;
+ӧкмыснан+Pron:ӧкмыснан COLL-PRON_CASE ;
+даснан+Pron:даснан COLL-PRON_CASE ;
+нелямыннан+Pron:нелямыннан COLL-PRON_CASE ;
+
+
+LEXICON COLL-PRON_CASE
++Coll: NumCASEPOSSLEX ; ! _нан_ is already part of the stem
 
 
 LEXICON INDEFINITE-PRON
