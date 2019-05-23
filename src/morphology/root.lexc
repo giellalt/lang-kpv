@@ -87,7 +87,8 @@ Multichar_Symbols
  +Card      !!≈ ;@CODE@: cardinal + NCard
  +Coll      !!≈ ;@CODE@: collective
  +Distr     !!≈ ;@CODE@: Distributive
- +Iter      !!≈ ;@CODE@: Iterative form expressing number of times; kpv: {{кыкысь}}
+ +Iter      !!≈ ;@CODE@: Iterative form expressing number of consecutive times; kpv: {{кыкысь}}
+ +Mult      !!≈ ;@CODE@: Multiplicative adverbs number of times; kpv: {{кык пӧв}}
  +Ord       !!≈ ;@CODE@: ordinal + NOrd
 
 
@@ -738,6 +739,10 @@ Multichar_Symbols
 +Cmp/Serial   !!≈ | @CODE@ used with serial verbs
 
 ! Flags used with serial verbs
+! VAL = Valence
+@U.CONJ-VAL.TV@
+@U.CONJ-VAL.IV@
+
 ! INF = Infinitive
 @U.CONJ-INF.YES@
 @U.CONJ-INF.NO@
@@ -776,6 +781,7 @@ Multichar_Symbols
 @U.CONJ-PX.3@
 
 ! Removal
+@C.CONJ-VAL@
 @C.CONJ-INF@
 @C.CONJ-TX@
 @C.CONJ-MX@
