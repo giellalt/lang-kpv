@@ -335,7 +335,8 @@ LEXICON INTERR
  
 кӧні+Adv+Spat+Ine+Pred+Sg:кӧні INTERR-REL ;
 кӧні+Adv+Spat+Ine+Pred+Pl:кӧнӧсь INTERR-REL ;
-мый+Pron+NonHum:мый PRON-NONHUM ;
+мый+Pron+Sg:мый PRON-NONHUM ;
+мый+Pron+Pl:мыйяс PRON-NONHUM ;
 мыйда+Pron+NonHum:мыйда INTERR-REL ;
 мыйта+Pron+NonHum:мыйта INTERR-REL ;
 мыйтӧм+Pron+NonHum:мыйтӧм INTERR-REL ;
@@ -485,6 +486,8 @@ LEXICON PRON-NONHUM
 +Dat:лы WordEnd ; !
 +ZeroAcc: WordEnd ;
 +Acc3:сӧ WordEnd ;
++Acc+PxSg3:сӧ WordEnd ;
++Acc+PxSg1:ӧс WordEnd ;
 +Ins:ӧн WordEnd ;
 +Com:кӧд WordEnd ;
 +Car:тӧг WordEnd ;
