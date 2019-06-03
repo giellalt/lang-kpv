@@ -23,27 +23,27 @@ LEXICON DERIVEDADJ
  DERIVEDADJ-IN-CONS ;
 
 LEXICON DERIVEDADJ-IN-VOW
-+Der+Der/ProprietiveMod:%>а A_ ;
++Der+Der/ProprietiveMod+A:%>%{ая%} A_ ;
 
 LEXICON DERIVEDADJ-IN-CONS
-+Der+Der/LocMod:%>са A_ ;
-+Der+Der/PrivMod:%>тӧм A_ ;
-+Err/Dial+Der+Der/PrivMod:%>тэм A_ ;
-+Der+Der/TempMod:%>ся A_ ;
-+Der+Der/увса:%>увса A_ ;
-+Der+Der/сайса:%>сайса A_ ;
-+Der+Der/пӧвстса:%>пӧвстса A_ ;
-+Err/Dial+Der+Der/пӧвстса:%>певстса A_ ;
-+Der+Der/костса:%>костса A_ ;
-+Der+Der/бердса:%>бердса A_ ;
-+Der+Der/бӧрса:%>бӧрса A_ ;
-+Err/Dial+Der+Der/бӧрса:%>берса A_ ;
-+Der+Der/весьтса:%>весьтса A_ ;
-+Der+Der/водзса:%>водзса A_ ;
-+Der+Der/вывса:%>вывса A_ ;
-+Der+Der/гӧгӧрса:%>гӧгӧрса A_ ;
-+Err/Dial+Der+Der/гӧгӧрса:%>гегерса A_ ;
-+Der+Der/дорса:%>дорса A_ ;
++Der+Der/LocMod+A:%>са A_ ;
++Der+Der/PrivMod+A:%>тӧм A_ ;
++Err/Dial+Der+Der/PrivMod+A:%>тэм A_ ;
++Der+Der/TempMod+A:%>ся A_ ;
++Der+Der/увса+A:%>увса A_ ;
++Der+Der/сайса+A:%>сайса A_ ;
++Der+Der/пӧвстса+A:%>пӧвстса A_ ;
++Err/Dial+Der+Der/пӧвстса+A:%>певстса A_ ;
++Der+Der/костса+A:%>костса A_ ;
++Der+Der/бердса+A:%>бердса A_ ;
++Der+Der/бӧрса+A:%>бӧрса A_ ;
++Err/Dial+Der+Der/бӧрса+A:%>берса A_ ;
++Der+Der/весьтса+A:%>весьтса A_ ;
++Der+Der/водзса+A:%>водзса A_ ;
++Der+Der/вывса+A:%>вывса A_ ;
++Der+Der/гӧгӧрса+A:%>гӧгӧрса A_ ;
++Err/Dial+Der+Der/гӧгӧрса+A:%>гегерса A_ ;
++Der+Der/дорса+A:%>дорса A_ ;
 
 
 
@@ -127,10 +127,12 @@ LEXICON A_
 +Der+Der/кодь+A:%>кодь AdjCompar ;
 +Der+Der/Ин:%>%{иі%}н N_ ;
 +Der+Der/лун:%>лун N_ ; !Derivational suffix for A-N
-+Der+Der/а:%>а ADV_ ; ! Derivation for adjective-to-adverb
++Der+Der/а:%>%{ая%} ADV_ ; ! Derivation for adjective-to-adverb
 
 LEXICON SUPERL-A_
 : PredMonAdj ;
++Sg: CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
++Pl:%>ъяс CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
 +Der+Der/кодь+A:%>кодь PredMonAdj ;
 +Der+Der/кодь+A:%>кодь AdjCompar ;
 +Der+Der/Ин:%>%{иі%}н N_ ;

@@ -207,16 +207,18 @@ LEXICON ADV-IS_INE
 +Ine: SPAT-COMPARATIVE ;
 
 LEXICON ADV-IS_INS
-+Ins: K ;
++Ins: COMPARATIVE ;
 
 LEXICON ADV-IS_PRL
 +Prl: K ;
 
 LEXICON ADV-IS_TER
 +Ter: K ;
++Ter+Der/кодь:%>кодь K ; ! Is this an ordering issue 2019-06-03
++Ter+Comp:%>джык K ;
 
 LEXICON ADV-IS_TRA
-+Tra: K ;
++Tra: COMPARATIVE ;
 
 
 
