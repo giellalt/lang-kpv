@@ -14,6 +14,7 @@ LEXICON ACRON
 ! Basic proper nouns.
 LEXICON PROP_
 +Sg: CASEPOSSLEX ;
++Pl:%>ъяс CASEPOSSLEX ; !Reinstalling plural morphology 2019-06-03
 
 LEXICON Prop-R-RY
 : Noun1-R-RY ; ! This will bring about problems with ordering 2012-02-07
