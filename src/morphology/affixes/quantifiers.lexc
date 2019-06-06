@@ -5,19 +5,19 @@
 ! ================================ !
 
 !This has to be worked on 2012-01-19
-LEXICON QNT-CARD_
+LEXICON NUM-CARD_
  CARD ;
 :%>ӧд ORD ;
 !:%>нан COLL ;
 
 LEXICON CARD
-!+Num+Card: ABS_ ; 2018-10-21
-+Num+Card: NumCASEPOSSLEX ;
-+Num+Card+Der/кӧ+Presentational:%>%-кӧ WordEnd ;
-!+Num+Ord:%>ӧд NumCASEPOSSLEX ;
-+Num+Card+Iter:%>ысь K ; ! нёльысь
-+Num+Card+Iter+Ins:%>ысьӧн K ; !нёльысьӧн
-+Num+Distr:%>ӧн K ; !нёльӧн
+!+Card: ABS_ ; 2018-10-21
++Card: NumCASEPOSSLEX ;
++Card+Der/кӧ+Presentational:%>%-кӧ WordEnd ;
+!+Ord:%>ӧд NumCASEPOSSLEX ;
++Card+Iter:%>ысь K ; ! нёльысь
++Card+Iter+Ins:%>ысьӧн K ; !нёльысьӧн
++Distr:%>ӧн K ; !нёльӧн
 
 
 
@@ -33,7 +33,7 @@ LEXICON DET_
 
 LEXICON DET_END
 !кыкнан
-+Coll: # ;
++AssocColl: # ;
 
 
 LEXICON NUM-IS_DISTR
@@ -48,7 +48,7 @@ LEXICON QNT_
 
 !! LEXICON NUM-APPR ! 2011-11-03 This will need work
 LEXICON CARD-APPR
-+Num+Card+Appr: K ;
++Card+Appr: K ;
 
 
 ! =================== !
