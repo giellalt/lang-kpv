@@ -350,9 +350,9 @@ REMOVE:InitialAdv A IF (-1 BOS)(0 Adv)(NOT 1 N OR CC OR A) ;
 # =======
 SELECT:NomWhenNextPo Nom IF (1 Po);
 
-# сійӧ пыр breaks the next rule
+# This seems to work
 
-REMOVE:AdvWhenPoAndPreviousNom Adv IF (-1 Nom)(0 Po);
+SELECT:AdvWhenPreviousPx Adv IF ((-1 PxSg2) OR (-1 PxSg3)) ;
 
 REMOVE:RelatWhenjylysjVerb Relat IF (0 Po)(*1 V-jylysj BARRIER CLB);
 
@@ -594,7 +594,7 @@ REMOVE:UnaAdv (Qnt "уна") IF (0 Adv) ;
 
 # We disambiguate all N Sg Nom / Acc + N combinations as 
 # Nom for the first element
-SELECT:nmodNotAcc (N Sg Nom) IF (0 Nom) (1 Nom) ;
+SELECT:nmodNotAcc (N Sg Nom) IF (0 Nom) (1 N) ;
 
 # This is just a test, doesn't work
 # SELECT:AisNomNotAccIfFollowedByN Nom IF (1 (N Nom)) ;
@@ -609,4 +609,4 @@ SELECT:nmodNotAcc (N Sg Nom) IF (0 Nom) (1 Nom) ;
 #
 #
 #
-#
+
