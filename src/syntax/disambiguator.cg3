@@ -502,7 +502,8 @@ SELECT Pcle IF (1 A) (0 ("медся"));
 SELECT Inf IF (-1 BOS) (0 V) ;
 REMOVE:NoAspDerIfPossible AspDerTag ;
 REMOVE Acc IF (-1 (V Refl)) ;
-SELECT N OR Pron IF (1 Po) ;
+# The rule below is too aggressive: вывті Adv вылын N 
+# SELECT N OR Pron IF (1 Po) ;
 #SELECT Adv IF (-1 V) ;
 REMOVE V IF (-1 A) ;
 #SELECT Adv IF (1 Ex/V) ;
@@ -530,7 +531,8 @@ REMOVE N IF (-1 ("медся")) ;
 REMOVE Po IF (-1 BOS) ;
 REMOVE Po IF (-1 CLB) ;
 
-REMOVE Imprt IF (-1 Adv OR Qnt) ;
+# This rule is too aggressive: "Ӧні видзӧд татчӧ."
+# REMOVE Imprt IF (-1 Adv OR Qnt) ;
 SELECT V IF (-1 Inf) (0 V);
 SELECT Nom IF (*-1 Acc + PxTag BARRIER CLB);
 SELECT Acc IF (-1 (V TV))(0 N OR Pron);
