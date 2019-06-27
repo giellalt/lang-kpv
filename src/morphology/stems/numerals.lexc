@@ -7,7 +7,7 @@ ARABIC          ; ! for the arabic numerals !
 ROMAN           ; ! for the roman numerals  !
 NUM-PREFIXES    ; ! for §34 etc.            !
 ISOLATED-NUMEXP ; ! for ½ etc.                      !
-
+COORDINATES_1	; ! for 65˚36′8,30″ etc.
 
 LEXICON ARABIC   !!= * __@CODE@__ arabic numerals
 < [1|2|3|4|5|6|7|8|9|%0] > ARABICS      ;
@@ -311,6 +311,32 @@ LEXICON ROMNUMTAGOBL
 ! +Der+Der/ahasas:-ahas ANOLASJ  ;
 ! +Cmp-#:»»»- CMP_NAMAG ;
 ! +Cmp-#:»»»- CMP_IHASAS ;
+
+LEXICON COORDINATES_1
+!65˚36′8,30″
+< [1|2|3|4|5|6|7|8|9] [˚] > COORDINATES_2 ;
+< [1|2|3|4|5|6|7|8] [1|2|3|4|5|6|7|8|9|%0] [˚] > COORDINATES_2 ;
+< [9] [%0] [˚] > COORDINATES_END ;
+
+LEXICON COORDINATES_2
+< [1|2|3|4|5|6|7|8|9] [′] > COORDINATES_3 ;
+< [1|2|3|4|5] [1|2|3|4|5|6|7|8|9|%0] [′] > COORDINATES_3 ;
+< [6] [%0] [′] > COORDINATES_END ;
+LEXICON COORDINATES_3
+< [1|2|3|4|5|6|7|8|9] > COORDINATES_4 ;
+< [1|2|3|4|5] [1|2|3|4|5|6|7|8|9|%0] > COORDINATES_4 ;
+< [6] [%0] [″] > COORDINATES_END ;
+LEXICON COORDINATES_4
+:″ COORDINATES_END ;
+:, COORDINATES_5 ;
+
+LEXICON COORDINATES_5
+< [1|2|3|4|5|6|7|8|9] [″] > COORDINATES_END ;
+< [1|2|3|4|5|6|7|8|9] [1|2|3|4|5|6|7|8|9|%0] [″] > COORDINATES_END ;
+< [1] [%0] [%0] [″] > COORDINATES_END ;
+
+LEXICON COORDINATES_END
++Num+Coord: # ;
 
 
  
