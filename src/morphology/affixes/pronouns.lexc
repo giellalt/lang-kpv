@@ -12,15 +12,15 @@ LEXICON PRONOUN-TYPES
  COLL-PRON ;
 
 LEXICON PERS                        !!≈ * __@CODE@__ 
-ме+Pron+Pers+Sg1: perssg1decl ;    !!≈ * __@CODE@__ ...
-тэ+Pron+Pers+Sg2: perssg2decl ; 
-сійӧ+Pron+Pers+Sg3: perssg3decl ;
-ми+Pron+Pers+Pl1: perspl1decl ;
-ті+Pron+Pers+Pl2: perspl2decl ; 
-найӧ+Pron+Pers+Pl3: perspl3decl ;
+ме+Pron+Pers+Sg1: PERS-SG1 ;    !!≈ * __@CODE@__ ...
+тэ+Pron+Pers+Sg2: PERS-SG2 ; 
+сійӧ+Pron+Pers+Sg3: PERS-SG3 ;
+ме+Pron+Pers+Pl1: PERS-PL1 ;
+тэ+Pron+Pers+Pl2: PERS-PL2 ; 
+сійӧ+Pron+Pers+Pl3: PERS-PL3 ;
 
 
-LEXICON perssg1decl   !!≈ * __@CODE@__ 
+LEXICON PERS-SG1   !!≈ * __@CODE@__ 
 +Nom:ме K ;
 +Cmpl:ме WordEnd ; !Postposition complement
 +Gen:менам K ;
@@ -44,7 +44,7 @@ LEXICON perssg1decl   !!≈ * __@CODE@__
 +Ter:менамӧдз K ;
 :ме perssg ; ! for the regular obl sg
 
-LEXICON perspl1decl    !!≈ * __@CODE@__
+LEXICON PERS-PL1    !!≈ * __@CODE@__
 +Nom:ми K ;
 +Nom:мийӧ K ; !Der/йӧ
 +Gen:миян K ;
@@ -67,7 +67,7 @@ LEXICON perspl1decl    !!≈ * __@CODE@__
 +Tra:миті K ; !Synomymous with: миянӧд
 +Ter:миӧдз K ; !Synomymous with: миянӧдз
 
-LEXICON perssg2decl     !!≈ * __@CODE@__
+LEXICON PERS-SG2     !!≈ * __@CODE@__
 +Nom:тэ K ;
 +Cmpl:тэ WordEnd ;
 +Gen:тэнад K ;
@@ -91,7 +91,7 @@ LEXICON perssg2decl     !!≈ * __@CODE@__
 +Ter:тэнадӧдз K ;
 :тэ perssg ;  ! for the regular obl sg
 
-LEXICON perspl2decl !!≈ * __@CODE@__ 
+LEXICON PERS-PL2 !!≈ * __@CODE@__ 
 +Nom:ті K ;
 +Cmpl:ті WordEnd ;
 +Nom:тійӧ K ; !We need a special tag for discerning +Nom forms  Der/йӧ
@@ -114,7 +114,7 @@ LEXICON perspl2decl !!≈ * __@CODE@__
 +Egr:тіянсяньныд K ;
 +Ter:тіӧдз K ;
 
-LEXICON perssg3decl  !!≈ * __@CODE@__ 
+LEXICON PERS-SG3  !!≈ * __@CODE@__ 
 +Nom:сійӧ K ; !+Der/йӧ
 +Gen:сылӧн K ;
 +Abl:сылысь K ;
@@ -142,7 +142,7 @@ LEXICON perssg3decl  !!≈ * __@CODE@__
 !! ті тійӧ nämä ovat aivan eri asioita
 !! сы сійӧ tosin joskus 
 
-LEXICON perspl3decl !!≈ * __@CODE@__
+LEXICON PERS-PL3 !!≈ * __@CODE@__
 +Nom:найӧ K ; !Der/йӧ
 +Acc:найӧс K ; !Der/йӧ
 +Acc:найӧӧс K ; !
