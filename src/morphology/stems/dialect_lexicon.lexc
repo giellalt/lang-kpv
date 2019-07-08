@@ -3,41 +3,41 @@ LEXICON dialect_lexicon
 
 ! Iźva additions, includes preliminary testing
 
-а+Err/Dial:аа INTERJ_ ;
-а+Err/Dial:ааа INTERJ_ ;
+а+Interj+Err/Dial:аа INTERJ_ ;
+а+Interj+Err/Dial:ааа INTERJ_ ;
 
-ага:ага INTERJ_ ;
-ага+Err/Dial:ага INTERJ_ ;
-ага+Err/Dial:аха INTERJ_ ;
-ага+Err/Dial:ыгы INTERJ_ ;
-ага+Err/Dial:ыхы INTERJ_ ;
-ага+Err/Dial:ыы INTERJ_ ;
+ага+Interj:ага INTERJ_ ;
+ага+Interj+Err/Dial:ага INTERJ_ ;
+ага+Interj+Err/Dial:аха INTERJ_ ;
+ага+Interj+Err/Dial:ыгы INTERJ_ ;
+ага+Interj+Err/Dial:ыхы INTERJ_ ;
+ага+Interj+Err/Dial:ыы INTERJ_ ;
 
-гм:гм INTERJ_ ;
+гм+Interj:гм INTERJ_ ;
 
-э:э INTERJ_ ;
-э+Err/Dial:ээ INTERJ_ ;
-э+Err/Dial:эээ INTERJ_ ;
+э+Interj:э INTERJ_ ;
+э+Interj+Err/Dial:ээ INTERJ_ ;
+э+Interj+Err/Dial:эээ INTERJ_ ;
 
-м-м:м-м INTERJ_ ;
-м-м+Err/Dial:мм INTERJ_ ;
-м-м+Err/Dial:ммм INTERJ_ ;
+м-м+Interj:м-м INTERJ_ ;
+м-м+Interj+Err/Dial:мм INTERJ_ ;
+м-м+Interj+Err/Dial:ммм INTERJ_ ;
 
-оо:оо INTERJ_ ;
-оо+Err/Dial:ӧӧ INTERJ_ ;
+оо+Interj:оо INTERJ_ ;
+оо+Interj+Err/Dial:ӧӧ INTERJ_ ;
 
 ! These occur mainly in epic songs
-хе+Err/Dial:ӧӧ-ӧӧ INTERJ_ ;
-хе+Err/Dial:хаа INTERJ_ ;
-хе+Err/Dial:хе INTERJ_ ;
-хе+Err/Dial:хе-йӧӧ INTERJ_ ;
-хе+Err/Dial:хе-хе INTERJ_ ;
-хе+Err/Dial:хее INTERJ_ ;
-хе+Err/Dial:хӧӧ INTERJ_ ;
-хе+Err/Dial:хӧӧ-ӧӧ INTERJ_ ;
-хе+Err/Dial:хӧӧ-ӧӧ-хӧӧ INTERJ_ ;
-хе+Err/Dial:хӧӧ-хӧӧ INTERJ_ ;
-хе+Err/Dial:хӧӧ-хӧӧ-хӧӧ INTERJ_ ;
+хе+Interj+Err/Dial:ӧӧ-ӧӧ INTERJ_ ;
+хе+Interj+Err/Dial:хаа INTERJ_ ;
+хе+Interj+Err/Dial:хе INTERJ_ ;
+хе+Interj+Err/Dial:хе-йӧӧ INTERJ_ ;
+хе+Interj+Err/Dial:хе-хе INTERJ_ ;
+хе+Interj+Err/Dial:хее INTERJ_ ;
+хе+Interj+Err/Dial:хӧӧ INTERJ_ ;
+хе+Interj+Err/Dial:хӧӧ-ӧӧ INTERJ_ ;
+хе+Interj+Err/Dial:хӧӧ-ӧӧ-хӧӧ INTERJ_ ;
+хе+Interj+Err/Dial:хӧӧ-хӧӧ INTERJ_ ;
+хе+Interj+Err/Dial:хӧӧ-хӧӧ-хӧӧ INTERJ_ ;
 
 айка+N+Err/Dial:айко N_ ;
 бергӧдчыны+V+Err/Dial:бергедч VR_ЛЫДДЬЫНЫ ;
@@ -53,15 +53,15 @@ LEXICON dialect_lexicon
 водз+Adv+Err/Dial:водь ADV_ ;
 водзӧ+Adv+Err/Dial:водзе ADV_ ;
 водзӧ+Adv+Err/Dial:вӧдзӧ ADV-IS_ILL ;
-вӧйна:вӧйна N_ ;
+вӧйна+N:вӧйна N_ ;
 войӧдны+V+Err/Dial:воед TV_КУТНЫ ;
 вӧлӧсьт+N+Err/Dial:вӧлэсьт N_ ;
-время:время N_ ;
-вроде:вроде PCLE_ ;
-гашкӧ+Err/Dial:гашке PCLE_ ;
-да+Err/Dial:даа PCLE_ ;
-дажӧ+Err/Dial:даже ADV_ ;
-жӧ+Err/Dial:же PCLE_ ;
+время+N:время N_ ;
+вроде+Pcle:вроде PCLE_ ;
+гашкӧ+Adv+Err/Dial:гашке ADV_ ;
+да+Pcle+Err/Dial:даа PCLE_ ;
+дажӧ+Adv+Err/Dial:даже ADV_ ;
+жӧ+Pcle+Err/Dial:же PCLE_ ;
 зэв+Adv+Err/Dial:зэй ADV_ ; 
 ижемскӧй+A+Err/Dial:ижемскей A-RUS-PROP_ ;
 именнэ:именнэ ADV_ ;
@@ -109,7 +109,7 @@ LEXICON dialect_lexicon
 специальнэ:специальнэ A_ ;
 сы+Err/Dial:сіе PRONDEMTAG ;
 сы+Err/Dial:сія PRONDEMTAG ;
-сы+Err/Dial:сыа PRONDEMTAG ;
+сы+Err+/Dial:сыа PRONDEMTAG ;
 сытчӧ+Err/Dial:сытчӧ ADV-IS_ILL ;
 сэсся+Err/Dial:ся ADV_ ;
 сэтӧн+Err/Dial:сэтэн ADV_ ;
