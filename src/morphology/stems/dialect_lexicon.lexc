@@ -16,8 +16,8 @@ LEXICON dialect_lexicon
 гм:гм INTERJ_ ;
 
 э:э INTERJ_ ;
-э+Err/Dial:зэ INTERJ_ ;
-э+Err/Dial:зээ INTERJ_ ;
+э+Err/Dial:ээ INTERJ_ ;
+э+Err/Dial:эээ INTERJ_ ;
 
 м-м:м-м INTERJ_ ;
 м-м+Err/Dial:мм INTERJ_ ;
@@ -48,19 +48,27 @@ LEXICON dialect_lexicon
 велӧдчыны+V+Err/Dial:велэдч VR_ЛЫДДЬЫНЫ ; 
 видзӧдны+V+Err/Dial:видзед V_ЛЫДДЬЫНЫ ;
 внучка+N+Err/Dial:нучка N_ ;
+вӧвсьыны+V+Err/Dial:вӧӧсь VR_ЛЫДДЬЫНЫ ;
+водз+Adv+Err/Dial:вӧдз ADV_ ;
 водз+Adv+Err/Dial:водь ADV_ ;
 водзӧ+Adv+Err/Dial:водзе ADV_ ;
-водз+Adv+Err/Dial:вӧдз ADV_ ;
 водзӧ+Adv+Err/Dial:вӧдзӧ ADV-IS_ILL ;
+вӧйна:вӧйна N_ ;
 войӧдны+V+Err/Dial:воед TV_КУТНЫ ;
 вӧлӧсьт+N+Err/Dial:вӧлэсьт N_ ;
+время:время N_ ;
+вроде:вроде PCLE_ ;
 гашкӧ+Err/Dial:гашке PCLE_ ;
 да+Err/Dial:даа PCLE_ ;
 дажӧ+Err/Dial:даже ADV_ ;
 жӧ+Err/Dial:же PCLE_ ;
 зэв+Adv+Err/Dial:зэй ADV_ ; 
+ижемскӧй+A+Err/Dial:ижемскей A-RUS-PROP_ ;
+именнэ:именнэ ADV_ ;
+интереснэ:интереснэ A_ ;
 кдыз+Err/Dial:кудз ADV_ ;
 кӧ+Err/Dial:ке CS_ ;
+кӧнечнэ:кӧнечнэ PCLE_ ;
 коркӧ+Err/Dial:корке ADV_ ;
 кӧть+Err/Dial:хӧть CS_ ;
 кутны+V+Err/Dial:куч TV_КУТНЫ ;
@@ -82,6 +90,7 @@ LEXICON dialect_lexicon
 навернӧ+Adv+Err/Dial:навернэ ADV_ ;
 нинӧм+Err/Dial:нинэм PRON-NEG ;
 нӧ+Err/Dial:нэ PCLE_ ;
+обязательнэ:обязательнэ ADV_ ;
 ӧд+Err/Dial:эд PCLE_ ;
 ӧні+Adv+Err/Dial:эні ADV_ ;
 остяк+N+Err/Dial:ӧстяк N_ ;
@@ -91,8 +100,13 @@ LEXICON dialect_lexicon
 петкӧдны+V+Err/Dial:петкед TV_КУТНЫ ;
 пӧмнитны+V:пӧмнит TV_КУТНЫ ;
 пургитны+V:пургит V_КУТНЫ ;
+равно:равно ADV_ ;
+ровно:ровно ADV_ ;
+русскӧй+A+Err/Dial:русскей A-RUS-PROP_ ;
 сарапан+N+Err/Dial:сарафан N_ ;
 ситуация+N:ситуация N_ ;
+спасибо:спасибо INTERJ_ ;
+специальнэ:специальнэ A_ ;
 сы+Err/Dial:сіе PRONDEMTAG ;
 сы+Err/Dial:сія PRONDEMTAG ;
 сы+Err/Dial:сыа PRONDEMTAG ;
@@ -116,8 +130,7 @@ LEXICON dialect_lexicon
 эстшӧм+Err/Dial:эстшем PRONDEMTAG ;
 эськӧ+Adv+Err/Dial:веське ADV_ ;
 эськӧ+Adv+Err/Dial:веськӧ ADV_ ;
-эськӧ+ADv+Err/Dial:эське ADV_ ;
-
+эськӧ+Adv+Err/Dial:эське ADV_ ;
 
 ! Actually new words
 
@@ -163,17 +176,13 @@ LEXICON dialect_lexicon
 !делӧ
 !дёля
 !едзыд
-!ижемскей
-!интереснэ
 !коймед
 !найӧ+Err/Dial:ная  ;
 !Нёрма
 !ничего
-!обязательнэ
 !песня
 !Печера
 !примернэ
-!русскей
 !Сюдбей
 !сякей
 !щас
