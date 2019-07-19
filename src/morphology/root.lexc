@@ -145,12 +145,6 @@ Multichar_Symbols
 ! +Der/Apr+Prl, +Der/Apr+Tra
 ! +Der/Apr+Ter
 
-!! Noun phrase modifiers are generally considered derivational 
- +MAbe    !!≈ *  __@CODE@__ abessive modifier -тӧм 
- +MLoc    !!≈ *  __@CODE@__ locative modifier са -
- +MHab    !!≈ *  __@CODE@__ habeo modifier а -
- +MTmp    !!≈ *  __@CODE@__ temporal modifier ся -
-
 
 
 
@@ -571,8 +565,17 @@ Multichar_Symbols
 
 
 ! Declaring adjectival derivations
-+Der/ALoc ! Denominal locative adjective Der/са
-+Der/APrior ! Denominal prioritive adjective Der/а
+! Noun phrase modifiers are generally considered derivational 
+ +MAbe    !!≈ *  __@CODE@__ abessive modifier -тӧм 
+ +MLoc    !!≈ *  __@CODE@__ locative modifier са -
+ +MHab    !!≈ *  __@CODE@__ habeo modifier а -
+ +MTmp    !!≈ *  __@CODE@__ temporal modifier ся -
+
++Der/LocMod ! +Der/ALoc  Denominal locative adjective Der/са
++Der/ProprietiveMod ! +Der/APrior  Denominal prioritive adjective Der/а
++Der/PrivMod !
++Der/TempMod ! 
+
 +Der/а +Der/са +Der/ся +Der/кодь +Der/Иник
 +Der/Ин
 +Der/увса
