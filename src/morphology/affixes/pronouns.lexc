@@ -102,7 +102,7 @@ LEXICON PERS-PL2 !!≈ * __@CODE@__
 !More forms from Ӧнія коми кыв 2000: 163
 +Abl:тіянлысьныд K ;
 +Dat:тіянлы K ;
-+Acc2:тіянныдтӧ K ;
++Acc:тіянныдтӧ K ;
 +Ins:тіӧн K ;
 +Car:тіянныдтӧг K ;
 +Car:тітӧг K ;
@@ -447,7 +447,7 @@ LEXICON PRON-HUM-OBL
 +Abl:лысь WordEnd ; !
 +Dat:лы WordEnd ;
 +Acc:ӧс WordEnd ;
-+Acc3:сӧ WordEnd ;
++Acc+PxSg3:сӧ WordEnd ;
 +Ins:ӧн WordEnd ;
 +Com:кӧд WordEnd ;
 +Car:тӧг WordEnd ;
@@ -464,8 +464,10 @@ LEXICON PRON-HUM-COLL
 +Coll:нан PRON-HUM-COLL-PERS ;
 +ZeroColl: PRON-HUM-COLL-PERS ;
 !
-+ZeroColl+Acc2+PxPl2:ныдтӧ WordEnd ;
-+Coll+Acc2+PxPl2:наннытӧ WordEnd ;
++ZeroColl+Acc+PxPl2:ныдтӧ WordEnd ;
++Coll+Acc+PxPl2:наннытӧ WordEnd ;
+!+ZeroColl+Acc2+PxPl2:ныдтӧ WordEnd ;
+!+Coll+Acc2+PxPl2:наннытӧ WordEnd ;
 
 LEXICON PRON-HUM-COLL-PERS
 +PxPl1:ным PRON-HUM-COLL-CASES ;
@@ -473,8 +475,10 @@ LEXICON PRON-HUM-COLL-PERS
 +PxPl3:ныс PRON-HUM-COLL-CASES ;
 !
 +Acc+PxPl1:нымӧс WordEnd ;
-+Acc2+PxPl2:нытӧ WordEnd ;
-+Acc3+PxPl3:ныссӧ WordEnd ;
++Acc+PxPl2:нытӧ WordEnd ;
++Acc+PxPl3:ныссӧ WordEnd ;
+!+Acc2+PxPl2:нытӧ WordEnd ;
+!+Acc3+PxPl3:ныссӧ WordEnd ;
 
 LEXICON PRON-HUM-COLL-CASES
 +Nom: WordEnd ;
@@ -485,8 +489,8 @@ LEXICON PRON-NONHUM
 +Gen:лӧн WordEnd ; !
 +Abl:лысь WordEnd ; !
 +Dat:лы WordEnd ; !
-+ZeroAcc: WordEnd ;
-+Acc3:сӧ WordEnd ;
+!+ZeroAcc: WordEnd ;
+!+Acc3:сӧ WordEnd ;
 +Acc+PxSg3:сӧ WordEnd ;
 +Acc+PxSg1:ӧс WordEnd ;
 +Ins:ӧн WordEnd ;
@@ -625,9 +629,13 @@ LEXICON PRON-RECIPR-CASE
 +Acc:ӧс K ;
 +Acc+PxSg2:тӧ K ;
 +Acc+PxPl1:нымӧс K ;
-+Acc2+PxPl2:нытӧ K ;
-+Acc3+PxPl3:ныссӧ K ;
-+Acc3:сӧ K ;
++Acc+PxPl2:нытӧ K ;
++Acc+PxPl3:ныссӧ K ;
++Acc+PxSg3:сӧ K ;
+
+!+Acc2+PxPl2:нытӧ K ;
+!+Acc3+PxPl3:ныссӧ K ;
+!+Acc3:сӧ K ;
 +Com+PxSg3:ыскӧд K ;
 +Com+PxPl2:ныдкӧд K ;
 +Com+PxPl3:ныскӧд K ;
@@ -848,7 +856,7 @@ LEXICON PRON-REFL-SG2-4-CAR/ELA/NOM
 ! EGR-WORD-END ;
 
 LEXICON PRON-REFL-SG2-4-ACC
-+Acc2: WordEnd ;
++Acc: WordEnd ;
 
 LEXICON PRON-REFL-SG3-4-NOM
  CAR-WORD-END ;
@@ -863,7 +871,7 @@ LEXICON PRON-REFL-SG3-4-NOM
 ! ILL-WORD-END ;
 
 LEXICON PRON-REFL-SG3-4-ACC
-+Acc3: WordEnd ;
++Acc: WordEnd ;
 
 LEXICON PRON-REFL-PL1-4-NOM
 +Acc:ӧс WordEnd ;
@@ -879,7 +887,8 @@ LEXICON PRON-REFL-PL1-4-NOM
 !+Der+Der/ладор:%>ладор Noun1 ;
 
 LEXICON PRON-REFL-PL2-4-NOM
-+Acc2:тӧ WordEnd ;
++Acc+PxSg2:тӧ WordEnd ;
+!+Acc2:тӧ WordEnd ;
  CAR-WORD-END ;
  CNS-WORD-END ;
  ELA-WORD-END ;
@@ -891,7 +900,8 @@ LEXICON PRON-REFL-PL2-4-NOM
 
 
 LEXICON PRON-REFL-PL2-4-ACC
-+Acc2:нытӧ WordEnd ;
++Acc+PxPl2:нытӧ WordEnd ;
+!+Acc2:нытӧ WordEnd ;
 
 LEXICON PRON-REFL-PL3-4-NOM
  CNS-WORD-END ;
@@ -904,7 +914,8 @@ LEXICON PRON-REFL-PL3-4-NOM
 !
 
 LEXICON PRON-REFL-PL3-4-ACC
-+Acc3:нысӧ WordEnd ;
++Acc+PxPl3:нысӧ WordEnd ;
+!+Acc3:нысӧ WordEnd ;
 
 
 LEXICON PRONDEMTAG
@@ -1093,7 +1104,7 @@ LEXICON PRONQ-MUKOD
 LEXICON PRONQ-STAV
 !2017-09-20+Pron+Abs: WordEnd ;
 +Pron+Sg+Nom: K ;
-+Pron+Sg+ZeroAcc: K ;
+!+Pron+Sg+ZeroAcc: K ;
 +Pron+Sg: PRONQ-STAV-CASES ;
 
 LEXICON PRONQ-STAV-CASES
@@ -1128,11 +1139,11 @@ LEXICON PRONQ-STAV-CASES
 
 +Acc:ӧс K ;
 +Acc+PxSg1:ӧс K ;
-+Acc2+PxSg2:тӧ K ;
-+Acc3+PxSg3:сӧ K ;
++Acc+PxSg2:тӧ K ;
++Acc+PxSg3:сӧ K ;
 +Acc+PxPl1:нымӧс K ;
-+Acc2+PxPl2:нытӧ K ;
-+Acc3+PxPl3:нысӧ K ;
++Acc+PxPl2:нытӧ K ;
++Acc+PxPl3:нысӧ K ;
 
 +Dat+PxSg2:ыдлы K ; ! This far 2017-03-19
 +Dat+PxSg3:ыслы K ;
@@ -1227,8 +1238,8 @@ LEXICON PRONQ-COLL-CASE
 +Dat+PxSg2:ыдлысь K ;
 +Dat+PxSg3:ыслысь K ;
 +Acc:ӧс K ;
-+Acc2+PxSg2:тӧ K ;
-+Acc3+PxSg3:сӧ K ;
++Acc+PxSg2:тӧ K ;
++Acc+PxSg3:сӧ K ;
 +Ins:ӧн K ;
 +Com:кӧд K ;
 +Com+PxSg2:ыдкӧд K ;
@@ -1329,8 +1340,8 @@ LEXICON PRON-NEG-COLL
 +Coll:нан PRON-NEG-COLL-PERS ;
 +Coll: PRON-NEG-COLL-PERS ; !+ZeroColl
 !
-+Coll+Acc2+PxPl2:ныдтӧ K ; !+ZeroColl
-+Coll+Acc2+PxPl2:наннытӧ K ;
++Coll+Acc+PxPl2:ныдтӧ K ; !+ZeroColl
++Coll+Acc+PxPl2:наннытӧ K ;
 
 LEXICON PRON-NEG-COLL-PERS
 +PxPl1:ным PRON-NEG-COLL-CASES ;
@@ -1338,8 +1349,8 @@ LEXICON PRON-NEG-COLL-PERS
 +PxPl3:ныс PRON-NEG-COLL-CASES ;
 !
 +Acc+PxPl1:нымӧс K ;
-+Acc2+PxPl2:нытӧ K ;
-+Acc3+PxPl3:ныссӧ K ;
++Acc+PxPl2:нытӧ K ;
++Acc+PxPl3:ныссӧ K ;
 
 LEXICON PRON-NEG-COLL-CASES
 +Nom: K ;
@@ -1353,7 +1364,7 @@ LEXICON PRON-NEG-OBL
 +Abl:лысь K ; !
 +Dat:лы K ;
 +Acc:ӧс WordEnd ;
-+Acc3:сӧ WordEnd ;
++Acc+PxSg3:сӧ WordEnd ;
 +Ins:ӧн K ;
 +Com:кӧд K ;
 +Car:тӧг K ;
