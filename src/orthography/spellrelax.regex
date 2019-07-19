@@ -25,13 +25,13 @@
 К (->) K , # Cyrillic (->) Latin look alikes
 В (->) B , # Cyrillic (->) Latin look alikes
 Н (->) H , # Cyrillic (->) Latin look alikes
-М (->) M , # Cyrillic (->) Latin look alikes
+М (->) M ; # Cyrillic (->) Latin look alikes
 
 
-ё (->) е, # Russian wrong vowel, accept je pro jo
-Ё (->) Е, 
-ӧ (->) о , # Sloppy Komi
-Ӧ (->) О ; # Sloppy Komi
+#ё (->) е, # Russian wrong vowel, accept je pro jo
+#Ё (->) Е, 
+#ӧ (->) о , # Sloppy Komi
+#Ӧ (->) О ; # Sloppy Komi
 # End
 
 #щ (->) s j t s j , #! latin as cyrillic
