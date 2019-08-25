@@ -88,7 +88,7 @@ LEXICON dialect_lexicon
 мимӧ+Err/Dial:миме PO-NOM ;
 мися+Err/Dial:меша PCLE_ ;
 мушку+N+Err/Dial:мушку N_ ;
-мыйкӧ+Err/Dial:мыйкэ PRONINDEFTAG-KO ;
+мыйкӧ+Err/Dial:мыйке PRONINDEFTAG-KO ;
 мыйӧн+Err/Dial:мыйэн CS_ ;
 навернӧ+Adv+Err/Dial:навернэ ADV_ ;
 нинӧм+Err/Dial:нинэм PRON-NEG ;
@@ -102,6 +102,7 @@ LEXICON dialect_lexicon
 паськӧм+N+Err/Dial:паськӧм N_ ;
 петкӧдны+V+Err/Dial:петкед TV_КУТНЫ ;
 пӧмнитны+V:пӧмнит TV_КУТНЫ ;
+примернӧ+Adv+Err/Dial:примернэ ADV_ ;
 пургитны+V:пургит V_КУТНЫ ;
 равно+Adv:равно ADV_ ;
 ровно+Adv:ровно ADV_ ;
@@ -138,6 +139,7 @@ LEXICON dialect_lexicon
 
 ! Actually new words
 
+болезнь+N:болезнь N_ ;
 гӧгӧр+Err/Dial+Po:гӧгер PO-NOM ;
 Ёртом+N+Prop:Ёртом PROP_ ;
 если+Err/Dial:если CS_  ;
@@ -146,21 +148,24 @@ LEXICON dialect_lexicon
 Коздинга+N+Prop:Коздинга PROP_ ;
 кӧрдор+N:кӧрдор N_ ;
 Ламдо+N+Prop:Ламдо PROP_ ;
+мамаша+N:мамаша N_ ;
 мӧдасыв+Adv:мӧдасыв ADV_ ;
 мыйкӧкарны+Err/Dial+V:мыйкекар V_ШУНЫ ;
 мыйкӧкарны+Err/Dial+V:мыйкӧкар V_ШУНЫ ;
 Мыля+N+Prop:Мыля PROP_ ;
 Нярьян-Мар+N+Prop:Нярьян-Мар PROP_ ;
 Острово+N+Prop:Острово PROP_ ;
+папаша+N:папаша N_ ;
 первӧй+Err/Dial:первей ADV_ ;
+Печера+N+Prop:Печера PROP_ ;
 понравитчыны+Err/Dial+V:понравитч V_ЛЫДДЬЫНЫ ;
 рӧбета+Err/Dial+N:рӧбета N_ ;
 Саранпауль+N+Prop:Саранпауль PROP_ ;
 Семӧв-Егыр+N+Prop:Семӧв-Егыр PROP_ ;
 сначала:сначала ADV_ ;
 Сталинград+N+Prop:Сталинград PROP_ ;
-Тайланд+N+Prop:Тайланд PROP_ ;
 Сюдбее+N+Prop:Сюдбее PROP_ ;
+Тайланд+N+Prop:Тайланд PROP_ ;
 Тандзе+N+Prop:Тандзе PROP_ ;
 Шиляево+N+Prop:Шиляево PROP_ ;
 Ырген+N+Prop:Ырген PROP_ ;
@@ -243,6 +248,7 @@ LEXICON dialect_lexicon
 только+Adv:только ADV_ ;
 только+Err/Dial+Adv:тӧлька ADV_ ;
 только+Err/Dial+Adv:тӧлькӧ ADV_ ;
+только+Err/Dial+Adv:тoкo ADV_ ;
 храм+N:храм N_ ;
 царевич+N:царевич N_ ;
 штӧ:штӧ CS_ ;
@@ -259,6 +265,26 @@ LEXICON dialect_lexicon
 шопер+Err/Dial+N:шофeр N_ ;
 броневичок+N:броневичок N_ ;
 видзму+N:видзму N_ ;
+пото+N:пото N_ ;
+фото+N:фото N_ ; ! Possibly good to tag as variant of пото?
+
+! This is from Alice in the Wonderland
+
+Билль+N+Prop:Билль PROP_ "" ;
+Валет+N+Prop:Валет PROP_ "" ;
+Герцогань+N+Prop:Герцогань PROP_ "" ;
+горткӧч+N:горткӧч N_;
+Додо+N+Prop:Додо PROP_ "" ;
+Кутшлев+N+Prop:Кутшлев PROP_ "" ;
+попугайпи+N:попугайпи N_ ;
+присяжнӧй+A:присяжнӧй A-RUS-PROP_ ;
+пуйӧр+N+Prop+Sem/Plc+EOLang/KOM:пуйӧр PROP-PLC-KPV  "" ; ! Possibly some wrong tags now?
+Уа+Interj:Уа INTERJ_ ;
+Узька+N+Prop:Узька PROP_ "" ;
+Черви+N+Prop:Черви PROP_ "" ;
+черепака+N:черепака N_ "";
+Шляпабала+N+Prop:Шляпабала PROP_ "" ;
+
 
 ! to check from spoken corpus with dialect dictionary, possibly typos: 
 ! лэбӧччас качитас космас гӧчкас вӧссас 
