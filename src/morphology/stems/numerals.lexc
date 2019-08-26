@@ -46,12 +46,12 @@ LEXICON ARABICLOOPphone   !!= * __@CODE@__ +358(0)16671254
   (:(             ARABICLOOPphone ;
   ):)             ARABICLOOPphone ;
  %—:%—            ARABICLOOPphone ; 
-                           ARABICCASEphone ;
+!2019-08-01                           ARABICCASEphone ;
 
-LEXICON ARABICCASEphone   !!= * __@CODE@__  
- +Num+Arab+Sg+Nom: # ;
- +Num+Arab+Sg+Acc: # ;
- +Num+Arab+Sg+Gen: # ;
+!LEXICON ARABICCASEphone   !!= * __@CODE@__  
+! +Num+Arab+Sg+Nom: # ;
+! +Num+Arab+Sg+Acc: # ;
+! +Num+Arab+Sg+Gen: # ;
 
 LEXICON ARABICLOOP   !!= * __@CODE@__
          :         ARABIC ;
