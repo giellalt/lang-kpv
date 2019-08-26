@@ -398,6 +398,8 @@ REMOVE:CopWhenVFINprecede Cop IF (-1* VFIN BARRIER CLB)(0 A);
 REMOVE:CopWhenVFINfollow Cop IF (0 A)(1* VFIN BARRIER CLB);
 
 REMOVE:CopWhenNextNotPxTagN Cop IF (0 A) (1 NotPxTagN);
+# татшӧм сылӧн нимыс
+
 # ConNeg or not
 #REMOVE:NoNegForMe ConNeg IF (NOT *-1 Neg BARRIER CLB);
 REMOVE:OtherConNeg ConNeg IF (-1* ConNeg BARRIER Neg);
