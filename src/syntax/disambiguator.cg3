@@ -537,7 +537,8 @@ REMOVE Po IF (-1 CLB) ;
 # REMOVE Imprt IF (-1 Adv OR Qnt) ;
 SELECT V IF (-1 Inf) (0 V);
 SELECT Nom IF (*-1 Acc + PxTag BARRIER CLB);
-SELECT Acc IF (-1 (V TV))(0 N OR Pron);
+# This rule is too aggressive, if we actually want to analyze those as NOM
+# SELECT Acc IF (-1 (V TV))(0 N OR Pron);
 # ӧтияс артмӧдӧны выль кывъяссӧ, мӧдъяс...
 
 SELECT:FirstNameWhenNextSurname (N Nom) IF (0 FirstName)(1 Surname OR Patronym) ;
@@ -599,6 +600,10 @@ REMOVE:UnaAdv (Qnt "уна") IF (0 Adv) ;
 # We disambiguate all N Sg Nom / Acc + N combinations as 
 # Nom for the first element
 SELECT:nmodNotAcc (N Sg Nom) IF (0 Nom) (1 N) ;
+
+# These rules try to keep the accusative tag only when it is marked
+REMOVE:NomWhenAccMarked (Nom) IF (0 Acc) (0 PxSg3 OR PxSg2) ;
+REMOVE:AccWhenNominative (Acc) IF (0 Acc) (NOT 0 PxSg3 OR PxSg2) ;
 
 # This is just a test, doesn't work
 # SELECT:AisNomNotAccIfFollowedByN Nom IF (1 (N Nom)) ;
