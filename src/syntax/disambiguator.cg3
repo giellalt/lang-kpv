@@ -46,6 +46,7 @@ LIST Dem = Dem ; #!! Dem
 LIST Qnt = Qnt ; #!! Qnt
 LIST Prop = Prop ; #!! Prop
 LIST WORD = N V A Adv CC CS Interj Pron Num Pcle Clt Po ;
+SET NotPO = WORD - Po ;
 
 #!! !Derivation tags
 LIST Ex/A = Ex/A ; #!! Ex/A (former adj)
@@ -294,7 +295,10 @@ SELECT:Cmpl1 Cmpl IF (1 Po) ;
 REMOVE Relat IF (-1 Cmpl);
 # Та йылысь юӧртліс «Коми му»
 
-REMOVE:Cmpl2 Cmpl ;
+# Remove Cmpl reading in personal pron if not followed by Po
+# The Cmpl is used with personal pronouns with a form that takes Po
+# ме тэ сы ми ті на
+REMOVE:prsPrnCmpl Cmpl IF (0 Nom)(NOT 1 Po) ;
 
 # Numerals
 
@@ -305,6 +309,7 @@ REMOVE:NoAbsAtEnd Abs IF (1 CLB) ;
 
 # Pronouns
 REMOVE Interr IF (-2 N)(-1 (","))(0 Rel);
+
 
 
 # Adjectives
