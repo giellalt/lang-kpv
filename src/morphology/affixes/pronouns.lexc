@@ -22,7 +22,7 @@ LEXICON PERS                        !!≈ * __@CODE@__
 
 LEXICON PERS-SG1   !!≈ * __@CODE@__ 
 +Nom:ме K ;
-+Cmpl:ме WordEnd ; !Postposition complement
+!+Cmpl:ме WordEnd ; !Postposition complement removed 2019-10-27 same as Nom
 +Gen:менам K ;
 +Gen:мелӧн K ;
 +Gen:менамлӧн K ;
@@ -69,7 +69,7 @@ LEXICON PERS-PL1    !!≈ * __@CODE@__
 
 LEXICON PERS-SG2     !!≈ * __@CODE@__
 +Nom:тэ K ;
-+Cmpl:тэ WordEnd ;
+!+Cmpl:тэ WordEnd ;  removed 2019-10-27 same as Nom
 +Gen:тэнад K ;
 +Gen:тэлӧн K ;
 +Gen:тэнадлӧн K ;
@@ -93,7 +93,7 @@ LEXICON PERS-SG2     !!≈ * __@CODE@__
 
 LEXICON PERS-PL2 !!≈ * __@CODE@__ 
 +Nom:ті K ;
-+Cmpl:ті WordEnd ;
+!+Cmpl:ті WordEnd ;  removed 2019-10-27 same as Nom
 +Nom:тійӧ K ; !We need a special tag for discerning +Nom forms  Der/йӧ
 +Gen:тіян K ;
 +Gen:тіянлӧн K ;
@@ -123,7 +123,7 @@ LEXICON PERS-SG3  !!≈ * __@CODE@__
 +Acc:сійӧс K ; !Der/йӧ
 +Ins:сійӧн K ; !Der/йӧ
 :сы perssg ;  ! for the regular obl sg
-+Cmpl:сы WordEnd ;
++Cmpl:сы WordEnd ; ! distinct from Nom
 !More form ӧния коми кыв 163
 +Gen:сійӧлӧн K ; !Der/йӧ
 +Abl:сійӧлысь K ; !Der/йӧ
@@ -148,7 +148,7 @@ LEXICON PERS-PL3 !!≈ * __@CODE@__
 +Acc:найӧӧс K ; !
 +Gen:налӧн K ;
 :на persplobl ; !This might be one solution for the different stem types
-+Cmpl:на WordEnd ;
++Cmpl:на WordEnd ; ! Distinct from Nom
 !
 +Gen:найӧлӧн K ; !Der/йӧ
 +Abl:найӧлысь K ; !Der/йӧ
@@ -442,7 +442,7 @@ LEXICON PRON-HUM
 
 LEXICON PRON-HUM-OBL
 ! 2000: 187
-+Cmpl: WordEnd ;
+!+Cmpl: WordEnd ;  removed 2019-10-27 same as Nom
 +Gen:лӧн WordEnd ;
 +Abl:лысь WordEnd ; !
 +Dat:лы WordEnd ;
@@ -614,7 +614,7 @@ LEXICON PRON-RECIPR
 +Pron+Recipr: PRON-RECIPR-CASE ;
 
 LEXICON PRON-RECIPR-CASE
-+Cmpl: WordEnd ;
++Cmpl: WordEnd ; !CHECKME 2019-10-27 is this same as Sg Nom
 +Cmpl+PxSg2:ыд K ;
 +Cmpl+PxSg2:ыс K ;
 +Cmpl+PxPl1:ным K ;
@@ -950,7 +950,7 @@ LEXICON PRONDEMTAGSG-TA
 +Pron+Dem+Pl:%>йян PRONDEMTAGPL ;
 
 LEXICON PRONDEMTAGSG 
-+Cmpl: WordEnd ;
++Cmpl: WordEnd ; !distinct from Nom
 +Ins:ӧн K ;
 +Com:кӧд K ;
 +Car:тӧг K ;
@@ -1359,7 +1359,7 @@ LEXICON PRON-NEG-COLL-CASES
 LEXICON PRON-NEG-OBL
 ! 2011-11-15 This is used by PRON-NEG
 ! also тэа-мэа inclusive 1Du, сыа-мэа exclusive 1Du
-+Cmpl: WordEnd ;
++Cmpl: WordEnd ; !CHECKME 2019-10-27 is this distinct from Sg Nom
 +Gen:лӧн WordEnd ;
 +Abl:лысь K ; !
 +Dat:лы K ;
