@@ -290,7 +290,12 @@ REMOVE Der/са IF (0 ("<(.*)са>"r) + A);
 
 # NOMINALS
 # Cases
+REMOVE:NoAccIfNom Acc IF (0 Nom);
+# this gets rid of ZERO Accusatives
+
 SELECT:Cmpl1 Cmpl IF (1 Po) ;
+
+SELECT:PoIfCmpl-1 Po IF (-1 Cmpl) ;
 
 REMOVE Relat IF (-1 Cmpl);
 # Та йылысь юӧртліс «Коми му»
