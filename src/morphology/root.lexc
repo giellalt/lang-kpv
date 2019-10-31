@@ -358,14 +358,14 @@ Multichar_Symbols
  +Sem/Wthr        !!≈ * __@CODE@__ The Weather or the state of ground
  +Sem/Year        !!≈ * __@CODE@__
 
- +Sem/Sur_Fem         !!≈ * __@CODE@__ Surname female
- +Sem/Sur_Mal         !!≈ * __@CODE@__ Surname male
+ +Sem/Sur-Fem         !!≈ * __@CODE@__ Surname female
+ +Sem/Sur-Mal         !!≈ * __@CODE@__ Surname male
  +Sem/Ant             !!≈ * __@CODE@__  Anthroponym
- +Sem/Ant_Fem         !!≈ * __@CODE@__  Anthroponym female
- +Sem/Ant_Mal         !!≈ * __@CODE@__  Anthroponym male
+ +Sem/Ant-Fem         !!≈ * __@CODE@__  Anthroponym female
+ +Sem/Ant-Mal         !!≈ * __@CODE@__  Anthroponym male
  +Sem/Patr            !!≈ * __@CODE@__  Patronym
- +Sem/Patr_Fem        !!≈ * __@CODE@__  Patronym female
- +Sem/Patr_Mal        !!≈ * __@CODE@__  Patronym male
+ +Sem/Patr-Fem        !!≈ * __@CODE@__  Patronym female
+ +Sem/Patr-Mal        !!≈ * __@CODE@__  Patronym male
 
 
 ! Multiple Semantic tags:
@@ -893,11 +893,13 @@ SUBSTANDARDS ; ! temporary solution
 !!2015-09-07	propernouns-malenames-russian-derivable	;
 	propernouns-malesurnames-cyrillic	;
 !!2015-09-07	propernouns-malesurnames-russian-derivable	;
-!!2015-09-07	propernouns-toponyms-Russian	;
+!!2015-09-07	
+propernouns-toponyms-Russian	;!2019-10-30 Cyrillic
 @U.Cap.Obl@	propernouns-toponyms-Komi ;
 @U.Cap.Opt@	propernouns-toponyms-Komi ;
 	propernouns	;
 	quantifiers	;
+	subjunctors	;
 	verbs-A2M	;
 	verbs-N2END	;
 	VERBNEGATIVE	; ! affixes/verbs.lexc
@@ -905,6 +907,7 @@ SUBSTANDARDS ; ! temporary solution
 
 	Abbreviation	;
 	Acronym		;
+	kpv-Acronym		;
 	Punctuation	;
     Symbols     ;
 	EXCEPTIONS	;

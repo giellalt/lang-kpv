@@ -25,6 +25,7 @@ GT_LEXC_ROOT=$(srcdir)/root.lexc
 GT_LEXC_SRCS_L1_L2=\
 		stems/abbreviations.lexc                      \
 		stems/acronyms.lexc                           \
+		stems/kpv-acronyms.lexc                           \
 		stems/adjectives-russian-like.lexc            \
 		stems/adjectives-russian-like_newwords.lexc   \
 		stems/adjectives-regular.lexc                 \
@@ -50,8 +51,10 @@ GT_LEXC_SRCS_L1_L2=\
 		stems/propernouns-malesurnames-cyrillic.lexc  \
 		stems/propernouns-toponyms-Komi.lexc          \
 		stems/propernouns.lexc                        \
+		stems/propernouns-toponyms-Russian.lexc       \
 		stems/propernouns_newwords.lexc               \
 		stems/quantifiers.lexc                        \
+		stems/subjunctors.lexc                        \
 		stems/verbs-A2M.lexc                          \
 		stems/verbs-N2END.lexc                        \
 		stems/verbs_newwords.lexc                     \
