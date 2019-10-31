@@ -44,8 +44,8 @@ LEXICON dialect_lexicon
 айка+N+Err/Dial:айко N_ ;
 бергӧдчыны+V+Err/Dial:бергедч VR_ЛЫДДЬЫНЫ ;
 босьтны+V+Err/Dial:босьны BV_КУТНЫ ;
-быдсӧн+Err/Dial:быдсэн PRON_ ;
-ведь:ведь PCLE_ ;
+быдсӧн+Pron+Err/Dial:быдсэн PRON_ ;
+ведь+Pcle:ведь PCLE_ ;
 велӧдны+V+Err/Dial:велэд TV_КУТНЫ ;
 велӧдчыны+V+Err/Dial:велэдч VR_ЛЫДДЬЫНЫ ; 
 видзӧдны+V+Err/Dial:видзед V_ЛЫДДЬЫНЫ ;
@@ -58,7 +58,7 @@ LEXICON dialect_lexicon
 вӧйна+N:вӧйна N_ ;
 войӧдны+V+Err/Dial:воед TV_КУТНЫ ;
 вӧлӧсьт+N+Err/Dial:вӧлэсьт N_ ;
-время+N:время N_ ;
+время+N+Err/Dial:время N_ ;
 вроде+Pcle:вроде PCLE_ ;
 гашкӧ+Adv+Err/Dial:гашке ADV_ ;
 да+Pcle+Err/Dial:даа PCLE_ ;
@@ -69,32 +69,33 @@ LEXICON dialect_lexicon
 именнэ+Adv+Err/Dial:именнэ ADV_ ;
 интереснэ+A+Err/Dial:интереснэ A_ ;
 кыдз+Adv+Err/Dial:кудз ADV_ ;
-кӧ+Err/Dial:ке CS_ ;
-кӧнечнэ:кӧнечнэ PCLE_ ;
-коркӧ+Err/Dial:корке ADV_ ;
-кӧть+Err/Dial:хӧть CS_ ;
+кӧ+CS+Err/Dial:ке CS_ ;
+кӧнечнэ+Pcle+Err/Dial:кӧнечнэ PCLE_ ;
+коркӧ+Adv+Err/Dial:корке ADV_ ;
+кӧть+CS+Err/Dial:хӧть CS_ ;
 купол+N:купол N_ ;
 кутны+V+Err/Dial:куч TV_КУТНЫ ;
-кутшӧм+Err/Dial:кутшем ADV_ ; ! These seem to need some different treatment
-кутшӧм+Err/Dial:кучöм ADV_ ;
-кутшӧм+Err/Dial:кучем ADV_ ;
-кытӧн+Err/Dial:кытэн PronInterr ;
-кытчӧ+Err/Dial:кытче Ill4INTERR-REL-INDEF ;
+кутшӧм+Adv+Err/Dial:кутшем ADV_ ; ! These seem to need some different treatment
+кутшӧм+Adv+Err/Dial:кучöм ADV_ ;
+кутшӧм+Adv+Err/Dial:кучем ADV_ ;
+кытӧн+Adv+Err/Dial:кытэн ADV_ ;
+кытчӧ+Adv+Err/Dial:кытче ADV_ ;
 ладнӧ+Adv+Err/Dial:ладнэ ADV_ ;
 лӧсьӧдны+V+Err/Dial:лӧсед TV_КУТНЫ ;
 лэгъявны+V+Err/Dial:лэгъял IV_НУАВНЫ ;
 малича+N+Err/Dial:мальча N_ ;
 медланнӧ+Adv+Err/Dial:медланнэ ADV_ ;
-мимӧ+Err/Dial:миме PO-NOM ;
-мися+Err/Dial:меша PCLE_ ;
+мимӧ+Po:мимӧ PO-NOM ;
+мимӧ+Po+Err/Dial:миме PO-NOM ;
+мися+Pcle+Err/Dial:меша PCLE_ ;
 мушку+N+Err/Dial:мушку N_ ;
-мыйкӧ+Err/Dial:мыйке PRONINDEFTAG-KO ;
-мыйӧн+Err/Dial:мыйэн CS_ ;
+мыйкӧ+Err/Dial:мыйке PRONINDEFTAG-KO ; ! Something wrong here?
+мыйӧн+CS+Err/Dial:мыйэн CS_ ;
 навернӧ+Adv+Err/Dial:навернэ ADV_ ;
-нинӧм+Err/Dial:нинэм PRON-NEG ;
-нӧ+Err/Dial:нэ PCLE_ ;
+нинӧм+Err/Dial:нинэм PRON-NEG ; ! Is this correct?
+нӧ+Pcle+Err/Dial:нэ PCLE_ ;
 обязательнэ+Adv:обязательнэ ADV_ ;
-ӧд+Err/Dial:эд PCLE_ ;
+ӧд+Pcle+Err/Dial:эд PCLE_ ;
 ӧні+Adv+Err/Dial:эні ADV_ ;
 остяк+N+Err/Dial:ӧстяк N_ ;
 ӧти+Num+Err/Dial:ӧтік NUM-CARD_ ;
@@ -107,42 +108,42 @@ LEXICON dialect_lexicon
 равно+Adv:равно ADV_ ;
 ровно+Adv:ровно ADV_ ;
 розь+N+Err/Dial:рузь N_ ;
-русскӧй+Err/Dial:русскей A-RUS-PROP_ ;
+русскӧй+A+Err/Dial:русскей A-RUS-PROP_ ;
 сарапан+N+Err/Dial:сарафан N_ ;
 ситуация+N:ситуация N_ ;
-спасибо+Interj:спасибо INTERJ_ ;
-специальнэ:специальнэ A_ ;
-сы+Err/Dial:сіе PRONDEMTAG ;
-сы+Err/Dial:сія PRONDEMTAG ;
-сы+Err/Dial:сыа PRONDEMTAG ;
-сытчӧ+Err/Dial+Adv:сытчӧ ADV-IS_ILL ;
-сэсся+Err/Dial+Adv:ся ADV_ ;
-сэтӧн+Err/Dial+Adv:сэтэн ADV_ ;
-сэтшӧм+Err/Dial+A:сэтшем ADNDEMTAG ;
-сэтшӧм+Err/Dial+A:сэчем ADNDEMTAG ;
-та+Err/Dial:тая PRONDEMTAGSG-TA ;
-тасянь+Err/Dial+Adv:эстысянь ADV_ ;
-татӧн+Err/Dial+Adv:татэн ADV_ ;
-татӧн+Err/Dial+Adv:тытэн ADV_ ;
-татчӧ+Err/Dial+Adv:татчӧ ADV_ ;
-татчӧ+Err/Dial+Adv:тытчӧ ADV_ ;
-татшӧм+Err/Dial+A:татшем A_ ; ! This needs something more complex
-тожӧ+Err/Dial+Adv:тоже ADV_ ;
-тыдавны+Err/Dial+V:тыдоо IV_НУАВНЫ ;
-чери+Err/Dial+N:тери N_ ;
-эм+Err/Dial:выйым V_ ;
-эстчӧ+Err/Dial:эстче ADV_ ;
-эстшӧм+Err/Dial:эстшем PRONDEMTAG ;
-эськӧ+Err/Dial+Adv:веське ADV_ ;
-эськӧ+Err/Dial+Adv:веськӧ ADV_ ;
-эськӧ+Err/Dial+Adv:эське ADV_ ;
+спасибо+Interj:спасибо INTERJ_ ; ! Should this get some extra tag?
+специальнэ+A+Err/Dial:специальнэ A_ ;
+сійӧ+Pron+Err/Dial:сіе PRONDEMTAG ;
+сійӧ+Pron+Err/Dial:сія PRONDEMTAG ;
+сійӧ+Pron+Err/Dial:сыа PRONDEMTAG ;
+сытчӧ+Adv+Err/Dial:сытчӧ ADV-IS_ILL ;
+сэсся+Adv+Err/Dial:ся ADV_ ;
+сэтӧн+Adv+Err/Dial:сэтэн ADV_ ;
+сэтшӧм+A+Err/Dial:сэтшем ADNDEMTAG ;
+сэтшӧм+A+Err/Dial:сэчем ADNDEMTAG ;
+та+Pron+Err/Dial:тая PRONDEMTAGSG-TA ;
+тасянь+Adv+Err/Dial:эстысянь ADV_ ;
+татӧн+Adv+Err/Dial:татэн ADV_ ;
+татӧн+Adv+Err/Dial:тытэн ADV_ ;
+татчӧ+Adv+Err/Dial:татчӧ ADV_ ;
+татчӧ+Adv+Err/Dial:тытчӧ ADV_ ;
+татшӧм+A+Err/Dial:татшем A_ ; ! This needs something more complex
+тожӧ+Adv+Err/Dial:тоже ADV_ ;
+тыдавны+V+Err/Dial:тыдоо IV_НУАВНЫ ;
+чери+N+Err/Dial:тери N_ ;
+эм+Err/Dial:выйым V_ ; ! This needs maybe thinking
+эстчӧ+Adv+Err/Dial:эстче ADV_ ;
+эстшӧм+Err/Dial:эстшем PRONDEMTAG ; ! This needs work
+эськӧ+Adv+Err/Dial:веське ADV_ ;
+эськӧ+Adv+Err/Dial:веськӧ ADV_ ;
+эськӧ+Adv+Err/Dial:эське ADV_ ;
 
 ! Actually new words
 
 болезнь+N:болезнь N_ ;
-гӧгӧр+Err/Dial+Po:гӧгер PO-NOM ;
+гӧгӧр+Po+Err/Dial:гӧгер PO-NOM ;
 Ёртом+N+Prop:Ёртом PROP_ ;
-если+Err/Dial:если CS_  ;
+если+CS+Err/Dial:если CS_  ;
 Ижма+N+Prop:Ижма PROP_ ;
 Йӧртым+N+Prop:Йӧртым PROP_ ;
 Коздинга+N+Prop:Коздинга PROP_ ;
@@ -150,19 +151,19 @@ LEXICON dialect_lexicon
 Ламдо+N+Prop:Ламдо PROP_ ;
 мамаша+N:мамаша N_ ;
 мӧдасыв+Adv:мӧдасыв ADV_ ;
-мыйкӧкарны+Err/Dial+V:мыйкекар V_ШУНЫ ;
-мыйкӧкарны+Err/Dial+V:мыйкӧкар V_ШУНЫ ;
+мыйкӧкарны+V+Err/Dial:мыйкекар V_ШУНЫ ;
+мыйкӧкарны+V+Err/Dial:мыйкӧкар V_ШУНЫ ;
 Мыля+N+Prop:Мыля PROP_ ;
 Нярьян-Мар+N+Prop:Нярьян-Мар PROP_ ;
 Острово+N+Prop:Острово PROP_ ;
 папаша+N:папаша N_ ;
-первӧй+Err/Dial:первей ADV_ ;
+первӧй+Adv+Err/Dial:первей ADV_ ;
 Печера+N+Prop:Печера PROP_ ;
-понравитчыны+Err/Dial+V:понравитч V_ЛЫДДЬЫНЫ ;
-рӧбета+Err/Dial+N:рӧбета N_ ;
+понравитчыны+V+Err/Dial:понравитч V_ЛЫДДЬЫНЫ ;
+рӧбета+N+Err/Dial:рӧбета N_ ;
 Саранпауль+N+Prop:Саранпауль PROP_ ;
 Семӧв-Егыр+N+Prop:Семӧв-Егыр PROP_ ;
-сначала:сначала ADV_ ;
+сначала+Adv+Err/Dial:сначала ADV_ ;
 Сталинград+N+Prop:Сталинград PROP_ ;
 Сюдбее+N+Prop:Сюдбее PROP_ ;
 Тайланд+N+Prop:Тайланд PROP_ ;
@@ -195,36 +196,36 @@ LEXICON dialect_lexicon
 !Сюдбей
 !сякей
 !щас
-айдлас+Err/Dial+N:айдлас N_ "harpoon" ;
+айдлас+N+Err/Dial:айдлас N_ "harpoon" ;
 бель+N:бель N_ ;
-берег+Err/Dial+N:берӧг N_ ;
-больнича+Err/Dial+N:больніча N_ ;
+берег+N+Err/Dial:берӧг N_ ;
+больнича+N+Err/Dial:больніча N_ ;
 бы+Pcle:бы PCLE_ ;
-вичкӧ+Err/Dial+N:вичкӧ N_ ;
-вӧв+Err/Dial+N:вӧӧ N_ ;
+вичкӧ+N+Err/Dial:вичкӧ N_ ;
+вӧв+N+Err/Dial:вӧӧ N_ ;
 вӧйтти+Adv:вӧйтти ADV_ ;
-вом+Err/Dial+N:вӧм N_ ;
-год+Err/Dial+N:гӧд N_ ;
+вом+N+Err/Dial:вӧм N_ ;
+год+N+Err/Dial:гӧд N_ ;
 год+N:год N_ ;
-гожӧм+Err/Dial+N:гожем N_ ;
+гожӧм+N+Err/Dial:гожем N_ ;
 дажӧ+Adv:дажӧ ADV_ ;
-дажӧ+Err/Dial+Adv:даже ADV_ ;
+дажӧ+Adv+Err/Dial:даже ADV_ ;
 девушка+N:девушка N_ ;
-дом+Err/Dial+N:дӧм N_ ;
-еджыд+Err/Dial+A:едзыд A_ ;
+дом+N+Err/Dial:дӧм N_ ;
+еджыд+A+Err/Dial:едзыд A_ ;
 ешшӧ+Adv:ешо ADV_ ;
 ешшӧ+Adv:ешшӧ ADV_ ;
-значит:значит PCLE_ ;
-или:или PCLE_ ;
-исполнитчыны+Err/Dial+V:исполнитч V_ЛЫДДЬЫНЫ ;
+значит+Pcle:значит PCLE_ ;
+или+Pcle:или PCLE_ ; ! May need thinking
+исполнитчыны+V+Err/Dial:исполнитч V_ЛЫДДЬЫНЫ ;
 кайны+Err/Dial+V:ка TV_ШУНЫ ; ! Dialectal variant каны : каас
 картапель+N:картапель N_ ;
-код+Err/Dial+Pron:кодке PRONINDEFTAG-KO ; ! This probably needs to be checked
-места+Err/Dial+N:местӧ N_ ;
-места+Err/Dial+N:местэ N_ ;
-мӧдӧдны+Err/Dial+V:мӧдэд IV_КУТНЫ ;
+код+Pron+Err/Dial:кодке PRONINDEFTAG-KO ; ! This probably needs to be checked
+места+N+Err/Dial:местӧ N_ ;
+места+N+Err/Dial:местэ N_ ;
+мӧдӧдны+V+Err/Dial:мӧдэд IV_КУТНЫ ;
 мӧдӧр+N:мӧдӧр N_ ;
-мый+Err/Dial:муй CS_ ;
+мый+CS+Err/Dial:муй CS_ ;
 октябр+N+Sem/Time:октяб N_ ;
 оленевод+N:оленевод N_ ;
 оформление+N:оформление N_ ;
@@ -235,35 +236,33 @@ LEXICON dialect_lexicon
 подводнӧй+A:подводнӧй A-RUS-MAIN_ ;
 пони+A:пони A_ ;
 проход+N:проход N_ ;
-силавны+Err/Dial:сила V_НУАВНЫ ;
-сідз+Err/Dial:сідь ADV_ ;
+силавны+V+Err/Dial:сила V_НУАВНЫ ;
+сідз+Adv+Err/Dial:сідь ADV_ ;
 стад+N:стад N_ ;
-сэтчӧ+Err/Dial:сытчӧ ADV_ ;
-тайӧ+Err/Dial:эта PRONDEMTAGSG-TA ;
-тайӧ+Err/Dial:этая PRONDEMTAGSG-TA ;
-тайӧ+Err/Dial:этӧ PRONDEMTAGSG-TA ;
+сэтчӧ+Adv+Err/Dial:сытчӧ ADV_ ;
+тайӧ+Pron+Err/Dial:эта PRONDEMTAGSG-TA ;
+тайӧ+Pron+Err/Dial:этая PRONDEMTAGSG-TA ;
+тайӧ+Pron+Err/Dial:этӧ PRONDEMTAGSG-TA ;
 татчӧ+Adv+Err/Dial:тытчӧ ADV_ ;
 телевышка+N:телевышка N_ ;
 телестанция+N:телестанция N_ ;
 тожӧ+Adv+Err/Dial:тӧжӧ ADV_ ;
 только+Adv:только ADV_ ;
-только+Err/Dial+Adv:тoкo ADV_ ;
-только+Err/Dial+Adv:тӧлька ADV_ ;
-только+Err/Dial+Adv:тӧлькӧ ADV_ ;
+только+Adv+Err/Dial:тoкo ADV_ ;
+только+Pron+Err/Dial:тӧлька ADV_ ;
+только+Pron+Err/Dial:тӧлькӧ ADV_ ;
 храм+N:храм N_ ;
 царевич+N:царевич N_ ;
 штӧ:штӧ CS_ ;
 ысковтны+Err/Dial+V:ысковт V_КУТНЫ ;
-эм+Err/Dial:виим CS_ ;
-эм+Err/Dial:вийим CS_ ;
-ярмарга+Err/Dial+N:ярманга N_ ;
+ярмарга+N+Err/Dial:ярманга N_ ;
 
 ! This should go to the actual lexicon
 
 антимеханизаторскӧй+A:антимеханизаторскӧй A-RUS-MAIN_ ;
-ывлавыв:ывлавыв N-VYV ;
-шопер+Err/Dial+N:шофёр N_ ;
-шопер+Err/Dial+N:шофeр N_ ;
+ывлавыв+N:ывлавыв N-VYV ;
+шопер+N+Err/Dial:шофёр N_ ;
+шопер+N+Err/Dial:шофeр N_ ;
 броневичок+N:броневичок N_ ;
 видзму+N:видзму N_ ;
 пото+N:пото N_ ;
