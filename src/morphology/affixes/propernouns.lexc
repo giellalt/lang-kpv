@@ -9,8 +9,9 @@ LEXICON ACRON-F
 
 LEXICON ACRON
 +Acron:	PROP_	;
-
-
+LEXICON PROP-RUS_ !
+PROP_ ;
+!PROP_-DERIVABLE
 ! Basic proper nouns.
 LEXICON PROP_
 +Sg: CASEPOSSLEX ;
@@ -119,10 +120,10 @@ LEXICON PROP_KUDO_MAL
 +Sem/Mal+Sg: CASEPOSSLEX ;
 
 LEXICON PROP_KUDO_PATRFEM
-+Sem/Patr+Sem/Fem+Sg: CASEPOSSLEX ; 
++Sem/Patr-Fem+Sg: CASEPOSSLEX ; 
 
 !2018-10-21!LEXICON PROP_KUDO_PATRMAL
-!2018-10-21!+Sem/Patr+Sem/Mal+Sg: CASEPOSSLEX ; 
+!2018-10-21!+Sem/Patr-Mal+Sg: CASEPOSSLEX ; 
 LEXICON PROP_LAK_MAL
 +Sem/Mal+Sg: CASEPOSSLEX ;
 LEXICON PROP_OSH_FEM
@@ -138,7 +139,7 @@ LEXICON PROP_OSH_SUR
 !!! Male given name for deriving patronyms 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON PROP-PATR-MAL_END-IN-CH/DZ
-+Sem/Patr+Sem/Mal: NMN_END-IN-Ч/ДЗ ; !! Should this be limited to +Sg? 2015-09-06
++Sem/Patr-Mal: NMN_END-IN-Ч/ДЗ ; !! Should this be limited to +Sg? 2015-09-06
 
 LEXICON PropNameMaleDer-I-YEvich
 !! Вили:Вил
@@ -187,10 +188,10 @@ LEXICON PropNameMaleDer-Ovich
 !!
 
 LEXICON PropSurMal-kal
-+Sem/Sur+Sem/Mal+Sg: CASEPOSSLEX ;
++Sem/Sur-Mal+Sg: CASEPOSSLEX ;
 
 LEXICON PropSurFem-kudo
-+Sem/Sur+Sem/Fem+Sg: CASEPOSSLEX ;
++Sem/Sur-Fem+Sg: CASEPOSSLEX ;
 
 LEXICON PropSur-kal
 +Sem/Sur+Sg: CASEPOSSLEX ;
@@ -216,8 +217,8 @@ LEXICON PropSur-kudo
 
 
 !2018-10-21!LEXICON Prop-Derivable
-!2018-10-21!+Sem/Sur+Sem/Mal+Sg: CASEPOSSLEX ; ! Владимиров
-!2018-10-21!а+Sem/Sur+Sem/Fem+Sg:%^FEM%>а CASEPOSSLEX ; ! Владимирова
+!2018-10-21!+Sem/Sur-Mal+Sg: CASEPOSSLEX ; ! Владимиров
+!2018-10-21!а+Sem/Sur-Fem+Sg:%^FEM%>а CASEPOSSLEX ; ! Владимирова
 
 ! Prop-Derivable end  in: ев, ов, ёв, ий, ин
 ! Prop-Derivable for fem: ева, ова, ёва, ая, ина
@@ -225,8 +226,8 @@ LEXICON PropSur-kudo
 
 !This might need some working on 2012-01-23
 LEXICON PROP-MAL-DERIVABLE !Patronyms
-ович+Sem/Patr+Sem/Mal+Sg:%>ович CASEPOSSLEX ; ! Владимирович
-овна+Sem/Patr+Sem/Fem+Sg:%>овна CASEPOSSLEX ; ! Владимировна
+ович+Sem/Patr-Mal+Sg:%>ович CASEPOSSLEX ; ! Владимирович
+овна+Sem/Patr-Fem+Sg:%>овна CASEPOSSLEX ; ! Владимировна
  PROP-MAL ; ! Владимир
 
 !! FEMALE NAMES FROM TEMPLATE
@@ -279,13 +280,13 @@ Prop-Sur-Mal ;
 Prop-Sur-Fem ;
 
 LEXICON Prop-Sur-Mal ! Basic nouns.
-+Sem/Sur+Sem/Mal+Sg: CASEPOSSLEX ;
++Sem/Sur-Mal+Sg: CASEPOSSLEX ;
 
 LEXICON PROP-MAL ! Male given names
 +Sem/Mal+Sg: CASEPOSSLEX ;
 
 LEXICON Prop-Sur-Fem ! Basic nouns.
-+Sem/Sur+Sem/Fem+Sg: CASEPOSSLEX ;
++Sem/Sur-Fem+Sg: CASEPOSSLEX ;
 
 !2018-10-21!LEXICON PROP-FEM ! Female given names
 !2018-10-21!+Sem/Fem+Sg: CASEPOSSLEX ;
