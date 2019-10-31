@@ -970,11 +970,14 @@ LEXICON ABBR-IS_N
 ! ======= !
 
 LEXICON K
+ K-NO-PX-LOOKALIKE ;
++Clt/тӧ:%>тӧ WordEnd ;
++Clt/сӧ:%>сӧ WordEnd ;
+
+LEXICON K-NO-PX-LOOKALIKE
              WordEnd ;
 +Clt/а:%>%-а WordEnd ;
 +Clt/ӧ:%>%-ӧ WordEnd ;
-+Clt/тӧ:%>тӧ WordEnd ;
-+Clt/сӧ:%>сӧ WordEnd ;
 
 ! For this all instances of _#_
 ! were converted to _WordEnd_
