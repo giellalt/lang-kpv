@@ -1,15 +1,27 @@
 
 LEXICON determiners
 
-гоз-мӧд:гоз-мӧд DET_  "" ;
-душ-мӧд:душ-мӧд DET_  "" ;
-!2017-11-02коимӧд:коимӧд ORD  "kolmas" ;
-коймӧд:коймӧд ORD  "kolmas" ;
-мӧд:мӧд ORD  "toinen" ;
-мӧдӧд:мӧдӧд ORD  "toinen" ;
-первой:первой ORD  "ensimmäinen" ;
-первӧй:первӧй ORD  "ensimmäinen" ;
-мукӧд:мукӧд DET_  "" ;
+гоз-мӧд+Det:гоз-мӧд DET_  "" ;
+душ-мӧд+Det:душ-мӧд DET_  "" ;
+!2017-11-02коимӧд+Det:коимӧд ORD  "kolmas" ;
+коймӧд+Det:коймӧд ORD  "kolmas" ;
+мӧд+Det:мӧд ORD  "toinen" ;
+мӧдӧд+Det:мӧдӧд ORD  "toinen" ;
+первой+v1+Det:первой ORD  "ensimmäinen" ;
+первой+v2+Det:первӧй ORD  "ensimmäinen" ;
+
+татчӧс+Det:татчӧс DET_  "täkäläinen" ;
+татчӧсса+Det:татчӧсса DET_  "täkäläinen" ;
+татшӧмкодь+Det:татшӧмкодь DET_  "tämän kaltainen" ;
+сэтчаньса+Det:сэтчаньса DET_  "" ;
+сэтчӧс+Det:сэтчӧс DET_  "paikallinen" ;
+сэкся+Det:сэкся DET_  "silloinen" ;
+сэкъя+Det:сэкъя DET_  "" ;
+сэтшӧм+Det:сэтшӧм DET_  "sellainen" ;
+татшӧм+Det:татшӧм DET_  "tällainen" ;
+этатшӧм+Det:этатшӧм DET_  "juuri tällainen" ;
+
+мукӧд+Det:мукӧд DET_  "" ;
 кыкнан+Det:кыкнан DET_END ;
 некоднан+Det:некоднан DET_END ;
 куимнан+Det:куимнан DET_END ;

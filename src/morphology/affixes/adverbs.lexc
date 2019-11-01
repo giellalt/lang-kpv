@@ -8,6 +8,12 @@ LEXICON ADV-ADA_
 LEXICON Ad-ATAG ! these are checked as advs.
 ADV-ADA_ ;
 
+LEXICON ADV-MANNER_
++Manner: WordEnd ;
+
+LEXICON ADV-NEG_
++Neg: WordEnd ;
+
 LEXICON GER_
 +V+Ger: ADV_ ;
 
