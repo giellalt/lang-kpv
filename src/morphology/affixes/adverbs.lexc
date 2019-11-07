@@ -3,10 +3,8 @@
 !! Komi adverbs inflect for direction.
 
 
-LEXICON ADV-ADA_
-+AdA: WordEnd ;
-LEXICON Ad-ATAG ! these are checked as advs.
-ADV-ADA_ ;
+LEXICON ADV-DEG_ ! depricate ADV-ADA_ and Ad-ATAG
++Deg: WordEnd ;
 
 LEXICON ADV-MANNER_
 +Manner: WordEnd ;
