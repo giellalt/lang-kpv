@@ -116,7 +116,7 @@ LEXICON A-IS_TOM
 !2018-10-21!+Superl: A_ ;
 
 LEXICON A-PRED ! ӧбиднӧ
-+Pred: WordEnd ; !
++Cop: WordEnd ; !
 
 
 LEXICON A_
@@ -141,8 +141,8 @@ LEXICON SUPERL-A_
 
 LEXICON A_PARAGOGIC-В/Л !!= * @CODE@ юмов:юмо юмолӧсь
 :в K ; !! Singular predicative 
-+Pred+Pl:л%>ӧсь K ; ! Plural predicative.
-+Err/Dial+Pred+Pl:л%>эсь K ; ! Plural predicative.
++Cop+Pl:л%>ӧсь K ; ! Plural predicative.
++Err/Dial+Cop+Pl:л%>эсь K ; ! Plural predicative.
 :в AdjCompar ;
 +Der+Der/кодь+A:в%>кодь PredMonAdj ;
 +Der+Der/кодь+A:в%>кодь AdjCompar ;
