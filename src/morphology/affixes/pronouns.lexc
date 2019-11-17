@@ -334,8 +334,8 @@ LEXICON INTERR
 кытӧн+Adv+Spat+Ine:кытӧн INTERR-REL ;
 кытӧні+Adv+Spat+Ine:кытӧні INTERR-REL ;
  
-кӧні+Adv+Spat+Ine+Pred+Sg:кӧні INTERR-REL ;
-кӧні+Adv+Spat+Ine+Pred+Pl:кӧнӧсь INTERR-REL ;
+кӧні+Adv+Spat+Ine+Cop+Sg:кӧні INTERR-REL ;
+кӧні+Adv+Spat+Ine+Cop+Pl:кӧнӧсь INTERR-REL ;
 мый+Pron+Interr+Sg:мый PRON-NONHUM ;
 мый+Pron+Interr+Pl:мыйяс PRON-NONHUM ;
 мыйда+Pron+NonHum:мыйда INTERR-REL ;
@@ -396,7 +396,7 @@ LEXICON INDEFINITE-PRON
 кытісюрӧ+Adv+Indef+Tra:кытісюрӧ K ;
 кытсюрӧ+Adv+Indef+Tra+Der/сюрӧ+Indef:кытсюрӧ K ; 
 кытӧнсюрӧ+Adv+Indef+Ine:кытӧнсюрӧ K ;
-кӧнісюрӧ+Adv+Indef+Ine+Pred+Sg:кӧнісюрӧ K ;
+кӧнісюрӧ+Adv+Indef+Ine+Cop+Sg:кӧнісюрӧ K ;
 кӧнісюрӧ+Adv+Indef+Ine:кӧнсюрӧ K ;
 
 кодаркӧ+Det+Indef:кодаркӧ K ;
@@ -923,10 +923,10 @@ LEXICON PRONDEMTAG
 
 LEXICON ADNDEMTAG
 +Det+Dem: K ;
-+Det+Dem+Pred+Pl:%>ӧсь K ;
++Det+Dem+Cop+Pl:%>ӧсь K ;
 +Det+Dem: Noun1 ;
 !+Adn+Dem: K ;
-!+Adn+Dem+Pred+Pl:%>ӧсь K ;
+!+Adn+Dem+Cop+Pl:%>ӧсь K ;
 !+Adn+Dem+Der/MWN: Noun1 ;
 
 LEXICON PRONDEMTAG-ES
