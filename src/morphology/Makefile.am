@@ -26,6 +26,7 @@ GT_LEXC_SRCS_L1_L2=\
 		stems/abbreviations.lexc                      \
 		stems/acronyms.lexc                           \
 		stems/kpv-acronyms.lexc                           \
+		stems/kom-adjectives-russian-like.lexc            \
 		stems/adjectives-russian-like.lexc            \
 		stems/adjectives-russian-like_newwords.lexc   \
 		stems/adjectives-regular.lexc                 \
