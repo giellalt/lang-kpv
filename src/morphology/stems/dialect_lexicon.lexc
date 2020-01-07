@@ -138,8 +138,254 @@ LEXICON dialect_lexicon
 эськӧ+Adv+Err/Dial:веськӧ ADV_ ;
 эськӧ+Adv+Err/Dial:эське ADV_ ;
 
-! Actually new words
+! PLACE NAME SECTION
+! Err/Dial tag is used now only if the name actually 
+! would have plausible standard variant, but this is complicated.
+! Despite its shortcomings the system compiles anyway.
+! This part of lexicon will be moved elsewhere eventually.
 
+! New personal names
+Авгыш+N+Prop+Sem/Mal:Авгыш PROP_ "" ; ! name
+Агаша+N+Prop+Sem/Fem:Агаша PROP_ "" ; ! name
+Алеши+N+Prop+Sem/Fem:Алеши PROP_ "" ;
+Альф+N+Prop+Sem/Mal:Альф PROP_ "" ;
+Амор+N+Prop+Sem/Mal:Амор PROP_ "" ;
+Анибуро+N+Prop+Sem/Fem:Анибуро PROP_ "" ; ! name
+Анись+N+Prop+Sem/Fem:Анись PROP_ "" ; ! name ?
+Анна-Ванна+N+Prop+Sem/Fem:Анна-Ванна PROP_ "" ;
+Ануфриёв+N+Prop+Sem/Sur:Ануфриёв PROP_ "" ;
+Арсентьевна+N+Prop+Sem/Patr-Fem:Артеевсентьевна PROP_ "" ;
+Артеев+N+Prop+Sem/Sur:Артеев PROP_ "" ;
+Артемьевна+N+Prop+Sem/Sur:Артемьевна PROP_ "" ;
+Артиев+N+Prop+Sem/Sur-Mal:Артиев PROP_ "" ;
+Артиева+N+Prop+Sem/Sur-Fem:Артиева PROP_ "" ;
+Баскунья+N+Prop+Sem/Fem:Баскунья PROP_ "" ;
+Батманов+N+Prop+Sem/Sur-Mal:Батманов PROP_ "" ;
+Валюшка+N+Prop+Sem/Fem:Валюшка PROP_ "" ;
+Васои+N+Prop+Sem/Sur:Васои PROP_ "" ;
+Владимировича+N+Prop+Sem/Patr-Fem:Владимировича PROP_ "" ;
+Владька+N+Prop+Sem/Mal:Владька PROP_ "" ;
+Вокуев+N+Prop+Sem/Sur-Mal:Вокуев PROP_ "" ;
+Выучейская+N+Prop+Sem/Sur-Fem:Выучейская PROP_ "" ;
+Выучейский+N+Prop+Sem/Sur-Mal:Выучейский PROP_ "" ;
+Геннадьевна+N+Prop+Sem/Patr-Fem:Геннадьевна PROP_ "" ;
+Герценовский+N+Prop+Sem/Sur-Mal:Герценовский PROP_ "" ;
+Егорьевич+N+Prop+Sem/Patr-Mal:Егорьевич PROP_ "" ;
+Ереванов+N+Prop+Sem/Sur-Mal:Ереванов PROP_ "" ;
+Захаровича+N+Prop+Sem/Patr-Fem:Захаровича PROP_ "" ;
+Зинайда+N+Prop+Sem/Fem:Зинайда PROP_ "" ;
+Зиновьевна+N+Prop+Sem/Patr-Fem:Зиновьевна PROP_ "" ;
+Изоф+N+Prop+Sem/Mal:Изоф PROP_ "" ;
+Ильич+N+Prop+Sem/Patr-Mal:Ильич PROP_ "" ;
+Ильича+N+Prop+Sem/Patr-Fem:Ильича PROP_ "" ;
+Иовлевич+N+Prop+Sem/Patr-Mal:Иовлевич PROP_ "" ;
+Ионовна+N+Prop+Sem/Patr-Fem:Ионовна PROP_ "" ;
+Калинскей+N+Err/Dial+Prop+Sem/Sur-Mal:Калинскей PROP_ "" ;
+Калюш+N+Prop+Sem/Sur:Калюш PROP_ "" ; ! Surname
+Карои+N+Prop+Sem/Mal:Карои PROP_ "" ;
+Карплунд+N+Prop+Sem/Sur:Карплунд PROP_ "" ;
+Коварнин+N+Prop+Sem/Sur:Коварнин PROP_ "" ;
+Кожевин+N+Prop+Sem/Sur:Кожевин PROP_ "" ; ! Surname
+Колё+N+Prop+Sem/Mal:Колё PROP_ "" ; ! Komi name, also dog's name apparently
+Коцубанска+N+Prop+Sem/Sur-Fem:Коцубанска PROP_ "" ;
+Ксюшка+N+Prop+Sem/Fem:Ксюшка PROP_ "" ;
+Кужтысев+N+Prop+Sem/Sur:Кужтысев PROP_ "" ;
+Кузьминична+N+Prop+Sem/Patr-Fem:Кузьминична PROP_ "" ;
+Кӧрег+N+Prop+Sem/Mal:Кӧрег PROP_ "" ; ! Komi name
+Ленфрид+N+Prop+Sem/Mal:Ленфрид PROP_ "" ;
+Лёни+N+Prop+Sem/Mal:Лёни PROP_ "" ;
+Матренко+N+Prop+Sem/Fem:Матренко PROP_ "" ;
+Машенька+N+Prop+Sem/Fem:Машенька PROP_ "" ;
+Микалина+N+Prop+Sem/Fem:Микалина PROP_ "" ;
+Митрофонович+N+Prop+Sem/Patr-Маl:Митрофонович PROP_ "" ;
+Михаиловна+N+Prop+Sem/Patr-Fem:Михаиловна PROP_ "" ;
+Михайлыч+N+Prop+Sem/Patr-Mal:Михайлыч PROP_ "" ;
+Надюш+N+Prop+Sem/Fem:Надюш PROP_ "" ;
+Надюшка+N+Prop+Sem/Fem:Надюшка PROP_ "" ;
+Натасья+N+Prop+Sem/Fem:Натасья PROP_ "" ;
+Неофит+N+Prop+Sem/Mal:Неофит PROP_ "" ;
+Никитич+N+Prop+Sem/Patr-Mal:Никитич PROP_ "" ;
+Никитична+N+Prop+Sem/Patr-Fem:Никитична PROP_ "" ;
+Никитца+N+Prop+Sem/Patr-Fem:Никитца PROP_ "" ;
+Никӧлай+N+Prop+Sem/Mal:Никӧлай PROP_ "" ;
+Парфёнович+N+Prop+Sem/Patr-Mal:Парфёнович PROP_ "" ;
+Парфёновна+N+Prop+Sem/Patr-Fem:Парфёновна PROP_ "" ;
+Риваи+N+Prop+Sem/Mal:Риваи PROP_ "" ; ! Not really sure what this name is
+Розэння+N+Prop+Sem/Sur:Розэння PROP_ "" ;
+Росвина+N+Prop+Sem/Sur:Росвина PROP_ "" ;
+Серапионович+N+Prop+Sem/Patr-Mal:Серапионович PROP_ "" ;
+Серапионовна+N+Prop+Sem/Patr-Fem:Серапионовна PROP_ "" ;
+Смидович+N+Prop+Sem/Patr-Mal:Смидович PROP_ "" ;
+Смидовича+N+Prop+Sem/Patr-Fem:Смидовича PROP_ "" ;
+Совкин+N+Prop+Sem/Sur:Совкин PROP_ "" ;
+Стасько-Прасько+N+Prop+Sem/Fem:Стасько-Прасько PROP_ "" ;
+Сурко+N+Prop+Sem/Mal:Сурко PROP_ "" ; ! Komi name
+Таисья+N+Prop+Sem/Fem:Таисья PROP_ "" ;
+Танечка+N+Prop+Sem/Fem:Танечка PROP_ "" ;
+Татяна+N+Prop+Sem/Fem:Татяна PROP_ "" ;
+Текуста+N+Prop+Sem/Fem:Текуста PROP_ "" ;
+Тимка+N+Prop+Sem/Fem:Тимка PROP_ "" ;
+Тошвиска+N+Prop+Sem/Fem:Тошвиска PROP_ "" ;
+Траско-Праско+N+Prop+Sem/Fem:Траско-Праско PROP_ "" ;
+Туреб+N+Prop+Sem/Mal:Туреб PROP_ "" ; ! Komi name
+Тюнюку+N+Prop+Sem/Mal:Тюнюку PROP_ "" ; ! Komi name
+Улюк+N+Prop+Sem/Fem:Улюк PROP_ "" ; 
+Урвановна+N+Prop+Sem/Patr-Fem:Урвановна PROP_ "" ;
+Федэр+N+Err/Dial+Prop+Sem/Mal:Федэр PROP_ "" ;
+Харетина+N+Prop+Sem/Fem:Харетина PROP_ "" ;
+Харлам+N+Prop+Sem/Mal:Харлам PROP_ "" ;
+Хатанзей+N+Err/Dial+Prop+Sem/Sur:Хатанзей PROP_ "" ;
+Ӧдуш+N+Prop+Sem/Mal:Ӧдуш PROP_ "" ;
+
+! New adjective-like things
+
+Апатитскей+N+Err/Dial+Prop+Sem/Plc+EOLang/KOM:Апатитскей PROP-PLC-KPV  "" ;
+Белоярскей+N+Err/Dial+Prop+Sem/Plc+EOLang/KOM:Белоярскей PROP-PLC-KPV  "" ;
+Березовскей+N+Err/Dial+Prop+Sem/Plc+EOLang/KOM:Березовскей PROP-PLC-KPV  "" ;
+Берёзовский+N+Err/Dial+Prop+Sem/Plc+EOLang/KOM:Берёзовский PROP-PLC-KPV  "" ;
+Ижемскей+N+Err/Dial+Prop+Sem/Plc+EOLang/KOM:Ижемскей PROP-PLC-KPV  "" ;
+Пермский+N+Prop+Sem/Plc+EOLang/KOM:Пермский PROP-PLC-KPV  "" ;
+Княжпогосткей+N+Err/Dial+Prop+Sem/Plc+EOLang/KOM:Княжпогосткей PROP-PLC-KPV  "" ;
+Ленинградскей+N+Err/Dial+Prop+Sem/Plc+EOLang/KOM:Ленинградскей PROP-PLC-KPV  "" ;
+Хатанзейскей+N+Err/Dial+Prop+Sem/Plc+EOLang/KOM:Хатанзейскей PROP-PLC-KPV  "" ;
+Ярославскей+N+Err/Dial+Prop+Sem/Plc+EOLang/KOM:Ярославскей PROP-PLC-KPV  "" ;
+
+! New places
+
+Углич+N+Prop+Sem/Plc:Углич PROP_ "" ; ! Some small place close to Moscow?
+Австрия+N+Prop+Sem/Plc:Австрия PROP-RUS_  "" ;
+Азербайджан+N+Prop+Sem/Plc:Азербайджан PROP-RUS_ "" ;
+Аппатит+N+Prop+Sem/Plc:Аппатит PROP-RUS_ "" ;
+Амдерма+N+Prop+Sem/Plc:Амдерма PROP_ "" ;
+Андег+N+Prop+Sem/Plc:Андег PROP_ "" ;
+Анапа+N+Prop+Sem/Plc:Анапа PROP_ "" ;
+Башкирия+N+Prop+Sem/Plc:Башкирия PROP-RUS_ "" ;
+Берёзово+N+Prop+Sem/Plc:Берёзово PROP-RUS_ "" ;
+Брыкаланск+N+Prop+Sem/Plc:Брыкаланск PROP-RUS_ "" ;
+Бусинец+N+Prop+Sem/Plc:Бусинец PROP-RUS_ "" ;
+Вангурей+N+Prop+Sem/Plc:Вангурей PROP_ "" ;
+Варандей+N+Prop+Sem/Plc:Варандей PROP_ "" ;
+Варзуга+N+Prop+Sem/Plc:Варзуга PROP_ "" ; 
+Васильевка+N+Prop+Sem/Plc:Васильевка PROP_ "" ;
+Винла+N+Prop+Sem/Plc:Винла PROP_ "" ;
+Голландия+N+Prop+Sem/Plc:Голландия PROP-RUS_ "" ;
+Денисовка+N+Prop+Sem/Plc:Денисовка PROP_ "" ;
+Еревей+N+Prop+Sem/Plc:Еревей PROP-RUS_ "" ;
+Захарвань+N+Prop+Sem/Plc:Захарвань PROP_ "" ;
+Золотоноша+N+Prop+Sem/Plc:Золотоноша PROP-RUS_ "" ; ! Place somewhere in Caucasus?
+Злӧба+N+Prop+Sem/Plc:Злӧба PROP_ "" ;
+Злоба+N+Prop+Sem/Plc:Злоба PROP_ "" ;
+Золотоноша+N+Prop+Sem/Plc:Золотоноша PROP-RUS_ "" ;
+Ивановка+N+Prop+Sem/Plc:Ивановка PROP-RUS_ "" ;
+Идиго+N+Prop+Sem/Plc:Идиго PROP_ "" ;
+Индига+N+Prop+Sem/Plc:Индига PROP_ "" ;
+Казым+N+Prop+Sem/Plc:Казым PROP-RUS_ "" ;
+Канада+N+Prop+Sem/Plc:Канада PROP-RUS_ "" ;
+Каневка+N+Prop+Sem/Plc:Каневка PROP-RUS_ "" ;
+Канёвка+N+Prop+Sem/Plc:Канёвка PROP-RUS_ "" ;
+Канин+N+Prop+Sem/Plc:Канин PROP-RUS_ "" ;
+Кариговка+N+Prop+Sem/Plc:Кариговка PROP_ "" ;
+Кейва+N+Prop+Sem/Plc:Кейва PROP_ "" ;
+Кипиева+N+Prop+Sem/Plc:Кипиева PROP_ "" ;
+Кировск+N+Prop+Sem/Plc:Кировск PROP-RUS_ "" ;
+Колгуев+N+Prop+Sem/Plc:Колгуев PROP-RUS_ "" ;
+Кольский+N+Prop+Sem/Plc:Кольский PROP-RUS_ "" ;
+Коткино+N+Prop+Sem/Plc:Коткино PROP_ "" ;
+Краснощелье+N+Prop+Sem/Plc:Краснощелье PROP-RUS_ "" ;
+Красное+N+Prop+Sem/Plc:Красное PROP-RUS_ "" ;
+Краснэй+N+Err/Dial+Prop+Sem/Plc:Краснэй PROP_ "" ;
+Крым+N+Prop+Sem/Plc:Крым PROP-RUS_ "" ;
+Макариха+N+Prop+Sem/Plc:Макариха PROP_ "" ;
+Макарово+N+Prop+Sem/Plc:Макарово PROP_ "" ;
+Малоземелье+N+Prop+Sem/Plc:Малоземелье PROP-RUS_ "" ;
+Малоземельская+N+Prop+Sem/Plc:Малоземельская PROP-RUS_ "" ;
+Куопио+N+Prop+Sem/Plc:Куопио PROP-RUS_ "" ;
+Лабожскей+N+Prop+Sem/Plc:Лабожскей PROP_ "" ;
+Лабытнанг+N+Prop+Sem/Plc:Лабытнанг PROP_ "" ;
+Лапландия+N+Prop+Sem/Plc:Лапландия PROP-RUS_ "" ;
+Лёждик+N+Prop+Sem/Plc:Лёждик PROP_ "" ; ! Village name
+Ленинград+N+Prop+Sem/Plc:Ленинград PROP-RUS_ "" ;
+Мезень+N+Prop+Sem/Plc:Мезень PROP-RUS_ "" ;
+Мончегорск+N+Prop+Sem/Plc:Мончегорск PROP-RUS_ "" ;
+Мӧсква+N+Prop+Sem/Plc:Мӧсква PROP_ "" ;
+Мохча+N+Prop+Sem/Plc:Мохча PROP-RUS_ "" ;
+Мурманск+N+Prop+Sem/Plc:Мурманск PROP-RUS_ "" ;
+Наръян-Мар+N+Prop+Sem/Plc:Наръян-Мар PROP_ "" ;
+Наръяна-ты+N+Prop+Sem/Plc:Наръяна-ты PROP_ "" ;
+Несьт+N+Prop+Sem/Plc:Несьт PROP_ "" ;
+Наст+N+Prop+Sem/Plc:Наст PROP_ "" ;
+Няксимволь+N+Prop+Sem/Plc:Няксимволь PROP_ "" ;
+Ӧдесдін+N+Prop+Sem/Plc:Ӧдесдін PROP_ "" ;
+Ӧксина+N+Prop+Sem/Plc:Ӧксина PROP_ "" ;
+Оксино+N+Prop+Sem/Plc:Оксино PROP_ "" ;
+Ӧлексеевка+N+Prop+Sem/Plc:Ӧлексеевка PROP_ "" ; ! village
+Паруснэй+N+Prop+Sem/Plc:Паруснэй PROP_ "" ;
+Печера+N+Prop+Sem/Plc:Печера PROP_ "" ;
+Печеньга+N+Prop+Sem/Plc:Печеньга PROP_ "" ;
+Пешка+N+Prop+Sem/Plc:Пешка PROP_ "" ;
+Плесецк+N+Prop+Sem/Plc:Плесецк PROP-RUS_ "" ;
+Поганый+N+Prop+Sem/Plc:Поганый PROP_ "" ;
+Пожня+N+Prop+Sem/Plc:Пожня PROP_ "" ;
+Поной+N+Prop+Sem/Plc:Поной PROP_ "" ;
+Порожск+N+Prop+Sem/Plc:Порожск PROP-RUS_ "" ;
+Поснида+N+Prop+Sem/Plc:Поснида PROP-RUS_ "" ;
+Посъю+N+Prop+Sem/Plc:Посъю PROP_ "" ;
+Пошукшор+N+Prop+Sem/Plc:Пошукшор PROP_ "" ;
+Пошук+N+Prop+Sem/Plc:Пошук PROP_ "" ;
+Сангородок+N+Prop+Sem/Plc:Сангородок PROP_ "" ;
+Санкт-Петербург+N+Prop+Sem/Plc:Санкт-Петербург PROP-RUS_ "" ;
+Саранпауль+N+Prop+Sem/Plc:Саранпауль PROP_ "" ; 
+Североморск+N+Prop+Sem/Plc:Североморск PROP-RUS_ "" ;
+Северодвинск+N+Prop+Sem/Plc:Северодвинск PROP-RUS_ "" ;
+Сербия+N+Prop+Sem/Plc:Сербия PROP-RUS_ "" ;
+Серёгово+N+Prop+Sem/Plc:Серёгово PROP-RUS_ "" ;
+Сестрорецк+N+Prop+Sem/Plc:Сестрорецк PROP-RUS_ "" ;
+Сизябск+N+Prop+Sem/Plc:Сизябск PROP-RUS_ "" ;
+Смекаловка+N+Prop+Sem/Plc:Смекаловка PROP-RUS_ "" ;
+Сомбатхей+N+Prop+Sem/Plc:Сомбатхей PROP_ "" ;
+Сосновка+N+Prop+Sem/Plc:Сосновка PROP_ "" ;
+Тайланд+N+Prop+Sem/Plc:Тайланд PROP-RUS_ "" ;
+Тарко-Сале+N+Prop+Sem/Plc:Тарко-Сале PROP_ "" ;
+Усте-Ижма+N+Prop+Sem/Plc:Усте-Ижма PROP-RUS_ "" ;
+Усть-Лыжа+N+Prop+Sem/Plc:Усть-Лыжа PROP-RUS_ "" ;
+Усть-Уква+N+Prop+Sem/Plc:Усть-Уква PROP-RUS_ "" ;
+Усть-Уса+N+Prop+Sem/Plc:Усть-Уса PROP-RUS_ "" ;
+Усть-Ухта+N+Prop+Sem/Plc:Усть-Ухта PROP-RUS_ "" ;
+Усть-Цильма+N+Prop+Sem/Plc:Усть-Цильма PROP-RUS_ "" ;
+Харей-Вер+N+Prop+Sem/Plc:Харей-Вер PROP_ "" ;
+Харей-Вӧр+N+Prop+Sem/Plc:Харей-Вӧр PROP_ "" ;
+Хельсинки+N+Prop+Sem/Plc:Хельсинки PROP-RUS_ "" ;
+Хонгурей+N+Prop+Sem/Plc:Хонгурей PROP_ "" ;
+Хӧрей-Вӧр+N+Prop+Sem/Plc:Хӧрей-Вӧр PROP_ "" ;
+Хосуда-Харт+N+Prop+Sem/Plc:Хосуда-Харт PROP_ "" ;
+Хусида-Харт+N+Prop+Sem/Plc:Хусида-Харт PROP_ "" ;
+Цильма+N+Prop+Sem/Plc:Цильма PROP-RUS_ "" ;
+Чувашия+N+Prop+Sem/Plc:Чувашия PROP-RUS_ "" ;
+Шапкино+N+Prop+Sem/Plc:Шапкино PROP_ "" ;
+Шельяюр+N+Prop+Sem/Plc:Шельяюр PROP_ "" ;
+Щекурья+N+Prop+Sem/Plc:Щекурья PROP_ "" ;
+Щелин+N+Prop+Sem/Plc:Щелин PROP_ "" ;
+Щелино+N+Prop+Sem/Plc:Щелино PROP_ "" ;
+Ырген-Шар+N+Prop+Sem/Plc:Ырген-Шар PROP_ "" ;
+Япония+N+Prop+Sem/Plc:Япония PROP-RUS_ "" ;
+
+! This is a bit messier category
+! These are mainly names of monastirs and colhozes
+! Some are bit unclear
+
+! Боголюбскей ;
+! Трифоновскей ;
+! Большеземельская ;
+! Ерегодский ;
+! Водомер ;
+! Главмор ; ! What is this?
+! Охошлог ; ! What is this?
+! Ясунд ; ! What is this?
+! Харп ; ! Colhoze
+
+! NAME SECTION ENDS, REST IS USUAL STUFF
+
+лимбиха+N:лимбиха N_ ; ! Some reindeer term
 болезнь+N:болезнь N_ ;
 буран+N:буран N_ ;
 пилорама+N:пилорама N_ ;
