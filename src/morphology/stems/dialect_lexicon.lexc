@@ -92,7 +92,17 @@ LEXICON dialect_lexicon
 мушку+N+Err/Dial:мушку N_ ;
 мыйкӧ+Err/Dial:мыйке PRONINDEFTAG-KO ; ! This should work now
 мыйӧн+CS+Err/Dial:мыйэн CS_ ;
+мыйла+Err/Dial:мыля PRON-QNT_ ;
+мыйлакӧ+Err/Dial:мылякӧ PRONINDEFTAG ;
+мыйла+Err/Dial+CS:мыля CS_  ;
 навернӧ+Adv+Err/Dial:навернэ ADV_ ;
+некод+Err/Dial:никод PRON-NEG-HUM ;
+некыдз+Err/Dial:некудз ADV-NEG_ ;
+некыдз+Err/Dial:некудь ADV-NEG_ ;
+некутшӧм+Err/Dial:никучем PRON-NEG-A ;
+некутшӧм+Err/Dial:никутшем PRON-NEG-A ;
+кутшӧмкӧ+Err/Dial:кутшемке IS_PRON-INDEF-KO ;
+кутшӧмкӧ+Err/Dial:кучемке IS_PRON-INDEF-KO ;
 нинӧм+Err/Dial:нинэм PRON-NEG ; ! Is this correct?
 нӧ+Pcle+Err/Dial:нэ PCLE_ ;
 обязательнэ+Adv:обязательнэ ADV_ ;
@@ -132,7 +142,8 @@ LEXICON dialect_lexicon
 тожӧ+Adv+Err/Dial:тоже ADV_ ;
 тыдавны+V+Err/Dial:тыдоо IV_НУАВНЫ ;
 чери+N+Err/Dial:тери N_ ;
-эм+Err/Dial:выйым V_ ; ! This needs maybe thinking
+эм+Err/Dial+Ind+Prs+Sg3:выйым V_ ; ! This needs maybe thinking
+эм+Err/Dial+Ind+Prs+Pl3:выйымесь V_ ; ! This needs maybe thinking as well
 эстчӧ+Adv+Err/Dial:эстче ADV_ ;
 эстшӧм+Err/Dial:эстшем PRONDEMTAG ; ! This needs work
 эськӧ+Adv+Err/Dial:веське ADV_ ;
@@ -497,7 +508,7 @@ LEXICON dialect_lexicon
 телестанция+N:телестанция N_ ;
 тожӧ+Adv+Err/Dial:тӧжӧ ADV_ ;
 только+Adv:только ADV_ ;
-только+Adv+Err/Dial:тoкo ADV_ ;
+только+Adv+Err/Dial:токо ADV_ ;
 только+Pron+Err/Dial:тӧлька ADV_ ;
 только+Pron+Err/Dial:тӧлькӧ ADV_ ;
 храм+N:храм N_ ;
