@@ -7,12 +7,12 @@
 
 !2018-10-21!LEXICON A_INT-ӦЙ
 !2018-10-21!+Use/SpellNoSugg:ӧй A_ ;
-!2018-10-21!+Err/Dial:%>эй A_ ;
+!2018-10-21!+Use/NG+Err/Dial:%>эй A_ ;
 !2018-10-21!+Use/SpellNoSugg:о%- adjectives-russian-like ;
 
 LEXICON A_RU-ӦЙ
 +Use/SpellNoSugg:ӧй A_ ;
-+Err/Dial:%>эй A_ ;
++Use/NG+Err/Dial:%>эй A_ ;
 +Use/SpellNoSugg:о%- adjectives-russian-like ;
 
 LEXICON DENOMINAL-LOCATIVE-ADJECTIVES
@@ -28,21 +28,21 @@ LEXICON DERIVEDADJ-IN-VOW
 LEXICON DERIVEDADJ-IN-CONS
 +Der+Der/LocMod+A:%>са A_ ;
 +Der+Der/PrivMod+A:%>тӧм A_ ;
-+Err/Dial+Der+Der/PrivMod+A:%>тэм A_ ;
++Use/NG+Err/Dial+Der+Der/PrivMod+A:%>тэм A_ ;
 +Der+Der/TempMod+A:%>ся A_ ;
 +Der+Der/увса+A:%>увса A_ ;
 +Der+Der/сайса+A:%>сайса A_ ;
 +Der+Der/пӧвстса+A:%>пӧвстса A_ ;
-+Err/Dial+Der+Der/пӧвстса+A:%>певстса A_ ;
++Use/NG+Err/Dial+Der+Der/пӧвстса+A:%>певстса A_ ;
 +Der+Der/костса+A:%>костса A_ ;
 +Der+Der/бердса+A:%>бердса A_ ;
 +Der+Der/бӧрса+A:%>бӧрса A_ ;
-+Err/Dial+Der+Der/бӧрса+A:%>берса A_ ;
++Use/NG+Err/Dial+Der+Der/бӧрса+A:%>берса A_ ;
 +Der+Der/весьтса+A:%>весьтса A_ ;
 +Der+Der/водзса+A:%>водзса A_ ;
 +Der+Der/вывса+A:%>вывса A_ ;
 +Der+Der/гӧгӧрса+A:%>гӧгӧрса A_ ;
-+Err/Dial+Der+Der/гӧгӧрса+A:%>гегерса A_ ;
++Use/NG+Err/Dial+Der+Der/гӧгӧрса+A:%>гегерса A_ ;
 +Der+Der/дорса+A:%>дорса A_ ;
 
 
@@ -142,7 +142,7 @@ LEXICON SUPERL-A_
 LEXICON A_PARAGOGIC-В/Л !!= * @CODE@ юмов:юмо юмолӧсь
 :в K ; !! Singular predicative 
 +Cop+Pl:л%>ӧсь K ; ! Plural predicative.
-+Err/Dial+Cop+Pl:л%>эсь K ; ! Plural predicative.
++Use/NG+Err/Dial+Cop+Pl:л%>эсь K ; ! Plural predicative.
 :в AdjCompar ;
 +Der+Der/кодь+A:в%>кодь PredMonAdj ;
 +Der+Der/кодь+A:в%>кодь AdjCompar ;
@@ -159,7 +159,7 @@ LEXICON PredMonAdj
 +Cop+Sg: K ;      ! Singular predicative
 !2017-09-21+Attr: K ;      ! Singular predicative
 +Cop+Pl:%>ӧсь K ; ! Plural predicative.
-+Err/Dial+Cop+Pl:%>эсь K ; ! Plural predicative.
++Use/NG+Err/Dial+Cop+Pl:%>эсь K ; ! Plural predicative.
 
 
 ! vim: set ft=xfst-lexc:
