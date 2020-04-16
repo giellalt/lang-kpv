@@ -269,8 +269,8 @@ LEXICON PROP-PLC-KPV ! Inanimate proper nouns. Place names
 !2018-10-21!+EOLang/RUS+Der+Der/са@U.Cap.Opt@:%>са@U.Cap.Opt@ A_ ; !!= * __@CODE@__ This requires down-casing
 
 LEXICON PROP-PLC_SUB ! Inanimate proper nouns. Place names
-+Sem/Plc+Err/Orth+Sg: CASEPOSSLEX ;
-@U.Cap.Opt@+Sem/Plc+Err/Orth+Der+Der/са:@U.Cap.Opt@%>са A_ ; !!= * __@CODE@__ This requires down-casing
++Sem/Plc+Use/NG+Err/Orth+Sg: CASEPOSSLEX ;
+@U.Cap.Opt@+Sem/Plc+Use/NG+Err/Orth+Der+Der/са:@U.Cap.Opt@%>са A_ ; !!= * __@CODE@__ This requires down-casing
 
 LEXICON PROP-ORG ! Inanimate proper nouns. Name of organization
 +Sem/Org+Sg: CASEPOSSLEX ;

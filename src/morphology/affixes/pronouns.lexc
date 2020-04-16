@@ -33,7 +33,7 @@ LEXICON PERS-SG1   !!≈ * __@CODE@__
 +Dat:мен K ;
 +Dat:менлы K ;
 +Acc:менӧ K ;
-+Err/Dial+Acc:менэ K ;
++Use/NG+Err/Dial+Acc:менэ K ;
 +Ins:менамӧн K ;
 +Com:менамкӧд K ;
 +Car:менамтӧг K ;
@@ -82,7 +82,7 @@ LEXICON PERS-SG2     !!≈ * __@CODE@__
 +Dat:тэнлы K ;
 +Dat:тэныдлы K ;
 +Acc:тэнӧ K ;
-+Err/Dial+Acc:тэнэ K ;
++Use/NG+Err/Dial+Acc:тэнэ K ;
 +Ins:тэнадӧн K ;
 +Com:тэнадкӧд K ;
 +Car:тэнадтӧг K ;
@@ -306,7 +306,7 @@ LEXICON INTERR
 кор+Adv+Temp:кор INTERR-REL ;
 кор+Adv+Temp+Pl+Ill:коръясӧ INTERR-REL ;
 коръя+Adv+Temp:коръя INTERR-REL ;
-кудз+Adv+Manner+Err/Orth:кудз INTERR-REL ;
+кудз+Adv+Manner+Use/NG+Err/Orth:кудз INTERR-REL ;
 кутшӧм+Pron:кутшӧм INTERR-REL ; ! This needs to be 
 кутшӧм+Pron+Rel+Cop+Pl:кутшӧмӧсь INTERR-REL ; ! This needs to be 
 кутшӧма+Adv+Manner:кутшӧма INTERR-REL ; ! This needs to be 
@@ -343,7 +343,7 @@ LEXICON INTERR
 мыйда+Pron+NonHum:мыйда INTERR-REL ;
 мыйта+Pron+NonHum:мыйта INTERR-REL ;
 мыйтӧм+Pron+NonHum:мыйтӧм INTERR-REL ;
-мыйӧс+Pron+NonHum+Err/Orth:мыйӧс INTERR-REL ;
+мыйӧс+Pron+NonHum+Use/NG+Err/Orth:мыйӧс INTERR-REL ;
 
 !Here are some negative pronouns out of place 2011-11-22
 LEXICON NEG-PRON
@@ -385,7 +385,7 @@ LEXICON INDEFINITE-PRON
 кодсюрӧ+Pron+Indef+Pl+Nom:кодсюрӧяс K ;
 
 корсюрӧ+Adv+Indef+Temp:корсюрӧ K ;
-кудзсюрӧ+Adv+Indef+Manner+Err/Orth:кудзсюрӧ K ;
+кудзсюрӧ+Adv+Indef+Manner+Use/NG+Err/Orth:кудзсюрӧ K ;!what is the lemma2020-04-16
 кутшӧмсюрӧ+Pron+Indef:кутшӧмсюрӧ K ;
 кыдзсюрӧ+v1+Adv+Indef+Manner:кыдзсюрӧ K ;
 кыдзсюрӧ+v2+Adv+Indef+Manner:кыдзисюрӧ K ;
