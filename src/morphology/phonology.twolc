@@ -1,0 +1,311 @@
+!! !!!Komi Zyrian twol file
+!! cf. kpv-phon-old.xfscript
+!! cf. http://www.ling.helsinki.fi/~rueter/Publications/Rueter_in-Permistika-6_2000-154-158.pdf
+!! Хельсинкиса университетын кыв туялысь Ижкарын Перымса кывъяс симпозиум вылын лыддьӧмтор
+!! !!Alphabet, Sets and Definitions
+
+Alphabet
+
+!! !!Letters of the alphabet
+
+а б в г д е ё ж з и і й к л м н о ӧ п р с т у ф х ц ч ш щ ъ ы ь э ю я !!= * @CODE@
+А Б В Г Д Е Ё Ж З И І Й К Л М Н О Ӧ П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я !!= * @CODE@
+к2:к л2:л м2:м т2:т ь2:ь
+!К2 Л2 М2 Т2 Ь2
+И2:и
+%{иі%}:и	!!= * @CODE@ for soft and hard
+%{иі%}:і	!!= * @CODE@ for soft and hard
+
+%{ая%}:а	!!= * @CODE@ for soft and hard
+!%{ая%}:я	!!= * @CODE@ for soft and hard
+
+!! !!Archiphonemes for vowels
+!! !!Triggers
+%^Close:0	!!= * @CODE@ Close syllable, this triggers final consonant drop, seen in word-final position and before consonant
+
+
+!! !!Boundary symbols
+
+ %> !!= * @CODE@ morpheme boundary мун%>ны
+ #  !!  * hash # word boundary
+ %- !!= * @CODE@
+ «  !!= * @CODE@ мед«ічӧт
+ »  !!= * @CODE@  удж»ал»ышт
+
+! Literal quotes and angles must be escaped (cf morpheme boundaries further down):
+ »7     ! »
+ «7     ! «
+ %[%>%] ! >
+ %[%<%] ! <
+
+!! Diacritics
+%^Inf:0  %^PATR:0 %^FEM:0
+
+
+ ;
+
+
+!! !!Sets
+
+Sets
+!! Vowel
+Vow =  а е ё и і о ӧ у ы э ю я
+       А Е Ё И У О Ӧ У Ы Э Ю Я ;
+
+!! Palatal Vowel
+!! Cns-initial vowels
+PalVow = е ё ю я
+         Е Ё Ю Я ;
+
+!! All non-vowels, consonants and hard and soft signs
+Cns =  б в г д ж з й к л м н п р с т ф х ц ч ш щ ъ ь
+       Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ъ Ь
+       к2 л2 м2 т2 ь2 ;
+!  К2 Л2 М2 Т2 Ь2
+
+!! All non-vowels with exception of soft sign
+CnsNotSoft =  б в г д ж з й к л м н п р с т ф х ц ч ш щ ъ
+              Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ъ
+       	      к2 л2 м2 т2 ь2 ;
+!   К2 Л2 М2 Т2 Ь2
+!! All consonants followed by Cyrillic и
+CnsBeforeCyri = б в г ж й к м п р ф х ч ш щ
+              	Б В Г Ж Й К М П Р Ф Х Ч Ш Щ
+              	к2 м2 т2 ;
+! К2 М2 Т2
+!! Why is т2 here 2015-10-01
+
+!! All but z consonants that can be followed by either і or и
+PairedCnsNoZ =  д л н с т
+                Д Л Н С Т
+       	        л2 т2 ;
+
+!! Letters
+ Letter = Vow Cns ;
+
+!! Dummy
+Dummy = %> %^Inf %^PATR %^FEM ;
+
+
+!! !!Definitions
+
+!Definitions
+
+
+!! !!Rules
+
+Rules
+
+"The famous L/V"
+!! __@RULENAME@__
+ л:в <=>  Vow _ %^Close: ;
+! Vow _ [# | %> Cns ] ;
+
+
+!! Paragogic consonants
+
+"Paragogic consonant deletion"
+!! __@RULENAME@__
+ Cx:0 <=> Cns _ %^Close: ;
+       where Cx in (к м) ;
+
+"Paragogic т deletion and tripple т"
+!! __@RULENAME@__
+ т:0 <=>
+ Cns _ %^Close: ;
+! т:0 <=> п _ [ # | %> Cns ] ;
+ !!€ зепт%>ыс
+ !!€ зепт%>ыс
+ !!€ зепт%^Close#
+ !!€ зеп00#
+ !!€ зепт%^Close%>сӧ
+ !!€ зеп00%>сӧ
+ т _ %> т ;       
+!!€ Блатт%>тӧг
+!!€ Блат0%>тӧг
+
+!"mDeletion"
+!! __@RULENAME@__
+! м:0 <=>
+! н _ [ # | %> Cns ] ;
+ !!€ синм%>ыс
+ !!€ синм%>ыс
+ !!€ синм#
+ !!€ син0#
+ !!€ синм%>сӧ
+ !!€ син0%>сӧ
+
+
+!"kDeletion"
+!! __@RULENAME@__
+! к:0 <=> [ с | ш | с ь | с ь2: | ч ] _ [ # | %> Cns ]  ;
+ !!€ воск%>ыс
+ !!€ воск%>ыс
+ !!€ воск%^Close#
+ !!€ вос00#
+ !!€ воск%^Close%>сӧ
+ !!€ вос00%>сӧ
+ !!€ кось2к%^Close%>сянь
+ !!€ кось00%>сянь
+
+"jDeletion after vowel"
+!! __@RULENAME@__
+ й:0 <=>  [б | в | г | д | ж | з | к | м | н | п | р | т | с ] _  %^Close:  ;
+! [б | в | г | д | ж | з | к | м | н | п | р | т | с ] _ [ # | %> Cns ] ;
+ !!€ гобй%^Close%>ыс
+ !!€ гобй0%>ыс
+ !!€ гобй%^Close#
+ !!€ гоб00#
+ !!€ гобй%^Close%>сӧ
+ !!€ гоб00%>сӧ
+ !!€ кывй%^Close%>ыс
+ !!€ кывй0%>ыс
+ !!€ кывй%^Close#
+ !!€ кыв00#
+ !!€ кывй%^Close%>сӧ
+ !!€ кыв00%>сӧ
+   Vow _ %>  [%{ая%}: | э: ] ;
+!   Vow _ %> [ %{ая%}: | %{иі%}: ] ;
+ !!€ вый%>%{ая%}#
+ !!€ вы0%>я#
+ !!€ сёй%>%{ая%}#
+ !!€ сё0%>я#
+ !!$ сёй%>%{иі%}#
+ !!$ сё0%>и#
+ !!€ сёй%>%{иі%}#
+ !!€ сёй%>и#
+
+"j to hard sign after consonant"
+!! __@RULENAME@__
+ й:ъ <=> [б | в | г | д | ж | з | к | м | н | п | р | т | с ] _ %> %{ая%}: ;
+!!€ кывй%>%{ая%}#
+!!€ кывъ%>я#
+!!€ кӧсй%>%{ая%}#
+!!€ кӧсъ%>я#
+
+"l deletion ALSO tripple letter"
+!! __@RULENAME@__
+ л:0 <=>   л _  ь  %^Close: ;
+!  л _  ь  [ # | %> Cns ] ;
+ !!€ вакулль%>ыс
+ !!€ вакулль%>ыс
+ !!€ вакулль%^Close#
+ !!€ вакул0ь#
+ !!€ вакулль%^Close%>сӧ
+ !!€ вакул0ь%>сӧ
+ !!€ вакулль%^Close%>ъяс
+ !!€ вакул0ь0%>0яс
+ л _ %>	л ;
+!!€ металл%>лӧн
+!!€ метал0%>лӧн
+
+
+"d deletion"
+!! __@RULENAME@__
+ д:0 <=> д _ [ ь | з ]  %^Close: ;
+! д _ [ ь | з ]  [ # | %> Cns ] ;
+ !!€ виддз%^Close%>ыс
+ !!€ виддз0%>ыс
+ !!€ виддз%^Close#
+ !!€ вид0з0#
+ !!€ виддз%^Close%>сӧ
+ !!€ вид0з0%>сӧ
+
+!! Vowel Palatalisation
+"а 2 я, о 2 ё, у 2 ю"
+!! __@RULENAME@__
+ Vx:Vy <=> [~[ д з | ч ]] [ ь: | й: ]  (%^Close:) %>  _ [ # | %> | %- | Cns: | Vow: | %{ая%}:] ;
+        where Vx in (%{ая%} а о у)
+              Vy in (я      я ё ю)
+        matched ;
+!!€ вой%>%{ая%}с
+!!€ во0%>яс
+!!€ озй%>%{ая%}с
+!!€ озъ%>яс
+!!€ ворссь%>%{ая%}#
+!!€ ворсс0%>я#
+!! картопель+Sg+Ine+PxSg3
+!!€ картопель%>%{ая%}с
+!!€ картопел0%>яс
+!! картопель+Pl+Nom
+!!€ картопель%>ъяс
+!!€ картопель%>0яс
+! Have to look for ь>о:ё,
+! ь>у:ю appears in compound words
+
+"%{иі%} 2 і"
+!! __@RULENAME@__
+ %{иі%}:і <=>
+ [PairedCnsNoZ | [Vow |[Cns - д]] з ] (%^Close:) %>  _ [ # | %> | %- | Cns: | Vow: ] ;
+! [PairedCnsNoZ |  з ] %>  _ [ # | %> | Cns: | Vow: ] ;
+!   except
+!    д з %>  _ [ # | %> | Cns: | Vow: ] ;
+
+"%{иі%} 2 и"
+!! __@RULENAME@__
+ %{иі%}:и <=> [ Vow | CnsBeforeCyri | й: | ь: | д з ] (%^Close:) %>  _ [ # | %> |%- | Cns: | Vow: ] ;
+!!€ ворссь%>%{иі%}#
+!!€ ворсс0%>и#
+!!€ ло%>%{иі%}#
+!!€ ло%>и#
+!!€ шу%>%{иі%}с
+!!€ шу%>ис
+!!€ вай%>%{иі%}с
+!!€ вай%>ис
+
+"Soft Sign Deletion"
+!! __@RULENAME@__
+ ь:0 <=> CnsNotSoft _ %> [ а: |%{ая%}:| о: | у: | і: | %{иі%}: | э:] ;
+ ! CnsNotSoft _ %> [ а: |%{ая%}:| о: | у: | і: | ъ: | %{иі%}: ] ; 2017-03-27
+        с _  %> с [ ь | я ] ;
+
+! Testcases: see VowelPalatalisation above
+! Also orthography _Коми орфография кывкуд 2008: 9_
+! ь2, Ь2 will be used to mark special instances of _ь_ retension
+!!€ велӧдысь%>сянь
+!!€ велӧдыс0%>сянь
+!!€ велӧдысь%>сьыс
+!!€ велӧдыс0%>сьыс
+!!$ гос0%>сянь
+!!$ госъ%>сянь
+
+"Hard Sign Deletion"
+!! __@RULENAME@__
+ ъ:0 <=> [ Vow (й) | ь: ] (%^Close:) %> _ ;
+!!€ вой%>ъяс
+!!€ вой%>0яс
+!!€ выль%>ъяс
+!!€ выль%>0яс
+!!€ коми%>ъяс
+!!€ коми%>0яс
+!!€ автобус%>ъяс
+!!€ автобус%>ъяс
+!!$ автобус%>ъяс
+!!$ автобус%>0яс
+
+"Hard Sign Palatalization"
+!! __@RULENAME@__
+ ъ:ь <=> [ д: з | ч ] (%^Close:) %> _ я ;
+!!€ виддз%^Close%>ъяс
+!!€ вид0з0%>ьяс
+
+"No triple letters"
+!! __@RULENAME@__
+ Cx:0 <=> Cx _ %> Cx ;
+         where Cx in (с ) ; ! 
+!where Cx in (с т л) ; ! ХХХ %> indicates morphology, at least these three consonants
+! where Cx in (а о у б в г д ж з й к л м н п р с т ф х ц ч ш щ ) ; !
+! Also orthography _Коми орфография кывкуд 2008: 16_
+!!€ класс%>сянь
+!!€ клас0%>сянь
+
+"IClitic"
+!! __@RULENAME@__
+ И2:й <=> Vow %- _ #  ;
+
+"Dialect э for ӧ in э:е"
+ э:е <=> [CnsBeforeCyri | й: | ь:] %> _ ;
+!! клуб+N+Sg+Err/Dial+Ill __club/kerho__
+!!€ клуб%>э
+!!€ клуб%>е
+
