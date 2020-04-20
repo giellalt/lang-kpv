@@ -13,7 +13,7 @@ JSP_PAGES=root-morphology.jspwiki  \
 		  pronouns-affixes.jspwiki           \
 		  propernouns-affixes.jspwiki      \
 		  verbs-affixes.jspwiki \
-		  kpv-phon-phonology.jspwiki \
+		  phonology-morphology.jspwiki \
 		  disambiguator-syntax.jspwiki 
 # clitics-morphology.jspwiki       \
 # compounding-morphology.jspwiki   \
