@@ -126,7 +126,7 @@ GT_DISTRO_SRCS=
 GIELLA_LOCAL_TARGETS=
 
 generated_files/urj-Cyrl-propernouns.lexc: \
-	$(GIELLA_SHARED)/urj-Cyrl/src/morphology/stems/urj-Cyrl-propernouns.lexc
+	$(GIELLA_SHARED)/urj-Cyrl/src/fst/stems/urj-Cyrl-propernouns.lexc
 	$(AM_V_at)$(MKDIR_P) generated_files
 	$(AM_V_CP)cp -f $< $@
 
