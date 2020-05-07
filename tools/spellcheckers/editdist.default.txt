@@ -1,0 +1,93 @@
+
+## Inclusions: this is the real alphabet definition:
+а
+б
+в
+г
+д
+е
+ё
+ж
+з
+и
+й
+к
+л
+м
+н
+о
+п
+р
+с
+т
+у
+ф
+х
+ц
+ч
+ш
+щ
+ъ
+ы
+ь
+э
+ю
+я
+А
+Б
+В
+Г
+Д
+Е
+Ё
+Ж
+З
+И
+Й
+К
+Л
+М
+Н
+О
+П
+Р
+С
+Т
+У
+Ф
+Х
+Ц
+Ч
+Ш
+Щ
+Ъ
+Ы
+Ь
+Э
+Ю
+Я
+
+-
+.
+:
+
+## Transition pairs + weight - section separator:
+@@
+
+## Transition pair wrong<tab>correct<tab>weight:
+ö	ӧ	1
+i	і	1
+е	ӧ	4
+ӧ	е	4
+в	л	4
+л	б	4
+і	и	4
+и	і	4
+і	ы	4
+
+## Swaps. NB! Please note that these depend on the variable
+## USE_SWAPS in Makefile.am in this directory. Also note that
+## enabling swaps is computationally expensive. See note in
+## Makefile.am.
+## Change dh into hd with the weight 0.5:
+d,h	h,d	0.5
