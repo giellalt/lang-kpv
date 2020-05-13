@@ -1,0 +1,35 @@
+[package]
+name = "kpv"
+human_name = "Komi-Zyrian"
+version = "0.1.0"
+
+# Table of speller tag -> filename to include in the bundle
+# filenames depends on specific project
+[spellers.kpv]
+filename = "kpv-mobile.zhfst"
+
+# Table of bundles to generated
+# key is the type of bundle
+# Windows speller bundle require a uuid for the installer
+[bundles.speller_win]
+package = "speller-kpv"
+platform = "windows"
+uuid = "5081736D-0973-4825-958B-A41C9ECAFD3C"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_macos]
+pkg_id = "no.divvun.MacDivvun.kpv"
+package = "speller-kpv"
+platform = "macos"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_win_mso]
+package = "speller-kpv-mso"
+platform = "windows"
+uuid = "57203AE7-3923-4958-A89D-906C82C81B9A"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_mobile]
+package = "speller-kpv"
+platform = "mobile"
+repo = "https://pahkat.uit.no/main/"
