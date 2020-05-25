@@ -25,7 +25,7 @@ for lemma in $(cat $L_FILE);
 do
  for form in $(cat $P_FILE);
  do
-   echo "${lemma}${form}" | $LOOKUP $GTHOME/langs/kpv/src/generator-gt-norm.xfst
+   echo "${lemma}${form}" | $LOOKUP $GTLANGS/lang-kpv/src/generator-gt-norm.xfst
  done
 done
 
