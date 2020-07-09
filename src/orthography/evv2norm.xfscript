@@ -181,6 +181,7 @@ read regex [
  .o. normalI
  ] ;
 
+save stack evv2norm.hfst
 
 # xfst -f misc/transliteration_test.xfst && echo "ićɛt-dyrji mi jona rad'ejtlɨm vorsnɨ ćomjɛn. pervɛj bat'-mam koram vøćnɨ ćom. ćomsɛ vøćɛnɨ pøwjasɨś, čøkɨdǯɨkɛ siʒ́ med øt'i bokɨs inmis śt'enas." | lookup o2n.fst 
 
