@@ -1,0 +1,100 @@
+! ====================================== !
+! Orthographic converter Eric Vászolyi-Vasse's transcription !
+! ====================================== !
+
+! Examples:
+! ićɛt-dyrji mi jona rad'ejtlɨm vorsnɨ ćomjɛn.
+! pervɛj bat'-mam koram vøćnɨ ćom. ćomsɛ vøćɛnɨ
+! pøwjasɨś, čøkɨdǯɨkɛ siʒ́ med øt'i bokɨs inmis śt'enas.
+! me rød'iććyli požńa d'erevńayn kod uht'inskej
+! rajonyn. d'erevńays sulale iźva ju bokyn, di vylyn.
+
+! "no vańa, pi, me tene dasokmys areʒ́ ńin eni bydti.
+! seśśa" šuas "ten prived'ićće pol'ee petōny. myjke" šuas
+! "køt' naževiććy. me" šuas "eśa døńźi ńin tene bydtyny."
+! vańka podvȳśańys viśtale:
+! "mame" šuas "in pećal'iććy! me" šuas "seśśa pol'e
+! vyle peta ød'd'e."
+
+! seśśa vańka mødasyle i peti pol'ee. ńet, d'ad'ys
+! orde peti napervo. d'ad'ys orde peti da d'ad'ysly viśtale:
+! "d'ad'e" (samej d'ad' dorćće) "d'ad'e" šuas "vaj men
+! kiam i kokam xrap dor, med" šuas "speććial'ne sečem
+! xrap. køt'-te" šuas "kørt kučem køt'-te komnatays,
+! kučem skladjas, med me verma xrapnas kany, te" šuas
+! "guśen dor."
+! vańkaly, zonme, d'ad' zej ød'd'en doralis il'i že
+! vod'ǯyk ńin vøli gøtevitema syly xraptys, znaćit,
+! magńita. med kyće tol'ko ki da kok čapkis, med kany vøli
+! udaćća. no ladne. etija, zonme, vańka mijan peti pol'ee.
+! no zej ʒ́ol'a d'erevńator ńin (taja na pośolokys yǯydǯyk,
+! køńešne, nøvik a, nøvikyś ʒ́ol'aǯyk pośolokyn olis) da i
+! peti di… (sek ed, viʒ́ed, narodys ečaǯyk, olyśyd da)…
+! kućis samej t'ømnej vøred munny, t'ømnej vøred kućɨs
+! munny, zonme, tujtor da, tujys kuźa. a sećće voćća,
+! viʒ́ede ke a, mort lokte. eča na vølesśys i muni da. mort
+! voćća vois. no myj, voćća vois di zdorovaćće,
+! zdorovaććɨs. a vańkalen, zonme, petygas pažynse
+! bośtema kyk kalać kørmanas. øtikys øtor kørmanas a
+
+
+! This program translates text written in the Specimina Sibirica
+! series by Eric Vászolyi-Vasse into modern Komi-Zyrian orthography,
+! or to a close approximant used in IKDP project.
+
+
+
+! exceptions
+r a j o n -> р а й о н ;
+
+{ø̄}:{ӧӧ} ;
+ȳ -> ы ы,
+ō -> о о,
+ā -> а а,
+ū -> у у;
+.o.
+ń -> н ь,
+ś -> с ь,
+ź -> з ь ;
+.o.
+e -> э, E -> Э, i -> і, I -> І || [.#.|%-|d|[A|E|I|O|U|Y|Ɨ|Ø|a|e|i|o|u|y|ɨ|ø|а|е|и|о|у|я|э|ы|ё|ю|А|Е|И|О|У|Я|Э|Ы|Ё|Ю] z|l|n|s|t|c|D|[A|E|I|O|U|Y|Ɨ|Ø|a|e|i|o|u|y|ɨ|ø|а|е|и|о|у|я|э|ы|ё|ю|А|Е|И|О|У|Я|Э|Ы|Ё|Ю] Z|L|N|S|T|C] _ ;
+.o.
+' a -> я, ' o -> ё, ' u -> ю, ' e -> е, ' i -> и, j a -> я, j o -> ё, j u -> ю, j e -> е, j i -> й и, ь a -> я, ь o -> ё, ь u -> ю, ь e -> е, ь i -> и ;
+.o.
+' -> ь ,
+a -> а ,
+b -> б ,
+c -> ц ,
+d -> д ,
+ʒ́ -> дз,
+ǯ -> дж,
+e -> е ,
+ɛ -> ö,
+f -> ф ,
+g -> г ,
+h -> х ,
+i -> и ,
+ɨ -> ы ,
+j -> й ,
+k -> к ,
+m -> м ,
+n -> н ,
+o -> о ,
+ö -> ӧ ,
+p -> п ,
+r -> р ,
+s -> с ,
+š -> ш,
+t -> т ,
+u -> у ,
+v -> в ,
+w -> в ,
+y -> ы ,
+z -> з ,
+ø -> ӧ ,
+č -> тш ,
+ć -> ч ,
+š -> ш ,
+Ž -> ж ;
+
+
