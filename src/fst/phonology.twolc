@@ -22,7 +22,7 @@ Alphabet
 !! !!Archiphonemes for vowels
 !! !!Triggers
 %^Close:0	!!= * @CODE@ Close syllable, this triggers final consonant drop, seen in word-final position and before consonant
-
+%^C2V:0       !!= * @CODE@ Consonant v to vowel
 
 !! !!Boundary symbols
 
@@ -100,6 +100,21 @@ Rules
 !! __@RULENAME@__
  л:в <=>  Vow _ %^Close: ;
 ! Vow _ [# | %> Cns ] ;
+
+
+"The famous L/V goes Izhva"
+!! __@RULENAME@__
+ л:Vy <=>  [Cns: | # | %- ] Vx: _ %^C2V: ;
+	where Vx in (а е ё и о ӧ у ы э ю я)
+              Vy in (о э о и о ӧ у ы э у ё)
+        matched ;
+
+"Vowel lengthening а:о я:ё"
+!! __@RULENAME@__
+ Vx:Vy <=> [Cns: | # | %- ] _ л: %^C2V: ;
+        where Vx in (а я)
+              Vy in (о ё)
+        matched ;
 
 
 !! Paragogic consonants
