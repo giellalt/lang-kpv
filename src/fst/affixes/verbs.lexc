@@ -236,6 +236,10 @@ LEXICON V-0_НУАВНЫ !!≈ * __@CODE@__ нуавны:нуа
 @U.CONJ-INF.YES@:@U.CONJ-INF.YES@в VerbDer-V ; !
 :л VerbConj_КУТНЫ ; !а
 :в VerbConj-V ; !! Consonant-onset
+!
+@U.CONJ-INF.YES@+Use/NG+Err/Dial:@U.CONJ-INF.YES@л%^C2V Verb-nyDer-ONSET-CONS ; !NB underlying л = upper в elsewhere
+@U.CONJ-INF.YES@+Use/NG+Err/Dial:@U.CONJ-INF.YES@л%^C2V VerbDer-V ; !NB underlying л = upper в elsewhere
++Use/NG+Err/Dial:л%^C2V VerbConj-V ; !NB Consonant-onset  underlying л = upper в elsewhere
 
 LEXICON VR_АРТАСЬНЫ !!≈ * __@CODE@__
 @U.CONJ-INF.YES@@U.CONJ-VAL.IV@+Refl:@U.CONJ-INF.YES@@U.CONJ-VAL.IV@ Verb-nyDer-ONSET-CONS ; !
@@ -441,9 +445,14 @@ LEXICON preterite
 @U.CONJ-MX.IND@@U.CONJ-TX.PRET1@+Ind+Prt1:@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@%>%{иі%} PresPret1 ; 
 @U.CONJ-MX.IND@@U.CONJ-TX.PRET1@+Ind+Prt1:@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@%>%{иі%}  P3 ; ! 3 
 	Pret2a-0 ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.3@@U.CONJ-NX.PL@@U.CONJ-PX.3@+Use/NG+Err/Dial+Ind+Prt1+Pl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.3@@U.CONJ-NX.PL@@U.CONJ-PX.3@%>%{иі%}%>с%>ныс K ; !with s
+@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.3@@U.CONJ-NX.PL@@U.CONJ-PX.3@+Use/NG+Err/Dial+Ind+Prt1+Pl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.3@@U.CONJ-NX.PL@@U.CONJ-PX.3@%>%{иі%}%>ныс K ; !without s
+
 LEXICON Pret2a-0
 @U.CONJ-MX.IND@@U.CONJ-TX.PRET2@+Ind+Prt2:@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@%>ӧм Pret2a ;
 @U.CONJ-MX.IND@@U.CONJ-TX.PRET2@+Use/NG+Err/Dial+Ind+Prt2:@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@%>эм Pret2a ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@@U.CONJ-NX.PL@@U.CONJ-PX.1@+Use/NG+Err/Dial+Ind+Prt2+Pl1:@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@@U.CONJ-NX.PL@@U.CONJ-PX.1@%>эмаась VerbEnd-Comparison ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@@U.CONJ-NX.PL@@U.CONJ-PX.3@+Use/NG+Err/Dial+Ind+Prt2+Pl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@@U.CONJ-NX.PL@@U.CONJ-PX.3@%>эмаась VerbEnd-Comparison ;
 
 
 LEXICON preterite_КЫЙНЫ
@@ -505,7 +514,7 @@ LEXICON SG3
 @U.CONJ-NX.SG@@U.CONJ-PX.3@+Sg3:@U.CONJ-NX.SG@@U.CONJ-PX.3@ VerbEnd-Comparison ;
   
 LEXICON PL3
-@U.CONJ-NX.PL@@U.CONJ-PX.3@+Pl3:@U.CONJ-NX.PL@@U.CONJ-PX.3@%>ны VerbEnd-Comparison ;
+!duplicate@U.CONJ-NX.PL@@U.CONJ-PX.3@+Pl3:@U.CONJ-NX.PL@@U.CONJ-PX.3@%>ны VerbEnd-Comparison ;
 @U.CONJ-NX.PL@@U.CONJ-PX.3@+Pl3:@U.CONJ-NX.PL@@U.CONJ-PX.3@%>ны VerbEnd-Comparison ;
 
 LEXICON Pret2a
