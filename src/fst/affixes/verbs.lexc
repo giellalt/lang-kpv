@@ -350,6 +350,9 @@ LEXICON V-0_ВОЛЫНЫ !!≈ * __@CODE@__ волыны:лыддь ! ярмын
 
 LEXICON VerbConj-V !!≈ * __@CODE@__  суф б -- ы 
 @U.CONJ-INF.YES@+Inf:@U.CONJ-INF.YES@%>ны VerbEnd-Comparison ;
+@U.CONJ-INF.YES@+Inf+Pl:@U.CONJ-INF.YES@%>ныяс VerbEnd ;!OKK:50
+@U.CONJ-INF.YES@@U.CONJ-POSS.2ACC@+Inf+Pl+Px2+Acc:@U.CONJ-INF.YES@@U.CONJ-POSS.2ACC@%>ныястӧ VerbEnd ;!OKK:50
+@U.CONJ-INF.YES@@U.CONJ-POSS.3ACC@+Inf+Pl+Px3+Acc:@U.CONJ-INF.YES@@U.CONJ-POSS.3ACC@%>ныяссӧ VerbEnd ;
 @U.CONJ-INF.YES@@U.CONJ-POSS.1@+Inf+Px1:@U.CONJ-INF.YES@@U.CONJ-POSS.1@%>ным VerbEnd-Comparison ;
 @U.CONJ-INF.YES@@U.CONJ-POSS.2@+Inf+Px2:@U.CONJ-INF.YES@@U.CONJ-POSS.2@%>ныд VerbEnd-Comparison ;
 @U.CONJ-INF.YES@@U.CONJ-POSS.3@+Inf+Px3:@U.CONJ-INF.YES@@U.CONJ-POSS.3@%>ныс VerbEnd-Comparison ;
@@ -636,6 +639,7 @@ LEXICON VerbDer_АРТАСЬНЫ !!≈ * __@CODE@__
 LEXICON VerbDer-ONSET_Ӧ !!≈ * __@CODE@__ 
 +Der+Der/ӧм+Der/NomAct+N:%>ӧм N_ ;
 +Der+Der/ӧм+PastPtc:%>ӧм K ;
++Der+Der/ӧм+PastPtc+N:%>ӧма N_ ; !OKK:50
 +Der+Der/ӧм+Der+Der/NomAct+Ger:%>ӧмпырысь K ;
 +Der+Der/ӧм+Der/NomAct+N+Sg+Ins:%>ӧмӧн K ;
 +Der+Der/ӧм+Der/Ин+N:%>ӧм%>%{иі%}н N_ ;
@@ -664,6 +668,7 @@ LEXICON VerbDer-ONSET_И/І !!≈ * __@CODE@__
 !352 Pl
 @U.CONJ-GER.IG@+Der+Der/иг+Ger+Pl:@U.CONJ-GER.IG@%>%{иі%}гъяс K ;
 @U.CONJ-GER.IG@+Der+Der/иг+Ger+Pl+Ill:@U.CONJ-GER.IG@%>%{иі%}гъясӧ K ; !345
+@U.CONJ-GER.IG@+Der+Der/иг+Ger+Pl+Ine:@U.CONJ-GER.IG@%>%{иі%}гъясын K ; !OKK:50
 @U.CONJ-GER.IG@+Der+Der/иг+Ger+Pl+Ill+Use/NG+Err/Dial:@U.CONJ-GER.IG@%>%{иі%}гъясэ K ; !345
 @U.CONJ-GER.IG@+Der+Der/иг+Ger+Pl+Ill+PxSg1:@U.CONJ-GER.IG@%>%{иі%}гъясам K ;
 @U.CONJ-GER.IG@+Der+Der/иг+Ger+Pl+Ill+PxSg2:@U.CONJ-GER.IG@%>%{иі%}гъясад K ;
