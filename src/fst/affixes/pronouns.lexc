@@ -130,12 +130,16 @@ LEXICON PERS-PL2 !!≈ * __@CODE@__
 
 LEXICON PERS-SG3  !!≈ * __@CODE@__ 
 +Nom:сійӧ K ; !+Der/йӧ
++Nom+Err/Dial:сіе K ; !+Der/йӧ
 +Gen:сылӧн K ;
++Gen+Err/Dial:сылэн K ;
 +Abl:сылысь K ;
 +Ela:сыысь K ;
 +Dat:сылы K ;
 +Acc:сійӧс K ; !Der/йӧ
 +Ins:сійӧн K ; !Der/йӧ
++Acc+Err/Dial:сіес K ; !Der/йӧ
++Ins+Err/Dial:сіен K ; !Der/йӧ
 :сы perssg ;  ! for the regular obl sg
 +Cmpl:сы WordEnd ; ! distinct from Nom
 !More form ӧния коми кыв 163
@@ -148,8 +152,18 @@ LEXICON PERS-SG3  !!≈ * __@CODE@__
 +Egr:сійӧсянь K ; !Der/йӧ
 +Egr:сійӧсяньыс K ; !Der/йӧ
 +Ter:сійӧӧдз K ; !Der/йӧ
++Gen+Err/Dial:сіелӧн K ; !Der/йӧ
++Abl+Err/Dial:сіелысь K ; !Der/йӧ
++Dat+Err/Dial:сіелы K ; !Der/йӧ
++Com+Err/Dial:сіекед K ; !Der/йӧ
++Car+Err/Dial:сіетэг K ; !Der/йӧ
++Apr+Err/Dial:сіелань K ; !Der/йӧ
++Egr+Err/Dial:сіесянь K ; !Der/йӧ
++Egr+Err/Dial:сіесяньыс K ; !Der/йӧ
++Ter+Err/Dial:сіеедз K ; !Der/йӧ
 ! Special expressions
 +Com+Ins:сыкӧдӧн K ; ! Ен сыкӧдӧн!
++Com+Ins+Err/Dial:сыкедэн K ; ! Ен сыкӧдӧн!
 
 !! ми мийӧ The 1st and 2nd persons have Oblique case stem strategies
 !! that differ from the 3rd person: 
@@ -161,6 +175,10 @@ LEXICON PERS-PL3 !!≈ * __@CODE@__
 +Acc:найӧс K ; !Der/йӧ
 +Acc:найӧӧс K ; !
 +Gen:налӧн K ;
++Nom+Err/Dial:нае K ; !Der/йӧ
++Acc+Err/Dial:наес K ; !Der/йӧ
++Acc+Err/Dial:наеэс K ; !
++Gen+Err/Dial:налэн K ;
 :на persplobl ; !This might be one solution for the different stem types
 +Cmpl:на WordEnd ; ! Distinct from Nom
 !
@@ -172,6 +190,15 @@ LEXICON PERS-PL3 !!≈ * __@CODE@__
 +Com:накӧдыс K ;
 +Car:найӧтӧг K ; !Der/йӧ
 +Car:натӧгыс K ;
+
++Gen+Err/Dial:наелэн K ; !Der/йӧ
++Abl+Err/Dial:наелысь K ; !Der/йӧ
++Dat+Err/Dial:наелы K ; !Der/йӧ
++Ins+Err/Dial:наеэн K ; !Der/йӧ
++Com+Err/Dial:наекед K ; !Der/йӧ
++Com+Err/Dial:накедыс K ;
++Car+Err/Dial:наетэг K ; !Der/йӧ
++Car+Err/Dial:натэгыс K ;
 +Cns:наысла K ;
 +Ela:насьыс K ;
 +Apr:наыслань K ;
@@ -180,8 +207,9 @@ LEXICON PERS-PL3 !!≈ * __@CODE@__
 +Egr:насяньыс K ;
 +Tra:натіыс K ;
 +Ter:наӧдзыс K ;
++Ter+Err/Dial:наэдзыс K ;
 
-
+!2020-10-12 THIS FAR
 LEXICON perssg !!≈ * __@CODE@__
 +Ins:ӧн K ;
 +Com:кӧд K ;
@@ -457,22 +485,24 @@ LEXICON PRON-HUM
 LEXICON PRON-HUM-OBL
 ! 2000: 187
 !+Cmpl: WordEnd ;  removed 2019-10-27 same as Nom
-+Gen:лӧн WordEnd ;
-+Abl:лысь WordEnd ; !
-+Dat:лы WordEnd ;
+
+ ABL/MORPH-THEN-WORDEND ;
+ APR/MORPH-THEN-WORDEND ;
+ CAR/MORPH-THEN-WORDEND ;
+ CNS/MORPH-THEN-WORDEND ;
+ COM/MORPH-THEN-WORDEND ;
+ DAT/MORPH-THEN-WORDEND ;
+ EGR/MORPH-THEN-WORDEND ;
+ ELA/MORPH-THEN-WORDEND ;
+ GEN/MORPH-THEN-WORDEND ;
+ ILL/MORPH-THEN-WORDEND ;
+ INE/MORPH-THEN-WORDEND ;
+ INS/MORPH-THEN-WORDEND ;
+ NOM/MORPH-THEN-WORDEND ;
+ TER/MORPH-THEN-WORDEND ;
+ TRA/MORPH-THEN-WORDEND ;
 +Acc:ӧс WordEnd ;
 +Acc+PxSg3:сӧ WordEnd ;
-+Ins:ӧн WordEnd ;
-+Com:кӧд WordEnd ;
-+Car:тӧг WordEnd ;
-+Cns:ла WordEnd ;
-+Ine:ын WordEnd ;
-+Ela:ысь WordEnd ; 
-+Ill:ӧ WordEnd ; !
-+Apr:лань WordEnd ;
-+Egr:сянь WordEnd ;
-+Tra:ті WordEnd ;
-+Ter:ӧдз WordEnd ;
 
 LEXICON PRON-HUM-COLL
 +Coll:нан PRON-HUM-COLL-PERS ;
@@ -480,6 +510,8 @@ LEXICON PRON-HUM-COLL
 !
 +ZeroColl+Acc+PxPl2:ныдтӧ WordEnd ;
 +Coll+Acc+PxPl2:наннытӧ WordEnd ;
++ZeroColl+Acc+PxPl2+Err/Dial:ныдтэ WordEnd ;
++Coll+Acc+PxPl2+Err/Dial:наннытэ WordEnd ;
 !+ZeroColl+Acc2+PxPl2:ныдтӧ WordEnd ;
 !+Coll+Acc2+PxPl2:наннытӧ WordEnd ;
 
@@ -493,35 +525,100 @@ LEXICON PRON-HUM-COLL-PERS
 +Acc+PxPl1+Err/Dial:нумес WordEnd ;
 +Acc+PxPl2:нытӧ WordEnd ;
 +Acc+PxPl3:ныссӧ WordEnd ;
++Acc+PxPl2+Err/Dial:нытэ WordEnd ;
++Acc+PxPl3+Err/Dial:ныссэ WordEnd ;
 !+Acc2+PxPl2:нытӧ WordEnd ;
 !+Acc3+PxPl3:ныссӧ WordEnd ;
 
 LEXICON PRON-HUM-COLL-CASES
-+Nom: WordEnd ;
+ NOM/MORPH-THEN-WORDEND ;
  PRON-HUM-OBL ;
 
 LEXICON PRON-NONHUM
-+Nom: WordEnd ;
-+Gen:лӧн WordEnd ; !
+CASE/MORPH-THEN-WORDEND ;
+
+LEXICON CASE/MORPH-THEN-WORDEND
+ ABL/MORPH-THEN-WORDEND ;
+ APR/MORPH-THEN-WORDEND ;
+ CAR/MORPH-THEN-WORDEND ;
+ CMPR/MORPH-THEN-WORDEND ;
+ CNS/MORPH-THEN-WORDEND ;
+ COM/MORPH-THEN-WORDEND ;
+ DAT/MORPH-THEN-WORDEND ;
+ EGR/MORPH-THEN-WORDEND ;
+ ELA/MORPH-THEN-WORDEND ;
+ GEN/MORPH-THEN-WORDEND ;
+ ILL/MORPH-THEN-WORDEND ;
+ INE/MORPH-THEN-WORDEND ;
+ INS/MORPH-THEN-WORDEND ;
+ NOM/MORPH-THEN-WORDEND ;
+ PRL/MORPH-THEN-WORDEND ;
+ TER/MORPH-THEN-WORDEND ;
+ TRA/MORPH-THEN-WORDEND ;
++Acc+PxSg3:%>сӧ WordEnd ;
++Acc+PxSg1:%>ӧс WordEnd ;
++Acc+PxSg3+Err/Dial:%>сэ WordEnd ;
++Acc+PxSg1+Err/Dial:%>эс WordEnd ; 
+
+LEXICON ABL/MORPH-THEN-WORDEND
 +Abl:лысь WordEnd ; !
-+Dat:лы WordEnd ; !
-!+ZeroAcc: WordEnd ;
-!+Acc3:сӧ WordEnd ;
-+Acc+PxSg3:сӧ WordEnd ;
-+Acc+PxSg1:ӧс WordEnd ;
-+Ins:ӧн WordEnd ;
-+Com:кӧд WordEnd ;
-+Car:тӧг WordEnd ;
-+Cmpr:ся WordEnd ;
-+Cns:ла WordEnd ;
-+Ine:ын WordEnd ;
-+Ela:ысь WordEnd ; 
-+Ill:ӧ WordEnd ; !
+
+LEXICON APL/MORPH-THEN-WORDEND
 +Apr:лань WordEnd ;
+
+LEXICON CAR/MORPH-THEN-WORDEND
++Car:тӧг WordEnd ;
++Car+Err/Dial:тэг WordEnd ;
+
+LEXICON CMPR/MORPH-THEN-WORDEND
++Cmpr:ся WordEnd ;
+
+LEXICON CNS/MORPH-THEN-WORDEND
++Cns:ла WordEnd ;
+
+LEXICON COM/MORPH-THEN-WORDEND
++Com:%>кӧд WordEnd ;
++Com+Err/Dial:%>кед WordEnd ;
+
+LEXICON DAT/MORPH-THEN-WORDEND
++Dat:лы WordEnd ; !
+
+LEXICON EGR/MORPH-THEN-WORDEND
 +Egr:сянь WordEnd ;
-+Prl:ӧд WordEnd ;
+
+LEXICON ELA/MORPH-THEN-WORDEND
++Ela:ысь WordEnd ; 
+
+LEXICON GEN/MORPH-THEN-WORDEND
++Gen:%>лӧн WordEnd ; !
++Gen+Err/Dial:%>лэн WordEnd ; !
+
+LEXICON ILL/MORPH-THEN-WORDEND
++Ill:%>ӧ WordEnd ; !
++Ill+Err/Dial:%>э WordEnd ; !
+
+LEXICON INE/MORPH-THEN-WORDEND
++Ine:ын WordEnd ;
+
+LEXICON INS/MORPH-THEN-WORDEND
++Ins+Err/Dial:%>эн WordEnd ;
++Ins:%>ӧн WordEnd ;
+
+LEXICON NOM/MORPH-THEN-WORDEND
++Nom: WordEnd ;
+
+LEXICON PRL/MORPH-THEN-WORDEND
++Prl:%>ӧд WordEnd ;
++Prl+Err/Dial:%>эд WordEnd ;
+
+LEXICON TER/MORPH-THEN-WORDEND
++Ter:%>ӧдз WordEnd ;
++Ter+Err/Dial:%>эдз WordEnd ;
+
+LEXICON TRA/MORPH-THEN-WORDEND
 +Tra:ті WordEnd ;
-+Ter:ӧдз WordEnd ;
+
+
 
 ! Removing 2012-02-08 The comparative can be taken care of once
 ! LEXICON INTERR-REL-INDEF_COMPARISON
@@ -557,6 +654,8 @@ LEXICON INTERR-REL
 LEXICON PRON-INDEFTAG
 +Der/кӧ+Indef:%>кӧ K ;
 +Der/сюрӧ+Indef:%>сюрӧ K ;
++Der/кӧ+Indef+Err/Dial:%>ке K ;
++Der/сюрӧ+Indef+Err/Dial:%>сюре K ;
 
 
 ! Indefinite pronouns
@@ -572,15 +671,20 @@ LEXICON PRONINDEF-PERS-KO-CX
 +Nom: PRONINDEF-PERS-KO-END ;
 +Acc:%>ӧс PRONINDEF-PERS-KO-END ;
 +Gen:%>лӧн PRONINDEF-PERS-KO-END ;
++Acc+Err/Dial:%>эс PRONINDEF-PERS-KO-END ;
++Gen+Err/Dial:%>лэн PRONINDEF-PERS-KO-END ;
 +Abl:%>лысь PRONINDEF-PERS-KO-END ;
 +Dat:%>лы PRONINDEF-PERS-KO-END ;
 +Ins:%>ӧн PRONINDEF-PERS-KO-END ;
++Ins+Err/Dial:%>эн PRONINDEF-PERS-KO-END ;
 +Ela:%>ысь PRONINDEF-PERS-KO-END ; !2011-10-19 It might be that this only has to do with мый _what_ and мыйыськӧ _for some reason_
 +Com:%>кӧд PRONINDEF-PERS-KO-END ;
++Com+Err/Dial:%>кед PRONINDEF-PERS-KO-END ;
 +Egr:%>сянь PRONINDEF-PERS-KO-END ;
 
 LEXICON PRONINDEF-PERS-KO-END
 :%>кӧ K ;
++Err/Dial:%>ке K ;
 
 LEXICON PRONINDEFTAG-SJURO
 +Indef: PRONINDEF-PERS-SJURO-CX ;
@@ -589,17 +693,22 @@ LEXICON PRONINDEF-PERS-SJURO-CX
 +Nom: PRONINDEF-PERS-SJURO-END ;
 +Acc:%>ӧс PRONINDEF-PERS-SJURO-END ;
 +Gen:%>лӧн PRONINDEF-PERS-SJURO-END ;
++Acc+Err/Dial:%>эс PRONINDEF-PERS-SJURO-END ;
++Gen+Err/Dial:%>лэн PRONINDEF-PERS-SJURO-END ;
 +Abl:%>лысь PRONINDEF-PERS-SJURO-END ;
 +Dat:%>лы PRONINDEF-PERS-SJURO-END ;
 +Ins:%>ӧн PRONINDEF-PERS-SJURO-END ;
++Ins+Err/Dial:%>эн PRONINDEF-PERS-SJURO-END ;
 +Ela:%>ысь PRONINDEF-PERS-SJURO-END ; !2011-10-19 It might be that this only has to do with мый _what_ and мыйыськӧ _for some reason_
 +Com:%>кӧд PRONINDEF-PERS-SJURO-END ;
++Com+Err/Dial:%>кед PRONINDEF-PERS-SJURO-END ;
 +Egr:%>сянь PRONINDEF-PERS-SJURO-END ;
 
 
 
 LEXICON PRONINDEF-PERS-SJURO-END
 :%>сюрӧ K ;
++Err/Dial:%>сюре K ;
  !indefinite pronouns from the interrogative/relative pronouns.
 
 
@@ -638,18 +747,24 @@ LEXICON PRON-RECIPR-CASE
 +Cmpl+PxPl2:ныд K ;
 +Cmpl+PxPl3:ныс K ;
 +Gen:лӧн K ;
++Gen+Err/Dial:лэн K ;
 +Abl+PxSg3:ыслысь K ;
 +Abl+PxPl3:ныслысь K ;
 +Dat:лы K ;
 +Dat+PxSg3:ыслы K ;
 +Dat+PxPl3:ныслы K ;
-+Acc:ӧс K ;
++Acc:%>ӧс K ;
 +Acc+PxSg2:тӧ K ;
++Acc+Err/Dial:%>эс K ;
++Acc+PxSg2+Err/Dial:тэ K ;
 +Acc+PxPl1:нымӧс K ;
 +Acc+PxPl1+Err/Dial:нумес K ;
 +Acc+PxPl2:нытӧ K ;
 +Acc+PxPl3:ныссӧ K ;
 +Acc+PxSg3:сӧ K ;
++Acc+PxPl2+Err/Dial:нытэ K ;
++Acc+PxPl3+Err/Dial:ныссэ K ;
++Acc+PxSg3+Err/Dial:сэ K ;
 
 !+Acc2+PxPl2:нытӧ K ;
 !+Acc3+PxPl3:ныссӧ K ;
@@ -657,7 +772,11 @@ LEXICON PRON-RECIPR-CASE
 +Com+PxSg3:ыскӧд K ;
 +Com+PxPl2:ныдкӧд K ;
 +Com+PxPl3:ныскӧд K ;
++Com+PxSg3+Err/Dial:ыскед K ;
++Com+PxPl2+Err/Dial:ныдкед K ;
++Com+PxPl3+Err/Dial:ныскед K ;
 +Car+PxSg3:тӧгыс K ;
++Car+PxSg3+Err/Dial:тэгыс K ;
 +Ela:ысь K ;
 +Ela+PxSg3:сьыс K ;
 +Ela+PxPl2:сьыныд K ;
@@ -665,12 +784,15 @@ LEXICON PRON-RECIPR-CASE
 +Ill+PxSg3:ас K ; ! Here is a good problem: Should there be a special tag
                 ! for the illative-inessive forms
 +Ill+PxPl3:нысӧ K ;
++Ill+PxPl3+Err/Dial:нысэ K ;
 
 +Abl+PxPl2:ныдлысь K ;
 +Dat+PxPl2:ныдлы K ;
 
 +Com:кӧд K ;
-+Ins:ӧн K ;
++Com+Err/Dial:кед K ;
++Ins:%>ӧн K ;
++Ins+Err/Dial:%>эн K ;
 +Egr+PxPl2:сяньныд K ;
 
 
@@ -684,6 +806,7 @@ LEXICON REFL_AS !! * = @CODE@ ас:а
 +Det+Refl:с ABS_ ; !ас is an absolute-form modifer
 +Pron+Refl:  REFL_AS-01 ;
 +Pron+Refl+Ins:сӧн K ; !There is no indication of person. = Sg1, Sg3, Pl3
++Pron+Refl+Ins+Err/Dial:сэн K ; !There is no indication of person. = Sg1, Sg3, Pl3
 
 +Pron+Poss+Sg1:слам PRON-POSS  "minun oma -ni" ;
 +Pron+Poss+Sg2:слад PRON-POSS  "sinun oma -si" ;
@@ -716,8 +839,10 @@ LEXICON REFL_AS-01
 +Sg1+Err/Dial:чум PRON-REFL-SG1-4-NOM  "minä itse" ;
 
 +Sg2:сьтӧ PRON-REFL-SG2-4-ACC  "" ;
++Sg2+Err/Dial:сьтэ PRON-REFL-SG2-4-ACC  "" ;
 +Sg2:чыд PRON-REFL-SG2-4-CAR/ELA/NOM  "sinä itse" ;
 +Sg3:сьсӧ PRON-REFL-SG3-4-ACC  "" ;
++Sg3+Err/Dial:сьсэ PRON-REFL-SG3-4-ACC  "" ;
 +Sg3:чыс PRON-REFL-SG3-4-NOM  "hän itse" ;
 
 +Pl1:сьным PRON-REFL-PL1-4-NOM  "me itse" ;
@@ -744,6 +869,8 @@ LEXICON PRON-REFL-SG1-4-OBL-CASES
 LEXICON PRON-REFL-SG2-4-OBL-CASES
 +Car:тӧгыд K ; !
 +Com:кӧдыд K ; !
++Car+Err/Dial:тэгыд K ; !
++Com+Err/Dial:кедыд K ; !
 +Cns:лаыд K ;
 +Cns:ыдла K ;
 +Dat:лыд K ;
@@ -753,6 +880,8 @@ LEXICON PRON-REFL-SG2-4-OBL-CASES
 LEXICON PRON-REFL-SG3-4-OBL-CASES
 +Car:тӧгыс K ; !
 +Com:кӧдыс K ; !
++Car+Err/Dial:тэгыс K ; !
++Com+Err/Dial:кедыс K ; !
 +Cns:ысла K ;
 +Dat:лыс K ;
 +Ela:сьыс K ;
@@ -776,21 +905,29 @@ LEXICON PRON-REFL-PL1-4-OBL-CASES
 +Ins+Err/Dial:нанум K ;
 
 LEXICON PRON-REFL-PL2-4-OBL-CASES
-+Car:тӧгныд K ; !
-+Car:ныдтӧг K ; !
++Car+So/CP:тӧгныд K ; !
++Car+So/PC:ныдтӧг K ; !
++Car+So/CP+Err/Dial:тэгныд K ; !
++Car+So/PC+Err/Dial:ныдтэг K ; !
 +Cns:ныдла K ;
-+Com:кӧдныд K ; !
-+Com:ныдкӧд K ; !
++Com+So/CP:кӧдныд K ; !
++Com+So/PC:ныдкӧд K ; !
++Com+So/CP+Err/Dial:кедныд K ; !
++Com+So/PC+Err/Dial:ныдкед K ; !
 +Dat:лыныд K ;
 +Dat:лыныдлы K ;
 +Ela:сьыныд K ;
 +Ins:наныд K ;
 LEXICON PRON-REFL-PL3-4-OBL-CASES
-+Car:тӧгныс K ; !
-+Car:ныстӧг K ; !
++Car+So/PC:тӧгныс K ; !
++Car+So/PC:ныстӧг K ; !
++Car+So/PC+Err/Dial:тэгныс K ; !
++Car+So/PC+Err/Dial:ныстэг K ; !
 +Cns:нысла K ;
-+Com:кӧдныс K ; !
-+Com:ныскӧд K ; !
++Com+So/CP:кӧдныс K ; !
++Com+So/PC:ныскӧд K ; !
++Com+So/CP+Err/Dial:кедныс K ; !
++Com+So/PC+Err/Dial:ныскед K ; !
 +Dat:лыныс K ;
 +Dat:лыныслы K ;
 +Dat:ныслы K ;
@@ -831,13 +968,17 @@ LEXICON PRON-REFL-OBL-CASES
 +Tra+PxSg3:тіыс K ;
 ! Pl1 and Pl2 are not attested in Ӧнія коми кыв
 +Tra+PxPl3:тіныс K ;
-+Ter+PxSg1:ӧдз K ; !There is no indication of person. = Sg1
-+Ter+PxSg2:ӧдзыд K ;
-+Ter+PxSg3:ӧдзыс K ;
++Ter+PxSg1:%>ӧдз K ; !There is no indication of person. = Sg1
++Ter+PxSg2:%>ӧдзыд K ;
++Ter+PxSg3:%>ӧдзыс K ;
++Ter+PxSg2:%>эдзыд K ;
++Ter+PxSg3:%>эдзыс K ;
 +Ter+PxPl1:нымӧдз K ;
 +Ter+PxPl1+Err/Dial:нумедз K ;
 +Ter+PxPl2:ныдӧдз K ;
 +Ter+PxPl3:нысӧдз K ;
++Ter+PxPl2+Err/Dial:ныдэдз K ;
++Ter+PxPl3+Err/Dial:нысэдз K ;
 !Extras 2011-10-07
 
 
@@ -873,6 +1014,7 @@ PRONDEMTAG-APR-EGR ;
 CNS-WORD-END ;
 +Dat:лы WordEnd ;
 +AprIll:%>ланьӧ IllCompar ; !
++AprIll+Err/Dial:%>лане IllCompar ; !
 
 +Nom+PxSg2:%>ыд K ;
 +Nom+PxSg3:%>ыс K ;
@@ -910,7 +1052,8 @@ LEXICON PRON-REFL-SG3-4-ACC
 +Acc: WordEnd ;
 
 LEXICON PRON-REFL-PL1-4-NOM
-+Acc:ӧс WordEnd ;
++Acc:%>ӧс WordEnd ;
++Acc+Err/Dial:%>эс WordEnd ;
  CAR-WORD-END ;
  COM-WORD-END ;
  ELA-WORD-END ;
@@ -924,6 +1067,7 @@ LEXICON PRON-REFL-PL1-4-NOM
 
 LEXICON PRON-REFL-PL2-4-NOM
 +Acc+PxSg2:тӧ WordEnd ;
++Acc+PxSg2+Err/Dial:тэ WordEnd ;
 !+Acc2:тӧ WordEnd ;
  CAR-WORD-END ;
  CNS-WORD-END ;
@@ -937,6 +1081,7 @@ LEXICON PRON-REFL-PL2-4-NOM
 
 LEXICON PRON-REFL-PL2-4-ACC
 +Acc+PxPl2:нытӧ WordEnd ;
++Acc+PxPl2+Err/Dial:нытэ WordEnd ;
 !+Acc2:нытӧ WordEnd ;
 
 LEXICON PRON-REFL-PL3-4-NOM
@@ -969,27 +1114,40 @@ LEXICON PRONDEMTAG-ES
 +Pron+Dem+Sg+Nom:%>ійӧ K ;
 +Pron+Dem+Sg+Acc:%>ійӧс K ;
 +Pron+Dem+Sg+Ins:%>ійӧн K ;
++Pron+Dem+Sg+Nom+Err/Dial:%>іе K ;
++Pron+Dem+Sg+Acc+Err/Dial:%>іес K ;
++Pron+Dem+Sg+Ins+Err/Dial:%>іен K ;
 +Pron+Dem+Sg:%>ы PRONDEMTAGSG ;
 +Pron+Dem+Pl:%>ійӧяс WordEnd ;
++Pron+Dem+Pl+Err/Dial:%>іеяс WordEnd ;
 +Pron+Dem+Pl:%>ійяс WordEnd ;
 +Pron+Dem+Pl:%>ійӧян WordEnd ;
++Pron+Dem+Pl+Err/Dial:%>іеян WordEnd ;
 +Pron+Dem+Pl:%>ійян WordEnd ;
 
 LEXICON PRONDEMTAGSG-TA
 +Pron+Dem+Sg+Nom:%>йӧ K ;
 +Pron+Dem+Sg+Acc:%>йӧс K ;
 +Pron+Dem+Sg+Ins:%>йӧн K ;
++Pron+Dem+Sg+Nom+Err/Dial:%>е K ;
++Pron+Dem+Sg+Acc+Err/Dial:%>ес K ;
++Pron+Dem+Sg+Ins+Err/Dial:%>ен K ;
 +Pron+Dem+Sg: PRONDEMTAGSG ;
 +Pron+Dem+Pl:%>йӧяс PRONDEMTAGPL ;
++Pron+Dem+Pl+Err/Dial:%>еяс PRONDEMTAGPL ;
 +Pron+Dem+Pl:%>йяс PRONDEMTAGPL ;
 +Pron+Dem+Pl:%>йӧян PRONDEMTAGPL ;
++Pron+Dem+Pl+Err/Dial:%>еян PRONDEMTAGPL ;
 +Pron+Dem+Pl:%>йян PRONDEMTAGPL ;
 
 LEXICON PRONDEMTAGSG 
 +Cmpl: WordEnd ; !distinct from Nom
-+Ins:ӧн K ;
++Ins:%>ӧн K ;
++Ins+Err/Dial:%>эн K ;
 +Com:кӧд K ;
 +Car:тӧг K ;
++Com+Err/Dial:кед K ;
++Car+Err/Dial:тэг K ;
 +Cns:ла K ;
 +Dat:лы K ;
 +Ine:ын K ;
@@ -1007,14 +1165,20 @@ LEXICON PRONDEMTAGPL
 !+Pron+Dem+Pl: WordEnd ;
 +Nom: WordEnd ;
 +Gen:лӧн WordEnd ;
++Gen+Err/Dial:лэн WordEnd ;
 +Acc:ӧс WordEnd ;
 +Ins:ӧн K ;
++Acc+Err/Dial:%>эс WordEnd ;
++Ins+Err/Dial:%>эн K ;
 +Com:кӧд K ;
 +Car:тӧг K ;
++Com+Err/Dial:кед K ;
++Car+Err/Dial:тэг K ;
 +Cns:ла K ;
 +Ine:ын K ;
 +Ela:ысь K ; 
-+Ill:ӧ K ; !
++Ill:%>ӧ K ; !
++Ill+Err/Dial:%>э K ; !
 +Abl:лысь K ; !
  PRONDEMTAG-APR ;
  PRONDEMTAG-APR-EGR ;
@@ -1040,6 +1204,7 @@ LEXICON PRONDEMTAG-APR-ELA
 
 LEXICON PRONDEMTAG-APR-ILL
 +AprIll:ланьӧ K ;
++AprIll+Err/Dial:лане K ;
 
 LEXICON PRONDEMTAG-APR-INE
 +AprIne:ланьын K ;
@@ -1049,12 +1214,14 @@ LEXICON PRONDEMTAG-EGR
 
 LEXICON PRONDEMTAG-PRL
 +Prl:ӧд K ;
++Prl+Err/Dial:%>эд K ;
 
 LEXICON PRONDEMTAG-TRA
 +Tra:ті K ;
 
 LEXICON PRONDEMTAG-TER
 +Ter:ӧдз K ;
++Ter+Err/Dial:%>эдз K ;
 
 ! Word forms that already have their morphology 
 LEXICON PRON-DEM-IS_INE
