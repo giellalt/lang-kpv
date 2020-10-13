@@ -237,8 +237,8 @@ LEXICON CASEPOSSLEX-afterDerivation
   CASEPOSSLEX-AFTERDERIVATION_VOW ;
 
 LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END
-+Nom: K-NO-PX-LOOKALIKE ;
-+Acc: K ; !ZERO marker
+ NOM/MORPH-THEN-WORDEND ;
+!2020-10-23 remove ZERO +Acc: K ; !ZERO marker
 	CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END ;
 LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END
 +Gen:%>лӧн PredMonLex ;
@@ -265,6 +265,7 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END
 +AprTer:%>ланьӧдз K ; ! Tähän asti
 +Use/NG+Err/Dial+AprTer:%>ланедз K ; ! Tähän asti
 !! SG1
+ ACC-PXSG1/MORPH-THEN-WORDEND ;
 +Ins+PxSg1+So/CP:%>нам K ;
 +Ela+PxSg1+So/CP:%>сьым SPAT-COMPARATIVE ;
 +Tra+PxSg1+So/CP:%>тіым K ;
@@ -290,8 +291,7 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END
 +Apr+PxSg2+So/CP:%>ланьыд SPAT-COMPARATIVE ;
 +Egr+PxSg2+So/CP:%>сяньыд SPAT-COMPARATIVE ;
 +Tra+PxSg2+So/CP:%>тіыд K ;
-+Acc+PxSg2:%>тӧ K ; ! Acc2
-+Use/NG+Err/Dial+Acc+PxSg2:%>тэ K ; ! Acc2
+ ACC-PXSG2/MORPH-THEN-WORDEND ;
 +AprIne+PxSg2+So/CP:%>ланяд SPAT-COMPARATIVE ;
 +AprEla+PxSg2+So/CP:%>ланьсьыд SPAT-COMPARATIVE ;
 +AprIll+PxSg2+So/CP:%>ланяд IllCompar ; !
@@ -303,8 +303,7 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END
 +Use/NG+Err/Dial+AprTer+PxSg2+So/CP:%>ланедзыд K ;
 
 !! SG3
-+Acc+PxSg3:%>сӧ K ; !Acc3
-+Use/NG+Err/Dial+Acc+PxSg3:%>сэ K ; !Acc3
+ ACC-PXSG3/MORPH-THEN-WORDEND ;
 +Ins+PxSg3+So/CP:%>нас K ;
 +Car+PxSg3+So/CP:%>тӧгыс K ;
 +Use/NG+Err/Dial+Car+PxSg3+So/CP:%>тэгыс K ;
@@ -333,8 +332,7 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END
 +Use/NG+Err/Dial+Gen+PxPl1+So/PC:%>нымлэн K ;
 +Abl+PxPl1+So/PC:%>нымлысь K ;
 +Dat+PxPl1+So/PC:%>нымлы K ;
-+Acc+PxPl1+So/PC:%>нымӧс K ;
-+Use/NG+Err/Dial+Acc+PxPl1+So/PC:%>нымес K ;
+ ACC-PXPL1/MORPH-THEN-WORDEND ;
 +Ins+PxPl1+So/CP:%>наным K ;
 +Com+PxPl1+So/PC:%>нымкӧд K ;
 +Use/NG+Err/Dial+Com+PxPl1+So/PC:%>нымкед K ;
@@ -372,8 +370,7 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END
 +Use/NG+Err/Dial+Gen+PxPl2+So/PC:%>ныдлэн K ;
 +Abl+PxPl2+So/PC:%>ныдлысь K ;
 +Dat+PxPl2+So/PC:%>ныдлы K ;
-+Acc+PxPl2+So/PC:%>нытӧ K ; ! Acc2
-+Use/NG+Err/Dial+Acc+PxPl2+So/PC:%>нытэ K ; ! Acc2
+ ACC-PXPL2/MORPH-THEN-WORDEND ;
 +Ins+PxPl2+So/CP:%>наныд K ;
 +Com+PxPl2+So/PC:%>ныдкӧд K ;
 +Use/NG+Err/Dial+Com+PxPl2+So/PC:%>ныдкед K ;
@@ -405,8 +402,7 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END
 +Use/NG+Err/Dial+Gen+PxPl3+So/PC:%>ныслэн K ; ! Px + Case
 +Abl+PxPl3+So/PC:%>ныслысь K ; ! Px + Case
 +Dat+PxPl3+So/PC:%>ныслы K ; ! Px + Case
-+Acc+PxPl3+So/PC:%>нысӧ K ; ! Px + Case Acc3
-+Use/NG+Err/Dial+Acc+PxPl3+So/PC:%>нысэ K ; ! Px + Case Acc3
+ ACC-PXPL3/MORPH-THEN-WORDEND ;
 +Ins+PxPl3+So/CP:%>наныс K ;
 +Com+PxPl3+So/PC:%>ныскӧд K ; ! Px + Case
 +Use/NG+Err/Dial+Com+PxPl3+So/PC:%>ныскед K ; ! Px + Case

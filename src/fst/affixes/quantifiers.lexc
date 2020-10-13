@@ -69,35 +69,37 @@ LEXICON NumCASEPOSSLEX
 
 LEXICON NumMWN
 +Nom: K ;
-+Acc: K ; !This needs something done to it. There should be a TAG distinction
+!+Acc: K ; !This needs something done to it. There should be a TAG distinction
           !between +Acc: and +Acc:%>ӧс
           ! Introducing +ZeroAcc
-+Acc1:%>ӧс K ; !вошис эмакыв
-+Acc3:%>сӧ K ;
-+Gen:%>лӧн K ;
-+Abl:%>лысь K ;
-+Dat:%>лы K ;
-+Ins:%>ӧн K ;
-+Com:%>кӧд K ;
-+Car:%>тӧг K ;
-+Cns:%>ла K ;
-+Cmpr:%>ся K ;
-+Ine:%>ын K ;
-+Ela:%>ысь K ;
-+Ill:%>ӧ K ;
-+Apr:%>лань K ;
-+Egr:%>сянь K ;
-+Prl:%>ӧд K ;
+	  ! REMOVE +ACC if ZERO MORPH 2020-10-13
+
+ ABL/MORPH-THEN-WORDEND ;
+ ACC-PXSG1/MORPH-THEN-WORDEND ; !вошис эмакыв
+ ACC-PXSG3/MORPH-THEN-WORDEND ;
+ APR/MORPH-THEN-WORDEND ;
+ CAR/MORPH-THEN-WORDEND ;
+ CMPR/MORPH-THEN-WORDEND ;
+ CNS/MORPH-THEN-WORDEND ;
+ COM/MORPH-THEN-WORDEND ;
+ DAT/MORPH-THEN-WORDEND ;
+ EGR/MORPH-THEN-WORDEND ;
+ ELA/MORPH-THEN-WORDEND ;
+ GEN/MORPH-THEN-WORDEND ;
+ ILL/MORPH-THEN-WORDEND ;
+ INE/MORPH-THEN-WORDEND ;
+ INS/MORPH-THEN-WORDEND ;
+ PRL/MORPH-THEN-WORDEND ;
+ TER/MORPH-THEN-WORDEND ; !149
 !+Prl+Tra:%>ӧдті K ;
-+Ter:%>ӧдз K ;
-!149
+
 
 !1SG
 +Nom+PxSg1:%>ӧй K ;
 +Gen+PxSg1:%>ӧйлӧн K ;
 +Abl+PxSg1:%>ӧйлысь K ;
 +Dat+PxSg1:%>ӧйлы K ;
-+Acc+PxSg1:%>ӧс K ; !Zero marking on the possessive suffix, as it were.
+ACC-PXSG1/MORPH-THEN-WORDEND ; !Zero marking on the possessive suffix, as it were.
 
 +Ins+PxSg1:%>нам K ;
 +Ins+PxSg1:%>намӧн K ; !Check me
@@ -122,7 +124,7 @@ LEXICON NumMWN
 +Gen+PxSg2:%>ыдлӧн K ;
 +Abl+PxSg2:%>ыдлысь K ;
 +Dat+PxSg2:%>ыдлы K ;
-+Acc+PxSg2:%>тӧ K ;
+ ACC-PXSG2/MORPH-THEN-WORDEND ;
 
 +Ins+PxSg2:%>над K ;
 +Ins+PxSg2:%>надӧн K ; !Checkme
@@ -147,7 +149,7 @@ LEXICON NumMWN
 +Gen+PxSg3:%>ыслӧн K ;
 +Abl+PxSg3:%>ыслысь K ;
 +Dat+PxSg3:%>ыслы K ;
-+Acc+PxSg3:%>сӧ K ;
+ ACC-PXSG3/MORPH-THEN-WORDEND ;
 
 +Ins+PxSg3:%>нас K ;
 
@@ -172,7 +174,7 @@ LEXICON NumMWN
 +Gen+PxPl1:%>нымлӧн K ;
 +Abl+PxPl1:%>нымлысь K ;
 +Dat+PxPl1:%>нымлы K ;
-+Acc+PxPl1:%>нымӧс K ;
+ ACC-PXPL1/MORPH-THEN-WORDEND ;
 
 +Ins+PxPl1:%>наным K ;
 
@@ -195,7 +197,7 @@ LEXICON NumMWN
 +Gen+PxPl2:%>ныдлӧн K ;
 +Abl+PxPl2:%>ныдлысь K ;
 +Dat+PxPl2:%>ныдлы K ;
-+Acc+PxPl2:%>нытӧ K ;
+ ACC-PXPL2/MORPH-THEN-WORDEND ;
 
 +Ins+PxPl2:%>наныд K ;
 
@@ -219,7 +221,7 @@ LEXICON NumMWN
 +Gen+PxPl3:%>ныслӧн K ;
 +Abl+PxPl3:%>ныслысь K ;
 +Dat+PxPl3:%>ныслы K ;
-+Acc+PxPl3:%>нысӧ K ;
+ ACC-PXPL3/MORPH-THEN-WORDEND ;
 
 !+Ins+PxPl3:%>наныс K ; ! ста
 !+Nom+PxPl3:%>нанныс K ; ! 2012-02-16 this should be removed
