@@ -60,6 +60,10 @@ LEXICON ADV_SUB
 LEXICON ADV_ ! these are checked as advs.
 : COMPARATIVE ;
 
+LEXICON ADV_L ! these are checked as advs.
+:%^Close COMPARATIVE ;
++Err/Dial:%^C2V COMPARATIVE ;
+
 LEXICON ADV-INDEF_
 +Indef: WordEnd ;
 

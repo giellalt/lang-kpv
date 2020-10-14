@@ -984,6 +984,8 @@ LEXICON K
  WordEnd ;
 +Clt/тӧ:%>тӧ WordEnd ;
 +Clt/сӧ:%>сӧ WordEnd ;
++Clt/тӧ+Err/Dial:%>тэ WordEnd ;
++Clt/сӧ+Err/Dial:%>сэ WordEnd ;
 
 ! For this all instances of _#_
 ! were converted to _WordEnd_
@@ -991,6 +993,7 @@ LEXICON WordEnd
             # ;
 +Clt/а:%>%-а WordEnd-2 ;
 +Clt/ӧ:%>%-ӧ WordEnd-2 ;
++Clt/ӧ:%>%-э WordEnd-2 ;
 
 LEXICON WordEnd-2
             # ;

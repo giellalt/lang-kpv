@@ -319,8 +319,12 @@ Rules
  И2:й <=> Vow %- _ #  ;
 
 "Dialect э for ӧ in э:е"
- э:е <=> [CnsBeforeCyri | й: | ь:] %> _ ;
+ э:е <=> [CnsBeforeCyri | й: | ь:] %> (%-) _ ;
 !! клуб+N+Sg+Err/Dial+Ill __club/kerho__
 !!€ клуб%>э
 !!€ клуб%>е
 
+"Disallow l to vowel after other than l"
+!! __@RULENAME@__
+%^C2V:0 /<=
+     [Cns - л:|Vows ] _ %>  ;
