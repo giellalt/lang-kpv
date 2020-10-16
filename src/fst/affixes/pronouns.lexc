@@ -457,7 +457,9 @@ LEXICON INDEFINITE-PRON
 кутшӧмакӧ+Adv+Indef+Manner:кутшӧма INDEF-IN-KO ;
 кутшӧми+A+Indef:кутшӧми INDEF-IN-KO ;
 
-кыдзкӧ+Adv+Indef+Manner:кыдз INDEF-IN-KO ;
+кыдзкӧ+v1+Adv+Indef+Manner:кыдз INDEF-IN-KO ;
+кыдзкӧ+v2+Adv+Indef+Manner+Err/Dial:кудз INDEF-IN-KO ;
+кыдзкӧ+v3+Adv+Indef+Manner+Err/Dial:кудь INDEF-IN-KO ;
 кыдзикӧ+Adv+Indef+Manner:кыдзи INDEF-IN-KO ;
 
 кыдзикӧнкӧ+Adv+Indef+Manner+Ins:кыдзикӧн INDEF-IN-KO ;
@@ -466,13 +468,15 @@ LEXICON INDEFINITE-PRON
 кымынӧдкӧ+Det+Indef+Ord:кымынӧд INDEF-IN-KO ;
 кымыныськӧ+Adv+Indef+Iter:кымынысь INDEF-IN-KO ;
 кымынӧдыськӧ+Adv+Indef+Ord+Iter:кымынӧдысь INDEF-IN-KO ;
-кытчӧкӧ+Adv+Indef+Ill:кытчӧ INDEF-IN-KO ;
+кытчӧкӧ+v1+Adv+Indef+Ill:кытчӧ INDEF-IN-KO ;
+кытчӧкӧ+v2+Adv+Indef+Ill+Err/Dial:кыче INDEF-IN-KO ;
 кытчӧдзкӧ+Adv+Indef+Ter:кытчӧдз INDEF-IN-KO ;
 кытыськӧ+Adv+Indef+Ela:кытысь INDEF-IN-KO ;
 кыськӧ+Adv+Indef+Ela:кысь INDEF-IN-KO ;
-кытӧнкӧ+Adv+Indef+Ine:кытӧн INDEF-IN-KO ;
 кӧнікӧ+v1+Adv+Indef+Ine:кӧні INDEF-IN-KO ;
 кӧнікӧ+v2+Adv+Indef+Ine:кӧн INDEF-IN-KO ;
+кӧнікӧ+v3+Adv+Indef+Ine:кытӧн INDEF-IN-KO ;
+кӧнікӧ+v4+Adv+Indef+Ine+Err/Dial:кытэн INDEF-IN-KO ;
 кытікӧ+v1+Adv+Indef+Tra:кыті INDEF-IN-KO ;
 кыткӧ+v2+Adv+Indef+Tra:кыт INDEF-IN-KO ; 
 
@@ -1625,29 +1629,60 @@ LEXICON TRA/MORPH-THEN-WORDEND
 
 LEXICON ABL/MORPH-THEN-K
 +Abl:лысь K ; !
+LEXICON ABL-PXSG1-SOPC/MORPH-THEN-K
++Abl+PxSg1+So/PC:%>ӧйлысь K ;
++Abl+PxSg1+So/PC+Err/Dial:%>э%>лысь K ;
 
 LEXICON APR/MORPH-THEN-K
 +Apr:лань K ;
+LEXICON APR-PXSG1-SOPC/MORPH-THEN-K
++Apr+PxSg1+So/PC:%>ӧйлань K ;
++Apr+PxSg1+So/PC+Err/Dial:%>э%>лань K ;
 
 LEXICON CAR/MORPH-THEN-K
 +Car:тӧг K ;
 +Car+Err/Dial:тэг K ;
+LEXICON CAR-PXSG1-SOPC/MORPH-THEN-K
++Car+PxSg1+So/PC:%>ӧйтӧг K ;
++Car+PxSg1+So/PC:%>этэг K ;
+
+LEXICON CAR-PXSG2-SOPC/MORPH-THEN-K
++Car+PxSg2+So/PC:%>ыдтӧг K ;
++Car+PxSg2+So/PC+Err/Dial:%>ыдтэг K ;
 
 LEXICON CMPR/MORPH-THEN-K
 +Cmpr:ся K ;
+LEXICON CMPR-PXSG1-SOPC/MORPH-THEN-K
++Cmpr+PxSg1+So/PC:%>ӧйся K ;
++Cmpr+PxSg1+So/PC+Err/Dial:%>э%>ся K ;
 
 LEXICON CNS/MORPH-THEN-K
 +Cns:ла K ;
+
+LEXICON CNS-PXSG1-SOPC/MORPH-THEN-K
++Cns+PxSg1+So/PC:%>ӧйла K ;
++Cns+PxSg1+So/PC+Err/Dial:%>э%>ла K ;
 
 LEXICON COM/MORPH-THEN-K
 +Com:%>кӧд K ;
 +Com+Err/Dial:%>кед K ;
 
+LEXICON COM-PXSG1-SOPC/MORPH-THEN-K
++Com+PxSg1+So/PC:%>ӧй%>кӧд K ;
++Com+PxSg1+So/PC+Err/Dial:%>э%>кед K ;
+
 LEXICON DAT/MORPH-THEN-K
 +Dat:лы K ; !
+LEXICON DAT-PXSG1-SOPC/MORPH-THEN-K
++Dat+PxSg1+So/PC:%>ӧйлы K ;
++Dat+PxSg1+So/PC+Err/Dial:%>элы K ;
 
 LEXICON EGR/MORPH-THEN-K
 +Egr:сянь K ;
+
+LEXICON EGR-PXSG1-SOPC/MORPH-THEN-K
++Egr+PxSg1+So/PC:%>ӧйсянь K ;
++Egr+PxSg1+So/PC+Err/Dial:%>э%>сянь K ;
 
 LEXICON ELA/MORPH-THEN-K
 +Ela:ысь K ; 
@@ -1655,6 +1690,10 @@ LEXICON ELA/MORPH-THEN-K
 LEXICON GEN/MORPH-THEN-K
 +Gen:%>лӧн K ; !
 +Gen+Err/Dial:%>лэн K ; !
+
+LEXICON GEN-PXSG1-SOPC/MORPH-THEN-K
++Gen+PxSg1+So/PC:%>ӧйлӧн K ;
++Gen+PxSg1+So/PC+Err/Dial:%>э%>лэн K ;
 
 LEXICON ILL/MORPH-THEN-K
 +Ill:%>ӧ K ; !
@@ -1669,14 +1708,25 @@ LEXICON INS/MORPH-THEN-K
 
 LEXICON NOM/MORPH-THEN-K
 +Nom: K ;
+LEXICON NOM-PXSG1/MORPH-THEN-K
++Nom+PxSg1:%>ӧй K ;
++Nom+PxSg1+Err/Dial:%>э K ;
 
 LEXICON PRL/MORPH-THEN-K
 +Prl:%>ӧд K ;
 +Prl+Err/Dial:%>эд K ;
 
+LEXICON PRL-PXSG1-SOCP/MORPH-THEN-K
++Prl+PxSg1+So/CP:%>ӧдым K ;
++Prl+PxSg1+So/CP+Err/Dial:%>эдым K ;
+
 LEXICON TER/MORPH-THEN-K
 +Ter:%>ӧдз K ;
 +Ter+Err/Dial:%>эдз K ;
+
+LEXICON TER-PXSG1-SOCP/MORPH-THEN-K
++Ter+PxSg1+So/CP:%>ӧдзым K ;
++Ter+PxSg1+So/CP+Err/Dial:%>эдзым K ;
 
 LEXICON TRA/MORPH-THEN-K
 +Tra:ті K ;

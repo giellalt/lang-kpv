@@ -8,16 +8,20 @@
 LEXICON NUM-CARD_
  CARD ;
 :%>ӧд ORD ;
++Err/Dial:%>эд ORD ;
 !:%>нан COLL ;
 
 LEXICON CARD
 !+Card: ABS_ ; 2018-10-21
 +Card: NumCASEPOSSLEX ;
 +Card+Der/кӧ+Presentational:%>%-кӧ WordEnd ;
++Card+Der/кӧ+Presentational+Err/Dial:%>%-ке WordEnd ;
 !+Ord:%>ӧд NumCASEPOSSLEX ;
 +Card+Iter:%>ысь K ; ! нёльысь
 +Card+Iter+Ins:%>ысьӧн K ; !нёльысьӧн
++Card+Iter+Ins+Err/Dial:%>ысен K ; !нёльысьӧн
 +Distr:%>ӧн K ; !нёльӧн
++Distr+Err/Dial:%>эн K ; !нёльӧн
 
 
 
@@ -29,7 +33,9 @@ LEXICON DET_
 +Det+Ord: NumCASEPOSSLEX ; ! ӧд part of the stem
 +Det+Ord+Iter:%>ысь K ;
 +Det+Ord+Iter+Ins:%>ысьӧн K ;
++Det+Ord+Iter+Ins+Err/Dial:%>ысен K ;
 +Det+Card+Distr:%>ӧн K ;
++Det+Card+Distr+Err/Dial:%>эн K ;
 
 LEXICON DET_END
 !кыкнан
@@ -43,7 +49,9 @@ LEXICON QNT_
 +Qnt: NumCASEPOSSLEX ;
 +Qnt+Card+Iter:%>ысь K ;
 +Qnt+Card+Iter+Ins:%>ысьӧн K ;
++Qnt+Card+Iter+Ins+Err/Dial:%>ысен K ;
 +Qnt+Card+Distr:%>ӧн K ;
++Qnt+Card+Distr+Err/Dial:%>эн K ;
 
 
 !! LEXICON NUM-APPR ! 2011-11-03 This will need work
@@ -95,29 +103,27 @@ LEXICON NumMWN
 
 
 !1SG
-+Nom+PxSg1:%>ӧй K ;
-+Gen+PxSg1:%>ӧйлӧн K ;
-+Abl+PxSg1:%>ӧйлысь K ;
-+Dat+PxSg1:%>ӧйлы K ;
+
 ACC-PXSG1/MORPH-THEN-WORDEND ; !Zero marking on the possessive suffix, as it were.
 
 +Ins+PxSg1:%>нам K ;
 +Ins+PxSg1:%>намӧн K ; !Check me
-+Ins+PxSg1:%>намсӧ K ; !Check me
-
-+Com+PxSg1:%>ӧйкӧд K ;
-+Car+PxSg1:%>ӧйтӧг K ;
-+Cns+PxSg1:%>ӧйла K ;
+!+Ins+PxSg1:%>намсӧ K ; !Check me
 
 +Ine+PxSg1:%>ам K ;
 +Ela+PxSg1:%>сьым K ;
 +Ill+PxSg1:%>ам K ;
 
-+Apr+PxSg1:%>ӧйлань K ;
-+Egr+PxSg1:%>ӧйсянь K ;
+ ABL-PXSG1-SOPC/MORPH-THEN-K ;
+ APR-PXSG1-SOPC/MORPH-THEN-K ;
+ CAR-PXSG1-SOPC/MORPH-THEN-K ;
+ DAT-PXSG1-SOPC/MORPH-THEN-K ;
+ EGR-PXSG1-SOPC/MORPH-THEN-K ;
+ GEN-PXSG1-SOPC/MORPH-THEN-K ;
+ NOM-PXSG1/MORPH-THEN-K ;
+ PRL-PXSG1-SOCP/MORPH-THEN-K ;
+ TER-PXSG1-SOCP/MORPH-THEN-K ;
 
-+Prl+PxSg1:%>ӧдым K ;
-+Ter+PxSg1:%>ӧдзым K ;
 
 !2SG
 +Nom+PxSg2:%>ыд K ;
@@ -131,7 +137,7 @@ ACC-PXSG1/MORPH-THEN-WORDEND ; !Zero marking on the possessive suffix, as it wer
 
 +Com+PxSg2:%>ыдкӧд K ;
 
-+Car+PxSg2:%>ыдтӧг K ;
+ CAR-PXSG2-SOPC/MORPH-THEN-K ;
 
 +Cns+PxSg2:%>ыдла K ;
 
