@@ -303,7 +303,10 @@ REMOVE Relat IF (-1 Cmpl);
 # Remove Cmpl reading in personal pron if not followed by Po
 # The Cmpl is used with personal pronouns with a form that takes Po
 # ме тэ сы ми ті на
-REMOVE:prsPrnCmpl Cmpl IF (0 Nom)(NOT 1 Po) ;
+# Прохор Иванович Асныров уна во нин кӧнъясынкӧ ветлӧм бӧрын регыдӧн на воӧм
+#REMOVE:AdvNaNotPL3 Cmpl IF (0 Pron Pers Pl3 Cmpl)(1 NotPO) ;
+#REMOVE:prsPrnCmpl Cmpl IF (0 Nom)(1 NotPO) ;
+REMOVE:prsPrnCmpl Cmpl IF (1 NotPO) ;
 
 # Numerals
 
