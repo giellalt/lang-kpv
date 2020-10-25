@@ -651,11 +651,11 @@ LEXICON IS_PRON-INDEF-SJURO
 +Der/сюрӧ+Indef: K ;
 
 LEXICON IS_PRON-INTERR
-+Pron+Interr: K ;
++Interr: K ;
 
 
 !2018-10-21!LEXICON PRON-SPAT
-!2018-10-21!+Pron+Spat: COMPARATIVE ;
+!2018-10-21!+Spat: COMPARATIVE ;
 
 LEXICON PRON-RECIPR
 +Recipr: PRON-RECIPR-CASE ;
@@ -722,21 +722,21 @@ LEXICON PRON-REL
 +Rel: WordEnd ;
 
 LEXICON PRON-REFL-IN_LADOR
-+Pron+Refl+Der/ладор: Noun1 ; !2011-11-22
++Refl+Der/ладор: Noun1 ; !2011-11-22
 
 LEXICON REFL_AS !! * = @CODE@ ас:а 
 +Det+Refl:с ABS_ ; !ас is an absolute-form modifer
-+Pron+Refl:  REFL_AS-01 ;
-+Pron+Refl+Ins:сӧн K ; !There is no indication of person. = Sg1, Sg3, Pl3
-+Pron+Refl+Ins+Err/Dial:сэн K ; !There is no indication of person. = Sg1, Sg3, Pl3
++Refl:  REFL_AS-01 ;
++Refl+Ins:сӧн K ; !There is no indication of person. = Sg1, Sg3, Pl3
++Refl+Ins+Err/Dial:сэн K ; !There is no indication of person. = Sg1, Sg3, Pl3
 
-+Pron+Poss+Sg1:слам PRON-POSS  "minun oma -ni" ;
-+Pron+Poss+Sg2:слад PRON-POSS  "sinun oma -si" ;
-+Pron+Poss+Sg3:слас PRON-POSS  "hänen oma -nsa/ sen oma" ;
-+Pron+Poss+Pl1:сланым PRON-POSS  "meidän oma -mme" ;
-+Pron+Poss+Pl1+Err/Dial:сланум PRON-POSS  "meidän oma -mme" ;
-+Pron+Poss+Pl2:сланыд PRON-POSS  "teidän oma -nne" ;
-+Pron+Poss+Pl3:сланыс PRON-POSS  "heidän oma -nsa/ niiden oma" ;
++Poss+Sg1:слам PRON-POSS  "minun oma -ni" ;
++Poss+Sg2:слад PRON-POSS  "sinun oma -si" ;
++Poss+Sg3:слас PRON-POSS  "hänen oma -nsa/ sen oma" ;
++Poss+Pl1:сланым PRON-POSS  "meidän oma -mme" ;
++Poss+Pl1+Err/Dial:сланум PRON-POSS  "meidän oma -mme" ;
++Poss+Pl2:сланыд PRON-POSS  "teidän oma -nne" ;
++Poss+Pl3:сланыс PRON-POSS  "heidän oma -nsa/ niiden oma" ;
 
 +Det+Poss+Sg1:слам WordEnd-PredMonAdj  "minun oma -ni" ;
 +Det+Poss+Sg2:слад WordEnd-PredMonAdj  "sinun oma -si" ;
@@ -1017,7 +1017,7 @@ ACC-PXPL3/MORPH-THEN-WORDEND ;
 
 
 LEXICON PRONDEMTAG
-+Pron+Dem: WordEnd ; ! sg/pl?
++Dem: WordEnd ; ! sg/pl?
 
 LEXICON ADNDEMTAG
 +Det+Dem: K ;
@@ -1028,34 +1028,34 @@ LEXICON ADNDEMTAG
 !+Adn+Dem+Der/MWN: Noun1 ;
 
 LEXICON PRONDEMTAG-ES
-+Pron+Dem+Sg+Nom:%>ійӧ K ;
-+Pron+Dem+Sg+Acc:%>ійӧс K ;
-+Pron+Dem+Sg+Ins:%>ійӧн K ;
-+Pron+Dem+Sg+Nom+Err/Dial:%>іе K ;
-+Pron+Dem+Sg+Acc+Err/Dial:%>іес K ;
-+Pron+Dem+Sg+Ins+Err/Dial:%>іен K ;
-+Pron+Dem+Sg:%>ы PRONDEMTAGSG ;
-+Pron+Dem+Pl:%>ійӧяс WordEnd ;
-+Pron+Dem+Pl+Err/Dial:%>іеяс WordEnd ;
-+Pron+Dem+Pl:%>ійяс WordEnd ;
-+Pron+Dem+Pl:%>ійӧян WordEnd ;
-+Pron+Dem+Pl+Err/Dial:%>іеян WordEnd ;
-+Pron+Dem+Pl:%>ійян WordEnd ;
++Dem+Sg+Nom:%>ійӧ K ;
++Dem+Sg+Acc:%>ійӧс K ;
++Dem+Sg+Ins:%>ійӧн K ;
++Dem+Sg+Nom+Err/Dial:%>іе K ;
++Dem+Sg+Acc+Err/Dial:%>іес K ;
++Dem+Sg+Ins+Err/Dial:%>іен K ;
++Dem+Sg:%>ы PRONDEMTAGSG ;
++Dem+Pl:%>ійӧяс WordEnd ;
++Dem+Pl+Err/Dial:%>іеяс WordEnd ;
++Dem+Pl:%>ійяс WordEnd ;
++Dem+Pl:%>ійӧян WordEnd ;
++Dem+Pl+Err/Dial:%>іеян WordEnd ;
++Dem+Pl:%>ійян WordEnd ;
 
 LEXICON PRONDEMTAGSG-TA
-+Pron+Dem+Sg+Nom:%>йӧ K ;
-+Pron+Dem+Sg+Acc:%>йӧс K ;
-+Pron+Dem+Sg+Ins:%>йӧн K ;
-+Pron+Dem+Sg+Nom+Err/Dial:%>е K ;
-+Pron+Dem+Sg+Acc+Err/Dial:%>ес K ;
-+Pron+Dem+Sg+Ins+Err/Dial:%>ен K ;
-+Pron+Dem+Sg: PRONDEMTAGSG ;
-+Pron+Dem+Pl:%>йӧяс PRONDEMTAGPL ;
-+Pron+Dem+Pl+Err/Dial:%>еяс PRONDEMTAGPL ;
-+Pron+Dem+Pl:%>йяс PRONDEMTAGPL ;
-+Pron+Dem+Pl:%>йӧян PRONDEMTAGPL ;
-+Pron+Dem+Pl+Err/Dial:%>еян PRONDEMTAGPL ;
-+Pron+Dem+Pl:%>йян PRONDEMTAGPL ;
++Dem+Sg+Nom:%>йӧ K ;
++Dem+Sg+Acc:%>йӧс K ;
++Dem+Sg+Ins:%>йӧн K ;
++Dem+Sg+Nom+Err/Dial:%>е K ;
++Dem+Sg+Acc+Err/Dial:%>ес K ;
++Dem+Sg+Ins+Err/Dial:%>ен K ;
++Dem+Sg: PRONDEMTAGSG ;
++Dem+Pl:%>йӧяс PRONDEMTAGPL ;
++Dem+Pl+Err/Dial:%>еяс PRONDEMTAGPL ;
++Dem+Pl:%>йяс PRONDEMTAGPL ;
++Dem+Pl:%>йӧян PRONDEMTAGPL ;
++Dem+Pl+Err/Dial:%>еян PRONDEMTAGPL ;
++Dem+Pl:%>йян PRONDEMTAGPL ;
 
 LEXICON PRONDEMTAGSG 
 +Cmpl: WordEnd ; !distinct from Nom
@@ -1139,10 +1139,10 @@ LEXICON PRONDEMTAG-TER
 
 ! Word forms that already have their morphology 
 LEXICON PRON-DEM-IS_INE
-+Pron+Dem+Ine: K ;
++Dem+Ine: K ;
 
 LEXICON PRON-DEM-IS_ILL
-+Pron+Dem+Ill: K ;
++Dem+Ill: K ;
 
 
 
@@ -1167,14 +1167,14 @@ LEXICON PRON-DEM-IS_ILL
 !2018-10-21!+Pron+Interr+Ter:ӧдз K ;
 
 LEXICON PRON-NEG-HUM
-+Pron+Neg+Sg+Nom: WordEnd ;
-+Pron+Neg+Sg+Nom:і WordEnd ;
-+Pron+Neg+Sg: PRON-NEG-OBL ;
-+Pron+Neg+Pl+Nom:%>ъяс WordEnd ;
-+Pron+Neg+Pl:%>ъяс PRON-NEG-OBL ;
++Neg+Sg+Nom: WordEnd ;
++Neg+Sg+Nom:і WordEnd ;
++Neg+Sg: PRON-NEG-OBL ;
++Neg+Pl+Nom:%>ъяс WordEnd ;
++Neg+Pl:%>ъяс PRON-NEG-OBL ;
 
 LEXICON PRON-DUAL
-+Pron+Du: PRON-NEG-OBL ;
++Du: PRON-NEG-OBL ;
 
 ! LEXICON PRON-INTER-REL-HUM-COLL
 ! +Coll:нан PRON-INTER-REL-HUM-COLL-PERS ;
@@ -1213,16 +1213,16 @@ LEXICON PRON-DUAL
 !Actually there might be reason to consider +Der/MWN
 LEXICON PRONQ-MUKOD
 !2017-09-20+Pron+Abs: WordEnd ;
-+Pron+Sg+Nom: K ;
-+Pron+Sg: PRONQ-STAV-CASES ;
-+Pron+Pl+Nom:ъяс K ;
-+Pron+Pl:ъяс PRONQ-STAV-CASES ;
++Sg+Nom: K ;
++Sg: PRONQ-STAV-CASES ;
++Pl+Nom:ъяс K ;
++Pl:ъяс PRONQ-STAV-CASES ;
 
 LEXICON PRONQ-STAV
 !2017-09-20+Pron+Abs: WordEnd ;
-+Pron+Sg+Nom: K ;
++Sg+Nom: K ;
 !+Pron+Sg+ZeroAcc: K ;
-+Pron+Sg: PRONQ-STAV-CASES ;
++Sg: PRONQ-STAV-CASES ;
 
 LEXICON PRONQ-STAV-CASES
 +Nom+PxSg2:ыд K ;
@@ -1403,8 +1403,8 @@ LEXICON PRONQ-COLL-CASE
 +Ter+PxSg3:ӧдзыс K ;
 
 LEXICON PRONQ-ATAG
-+Pron+Qnt+A: K ;
-+Pron+Qnt+A+Der/MWN: Noun1 ;
++Qnt+A: K ;
++Qnt+A+Der/MWN: Noun1 ;
 
 LEXICON PRON-QNT_
 +Qnt: COMPARATIVE ; ! sg/pl?
@@ -1413,39 +1413,39 @@ LEXICON PRON-QNT_
 !2018-10-21!+Pron+Qnt+Pl: WordEnd ;
 
 LEXICON PRON-QNT-IS_ILL
-+Pron+Qnt+Ill: K ;
++Qnt+Ill: K ;
 
 
 LEXICON PRON-NEG-End
-+Pron+Neg: K ;
++Neg: K ;
 
 LEXICON PRON-NEG-A
-+Pron+Der+Neg+A: WordEnd ;
-+Pron+Der+Neg+A+Sg+Nom: WordEnd ;
-+Pron+Der+Neg+A+Sg: PRON-NEG-OBL ;
++Der+Neg+A: WordEnd ;
++Der+Neg+A+Sg+Nom: WordEnd ;
++Der+Neg+A+Sg: PRON-NEG-OBL ;
 !+Pron+Neg+A+Der/MWN+N+Sg+Nom: WordEnd ;
 !+Pron+Neg+A+Der/MWN+N+Sg: PRON-NEG-OBL ;
 
 LEXICON PRON-NEG-ADV
-+Pron+Der+Neg+Adv: COMPARATIVE ;
++Der+Neg+Adv: COMPARATIVE ;
 
 LEXICON PRON-NEG-IN_LA
-+Pron+Neg+Der/ла+Spat: PRON-NEG-SPAT ;
++Neg+Der/ла+Spat: PRON-NEG-SPAT ;
 
 LEXICON PRON-NEG-ITER
-+Pron+Der+Neg+Der/ысь+Adv: K ; !+Iter
++Der+Neg+Der/ысь+Adv: K ; !+Iter
 
 LEXICON PRON-NEG
-+Pron+Neg+Sg: PRON-NEG_0 ;
-+Pron+Neg+Sg: PRON-NEG_J ;
-+Pron+Neg+Pl:ъяс PRON-NEG_0 ;
-+Pron+Neg+Pl:ъяс PRON-NEG_J ;
++Neg+Sg: PRON-NEG_0 ;
++Neg+Sg: PRON-NEG_J ;
++Neg+Pl:ъяс PRON-NEG_0 ;
++Neg+Pl:ъяс PRON-NEG_J ;
 
 LEXICON PRON-NEG_0/J
-+Pron+Neg+Sg: PRON-NEG_0 ;
-+Pron+Neg+Sg:й PRON-NEG_J ;
-+Pron+Neg+Pl:ъяс PRON-NEG_0 ;
-+Pron+Neg+Pl:ъяс PRON-NEG_J ;
++Neg+Sg: PRON-NEG_0 ;
++Neg+Sg:й PRON-NEG_J ;
++Neg+Pl:ъяс PRON-NEG_0 ;
++Neg+Pl:ъяс PRON-NEG_J ;
 
 LEXICON PRON-NEG_0
 +Nom: WordEnd ;
@@ -1517,13 +1517,13 @@ LEXICON PRON-NEG-SPAT
  TER/MORPH-THEN-K ;
  
 LEXICON PRON-NEG-IS_ILL
-+Pron+Neg+Ill: K ;
++Neg+Ill: K ;
 
 !! Tagged in the src/morphology/stems/pronouns.xml file
 LEXICON PRON_
 : K ;
 LEXICON PronInterr
-+Pron+Interr: WordEnd ;
++Interr: WordEnd ;
 !2018-10-21!LEXICON PronIndef
 !2018-10-21!+Pron+Indef: WordEnd ;
 

@@ -811,13 +811,13 @@ LEXICON VerbDer-V
 !2018-10-21!+V+ConNeg@U.CONJ-CONNEG.YES@:@U.CONJ-CONNEG.YES@ WordEnd ;
 
 LEXICON EM !!≈ * __@CODE@__ эм:эм. Ending in -ӧсь.
-@U.CONJ-MX.IND@+V+Ind+Prs+Sg3:@U.CONJ-MX.IND@ WordEnd ;
-+V+Ind+Prs+Pl3:%>ӧсь K ; ! Plural predicative ;
-+Use/NG+Err/Dial+V+Ind+Prs+Pl3:%>эсь K ; ! Plural predicative ;
+@U.CONJ-MX.IND@+Ind+Prs+Sg3:@U.CONJ-MX.IND@ WordEnd ;
++Ind+Prs+Pl3:%>ӧсь K ; ! Plural predicative ;
++Use/NG+Err/Dial+Ind+Prs+Pl3:%>эсь K ; ! Plural predicative ;
 
 LEXICON EMYSHT ! эмышт "is a little / are a few"
-@U.CONJ-MX.IND@+V+Ind+Prs+Sg3:@U.CONJ-MX.IND@ WordEnd ;
-@U.CONJ-MX.IND@@U.CONJ-NX.PL@@U.CONJ-PX.3@+V+Ind+Prs+Pl3:@U.CONJ-MX.IND@@U.CONJ-NX.PL@@U.CONJ-PX.3@ WordEnd ;
+@U.CONJ-MX.IND@+Ind+Prs+Sg3:@U.CONJ-MX.IND@ WordEnd ;
+@U.CONJ-MX.IND@@U.CONJ-NX.PL@@U.CONJ-PX.3@+Ind+Prs+Pl3:@U.CONJ-MX.IND@@U.CONJ-NX.PL@@U.CONJ-PX.3@ WordEnd ;
  
 LEXICON GER ! 3 lexicalised +Ger forms.
 +V+Ger: WordEnd ;
