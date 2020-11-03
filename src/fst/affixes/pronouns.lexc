@@ -53,6 +53,7 @@ LEXICON PERS-PL1    !!≈ * __@CODE@__
 +Nom:мийӧ K ; !Der/йӧ
 +Gen:миян K ;
 +Acc:миянӧс K ;
++Use/NG+Err/Dial+Acc:миянэс K ;
 :миян persplobl ;
 !!Extras from 2000 Grammar: 163
 +Gen:миянлӧн K ; !Synomymous with: миян
@@ -112,11 +113,13 @@ LEXICON PERS-PL2 !!≈ * __@CODE@__
 +Gen:тіян K ;
 +Gen:тіянлӧн K ;
 +Acc:тіянӧс K ;
++Use/NG+Err/Dial+Acc:тіянэс K ;
 :тіян persplobl ;
 !More forms from Ӧнія коми кыв 2000: 163
 +Abl:тіянлысьныд K ;
 +Dat:тіянлы K ;
 +Acc:тіянныдтӧ K ;
++Use/NG+Err/Dial+Acc:тіянныдтэ K ;
 +Ins:тіӧн K ;
 +Car:тіянныдтӧг K ;
 +Car:тітӧг K ;
@@ -228,7 +231,8 @@ LEXICON perssg !!≈ * __@CODE@__
 
 
 LEXICON persplobl !!≈ * __@CODE@__
-+Acc:ӧс K ;
++Acc:%>ӧс K ;
++Use/NG+Err/Dial+Acc:%>эс K ;
 
  ABL/MORPH-THEN-WORDEND ;
  APR/MORPH-THEN-WORDEND ;
@@ -424,6 +428,7 @@ LEXICON COLL-PRON_CASE
 LEXICON INDEFINITE-PRON
 мыйсюрӧ+Pron+Indef+Sg+Nom:мый INDEF-IN-SJURO ;
 кодсюрӧ+Pron+Indef+Sg+Acc:кодсюрӧӧс WordEnd ;
+кодсюрӧ+Pron+Indef+Sg+Use/NG+Err/Dial+Acc:кодсюреэс WordEnd ;
 кодсюрӧ+Pron+Indef+Sg:кодсюрӧ DAT/MORPH-THEN-WORDEND ;
 кодсюрӧ+Pron+Indef+Sg:кодсюрӧ ABL/MORPH-THEN-WORDEND ;
 кодсюрӧ+Pron+Indef+Pl+Nom:кодсюрӧяс WordEnd ;
@@ -510,7 +515,8 @@ LEXICON PRON-HUM-OBL
  NOM/MORPH-THEN-WORDEND ;
  TER/MORPH-THEN-WORDEND ;
  TRA/MORPH-THEN-WORDEND ;
-+Acc:ӧс WordEnd ;
++Acc:%>ӧс WordEnd ;
++Use/NG+Err/Dial+Acc:%>эс WordEnd ;
 
 LEXICON PRON-HUM-COLL
 +Coll:нан PRON-HUM-COLL-PERS ;
@@ -1262,11 +1268,15 @@ LEXICON PRONQ-STAV-CASES
 +Acc:ӧс K ;
 +Acc+PxSg1:ӧс K ;
 +Acc+PxSg2:тӧ K ;
++Use/NG+Err/Dial+Acc+PxSg2:тэ K ;
 +Acc+PxSg3:сӧ K ;
++Use/NG+Err/Dial+Acc+PxSg3:сэ K ;
 +Acc+PxPl1:нымӧс K ;
 +Acc+PxPl1+Err/Dial:нумес K ;
 +Acc+PxPl2:нытӧ K ;
++Use/NG+Err/Dial+Acc+PxPl2:нытэ K ;
 +Acc+PxPl3:нысӧ K ;
++Use/NG+Err/Dial+Acc+PxPl3:нысэ K ;
 
 +Dat+PxSg2:ыдлы K ; ! This far 2017-03-19
 +Dat+PxSg3:ыслы K ;
@@ -1374,8 +1384,11 @@ LEXICON PRONQ-COLL-CASE
 +Dat+PxSg2:ыдлысь K ;
 +Dat+PxSg3:ыслысь K ;
 +Acc:ӧс K ;
++Use/NG+Err/Dial+Acc:%>эс K ;
 +Acc+PxSg2:тӧ K ;
++Use/NG+Err/Dial+Acc+PxSg2:тэ K ;
 +Acc+PxSg3:сӧ K ;
++Use/NG+Err/Dial+Acc+PxSg3:сэ K ;
  INS/MORPH-THEN-K ;
  COM/MORPH-THEN-K ;
 +Com+PxSg2:ыдкӧд K ;
@@ -1453,7 +1466,9 @@ LEXICON PRON-NEG_0
  ABL/MORPH-THEN-K ;
 +Dat:лы WordEnd ;
 +Acc+PxSg2:тӧ WordEnd ;
++Use/NG+Err/Dial+Acc+PxSg2:тэ WordEnd ;
 +Acc+PxSg3:сӧ WordEnd ;
++Use/NG+Err/Dial+Acc+PxSg3:сэ WordEnd ;
  COM/MORPH-THEN-K ;
  CAR/MORPH-THEN-K ;
  CNS/MORPH-THEN-K ;
@@ -1462,7 +1477,8 @@ LEXICON PRON-NEG_0
  TRA/MORPH-THEN-K ;
 
 LEXICON PRON-NEG_J
-+Acc+PxSg1:ӧс WordEnd ;
++Acc+PxSg1:%>ӧс WordEnd ;
++Use/NG+Err/Dial+Acc+PxSg1:%>эс WordEnd ;
  INS/MORPH-THEN-K ;
  INE/MORPH-THEN-K ;
  ELA/MORPH-THEN-K ;
@@ -1475,7 +1491,9 @@ LEXICON PRON-NEG-COLL
 +Coll: PRON-NEG-COLL-PERS ; !+ZeroColl
 !
 +Coll+Acc+PxPl2:ныдтӧ K ; !+ZeroColl
++Use/NG+Err/Dial+Coll+Acc+PxPl2:ныдтэ K ; !+ZeroColl
 +Coll+Acc+PxPl2:наннытӧ K ;
++Use/NG+Err/Dial+Coll+Acc+PxPl2:наннытэ K ;
 
 LEXICON PRON-NEG-COLL-PERS
 +PxPl1:ным PRON-NEG-COLL-CASES ;
@@ -1486,7 +1504,9 @@ LEXICON PRON-NEG-COLL-PERS
 +Acc+PxPl1:нымӧс K ;
 +Acc+PxPl1+Err/Dial:нумес K ;
 +Acc+PxPl2:нытӧ K ;
++Use/NG+Err/Dial+Acc+PxPl2:нытэ K ;
 +Acc+PxPl3:ныссӧ K ;
++Use/NG+Err/Dial+Acc+PxPl3:ныссэ K ;
 
 LEXICON PRON-NEG-COLL-CASES
  NOM/MORPH-THEN-K ;
@@ -1499,8 +1519,10 @@ LEXICON PRON-NEG-OBL
 +Gen:лӧн WordEnd ;
  ABL/MORPH-THEN-K ;
  DAT/MORPH-THEN-K ;
-+Acc:ӧс WordEnd ;
++Acc:%>ӧс WordEnd ;
++Use/NG+Err/Dial+Acc:%>эс WordEnd ;
 +Acc+PxSg3:сӧ WordEnd ;
++Use/NG+Err/Dial+Acc+PxSg3:сэ WordEnd ;
  INS/MORPH-THEN-K ;
  COM/MORPH-THEN-K ;
  CAR/MORPH-THEN-K ;
@@ -1530,7 +1552,8 @@ LEXICON PronInterr
 !! Word-final cases
 
 LEXICON ACC-WORD-END
-+Acc:ӧс WordEnd ;
++Acc:%>ӧс WordEnd ;
++Use/NG+Err/Dial+Acc:%>эс WordEnd ;
 
 LEXICON INDEF-IN-SJURO
 +Der/сюрӧ:сюрӧ K ;
