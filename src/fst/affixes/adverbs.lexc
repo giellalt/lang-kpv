@@ -51,11 +51,19 @@ LEXICON ADV-F !
 LEXICON ADV-STATE !
 +State: COMPARATIVE ; !
 
+LEXICON AdvParenthetic_O2
+:%>ӧ AdvParenthetic ;
++Use/NG+Err/Orth:%>э AdvParenthetic ;
+
 LEXICON AdvParenthetic
 +Parenthetic: WordEnd ;
 
 LEXICON ADV_SUB
 +Use/NG+Err/Orth: ADV_ ;
+
+LEXICON ADV_O2
+:%>ӧ ADV_ ;
++Use/NG+Err/Orth:%>э ADV_ ;
 
 LEXICON ADV_ ! these are checked as advs.
 : COMPARATIVE ;
