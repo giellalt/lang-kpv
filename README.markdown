@@ -22,7 +22,7 @@ Documentation
 
 Documentation can be found at:
 
--   <https://giellalt.uit.no/lang/kpvdoc/index.html>
+-   <https://giellalt.uit.no/lang/kom/index.html>
 -   <https://giellalt.uit.no/index.html>
 
 Core dependencies
