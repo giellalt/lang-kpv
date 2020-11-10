@@ -8,6 +8,7 @@ LEXICON PRONOUN-TYPES
  PERS ;
  INTERR ;
  INDEFINITE-PRON ;
+ DEM-PRON ;
  NEG-PRON ;
  COLL-PRON ;
 
@@ -212,6 +213,22 @@ LEXICON PERS-PL3 !!≈ * __@CODE@__
 +Ter:наӧдзыс K ;
 +Ter+Err/Dial:наэдзыс K ;
 
++Nom+Err/Dial:ныа K ; ! Izhman monografia:65
++Gen+Err/Dial:нылэн K ;
++Abl+Err/Dial:нылысь K ;
++Dat+Err/Dial:нылы K ;
++Ins+Err/Dial:ные K ;
++Ins+Err/Dial:ніе K ;
++Com+Err/Dial:ныкед K ;
++Car+Err/Dial:нытэг K ;
++Car+Err/Dial:нытэгъя K ;
++Cns+Err/Dial:ныла K ;
++Ela+Err/Dial:ныысь K ;
++Apr+Err/Dial:нылань K ;
++Egr+Err/Dial:нысянь K ;
++Tra+Err/Dial:ныти K ;
++Ter+Err/Dial:ныэдз K ;
+
 !2020-10-12 THIS FAR
 LEXICON perssg !!≈ * __@CODE@__
  ABL/MORPH-THEN-WORDEND ; !This is not attested for Sg1 and Sg2 in the 2000 Grammar
@@ -378,6 +395,8 @@ LEXICON INTERR
 кыті+Adv+Tra:кыті INTERR-REL ;
 кыткӧ+Adv+Indef+Tra:кыт INDEF-IN-KO ;
 кытсюрӧ+Adv+Indef+Tra:кыт INDEF-IN-SJURO ;
+кытсюрӧ+Adv+Indef+Tra+Der/сюрӧ:кытсюрӧті K ;
+кытсюрӧ+Adv+Indef+Tra+Der/сюрӧ:кытсюрӧясті K ;
 
 кӧні+v1+Adv+Ine:кӧні INTERR-REL ;
 кӧні+v2+Adv+Interr+Ine:кӧн ADV_  "missä" ;
@@ -392,6 +411,65 @@ LEXICON INTERR
 мыйта+Pron+NonHum:мыйта INTERR-REL ;
 мыйтӧм+Pron+NonHum:мыйтӧм INTERR-REL ;
 мыйӧс+Pron+NonHum+Use/NG+Err/Orth:мыйӧс INTERR-REL ;
+
+LEXICON DEM-PRON
+ная+Pron+Dem+Pl+Nom+Err/Orth:ная K ; ! Izhman monografia:78
+ная+Pron+Dem+Pl+Gen+Err/Orth:налэн K ;
+ная+Pron+Dem+Pl+Abl+Err/Orth:налысь K ;
+ная+Pron+Dem+Pl+Dat+Err/Orth:налы K ;
+ная+Pron+Dem+Pl+Acc+Err/Orth:нае K ;
+ная+Pron+Dem+Pl+Ins+Err/Orth:наэн K ;
+ная+Pron+Dem+Pl+Com+Err/Orth:накед K ;
+ная+Pron+Dem+Pl+Car+Err/Orth:натэг K ;
+ная+Pron+Dem+Pl+Cns+Err/Orth:нала K ;
+ная+Pron+Dem+Pl+Ine+Err/Orth:наын K ;
+ная+Pron+Dem+Pl+Ela+Err/Orth:наысь K ;
+ная+Pron+Dem+Pl+Apr+Err/Orth:налань K ;
+ная+Pron+Dem+Pl+Egr+Err/Orth:насянь K ;
+
+энія+Pron+Dem+Pl+Nom+Err/Orth:энія K ; ! Izhman monografia:78
+энія+Pron+Dem+Pl+Gen+Err/Orth:энылэн K ;
+энія+Pron+Dem+Pl+Abl+Err/Orth:энылысь K ;
+энія+Pron+Dem+Pl+Dat+Err/Orth:энылы K ;
+энія+Pron+Dem+Pl+Acc+Err/Orth:эніе K ;
+энія+Pron+Dem+Pl+Ins+Err/Orth:эныэн K ;
+энія+Pron+Dem+Pl+Com+Err/Orth:эныкед K ;
+энія+Pron+Dem+Pl+Car+Err/Orth:энытэг K ;
+энія+Pron+Dem+Pl+Cns+Err/Orth:эныла K ;
+энія+Pron+Dem+Pl+Ine+Err/Orth:эныын K ;
+энія+Pron+Dem+Pl+Ela+Err/Orth:эныысь K ;
+энія+Pron+Dem+Pl+Apr+Err/Orth:энылань K ;
+энія+Pron+Dem+Pl+Egr+Err/Orth:энысянь K ;
+
+этія+Pron+Dem+Sg+Nom+Err/Orth:этія K ; ! Izhman monografia:78
+этія+Pron+Dem+Sg+Gen+Err/Orth:этылэн K ;
+этія+Pron+Dem+Sg+Abl+Err/Orth:этылысь K ;
+этія+Pron+Dem+Sg+Dat+Err/Orth:этылы K ;
+этія+Pron+Dem+Sg+Acc+Err/Orth:этіе K ;
+этія+Pron+Dem+Sg+Ins+Err/Orth:этыэн K ;
+этія+Pron+Dem+Sg+Ins+Err/Orth:этіен K ;
+этія+Pron+Dem+Sg+Com+Err/Orth:этыкед K ;
+этія+Pron+Dem+Sg+Car+Err/Orth:этытэг K ;
+этія+Pron+Dem+Sg+Cns+Err/Orth:этыла K ;
+этія+Pron+Dem+Sg+Ine+Err/Orth:этыын K ;
+этія+Pron+Dem+Sg+Ela+Err/Orth:этыысь K ;
+этія+Pron+Dem+Sg+Apr+Err/Orth:этылань K ;
+этія+Pron+Dem+Sg+Egr+Err/Orth:этысянь K ;
+
+тія+Pron+Dem+Sg+Nom+Err/Orth:тія K ; ! 
+тія+Pron+Dem+Sg+Gen+Err/Orth:тылэн K ;
+тія+Pron+Dem+Sg+Abl+Err/Orth:тылысь K ;
+тія+Pron+Dem+Sg+Dat+Err/Orth:тылы K ;
+тія+Pron+Dem+Sg+Acc+Err/Orth:тіе K ;
+тія+Pron+Dem+Sg+Ins+Err/Orth:тыэн K ;
+тія+Pron+Dem+Sg+Ins+Err/Orth:тіен K ;
+тія+Pron+Dem+Sg+Com+Err/Orth:тыкед K ;
+тія+Pron+Dem+Sg+Car+Err/Orth:тытэг K ;
+тія+Pron+Dem+Sg+Cns+Err/Orth:тыла K ;
+тія+Pron+Dem+Sg+Ine+Err/Orth:тыын K ;
+тія+Pron+Dem+Sg+Ela+Err/Orth:тыысь K ;
+тія+Pron+Dem+Sg+Apr+Err/Orth:тылань K ;
+тія+Pron+Dem+Sg+Egr+Err/Orth:тысянь K ;
 
 !Here are some negative pronouns out of place 2011-11-22
 LEXICON NEG-PRON
