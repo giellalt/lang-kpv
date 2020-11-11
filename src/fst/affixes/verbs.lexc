@@ -130,7 +130,7 @@ LEXICON V-0_ШУНЫ !!≈ * __@CODE@__ шуны:шу янӧдны, контро
 @U.CONJ-INF.YES@:@U.CONJ-INF.YES@ VerbDer-V ; !
 @U.CONJ-INF.YES@:@U.CONJ-INF.YES@  VerbDer-ONSET_И/І ;
 @U.CONJ-INF.YES@+Refl:@U.CONJ-INF.YES@а Verb-nyDer-ONSET-А ;
-: VerbConj ; !а
+: VerbConj ; !ач
 : VerbConj-V ; !б
 
 LEXICON VR_АМНЫ !!≈ * __@CODE@__
@@ -609,11 +609,13 @@ LEXICON Verb-nyDer-ONSET-А !!≈ * __@CODE@__ Derivation onset	in vowel
 LEXICON Verb-nyDer-ONSET-А/Я
 @C.CONJ-INF@@C.CONJ-POSS@+Der/ал:@C.CONJ-INF@@C.CONJ-POSS@%>%{ая%}л V_ШУНЫ ; !!сетавны
 @C.CONJ-INF@@C.CONJ-POSS@+Der/овт:@C.CONJ-INF@@C.CONJ-POSS@%>овт V_ШУНЫ ; !!пановтны
+@C.CONJ-INF@@C.CONJ-POSS@+Der/овт+Err/Dial:@C.CONJ-INF@@C.CONJ-POSS@%>ол%^C2Vт V_ШУНЫ ; !!пановтны
 @C.CONJ-INF@@C.CONJ-POSS@+Der/ась:@C.CONJ-INF@@C.CONJ-POSS@%>%{ая%}сь V_ШУНЫ ; !! босьтасьны
 
 LEXICON Verb-nyDer-ONSET-Я !!≈ * __@CODE@__ Derivation onset	in vowel
 @C.CONJ-INF@@C.CONJ-POSS@+Der/ал:@C.CONJ-INF@@C.CONJ-POSS@%>%{ая%}л V_ШУНЫ ; !!сетавны
 @C.CONJ-INF@@C.CONJ-POSS@+Der/овт:@C.CONJ-INF@@C.CONJ-POSS@%>ёвт V_ШУНЫ ; !!пановтны
+@C.CONJ-INF@@C.CONJ-POSS@+Der/овт+Err/Dial:@C.CONJ-INF@@C.CONJ-POSS@%>ёл%^C2Vт V_ШУНЫ ; !!пановтны
 @C.CONJ-INF@@C.CONJ-POSS@+Der/ась:@C.CONJ-INF@@C.CONJ-POSS@%>%{ая%}сь V_ШУНЫ ; !! босьтасьны
 
 
@@ -767,6 +769,7 @@ LEXICON Verb-ynyDer
 
 @C.CONJ-INF@@C.CONJ-POSS@+Der/ал:@C.CONJ-INF@@C.CONJ-POSS@ал V_ШУНЫ ; !!бергӧдчавны
 @C.CONJ-INF@@C.CONJ-POSS@+Der/ал+Der/лы:@C.CONJ-INF@@C.CONJ-POSS@авл V_ВОЛЫНЫ ; !!бергӧдчавлыны
+@C.CONJ-INF@@C.CONJ-POSS@+Der/ал+Err/Dial+Der/лы:@C.CONJ-INF@@C.CONJ-POSS@ал%^C2Vл V_ВОЛЫНЫ ; !!бергӧдчавлыны
 @C.CONJ-INF@@C.CONJ-POSS@+Der/ась:@C.CONJ-INF@@C.CONJ-POSS@ась V_ШУНЫ ; !! бертласьны
 
 
@@ -792,7 +795,9 @@ LEXICON VerbDer-V
 +Der+Car+Use/NG+Err/Orth+Ger:%>тӧга K ; !387
 +Der+Car+Der/моз+Ger:%>тӧгмоз PossessiveSuffixes_NoSg1 ; !
 +Der+Der/Adv+Adv:%>ӧм%>выв ADV_ ; !2091-06-03
++Der+Der/Adv+Adv+Err/Dial:%>ӧм%>выл%^C2V ADV_ ; !2091-06-03
 +Der+Der/Adv+Adv+Ela+PxSg2:%>ӧм%>выв%>сьыд ADV_ ; !2091-06-03
++Der+Der/Adv+Adv+Err/Dial+Ela+PxSg2:%>ӧм%>выл%^C2V%>сьыд ADV_ ; !2091-06-03
 
 +Use/NG+Err/Dial+VTer:%>тэдз PossessiveSuffixes_NoSg1 ; !396
 +Use/NG+Err/Dial+Der+Der/мӧн+Ger:%>мен PossessiveSuffixes_NoSg1 ; !399-403
