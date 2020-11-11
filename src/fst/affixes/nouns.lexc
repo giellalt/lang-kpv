@@ -577,6 +577,11 @@ LEXICON AdjCompar
 +Comp+Der+Der/а:%>джыка ADV_ ;
 +Comp+Sg:%>джык CASEPOSSLEX-afterDerivation ;
 +Comp+Pl:%>джыкъяс CASEPOSSLEX-afterDerivation ;
+
++Comp+Err/Dial:%>дзык PredMonLex ;
++Comp+Der+Der/а+Err/Dial:%>дзыка ADV_ ;
++Comp+Sg+Err/Dial:%>дзык CASEPOSSLEX-afterDerivation ;
++Comp+Pl+Err/Dial:%>дзыкъяс CASEPOSSLEX-afterDerivation ;
 !2017-09-19+Comp+Der/MWN+Sg:%>джык CASEPOSSLEX-afterDerivation ;
 !2017-09-19+Comp+Der/MWN+Pl:%>джыкъяс CASEPOSSLEX-afterDerivation ;
 +Sg: CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
@@ -587,6 +592,7 @@ LEXICON AdjCompar
 LEXICON IllCompar
  K ;
 +Comp:%>джык K ;
++Comp+Err/Dial:%>дзык K ;
 
 !2018-10-21!LEXICON PredMonLex-Spat
 !2018-10-21! K ;      ! Singular predicative
@@ -597,6 +603,7 @@ LEXICON PredMonLex-Spat-Add-Morphology ! This allows consistency
 +Cop+Pl:%>ӧсь K ; ! Plural predicative.
 +Use/NG+Err/Dial+Cop+Pl:%>эсь K ; ! Plural predicative.
 +Comp:%>джык PredMonLex ; !ывлаынджык OR ывлаынджыкӧсь
++Comp+Err/Dial:%>дзык PredMonLex ; !ывлаынджык OR ывлаынджыкӧсь
 
 
 LEXICON PredMonLex
