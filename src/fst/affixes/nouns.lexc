@@ -600,18 +600,21 @@ LEXICON IllCompar
 
 LEXICON PredMonLex-Spat-Add-Morphology ! This allows consistency
                                        ! with SPAT elsewhere
-+Cop+Pl:%>ӧсь K ; ! Plural predicative.
-+Use/NG+Err/Dial+Cop+Pl:%>эсь K ; ! Plural predicative.
+COP-PL ;
 +Comp:%>джык PredMonLex ; !ывлаынджык OR ывлаынджыкӧсь
 +Comp+Err/Dial:%>дзык PredMonLex ; !ывлаынджык OR ывлаынджыкӧсь
++Comp+Use/NG+Err/Orth:%>ӧсь%>джык%>ӧсь K ; !ывлаынӧсьджыкӧсь
++Comp+Use/NG+Err/Dial:%>эсь%>джык%>эсь K ; !ывлаынэсьджыкесь
 
 
 LEXICON PredMonLex
  K ;      ! Singular predicative
-+Cop+Pl:%>ӧсь K ; ! Plural predicative.
-+Use/NG+Err/Dial+Cop+Pl:%>эсь K ; ! Plural predicative.
+COP-PL ;
 !! 2012-02-07 !!+Der/а+Adv:%>а K ;
 
+LEXICON COP-PL
++Cop+Pl:%>ӧсь K ;
++Use/NG+Err/Dial+Cop+Pl:%>эсь K ; ! Plural predicative.
 
 
 
