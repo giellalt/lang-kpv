@@ -72,6 +72,12 @@ LEXICON ADV_L ! these are checked as advs.
 :%^Close COMPARATIVE ;
 +Err/Dial:%^C2V COMPARATIVE ;
 
+LEXICON ADV-IS-INE_
++Ine: K ;
+LEXICON ADV-IS-INE-AND-COP-PL_
++Ine: K ;
++Ine: COP-PL ;
+
 LEXICON ADV-INDEF_
 +Indef: WordEnd ;
 
