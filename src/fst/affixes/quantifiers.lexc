@@ -20,14 +20,20 @@ LEXICON CARD
 +Card+Iter:%>ысь K ; ! нёльысь
 +Card+Iter+Ins:%>ысьӧн K ; !нёльысьӧн
 +Card+Iter+Ins+Err/Dial:%>ысен K ; !нёльысьӧн
-+Distr:%>ӧн K ; !нёльӧн
-+Distr+Err/Dial:%>эн K ; !нёльӧн
++Distr:%>ӧн PredMonLex ; !нёльӧн
++Distr+Err/Dial:%>эн PredMonLex ; !нёльӧн
 
 
 
 
 LEXICON ORD
- DET_ ;
++Ord: NumCASEPOSSLEX ; ! ӧд part of the stem
++Ord+Iter:%>ысь K ;
++Ord+Iter+Ins:%>ысьӧн K ;
++Ord+Iter+Ins+Err/Dial:%>ысен K ;
++Ord+Distr:%>ӧн PredMonLex ;
++Ord+Distr+Err/Dial:%>эн PredMonLex ;
+
 LEXICON DET_
 !+Det+Ord: ABS_ ; 2018-10-21
 +Det+Ord: NumCASEPOSSLEX ; ! ӧд part of the stem
@@ -43,15 +49,15 @@ LEXICON DET_END
 
 
 LEXICON NUM-IS_DISTR
-+Num+Distr: K ;
++Distr: PredMonLex ;
 
 LEXICON QNT_
 +Qnt: NumCASEPOSSLEX ;
 +Qnt+Card+Iter:%>ысь K ;
 +Qnt+Card+Iter+Ins:%>ысьӧн K ;
 +Qnt+Card+Iter+Ins+Err/Dial:%>ысен K ;
-+Qnt+Card+Distr:%>ӧн K ;
-+Qnt+Card+Distr+Err/Dial:%>эн K ;
++Qnt+Distr:%>ӧн PredMonLex ;
++Qnt+Distr+Err/Dial:%>эн PredMonLex ;
 
 
 !! LEXICON NUM-APPR ! 2011-11-03 This will need work
