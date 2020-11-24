@@ -104,7 +104,7 @@ Rules
 
 "The famous L/V goes Izhva"
 !! __@RULENAME@__
- л:Vy <=>  [Cns: | # | %- ] Vx: _ %^C2V: ;
+ л:Vy <=>  [Cns: |Vow: | # | %- ] Vx: _ %^C2V: ;
 	where Vx in (а е ё и о ӧ у ы э ю я)
               Vy in (о э о и о ӧ у ы э у ё)
         matched ;
@@ -297,6 +297,7 @@ Rules
 !!€ автобус%>ъяс
 !!$ автобус%>ъяс
 !!$ автобус%>0яс
+   Vow л: %^C2V: %> _ ;
 
 "Hard Sign Palatalization"
 !! __@RULENAME@__
