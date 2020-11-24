@@ -7,7 +7,7 @@ LEXICON PCLE_
 : WordEnd ;
 
 LEXICON PCLE_NEG
-+Neg: WordEnd ;
++Aux+Neg: PredMonLex ;
 
 LEXICON PcleIntens
 +Intens: WordEnd ;

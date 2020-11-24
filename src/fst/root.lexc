@@ -162,7 +162,8 @@ Multichar_Symbols
 +So/PC  !!≈ * __@CODE@__ segment ordering: person, case
 
 !! The comparative forms are:
- +Comp +Superl !!≈ * __@CODE@__ 
+ +Comp !!≈ * __@CODE@__ джык
+ +Superl !!≈ * __@CODE@__ 
 !! Numerals are classified under:
  +Attr +Card !!≈ * __@CODE@__ 
  +Ord  !!≈ * __@CODE@__ 
@@ -210,10 +211,12 @@ Multichar_Symbols
  +Foc  !!≈ * __@CODE@__ 
 +Clt/И  !!≈ * __@CODE@__  This comes at the end of a word -и or after vowels (some authors use -й)
 +Clt  !!≈ * __@CODE@__ 
-+Clt/а  !!≈ * __@CODE@__ 
-+Clt/ӧ  !!≈ * __@CODE@__ 
++Qst/A  !!≈ * __@CODE@__ 
++Qst/Oe  !!≈ * __@CODE@__ 
 +Clt/тӧ  !!≈ * __@CODE@__ 
 +Clt/сӧ  !!≈ * __@CODE@__
++Clt/Kodj  !!≈ * __@CODE@__ adjectival phrase
++Clt/Moz  !!≈ * __@CODE@__ adverbial clause
 
 !!! !Tags usually not visible outside the code:
 
@@ -584,8 +587,8 @@ Multichar_Symbols
 
 +Der/LocMod ! +Der/ALoc  Denominal locative adjective Der/са
 +Der/ProprietiveMod ! +Der/APrior  Denominal prioritive adjective Der/а
-+Der/PrivMod !
-+Der/TempMod ! 
++Der/PrivMod ! тӧм
++Der/TempMod ! Der/ся
 
 +Der/а +Der/са +Der/ся +Der/кодь +Der/Иник
 +Der/Ин
@@ -994,9 +997,9 @@ LEXICON K
 ! were converted to _WordEnd_
 LEXICON WordEnd
             # ;
-+Clt/а:%>%-а WordEnd-2 ;
-+Clt/ӧ:%>%-ӧ WordEnd-2 ;
-+Clt/ӧ:%>%-э WordEnd-2 ;
++Qst/A:%>%-а WordEnd-2 ;
++Qst/Oe:%>%-ӧ WordEnd-2 ;
++Qst/Oe:%>%-э WordEnd-2 ;
 
 LEXICON WordEnd-2
             # ;
@@ -1022,9 +1025,6 @@ LEXICON COMPARATIVE
 +Der+Der/кодь:%>кодь K ; ! like -- in copula constructions
 
 ! TODO: Integrate this in xml-files in working…
-
-LEXICON SUPERL-ADV_
-               K ;
 
 
 LEXICON SUBSTANDARDS
