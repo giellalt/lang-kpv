@@ -25,12 +25,15 @@ LEXICON PERS-SG1   !!≈ * __@CODE@__
 +Nom:ме K ;
 !+Cmpl:ме WordEnd ; !Postposition complement removed 2019-10-27 same as Nom
 +Gen:менам K ;
++Gen+Err/Dial:меам K ;
 +Gen+Cop+Pl:менамӧсь K ;
 +Gen:мелӧн K ;
 +Gen:менамлӧн K ;
 +Ela:менсьым K ; !The elative case is used in Sg1 and Sg2 
 +Ela+Err/Dial:менчум K ; !The elative case is used in Sg1 and Sg2 
-                 !for the functions of the ablative in other persons
++Ela+Err/Dial:менсюм K ;  !for the functions of the ablative in other persons
++Ela+Err/Dial:месюм K ;
++Ela+Err/Dial:меньчум K ;
 +Dat:меным K ; !What should be done with the 4 dative forms?
 +Dat+Err/Dial:менум K ;
 +Dat:мем K ;
@@ -38,6 +41,7 @@ LEXICON PERS-SG1   !!≈ * __@CODE@__
 +Dat:менлы K ;
 +Acc:менӧ K ;
 +Use/NG+Err/Dial+Acc:менэ K ;
++Use/NG+Err/Dial+Acc:менэс K ;
 +Ins:менамӧн K ;
 +Com:менамкӧд K ;
 +Car:менамтӧг K ;

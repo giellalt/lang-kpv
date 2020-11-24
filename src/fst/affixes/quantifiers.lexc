@@ -7,9 +7,12 @@
 !This has to be worked on 2012-01-19
 LEXICON NUM-CARD_
  CARD ;
++Card+Der+Der/La+N:%>ла N_ ;
 :%>ӧд ORD ;
 +Err/Dial:%>эд ORD ;
++Ord+Der+Der/La+N:%>ӧд%>ла N_ ;
 !:%>нан COLL ;
++Coll+Der+Der/La+N:%>нан%>ла N_ ;
 
 LEXICON CARD
 !+Card: ABS_ ; 2018-10-21
@@ -58,12 +61,13 @@ LEXICON QNT_
 +Qnt+Card+Iter+Ins+Err/Dial:%>ысен K ;
 +Qnt+Distr:%>ӧн PredMonLex ;
 +Qnt+Distr+Err/Dial:%>эн PredMonLex ;
++Qnt+Der+Der/La+N:%>ла N_ ;
 
 
 !! LEXICON NUM-APPR ! 2011-11-03 This will need work
 LEXICON CARD-APPR
 +Card+Appr: K ;
-
++Card+Appr+Der+Der/La+N:%>ла N_ ;
 
 ! =================== !
 !! !!Inflectional lexica 

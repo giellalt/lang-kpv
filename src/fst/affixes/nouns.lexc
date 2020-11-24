@@ -22,6 +22,9 @@ LEXICON Noun1-IS_PTC-YSJ !!≈ * __@CODE@__
 LEXICON N-DOR ! мӧдладор The Russian is an adverbial phrase
 +Der+Der/дор: N_ ;
 
+LEXICON N_LA
++Der/La: N_ ;
+
 LEXICON N-VYV ! тулысвыв The Russian is an adverbial phrase
 +Der+Der/выв: N_ ;
 
@@ -109,6 +112,7 @@ LEXICON NMN_PARAGOGIC-V/L !!= * @CODE@ ныв:ны нылыс
 +Use/NG+Err/Orth+Dial/л+Sg:л CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
 +Use/NG+Err/Orth+Dial/в+Sg:л%^Close CASEPOSSLEX-AFTERDERIVATION_VOW ;
 +Use/NG+Err/Orth+Dial/л+Pl:л%>ъяс CASEPOSSLEX ;
++Use/NG+Err/Orth+Dial/л+Pl:л%^C2V%>ъяс CASEPOSSLEX ; !ныыяс
 
 
 LEXICON N_PARAGOGIC-J !!= * @CODE@ ав:ав авйыс
@@ -615,6 +619,12 @@ COP-PL ;
 LEXICON COP-PL
 +Cop+Pl:%>ӧсь K ;
 +Use/NG+Err/Dial+Cop+Pl:%>эсь K ; ! Plural predicative.
++Cop+Pl+Comp:%>ӧсьджык K ; ! Order 2020-11-19
++Cop+Pl+Comp+Ins:%>ӧсьджыкӧн K ; !Order 2020-11-19
++Cop+Pl+Comp+Err/Dial:%>эсьджык K ; ! Order 2020-11-19
++Cop+Pl+Comp+Ins+Err/Dial:%>эсьджыкен K ; !Order 2020-11-19
++Cop+Pl+Clt/Kodj:%>ӧськодь K ;!
++Cop+Pl+Ins:%>ӧсьӧн K ;
 
 
 
