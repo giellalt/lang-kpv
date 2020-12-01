@@ -19,6 +19,8 @@ Alphabet
 %{ая%}:а	!!= * @CODE@ for soft and hard
 !%{ая%}:я	!!= * @CODE@ for soft and hard
 
+%^V1:ӧ       !!= * @CODE@ for reduplicated vowel
+%^V1:а %^V1:э %^V1:о %^V1:у
 !! !!Archiphonemes for vowels
 !! !!Triggers
 %^Close:0	!!= * @CODE@ Close syllable, this triggers final consonant drop, seen in word-final position and before consonant
@@ -106,7 +108,7 @@ Rules
 !! __@RULENAME@__
  л:Vy <=>  [Cns: |Vow: | # | %- ] Vx: _ %^C2V: ;
 	where Vx in (а е ё и о ӧ у ы э ю я)
-              Vy in (о э о и о ӧ у ы э у ё)
+              Vy in (о э о и о ӧ у ы э у о)
         matched ;
 
 "Vowel lengthening а:о я:ё"
@@ -116,6 +118,15 @@ Rules
               Vy in (о ё)
         matched ;
 
+
+"The ӧ/V as in унаан"
+!! __@RULENAME@__
+ %^V1:Vy <=>  [Cns: |Vow: | # | %- ] Vx: %> _  ;
+	where Vx in (а е ё и о ӧ у ы э ю я)
+              Vy in (а э о и о ӧ у ы э у а)
+        matched ;
+!!€ уна%>%^V1н
+!!€ уна%>ан
 
 !! Paragogic consonants
 
