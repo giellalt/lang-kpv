@@ -1,7 +1,7 @@
 
 LEXICON quantifiers
 
-бугри:бугри QNT_  "suunnaton määrä" ;
+бугри+Det:бугри QNT_  "suunnaton määrä" ;
 ветымын+Num:ветымын NUM-CARD_  "viisikymmentä" ;
 вит+Num:вит NUM-CARD_  "viisi" ;
 витсё+Num:витсё NUM-CARD_  "viisisataa" ;
@@ -16,7 +16,7 @@ LEXICON quantifiers
 дас% ӧкмыс+Num:дас% ӧкмыс NUM-CARD_  "yhdeksäntoista" ;
 дас% ӧти+v1+Num:дас% ӧти NUM-CARD_  "yksitoista" ;
 дас% ӧти+v2+Num:дас% ӧтик NUM-CARD_  "yksitoista" ;
-!2017-10-05дзурс:дзурс NUM-CARD_  "miljoona" ;
+!2017-10-05дзурс+Num:дзурс NUM-CARD_  "miljoona" ;
 квайт+Num:квайт NUM-CARD_  "kuusi" ;
 квайтсё+Num:квайтсё NUM-CARD_  "kuusisataa" ;
 квайтымын+Num:квайтымын NUM-CARD_  "kuusikymmentä" ;
@@ -53,13 +53,13 @@ LEXICON quantifiers
 
 куим+Num:куим CARD  "kolme" ;
 
-квайта:квайта Noun1  "kuutonen" ;
-витсёа:витсёа Noun1  "viisisatanen" ;
-даса:даса Noun1  "kymmenikkö" ;
-комына:комына Noun1  "" ;
-куима:куима Noun1  "" ;
-кыка:кыка Adj  "" ;
-джынъя:джынъя Adj  "vajaa" ;
+квайта+N:квайта Noun1  "kuutonen" ;
+витсёа+N:витсёа Noun1  "viisisatanen" ;
+даса+N:даса Noun1  "kymmenikkö" ;
+комына+N:комына Noun1  "" ;
+куима+N:куима Noun1  "" ;
+кыка+A:кыка Adj  "" ;
+джынъя+A:джынъя Adj  "vajaa" ;
 ичӧта+Adv:ичӧта QNT_  "vähin erin" ;
 ичӧтика+Adv:ичӧтика QNT_  "vähän" ;
 неуна+Adv:неуна QNT_  "vähän" ;
@@ -77,7 +77,7 @@ LEXICON quantifiers
 
 витӧн+Num:витӧн NUM-IS_DISTR  "viidestään" ;
 
-коймӧд-кӧ:коймӧд-кӧ ADV_  "" ;
+коймӧд-кӧ+Adv:коймӧд-кӧ ADV_  "" ;
 кык-ӧ-куим+Num:кык-ӧ-куим CARD-APPR  "" ;
 куим-ӧ-нёль+Num:куим-ӧ-нёль CARD-APPR  "" ;
 кык-куим+Num:кык-куим CARD-APPR  "" ;
@@ -86,22 +86,22 @@ LEXICON quantifiers
 кызь-ӧ-комын+Num:кызь-ӧ-комын CARD-APPR "" ;
 сизим-ӧ-кӧкъямыс+Num:сизим-ӧ-кӧкъямыс CARD-APPR "" ;
 квайт-ӧ-сизим+Num:квайт-ӧ-сизим CARD-APPR "" ;
-кыка-кык:кыка-кык QNT_  "" ;
+кыка-кык+Det:кыка-кык QNT_  "" ;
 кыкӧн-кыкӧн+Num:кыкӧн-кыкӧн NUM-IS_DISTR  "parittain" ;
 
-кыклаын:кыкла ADV-SPAT-LA  "" ;
-кыкнанлабокса:кыкнанлабокса Adj  "" ;
-кыкнанладор:кыкнанладор Noun1  "" ;
-кыкнанладорса:кыкнанладорса Adj  "" ;
-мӧдйӧз:мӧдйӧз QNT_  "" ;
+кыклаын+Adv:кыкла ADV-SPAT-LA  "" ;
+кыкнанлабокса+A:кыкнанлабокса Adj  "" ;
+кыкнанладор+N:кыкнанладор Noun1  "" ;
+кыкнанладорса+A:кыкнанладорса Adj  "" ;
+мӧдйӧз+Adv:мӧдйӧз QNT_  "" ;
 !2017-11-08мӧдкодь:мӧдкодь QNT_  "" ;
-мӧдпӧвст:мӧдпӧвст QNT_  "" ;
-мӧдысьджык:мӧдысьджык QNT_  "" ;
-нёльӧд-кӧ:нёльӧд-кӧ AdvParenthetic  "" ;
-первойя:первойя ORD  "" ;
-сизима:сизима Noun1  "seitsikko" ;
-сёа:сёа Noun1  "satanen" ;
-ӧкмыса:ӧкмыса Noun1  "yhdeksikkö" ;
-ӧт:ӧт CARD  "" ;
-ӧтиа:ӧтиа Adj  "yhden hengen" ;
+мӧдпӧвст+Adv:мӧдпӧвст QNT_  "" ;
+мӧдысьджык+Adv:мӧдысьджык QNT_  "" ;
+нёльӧд-кӧ+Adv:нёльӧд-кӧ AdvParenthetic  "" ;
+первойя+A:первойя ORD  "" ;
+сизима+N:сизима Noun1  "seitsikko" ;
+сёа+N:сёа Noun1  "satanen" ;
+ӧкмыса+N:ӧкмыса Noun1  "yhdeksikkö" ;
+ӧт+Num:ӧт CARD  "" ;
+ӧтиа+A:ӧтиа Adj  "yhden hengen" ;
 ӧтчыдысь+Adv:ӧтчыдысь ADV_  "" ;
