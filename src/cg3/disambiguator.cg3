@@ -28,6 +28,7 @@ LIST EOS = (<<<) (</s>); #!! EOS
 LIST CmpTest = CmpTest ; #!! CmpTest
 LIST Err = Err ;  #!! Err
 LIST Err/Dial = Err/Dial ; #!! вӧлі Sg3
+LIST Err/Orth = Err/Orht ;
 
 #!! !Parts of speech tags
 LIST N = N ; #!! N
@@ -618,6 +619,9 @@ SELECT:nmodNotAcc (N Sg Nom) IF (0 Nom) (1 N) ;
 # These rules try to keep the accusative tag only when it is marked
 REMOVE:NomWhenAccMarked (Nom) IF (0 Acc) (0 PxSg3 OR PxSg2) ;
 REMOVE:AccWhenNominative (Acc) IF (0 Acc) (NOT 0 PxSg3 OR PxSg2) ;
+
+REMOVE:NoErrDial Err/Dial ;
+REMOVE:NoErrOrth Err/Orth ;
 
 # This is just a test, doesn't work
 # SELECT:AisNomNotAccIfFollowedByN Nom IF (1 (N Nom)) ;
