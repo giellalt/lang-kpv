@@ -44,6 +44,7 @@ LIST Pcle = Pcle ; #!! Pcle
 LIST Clt = Clt ; #!! Clt
 LIST Po = Po ; #!! Po
 LIST Dem = Dem ; #!! Dem
+LIST Deg = Deg ; #!! Deg
 LIST Qnt = Qnt ; #!! Qnt
 LIST Prop = Prop ; #!! Prop
 LIST WORD = N V A Adv CC CS Interj Pron Num Pcle Clt Po ;
@@ -92,6 +93,7 @@ LIST ConNeg = ConNeg conneg;
 
 LIST V-jylysj = "висьтавны" "гижны" "мойдны" "мӧвпавны" "пасйыны" "сёрнитны" "тӧдны" "шуны" ;
 
+LIST Months = "тӧв шӧр" "урасьӧм" "рака" "кос му" "ода-кора" "лӧддза-номъя" "сора" "моз" "кӧч" "йирым" "вӧльгым" "ӧшым" "январ" "январь" "март" "апрель" "май" "июнь" "июль" "август" "сентябр" "сентябрь" "октябр" "октябрь" "ноябр" "ноябрь" "декабр" "декабрь" ;
 
 #!! Nominal categories
 LIST Sg = Sg sg ; #!! Sg
@@ -348,6 +350,9 @@ REMOVE:NotSg1IFAdv Sg1 IF (-1 N OR Pron)(0 Adv)(1C Ind)(NOT 1 Sg1);
 REMOVE:AdvNotA A IF (-1 N or Pron)(0 Adv)(1 V);
 	# ме регыд муна
 
+REMOVE:MedsjaNotA A IF (0 Adv + Deg)(1 A);
+        # Коми муын медся тӧдса
+
 REMOVE:ANotAdv Adv IF (0 A)(1 N);
 	# ме регыд морт
 	
@@ -559,15 +564,22 @@ SELECT Nom IF (*-1 Acc + PxTag BARRIER CLB);
 SELECT:FirstNameWhenNextSurname (N Nom) IF (0 FirstName)(1 Surname OR Patronym) ;
 SELECT (N Nom) IF (-1 (V IV VFIN)) ;
 
+SELECT:MonthName (N "тӧлысь") IF (-1 Months) ;
+
 # PrsPtc
 
 SELECT PrsPtc IF (1 N);
 
 REMOVE PrsPrc IF (-1 ("тэ")) ;
 REMOVE PrsPtc IF (-1 ("тэ")) ;
-REMOVE PrsPrc IF (1 V) ;
-REMOVE PrsPtc IF (1 V) ;
+#REMOVE PrsPrc IF (1 V) ;
+#REMOVE PrsPtc IF (1 V) ;
 SELECT ConNeg IF (-1 (V Neg)) ;
+
+SELECT:Prt2NotOmaA (Ind Prt2) IF (NOT *-1 VFIN BARRIER BOS) (NOT *-1 VFIN BARRIER EOS) ;
+
+# сӧвмӧ вӧлі гижан кывным
+REMOVE:NotAnPrsPrc (Der/Ан PrsPrc) IF (NOT *-1 VFIN BARRIER BOS) (NOT *-1 VFIN BARRIER EOS) ;
 
 SELECT:ANomNotAAcc (A Nom) IF (1 N) ;
 
