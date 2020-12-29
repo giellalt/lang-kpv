@@ -908,21 +908,21 @@ LEXICON REFL_AS !! * = @CODE@ ас:а
 +Refl+Ins:сӧн K ; !There is no indication of person. = Sg1, Sg3, Pl3
 +Refl+Ins+Err/Dial:сэн K ; !There is no indication of person. = Sg1, Sg3, Pl3
 
-+Poss+Sg1:слам PRON-POSS  "minun oma -ni" ;
-+Poss+Sg2:слад PRON-POSS  "sinun oma -si" ;
-+Poss+Sg3:слас PRON-POSS  "hänen oma -nsa/ sen oma" ;
-+Poss+Pl1:сланым PRON-POSS  "meidän oma -mme" ;
-+Poss+Pl1+Err/Dial:сланум PRON-POSS  "meidän oma -mme" ;
-+Poss+Pl2:сланыд PRON-POSS  "teidän oma -nne" ;
-+Poss+Pl3:сланыс PRON-POSS  "heidän oma -nsa/ niiden oma" ;
+!+Poss+Sg1:слам PRON-POSS  "minun oma -ni" ;
+!+Poss+Sg2:слад PRON-POSS  "sinun oma -si" ;
+!+Poss+Sg3:слас PRON-POSS  "hänen oma -nsa/ sen oma" ;
+!+Poss+Pl1:сланым PRON-POSS  "meidän oma -mme" ;
+!+Poss+Pl1+Err/Dial:сланум PRON-POSS  "meidän oma -mme" ;
+!+Poss+Pl2:сланыд PRON-POSS  "teidän oma -nne" ;
+!+Poss+Pl3:сланыс PRON-POSS  "heidän oma -nsa/ niiden oma" ;
 
-+Det+Poss+Sg1:слам WordEnd-PredMonAdj  "minun oma -ni" ;
-+Det+Poss+Sg2:слад WordEnd-PredMonAdj  "sinun oma -si" ;
-+Det+Poss+Sg3:слас WordEnd-PredMonAdj  "hänen oma -nsa/ sen oma" ;
-+Det+Poss+Pl1:сланым WordEnd-PredMonAdj  "meidän oma -mme" ;
-+Det+Poss+Pl1+Err/Dial:сланум WordEnd-PredMonAdj  "meidän oma -mme" ;
-+Det+Poss+Pl2:сланыд WordEnd-PredMonAdj  "teidän oma -nne" ;
-+Det+Poss+Pl3:сланыс WordEnd-PredMonAdj  "heidän oma -nsa/ niiden oma" ;
++Poss+Sg1:слам WordEnd-PredMonAdj  "minun oma -ni" ;
++Poss+Sg2:слад WordEnd-PredMonAdj  "sinun oma -si" ;
++Poss+Sg3:слас WordEnd-PredMonAdj  "hänen oma -nsa/ sen oma" ;
++Poss+Pl1:сланым WordEnd-PredMonAdj  "meidän oma -mme" ;
++Poss+Pl1+Err/Dial:сланум WordEnd-PredMonAdj  "meidän oma -mme" ;
++Poss+Pl2:сланыд WordEnd-PredMonAdj  "teidän oma -nne" ;
++Poss+Pl3:сланыс WordEnd-PredMonAdj  "heidän oma -nsa/ niiden oma" ;
 
 
 
@@ -1092,32 +1092,32 @@ LEXICON PRON-REFL-SG1-4-NOM
  INS/MORPH-THEN-WORDEND ;
  NOM/MORPH-THEN-WORDEND ;
 
-LEXICON PRON-POSS
-+Sg: PRON-POSS_CASES ;
-+Pl:%>ъяс PRON-POSS_CASES ;
+!LEXICON PRON-POSS
+!+Sg: PRON-POSS_CASES ;
+!+Pl:%>ъяс PRON-POSS_CASES ;
 
-LEXICON PRON-POSS_CASES
- ABL/MORPH-THEN-WORDEND ;
- ACC-WORD-END ;
- CAR/MORPH-THEN-WORDEND ;
- COM/MORPH-THEN-WORDEND ;
- EGR/MORPH-THEN-WORDEND ;
- ELA/MORPH-THEN-WORDEND ;
- GEN/MORPH-THEN-WORDEND ;
- ILL/MORPH-THEN-WORDEND ;
- INE/MORPH-THEN-WORDEND ;
- INS/MORPH-THEN-WORDEND ;
- NOM/MORPH-THEN-WORDEND ;
- PRL/MORPH-THEN-WORDEND ;
- PRONDEMTAG-APR ;
-PRONDEMTAG-APR-EGR ;
-CNS/MORPH-THEN-WORDEND ;
- DAT/MORPH-THEN-WORDEND ;
-+AprIll:%>ланьӧ IllCompar ; !
-+AprIll+Err/Dial:%>лане IllCompar ; !
+!LEXICON PRON-POSS_CASES
+! ABL/MORPH-THEN-WORDEND ;
+! ACC-WORD-END ;
+! CAR/MORPH-THEN-WORDEND ;
+! COM/MORPH-THEN-WORDEND ;
+! EGR/MORPH-THEN-WORDEND ;
+! ELA/MORPH-THEN-WORDEND ;
+! GEN/MORPH-THEN-WORDEND ;
+! ILL/MORPH-THEN-WORDEND ;
+! INE/MORPH-THEN-WORDEND ;
+! INS/MORPH-THEN-WORDEND ;
+! NOM/MORPH-THEN-WORDEND ;
+! PRL/MORPH-THEN-WORDEND ;
+! PRONDEMTAG-APR ;
+!PRONDEMTAG-APR-EGR ;
+!CNS/MORPH-THEN-WORDEND ;
+! DAT/MORPH-THEN-WORDEND ;
+!+AprIll:%>ланьӧ IllCompar ; !
+!+AprIll+Err/Dial:%>лане IllCompar ; !
 
-+Nom+PxSg2:%>ыд K ;
-+Nom+PxSg3:%>ыс K ;
+!+Nom+PxSg2:%>ыд K ;
+!+Nom+PxSg3:%>ыс K ;
 
 !LEXICON PRON-REFL-SG1-4-GEN
 !+Gen: WordEnd ; !! This is bare
