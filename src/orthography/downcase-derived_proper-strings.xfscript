@@ -15,7 +15,7 @@
 define DowncaseFlag  "@U.Cap.Opt@"            ;
 define CmpHyph       "@U.CmpHyph.TRUE@"       ;
 define LexRootFlag   "@P.LEXNAME.Root@"       ;
-define LexProperFlag "@P.LEXNAME.ProperNoun@" ;
+define LexProperFlag "@P.LEXNAME.propernouns-toponyms-Komi@" ;
 
 read regex [ 
 А -> а,
