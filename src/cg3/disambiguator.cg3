@@ -262,7 +262,9 @@ REMOVE:notPrl Prl IF (0 NOT-PRL) ;
 # Prop in the middle of a sentence
 # ================================
 
-SELECT:PropInSentence Prop IF (NOT -1 CLB);
+# too aggressive! 2021-01-07 jaska
+# Купеч каяс, а мужик и [пырас].
+#SELECT:PropInSentence Prop IF (NOT -1 CLB);
 
 # CC or Pcle
 # ==========
