@@ -543,7 +543,12 @@ SELECT CS IF (-1 COMMA) (0 ("мый")) ;
 REMOVE CS IF (-1 BOS)(0 ("мый")) ;
 SELECT CS IF (-1 COMMA) (0 ("быттьӧ")) ;
 REMOVE ConNeg IF (-1 BOS) ;
-SELECT Pron IF (1 N) ;
+# This rule is too aggressive if there is
+# dialectal verb тэсны 'to meet', i.e. in
+# construction "…сылы тэсӧ кӧч…" 'he meets a rabbit'
+# The problem is caused by ambiguity in meaning of
+# тэсӧ.
+SELECT Pron IF (1 N) (NOT 1 ("тесны"));
 SELECT Inf IF (1 (V Neg)) ;
 #SELECT CS IF (-1 COMMA) (0 ("мыйла")) ;
 SELECT Pcle IF (-1 Adv)(0 ("нин")) (1 V);
@@ -634,7 +639,7 @@ REMOVE:UnaAdv (Qnt "уна") IF (0 Adv) ;
 
 # We disambiguate all N Sg Nom / Acc + N combinations as 
 # Nom for the first element
-SELECT:nmodNotAcc (N Sg Nom) IF (0 Nom) (1 N) ;
+#SELECT:nmodNotAcc (N Sg Nom) IF (0 Nom) (1 N) ;
 
 # These rules try to keep the accusative tag only when it is marked
 REMOVE:NomWhenAccMarked (Nom) IF (0 Acc) (0 PxSg3 OR PxSg2) ;
