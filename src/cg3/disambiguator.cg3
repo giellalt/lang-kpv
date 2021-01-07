@@ -401,18 +401,19 @@ SELECT:NegPlIfConNegPl Neg + Pl3 IF (1 ConNeg + Pl3);
 #Not Pl if not ConNeg Pl3
 REMOVE:NegSgIfNotConNegPl Neg + Pl3 IF (NOT 1 ConNeg + Pl3);
 
+# оз [тырмы]
 SELECT:NegIfConNeg Neg IF (1 ConNeg OR Adv);
-	# оз тырмы
 
+# миянлы ни ӧти [кыв] эз на шулы
 REMOVE:ConNegWhenNextNeg ConNeg OR Imprt IF (1 Neg);	
-# миянлы ни ӧти кыв эз на шулы
 
 # First or third person
 
-
+# менам баба [пышйи]
+# менам баба [пышйи] купечъяскӧд , а ме -- шуас -- керкаӧс ӧзта .
 REMOVE:1not3inPast (Prt1 Sg3) IF (*-1 (Pers Sg1 Nom) BARRIER N + Nom OR Pers + Sg3 + Nom)(0 (V Prt1 Sg1));
 
-REMOVE:3not1inPast (Prt1 Sg1) IF (NOT *0 (Pers Sg1 Nom)) ;
+REMOVE:3not1inPast (Prt1 Sg1) IF (NOT *0 (Pers Sg1 Nom BARRIER CLB)) ;
 # This may be too strong, it precludes zero Sg1 subjects
 
 REMOVE:ErrDial Err/Dial IF (0 VOELI) ;
