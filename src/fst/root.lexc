@@ -933,8 +933,8 @@ LEXICON Root
 !             propernouns-malesurnames-russian-derivable ; ! 2015-09-07
 ! ! 2015-09-07
               propernouns-toponyms-Russian               ; !2019-10-30 Cyrillic
-  @U.Cap.Obl@ propernouns-toponyms-Komi                  ;
-  @U.Cap.Opt@ propernouns-toponyms-Komi                  ;
+  @U.Cap.Obl@ propernouns-toponyms-Komi                  ; ! toponyms - always uppercase
+  @U.Cap.Opt@ propernouns-toponyms-Komi                  ; ! toponyms - allow downcasing for adj derivation
               propernouns                                ;
               quantifiers                                ;
               subjunctors                                ;
