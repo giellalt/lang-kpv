@@ -548,7 +548,7 @@ REMOVE ConNeg IF (-1 BOS) ;
 # construction "…сылы тэсӧ кӧч…" 'he meets a rabbit'
 # The problem is caused by ambiguity in meaning of
 # тэсӧ.
-SELECT Pron IF (1 N) (NOT 1 ("тэсны"));
+SELECT Pron IF (1 N) (NOT 0 ("тэсны"));
 SELECT Inf IF (1 (V Neg)) ;
 #SELECT CS IF (-1 COMMA) (0 ("мыйла")) ;
 SELECT Pcle IF (-1 Adv)(0 ("нин")) (1 V);
