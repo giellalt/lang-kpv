@@ -634,7 +634,7 @@ REMOVE:UnaAdv (Qnt "уна") IF (0 Adv) ;
 
 # We disambiguate all N Sg Nom / Acc + N combinations as 
 # Nom for the first element
-SELECT:nmodNotAcc (N Sg Nom) IF (0 Nom) (1 N) ;
+#SELECT:nmodNotAcc (N Sg Nom) IF (0 Nom) (1 N) ;
 
 # These rules try to keep the accusative tag only when it is marked
 REMOVE:NomWhenAccMarked (Nom) IF (0 Acc) (0 PxSg3 OR PxSg2) ;
