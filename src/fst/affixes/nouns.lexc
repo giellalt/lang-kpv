@@ -248,58 +248,59 @@ LEXICON CASEPOSSLEX-afterDerivation
 LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END
  NOM/MORPH-THEN-WORDEND ;
 !2020-10-23 remove ZERO +Acc: K ; !ZERO marker
++Gen+MWN:%>лӧн CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END ; !Ellipsis OKK:2000:94
 	CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END ;
 LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END
-+Gen:%>лӧн PredMonLex ;
++Gen:%>лӧн PredMonLex-Spat-Add-Morphology ;
 +Use/NG+Err/Dial+Gen:%>лэн PredMonLex ;
-+Abl:%>лысь K ;
-+Dat:%>лы K ;
-+Com:%>кӧд K ;
-+Use/NG+Err/Dial+Com:%>кед K ;
++Abl:%>лысь COMPARATIVE ;
++Dat:%>лы COMPARATIVE ;
++Com:%>кӧд COMPARATIVE ;
++Use/NG+Err/Dial+Com:%>кед COMPARATIVE ;
 +Car:%>тӧг K ;
 +Use/NG+Err/Dial+Car:%>тэг K ;
-+Cns:%>ла K ;
++Cns:%>ла COMPARATIVE ;
 +Use/NG+Err/Dial+Cmpr:%>ся K ;
 +Apr:%>лань SPAT-COMPARATIVE ;
 +Egr:%>сянь SPAT-COMPARATIVE ;
-+Tra:%>ті K ;
++Tra:%>ті SPAT-COMPARATIVE ;
 +AprIne:%>ланьын SPAT-COMPARATIVE ;  ! New cases in last grammar
 +AprEla:%>ланьысь SPAT-COMPARATIVE ;  !
 +AprIll:%>ланьӧ IllCompar ; !
 +Use/NG+Err/Dial+AprIll:%>лане IllCompar ; !
 +AprEgr:%>ланьсянь SPAT-COMPARATIVE ; !
-+AprPrl:%>ланьӧд K ; !
++AprPrl:%>ланьӧд SPAT-COMPARATIVE ; !
 +Use/NG+Err/Dial+AprPrl:%>ланед K ; !
-+AprTra:%>ланьті K ; !
++AprTra:%>ланьті SPAT-COMPARATIVE ; !
 +AprTer:%>ланьӧдз K ; ! Tähän asti
 +Use/NG+Err/Dial+AprTer:%>ланедз K ; ! Tähän asti
 !! SG1
  ACC-PXSG1/MORPH-THEN-WORDEND ;
-+Ins+PxSg1+So/CP:%>нам K ;
++Ins+PxSg1+So/CP:%>нам COMPARATIVE ;
 +Ela+PxSg1+So/CP:%>сьым SPAT-COMPARATIVE ;
-+Tra+PxSg1+So/CP:%>тіым K ;
++Tra+PxSg1+So/CP:%>тіым COMPARATIVE ;
 +Apr+PxSg1+So/CP:%>ланьым SPAT-COMPARATIVE ;
 +Egr+PxSg1+So/CP:%>саньым SPAT-COMPARATIVE ;
 +AprIne+PxSg1+So/CP:%>ланям SPAT-COMPARATIVE ;
 +AprEla+PxSg1+So/CP:%>ланьсьым SPAT-COMPARATIVE ;
 +AprIll+PxSg1+So/CP:%>ланям IllCompar ; !
-+AprPrl+PxSg1+So/CP:%>ланьӧдым K ;
++AprPrl+PxSg1+So/CP:%>ланьӧдым COMPARATIVE ;
 +Use/NG+Err/Dial+AprPrl+PxSg1+So/CP:%>ланедым K ;
-+AprTra+PxSg1+So/CP:%>ланьтіым K ;
++AprTra+PxSg1+So/CP:%>ланьтіым COMPARATIVE ;
 +AprTer+PxSg1+So/CP:%>ланьӧдзым K ;
 +Use/NG+Err/Dial+AprTer+PxSg1+So/CP:%>ланедзым K ;
 
 !! SG2
-+Ins+PxSg2+So/CP:%>над K ;
++Ins+PxSg2+So/CP:%>над COMPARATIVE ;
 +Car+PxSg2+So/CP:%>тӧгыд K ;
 +Use/NG+Err/Dial+Car+PxSg2+So/CP:%>тэгыд K ;
-+Com+PxSg2+So/CP:%>кӧдыд K ;
++Com+PxSg2+So/CP:%>кӧдыд COMPARATIVE ;
 +Use/NG+Err/Dial+Com+PxSg2+So/CP:%>кедыд K ;
-+Cmpr+PxSg2+So/CP:%>сяыд K ;
++Cmpr+PxSg2+So/CP:%>сяыд COMPARATIVE ;
 +Ela+PxSg2+So/CP:%>сьыд SPAT-COMPARATIVE ;
 +Apr+PxSg2+So/CP:%>ланьыд SPAT-COMPARATIVE ;
 +Egr+PxSg2+So/CP:%>сяньыд SPAT-COMPARATIVE ;
-+Tra+PxSg2+So/CP:%>тіыд K ;
++Tra+PxSg2+So/CP:%>тіыд COMPARATIVE ;
  ACC-PXSG2/MORPH-THEN-WORDEND ;
 +AprIne+PxSg2+So/CP:%>ланяд SPAT-COMPARATIVE ;
 +AprEla+PxSg2+So/CP:%>ланьсьыд SPAT-COMPARATIVE ;
@@ -307,59 +308,59 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END
 +AprEgr+PxSg2+So/CP:%>ланьсяньыд SPAT-COMPARATIVE ;
 +AprPrl+PxSg2+So/CP:%>ланьӧдыд K ;
 +Use/NG+Err/Dial+AprPrl+PxSg2+So/CP:%>ланедыд K ;
-+AprTra+PxSg2+So/CP:%>ланьтіыд K ;
++AprTra+PxSg2+So/CP:%>ланьтіыд COMPARATIVE ;
 +AprTer+PxSg2+So/CP:%>ланьӧдзыд K ;
 +Use/NG+Err/Dial+AprTer+PxSg2+So/CP:%>ланедзыд K ;
 
 !! SG3
  ACC-PXSG3/MORPH-THEN-WORDEND ;
-+Ins+PxSg3+So/CP:%>нас K ;
++Ins+PxSg3+So/CP:%>нас COMPARATIVE ;
 +Car+PxSg3+So/CP:%>тӧгыс K ;
 +Use/NG+Err/Dial+Car+PxSg3+So/CP:%>тэгыс K ;
-+Com+PxSg3+So/CP:%>кӧдыс K ;
++Com+PxSg3+So/CP:%>кӧдыс COMPARATIVE ;
 +Use/NG+Err/Dial+Com+PxSg3+So/CP:%>кедыс K ;
-+Cmpr+PxSg3+So/CP:%>сяыс K ;
++Cmpr+PxSg3+So/CP:%>сяыс COMPARATIVE ;
 +Ela+PxSg3+So/CP:%>сьыс SPAT-COMPARATIVE ;
 +Apr+PxSg3+So/CP:%>ланьыс SPAT-COMPARATIVE ;
 +Egr+PxSg3+So/CP:%>сяньыс SPAT-COMPARATIVE ;
-+Tra+PxSg3+So/CP:%>тіыс K ;
++Tra+PxSg3+So/CP:%>тіыс COMPARATIVE ;
 +AprIne+PxSg3+So/CP:%>ланяс SPAT-COMPARATIVE ;
 +AprEla+PxSg3+So/CP:%>ланьсьыс SPAT-COMPARATIVE ;
 +AprIll+PxSg3+So/CP:%>ланяс IllCompar ; !
 +AprEgr+PxSg3+So/CP:%>ланьсяньыс SPAT-COMPARATIVE ;
-+AprPrl+PxSg3+So/CP:%>ланьӧдыс K ;
++AprPrl+PxSg3+So/CP:%>ланьӧдыс COMPARATIVE ;
 +Use/NG+Err/Dial+AprPrl+PxSg3+So/CP:%>ланедыс K ;
-+AprTra+PxSg3+So/CP:%>ланьтіыс K ;
++AprTra+PxSg3+So/CP:%>ланьтіыс COMPARATIVE ;
 +AprTer+PxSg3+So/CP:%>ланьӧдзыc K ;
 +Use/NG+Err/Dial+AprTer+PxSg3+So/CP:%>ланедзыc K ;
-+Cns+PxSg3+So/CP:%>лаыс K ;
++Cns+PxSg3+So/CP:%>лаыс COMPARATIVE ;
 
 !! PL1
-+Nom+PxPl1:%>ным K ;
-+Nom+PxPl1+Use/NG+Err/Dial:%>нум K ;
-+Gen+PxPl1+So/PC+So/PC:%>нымлӧн K ;
-+Use/NG+Err/Dial+Gen+PxPl1+So/PC:%>нымлэн K ;
-+Abl+PxPl1+So/PC:%>нымлысь K ;
-+Dat+PxPl1+So/PC:%>нымлы K ;
++Nom+PxPl1:%>ным COMPARATIVE ;
++Nom+PxPl1+Use/NG+Err/Dial:%>нум COMPARATIVE ;
++Gen+PxPl1+So/PC+So/PC:%>нымлӧн COMPARATIVE ;
++Use/NG+Err/Dial+Gen+PxPl1+So/PC:%>нымлэн COMPARATIVE ;
++Abl+PxPl1+So/PC:%>нымлысь COMPARATIVE ;
++Dat+PxPl1+So/PC:%>нымлы COMPARATIVE ;
  ACC-PXPL1/MORPH-THEN-WORDEND ;
-+Ins+PxPl1+So/CP:%>наным K ;
-+Com+PxPl1+So/PC:%>нымкӧд K ;
-+Use/NG+Err/Dial+Com+PxPl1+So/PC:%>нымкед K ;
-+Com+PxPl1+So/CP:%>кӧдным K ;
-+Use/NG+Err/Dial+Com+PxPl1+So/CP:%>кедным K ;
++Ins+PxPl1+So/CP:%>наным COMPARATIVE ;
++Com+PxPl1+So/PC:%>нымкӧд COMPARATIVE ;
++Use/NG+Err/Dial+Com+PxPl1+So/PC:%>нымкед COMPARATIVE ;
++Com+PxPl1+So/CP:%>кӧдным COMPARATIVE ;
++Use/NG+Err/Dial+Com+PxPl1+So/CP:%>кедным COMPARATIVE ;
 +Car+PxPl1+So/CP:%>тӧгным K ; ! Case+Px
 +Use/NG+Err/Dial+Car+PxPl1+So/CP:%>тэгным K ; ! Case+Px
 +Car+PxPl1+So/PC:%>нымтӧг K ; ! Px+Case
 +Use/NG+Err/Dial+Car+PxPl1+So/PC:%>нымтэг K ; ! Px+Case
-+Cns+PxPl1+So/PC:%>нымла K ;
-+Cmpr+PxPl1+So/CP:%>сяным K ;
++Cns+PxPl1+So/PC:%>нымла COMPARATIVE ;
++Cmpr+PxPl1+So/CP:%>сяным COMPARATIVE ;
 +Ela+PxPl1+So/CP:%>сьыным SPAT-COMPARATIVE ;
 
 +Apr+PxPl1+So/CP:%>ланьным SPAT-COMPARATIVE ; ! Case+Px
 +Apr+PxPl1+So/PC:%>нымлань SPAT-COMPARATIVE ; ! Px+Case
 +Egr+PxPl1+So/CP:%>сяньным SPAT-COMPARATIVE ; ! _ставсяньным_
 +Egr+PxPl1+So/PC:%>нымсянь SPAT-COMPARATIVE ; ! _ставнымсянь_  Px+Case
-+Tra+PxPl1+So/CP:%>тіным K ;
++Tra+PxPl1+So/CP:%>тіным COMPARATIVE ;
 +Prl+PxPl1+So/PC:%>нымӧд K ; ! Px + Case туйнымӧд
 +Use/NG+Err/Dial+Prl+PxPl1+So/PC:%>нымед K ; ! Px + Case туйнымӧд
 
@@ -369,71 +370,71 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END
 +AprEgr+PxPl1+So/CP:%>ланьсяньным SPAT-COMPARATIVE ;
 +AprPrl+PxPl1+So/CP:%>ланьӧдным K ;
 +Use/NG+Err/Dial+AprPrl+PxPl1+So/CP:%>ланедным K ;
-+AprTra+PxPl1+So/CP:%>ланьтіным K ;
++AprTra+PxPl1+So/CP:%>ланьтіным COMPARATIVE ;
 +AprTer+PxPl1+So/CP:%>ланьӧдзным K ;
 +Use/NG+Err/Dial+AprTer+PxPl1+So/CP:%>ланедзным K ;
 
 !! PL2
-+Nom+PxPl2:%>ныд K ;
-+Gen+PxPl2+So/PC:%>ныдлӧн K ;
-+Use/NG+Err/Dial+Gen+PxPl2+So/PC:%>ныдлэн K ;
-+Abl+PxPl2+So/PC:%>ныдлысь K ;
-+Dat+PxPl2+So/PC:%>ныдлы K ;
++Nom+PxPl2:%>ныд COMPARATIVE ;
++Gen+PxPl2+So/PC:%>ныдлӧн COMPARATIVE ;
++Use/NG+Err/Dial+Gen+PxPl2+So/PC:%>ныдлэн COMPARATIVE ;
++Abl+PxPl2+So/PC:%>ныдлысь COMPARATIVE ;
++Dat+PxPl2+So/PC:%>ныдлы COMPARATIVE ;
  ACC-PXPL2/MORPH-THEN-WORDEND ;
-+Ins+PxPl2+So/CP:%>наныд K ;
-+Com+PxPl2+So/PC:%>ныдкӧд K ;
-+Use/NG+Err/Dial+Com+PxPl2+So/PC:%>ныдкед K ;
-+Com+PxPl2+So/CP:%>кӧдныд K ;
-+Use/NG+Err/Dial+Com+PxPl2+So/CP:%>кедныд K ;
++Ins+PxPl2+So/CP:%>наныд COMPARATIVE ;
++Com+PxPl2+So/PC:%>ныдкӧд COMPARATIVE ;
++Use/NG+Err/Dial+Com+PxPl2+So/PC:%>ныдкед COMPARATIVE ;
++Com+PxPl2+So/CP:%>кӧдныд COMPARATIVE ;
++Use/NG+Err/Dial+Com+PxPl2+So/CP:%>кедныд COMPARATIVE ;
 +Car+PxPl2+So/CP:%>тӧгныд K ;
 +Use/NG+Err/Dial+Car+PxPl2+So/CP:%>тэгныд K ;
-+Cns+PxPl2+So/PC:%>ныдла K ;
-+Cmpr+PxPl2+So/CP:%>сяныд K ;
++Cns+PxPl2+So/PC:%>ныдла COMPARATIVE ;
++Cmpr+PxPl2+So/CP:%>сяныд COMPARATIVE ;
 +Ela+PxPl2+So/CP:%>сьыныд SPAT-COMPARATIVE ;
 +Apr+PxPl2+So/PC:%>ныдлань SPAT-COMPARATIVE ;
 +Apr+PxPl2+So/CP:%>ланьныд K ; ! Case + Px
 +Egr+PxPl2+So/CP:%>сяньныд SPAT-COMPARATIVE ;
 +Egr+PxPl2+So/PC:%>ныдсянь SPAT-COMPARATIVE ;
-+Tra+PxPl2+So/CP:%>тіныд K ;
++Tra+PxPl2+So/CP:%>тіныд COMPARATIVE ;
 +AprIne+PxPl2+So/CP:%>ланяныд SPAT-COMPARATIVE ;
 +AprEla+PxPl2+So/CP:%>ланьсьыныд SPAT-COMPARATIVE ;
 +AprIll+PxPl2+So/CP:%>ланяныд IllCompar ; !
 +AprEgr+PxPl2+So/CP:%>ланьсяньныд SPAT-COMPARATIVE ;
 +AprPrl+PxPl2+So/CP:%>ланьӧдныд K ;
 +Use/NG+Err/Dial+AprPrl+PxPl2+So/CP:%>ланедныд K ;
-+AprTra+PxPl2+So/CP:%>ланьтіныд K ;
++AprTra+PxPl2+So/CP:%>ланьтіныд COMPARATIVE ;
 +AprTer+PxPl2+So/CP:%>ланьӧдзныд K ;
 +Use/NG+Err/Dial+AprTer+PxPl2+So/CP:%>ланедзныд K ;
 
 !! PL3
-+Nom+PxPl3:%>ныс K ;
-+Gen+PxPl3+So/PC:%>ныслӧн K ; ! Px + Case
-+Use/NG+Err/Dial+Gen+PxPl3+So/PC:%>ныслэн K ; ! Px + Case
-+Abl+PxPl3+So/PC:%>ныслысь K ; ! Px + Case
-+Dat+PxPl3+So/PC:%>ныслы K ; ! Px + Case
++Nom+PxPl3:%>ныс COMPARATIVE ;
++Gen+PxPl3+So/PC:%>ныслӧн COMPARATIVE ; ! Px + Case
++Use/NG+Err/Dial+Gen+PxPl3+So/PC:%>ныслэн COMPARATIVE ; ! Px + Case
++Abl+PxPl3+So/PC:%>ныслысь COMPARATIVE ; ! Px + Case
++Dat+PxPl3+So/PC:%>ныслы COMPARATIVE ; ! Px + Case
  ACC-PXPL3/MORPH-THEN-WORDEND ;
-+Ins+PxPl3+So/CP:%>наныс K ;
-+Com+PxPl3+So/PC:%>ныскӧд K ; ! Px + Case
-+Use/NG+Err/Dial+Com+PxPl3+So/PC:%>ныскед K ; ! Px + Case
-+Com+PxPl3+So/CP:%>кӧдныс K ; ! Px + Case
-+Use/NG+Err/Dial+Com+PxPl3+So/CP:%>кедныс K ; ! Px + Case
++Ins+PxPl3+So/CP:%>наныс COMPARATIVE ;
++Com+PxPl3+So/PC:%>ныскӧд COMPARATIVE ; ! Px + Case
++Use/NG+Err/Dial+Com+PxPl3+So/PC:%>ныскед COMPARATIVE ; ! Px + Case
++Com+PxPl3+So/CP:%>кӧдныс COMPARATIVE ; ! Px + Case
++Use/NG+Err/Dial+Com+PxPl3+So/CP:%>кедныс COMPARATIVE ; ! Px + Case
 +Car+PxPl3+So/CP:%>тӧгныс K ;
 +Use/NG+Err/Dial+Car+PxPl3+So/CP:%>тэгныс K ;
-+Cns+PxPl3+So/PC:%>нысла K ; ! Px + Case
-+Cmpr+PxPl3+So/CP:%>сяныс K ;
++Cns+PxPl3+So/PC:%>нысла COMPARATIVE ; ! Px + Case
++Cmpr+PxPl3+So/CP:%>сяныс COMPARATIVE ;
 +Ela+PxPl3+So/CP:%>сьыныс SPAT-COMPARATIVE ;
 +Apr+PxPl3+So/PC:%>ныслань SPAT-COMPARATIVE ; ! Px + Case
 +Apr+PxPl3+So/CP:%>ланьныс SPAT-COMPARATIVE ;
 +Egr+PxPl3+So/CP:%>сяньныс SPAT-COMPARATIVE ;
 +Egr+PxPl3+So/PC:%>ныссянь SPAT-COMPARATIVE ;
-+Tra+PxPl3+So/CP:%>тіныс K ;
++Tra+PxPl3+So/CP:%>тіныс COMPARATIVE ;
 +AprIne+PxPl3+So/CP:%>ланяныс SPAT-COMPARATIVE ;
 +AprEla+PxPl3+So/CP:%>ланьсьыныс SPAT-COMPARATIVE ;
 +AprIll+PxPl3+So/CP:%>ланяныс IllCompar ; !
 +AprEgr+PxPl3+So/CP:%>ланьсяньныс SPAT-COMPARATIVE ;
 +AprPrl+PxPl3+So/CP:%>ланьӧдныс K ;
 +Use/NG+Err/Dial+AprPrl+PxPl3+So/CP:%>ланедныс K ;
-+AprTra+PxPl3+So/CP:%>ланьтіныс K ;
++AprTra+PxPl3+So/CP:%>ланьтіныс COMPARATIVE ;
 +AprTer+PxPl3+So/CP:%>ланьӧдзныс K ;
 +Use/NG+Err/Dial+AprTer+PxPl3+So/CP:%>ланедзныс K ;
 
@@ -483,19 +484,19 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_Я
 
 ! THIS FAR 2017-06-29 +Err/Dial
 LEXICON CASEPOSSLEX-AFTERDERIVATION_Ӧ
-+Acc:%>ӧс K ;
-+Use/NG+Err/Dial+Acc:%>эс K ;
-+Ins:%>ӧн PredMonLex ;
-+Use/NG+Err/Dial+Ins:%>эн PredMonLex ;
-+Use/NG+Err/Dial+Ins:%>%^V1н PredMonLex ;
++Acc:%>ӧс COMPARATIVE ;
++Use/NG+Err/Dial+Acc:%>эс COMPARATIVE ;
++Ins:%>ӧн PredMonLex-Spat-Add-Morphology ;
++Use/NG+Err/Dial+Ins:%>эн PredMonLex-Spat-Add-Morphology ;
++Use/NG+Err/Dial+Ins:%>%^V1н PredMonLex-Spat-Add-Morphology ;
 +Ine:%>ын SPAT-COMPARATIVE ;
 +Ela:%>ысь SPAT-COMPARATIVE ;
 +Ill:%>ӧ IllCompar ;
 +Use/NG+Err/Dial+Ill:%>э IllCompar ;
 +Use/NG+Err/Dial+Ill:%>%^V1 IllCompar ; !этаа
-+Prl:%>ӧд K ;
++Prl:%>ӧд COMPARATIVE ;
 +Ter:%>ӧдз K ;
-+Use/NG+Err/Dial+Prl:%>эд K ;
++Use/NG+Err/Dial+Prl:%>эд COMPARATIVE ;
 +Use/NG+Err/Dial+Ter:%>эдз K ;
 
 !! SG1
@@ -510,12 +511,12 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_Ӧ
  PRL-PXSG1-SOCP/MORPH-THEN-K ;
  TER-PXSG1-SOCP/MORPH-THEN-K ;
 
-+Acc+PxSg1:%>ӧс K ;
++Acc+PxSg1:%>ӧс COMPARATIVE ;
 +Apr+PxSg1+So/PC:%>ӧйлань SPAT-COMPARATIVE ;
 +Egr+PxSg1+So/PC:%>ӧйсянь SPAT-COMPARATIVE ;
 +AprEgr+PxSg1+So/PC:%>ӧйланьсянь SPAT-COMPARATIVE ;
 
-+Use/NG+Err/Dial+Acc+PxSg1:%>эс K ;
++Use/NG+Err/Dial+Acc+PxSg1:%>эс COMPARATIVE ;
 +Use/NG+Err/Dial+Apr+PxSg1+So/PC:%>эйлань SPAT-COMPARATIVE ;
 +Use/NG+Err/Dial+Egr+PxSg1+So/PC:%>эйсянь SPAT-COMPARATIVE ;
 +Use/NG+Err/Dial+AprEgr+PxSg1+So/PC:%>эйланьсянь SPAT-COMPARATIVE ;

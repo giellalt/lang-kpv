@@ -10,9 +10,9 @@ Alphabet
 
 а б в г д е ё ж з и і й к л м н о ӧ п р с т у ф х ц ч ш щ ъ ы ь э ю я !!= * @CODE@
 А Б В Г Д Е Ё Ж З И І Й К Л М Н О Ӧ П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я !!= * @CODE@
-к2:к л2:л м2:м т2:т ь2:ь
-!К2 Л2 М2 Т2 Ь2
-И2:и
+%^к2:к %^л2:л %^м2:м %^т2:т %^ь2:ь
+!%^К2 %^Л2 %^М2 %^Т2 %^Ь2
+%^И2:и
 %{иі%}:и	!!= * @CODE@ for soft and hard
 %{иі%}:і	!!= * @CODE@ for soft and hard
 
@@ -287,13 +287,17 @@ Rules
 
 ! Testcases: see VowelPalatalisation above
 ! Also orthography _Коми орфография кывкуд 2008: 9_
-! ь2, Ь2 will be used to mark special instances of _ь_ retension
+! %^ь2, %^Ь2 will be used to mark special instances of _ь_ retension
 !!€ велӧдысь%>сянь
 !!€ велӧдыс0%>сянь
 !!€ велӧдысь%>сьыс
 !!€ велӧдыс0%>сьыс
 !!$ гос0%>сянь
 !!$ госъ%>сянь
+!!€ пас%>сянь
+!!€ пас%>сянь
+!!€ пас%^ь2%>сянь
+!!€ пась%>сянь
 
 "Hard Sign Deletion"
 !! __@RULENAME@__
