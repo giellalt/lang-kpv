@@ -8,16 +8,16 @@ LEXICON ACRON-F
 +Src/F+: ACRON ;
 
 LEXICON ACRON
-+Acron:	PROP_	;
-+Acron:-яс CASEPOSSLEX ; !acronyms with plural
+@U.Cap.Obl@+Acron:@U.Cap.Obl@	PROP_	;
+@U.Cap.Obl@+Acron:@U.Cap.Obl@-яс CASEPOSSLEX ; !acronyms with plural
 
 LEXICON PROP-RUS_ !
 PROP_ ;
 !PROP_-DERIVABLE
 ! Basic proper nouns.
 LEXICON PROP_
-+Sg: CASEPOSSLEX ;
-+Pl:%>ъяс CASEPOSSLEX ; !Reinstalling plural morphology 2019-06-03
+@U.Cap.Obl@+Sg:@U.Cap.Obl@ CASEPOSSLEX ;
+@U.Cap.Obl@+Pl:@U.Cap.Obl@%>ъяс CASEPOSSLEX ; !Reinstalling plural morphology 2019-06-03
 
 LEXICON Prop-R-RY
 : Noun1-R-RY ; ! This will bring about problems with ordering 2012-02-07
@@ -253,8 +253,8 @@ LEXICON PROP-MAL-DERIVABLE !Patronyms
 
 
 LEXICON PROP-PLC ! Inanimate proper nouns. Place names
-+Sg: CASEPOSSLEX-afterDerivation ;
-+Sg: DENOMINAL-LOCATIVE-ADJECTIVES ; !!= * __@CODE@__ This requires down-casing
+@U.Cap.Obl@+Sg:@U.Cap.Obl@ CASEPOSSLEX-afterDerivation ;
+@U.Cap.Opt@+Sg:@U.Cap.Opt@ DENOMINAL-LOCATIVE-ADJECTIVES ; !!= * __@CODE@__ This requires down-casing
 
 
 LEXICON PROP-PLC-KPV ! Inanimate proper nouns. Place names
