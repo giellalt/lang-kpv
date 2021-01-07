@@ -850,21 +850,21 @@ LEXICON PRON-RECIPR-CASE
 +Gen+Err/Dial:лэн K ;
 +Abl+PxSg3:ыслысь K ;
 +Abl+PxPl3:ныслысь K ;
-+Dat:лы K ;
-+Dat+PxSg3:ыслы K ;
-+Dat+PxPl3:ныслы K ;
-+Acc:%>ӧс K ;
-+Acc+PxSg2:тӧ K ;
-+Acc+Err/Dial:%>эс K ;
-+Acc+PxSg2+Err/Dial:тэ K ;
-+Acc+PxPl1:нымӧс K ;
-+Acc+PxPl1+Err/Dial:нумес K ;
-+Acc+PxPl2:нытӧ K ;
-+Acc+PxPl3:ныссӧ K ;
-+Acc+PxSg3:сӧ K ;
-+Acc+PxPl2+Err/Dial:нытэ K ;
-+Acc+PxPl3+Err/Dial:ныссэ K ;
-+Acc+PxSg3+Err/Dial:сэ K ;
++Dat:лы COMPARATIVE ;
++Dat+PxSg3:ыслы COMPARATIVE ;
++Dat+PxPl3:ныслы COMPARATIVE ;
++Acc:%>ӧс COMPARATIVE ;
++Acc+PxSg2:тӧ COMPARATIVE ;
++Acc+Err/Dial:%>эс COMPARATIVE ;
++Acc+PxSg2+Err/Dial:тэ COMPARATIVE ;
++Acc+PxPl1:нымӧс COMPARATIVE ;
++Acc+PxPl1+Err/Dial:нумес COMPARATIVE ;
++Acc+PxPl2:нытӧ COMPARATIVE ;
++Acc+PxPl3:ныссӧ COMPARATIVE ;
++Acc+PxSg3:сӧ COMPARATIVE ;
++Acc+PxPl2+Err/Dial:нытэ COMPARATIVE ;
++Acc+PxPl3+Err/Dial:ныссэ COMPARATIVE ;
++Acc+PxSg3+Err/Dial:сэ COMPARATIVE ;
 
 !+Acc2+PxPl2:нытӧ K ;
 !+Acc3+PxPl3:ныссӧ K ;
@@ -1811,6 +1811,7 @@ LEXICON INS/MORPH-THEN-WORDEND
 
 LEXICON NOM/MORPH-THEN-WORDEND
 +Nom: WordEnd ;
++Nom+Comp:%>джык WordEnd ; ! for nouns and pronouns 2021-01-07
 
 LEXICON PRL/MORPH-THEN-WORDEND
 +Prl:%>ӧд WordEnd ;
