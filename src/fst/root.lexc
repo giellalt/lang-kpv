@@ -776,7 +776,7 @@ Multichar_Symbols
 !! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 !! these flags. There exists a ready-made regex that will do the actual down-casing
 !! given the proper use of these flags.
- @U.Cap.Obl@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
+ @U.Cap.Obl@        !!≈ | @CODE@ | Always capital letter for names: Deatnu.
  @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
 +Cmp    !!≈ * __@CODE@__
@@ -933,8 +933,8 @@ SUBSTANDARDS ; ! temporary solution
 !!2015-09-07	propernouns-malesurnames-russian-derivable	;
 !!2015-09-07	
 propernouns-toponyms-Russian	;!2019-10-30 Cyrillic
-@U.Cap.Obl@	propernouns-toponyms-Komi ;
-@U.Cap.Opt@	propernouns-toponyms-Komi ;
+@U.Cap.Obl@	propernouns-toponyms-Komi ; ! toponyms - always uppercase
+@U.Cap.Opt@	propernouns-toponyms-Komi ; ! toponyms - allow downcasing for A derivation
 	propernouns	;
 	quantifiers	;
 	subjunctors	;
