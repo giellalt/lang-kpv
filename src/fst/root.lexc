@@ -907,59 +907,59 @@ Multichar_Symbols
 !! !!!Lexicon Root
 LEXICON Root
 
-SUBSTANDARDS ; ! temporary solution
+  SUBSTANDARDS ; ! temporary solution
 
 !! The word forms in Komi (Zyrian) language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
-	adjectives	;
-	adjectives-russian-like	;
-	kom-adjectives-russian-like ;
-	adpositions	;
-	adverbs	;
-	conjunctors	;
-	descriptives	;
-	determiners	;
-	gerunds	;
-	interjections	;
-	nouns-deverbal	;
-	nouns	;
-	nouns-russian-homographs	;
-	numerals ;
-	particles	;
-	pronouns	;
-	propernouns-malenames-cyrillic	;
-!!2015-09-07	propernouns-malenames-russian-derivable	;
-	propernouns-malesurnames-cyrillic	;
-!!2015-09-07	propernouns-malesurnames-russian-derivable	;
-!!2015-09-07	
-propernouns-toponyms-Russian	;!2019-10-30 Cyrillic
-@U.Cap.Obl@	propernouns-toponyms-Komi ; ! toponyms - always uppercase
-@U.Cap.Opt@	propernouns-toponyms-Komi ; ! toponyms - allow downcasing for A derivation
-	propernouns	;
-	quantifiers	;
-	subjunctors	;
-	verbs-A2M	;
-	verbs-N2END	;
-	VERBNEGATIVE	; ! affixes/verbs.lexc
-        PRONOUN-TYPES ; ! in affixes/pronouns.lexc 2019-04-06
+              adjectives                                 ;
+              adjectives-russian-like                    ;
+              kom-adjectives-russian-like                ;
+              adpositions                                ;
+              adverbs                                    ;
+              conjunctors                                ;
+              descriptives                               ;
+              determiners                                ;
+              gerunds                                    ;
+              interjections                              ;
+              nouns-deverbal                             ;
+              nouns                                      ;
+              nouns-russian-homographs                   ;
+              numerals                                   ;
+              particles                                  ;
+              pronouns                                   ;
+              propernouns-malenames-cyrillic             ;
+!             propernouns-malenames-russian-derivable    ; ! 2015-09-07
+              propernouns-malesurnames-cyrillic          ;
+!             propernouns-malesurnames-russian-derivable ; ! 2015-09-07
+! ! 2015-09-07
+              propernouns-toponyms-Russian               ; !2019-10-30 Cyrillic
+  @U.Cap.Obl@ propernouns-toponyms-Komi                  ;
+  @U.Cap.Opt@ propernouns-toponyms-Komi                  ;
+              propernouns                                ;
+              quantifiers                                ;
+              subjunctors                                ;
+              verbs-A2M                                  ;
+              verbs-N2END                                ;
+              VERBNEGATIVE                               ; ! affixes/verbs.lexc
+              PRONOUN-TYPES                              ; ! in affixes/pronouns.lexc 2019-04-06
 
-	Abbreviation	;
-	Acronym		;
-	kpv-Acronym		;
-	Punctuation	;
-    Symbols     ;
-	EXCEPTIONS	;
-        dialect_lexicon ;
-!RussianSurnamesDerive ; ! Only testing 2012-11-15
- urj-Cyrl-ProperNouns ; !! Testing 2015-09-06
+              Abbreviation                               ;
+              Acronym                                    ;
+              kpv-Acronym                                ;
+              Punctuation                                ;
+              Symbols                                    ;
+              EXCEPTIONS                                 ;
+              dialect_lexicon                            ;
+              !RussianSurnamesDerive                     ; ! Only testing 2012-11-15
+              urj-Cyrl-ProperNouns                       ; !! Testing 2015-09-06
 !! Feeding new words
- A_NEWWORDS    ;
- A-Russian-like_NEWWORDS    ;
- ADV_NEWWORDS    ;
- N_NEWWORDS    ;
-@U.Cap.Obl@ PROP_NEWWORDS    ;
-@U.Cap.Opt@ PROP_NEWWORDS    ;
- V_NEWWORDS    ;
+             A_NEWWORDS              ;
+             A-Russian-like_NEWWORDS ;
+             ADV_NEWWORDS            ;
+             N_NEWWORDS              ;
+ @U.Cap.Obl@ PROP_NEWWORDS           ;
+ @U.Cap.Opt@ PROP_NEWWORDS           ;
+             V_NEWWORDS              ;
 
 ! ======================================================= !
 ! These lexica are for parts of speech without morphology !
@@ -967,7 +967,7 @@ propernouns-toponyms-Russian	;!2019-10-30 Cyrillic
 
 ! Absolute forms
 LEXICON ABS_
-+Abs: # ;
+ +Abs: # ;
 !! пу керка
 !! выль керка
 
