@@ -56,7 +56,9 @@ LIST Ex/N = Ex/N ; #!! Ex/N
 LIST Ex/Num = Ex/Num ; #!! Ex/Num
 LIST Ex/V = Ex/V ; #!! Ex/V
 LIST Ex/WORD = Ex/N Ex/V Ex/A Ex/Num ; #!! Ex/WORD
-LIST DerTag = Der/Ин Der/NomAct Der/MWN Der/Patr Der/И Der/а Der/ал Der/ась Der/выв Der/джык Der/дор Der/иг Der/кежлӧ Der/кодь Der/коста Der/кості Der/л Der/ла Der/ладор Der/лун Der/лы Der/лывлы Der/мед Der/моз Der/мысь Der/мысьт Der/мӧн Der/мӧнъя Der/овт Der/сор Der/сь Der/сьы Der/сюрӧ Der/тыр Der/тырйи Der/тыръя Der/тӧдз Der/тӧм Der/чы Der/чӧж Der/ывлы Der/ысь Der/ышт Der/ӧм Der/увса ; #!! DerTag
+LIST Der = Der ;
+LIST Der/ӧмӧн = Der/ӧмӧн ;
+LIST DerTag = Der/Ин Der/NomAct Der/MWN Der/Patr Der/И Der/а Der/ал Der/ась Der/выв Der/джык Der/дор Der/иг Der/кежлӧ Der/кодь Der/коста Der/кості Der/л Der/ла Der/ладор Der/лун Der/лы Der/лывлы Der/мед Der/моз Der/мысь Der/мысьт Der/мӧн Der/мӧнъя Der/овт Der/ӧмӧн Der/сор Der/сь Der/сьы Der/сюрӧ Der/тыр Der/тырйи Der/тыръя Der/тӧдз Der/тӧм Der/чы Der/чӧж Der/ывлы Der/ысь Der/ышт Der/ӧм Der/увса ; #!! DerTag
 LIST AspDerTag = Der/ал Der/ась Der/л Der/лы Der/лывлы Der/овт Der/сь Der/сьы Der/чы Der/ывлы Der/ышт ; #!! AspDerTag
 
 
@@ -354,15 +356,18 @@ REMOVE:NotSg1IFAdv Sg1 IF (-1 N OR Pron)(0 Adv)(1C Ind)(NOT 1 Sg1);
 
 #REMOVE:AdvNotPcle Pcle (0 Adv);
 
+# ме регыд муна
 REMOVE:AdvNotA A IF (-1 N or Pron)(0 Adv)(1 V);
-	# ме регыд муна
 
+# Коми муын медся тӧдса
 REMOVE:MedsjaNotA A IF (0 Adv + Deg)(1 A);
-        # Коми муын медся тӧдса
 
+# ме регыд морт
 REMOVE:ANotAdv Adv IF (0 A)(1 N);
-	# ме регыд морт
-	
+
+# дивитӧмӧн сёрнитіс
+REMOVE:NomActNotAdv Der/ӧмӧн IF (0 Adv) ;
+
 SELECT Adv + Rel IF (-1 COMMA)(*1 VFIN);
 
 REMOVE:InitialAdv A IF (-1 BOS)(0 Adv)(NOT 1 N OR CC OR A) ;
