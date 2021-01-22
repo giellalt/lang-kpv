@@ -27,7 +27,7 @@ Documentation can be found at:
 
 See also:
 
-- [Research Questions](https://github.com/giellalt/lang-kpv/docs/ResearchQuestions.markdown)
+- [Research Questions](docs/ResearchQuestions.markdown)
 
 Core dependencies
 -----------------
