@@ -25,6 +25,10 @@ Documentation can be found at:
 -   <https://giellalt.uit.no/lang/kom/index.html>
 -   <https://giellalt.uit.no/index.html>
 
+See also:
+
+- [Research Questions](https://github.com/giellalt/lang-kpv/docs/ResearchQuestions.markdown)
+
 Core dependencies
 -----------------
 
