@@ -236,10 +236,29 @@ SET NOMINAL = N | Pron ;
 SET Non-VFIN = WORD - V | V - VFIN ;
 
 
+########################                  #########################
+########################                  #########################
+                        # disambiguation #
+########################                  #########################
+########################                  #########################
 
-#!! !!Rule section
+
 SECTION
 
+SUBSTITUTE (Hom1) (*) TARGET (*) ;
+SUBSTITUTE (Hom2) (*) TARGET (*) ;
+SUBSTITUTE (Hom3) (*) TARGET (*) ;
+SUBSTITUTE (Hom4) (*) TARGET (*) ;
+#
+SUBSTITUTE (Sem/Kin) (*) TARGET (*) ;
+SUBSTITUTE (Sem/Sur) (*) TARGET (*) ;
+SUBSTITUTE (Sem/Mal) (*) TARGET (*) ;
+SUBSTITUTE (Sem/Fem) (*) TARGET (*) ;
+#
+SUBSTITUTE (IV) (*) TARGET (*) ;
+SUBSTITUTE (TV) (*) TARGET (*) ;
+#
+SUBSTITUTE:negv_to_aux (V Neg) (Aux Neg) TARGET (V Neg) IF (1 (ConNeg)) ;
 #!! * __NoDerIfPossible__ removes all derivations
 
 
