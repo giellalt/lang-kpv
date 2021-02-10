@@ -190,6 +190,8 @@ LIST Clt/сӧ = Clt/сӧ ;
 LIST Der/MWN = Der/MWN ;
 LIST Der/Patr = Der/Patr ;
 LIST Der/са = Der/са ;
+LIST Der/NomAct = Der/NomAct ;
+LIST Der/ProprietiveMod = Der/ProprietiveMod ;
 
 LIST CASE = Nom Gen Abl Dat Com Cns Acc Ins Ine Ill Ela Car Egr Tra Apr Ter Abe Prl ;
 SET OBLCASE = CASE - Nom ;
@@ -593,6 +595,11 @@ REMOVE Po IF (-1 CLB) ;
 # This rule is too aggressive: "Ӧні видзӧд татчӧ."
 # REMOVE Imprt IF (-1 Adv OR Qnt) ;
 SELECT V IF (-1 Inf) (0 V);
+
+REMOVE:NomActProprietive Der + Der/ProprietiveMod (0 Ind + Prt2) ;
+REMOVE:PastPtc4Prt2 PastPtc + N + Sg + Nom (0 Ind + Prt2) ;
+    # Улыс увъяссӧ козйыслысь ваыс чегъялӧма
+
 SELECT Nom IF (*-1 Acc + PxTag BARRIER CLB);
 # This rule is too aggressive, if we actually want to analyze those as NOM
 # SELECT Acc IF (-1 (V TV))(0 N OR Pron);
