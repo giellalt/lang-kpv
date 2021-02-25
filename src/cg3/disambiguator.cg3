@@ -58,7 +58,7 @@ LIST Ex/V = Ex/V ; #!! Ex/V
 LIST Ex/WORD = Ex/N Ex/V Ex/A Ex/Num ; #!! Ex/WORD
 LIST Der = Der ;
 LIST Der/ӧмӧн = Der/ӧмӧн ;
-LIST DerTag = Der/Ин Der/NomAct Der/MWN Der/Patr Der/И Der/а Der/ал Der/ась Der/выв Der/джык Der/дор Der/иг Der/кежлӧ Der/кодь Der/коста Der/кості Der/л Der/ла Der/ладор Der/лун Der/лы Der/лывлы Der/мед Der/моз Der/мысь Der/мысьт Der/мӧн Der/мӧнъя Der/овт Der/ӧмӧн Der/сор Der/сь Der/сьы Der/сюрӧ Der/тыр Der/тырйи Der/тыръя Der/тӧдз Der/тӧм Der/чы Der/чӧж Der/ывлы Der/ысь Der/ышт Der/ӧм Der/увса ; #!! DerTag
+LIST DerTag = Der Der/Ин Der/NomAct Der/MWN Der/Patr Der/И Der/а Der/ал Der/ась Der/выв Der/джык Der/дор Der/иг Der/кежлӧ Der/кодь Der/коста Der/кості Der/л Der/ла Der/ладор Der/лун Der/лы Der/лывлы Der/мед Der/моз Der/мысь Der/мысьт Der/мӧн Der/мӧнъя Der/овт Der/ӧмӧн Der/сор Der/сь Der/сьы Der/сюрӧ Der/тыр Der/тырйи Der/тыръя Der/тӧдз Der/тӧм Der/чы Der/чӧж Der/ывлы Der/ысь Der/ышт Der/ӧм Der/увса ; #!! DerTag
 LIST AspDerTag = Der/ал Der/ась Der/л Der/лы Der/лывлы Der/овт Der/сь Der/сьы Der/чы Der/ывлы Der/ышт ; #!! AspDerTag
 
 
@@ -632,7 +632,8 @@ SELECT:Prt2NotOmaA (Ind Prt2) IF (NOT *-1 VFIN BARRIER BOS) (NOT *-1 VFIN BARRIE
 # сӧвмӧ вӧлі гижан кывным
 REMOVE:NotAnPrsPrc (Der/Ан PrsPrc) IF (NOT *-1 VFIN BARRIER BOS) (NOT *-1 VFIN BARRIER EOS) ;
 
-SELECT:ANomNotAAcc (A Nom) IF (1 N) ;
+#too strong SELECT:ANomNotAAcc (A Nom) IF (1 N) ;
+#Но, Ижмаыслэн ю кузяыс сиктъяс дорас,
 
 #REMOVE Adv IF (-1 (N Nom)) ;
 # кывсӧ пыдісянь гӧгӧрвоысьяс да гӧгӧрбок
@@ -643,7 +644,11 @@ SELECT PastPtc IF (1 N OR A) ;
 SELECT ActPrsPtc IF (1 N OR A) ;
 REMOVE:NoDerIfPossible DerTag ;
 SELECT NomAct IF (0 V) ;
-REMOVE Refl IF (-1 V) ;
+
+#to strong REMOVE Refl IF (-1 V) ;
+# Саша, висьтоо ассьыд полнэй нимтэ
+# Саша, висьтав ассьыд полнӧй нимтӧ
+
 SELECT Interj IF (1 CLB) ;
 SELECT (N Acc) IF (-2 (V TV)) (-1 Pron OR A) ;
 
@@ -651,14 +656,16 @@ REMOVE N IF (0 ("посни")) (1 N);
 
 REMOVE Abs IF (0 Abs OR Nom) (0 N) ;
 
-# олӧ вылӧ
 SELECT:VylöVerb (V "вывны") IF (-1 (V "овны")) ;
+# олӧ вылӧ
 
-# му вылӧ
+# Remove Po if there is Relat reading 2021-02-25 Jaska
+REMOVE:RelatNotPo Po IF (0 Relat) ;
+
+SELECT:KuzjaPo (Po "кузя") IF (-1 (N Nom)) ;
+
 SELECT:VylöPo (Po "вылӧ") IF (-1 (N Nom)) ;
-
-# Remove Relat if there is Po reading
-REMOVE:PoNotRelat Relat IF (0 Po) ;
+# му вылӧ
 
 # Remove Qnt if there is Num reading
 REMOVE:NumNotQnt Qnt IF (0 Num) ;
