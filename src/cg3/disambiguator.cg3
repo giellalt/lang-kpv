@@ -186,6 +186,8 @@ LIST FirstName = Sem/Mal Sem/Fem ;
 LIST Surname = Sem/Sur ;
 LIST Patronym = Sem/Patr ;
 
+LIST LangSource = EOLang/KOM EOLang/KPV ;
+
 LIST Clt/сӧ = Clt/сӧ ;
 LIST Der/MWN = Der/MWN ;
 LIST Der/Patr = Der/Patr ;
@@ -257,6 +259,9 @@ SUBSTITUTE (Sem/Sur) (*) TARGET (*) ;
 SUBSTITUTE (Sem/Mal) (*) TARGET (*) ;
 SUBSTITUTE (Sem/Fem) (*) TARGET (*) ;
 #
+SUBSTITUTE (EOLang/KOM) (*) TARGET (*) ;
+SUBSTITUTE (EOLang/KPV) (*) TARGET (*) ;
+#
 SUBSTITUTE (IV) (*) TARGET (*) ;
 SUBSTITUTE (TV) (*) TARGET (*) ;
 #
@@ -274,6 +279,8 @@ SELECT:Dem Dem IF (0 Dem)(1 N + Nom);
 
 REMOVE:CmpTst CmpTest IF (NOT 1 N);
 SELECT:CmpTst2 CmpTest ; # Kill'em all
+
+REMOVE Der/ProprietiveMod IF (0 N + Prop + Sg + Der + Der/ProprietiveMod + A) ;
 
 REMOVE Nom IF (0 Nom + Clt + Clt/сӧ);
 # кывсӧ пыдісянь гӧгӧрвоысьяс
