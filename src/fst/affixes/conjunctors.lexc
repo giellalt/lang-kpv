@@ -9,6 +9,9 @@ LEXICON CC_
 LEXICON CS_
 : WordEnd ;
 
+LEXICON CS_DIAL
++Err/Dial: WordEnd ;
+
 LEXICON CONJ_
 +CC: WordEnd ;
 
