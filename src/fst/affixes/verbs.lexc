@@ -238,9 +238,13 @@ LEXICON V-0_НУАВНЫ !!≈ * __@CODE@__ нуавны:нуа
 :л VerbConj_КУТНЫ ; !а
 :в VerbConj-V ; !! Consonant-onset
 !
-@U.CONJ-INF.YES@+Use/NG+Err/Dial:@U.CONJ-INF.YES@л%^C2V Verb-nyDer-ONSET-CONS ; !NB underlying л = upper в elsewhere
-@U.CONJ-INF.YES@+Use/NG+Err/Dial:@U.CONJ-INF.YES@л%^C2V VerbDer-V ; !NB underlying л = upper в elsewhere
-+Use/NG+Err/Dial:л%^C2V VerbConj-V ; !NB Consonant-onset  underlying л = upper в elsewhere
+@U.CONJ-INF.YES@+Use/NG+Err/Dial:@U.CONJ-INF.YES@л%^C2V Verb-nyDer-ONSET-CONS ; !NB underlying л = upper в elsewhere HERE vowel lengthening
+@U.CONJ-INF.YES@+Use/NG+Err/Dial:@U.CONJ-INF.YES@л%^C2V VerbDer-V ; !NB underlying л = upper в elsewhere HERE vowel lengthening
++Use/NG+Err/Dial:л%^C2V VerbConj-V ; !NB Consonant-onset  underlying л = upper в elsewhere  HERE vowel lengthening
+!
+@U.CONJ-INF.YES@+Use/NG+Err/Dial:@U.CONJ-INF.YES@л Verb-nyDer-ONSET-CONS ; !NB underlying л = upper в elsewhere HERE л retension
+@U.CONJ-INF.YES@+Use/NG+Err/Dial:@U.CONJ-INF.YES@л VerbDer-V ; !NB underlying л = upper в elsewhere HERE л retension
++Use/NG+Err/Dial:л VerbConj-V ; !NB Consonant-onset  underlying л = upper в elsewhere  HERE л retension
 
 LEXICON VR_АРТАСЬНЫ !!≈ * __@CODE@__
 @U.CONJ-INF.YES@@U.CONJ-VAL.IV@+Refl:@U.CONJ-INF.YES@@U.CONJ-VAL.IV@ Verb-nyDer-ONSET-CONS ; !
