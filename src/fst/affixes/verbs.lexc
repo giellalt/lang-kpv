@@ -213,6 +213,29 @@ LEXICON V-0_КУТНЫ !!≈ * __@CODE@__ шуны:шу янӧдны, контр
 : VerbConj_КУТНЫ ; !а
 : VerbConj-V ; !б
 
+
+LEXICON IV_БОСЬТНЫ
+@U.CONJ-VAL.IV@+IV:@U.CONJ-VAL.IV@ V-0_БОСЬТНЫ ;
+LEXICON TV_БОСЬТНЫ
+@U.CONJ-VAL.TV@+TV:@U.CONJ-VAL.TV@ V-0_БОСЬТНЫ ;
+LEXICON BV_БОСЬТНЫ
+@U.CONJ-VAL.IV@+IV:@U.CONJ-VAL.IV@ V-0_БОСЬТНЫ ;
+@U.CONJ-VAL.TV@+TV:@U.CONJ-VAL.TV@ V-0_БОСЬТНЫ ;
+!LEXICON V_БОСЬТНЫ !!≈ * __@CODE@__ шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+!@U.CONJ-VAL.IV@+IV:@U.CONJ-VAL.IV@  V-0_БОСЬТНЫ ;
+LEXICON V-0_БОСЬТНЫ !!≈ * __@CODE@__ шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+@U.CONJ-INF.YES@:@U.CONJ-INF.YES@т Verb-nyDer-ONSET-CONS ; !
+@U.CONJ-INF.YES@:@U.CONJ-INF.YES@т Verb-nyDer-ONSET-VOW ; !
+@U.CONJ-INF.YES@:@U.CONJ-INF.YES@т VerbDer_КУТНЫ ; !
+@U.CONJ-INF.YES@:@U.CONJ-INF.YES@т VerbDer-V ; !
+:т VerbConj_КУТНЫ ; !а
+:т VerbConj-V ; !б
+!2021-04-07
+@U.CONJ-INF.YES@+Use/NG+Err/Dial:@U.CONJ-INF.YES@ Verb-nyDer-ONSET-CONS ; !no -т
+@U.CONJ-INF.YES@+Use/NG+Err/Dial:@U.CONJ-INF.YES@ VerbDer-V ; !no -т
++Use/NG+Err/Dial: VerbConj-V ; !б No -т
+
+
 LEXICON VR_НУАВНЫ !!≈ * __@CODE@__ нуавны:нуа
 @U.CONJ-INF.YES@@U.CONJ-VAL.IV@+Refl:@U.CONJ-INF.YES@@U.CONJ-VAL.IV@в Verb-nyDer-ONSET-CONS ; !
 @U.CONJ-INF.YES@@U.CONJ-VAL.IV@+Refl:@U.CONJ-INF.YES@@U.CONJ-VAL.IV@л Verb-nyDer-ONSET-VOW ; !
