@@ -1197,9 +1197,9 @@ LEXICON PRONDEMTAG
 +Dem: WordEnd ; ! sg/pl?
 
 LEXICON ADNDEMTAG
-+Det+Dem: K ;
-+Det+Dem+Cop+Pl:%>ӧсь K ;
-+Det+Dem: Noun1 ;
++Dem: K ;
++Dem: COP-PL ;
++Dem: Noun1 ;
 !+Adn+Dem: K ;
 !+Adn+Dem+Cop+Pl:%>ӧсь K ;
 !+Adn+Dem+Der/MWN: Noun1 ;
