@@ -230,7 +230,8 @@ Dialect features
 
 Where do these come from source
  * **+Src/F** foreign source apparently 2015-09-08
- * **+Dim** diminutive
+ * **+Dim** diminutive for verbs -ышт- (there might be a better term)
+ * **+Dimin** diminutive for nouns -тор-
 
  * **+NonHum** look at this and place somewhere
 
