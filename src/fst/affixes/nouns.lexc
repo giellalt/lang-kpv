@@ -11,33 +11,33 @@ LEXICON Vocative   !!≈ * __@CODE@__
 +Voc: # ;
 
 LEXICON Noun1-IS_PTC-OM !!≈ * __@CODE@__ is to provide deverbal nouns with +Der/ӧм tags
-+V+Der+Der/ӧм: N_ ;
++V+Der+Der/ӧм: NMN_ ;
 
 LEXICON Noun1-IS_PTC-AN !!≈ * __@CODE@__
-+V+Der+Der/Ан: N_ ;
++V+Der+Der/Ан: NMN_ ;
 
 LEXICON Noun1-IS_PTC-YSJ !!≈ * __@CODE@__
-+V+Der+Der/ысь: N_ ;
++V+Der+Der/ысь: NMN_ ;
 
 LEXICON N-DOR ! мӧдладор The Russian is an adverbial phrase
-+Der+Der/дор: N_ ;
++Der+Der/дор: NMN_ ;
 
 LEXICON N_LA
-+Der/La: N_ ;
++Der/La: NMN_ ;
 
 LEXICON N-VYV ! тулысвыв The Russian is an adverbial phrase
-+Der+Der/выв: N_ ;
++Der+Der/выв: NMN_ ;
 
 LEXICON Noun1-F !
-+Src/F: N_ ;
++Src/F: NMN_ ;
 
 LEXICON Noun1-R-RY !
-+Use/NG+Err/Orth:ь N_ ;  ! This deals with январь
-           N_ ; ! This is the new proper spelling январ
++Use/NG+Err/Orth:ь NMN_ ;  ! This deals with январь
+           NMN_ ; ! This is the new proper spelling январ
 
 LEXICON Noun1-SYT-STY !
-+Use/NG+Err/Orth:ть N_ ;  ! This deals with гӧсть
-:ьт         N_ ; ! This is the new proper spelling гӧсьт
++Use/NG+Err/Orth:ть NMN_ ;  ! This deals with гӧсть
+:ьт         NMN_ ; ! This is the new proper spelling гӧсьт
 
 
 !2018-10-21!LEXICON N-KINDRED_
@@ -57,6 +57,7 @@ LEXICON Noun1-SYT-STY !
 LEXICON N-RELAT_
 +Relat: NMN_ ;
 LEXICON N_
++Der+Dimin+N:%>тор N_PARAGOGIC-J ;
 : NMN_ ;
 
 LEXICON Noun1 !! This should be phased out 2013-05-07
