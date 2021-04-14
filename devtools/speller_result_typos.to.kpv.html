@@ -1,0 +1,1069 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hfst-Office speller test results for KPV</title>
+    <meta charset="UTF-8"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Dynatable/0.3.1/jquery.dynatable.min.js" integrity="sha256-/kLSC4kLFkslkJlaTgB7TjurN5TIcmWfMfaXyB6dVh0=" crossorigin="anonymous"> </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Dynatable/0.3.1/jquery.dynatable.min.css" integrity="sha256-lxcbK1S14B8LMgrEir2lv2akbdyYwD1FwMhFgh2ihls=" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://giellalt.github.io/giella-core/assets/css/speller_xml.css"/>
+  </head>
+  <body>
+    <div id="header">
+      <div id="engine" abbreviation="to">
+        <div id="toolversion">n/a</div>
+        <div id="processing" memoryusage="n/a" realtime="2.157" usertime="1.901" systime="0.039" words_per_sec="19.94"> </div>
+      </div>
+      <div id="lexicon" version="kpv, desktop, version 0.1.1, 28.02.2021-1859"> </div>
+      <div id="document">typos.txt</div>
+      <div id="timestamp">20210413-2032</div>
+      <div id="truefalsesummary" wordcount="43">
+        <div id="originals" correct="0" error="43"> </div>
+        <div id="spellers" correct="5" error="38"> </div>
+        <div id="positives" true="38" false="0"> </div>
+        <div id="negatives" true="0" false="5"> </div>
+        <div id="precisions">1.00</div>
+        <div id="recall">0.88</div>
+        <div id="accuracy">0.88</div>
+      </div>
+      <div id="suggestionsummary">
+        <div id="sugg1" editdist1="19" editdist2="2" editdist3plus="0"> </div>
+        <div id="sugg2" editdist1="3" editdist2="1" editdist3plus="0"> </div>
+        <div id="sugg3" editdist1="1" editdist2="0" editdist3plus="0"> </div>
+        <div id="sugg4" editdist1="2" editdist2="2" editdist3plus="0"> </div>
+        <div id="sugg5" editdist1="0" editdist2="0" editdist3plus="0"> </div>
+        <div id="suggbelow5" editdist1="2" editdist2="0" editdist3plus="0"> </div>
+        <div id="nosugg" editdist1="0" editdist2="0" editdist3plus="0"> </div>
+        <div id="badsuggs" editdist1="1" editdist2="3" editdist3plus="2"> </div>
+        <div id="averageposition">1.58</div>
+        <div id="averagesuggs_with_correct">9.82</div>
+        <div id="top1pos_percent">55.26</div>
+        <div id="top5pos_percent">78.95</div>
+        <div id="allpos_percent">84.21</div>
+        <div id="nosugg_percent">0.00</div>
+        <div id="badsugg_percent">15.79</div>
+      </div>
+    </div>
+    <table id="results">
+      <thead>
+        <tr>
+          <th>original</th>
+          <th>TFPN</th>
+          <th>expected</th>
+          <th>edit dist</th>
+          <th>position</th>
+          <th>suggestions</th>
+          <th>tokens</th>
+          <th>bugid</th>
+          <th>errors</th>
+          <th>origfile</th>
+        </tr>
+      </thead>
+      <tr class="word" corrsugg="1">
+        <td class="original" status="error" speller="error">сыйӧ</td>
+        <td>TP</td>
+        <td class="expected">сійӧ</td>
+        <td class="edit_dist">1</td>
+        <td class="position">1</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion" expected="yes">сійӧ</li>
+            <li class="suggestion">сайӧ</li>
+            <li class="suggestion">сійӧс</li>
+            <li class="suggestion">ӧдйӧ</li>
+            <li class="suggestion">кыйӧ</li>
+            <li class="suggestion">сёйӧ</li>
+            <li class="suggestion">сійӧн</li>
+            <li class="suggestion">выйӧ</li>
+            <li class="suggestion">сыӧн</li>
+            <li class="suggestion">эсійӧ</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="-1">
+        <td class="original" status="error" speller="error">сыа</td>
+        <td>TP</td>
+        <td class="expected">сійӧ</td>
+        <td class="edit_dist">3</td>
+        <td class="position">-1</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion">сыӧ</li>
+            <li class="suggestion">сіа</li>
+            <li class="suggestion">сіаӧ</li>
+            <li class="suggestion">сіӧ</li>
+            <li class="suggestion">сы</li>
+            <li class="suggestion">са</li>
+            <li class="suggestion">сын</li>
+            <li class="suggestion">кыа</li>
+            <li class="suggestion">лыа</li>
+            <li class="suggestion">сыр</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="4">
+        <td class="original" status="error" speller="error">сія</td>
+        <td>TP</td>
+        <td class="expected">сійӧ</td>
+        <td class="edit_dist">2</td>
+        <td class="position">4</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion">сіӧ</li>
+            <li class="suggestion">сиӧ</li>
+            <li class="suggestion">сыӧ</li>
+            <li class="suggestion" expected="yes">сійӧ</li>
+            <li class="suggestion">ӧнія</li>
+            <li class="suggestion">сы</li>
+            <li class="suggestion">сіяс</li>
+            <li class="suggestion">сін</li>
+            <li class="suggestion">сіт</li>
+            <li class="suggestion">сая</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="4">
+        <td class="original" status="error" speller="error">сіе</td>
+        <td>TP</td>
+        <td class="expected">сійӧ</td>
+        <td class="edit_dist">2</td>
+        <td class="position">4</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion">сіӧ</li>
+            <li class="suggestion">сиӧ</li>
+            <li class="suggestion">сыӧ</li>
+            <li class="suggestion" expected="yes">сійӧ</li>
+            <li class="suggestion">сы</li>
+            <li class="suggestion">сім</li>
+            <li class="suggestion">сін</li>
+            <li class="suggestion">сіт</li>
+            <li class="suggestion">сі</li>
+            <li class="suggestion">сіа</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="2">
+        <td class="original" status="error" speller="error">кучис</td>
+        <td>TP</td>
+        <td class="expected">кутіс</td>
+        <td class="edit_dist">2</td>
+        <td class="position">2</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion">кӧчӧс</li>
+            <li class="suggestion" expected="yes">кутіс</li>
+            <li class="suggestion">вӧчис</li>
+            <li class="suggestion">кужис</li>
+            <li class="suggestion">куліс</li>
+            <li class="suggestion">кувчис</li>
+            <li class="suggestion">кутчис</li>
+            <li class="suggestion">кучик</li>
+            <li class="suggestion">кучкис</li>
+            <li class="suggestion">качис</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="1">
+        <td class="original" status="error" speller="error">вӧлы</td>
+        <td>TP</td>
+        <td class="expected">вӧлі</td>
+        <td class="edit_dist">1</td>
+        <td class="position">1</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion" expected="yes">вӧлі</li>
+            <li class="suggestion">вӧлӧ</li>
+            <li class="suggestion">вылӧ</li>
+            <li class="suggestion">вӧліны</li>
+            <li class="suggestion">вӧлӧм</li>
+            <li class="suggestion">вӧла</li>
+            <li class="suggestion">вӧчӧ</li>
+            <li class="suggestion">вӧліс</li>
+            <li class="suggestion">вӧрӧ</li>
+            <li class="suggestion">волӧ</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="1">
+        <td class="original" status="error" speller="error">заводитыс</td>
+        <td>TP</td>
+        <td class="expected">заводитіс</td>
+        <td class="edit_dist">1</td>
+        <td class="position">1</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion" expected="yes">заводитіс</li>
+            <li class="suggestion">заводитісӧ</li>
+            <li class="suggestion">заводитӧсӧ</li>
+            <li class="suggestion">заводитӧ</li>
+            <li class="suggestion">заводитчӧ</li>
+            <li class="suggestion">заводитас</li>
+            <li class="suggestion">заводитлі</li>
+            <li class="suggestion">заводитныс</li>
+            <li class="suggestion">заводиті</li>
+            <li class="suggestion">заводӧдыс</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="badaccept">
+        <td class="original" status="error" speller="correct">кудз</td>
+        <td>FN</td>
+        <td class="expected">кыдз</td>
+        <td class="edit_dist">1</td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="1">
+        <td class="original" status="error" speller="error">эні</td>
+        <td>TP</td>
+        <td class="expected">ӧні</td>
+        <td class="edit_dist">1</td>
+        <td class="position">1</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion" expected="yes">ӧні</li>
+            <li class="suggestion">энӧ</li>
+            <li class="suggestion">сэні</li>
+            <li class="suggestion">кӧні</li>
+            <li class="suggestion">ӧнія</li>
+            <li class="suggestion">энь</li>
+            <li class="suggestion">тэнӧ</li>
+            <li class="suggestion">эн</li>
+            <li class="suggestion">нӧ</li>
+            <li class="suggestion">энді</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="1">
+        <td class="original" status="error" speller="error">лэбачъяс</td>
+        <td>TP</td>
+        <td class="expected">лэбачьяс</td>
+        <td class="edit_dist">1</td>
+        <td class="position">1</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion" expected="yes">лэбачьяс</li>
+            <li class="suggestion">лэбанъяс</li>
+            <li class="suggestion">лэбачьясӧ</li>
+            <li class="suggestion">лэбачӧс</li>
+            <li class="suggestion">лэбаъяс</li>
+            <li class="suggestion">лэбанъясӧ</li>
+            <li class="suggestion">лэбаъясӧ</li>
+            <li class="suggestion">лэбӧмъяс</li>
+            <li class="suggestion">лӧбаъяс</li>
+            <li class="suggestion">лэбачыс</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="1">
+        <td class="original" status="error" speller="error">кӧчъяс</td>
+        <td>TP</td>
+        <td class="expected">кӧчьяс</td>
+        <td class="edit_dist">1</td>
+        <td class="position">1</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion" expected="yes">кӧчьяс</li>
+            <li class="suggestion">кӧкъяс</li>
+            <li class="suggestion">кӧмъяс</li>
+            <li class="suggestion">кӧнъяс</li>
+            <li class="suggestion">кӧръяс</li>
+            <li class="suggestion">кӧсъяс</li>
+            <li class="suggestion">кӧвъяс</li>
+            <li class="suggestion">кӧжъяс</li>
+            <li class="suggestion">кӧтъяс</li>
+            <li class="suggestion">кӧшъяс</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="-1">
+        <td class="original" status="error" speller="error">шырйас</td>
+        <td>TP</td>
+        <td class="expected">шыръяс</td>
+        <td class="edit_dist">2</td>
+        <td class="position">-1</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion">шырйӧс</li>
+            <li class="suggestion">шырйӧсӧ</li>
+            <li class="suggestion">шӧрас</li>
+            <li class="suggestion">шыргас</li>
+            <li class="suggestion">шырнас</li>
+            <li class="suggestion">шырлас</li>
+            <li class="suggestion">шырйаси</li>
+            <li class="suggestion">шырйась</li>
+            <li class="suggestion">шырйася</li>
+            <li class="suggestion">шырйис</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="2">
+        <td class="original" status="error" speller="error">велӧдчины</td>
+        <td>TP</td>
+        <td class="expected">велӧдчыны</td>
+        <td class="edit_dist">1</td>
+        <td class="position">2</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion">велӧдчӧны</li>
+            <li class="suggestion" expected="yes">велӧдчыны</li>
+            <li class="suggestion">велӧдчисны</li>
+            <li class="suggestion">велӧдісны</li>
+            <li class="suggestion">велӧдӧны</li>
+            <li class="suggestion">велӧдчин</li>
+            <li class="suggestion">велӧдчӧмны</li>
+            <li class="suggestion">вежӧдчӧны</li>
+            <li class="suggestion">велӧдӧмны</li>
+            <li class="suggestion">венӧдчӧны</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="-1">
+        <td class="original" status="error" speller="error">лыддины.</td>
+        <td>TP</td>
+        <td class="expected">лыддьыны</td>
+        <td class="edit_dist">3</td>
+        <td class="position">-1</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion">лыддин-ӧ</li>
+            <li class="suggestion">лыддинсӧ</li>
+            <li class="suggestion">лыддинтӧ</li>
+            <li class="suggestion">лыддисны</li>
+            <li class="suggestion">лыддин-а</li>
+            <li class="suggestion">лыддин-э</li>
+            <li class="suggestion">пыддиныд</li>
+            <li class="suggestion">пыддиныс</li>
+            <li class="suggestion">лыддинныд</li>
+            <li class="suggestion">пыддиным</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="1">
+        <td class="original" status="error" speller="error">купайчис</td>
+        <td>TP</td>
+        <td class="expected">купайтчис</td>
+        <td class="edit_dist">1</td>
+        <td class="position">1</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion" expected="yes">купайтчис</li>
+            <li class="suggestion">купайтчисӧ</li>
+            <li class="suggestion">купайтіс</li>
+            <li class="suggestion">капавчис</li>
+            <li class="suggestion">купайтас</li>
+            <li class="suggestion">шупавчис</li>
+            <li class="suggestion">чупавчис</li>
+            <li class="suggestion">кушайтчис</li>
+            <li class="suggestion">кушавчис</li>
+            <li class="suggestion">кусалчис</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="1">
+        <td class="original" status="error" speller="error">вичысис</td>
+        <td>TP</td>
+        <td class="expected">виччысис</td>
+        <td class="edit_dist">1</td>
+        <td class="position">1</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion" expected="yes">виччысис</li>
+            <li class="suggestion">вийчысис</li>
+            <li class="suggestion">вочысис</li>
+            <li class="suggestion">вичасис</li>
+            <li class="suggestion">видчысис</li>
+            <li class="suggestion">вичмысис</li>
+            <li class="suggestion">вичтысис</li>
+            <li class="suggestion">витчысис</li>
+            <li class="suggestion">вийчысисӧ</li>
+            <li class="suggestion">вичыстӧ</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="badaccept">
+        <td class="original" status="error" speller="correct">войис</td>
+        <td>FN</td>
+        <td class="expected">воис</td>
+        <td class="edit_dist">1</td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="1">
+        <td class="original" status="error" speller="error">кӧсъём</td>
+        <td>TP</td>
+        <td class="expected">кӧсйӧм</td>
+        <td class="edit_dist">2</td>
+        <td class="position">1</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion" expected="yes">кӧсйӧм</li>
+            <li class="suggestion">кӧсъям</li>
+            <li class="suggestion">кӧсӧям</li>
+            <li class="suggestion">кесъям</li>
+            <li class="suggestion">кысъям</li>
+            <li class="suggestion">кӧсъян</li>
+            <li class="suggestion">кӧсъяс</li>
+            <li class="suggestion">кӧръям</li>
+            <li class="suggestion">кӧжъям</li>
+            <li class="suggestion">лӧсъям</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="-1">
+        <td class="original" status="error" speller="error">кӧсйа</td>
+        <td>TP</td>
+        <td class="expected">кӧсъя</td>
+        <td class="edit_dist">2</td>
+        <td class="position">-1</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion">кӧсйӧ</li>
+            <li class="suggestion">кӧсӧйӧ</li>
+            <li class="suggestion">кесйӧ</li>
+            <li class="suggestion">кӧсйӧм</li>
+            <li class="suggestion">кӧсйы</li>
+            <li class="suggestion">кӧса</li>
+            <li class="suggestion">кӧсйӧма</li>
+            <li class="suggestion">кӧсйи</li>
+            <li class="suggestion">кӧрйӧ</li>
+            <li class="suggestion">ӧкӧсса</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="badaccept">
+        <td class="original" status="error" speller="correct">кӧйин</td>
+        <td>FN</td>
+        <td class="expected">кӧин</td>
+        <td class="edit_dist">1</td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="-1">
+        <td class="original" status="error" speller="error">чомын</td>
+        <td>TP</td>
+        <td class="expected">чомйын</td>
+        <td class="edit_dist">1</td>
+        <td class="position">-1</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion">сӧмын</li>
+            <li class="suggestion">помын</li>
+            <li class="suggestion">комын</li>
+            <li class="suggestion">Вомын</li>
+            <li class="suggestion">вомын</li>
+            <li class="suggestion">вомӧн</li>
+            <li class="suggestion">томын</li>
+            <li class="suggestion">Комын</li>
+            <li class="suggestion">ромын</li>
+            <li class="suggestion">сомын</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="1">
+        <td class="original" status="error" speller="error">енӧж</td>
+        <td>TP</td>
+        <td class="expected">енэж</td>
+        <td class="edit_dist">1</td>
+        <td class="position">1</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion" expected="yes">енэж</li>
+            <li class="suggestion">енэжӧ</li>
+            <li class="suggestion">енӧс</li>
+            <li class="suggestion">енсӧ</li>
+            <li class="suggestion">енті</li>
+            <li class="suggestion">ентӧ</li>
+            <li class="suggestion">Анӧӧ</li>
+            <li class="suggestion">ен-ӧ</li>
+            <li class="suggestion">енмӧ</li>
+            <li class="suggestion">еннӧ</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="2">
+        <td class="original" status="error" speller="error">ертасьны</td>
+        <td>TP</td>
+        <td class="expected">ёртасьны</td>
+        <td class="edit_dist">1</td>
+        <td class="position">2</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion">артасьны</li>
+            <li class="suggestion" expected="yes">ёртасьны</li>
+            <li class="suggestion">артасьӧны</li>
+            <li class="suggestion">ерӧктасьны</li>
+            <li class="suggestion">пӧтасьны</li>
+            <li class="suggestion">ӧзтасьны</li>
+            <li class="suggestion">ӧюртасьны</li>
+            <li class="suggestion">йӧртасьны</li>
+            <li class="suggestion">сітасьны</li>
+            <li class="suggestion">кӧртасьны</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="badaccept">
+        <td class="original" status="error" speller="correct">лек</td>
+        <td>FN</td>
+        <td class="expected">лёк</td>
+        <td class="edit_dist">1</td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="4">
+        <td class="original" status="error" speller="error">ерт</td>
+        <td>TP</td>
+        <td class="expected">ёрт</td>
+        <td class="edit_dist">1</td>
+        <td class="position">4</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion">кӧрт</li>
+            <li class="suggestion">дерт</li>
+            <li class="suggestion">Юрӧ</li>
+            <li class="suggestion" expected="yes">ёрт</li>
+            <li class="suggestion">орт</li>
+            <li class="suggestion">перӧ</li>
+            <li class="suggestion">ещӧ</li>
+            <li class="suggestion">Герт</li>
+            <li class="suggestion">Верт</li>
+            <li class="suggestion">арт</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="1">
+        <td class="original" status="error" speller="error">ӧмідз</td>
+        <td>TP</td>
+        <td class="expected">ӧмидз</td>
+        <td class="edit_dist">1</td>
+        <td class="position">1</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion" expected="yes">ӧмидз</li>
+            <li class="suggestion">емӧдз</li>
+            <li class="suggestion">ӧмидзӧ</li>
+            <li class="suggestion">ӧнӧдз</li>
+            <li class="suggestion">ӧніӧдз</li>
+            <li class="suggestion">Юмӧдз</li>
+            <li class="suggestion">лӧмӧдз</li>
+            <li class="suggestion">юмӧдз</li>
+            <li class="suggestion">рӧмӧдз</li>
+            <li class="suggestion">ямӧдз</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="1">
+        <td class="original" status="error" speller="error">сёрнітисны</td>
+        <td>TP</td>
+        <td class="expected">сёрнитісны</td>
+        <td class="edit_dist">2</td>
+        <td class="position">1</td>
+        <td class="suggestions" count="4">
+          <ul>
+            <li class="suggestion" expected="yes">сёрнитісны</li>
+            <li class="suggestion">сёрнитчисны</li>
+            <li class="suggestion">сёрнитсисны</li>
+            <li class="suggestion">сёрнитасны</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="1">
+        <td class="original" status="error" speller="error">аддзісны</td>
+        <td>TP</td>
+        <td class="expected">аддзисны</td>
+        <td class="edit_dist">1</td>
+        <td class="position">1</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion" expected="yes">аддзисны</li>
+            <li class="suggestion">ӧддзисны</li>
+            <li class="suggestion">аддзӧны</li>
+            <li class="suggestion">аддзасны</li>
+            <li class="suggestion">ӧддзасны</li>
+            <li class="suggestion">аддзӧдны</li>
+            <li class="suggestion">ӧдззісны</li>
+            <li class="suggestion">аддзӧдісны</li>
+            <li class="suggestion">аддзӧмны</li>
+            <li class="suggestion">аддзыны</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="1">
+        <td class="original" status="error" speller="error">вузасянин</td>
+        <td>TP</td>
+        <td class="expected">вузасянін</td>
+        <td class="edit_dist">1</td>
+        <td class="position">1</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion" expected="yes">вузасянін</li>
+            <li class="suggestion">вузасянінӧ</li>
+            <li class="suggestion">вузасянӧн</li>
+            <li class="suggestion">вузасясин</li>
+            <li class="suggestion">вузасялін</li>
+            <li class="suggestion">вузасянтӧ</li>
+            <li class="suggestion">вузасян-ӧ</li>
+            <li class="suggestion">вузасянын</li>
+            <li class="suggestion">вузасянсӧ</li>
+            <li class="suggestion">везасянін</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="2">
+        <td class="original" status="error" speller="error">ӧмидзь</td>
+        <td>TP</td>
+        <td class="expected">ӧмидз</td>
+        <td class="edit_dist">1</td>
+        <td class="position">2</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion">ӧмидзӧ</li>
+            <li class="suggestion" expected="yes">ӧмидз</li>
+            <li class="suggestion">ӧмидза</li>
+            <li class="suggestion">ӧмидзсӧ</li>
+            <li class="suggestion">ӧмидзті</li>
+            <li class="suggestion">ӧмидзӧн</li>
+            <li class="suggestion">ӧмидзтӧ</li>
+            <li class="suggestion">рӧмидзӧ</li>
+            <li class="suggestion">ӧмидзаӧ</li>
+            <li class="suggestion">ӧмидзӧд</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="6">
+        <td class="original" status="error" speller="error">видзя</td>
+        <td>TP</td>
+        <td class="expected">видза</td>
+        <td class="edit_dist">1</td>
+        <td class="position">9</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion">видзӧ</li>
+            <li class="suggestion">водзӧ</li>
+            <li class="suggestion">видз</li>
+            <li class="suggestion">визя</li>
+            <li class="suggestion">видзӧм</li>
+            <li class="suggestion">видзӧд</li>
+            <li class="suggestion">видзи</li>
+            <li class="suggestion">видзся</li>
+            <li class="suggestion" expected="yes">видза</li>
+            <li class="suggestion">видчӧ</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="-1">
+        <td class="original" status="error" speller="error">шӧд</td>
+        <td>TP</td>
+        <td class="expected">сьӧд</td>
+        <td class="edit_dist">2</td>
+        <td class="position">-1</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion">ӧшӧд</li>
+            <li class="suggestion">ӧшӧді</li>
+            <li class="suggestion">ӧшӧдӧ</li>
+            <li class="suggestion">шӧр</li>
+            <li class="suggestion">шед</li>
+            <li class="suggestion">шедӧ</li>
+            <li class="suggestion">шеді</li>
+            <li class="suggestion">мӧд</li>
+            <li class="suggestion">ӧд</li>
+            <li class="suggestion">тӧд</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="3">
+        <td class="original" status="error" speller="error">лымя</td>
+        <td>TP</td>
+        <td class="expected">лымъя</td>
+        <td class="edit_dist">1</td>
+        <td class="position">3</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion">лӧмӧ</li>
+            <li class="suggestion">лым</li>
+            <li class="suggestion" expected="yes">лымъя</li>
+            <li class="suggestion">лыдӧ</li>
+            <li class="suggestion">лӧня</li>
+            <li class="suggestion">лыя</li>
+            <li class="suggestion">лызя</li>
+            <li class="suggestion">гымӧ</li>
+            <li class="suggestion">лыаӧ</li>
+            <li class="suggestion">лымсӧ</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="4">
+        <td class="original" status="error" speller="error">чиряс</td>
+        <td>TP</td>
+        <td class="expected">чиръяс</td>
+        <td class="edit_dist">1</td>
+        <td class="position">4</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion">чирӧс</li>
+            <li class="suggestion">чирӧсӧ</li>
+            <li class="suggestion">чӧрӧс</li>
+            <li class="suggestion" expected="yes">чиръяс</li>
+            <li class="suggestion">чиніс</li>
+            <li class="suggestion">чирас</li>
+            <li class="suggestion">чиреяс</li>
+            <li class="suggestion">чирис</li>
+            <li class="suggestion">чирс</li>
+            <li class="suggestion">чирсяс</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="6">
+        <td class="original" status="error" speller="error">мачяс</td>
+        <td>TP</td>
+        <td class="expected">мачьяс</td>
+        <td class="edit_dist">1</td>
+        <td class="position">9</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion">мачӧс</li>
+            <li class="suggestion">мачӧсӧ</li>
+            <li class="suggestion">майяс</li>
+            <li class="suggestion">мачсӧ</li>
+            <li class="suggestion">мазяс</li>
+            <li class="suggestion">мачаяс</li>
+            <li class="suggestion">мачас</li>
+            <li class="suggestion">мачыс</li>
+            <li class="suggestion" expected="yes">мачьяс</li>
+            <li class="suggestion">мааяс</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="badaccept">
+        <td class="original" status="error" speller="correct">поняс</td>
+        <td>FN</td>
+        <td class="expected">понъяс</td>
+        <td class="edit_dist">1</td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="1">
+        <td class="original" status="error" speller="error">сиктясын</td>
+        <td>TP</td>
+        <td class="expected">сиктъясын</td>
+        <td class="edit_dist">1</td>
+        <td class="position">1</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion" expected="yes">сиктъясын</li>
+            <li class="suggestion">сиктьясын</li>
+            <li class="suggestion">сиктъясӧн</li>
+            <li class="suggestion">Никӧясын</li>
+            <li class="suggestion">сиктяын</li>
+            <li class="suggestion">сӧкаясын</li>
+            <li class="suggestion">сӧкъясын</li>
+            <li class="suggestion">Тикӧясын</li>
+            <li class="suggestion">Ликӧясын</li>
+            <li class="suggestion">сиктьясӧн</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="1">
+        <td class="original" status="error" speller="error">ичётик</td>
+        <td>TP</td>
+        <td class="expected">ичӧтик</td>
+        <td class="edit_dist">1</td>
+        <td class="position">1</td>
+        <td class="suggestions" count="9">
+          <ul>
+            <li class="suggestion" expected="yes">ичӧтик</li>
+            <li class="suggestion">ичӧтикӧ</li>
+            <li class="suggestion">ичӧтика</li>
+            <li class="suggestion">ичӧлик</li>
+            <li class="suggestion">ичилик</li>
+            <li class="suggestion">учётчик</li>
+            <li class="suggestion">счётчик</li>
+            <li class="suggestion">учёт-ик</li>
+            <li class="suggestion">счёт-ик</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="1">
+        <td class="original" status="error" speller="error">вежер</td>
+        <td>TP</td>
+        <td class="expected">вежӧр</td>
+        <td class="edit_dist">1</td>
+        <td class="position">1</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion" expected="yes">вежӧр</li>
+            <li class="suggestion">вежӧрӧ</li>
+            <li class="suggestion">вежӧс</li>
+            <li class="suggestion">вежӧра</li>
+            <li class="suggestion">веер</li>
+            <li class="suggestion">вечер</li>
+            <li class="suggestion">вежӧм</li>
+            <li class="suggestion">вежгӧ</li>
+            <li class="suggestion">вежді</li>
+            <li class="suggestion">веждӧ</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="1">
+        <td class="original" status="error" speller="error">компьютерен</td>
+        <td>TP</td>
+        <td class="expected">компьютерӧн</td>
+        <td class="edit_dist">1</td>
+        <td class="position">1</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion" expected="yes">компьютерӧн</li>
+            <li class="suggestion">компьютерлӧн</li>
+            <li class="suggestion">компьютерын</li>
+            <li class="suggestion">компьютерсӧ</li>
+            <li class="suggestion">компьютерті</li>
+            <li class="suggestion">компьютертӧ</li>
+            <li class="suggestion">компьютерӧ</li>
+            <li class="suggestion">компьютерӧд</li>
+            <li class="suggestion">компьютерӧй</li>
+            <li class="suggestion">компьютерӧс</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="1">
+        <td class="original" status="error" speller="error">толка</td>
+        <td>TP</td>
+        <td class="expected">тӧлка</td>
+        <td class="edit_dist">1</td>
+        <td class="position">1</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion" expected="yes">тӧлка</li>
+            <li class="suggestion">тӧлкаӧ</li>
+            <li class="suggestion">тӧлкӧ</li>
+            <li class="suggestion">полкӧ</li>
+            <li class="suggestion">тол-а</li>
+            <li class="suggestion">тола</li>
+            <li class="suggestion">чолка</li>
+            <li class="suggestion">толга</li>
+            <li class="suggestion">толкач</li>
+            <li class="suggestion">толла</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="1">
+        <td class="original" status="error" speller="error">тӧдмава</td>
+        <td>TP</td>
+        <td class="expected">тӧдмала</td>
+        <td class="edit_dist">1</td>
+        <td class="position">1</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion" expected="yes">тӧдмала</li>
+            <li class="suggestion">тӧдмалі</li>
+            <li class="suggestion">тӧдмалӧ</li>
+            <li class="suggestion">тӧдӧмала</li>
+            <li class="suggestion">тӧдмав</li>
+            <li class="suggestion">тӧдмав-а</li>
+            <li class="suggestion">тӧдмавла</li>
+            <li class="suggestion">тӧдмавлі</li>
+            <li class="suggestion">тӧдмавлӧ</li>
+            <li class="suggestion">тӧдмавтӧ</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+      <tr class="word" corrsugg="1">
+        <td class="original" status="error" speller="error">юавӧ</td>
+        <td>TP</td>
+        <td class="expected">юалӧ</td>
+        <td class="edit_dist">1</td>
+        <td class="position">1</td>
+        <td class="suggestions" count="10">
+          <ul>
+            <li class="suggestion" expected="yes">юалӧ</li>
+            <li class="suggestion">юалі</li>
+            <li class="suggestion">Давӧ</li>
+            <li class="suggestion">юавсӧ</li>
+            <li class="suggestion">юавтӧ</li>
+            <li class="suggestion">юавчӧ</li>
+            <li class="suggestion">юарӧ</li>
+            <li class="suggestion">юасӧ</li>
+            <li class="suggestion">юатӧ</li>
+            <li class="suggestion">Лавӧ</li>
+          </ul>
+        </td>
+        <td/>
+        <td/>
+        <td/>
+        <td/>
+      </tr>
+    </table>
+    <script src="https://giellalt.github.io/giella-core/assets/js/tablesorter.js"> </script>
+  </body>
+</html>
