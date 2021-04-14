@@ -1,6 +1,3 @@
-
-# Tags and root lexicon for Komi
-
 Here's a list of links to the page for each file of source code. All pages are concatenated and can be found as [kpv.html].
 
 
