@@ -1,7 +1,7 @@
 
 
 ! ================================ !
-!! !!!Numeral morphological lexica 
+!! # Numeral morphological lexica 
 ! ================================ !
 
 !This has to be worked on 2012-01-19
@@ -72,7 +72,7 @@ LEXICON CARD-APPR
 +Card+Appr+Der+Der/La+N:%>ла N_ ;
 
 ! =================== !
-!! !!Inflectional lexica 
+!! ## Inflectional lexica 
 ! =================== !
 
 !! All nouns follow one contlex "Noun1"
@@ -262,10 +262,10 @@ ACC-PXSG1/MORPH-THEN-WORDEND ; !Zero marking on the possessive suffix, as it wer
 
                      
  
-!! !!Arabic numerals
+!! ## Arabic numerals
 ! ===============
 
-LEXICON NUM-PREFIXES     !!= * __@CODE@__  
+LEXICON NUM-PREFIXES     !!= * **@CODE@**  
         ARABIC ;
 §       ARABIC ;      ! §24                                                    
 §§      ARABIC ;     ! §§24                                                    

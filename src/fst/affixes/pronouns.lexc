@@ -1,8 +1,8 @@
 ! ========================================================================== !
-!!                        !!!Pronominal morphology                           
+!! # Pronominal morphology                           
 ! ========================================================================== !
 
-!! !!Closed class personal pronouns
+!! ## Closed class personal pronouns
 ! ------------------------------
 LEXICON PRONOUN-TYPES
  PERS ;
@@ -12,8 +12,8 @@ LEXICON PRONOUN-TYPES
  NEG-PRON ;
  COLL-PRON ;
 
-LEXICON PERS                        !!≈ * __@CODE@__ 
-ме+Pron+Pers+Sg1: PERS-SG1 ;    !!≈ * __@CODE@__ ...
+LEXICON PERS                        !!≈ * **@CODE@** 
+ме+Pron+Pers+Sg1: PERS-SG1 ;    !!≈ * **@CODE@** ...
 тэ+Pron+Pers+Sg2: PERS-SG2 ; 
 сійӧ+Pron+Pers+Sg3: PERS-SG3 ;
 ме+Pron+Pers+Pl1: PERS-PL1 ;
@@ -21,7 +21,7 @@ LEXICON PERS                        !!≈ * __@CODE@__
 сійӧ+Pron+Pers+Pl3: PERS-PL3 ;
 
 
-LEXICON PERS-SG1   !!≈ * __@CODE@__ 
+LEXICON PERS-SG1   !!≈ * **@CODE@** 
 +Nom:ме K ;
 !+Cmpl:ме WordEnd ; !Postposition complement removed 2019-10-27 same as Nom
 +Gen:менам K ;
@@ -53,7 +53,7 @@ LEXICON PERS-SG1   !!≈ * __@CODE@__
 +Ter:менамӧдз K ;
 :ме perssg ; ! for the regular obl sg
 
-LEXICON PERS-PL1    !!≈ * __@CODE@__
+LEXICON PERS-PL1    !!≈ * **@CODE@**
 +Nom:ми K ;
 +Nom:мийӧ K ; !Der/йӧ
 +Gen:миян K ;
@@ -85,7 +85,7 @@ LEXICON PERS-PL1    !!≈ * __@CODE@__
 +Tra:миті K ; !Synomymous with: миянӧд
 +Ter:миӧдз K ; !Synomymous with: миянӧдз
 
-LEXICON PERS-SG2     !!≈ * __@CODE@__
+LEXICON PERS-SG2     !!≈ * **@CODE@**
 +Nom:тэ K ;
 !+Cmpl:тэ WordEnd ;  removed 2019-10-27 same as Nom
 +Gen:тэнад K ;
@@ -111,7 +111,7 @@ LEXICON PERS-SG2     !!≈ * __@CODE@__
 +Ter:тэнадӧдз K ;
 :тэ perssg ;  ! for the regular obl sg
 
-LEXICON PERS-PL2 !!≈ * __@CODE@__ 
+LEXICON PERS-PL2 !!≈ * **@CODE@** 
 +Nom:ті K ;
 !+Cmpl:ті WordEnd ;  removed 2019-10-27 same as Nom
 +Nom:тійӧ K ; !We need a special tag for discerning +Nom forms  Der/йӧ
@@ -136,7 +136,7 @@ LEXICON PERS-PL2 !!≈ * __@CODE@__
 +Egr:тіянсяньныд K ;
 +Ter:тіӧдз K ;
 
-LEXICON PERS-SG3  !!≈ * __@CODE@__ 
+LEXICON PERS-SG3  !!≈ * **@CODE@** 
 +Nom:сійӧ K ; !+Der/йӧ
 +Nom+Err/Dial:сіе K ; !+Der/йӧ
 +Gen:сылӧн K ;
@@ -178,7 +178,7 @@ LEXICON PERS-SG3  !!≈ * __@CODE@__
 !! ті тійӧ nämä ovat aivan eri asioita
 !! сы сійӧ tosin joskus 
 
-LEXICON PERS-PL3 !!≈ * __@CODE@__
+LEXICON PERS-PL3 !!≈ * **@CODE@**
 +Nom:найӧ K ; !Der/йӧ
 +Acc:найӧс K ; !Der/йӧ
 +Acc:найӧӧс K ; !
@@ -234,7 +234,7 @@ LEXICON PERS-PL3 !!≈ * __@CODE@__
 +Ter+Err/Dial:ныэдз K ;
 
 !2020-10-12 THIS FAR
-LEXICON perssg !!≈ * __@CODE@__
+LEXICON perssg !!≈ * **@CODE@**
  ABL/MORPH-THEN-WORDEND ; !This is not attested for Sg1 and Sg2 in the 2000 Grammar
  APR/MORPH-THEN-WORDEND ;
  CAR/MORPH-THEN-WORDEND ;
@@ -251,7 +251,7 @@ LEXICON perssg !!≈ * __@CODE@__
 
 
 
-LEXICON persplobl !!≈ * __@CODE@__
+LEXICON persplobl !!≈ * **@CODE@**
 +Acc:%>ӧс K ;
 +Use/NG+Err/Dial+Acc:%>эс K ;
 
