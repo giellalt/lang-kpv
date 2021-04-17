@@ -9,7 +9,7 @@ NUM-PREFIXES    ; ! for §34 etc.            !
 ISOLATED-NUMEXP ; ! for ½ etc.                      !
 COORDINATES_1	; ! for 65˚36′8,30″ etc.
 
-LEXICON ARABIC   !!= * __@CODE@__ arabic numerals
+LEXICON ARABIC   !!= * **@CODE@** arabic numerals
 < [1|2|3|4|5|6|7|8|9|%0] > ARABICS      ;
                            ARABICYEAR ;
 
@@ -41,7 +41,7 @@ LEXICON yearcase
  +Sg+Nom:       #      ;
  +Cmp/SplitR:%–    ENDLEX ;
 
-LEXICON ARABICLOOPphone   !!= * __@CODE@__ +358(0)16671254
+LEXICON ARABICLOOPphone   !!= * **@CODE@** +358(0)16671254
 < [1|2|3|4|5|6|7|8|9|%0] > ARABICLOOPphone ;
   (:(             ARABICLOOPphone ;
   ):)             ARABICLOOPphone ;
@@ -53,7 +53,7 @@ LEXICON ARABICLOOPphone   !!= * __@CODE@__ +358(0)16671254
 ! +Num+Arab+Sg+Acc: # ;
 ! +Num+Arab+Sg+Gen: # ;
 
-LEXICON ARABICLOOP   !!= * __@CODE@__
+LEXICON ARABICLOOP   !!= * **@CODE@**
          :         ARABIC ;
        %-:%-       ARABIC ; ! 1-2 multipart numbers
        %–:%–       ARABIC ; ! 1–2 multipart numbers
@@ -92,36 +92,36 @@ LEXICON ARABICLOOP   !!= * __@CODE@__
             % %%:% %%   ARABICDELIMITER ; ! the correct ones as well... 50 % etc.
                                  ARABICDELIMITER ; ! list of number-case delimiters
 
-LEXICON ARABICLOOPORD   !!= * __@CODE@__ ordinals
+LEXICON ARABICLOOPORD   !!= * **@CODE@** ordinals
  +A+Ord:%. ABS_ ;
  +A+Ord: ARABICDELIMITERORD ;
  < [a|b|c|d|e|f|f %  f] > ACASETAG ;
 
-LEXICON ACASETAG   !!= * __@CODE@__  is for 1e+Num+Sg+Num:1e
+LEXICON ACASETAG   !!= * **@CODE@**  is for 1e+Num+Sg+Num:1e
 +Num: ARABICCASES ;
 
-LEXICON ARABICLOOPCOLL   !!= * __@CODE@__ collectives
+LEXICON ARABICLOOPCOLL   !!= * **@CODE@** collectives
 +Num+Coll:%-нан ABS_ ;
 ! +N+Coll: ARABICDELIMITERCOLL ;
 
 
-LEXICON ARABICDELIMITER   !!= * __@CODE@__  blank + 3 delim, what does the lg counc prefer?
+LEXICON ARABICDELIMITER   !!= * **@CODE@**  blank + 3 delim, what does the lg counc prefer?
  +Num:            ARABICCASE0      ; ! This is the 1984 case, ie NGA
  +Num:%-          ARABICCASE       ; ! This is the 1984:s case.
 ! +Num:            ARAB_DER ; ! 6-jáhkasaš, 
 ! +Num: Rhyph ; ! 3-
 
 
-LEXICON ARABICDELIMITERORD   !!= * __@CODE@__ ordinals
+LEXICON ARABICDELIMITERORD   !!= * **@CODE@** ordinals
 !             ARABICCASE0   ; ! This is the 1984 case, ie NGA
           :%-ӧд ARABICCASEORD ; ! This is the 1984:s case.
 
 
-LEXICON ARABICCASES   !!= * __@CODE@__  to distinguish between 0 and oblique
+LEXICON ARABICCASES   !!= * **@CODE@**  to distinguish between 0 and oblique
 ARABICCASE0 ;
 :%- ARABICCASE ;
 
-LEXICON ARABICCASE0   !!= * __@CODE@__
+LEXICON ARABICCASE0   !!= * **@CODE@**
  +Arab+Sg+Nom:      #      ;
  +Arab+Cmp/SplitR:%–    ENDLEX ;
 

@@ -1,22 +1,22 @@
 
 ! ============================= !
-!! !!!Noun morphological lexica !
+!! # Noun morphological lexica !
 ! ============================= !
 
 ! ===== !
 ! Nouns !
 ! ===== !
 
-LEXICON Vocative   !!≈ * __@CODE@__
+LEXICON Vocative   !!≈ * **@CODE@**
 +Voc: # ;
 
-LEXICON Noun1-IS_PTC-OM !!≈ * __@CODE@__ is to provide deverbal nouns with +Der/ӧм tags
+LEXICON Noun1-IS_PTC-OM !!≈ * **@CODE@** is to provide deverbal nouns with +Der/ӧм tags
 +V+Der+Der/ӧм: NMN_ ;
 
-LEXICON Noun1-IS_PTC-AN !!≈ * __@CODE@__
+LEXICON Noun1-IS_PTC-AN !!≈ * **@CODE@**
 +V+Der+Der/Ан: NMN_ ;
 
-LEXICON Noun1-IS_PTC-YSJ !!≈ * __@CODE@__
+LEXICON Noun1-IS_PTC-YSJ !!≈ * **@CODE@**
 +V+Der+Der/ысь: NMN_ ;
 
 LEXICON N-DOR ! мӧдладор The Russian is an adverbial phrase
@@ -51,7 +51,7 @@ LEXICON Noun1-SYT-STY !
 !2018-10-21!+Der+Der/ал@C.CONJ-INF@@C.CONJ-POSS@:%>%{ая%}л@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !! таксисталӧ 
 !! Basic nouns.
 
-!! The lexicon for basic nouns is {{ N_ }}
+!! The lexicon for basic nouns is ` N_ `
 
 
 LEXICON N-RELAT_
@@ -226,7 +226,7 @@ LEXICON FIRST
 
 
 ! =================== !
-!! !!Inflectional lexica
+!! ## Inflectional lexica
 ! =================== !
 
 
@@ -238,7 +238,7 @@ LEXICON FIRST
 ! Case + Poss or Poss+Case
 
 
-LEXICON CASEPOSSLEX !!≈ * __@CODE@__
+LEXICON CASEPOSSLEX !!≈ * **@CODE@**
  DERIVEDADJ ;    ! Deriving prenominal adjectives, республикаса
 CASEPOSSLEX-afterDerivation ;
 
@@ -572,7 +572,7 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_Ӧ
 +Use/NG+Err/Dial+Ter+PxPl3+So/CP:%>эдзныс K ;
 
 
-!! !!Case
+!! ## Case
 
 !LEXICON Noun1-IS_INE
 !+Ine: SPAT-COMPARATIVE ;
