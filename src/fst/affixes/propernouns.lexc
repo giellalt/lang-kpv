@@ -254,12 +254,12 @@ LEXICON PROP-MAL-DERIVABLE !Patronyms
 
 LEXICON PROP-PLC ! Inanimate proper nouns. Place names
 @U.Cap.Obl@+Sg:@U.Cap.Obl@ CASEPOSSLEX-afterDerivation ;
-@U.Cap.Opt@+Sg:@U.Cap.Opt@ DENOMINAL-LOCATIVE-ADJECTIVES ; !!= * __@CODE@__ This requires down-casing
+@U.Cap.Opt@+Sg:@U.Cap.Opt@ DENOMINAL-LOCATIVE-ADJECTIVES ; !!= * **@CODE@** This requires down-casing
 
 
 LEXICON PROP-PLC-KPV ! Inanimate proper nouns. Place names
 @U.Cap.Obl@+Sem/Plc+EOLang/KPV+Sg:@U.Cap.Obl@ CASEPOSSLEX-afterDerivation ;
-@U.Cap.Opt@+Sem/Plc+EOLang/KPV+Sg:@U.Cap.Opt@ DENOMINAL-LOCATIVE-ADJECTIVES ; !!= * __@CODE@__ This requires down-casing
+@U.Cap.Opt@+Sem/Plc+EOLang/KPV+Sg:@U.Cap.Opt@ DENOMINAL-LOCATIVE-ADJECTIVES ; !!= * **@CODE@** This requires down-casing
 
 !2018-10-21!LEXICON PROP-PLC-RUS ! Inanimate proper nouns. Place names
 !2018-10-21!+Sem/Plc+Src/F: PROP_ ;

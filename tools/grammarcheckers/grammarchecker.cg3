@@ -14,7 +14,7 @@
 # giellatekno@hum.uit.no or divvun@hum.uit.no
 
 # ==================================================================== #
-#!! !!!       K O M I   G R A M M A R   C H E C K E R
+#!!       K O M I   G R A M M A R   C H E C K E R
 # ==================================================================== #
 # ====================================================================
 
@@ -61,13 +61,13 @@
       # Grammar checking rules
 
 # =============== #
-#!! !!!DELIMITERS
+#!! # DELIMITERS
 # =============== #
 
 DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" sent ;
 
 # ================== #
-#!! !!!TAGS AND SETS
+#!! # TAGS AND SETS
 # ================== #
 
 
@@ -76,16 +76,16 @@ SETS
 # I define end of clause and beginning of clause in a way so that the file
 # may be read both by the CG-2 and the vislcg formalisms.
 
-#!! !Beginning and end of sentence	
+#!! ### Beginning and end of sentence	
 LIST BOS = (>>>) (<s>);  #!! BOS
 LIST EOS = (<<<) (</s>); #!! EOS
 
-#!! !Miscellanous
+#!! ### Miscellanous
 
 LIST CmpTest = CmpTest ; #!! CmpTest
 LIST Err = Err ;  #!! Err
 
-#!! !Parts of speech tags
+#!! ### Parts of speech tags
 LIST N = N ; #!! N
 LIST V = V ; #!! V
 LIST A = A ; #!! A
@@ -103,7 +103,7 @@ LIST Qnt = Qnt ; #!! Qnt
 LIST Prop = Prop ; #!! Prop
 LIST WORD = N V A Adv CC CS Interj Pron Num Pcle Clt Po ;
 
-#!! !Derivation tags
+#!! ### Derivation tags
 LIST Ex/A = Ex/A ; #!! Ex/A (former adj)
 LIST Ex/N = Ex/N ; #!! Ex/N
 LIST Ex/Num = Ex/Num ; #!! Ex/Num
@@ -112,7 +112,7 @@ LIST Ex/WORD = Ex/N Ex/V Ex/A Ex/Num ; #!! Ex/WORD
 LIST DerTag = Der/MWN Der/И Der/а Der/ал Der/ась Der/выв Der/джык Der/дор Der/иг Der/кежлӧ Der/кодь Der/коста Der/кості Der/л Der/ла Der/ладор Der/лун Der/лы Der/лывлы Der/мед Der/моз Der/мысь Der/мысьт Der/мӧн Der/мӧнъя Der/овт Der/сор Der/сь Der/сьы Der/сюрӧ Der/тыр Der/тырйи Der/тыръя Der/тӧдз Der/тӧм Der/чы Der/чӧж Der/ывлы Der/ысь Der/ышт Der/ӧм ; #!! DerTag
 
 
-#!! !Verbal categories
+#!! ### Verbal categories
 LIST Prs = Prs ; #!! Prs
 LIST Fut = Fut ; #!! Fut
 LIST Fut1 = Fut1 ; #!! Fut1
@@ -235,7 +235,7 @@ LIST PastPtc = PastPtc ;
 LIST Noun1 = Noun1 ;
 LIST ActPrsPtc = ActPrsPtc ;
 
-#!! !Verb sets
+#!! ### Verb sets
 LIST VNEG = "ог" "он" "оз" "огӧ" "огӧй" "онӧ" "онӧй" "эг" "эн" "эз" "эгӧ" "эгӧй" "энӧ" "энӧй" ; #!! VNEG (all Neg verbs)
 
 SET VFIN = Ind | Cond | Opt ; #!! VFIN
@@ -256,7 +256,7 @@ SET COMMON-N = N - Prop;
 
 
 
-#!! !Grammarchecker sets
+#!! ### Grammarchecker sets
 
 LIST &err-agr = &err-agr ;
 LIST &err-gen-po = &err-gen-po ;

@@ -12,7 +12,7 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@uit.no or feedback@divvun.no
 
-!! !!!Tags and root lexicon for Komi
+!! # Tags and root lexicon for Komi
 
 !! Morphology
 
@@ -38,7 +38,7 @@ Multichar_Symbols
 +Sem/Patr-Маl
 +Sem/Dummy ! change to +Sem/Dummytag
 
-!! !!Analysis symbols
+!! ## Analysis symbols
 +WORK
 !  ----------------
 !! The morphological analyses of wordforms for the Komi-Zyrian
@@ -46,35 +46,35 @@ Multichar_Symbols
 !! (It is highly suggeste	d to follow existing standards when adding new tags).
 
 !! The parts-of-speech tags are:
- +A      !!≈ ;@CODE@: adjective  кывберд	прилагательное
- +Adp 	 !!≈ ;@CODE@: adposition (prepositio, postposition) 	 
- +Adv    !!≈ ;@CODE@: adverb	 урчитан	      	наречие
- +CS     !!≈ ;@CODE@: subordinating conjunction		XX	подчинительный союз
- +CC     !!≈ ;@CODE@: coordinating conjunction		XX	сочинительный союз
- +CC   !!≈ ;@CODE@: conjunction word			XX	союзное слово (здесь надо узнать который из 2 выш.)
- +Det    !!≈ ;@CODE@: determiner  XX   XX
- +Interj !!≈ ;@CODE@: interjection	междометтьӧ	междометие
- +N      !!≈ ;@CODE@: noun		эмакыв	 - существительное
- +Num	 !!≈ ;@CODE@: numeral		лыдакыв	числительное
- +Pcle   !!≈ ;@CODE@: particle		кывтор	частица
- +Po     !!≈ ;@CODE@: postposition	кывбӧр	послелог
- +Pr     !!≈ ;@CODE@: preposition	XX	предлог
- +Pron   !!≈ ;@CODE@: pronoun	нимвежтас	местоимение
- +Qnt    !!≈ ;@CODE@: Quantifier	ХХ	XX
- +V      !!≈ ;@CODE@: verb		кадакыв	глагол
+ +A      !!≈ * **@CODE@**:  adjective  кывберд	прилагательное
+ +Adp 	 !!≈ * **@CODE@**:  adposition (prepositio, postposition) 	 
+ +Adv    !!≈ * **@CODE@**:  adverb	 урчитан	      	наречие
+ +CS     !!≈ * **@CODE@**:  subordinating conjunction		XX	подчинительный союз
+ +CC     !!≈ * **@CODE@**:  coordinating conjunction		XX	сочинительный союз
+ +CC   !!≈ * **@CODE@**:  conjunction word			XX	союзное слово (здесь надо узнать который из 2 выш.)
+ +Det    !!≈ * **@CODE@**:  determiner  XX   XX
+ +Interj !!≈ * **@CODE@**:  interjection	междометтьӧ	междометие
+ +N      !!≈ * **@CODE@**:  noun		эмакыв	 - существительное
+ +Num	 !!≈ * **@CODE@**:  numeral		лыдакыв	числительное
+ +Pcle   !!≈ * **@CODE@**:  particle		кывтор	частица
+ +Po     !!≈ * **@CODE@**:  postposition	кывбӧр	послелог
+ +Pr     !!≈ * **@CODE@**:  preposition	XX	предлог
+ +Pron   !!≈ * **@CODE@**:  pronoun	нимвежтас	местоимение
+ +Qnt    !!≈ * **@CODE@**:  Quantifier	ХХ	XX
+ +V      !!≈ * **@CODE@**:  verb		кадакыв	глагол
  
 !! The parts of speech are further split up into:
 !! Adjectives
 
 !! Adverbs
- +Ideoph  !!≈ * __@CODE@__ These are ideophonic descriptors used to modify the verb
-              !!               вырк ливтясь "__flit__ and it flew off"
- +Deg         !!≈ * __@CODE@__ Degree depricate AdA
- +Manner      !!≈ * __@CODE@__ with reference to type of adverb
+ +Ideoph  !!≈ * **@CODE@** These are ideophonic descriptors used to modify the verb
+              !!               вырк ливтясь "**flit** and it flew off"
+ +Deg         !!≈ * **@CODE@** Degree depricate AdA
+ +Manner      !!≈ * **@CODE@** with reference to type of adverb
  +Mult       !! multiplicative, i.e. iterations
- +Spat        !!≈ * __@CODE@__ spatial
- +Temp        !!≈ * __@CODE@__ temporal
- +Parenthetic !!≈ * __@CODE@__ parenthetical phrase
+ +Spat        !!≈ * **@CODE@** spatial
+ +Temp        !!≈ * **@CODE@** temporal
+ +Parenthetic !!≈ * **@CODE@** parenthetical phrase
  +Presentational
  
 !! Interjections
@@ -82,48 +82,48 @@ Multichar_Symbols
  +Conative  !!≈ @CODE@ Used for calling animals, for example
 
 !! Nouns
- +Prop  !!≈ * __@CODE@__ proper
- +CollN !!≈ * __@CODE@__ used with paired nouns __collective nouns__
- +Relat !!≈ * __@CODE@__ relational noun: выв, ув
+ +Prop  !!≈ * **@CODE@** proper
+ +CollN !!≈ * **@CODE@** used with paired nouns **collective nouns**
+ +Relat !!≈ * **@CODE@** relational noun: выв, ув
 
 !! Postpositions
 ! _+ Spat_, _+ Temp_
 
-!! !!Pronouns
- +Dem    !!≈ ;@CODE@: demonstrative
- +Indef  !!≈ ;@CODE@: indefinite
- +Interr !!≈ ;@CODE@: interrogative
- +Pers   !!≈ ;@CODE@: personal
- +Recipr !!≈ ;@CODE@: reciprocal
- +Refl   !!≈ ;@CODE@: reflexive
- +Rel    !!≈ ;@CODE@: relative
- +Poss	 !!≈ ;@CODE@: possessive
+!! ## Pronouns
+ +Dem    !!≈ * **@CODE@**:  demonstrative
+ +Indef  !!≈ * **@CODE@**:  indefinite
+ +Interr !!≈ * **@CODE@**:  interrogative
+ +Pers   !!≈ * **@CODE@**:  personal
+ +Recipr !!≈ * **@CODE@**:  reciprocal
+ +Refl   !!≈ * **@CODE@**:  reflexive
+ +Rel    !!≈ * **@CODE@**:  relative
+ +Poss	 !!≈ * **@CODE@**:  possessive
 
-!! !!Quantifiers (numerals)
+!! ## Quantifiers (numerals)
 !! Quantifiers and Numerals are classified under:
- +Num       !!≈ ;@CODE@: numeral лыдакыв
- +Appr      !!≈ ;@CODE@: Approximative numeral кавто-колмо, колмошка ''two or three''
+ +Num       !!≈ * **@CODE@**:  numeral лыдакыв
+ +Appr      !!≈ * **@CODE@**:  Approximative numeral кавто-колмо, колмошка *two or three*
             !!           NB! do not confuse with Komi case +Apr
- +AssocColl !!≈ ;@CODE@: -ne- ; avide-
- +Assoc     !!≈ ;@CODE@: +мезть
- +Card      !!≈ ;@CODE@: cardinal + NCard
- +ZeroColl      !!≈ ;@CODE@: Zero collective кодныс
- +Coll      !!≈ ;@CODE@: collective
- +Distr     !!≈ ;@CODE@: Distributive
- +Iter      !!≈ ;@CODE@: Iterative form expressing number of consecutive times; kpv: {{кыкысь}}
- +Mult      !!≈ ;@CODE@: Multiplicative adverbs number of times; kpv: {{кык пӧв}}
- +Ord       !!≈ ;@CODE@: ordinal + NOrd
- +Coord	    !!≈ ;@CODE@: Coordinates, i.e. 65˚36′8,30″ in numerals.lexc
- +Cop	    !!≈ ;@CODE@: this is for copula complement predicate position with pl in -ӧсь depricated Pred
+ +AssocColl !!≈ * **@CODE@**:  -ne- ; avide-
+ +Assoc     !!≈ * **@CODE@**:  +мезть
+ +Card      !!≈ * **@CODE@**:  cardinal + NCard
+ +ZeroColl      !!≈ * **@CODE@**:  Zero collective кодныс
+ +Coll      !!≈ * **@CODE@**:  collective
+ +Distr     !!≈ * **@CODE@**:  Distributive
+ +Iter      !!≈ * **@CODE@: Iterative form expressing number of consecutive times; kpv**:  `кыкысь`
+ +Mult      !!≈ * **@CODE@: Multiplicative adverbs number of times; kpv**:  `кык пӧв`
+ +Ord       !!≈ * **@CODE@**:  ordinal + NOrd
+ +Coord	    !!≈ * **@CODE@**:  Coordinates, i.e. 65˚36′8,30″ in numerals.lexc
+ +Cop	    !!≈ * **@CODE@**:  this is for copula complement predicate position with pl in -ӧсь depricated Pred
 
-!! !!Nominals are inflected for Number and Case
+!! ## Nominals are inflected for Number and Case
 
-!! !!Number
- +Sg !!≈ * __@CODE@__  singular
- +Pl !!≈ * __@CODE@__  plural
+!! ## Number
+ +Sg !!≈ * **@CODE@**  singular
+ +Pl !!≈ * **@CODE@**  plural
 
 
-!! !!Case
+!! ## Case
 
 !! A category of case in Komi can be identified as:
 ! (1) regular noun morphology
@@ -132,36 +132,36 @@ Multichar_Symbols
 ! (3) regular noun morphology includes the category of number
 ! (4) Cases are used for (clause) argument and adjunct marking
 
- +Acc    !!≈ *  __@CODE@__ accusative ZERO керан
- +Acc1   !!≈ *  __@CODE@__ accusative -ӧс керан
- +Acc3   !!≈ *  __@CODE@__ accusative -сӧ керан
- +Abl    !!≈ *  __@CODE@__ ablative case -лысь босьтан
- +Apr    !!≈ *  __@CODE@__ approximative -лань матыстчан
- +AprEgr !!≈ ** __@CODE@__ approximative egressive -ланьсянь матысь ылыстчан
- +AprEla !!≈ ** __@CODE@__ approximative elative -ланьысь матысь петан
- +AprIll !!≈ ** __@CODE@__ approximative illative -ланьӧ матӧ матыстчан
- +AprIne !!≈ ** __@CODE@__ approximative inessive -ланьын матыс ина
- +AprPrl !!≈ ** __@CODE@__ approximative prolative -ланьӧд маті вуджан
- +AprTer !!≈ ** __@CODE@__ approximative terminative -ланьӧдз матіӧдз воан
- +AprTra !!≈ ** __@CODE@__ approximative translative -ланьті маті вуджан
- +Car    !!≈ *  __@CODE@__ caritive -тӧг торйӧдан
- +Cns    !!≈ *  __@CODE@__ consecultative -ла могман
- +Com    !!≈ *  __@CODE@__ Comitative -кӧд ӧтвывтан
- +Cmpr   !!≈ *  __@CODE@__ Comparative case form -ся ӧткодялан
- +Cmpl   !!≈ *  __@CODE@__  Postposition complement
- +Dat    !!≈ *  __@CODE@__ dative case -лы сетан
- +Egr    !!≈ *  __@CODE@__ egressive -сянь ылыстчан
- +Ela    !!≈ *  __@CODE@__ elative -ысь петан
- +Gen    !!≈ *  __@CODE@__ genitive case -лӧн асалан
- +Ill    !!≈ *  __@CODE@__ illative -ӧ пыран
- +Ine    !!≈ *  __@CODE@__ inessive -ын ина
- +Ins    !!≈ *  __@CODE@__ instrumental -ӧн керанторъя
- +Nom    !!≈ *  __@CODE@__ nominative case нимтан
- +Prl    !!≈ *  __@CODE@__ prolative -ӧд вуджан
- +Tra    !!≈ *  __@CODE@__ translative -ті вуджан
- +Ter    !!≈ *  __@CODE@__ Terminative -ӧдз матыстчан
- +Voc    !!≈ *  __@CODE@__ Vocative ??
- +Abs    !!≈ *  __@CODE@__ Absolute = +Sg+Nom
+ +Acc    !!≈ *  **@CODE@** accusative ZERO керан
+ +Acc1   !!≈ *  **@CODE@** accusative -ӧс керан
+ +Acc3   !!≈ *  **@CODE@** accusative -сӧ керан
+ +Abl    !!≈ *  **@CODE@** ablative case -лысь босьтан
+ +Apr    !!≈ *  **@CODE@** approximative -лань матыстчан
+ +AprEgr !!≈     - **@CODE@** approximative egressive -ланьсянь матысь ылыстчан
+ +AprEla !!≈     - **@CODE@** approximative elative -ланьысь матысь петан
+ +AprIll !!≈     - **@CODE@** approximative illative -ланьӧ матӧ матыстчан
+ +AprIne !!≈     - **@CODE@** approximative inessive -ланьын матыс ина
+ +AprPrl !!≈     - **@CODE@** approximative prolative -ланьӧд маті вуджан
+ +AprTer !!≈     - **@CODE@** approximative terminative -ланьӧдз матіӧдз воан
+ +AprTra !!≈     - **@CODE@** approximative translative -ланьті маті вуджан
+ +Car    !!≈ *  **@CODE@** caritive -тӧг торйӧдан
+ +Cns    !!≈ *  **@CODE@** consecultative -ла могман
+ +Com    !!≈ *  **@CODE@** Comitative -кӧд ӧтвывтан
+ +Cmpr   !!≈ *  **@CODE@** Comparative case form -ся ӧткодялан
+ +Cmpl   !!≈ *  **@CODE@**  Postposition complement
+ +Dat    !!≈ *  **@CODE@** dative case -лы сетан
+ +Egr    !!≈ *  **@CODE@** egressive -сянь ылыстчан
+ +Ela    !!≈ *  **@CODE@** elative -ысь петан
+ +Gen    !!≈ *  **@CODE@** genitive case -лӧн асалан
+ +Ill    !!≈ *  **@CODE@** illative -ӧ пыран
+ +Ine    !!≈ *  **@CODE@** inessive -ын ина
+ +Ins    !!≈ *  **@CODE@** instrumental -ӧн керанторъя
+ +Nom    !!≈ *  **@CODE@** nominative case нимтан
+ +Prl    !!≈ *  **@CODE@** prolative -ӧд вуджан
+ +Tra    !!≈ *  **@CODE@** translative -ті вуджан
+ +Ter    !!≈ *  **@CODE@** Terminative -ӧдз матыстчан
+ +Voc    !!≈ *  **@CODE@** Vocative ??
+ +Abs    !!≈ *  **@CODE@** Absolute = +Sg+Nom
 
 ! Compounding regular derivation case
 ! +Der/Apr+Ine, +Der/Apr+Ela
@@ -173,23 +173,23 @@ Multichar_Symbols
 
 
 !! The possession is marked as such:
- +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3 !!≈ * __@CODE@__ 
+ +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3 !!≈ * **@CODE@** 
 !! ODD
- +Px1 +Px2 +Px3 !!≈ * __@CODE@__
+ +Px1 +Px2 +Px3 !!≈ * **@CODE@**
 
 !! The possession and case markers may have switched ordering
-+So/CP  !!≈ * __@CODE@__ segment ordering: case, person
-+So/PC  !!≈ * __@CODE@__ segment ordering: person, case
++So/CP  !!≈ * **@CODE@** segment ordering: case, person
++So/PC  !!≈ * **@CODE@** segment ordering: person, case
 
 !! The comparative forms are:
- +Comp !!≈ * __@CODE@__ джык
- +Superl !!≈ * __@CODE@__ 
+ +Comp !!≈ * **@CODE@** джык
+ +Superl !!≈ * **@CODE@** 
 !! Numerals are classified under:
- +Attr +Card !!≈ * __@CODE@__ 
- +Ord  !!≈ * __@CODE@__ 
- +Coll  !!≈ * __@CODE@__ Collective
- +Distr !!≈ * __@CODE@__  Distributive
- +Iter !!≈ * __@CODE@__  Iterative form expressing number of times
+ +Attr +Card !!≈ * **@CODE@** 
+ +Ord  !!≈ * **@CODE@** 
+ +Coll  !!≈ * **@CODE@** Collective
+ +Distr !!≈ * **@CODE@**  Distributive
+ +Iter !!≈ * **@CODE@**  Iterative form expressing number of times
  +Tot
  +Arab +Rom 
 
@@ -206,9 +206,9 @@ Multichar_Symbols
 
 +ConNeg +Neg
 ! +ConNegII +ImprtII +PrsPrc +PrfPrc +Sup +VGen 
-+VAbess !!≈ * __@CODE@__ тӧм Participle
-+VCar !!≈ * __@CODE@__ тӧг Gerund
-+VTer !!≈ * __@CODE@__ тӧдз Gerund
++VAbess !!≈ * **@CODE@** тӧм Participle
++VCar !!≈ * **@CODE@** тӧг Gerund
++VTer !!≈ * **@CODE@** тӧдз Gerund
 
 +Final ! мог, мон, моз 'so that I won't'
 
@@ -218,30 +218,30 @@ Multichar_Symbols
 !! Special symbols are classified with:
 +CLB +PUNCT +LEFT +RIGHT
 !! The verbs are syntactically split according to transitivity:
- +TV !!≈ * __@CODE@__ 
- +IV !!≈ * __@CODE@__
+ +TV !!≈ * **@CODE@** 
+ +IV !!≈ * **@CODE@**
  
 !! Special multiword units are analysed with:
- +Multi !!≈ * __@CODE@__ 
+ +Multi !!≈ * **@CODE@** 
 !! Non-dictionary words can be recognised with:
- +Guess !!≈ * __@CODE@__ 
+ +Guess !!≈ * **@CODE@** 
 
 !! Question and Focus particles:
- +Qst  !!≈ * __@CODE@__
- +Foc  !!≈ * __@CODE@__ 
-+Clt/И  !!≈ * __@CODE@__  This comes at the end of a word -и or after vowels (some authors use -й)
-+Clt  !!≈ * __@CODE@__ 
-+Qst/A  !!≈ * __@CODE@__ 
-+Qst/Oe  !!≈ * __@CODE@__ 
-+Clt/тӧ  !!≈ * __@CODE@__ 
-+Clt/сӧ  !!≈ * __@CODE@__
-+Clt/Kodj  !!≈ * __@CODE@__ adjectival phrase
-+Clt/Moz  !!≈ * __@CODE@__ adverbial clause
+ +Qst  !!≈ * **@CODE@**
+ +Foc  !!≈ * **@CODE@** 
++Clt/И  !!≈ * **@CODE@**  This comes at the end of a word -и or after vowels (some authors use -й)
++Clt  !!≈ * **@CODE@** 
++Qst/A  !!≈ * **@CODE@** 
++Qst/Oe  !!≈ * **@CODE@** 
++Clt/тӧ  !!≈ * **@CODE@** 
++Clt/сӧ  !!≈ * **@CODE@**
++Clt/Kodj  !!≈ * **@CODE@** adjectival phrase
++Clt/Moz  !!≈ * **@CODE@** adverbial clause
 
 !!! !Tags usually not visible outside the code:
 
 
-!! !Tags distinguishing different versions of the same lemma (before POS)
+!! ### Tags distinguishing different versions of the same lemma (before POS)
 +v1   !!≈ * @CODE@
 +v2   !!≈ * @CODE@
 +v3   !!≈ * @CODE@
@@ -268,20 +268,20 @@ Multichar_Symbols
 +v24  !!≈ * @CODE@
 
 !! The Usage extents are marked using following tags:
- +Err/Orth !!≈ * __@CODE@__ 
- +Err/Orth-colloq !!≈ * __@CODE@__ colloquial form for patronymic
- +Err/Orth-no-paragogic-j !!≈ * __@CODE@__ 
- +Err/Orth-no-paragogic-k !!≈ * __@CODE@__ 
- +Err/Orth-no-paragogic-m !!≈ * __@CODE@__ 
- +Err/Orth-no-paragogic-t !!≈ * __@CODE@__ 
- +Err/Dial !!≈ * __@CODE@__ e.g. тэг instead of тӧг
- +Err/Lex  !!≈ * __@CODE@__ substandard, not in normative fst, no normative lemma помсьыны
- +Use/-Spell !!≈ * __@CODE@__ 
- +Use/SpellNoSugg !!≈ * __@CODE@__ 
+ +Err/Orth !!≈ * **@CODE@** 
+ +Err/Orth-colloq !!≈ * **@CODE@** colloquial form for patronymic
+ +Err/Orth-no-paragogic-j !!≈ * **@CODE@** 
+ +Err/Orth-no-paragogic-k !!≈ * **@CODE@** 
+ +Err/Orth-no-paragogic-m !!≈ * **@CODE@** 
+ +Err/Orth-no-paragogic-t !!≈ * **@CODE@** 
+ +Err/Dial !!≈ * **@CODE@** e.g. тэг instead of тӧг
+ +Err/Lex  !!≈ * **@CODE@** substandard, not in normative fst, no normative lemma помсьыны
+ +Use/-Spell !!≈ * **@CODE@** 
+ +Use/SpellNoSugg !!≈ * **@CODE@** 
 
- +Use/PMatch       !!≈ * __@CODE@__ means that the following is only used in the analyser feeding the disambiguator
- +Use/-PMatch      !!≈ * __@CODE@__ Do not include in fst's made for hfst-pmatch
- +Use/NG	   !!≈ * __@CODE@__ This is used for minimizing excess generation in apertium kpv-koi
+ +Use/PMatch       !!≈ * **@CODE@** means that the following is only used in the analyser feeding the disambiguator
+ +Use/-PMatch      !!≈ * **@CODE@** Do not include in fst's made for hfst-pmatch
+ +Use/NG	   !!≈ * **@CODE@** This is used for minimizing excess generation in apertium kpv-koi
 
 !! Dialect features
 +Dial/л
@@ -289,117 +289,117 @@ Multichar_Symbols
 
 
 !! Where do these come from source
-+Src/F         !!≈ * __@CODE@__ foreign source apparently 2015-09-08
-+Dim         !!≈ * __@CODE@__ diminutive for verbs -ышт- (there might be a better term)
-+Dimin         !!≈ * __@CODE@__ diminutive for nouns -тор-
++Src/F         !!≈ * **@CODE@** foreign source apparently 2015-09-08
++Dim         !!≈ * **@CODE@** diminutive for verbs -ышт- (there might be a better term)
++Dimin         !!≈ * **@CODE@** diminutive for nouns -тор-
 
- +NonHum  !!≈ * __@CODE@__ look at this and place somewhere
+ +NonHum  !!≈ * **@CODE@** look at this and place somewhere
 
 ! Semantic tags to help disambiguation & synt. analysis: (before POS)
 ! Borrowed from main/langs/sme/src/morphology/root.lexc
 
- +Sem/Act         !!≈ * __@CODE@__ Activity
- +Sem/Amount      !!≈ * __@CODE@__ Amount
- +Sem/Ani         !!≈ * __@CODE@__ Animate
- +Sem/Aniprod     !!≈ * __@CODE@__ Animal Product
- +Sem/Body        !!≈ * __@CODE@__ Bodypart
- +Sem/Body-abstr  !!≈ * __@CODE@__ siellu, vuoig?a, jierbmi
- +Sem/Build       !!≈ * __@CODE@__ Building
- +Sem/Build-part  !!≈ * __@CODE@__ Part of Bulding, like the closet
- +Sem/Cat         !!≈ * __@CODE@__ Category
- +Sem/Clth        !!≈ * __@CODE@__ Clothes
- +Sem/Clth-jewl   !!≈ * __@CODE@__ Jewelery
- +Sem/Clth-part   !!≈ * __@CODE@__ part of clothes, boallu, sávdnji...
- +Sem/Ctain       !!≈ * __@CODE@__ Container
- +Sem/Ctain-abstr !!≈ * __@CODE@__ Abstract container like bank account
- +Sem/Ctain-clth  !!≈ * __@CODE@__
- +Sem/Curr        !!≈ * __@CODE@__ Currency like dollár, Not Money
- +Sem/Dance       !!≈ * __@CODE@__ Dance
- +Sem/Dir         !!≈ * __@CODE@__ Direction like GPS-kursa
- +Sem/Domain      !!≈ * __@CODE@__ Domain like politics, reindeerherding (a system of actions)
- +Sem/Drink       !!≈ * __@CODE@__ Drink
- +Sem/Dummytag    !!≈ * __@CODE@__ Dummytag
- +Sem/Edu         !!≈ * __@CODE@__ Educational event
- +Sem/Event       !!≈ * __@CODE@__ Event
- +Sem/Feat        !!≈ * __@CODE@__ Feature, like Árvu
- +Sem/Feat-phys   !!≈ * __@CODE@__ Physiological feature, ivdni, fárda
- +Sem/Feat-psych  !!≈ * __@CODE@__ Psychological feauture
- +Sem/Feat-measr  !!≈ * __@CODE@__ Psychological feauture
- +Sem/Fem         !!≈ * __@CODE@__ Female name
- +Sem/Food        !!≈ * __@CODE@__ Food
- +Sem/Food-med    !!≈ * __@CODE@__ Medicine
- +Sem/Furn        !!≈ * __@CODE@__ Furniture
- +Sem/Game        !!≈ * __@CODE@__ Game
- +Sem/Geom        !!≈ * __@CODE@__ Geometrical object
- +Sem/Group       !!≈ * __@CODE@__ Animal or Human Group
- +Sem/Hum         !!≈ * __@CODE@__ Human
- +Sem/Hum-abstr   !!≈ * __@CODE@__ Human abstract
- +Sem/Ideol       !!≈ * __@CODE@__ Ideology
- +Sem/Lang        !!≈ * __@CODE@__ Language
- +Sem/Mal         !!≈ * __@CODE@__ Male name
- +Sem/Mat         !!≈ * __@CODE@__ Material for producing things
- +Sem/Measr       !!≈ * __@CODE@__ Measure
- +Sem/Money       !!≈ * __@CODE@__ Has to do with money, like wages, not Curr(ency)
- +Sem/Obj         !!≈ * __@CODE@__ Object
- +Sem/Obj-clo         !!≈ * __@CODE@__ Cloth
- +Sem/Obj-cogn        !!≈ * __@CODE@__ Cloth
- +Sem/Obj-el          !!≈ * __@CODE@__ (Electrical) machine or apparatus
- +Sem/Obj-ling        !!≈ * __@CODE@__ Object with something written on it
- +Sem/Obj-rope        !!≈ * __@CODE@__ flexible ropelike object
- +Sem/Obj-surfc       !!≈ * __@CODE@__ Surface object
- +Sem/Org         !!≈ * __@CODE@__ Organisation
- +Sem/Part        !!≈ * __@CODE@__ Feature, oassi, bealli
- +Sem/Perc-cogn       !!≈ * __@CODE@__ Cognative perception
- +Sem/Perc-emo        !!≈ * __@CODE@__ Emotional perception
- +Sem/Perc-phys       !!≈ * __@CODE@__ Physical perception
- +Sem/Perc-psych      !!≈ * __@CODE@__ Physical perception
- +Sem/Plant       !!≈ * __@CODE@__ Plant
- +Sem/Plant-part      !!≈ * __@CODE@__ Plant part
- +Sem/Plc         !!≈ * __@CODE@__ Place
- +Sem/Plc-abstr       !!≈ * __@CODE@__ Abstract place
- +Sem/Plc-elevate     !!≈ * __@CODE@__ Place
- +Sem/Plc-line        !!≈ * __@CODE@__ Place
- +Sem/Plc-water       !!≈ * __@CODE@__ Place
- +Sem/Pos         !!≈ * __@CODE@__ Position (as in social position job)
- +Sem/Process     !!≈ * __@CODE@__ Process
- +Sem/Prod        !!≈ * __@CODE@__ Product
- +Sem/Prod-audio      !!≈ * __@CODE@__ Audio product
- +Sem/Prod-cogn       !!≈ * __@CODE@__ Cognition product
- +Sem/Prod-ling       !!≈ * __@CODE@__ Linguistic product
- +Sem/Prod-vis        !!≈ * __@CODE@__ Visual product
- +Sem/Rel         !!≈ * __@CODE@__ Relation
- +Sem/Route       !!≈ * __@CODE@__ Name of a Route
- +Sem/Rule        !!≈ * __@CODE@__ Rule or convention
- +Sem/Semcon      !!≈ * __@CODE@__ Semantic concept
- +Sem/Sign        !!≈ * __@CODE@__ Sign (e.g. numbers, punctuation)
- +Sem/Sport       !!≈ * __@CODE@__ Sport
- +Sem/State       !!≈ * __@CODE@__
- +Sem/State-sick      !!≈ * __@CODE@__ Illness
- +Sem/Substnc     !!≈ * __@CODE@__ Substance, like Air and Water
- +Sem/Sur         !!≈ * __@CODE@__ Surname
- +Sem/Symbol      !!≈ * __@CODE@__ Symbol
- +Sem/Time        !!≈ * __@CODE@__ Time
- +Sem/Tool        !!≈ * __@CODE@__ Prototypical tool for repairing things
- +Sem/Tool-catch      !!≈ * __@CODE@__ Tool used for catching (e.g. fish)
- +Sem/Tool-clean      !!≈ * __@CODE@__ Tool used for cleaning
- +Sem/Tool-it         !!≈ * __@CODE@__ Tool used in IT
- +Sem/Tool-measr      !!≈ * __@CODE@__ Tool used for measuring
- +Sem/Tool-music      !!≈ * __@CODE@__ Music instrument
- +Sem/Tool-write      !!≈ * __@CODE@__ Writing tool
- +Sem/Txt         !!≈ * __@CODE@__ Text (girji, lávlla...)
- +Sem/Veh         !!≈ * __@CODE@__ Vehicle
- +Sem/Wpn         !!≈ * __@CODE@__ Weapon
- +Sem/Wthr        !!≈ * __@CODE@__ The Weather or the state of ground
- +Sem/Year        !!≈ * __@CODE@__
+ +Sem/Act         !!≈ * **@CODE@** Activity
+ +Sem/Amount      !!≈ * **@CODE@** Amount
+ +Sem/Ani         !!≈ * **@CODE@** Animate
+ +Sem/Aniprod     !!≈ * **@CODE@** Animal Product
+ +Sem/Body        !!≈ * **@CODE@** Bodypart
+ +Sem/Body-abstr  !!≈ * **@CODE@** siellu, vuoig?a, jierbmi
+ +Sem/Build       !!≈ * **@CODE@** Building
+ +Sem/Build-part  !!≈ * **@CODE@** Part of Bulding, like the closet
+ +Sem/Cat         !!≈ * **@CODE@** Category
+ +Sem/Clth        !!≈ * **@CODE@** Clothes
+ +Sem/Clth-jewl   !!≈ * **@CODE@** Jewelery
+ +Sem/Clth-part   !!≈ * **@CODE@** part of clothes, boallu, sávdnji...
+ +Sem/Ctain       !!≈ * **@CODE@** Container
+ +Sem/Ctain-abstr !!≈ * **@CODE@** Abstract container like bank account
+ +Sem/Ctain-clth  !!≈ * **@CODE@**
+ +Sem/Curr        !!≈ * **@CODE@** Currency like dollár, Not Money
+ +Sem/Dance       !!≈ * **@CODE@** Dance
+ +Sem/Dir         !!≈ * **@CODE@** Direction like GPS-kursa
+ +Sem/Domain      !!≈ * **@CODE@** Domain like politics, reindeerherding (a system of actions)
+ +Sem/Drink       !!≈ * **@CODE@** Drink
+ +Sem/Dummytag    !!≈ * **@CODE@** Dummytag
+ +Sem/Edu         !!≈ * **@CODE@** Educational event
+ +Sem/Event       !!≈ * **@CODE@** Event
+ +Sem/Feat        !!≈ * **@CODE@** Feature, like Árvu
+ +Sem/Feat-phys   !!≈ * **@CODE@** Physiological feature, ivdni, fárda
+ +Sem/Feat-psych  !!≈ * **@CODE@** Psychological feauture
+ +Sem/Feat-measr  !!≈ * **@CODE@** Psychological feauture
+ +Sem/Fem         !!≈ * **@CODE@** Female name
+ +Sem/Food        !!≈ * **@CODE@** Food
+ +Sem/Food-med    !!≈ * **@CODE@** Medicine
+ +Sem/Furn        !!≈ * **@CODE@** Furniture
+ +Sem/Game        !!≈ * **@CODE@** Game
+ +Sem/Geom        !!≈ * **@CODE@** Geometrical object
+ +Sem/Group       !!≈ * **@CODE@** Animal or Human Group
+ +Sem/Hum         !!≈ * **@CODE@** Human
+ +Sem/Hum-abstr   !!≈ * **@CODE@** Human abstract
+ +Sem/Ideol       !!≈ * **@CODE@** Ideology
+ +Sem/Lang        !!≈ * **@CODE@** Language
+ +Sem/Mal         !!≈ * **@CODE@** Male name
+ +Sem/Mat         !!≈ * **@CODE@** Material for producing things
+ +Sem/Measr       !!≈ * **@CODE@** Measure
+ +Sem/Money       !!≈ * **@CODE@** Has to do with money, like wages, not Curr(ency)
+ +Sem/Obj         !!≈ * **@CODE@** Object
+ +Sem/Obj-clo         !!≈ * **@CODE@** Cloth
+ +Sem/Obj-cogn        !!≈ * **@CODE@** Cloth
+ +Sem/Obj-el          !!≈ * **@CODE@** (Electrical) machine or apparatus
+ +Sem/Obj-ling        !!≈ * **@CODE@** Object with something written on it
+ +Sem/Obj-rope        !!≈ * **@CODE@** flexible ropelike object
+ +Sem/Obj-surfc       !!≈ * **@CODE@** Surface object
+ +Sem/Org         !!≈ * **@CODE@** Organisation
+ +Sem/Part        !!≈ * **@CODE@** Feature, oassi, bealli
+ +Sem/Perc-cogn       !!≈ * **@CODE@** Cognative perception
+ +Sem/Perc-emo        !!≈ * **@CODE@** Emotional perception
+ +Sem/Perc-phys       !!≈ * **@CODE@** Physical perception
+ +Sem/Perc-psych      !!≈ * **@CODE@** Physical perception
+ +Sem/Plant       !!≈ * **@CODE@** Plant
+ +Sem/Plant-part      !!≈ * **@CODE@** Plant part
+ +Sem/Plc         !!≈ * **@CODE@** Place
+ +Sem/Plc-abstr       !!≈ * **@CODE@** Abstract place
+ +Sem/Plc-elevate     !!≈ * **@CODE@** Place
+ +Sem/Plc-line        !!≈ * **@CODE@** Place
+ +Sem/Plc-water       !!≈ * **@CODE@** Place
+ +Sem/Pos         !!≈ * **@CODE@** Position (as in social position job)
+ +Sem/Process     !!≈ * **@CODE@** Process
+ +Sem/Prod        !!≈ * **@CODE@** Product
+ +Sem/Prod-audio      !!≈ * **@CODE@** Audio product
+ +Sem/Prod-cogn       !!≈ * **@CODE@** Cognition product
+ +Sem/Prod-ling       !!≈ * **@CODE@** Linguistic product
+ +Sem/Prod-vis        !!≈ * **@CODE@** Visual product
+ +Sem/Rel         !!≈ * **@CODE@** Relation
+ +Sem/Route       !!≈ * **@CODE@** Name of a Route
+ +Sem/Rule        !!≈ * **@CODE@** Rule or convention
+ +Sem/Semcon      !!≈ * **@CODE@** Semantic concept
+ +Sem/Sign        !!≈ * **@CODE@** Sign (e.g. numbers, punctuation)
+ +Sem/Sport       !!≈ * **@CODE@** Sport
+ +Sem/State       !!≈ * **@CODE@**
+ +Sem/State-sick      !!≈ * **@CODE@** Illness
+ +Sem/Substnc     !!≈ * **@CODE@** Substance, like Air and Water
+ +Sem/Sur         !!≈ * **@CODE@** Surname
+ +Sem/Symbol      !!≈ * **@CODE@** Symbol
+ +Sem/Time        !!≈ * **@CODE@** Time
+ +Sem/Tool        !!≈ * **@CODE@** Prototypical tool for repairing things
+ +Sem/Tool-catch      !!≈ * **@CODE@** Tool used for catching (e.g. fish)
+ +Sem/Tool-clean      !!≈ * **@CODE@** Tool used for cleaning
+ +Sem/Tool-it         !!≈ * **@CODE@** Tool used in IT
+ +Sem/Tool-measr      !!≈ * **@CODE@** Tool used for measuring
+ +Sem/Tool-music      !!≈ * **@CODE@** Music instrument
+ +Sem/Tool-write      !!≈ * **@CODE@** Writing tool
+ +Sem/Txt         !!≈ * **@CODE@** Text (girji, lávlla...)
+ +Sem/Veh         !!≈ * **@CODE@** Vehicle
+ +Sem/Wpn         !!≈ * **@CODE@** Weapon
+ +Sem/Wthr        !!≈ * **@CODE@** The Weather or the state of ground
+ +Sem/Year        !!≈ * **@CODE@**
 
- +Sem/Sur-Fem         !!≈ * __@CODE@__ Surname female
- +Sem/Sur-Mal         !!≈ * __@CODE@__ Surname male
- +Sem/Ant             !!≈ * __@CODE@__  Anthroponym
- +Sem/Ant-Fem         !!≈ * __@CODE@__  Anthroponym female
- +Sem/Ant-Mal         !!≈ * __@CODE@__  Anthroponym male
- +Sem/Patr            !!≈ * __@CODE@__  Patronym
- +Sem/Patr-Fem        !!≈ * __@CODE@__  Patronym female
- +Sem/Patr-Mal        !!≈ * __@CODE@__  Patronym male
+ +Sem/Sur-Fem         !!≈ * **@CODE@** Surname female
+ +Sem/Sur-Mal         !!≈ * **@CODE@** Surname male
+ +Sem/Ant             !!≈ * **@CODE@**  Anthroponym
+ +Sem/Ant-Fem         !!≈ * **@CODE@**  Anthroponym female
+ +Sem/Ant-Mal         !!≈ * **@CODE@**  Anthroponym male
+ +Sem/Patr            !!≈ * **@CODE@**  Patronym
+ +Sem/Patr-Fem        !!≈ * **@CODE@**  Patronym female
+ +Sem/Patr-Mal        !!≈ * **@CODE@**  Patronym male
 
 
 ! Multiple Semantic tags:
@@ -465,7 +465,7 @@ Multichar_Symbols
 +Sem/Edu_Org
 +Sem/Event_Food
 +Sem/Event_Hum
-+Sem/Event_Plc	        !!≈ * __@CODE@__  сёянін
++Sem/Event_Plc	        !!≈ * **@CODE@**  сёянін
 +Sem/Event_Time
 +Sem/Feat-phys_Tool-write
 +Sem/Feat-phys_Veh
@@ -490,7 +490,7 @@ Multichar_Symbols
 +Sem/Hum_Org
 +Sem/Hum_Plant
 +Sem/Hum_Plc
-+Sem/Hum_Prof		!!≈ * __@CODE@__  profession, capacity doctor, tractor driver 
++Sem/Hum_Prof		!!≈ * **@CODE@**  profession, capacity doctor, tractor driver 
 +Sem/Hum_Tool
 +Sem/Hum_Veh
 +Sem/Hum_Wthr
@@ -541,35 +541,35 @@ Multichar_Symbols
  +Der/xxx
 
 ! tags
-+Der	!!≈ * __@CODE@__  In front of every derivation to make it
++Der	!!≈ * **@CODE@**  In front of every derivation to make it
 	!!  possible to target derivations as a class e.g. in regular expressions etc 
-+Der/Ан  !!≈ * __@CODE@__  Process Participle +AN
-+Der/Ана  !!≈ * __@CODE@__ Process Participle +ANA
-+Der/Анаа  !!≈ * __@CODE@__  adverb derived from participle (+ANA) +ANAA
-+Der/чӧж  !!≈ * __@CODE@__  +CHOZH
++Der/Ан  !!≈ * **@CODE@**  Process Participle +AN
++Der/Ана  !!≈ * **@CODE@** Process Participle +ANA
++Der/Анаа  !!≈ * **@CODE@**  adverb derived from participle (+ANA) +ANAA
++Der/чӧж  !!≈ * **@CODE@**  +CHOZH
 +Der/тӧг
 
-+Der/Patr	!!≈ * __@CODE@__ patronymics in Russian
-+Instr  !!≈ * __@CODE@__ 
-+NomAct  !!≈ * __@CODE@__
-+Der/NomAct  !!≈ * __@CODE@__  +Event
-+Der/NomAg  !!≈ * __@CODE@__ 
-+Duration  !!≈ * __@CODE@__
++Der/Patr	!!≈ * **@CODE@** patronymics in Russian
++Instr  !!≈ * **@CODE@** 
++NomAct  !!≈ * **@CODE@**
++Der/NomAct  !!≈ * **@CODE@**  +Event
++Der/NomAg  !!≈ * **@CODE@** 
++Duration  !!≈ * **@CODE@**
 
 !+IG This will be replaced by the segments:
 !+Der/иг+Duration+Ger!!
-+Der/иг  !!≈ * __@CODE@__
-+Der/Ig  !!≈ * __@CODE@__
-+Der/IgKezhlo  !!≈ * __@CODE@__
-+Der/IgKosta  !!≈ * __@CODE@__
-+Der/IgKosti  !!≈ * __@CODE@__
-+Der/IgMoz  !!≈ * __@CODE@__ %{иі%}гмоз
-+Der/IgonMoz  !!≈ * __@CODE@__ %{иі%}гӧнмоз
-+Der/IgSor  !!≈ * __@CODE@__ %{иі%}гсор
-+Der/IgTyr  !!≈ * __@CODE@__ %{иі%}гтыр
-+Der/IgTyrji  !!≈ * __@CODE@__ %{иі%}гтырйи
-+Der/IgTyrja  !!≈ * __@CODE@__ %{иі%}гтыръя
-+Der/IgChozh  !!≈ * __@CODE@__%{иі%}гчӧж
++Der/иг  !!≈ * **@CODE@**
++Der/Ig  !!≈ * **@CODE@**
++Der/IgKezhlo  !!≈ * **@CODE@**
++Der/IgKosta  !!≈ * **@CODE@**
++Der/IgKosti  !!≈ * **@CODE@**
++Der/IgMoz  !!≈ * **@CODE@** %{иі%}гмоз
++Der/IgonMoz  !!≈ * **@CODE@** %{иі%}гӧнмоз
++Der/IgSor  !!≈ * **@CODE@** %{иі%}гсор
++Der/IgTyr  !!≈ * **@CODE@** %{иі%}гтыр
++Der/IgTyrji  !!≈ * **@CODE@** %{иі%}гтырйи
++Der/IgTyrja  !!≈ * **@CODE@** %{иі%}гтыръя
++Der/IgChozh  !!≈ * **@CODE@**%{иі%}гчӧж
 
 
 !Here we need the two sequential characters
@@ -586,21 +586,21 @@ Multichar_Symbols
 !Then they should have indication of whether they are gerunds or participles!
 !+Der/тӧдз    !!≈ * __@CODE@__  +VTer
 !+TODZ Verbal terminative
-+Der/ысь  !!≈ * __@CODE@__
-+ActPrsPtc  !!≈ * __@CODE@__ 
-+Der/Ан  !!≈ * __@CODE@__ Participle
-+Der/Ана  !!≈ * __@CODE@__ Gerund or participle according to context (with...)
-+PrsPrc  !!≈ * __@CODE@__
-+PrsPtc  !!≈ * __@CODE@__ 
-+Der/ӧм  !!≈ * __@CODE@__
-+PastPtc  !!≈ * __@CODE@__ 
++Der/ысь  !!≈ * **@CODE@**
++ActPrsPtc  !!≈ * **@CODE@** 
++Der/Ан  !!≈ * **@CODE@** Participle
++Der/Ана  !!≈ * **@CODE@** Gerund or participle according to context (with...)
++PrsPrc  !!≈ * **@CODE@**
++PrsPtc  !!≈ * **@CODE@** 
++Der/ӧм  !!≈ * **@CODE@**
++PastPtc  !!≈ * **@CODE@** 
 
-+Der/кості  !!≈ * __@CODE@__  +KOSTI
-+Der/коста  !!≈ * __@CODE@__  +KOSTA
-+Der/кежлӧ  !!≈ * __@CODE@__  +KEZHLO
++Der/кості  !!≈ * **@CODE@**  +KOSTI
++Der/коста  !!≈ * **@CODE@**  +KOSTA
++Der/кежлӧ  !!≈ * **@CODE@**  +KEZHLO
 
-+Der/мысь  !!≈ * __@CODE@__  +MYS
-+Der/мысьт  !!≈ * __@CODE@__  +MYST
++Der/мысь  !!≈ * **@CODE@**  +MYS
++Der/мысьт  !!≈ * **@CODE@**  +MYST
 
 +Der/сор !+SOR
 +Der/тыр !+TYR
@@ -613,10 +613,10 @@ Multichar_Symbols
 
 ! Declaring adjectival derivations
 ! Noun phrase modifiers are generally considered derivational 
- +MAbe    !!≈ *  __@CODE@__ abessive modifier -тӧм 
- +MLoc    !!≈ *  __@CODE@__ locative modifier са -
- +MHab    !!≈ *  __@CODE@__ habeo modifier а -
- +MTmp    !!≈ *  __@CODE@__ temporal modifier ся -
+ +MAbe    !!≈ *  **@CODE@** abessive modifier -тӧм 
+ +MLoc    !!≈ *  **@CODE@** locative modifier са -
+ +MHab    !!≈ *  **@CODE@** habeo modifier а -
+ +MTmp    !!≈ *  **@CODE@** temporal modifier ся -
 
 +Der/LocMod ! +Der/ALoc  Denominal locative adjective Der/са
 +Der/ProprietiveMod ! +Der/APrior  Denominal prioritive adjective Der/а
@@ -638,12 +638,12 @@ Multichar_Symbols
 +Der/дорса
 
 
-+LocMod !!≈ * __@CODE@__ IneMod Быд во шедӧдӧны бур успеваемость Воркута да Инта каръясса, Прилузскӧй да Княжпогостскӧй районъясса школаяс.
-+CompMod !!≈ * __@CODE@__ 
-+Der/тӧм  !!≈ * __@CODE@__  used with nouns and followed by +AbeMod
-+PrivMod !!≈ * __@CODE@__ AbeMod джуджыд анализъястӧм да обобщениеястӧм статьяяс.
-+ProprietiveMod !!≈ * __@CODE@__ HabObjMod Весиг киясыс тӧдсаӧсь, найӧ мугов рӧмаӧсь, кузь чорыд чуньясаӧсь.
- +Der/TempMod !!≈ * __@CODE@__ TempMod Der/ся но и Ф. В. Плесовскийлысь квайтымынӧд вояссяяссӧ * позьӧ аддзыны сӧмын библиотекаясысь.
++LocMod !!≈ * **@CODE@** IneMod Быд во шедӧдӧны бур успеваемость Воркута да Инта каръясса, Прилузскӧй да Княжпогостскӧй районъясса школаяс.
++CompMod !!≈ * **@CODE@** 
++Der/тӧм  !!≈ * **@CODE@**  used with nouns and followed by +AbeMod
++PrivMod !!≈ * **@CODE@** AbeMod джуджыд анализъястӧм да обобщениеястӧм статьяяс.
++ProprietiveMod !!≈ * **@CODE@** HabObjMod Весиг киясыс тӧдсаӧсь, найӧ мугов рӧмаӧсь, кузь чорыд чуньясаӧсь.
+ +Der/TempMod !!≈ * **@CODE@** TempMod Der/ся но и Ф. В. Плесовскийлысь квайтымынӧд вояссяяссӧ * позьӧ аддзыны сӧмын библиотекаясысь.
 ! Declaring spatial adverb derivations; see also spatial postpositions
 +Der/ла
 +Der/ладор
@@ -707,7 +707,7 @@ Multichar_Symbols
 
 !! Sentence markers
 
-+Cop  !!≈ * __@CODE@__ Copula	кадакыв, коді шуӧ: вӧлі либӧ ӧнія кадся	Связка
++Cop  !!≈ * **@CODE@** Copula	кадакыв, коді шуӧ: вӧлі либӧ ӧнія кадся	Связка
 
 
 !! Morphophonology
@@ -716,20 +716,20 @@ Multichar_Symbols
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
 
-{aä}  !!≈ ; @CODE@ : Vowel alternating symbol
-{oö}  !!≈ ; @CODE@ : Vowel alternating symbol 
-{uü}  !!≈ ; @CODE@ : Vowel alternating symbol
+{aä}  !!≈ * **@CODE@**:  Vowel alternating symbol
+{oö}  !!≈ * **@CODE@**:  Vowel alternating symbol 
+{uü}  !!≈ * **@CODE@**:  Vowel alternating symbol
 
-%^к2 %^л2 %^м2 %^т2 %^ь2 %^К2 %^Л2 %^М2 %^Т2 %^Ь2 %^И2  !!≈ * __@CODE@__
+%^к2 %^л2 %^м2 %^т2 %^ь2 %^К2 %^Л2 %^М2 %^Т2 %^Ь2 %^И2  !!≈ * **@CODE@**
 %^V1       !!= * @CODE@ for reduplicated vowel унаӧн > унаан
-%>   !!≈ * __@CODE@__  suffix border
+%>   !!≈ * **@CODE@**  suffix border
 
-%{иі%}	!!≈ ; @CODE@ : for soft and hard
-%{ая%}	!!≈ ; @CODE@ : for soft and hard
+%{иі%}	!!≈ * **@CODE@**:  for soft and hard
+%{ая%}	!!≈ * **@CODE@**:  for soft and hard
 
 !! And following triggers to control variation
- {front} !!≈ ; @CODE@ : Vowel change triggers
- {back}  !!≈ ; @CODE@ : Vowel change triggers
+ {front} !!≈ * **@CODE@**:  Vowel change triggers
+ {back}  !!≈ * **@CODE@**:  Vowel change triggers
  
 %^Close	!!≈ * @CODE@ Close syllable, this triggers final consonant drop, seen in
         !!    word-final position and before consonant
@@ -745,7 +745,7 @@ Multichar_Symbols
 +%<sub_мый%>              !!≈ * @CODE@ subordinate clause in мый/that
 
 
-!! !Symbols that need to be escaped on the lower side (towards twolc):
+!! ### Symbols that need to be escaped on the lower side (towards twolc):
 
  »7     !! * »
  «7     !! * «
@@ -753,22 +753,22 @@ Multichar_Symbols
  %[%<%] !! * < (written with square brackets, see the root.lexc file)
 
 
-!! !!Flag diacritics
+!! ## Flag diacritics
 
 
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics - only allow compounds
 !! with verbs if the verb is further derived into a noun again:
- @P.NeedNoun.ON@    !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
- @D.NeedNoun.ON@    !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
- @C.NeedNoun@       !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
+ @P.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
+ @D.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
+ @C.NeedNoun@       !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
 
 
 
 !! Two flags copied from sme
 
- @P.Pmatch.Loc@       !!≈ | @CODE@ | Used on multi-token analyses; tell hfst-tokenise/pmatch where in the form/analysis the token should be split.
- @P.Pmatch.Backtrack@ !!≈ | @CODE@ | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this point in the form (to find combinations of shorter analyses that would otherwise be missed)
+ @P.Pmatch.Loc@       !!≈ |  @CODE@ | Used on multi-token analyses; tell hfst-tokenise/pmatch where in the form/analysis the token should be split.
+ @P.Pmatch.Backtrack@ !!≈ |  @CODE@ | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this point in the form (to find combinations of shorter analyses that would otherwise be missed)
 
 
 
@@ -777,25 +777,25 @@ Multichar_Symbols
 
 !! handled automatically if combined with +CmpN/xxx tags. If not used, they will
 !! do no harm.
- @P.CmpFrst.FALSE@ !!≈ | @CODE@ | Require that words tagged as such only appear first
- @D.CmpPref.TRUE@  !!≈ | @CODE@ | Block such words from entering ENDLEX
- @P.CmpPref.FALSE@ !!≈ | @CODE@ | Block these words from making further compounds
- @D.CmpLast.TRUE@  !!≈ | @CODE@ | Block such words from entering R
- @D.CmpNone.TRUE@  !!≈ | @CODE@ | Combines with the next tag to prohibit compounding
- @U.CmpNone.FALSE@ !!≈ | @CODE@ | Combines with the prev tag to prohibit compounding
- @P.CmpOnly.TRUE@  !!≈ | @CODE@ | Sets a flag to indicate that the word has passed R
- @D.CmpOnly.FALSE@ !!≈ | @CODE@ | Disallow words coming directly from root.
+ @P.CmpFrst.FALSE@ !!≈ |  @CODE@ | Require that words tagged as such only appear first
+ @D.CmpPref.TRUE@  !!≈ |  @CODE@ | Block such words from entering ENDLEX
+ @P.CmpPref.FALSE@ !!≈ |  @CODE@ | Block these words from making further compounds
+ @D.CmpLast.TRUE@  !!≈ |  @CODE@ | Block such words from entering R
+ @D.CmpNone.TRUE@  !!≈ |  @CODE@ | Combines with the next tag to prohibit compounding
+ @U.CmpNone.FALSE@ !!≈ |  @CODE@ | Combines with the prev tag to prohibit compounding
+ @P.CmpOnly.TRUE@  !!≈ |  @CODE@ | Sets a flag to indicate that the word has passed R
+ @D.CmpOnly.FALSE@ !!≈ |  @CODE@ | Disallow words coming directly from root.
 !!
 !! Use the following flag diacritics to control downcasing of derived proper
 !! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 !! these flags. There exists a ready-made regex that will do the actual down-casing
 !! given the proper use of these flags.
- @U.Cap.Obl@        !!≈ | @CODE@ | Always capital letter for names: Deatnu.
- @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
+ @U.Cap.Obl@        !!≈ |  @CODE@ | Always capital letter for names: Deatnu.
+ @U.Cap.Opt@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
-+Cmp    !!≈ * __@CODE@__
++Cmp    !!≈ * **@CODE@**
 
-+Cmp/Serial   !!≈ | @CODE@ used with serial verbs
++Cmp/Serial   !!≈ |  @CODE@ used with serial verbs
 
 ! Flags used with serial verbs
 ! VAL = Valence
@@ -915,10 +915,10 @@ Multichar_Symbols
 @C.DECL-DX@
 @C.DECL-CX@
 
- @U.Cap.Obl@      !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj
- @U.Cap.Opt@      !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj
+ @U.Cap.Obl@      !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj
+ @U.Cap.Opt@      !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj
 
-!! !!!Lexicon Root
+!! # Lexicon Root
 LEXICON Root
 
   SUBSTANDARDS ; ! temporary solution
@@ -1067,15 +1067,15 @@ LEXICON SUBSTANDARDS
 коръя+Err/Orth:корья Noun1 ;
 
 LEXICON ENDLEX
-!! !!!Lexicon @LEXNAME@
+!! # Lexicon @LEXNAME@
 !! And this is the @LEXNAME@ of everything:
-!! {{{
+!! ```
    @D.CmpOnly.FALSE@@D.CmpPref.TRUE@@D.NeedNoun.ON@ # ; !!≈ @CODE@
 ! @D.Need3Part.ON@ # ; !3part
-!! }}}
-!! The {{@D.CmpOnly.FALSE@}} flag diacritic is ued to disallow words tagged
+!! ```
+!! The `@D.CmpOnly.FALSE@` flag diacritic is ued to disallow words tagged
 !! with +CmpNP/Only to end here.
-!! The {{@D.NeedNoun.ON@}} flag diacritic is used to block illegal compounds.
+!! The `@D.NeedNoun.ON@` flag diacritic is used to block illegal compounds.
 
 
 ! vim: set ft=xfst-lexc:

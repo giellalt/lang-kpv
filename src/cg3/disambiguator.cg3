@@ -1,8 +1,8 @@
 
-#!! !!!Komi disambiguator
+#!! # Komi disambiguator
 
 # ============== #
-#!! !!Delimiters 
+#!! ## Delimiters 
 # ============== #
 
 DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" sent ;
@@ -11,7 +11,7 @@ DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" sent ;
 #PARENTHESES = "<$(>" "<$)>" "<$[>" "<$]>" "<${>" "<$}>" "<$«>" "<$»>" ;
 
 # ================= #
-#!! !!Tags and sets 
+#!! ## Tags and sets 
 # ================= #
 
 SETS
@@ -19,18 +19,18 @@ SETS
 # I define end of clause and beginning of clause in a way so that the file
 # may be read both by the CG-2 and the vislcg formalisms.
 
-#!! !Beginning and end of sentence	
+#!! ### Beginning and end of sentence	
 LIST BOS = (>>>) (<s>);  #!! BOS
 LIST EOS = (<<<) (</s>); #!! EOS
 
-#!! !Miscellanous
+#!! ### Miscellanous
 
 LIST CmpTest = CmpTest ; #!! CmpTest
 LIST Err = Err ;  #!! Err
 LIST Err/Dial = Err/Dial ; #!! вӧлі Sg3
 LIST Err/Orth = Err/Orht ;
 
-#!! !Parts of speech tags
+#!! ### Parts of speech tags
 LIST N = N ; #!! N
 LIST V = V ; #!! V
 LIST A = A ; #!! A
@@ -50,7 +50,7 @@ LIST Prop = Prop ; #!! Prop
 LIST WORD = N V A Adv CC CS Interj Pron Num Pcle Clt Po ;
 SET NotPO = WORD - Po ;
 
-#!! !Derivation tags
+#!! ### Derivation tags
 LIST Ex/A = Ex/A ; #!! Ex/A (former adj)
 LIST Ex/N = Ex/N ; #!! Ex/N
 LIST Ex/Num = Ex/Num ; #!! Ex/Num
@@ -63,7 +63,7 @@ LIST AspDerTag = Der/ал Der/ась Der/л Der/лы Der/лывлы Der/овт D
 
 
 
-#!! !Verbal categories
+#!! ### Verbal categories
 LIST Prs = Prs ; #!! Prs
 LIST Fut = Fut ; #!! Fut
 LIST Fut1 = Fut1 ; #!! Fut1
@@ -205,7 +205,7 @@ LIST ActPrsPtc = ActPrsPtc ;
 LIST NomAct = Der/NomAct ;
 LIST Cop = Cop ;
 
-#!! !Verb sets
+#!! ### Verb sets
 LIST VNEG = "ог" "он" "оз" "огӧ" "огӧй" "онӧ" "онӧй" "эг" "эн" "эз" "эгӧ" "эгӧй" "энӧ" "энӧй" ; #!! VNEG (all Neg verbs)
 
 SET VFIN = Ind | Cond | Opt ; #!! VFIN
@@ -266,10 +266,10 @@ SUBSTITUTE (IV) (*) TARGET (*) ;
 SUBSTITUTE (TV) (*) TARGET (*) ;
 #
 SUBSTITUTE:negv_to_aux (V Neg) (Aux Neg) TARGET (V Neg) IF (1 (ConNeg)) ;
-#!! * __NoDerIfPossible__ removes all derivations
+#!! * **NoDerIfPossible** removes all derivations
 
 
-#!! * __Dem__ selects Dem if N Nom to the right
+#!! * **Dem** selects Dem if N Nom to the right
 SELECT:Dem Dem IF (0 Dem)(1 N + Nom);
 
 #SELECT:AbsIfN Abs IF (1 N);
@@ -300,9 +300,9 @@ REMOVE:notPrl Prl IF (0 NOT-PRL) ;
 # ==========
 
 #REMOVE Pcle IF (-1 BOS)(0 CC); # ?
-#!! * __NoFinalCC__ removes CC if competing Pcle and sentence-final
+#!! * **NoFinalCC** removes CC if competing Pcle and sentence-final
 REMOVE:NoFinalCC CC IF (1 EOS)(0 Pcle);
-#!! * __NoABBR__ removes ABBR for competing CC
+#!! * **NoABBR** removes ABBR for competing CC
 REMOVE:NoABBR ABBR IF (0 CC)(NOT 1 Prop);
 
 
