@@ -20,19 +20,19 @@ LEXICON A_RU-O2J
 +Use/SpellNoSugg:о%- adjectives-russian-like ;
 
 LEXICON DENOMINAL-LOCATIVE-ADJECTIVES
-@U.Cap.Opt@+Der+Der/LocMod:@U.Cap.Opt@%>са A_ ;
+@U.Cap.Opt@+Loc:@U.Cap.Opt@%>са A_ ;
 
 LEXICON DERIVEDADJ
  DERIVEDADJ-IN-VOW ;
  DERIVEDADJ-IN-CONS ;
 
 LEXICON DERIVEDADJ-IN-VOW
-+Der+Der/ProprietiveMod+A:%>%{ая%} A_ ;
++Prp+A:%>%{ая%} A_ ;
 
 LEXICON DERIVEDADJ-IN-CONS
-+Der+Der/LocMod+A:%>са A_ ;
-+Der+Der/PrivMod+A:%>тӧм A_ ;
-+Use/NG+Err/Dial+Der+Der/PrivMod+A:%>тэм A_ ;
++Loc+A:%>са A_ ;
++Abe+A:%>тӧм A_ ;
++Use/NG+Err/Dial+Abe+A:%>тэм A_ ;
 +Der+Der/TempMod+A:%>ся A_ ;
 +Der+Der/увса+A:%>увса A_ ;
 +Der+Der/сайса+A:%>сайса A_ ;
@@ -80,7 +80,7 @@ LEXICON Adj
  A_ ;
 
 LEXICON A-IS_INE-MOD-СА
-+Der+Der/LocMod: A_ ;
++Loc: A_ ;
 LEXICON A-IS_COMP-MOD-КОДЬ
 +Der+Der/кодь+CompMod: A_ ;
 !2018-10-21!LEXICON A-IS_ABE-MOD-ТӦМ
