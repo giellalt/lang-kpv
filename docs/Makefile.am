@@ -7,13 +7,13 @@
 #
 # dir/filename.lexc => filename-dir.md
 
-MD_PAGES=root-morphology.md  \
+MD_PAGES=root-morphology.md           \
 		  adjectives-affixes.md       \
 		  nouns-affixes.md            \
-		  pronouns-affixes.md           \
+		  pronouns-affixes.md         \
 		  propernouns-affixes.md      \
-		  verbs-affixes.md \
-		  phonology-morphology.md \
+		  verbs-affixes.md            \
+		  phonology-morphology.md     \
 		  disambiguator-syntax.md 
 # clitics-morphology.md       \
 # compounding-morphology.md   \
@@ -35,4 +35,5 @@ MD_PAGES=root-morphology.md  \
 # subjunctions-stems.md       \
 # verbs-stems.md              \
 # adjectives-oahpa-affixes.md
+
 include $(top_srcdir)/../giella-core/am-shared/docs-dir-include.am
