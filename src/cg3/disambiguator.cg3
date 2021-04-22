@@ -568,7 +568,11 @@ REMOVE Acc IF (-1 (V Refl)) ;
 # The rule below is too aggressive: вывті Adv вылын N 
 # SELECT N OR Pron IF (1 Po) ;
 #SELECT Adv IF (-1 V) ;
-REMOVE V IF (-1 A) ;
+#REMOVE V IF (-1 A) ;
+# This rule is too aggressive if there is
+# a number head word and an interceding Proprietive
+# Куим даддя локтӧ.
+
 #SELECT Adv IF (1 Ex/V) ;
 REMOVE Relat IF (-1 ("мый")) (0 Po);
 # тӧдмавны, мый йылысь гижӧ
