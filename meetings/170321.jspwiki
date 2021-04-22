@@ -1,0 +1,101 @@
+
+Project meeting in Syktyvkar 21.3. 2017: 
+Dima, Marina, Michael, Enye Lav, Jack, Trond.
+
+!!!Practical issues
+
+GT infrastructure is/will be running on:
+
+* Dima's MacBookPro
+* Lav's Linux desktop
+* Katja/Lena's new MacBookPro (coming from Freiburg in May)
+
+!!!Workshop
+
+Summer 2017: Tromsø, Week 27??, 5 days, or perhaps 4 (look at flight schedule)
+
+* Syktyvkar: Dima, Katja, Lena
+* Freiburg: Micha 
+
+Travel
+* Dima SWC-TOS-SWC
+* Katja/Lena SWC-Budapest-TOC-SWC
+* Visum invitation for Dima - Tromsø (Trond organizes)
+* Visum invitation for Katja/Lena - Hungary (Marina finds out)
+* Tickets Dima - Tromsø
+* Tickets Katja/Lena to Tromsø - Syktyvkar?? (Marina finds out)
+* Tickets Katja/Lena to Syktyvkar - Tromsø
+
+
+!!!General working plan and collaborators
+
+* Freiburg projekt (GT syntax) - Niko (programming, linguistics), 
+  Micha (linguistics) - funding for Niko and Micha until Feb 2020
+* Syktyvkar (analysers, lexica, machine translation) - Dima (programming), 
+  Lena (linguistics, morphology), Katja (linguistics, syntax)
+* Tromsø (infrastructure) - Trond and Giellatekno collaborators
+* Helsinki (morphology, lexica: hfst transducer <hunspell) Jack & Lav
+
+
+!!!Documentation
+
+* code documentation (Russian)
+
+* project documentation (English and Russian)
+
+Documents for workers
+
+* [unix для лингвистов|/tools/UnixDljaLingvistov.html]
+
+
+!!! Further plans
+
+* Joint paper for IWCLUL 2018 on "Evaluation and Prospect for Komi language technology"
+
+* Meeting during one day before or after IWCLUL 2018
+
+* Meeting in Syktyvkar in 2018
+
+
+!!!Project issues
+
+!!Corpus
+
+* Perhaps we will put the open part of the Syktyvkar text corpus into Tromsø-Korp, Marina finds out about this.
+* Perhaps we prepare a contract among Tromsø, Syktyvkar, Freiburg about the use of the Komi National Corpus thru Korp, Marina finds out about this too.
+
+!!Analyser
+
+!!Improving the FST for use in the new spellchecker
+
+* The Hunspell base will be used as input for adding missing words to FST
+* Trond + collegues will continue work to try to get Divvun kpv speller in MSW
+* Speller team in Syktyvkar will evaluate speller testbench data
+
+!!Work this spring
+
+Micha and Niko made a test corpus and will continue with that. This
+will be introduced in the freecorpus / boundcorpus.
+
+Micha and Niko start looking into the refinment of FST rules and adding CG rules (this work will only start slowly until the Tromsø meeting, but will be intensified after the meeting) 
+
+
+!!Machine Translation
+
+!MT
+Marina is planning a 3-year MT project kpv <-> rus.
+* TODO: Set up catalogue for that in Apertium.
+* Add word pairs from existing dictionaries
+
+!CAT (Computer assisted translation)
+
+* Trond will set up a site for this.
+** [Internal OmegaT development documentation|/mt/omegat/OmegaT.html]
+
+
+
+
+
+
+
+

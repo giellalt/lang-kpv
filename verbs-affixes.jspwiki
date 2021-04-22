@@ -1,0 +1,218 @@
+
+
+!!!Verbal morphology               
+
+
+!!Closed class verbs
+
+
+
+
+
+
+
+
+
+
+!!Open class verbs
+
+Some Flag diacritic lines are with regexes, other with aligned zeros. We want to migrate to
+regexes < … > , for readability reasons (sic!)
+
+
+ * __LEXICON V-0_ЛОКНЫ__ One verb only, локны:лок
+
+
+ * __LEXICON VR_ШУНЫ__ 
+
+
+ * __LEXICON V_ШУНЫ__ шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+ * __LEXICON V-0_ШУНЫ__ шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+
+ * __LEXICON VR_АМНЫ__
+
+
+ * __LEXICON V_АМНЫ__ амны:ам Ending in -мны, -жны, -дзны,
+ * __LEXICON V-0_АМНЫ__ амны:ам Ending in -мны, -жны, -дзны,
+
+
+ * __LEXICON V_КЫЙНЫ__ кыйны:кы Ending in -йны, 
+
+ * __LEXICON V-0_КЫЙНЫ__ кыйны:кы Ending in -йны, 
+
+ * __LEXICON VR_КУТНЫ__
+
+ * __LEXICON V_КУТНЫ__ шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+ * __LEXICON V-0_КУТНЫ__ шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+
+ * __LEXICON VR_НУАВНЫ__ нуавны:нуа
+
+ * __LEXICON V_НУАВНЫ__ нуавны:нуа
+ * __LEXICON V-0_НУАВНЫ__ нуавны:нуа
+Consonant-onset
+
+ * __LEXICON VR_АРТАСЬНЫ__
+
+
+ * __LEXICON V_АРТАСЬНЫ__ артасьны:артась 
+ * __LEXICON V-0_АРТАСЬНЫ__ артасьны:артась 
+
+ * __LEXICON VR_ЛЫДДЬЫНЫ__ 
+
+ * __LEXICON V_ЛЫДДЬЫНЫ__ лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
+ * __LEXICON V-0_ЛЫДДЬЫНЫ__ лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
+
+ * __LEXICON VR_ВОЛЫНЫ__ 
+
+
+ * __LEXICON V_ВОЛЫНЫ__ волыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
+ * __LEXICON V-0_ВОЛЫНЫ__ волыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
+
+
+
+
+
+
+
+
+!!Verb conjugation 
+
+ * __LEXICON VerbConj-V__  суф б -- ы 
+
+ * __LEXICON VerbConj__ суф а
+
+ * __LEXICON VerbConj_КЫЙНЫ__ суф а
+
+ * __LEXICON VerbConj_АМНЫ__ суф а
+
+ * __LEXICON VerbConj_КУТНЫ__ суф а
+
+
+ * __LEXICON Finiteforms__ Gives linking vowels for 3 tenses
+
+ * __LEXICON Finiteforms_КЫЙНЫ__ Gives linking vowels for 3 tenses
+
+ * __LEXICON Finiteforms_АМНЫ__ Gives linking vowels for 3 tenses
+
+ * __LEXICON Finiteforms_КУТНЫ__ Gives linking vowels for 3 tenses
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!!Derivation
+
+
+ * __LEXICON Verb-nyDer__ 
+
+ * __LEXICON Verb-nyDer-ONSET-CONS__ Derivation onset in consonant
+verb-to-verb
+
+This is fed by LEXICON V_ШУНЫ, and therefore certain corrections
+must be made 2012-01-18
+
+овсьыны
+пусьыштлывлыны
+босьтчыштлывлыны
+
+ * __LEXICON Verb-nyDer-ONSET-VOW__ Derivation onset	in vowel
+
+ * __LEXICON Verb-nyDer-ONSET-Ы__ Derivation onset	in vowel
+
+ * __LEXICON Verb-nyDer-ONSET-А__ Derivation onset	in vowel
+босьтасьны
+
+ * __LEXICON Verb-nyDer-ONSET-Я__ Derivation onset	in vowel
+босьтасьны
+
+
+verb-to-noun
+
+ * __LEXICON VerbDer__ 
+FIX THIS 2015-09-06
+ * __VerbDer-ONSET_А/Я ;__ 
+
+ * __LEXICON VerbDer_КЫЙНЫ__
+ * __: VerbDer-ONSET_Ӧ ;__
+ * __: VerbDer-ONSET_Я ;__ 
+ * __: VerbDer-ONSET_И ;__
+
+ * __LEXICON VerbDer_КУТНЫ__
+ * __VerbDer-ONSET_Ӧ ;__
+ * __VerbDer-ONSET_А ;__ 
+ * __VerbDer-ONSET_І ;__
+
+ * __LEXICON VerbDer_АРТАСЬНЫ__
+ * __: VerbDer-ONSET_Ӧ ;__
+ * __VerbDer-ONSET_Я ;__ 
+ * __VerbDer-ONSET_И ;__
+
+ * __LEXICON VerbDer-ONSET_Ӧ__ 
+
+
+
+ * __LEXICON VerbDer-ONSET_І__ 
+
+ * __LEXICON VerbDer-ONSET_И__ 
+ * __LEXICON VerbDer-ONSET_И/І__ 
+
+
+
+
+ * __LEXICON VerbDer-ONSET_А__ 
+ * __LEXICON VerbDer-ONSET_А/Я__ 
+
+ * __LEXICON VerbDer-ONSET_Я__
+
+
+
+
+
+
+
+
+вевттьысьыны
+
+бертласьны
+
+
+
+
+
+
+
+
+
+
+
+
+ * __LEXICON EM__ эм:эм. Ending in -ӧсь.
+
+
+
