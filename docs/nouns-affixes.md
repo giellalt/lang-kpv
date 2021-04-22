@@ -4,11 +4,11 @@
 
  * **LEXICON Vocative**
 
- * __LEXICON Noun1-IS_PTC-OM__ is to provide deverbal nouns with +Der/ӧм tags
+ * **LEXICON Noun1-IS_PTC-OM** is to provide deverbal nouns with +Der/ӧм tags
 
- * __LEXICON Noun1-IS_PTC-AN__
+ * **LEXICON Noun1-IS_PTC-AN**
 
- * __LEXICON Noun1-IS_PTC-YSJ__
+ * **LEXICON Noun1-IS_PTC-YSJ**
 
 
 

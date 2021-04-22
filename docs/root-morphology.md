@@ -14,22 +14,22 @@ language are presented in this system in terms of the following symbols.
 (It is highly suggeste	d to follow existing standards when adding new tags).
 
 The parts-of-speech tags are:
-* **+A**:  adjective  кывберд	прилагательное
-* **+Adp 	**:  adposition (prepositio, postposition) 	 
-* **+Adv**:  adverb	 урчитан	      	наречие
-* **+CS**:  subordinating conjunction		XX	подчинительный союз
-* **+CC**:  coordinating conjunction		XX	сочинительный союз
-* **+CC**:  conjunction word			XX	союзное слово (здесь надо узнать который из 2 выш.)
-* **+Det**:  determiner  XX   XX
-* **+Interj**:  interjection	междометтьӧ	междометие
-* **+N**:  noun		эмакыв	 - существительное
-* **+Num	**:  numeral		лыдакыв	числительное
-* **+Pcle**:  particle		кывтор	частица
-* **+Po**:  postposition	кывбӧр	послелог
-* **+Pr**:  preposition	XX	предлог
-* **+Pron**:  pronoun	нимвежтас	местоимение
-* **+Qnt**:  Quantifier	ХХ	XX
-* **+V**:  verb		кадакыв	глагол
+ * **+A**:  adjective  кывберд	прилагательное
+ * **+Adp 	**:  adposition (prepositio, postposition) 	 
+ * **+Adv**:  adverb	 урчитан	      	наречие
+ * **+CS**:  subordinating conjunction		XX	подчинительный союз
+ * **+CC**:  coordinating conjunction		XX	сочинительный союз
+ * **+CC**:  conjunction word			XX	союзное слово (здесь надо узнать который из 2 выш.)
+ * **+Det**:  determiner  XX   XX
+ * **+Interj**:  interjection	междометтьӧ	междометие
+ * **+N**:  noun		эмакыв	 - существительное
+ * **+Num	**:  numeral		лыдакыв	числительное
+ * **+Pcle**:  particle		кывтор	частица
+ * **+Po**:  postposition	кывбӧр	послелог
+ * **+Pr**:  preposition	XX	предлог
+ * **+Pron**:  pronoun	нимвежтас	местоимение
+ * **+Qnt**:  Quantifier	ХХ	XX
+ * **+V**:  verb		кадакыв	глагол
 
 The parts of speech are further split up into:
 Adjectives
@@ -56,31 +56,31 @@ Nouns
 Postpositions
 
 ## Pronouns
-* **+Dem**:  demonstrative
-* **+Indef**:  indefinite
-* **+Interr**:  interrogative
-* **+Pers**:  personal
-* **+Recipr**:  reciprocal
-* **+Refl**:  reflexive
-* **+Rel**:  relative
-* **+Poss	**:  possessive
+ * **+Dem**:  demonstrative
+ * **+Indef**:  indefinite
+ * **+Interr**:  interrogative
+ * **+Pers**:  personal
+ * **+Recipr**:  reciprocal
+ * **+Refl**:  reflexive
+ * **+Rel**:  relative
+ * **+Poss	**:  possessive
 
 ## Quantifiers (numerals)
 Quantifiers and Numerals are classified under:
-* **+Num**:  numeral лыдакыв
-* **+Appr**:  Approximative numeral кавто-колмо, колмошка *two or three*
+ * **+Num**:  numeral лыдакыв
+ * **+Appr**:  Approximative numeral кавто-колмо, колмошка *two or three*
           NB! do not confuse with Komi case +Apr
-* **+AssocColl**:  -ne- ; avide-
-* **+Assoc**:  +мезть
-* **+Card**:  cardinal + NCard
-* **+ZeroColl**:  Zero collective кодныс
-* **+Coll**:  collective
-* **+Distr**:  Distributive
-* **+Iter: Iterative form expressing number of consecutive times; kpv**:  `кыкысь`
-* **+Mult: Multiplicative adverbs number of times; kpv**:  `кык пӧв`
-* **+Ord**:  ordinal + NOrd
-* **+Coord	**:  Coordinates, i.e. 65˚36′8,30″ in numerals.lexc
-* **+Cop	**:  this is for copula complement predicate position with pl in -ӧсь depricated Pred
+ * **+AssocColl**:  -ne- ; avide-
+ * **+Assoc**:  +мезть
+ * **+Card**:  cardinal + NCard
+ * **+ZeroColl**:  Zero collective кодныс
+ * **+Coll**:  collective
+ * **+Distr**:  Distributive
+ * **+Iter: Iterative form expressing number of consecutive times; kpv**:  `кыкысь`
+ * **+Mult: Multiplicative adverbs number of times; kpv**:  `кык пӧв`
+ * **+Ord**:  ordinal + NOrd
+ * **+Coord	**:  Coordinates, i.e. 65˚36′8,30″ in numerals.lexc
+ * **+Cop	**:  this is for copula complement predicate position with pl in -ӧсь depricated Pred
 
 ## Nominals are inflected for Number and Case
 
@@ -98,13 +98,13 @@ A category of case in Komi can be identified as:
  *  **+Acc3** accusative -сӧ керан
  *  **+Abl** ablative case -лысь босьтан
  *  **+Apr** approximative -лань матыстчан
- ** **+AprEgr** approximative egressive -ланьсянь матысь ылыстчан
- ** **+AprEla** approximative elative -ланьысь матысь петан
- ** **+AprIll** approximative illative -ланьӧ матӧ матыстчан
- ** **+AprIne** approximative inessive -ланьын матыс ина
- ** **+AprPrl** approximative prolative -ланьӧд маті вуджан
- ** **+AprTer** approximative terminative -ланьӧдз матіӧдз воан
- ** **+AprTra** approximative translative -ланьті маті вуджан
+     - **+AprEgr** approximative egressive -ланьсянь матысь ылыстчан
+     - **+AprEla** approximative elative -ланьысь матысь петан
+     - **+AprIll** approximative illative -ланьӧ матӧ матыстчан
+     - **+AprIne** approximative inessive -ланьын матыс ина
+     - **+AprPrl** approximative prolative -ланьӧд маті вуджан
+     - **+AprTer** approximative terminative -ланьӧдз матіӧдз воан
+     - **+AprTra** approximative translative -ланьті маті вуджан
  *  **+Car** caritive -тӧг торйӧдан
  *  **+Cns** consecultative -ла могман
  *  **+Com** Comitative -кӧд ӧтвывтан
@@ -340,8 +340,8 @@ Where do these come from source
  * **+Sem/Patr-Mal**  Patronym male
 
 
- * __+Sem/Event_Plc	__  сёянін
- * __+Sem/Hum_Prof		__  profession, capacity doctor, tractor driver 
+ * **+Sem/Event_Plc	**  сёянін
+ * **+Sem/Hum_Prof		**  profession, capacity doctor, tractor driver 
 
 
 Semantics are classified with
@@ -405,12 +405,14 @@ source and target part-of-speech.
 
 
 
-
- * **+LocMod** IneMod Быд во шедӧдӧны бур успеваемость Воркута да Инта каръясса, Прилузскӧй да Княжпогостскӧй районъясса школаяс.
+ * **+Loc** LocMod, IneMod Быд во шедӧдӧны бур успеваемость Воркута да Инта каръясса, Прилузскӧй да Княжпогостскӧй районъясса школаяс.
+ * **+LocMod** move to Loc
  * **+CompMod** 
  * **+Der/тӧм**  used with nouns and followed by +AbeMod
- * **+PrivMod** AbeMod джуджыд анализъястӧм да обобщениеястӧм статьяяс.
- * **+ProprietiveMod** HabObjMod Весиг киясыс тӧдсаӧсь, найӧ мугов рӧмаӧсь, кузь чорыд чуньясаӧсь.
+ * **+Abe** PrivMod, AbeMod джуджыд анализъястӧм да обобщениеястӧм статьяяс.
+ * **+PrivMod** move to Abe
+ * **+Prp** ProprietiveMod, HabObjMod Весиг киясыс тӧдсаӧсь, найӧ мугов рӧмаӧсь, кузь чорыд чуньясаӧсь.
+ * **+ProprietiveMod** move to Prp
  * **+Der/TempMod** TempMod Der/ся но и Ф. В. Плесовскийлысь квайтымынӧд вояссяяссӧ * позьӧ аддзыны сӧмын библиотекаясысь.
 
 2012-09-11 Perhaps this is only syntactic
@@ -437,20 +439,20 @@ Morphophonology
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 
-* **{aä}**:  Vowel alternating symbol
-* **{oö}**:  Vowel alternating symbol 
-* **{uü}**:  Vowel alternating symbol
+ * **{aä}**:  Vowel alternating symbol
+ * **{oö}**:  Vowel alternating symbol 
+ * **{uü}**:  Vowel alternating symbol
 
  * **%^к2 %^л2 %^м2 %^т2 %^ь2 %^К2 %^Л2 %^М2 %^Т2 %^Ь2 %^И2**
  * %^V1        for reduplicated vowel унаӧн > унаан
  * **%>**  suffix border
 
-* **%{иі%}	**:  for soft and hard
-* **%{ая%}	**:  for soft and hard
+ * **%{иі%}	**:  for soft and hard
+ * **%{ая%}	**:  for soft and hard
 
 And following triggers to control variation
-* **{front}**:  Vowel change triggers
-* **{back}**:  Vowel change triggers
+ * **{front}**:  Vowel change triggers
+ * **{back}**:  Vowel change triggers
 
  * %^Close	 Close syllable, this triggers final consonant drop, seen in
    word-final position and before consonant
@@ -480,16 +482,16 @@ Valency tags, i.e. tags assigned to verbs for denoting their arbuments
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
-|  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
-|  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
-|  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
+ |  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+ |  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+ |  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
 
 
 
 Two flags copied from sme
 
-|  @P.Pmatch.Loc@ | Used on multi-token analyses; tell hfst-tokenise/pmatch where in the form/analysis the token should be split.
-|  @P.Pmatch.Backtrack@ | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this point in the form (to find combinations of shorter analyses that would otherwise be missed)
+ |  @P.Pmatch.Loc@ | Used on multi-token analyses; tell hfst-tokenise/pmatch where in the form/analysis the token should be split.
+ |  @P.Pmatch.Backtrack@ | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this point in the form (to find combinations of shorter analyses that would otherwise be missed)
 
 
 
@@ -498,24 +500,24 @@ to control position-based compounding restrictions for nominals. Their use is
 
 handled automatically if combined with +CmpN/xxx tags. If not used, they will
 do no harm.
-|  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
-|  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
-|  @P.CmpPref.FALSE@ | Block these words from making further compounds
-|  @D.CmpLast.TRUE@ | Block such words from entering R
-|  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
-|  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
-|  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
-|  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
+ |  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
+ |  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
+ |  @P.CmpPref.FALSE@ | Block these words from making further compounds
+ |  @D.CmpLast.TRUE@ | Block such words from entering R
+ |  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
+ |  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
+ |  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
+ |  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
 Use the following flag diacritics to control downcasing of derived proper
 nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
-|  @U.Cap.Obl@ | Always capital letter for names: Deatnu.
-|  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+ |  @U.Cap.Obl@ | Always capital letter for names: Deatnu.
+ |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
  * **+Cmp**
 
-|  +Cmp/Serial used with serial verbs
+ |  +Cmp/Serial used with serial verbs
 
 
 
@@ -538,8 +540,8 @@ FLAGS USED WITH COLLECTIVE NOUNS
 
 Removal
 
-|  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj
-|  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj
+ |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj
+ |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj
 
 # Lexicon Root
 

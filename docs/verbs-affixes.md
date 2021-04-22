@@ -20,57 +20,57 @@ Some Flag diacritic lines are with regexes, other with aligned zeros. We want to
 regexes < … > , for readability reasons (sic!)
 
 
- * __LEXICON V-0_ЛОКНЫ__ One verb only, локны:лок
+ * **LEXICON V-0_ЛОКНЫ** One verb only, локны:лок
 
 
- * __LEXICON VR_ШУНЫ__ 
+ * **LEXICON VR_ШУНЫ** 
 
 
- * __LEXICON V_ШУНЫ__ шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
- * __LEXICON V-0_ШУНЫ__ шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+ * **LEXICON V_ШУНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+ * **LEXICON V-0_ШУНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
 
- * __LEXICON VR_АМНЫ__
-
-
- * __LEXICON V_АМНЫ__ амны:ам Ending in -мны, -жны, -дзны,
- * __LEXICON V-0_АМНЫ__ амны:ам Ending in -мны, -жны, -дзны,
+ * **LEXICON VR_АМНЫ**
 
 
- * __LEXICON V_КЫЙНЫ__ кыйны:кы Ending in -йны, 
-
- * __LEXICON V-0_КЫЙНЫ__ кыйны:кы Ending in -йны, 
-
- * __LEXICON VR_КУТНЫ__
-
- * __LEXICON V_КУТНЫ__ шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
- * __LEXICON V-0_КУТНЫ__ шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+ * **LEXICON V_АМНЫ** амны:ам Ending in -мны, -жны, -дзны,
+ * **LEXICON V-0_АМНЫ** амны:ам Ending in -мны, -жны, -дзны,
 
 
- * __LEXICON V-0_БОСЬТНЫ__ шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+ * **LEXICON V_КЫЙНЫ** кыйны:кы Ending in -йны, 
+
+ * **LEXICON V-0_КЫЙНЫ** кыйны:кы Ending in -йны, 
+
+ * **LEXICON VR_КУТНЫ**
+
+ * **LEXICON V_КУТНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+ * **LEXICON V-0_КУТНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
 
 
- * __LEXICON VR_НУАВНЫ__ нуавны:нуа
+ * **LEXICON V-0_БОСЬТНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
 
- * __LEXICON V_НУАВНЫ__ нуавны:нуа
- * __LEXICON V-0_НУАВНЫ__ нуавны:нуа
+
+ * **LEXICON VR_НУАВНЫ** нуавны:нуа
+
+ * **LEXICON V_НУАВНЫ** нуавны:нуа
+ * **LEXICON V-0_НУАВНЫ** нуавны:нуа
 Consonant-onset
 
- * __LEXICON VR_АРТАСЬНЫ__
+ * **LEXICON VR_АРТАСЬНЫ**
 
 
- * __LEXICON V_АРТАСЬНЫ__ артасьны:артась 
- * __LEXICON V-0_АРТАСЬНЫ__ артасьны:артась 
+ * **LEXICON V_АРТАСЬНЫ** артасьны:артась 
+ * **LEXICON V-0_АРТАСЬНЫ** артасьны:артась 
 
- * __LEXICON VR_ЛЫДДЬЫНЫ__ 
+ * **LEXICON VR_ЛЫДДЬЫНЫ** 
 
- * __LEXICON V_ЛЫДДЬЫНЫ__ лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
- * __LEXICON V-0_ЛЫДДЬЫНЫ__ лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
+ * **LEXICON V_ЛЫДДЬЫНЫ** лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
+ * **LEXICON V-0_ЛЫДДЬЫНЫ** лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
 
- * __LEXICON VR_ВОЛЫНЫ__ 
+ * **LEXICON VR_ВОЛЫНЫ** 
 
 
- * __LEXICON V_ВОЛЫНЫ__ волыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
- * __LEXICON V-0_ВОЛЫНЫ__ волыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
+ * **LEXICON V_ВОЛЫНЫ** волыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
+ * **LEXICON V-0_ВОЛЫНЫ** волыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
 
 
 
@@ -85,20 +85,20 @@ Consonant-onset
 
  * **LEXICON VerbConj** суф а
 
- * __LEXICON VerbConj_КЫЙНЫ__ суф а
+ * **LEXICON VerbConj_КЫЙНЫ** суф а
 
- * __LEXICON VerbConj_АМНЫ__ суф а
+ * **LEXICON VerbConj_АМНЫ** суф а
 
- * __LEXICON VerbConj_КУТНЫ__ суф а
+ * **LEXICON VerbConj_КУТНЫ** суф а
 
 
  * **LEXICON Finiteforms** Gives linking vowels for 3 tenses
 
- * __LEXICON Finiteforms_КЫЙНЫ__ Gives linking vowels for 3 tenses
+ * **LEXICON Finiteforms_КЫЙНЫ** Gives linking vowels for 3 tenses
 
- * __LEXICON Finiteforms_АМНЫ__ Gives linking vowels for 3 tenses
+ * **LEXICON Finiteforms_АМНЫ** Gives linking vowels for 3 tenses
 
- * __LEXICON Finiteforms_КУТНЫ__ Gives linking vowels for 3 tenses
+ * **LEXICON Finiteforms_КУТНЫ** Gives linking vowels for 3 tenses
 
 
 
@@ -162,39 +162,39 @@ verb-to-noun
 
  * **LEXICON VerbDer** 
 FIX THIS 2015-09-06
- * __VerbDer-ONSET_А/Я ;__ 
+ * **VerbDer-ONSET_А/Я ;** 
 
- * __LEXICON VerbDer_КЫЙНЫ__
- * __: VerbDer-ONSET_Ӧ ;__
- * __: VerbDer-ONSET_Я ;__ 
- * __: VerbDer-ONSET_И ;__
+ * **LEXICON VerbDer_КЫЙНЫ**
+ * **: VerbDer-ONSET_Ӧ ;**
+ * **: VerbDer-ONSET_Я ;** 
+ * **: VerbDer-ONSET_И ;**
 
- * __LEXICON VerbDer_КУТНЫ__
- * __VerbDer-ONSET_Ӧ ;__
- * __VerbDer-ONSET_А ;__ 
- * __VerbDer-ONSET_І ;__
+ * **LEXICON VerbDer_КУТНЫ**
+ * **VerbDer-ONSET_Ӧ ;**
+ * **VerbDer-ONSET_А ;** 
+ * **VerbDer-ONSET_І ;**
 
- * __LEXICON VerbDer_АРТАСЬНЫ__
- * __: VerbDer-ONSET_Ӧ ;__
- * __VerbDer-ONSET_Я ;__ 
- * __VerbDer-ONSET_И ;__
+ * **LEXICON VerbDer_АРТАСЬНЫ**
+ * **: VerbDer-ONSET_Ӧ ;**
+ * **VerbDer-ONSET_Я ;** 
+ * **VerbDer-ONSET_И ;**
 
- * __LEXICON VerbDer-ONSET_Ӧ__ 
-
-
-
- * __LEXICON VerbDer-ONSET_І__ 
-
- * __LEXICON VerbDer-ONSET_И__ 
- * __LEXICON VerbDer-ONSET_И/І__ 
+ * **LEXICON VerbDer-ONSET_Ӧ** 
 
 
 
+ * **LEXICON VerbDer-ONSET_І** 
 
- * __LEXICON VerbDer-ONSET_А__ 
- * __LEXICON VerbDer-ONSET_А/Я__ 
+ * **LEXICON VerbDer-ONSET_И** 
+ * **LEXICON VerbDer-ONSET_И/І** 
 
- * __LEXICON VerbDer-ONSET_Я__
+
+
+
+ * **LEXICON VerbDer-ONSET_А** 
+ * **LEXICON VerbDer-ONSET_А/Я** 
+
+ * **LEXICON VerbDer-ONSET_Я**
 
 
 
