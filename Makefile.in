@@ -404,13 +404,13 @@ target_alias = @target_alias@
 top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
-MD_PAGES = root-morphology.md  \
+MD_PAGES = root-morphology.md           \
 		  adjectives-affixes.md       \
 		  nouns-affixes.md            \
-		  pronouns-affixes.md           \
+		  pronouns-affixes.md         \
 		  propernouns-affixes.md      \
-		  verbs-affixes.md \
-		  phonology-morphology.md \
+		  verbs-affixes.md            \
+		  phonology-morphology.md     \
 		  disambiguator-syntax.md 
 
 
