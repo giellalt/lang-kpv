@@ -4,8 +4,9 @@
 !! # Numeral morphological lexica 
 ! ================================ !
 
-!This has to be worked on 2012-01-19
+!! This has to be worked on 2012-01-19
 LEXICON NUM-CARD_
+!! LEXICON @LEXNAME@ 
  CARD ;
 +Card+Der+Der/La+N:%>ла N_ ;
 :%>ӧд ORD ;
@@ -15,6 +16,7 @@ LEXICON NUM-CARD_
 +Coll+Der+Der/La+N:%>нан%>ла N_ ;
 
 LEXICON CARD
+!! LEXICON @LEXNAME@ 
 !+Card: ABS_ ; 2018-10-21
 +Card: NumCASEPOSSLEX ;
 +Card+Der/кӧ+Presentational:%>%-кӧ WordEnd ;
@@ -32,6 +34,7 @@ LEXICON CARD
 
 
 LEXICON ORD
+!! LEXICON @LEXNAME@ 
 +Ord: NumCASEPOSSLEX ; ! ӧд part of the stem
 +Ord+Iter:%>ысь K ;
 +Ord+Iter+Ins:%>ысьӧн K ;
@@ -40,6 +43,7 @@ LEXICON ORD
 +Ord+Distr+Err/Dial:%>эн PredMonLex ;
 
 LEXICON DET_
+!! LEXICON @LEXNAME@ 
 !+Det+Ord: ABS_ ; 2018-10-21
 +Det+Ord: NumCASEPOSSLEX ; ! ӧд part of the stem
 +Det+Ord+Iter:%>ысь K ;
@@ -49,14 +53,17 @@ LEXICON DET_
 +Det+Card+Distr+Err/Dial:%>эн K ;
 
 LEXICON DET_END
+!! LEXICON @LEXNAME@ 
 !кыкнан
 +AssocColl: # ;
 
 
 LEXICON NUM-IS_DISTR
+!! LEXICON @LEXNAME@ 
 +Distr: PredMonLex ;
 
 LEXICON QNT_
+!! LEXICON @LEXNAME@ 
 +Qnt: NumCASEPOSSLEX ;
 +Qnt+Card+Iter:%>ысь K ;
 +Qnt+Card+Iter+Ins:%>ысьӧн K ;
@@ -67,7 +74,9 @@ LEXICON QNT_
 
 
 !! LEXICON NUM-APPR ! 2011-11-03 This will need work
+
 LEXICON CARD-APPR
+!! LEXICON @LEXNAME@ 
 +Card+Appr: K ;
 +Card+Appr+Der+Der/La+N:%>ла N_ ;
 
@@ -84,10 +93,12 @@ LEXICON CARD-APPR
 
 
 LEXICON NumCASEPOSSLEX
+!! LEXICON @LEXNAME@ 
 +Sg: NumMWN ;
 +Pl:%>ъяс NumMWN ;
 
 LEXICON NumMWN
+!! LEXICON @LEXNAME@ 
 +Nom: K ;
 !+Acc: K ; !This needs something done to it. There should be a TAG distinction
           !between +Acc: and +Acc:%>ӧс
