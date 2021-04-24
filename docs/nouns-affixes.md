@@ -1,5 +1,5 @@
 
-# Noun morphological lexica !
+# Noun morphological lexica 
 
 
  * **LEXICON Vocative**

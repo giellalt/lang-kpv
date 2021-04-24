@@ -2,9 +2,13 @@
 
 # Verbal morphology               
 
+## Temporary lexicon
+
+V_ temporary lexicon gives +V+WORK
 
 ## Closed class verbs
 
+VERBNEGATIVE 
 
 
 
@@ -19,18 +23,24 @@
 Some Flag diacritic lines are with regexes, other with aligned zeros. We want to migrate to
 regexes < … > , for readability reasons (sic!)
 
+IV_ЛОКНЫ 
 
  * **LEXICON V-0_ЛОКНЫ** One verb only, локны:лок
 
 
  * **LEXICON VR_ШУНЫ** 
 
+IV_ШУНЫ 
 
  * **LEXICON V_ШУНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
  * **LEXICON V-0_ШУНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
 
  * **LEXICON VR_АМНЫ**
 
+IV_АМНЫ 
+TV_АМНЫ 
+
+BV_АМНЫ 
 
  * **LEXICON V_АМНЫ** амны:ам Ending in -мны, -жны, -дзны,
  * **LEXICON V-0_АМНЫ** амны:ам Ending in -мны, -жны, -дзны,

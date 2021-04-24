@@ -4,12 +4,15 @@
 
 
 LEXICON INTERJ_
+!! LEXICON @LEXNAME@ 
 : WordEnd ;
 
 LEXICON INTERJ-CONATIVE_
+!! LEXICON @LEXNAME@ 
 +Conative: WordEnd ;
 
 LEXICON INTERJ-FORMULAIC_
+!! LEXICON @LEXNAME@ 
 +Formulaic: WordEnd ;
 
 
