@@ -9,31 +9,19 @@
 
 MD_PAGES=root-morphology.md           \
 		  adjectives-affixes.md       \
+		  adpositions-affixes.md      \
+		  adverbs-affixes.md          \
+		  conjunctors-affixes.md       \
+		  disambiguator-syntax.md     \
+		  interjections-affixes.md      \
 		  nouns-affixes.md            \
+		  particles-affixes.md          \
+		  phonology-morphology.md     \
 		  pronouns-affixes.md         \
 		  propernouns-affixes.md      \
-		  verbs-affixes.md            \
-		  phonology-morphology.md     \
-		  disambiguator-syntax.md 
-# clitics-morphology.md       \
-# compounding-morphology.md   \
-# abbreviations-stems.md      \
-# acronyms-stems.md           \
-# adjectives-stems.md         \
-# adpositions-stems.md        \
-# adverbs-stems.md            \
-# conjunctions-stems.md       \
-# interjections-stems.md      \
-# nouns-oahpa-stems.md        \
-# nouns-stems.md              \
-# numerals-stems.md           \
-# particles-stems.md          \
-# pronouns-stems.md           \
-# propernouns-stems.md        \
-# punctuation-stems.md        \
-# smi-propernouns-stems.md    \
-# subjunctions-stems.md       \
-# verbs-stems.md              \
-# adjectives-oahpa-affixes.md
+		  quantifiers-affixes.md \
+		  symbols-affixes.md \
+		  verbs-affixes.md
+
 
 include $(top_srcdir)/../giella-core/am-shared/docs-dir-include.am
