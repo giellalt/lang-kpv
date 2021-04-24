@@ -4,15 +4,19 @@
 
 
 LEXICON CC_
+!! LEXICON @LEXNAME@ 
 : WordEnd ;
 
 LEXICON CS_
+!! LEXICON @LEXNAME@ 
 : WordEnd ;
 
 LEXICON CS_DIAL
+!! LEXICON @LEXNAME@ 
 +Err/Dial: WordEnd ;
 
 LEXICON CONJ_
+!! LEXICON @LEXNAME@ 
 +CC: WordEnd ;
 
 

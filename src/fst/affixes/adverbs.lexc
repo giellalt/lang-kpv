@@ -3,16 +3,20 @@
 !! Komi adverbs inflect for direction.
 
 
-LEXICON ADV-DEG_ ! depricate ADV-ADA_ and Ad-ATAG
+LEXICON ADV-DEG_ 
+!! LEXICON @LEXNAME@  depricate ADV-ADA_ and Ad-ATAG
 +Deg: WordEnd ;
 
 LEXICON ADV-MANNER_
+!! LEXICON @LEXNAME@ 
 +Manner: K ;
 
 LEXICON ADV-NEG_
+!! LEXICON @LEXNAME@ 
 +Neg: WordEnd ;
 
 LEXICON GER_
+!! LEXICON @LEXNAME@ 
 +V+Ger: ADV_ ;
 
 LEXICON ADV-IS_GER-IGON ! these are checked as gerunds in +Der/иг

@@ -12,76 +12,74 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@uit.no or feedback@divvun.no
 
-!! # Tags and root lexicon for Komi
+!! # Multichar\_Symbols and *Root* lexicon for Komi
 
-!! Morphology
 
 
 Multichar_Symbols
 
-! Check these:
+!! Check these:
 
-+Acron
-+Aux
-+Cmp/SplitR
-+Der/La
-+Du
-+Err/lex
-+Hom1
-+Hom2
-+Hom3
-+Hom4
-+Intens
-
-+Sem/Ant_Fem
-+Sem/Ant_Mal
-+Sem/Patr-Маl
-+Sem/Dummy ! change to +Sem/Dummytag
++Acron        !!≈ * **@CODE@** 
++Aux        !!≈ * **@CODE@** 
++Cmp/SplitR     !!≈ * **@CODE@** 
++Der/La        !!≈ * **@CODE@** 
++Du           !!≈ * **@CODE@** 
++Err/lex     !!≈ * **@CODE@** 
++Hom1        !!≈ * **@CODE@** 
++Hom2        !!≈ * **@CODE@** 
++Hom3        !!≈ * **@CODE@** 
++Hom4        !!≈ * **@CODE@** 
++Intens        !!≈ * **@CODE@** 
++Sem/Ant_Fem  !!≈ * **@CODE@** 
++Sem/Ant_Mal  !!≈ * **@CODE@** 
++Sem/Patr-Маl !!≈ * **@CODE@** 
++Sem/Dummy    !!≈ * **@CODE@** TODO: change to +Sem/Dummytag
 
 !! ## Analysis symbols
-+WORK
-!  ----------------
++WORK   !!≈ * **@CODE@** to mark intermediate solutions
+
 !! The morphological analyses of wordforms for the Komi-Zyrian
 !! language are presented in this system in terms of the following symbols.
-!! (It is highly suggeste	d to follow existing standards when adding new tags).
+!! (It is highly suggeste   d to follow existing standards when adding new tags).
 
-!! The parts-of-speech tags are:
- +A      !!≈ * **@CODE@**:  adjective  кывберд	прилагательное
- +Adp 	 !!≈ * **@CODE@**:  adposition (prepositio, postposition) 	 
- +Adv    !!≈ * **@CODE@**:  adverb	 урчитан	      	наречие
- +CS     !!≈ * **@CODE@**:  subordinating conjunction		XX	подчинительный союз
- +CC     !!≈ * **@CODE@**:  coordinating conjunction		XX	сочинительный союз
- +CC   !!≈ * **@CODE@**:  conjunction word			XX	союзное слово (здесь надо узнать который из 2 выш.)
+!! ### The parts-of-speech tags
+ +A      !!≈ * **@CODE@**:  adjective  кывберд   прилагательное
+ +Adp     !!≈ * **@CODE@**:  adposition (prepositio, postposition)     
+ +Adv    !!≈ * **@CODE@**:  adverb    урчитан            наречие
+ +CS     !!≈ * **@CODE@**:  subordinating conjunction      XX   подчинительный союз
+ +CC     !!≈ * **@CODE@**:  coordinating conjunction      XX   сочинительный союз
+ +CC   !!≈ * **@CODE@**:  conjunction word         XX   союзное слово (здесь надо узнать который из 2 выш.)
  +Det    !!≈ * **@CODE@**:  determiner  XX   XX
- +Interj !!≈ * **@CODE@**:  interjection	междометтьӧ	междометие
- +N      !!≈ * **@CODE@**:  noun		эмакыв	 - существительное
- +Num	 !!≈ * **@CODE@**:  numeral		лыдакыв	числительное
- +Pcle   !!≈ * **@CODE@**:  particle		кывтор	частица
- +Po     !!≈ * **@CODE@**:  postposition	кывбӧр	послелог
- +Pr     !!≈ * **@CODE@**:  preposition	XX	предлог
- +Pron   !!≈ * **@CODE@**:  pronoun	нимвежтас	местоимение
- +Qnt    !!≈ * **@CODE@**:  Quantifier	ХХ	XX
- +V      !!≈ * **@CODE@**:  verb		кадакыв	глагол
+ +Interj !!≈ * **@CODE@**:  interjection   междометтьӧ   междометие
+ +N      !!≈ * **@CODE@**:  noun      эмакыв    - существительное
+ +Num    !!≈ * **@CODE@**:  numeral      лыдакыв   числительное
+ +Pcle   !!≈ * **@CODE@**:  particle      кывтор   частица
+ +Po     !!≈ * **@CODE@**:  postposition   кывбӧр   послелог
+ +Pr     !!≈ * **@CODE@**:  preposition   XX   предлог
+ +Pron   !!≈ * **@CODE@**:  pronoun   нимвежтас   местоимение
+ +Qnt    !!≈ * **@CODE@**:  Quantifier   ХХ   XX
+ +V      !!≈ * **@CODE@**:  verb      кадакыв   глагол
  
-!! The parts of speech are further split up into:
-!! Adjectives
 
-!! Adverbs
- +Ideoph  !!≈ * **@CODE@** These are ideophonic descriptors used to modify the verb
-              !!               вырк ливтясь "**flit** and it flew off"
+!! ### Subtags
+
+!! #### Adverb subtags
+
+ +Ideoph  !!≈ * **@CODE@** These are ideophonic descriptors used to modify the verb --  вырк ливтясь "**flit** and it flew off"
  +Deg         !!≈ * **@CODE@** Degree depricate AdA
  +Manner      !!≈ * **@CODE@** with reference to type of adverb
- +Mult       !! multiplicative, i.e. iterations
+ +Mult        !!≈ * **@CODE@** multiplicative, i.e. iterations
  +Spat        !!≈ * **@CODE@** spatial
  +Temp        !!≈ * **@CODE@** temporal
  +Parenthetic !!≈ * **@CODE@** parenthetical phrase
- +Presentational
+ +Presentational  !!≈ * **@CODE@** 
  
-!! Interjections
+!! #### Interjections
  +Formulaic !!≈ @CODE@ = ???
  +Conative  !!≈ @CODE@ Used for calling animals, for example
 
-!! Nouns
+!! #### Nouns
  +Prop  !!≈ * **@CODE@** proper
  +CollN !!≈ * **@CODE@** used with paired nouns **collective nouns**
  +Relat !!≈ * **@CODE@** relational noun: выв, ув
@@ -89,7 +87,7 @@ Multichar_Symbols
 !! Postpositions
 ! _+ Spat_, _+ Temp_
 
-!! ## Pronouns
+!! ####  Pronouns
  +Dem    !!≈ * **@CODE@**:  demonstrative
  +Indef  !!≈ * **@CODE@**:  indefinite
  +Interr !!≈ * **@CODE@**:  interrogative
@@ -97,13 +95,12 @@ Multichar_Symbols
  +Recipr !!≈ * **@CODE@**:  reciprocal
  +Refl   !!≈ * **@CODE@**:  reflexive
  +Rel    !!≈ * **@CODE@**:  relative
- +Poss	 !!≈ * **@CODE@**:  possessive
+ +Poss    !!≈ * **@CODE@**:  possessive
 
-!! ## Quantifiers (numerals)
+!! #### Quantifiers (numerals)
 !! Quantifiers and Numerals are classified under:
  +Num       !!≈ * **@CODE@**:  numeral лыдакыв
- +Appr      !!≈ * **@CODE@**:  Approximative numeral кавто-колмо, колмошка *two or three*
-            !!           NB! do not confuse with Komi case +Apr
+ +Appr      !!≈ * **@CODE@**:  Approximative numeral кавто-колмо, колмошка *two or three*   NB! do not confuse with Komi case +Apr
  +AssocColl !!≈ * **@CODE@**:  -ne- ; avide-
  +Assoc     !!≈ * **@CODE@**:  +мезть
  +Card      !!≈ * **@CODE@**:  cardinal + NCard
@@ -113,17 +110,17 @@ Multichar_Symbols
  +Iter      !!≈ * **@CODE@: Iterative form expressing number of consecutive times; kpv**:  `кыкысь`
  +Mult      !!≈ * **@CODE@: Multiplicative adverbs number of times; kpv**:  `кык пӧв`
  +Ord       !!≈ * **@CODE@**:  ordinal + NOrd
- +Coord	    !!≈ * **@CODE@**:  Coordinates, i.e. 65˚36′8,30″ in numerals.lexc
- +Cop	    !!≈ * **@CODE@**:  this is for copula complement predicate position with pl in -ӧсь depricated Pred
+ +Coord       !!≈ * **@CODE@**:  Coordinates, i.e. 65˚36′8,30″ in numerals.lexc
+ +Cop       !!≈ * **@CODE@**:  this is for copula complement predicate position with pl in -ӧсь depricated Pred
 
-!! ## Nominals are inflected for Number and Case
+!! #### Nominals are inflected for Number and Case
 
-!! ## Number
+!! #### Number
  +Sg !!≈ * **@CODE@**  singular
  +Pl !!≈ * **@CODE@**  plural
 
 
-!! ## Case
+!! #### Case
 
 !! A category of case in Komi can be identified as:
 ! (1) regular noun morphology
@@ -172,61 +169,49 @@ Multichar_Symbols
 
 
 
-!! The possession is marked as such:
+!! #### Possessive suff
  +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3 !!≈ * **@CODE@** 
-!! ODD
  +Px1 +Px2 +Px3 !!≈ * **@CODE@**
-
-!! The possession and case markers may have switched ordering
 +So/CP  !!≈ * **@CODE@** segment ordering: case, person
 +So/PC  !!≈ * **@CODE@** segment ordering: person, case
 
-!! The comparative forms are:
+!! #### The comparative forms are:
  +Comp !!≈ * **@CODE@** джык
  +Superl !!≈ * **@CODE@** 
-!! Numerals are classified under:
+
+!! #### Numeral tags:
  +Attr +Card !!≈ * **@CODE@** 
  +Ord  !!≈ * **@CODE@** 
  +Coll  !!≈ * **@CODE@** Collective
  +Distr !!≈ * **@CODE@**  Distributive
  +Iter !!≈ * **@CODE@**  Iterative form expressing number of times
- +Tot
- +Arab +Rom 
+ +Tot   !!≈ * **@CODE@** 
+ +Arab +Rom   !!≈ * **@CODE@** 
 
-!! Verb moods are:
- +Ind +Prs +Prt1 +Prt2 +Fut +Imprt
-!!!!! +Pot +Cond
-!! Verb personal forms are:
- +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
-+1 +2 +3 !!Final мед ог _so that I/we won't_ 2019-04-06
-
-!! Other verb forms are
- +Inf
- +Ger !! Gerund This is used with derivations
-
-+ConNeg +Neg
-! +ConNegII +ImprtII +PrsPrc +PrfPrc +Sup +VGen 
+!! #### Verb tags
+ +Ind +Prs +Prt1 +Prt2 +Fut +Imprt    !!≈ * **@CODE@** tense
+ +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3    !!≈ * **@CODE@** person
++1 +2 +3   !!≈ * **@CODE@**  Final мед ог _so that I/we won't_ 2019-04-06
+ +Inf   !!≈ * **@CODE@** 
+ +Ger   !!≈ * **@CODE@**  Gerund This is used with derivations
++ConNeg +Neg   !!≈ * **@CODE@** 
 +VAbess !!≈ * **@CODE@** тӧм Participle
 +VCar !!≈ * **@CODE@** тӧг Gerund
 +VTer !!≈ * **@CODE@** тӧдз Gerund
-
-+Final ! мог, мон, моз 'so that I won't'
-
-! Abbreviated words are classified with:
- +ABBR +ACR
-+Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
-!! Special symbols are classified with:
-+CLB +PUNCT +LEFT +RIGHT
-!! The verbs are syntactically split according to transitivity:
++Final   !!≈ * **@CODE@**  мог, мон, моз 'so that I won't'
  +TV !!≈ * **@CODE@** 
  +IV !!≈ * **@CODE@**
- 
-!! Special multiword units are analysed with:
- +Multi !!≈ * **@CODE@** 
-!! Non-dictionary words can be recognised with:
+! +ConNegII +ImprtII +PrsPrc +PrfPrc +Sup +VGen 
+
+!! #### Other tags
+ +ABBR +ACR   !!≈ * **@CODE@** 
++Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
+!! Special symbols are classified with:
++CLB +PUNCT +LEFT +RIGHT    !!≈ * **@CODE@** 
+ +Multi !!≈ * **@CODE@** Special multiword units are analysed with:
  +Guess !!≈ * **@CODE@** 
 
-!! Question and Focus particles:
+!! #### Question and Focus particles:
  +Qst  !!≈ * **@CODE@**
  +Foc  !!≈ * **@CODE@** 
 +Clt/И  !!≈ * **@CODE@**  This comes at the end of a word -и or after vowels (some authors use -й)
@@ -267,7 +252,7 @@ Multichar_Symbols
 +v23  !!≈ * @CODE@
 +v24  !!≈ * @CODE@
 
-!! The Usage extents are marked using following tags:
+!! #### Usage tags:
  +Err/Orth !!≈ * **@CODE@** 
  +Err/Orth-colloq !!≈ * **@CODE@** colloquial form for patronymic
  +Err/Orth-no-paragogic-j !!≈ * **@CODE@** 
@@ -278,25 +263,25 @@ Multichar_Symbols
  +Err/Lex  !!≈ * **@CODE@** substandard, not in normative fst, no normative lemma помсьыны
  +Use/-Spell !!≈ * **@CODE@** 
  +Use/SpellNoSugg !!≈ * **@CODE@** 
-
  +Use/PMatch       !!≈ * **@CODE@** means that the following is only used in the analyser feeding the disambiguator
  +Use/-PMatch      !!≈ * **@CODE@** Do not include in fst's made for hfst-pmatch
- +Use/NG	   !!≈ * **@CODE@** This is used for minimizing excess generation in apertium kpv-koi
+ +Use/NG      !!≈ * **@CODE@** This is used for minimizing excess generation in apertium kpv-koi
 
-!! Dialect features
-+Dial/л
-+Dial/в
+!! #### Dialect features
++Dial/л    !!≈ * **@CODE@** 
++Dial/в   !!≈ * **@CODE@** 
 
 
-!! Where do these come from source
+!! #### Check these Where do these come from source
 +Src/F         !!≈ * **@CODE@** foreign source apparently 2015-09-08
 +Dim         !!≈ * **@CODE@** diminutive for verbs -ышт- (there might be a better term)
 +Dimin         !!≈ * **@CODE@** diminutive for nouns -тор-
-
  +NonHum  !!≈ * **@CODE@** look at this and place somewhere
 
-! Semantic tags to help disambiguation & synt. analysis: (before POS)
-! Borrowed from main/langs/sme/src/morphology/root.lexc
+!! Semantic tags to help disambiguation & synt. analysis: (before POS)
+!! Borrowed from main/langs/sme/src/morphology/root.lexc
+
+!! ### Semantic tags
 
  +Sem/Act         !!≈ * **@CODE@** Activity
  +Sem/Amount      !!≈ * **@CODE@** Amount
@@ -391,7 +376,6 @@ Multichar_Symbols
  +Sem/Wpn         !!≈ * **@CODE@** Weapon
  +Sem/Wthr        !!≈ * **@CODE@** The Weather or the state of ground
  +Sem/Year        !!≈ * **@CODE@**
-
  +Sem/Sur-Fem         !!≈ * **@CODE@** Surname female
  +Sem/Sur-Mal         !!≈ * **@CODE@** Surname male
  +Sem/Ant             !!≈ * **@CODE@**  Anthroponym
@@ -402,7 +386,7 @@ Multichar_Symbols
  +Sem/Patr-Mal        !!≈ * **@CODE@**  Patronym male
 
 
-! Multiple Semantic tags:
+!! #### Multiple Semantic tags:
 +Sem/Act_Group
 +Sem/Act_Plc
 +Sem/Act_Route
@@ -465,7 +449,7 @@ Multichar_Symbols
 +Sem/Edu_Org
 +Sem/Event_Food
 +Sem/Event_Hum
-+Sem/Event_Plc	        !!≈ * **@CODE@**  сёянін
++Sem/Event_Plc           !!≈ * **@CODE@**  сёянін
 +Sem/Event_Time
 +Sem/Feat-phys_Tool-write
 +Sem/Feat-phys_Veh
@@ -490,7 +474,7 @@ Multichar_Symbols
 +Sem/Hum_Org
 +Sem/Hum_Plant
 +Sem/Hum_Plc
-+Sem/Hum_Prof		!!≈ * **@CODE@**  profession, capacity doctor, tractor driver 
++Sem/Hum_Prof      !!≈ * **@CODE@**  profession, capacity doctor, tractor driver 
 +Sem/Hum_Tool
 +Sem/Hum_Veh
 +Sem/Hum_Wthr
@@ -529,35 +513,29 @@ Multichar_Symbols
 +Sem/Time_Wthr
 
 
-!! Semantics are classified with
-
+!! ### Derivation
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
 ! +V→N  !!≈ * __@CODE@__
 ! +V→V  !!≈ * __@CODE@__
 ! +V→A  !!≈ * __@CODE@__
- 
- +Der/xxx
 
-! tags
-+Der	!!≈ * **@CODE@**  In front of every derivation to make it
-	!!  possible to target derivations as a class e.g. in regular expressions etc 
+!! #### Dertags
+
++Der/xxx   !!≈ * **@CODE@** 
++Der   !!≈ * **@CODE@**  In front of every derivation to make it   possible to target derivations as a class e.g. in regular expressions etc 
 +Der/Ан  !!≈ * **@CODE@**  Process Participle +AN
 +Der/Ана  !!≈ * **@CODE@** Process Participle +ANA
 +Der/Анаа  !!≈ * **@CODE@**  adverb derived from participle (+ANA) +ANAA
 +Der/чӧж  !!≈ * **@CODE@**  +CHOZH
-+Der/тӧг
-
-+Der/Patr	!!≈ * **@CODE@** patronymics in Russian
++Der/тӧг   !!≈ * **@CODE@** 
++Der/Patr   !!≈ * **@CODE@** patronymics in Russian
 +Instr  !!≈ * **@CODE@** 
 +NomAct  !!≈ * **@CODE@**
 +Der/NomAct  !!≈ * **@CODE@**  +Event
 +Der/NomAg  !!≈ * **@CODE@** 
 +Duration  !!≈ * **@CODE@**
-
-!+IG This will be replaced by the segments:
-!+Der/иг+Duration+Ger!!
 +Der/иг  !!≈ * **@CODE@**
 +Der/Ig  !!≈ * **@CODE@**
 +Der/IgKezhlo  !!≈ * **@CODE@**
@@ -570,22 +548,6 @@ Multichar_Symbols
 +Der/IgTyrji  !!≈ * **@CODE@** %{иі%}гтырйи
 +Der/IgTyrja  !!≈ * **@CODE@** %{иі%}гтыръя
 +Der/IgChozh  !!≈ * **@CODE@**%{иі%}гчӧж
-
-
-!Here we need the two sequential characters
-!to replace +OM
-!+Der/ӧм+Event
-!This, of course, implicates a discussion
-!of the so-called gerund "ӧмӧн" +Event+N+Ins and
-
-! These should be added below in derivation declarations
-!
-!
-!+Der/Ан
-! +Der/Ана +Der/Анаа +Der/чӧж
-!Then they should have indication of whether they are gerunds or participles!
-!+Der/тӧдз    !!≈ * __@CODE@__  +VTer
-!+TODZ Verbal terminative
 +Der/ысь  !!≈ * **@CODE@**
 +ActPrsPtc  !!≈ * **@CODE@** 
 +Der/Ан  !!≈ * **@CODE@** Participle
@@ -594,150 +556,132 @@ Multichar_Symbols
 +PrsPtc  !!≈ * **@CODE@** 
 +Der/ӧм  !!≈ * **@CODE@**
 +PastPtc  !!≈ * **@CODE@** 
-
 +Der/кості  !!≈ * **@CODE@**  +KOSTI
 +Der/коста  !!≈ * **@CODE@**  +KOSTA
 +Der/кежлӧ  !!≈ * **@CODE@**  +KEZHLO
-
 +Der/мысь  !!≈ * **@CODE@**  +MYS
 +Der/мысьт  !!≈ * **@CODE@**  +MYST
++Der/сор       !!≈ * **@CODE@**  = +SOR
++Der/тыр       !!≈ * **@CODE@**  = +TYR
++Der/тырйи     !!≈ * **@CODE@**  = +TYRJI
++Der/тыръя     !!≈ * **@CODE@**  = +TYRJA
++Der/мӧн       !!≈ * **@CODE@**  = +MON
++Der/мӧнъя     !!≈ * **@CODE@**  = Ӧнія коми кыв. 2000: 399-403
++Der/ӧмӧн      !!≈ * **@CODE@**  = +OMON !Ӧнія коми кыв. 2000: 425
 
-+Der/сор !+SOR
-+Der/тыр !+TYR
-+Der/тырйи !+TYRJI
-+Der/тыръя !+TYRJA
-+Der/мӧн !+MON
-+Der/мӧнъя !Ӧнія коми кыв. 2000: 399-403
-+Der/ӧмӧн !+OMON !Ӧнія коми кыв. 2000: 425
 
+!! Declaring adjectival derivations
+!! Noun phrase modifiers are generally considered derivational 
 
-! Declaring adjectival derivations
-! Noun phrase modifiers are generally considered derivational 
+!! #### More dertags (TODO: sort/group)
  +MAbe    !!≈ *  **@CODE@** abessive modifier -тӧм 
  +MLoc    !!≈ *  **@CODE@** locative modifier са -
  +MHab    !!≈ *  **@CODE@** habeo modifier а -
  +MTmp    !!≈ *  **@CODE@** temporal modifier ся -
-
 +Der/LocMod ! +Der/ALoc  Denominal locative adjective Der/са
-+Der/ProprietiveMod ! +Der/APrior  Denominal prioritive adjective Der/а
-+Der/PrivMod ! тӧм
-+Der/TempMod ! Der/ся
-
-+Der/а +Der/са +Der/ся +Der/кодь +Der/Иник
-+Der/Ин
-+Der/увса
-+Der/сайса
-+Der/пӧвстса
-+Der/костса
-+Der/бердса
-+Der/бӧрса
-+Der/весьтса
-+Der/водзса
-+Der/вывса
-+Der/гӧгӧрса
-+Der/дорса
-
-+Loc  !!≈ * **@CODE@** LocMod, IneMod Быд во шедӧдӧны бур успеваемость Воркута да Инта каръясса, Прилузскӧй да Княжпогостскӧй районъясса школаяс.
-+LocMod !!≈ * **@CODE@** move to Loc
++Der/ProprietiveMod   !!≈ * **@CODE@** = +Der/APrior  Denominal prioritive adjective Der/а
++Der/PrivMod          !!≈ * **@CODE@** = тӧм
++Der/TempMod          !!≈ * **@CODE@** = Der/ся
++Der/а           !!≈ * **@CODE@** 
++Der/са        !!≈ * **@CODE@** 
++Der/ся        !!≈ * **@CODE@** 
++Der/кодь        !!≈ * **@CODE@** 
++Der/Иник       !!≈ * **@CODE@** 
++Der/Ин          !!≈ * **@CODE@** 
++Der/увса       !!≈ * **@CODE@** 
++Der/сайса       !!≈ * **@CODE@** 
++Der/пӧвстса    !!≈ * **@CODE@** 
++Der/костса       !!≈ * **@CODE@** 
++Der/бердса       !!≈ * **@CODE@** 
++Der/бӧрса       !!≈ * **@CODE@** 
++Der/весьтса    !!≈ * **@CODE@** 
++Der/водзса       !!≈ * **@CODE@** 
++Der/вывса       !!≈ * **@CODE@** 
++Der/гӧгӧрса    !!≈ * **@CODE@** 
++Der/дорса       !!≈ * **@CODE@** 
++Loc     !!≈ * **@CODE@** LocMod, IneMod Быд во шедӧдӧны бур успеваемость Воркута да Инта каръясса, Прилузскӧй да Княжпогостскӧй районъясса школаяс.
++LocMod  !!≈ * **@CODE@** move to Loc
 +CompMod !!≈ * **@CODE@** 
 +Der/тӧм  !!≈ * **@CODE@**  used with nouns and followed by +AbeMod
-+Abe !!≈ * **@CODE@** PrivMod, AbeMod джуджыд анализъястӧм да обобщениеястӧм статьяяс.
-+PrivMod !!≈ * **@CODE@** move to Abe
-+Prp !!≈ * **@CODE@** ProprietiveMod, HabObjMod Весиг киясыс тӧдсаӧсь, найӧ мугов рӧмаӧсь, кузь чорыд чуньясаӧсь.
++Abe            !!≈ * **@CODE@** PrivMod, AbeMod джуджыд анализъястӧм да обобщениеястӧм статьяяс.
++PrivMod        !!≈ * **@CODE@** move to Abe
++Prp            !!≈ * **@CODE@** ProprietiveMod, HabObjMod Весиг киясыс тӧдсаӧсь, найӧ мугов рӧмаӧсь, кузь чорыд чуньясаӧсь.
 +ProprietiveMod !!≈ * **@CODE@** move to Prp
- +Der/TempMod !!≈ * **@CODE@** TempMod Der/ся но и Ф. В. Плесовскийлысь квайтымынӧд вояссяяссӧ * позьӧ аддзыны сӧмын библиотекаясысь.
-! Declaring spatial adverb derivations; see also spatial postpositions
-+Der/ла
-+Der/ладор
-+Der/дор
-+Der/выв
-+Der/тор
+ +Der/TempMod   !!≈ * **@CODE@** TempMod Der/ся но и Ф. В. Плесовскийлысь квайтымынӧд вояссяяссӧ * позьӧ аддзыны сӧмын библиотекаясысь.  Declaring spatial adverb derivations; see also spatial postpositions
++Der/ла         !!≈ * **@CODE@** 
++Der/ладор    !!≈ * **@CODE@** 
++Der/дор      !!≈ * **@CODE@** 
++Der/выв      !!≈ * **@CODE@** 
++Der/тор      !!≈ * **@CODE@** 
++MWN           !!≈ * **@CODE@**  check! used once, should it be +Der/MWN?, Well, yes.
++Der/MWN   !!≈ * **@CODE@** 
++Der/мед   !!≈ * **@CODE@**  Superlative
++Der/сюрӧ +Der/кӧ   !!≈ * **@CODE@**  !Declaring Indefinite Pronoun derivations
++Der/моз    !!≈ * **@CODE@** +MOZ  diminishing, kind of, sort of
++Der/кодь     !!≈ * **@CODE@** diminishing, kind of, sort of
++Der/лун   !!≈ * **@CODE@**  adjective-to-noun
++Der/ӧм   !!≈ * **@CODE@**  verb-to-noun   !Declaring Indefinite Pronoun derivations the combinatory +Event preceding the NP-final noun
 
-! Modifier without noun
-!! 2012-09-11 Perhaps this is only syntactic
-+MWN ! check! used once, should it be +Der/MWN?
-+Der/MWN
-+Der/мед ! Superlative
-
-!Declaring Indefinite Pronoun derivations
-+Der/сюрӧ +Der/кӧ
-
-!Declaring Comparison particles
-+Der/моз !+MOZ ! diminishing, kind of, sort of
-+Der/кодь ! diminishing, kind of, sort of
-
-!Declaring Noun derivations
-+Der/лун ! adjective-to-noun
-! the combinatory +Event preceding the NP-final noun
-+Der/ӧм ! verb-to-noun
-
-!Declaring Deverbal derivations of verbs
-+Der/л
-+Der/лы
-!2017-09-19+Der/ывл
-+Der/ывлы
-+Der/ышт
-!2017-09-19+Der/лывл
-+Der/лывлы
-+Der/сь ! This only occurs following a vowel in an yny-stem
-!2017-09-19+Der/сь
-+Der/сьы
-!2017-09-19+Der/ч ! This appears to be a variant of +Der/сьы; it follows plosives
-+Der/чы ! This appears to be a variant of +Der/сьы; it follows plosives
-+Der/ал
-+Der/овт
-+Der/ась
-
-+Der/N	      !!≈ * @CODE@ Noun derived with conversion from noun, conversion but not ZERO
+!! #### Declaring Deverbal derivations of verbs
++Der/л  !!≈ * **@CODE@** 
++Der/лы  !!≈ * **@CODE@** 
++Der/ывлы  !!≈ * **@CODE@** 
++Der/ышт  !!≈ * **@CODE@** 
++Der/лывлы  !!≈ * **@CODE@** 
++Der/сь   !!≈ * **@CODE@**  This only occurs following a vowel in an yny-stem 2017-09-19+Der/сь
++Der/сьы  !!≈ * **@CODE@**  2017-09-19+Der/ч ! This appears to be a variant of +Der/сьы; it follows plosives
++Der/чы   !!≈ * **@CODE@**  This appears to be a variant of +Der/сьы; it follows plosives
++Der/ал  !!≈ * **@CODE@** 
++Der/овт  !!≈ * **@CODE@** 
++Der/ась  !!≈ * **@CODE@** 
++Der/N         !!≈ * @CODE@ Noun derived with conversion from noun, conversion but not ZERO
 +Der/A        !!≈ * @CODE@ Adjective derivated from Noun or Verb
 +Der/Adv      !!≈ * @CODE@ Adverb derivated from Adjective
 
 
-!! Tags for Ethymological Origin marking. This has initially used used with proper nouns
-+EOLang/BXR
-+EOLang/CHM
-+EOLang/KOI
-+EOLang/KOM
-+EOLang/KPV
-+EOLang/MHR
-+EOLang/MRJ
-+EOLang/MDF
-+EOLang/MYV
-+EOLang/RUS
-+EOLang/YRK
+!! #### Tags for Ethymological Origin marking. This has initially used used with proper nouns
++EOLang/BXR    !!≈ * **@CODE@** 
++EOLang/CHM    !!≈ * **@CODE@** 
++EOLang/KOI    !!≈ * **@CODE@** 
++EOLang/KOM    !!≈ * **@CODE@** 
++EOLang/KPV    !!≈ * **@CODE@** 
++EOLang/MHR    !!≈ * **@CODE@** 
++EOLang/MRJ    !!≈ * **@CODE@** 
++EOLang/MDF    !!≈ * **@CODE@** 
++EOLang/MYV    !!≈ * **@CODE@** 
++EOLang/RUS    !!≈ * **@CODE@** 
++EOLang/YRK    !!≈ * **@CODE@** 
 
 
-!! Sentence markers
+!! #### Sentence markers
 
-+Cop  !!≈ * **@CODE@** Copula	кадакыв, коді шуӧ: вӧлі либӧ ӧнія кадся	Связка
++Cop  !!≈ * **@CODE@** Copula   кадакыв, коді шуӧ: вӧлі либӧ ӧнія кадся   Связка
 
 
-!! Morphophonology
+!! ### Morphophonology
 !  ---------------
 
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
 
+!! #### Archiphonemes
+
 {aä}  !!≈ * **@CODE@**:  Vowel alternating symbol
 {oö}  !!≈ * **@CODE@**:  Vowel alternating symbol 
 {uü}  !!≈ * **@CODE@**:  Vowel alternating symbol
-
 %^к2 %^л2 %^м2 %^т2 %^ь2 %^К2 %^Л2 %^М2 %^Т2 %^Ь2 %^И2  !!≈ * **@CODE@**
 %^V1       !!= * @CODE@ for reduplicated vowel унаӧн > унаан
 %>   !!≈ * **@CODE@**  suffix border
+%{иі%}   !!≈ * **@CODE@**:  for soft and hard
+%{ая%}   !!≈ * **@CODE@**:  for soft and hard
 
-%{иі%}	!!≈ * **@CODE@**:  for soft and hard
-%{ая%}	!!≈ * **@CODE@**:  for soft and hard
+!! #### Triggers to control variation
+{front} !!≈ * **@CODE@**:  Vowel change triggers
+{back}  !!≈ * **@CODE@**:  Vowel change triggers
+%^Close !!≈ * @CODE@ Close syllable, this triggers final consonant drop, seen in word-final position and before consonant
+%^C2V   !!= * @CODE@ Consonant v to vowel, Izhva ныы, ооны
 
-!! And following triggers to control variation
- {front} !!≈ * **@CODE@**:  Vowel change triggers
- {back}  !!≈ * **@CODE@**:  Vowel change triggers
- 
-%^Close	!!≈ * @CODE@ Close syllable, this triggers final consonant drop, seen in
-        !!    word-final position and before consonant
-%^C2V       !!= * @CODE@ Consonant v to vowel, Izhva ныы, ооны
-
-!! Valency tags, i.e. tags assigned to verbs for denoting their arbuments
+!! #### Valency tags, i.e. tags assigned to verbs for denoting their arbuments
 
 +%<acc%>                  !!≈ * @CODE@ accusative
 +%<ela%>                  !!≈ * @CODE@ elative -ысь
@@ -757,10 +701,12 @@ Multichar_Symbols
 
 !! ## Flag diacritics
 
-
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics - only allow compounds
 !! with verbs if the verb is further derived into a noun again:
+
+!! | Flags | Explanation 
+!! | ----- | ----------- 
  @P.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
  @D.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
  @C.NeedNoun@       !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
@@ -769,16 +715,29 @@ Multichar_Symbols
 
 !! Two flags copied from sme
 
+!! | Flags | Explanation 
+!! | ----- | ----------- 
  @P.Pmatch.Loc@       !!≈ |  @CODE@ | Used on multi-token analyses; tell hfst-tokenise/pmatch where in the form/analysis the token should be split.
  @P.Pmatch.Backtrack@ !!≈ |  @CODE@ | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this point in the form (to find combinations of shorter analyses that would otherwise be missed)
 
 
+!! ### Compunding
+
+!! #### Tags
++Cmp         !!≈ * **@CODE@**
++Cmp/Serial  !!≈ *  @CODE@ used with serial verbs
+
+
+!! #### Flags 
 
 !! For languages that allow compounding, the following flag diacritics are needed
 !! to control position-based compounding restrictions for nominals. Their use is
 
 !! handled automatically if combined with +CmpN/xxx tags. If not used, they will
 !! do no harm.
+
+!! | Flags | Explanation 
+!! | ----- | ----------- 
  @P.CmpFrst.FALSE@ !!≈ |  @CODE@ | Require that words tagged as such only appear first
  @D.CmpPref.TRUE@  !!≈ |  @CODE@ | Block such words from entering ENDLEX
  @P.CmpPref.FALSE@ !!≈ |  @CODE@ | Block these words from making further compounds
@@ -787,228 +746,196 @@ Multichar_Symbols
  @U.CmpNone.FALSE@ !!≈ |  @CODE@ | Combines with the prev tag to prohibit compounding
  @P.CmpOnly.TRUE@  !!≈ |  @CODE@ | Sets a flag to indicate that the word has passed R
  @D.CmpOnly.FALSE@ !!≈ |  @CODE@ | Disallow words coming directly from root.
-!!
+
 !! Use the following flag diacritics to control downcasing of derived proper
 !! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 !! these flags. There exists a ready-made regex that will do the actual down-casing
 !! given the proper use of these flags.
+
+!! | Flags | Explanation 
+!! | ----- | ----------- 
  @U.Cap.Obl@        !!≈ |  @CODE@ | Always capital letter for names: Deatnu.
  @U.Cap.Opt@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
-+Cmp    !!≈ * **@CODE@**
 
-+Cmp/Serial   !!≈ |  @CODE@ used with serial verbs
-
-! Flags used with serial verbs
-! VAL = Valence
-@U.CONJ-VAL.TV@
-@U.CONJ-VAL.IV@
-
-! INF = Infinitive
-@U.CONJ-INF.YES@
-@U.CONJ-INF.NO@
-
-! TX = tense
-@U.CONJ-TX.FUT@
-@U.CONJ-TX.PRES@
-@U.CONJ-TX.PRET1@
-@U.CONJ-TX.PRET2@
-
-! GER = gerund
-@U.CONJ-GER.IG@
-
-! MX = mood
-@U.CONJ-MX.IND@
-@U.CONJ-MX.IMP@
-
-! CONNEG = negation
-@U.CONJ-CONNEG.YES@
-@U.CONJ-CONNEG.NO@
-
-! NX = number
-@U.CONJ-NX.PL@
-@U.CONJ-NX.SG@
-
-! POSS = possessive person
-@U.CONJ-POSS.1@
-@U.CONJ-POSS.2@
-@U.CONJ-POSS.3@
-@U.CONJ-POSS.2ACC@
-@U.CONJ-POSS.3ACC@
-
-! PX = person
-@U.CONJ-PX.1@
-@U.CONJ-PX.2@
-@U.CONJ-PX.3@
-
-! Removal
-@C.CONJ-VAL@
-@C.CONJ-INF@
-@C.CONJ-TX@
-@C.CONJ-MX@
-@C.CONJ-GER@
-@C.CONJ-CONNEG@
-@C.CONJ-NX@
-@C.CONJ-PX@
-@C.CONJ-POSS@
-
-!! FLAGS USED WITH COLLECTIVE NOUNS
-@P.PossPx.Sg1@
-@P.PossPx.Sg2@
-@P.PossPx.Sg3@
-@P.PossPx.Pl1@
-@P.PossPx.Pl2@
-@P.PossPx.Pl3@
-
-
-@U.PossPx.Sg1@
-@U.PossPx.Sg2@
-@U.PossPx.Sg3@
-@U.PossPx.Pl1@
-@U.PossPx.Pl2@
-@U.PossPx.Pl3@
-
-@D.PossPx@
-@C.PossPx@
-
-
-! number
-@U.DECL-NX.SG@
-@U.DECL-NX.PL@
-@R.DECL-NX.PL@
-! case
-@U.DECL-CX.ABE@
- @U.DECL-CX.ABL@
- @U.DECL-CX.ACC@
- @U.DECL-CX.APR@
- @U.DECL-CX.APRINE@
- @U.DECL-CX.APRILL@
- @U.DECL-CX.APRELA@
- @U.DECL-CX.APREGR@
- @U.DECL-CX.APRPRL@
- @U.DECL-CX.APRTRA@
- @U.DECL-CX.APRTER@
- @U.DECL-CX.CAR@
- @U.DECL-CX.CMP@
- @U.DECL-CX.CNS@
- @U.DECL-CX.COM@
- @U.DECL-CX.DAT@
- @U.DECL-CX.EGR@
- @U.DECL-CX.ELA@
- @U.DECL-CX.GEN@
- @U.DECL-CX.ILL@
- @U.DECL-CX.INE@
- @U.DECL-CX.INS@
- @U.DECL-CX.NOM@
- @U.DECL-CX.PRL@
- @U.DECL-CX.TRA@
- @U.DECL-CX.TER@
-
-! declension type
-@U.DECL-DX.INDEF@
-@U.DECL-DX.PX@
-
-! predicate
-!@U.DECL-PR.1@
-!@C.DECL-PR@
-
-!! Removal
-@C.DECL-NX@
-@C.DECL-DX@
-@C.DECL-CX@
-
+!! | Flags | Explanation 
+!! | ----- | ----------- 
+@U.CONJ-VAL.TV@          !!≈ |  @CODE@ | Flags used with serial verbs: VAL = Valence
+@U.CONJ-VAL.IV@          !!≈ |  @CODE@ | Flags used with serial verbs: VAL = Valence
+@U.CONJ-INF.YES@       !!≈ |  @CODE@ |  INF = Infinitive
+@U.CONJ-INF.NO@          !!≈ |  @CODE@ |  INF = Infinitive
+@U.CONJ-TX.FUT@          !!≈ |  @CODE@ |  TX = tense
+@U.CONJ-TX.PRES@       !!≈ |  @CODE@ |  TX = tense
+@U.CONJ-TX.PRET1@      !!≈ |  @CODE@ |  TX = tense
+@U.CONJ-TX.PRET2@      !!≈ |  @CODE@ |  TX = tense
+@U.CONJ-GER.IG@          !!≈ |  @CODE@ |  GER = gerund
+@U.CONJ-MX.IND@          !!≈ |  @CODE@ | MX = mood
+@U.CONJ-MX.IMP@          !!≈ |  @CODE@ | MX = mood
+@U.CONJ-CONNEG.YES@    !!≈ |  @CODE@ | CONNEG = negation
+@U.CONJ-CONNEG.NO@     !!≈ |  @CODE@ | CONNEG = negation
+.CONJ-NX.PL@          !!≈ |  @CODE@ | NX = number
+@U.CONJ-NX.SG@          !!≈ |  @CODE@ | NX = number
+@U.CONJ-POSS.1@          !!≈ |  @CODE@ | POSS = possessive, person 1
+@U.CONJ-POSS.2@          !!≈ |  @CODE@ | POSS = possessive 2
+@U.CONJ-POSS.3@          !!≈ |  @CODE@ | POSS = possessive 3
+@U.CONJ-POSS.2ACC@     !!≈ |  @CODE@ | POSS = possessive etc.
+@U.CONJ-POSS.3ACC@     !!≈ |  @CODE@ | POSS = possessive
+@U.CONJ-PX.1@          !!≈ |  @CODE@ | PX = person
+@U.CONJ-PX.2@          !!≈ |  @CODE@ | PX = person
+@U.CONJ-PX.3@          !!≈ |  @CODE@ | PX = person
+@C.CONJ-VAL@          !!≈ |  @CODE@ | Removal
+@C.CONJ-INF@          !!≈ |  @CODE@ | Removal
+@C.CONJ-TX@             !!≈ |  @CODE@ | Removal
+@C.CONJ-MX@             !!≈ |  @CODE@ | Removal
+@C.CONJ-GER@          !!≈ |  @CODE@ | Removal
+@C.CONJ-CONNEG@          !!≈ |  @CODE@ | Removal
+@C.CONJ-NX@             !!≈ |  @CODE@ | Removal
+@C.CONJ-PX@             !!≈ |  @CODE@ | Removal
+@C.CONJ-POSS@          !!≈ |  @CODE@ | Removal
+@P.PossPx.Sg1@          !!≈ |  @CODE@ | FLAGS USED WITH COLLECTIVE NOUNS
+@P.PossPx.Sg2@          !!≈ |  @CODE@ | FLAGS USED WITH COLLECTIVE NOUNS
+@P.PossPx.Sg3@          !!≈ |  @CODE@ | FLAGS USED WITH COLLECTIVE NOUNS
+@P.PossPx.Pl1@          !!≈ |  @CODE@ | FLAGS USED WITH COLLECTIVE NOUNS
+@P.PossPx.Pl2@          !!≈ |  @CODE@ | FLAGS USED WITH COLLECTIVE NOUNS
+@P.PossPx.Pl3@          !!≈ |  @CODE@ | FLAGS USED WITH COLLECTIVE NOUNS
+@U.PossPx.Sg1@          !!≈ |  @CODE@ | FLAGS USED WITH COLLECTIVE NOUNS
+@U.PossPx.Sg2@          !!≈ |  @CODE@ | FLAGS USED WITH COLLECTIVE NOUNS
+@U.PossPx.Sg3@          !!≈ |  @CODE@ | FLAGS USED WITH COLLECTIVE NOUNS
+@U.PossPx.Pl1@          !!≈ |  @CODE@ | FLAGS USED WITH COLLECTIVE NOUNS
+@U.PossPx.Pl2@          !!≈ |  @CODE@ | FLAGS USED WITH COLLECTIVE NOUNS
+@U.PossPx.Pl3@          !!≈ |  @CODE@ | FLAGS USED WITH COLLECTIVE NOUNS
+@D.PossPx@             !!≈ |  @CODE@ | FLAGS USED WITH COLLECTIVE NOUNS
+@C.PossPx@             !!≈ |  @CODE@ | FLAGS USED WITH COLLECTIVE NOUNS
+@U.DECL-NX.SG@          !!≈ |  @CODE@ | number
+@U.DECL-NX.PL@          !!≈ |  @CODE@ | number
+@R.DECL-NX.PL@          !!≈ |  @CODE@ | number
+@U.DECL-CX.ABE@          !!≈ |  @CODE@ | unify case
+ @U.DECL-CX.ABL@       !!≈ |  @CODE@ | unify case
+ @U.DECL-CX.ACC@       !!≈ |  @CODE@ | unify case
+ @U.DECL-CX.APR@       !!≈ |  @CODE@ | unify case
+ @U.DECL-CX.APRINE@    !!≈ |  @CODE@ | unify case
+ @U.DECL-CX.APRILL@    !!≈ |  @CODE@ | unify case
+ @U.DECL-CX.APRELA@    !!≈ |  @CODE@ | unify case
+ @U.DECL-CX.APREGR@    !!≈ |  @CODE@ | unify case
+ @U.DECL-CX.APRPRL@    !!≈ |  @CODE@ | unify case
+ @U.DECL-CX.APRTRA@    !!≈ |  @CODE@ | unify case
+ @U.DECL-CX.APRTER@    !!≈ |  @CODE@ | unify case
+ @U.DECL-CX.CAR@       !!≈ |  @CODE@ | unify case
+ @U.DECL-CX.CMP@       !!≈ |  @CODE@ | unify case
+ @U.DECL-CX.CNS@       !!≈ |  @CODE@ | unify case
+ @U.DECL-CX.COM@       !!≈ |  @CODE@ | unify case
+ @U.DECL-CX.DAT@       !!≈ |  @CODE@ | unify case
+ @U.DECL-CX.EGR@       !!≈ |  @CODE@ | unify case
+ @U.DECL-CX.ELA@       !!≈ |  @CODE@ | unify case
+ @U.DECL-CX.GEN@       !!≈ |  @CODE@ | unify case
+ @U.DECL-CX.ILL@       !!≈ |  @CODE@ | unify case
+ @U.DECL-CX.INE@       !!≈ |  @CODE@ | unify case
+ @U.DECL-CX.INS@       !!≈ |  @CODE@ | unify case
+ @U.DECL-CX.NOM@       !!≈ |  @CODE@ | unify case
+ @U.DECL-CX.PRL@       !!≈ |  @CODE@ | unify case
+ @U.DECL-CX.TRA@       !!≈ |  @CODE@ | unify case
+ @U.DECL-CX.TER@       !!≈ |  @CODE@ | unify case
+@U.DECL-DX.INDEF@      !!≈ |  @CODE@ | declension type
+@U.DECL-DX.PX@          !!≈ |  @CODE@ | declension type
+@C.DECL-NX@             !!≈ |  @CODE@ | Removal
+@C.DECL-DX@             !!≈ |  @CODE@ | Removal
+@C.DECL-CX@             !!≈ |  @CODE@ | Removal
  @U.Cap.Obl@      !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj
  @U.Cap.Opt@      !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj
 
-!! # Lexicon Root
-LEXICON Root
+! predicate             !!≈ |  @CODE@ | 
+!@U.DECL-PR.1@          !!≈ |  @CODE@ | 
+!@C.DECL-PR@          !!≈ |  @CODE@ | 
 
-  SUBSTANDARDS ; ! temporary solution
+!! ## Lexicon Root
+LEXICON Root
 
 !! The word forms in Komi (Zyrian) language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
-              adjectives                                 ;
-              adjectives-russian-like                    ;
-              kom-adjectives-russian-like                ;
-              adpositions                                ;
-              adverbs                                    ;
-              conjunctors                                ;
-              descriptives                               ;
-              determiners                                ;
-              gerunds                                    ;
-              interjections                              ;
-              nouns-deverbal                             ;
-              nouns                                      ;
-              nouns-russian-homographs                   ;
-              numerals                                   ;
-              particles                                  ;
-              pronouns                                   ;
-              propernouns-malenames-cyrillic             ;
-!             propernouns-malenames-russian-derivable    ; ! 2015-09-07
-              propernouns-malesurnames-cyrillic          ;
-!             propernouns-malesurnames-russian-derivable ; ! 2015-09-07
-! ! 2015-09-07
-              propernouns-toponyms-Russian               ; !2019-10-30 Cyrillic
-  @U.Cap.Obl@ propernouns-toponyms-Komi                  ; ! toponyms - always uppercase
-  @U.Cap.Opt@ propernouns-toponyms-Komi                  ; ! toponyms - allow downcasing for adj derivation
-              propernouns                                ;
-              quantifiers                                ;
-              subjunctors                                ;
-              verbs-A2M                                  ;
-              verbs-N2END                                ;
-              VERBNEGATIVE                               ; ! affixes/verbs.lexc
-              PRONOUN-TYPES                              ; ! in affixes/pronouns.lexc 2019-04-06
+  SUBSTANDARDS ; !!≈ * @CODE@  temporary solution
+              adjectives                         ; !!≈ * @CODE@ 
+              adjectives-russian-like            ; !!≈ * @CODE@ 
+              kom-adjectives-russian-like        ; !!≈ * @CODE@ 
+              adpositions                        ; !!≈ * @CODE@ 
+              adverbs                            ; !!≈ * @CODE@ 
+              conjunctors                        ; !!≈ * @CODE@ 
+              descriptives                       ; !!≈ * @CODE@ 
+              determiners                        ; !!≈ * @CODE@ 
+              gerunds                            ; !!≈ * @CODE@ 
+              interjections                      ; !!≈ * @CODE@ 
+              nouns-deverbal                     ; !!≈ * @CODE@ 
+              nouns                              ; !!≈ * @CODE@ 
+              nouns-russian-homographs           ; !!≈ * @CODE@ 
+              numerals                           ; !!≈ * @CODE@ 
+              particles                          ; !!≈ * @CODE@ 
+              pronouns                           ; !!≈ * @CODE@ 
+              propernouns-malenames-cyrillic     ; !!≈ * @CODE@ 
+              propernouns-malesurnames-cyrillic  ; !!≈ * @CODE@ 
+              propernouns-toponyms-Russian       ; !!≈ * @CODE@ 2019-10-30 Cyrillic
+  @U.Cap.Obl@ propernouns-toponyms-Komi          ; !!≈ * @CODE@  toponyms - always uppercase
+  @U.Cap.Opt@ propernouns-toponyms-Komi          ; !!≈ * @CODE@  toponyms - allow downcasing for adj derivation
+              propernouns                        ; !!≈ * @CODE@ 
+              quantifiers                        ; !!≈ * @CODE@ 
+              subjunctors                        ; !!≈ * @CODE@ 
+              verbs-A2M                          ; !!≈ * @CODE@ 
+              verbs-N2END                        ; !!≈ * @CODE@ 
+              VERBNEGATIVE                       ; !!≈ * @CODE@  affixes/verbs.lexc
+              PRONOUN-TYPES                      ; !!≈ * @CODE@  in affixes/pronouns.lexc 2019-04-06
+              Abbreviation                       ; !!≈ * @CODE@ 
+              Acronym                            ; !!≈ * @CODE@ 
+              kpv-Acronym                        ; !!≈ * @CODE@ 
+              Punctuation                        ; !!≈ * @CODE@ 
+              Symbols                            ; !!≈ * @CODE@ 
+              EXCEPTIONS                         ; !!≈ * @CODE@ 
+              dialect_lexicon                    ; !!≈ * @CODE@ 
+              urj-Cyrl-ProperNouns               ; !!≈ * @CODE@ ! Testing 2015-09-06
+             A_NEWWORDS              ;             !!≈ * @CODE@ 
+             A-Russian-like_NEWWORDS ;             !!≈ * @CODE@ 
+             ADV_NEWWORDS            ;             !!≈ * @CODE@ 
+             N_NEWWORDS              ;             !!≈ * @CODE@ 
+ @U.Cap.Obl@ PROP_NEWWORDS           ;             !!≈ * @CODE@ 
+ @U.Cap.Opt@ PROP_NEWWORDS           ;             !!≈ * @CODE@ 
+             V_NEWWORDS              ;             !!≈ * @CODE@ 
 
-              Abbreviation                               ;
-              Acronym                                    ;
-              kpv-Acronym                                ;
-              Punctuation                                ;
-              Symbols                                    ;
-              EXCEPTIONS                                 ;
-              dialect_lexicon                            ;
-              !RussianSurnamesDerive                     ; ! Only testing 2012-11-15
-              urj-Cyrl-ProperNouns                       ; !! Testing 2015-09-06
-!! Feeding new words
-             A_NEWWORDS              ;
-             A-Russian-like_NEWWORDS ;
-             ADV_NEWWORDS            ;
-             N_NEWWORDS              ;
- @U.Cap.Obl@ PROP_NEWWORDS           ;
- @U.Cap.Opt@ PROP_NEWWORDS           ;
-             V_NEWWORDS              ;
 
 ! ======================================================= !
-! These lexica are for parts of speech without morphology !
+!! ### Lexica without morphology !
 ! ======================================================= !
 
-! Absolute forms
+!! Absolute forms
 LEXICON ABS_
+!! @LEXNAME@
  +Abs: # ;
 !! пу керка
 !! выль керка
 
-! Compounding
+
+!! ### Compounding
 
 LEXICON R
+!! @LEXNAME@
 +Cmp#:%-# nouns ;
 +Cmp#:%-# nouns-russian-homographs ;
 +Cmp#:%-# nouns-deverbal ;
 
 LEXICON Serial-Verbs
+!! @LEXNAME@
 +Cmp/Serial+Cmp#:%-# verbs-A2M ;
 +Cmp/Serial+Cmp#:%-# verbs-N2END ;
 +Cmp/Serial+Cmp#:%-# V_NEWWORDS ;
 
 
 
-! ==================================== !
-! Lexica called End, whatever they are !
-! ==================================== !
+!  ==================================== !
+!! ### Lexica called End, whatever they are 
+!  ==================================== !
 
 LEXICON ABBR-IS_ADV
+!! @LEXNAME@
 +ABBR: ADV_ ;
 
 LEXICON ABBR-IS_N
+!! @LEXNAME@
 +ABBR+N: WordEnd ; ! This needs a Noun1 continuation but the hyphen must
              ! be dealt with for non-nominative-singular marking 2012-01-27
 
@@ -1020,10 +947,11 @@ LEXICON ABBR-IS_N
 
 
 ! ======= !
-! Clitics !
+!! ### Clitics 
 ! ======= !
 
 LEXICON K
+!! @LEXNAME@
  WordEnd ;
 +Clt/тӧ:%>тӧ WordEnd ;
 +Clt/сӧ:%>сӧ WordEnd ;
@@ -1034,12 +962,14 @@ LEXICON K
 ! For this all instances of _#_
 ! were converted to _WordEnd_
 LEXICON WordEnd
+!! @LEXNAME@
             # ;
 +Qst/A:%>%-а WordEnd-2 ;
 +Qst/Oe:%>%-ӧ WordEnd-2 ;
 +Qst/Oe:%>%-э WordEnd-2 ;
 
 LEXICON WordEnd-2
+!! @LEXNAME@
             # ;
 +Clt/И:%-И2 # ;
 
@@ -1053,10 +983,12 @@ LEXICON WordEnd-2
 ! This should have the following case forms pointing toward it:
 ! ine, ill, ela, apr, aprela, aprill, aprine
 LEXICON SPAT-COMPARATIVE
+!! @LEXNAME@
  COMPARATIVE ;
  PredMonLex-Spat-Add-Morphology ; !
 
 LEXICON COMPARATIVE
+!! @LEXNAME@
                K ;
 +Comp:%>джык K ; !more
 +Der+Der/моз:%>моз K ; ! like -- in verbal constructions (Jaska thinks 2018-10-21)
@@ -1066,15 +998,17 @@ LEXICON COMPARATIVE
 
 
 LEXICON SUBSTANDARDS
+!! @LEXNAME@
 коръя+Err/Orth:корья Noun1 ;
 
+!! ## Endlex
+
 LEXICON ENDLEX
-!! # Lexicon @LEXNAME@
+!! Lexicon @LEXNAME@
 !! And this is the @LEXNAME@ of everything:
-!! ```
+
    @D.CmpOnly.FALSE@@D.CmpPref.TRUE@@D.NeedNoun.ON@ # ; !!≈ @CODE@
 ! @D.Need3Part.ON@ # ; !3part
-!! ```
 !! The `@D.CmpOnly.FALSE@` flag diacritic is ued to disallow words tagged
 !! with +CmpNP/Only to end here.
 !! The `@D.NeedNoun.ON@` flag diacritic is used to block illegal compounds.

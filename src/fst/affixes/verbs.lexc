@@ -4,14 +4,18 @@
 !! # Verbal morphology               
 ! ====================================== !
 
+!! ## Temporary lexicon
+
 LEXICON V_
-+WORK: # ;
+!! @LEXNAME@ temporary lexicon gives +V+WORK
++V+WORK: # ;
 
 !! ## Closed class verbs
 ! ------------------
 
 LEXICON VERBNEGATIVE
-!Present Neg
+!! @LEXNAME@ 
+! Present Neg
 оз+V+Neg+Ind+Prs+Sg1:ог MatrixVerb-Comparison ;
 оз+V+Neg+Ind+Prs+Sg2:он MatrixVerb-Comparison ;
 оз+V+Neg+Ind+Prs+Sg3:оз MatrixVerb-Comparison ;
@@ -78,6 +82,7 @@ LEXICON VERBNEGATIVE
 !! regexes < … > , for readability reasons (sic!)
 
 LEXICON IV_ЛОКНЫ
+!! @LEXNAME@ 
 @U.CONJ-VAL.IV@+IV:@U.CONJ-VAL.IV@ V-0_ЛОКНЫ ;
 !2018-10-21!LEXICON TV_ЛОКНЫ
 !2018-10-21!+TV: V-0_ЛОКНЫ ;
@@ -116,6 +121,7 @@ LEXICON VR_ШУНЫ !!≈ * **@CODE@**
 @U.CONJ-INF.YES@@U.CONJ-VAL.IV@+Refl:@U.CONJ-INF.YES@@U.CONJ-VAL.IV@а Verb-nyDer-ONSET-А ;
 
 LEXICON IV_ШУНЫ
+!! @LEXNAME@ 
 @U.CONJ-VAL.IV@+IV:@U.CONJ-VAL.IV@ V-0_ШУНЫ ;
 LEXICON TV_ШУНЫ
 @U.CONJ-VAL.TV@+TV:@U.CONJ-VAL.TV@ V-0_ШУНЫ ;
@@ -144,10 +150,14 @@ LEXICON VR_АМНЫ !!≈ * **@CODE@**
 +Refl: VerbConj-V ; !б
 
 LEXICON IV_АМНЫ
+!! @LEXNAME@ 
 @U.CONJ-VAL.IV@+IV:@U.CONJ-VAL.IV@  V-0_АМНЫ ;
 LEXICON TV_АМНЫ
+!! @LEXNAME@ 
 @U.CONJ-VAL.TV@+TV:@U.CONJ-VAL.TV@  V-0_АМНЫ ;
 LEXICON BV_АМНЫ
+
+!! @LEXNAME@ 
 @U.CONJ-VAL.IV@+IV:@U.CONJ-VAL.IV@  V-0_АМНЫ ;
 @U.CONJ-VAL.TV@+TV:@U.CONJ-VAL.TV@  V-0_АМНЫ ;
 

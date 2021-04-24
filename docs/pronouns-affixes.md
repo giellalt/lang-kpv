@@ -1,6 +1,7 @@
 # Pronominal morphology                           
 
 ## Closed class personal pronouns
+LEXICON PRONOUN-TYPES 
 
  * **LEXICON PERS** 
  * **ме+Pron+Pers+Sg1: PERS-SG1 ;** ...

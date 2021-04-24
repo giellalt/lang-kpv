@@ -1,21 +1,27 @@
-!! Proper noun inflection
+!! # Proper noun inflection
 ! ----------------------
 
 !! Komi proper nouns inflect in the same cases as regular
 !! nouns.
 
+!! ## Temporary lexica
+
 LEXICON ACRON-F
+!! LEXICON @LEXNAME@ 
 +Src/F+: ACRON ;
 
 LEXICON ACRON
+!! LEXICON @LEXNAME@ 
 @U.Cap.Obl@+Acron:@U.Cap.Obl@	PROP_	;
 @U.Cap.Obl@+Acron:@U.Cap.Obl@-яс CASEPOSSLEX ; !acronyms with plural
 
 LEXICON PROP-RUS_ !
+!! LEXICON @LEXNAME@ 
 PROP_ ;
 !PROP_-DERIVABLE
 ! Basic proper nouns.
 LEXICON PROP_
+!! LEXICON @LEXNAME@ 
 @U.Cap.Obl@+Sg:@U.Cap.Obl@ CASEPOSSLEX ;
 @U.Cap.Obl@+Pl:@U.Cap.Obl@%>ъяс CASEPOSSLEX ; !Reinstalling plural morphology 2019-06-03
 
@@ -23,74 +29,92 @@ LEXICON Prop-R-RY
 : Noun1-R-RY ; ! This will bring about problems with ordering 2012-02-07
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!
-!! Russian type Surnames 
+!! ## Russian type Surnames 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 !! Preparing for the template urj-Cyrl
 !! Beginning 2012-11-15
 LEXICON CYRL-CONS_SUR
+!! LEXICON @LEXNAME@ 
  PropSur-kal ;
 
 LEXICON CYRL-SIBILANT_SUR
+!! LEXICON @LEXNAME@ 
  PropSur-osh ;
 
 LEXICON CYRL-VOW_SUR
+!! LEXICON @LEXNAME@ 
  PropSur-kudo ;
 
 LEXICON CYRL-A_SUR
+!! LEXICON @LEXNAME@ 
  PropSur-kudo ;
 
 LEXICON CYRL-K_SUR 
+!! LEXICON @LEXNAME@ 
  PropSur-lak ;
 
 LEXICON CYRL-L_SUR 
+!! LEXICON @LEXNAME@ 
 :2 PropSur-kal ; !!= * @CODE@ These are foreign Л words
 
 LEXICON CYRL-T_SUR
+!! LEXICON @LEXNAME@ 
  PropSur-kit ;
 
 LEXICON PROP_KUDO_SURFEM !!= * @CODE@ giella-shared
  PropSurFem-kudo ;
 
 LEXICON Deriv-RUS-AN_SURMAL
+!! LEXICON @LEXNAME@ 
  Deriv-RUS-V_SURMAL ;
 
 !! Абдеев:Абдеев
 LEXICON Deriv-RUS-V_SURMAL
+!! LEXICON @LEXNAME@ 
 : PropSurMal-kal ;
 :а PropSurFem-kudo ;
 
 !! Багрий:Багр
 LEXICON Deriv-RUS-IJ_SURMAL
+!! LEXICON @LEXNAME@ 
 :ий PropSurMal-kal ;
 :яя PropSurFem-kudo ;
 
 LEXICON Deriv-RUS-IN_SURMAL
+!! LEXICON @LEXNAME@ 
  Deriv-RUS-V_SURMAL ;
 
 !! Аморский:Аморск
 LEXICON Deriv-RUS-KIJ_SURMAL
+!! LEXICON @LEXNAME@ 
 :ий PropSurMal-kal ;
 :ая PropSurFem-kudo ;
 
 LEXICON Deriv-RUS-OJ_SURMAL
+!! LEXICON @LEXNAME@ 
 :ой PropSurMal-kal ;
 :ая PropSurFem-kudo ;
 
 LEXICON Deriv-RUS-YJ_SURMAL
+!! LEXICON @LEXNAME@ 
 :ый PropSurMal-kal ;
 :ая PropSurFem-kudo ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!! PLACE NAMES FROM TEMPLATES !!
+!! ## PLACE NAMES FROM TEMPLATES 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 LEXICON PROP-PLC_KAL
+!! LEXICON @LEXNAME@ 
 +Sem/Plc+Sg: CASEPOSSLEX ;
 
 LEXICON PROP-PLC_KIT
+!! LEXICON @LEXNAME@ 
 +Sem/Plc+Sg: CASEPOSSLEX ;
 
 LEXICON PROP-PLC_KUDO
+!! LEXICON @LEXNAME@ 
 +Sem/Plc+Sg: CASEPOSSLEX ;
 
 !2018-10-21!LEXICON PROP-PLC_OSH
@@ -106,7 +130,7 @@ LEXICON PROP-PLC_KUDO
 !2018-10-21!LEXICON PROP_NIA	!!= * @CODE@ Аня+Sem/Fem:Ан
 !2018-10-21!+Sg:я  CASEPOSSLEX ;
 
-!!
+
 LEXICON PROP_KAL_FEM
 +Sem/Fem: PROP_ ;
 LEXICON PROP_KAL_MAL
@@ -141,7 +165,7 @@ LEXICON PROP_OSH_PATRMAL
 !+Sem/Sur: PROP_ ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!! Male given name for deriving patronyms 
+!! ## Male given name for deriving patronyms 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON PROP-PATR-MAL_END-IN-CH/DZ
 +Sem/Patr-Mal: NMN_END-IN-Ч/ДЗ ; !! Should this be limited to +Sg? 2015-09-06
@@ -190,7 +214,7 @@ LEXICON PropNameMaleDer-Ovich
 +Der/Patr:овна PROP_KUDO_PATRFEM ;
  PROP_KAL_MAL ;
 
-!!
+
 
 LEXICON PropSurMal-kal
 +Sem/Sur-Mal: PROP_ ;
@@ -248,7 +272,7 @@ LEXICON PROP-MAL-DERIVABLE !Patronyms
 !2018-10-21!+Sem/Fem: NMN_ ;
  
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!! PLACE NAMES FROM TEMPLATES !!
+!! ## PLACE NAMES FROM TEMPLATES 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
@@ -327,3 +351,4 @@ LEXICON Prop-Sur-Fem ! Basic nouns.
 
 ! vim: set ft=xfst-lexc:
 
+ x

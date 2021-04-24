@@ -4,20 +4,25 @@
 
 
 LEXICON PCLE_
+!! LEXICON @LEXNAME@ 
 : WordEnd ;
 
 LEXICON PCLE_NEG
+!! LEXICON @LEXNAME@ 
 +Aux+Neg: PredMonLex ;
 
 LEXICON PcleIntens
+!! LEXICON @LEXNAME@ 
 +Intens: WordEnd ;
 
 LEXICON ONOM_
+!! LEXICON @LEXNAME@ 
 +Ideoph: WordEnd ;
 
 !LEXICON DESCR-End
 ! DescrTag ;
 LEXICON DESCR_
+!! LEXICON @LEXNAME@ 
 +Ideoph: WordEnd ;
 
 
