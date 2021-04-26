@@ -192,7 +192,7 @@ Multichar_Symbols
 !! #### Other tags
  +ABBR +ACR   !!≈ * **@CODE@** 
 +Acron        !!≈ * **@CODE@** 
-+Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
++Symbol !!≈ * **@CODE@** = independent symbols in the text stream, like £, €, ©
 !! Special symbols are classified with:
 +CLB +PUNCT +LEFT +RIGHT    !!≈ * **@CODE@** 
  +Multi !!≈ * **@CODE@** Special multiword units are analysed with:
@@ -218,30 +218,30 @@ Multichar_Symbols
 
 
 !! ### Tags distinguishing different versions of the same lemma (before POS)
-+v1   !!≈ * @CODE@
-+v2   !!≈ * @CODE@
-+v3   !!≈ * @CODE@
-+v4   !!≈ * @CODE@
-+v5   !!≈ * @CODE@
-+v6   !!≈ * @CODE@
-+v7   !!≈ * @CODE@
-+v8   !!≈ * @CODE@
-+v9   !!≈ * @CODE@
-+v10  !!≈ * @CODE@
-+v11  !!≈ * @CODE@
-+v12  !!≈ * @CODE@
-+v13  !!≈ * @CODE@
-+v14  !!≈ * @CODE@
-+v15  !!≈ * @CODE@
-+v16  !!≈ * @CODE@
-+v17  !!≈ * @CODE@
-+v18  !!≈ * @CODE@
-+v19  !!≈ * @CODE@
-+v20  !!≈ * @CODE@
-+v21  !!≈ * @CODE@
-+v22  !!≈ * @CODE@
-+v23  !!≈ * @CODE@
-+v24  !!≈ * @CODE@
++v1   !!≈ * **@CODE@**
++v2   !!≈ * **@CODE@**
++v3   !!≈ * **@CODE@**
++v4   !!≈ * **@CODE@**
++v5   !!≈ * **@CODE@**
++v6   !!≈ * **@CODE@**
++v7   !!≈ * **@CODE@**
++v8   !!≈ * **@CODE@**
++v9   !!≈ * **@CODE@**
++v10  !!≈ * **@CODE@**
++v11  !!≈ * **@CODE@**
++v12  !!≈ * **@CODE@**
++v13  !!≈ * **@CODE@**
++v14  !!≈ * **@CODE@**
++v15  !!≈ * **@CODE@**
++v16  !!≈ * **@CODE@**
++v17  !!≈ * **@CODE@**
++v18  !!≈ * **@CODE@**
++v19  !!≈ * **@CODE@**
++v20  !!≈ * **@CODE@**
++v21  !!≈ * **@CODE@**
++v22  !!≈ * **@CODE@**
++v23  !!≈ * **@CODE@**
++v24  !!≈ * **@CODE@**
 
 !! #### Usage tags:
  +Err/Orth !!≈ * **@CODE@** 
@@ -250,17 +250,17 @@ Multichar_Symbols
  +Err/Orth-no-paragogic-k !!≈ * **@CODE@** 
  +Err/Orth-no-paragogic-m !!≈ * **@CODE@** 
  +Err/Orth-no-paragogic-t !!≈ * **@CODE@** 
- +Err/Dial !!≈ * **@CODE@** e.g. тэг instead of тӧг
- +Err/Lex  !!≈ * **@CODE@** substandard, not in normative fst, no normative lemma помсьыны
- +Use/-Spell !!≈ * **@CODE@** 
- +Use/SpellNoSugg !!≈ * **@CODE@** 
- +Use/PMatch       !!≈ * **@CODE@** means that the following is only used in the analyser feeding the disambiguator
- +Use/-PMatch      !!≈ * **@CODE@** Do not include in fst's made for hfst-pmatch
- +Use/NG      !!≈ * **@CODE@** This is used for minimizing excess generation in apertium kpv-koi
+ +Err/Dial                !!≈ * **@CODE@** e.g. тэг instead of тӧг
+ +Err/Lex                 !!≈ * **@CODE@** substandard, not in normative fst, no normative lemma помсьыны
+ +Use/-Spell              !!≈ * **@CODE@** 
+ +Use/SpellNoSugg         !!≈ * **@CODE@** 
+ +Use/PMatch              !!≈ * **@CODE@** means that the following is only used in the analyser feeding the disambiguator
+ +Use/-PMatch             !!≈ * **@CODE@** Do not include in fst's made for hfst-pmatch
+ +Use/NG                  !!≈ * **@CODE@** This is used for minimizing excess generation in apertium kpv-koi
 
 !! #### Dialect features
-+Dial/л    !!≈ * **@CODE@** 
-+Dial/в   !!≈ * **@CODE@** 
++Dial/л                   !!≈ * **@CODE@** 
++Dial/в                   !!≈ * **@CODE@** 
 
 
 !! #### Check these Where do these come from source
@@ -655,7 +655,7 @@ Multichar_Symbols
 {oö}  !!≈ * **@CODE@**:  Vowel alternating symbol 
 {uü}  !!≈ * **@CODE@**:  Vowel alternating symbol
 %^к2 %^л2 %^м2 %^т2 %^ь2 %^К2 %^Л2 %^М2 %^Т2 %^Ь2 %^И2  !!≈ * **@CODE@**
-%^V1       !!= * @CODE@ for reduplicated vowel унаӧн > унаан
+%^V1       !!= * **@CODE@** for reduplicated vowel унаӧн > унаан
 %>   !!≈ * **@CODE@**  suffix border
 %{иі%}   !!≈ * **@CODE@**:  for soft and hard
 %{ая%}   !!≈ * **@CODE@**:  for soft and hard
@@ -663,24 +663,24 @@ Multichar_Symbols
 !! #### Triggers to control variation
 {front} !!≈ * **@CODE@**:  Vowel change triggers
 {back}  !!≈ * **@CODE@**:  Vowel change triggers
-%^Close !!≈ * @CODE@ Close syllable, this triggers final consonant drop, seen in word-final position and before consonant
-%^C2V   !!= * @CODE@ Consonant v to vowel, Izhva ныы, ооны
+%^Close !!≈ * **@CODE@** Close syllable, this triggers final consonant drop, seen in word-final position and before consonant
+%^C2V   !!= * **@CODE@** Consonant v to vowel, Izhva ныы, ооны
 
 !! #### Valency tags, i.e. tags assigned to verbs for denoting their arbuments
 
-+%<acc%>                  !!≈ * @CODE@ accusative
-+%<ela%>                  !!≈ * @CODE@ elative -ысь
-+%<ins%>                  !!≈ * @CODE@ instrumental -ӧн
-+%<inf_ны%>               !!≈ * @CODE@ infinitive in -ны
-+%<po_вылӧ%>              !!≈ * @CODE@ postposition вылӧ
-+%<sub_мый%>              !!≈ * @CODE@ subordinate clause in мый/that
++%<acc%>                  !!≈ * **@CODE@** accusative
++%<ela%>                  !!≈ * **@CODE@** elative -ысь
++%<ins%>                  !!≈ * **@CODE@** instrumental -ӧн
++%<inf_ны%>               !!≈ * **@CODE@** infinitive in -ны
++%<po_вылӧ%>              !!≈ * **@CODE@** postposition вылӧ
++%<sub_мый%>              !!≈ * **@CODE@** subordinate clause in мый/that
 
 
 !! ### Symbols that need to be escaped on the lower side (towards twolc):
 
  »7     !! * »
  «7     !! * «
- %[%>%] !! * > (written with square brackets, see the root.lexc file)
+ %[%>%] !! * \> (written with square brackets, see the root.lexc file)
  %[%<%] !! * < (written with square brackets, see the root.lexc file)
 
 
@@ -692,9 +692,9 @@ Multichar_Symbols
 
 !! | Flags | Explanation 
 !! | ----- | ----------- 
- @P.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
- @D.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
- @C.NeedNoun@       !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
+ @P.NeedNoun.ON@    !!≈ |  **@CODE@** | (Dis)allow compounds with verbs unless nominalised
+ @D.NeedNoun.ON@    !!≈ |  **@CODE@** | (Dis)allow compounds with verbs unless nominalised
+ @C.NeedNoun@       !!≈ |  **@CODE@** | (Dis)allow compounds with verbs unless nominalised
 
 
 
@@ -702,8 +702,8 @@ Multichar_Symbols
 
 !! | Flags | Explanation 
 !! | ----- | ----------- 
- @P.Pmatch.Loc@       !!≈ |  @CODE@ | Used on multi-token analyses; tell hfst-tokenise/pmatch where in the form/analysis the token should be split.
- @P.Pmatch.Backtrack@ !!≈ |  @CODE@ | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this point in the form (to find combinations of shorter analyses that would otherwise be missed)
+ @P.Pmatch.Loc@       !!≈ |  **@CODE@** | Used on multi-token analyses; tell hfst-tokenise/pmatch where in the form/analysis the token should be split.
+ @P.Pmatch.Backtrack@ !!≈ |  **@CODE@** | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this point in the form (to find combinations of shorter analyses that would otherwise be missed)
 
 
 !! ### Compunding
@@ -724,14 +724,14 @@ Multichar_Symbols
 
 !! | Flags | Explanation 
 !! | ----- | ----------- 
- @P.CmpFrst.FALSE@ !!≈ |  @CODE@ | Require that words tagged as such only appear first
- @D.CmpPref.TRUE@  !!≈ |  @CODE@ | Block such words from entering ENDLEX
- @P.CmpPref.FALSE@ !!≈ |  @CODE@ | Block these words from making further compounds
- @D.CmpLast.TRUE@  !!≈ |  @CODE@ | Block such words from entering R
- @D.CmpNone.TRUE@  !!≈ |  @CODE@ | Combines with the next tag to prohibit compounding
- @U.CmpNone.FALSE@ !!≈ |  @CODE@ | Combines with the prev tag to prohibit compounding
- @P.CmpOnly.TRUE@  !!≈ |  @CODE@ | Sets a flag to indicate that the word has passed R
- @D.CmpOnly.FALSE@ !!≈ |  @CODE@ | Disallow words coming directly from root.
+ @P.CmpFrst.FALSE@ !!≈ | **@CODE@** | Require that words tagged as such only appear first
+ @D.CmpPref.TRUE@  !!≈ | **@CODE@** | Block such words from entering ENDLEX
+ @P.CmpPref.FALSE@ !!≈ | **@CODE@** | Block these words from making further compounds
+ @D.CmpLast.TRUE@  !!≈ | **@CODE@** | Block such words from entering R
+ @D.CmpNone.TRUE@  !!≈ | **@CODE@** | Combines with the next tag to prohibit compounding
+ @U.CmpNone.FALSE@ !!≈ | **@CODE@** | Combines with the prev tag to prohibit compounding
+ @P.CmpOnly.TRUE@  !!≈ | **@CODE@** | Sets a flag to indicate that the word has passed R
+ @D.CmpOnly.FALSE@ !!≈ | **@CODE@** | Disallow words coming directly from root.
 
 !! Use the following flag diacritics to control downcasing of derived proper
 !! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
@@ -740,94 +740,94 @@ Multichar_Symbols
 
 !! | Flags | Explanation 
 !! | ----- | ----------- 
- @U.Cap.Obl@        !!≈ |  @CODE@ | Always capital letter for names: Deatnu.
- @U.Cap.Opt@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
+ @U.Cap.Obl@        !!≈ | **@CODE@** | Always capital letter for names: Deatnu.
+ @U.Cap.Opt@        !!≈ | **@CODE@** | Allowing downcasing of derived names: deatnulasj.
 
 
 !! | Flags | Explanation 
 !! | ----- | ----------- 
-@U.CONJ-VAL.TV@          !!≈ |  @CODE@ | Flags used with serial verbs: VAL = Valence
-@U.CONJ-VAL.IV@          !!≈ |  @CODE@ | Flags used with serial verbs: VAL = Valence
-@U.CONJ-INF.YES@       !!≈ |  @CODE@ |  INF = Infinitive
-@U.CONJ-INF.NO@          !!≈ |  @CODE@ |  INF = Infinitive
-@U.CONJ-TX.FUT@          !!≈ |  @CODE@ |  TX = tense
-@U.CONJ-TX.PRES@       !!≈ |  @CODE@ |  TX = tense
-@U.CONJ-TX.PRET1@      !!≈ |  @CODE@ |  TX = tense
-@U.CONJ-TX.PRET2@      !!≈ |  @CODE@ |  TX = tense
-@U.CONJ-GER.IG@          !!≈ |  @CODE@ |  GER = gerund
-@U.CONJ-MX.IND@          !!≈ |  @CODE@ | MX = mood
-@U.CONJ-MX.IMP@          !!≈ |  @CODE@ | MX = mood
-@U.CONJ-CONNEG.YES@    !!≈ |  @CODE@ | CONNEG = negation
-@U.CONJ-CONNEG.NO@     !!≈ |  @CODE@ | CONNEG = negation
-.CONJ-NX.PL@          !!≈ |  @CODE@ | NX = number
-@U.CONJ-NX.SG@          !!≈ |  @CODE@ | NX = number
-@U.CONJ-POSS.1@          !!≈ |  @CODE@ | POSS = possessive, person 1
-@U.CONJ-POSS.2@          !!≈ |  @CODE@ | POSS = possessive 2
-@U.CONJ-POSS.3@          !!≈ |  @CODE@ | POSS = possessive 3
-@U.CONJ-POSS.2ACC@     !!≈ |  @CODE@ | POSS = possessive etc.
-@U.CONJ-POSS.3ACC@     !!≈ |  @CODE@ | POSS = possessive
-@U.CONJ-PX.1@          !!≈ |  @CODE@ | PX = person
-@U.CONJ-PX.2@          !!≈ |  @CODE@ | PX = person
-@U.CONJ-PX.3@          !!≈ |  @CODE@ | PX = person
-@C.CONJ-VAL@          !!≈ |  @CODE@ | Removal
-@C.CONJ-INF@          !!≈ |  @CODE@ | Removal
-@C.CONJ-TX@             !!≈ |  @CODE@ | Removal
-@C.CONJ-MX@             !!≈ |  @CODE@ | Removal
-@C.CONJ-GER@          !!≈ |  @CODE@ | Removal
-@C.CONJ-CONNEG@          !!≈ |  @CODE@ | Removal
-@C.CONJ-NX@             !!≈ |  @CODE@ | Removal
-@C.CONJ-PX@             !!≈ |  @CODE@ | Removal
-@C.CONJ-POSS@          !!≈ |  @CODE@ | Removal
-@P.PossPx.Sg1@          !!≈ |  @CODE@ | FLAGS USED WITH COLLECTIVE NOUNS
-@P.PossPx.Sg2@          !!≈ |  @CODE@ | FLAGS USED WITH COLLECTIVE NOUNS
-@P.PossPx.Sg3@          !!≈ |  @CODE@ | FLAGS USED WITH COLLECTIVE NOUNS
-@P.PossPx.Pl1@          !!≈ |  @CODE@ | FLAGS USED WITH COLLECTIVE NOUNS
-@P.PossPx.Pl2@          !!≈ |  @CODE@ | FLAGS USED WITH COLLECTIVE NOUNS
-@P.PossPx.Pl3@          !!≈ |  @CODE@ | FLAGS USED WITH COLLECTIVE NOUNS
-@U.PossPx.Sg1@          !!≈ |  @CODE@ | FLAGS USED WITH COLLECTIVE NOUNS
-@U.PossPx.Sg2@          !!≈ |  @CODE@ | FLAGS USED WITH COLLECTIVE NOUNS
-@U.PossPx.Sg3@          !!≈ |  @CODE@ | FLAGS USED WITH COLLECTIVE NOUNS
-@U.PossPx.Pl1@          !!≈ |  @CODE@ | FLAGS USED WITH COLLECTIVE NOUNS
-@U.PossPx.Pl2@          !!≈ |  @CODE@ | FLAGS USED WITH COLLECTIVE NOUNS
-@U.PossPx.Pl3@          !!≈ |  @CODE@ | FLAGS USED WITH COLLECTIVE NOUNS
-@D.PossPx@             !!≈ |  @CODE@ | FLAGS USED WITH COLLECTIVE NOUNS
-@C.PossPx@             !!≈ |  @CODE@ | FLAGS USED WITH COLLECTIVE NOUNS
-@U.DECL-NX.SG@          !!≈ |  @CODE@ | number
-@U.DECL-NX.PL@          !!≈ |  @CODE@ | number
-@R.DECL-NX.PL@          !!≈ |  @CODE@ | number
-@U.DECL-CX.ABE@          !!≈ |  @CODE@ | unify case
- @U.DECL-CX.ABL@       !!≈ |  @CODE@ | unify case
- @U.DECL-CX.ACC@       !!≈ |  @CODE@ | unify case
- @U.DECL-CX.APR@       !!≈ |  @CODE@ | unify case
- @U.DECL-CX.APRINE@    !!≈ |  @CODE@ | unify case
- @U.DECL-CX.APRILL@    !!≈ |  @CODE@ | unify case
- @U.DECL-CX.APRELA@    !!≈ |  @CODE@ | unify case
- @U.DECL-CX.APREGR@    !!≈ |  @CODE@ | unify case
- @U.DECL-CX.APRPRL@    !!≈ |  @CODE@ | unify case
- @U.DECL-CX.APRTRA@    !!≈ |  @CODE@ | unify case
- @U.DECL-CX.APRTER@    !!≈ |  @CODE@ | unify case
- @U.DECL-CX.CAR@       !!≈ |  @CODE@ | unify case
- @U.DECL-CX.CMP@       !!≈ |  @CODE@ | unify case
- @U.DECL-CX.CNS@       !!≈ |  @CODE@ | unify case
- @U.DECL-CX.COM@       !!≈ |  @CODE@ | unify case
- @U.DECL-CX.DAT@       !!≈ |  @CODE@ | unify case
- @U.DECL-CX.EGR@       !!≈ |  @CODE@ | unify case
- @U.DECL-CX.ELA@       !!≈ |  @CODE@ | unify case
- @U.DECL-CX.GEN@       !!≈ |  @CODE@ | unify case
- @U.DECL-CX.ILL@       !!≈ |  @CODE@ | unify case
- @U.DECL-CX.INE@       !!≈ |  @CODE@ | unify case
- @U.DECL-CX.INS@       !!≈ |  @CODE@ | unify case
- @U.DECL-CX.NOM@       !!≈ |  @CODE@ | unify case
- @U.DECL-CX.PRL@       !!≈ |  @CODE@ | unify case
- @U.DECL-CX.TRA@       !!≈ |  @CODE@ | unify case
- @U.DECL-CX.TER@       !!≈ |  @CODE@ | unify case
-@U.DECL-DX.INDEF@      !!≈ |  @CODE@ | declension type
-@U.DECL-DX.PX@          !!≈ |  @CODE@ | declension type
-@C.DECL-NX@             !!≈ |  @CODE@ | Removal
-@C.DECL-DX@             !!≈ |  @CODE@ | Removal
-@C.DECL-CX@             !!≈ |  @CODE@ | Removal
- @U.Cap.Obl@      !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj
- @U.Cap.Opt@      !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj
+@U.CONJ-VAL.TV@          !!≈ | **@CODE@** | Flags used with serial verbs: VAL = Valence
+@U.CONJ-VAL.IV@          !!≈ | **@CODE@** | Flags used with serial verbs: VAL = Valence
+@U.CONJ-INF.YES@         !!≈ | **@CODE@** |  INF = Infinitive
+@U.CONJ-INF.NO@          !!≈ | **@CODE@** |  INF = Infinitive
+@U.CONJ-TX.FUT@          !!≈ | **@CODE@** |  TX = tense
+@U.CONJ-TX.PRES@         !!≈ | **@CODE@** |  TX = tense
+@U.CONJ-TX.PRET1@        !!≈ | **@CODE@** |  TX = tense
+@U.CONJ-TX.PRET2@        !!≈ | **@CODE@** |  TX = tense
+@U.CONJ-GER.IG@          !!≈ | **@CODE@** |  GER = gerund
+@U.CONJ-MX.IND@          !!≈ | **@CODE@** | MX = mood
+@U.CONJ-MX.IMP@          !!≈ | **@CODE@** | MX = mood
+@U.CONJ-CONNEG.YES@      !!≈ | **@CODE@** | CONNEG = negation
+@U.CONJ-CONNEG.NO@       !!≈ | **@CODE@** | CONNEG = negation
+.CONJ-NX.PL@             !!≈ | **@CODE@** | NX = number
+@U.CONJ-NX.SG@           !!≈ | **@CODE@** | NX = number
+@U.CONJ-POSS.1@          !!≈ | **@CODE@** | POSS = possessive, person 1
+@U.CONJ-POSS.2@          !!≈ | **@CODE@** | POSS = possessive 2
+@U.CONJ-POSS.3@          !!≈ | **@CODE@** | POSS = possessive 3
+@U.CONJ-POSS.2ACC@       !!≈ | **@CODE@** | POSS = possessive etc.
+@U.CONJ-POSS.3ACC@       !!≈ | **@CODE@** | POSS = possessive
+@U.CONJ-PX.1@            !!≈ | **@CODE@** | PX = person
+@U.CONJ-PX.2@            !!≈ | **@CODE@** | PX = person
+@U.CONJ-PX.3@            !!≈ | **@CODE@** | PX = person
+@C.CONJ-VAL@             !!≈ | **@CODE@** | Removal
+@C.CONJ-INF@             !!≈ | **@CODE@** | Removal
+@C.CONJ-TX@              !!≈ | **@CODE@** | Removal
+@C.CONJ-MX@              !!≈ | **@CODE@** | Removal
+@C.CONJ-GER@             !!≈ | **@CODE@** | Removal
+@C.CONJ-CONNEG@          !!≈ | **@CODE@** | Removal
+@C.CONJ-NX@              !!≈ | **@CODE@** | Removal
+@C.CONJ-PX@              !!≈ | **@CODE@** | Removal
+@C.CONJ-POSS@            !!≈ | **@CODE@** | Removal
+@P.PossPx.Sg1@           !!≈ | **@CODE@** | FLAGS USED WITH COLLECTIVE NOUNS
+@P.PossPx.Sg2@           !!≈ | **@CODE@** | FLAGS USED WITH COLLECTIVE NOUNS
+@P.PossPx.Sg3@           !!≈ | **@CODE@** | FLAGS USED WITH COLLECTIVE NOUNS
+@P.PossPx.Pl1@           !!≈ | **@CODE@** | FLAGS USED WITH COLLECTIVE NOUNS
+@P.PossPx.Pl2@           !!≈ | **@CODE@** | FLAGS USED WITH COLLECTIVE NOUNS
+@P.PossPx.Pl3@           !!≈ | **@CODE@** | FLAGS USED WITH COLLECTIVE NOUNS
+@U.PossPx.Sg1@           !!≈ | **@CODE@** | FLAGS USED WITH COLLECTIVE NOUNS
+@U.PossPx.Sg2@           !!≈ | **@CODE@** | FLAGS USED WITH COLLECTIVE NOUNS
+@U.PossPx.Sg3@           !!≈ | **@CODE@** | FLAGS USED WITH COLLECTIVE NOUNS
+@U.PossPx.Pl1@           !!≈ | **@CODE@** | FLAGS USED WITH COLLECTIVE NOUNS
+@U.PossPx.Pl2@           !!≈ | **@CODE@** | FLAGS USED WITH COLLECTIVE NOUNS
+@U.PossPx.Pl3@           !!≈ | **@CODE@** | FLAGS USED WITH COLLECTIVE NOUNS
+@D.PossPx@               !!≈ | **@CODE@** | FLAGS USED WITH COLLECTIVE NOUNS
+@C.PossPx@               !!≈ | **@CODE@** | FLAGS USED WITH COLLECTIVE NOUNS
+@U.DECL-NX.SG@           !!≈ | **@CODE@** | number
+@U.DECL-NX.PL@           !!≈ | **@CODE@** | number
+@R.DECL-NX.PL@           !!≈ | **@CODE@** | number
+@U.DECL-CX.ABE@          !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.ABL@         !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.ACC@         !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.APR@         !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.APRINE@      !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.APRILL@      !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.APRELA@      !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.APREGR@      !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.APRPRL@      !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.APRTRA@      !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.APRTER@      !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.CAR@         !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.CMP@         !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.CNS@         !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.COM@         !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.DAT@         !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.EGR@         !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.ELA@         !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.GEN@         !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.ILL@         !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.INE@         !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.INS@         !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.NOM@         !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.PRL@         !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.TRA@         !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.TER@         !!≈ | **@CODE@** | unify case
+@U.DECL-DX.INDEF@        !!≈ | **@CODE@** | declension type
+@U.DECL-DX.PX@           !!≈ | **@CODE@** | declension type
+@C.DECL-NX@              !!≈ | **@CODE@** | Removal
+@C.DECL-DX@              !!≈ | **@CODE@** | Removal
+@C.DECL-CX@              !!≈ | **@CODE@** | Removal
+ @U.Cap.Obl@             !!≈ | **@CODE@** | Allowing downcasing of derived names: deatnulasj
+ @U.Cap.Opt@             !!≈ | **@CODE@** | Allowing downcasing of derived names: deatnulasj
 
 ! predicate             !!≈ |  @CODE@ | 
 !@U.DECL-PR.1@          !!≈ |  @CODE@ | 
