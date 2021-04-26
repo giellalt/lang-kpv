@@ -20,22 +20,6 @@ Multichar_Symbols
 
 !! Check these:
 
-+Acron        !!≈ * **@CODE@** 
-+Aux        !!≈ * **@CODE@** 
-+Cmp/SplitR     !!≈ * **@CODE@** 
-+Der/La        !!≈ * **@CODE@** 
-+Du           !!≈ * **@CODE@** 
-+Err/lex     !!≈ * **@CODE@** 
-+Hom1        !!≈ * **@CODE@** 
-+Hom2        !!≈ * **@CODE@** 
-+Hom3        !!≈ * **@CODE@** 
-+Hom4        !!≈ * **@CODE@** 
-+Intens        !!≈ * **@CODE@** 
-+Sem/Ant_Fem  !!≈ * **@CODE@** 
-+Sem/Ant_Mal  !!≈ * **@CODE@** 
-+Sem/Patr-Маl !!≈ * **@CODE@** 
-+Sem/Dummy    !!≈ * **@CODE@** TODO: change to +Sem/Dummytag
-
 !! ## Analysis symbols
 +WORK   !!≈ * **@CODE@** to mark intermediate solutions
 
@@ -49,7 +33,6 @@ Multichar_Symbols
  +Adv    !!≈ * **@CODE@**:  adverb    урчитан            наречие
  +CS     !!≈ * **@CODE@**:  subordinating conjunction      XX   подчинительный союз
  +CC     !!≈ * **@CODE@**:  coordinating conjunction      XX   сочинительный союз
- +CC   !!≈ * **@CODE@**:  conjunction word         XX   союзное слово (здесь надо узнать который из 2 выш.)
  +Det    !!≈ * **@CODE@**:  determiner  XX   XX
  +Interj !!≈ * **@CODE@**:  interjection   междометтьӧ   междометие
  +N      !!≈ * **@CODE@**:  noun      эмакыв    - существительное
@@ -76,15 +59,15 @@ Multichar_Symbols
  +Presentational  !!≈ * **@CODE@** 
  
 !! #### Interjections
- +Formulaic !!≈ @CODE@ = ???
- +Conative  !!≈ @CODE@ Used for calling animals, for example
+ +Formulaic !!≈ **@CODE@** = expressions such as аттьӧ, ало, ... 
+ +Conative  !!≈ **@CODE@** Used for calling animals, for example брысь, баль-баль, ...
 
 !! #### Nouns
  +Prop  !!≈ * **@CODE@** proper
  +CollN !!≈ * **@CODE@** used with paired nouns **collective nouns**
  +Relat !!≈ * **@CODE@** relational noun: выв, ув
 
-!! Postpositions
+! Postpositions
 ! _+ Spat_, _+ Temp_
 
 !! ####  Pronouns
@@ -97,27 +80,14 @@ Multichar_Symbols
  +Rel    !!≈ * **@CODE@**:  relative
  +Poss    !!≈ * **@CODE@**:  possessive
 
-!! #### Quantifiers (numerals)
-!! Quantifiers and Numerals are classified under:
- +Num       !!≈ * **@CODE@**:  numeral лыдакыв
- +Appr      !!≈ * **@CODE@**:  Approximative numeral кавто-колмо, колмошка *two or three*   NB! do not confuse with Komi case +Apr
- +AssocColl !!≈ * **@CODE@**:  -ne- ; avide-
- +Assoc     !!≈ * **@CODE@**:  +мезть
- +Card      !!≈ * **@CODE@**:  cardinal + NCard
- +ZeroColl      !!≈ * **@CODE@**:  Zero collective кодныс
- +Coll      !!≈ * **@CODE@**:  collective
- +Distr     !!≈ * **@CODE@**:  Distributive
- +Iter      !!≈ * **@CODE@: Iterative form expressing number of consecutive times; kpv**:  `кыкысь`
- +Mult      !!≈ * **@CODE@: Multiplicative adverbs number of times; kpv**:  `кык пӧв`
- +Ord       !!≈ * **@CODE@**:  ordinal + NOrd
- +Coord       !!≈ * **@CODE@**:  Coordinates, i.e. 65˚36′8,30″ in numerals.lexc
- +Cop       !!≈ * **@CODE@**:  this is for copula complement predicate position with pl in -ӧсь depricated Pred
 
 !! #### Nominals are inflected for Number and Case
 
 !! #### Number
  +Sg !!≈ * **@CODE@**  singular
  +Pl !!≈ * **@CODE@**  plural
++Du  !!≈ * **@CODE@** for pronoun.
+
 
 
 !! #### Case
@@ -182,11 +152,23 @@ Multichar_Symbols
 !! #### Numeral tags:
  +Attr +Card !!≈ * **@CODE@** 
  +Ord  !!≈ * **@CODE@** 
- +Coll  !!≈ * **@CODE@** Collective
- +Distr !!≈ * **@CODE@**  Distributive
  +Iter !!≈ * **@CODE@**  Iterative form expressing number of times
  +Tot   !!≈ * **@CODE@** 
  +Arab +Rom   !!≈ * **@CODE@** 
+
+!! #### Quantifiers (numerals)
+
+ +Appr      !!≈ * **@CODE@**:  Approximative numeral кавто-колмо, колмошка *two or three*   NB! do not confuse with Komi case +Apr
+ +AssocColl !!≈ * **@CODE@**:  -ne- ; avide-
+ +Assoc     !!≈ * **@CODE@**:  +мезть
+ +Card      !!≈ * **@CODE@**:  cardinal + NCard
+ +ZeroColl      !!≈ * **@CODE@**:  Zero collective кодныс
+ +Distr     !!≈ * **@CODE@**:  Distributive
+ +Iter      !!≈ * **@CODE@: Iterative form expressing number of consecutive times; kpv**:  `кыкысь`
+ +Mult      !!≈ * **@CODE@: Multiplicative adverbs number of times; kpv**:  `кык пӧв`
+ +Coord       !!≈ * **@CODE@**:  Coordinates, i.e. 65˚36′8,30″ in numerals.lexc
+ +Cop       !!≈ * **@CODE@**:  this is for copula complement predicate position with pl in -ӧсь depricated Pred
+
 
 !! #### Verb tags
  +Ind +Prs +Prt1 +Prt2 +Fut +Imprt    !!≈ * **@CODE@** tense
@@ -202,9 +184,14 @@ Multichar_Symbols
  +TV !!≈ * **@CODE@** 
  +IV !!≈ * **@CODE@**
 ! +ConNegII +ImprtII +PrsPrc +PrfPrc +Sup +VGen 
++Aux        !!≈ * **@CODE@** 
+
+
+
 
 !! #### Other tags
  +ABBR +ACR   !!≈ * **@CODE@** 
++Acron        !!≈ * **@CODE@** 
 +Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 !! Special symbols are classified with:
 +CLB +PUNCT +LEFT +RIGHT    !!≈ * **@CODE@** 
@@ -222,6 +209,10 @@ Multichar_Symbols
 +Clt/сӧ  !!≈ * **@CODE@**
 +Clt/Kodj  !!≈ * **@CODE@** adjectival phrase
 +Clt/Moz  !!≈ * **@CODE@** adverbial clause
+
++Hom1        !!≈ * **@CODE@** 
++Hom2        !!≈ * **@CODE@** 
++Intens        !!≈ * **@CODE@** 
 
 !!! !Tags usually not visible outside the code:
 
@@ -387,6 +378,9 @@ Multichar_Symbols
 
 
 !! #### Multiple Semantic tags:
++Sem/Ant_Fem  !!≈ * **@CODE@** 
++Sem/Ant_Mal  !!≈ * **@CODE@** 
++Sem/Patr-Маl !!≈ * **@CODE@** 
 +Sem/Act_Group
 +Sem/Act_Plc
 +Sem/Act_Route
@@ -525,8 +519,9 @@ Multichar_Symbols
 
 +Der/xxx   !!≈ * **@CODE@** 
 +Der   !!≈ * **@CODE@**  In front of every derivation to make it   possible to target derivations as a class e.g. in regular expressions etc 
++Der/La        !!≈ * **@CODE@** 
 +Der/Ан  !!≈ * **@CODE@**  Process Participle +AN
-+Der/Ана  !!≈ * **@CODE@** Process Participle +ANA
++Der/Ана  !!≈ * **@CODE@** Process Participle +ANA, Gerund or participle according to context (with...)
 +Der/Анаа  !!≈ * **@CODE@**  adverb derived from participle (+ANA) +ANAA
 +Der/чӧж  !!≈ * **@CODE@**  +CHOZH
 +Der/тӧг   !!≈ * **@CODE@** 
@@ -550,11 +545,8 @@ Multichar_Symbols
 +Der/IgChozh  !!≈ * **@CODE@**%{иі%}гчӧж
 +Der/ысь  !!≈ * **@CODE@**
 +ActPrsPtc  !!≈ * **@CODE@** 
-+Der/Ан  !!≈ * **@CODE@** Participle
-+Der/Ана  !!≈ * **@CODE@** Gerund or participle according to context (with...)
 +PrsPrc  !!≈ * **@CODE@**
 +PrsPtc  !!≈ * **@CODE@** 
-+Der/ӧм  !!≈ * **@CODE@**
 +PastPtc  !!≈ * **@CODE@** 
 +Der/кості  !!≈ * **@CODE@**  +KOSTI
 +Der/коста  !!≈ * **@CODE@**  +KOSTA
@@ -581,11 +573,9 @@ Multichar_Symbols
 +Der/LocMod ! +Der/ALoc  Denominal locative adjective Der/са
 +Der/ProprietiveMod   !!≈ * **@CODE@** = +Der/APrior  Denominal prioritive adjective Der/а
 +Der/PrivMod          !!≈ * **@CODE@** = тӧм
-+Der/TempMod          !!≈ * **@CODE@** = Der/ся
 +Der/а           !!≈ * **@CODE@** 
 +Der/са        !!≈ * **@CODE@** 
 +Der/ся        !!≈ * **@CODE@** 
-+Der/кодь        !!≈ * **@CODE@** 
 +Der/Иник       !!≈ * **@CODE@** 
 +Der/Ин          !!≈ * **@CODE@** 
 +Der/увса       !!≈ * **@CODE@** 
@@ -651,11 +641,6 @@ Multichar_Symbols
 +EOLang/MYV    !!≈ * **@CODE@** 
 +EOLang/RUS    !!≈ * **@CODE@** 
 +EOLang/YRK    !!≈ * **@CODE@** 
-
-
-!! #### Sentence markers
-
-+Cop  !!≈ * **@CODE@** Copula   кадакыв, коді шуӧ: вӧлі либӧ ӧнія кадся   Связка
 
 
 !! ### Morphophonology
@@ -726,6 +711,7 @@ Multichar_Symbols
 !! #### Tags
 +Cmp         !!≈ * **@CODE@**
 +Cmp/Serial  !!≈ *  @CODE@ used with serial verbs
++Cmp/SplitR     !!≈ * **@CODE@** 
 
 
 !! #### Flags 
