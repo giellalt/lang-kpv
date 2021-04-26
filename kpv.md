@@ -165,7 +165,7 @@ A category of case in Komi can be identified as:
 #### Other tags
  * **+ABBR +ACR** 
  * **+Acron** 
- * +Symbol = independent symbols in the text stream, like £, €, ©
+ * **+Symbol** = independent symbols in the text stream, like £, €, ©
 Special symbols are classified with:
  * **+CLB +PUNCT +LEFT +RIGHT** 
  * **+Multi** Special multiword units are analysed with:
@@ -190,30 +190,30 @@ Special symbols are classified with:
 
 
 ### Tags distinguishing different versions of the same lemma (before POS)
- * +v1
- * +v2
- * +v3
- * +v4
- * +v5
- * +v6
- * +v7
- * +v8
- * +v9
- * +v10
- * +v11
- * +v12
- * +v13
- * +v14
- * +v15
- * +v16
- * +v17
- * +v18
- * +v19
- * +v20
- * +v21
- * +v22
- * +v23
- * +v24
+ * **+v1**
+ * **+v2**
+ * **+v3**
+ * **+v4**
+ * **+v5**
+ * **+v6**
+ * **+v7**
+ * **+v8**
+ * **+v9**
+ * **+v10**
+ * **+v11**
+ * **+v12**
+ * **+v13**
+ * **+v14**
+ * **+v15**
+ * **+v16**
+ * **+v17**
+ * **+v18**
+ * **+v19**
+ * **+v20**
+ * **+v21**
+ * **+v22**
+ * **+v23**
+ * **+v24**
 
 #### Usage tags:
  * **+Err/Orth** 
@@ -500,7 +500,7 @@ symbols in the lexicon files:
  * **{oö}**:  Vowel alternating symbol 
  * **{uü}**:  Vowel alternating symbol
  * **%^к2 %^л2 %^м2 %^т2 %^ь2 %^К2 %^Л2 %^М2 %^Т2 %^Ь2 %^И2**
- * %^V1        for reduplicated vowel унаӧн > унаан
+ * **%^V1       ** for reduplicated vowel унаӧн > унаан
  * **%>**  suffix border
  * **%{иі%}**:  for soft and hard
  * **%{ая%}**:  for soft and hard
@@ -508,24 +508,24 @@ symbols in the lexicon files:
 #### Triggers to control variation
  * **{front}**:  Vowel change triggers
  * **{back}**:  Vowel change triggers
- * %^Close Close syllable, this triggers final consonant drop, seen in word-final position and before consonant
- * %^C2V    Consonant v to vowel, Izhva ныы, ооны
+ * **%^Close** Close syllable, this triggers final consonant drop, seen in word-final position and before consonant
+ * **%^C2V   ** Consonant v to vowel, Izhva ныы, ооны
 
 #### Valency tags, i.e. tags assigned to verbs for denoting their arbuments
 
- * +%<acc%> accusative
- * +%<ela%> elative -ысь
- * +%<ins%> instrumental -ӧн
- * +%<inf_ны%> infinitive in -ны
- * +%<po_вылӧ%> postposition вылӧ
- * +%<sub_мый%> subordinate clause in мый/that
+ * **+%<acc%>** accusative
+ * **+%<ela%>** elative -ысь
+ * **+%<ins%>** instrumental -ӧн
+ * **+%<inf_ны%>** infinitive in -ны
+ * **+%<po_вылӧ%>** postposition вылӧ
+ * **+%<sub_мый%>** subordinate clause in мый/that
 
 
 ### Symbols that need to be escaped on the lower side (towards twolc):
 
 * »
 * «
-* > (written with square brackets, see the root.lexc file)
+* \> (written with square brackets, see the root.lexc file)
 * < (written with square brackets, see the root.lexc file)
 
 
@@ -537,9 +537,9 @@ with verbs if the verb is further derived into a noun again:
 
 | Flags | Explanation 
 | ----- | ----------- 
- |  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- |  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- |  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
+ |  **@P.NeedNoun.ON@** | (Dis)allow compounds with verbs unless nominalised
+ |  **@D.NeedNoun.ON@** | (Dis)allow compounds with verbs unless nominalised
+ |  **@C.NeedNoun@** | (Dis)allow compounds with verbs unless nominalised
 
 
 
@@ -547,8 +547,8 @@ Two flags copied from sme
 
 | Flags | Explanation 
 | ----- | ----------- 
- |  @P.Pmatch.Loc@ | Used on multi-token analyses; tell hfst-tokenise/pmatch where in the form/analysis the token should be split.
- |  @P.Pmatch.Backtrack@ | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this point in the form (to find combinations of shorter analyses that would otherwise be missed)
+ |  **@P.Pmatch.Loc@** | Used on multi-token analyses; tell hfst-tokenise/pmatch where in the form/analysis the token should be split.
+ |  **@P.Pmatch.Backtrack@** | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this point in the form (to find combinations of shorter analyses that would otherwise be missed)
 
 
 ### Compunding
@@ -569,14 +569,14 @@ do no harm.
 
 | Flags | Explanation 
 | ----- | ----------- 
- |  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
- |  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
- |  @P.CmpPref.FALSE@ | Block these words from making further compounds
- |  @D.CmpLast.TRUE@ | Block such words from entering R
- |  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
- |  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
- |  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
- |  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
+ | **@P.CmpFrst.FALSE@** | Require that words tagged as such only appear first
+ | **@D.CmpPref.TRUE@** | Block such words from entering ENDLEX
+ | **@P.CmpPref.FALSE@** | Block these words from making further compounds
+ | **@D.CmpLast.TRUE@** | Block such words from entering R
+ | **@D.CmpNone.TRUE@** | Combines with the next tag to prohibit compounding
+ | **@U.CmpNone.FALSE@** | Combines with the prev tag to prohibit compounding
+ | **@P.CmpOnly.TRUE@** | Sets a flag to indicate that the word has passed R
+ | **@D.CmpOnly.FALSE@** | Disallow words coming directly from root.
 
 Use the following flag diacritics to control downcasing of derived proper
 nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
@@ -585,94 +585,94 @@ given the proper use of these flags.
 
 | Flags | Explanation 
 | ----- | ----------- 
- |  @U.Cap.Obl@ | Always capital letter for names: Deatnu.
- |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+ | **@U.Cap.Obl@** | Always capital letter for names: Deatnu.
+ | **@U.Cap.Opt@** | Allowing downcasing of derived names: deatnulasj.
 
 
 | Flags | Explanation 
 | ----- | ----------- 
- |  @U.CONJ-VAL.TV@ | Flags used with serial verbs: VAL = Valence
- |  @U.CONJ-VAL.IV@ | Flags used with serial verbs: VAL = Valence
- |  @U.CONJ-INF.YES@ |  INF = Infinitive
- |  @U.CONJ-INF.NO@ |  INF = Infinitive
- |  @U.CONJ-TX.FUT@ |  TX = tense
- |  @U.CONJ-TX.PRES@ |  TX = tense
- |  @U.CONJ-TX.PRET1@ |  TX = tense
- |  @U.CONJ-TX.PRET2@ |  TX = tense
- |  @U.CONJ-GER.IG@ |  GER = gerund
- |  @U.CONJ-MX.IND@ | MX = mood
- |  @U.CONJ-MX.IMP@ | MX = mood
- |  @U.CONJ-CONNEG.YES@ | CONNEG = negation
- |  @U.CONJ-CONNEG.NO@ | CONNEG = negation
- |  .CONJ-NX.PL@ | NX = number
- |  @U.CONJ-NX.SG@ | NX = number
- |  @U.CONJ-POSS.1@ | POSS = possessive, person 1
- |  @U.CONJ-POSS.2@ | POSS = possessive 2
- |  @U.CONJ-POSS.3@ | POSS = possessive 3
- |  @U.CONJ-POSS.2ACC@ | POSS = possessive etc.
- |  @U.CONJ-POSS.3ACC@ | POSS = possessive
- |  @U.CONJ-PX.1@ | PX = person
- |  @U.CONJ-PX.2@ | PX = person
- |  @U.CONJ-PX.3@ | PX = person
- |  @C.CONJ-VAL@ | Removal
- |  @C.CONJ-INF@ | Removal
- |  @C.CONJ-TX@ | Removal
- |  @C.CONJ-MX@ | Removal
- |  @C.CONJ-GER@ | Removal
- |  @C.CONJ-CONNEG@ | Removal
- |  @C.CONJ-NX@ | Removal
- |  @C.CONJ-PX@ | Removal
- |  @C.CONJ-POSS@ | Removal
- |  @P.PossPx.Sg1@ | FLAGS USED WITH COLLECTIVE NOUNS
- |  @P.PossPx.Sg2@ | FLAGS USED WITH COLLECTIVE NOUNS
- |  @P.PossPx.Sg3@ | FLAGS USED WITH COLLECTIVE NOUNS
- |  @P.PossPx.Pl1@ | FLAGS USED WITH COLLECTIVE NOUNS
- |  @P.PossPx.Pl2@ | FLAGS USED WITH COLLECTIVE NOUNS
- |  @P.PossPx.Pl3@ | FLAGS USED WITH COLLECTIVE NOUNS
- |  @U.PossPx.Sg1@ | FLAGS USED WITH COLLECTIVE NOUNS
- |  @U.PossPx.Sg2@ | FLAGS USED WITH COLLECTIVE NOUNS
- |  @U.PossPx.Sg3@ | FLAGS USED WITH COLLECTIVE NOUNS
- |  @U.PossPx.Pl1@ | FLAGS USED WITH COLLECTIVE NOUNS
- |  @U.PossPx.Pl2@ | FLAGS USED WITH COLLECTIVE NOUNS
- |  @U.PossPx.Pl3@ | FLAGS USED WITH COLLECTIVE NOUNS
- |  @D.PossPx@ | FLAGS USED WITH COLLECTIVE NOUNS
- |  @C.PossPx@ | FLAGS USED WITH COLLECTIVE NOUNS
- |  @U.DECL-NX.SG@ | number
- |  @U.DECL-NX.PL@ | number
- |  @R.DECL-NX.PL@ | number
- |  @U.DECL-CX.ABE@ | unify case
- |  @U.DECL-CX.ABL@ | unify case
- |  @U.DECL-CX.ACC@ | unify case
- |  @U.DECL-CX.APR@ | unify case
- |  @U.DECL-CX.APRINE@ | unify case
- |  @U.DECL-CX.APRILL@ | unify case
- |  @U.DECL-CX.APRELA@ | unify case
- |  @U.DECL-CX.APREGR@ | unify case
- |  @U.DECL-CX.APRPRL@ | unify case
- |  @U.DECL-CX.APRTRA@ | unify case
- |  @U.DECL-CX.APRTER@ | unify case
- |  @U.DECL-CX.CAR@ | unify case
- |  @U.DECL-CX.CMP@ | unify case
- |  @U.DECL-CX.CNS@ | unify case
- |  @U.DECL-CX.COM@ | unify case
- |  @U.DECL-CX.DAT@ | unify case
- |  @U.DECL-CX.EGR@ | unify case
- |  @U.DECL-CX.ELA@ | unify case
- |  @U.DECL-CX.GEN@ | unify case
- |  @U.DECL-CX.ILL@ | unify case
- |  @U.DECL-CX.INE@ | unify case
- |  @U.DECL-CX.INS@ | unify case
- |  @U.DECL-CX.NOM@ | unify case
- |  @U.DECL-CX.PRL@ | unify case
- |  @U.DECL-CX.TRA@ | unify case
- |  @U.DECL-CX.TER@ | unify case
- |  @U.DECL-DX.INDEF@ | declension type
- |  @U.DECL-DX.PX@ | declension type
- |  @C.DECL-NX@ | Removal
- |  @C.DECL-DX@ | Removal
- |  @C.DECL-CX@ | Removal
- |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj
- |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj
+ | **@U.CONJ-VAL.TV@** | Flags used with serial verbs: VAL = Valence
+ | **@U.CONJ-VAL.IV@** | Flags used with serial verbs: VAL = Valence
+ | **@U.CONJ-INF.YES@** |  INF = Infinitive
+ | **@U.CONJ-INF.NO@** |  INF = Infinitive
+ | **@U.CONJ-TX.FUT@** |  TX = tense
+ | **@U.CONJ-TX.PRES@** |  TX = tense
+ | **@U.CONJ-TX.PRET1@** |  TX = tense
+ | **@U.CONJ-TX.PRET2@** |  TX = tense
+ | **@U.CONJ-GER.IG@** |  GER = gerund
+ | **@U.CONJ-MX.IND@** | MX = mood
+ | **@U.CONJ-MX.IMP@** | MX = mood
+ | **@U.CONJ-CONNEG.YES@** | CONNEG = negation
+ | **@U.CONJ-CONNEG.NO@** | CONNEG = negation
+ | **.CONJ-NX.PL@** | NX = number
+ | **@U.CONJ-NX.SG@** | NX = number
+ | **@U.CONJ-POSS.1@** | POSS = possessive, person 1
+ | **@U.CONJ-POSS.2@** | POSS = possessive 2
+ | **@U.CONJ-POSS.3@** | POSS = possessive 3
+ | **@U.CONJ-POSS.2ACC@** | POSS = possessive etc.
+ | **@U.CONJ-POSS.3ACC@** | POSS = possessive
+ | **@U.CONJ-PX.1@** | PX = person
+ | **@U.CONJ-PX.2@** | PX = person
+ | **@U.CONJ-PX.3@** | PX = person
+ | **@C.CONJ-VAL@** | Removal
+ | **@C.CONJ-INF@** | Removal
+ | **@C.CONJ-TX@** | Removal
+ | **@C.CONJ-MX@** | Removal
+ | **@C.CONJ-GER@** | Removal
+ | **@C.CONJ-CONNEG@** | Removal
+ | **@C.CONJ-NX@** | Removal
+ | **@C.CONJ-PX@** | Removal
+ | **@C.CONJ-POSS@** | Removal
+ | **@P.PossPx.Sg1@** | FLAGS USED WITH COLLECTIVE NOUNS
+ | **@P.PossPx.Sg2@** | FLAGS USED WITH COLLECTIVE NOUNS
+ | **@P.PossPx.Sg3@** | FLAGS USED WITH COLLECTIVE NOUNS
+ | **@P.PossPx.Pl1@** | FLAGS USED WITH COLLECTIVE NOUNS
+ | **@P.PossPx.Pl2@** | FLAGS USED WITH COLLECTIVE NOUNS
+ | **@P.PossPx.Pl3@** | FLAGS USED WITH COLLECTIVE NOUNS
+ | **@U.PossPx.Sg1@** | FLAGS USED WITH COLLECTIVE NOUNS
+ | **@U.PossPx.Sg2@** | FLAGS USED WITH COLLECTIVE NOUNS
+ | **@U.PossPx.Sg3@** | FLAGS USED WITH COLLECTIVE NOUNS
+ | **@U.PossPx.Pl1@** | FLAGS USED WITH COLLECTIVE NOUNS
+ | **@U.PossPx.Pl2@** | FLAGS USED WITH COLLECTIVE NOUNS
+ | **@U.PossPx.Pl3@** | FLAGS USED WITH COLLECTIVE NOUNS
+ | **@D.PossPx@** | FLAGS USED WITH COLLECTIVE NOUNS
+ | **@C.PossPx@** | FLAGS USED WITH COLLECTIVE NOUNS
+ | **@U.DECL-NX.SG@** | number
+ | **@U.DECL-NX.PL@** | number
+ | **@R.DECL-NX.PL@** | number
+ | **@U.DECL-CX.ABE@** | unify case
+ | **@U.DECL-CX.ABL@** | unify case
+ | **@U.DECL-CX.ACC@** | unify case
+ | **@U.DECL-CX.APR@** | unify case
+ | **@U.DECL-CX.APRINE@** | unify case
+ | **@U.DECL-CX.APRILL@** | unify case
+ | **@U.DECL-CX.APRELA@** | unify case
+ | **@U.DECL-CX.APREGR@** | unify case
+ | **@U.DECL-CX.APRPRL@** | unify case
+ | **@U.DECL-CX.APRTRA@** | unify case
+ | **@U.DECL-CX.APRTER@** | unify case
+ | **@U.DECL-CX.CAR@** | unify case
+ | **@U.DECL-CX.CMP@** | unify case
+ | **@U.DECL-CX.CNS@** | unify case
+ | **@U.DECL-CX.COM@** | unify case
+ | **@U.DECL-CX.DAT@** | unify case
+ | **@U.DECL-CX.EGR@** | unify case
+ | **@U.DECL-CX.ELA@** | unify case
+ | **@U.DECL-CX.GEN@** | unify case
+ | **@U.DECL-CX.ILL@** | unify case
+ | **@U.DECL-CX.INE@** | unify case
+ | **@U.DECL-CX.INS@** | unify case
+ | **@U.DECL-CX.NOM@** | unify case
+ | **@U.DECL-CX.PRL@** | unify case
+ | **@U.DECL-CX.TRA@** | unify case
+ | **@U.DECL-CX.TER@** | unify case
+ | **@U.DECL-DX.INDEF@** | declension type
+ | **@U.DECL-DX.PX@** | declension type
+ | **@C.DECL-NX@** | Removal
+ | **@C.DECL-DX@** | Removal
+ | **@C.DECL-CX@** | Removal
+ | **@U.Cap.Obl@** | Allowing downcasing of derived names: deatnulasj
+ | **@U.Cap.Opt@** | Allowing downcasing of derived names: deatnulasj
 
 
 ## Lexicon Root
