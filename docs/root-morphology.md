@@ -6,22 +6,6 @@
 
 Check these:
 
- * **+Acron** 
- * **+Aux** 
- * **+Cmp/SplitR** 
- * **+Der/La** 
- * **+Du** 
- * **+Err/lex** 
- * **+Hom1** 
- * **+Hom2** 
- * **+Hom3** 
- * **+Hom4** 
- * **+Intens** 
- * **+Sem/Ant_Fem** 
- * **+Sem/Ant_Mal** 
- * **+Sem/Patr-Маl** 
- * **+Sem/Dummy** TODO: change to +Sem/Dummytag
-
 ## Analysis symbols
  * **+WORK** to mark intermediate solutions
 
@@ -35,7 +19,6 @@ language are presented in this system in terms of the following symbols.
  * **+Adv**:  adverb    урчитан            наречие
  * **+CS**:  subordinating conjunction      XX   подчинительный союз
  * **+CC**:  coordinating conjunction      XX   сочинительный союз
- * **+CC**:  conjunction word         XX   союзное слово (здесь надо узнать который из 2 выш.)
  * **+Det**:  determiner  XX   XX
  * **+Interj**:  interjection   междометтьӧ   междометие
  * **+N**:  noun      эмакыв    - существительное
@@ -62,15 +45,14 @@ language are presented in this system in terms of the following symbols.
  * **+Presentational** 
 
 #### Interjections
- +Formulaic = ???
- +Conative Used for calling animals, for example
+ **+Formulaic** = expressions such as аттьӧ, ало, ... 
+ **+Conative** Used for calling animals, for example брысь, баль-баль, ...
 
 #### Nouns
  * **+Prop** proper
  * **+CollN** used with paired nouns **collective nouns**
  * **+Relat** relational noun: выв, ув
 
-Postpositions
 
 ####  Pronouns
  * **+Dem**:  demonstrative
@@ -82,27 +64,14 @@ Postpositions
  * **+Rel**:  relative
  * **+Poss**:  possessive
 
-#### Quantifiers (numerals)
-Quantifiers and Numerals are classified under:
- * **+Num**:  numeral лыдакыв
- * **+Appr**:  Approximative numeral кавто-колмо, колмошка *two or three*   NB! do not confuse with Komi case +Apr
- * **+AssocColl**:  -ne- ; avide-
- * **+Assoc**:  +мезть
- * **+Card**:  cardinal + NCard
- * **+ZeroColl**:  Zero collective кодныс
- * **+Coll**:  collective
- * **+Distr**:  Distributive
- * **+Iter: Iterative form expressing number of consecutive times; kpv**:  `кыкысь`
- * **+Mult: Multiplicative adverbs number of times; kpv**:  `кык пӧв`
- * **+Ord**:  ordinal + NOrd
- * **+Coord**:  Coordinates, i.e. 65˚36′8,30″ in numerals.lexc
- * **+Cop**:  this is for copula complement predicate position with pl in -ӧсь depricated Pred
 
 #### Nominals are inflected for Number and Case
 
 #### Number
  * **+Sg**  singular
  * **+Pl**  plural
+ * **+Du** for pronoun.
+
 
 
 #### Case
@@ -157,11 +126,23 @@ A category of case in Komi can be identified as:
 #### Numeral tags:
  * **+Attr +Card** 
  * **+Ord** 
- * **+Coll** Collective
- * **+Distr**  Distributive
  * **+Iter**  Iterative form expressing number of times
  * **+Tot** 
  * **+Arab +Rom** 
+
+#### Quantifiers (numerals)
+
+ * **+Appr**:  Approximative numeral кавто-колмо, колмошка *two or three*   NB! do not confuse with Komi case +Apr
+ * **+AssocColl**:  -ne- ; avide-
+ * **+Assoc**:  +мезть
+ * **+Card**:  cardinal + NCard
+ * **+ZeroColl**:  Zero collective кодныс
+ * **+Distr**:  Distributive
+ * **+Iter: Iterative form expressing number of consecutive times; kpv**:  `кыкысь`
+ * **+Mult: Multiplicative adverbs number of times; kpv**:  `кык пӧв`
+ * **+Coord**:  Coordinates, i.e. 65˚36′8,30″ in numerals.lexc
+ * **+Cop**:  this is for copula complement predicate position with pl in -ӧсь depricated Pred
+
 
 #### Verb tags
  * **+Ind +Prs +Prt1 +Prt2 +Fut +Imprt** tense
@@ -176,9 +157,14 @@ A category of case in Komi can be identified as:
  * **+Final**  мог, мон, моз 'so that I won't'
  * **+TV** 
  * **+IV**
+ * **+Aux** 
+
+
+
 
 #### Other tags
  * **+ABBR +ACR** 
+ * **+Acron** 
  * +Symbol = independent symbols in the text stream, like £, €, ©
 Special symbols are classified with:
  * **+CLB +PUNCT +LEFT +RIGHT** 
@@ -196,6 +182,10 @@ Special symbols are classified with:
  * **+Clt/сӧ**
  * **+Clt/Kodj** adjectival phrase
  * **+Clt/Moz** adverbial clause
+
+ * **+Hom1** 
+ * **+Hom2** 
+ * **+Intens** 
 
 
 
@@ -360,6 +350,9 @@ Borrowed from main/langs/sme/src/morphology/root.lexc
 
 
 #### Multiple Semantic tags:
+ * **+Sem/Ant_Fem** 
+ * **+Sem/Ant_Mal** 
+ * **+Sem/Patr-Маl** 
  * **+Sem/Event_Plc**  сёянін
  * **+Sem/Hum_Prof**  profession, capacity doctor, tractor driver 
 
@@ -373,8 +366,9 @@ source and target part-of-speech.
 
  * **+Der/xxx** 
  * **+Der**  In front of every derivation to make it   possible to target derivations as a class e.g. in regular expressions etc 
+ * **+Der/La** 
  * **+Der/Ан**  Process Participle +AN
- * **+Der/Ана** Process Participle +ANA
+ * **+Der/Ана** Process Participle +ANA, Gerund or participle according to context (with...)
  * **+Der/Анаа**  adverb derived from participle (+ANA) +ANAA
  * **+Der/чӧж**  +CHOZH
  * **+Der/тӧг** 
@@ -398,11 +392,8 @@ source and target part-of-speech.
  * **+Der/IgChozh**%{иі%}гчӧж
  * **+Der/ысь**
  * **+ActPrsPtc** 
- * **+Der/Ан** Participle
- * **+Der/Ана** Gerund or participle according to context (with...)
  * **+PrsPrc**
  * **+PrsPtc** 
- * **+Der/ӧм**
  * **+PastPtc** 
  * **+Der/кості**  +KOSTI
  * **+Der/коста**  +KOSTA
@@ -428,11 +419,9 @@ Noun phrase modifiers are generally considered derivational
  *  **+MTmp** temporal modifier ся -
  * **+Der/ProprietiveMod** = +Der/APrior  Denominal prioritive adjective Der/а
  * **+Der/PrivMod** = тӧм
- * **+Der/TempMod** = Der/ся
  * **+Der/а** 
  * **+Der/са** 
  * **+Der/ся** 
- * **+Der/кодь** 
  * **+Der/Иник** 
  * **+Der/Ин** 
  * **+Der/увса** 
@@ -498,11 +487,6 @@ Noun phrase modifiers are generally considered derivational
  * **+EOLang/MYV** 
  * **+EOLang/RUS** 
  * **+EOLang/YRK** 
-
-
-#### Sentence markers
-
- * **+Cop** Copula   кадакыв, коді шуӧ: вӧлі либӧ ӧнія кадся   Связка
 
 
 ### Morphophonology
@@ -572,6 +556,7 @@ Two flags copied from sme
 #### Tags
  * **+Cmp**
  *  +Cmp/Serial used with serial verbs
+ * **+Cmp/SplitR** 
 
 
 #### Flags 
