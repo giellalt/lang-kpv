@@ -14,10 +14,7 @@
 
 @SET_MAKE@
 
-# List all md files that should be created from source files in the
-# MD_PAGES variable. The filename pattern is as follows:
-#
-# dir/filename.lexc => filename-dir.md
+# The generated docs are automatically detected by the automake script
 
 # *.gt.* designates the tagset being used.
 # At the end of the makefile, there is support for automatic compilation of
@@ -405,22 +402,6 @@ target_alias = @target_alias@
 top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
-MD_PAGES = root-morphology.md           \
-		  adjectives-affixes.md       \
-		  adpositions-affixes.md      \
-		  adverbs-affixes.md          \
-		  conjunctors-affixes.md       \
-		  disambiguator-syntax.md     \
-		  interjections-affixes.md      \
-		  nouns-affixes.md            \
-		  particles-affixes.md          \
-		  phonology-morphology.md     \
-		  pronouns-affixes.md         \
-		  propernouns-affixes.md      \
-		  quantifiers-affixes.md \
-		  symbols-affixes.md \
-		  verbs-affixes.md
-
 
 # Variables:
 ALLINONE_MD_PAGE = $(srcdir)/$(GTLANG).md
@@ -944,9 +925,9 @@ $(INDEX): $(HEADER) $(LINKS)
 clean-local:
 	$(AM_V_at)-rm -rf $(builddir)/build
 	$(AM_V_at)-rm -rf $(srcdir)/build
-
-maintainerclean-local:
-	$(AM_V_at)-rm -rf $(ALLINONE_MD_PAGE)
+	$(AM_V_at)-rm -f $(doc_DATA)
+	$(AM_V_at)-rm -f *-src.md
+	$(AM_V_at)-rm -f *-tools.md
 
 # vim: set ft=automake:
 
