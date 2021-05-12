@@ -5,11 +5,11 @@
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-kpv)](https://github.com/giellalt/lang-kpv/issues)
 [![Build status](https://github.com/giellalt/lang-kpv/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-kpv/actions)
 
-This page documents the work on the **Komi-Zyrian language model**. 
+This page documents the work on the [Komi-Zyrian language model](http://github.com/giellalt/lang-kpv). 
 
 # Project documentation
 
-* Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.
+* (Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.)
 
 # In-source documentation
 
