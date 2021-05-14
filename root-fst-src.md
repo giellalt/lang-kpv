@@ -222,8 +222,13 @@ Special symbols are classified with:
  * **+Err/Orth-no-paragogic-k** 
  * **+Err/Orth-no-paragogic-m** 
  * **+Err/Orth-no-paragogic-t** 
+ * **+Err/Orth-l-in-v** followed by vowel, yet v
+ * **+Err/Orth-l-to-v-in-new** 
+ * **+Err/Orth-l-to-vowel-lengthening** 
+ * **+Err/Orth-l-retenstion** 
+
  * **+Err/Dial** e.g. тэг instead of тӧг
- * **+Err/Lex** substandard, not in normative fst, no normative lemma помсьыны
+ * **+Err/Lex** substandard, not in normative fst, no  normative lemma помсьыны
  * **+Use/-Spell** 
  * **+Use/SpellNoSugg** 
  * **+Use/PMatch** means that the following is only used in the analyser feeding the disambiguator
