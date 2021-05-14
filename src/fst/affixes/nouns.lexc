@@ -72,14 +72,14 @@ LEXICON NMN_
 +Pl:%>ъяс CASEPOSSLEX ;
 
 
-LEXICON Noun1-JM ! понйыс, понмыс
-+Use/NG:м CASEPOSSLEX-AFTERDERIVATION_VOW ;
-!2017-09-19+Cmp:м R ;
-!2017-09-19+Sg:м CASEPOSSLEX ;
-!2017-09-19+Cmp:й R ;
-:й NMN_PARAGOGIC ;
-!2017-09-19+Sg:й CASEPOSSLEX ;
-!2017-09-19+Pl:%>ъяс CASEPOSSLEX ;
+!LEXICON Noun1-JM ! понйыс, понмыс
+!+Use/NG:м CASEPOSSLEX-AFTERDERIVATION_VOW ;
+!!2017-09-19+Cmp:м R ;
+!!2017-09-19+Sg:м CASEPOSSLEX ;
+!!2017-09-19+Cmp:й R ;
+!:й NMN_PARAGOGIC ;
+!!2017-09-19+Sg:й CASEPOSSLEX ;
+!!2017-09-19+Pl:%>ъяс CASEPOSSLEX ;
 
 !! subsequent Cns vs Vow
 LEXICON N_PARAGOGIC !!= * @CODE@ 
@@ -108,12 +108,12 @@ LEXICON N_PARAGOGIC-V/L !!= * @CODE@ ныв:ны нылыс
 LEXICON NMN_PARAGOGIC-V/L !!= * @CODE@ ныв:ны нылыс
 :л NMN_PARAGOGIC ;
 
-+Use/NG+Err/Orth+Dial/л+Cmp:л R ;
++Use/NG+Err/Orth-l-retenstion+Cmp:л R ;
 !+Err/Orth+Dial/л+Cmp:л ABS_ ; 2018-10-21
-+Use/NG+Err/Orth+Dial/л+Sg:л CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
-+Use/NG+Err/Orth+Dial/в+Sg:л%^Close CASEPOSSLEX-AFTERDERIVATION_VOW ;
-+Use/NG+Err/Orth+Dial/л+Pl:л%>ъяс CASEPOSSLEX ;
-+Use/NG+Err/Orth+Dial/л+Pl:л%^C2V%>ъяс CASEPOSSLEX ; !ныыяс
++Use/NG+Err/Orth-l-retenstion+Sg:л CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
++Use/NG+Err/Orth-l-in-v+Sg:л%^Close CASEPOSSLEX-AFTERDERIVATION_VOW ;
++Use/NG+Err/Orth-l-retenstion+Pl:л%>ъяс CASEPOSSLEX ;
++Use/NG+Err/Orth-l-to-vowel-lengthening+Pl:л%^C2V%>ъяс CASEPOSSLEX ; !ныыяс
 
 
 LEXICON N_PARAGOGIC-J !!= * @CODE@ ав:ав авйыс
