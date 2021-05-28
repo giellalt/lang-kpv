@@ -2155,9 +2155,13 @@ LEXICON DESCR_
 
 
 # Komi Zyrian twol file
+
+This file documents the [phonology.twolc file](http://github.com/giellalt/lang-kpv/blob/main/src/fst/phonology.twolc) 
+
 cf. kpv-phon-old.xfscript
-cf. http://www.ling.helsinki.fi/~rueter/Publications/Rueter_in-Permistika-6_2000-154-158.pdf
+cf. [Rueter 2000](http://www.ling.helsinki.fi/~rueter/Publications/Rueter_in-Permistika-6_2000-154-158.pdf)
 Хельсинкиса университетын кыв туялысь Ижкарын Перымса кывъяс симпозиум вылын лыддьӧмтор
+
 ## Alphabet, Sets and Definitions
 
 
