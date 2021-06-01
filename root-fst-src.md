@@ -609,7 +609,7 @@ given the proper use of these flags.
  | **@U.CONJ-MX.IMP@** | MX = mood
  | **@U.CONJ-CONNEG.YES@** | CONNEG = negation
  | **@U.CONJ-CONNEG.NO@** | CONNEG = negation
- | **.CONJ-NX.PL@** | NX = number
+ | **@U.CONJ-NX.PL@** | NX = number
  | **@U.CONJ-NX.SG@** | NX = number
  | **@U.CONJ-POSS.1@** | POSS = possessive, person 1
  | **@U.CONJ-POSS.2@** | POSS = possessive 2
