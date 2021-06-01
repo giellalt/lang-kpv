@@ -8,12 +8,13 @@
 
 LEXICON ACRON-F
 !! LEXICON @LEXNAME@ 
-+Src/F+: ACRON ;
++Src/F: ACRON ;
 
 LEXICON ACRON
 !! LEXICON @LEXNAME@ 
-@U.Cap.Obl@+Acron:@U.Cap.Obl@	PROP_	;
+@U.Cap.Obl@+Acron:@U.Cap.Obl@ PROP_ ;
 @U.Cap.Obl@+Acron:@U.Cap.Obl@-яс CASEPOSSLEX ; !acronyms with plural
+@U.Cap.Obl@+Acron+A:@U.Cap.Obl@-са A_ ; !2021-06-01
 
 LEXICON PROP-RUS_ !
 !! LEXICON @LEXNAME@ 
