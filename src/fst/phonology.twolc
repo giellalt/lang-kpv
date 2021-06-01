@@ -1,32 +1,34 @@
 !! # Komi Zyrian twol file
+
+!! This file documents the [phonology.twolc file](http://github.com/giellalt/lang-kpv/blob/main/src/fst/phonology.twolc) 
+
 !! cf. kpv-phon-old.xfscript
-!! cf. http://www.ling.helsinki.fi/~rueter/Publications/Rueter_in-Permistika-6_2000-154-158.pdf
+!! cf. [Rueter 2000](http://www.ling.helsinki.fi/~rueter/Publications/Rueter_in-Permistika-6_2000-154-158.pdf)
 !! Хельсинкиса университетын кыв туялысь Ижкарын Перымса кывъяс симпозиум вылын лыддьӧмтор
+
 !! ## Alphabet, Sets and Definitions
 
 Alphabet
 
-!! ## Letters of the alphabet
+!! ### Letters of the alphabet
 
 а б в г д е ё ж з и і й к л м н о ӧ п р с т у ф х ц ч ш щ ъ ы ь э ю я !!= * @CODE@
 А Б В Г Д Е Ё Ж З И І Й К Л М Н О Ӧ П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я !!= * @CODE@
-%^к2:к %^л2:л %^м2:м %^т2:т %^ь2:ь
-!%^К2 %^Л2 %^М2 %^Т2 %^Ь2
-%^И2:и
+%^к2:к %^л2:л %^м2:м %^т2:т %^ь2:ь !!= * @CODE@
+!%^К2 %^Л2 %^М2 %^Т2 %^Ь2 
+%^И2:и !!= * @CODE@
 %{иі%}:и	!!= * @CODE@ for soft and hard
 %{иі%}:і	!!= * @CODE@ for soft and hard
-
 %{ая%}:а	!!= * @CODE@ for soft and hard
-!%{ая%}:я	!!= * @CODE@ for soft and hard
-
+!%{ая%}:я	
 %^V1:ӧ       !!= * @CODE@ for reduplicated vowel
-%^V1:а %^V1:э %^V1:о %^V1:у
-!! ## Archiphonemes for vowels
-!! ## Triggers
+%^V1:а %^V1:э %^V1:о %^V1:у !!= * @CODE@
+
+!! ### Triggers
 %^Close:0	!!= * @CODE@ Close syllable, this triggers final consonant drop, seen in word-final position and before consonant
 %^C2V:0       !!= * @CODE@ Consonant v to vowel
 
-!! ## Boundary symbols
+!! ### Boundary symbols
 
  %> !!= * @CODE@ morpheme boundary мун%>ны
  #  !!  * hash # word boundary
@@ -47,72 +49,74 @@ Alphabet
  ;
 
 
-!! ## Sets
+!! ### Sets
 
 Sets
 !! Vowel
-Vow =  а е ё и і о ӧ у ы э ю я
-       А Е Ё И У О Ӧ У Ы Э Ю Я ;
+Vow =  а е ё и і о ӧ у ы э ю я !!= * @CODE@
+       А Е Ё И У О Ӧ У Ы Э Ю Я ; !!= * @CODE@
 
 !! Palatal Vowel
 !! Cns-initial vowels
-PalVow = е ё ю я
-         Е Ё Ю Я ;
+PalVow = е ё ю я !!= * @CODE@
+         Е Ё Ю Я ; !!= * @CODE@
 
 !! All non-vowels, consonants and hard and soft signs
-Cns =  б в г д ж з й к л м н п р с т ф х ц ч ш щ ъ ь
-       Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ъ Ь
-       к2 л2 м2 т2 ь2 ;
+Cns =  б в г д ж з й к л м н п р с т ф х ц ч ш щ ъ ь !!= * @CODE@
+       Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ъ Ь !!= * @CODE@
+       к2 л2 м2 т2 ь2 ; !!= * @CODE@
 !  К2 Л2 М2 Т2 Ь2
 
 !! All non-vowels with exception of soft sign
-CnsNotSoft =  б в г д ж з й к л м н п р с т ф х ц ч ш щ ъ
-              Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ъ
-       	      к2 л2 м2 т2 ь2 ;
+CnsNotSoft =  б в г д ж з й к л м н п р с т ф х ц ч ш щ ъ !!= * @CODE@
+              Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ъ !!= * @CODE@
+       	      к2 л2 м2 т2 ь2 ; !!= * @CODE@
 !   К2 Л2 М2 Т2 Ь2
 !! All consonants followed by Cyrillic и
-CnsBeforeCyri = б в г ж й к м п р ф х ч ш щ
-              	Б В Г Ж Й К М П Р Ф Х Ч Ш Щ
-              	к2 м2 т2 ;
+CnsBeforeCyri = б в г ж й к м п р ф х ч ш щ !!= * @CODE@
+              	Б В Г Ж Й К М П Р Ф Х Ч Ш Щ !!= * @CODE@
+              	к2 м2 т2 ; !!= * @CODE@
 ! К2 М2 Т2
-!! Why is т2 here 2015-10-01
+! Why is т2 here 2015-10-01
 
 !! All but z consonants that can be followed by either і or и
-PairedCnsNoZ =  д л н с т
-                Д Л Н С Т
-       	        л2 т2 ;
+PairedCnsNoZ =  д л н с т !!= * @CODE@
+                Д Л Н С Т !!= * @CODE@
+       	        л2 т2 ; !!= * @CODE@
 
 !! Letters
- Letter = Vow Cns ;
+ Letter = Vow Cns ; !!= * @CODE@
 
 !! Dummy
-Dummy =  %^Inf %^PATR %^FEM ;
+Dummy =  %^Inf %^PATR %^FEM ; !!= * @CODE@
 
 
-!! ## Definitions
+!! ### Definitions
 
-!Definitions
+!! No definitions
 
 
 !! ## Rules
 
 Rules
 
+!! ### Rules connected to L/V alternations 
+
 "The famous L/V"
-!! **@RULENAME@**
+!! **Rule: @RULENAME@** changes л to в betweeen vowel and the ^Close symbol
  л:в <=>  Vow _ %^Close: ;
 ! Vow _ [# | %> Cns ] ;
 
 
 "The famous L/V goes Izhva"
-!! **@RULENAME@**
+!! **Rule: @RULENAME@** where л goes to its preceeding vowel (except a) before ^C2V.
  л:Vy <=>  [Cns: |Vow: | # | %- ] Vx: _ %^C2V: ;
 	where Vx in (а е ё и о ӧ у ы э ю я)
-              Vy in (о э о и о ӧ у ы э у о)
+          Vy in (о э о и о ӧ у ы э у о)
         matched ;
 
 "Vowel lengthening а:о я:ё"
-!! **@RULENAME@**
+!! **Rule: @RULENAME@** for the ^C2V context
  Vx:Vy <=> [Cns: | # | %- ] _ л: %^C2V: ;
         where Vx in (а я)
               Vy in (о ё)
@@ -120,7 +124,7 @@ Rules
 
 
 "The ӧ/V as in унаан"
-!! **@RULENAME@**
+!! **Rule: @RULENAME@**
  %^V1:Vy <=>  [Cns: |Vow: | # | %- ] Vx: %> _  ;
 	where Vx in (а е ё и о ӧ у ы э ю я)
               Vy in (а э о и о ӧ у ы э у а)
@@ -128,17 +132,16 @@ Rules
 !!€ уна%>%^V1н
 !!€ уна%>ан
 
-!! Paragogic consonants
+!! ### Rules for paragogic consonants
 
 "Paragogic consonant deletion"
-!! **@RULENAME@**
+!! **Rule: @RULENAME@**
  Cx:0 <=> Cns _ %^Close: ;
        where Cx in (к м) ;
 
 "Paragogic т deletion and tripple т"
-!! **@RULENAME@**
- т:0 <=>
- Cns _ %^Close: ;
+!! **Rule: @RULENAME@** between Cns and ^Close
+ т:0 <=> Cns _ %^Close: ;
 ! т:0 <=> п _ [ # | %> Cns ] ;
  !!€ зепт%>ыс
  !!€ зепт%>ыс
@@ -150,8 +153,11 @@ Rules
 !!€ Блатт%>тӧг
 !!€ Блат0%>тӧг
 
+
+!! ### Other consonant deletion rules
+
 !"mDeletion"
-!! **@RULENAME@**
+!! **Rule: @RULENAME@**
 ! м:0 <=>
 ! н _ [ # | %> Cns ] ;
  !!€ синм%>ыс
@@ -163,7 +169,7 @@ Rules
 
 
 !"kDeletion"
-!! **@RULENAME@**
+!! **Rule: @RULENAME@**
 ! к:0 <=> [ с | ш | с ь | с ь2: | ч ] _ [ # | %> Cns ]  ;
  !!€ воск%>ыс
  !!€ воск%>ыс
@@ -175,7 +181,7 @@ Rules
  !!€ кось00%>сянь
 
 "jDeletion after vowel"
-!! **@RULENAME@**
+!! **Rule: @RULENAME@**
  й:0 <=>  [б | в | г | д | ж | з | к | м | н | п | р | т | с ] _  %^Close:  ;
 ! [б | в | г | д | ж | з | к | м | н | п | р | т | с ] _ [ # | %> Cns ] ;
  !!€ гобй%^Close%>ыс
@@ -202,7 +208,7 @@ Rules
  !!€ сёй%>и#
 
 "j to hard sign after consonant"
-!! **@RULENAME@**
+!! **Rule: @RULENAME@**
  й:ъ <=> [б | в | г | д | ж | з | к | м | н | п | р | т | с ] _ %> %{ая%}: ;
 !!€ кывй%>%{ая%}#
 !!€ кывъ%>я#
@@ -210,7 +216,7 @@ Rules
 !!€ кӧсъ%>я#
 
 "l deletion ALSO tripple letter"
-!! **@RULENAME@**
+!! **Rule: @RULENAME@**
  л:0 <=>   л _  ь  %^Close: ;
 !  л _  ь  [ # | %> Cns ] ;
  !!€ вакулль%>ыс
@@ -227,7 +233,7 @@ Rules
 
 
 "d deletion"
-!! **@RULENAME@**
+!! **Rule: @RULENAME@**
  д:0 <=> д _ [ ь | з ]  %^Close: ;
 ! д _ [ ь | з ]  [ # | %> Cns ] ;
  !!€ виддз%^Close%>ыс
@@ -237,9 +243,10 @@ Rules
  !!€ виддз%^Close%>сӧ
  !!€ вид0з0%>сӧ
 
-!! Vowel Palatalisation
+!! ### Vowel Palatalisation rules
+
 "а 2 я, о 2 ё, у 2 ю"
-!! **@RULENAME@**
+!! **Rule: @RULENAME@**
  Vx:Vy <=> [~[ д з | ч ]] [ ь: | й: ]  (%^Close:) %>  _ [ # | %> | %- | Cns: | Vow: | %{ая%}:] ;
         where Vx in (%{ая%} а о у)
               Vy in (я      я ё ю)
@@ -260,7 +267,7 @@ Rules
 ! ь>у:ю appears in compound words
 
 "%{иі%} 2 і"
-!! **@RULENAME@**
+!! **Rule: @RULENAME@**
  %{иі%}:і <=>
  [PairedCnsNoZ | [Vow |[Cns - д]] з ] (%^Close:) %>  _ [ # | %> | %- | Cns: | Vow: ] ;
 ! [PairedCnsNoZ |  з ] %>  _ [ # | %> | Cns: | Vow: ] ;
@@ -268,7 +275,7 @@ Rules
 !    д з %>  _ [ # | %> | Cns: | Vow: ] ;
 
 "%{иі%} 2 и"
-!! **@RULENAME@**
+!! **Rule: @RULENAME@**
  %{иі%}:и <=> [ Vow | CnsBeforeCyri | й: | ь: | д з ] (%^Close:) %>  _ [ # | %> |%- | Cns: | Vow: ] ;
 !!€ ворссь%>%{иі%}#
 !!€ ворсс0%>и#
@@ -279,8 +286,10 @@ Rules
 !!€ вай%>%{иі%}с
 !!€ вай%>ис
 
+!! ### Rules for soft and hard sign
+
 "Soft Sign Deletion"
-!! **@RULENAME@**
+!! **Rule: @RULENAME@**
  ь:0 <=> CnsNotSoft _ %> [ а: |%{ая%}:| о: | у: | і: | %{иі%}: | э:] ;
  ! CnsNotSoft _ %> [ а: |%{ая%}:| о: | у: | і: | ъ: | %{иі%}: ] ; 2017-03-27
         с _  %> с [ ь | я ] ;
@@ -300,7 +309,7 @@ Rules
 !!€ пась%>сянь
 
 "Hard Sign Deletion"
-!! **@RULENAME@**
+!! **Rule: @RULENAME@**
  ъ:0 <=> [ Vow (й) | ь: ] (%^Close:) %> _ ;
 !!€ вой%>ъяс
 !!€ вой%>0яс
@@ -315,13 +324,17 @@ Rules
    Vow л: %^C2V: %> _ ;
 
 "Hard Sign Palatalization"
-!! **@RULENAME@**
+!! **Rule: @RULENAME@**
  ъ:ь <=> [ д: з | ч ] (%^Close:) %> _ я ;
 !!€ виддз%^Close%>ъяс
 !!€ вид0з0%>ьяс
 
+!! ### Other rules
+
+!! To do: Look at a more logical ordering
+
 "No triple letters"
-!! **@RULENAME@**
+!! **Rule: @RULENAME@** deletes the middle consonant in Cx Cx > Cx sequences
  Cx:0 <=> Cx _ %> Cx ;
          where Cx in (с ) ; ! 
 !where Cx in (с т л) ; ! ХХХ %> indicates morphology, at least these three consonants
@@ -331,7 +344,7 @@ Rules
 !!€ клас0%>сянь
 
 "IClitic"
-!! **@RULENAME@**
+!! **Rule: @RULENAME@**
  И2:й <=> Vow %- _ #  ;
 
 "Dialect э for ӧ in э:е"
@@ -342,6 +355,6 @@ Rules
      д з %> _ ;
 
 "Disallow l to vowel after other than l"
-!! **@RULENAME@**
+!! **Rule: @RULENAME@**
 %^C2V:0 /<=
      [Cns - л:|Vows ] _ %>  ;
