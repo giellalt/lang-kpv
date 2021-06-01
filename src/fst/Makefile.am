@@ -28,8 +28,8 @@ GT_LEXC_ROOT=$(srcdir)/root.lexc
 GT_LEXC_SRCS_L1_L2=\
 		stems/abbreviations.lexc                      \
 		stems/acronyms.lexc                           \
-		stems/kpv-acronyms.lexc                           \
-		stems/kom-adjectives-russian-like.lexc            \
+		stems/kpv-acronyms.lexc                       \
+		stems/kom-adjectives-russian-like.lexc        \
 		stems/adjectives-russian-like.lexc            \
 		stems/adjectives-russian-like_newwords.lexc   \
 		stems/adjectives-regular.lexc                 \
@@ -40,7 +40,7 @@ GT_LEXC_SRCS_L1_L2=\
 		stems/conjunctors.lexc                        \
 		stems/descriptives.lexc                       \
 		stems/determiners.lexc                        \
-		stems/dialect_lexicon.lexc                         \
+		stems/dialect_lexicon.lexc                    \
 		stems/exceptions.lexc                         \
 		stems/gerunds.lexc                            \
 		stems/interjections.lexc                      \
