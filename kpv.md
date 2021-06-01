@@ -1389,7 +1389,6 @@ that differ from the 3rd person:
  * **LEXICON perssg**
 
 
-
  * **LEXICON persplobl**
 
 
@@ -2408,6 +2407,7 @@ ADD NOUNS BELOW
 
 
 
+
 This is where new words are added as lexc entries before they are
 added to the xml source files.
 воны+V:во V_ "(eng) /(fin)/(rus) " ;
@@ -2463,6 +2463,7 @@ ADD ADVERBS BELOW
 
 
 
+
 Hypothetical dialect forms with е/э 2021-03-15
 
 This is where new words are added as lexc entries before they are 
@@ -2471,7 +2472,6 @@ added to the xml source files.
 
 
 ADD NOUNS BELOW
-
 
 
 
