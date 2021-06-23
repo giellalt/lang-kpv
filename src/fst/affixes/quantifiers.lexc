@@ -25,12 +25,13 @@ LEXICON CARD
 +Card+Iter:%>ысь K ; ! нёльысь
 +Card+Iter+Ins:%>ысьӧн K ; !нёльысьӧн
 +Card+Iter+Ins+Err/Dial:%>ысен K ; !нёльысьӧн
-+Distr:%>ӧн PRONQ-COLL ; !нёльӧн
-+Distr+Err/Dial:%>эн PRONQ-COLL ; !нёльӧн like быдӧн 2021-02-10
-!+Distr:%>ӧн PredMonLex ; !нёльӧн
-!+Distr+Err/Dial:%>эн PredMonLex ; !нёльӧн
+PRON-DISTR_ON ;
 
-
+LEXICON PRON-DISTR_ON
++Distr:%>ӧн DISTR_ON-CASE ; !нёльӧн
++Distr+Err/Dial:%>эн DISTR_ON-CASE ; !нёльӧн like быдӧн 2021-02-10
+!+Distr:%>ӧн K/COP-PL ; !нёльӧн
+!+Distr+Err/Dial:%>эн K/COP-PL ; !нёльӧн
 
 
 LEXICON ORD
@@ -39,8 +40,8 @@ LEXICON ORD
 +Ord+Iter:%>ысь K ;
 +Ord+Iter+Ins:%>ысьӧн K ;
 +Ord+Iter+Ins+Err/Dial:%>ысен K ;
-+Ord+Distr:%>ӧн PredMonLex ;
-+Ord+Distr+Err/Dial:%>эн PredMonLex ;
++Ord+Distr:%>ӧн K/COP-PL ;
++Ord+Distr+Err/Dial:%>эн K/COP-PL ;
 
 LEXICON DET_
 !! LEXICON @LEXNAME@ 
@@ -60,7 +61,7 @@ LEXICON DET_END
 
 LEXICON NUM-IS_DISTR
 !! LEXICON @LEXNAME@ 
-+Distr: PredMonLex ;
++Distr: K/COP-PL ;
 
 LEXICON QNT_
 !! LEXICON @LEXNAME@ 
@@ -68,8 +69,8 @@ LEXICON QNT_
 +Qnt+Card+Iter:%>ысь K ;
 +Qnt+Card+Iter+Ins:%>ысьӧн K ;
 +Qnt+Card+Iter+Ins+Err/Dial:%>ысен K ;
-+Qnt+Distr:%>ӧн PredMonLex ;
-+Qnt+Distr+Err/Dial:%>эн PredMonLex ;
++Qnt+Distr:%>ӧн K/COP-PL ;
++Qnt+Distr+Err/Dial:%>эн K/COP-PL ;
 +Qnt+Der+Der/La+N:%>ла N_ ;
 
 
