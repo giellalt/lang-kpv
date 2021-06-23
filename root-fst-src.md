@@ -129,6 +129,7 @@ A category of case in Komi can be identified as:
  * **+Iter**  Iterative form expressing number of times
  * **+Tot** 
  * **+Arab +Rom** 
+ * **+Coll** 
 
 #### Quantifiers (numerals)
 

@@ -389,118 +389,6 @@ NOT-PRL (have no homograph Prolative pairs set)
 
 
 
-* Sets for POS sub-categories
-
-
-
-
-
-* Sets for Semantic tags
-
-
-
-
-
-* Sets for Morphosyntactic properties
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -989,15 +877,10 @@ These were the set types.
 
 
 
-# Verbal morphology               
 
-## Temporary lexicon
 
-V_ temporary lexicon gives +V+WORK
 
-## Closed class verbs
 
-VERBNEGATIVE 
 
 
 
@@ -1007,69 +890,38 @@ VERBNEGATIVE
 
 
 
-## Open class verbs
 
-Some Flag diacritic lines are with regexes, other with aligned zeros. We want to migrate to
-regexes < … > , for readability reasons (sic!)
 
-IV_ЛОКНЫ 
 
- * **LEXICON V-0_ЛОКНЫ** One verb only, локны:лок
 
 
- * **LEXICON VR_ШУНЫ** 
+* Sets for POS sub-categories
 
-IV_ШУНЫ 
 
- * **LEXICON V_ШУНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
- * **LEXICON V-0_ШУНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
 
- * **LEXICON VR_АМНЫ**
 
-IV_АМНЫ 
-TV_АМНЫ 
 
-BV_АМНЫ 
+* Sets for Semantic tags
 
- * **LEXICON V_АМНЫ** амны:ам Ending in -мны, -жны, -дзны,
- * **LEXICON V-0_АМНЫ** амны:ам Ending in -мны, -жны, -дзны,
 
 
- * **LEXICON V_КЫЙНЫ** кыйны:кы Ending in -йны, 
 
- * **LEXICON V-0_КЫЙНЫ** кыйны:кы Ending in -йны, 
 
- * **LEXICON VR_КУТНЫ**
+* Sets for Morphosyntactic properties
 
- * **LEXICON V_КУТНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
- * **LEXICON V-0_КУТНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
 
 
- * **LEXICON V-0_БОСЬТНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
 
 
- * **LEXICON VR_НУАВНЫ** нуавны:нуа
 
- * **LEXICON V_НУАВНЫ** нуавны:нуа
- * **LEXICON V-0_НУАВНЫ** нуавны:нуа
-Consonant-onset
 
- * **LEXICON VR_АРТАСЬНЫ**
 
 
- * **LEXICON V_АРТАСЬНЫ** артасьны:артась 
- * **LEXICON V-0_АРТАСЬНЫ** артасьны:артась 
 
- * **LEXICON VR_ЛЫДДЬЫНЫ** 
 
- * **LEXICON V_ЛЫДДЬЫНЫ** лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
- * **LEXICON V-0_ЛЫДДЬЫНЫ** лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
 
- * **LEXICON VR_ВОЛЫНЫ** 
 
 
- * **LEXICON V_ВОЛЫНЫ** волыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
- * **LEXICON V-0_ВОЛЫНЫ** волыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
 
 
 
@@ -1078,26 +930,16 @@ Consonant-onset
 
 
 
-## Verb conjugation 
 
- * **LEXICON VerbConj-V**  суф б -- ы 
 
- * **LEXICON VerbConj** суф а
 
- * **LEXICON VerbConj_КЫЙНЫ** суф а
 
- * **LEXICON VerbConj_АМНЫ** суф а
 
- * **LEXICON VerbConj_КУТНЫ** суф а
 
 
- * **LEXICON Finiteforms** Gives linking vowels for 3 tenses
 
- * **LEXICON Finiteforms_КЫЙНЫ** Gives linking vowels for 3 tenses
 
- * **LEXICON Finiteforms_АМНЫ** Gives linking vowels for 3 tenses
 
- * **LEXICON Finiteforms_КУТНЫ** Gives linking vowels for 3 tenses
 
 
 
@@ -1122,218 +964,6 @@ Consonant-onset
 
 
 
-
-
-
-
-
-
-
-
-
-## Derivation
-
-
- * **LEXICON Verb-nyDer** 
-
- * **LEXICON Verb-nyDer-ONSET-CONS** Derivation onset in consonant
-verb-to-verb
-
-This is fed by LEXICON V_ШУНЫ, and therefore certain corrections
-must be made 2012-01-18
-
-овсьыны
-пусьыштлывлыны
-босьтчыштлывлыны
-
- * **LEXICON Verb-nyDer-ONSET-VOW** Derivation onset	in vowel
-
- * **LEXICON Verb-nyDer-ONSET-Ы** Derivation onset	in vowel
-
- * **LEXICON Verb-nyDer-ONSET-А** Derivation onset	in vowel
-босьтасьны
-
- * **LEXICON Verb-nyDer-ONSET-Я** Derivation onset	in vowel
-босьтасьны
-
-
-verb-to-noun
-
- * **LEXICON VerbDer** 
-FIX THIS 2015-09-06
- * **VerbDer-ONSET_А/Я ;** 
-
- * **LEXICON VerbDer_КЫЙНЫ**
- * **: VerbDer-ONSET_Ӧ ;**
- * **: VerbDer-ONSET_Я ;** 
- * **: VerbDer-ONSET_И ;**
-
- * **LEXICON VerbDer_КУТНЫ**
- * **VerbDer-ONSET_Ӧ ;**
- * **VerbDer-ONSET_А ;** 
- * **VerbDer-ONSET_І ;**
-
- * **LEXICON VerbDer_АРТАСЬНЫ**
- * **: VerbDer-ONSET_Ӧ ;**
- * **VerbDer-ONSET_Я ;** 
- * **VerbDer-ONSET_И ;**
-
- * **LEXICON VerbDer-ONSET_Ӧ** 
-
-
-
- * **LEXICON VerbDer-ONSET_І** 
-
- * **LEXICON VerbDer-ONSET_И** 
- * **LEXICON VerbDer-ONSET_И/І** 
-
-
-
-
- * **LEXICON VerbDer-ONSET_А** 
- * **LEXICON VerbDer-ONSET_А/Я** 
-
- * **LEXICON VerbDer-ONSET_Я**
-
-
-
-
-
-
-
-
-вевттьысьыны
-
-бертласьны
-
-
-
-
-
-
-
-
-
-
-
-
- * **LEXICON EM** эм:эм. Ending in -ӧсь.
-
-
-
-# Proper noun inflection
-
-Komi proper nouns inflect in the same cases as regular
-nouns.
-
-## Temporary lexica
-
-LEXICON ACRON-F 
-
-LEXICON ACRON 
-
-LEXICON PROP-RUS_ 
-LEXICON PROP_ 
-
-
-## Russian type Surnames 
-
-Preparing for the template urj-Cyrl
-Beginning 2012-11-15
-LEXICON CYRL-CONS_SUR 
-
-LEXICON CYRL-SIBILANT_SUR 
-
-LEXICON CYRL-VOW_SUR 
-
-LEXICON CYRL-A_SUR 
-
-LEXICON CYRL-K_SUR 
-
-LEXICON CYRL-L_SUR 
- * :2 PropSur-kal ;  These are foreign Л words
-
-LEXICON CYRL-T_SUR 
-
- * LEXICON PROP_KUDO_SURFEM  giella-shared
-
-LEXICON Deriv-RUS-AN_SURMAL 
-
-Абдеев:Абдеев
-LEXICON Deriv-RUS-V_SURMAL 
-
-Багрий:Багр
-LEXICON Deriv-RUS-IJ_SURMAL 
-
-LEXICON Deriv-RUS-IN_SURMAL 
-
-Аморский:Аморск
-LEXICON Deriv-RUS-KIJ_SURMAL 
-
-LEXICON Deriv-RUS-OJ_SURMAL 
-
-LEXICON Deriv-RUS-YJ_SURMAL 
-
-## PLACE NAMES FROM TEMPLATES 
-
-LEXICON PROP-PLC_KAL 
-
-LEXICON PROP-PLC_KIT 
-
-LEXICON PROP-PLC_KUDO 
-
-
-These are vowel-final stems
-They have previously received +Sem/Fem tags
-
-
-
-
-
-
-
-
-## Male given name for deriving patronyms 
-Should this be limited to +Sg? 2015-09-06
-
-Вили:Вил
-
-
-
-
-Андрей:Андре
-
-
-
-
-
-
-
-
-
-
-
-
-
-Ending 2012-11-15
-
-
-
-
-
-
-
-
-
-FEMALE NAMES FROM TEMPLATE
-
-## PLACE NAMES FROM TEMPLATES 
-
-
- * **@U.Cap.Opt@+Sg:@U.Cap.Opt@ DENOMINAL-LOCATIVE-ADJECTIVES ; ** This requires down-casing
-
-
- * **@U.Cap.Opt@+Sem/Plc+EOLang/KPV+Sg:@U.Cap.Opt@ DENOMINAL-LOCATIVE-ADJECTIVES ; ** This requires down-casing
 
 
 
@@ -1632,6 +1262,37 @@ Word-final cases
 
 
 
+
+# Symbol affixes
+
+Noun_symbols_possibly_inflected 
+
+Noun_symbols_never_inflected 
+
+SYMBOL_connector 
+
+SYMBOL_NO_suff 
+
+SYMBOL_suff (can abbreviations have suffixes? Probably, yes)
+# Particles
+----
+Komi Particles
+
+
+LEXICON PCLE_ 
+
+LEXICON PCLE_NEG 
+
+LEXICON PcleIntens 
+
+LEXICON ONOM_ 
+
+LEXICON DESCR_ 
+
+
+
+
+
 # Interjections
 ----
 Komi Interjections
@@ -1642,126 +1303,6 @@ LEXICON INTERJ_
 LEXICON INTERJ-CONATIVE_ 
 
 LEXICON INTERJ-FORMULAIC_ 
-
-
-
-
-
-
-
-# Adjective inflection
-----
-Komi (Zyrian) adjectives compare.
-
-Continuation lexicon has been assigned according to <pos/> content
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * LEXICON A_PARAGOGIC-В/Л  юмов:юмо юмолӧсь
-Singular predicative 
-
-
-
-
-
-# Postposition inflection
-----
-
-Komi postpositions inflect for direction.
-
-Prep lexica
-
-
-Postp lexica 
-
-
-
-
-
-
-
-This contlex allows for relational word which, otherwise, are open 
-to extensive declension
-
-
- * **LEXICON POSTP1  **
-these are: 
-
-аддза, бӧрті, бокиті, боксянь, дырйи, йитӧдын, 
-кузя, ног, ньылыд, паныдӧн, пӧлӧн, пыдди, пыр, понда, 
-ради, уліті, выліті, вывті, вомас, вомӧн
-пӧвст
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * **LEXICON PO-SPAT_  **
-these are: 
-
-аддза, бӧрті, бокиті, боксянь, дырйи, йитӧдын, 
-кузя, ног, ньылыд, паныдӧн, пӧлӧн, пыдди, пыр, понда, 
-ради, уліті, выліті, вывті, вомас, вомӧн
-пӧвст
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1843,6 +1384,350 @@ and they probably are equivalent in morphology to postpositions
 
 
 
+
+
+
+# Conjunctors
+----
+Komi conjunctors
+
+
+LEXICON CC_ 
+
+LEXICON CS_ 
+
+LEXICON CS_DIAL 
+
+LEXICON CONJ_ 
+
+
+
+
+
+# Numeral morphological lexica 
+
+This has to be worked on 2012-01-19
+LEXICON NUM-CARD_ 
+
+LEXICON CARD 
+
+
+
+LEXICON ORD 
+
+LEXICON DET_ 
+
+LEXICON DET_END 
+
+
+LEXICON NUM-IS_DISTR 
+
+LEXICON QNT_ 
+
+
+LEXICON NUM-APPR ! 2011-11-03 This will need work
+
+LEXICON CARD-APPR 
+
+## Inflectional lexica 
+
+All nouns follow one contlex "Noun1"
+to begin with here is simply a list of all variant
+with no more variants beyond:
+
+
+
+LEXICON NumCASEPOSSLEX 
+
+LEXICON NumMWN 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Arabic numerals
+
+ * **LEXICON NUM-PREFIXES     **  
+
+
+
+
+
+
+
+
+
+
+# Verbal morphology               
+
+## Temporary lexicon
+
+V_ temporary lexicon gives +V+WORK
+
+## Closed class verbs
+
+VERBNEGATIVE 
+
+
+
+
+
+
+
+
+
+## Open class verbs
+
+Some Flag diacritic lines are with regexes, other with aligned zeros. We want to migrate to
+regexes < … > , for readability reasons (sic!)
+
+IV_ЛОКНЫ 
+
+ * **LEXICON V-0_ЛОКНЫ** One verb only, локны:лок
+
+
+ * **LEXICON VR_ШУНЫ** 
+
+IV_ШУНЫ 
+
+ * **LEXICON V_ШУНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+ * **LEXICON V-0_ШУНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+
+ * **LEXICON VR_АМНЫ**
+
+IV_АМНЫ 
+TV_АМНЫ 
+
+BV_АМНЫ 
+
+ * **LEXICON V_АМНЫ** амны:ам Ending in -мны, -жны, -дзны,
+ * **LEXICON V-0_АМНЫ** амны:ам Ending in -мны, -жны, -дзны,
+
+
+ * **LEXICON V_КЫЙНЫ** кыйны:кы Ending in -йны, 
+
+ * **LEXICON V-0_КЫЙНЫ** кыйны:кы Ending in -йны, 
+
+ * **LEXICON VR_КУТНЫ**
+
+ * **LEXICON V_КУТНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+ * **LEXICON V-0_КУТНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+
+
+ * **LEXICON V-0_БОСЬТНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+
+
+ * **LEXICON VR_НУАВНЫ** нуавны:нуа
+
+ * **LEXICON V_НУАВНЫ** нуавны:нуа
+ * **LEXICON V-0_НУАВНЫ** нуавны:нуа
+Consonant-onset
+
+ * **LEXICON VR_АРТАСЬНЫ**
+
+
+ * **LEXICON V_АРТАСЬНЫ** артасьны:артась 
+ * **LEXICON V-0_АРТАСЬНЫ** артасьны:артась 
+
+ * **LEXICON VR_ЛЫДДЬЫНЫ** 
+
+ * **LEXICON V_ЛЫДДЬЫНЫ** лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
+ * **LEXICON V-0_ЛЫДДЬЫНЫ** лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
+
+ * **LEXICON VR_ВОЛЫНЫ** 
+
+
+ * **LEXICON V_ВОЛЫНЫ** волыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
+ * **LEXICON V-0_ВОЛЫНЫ** волыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
+
+
+
+
+
+
+
+
+## Verb conjugation 
+
+ * **LEXICON VerbConj-V**  суф б -- ы 
+
+ * **LEXICON VerbConj** суф а
+
+ * **LEXICON VerbConj_КЫЙНЫ** суф а
+
+ * **LEXICON VerbConj_АМНЫ** суф а
+
+ * **LEXICON VerbConj_КУТНЫ** суф а
+
+
+ * **LEXICON Finiteforms** Gives linking vowels for 3 tenses
+
+ * **LEXICON Finiteforms_КЫЙНЫ** Gives linking vowels for 3 tenses
+
+ * **LEXICON Finiteforms_АМНЫ** Gives linking vowels for 3 tenses
+
+ * **LEXICON Finiteforms_КУТНЫ** Gives linking vowels for 3 tenses
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Derivation
+
+
+ * **LEXICON Verb-nyDer** 
+
+ * **LEXICON Verb-nyDer-ONSET-CONS** Derivation onset in consonant
+verb-to-verb
+
+This is fed by LEXICON V_ШУНЫ, and therefore certain corrections
+must be made 2012-01-18
+
+овсьыны
+пусьыштлывлыны
+босьтчыштлывлыны
+
+ * **LEXICON Verb-nyDer-ONSET-VOW** Derivation onset	in vowel
+
+ * **LEXICON Verb-nyDer-ONSET-Ы** Derivation onset	in vowel
+
+ * **LEXICON Verb-nyDer-ONSET-А** Derivation onset	in vowel
+босьтасьны
+
+ * **LEXICON Verb-nyDer-ONSET-Я** Derivation onset	in vowel
+босьтасьны
+
+
+verb-to-noun
+
+ * **LEXICON VerbDer** 
+FIX THIS 2015-09-06
+ * **VerbDer-ONSET_А/Я ;** 
+
+ * **LEXICON VerbDer_КЫЙНЫ**
+ * **: VerbDer-ONSET_Ӧ ;**
+ * **: VerbDer-ONSET_Я ;** 
+ * **: VerbDer-ONSET_И ;**
+
+ * **LEXICON VerbDer_КУТНЫ**
+ * **VerbDer-ONSET_Ӧ ;**
+ * **VerbDer-ONSET_А ;** 
+ * **VerbDer-ONSET_І ;**
+
+ * **LEXICON VerbDer_АРТАСЬНЫ**
+ * **: VerbDer-ONSET_Ӧ ;**
+ * **VerbDer-ONSET_Я ;** 
+ * **VerbDer-ONSET_И ;**
+
+ * **LEXICON VerbDer-ONSET_Ӧ** 
+
+
+
+ * **LEXICON VerbDer-ONSET_І** 
+
+ * **LEXICON VerbDer-ONSET_И** 
+ * **LEXICON VerbDer-ONSET_И/І** 
+
+
+
+
+ * **LEXICON VerbDer-ONSET_А** 
+ * **LEXICON VerbDer-ONSET_А/Я** 
+
+ * **LEXICON VerbDer-ONSET_Я**
+
+
+
+
+
+
+
+
+вевттьысьыны
+
+бертласьны
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON EM** эм:эм. Ending in -ӧсь.
 
 
 
@@ -2011,143 +1896,258 @@ PL3
 
 
 
-
-
-# Numeral morphological lexica 
-
-This has to be worked on 2012-01-19
-LEXICON NUM-CARD_ 
-
-LEXICON CARD 
-
-
-
-
-LEXICON ORD 
-
-LEXICON DET_ 
-
-LEXICON DET_END 
-
-
-LEXICON NUM-IS_DISTR 
-
-LEXICON QNT_ 
-
-
-LEXICON NUM-APPR ! 2011-11-03 This will need work
-
-LEXICON CARD-APPR 
-
-## Inflectional lexica 
-
-All nouns follow one contlex "Noun1"
-to begin with here is simply a list of all variant
-with no more variants beyond:
-
-
-
-LEXICON NumCASEPOSSLEX 
-
-LEXICON NumMWN 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Arabic numerals
-
- * **LEXICON NUM-PREFIXES     **  
-
-
-
-
-
-
-
-
-
-# Symbol affixes
-
-Noun_symbols_possibly_inflected 
-
-Noun_symbols_never_inflected 
-
-SYMBOL_connector 
-
-SYMBOL_NO_suff 
-
-SYMBOL_suff (can abbreviations have suffixes? Probably, yes)
-# Conjunctors
+# Adjective inflection
 ----
-Komi conjunctors
+Komi (Zyrian) adjectives compare.
 
-
-LEXICON CC_ 
-
-LEXICON CS_ 
-
-LEXICON CS_DIAL 
-
-LEXICON CONJ_ 
+Continuation lexicon has been assigned according to <pos/> content
 
 
 
-# Particles
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * LEXICON A_PARAGOGIC-В/Л  юмов:юмо юмолӧсь
+Singular predicative 
+
+
+
+
+
+# Postposition inflection
 ----
-Komi Particles
+
+Komi postpositions inflect for direction.
+
+Prep lexica
 
 
-LEXICON PCLE_ 
+Postp lexica 
 
-LEXICON PCLE_NEG 
 
-LEXICON PcleIntens 
 
-LEXICON ONOM_ 
 
-LEXICON DESCR_ 
+
+
+
+This contlex allows for relational word which, otherwise, are open 
+to extensive declension
+
+
+ * **LEXICON POSTP1  **
+these are: 
+
+аддза, бӧрті, бокиті, боксянь, дырйи, йитӧдын, 
+кузя, ног, ньылыд, паныдӧн, пӧлӧн, пыдди, пыр, понда, 
+ради, уліті, выліті, вывті, вомас, вомӧн
+пӧвст
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON PO-SPAT_  **
+these are: 
+
+аддза, бӧрті, бокиті, боксянь, дырйи, йитӧдын, 
+кузя, ног, ньылыд, паныдӧн, пӧлӧн, пыдди, пыр, понда, 
+ради, уліті, выліті, вывті, вомас, вомӧн
+пӧвст
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Proper noun inflection
+
+Komi proper nouns inflect in the same cases as regular
+nouns.
+
+## Temporary lexica
+
+LEXICON ACRON-F 
+
+LEXICON ACRON 
+
+LEXICON PROP-RUS_ 
+LEXICON PROP_ 
+
+
+## Russian type Surnames 
+
+Preparing for the template urj-Cyrl
+Beginning 2012-11-15
+LEXICON CYRL-CONS_SUR 
+
+LEXICON CYRL-SIBILANT_SUR 
+
+LEXICON CYRL-VOW_SUR 
+
+LEXICON CYRL-A_SUR 
+
+LEXICON CYRL-K_SUR 
+
+LEXICON CYRL-L_SUR 
+ * :2 PropSur-kal ;  These are foreign Л words
+
+LEXICON CYRL-T_SUR 
+
+ * LEXICON PROP_KUDO_SURFEM  giella-shared
+
+LEXICON Deriv-RUS-AN_SURMAL 
+
+Абдеев:Абдеев
+LEXICON Deriv-RUS-V_SURMAL 
+
+Багрий:Багр
+LEXICON Deriv-RUS-IJ_SURMAL 
+
+LEXICON Deriv-RUS-IN_SURMAL 
+
+Аморский:Аморск
+LEXICON Deriv-RUS-KIJ_SURMAL 
+
+LEXICON Deriv-RUS-OJ_SURMAL 
+
+LEXICON Deriv-RUS-YJ_SURMAL 
+
+## PLACE NAMES FROM TEMPLATES 
+
+LEXICON PROP-PLC_KAL 
+
+LEXICON PROP-PLC_KIT 
+
+LEXICON PROP-PLC_KUDO 
+
+
+These are vowel-final stems
+They have previously received +Sem/Fem tags
+
+
+
+
+
+
+
+
+## Male given name for deriving patronyms 
+Should this be limited to +Sg? 2015-09-06
+
+Вили:Вил
+
+
+
+
+Андрей:Андре
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ending 2012-11-15
+
+
+
+
+
+
+
+
+
+FEMALE NAMES FROM TEMPLATE
+
+## PLACE NAMES FROM TEMPLATES 
+
+
+ * **@U.Cap.Opt@+Sg:@U.Cap.Opt@ DENOMINAL-LOCATIVE-ADJECTIVES ; ** This requires down-casing
+
+
+ * **@U.Cap.Opt@+Sem/Plc+EOLang/KPV+Sg:@U.Cap.Opt@ DENOMINAL-LOCATIVE-ADJECTIVES ; ** This requires down-casing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2358,73 +2358,46 @@ To do: Look at a more logical ordering
 * *клуб%>еx*
 
 **Rule: Disallow l to vowel after other than l**
-This is where new words are added as lexc entries before they are 
-added to the xml source files.
-важ+A:важ A_ "(eng) /(fin)/(rus) " ;
+Exceptions are quite strange word-forms. the ones that do not fit anywhere 
+else. This file contains all enumerated word forms that cannot reasonably be
+created from lexical data by regular inflection. Usually there should be next
+to none exceptions, it's always better to have a paradigm that covers only
+one or few words than an exception since these will not work nicely with e.g.
+compounding scheme or possibly many end applications.
 
 
-ADD ADJECTIVES BELOW
+The pair verb овны-вывны conjugates in more forms than are attested for 
+the single verb вывны:
 
-
-colors
-
-
-from Syktyvkar
-
-
-
-This is where new words are added as lexc entries before they are 
-added to the xml source files.
-важ:важ A_ "(eng) /(fin)/(rus) " ;
-
-
-ADD ADJECTIVES BELOW
+*овны-вывны examples:*
+* *олан-вылан:* `овны-вывны+V+Ind+Prs+Sg2`
 
 
 
+### VERBS WITH FIRST PRETERITE THIRD PERSON WITHOUT с IN NORM 
 
-This is where new words are added as lexc entries before they are
-added to the xml source files.
-чери+N:чери N_ "(eng) fish/(fin) kala|fisu/(rus) рыба" ;
+### SPECIAL VERB FORM FOR VERBAL TERMINATIVE OF ЛОКНЫ 
 
-ADD NOUNS BELOW
-
+### REDUPLICATED ADVERBS
 
 
 
+### SUPERLATIVE ADVERBS
+
+### SUPERLATIVE ADJECTIVES
 
 
 
-## Acronym inflection
+### ADJECTIVES NOT YET ADDED TO DICTIONARY DATABANK
 
 
 
+### VOCATIVE EXPRESSIONS
 
 
+### PROPER NOUNS NOT YET ADDED TO DICTIONARY DATABANK
 
 
-
-
-
-
-
-This is where new words are added as lexc entries before they are
-added to the xml source files.
-воны+V:во V_ "(eng) /(fin)/(rus) " ;
-
-
-test:test V_ "(eng) /(fin) /(rus) " ;
-ADD VERBS BELOW
-
-
-
-
-This is where new words are added as lexc entries before they are 
-added to the xml source files.
-важын:важын ADV_ "(eng) /(fin)/(rus) " ;
-
-
-ADD ADVERBS BELOW
 
 
 
@@ -2466,6 +2439,74 @@ ADD ADVERBS BELOW
 
 Hypothetical dialect forms with е/э 2021-03-15
 
+This is where new words are added as lexc entries before they are
+added to the xml source files.
+чери+N:чери N_ "(eng) fish/(fin) kala|fisu/(rus) рыба" ;
+
+ADD NOUNS BELOW
+
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+важ+A:важ A_ "(eng) /(fin)/(rus) " ;
+
+
+ADD ADJECTIVES BELOW
+
+
+colors
+
+
+from Syktyvkar
+
+
+
+
+
+
+
+
+
+## Acronym inflection
+
+
+
+
+
+
+
+
+
+
+
+
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+важын:важын ADV_ "(eng) /(fin)/(rus) " ;
+
+
+ADD ADVERBS BELOW
+
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+важ:важ A_ "(eng) /(fin)/(rus) " ;
+
+
+ADD ADJECTIVES BELOW
+
+
+
+
+This is where new words are added as lexc entries before they are
+added to the xml source files.
+воны+V:во V_ "(eng) /(fin)/(rus) " ;
+
+
+test:test V_ "(eng) /(fin) /(rus) " ;
+ADD VERBS BELOW
+
+
+
+
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
 Абъячой+N+Prop+Sem/Plc:Абъячой PROP_ "(eng) fish/(fin) /(rus)" ;
@@ -2474,47 +2515,6 @@ added to the xml source files.
 ADD NOUNS BELOW
 
 
-
-
-
-Exceptions are quite strange word-forms. the ones that do not fit anywhere 
-else. This file contains all enumerated word forms that cannot reasonably be
-created from lexical data by regular inflection. Usually there should be next
-to none exceptions, it's always better to have a paradigm that covers only
-one or few words than an exception since these will not work nicely with e.g.
-compounding scheme or possibly many end applications.
-
-
-The pair verb овны-вывны conjugates in more forms than are attested for 
-the single verb вывны:
-
-*овны-вывны examples:*
-* *олан-вылан:* `овны-вывны+V+Ind+Prs+Sg2`
-
-
-
-### VERBS WITH FIRST PRETERITE THIRD PERSON WITHOUT с IN NORM 
-
-### SPECIAL VERB FORM FOR VERBAL TERMINATIVE OF ЛОКНЫ 
-
-### REDUPLICATED ADVERBS
-
-
-
-### SUPERLATIVE ADVERBS
-
-### SUPERLATIVE ADJECTIVES
-
-
-
-### ADJECTIVES NOT YET ADDED TO DICTIONARY DATABANK
-
-
-
-### VOCATIVE EXPRESSIONS
-
-
-### PROPER NOUNS NOT YET ADDED TO DICTIONARY DATABANK
 
 
 
@@ -2649,6 +2649,7 @@ A category of case in Komi can be identified as:
  * **+Iter**  Iterative form expressing number of times
  * **+Tot** 
  * **+Arab +Rom** 
+ * **+Coll** 
 
 #### Quantifiers (numerals)
 
