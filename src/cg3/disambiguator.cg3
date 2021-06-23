@@ -429,6 +429,9 @@ REMOVE:KillOzN N IF (0 ("оз"));
 
 #SELECT V IF (-1 (N Nom));
 
+#"кол" N Sg Ill
+REMOVE N IF (NOT *-1 VFIN BARRIER CS OR CLB) (0 ("ковны")) (NOT *1 VFIN BARRIER CS OR CLB);
+
 # Neg
 # Pl if ConNeg Pl3
 SELECT:NegPlIfConNegPl Neg + Pl3 IF (1 ConNeg + Pl3);
