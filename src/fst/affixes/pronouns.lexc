@@ -27,7 +27,7 @@ LEXICON PERS-SG1   !!≈ * **@CODE@**
 !+Cmpl:ме WordEnd ; !Postposition complement removed 2019-10-27 same as Nom
 +Gen:менам K ;
 +Gen+Err/Dial:меам K ;
-+Gen+Cop+Pl:менамӧсь K ;
++Gen:менам COP-PL ;
 +Gen:мелӧн K ;
 +Gen:менамлӧн K ;
 +Ela:менсьым K ; !The elative case is used in Sg1 and Sg2 
@@ -90,7 +90,7 @@ LEXICON PERS-SG2     !!≈ * **@CODE@**
 +Nom:тэ K ;
 !+Cmpl:тэ WordEnd ;  removed 2019-10-27 same as Nom
 +Gen:тэнад K ;
-+Gen+Cop+Pl:тэнадӧсь K ;
++Gen:тэнад COP-PL ;
 +Gen:тэлӧн K ;
 +Gen:тэнадлӧн K ;
 +Ela:тэнсьыд K ;
@@ -373,27 +373,26 @@ LEXICON INTERR
 кор+Adv+Interr+Pl+Ill:коръясӧ ADV-TEMP_ ;
 коръя+Adv+Interr:коръя ADV-TEMP_ ;
 кудз+Adv+Interr+Manner+Use/NG+Err/Orth:кудз INTERR-REL ;
-кутшӧм+Pron:кутшӧм INTERR-REL ; ! This needs to be 
-кутшӧм+Pron+Rel+Cop+Pl:кутшӧмӧсь INTERR-REL ; ! This needs to be 
+кутшӧм+A+Rel+Cop+Pl:кутшӧмӧсь INTERR-REL ; ! This needs to be 
 кутшӧма+Adv+Manner:кутшӧма INTERR-REL ; ! This needs to be 
-кутшӧм+Pron+Interr+Sg:кутшӧм PRON-NONHUM ;
-кутшӧм+Pron+Interr+Pl:кутшӧмъяс PRON-NONHUM ;
-кутшӧм+Pron+Rel+Sg:кутшӧм PRON-NONHUM ;
-кутшӧм+Pron+Rel+Pl:кутшӧмъяс PRON-NONHUM ;
+кутшӧм+A+Interr+Sg:кутшӧм PRON-NONHUM ;
+кутшӧм+A+Interr+Pl:кутшӧмъяс PRON-NONHUM ;
+кутшӧм+A+Rel+Sg:кутшӧм PRON-NONHUM ;
+кутшӧм+A+Rel+Pl:кутшӧмъяс PRON-NONHUM ;
 !2017-09-19кутшӧм+A+Der/MWN+N+Sg:кутшӧм PRON-NONHUM ;
 !2017-09-19кутшӧм+A+Der/MWN+N+Pl:кутшӧмъяс PRON-NONHUM ;
 кутшӧми+A:кутшӧми INTERR-REL ; 
-!2017-09-20кутшӧми+Pron+A:кутшӧми INTERR-REL ; ! This needs to be 
-кыдз+Pron+Adv+Manner:кыдз INTERR-REL ;
-кыдзи+Pron+Adv+Manner:кыдзи INTERR-REL ;
-кыдзик+Pron+Adv+Manner:кыдзик INTERR-REL ;
-кыдзик+Pron+Adv+Manner+Ins:кыдзикӧн INTERR-REL ;
+!2017-09-20кутшӧми+A:кутшӧми INTERR-REL ; ! This needs to be 
+кыдз+Adv+Manner:кыдз INTERR-REL ;
+кыдзи+Adv+Manner:кыдзи INTERR-REL ;
+кыдзик+Adv+Manner:кыдзик INTERR-REL ;
+кыдзик+Adv+Manner+Ins:кыдзикӧн INTERR-REL ;
 кымын+Det:кымын INTERR-REL ; ! Quantifier info required
-кымын+Det+Iter:кымынысь INTERR-REL ; ! Quantifier info required
-кымын+Det+Ord:кымынӧд INTERR-REL ; ! Quantifier info required
-кымын+Det+Ord+Iter:кымынӧдысь INTERR-REL ; ! Quantifier info required
-кытчӧ+Adv+Spat+Ill:кытчӧ INTERR-REL ;
-кытчӧдз+Adv+Spat+Ter:кытчӧдз INTERR-REL ;
+кымынысь+Adv+Iter:кымынысь INTERR-REL ; ! Quantifier info required
+кымынӧд+A+Ord:кымынӧд INTERR-REL ; ! Quantifier info required
+кымынӧдысь+Adv+Ord+Iter:кымынӧдысь INTERR-REL ; ! Quantifier info required
+кытчӧ+Adv+Ill:кытчӧ INTERR-REL ;
+кытчӧдз+Adv+Ter:кытчӧдз INTERR-REL ;
 кытысь+v1+Adv+Ela:кытысь INTERR-REL ;
 кытысь+v2+Adv+Ela:кысь INTERR-REL ;
 кыті+Adv+Tra:кыті INTERR-REL ;
@@ -567,15 +566,15 @@ LEXICON DEM-PRON
 
 !Here are some negative pronouns out of place 2011-11-22
 LEXICON NEG-PRON
-некысь+Adv+Neg+Spat+Ela:некысь K ;
-некысянь+Adv+Neg+Spat+Egr:некысянь K ;
-некыт+Adv+Neg+Spat+Tra:некыт K ;
-некытчӧ+Adv+Neg+Spat+Ill:некытчӧ K ;
-некытчӧдз+Adv+Neg+Spat+Ter:некытчӧдз K ;
-некытысь+Adv+Neg+Spat+Ela:некытысь K ;
-некыті+Adv+Neg+Spat+Tra:некыті K ;
-некытӧн+Adv+Neg+Spat+Ine:некытӧн K ;
-некӧн+Adv+Neg+Spat+Ine:некӧн K ;
+некысь+Adv+Neg+Ela:некысь K ;
+некысянь+Adv+Neg+Egr:некысянь K ;
+некыт+Adv+Neg+Tra:некыт K ;
+некытчӧ+Adv+Neg+Ill:некытчӧ K ;
+некытчӧдз+Adv+Neg+Ter:некытчӧдз K ;
+некытысь+Adv+Neg+Ela:некытысь K ;
+некыті+Adv+Neg+Tra:некыті K ;
+некытӧн+Adv+Neg+Ine:некытӧн K ;
+некӧн+Adv+Neg+Ine:некӧн K ;
 
 LEXICON COLL-PRON
 некоднан+Pron:некоднан COLL-PRON_CASE ;
@@ -833,7 +832,7 @@ LEXICON IS_PRON-INTERR
 
 
 !2018-10-21!LEXICON PRON-SPAT
-!2018-10-21!+Spat: COMPARATIVE ;
+!2018-10-21!: COMPARATIVE ;
 
 LEXICON PRON-RECIPR
 +Recipr: PRON-RECIPR-CASE ;
@@ -1202,7 +1201,7 @@ LEXICON ADNDEMTAG
 +Dem: COP-PL ;
 +Dem: Noun1 ;
 !+Adn+Dem: K ;
-!+Adn+Dem+Cop+Pl:%>ӧсь K ;
+!+Adn+Dem: COP-PL ;
 !+Adn+Dem+Der/MWN: Noun1 ;
 
 LEXICON PRONDEMTAG-ES
@@ -1536,13 +1535,16 @@ LEXICON PRONQ-STAV-CASES
 
 
 ! COMPARATIVE ; ! sg/pl?
+LEXICON DISTR_ON-CASE
++Sg: PRONQ-COLL-CASE ; ! sg/pl?
+COP-PL ;
+! быдӧн, 
 
 LEXICON PRONQ-COLL
 +Coll+Sg: PRONQ-COLL-CASE ; ! sg/pl?
-+Coll+Cop+Pl:%>ӧсь ENDLEX ; ! sg/pl?
-+Coll+Cop+Pl+Err/Dial:%>эсь ENDLEX ; ! sg/pl?
+COP-PL ;
 
-! быдӧн, ӧтнасӧн, ӧтнамӧн, ӧтнадӧн, ставӧн, кымынӧн, унаӧн, кыкӧн
+! ӧтнасӧн, ӧтнамӧн, ӧтнадӧн, ставӧн, кымынӧн, унаӧн, кыкӧн
 
 LEXICON PRONQ-COLL-CASE
 !ӧнія коми кыв 2000: 183

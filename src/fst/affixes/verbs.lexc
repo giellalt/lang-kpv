@@ -70,8 +70,8 @@ LEXICON VERBNEGATIVE
 моз+V+Neg+Final+3:моз K ; ! мед оз
 
 ! Negative copula supletive present forms
-абу+V+Neg+Cop+Ind+Sg:абу K ; ! Aux these are supletive. Past is эз вӧв
-абу+V+Neg+Cop+Ind+Pl:абуӧсь K ; ! Aux these are supletive. Past is эз вӧвны
+!абу+V+Neg+Cop+Ind+Sg:абу K ; ! Aux these are supletive. Past is эз вӧв
+!абу+V+Neg+Cop+Ind+Pl:абуӧсь K ; ! Aux these are supletive. Past is эз вӧвны
 
 
 
@@ -699,7 +699,7 @@ LEXICON VerbDer-ONSET_Ӧ !!≈ * **@CODE@**
 +Der+Der/Ан+PrsPrc+N:%>%{ая%}н N_ ;
 !2017-10-27+Der+Der/Ан+ActPrsPtc:%>%{ая%}н K ;
 +Der+Der/Ан+PrsPtc:%>%{ая%}н K ;
-+Der+Der/ысь+ActPrsPtc:%>ысь PredMonLex ; ! 2020-11-19 adjectival
++Der+Der/ысь+ActPrsPtc:%>ысь K/COP-PL ; ! 2020-11-19 adjectival
 +Der+Der/ысь+Der/NomAg+N:%>ысь N_ ;
 
 LEXICON VerbDer-ONSET_І !!≈ * **@CODE@** 

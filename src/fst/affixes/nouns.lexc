@@ -253,7 +253,7 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END
 	CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END ;
 LEXICON CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END
 +Gen:%>лӧн PredMonLex-Spat-Add-Morphology ;
-+Use/NG+Err/Dial+Gen:%>лэн PredMonLex ;
++Use/NG+Err/Dial+Gen:%>лэн K/COP-PL ;
 +Abl:%>лысь COMPARATIVE ;
 +Dat:%>лы COMPARATIVE ;
 +Com:%>кӧд COMPARATIVE ;
@@ -584,12 +584,12 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_Ӧ
 
 
 LEXICON AdjCompar
-+Comp:%>джык PredMonLex ;
++Comp:%>джык K/COP-PL ;
 +Comp+Der+Der/а:%>джыка ADV_ ;
 +Comp+Sg:%>джык CASEPOSSLEX-afterDerivation ;
 +Comp+Pl:%>джыкъяс CASEPOSSLEX-afterDerivation ;
 
-+Comp+Err/Dial:%>дзык PredMonLex ;
++Comp+Err/Dial:%>дзык K/COP-PL ;
 +Comp+Der+Der/а+Err/Dial:%>дзыка ADV_ ;
 +Comp+Sg+Err/Dial:%>дзык CASEPOSSLEX-afterDerivation ;
 +Comp+Pl+Err/Dial:%>дзыкъяс CASEPOSSLEX-afterDerivation ;
@@ -610,15 +610,14 @@ LEXICON IllCompar
 !2018-10-21! PredMonLex-Spat-Add-Morphology ; !
 
 LEXICON PredMonLex-Spat-Add-Morphology ! This allows consistency
- K ;                                    ! with SPAT elsewhere
-COP-PL ;
-+Comp:%>джык PredMonLex ; !ывлаынджык OR ывлаынджыкӧсь
-+Comp+Err/Dial:%>дзык PredMonLex ; !ывлаынджык OR ывлаынджыкӧсь
+ K/COP-PL ;                                    ! with SPAT elsewhere
++Comp:%>джык K/COP-PL ; !ывлаынджык OR ывлаынджыкӧсь
++Comp+Err/Dial:%>дзык K/COP-PL ; !ывлаынджык OR ывлаынджыкӧсь
 +Comp+Use/NG+Err/Orth:%>ӧсь%>джык%>ӧсь K ; !ывлаынӧсьджыкӧсь
 +Comp+Use/NG+Err/Dial:%>эсь%>джык%>эсь K ; !ывлаынэсьджыкесь
 
 
-LEXICON PredMonLex
+LEXICON K/COP-PL
  K ;      ! Singular predicative
 COP-PL ;
 !! 2012-02-07 !!+Der/а+Adv:%>а K ;
