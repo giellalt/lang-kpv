@@ -158,8 +158,10 @@ PL3
 
 
 
-2012-02-07 !!+Der/а+Adv:%>а K ;
++Der/а+Adv:%>а K ;
 
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/nouns.lexc)</small>

@@ -258,3 +258,5 @@ NOT-PRL (have no homograph Prolative pairs set)
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-kpv/blob/main/../src/cg3/disambiguator.cg3)</small>

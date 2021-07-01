@@ -5,3 +5,5 @@ added to the xml source files.
 
 ADD ADVERBS BELOW
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adverbs_newwords.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/stems/adverbs_newwords.lexc)</small>

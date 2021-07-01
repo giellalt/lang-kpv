@@ -232,3 +232,5 @@ FIX THIS 2015-09-06
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/verbs.lexc)</small>

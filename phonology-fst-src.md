@@ -28,7 +28,7 @@ cf. [Rueter 2000](http://www.ling.helsinki.fi/~rueter/Publications/Rueter_in-Per
 ### Boundary symbols
 
  *  %>  morpheme boundary мун%>ны
- * hash # word boundary
+* hash # word boundary
  *  %- 
  *  «   мед«ічӧт
  *  »    удж»ал»ышт
@@ -203,3 +203,5 @@ To do: Look at a more logical ordering
 * *клуб%>еx*
 
 **Rule: Disallow l to vowel after other than l**
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/phonology.twolc)</small>

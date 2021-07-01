@@ -1,5 +1,5 @@
 
-      K O M I   G R A M M A R   C H E C K E R
+K O M I   G R A M M A R   C H E C K E R
 
 
 
@@ -131,3 +131,5 @@ ASKI (tomorrow set)
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../tools/grammarcheckers/grammarchecker.cg3](http://github.com/giellalt/lang-kpv/blob/main/../tools/grammarcheckers/grammarchecker.cg3)</small>
