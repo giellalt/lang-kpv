@@ -7,7 +7,7 @@ The Komi-Zyrian morphology and tools
 
 This repository contains finite state source files for the Komi-Zyrian language,
 for building morphological analysers, proofing tools
-and dictionaries. The data and implementation are licenced under __LICENCE__
+and dictionaries. The data and implementation are licenced under __LICENSE__
 licence, also detailed in the
 [LICENSE](https://github.com/giellalt/lang-kpv/blob/main/LICENSE). The
 authors named in the AUTHORS file are available to grant other licencing
