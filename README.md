@@ -3,7 +3,7 @@ The Komi-Zyrian morphology and tools
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-kpv)](https://github.com/giellalt/lang-kpv/issues)
 [![Build Status](https://github.com/giellalt/lang-kpv/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-kpv/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-kpv)](https://raw.githubusercontent.com/giellalt/lang-kpv/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-kpv)](https://github.com/giellalt/lang-kpv/blob/main/LICENSE)
 
 This repository contains finite state source files for the Komi-Zyrian language,
 for building morphological analysers, proofing tools
