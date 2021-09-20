@@ -1,379 +1,4 @@
 
-# Komi disambiguator
-
-## Delimiters 
-
-Sentence delimiters are: "<.>" "<!>" "<?>" "<...>" "<¶>" sent
-
-
-## Tags and sets 
-
-
-
-### Beginning and end of sentence	
-BOS
-EOS
-
-### Miscellanous
-
-CmpTest
-Err
-вӧлі Sg3
-
-### Parts of speech tags
-N
-V
-A
-Adv
-CC
-CS
-Inter
-Pron
-Num
-Pcle
-Clt
-Po
-Dem
-Deg
-Qnt
-Prop
-
-### Derivation tags
-Ex/A (former adj)
-Ex/N
-Ex/Num
-Ex/V
-Ex/WORD
-DerTag
-AspDerTag
-
-
-
-### Verbal categories
-Prs
-Fut
-Fut1
-Imprt
-Prt1
-Prt2
-Prf
-PrfIpf
-HstPrf
-PluPrf
-HstPluPrf
-Ind
-Imp
-Cond
-Opt
-
-Sg1
-Sg2
-...
-
-
-
-Nominal categories
-Sg
-Pl
-Nom
-Gen
-Abl
-Dat
-Com 
-Cns
-...
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Verb sets
-VNEG (all Neg verbs)
-
-VFIN
-
-
-ASKI (tomorrow set)
-
-
-NOT-PRL (have no homograph Prolative pairs set)
-
-
-
-
-
-
-
-
-* **NoDerIfPossible** removes all derivations
-
-
-* **Dem** selects Dem if N Nom to the right
-
-
-
-
-
-
-
-
-
-
-
-* **NoFinalCC** removes CC if competing Pcle and sentence-final
-* **NoABBR** removes ABBR for competing CC
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-kpv/blob/main/../src/cg3/disambiguator.cg3)</small>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* Sets for POS sub-categories
-
-
-
-
-
-* Sets for Semantic tags
-
-
-
-
-
-* Sets for Morphosyntactic properties
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/cg3/functions-ikpd.cg3](http://github.com/giellalt/lang-kpv/blob/main/../src/cg3/functions-ikpd.cg3)</small>
 
 
 
@@ -991,7 +616,551 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-kpv/blob/main/../src/cg3/functions.cg3)</small># Komi Zyrian twol file
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-kpv/blob/main/../src/cg3/functions.cg3)</small>
+# Komi disambiguator
+
+## Delimiters 
+
+Sentence delimiters are: "<.>" "<!>" "<?>" "<...>" "<¶>" sent
+
+
+## Tags and sets 
+
+
+
+### Beginning and end of sentence	
+BOS
+EOS
+
+### Miscellanous
+
+CmpTest
+Err
+вӧлі Sg3
+
+### Parts of speech tags
+N
+V
+A
+Adv
+CC
+CS
+Inter
+Pron
+Num
+Pcle
+Clt
+Po
+Dem
+Deg
+Qnt
+Prop
+
+### Derivation tags
+Ex/A (former adj)
+Ex/N
+Ex/Num
+Ex/V
+Ex/WORD
+DerTag
+AspDerTag
+
+
+
+### Verbal categories
+Prs
+Fut
+Fut1
+Imprt
+Prt1
+Prt2
+Prf
+PrfIpf
+HstPrf
+PluPrf
+HstPluPrf
+Ind
+Imp
+Cond
+Opt
+
+Sg1
+Sg2
+...
+
+
+
+Nominal categories
+Sg
+Pl
+Nom
+Gen
+Abl
+Dat
+Com 
+Cns
+...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Verb sets
+VNEG (all Neg verbs)
+
+VFIN
+
+
+ASKI (tomorrow set)
+
+
+NOT-PRL (have no homograph Prolative pairs set)
+
+
+
+
+
+
+
+
+* **NoDerIfPossible** removes all derivations
+
+
+* **Dem** selects Dem if N Nom to the right
+
+
+
+
+
+
+
+
+
+
+
+* **NoFinalCC** removes CC if competing Pcle and sentence-final
+* **NoABBR** removes ABBR for competing CC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-kpv/blob/main/../src/cg3/disambiguator.cg3)</small>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Sets for POS sub-categories
+
+
+
+
+
+* Sets for Semantic tags
+
+
+
+
+
+* Sets for Morphosyntactic properties
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/cg3/functions-ikpd.cg3](http://github.com/giellalt/lang-kpv/blob/main/../src/cg3/functions-ikpd.cg3)</small>Exceptions are quite strange word-forms. the ones that do not fit anywhere 
+else. This file contains all enumerated word forms that cannot reasonably be
+created from lexical data by regular inflection. Usually there should be next
+to none exceptions, it's always better to have a paradigm that covers only
+one or few words than an exception since these will not work nicely with e.g.
+compounding scheme or possibly many end applications.
+
+
+The pair verb овны-вывны conjugates in more forms than are attested for 
+the single verb вывны:
+
+*овны-вывны examples:*
+* *олан-вылан:* `овны-вывны+V+Ind+Prs+Sg2`
+
+
+
+### VERBS WITH FIRST PRETERITE THIRD PERSON WITHOUT с IN NORM 
+
+### SPECIAL VERB FORM FOR VERBAL TERMINATIVE OF ЛОКНЫ 
+
+### REDUPLICATED ADVERBS
+
+
+
+### SUPERLATIVE ADVERBS
+
+### SUPERLATIVE ADJECTIVES
+
+
+
+### ADJECTIVES NOT YET ADDED TO DICTIONARY DATABANK
+
+
+
+### VOCATIVE EXPRESSIONS
+
+
+### PROPER NOUNS NOT YET ADDED TO DICTIONARY DATABANK
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/stems/exceptions.lexc)</small>
+
+
+
+
+
+## Acronym inflection
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/acronyms.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/stems/acronyms.lexc)</small>This is where new words are added as lexc entries before they are 
+added to the xml source files.
+важ+A:важ A_ "(eng) /(fin)/(rus) " ;
+
+
+ADD ADJECTIVES BELOW
+
+
+colors
+
+
+from Syktyvkar
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives_newwords.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/stems/adjectives_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
+added to the xml source files.
+важ:важ A_ "(eng) /(fin)/(rus) " ;
+
+
+ADD ADJECTIVES BELOW
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives-russian-like_newwords.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/stems/adjectives-russian-like_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
+added to the xml source files.
+Абъячой+N+Prop+Sem/Plc:Абъячой PROP_ "(eng) fish/(fin) /(rus)" ;
+
+
+ADD NOUNS BELOW
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/propernouns_newwords.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/stems/propernouns_newwords.lexc)</small>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hypothetical dialect forms with е/э 2021-03-15
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/dialect_lexicon.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/stems/dialect_lexicon.lexc)</small>This is where new words are added as lexc entries before they are 
+added to the xml source files.
+важын:важын ADV_ "(eng) /(fin)/(rus) " ;
+
+
+ADD ADVERBS BELOW
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adverbs_newwords.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/stems/adverbs_newwords.lexc)</small>This is where new words are added as lexc entries before they are
+added to the xml source files.
+чери+N:чери N_ "(eng) fish/(fin) kala|fisu/(rus) рыба" ;
+
+ADD NOUNS BELOW
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns_newwords.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/stems/nouns_newwords.lexc)</small>This is where new words are added as lexc entries before they are
+added to the xml source files.
+воны+V:во V_ "(eng) /(fin)/(rus) " ;
+
+
+test:test V_ "(eng) /(fin) /(rus) " ;
+ADD VERBS BELOW
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs_newwords.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/stems/verbs_newwords.lexc)</small># Komi Zyrian twol file
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-kpv/blob/main/src/fst/phonology.twolc) 
 
@@ -1197,85 +1366,7 @@ To do: Look at a more logical ordering
 
 **Rule: Disallow l to vowel after other than l**
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/phonology.twolc)</small># Adverb inflection
-----
-Komi adverbs inflect for direction.
-
-
-LEXICON ADV-DEG_  depricate ADV-ADA_ and Ad-ATAG
-
-LEXICON ADV-MANNER_ 
-
-LEXICON ADV-NEG_ 
-
-LEXICON GER_ 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * **LEXICON ADV-SPAT  **
-these are adverbs in spatial cases
-and they probably are equivalent in morphology to postpositions
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/adverbs.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/phonology.twolc)</small>
 # Noun morphological lexica 
 
 
@@ -1441,145 +1532,7 @@ PL3
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/nouns.lexc)</small># Proper noun inflection
-
-Komi proper nouns inflect in the same cases as regular
-nouns.
-
-## Temporary lexica
-
-LEXICON ACRON-F 
-
-LEXICON ACRON 
-
-LEXICON PROP-RUS_ 
-LEXICON PROP_ 
-
-
-## Russian type Surnames 
-
-Preparing for the template urj-Cyrl
-Beginning 2012-11-15
-LEXICON CYRL-CONS_SUR 
-
-LEXICON CYRL-SIBILANT_SUR 
-
-LEXICON CYRL-VOW_SUR 
-
-LEXICON CYRL-A_SUR 
-
-LEXICON CYRL-K_SUR 
-
-LEXICON CYRL-L_SUR 
- * :2 PropSur-kal ;  These are foreign Л words
-
-LEXICON CYRL-T_SUR 
-
- * LEXICON PROP_KUDO_SURFEM  giella-shared
-
-LEXICON Deriv-RUS-AN_SURMAL 
-
-Абдеев:Абдеев
-LEXICON Deriv-RUS-V_SURMAL 
-
-Багрий:Багр
-LEXICON Deriv-RUS-IJ_SURMAL 
-
-LEXICON Deriv-RUS-IN_SURMAL 
-
-Аморский:Аморск
-LEXICON Deriv-RUS-KIJ_SURMAL 
-
-LEXICON Deriv-RUS-OJ_SURMAL 
-
-LEXICON Deriv-RUS-YJ_SURMAL 
-
-## PLACE NAMES FROM TEMPLATES 
-
-LEXICON PROP-PLC_KAL 
-
-LEXICON PROP-PLC_KIT 
-
-LEXICON PROP-PLC_KUDO 
-
-
-These are vowel-final stems
-They have previously received +Sem/Fem tags
-
-
-
-
-
-
-
-
-## Male given name for deriving patronyms 
-Should this be limited to +Sg? 2015-09-06
-
-Вили:Вил
-
-
-
-
-Андрей:Андре
-
-
-
-
-
-
-
-
-
-
-
-
-
-Ending 2012-11-15
-
-
-
-
-
-
-
-
-
-FEMALE NAMES FROM TEMPLATE
-
-## PLACE NAMES FROM TEMPLATES 
-
-
- * **@U.Cap.Opt@+Sg:@U.Cap.Opt@ DENOMINAL-LOCATIVE-ADJECTIVES ; ** This requires down-casing
-
-
- * **@U.Cap.Opt@+Sem/Plc+EOLang/KPV+Sg:@U.Cap.Opt@ DENOMINAL-LOCATIVE-ADJECTIVES ; ** This requires down-casing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/propernouns.lexc)</small># Interjections
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/nouns.lexc)</small># Interjections
 ----
 Komi Interjections
 
@@ -1694,6 +1647,138 @@ LEXICON NumMWN
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/affixes/quantifiers.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/quantifiers.lexc)</small>
+# Symbol affixes
+
+Noun_symbols_possibly_inflected 
+
+Noun_symbols_never_inflected 
+
+SYMBOL_connector 
+
+SYMBOL_NO_suff 
+
+SYMBOL_suff (can abbreviations have suffixes? Probably, yes)
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/symbols.lexc)</small># Adverb inflection
+----
+Komi adverbs inflect for direction.
+
+
+LEXICON ADV-DEG_  depricate ADV-ADA_ and Ad-ATAG
+
+LEXICON ADV-MANNER_ 
+
+LEXICON ADV-NEG_ 
+
+LEXICON GER_ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON ADV-SPAT  **
+these are adverbs in spatial cases
+and they probably are equivalent in morphology to postpositions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/adverbs.lexc)</small># Adjective inflection
+----
+Komi (Zyrian) adjectives compare.
+
+Continuation lexicon has been assigned according to <pos/> content
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * LEXICON A_PARAGOGIC-В/Л  юмов:юмо юмолӧсь
+Singular predicative 
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/adjectives.lexc)</small>
 
 # Verbal morphology               
 
@@ -1928,142 +2013,7 @@ FIX THIS 2015-09-06
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/verbs.lexc)</small># Adjective inflection
-----
-Komi (Zyrian) adjectives compare.
-
-Continuation lexicon has been assigned according to <pos/> content
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * LEXICON A_PARAGOGIC-В/Л  юмов:юмо юмолӧсь
-Singular predicative 
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/adjectives.lexc)</small># Postposition inflection
-----
-
-Komi postpositions inflect for direction.
-
-Prep lexica
-
-
-Postp lexica 
-
-
-
-
-
-
-
-This contlex allows for relational word which, otherwise, are open 
-to extensive declension
-
-
- * **LEXICON POSTP1  **
-these are: 
-
-аддза, бӧрті, бокиті, боксянь, дырйи, йитӧдын, 
-кузя, ног, ньылыд, паныдӧн, пӧлӧн, пыдди, пыр, понда, 
-ради, уліті, выліті, вывті, вомас, вомӧн
-пӧвст
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- * **LEXICON PO-SPAT_  **
-these are: 
-
-аддза, бӧрті, бокиті, боксянь, дырйи, йитӧдын, 
-кузя, ног, ньылыд, паныдӧн, пӧлӧн, пыдди, пыр, понда, 
-ради, уліті, выліті, вывті, вомас, вомӧн
-пӧвст
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adpositions.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/adpositions.lexc)</small>
-# Symbol affixes
-
-Noun_symbols_possibly_inflected 
-
-Noun_symbols_never_inflected 
-
-SYMBOL_connector 
-
-SYMBOL_NO_suff 
-
-SYMBOL_suff (can abbreviations have suffixes? Probably, yes)
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/symbols.lexc)</small># Conjunctors
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/verbs.lexc)</small># Conjunctors
 ----
 Komi conjunctors
 
@@ -2079,27 +2029,145 @@ LEXICON CONJ_
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/conjunctors.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/conjunctors.lexc)</small># Particles
-----
-Komi Particles
+<small>This (part of) documentation was generated from [../src/fst/affixes/conjunctors.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/conjunctors.lexc)</small># Proper noun inflection
+
+Komi proper nouns inflect in the same cases as regular
+nouns.
+
+## Temporary lexica
+
+LEXICON ACRON-F 
+
+LEXICON ACRON 
+
+LEXICON PROP-RUS_ 
+LEXICON PROP_ 
 
 
-LEXICON PCLE_ 
+## Russian type Surnames 
 
-LEXICON PCLE_NEG 
+Preparing for the template urj-Cyrl
+Beginning 2012-11-15
+LEXICON CYRL-CONS_SUR 
 
-LEXICON PcleIntens 
+LEXICON CYRL-SIBILANT_SUR 
 
-LEXICON ONOM_ 
+LEXICON CYRL-VOW_SUR 
 
-LEXICON DESCR_ 
+LEXICON CYRL-A_SUR 
+
+LEXICON CYRL-K_SUR 
+
+LEXICON CYRL-L_SUR 
+ * :2 PropSur-kal ;  These are foreign Л words
+
+LEXICON CYRL-T_SUR 
+
+ * LEXICON PROP_KUDO_SURFEM  giella-shared
+
+LEXICON Deriv-RUS-AN_SURMAL 
+
+Абдеев:Абдеев
+LEXICON Deriv-RUS-V_SURMAL 
+
+Багрий:Багр
+LEXICON Deriv-RUS-IJ_SURMAL 
+
+LEXICON Deriv-RUS-IN_SURMAL 
+
+Аморский:Аморск
+LEXICON Deriv-RUS-KIJ_SURMAL 
+
+LEXICON Deriv-RUS-OJ_SURMAL 
+
+LEXICON Deriv-RUS-YJ_SURMAL 
+
+## PLACE NAMES FROM TEMPLATES 
+
+LEXICON PROP-PLC_KAL 
+
+LEXICON PROP-PLC_KIT 
+
+LEXICON PROP-PLC_KUDO 
+
+
+These are vowel-final stems
+They have previously received +Sem/Fem tags
+
+
+
+
+
+
+
+
+## Male given name for deriving patronyms 
+Should this be limited to +Sg? 2015-09-06
+
+Вили:Вил
+
+
+
+
+Андрей:Андре
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ending 2012-11-15
+
+
+
+
+
+
+
+
+
+FEMALE NAMES FROM TEMPLATE
+
+## PLACE NAMES FROM TEMPLATES 
+
+
+ * **@U.Cap.Opt@+Sg:@U.Cap.Opt@ DENOMINAL-LOCATIVE-ADJECTIVES ; ** This requires down-casing
+
+
+ * **@U.Cap.Opt@+Sem/Plc+EOLang/KPV+Sg:@U.Cap.Opt@ DENOMINAL-LOCATIVE-ADJECTIVES ; ** This requires down-casing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/particles.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/particles.lexc)</small># Pronominal morphology                           
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/propernouns.lexc)</small># Pronominal morphology                           
 
 ## Closed class personal pronouns
 LEXICON PRONOUN-TYPES 
@@ -2374,7 +2442,108 @@ Word-final cases
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/pronouns.lexc)</small># Postposition inflection
+----
+
+Komi postpositions inflect for direction.
+
+Prep lexica
+
+
+Postp lexica 
+
+
+
+
+
+
+
+This contlex allows for relational word which, otherwise, are open 
+to extensive declension
+
+
+ * **LEXICON POSTP1  **
+these are: 
+
+аддза, бӧрті, бокиті, боксянь, дырйи, йитӧдын, 
+кузя, ног, ньылыд, паныдӧн, пӧлӧн, пыдди, пыр, понда, 
+ради, уліті, выліті, вывті, вомас, вомӧн
+пӧвст
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON PO-SPAT_  **
+these are: 
+
+аддза, бӧрті, бокиті, боксянь, дырйи, йитӧдын, 
+кузя, ног, ньылыд, паныдӧн, пӧлӧн, пыдди, пыр, понда, 
+ради, уліті, выліті, вывті, вомас, вомӧн
+пӧвст
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adpositions.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/adpositions.lexc)</small># Particles
+----
+Komi Particles
+
+
+LEXICON PCLE_ 
+
+LEXICON PCLE_NEG 
+
+LEXICON PcleIntens 
+
+LEXICON ONOM_ 
+
+LEXICON DESCR_ 
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/particles.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/particles.lexc)</small>
 # Multichar\_Symbols and *Root* lexicon for Komi
 
 
@@ -3162,176 +3331,7 @@ The `@D.NeedNoun.ON@` flag diacritic is used to block illegal compounds.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/root.lexc)</small>This is where new words are added as lexc entries before they are
-added to the xml source files.
-воны+V:во V_ "(eng) /(fin)/(rus) " ;
-
-
-test:test V_ "(eng) /(fin) /(rus) " ;
-ADD VERBS BELOW
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs_newwords.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/stems/verbs_newwords.lexc)</small>
-
-
-
-
-
-## Acronym inflection
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/acronyms.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/stems/acronyms.lexc)</small>This is where new words are added as lexc entries before they are 
-added to the xml source files.
-важын:важын ADV_ "(eng) /(fin)/(rus) " ;
-
-
-ADD ADVERBS BELOW
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adverbs_newwords.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/stems/adverbs_newwords.lexc)</small>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Hypothetical dialect forms with е/э 2021-03-15
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/dialect_lexicon.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/stems/dialect_lexicon.lexc)</small>Exceptions are quite strange word-forms. the ones that do not fit anywhere 
-else. This file contains all enumerated word forms that cannot reasonably be
-created from lexical data by regular inflection. Usually there should be next
-to none exceptions, it's always better to have a paradigm that covers only
-one or few words than an exception since these will not work nicely with e.g.
-compounding scheme or possibly many end applications.
-
-
-The pair verb овны-вывны conjugates in more forms than are attested for 
-the single verb вывны:
-
-*овны-вывны examples:*
-* *олан-вылан:* `овны-вывны+V+Ind+Prs+Sg2`
-
-
-
-### VERBS WITH FIRST PRETERITE THIRD PERSON WITHOUT с IN NORM 
-
-### SPECIAL VERB FORM FOR VERBAL TERMINATIVE OF ЛОКНЫ 
-
-### REDUPLICATED ADVERBS
-
-
-
-### SUPERLATIVE ADVERBS
-
-### SUPERLATIVE ADJECTIVES
-
-
-
-### ADJECTIVES NOT YET ADDED TO DICTIONARY DATABANK
-
-
-
-### VOCATIVE EXPRESSIONS
-
-
-### PROPER NOUNS NOT YET ADDED TO DICTIONARY DATABANK
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/stems/exceptions.lexc)</small>This is where new words are added as lexc entries before they are 
-added to the xml source files.
-важ+A:важ A_ "(eng) /(fin)/(rus) " ;
-
-
-ADD ADJECTIVES BELOW
-
-
-colors
-
-
-from Syktyvkar
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives_newwords.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/stems/adjectives_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
-added to the xml source files.
-важ:важ A_ "(eng) /(fin)/(rus) " ;
-
-
-ADD ADJECTIVES BELOW
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives-russian-like_newwords.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/stems/adjectives-russian-like_newwords.lexc)</small>This is where new words are added as lexc entries before they are 
-added to the xml source files.
-Абъячой+N+Prop+Sem/Plc:Абъячой PROP_ "(eng) fish/(fin) /(rus)" ;
-
-
-ADD NOUNS BELOW
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/propernouns_newwords.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/stems/propernouns_newwords.lexc)</small>This is where new words are added as lexc entries before they are
-added to the xml source files.
-чери+N:чери N_ "(eng) fish/(fin) kala|fisu/(rus) рыба" ;
-
-ADD NOUNS BELOW
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns_newwords.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/stems/nouns_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/root.lexc)</small>
 
 
 We describe here how abbreviations are in Komi-Zyrian are read out, e.g.
