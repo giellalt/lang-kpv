@@ -25,62 +25,62 @@ regexes < … > , for readability reasons (sic!)
 
 IV_ЛОКНЫ 
 
- * **LEXICON V-0_ЛОКНЫ** One verb only, локны:лок
+* **LEXICON V-0_ЛОКНЫлокны:лок** One verb only, локны:лок
 
 
- * **LEXICON VR_ШУНЫ** 
+* **LEXICON VR_ШУНЫ** 
 
 IV_ШУНЫ 
 
- * **LEXICON V_ШУНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
- * **LEXICON V-0_ШУНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+* **LEXICON V_ШУНЫ-Vны.** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+* **LEXICON V-0_ШУНЫ-Vны.** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
 
- * **LEXICON VR_АМНЫ**
+* **LEXICON VR_АМНЫ**@CODE@****
 
 IV_АМНЫ 
 TV_АМНЫ 
 
 BV_АМНЫ 
 
- * **LEXICON V_АМНЫ** амны:ам Ending in -мны, -жны, -дзны,
- * **LEXICON V-0_АМНЫ** амны:ам Ending in -мны, -жны, -дзны,
+* **LEXICON V_АМНЫ-дзны,** амны:ам Ending in -мны, -жны, -дзны,
+* **LEXICON V-0_АМНЫ-дзны,** амны:ам Ending in -мны, -жны, -дзны,
 
 
- * **LEXICON V_КЫЙНЫ** кыйны:кы Ending in -йны, 
+* **LEXICON V_КЫЙНЫ** кыйны:кы Ending in -йны, 
 
- * **LEXICON V-0_КЫЙНЫ** кыйны:кы Ending in -йны, 
+* **LEXICON V-0_КЫЙНЫ** кыйны:кы Ending in -йны, 
 
- * **LEXICON VR_КУТНЫ**
+* **LEXICON VR_КУТНЫ**@CODE@****
 
- * **LEXICON V_КУТНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
- * **LEXICON V-0_КУТНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
-
-
- * **LEXICON V-0_БОСЬТНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+* **LEXICON V_КУТНЫ-Vны.** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+* **LEXICON V-0_КУТНЫ-Vны.** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
 
 
- * **LEXICON VR_НУАВНЫ** нуавны:нуа
+* **LEXICON V-0_БОСЬТНЫ-Vны.** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
 
- * **LEXICON V_НУАВНЫ** нуавны:нуа
- * **LEXICON V-0_НУАВНЫ** нуавны:нуа
+
+* **LEXICON VR_НУАВНЫнуавны:нуа** нуавны:нуа
+
+* **LEXICON V_НУАВНЫнуавны:нуа** нуавны:нуа
+* **LEXICON V-0_НУАВНЫнуавны:нуа** нуавны:нуа
 Consonant-onset
 
- * **LEXICON VR_АРТАСЬНЫ**
+* **LEXICON VR_АРТАСЬНЫ**@CODE@****
 
 
- * **LEXICON V_АРТАСЬНЫ** артасьны:артась 
- * **LEXICON V-0_АРТАСЬНЫ** артасьны:артась 
+* **LEXICON V_АРТАСЬНЫ** артасьны:артась 
+* **LEXICON V-0_АРТАСЬНЫ** артасьны:артась 
 
- * **LEXICON VR_ЛЫДДЬЫНЫ** 
+* **LEXICON VR_ЛЫДДЬЫНЫ** 
 
- * **LEXICON V_ЛЫДДЬЫНЫ** лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
- * **LEXICON V-0_ЛЫДДЬЫНЫ** лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
+* **LEXICON V_ЛЫДДЬЫНЫ-ыны.** лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
+* **LEXICON V-0_ЛЫДДЬЫНЫ-ыны.** лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
 
- * **LEXICON VR_ВОЛЫНЫ** 
+* **LEXICON VR_ВОЛЫНЫ** 
 
 
- * **LEXICON V_ВОЛЫНЫ** волыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
- * **LEXICON V-0_ВОЛЫНЫ** волыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
+* **LEXICON V_ВОЛЫНЫ-ыны.** волыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
+* **LEXICON V-0_ВОЛЫНЫ-ыны.** волыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
 
 
 
@@ -91,24 +91,24 @@ Consonant-onset
 
 ## Verb conjugation 
 
- * **LEXICON VerbConj-V**  суф б -- ы 
+* **LEXICON VerbConj-V**  суф б -- ы 
 
- * **LEXICON VerbConj** суф а
+* **LEXICON VerbConjа** суф а
 
- * **LEXICON VerbConj_КЫЙНЫ** суф а
+* **LEXICON VerbConj_КЫЙНЫа** суф а
 
- * **LEXICON VerbConj_АМНЫ** суф а
+* **LEXICON VerbConj_АМНЫа** суф а
 
- * **LEXICON VerbConj_КУТНЫ** суф а
+* **LEXICON VerbConj_КУТНЫа** суф а
 
 
- * **LEXICON Finiteforms** Gives linking vowels for 3 tenses
+* **LEXICON Finiteformstenses** Gives linking vowels for 3 tenses
 
- * **LEXICON Finiteforms_КЫЙНЫ** Gives linking vowels for 3 tenses
+* **LEXICON Finiteforms_КЫЙНЫtenses** Gives linking vowels for 3 tenses
 
- * **LEXICON Finiteforms_АМНЫ** Gives linking vowels for 3 tenses
+* **LEXICON Finiteforms_АМНЫtenses** Gives linking vowels for 3 tenses
 
- * **LEXICON Finiteforms_КУТНЫ** Gives linking vowels for 3 tenses
+* **LEXICON Finiteforms_КУТНЫtenses** Gives linking vowels for 3 tenses
 
 
 
@@ -145,9 +145,9 @@ Consonant-onset
 ## Derivation
 
 
- * **LEXICON Verb-nyDer** 
+* **LEXICON Verb-nyDer** 
 
- * **LEXICON Verb-nyDer-ONSET-CONS** Derivation onset in consonant
+* **LEXICON Verb-nyDer-ONSET-CONSconsonant** Derivation onset in consonant
 verb-to-verb
 
 This is fed by LEXICON V_ШУНЫ, and therefore certain corrections
@@ -157,54 +157,54 @@ must be made 2012-01-18
 пусьыштлывлыны
 босьтчыштлывлыны
 
- * **LEXICON Verb-nyDer-ONSET-VOW** Derivation onset	in vowel
+* **LEXICON Verb-nyDer-ONSET-VOWvowel** Derivation onset	in vowel
 
- * **LEXICON Verb-nyDer-ONSET-Ы** Derivation onset	in vowel
+* **LEXICON Verb-nyDer-ONSET-Ыvowel** Derivation onset	in vowel
 
- * **LEXICON Verb-nyDer-ONSET-А** Derivation onset	in vowel
+* **LEXICON Verb-nyDer-ONSET-Аvowel** Derivation onset	in vowel
 босьтасьны
 
- * **LEXICON Verb-nyDer-ONSET-Я** Derivation onset	in vowel
+* **LEXICON Verb-nyDer-ONSET-Яvowel** Derivation onset	in vowel
 босьтасьны
 
 
 verb-to-noun
 
- * **LEXICON VerbDer** 
+* **LEXICON VerbDer** 
 FIX THIS 2015-09-06
- * **VerbDer-ONSET_А/Я ;** 
+* **VerbDer-ONSET_А/Я ;** 
 
- * **LEXICON VerbDer_КЫЙНЫ**
- * **: VerbDer-ONSET_Ӧ ;**
- * **: VerbDer-ONSET_Я ;** 
- * **: VerbDer-ONSET_И ;**
+* **LEXICON VerbDer_КЫЙНЫ**@CODE@****
+* **: VerbDer-ONSET_Ӧ ;**@CODE@****
+* **: VerbDer-ONSET_Я ;** 
+* **: VerbDer-ONSET_И ;**@CODE@****
 
- * **LEXICON VerbDer_КУТНЫ**
- * **VerbDer-ONSET_Ӧ ;**
- * **VerbDer-ONSET_А ;** 
- * **VerbDer-ONSET_І ;**
+* **LEXICON VerbDer_КУТНЫ**@CODE@****
+* **VerbDer-ONSET_Ӧ ;**@CODE@****
+* **VerbDer-ONSET_А ;** 
+* **VerbDer-ONSET_І ;**@CODE@****
 
- * **LEXICON VerbDer_АРТАСЬНЫ**
- * **: VerbDer-ONSET_Ӧ ;**
- * **VerbDer-ONSET_Я ;** 
- * **VerbDer-ONSET_И ;**
+* **LEXICON VerbDer_АРТАСЬНЫ**@CODE@****
+* **: VerbDer-ONSET_Ӧ ;**@CODE@****
+* **VerbDer-ONSET_Я ;** 
+* **VerbDer-ONSET_И ;**@CODE@****
 
- * **LEXICON VerbDer-ONSET_Ӧ** 
-
-
-
- * **LEXICON VerbDer-ONSET_І** 
-
- * **LEXICON VerbDer-ONSET_И** 
- * **LEXICON VerbDer-ONSET_И/І** 
+* **LEXICON VerbDer-ONSET_Ӧ** 
 
 
 
+* **LEXICON VerbDer-ONSET_І** 
 
- * **LEXICON VerbDer-ONSET_А** 
- * **LEXICON VerbDer-ONSET_А/Я** 
+* **LEXICON VerbDer-ONSET_И** 
+* **LEXICON VerbDer-ONSET_И/І** 
 
- * **LEXICON VerbDer-ONSET_Я**
+
+
+
+* **LEXICON VerbDer-ONSET_А** 
+* **LEXICON VerbDer-ONSET_А/Я** 
+
+* **LEXICON VerbDer-ONSET_Я**@CODE@****
 
 
 
@@ -228,7 +228,7 @@ FIX THIS 2015-09-06
 
 
 
- * **LEXICON EM** эм:эм. Ending in -ӧсь.
+* **LEXICON EM-ӧсь.** эм:эм. Ending in -ӧсь.
 
 
 

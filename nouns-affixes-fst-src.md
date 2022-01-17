@@ -2,13 +2,13 @@
 # Noun morphological lexica 
 
 
- * **LEXICON Vocative**
+* **LEXICON Vocative**@CODE@****
 
- * **LEXICON Noun1-IS_PTC-OM** is to provide deverbal nouns with +Der/ӧм tags
+* **LEXICON Noun1-IS_PTC-OMtags** is to provide deverbal nouns with +Der/ӧм tags
 
- * **LEXICON Noun1-IS_PTC-AN**
+* **LEXICON Noun1-IS_PTC-AN**@CODE@****
 
- * **LEXICON Noun1-IS_PTC-YSJ**
+* **LEXICON Noun1-IS_PTC-YSJ**@CODE@****
 
 
 
@@ -98,7 +98,7 @@ with no more variants beyond:
 
 
 
- * **LEXICON CASEPOSSLEX**
+* **LEXICON CASEPOSSLEX**@CODE@****
 
 
 SG1
