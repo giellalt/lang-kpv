@@ -20,23 +20,23 @@ AKU in Helsinki.
 
 * Generation of: [paradigms](http://giellatekno.uit.no/cgi/p-kpv.eng.html)
   / [text](http://giellatekno.uit.no/cgi/d-kpv.eng.html)
-* [Grammatical tags](docu-grammartags.eng.html)  ~ [грамматические теги](docu-grammartags.rus.html)
+* [Grammatical tags](docu-grammartags.eng.md)  ~ [грамматические теги](docu-grammartags.rus.md)
 
 ## Meetings ~ Митинг
 
 * 2017
-    - [21.3.](meetings/170321.html)
-    - [23.9.](meetings/170923.html)
+    - [21.3.](meetings/170321.md)
+    - [23.9.](meetings/170923.md)
 
 ## Using the analyser ~ Использование анализатора
 
 ##  Testing ~ Тестирование
 
-* [Test diary ~ Дневник испытаний](kom-testdiary.html)
+* [Test diary ~ Дневник испытаний](kom-testdiary.md)
 
 ##  Old documentation - Старая документация
 
-* [Status quo 2016|docu-statusquo.eng.html]  ~ [Статус-кво 2016](docu-statusquo.rus.html)
+* [Status quo 2016|docu-statusquo.eng.md]  ~ [Статус-кво 2016](docu-statusquo.rus.md)
 
 # In-source documentation
 
