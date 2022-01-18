@@ -1,4 +1,4 @@
-!!!Morphophonology for the Komi analyser
+# Morphophonology for the Komi analyser
 
 We use the xfst technology originally developed by Lauri Karttunen .
 
