@@ -45,7 +45,7 @@ TBW.
 
 ##  Old documentation - Старая документация
 
-* [Status quo 2016|docu-statusquo.eng.md]  ~ [Статус-кво 2016](docu-statusquo.rus.md)
+* [Status quo 2016](docu-statusquo.eng.md) ~ [Статус-кво 2016](docu-statusquo.rus.md)
 
 # In-source documentation
 
