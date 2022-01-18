@@ -11,27 +11,27 @@ cf. [Rueter 2000](http://www.ling.helsinki.fi/~rueter/Publications/Rueter_in-Per
 
 ### Letters of the alphabet
 
- * а б в г д е ё ж з и і й к л м н о ӧ п р с т у ф х ц ч ш щ ъ ы ь э ю я 
- * А Б В Г Д Е Ё Ж З И І Й К Л М Н О Ӧ П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я 
- * %^к2:к %^л2:л %^м2:м %^т2:т %^ь2:ь 
- * %^И2:и 
- * %{иі%}:и	 for soft and hard
- * %{иі%}:і	 for soft and hard
- * %{ая%}:а	 for soft and hard
- * %^V1:ӧ        for reduplicated vowel
- * %^V1:а %^V1:э %^V1:о %^V1:у 
+* а б в г д е ё ж з и і й к л м н о ӧ п р с т у ф х ц ч ш щ ъ ы ь э ю я 
+* А Б В Г Д Е Ё Ж З И І Й К Л М Н О Ӧ П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я 
+* %^к2:к %^л2:л %^м2:м %^т2:т %^ь2:ь 
+* %^И2:и 
+* %{иі%}:и	 for soft and hard
+* %{иі%}:і	 for soft and hard
+* %{ая%}:а	 for soft and hard
+* %^V1:ӧ        for reduplicated vowel
+* %^V1:а %^V1:э %^V1:о %^V1:у 
 
 ### Triggers
- * %^Close:0	 Close syllable, this triggers final consonant drop, seen in word-final position and before consonant
- * %^C2V:0        Consonant v to vowel
+* %^Close:0	 Close syllable, this triggers final consonant drop, seen in word-final position and before consonant
+* %^C2V:0        Consonant v to vowel
 
 ### Boundary symbols
 
- *  %>  morpheme boundary мун%>ны
+*  %>  morpheme boundary мун%>ны
 * hash # word boundary
- *  %- 
- *  «   мед«ічӧт
- *  »    удж»ал»ышт
+*  %- 
+*  «   мед«ічӧт
+*  »    удж»ал»ышт
 
 
 Diacritics
@@ -42,38 +42,38 @@ Diacritics
 ### Sets
 
 Vowel
- * Vow =  а е ё и і о ӧ у ы э ю я 
- *        А Е Ё И У О Ӧ У Ы Э Ю Я ; 
+* Vow =  а е ё и і о ӧ у ы э ю я 
+*        А Е Ё И У О Ӧ У Ы Э Ю Я ; 
 
 Palatal Vowel
 Cns-initial vowels
- * PalVow = е ё ю я 
- *          Е Ё Ю Я ; 
+* PalVow = е ё ю я 
+*          Е Ё Ю Я ; 
 
 All non-vowels, consonants and hard and soft signs
- * Cns =  б в г д ж з й к л м н п р с т ф х ц ч ш щ ъ ь 
- *        Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ъ Ь 
- *        к2 л2 м2 т2 ь2 ; 
+* Cns =  б в г д ж з й к л м н п р с т ф х ц ч ш щ ъ ь 
+*        Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ъ Ь 
+*        к2 л2 м2 т2 ь2 ; 
 
 All non-vowels with exception of soft sign
- * CnsNotSoft =  б в г д ж з й к л м н п р с т ф х ц ч ш щ ъ 
- *               Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ъ 
- *        	      к2 л2 м2 т2 ь2 ; 
+* CnsNotSoft =  б в г д ж з й к л м н п р с т ф х ц ч ш щ ъ 
+*               Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ъ 
+*        	      к2 л2 м2 т2 ь2 ; 
 All consonants followed by Cyrillic и
- * CnsBeforeCyri = б в г ж й к м п р ф х ч ш щ 
- *               	Б В Г Ж Й К М П Р Ф Х Ч Ш Щ 
- *               	к2 м2 т2 ; 
+* CnsBeforeCyri = б в г ж й к м п р ф х ч ш щ 
+*               	Б В Г Ж Й К М П Р Ф Х Ч Ш Щ 
+*               	к2 м2 т2 ; 
 
 All but z consonants that can be followed by either і or и
- * PairedCnsNoZ =  д л н с т 
- *                 Д Л Н С Т 
- *        	        л2 т2 ; 
+* PairedCnsNoZ =  д л н с т 
+*                 Д Л Н С Т 
+*        	        л2 т2 ; 
 
 Letters
- *  Letter = Vow Cns ; 
+*  Letter = Vow Cns ; 
 
 Dummy
- * Dummy =  %^Inf %^PATR %^FEM ; 
+* Dummy =  %^Inf %^PATR %^FEM ; 
 
 
 ### Definitions

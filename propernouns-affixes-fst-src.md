@@ -28,11 +28,11 @@ LEXICON CYRL-A_SUR
 LEXICON CYRL-K_SUR 
 
 LEXICON CYRL-L_SUR 
- * :2 PropSur-kal ;  These are foreign Л words
+* :2 PropSur-kal ;  These are foreign Л words
 
 LEXICON CYRL-T_SUR 
 
- * LEXICON PROP_KUDO_SURFEM  giella-shared
+* LEXICON PROP_KUDO_SURFEM  giella-shared
 
 LEXICON Deriv-RUS-AN_SURMAL 
 
@@ -107,10 +107,10 @@ FEMALE NAMES FROM TEMPLATE
 ## PLACE NAMES FROM TEMPLATES 
 
 
- * **@U.Cap.Opt@+Sg:@U.Cap.Opt@ DENOMINAL-LOCATIVE-ADJECTIVES ; ** This requires down-casing
+* **@U.Cap.Opt@+Sg:@U.Cap.Opt@ DENOMINAL-LOCATIVE-ADJECTIVES ; ** This requires down-casing
 
 
- * **@U.Cap.Opt@+Sem/Plc+EOLang/KPV+Sg:@U.Cap.Opt@ DENOMINAL-LOCATIVE-ADJECTIVES ; ** This requires down-casing
+* **@U.Cap.Opt@+Sem/Plc+EOLang/KPV+Sg:@U.Cap.Opt@ DENOMINAL-LOCATIVE-ADJECTIVES ; ** This requires down-casing
 
 
 

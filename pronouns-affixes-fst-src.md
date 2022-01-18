@@ -4,14 +4,14 @@
 LEXICON PRONOUN-TYPES 
 
 * **LEXICON PERS** 
-* **ме+Pron+Pers+Sg1: PERS-SG1 ;...** ...
+* **ме+Pron+Pers+Sg1: PERS-SG1 ;** ...
 
 
 * **LEXICON PERS-SG1** 
 
-* **LEXICON PERS-PL1**@CODE@****
+* **LEXICON PERS-PL1**
 
-* **LEXICON PERS-SG2**@CODE@****
+* **LEXICON PERS-SG2**
 
 * **LEXICON PERS-PL2** 
 
@@ -22,14 +22,14 @@ that differ from the 3rd person:
 ті тійӧ nämä ovat aivan eri asioita
 сы сійӧ tosin joskus 
 
-* **LEXICON PERS-PL3**@CODE@****
+* **LEXICON PERS-PL3**
 
 
 
-* **LEXICON perssg**@CODE@****
+* **LEXICON perssg**
 
 
-* **LEXICON persplobl**@CODE@****
+* **LEXICON persplobl**
 
 
 
@@ -106,7 +106,7 @@ that differ from the 3rd person:
 
 
 
-* = LEXICON persplobl**@CODE@** ас:а 
+* = LEXICON persplobl ас:а 
 
 
 

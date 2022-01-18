@@ -1000,70 +1000,70 @@ NOT-PRL (have no homograph Prolative pairs set)
 Check these:
 
 ## Analysis symbols
-* **+WORKsolutions** to mark intermediate solutions
+* **+WORK** to mark intermediate solutions
 
 The morphological analyses of wordforms for the Komi-Zyrian
 language are presented in this system in terms of the following symbols.
 (It is highly suggeste   d to follow existing standards when adding new tags).
 
 ### The parts-of-speech tags
-* **+Aприлагательное**:  adjective  кывберд   прилагательное
+* **+A**:  adjective  кывберд   прилагательное
 * **+Adp**:  adposition (prepositio, postposition)     
-* **+Advнаречие**:  adverb    урчитан            наречие
-* **+CSсоюз**:  subordinating conjunction      XX   подчинительный союз
-* **+CCсоюз**:  coordinating conjunction      XX   сочинительный союз
-* **+DetXX**:  determiner  XX   XX
-* **+Interjмеждометие**:  interjection   междометтьӧ   междометие
-* **+Nсуществительное**:  noun      эмакыв    - существительное
-* **+Numчислительное**:  numeral      лыдакыв   числительное
-* **+Pcleчастица**:  particle      кывтор   частица
-* **+Poпослелог**:  postposition   кывбӧр   послелог
-* **+Prпредлог**:  preposition   XX   предлог
-* **+Pronместоимение**:  pronoun   нимвежтас   местоимение
-* **+QntXX**:  Quantifier   ХХ   XX
-* **+Vглагол**:  verb      кадакыв   глагол
+* **+Adv**:  adverb    урчитан            наречие
+* **+CS**:  subordinating conjunction      XX   подчинительный союз
+* **+CC**:  coordinating conjunction      XX   сочинительный союз
+* **+Det**:  determiner  XX   XX
+* **+Interj**:  interjection   междометтьӧ   междометие
+* **+N**:  noun      эмакыв    - существительное
+* **+Num**:  numeral      лыдакыв   числительное
+* **+Pcle**:  particle      кывтор   частица
+* **+Po**:  postposition   кывбӧр   послелог
+* **+Pr**:  preposition   XX   предлог
+* **+Pron**:  pronoun   нимвежтас   местоимение
+* **+Qnt**:  Quantifier   ХХ   XX
+* **+V**:  verb      кадакыв   глагол
 
 
 ### Subtags
 
 #### Adverb subtags
 
-* **+Ideophoff"** These are ideophonic descriptors used to modify the verb --  вырк ливтясь "**flit** and it flew off"
-* **+DegAdA** Degree depricate AdA
-* **+Manneradverb** with reference to type of adverb
-* **+Multiterations** multiplicative, i.e. iterations
-* **+Spatspatial** spatial
-* **+Temptemporal** temporal
-* **+Parentheticphrase** parenthetical phrase
+* **+Ideoph** These are ideophonic descriptors used to modify the verb --  вырк ливтясь "**flit** and it flew off"
+* **+Deg** Degree depricate AdA
+* **+Manner** with reference to type of adverb
+* **+Mult** multiplicative, i.e. iterations
+* **+Spat** spatial
+* **+Temp** temporal
+* **+Parenthetic** parenthetical phrase
 * **+Presentational** 
 
 #### Interjections
 **+Formulaic** = expressions such as аттьӧ, ало, ... 
-**+Conative...** Used for calling animals, for example брысь, баль-баль, ...
+**+Conative** Used for calling animals, for example брысь, баль-баль, ...
 
 #### Nouns
-* **+Propproper** proper
-* **+CollNnouns**** used with paired nouns **collective nouns**
-* **+Relatув** relational noun: выв, ув
+* **+Prop** proper
+* **+CollN** used with paired nouns **collective nouns**
+* **+Relat** relational noun: выв, ув
 
 
 ####  Pronouns
-* **+Demdemonstrative**:  demonstrative
-* **+Indefindefinite**:  indefinite
-* **+Interrinterrogative**:  interrogative
-* **+Perspersonal**:  personal
-* **+Reciprreciprocal**:  reciprocal
-* **+Reflreflexive**:  reflexive
-* **+Relrelative**:  relative
-* **+Posspossessive**:  possessive
+* **+Dem**:  demonstrative
+* **+Indef**:  indefinite
+* **+Interr**:  interrogative
+* **+Pers**:  personal
+* **+Recipr**:  reciprocal
+* **+Refl**:  reflexive
+* **+Rel**:  relative
+* **+Poss**:  possessive
 
 
 #### Nominals are inflected for Number and Case
 
 #### Number
-* **+Sgsingular**  singular
-* **+Plplural**  plural
-* **+Dupronoun.** for pronoun.
+* **+Sg**  singular
+* **+Pl**  plural
+* **+Du** for pronoun.
 
 
 
@@ -1071,36 +1071,36 @@ language are presented in this system in terms of the following symbols.
 
 A category of case in Komi can be identified as:
 
-*  **+Accкеран** accusative ZERO керан
-*  **+Acc1керан** accusative -ӧс керан
-*  **+Acc3керан** accusative -сӧ керан
-*  **+Ablбосьтан** ablative case -лысь босьтан
-*  **+Aprматыстчан** approximative -лань матыстчан
-    - **+AprEgrылыстчан** approximative egressive -ланьсянь матысь ылыстчан
-    - **+AprElaпетан** approximative elative -ланьысь матысь петан
-    - **+AprIllматыстчан** approximative illative -ланьӧ матӧ матыстчан
-    - **+AprIneина** approximative inessive -ланьын матыс ина
-    - **+AprPrlвуджан** approximative prolative -ланьӧд маті вуджан
-    - **+AprTerвоан** approximative terminative -ланьӧдз матіӧдз воан
-    - **+AprTraвуджан** approximative translative -ланьті маті вуджан
-*  **+Carторйӧдан** caritive -тӧг торйӧдан
-*  **+Cnsмогман** consecultative -ла могман
-*  **+Comӧтвывтан** Comitative -кӧд ӧтвывтан
-*  **+Cmprӧткодялан** Comparative case form -ся ӧткодялан
-*  **+Cmplcomplement**  Postposition complement
-*  **+Datсетан** dative case -лы сетан
-*  **+Egrылыстчан** egressive -сянь ылыстчан
-*  **+Elaпетан** elative -ысь петан
-*  **+Genасалан** genitive case -лӧн асалан
-*  **+Illпыран** illative -ӧ пыран
-*  **+Ineина** inessive -ын ина
-*  **+Insкеранторъя** instrumental -ӧн керанторъя
-*  **+Nomнимтан** nominative case нимтан
-*  **+Prlвуджан** prolative -ӧд вуджан
-*  **+Traвуджан** translative -ті вуджан
-*  **+Terматыстчан** Terminative -ӧдз матыстчан
-*  **+Voc??** Vocative ??
-*  **+Abs+Sg+Nom** Absolute = +Sg+Nom
+*  **+Acc** accusative ZERO керан
+*  **+Acc1** accusative -ӧс керан
+*  **+Acc3** accusative -сӧ керан
+*  **+Abl** ablative case -лысь босьтан
+*  **+Apr** approximative -лань матыстчан
+    - **+AprEgr** approximative egressive -ланьсянь матысь ылыстчан
+    - **+AprEla** approximative elative -ланьысь матысь петан
+    - **+AprIll** approximative illative -ланьӧ матӧ матыстчан
+    - **+AprIne** approximative inessive -ланьын матыс ина
+    - **+AprPrl** approximative prolative -ланьӧд маті вуджан
+    - **+AprTer** approximative terminative -ланьӧдз матіӧдз воан
+    - **+AprTra** approximative translative -ланьті маті вуджан
+*  **+Car** caritive -тӧг торйӧдан
+*  **+Cns** consecultative -ла могман
+*  **+Com** Comitative -кӧд ӧтвывтан
+*  **+Cmpr** Comparative case form -ся ӧткодялан
+*  **+Cmpl**  Postposition complement
+*  **+Dat** dative case -лы сетан
+*  **+Egr** egressive -сянь ылыстчан
+*  **+Ela** elative -ысь петан
+*  **+Gen** genitive case -лӧн асалан
+*  **+Ill** illative -ӧ пыран
+*  **+Ine** inessive -ын ина
+*  **+Ins** instrumental -ӧн керанторъя
+*  **+Nom** nominative case нимтан
+*  **+Prl** prolative -ӧд вуджан
+*  **+Tra** translative -ті вуджан
+*  **+Ter** Terminative -ӧдз матыстчан
+*  **+Voc** Vocative ??
+*  **+Abs** Absolute = +Sg+Nom
 
 
 
@@ -1108,49 +1108,49 @@ A category of case in Komi can be identified as:
 
 #### Possessive suff
 * **+PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3** 
-* **+Px1 +Px2 +Px3**@CODE@****
-* **+So/CPperson** segment ordering: case, person
-* **+So/PCcase** segment ordering: person, case
+* **+Px1 +Px2 +Px3**
+* **+So/CP** segment ordering: case, person
+* **+So/PC** segment ordering: person, case
 
 #### The comparative forms are:
-* **+Compджык** джык
+* **+Comp** джык
 * **+Superl** 
 
 #### Numeral tags:
 * **+Attr +Card** 
 * **+Ord** 
-* **+Itertimes**  Iterative form expressing number of times
+* **+Iter**  Iterative form expressing number of times
 * **+Tot** 
 * **+Arab +Rom** 
 * **+Coll** 
 
 #### Quantifiers (numerals)
 
-* **+Appr+Apr**:  Approximative numeral кавто-колмо, колмошка *two or three*   NB! do not confuse with Komi case +Apr
-* **+AssocCollavide-**:  -ne- ; avide-
-* **+Assoc+мезть**:  +мезть
-* **+CardNCard**:  cardinal + NCard
-* **+ZeroCollкодныс**:  Zero collective кодныс
-* **+DistrDistributive**:  Distributive
-* **+Iter`кыкысь`: Iterative form expressing number of consecutive times; kpv**:  `кыкысь`
-* **+Multпӧв`: Multiplicative adverbs number of times; kpv**:  `кык пӧв`
-* **+Coordnumerals.lexc**:  Coordinates, i.e. 65˚36′8,30″ in numerals.lexc
-* **+CopPred**:  this is for copula complement predicate position with pl in -ӧсь depricated Pred
+* **+Appr**:  Approximative numeral кавто-колмо, колмошка *two or three*   NB! do not confuse with Komi case +Apr
+* **+AssocColl**:  -ne- ; avide-
+* **+Assoc**:  +мезть
+* **+Card**:  cardinal + NCard
+* **+ZeroColl**:  Zero collective кодныс
+* **+Distr**:  Distributive
+* **+Iter: Iterative form expressing number of consecutive times; kpv**:  `кыкысь`
+* **+Mult: Multiplicative adverbs number of times; kpv**:  `кык пӧв`
+* **+Coord**:  Coordinates, i.e. 65˚36′8,30″ in numerals.lexc
+* **+Cop**:  this is for copula complement predicate position with pl in -ӧсь depricated Pred
 
 
 #### Verb tags
-* **+Ind +Prs +Prt1 +Prt2 +Fut +Imprttense** tense
-* **+Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3person** person
-* **+1 +2 +32019-04-06**  Final мед ог _so that I/we won't_ 2019-04-06
+* **+Ind +Prs +Prt1 +Prt2 +Fut +Imprt** tense
+* **+Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3** person
+* **+1 +2 +3**  Final мед ог _so that I/we won't_ 2019-04-06
 * **+Inf** 
-* **+Gerderivations**  Gerund This is used with derivations
+* **+Ger**  Gerund This is used with derivations
 * **+ConNeg +Neg** 
-* **+VAbessParticiple** тӧм Participle
-* **+VCarGerund** тӧг Gerund
-* **+VTerGerund** тӧдз Gerund
-* **+Finalwon't'**  мог, мон, моз 'so that I won't'
+* **+VAbess** тӧм Participle
+* **+VCar** тӧг Gerund
+* **+VTer** тӧдз Gerund
+* **+Final**  мог, мон, моз 'so that I won't'
 * **+TV** 
-* **+IV**@CODE@****
+* **+IV**
 * **+Aux** 
 
 
@@ -1159,23 +1159,23 @@ A category of case in Komi can be identified as:
 #### Other tags
 * **+ABBR +ACR** 
 * **+Acron** 
-* **+Symbol©** = independent symbols in the text stream, like £, €, ©
+* **+Symbol** = independent symbols in the text stream, like £, €, ©
 Special symbols are classified with:
 * **+CLB +PUNCT +LEFT +RIGHT** 
-* **+Multiwith:** Special multiword units are analysed with:
+* **+Multi** Special multiword units are analysed with:
 * **+Guess** 
 
 #### Question and Focus particles:
-* **+Qst**@CODE@****
+* **+Qst**
 * **+Foc** 
-* **+Clt/И-й)**  This comes at the end of a word -и or after vowels (some authors use -й)
+* **+Clt/И**  This comes at the end of a word -и or after vowels (some authors use -й)
 * **+Clt** 
 * **+Qst/A** 
 * **+Qst/Oe** 
 * **+Clt/тӧ** 
-* **+Clt/сӧ**@CODE@****
-* **+Clt/Kodjphrase** adjectival phrase
-* **+Clt/Mozclause** adverbial clause
+* **+Clt/сӧ**
+* **+Clt/Kodj** adjectival phrase
+* **+Clt/Moz** adverbial clause
 
 * **+Hom1** 
 * **+Hom2** 
@@ -1184,50 +1184,50 @@ Special symbols are classified with:
 
 
 ### Tags distinguishing different versions of the same lemma (before POS)
-* **+v1**@CODE@****
-* **+v2**@CODE@****
-* **+v3**@CODE@****
-* **+v4**@CODE@****
-* **+v5**@CODE@****
-* **+v6**@CODE@****
-* **+v7**@CODE@****
-* **+v8**@CODE@****
-* **+v9**@CODE@****
-* **+v10**@CODE@****
-* **+v11**@CODE@****
-* **+v12**@CODE@****
-* **+v13**@CODE@****
-* **+v14**@CODE@****
-* **+v15**@CODE@****
-* **+v16**@CODE@****
-* **+v17**@CODE@****
-* **+v18**@CODE@****
-* **+v19**@CODE@****
-* **+v20**@CODE@****
-* **+v21**@CODE@****
-* **+v22**@CODE@****
-* **+v23**@CODE@****
-* **+v24**@CODE@****
+* **+v1**
+* **+v2**
+* **+v3**
+* **+v4**
+* **+v5**
+* **+v6**
+* **+v7**
+* **+v8**
+* **+v9**
+* **+v10**
+* **+v11**
+* **+v12**
+* **+v13**
+* **+v14**
+* **+v15**
+* **+v16**
+* **+v17**
+* **+v18**
+* **+v19**
+* **+v20**
+* **+v21**
+* **+v22**
+* **+v23**
+* **+v24**
 
 #### Usage tags:
 * **+Err/Orth** 
-* **+Err/Orth-colloqpatronymic** colloquial form for patronymic
+* **+Err/Orth-colloq** colloquial form for patronymic
 * **+Err/Orth-no-paragogic-j** 
 * **+Err/Orth-no-paragogic-k** 
 * **+Err/Orth-no-paragogic-m** 
 * **+Err/Orth-no-paragogic-t** 
-* **+Err/Orth-l-in-vv** followed by vowel, yet v
+* **+Err/Orth-l-in-v** followed by vowel, yet v
 * **+Err/Orth-l-to-v-in-new** 
 * **+Err/Orth-l-to-vowel-lengthening** 
 * **+Err/Orth-l-retenstion** 
 
-* **+Err/Dialтӧг** e.g. тэг instead of тӧг
-* **+Err/Lexпомсьыны** substandard, not in normative fst, no  normative lemma помсьыны
+* **+Err/Dial** e.g. тэг instead of тӧг
+* **+Err/Lex** substandard, not in normative fst, no  normative lemma помсьыны
 * **+Use/-Spell** 
 * **+Use/SpellNoSugg** 
-* **+Use/PMatchdisambiguator** means that the following is only used in the analyser feeding the disambiguator
-* **+Use/-PMatchhfst-pmatch** Do not include in fst's made for hfst-pmatch
-* **+Use/NGkpv-koi** This is used for minimizing excess generation in apertium kpv-koi
+* **+Use/PMatch** means that the following is only used in the analyser feeding the disambiguator
+* **+Use/-PMatch** Do not include in fst's made for hfst-pmatch
+* **+Use/NG** This is used for minimizing excess generation in apertium kpv-koi
 
 #### Dialect features
 * **+Dial/л** 
@@ -1235,124 +1235,124 @@ Special symbols are classified with:
 
 
 #### Check these Where do these come from source
-* **+Src/F2015-09-08** foreign source apparently 2015-09-08
-* **+Dimterm)** diminutive for verbs -ышт- (there might be a better term)
-* **+Dimin-тор-** diminutive for nouns -тор-
-* **+NonHumsomewhere** look at this and place somewhere
+* **+Src/F** foreign source apparently 2015-09-08
+* **+Dim** diminutive for verbs -ышт- (there might be a better term)
+* **+Dimin** diminutive for nouns -тор-
+* **+NonHum** look at this and place somewhere
 
 Semantic tags to help disambiguation & synt. analysis: (before POS)
 Borrowed from main/langs/sme/src/morphology/root.lexc
 
 ### Semantic tags
 
-* **+Sem/ActActivity** Activity
-* **+Sem/AmountAmount** Amount
-* **+Sem/AniAnimate** Animate
-* **+Sem/AniprodProduct** Animal Product
-* **+Sem/BodyBodypart** Bodypart
-* **+Sem/Body-abstrjierbmi** siellu, vuoig?a, jierbmi
-* **+Sem/BuildBuilding** Building
-* **+Sem/Build-partcloset** Part of Bulding, like the closet
-* **+Sem/CatCategory** Category
-* **+Sem/ClthClothes** Clothes
-* **+Sem/Clth-jewlJewelery** Jewelery
-* **+Sem/Clth-partsávdnji...** part of clothes, boallu, sávdnji...
-* **+Sem/CtainContainer** Container
-* **+Sem/Ctain-abstraccount** Abstract container like bank account
-* **+Sem/Ctain-clth**@CODE@****
-* **+Sem/CurrMoney** Currency like dollár, Not Money
-* **+Sem/DanceDance** Dance
-* **+Sem/DirGPS-kursa** Direction like GPS-kursa
-* **+Sem/Domainactions)** Domain like politics, reindeerherding (a system of actions)
-* **+Sem/DrinkDrink** Drink
-* **+Sem/DummytagDummytag** Dummytag
-* **+Sem/Eduevent** Educational event
-* **+Sem/EventEvent** Event
-* **+Sem/FeatÁrvu** Feature, like Árvu
-* **+Sem/Feat-physfárda** Physiological feature, ivdni, fárda
-* **+Sem/Feat-psychfeauture** Psychological feauture
-* **+Sem/Feat-measrfeauture** Psychological feauture
-* **+Sem/Femname** Female name
-* **+Sem/FoodFood** Food
-* **+Sem/Food-medMedicine** Medicine
-* **+Sem/FurnFurniture** Furniture
-* **+Sem/GameGame** Game
-* **+Sem/Geomobject** Geometrical object
-* **+Sem/GroupGroup** Animal or Human Group
-* **+Sem/HumHuman** Human
-* **+Sem/Hum-abstrabstract** Human abstract
-* **+Sem/IdeolIdeology** Ideology
-* **+Sem/LangLanguage** Language
-* **+Sem/Malname** Male name
-* **+Sem/Matthings** Material for producing things
-* **+Sem/MeasrMeasure** Measure
-* **+Sem/MoneyCurr(ency)** Has to do with money, like wages, not Curr(ency)
-* **+Sem/ObjObject** Object
-* **+Sem/Obj-cloCloth** Cloth
-* **+Sem/Obj-cognCloth** Cloth
-* **+Sem/Obj-elapparatus** (Electrical) machine or apparatus
-* **+Sem/Obj-lingit** Object with something written on it
-* **+Sem/Obj-ropeobject** flexible ropelike object
-* **+Sem/Obj-surfcobject** Surface object
-* **+Sem/OrgOrganisation** Organisation
-* **+Sem/Partbealli** Feature, oassi, bealli
-* **+Sem/Perc-cognperception** Cognative perception
-* **+Sem/Perc-emoperception** Emotional perception
-* **+Sem/Perc-physperception** Physical perception
-* **+Sem/Perc-psychperception** Physical perception
-* **+Sem/PlantPlant** Plant
-* **+Sem/Plant-partpart** Plant part
-* **+Sem/PlcPlace** Place
-* **+Sem/Plc-abstrplace** Abstract place
-* **+Sem/Plc-elevatePlace** Place
-* **+Sem/Plc-linePlace** Place
-* **+Sem/Plc-waterPlace** Place
-* **+Sem/Posjob)** Position (as in social position job)
-* **+Sem/ProcessProcess** Process
-* **+Sem/ProdProduct** Product
-* **+Sem/Prod-audioproduct** Audio product
-* **+Sem/Prod-cognproduct** Cognition product
-* **+Sem/Prod-lingproduct** Linguistic product
-* **+Sem/Prod-visproduct** Visual product
-* **+Sem/RelRelation** Relation
-* **+Sem/RouteRoute** Name of a Route
-* **+Sem/Ruleconvention** Rule or convention
-* **+Sem/Semconconcept** Semantic concept
-* **+Sem/Signpunctuation)** Sign (e.g. numbers, punctuation)
-* **+Sem/SportSport** Sport
-* **+Sem/State**@CODE@****
-* **+Sem/State-sickIllness** Illness
-* **+Sem/SubstncWater** Substance, like Air and Water
-* **+Sem/SurSurname** Surname
-* **+Sem/SymbolSymbol** Symbol
-* **+Sem/TimeTime** Time
-* **+Sem/Toolthings** Prototypical tool for repairing things
-* **+Sem/Tool-catchfish)** Tool used for catching (e.g. fish)
-* **+Sem/Tool-cleancleaning** Tool used for cleaning
-* **+Sem/Tool-itIT** Tool used in IT
-* **+Sem/Tool-measrmeasuring** Tool used for measuring
-* **+Sem/Tool-musicinstrument** Music instrument
-* **+Sem/Tool-writetool** Writing tool
-* **+Sem/Txtlávlla...)** Text (girji, lávlla...)
-* **+Sem/VehVehicle** Vehicle
-* **+Sem/WpnWeapon** Weapon
-* **+Sem/Wthrground** The Weather or the state of ground
-* **+Sem/Year**@CODE@****
-* **+Sem/Sur-Femfemale** Surname female
-* **+Sem/Sur-Malmale** Surname male
-* **+Sem/AntAnthroponym**  Anthroponym
-* **+Sem/Ant-Femfemale**  Anthroponym female
-* **+Sem/Ant-Malmale**  Anthroponym male
-* **+Sem/PatrPatronym**  Patronym
-* **+Sem/Patr-Femfemale**  Patronym female
-* **+Sem/Patr-Malmale**  Patronym male
+* **+Sem/Act** Activity
+* **+Sem/Amount** Amount
+* **+Sem/Ani** Animate
+* **+Sem/Aniprod** Animal Product
+* **+Sem/Body** Bodypart
+* **+Sem/Body-abstr** siellu, vuoig?a, jierbmi
+* **+Sem/Build** Building
+* **+Sem/Build-part** Part of Bulding, like the closet
+* **+Sem/Cat** Category
+* **+Sem/Clth** Clothes
+* **+Sem/Clth-jewl** Jewelery
+* **+Sem/Clth-part** part of clothes, boallu, sávdnji...
+* **+Sem/Ctain** Container
+* **+Sem/Ctain-abstr** Abstract container like bank account
+* **+Sem/Ctain-clth**
+* **+Sem/Curr** Currency like dollár, Not Money
+* **+Sem/Dance** Dance
+* **+Sem/Dir** Direction like GPS-kursa
+* **+Sem/Domain** Domain like politics, reindeerherding (a system of actions)
+* **+Sem/Drink** Drink
+* **+Sem/Dummytag** Dummytag
+* **+Sem/Edu** Educational event
+* **+Sem/Event** Event
+* **+Sem/Feat** Feature, like Árvu
+* **+Sem/Feat-phys** Physiological feature, ivdni, fárda
+* **+Sem/Feat-psych** Psychological feauture
+* **+Sem/Feat-measr** Psychological feauture
+* **+Sem/Fem** Female name
+* **+Sem/Food** Food
+* **+Sem/Food-med** Medicine
+* **+Sem/Furn** Furniture
+* **+Sem/Game** Game
+* **+Sem/Geom** Geometrical object
+* **+Sem/Group** Animal or Human Group
+* **+Sem/Hum** Human
+* **+Sem/Hum-abstr** Human abstract
+* **+Sem/Ideol** Ideology
+* **+Sem/Lang** Language
+* **+Sem/Mal** Male name
+* **+Sem/Mat** Material for producing things
+* **+Sem/Measr** Measure
+* **+Sem/Money** Has to do with money, like wages, not Curr(ency)
+* **+Sem/Obj** Object
+* **+Sem/Obj-clo** Cloth
+* **+Sem/Obj-cogn** Cloth
+* **+Sem/Obj-el** (Electrical) machine or apparatus
+* **+Sem/Obj-ling** Object with something written on it
+* **+Sem/Obj-rope** flexible ropelike object
+* **+Sem/Obj-surfc** Surface object
+* **+Sem/Org** Organisation
+* **+Sem/Part** Feature, oassi, bealli
+* **+Sem/Perc-cogn** Cognative perception
+* **+Sem/Perc-emo** Emotional perception
+* **+Sem/Perc-phys** Physical perception
+* **+Sem/Perc-psych** Physical perception
+* **+Sem/Plant** Plant
+* **+Sem/Plant-part** Plant part
+* **+Sem/Plc** Place
+* **+Sem/Plc-abstr** Abstract place
+* **+Sem/Plc-elevate** Place
+* **+Sem/Plc-line** Place
+* **+Sem/Plc-water** Place
+* **+Sem/Pos** Position (as in social position job)
+* **+Sem/Process** Process
+* **+Sem/Prod** Product
+* **+Sem/Prod-audio** Audio product
+* **+Sem/Prod-cogn** Cognition product
+* **+Sem/Prod-ling** Linguistic product
+* **+Sem/Prod-vis** Visual product
+* **+Sem/Rel** Relation
+* **+Sem/Route** Name of a Route
+* **+Sem/Rule** Rule or convention
+* **+Sem/Semcon** Semantic concept
+* **+Sem/Sign** Sign (e.g. numbers, punctuation)
+* **+Sem/Sport** Sport
+* **+Sem/State**
+* **+Sem/State-sick** Illness
+* **+Sem/Substnc** Substance, like Air and Water
+* **+Sem/Sur** Surname
+* **+Sem/Symbol** Symbol
+* **+Sem/Time** Time
+* **+Sem/Tool** Prototypical tool for repairing things
+* **+Sem/Tool-catch** Tool used for catching (e.g. fish)
+* **+Sem/Tool-clean** Tool used for cleaning
+* **+Sem/Tool-it** Tool used in IT
+* **+Sem/Tool-measr** Tool used for measuring
+* **+Sem/Tool-music** Music instrument
+* **+Sem/Tool-write** Writing tool
+* **+Sem/Txt** Text (girji, lávlla...)
+* **+Sem/Veh** Vehicle
+* **+Sem/Wpn** Weapon
+* **+Sem/Wthr** The Weather or the state of ground
+* **+Sem/Year**
+* **+Sem/Sur-Fem** Surname female
+* **+Sem/Sur-Mal** Surname male
+* **+Sem/Ant**  Anthroponym
+* **+Sem/Ant-Fem**  Anthroponym female
+* **+Sem/Ant-Mal**  Anthroponym male
+* **+Sem/Patr**  Patronym
+* **+Sem/Patr-Fem**  Patronym female
+* **+Sem/Patr-Mal**  Patronym male
 
 
 #### Multiple Semantic tags:
 * **+Sem/Ant_Fem** 
 * **+Sem/Ant_Mal** 
 * **+Sem/Patr-Маl** 
-* **+Sem/Event_Plcсёянін**  сёянін
+* **+Sem/Event_Plc**  сёянін
 * **+Sem/Hum_Prof**  profession, capacity doctor, tractor driver 
 
 
@@ -1366,46 +1366,46 @@ source and target part-of-speech.
 * **+Der/xxx** 
 * **+Der**  In front of every derivation to make it   possible to target derivations as a class e.g. in regular expressions etc 
 * **+Der/La** 
-* **+Der/Ан+AN**  Process Participle +AN
-* **+Der/Ана(with...)** Process Participle +ANA, Gerund or participle according to context (with...)
-* **+Der/Анаа+ANAA**  adverb derived from participle (+ANA) +ANAA
-* **+Der/чӧж+CHOZH**  +CHOZH
+* **+Der/Ан**  Process Participle +AN
+* **+Der/Ана** Process Participle +ANA, Gerund or participle according to context (with...)
+* **+Der/Анаа**  adverb derived from participle (+ANA) +ANAA
+* **+Der/чӧж**  +CHOZH
 * **+Der/тӧг** 
-* **+Der/PatrRussian** patronymics in Russian
+* **+Der/Patr** patronymics in Russian
 * **+Instr** 
-* **+NomAct**@CODE@****
-* **+Der/NomAct+Event**  +Event
+* **+NomAct**
+* **+Der/NomAct**  +Event
 * **+Der/NomAg** 
-* **+Duration**@CODE@****
-* **+Der/иг**@CODE@****
-* **+Der/Ig**@CODE@****
-* **+Der/IgKezhlo**@CODE@****
-* **+Der/IgKosta**@CODE@****
-* **+Der/IgKosti**@CODE@****
-* **+Der/IgMoz%{иі%}гмоз** %{иі%}гмоз
-* **+Der/IgonMoz%{иі%}гӧнмоз** %{иі%}гӧнмоз
-* **+Der/IgSor%{иі%}гсор** %{иі%}гсор
-* **+Der/IgTyr%{иі%}гтыр** %{иі%}гтыр
-* **+Der/IgTyrji%{иі%}гтырйи** %{иі%}гтырйи
-* **+Der/IgTyrja%{иі%}гтыръя** %{иі%}гтыръя
-* **+Der/IgChozh**@CODE@**%{иі%}гчӧж**%{иі%}гчӧж
-* **+Der/ысь**@CODE@****
+* **+Duration**
+* **+Der/иг**
+* **+Der/Ig**
+* **+Der/IgKezhlo**
+* **+Der/IgKosta**
+* **+Der/IgKosti**
+* **+Der/IgMoz** %{иі%}гмоз
+* **+Der/IgonMoz** %{иі%}гӧнмоз
+* **+Der/IgSor** %{иі%}гсор
+* **+Der/IgTyr** %{иі%}гтыр
+* **+Der/IgTyrji** %{иі%}гтырйи
+* **+Der/IgTyrja** %{иі%}гтыръя
+* **+Der/IgChozh**%{иі%}гчӧж
+* **+Der/ысь**
 * **+ActPrsPtc** 
-* **+PrsPrc**@CODE@****
+* **+PrsPrc**
 * **+PrsPtc** 
 * **+PastPtc** 
-* **+Der/кості+KOSTI**  +KOSTI
-* **+Der/коста+KOSTA**  +KOSTA
-* **+Der/кежлӧ+KEZHLO**  +KEZHLO
-* **+Der/мысь+MYS**  +MYS
-* **+Der/мысьт+MYST**  +MYST
-* **+Der/сор+SOR**  = +SOR
-* **+Der/тыр+TYR**  = +TYR
-* **+Der/тырйи+TYRJI**  = +TYRJI
-* **+Der/тыръя+TYRJA**  = +TYRJA
-* **+Der/мӧн+MON**  = +MON
-* **+Der/мӧнъя399-403**  = Ӧнія коми кыв. 2000: 399-403
-* **+Der/ӧмӧн425**  = +OMON !Ӧнія коми кыв. 2000: 425
+* **+Der/кості**  +KOSTI
+* **+Der/коста**  +KOSTA
+* **+Der/кежлӧ**  +KEZHLO
+* **+Der/мысь**  +MYS
+* **+Der/мысьт**  +MYST
+* **+Der/сор**  = +SOR
+* **+Der/тыр**  = +TYR
+* **+Der/тырйи**  = +TYRJI
+* **+Der/тыръя**  = +TYRJA
+* **+Der/мӧн**  = +MON
+* **+Der/мӧнъя**  = Ӧнія коми кыв. 2000: 399-403
+* **+Der/ӧмӧн**  = +OMON !Ӧнія коми кыв. 2000: 425
 
 
 Declaring adjectival derivations
@@ -1413,11 +1413,11 @@ Noun phrase modifiers are generally considered derivational
 
 #### More dertags (TODO: sort/group)
 *  **+MAbe** abessive modifier -тӧм 
-*  **+MLoc-** locative modifier са -
-*  **+MHab-** habeo modifier а -
-*  **+MTmp-** temporal modifier ся -
-* **+Der/ProprietiveModDer/а** = +Der/APrior  Denominal prioritive adjective Der/а
-* **+Der/PrivModтӧм** = тӧм
+*  **+MLoc** locative modifier са -
+*  **+MHab** habeo modifier а -
+*  **+MTmp** temporal modifier ся -
+* **+Der/ProprietiveMod** = +Der/APrior  Denominal prioritive adjective Der/а
+* **+Der/PrivMod** = тӧм
 * **+Der/а** 
 * **+Der/са** 
 * **+Der/ся** 
@@ -1434,28 +1434,28 @@ Noun phrase modifiers are generally considered derivational
 * **+Der/вывса** 
 * **+Der/гӧгӧрса** 
 * **+Der/дорса** 
-* **+Locшколаяс.** LocMod, IneMod Быд во шедӧдӧны бур успеваемость Воркута да Инта каръясса, Прилузскӧй да Княжпогостскӧй районъясса школаяс.
-* **+LocModLoc** move to Loc
+* **+Loc** LocMod, IneMod Быд во шедӧдӧны бур успеваемость Воркута да Инта каръясса, Прилузскӧй да Княжпогостскӧй районъясса школаяс.
+* **+LocMod** move to Loc
 * **+CompMod** 
-* **+Der/тӧм+AbeMod**  used with nouns and followed by +AbeMod
-* **+Abeстатьяяс.** PrivMod, AbeMod джуджыд анализъястӧм да обобщениеястӧм статьяяс.
-* **+PrivModAbe** move to Abe
-* **+Prpчуньясаӧсь.** ProprietiveMod, HabObjMod Весиг киясыс тӧдсаӧсь, найӧ мугов рӧмаӧсь, кузь чорыд чуньясаӧсь.
-* **+ProprietiveModPrp** move to Prp
-* **+Der/TempModpostpositions** TempMod Der/ся но и Ф. В. Плесовскийлысь квайтымынӧд вояссяяссӧ * позьӧ аддзыны сӧмын библиотекаясысь.  Declaring spatial adverb derivations; see also spatial postpositions
+* **+Der/тӧм**  used with nouns and followed by +AbeMod
+* **+Abe** PrivMod, AbeMod джуджыд анализъястӧм да обобщениеястӧм статьяяс.
+* **+PrivMod** move to Abe
+* **+Prp** ProprietiveMod, HabObjMod Весиг киясыс тӧдсаӧсь, найӧ мугов рӧмаӧсь, кузь чорыд чуньясаӧсь.
+* **+ProprietiveMod** move to Prp
+* **+Der/TempMod** TempMod Der/ся но и Ф. В. Плесовскийлысь квайтымынӧд вояссяяссӧ * позьӧ аддзыны сӧмын библиотекаясысь.  Declaring spatial adverb derivations; see also spatial postpositions
 * **+Der/ла** 
 * **+Der/ладор** 
 * **+Der/дор** 
 * **+Der/выв** 
 * **+Der/тор** 
-* **+MWNyes.**  check! used once, should it be +Der/MWN?, Well, yes.
+* **+MWN**  check! used once, should it be +Der/MWN?, Well, yes.
 * **+Der/MWN** 
-* **+Der/медSuperlative**  Superlative
-* **+Der/сюрӧ +Der/кӧderivations**  !Declaring Indefinite Pronoun derivations
-* **+Der/мозof** +MOZ  diminishing, kind of, sort of
-* **+Der/кодьof** diminishing, kind of, sort of
-* **+Der/лунadjective-to-noun**  adjective-to-noun
-* **+Der/ӧмnoun**  verb-to-noun   !Declaring Indefinite Pronoun derivations the combinatory +Event preceding the NP-final noun
+* **+Der/мед**  Superlative
+* **+Der/сюрӧ +Der/кӧ**  !Declaring Indefinite Pronoun derivations
+* **+Der/моз** +MOZ  diminishing, kind of, sort of
+* **+Der/кодь** diminishing, kind of, sort of
+* **+Der/лун**  adjective-to-noun
+* **+Der/ӧм**  verb-to-noun   !Declaring Indefinite Pronoun derivations the combinatory +Event preceding the NP-final noun
 
 #### Declaring Deverbal derivations of verbs
 * **+Der/л** 
@@ -1463,15 +1463,15 @@ Noun phrase modifiers are generally considered derivational
 * **+Der/ывлы** 
 * **+Der/ышт** 
 * **+Der/лывлы** 
-* **+Der/сь2017-09-19+Der/сь**  This only occurs following a vowel in an yny-stem 2017-09-19+Der/сь
-* **+Der/сьыplosives**  2017-09-19+Der/ч ! This appears to be a variant of +Der/сьы; it follows plosives
-* **+Der/чыplosives**  This appears to be a variant of +Der/сьы; it follows plosives
+* **+Der/сь**  This only occurs following a vowel in an yny-stem 2017-09-19+Der/сь
+* **+Der/сьы**  2017-09-19+Der/ч ! This appears to be a variant of +Der/сьы; it follows plosives
+* **+Der/чы**  This appears to be a variant of +Der/сьы; it follows plosives
 * **+Der/ал** 
 * **+Der/овт** 
 * **+Der/ась** 
-* +Der/NZERO Noun derived with conversion from noun, conversion but not ZERO
-* +Der/AVerb Adjective derivated from Noun or Verb
-* +Der/AdvAdjective Adverb derivated from Adjective
+* +Der/N Noun derived with conversion from noun, conversion but not ZERO
+* +Der/A Adjective derivated from Noun or Verb
+* +Der/Adv Adverb derivated from Adjective
 
 
 #### Tags for Ethymological Origin marking. This has initially used used with proper nouns
@@ -1495,29 +1495,29 @@ symbols in the lexicon files:
 
 #### Archiphonemes
 
-* **{aä}symbol**:  Vowel alternating symbol
+* **{aä}**:  Vowel alternating symbol
 * **{oö}**:  Vowel alternating symbol 
-* **{uü}symbol**:  Vowel alternating symbol
-* **%^к2 %^л2 %^м2 %^т2 %^ь2 %^К2 %^Л2 %^М2 %^Т2 %^Ь2 %^И2**@CODE@****
- * **%^V1       ** for reduplicated vowel унаӧн > унаан
-* **%>border**  suffix border
-* **%{иі%}hard**:  for soft and hard
-* **%{ая%}hard**:  for soft and hard
+* **{uü}**:  Vowel alternating symbol
+* **%^к2 %^л2 %^м2 %^т2 %^ь2 %^К2 %^Л2 %^М2 %^Т2 %^Ь2 %^И2**
+* **%^V1       ** for reduplicated vowel унаӧн > унаан
+* **%>**  suffix border
+* **%{иі%}**:  for soft and hard
+* **%{ая%}**:  for soft and hard
 
 #### Triggers to control variation
-* **{front}triggers**:  Vowel change triggers
-* **{back}triggers**:  Vowel change triggers
-* **%^Closeconsonant** Close syllable, this triggers final consonant drop, seen in word-final position and before consonant
- * **%^C2V   ** Consonant v to vowel, Izhva ныы, ооны
+* **{front}**:  Vowel change triggers
+* **{back}**:  Vowel change triggers
+* **%^Close** Close syllable, this triggers final consonant drop, seen in word-final position and before consonant
+* **%^C2V   ** Consonant v to vowel, Izhva ныы, ооны
 
 #### Valency tags, i.e. tags assigned to verbs for denoting their arbuments
 
-* **+%<acc%>accusative** accusative
-* **+%<ela%>-ысь** elative -ысь
-* **+%<ins%>-ӧн** instrumental -ӧн
-* **+%<inf_ны%>-ны** infinitive in -ны
-* **+%<po_вылӧ%>вылӧ** postposition вылӧ
-* **+%<sub_мый%>мый/that** subordinate clause in мый/that
+* **+%<acc%>** accusative
+* **+%<ela%>** elative -ысь
+* **+%<ins%>** instrumental -ӧн
+* **+%<inf_ны%>** infinitive in -ны
+* **+%<po_вылӧ%>** postposition вылӧ
+* **+%<sub_мый%>** subordinate clause in мый/that
 
 
 ### Symbols that need to be escaped on the lower side (towards twolc):
@@ -1536,9 +1536,9 @@ with verbs if the verb is further derived into a noun again:
 
 | Flags | Explanation 
 | ----- | ----------- 
-|  **@P.NeedNoun.ON@nominalised** | (Dis)allow compounds with verbs unless nominalised
-|  **@D.NeedNoun.ON@nominalised** | (Dis)allow compounds with verbs unless nominalised
-|  **@C.NeedNoun@nominalised** | (Dis)allow compounds with verbs unless nominalised
+|  **@P.NeedNoun.ON@** | (Dis)allow compounds with verbs unless nominalised
+|  **@D.NeedNoun.ON@** | (Dis)allow compounds with verbs unless nominalised
+|  **@C.NeedNoun@** | (Dis)allow compounds with verbs unless nominalised
 
 
 
@@ -1546,15 +1546,15 @@ Two flags copied from sme
 
 | Flags | Explanation 
 | ----- | ----------- 
-|  **@P.Pmatch.Loc@split.** | Used on multi-token analyses; tell hfst-tokenise/pmatch where in the form/analysis the token should be split.
-|  **@P.Pmatch.Backtrack@missed)** | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this point in the form (to find combinations of shorter analyses that would otherwise be missed)
+|  **@P.Pmatch.Loc@** | Used on multi-token analyses; tell hfst-tokenise/pmatch where in the form/analysis the token should be split.
+|  **@P.Pmatch.Backtrack@** | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this point in the form (to find combinations of shorter analyses that would otherwise be missed)
 
 
 ### Compunding
 
 #### Tags
-* **+Cmp**@CODE@****
-*  +Cmp/Serialverbs used with serial verbs
+* **+Cmp**
+*  +Cmp/Serial used with serial verbs
 * **+Cmp/SplitR** 
 
 
@@ -1568,14 +1568,14 @@ do no harm.
 
 | Flags | Explanation 
 | ----- | ----------- 
-| **@P.CmpFrst.FALSE@first** | Require that words tagged as such only appear first
-| **@D.CmpPref.TRUE@ENDLEX** | Block such words from entering ENDLEX
-| **@P.CmpPref.FALSE@compounds** | Block these words from making further compounds
-| **@D.CmpLast.TRUE@R** | Block such words from entering R
-| **@D.CmpNone.TRUE@compounding** | Combines with the next tag to prohibit compounding
-| **@U.CmpNone.FALSE@compounding** | Combines with the prev tag to prohibit compounding
-| **@P.CmpOnly.TRUE@R** | Sets a flag to indicate that the word has passed R
-| **@D.CmpOnly.FALSE@root.** | Disallow words coming directly from root.
+| **@P.CmpFrst.FALSE@** | Require that words tagged as such only appear first
+| **@D.CmpPref.TRUE@** | Block such words from entering ENDLEX
+| **@P.CmpPref.FALSE@** | Block these words from making further compounds
+| **@D.CmpLast.TRUE@** | Block such words from entering R
+| **@D.CmpNone.TRUE@** | Combines with the next tag to prohibit compounding
+| **@U.CmpNone.FALSE@** | Combines with the prev tag to prohibit compounding
+| **@P.CmpOnly.TRUE@** | Sets a flag to indicate that the word has passed R
+| **@D.CmpOnly.FALSE@** | Disallow words coming directly from root.
 
 Use the following flag diacritics to control downcasing of derived proper
 nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
@@ -1584,101 +1584,101 @@ given the proper use of these flags.
 
 | Flags | Explanation 
 | ----- | ----------- 
-| **@U.Cap.Obl@Deatnu.** | Always capital letter for names: Deatnu.
-| **@U.Cap.Opt@deatnulasj.** | Allowing downcasing of derived names: deatnulasj.
+| **@U.Cap.Obl@** | Always capital letter for names: Deatnu.
+| **@U.Cap.Opt@** | Allowing downcasing of derived names: deatnulasj.
 
 
 | Flags | Explanation 
 | ----- | ----------- 
-| **@U.CONJ-VAL.TV@Valence** | Flags used with serial verbs: VAL = Valence
-| **@U.CONJ-VAL.IV@Valence** | Flags used with serial verbs: VAL = Valence
-| **@U.CONJ-INF.YES@Infinitive** |  INF = Infinitive
-| **@U.CONJ-INF.NO@Infinitive** |  INF = Infinitive
-| **@U.CONJ-TX.FUT@tense** |  TX = tense
-| **@U.CONJ-TX.PRES@tense** |  TX = tense
-| **@U.CONJ-TX.PRET1@tense** |  TX = tense
-| **@U.CONJ-TX.PRET2@tense** |  TX = tense
-| **@U.CONJ-GER.IG@gerund** |  GER = gerund
-| **@U.CONJ-MX.IND@mood** | MX = mood
-| **@U.CONJ-MX.IMP@mood** | MX = mood
-| **@U.CONJ-CONNEG.YES@negation** | CONNEG = negation
-| **@U.CONJ-CONNEG.NO@negation** | CONNEG = negation
-| **@U.CONJ-NX.PL@number** | NX = number
-| **@U.CONJ-NX.SG@number** | NX = number
-| **@U.CONJ-POSS.1@1** | POSS = possessive, person 1
-| **@U.CONJ-POSS.2@2** | POSS = possessive 2
-| **@U.CONJ-POSS.3@3** | POSS = possessive 3
-| **@U.CONJ-POSS.2ACC@etc.** | POSS = possessive etc.
-| **@U.CONJ-POSS.3ACC@possessive** | POSS = possessive
-| **@U.CONJ-PX.1@person** | PX = person
-| **@U.CONJ-PX.2@person** | PX = person
-| **@U.CONJ-PX.3@person** | PX = person
-| **@C.CONJ-VAL@Removal** | Removal
-| **@C.CONJ-INF@Removal** | Removal
-| **@C.CONJ-TX@Removal** | Removal
-| **@C.CONJ-MX@Removal** | Removal
-| **@C.CONJ-GER@Removal** | Removal
-| **@C.CONJ-CONNEG@Removal** | Removal
-| **@C.CONJ-NX@Removal** | Removal
-| **@C.CONJ-PX@Removal** | Removal
-| **@C.CONJ-POSS@Removal** | Removal
-| **@P.PossPx.Sg1@NOUNS** | FLAGS USED WITH COLLECTIVE NOUNS
-| **@P.PossPx.Sg2@NOUNS** | FLAGS USED WITH COLLECTIVE NOUNS
-| **@P.PossPx.Sg3@NOUNS** | FLAGS USED WITH COLLECTIVE NOUNS
-| **@P.PossPx.Pl1@NOUNS** | FLAGS USED WITH COLLECTIVE NOUNS
-| **@P.PossPx.Pl2@NOUNS** | FLAGS USED WITH COLLECTIVE NOUNS
-| **@P.PossPx.Pl3@NOUNS** | FLAGS USED WITH COLLECTIVE NOUNS
-| **@U.PossPx.Sg1@NOUNS** | FLAGS USED WITH COLLECTIVE NOUNS
-| **@U.PossPx.Sg2@NOUNS** | FLAGS USED WITH COLLECTIVE NOUNS
-| **@U.PossPx.Sg3@NOUNS** | FLAGS USED WITH COLLECTIVE NOUNS
-| **@U.PossPx.Pl1@NOUNS** | FLAGS USED WITH COLLECTIVE NOUNS
-| **@U.PossPx.Pl2@NOUNS** | FLAGS USED WITH COLLECTIVE NOUNS
-| **@U.PossPx.Pl3@NOUNS** | FLAGS USED WITH COLLECTIVE NOUNS
-| **@D.PossPx@NOUNS** | FLAGS USED WITH COLLECTIVE NOUNS
-| **@C.PossPx@NOUNS** | FLAGS USED WITH COLLECTIVE NOUNS
-| **@U.DECL-NX.SG@number** | number
-| **@U.DECL-NX.PL@number** | number
-| **@R.DECL-NX.PL@number** | number
-| **@U.DECL-CX.ABE@case** | unify case
-| **@U.DECL-CX.ABL@case** | unify case
-| **@U.DECL-CX.ACC@case** | unify case
-| **@U.DECL-CX.APR@case** | unify case
-| **@U.DECL-CX.APRINE@case** | unify case
-| **@U.DECL-CX.APRILL@case** | unify case
-| **@U.DECL-CX.APRELA@case** | unify case
-| **@U.DECL-CX.APREGR@case** | unify case
-| **@U.DECL-CX.APRPRL@case** | unify case
-| **@U.DECL-CX.APRTRA@case** | unify case
-| **@U.DECL-CX.APRTER@case** | unify case
-| **@U.DECL-CX.CAR@case** | unify case
-| **@U.DECL-CX.CMP@case** | unify case
-| **@U.DECL-CX.CNS@case** | unify case
-| **@U.DECL-CX.COM@case** | unify case
-| **@U.DECL-CX.DAT@case** | unify case
-| **@U.DECL-CX.EGR@case** | unify case
-| **@U.DECL-CX.ELA@case** | unify case
-| **@U.DECL-CX.GEN@case** | unify case
-| **@U.DECL-CX.ILL@case** | unify case
-| **@U.DECL-CX.INE@case** | unify case
-| **@U.DECL-CX.INS@case** | unify case
-| **@U.DECL-CX.NOM@case** | unify case
-| **@U.DECL-CX.PRL@case** | unify case
-| **@U.DECL-CX.TRA@case** | unify case
-| **@U.DECL-CX.TER@case** | unify case
-| **@U.DECL-DX.INDEF@type** | declension type
-| **@U.DECL-DX.PX@type** | declension type
-| **@C.DECL-NX@Removal** | Removal
-| **@C.DECL-DX@Removal** | Removal
-| **@C.DECL-CX@Removal** | Removal
-| **@U.Cap.Obl@deatnulasj** | Allowing downcasing of derived names: deatnulasj
-| **@U.Cap.Opt@deatnulasj** | Allowing downcasing of derived names: deatnulasj
+| **@U.CONJ-VAL.TV@** | Flags used with serial verbs: VAL = Valence
+| **@U.CONJ-VAL.IV@** | Flags used with serial verbs: VAL = Valence
+| **@U.CONJ-INF.YES@** |  INF = Infinitive
+| **@U.CONJ-INF.NO@** |  INF = Infinitive
+| **@U.CONJ-TX.FUT@** |  TX = tense
+| **@U.CONJ-TX.PRES@** |  TX = tense
+| **@U.CONJ-TX.PRET1@** |  TX = tense
+| **@U.CONJ-TX.PRET2@** |  TX = tense
+| **@U.CONJ-GER.IG@** |  GER = gerund
+| **@U.CONJ-MX.IND@** | MX = mood
+| **@U.CONJ-MX.IMP@** | MX = mood
+| **@U.CONJ-CONNEG.YES@** | CONNEG = negation
+| **@U.CONJ-CONNEG.NO@** | CONNEG = negation
+| **@U.CONJ-NX.PL@** | NX = number
+| **@U.CONJ-NX.SG@** | NX = number
+| **@U.CONJ-POSS.1@** | POSS = possessive, person 1
+| **@U.CONJ-POSS.2@** | POSS = possessive 2
+| **@U.CONJ-POSS.3@** | POSS = possessive 3
+| **@U.CONJ-POSS.2ACC@** | POSS = possessive etc.
+| **@U.CONJ-POSS.3ACC@** | POSS = possessive
+| **@U.CONJ-PX.1@** | PX = person
+| **@U.CONJ-PX.2@** | PX = person
+| **@U.CONJ-PX.3@** | PX = person
+| **@C.CONJ-VAL@** | Removal
+| **@C.CONJ-INF@** | Removal
+| **@C.CONJ-TX@** | Removal
+| **@C.CONJ-MX@** | Removal
+| **@C.CONJ-GER@** | Removal
+| **@C.CONJ-CONNEG@** | Removal
+| **@C.CONJ-NX@** | Removal
+| **@C.CONJ-PX@** | Removal
+| **@C.CONJ-POSS@** | Removal
+| **@P.PossPx.Sg1@** | FLAGS USED WITH COLLECTIVE NOUNS
+| **@P.PossPx.Sg2@** | FLAGS USED WITH COLLECTIVE NOUNS
+| **@P.PossPx.Sg3@** | FLAGS USED WITH COLLECTIVE NOUNS
+| **@P.PossPx.Pl1@** | FLAGS USED WITH COLLECTIVE NOUNS
+| **@P.PossPx.Pl2@** | FLAGS USED WITH COLLECTIVE NOUNS
+| **@P.PossPx.Pl3@** | FLAGS USED WITH COLLECTIVE NOUNS
+| **@U.PossPx.Sg1@** | FLAGS USED WITH COLLECTIVE NOUNS
+| **@U.PossPx.Sg2@** | FLAGS USED WITH COLLECTIVE NOUNS
+| **@U.PossPx.Sg3@** | FLAGS USED WITH COLLECTIVE NOUNS
+| **@U.PossPx.Pl1@** | FLAGS USED WITH COLLECTIVE NOUNS
+| **@U.PossPx.Pl2@** | FLAGS USED WITH COLLECTIVE NOUNS
+| **@U.PossPx.Pl3@** | FLAGS USED WITH COLLECTIVE NOUNS
+| **@D.PossPx@** | FLAGS USED WITH COLLECTIVE NOUNS
+| **@C.PossPx@** | FLAGS USED WITH COLLECTIVE NOUNS
+| **@U.DECL-NX.SG@** | number
+| **@U.DECL-NX.PL@** | number
+| **@R.DECL-NX.PL@** | number
+| **@U.DECL-CX.ABE@** | unify case
+| **@U.DECL-CX.ABL@** | unify case
+| **@U.DECL-CX.ACC@** | unify case
+| **@U.DECL-CX.APR@** | unify case
+| **@U.DECL-CX.APRINE@** | unify case
+| **@U.DECL-CX.APRILL@** | unify case
+| **@U.DECL-CX.APRELA@** | unify case
+| **@U.DECL-CX.APREGR@** | unify case
+| **@U.DECL-CX.APRPRL@** | unify case
+| **@U.DECL-CX.APRTRA@** | unify case
+| **@U.DECL-CX.APRTER@** | unify case
+| **@U.DECL-CX.CAR@** | unify case
+| **@U.DECL-CX.CMP@** | unify case
+| **@U.DECL-CX.CNS@** | unify case
+| **@U.DECL-CX.COM@** | unify case
+| **@U.DECL-CX.DAT@** | unify case
+| **@U.DECL-CX.EGR@** | unify case
+| **@U.DECL-CX.ELA@** | unify case
+| **@U.DECL-CX.GEN@** | unify case
+| **@U.DECL-CX.ILL@** | unify case
+| **@U.DECL-CX.INE@** | unify case
+| **@U.DECL-CX.INS@** | unify case
+| **@U.DECL-CX.NOM@** | unify case
+| **@U.DECL-CX.PRL@** | unify case
+| **@U.DECL-CX.TRA@** | unify case
+| **@U.DECL-CX.TER@** | unify case
+| **@U.DECL-DX.INDEF@** | declension type
+| **@U.DECL-DX.PX@** | declension type
+| **@C.DECL-NX@** | Removal
+| **@C.DECL-DX@** | Removal
+| **@C.DECL-CX@** | Removal
+| **@U.Cap.Obl@** | Allowing downcasing of derived names: deatnulasj
+| **@U.Cap.Opt@** | Allowing downcasing of derived names: deatnulasj
 
 
 ## Lexicon Root
 
 The word forms in Komi (Zyrian) language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
-* SUBSTANDARDS ;solution  temporary solution
+* SUBSTANDARDS ;  temporary solution
 * adjectives ; 
 * adjectives-russian-like ; 
 * kom-adjectives-russian-like ; 
@@ -1697,16 +1697,16 @@ word classes, or optionally from prefixes:
 * pronouns ; 
 * propernouns-malenames-cyrillic ; 
 * propernouns-malesurnames-cyrillic ; 
-* propernouns-toponyms-Russian ;Cyrillic 2019-10-30 Cyrillic
-* @U.Cap.Obl@ propernouns-toponyms-Komi ;uppercase  toponyms - always uppercase
-* @U.Cap.Opt@ propernouns-toponyms-Komi ;derivation  toponyms - allow downcasing for adj derivation
+* propernouns-toponyms-Russian ; 2019-10-30 Cyrillic
+* @U.Cap.Obl@ propernouns-toponyms-Komi ;  toponyms - always uppercase
+* @U.Cap.Opt@ propernouns-toponyms-Komi ;  toponyms - allow downcasing for adj derivation
 * propernouns ; 
 * quantifiers ; 
 * subjunctors ; 
 * verbs-A2M ; 
 * verbs-N2END ; 
-* VERBNEGATIVE ;affixes/verbs.lexc  affixes/verbs.lexc
-* PRONOUN-TYPES ;2019-04-06  in affixes/pronouns.lexc 2019-04-06
+* VERBNEGATIVE ;  affixes/verbs.lexc
+* PRONOUN-TYPES ;  in affixes/pronouns.lexc 2019-04-06
 * Abbreviation ; 
 * Acronym ; 
 * kpv-Acronym ; 
@@ -1714,7 +1714,7 @@ word classes, or optionally from prefixes:
 * Symbols ; 
 * EXCEPTIONS ; 
 * dialect_lexicon ; 
-* urj-Cyrl-ProperNouns ;2015-09-06 ! Testing 2015-09-06
+* urj-Cyrl-ProperNouns ; ! Testing 2015-09-06
 * A_NEWWORDS ; 
 * A-Russian-like_NEWWORDS ; 
 * ADV_NEWWORDS ; 
@@ -1772,7 +1772,7 @@ SUBSTANDARDS
 Lexicon ENDLEX
 And this is the ENDLEX of everything:
 
-@D.CmpOnly.FALSE@@D.CmpPref.TRUE@@D.NeedNoun.ON@ # ;@CODE@
+@D.CmpOnly.FALSE@@D.CmpPref.TRUE@@D.NeedNoun.ON@ # ;
 The `@D.CmpOnly.FALSE@` flag diacritic is ued to disallow words tagged
 with +CmpNP/Only to end here.
 The `@D.NeedNoun.ON@` flag diacritic is used to block illegal compounds.
@@ -1932,7 +1932,7 @@ LEXICON NumMWN
 
 ## Arabic numerals
 
- * **LEXICON NUM-PREFIXES     **  
+* **LEXICON NUM-PREFIXES     **  
 
 
 
@@ -1946,13 +1946,13 @@ LEXICON NumMWN
 # Noun morphological lexica 
 
 
-* **LEXICON Vocative**@CODE@****
+* **LEXICON Vocative**
 
-* **LEXICON Noun1-IS_PTC-OMtags** is to provide deverbal nouns with +Der/ӧм tags
+* **LEXICON Noun1-IS_PTC-OM** is to provide deverbal nouns with +Der/ӧм tags
 
-* **LEXICON Noun1-IS_PTC-AN**@CODE@****
+* **LEXICON Noun1-IS_PTC-AN**
 
-* **LEXICON Noun1-IS_PTC-YSJ**@CODE@****
+* **LEXICON Noun1-IS_PTC-YSJ**
 
 
 
@@ -1974,54 +1974,54 @@ This should be phased out 2013-05-07
 
 
 subsequent Cns vs Vow
- * LEXICON N_PARAGOGIC  
- * LEXICON NMN_PARAGOGIC  
+* LEXICON N_PARAGOGIC  
+* LEXICON NMN_PARAGOGIC  
 
 
 
 
- * LEXICON N-RELAT_PARAGOGIC-V/L  ныв:ны нылыс
+* LEXICON N-RELAT_PARAGOGIC-V/L  ныв:ны нылыс
 
- * LEXICON N_PARAGOGIC-V/L  ныв:ны нылыс
- * LEXICON NMN_PARAGOGIC-V/L  ныв:ны нылыс
-
-
-
- * LEXICON N_PARAGOGIC-J  ав:ав авйыс
- * LEXICON NMN_PARAGOGIC-J  ав:ав авйыс
-
- * LEXICON N_PARAGOGIC-K  пос:пос поскыс
- * LEXICON NMN_PARAGOGIC-K  пос:пос поскыс
-
- * LEXICON N_PARAGOGIC-M  зон:зон зонмыс
- * LEXICON NMN_PARAGOGIC-M  зон:зон зонмыс
-
- * LEXICON N_PARAGOGIC-T  зеп:зеп зептыс
- * LEXICON NMN_PARAGOGIC-T  зеп:зеп зептыс
-
- * LEXICON N_END-IN-DD1  гадь:гад гаддьыс
- * LEXICON NMN_END-IN-DD1  автомобиль:автомобил автомобильыс
-
- * LEXICON N_END-IN-DDZ  кыдз:кыд
- * LEXICON NMN_END-IN-DDZ  кыдз:кыд
-
- * LEXICON N_END-IN-LL1  моль:мол молльӧ
- * LEXICON NMN_END-IN-LL1  моль:мол молльӧ
+* LEXICON N_PARAGOGIC-V/L  ныв:ны нылыс
+* LEXICON NMN_PARAGOGIC-V/L  ныв:ны нылыс
 
 
 
- * LEXICON N-RELAT_END-IN-J  абай:аба абайыс
- * LEXICON N_END-IN-J  абай:аба абайыс
- * LEXICON N-0_END-IN-J  абай:аба абайыс
+* LEXICON N_PARAGOGIC-J  ав:ав авйыс
+* LEXICON NMN_PARAGOGIC-J  ав:ав авйыс
+
+* LEXICON N_PARAGOGIC-K  пос:пос поскыс
+* LEXICON NMN_PARAGOGIC-K  пос:пос поскыс
+
+* LEXICON N_PARAGOGIC-M  зон:зон зонмыс
+* LEXICON NMN_PARAGOGIC-M  зон:зон зонмыс
+
+* LEXICON N_PARAGOGIC-T  зеп:зеп зептыс
+* LEXICON NMN_PARAGOGIC-T  зеп:зеп зептыс
+
+* LEXICON N_END-IN-DD1  гадь:гад гаддьыс
+* LEXICON NMN_END-IN-DD1  автомобиль:автомобил автомобильыс
+
+* LEXICON N_END-IN-DDZ  кыдз:кыд
+* LEXICON NMN_END-IN-DDZ  кыдз:кыд
+
+* LEXICON N_END-IN-LL1  моль:мол молльӧ
+* LEXICON NMN_END-IN-LL1  моль:мол молльӧ
 
 
- * LEXICON N-RELAT_END-IN-Ч/ДЗ  водз:водз
- * LEXICON N_END-IN-Ч/ДЗ  водз:водз
- * LEXICON NMN_END-IN-Ч/ДЗ  водз:водз
 
- * LEXICON N-RELAT_END-IN-Ь  автомобиль:автомобил автомобильыс
- * LEXICON N_END-IN-Ь  автомобиль:автомобил автомобильыс
- * LEXICON N-0_END-IN-Ь  автомобиль:автомобил автомобильыс
+* LEXICON N-RELAT_END-IN-J  абай:аба абайыс
+* LEXICON N_END-IN-J  абай:аба абайыс
+* LEXICON N-0_END-IN-J  абай:аба абайыс
+
+
+* LEXICON N-RELAT_END-IN-Ч/ДЗ  водз:водз
+* LEXICON N_END-IN-Ч/ДЗ  водз:водз
+* LEXICON NMN_END-IN-Ч/ДЗ  водз:водз
+
+* LEXICON N-RELAT_END-IN-Ь  автомобиль:автомобил автомобильыс
+* LEXICON N_END-IN-Ь  автомобиль:автомобил автомобильыс
+* LEXICON N-0_END-IN-Ь  автомобиль:автомобил автомобильыс
 2015-09-04 change to ь%>яс after xfst rules are removed
 
 
@@ -2042,7 +2042,7 @@ with no more variants beyond:
 
 
 
-* **LEXICON CASEPOSSLEX**@CODE@****
+* **LEXICON CASEPOSSLEX**
 
 
 SG1
@@ -2141,7 +2141,7 @@ Continuation lexicon has been assigned according to <pos/> content
 
 
 
- * LEXICON A_PARAGOGIC-В/Л  юмов:юмо юмолӧсь
+* LEXICON A_PARAGOGIC-В/Л  юмов:юмо юмолӧсь
 Singular predicative 
 
 
@@ -2155,14 +2155,14 @@ Singular predicative
 LEXICON PRONOUN-TYPES 
 
 * **LEXICON PERS** 
-* **ме+Pron+Pers+Sg1: PERS-SG1 ;...** ...
+* **ме+Pron+Pers+Sg1: PERS-SG1 ;** ...
 
 
 * **LEXICON PERS-SG1** 
 
-* **LEXICON PERS-PL1**@CODE@****
+* **LEXICON PERS-PL1**
 
-* **LEXICON PERS-SG2**@CODE@****
+* **LEXICON PERS-SG2**
 
 * **LEXICON PERS-PL2** 
 
@@ -2173,14 +2173,14 @@ that differ from the 3rd person:
 ті тійӧ nämä ovat aivan eri asioita
 сы сійӧ tosin joskus 
 
-* **LEXICON PERS-PL3**@CODE@****
+* **LEXICON PERS-PL3**
 
 
 
-* **LEXICON perssg**@CODE@****
+* **LEXICON perssg**
 
 
-* **LEXICON persplobl**@CODE@****
+* **LEXICON persplobl**
 
 
 
@@ -2257,7 +2257,7 @@ that differ from the 3rd person:
 
 
 
-* = LEXICON persplobl**@CODE@** ас:а 
+* = LEXICON persplobl ас:а 
 
 
 
@@ -2451,47 +2451,47 @@ regexes < … > , for readability reasons (sic!)
 
 IV_ЛОКНЫ 
 
-* **LEXICON V-0_ЛОКНЫлокны:лок** One verb only, локны:лок
+* **LEXICON V-0_ЛОКНЫ** One verb only, локны:лок
 
 
 * **LEXICON VR_ШУНЫ** 
 
 IV_ШУНЫ 
 
-* **LEXICON V_ШУНЫ-Vны.** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
-* **LEXICON V-0_ШУНЫ-Vны.** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+* **LEXICON V_ШУНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+* **LEXICON V-0_ШУНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
 
-* **LEXICON VR_АМНЫ**@CODE@****
+* **LEXICON VR_АМНЫ**
 
 IV_АМНЫ 
 TV_АМНЫ 
 
 BV_АМНЫ 
 
-* **LEXICON V_АМНЫ-дзны,** амны:ам Ending in -мны, -жны, -дзны,
-* **LEXICON V-0_АМНЫ-дзны,** амны:ам Ending in -мны, -жны, -дзны,
+* **LEXICON V_АМНЫ** амны:ам Ending in -мны, -жны, -дзны,
+* **LEXICON V-0_АМНЫ** амны:ам Ending in -мны, -жны, -дзны,
 
 
 * **LEXICON V_КЫЙНЫ** кыйны:кы Ending in -йны, 
 
 * **LEXICON V-0_КЫЙНЫ** кыйны:кы Ending in -йны, 
 
-* **LEXICON VR_КУТНЫ**@CODE@****
+* **LEXICON VR_КУТНЫ**
 
-* **LEXICON V_КУТНЫ-Vны.** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
-* **LEXICON V-0_КУТНЫ-Vны.** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
-
-
-* **LEXICON V-0_БОСЬТНЫ-Vны.** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+* **LEXICON V_КУТНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
+* **LEXICON V-0_КУТНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
 
 
-* **LEXICON VR_НУАВНЫнуавны:нуа** нуавны:нуа
+* **LEXICON V-0_БОСЬТНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
 
-* **LEXICON V_НУАВНЫнуавны:нуа** нуавны:нуа
-* **LEXICON V-0_НУАВНЫнуавны:нуа** нуавны:нуа
+
+* **LEXICON VR_НУАВНЫ** нуавны:нуа
+
+* **LEXICON V_НУАВНЫ** нуавны:нуа
+* **LEXICON V-0_НУАВНЫ** нуавны:нуа
 Consonant-onset
 
-* **LEXICON VR_АРТАСЬНЫ**@CODE@****
+* **LEXICON VR_АРТАСЬНЫ**
 
 
 * **LEXICON V_АРТАСЬНЫ** артасьны:артась 
@@ -2499,14 +2499,14 @@ Consonant-onset
 
 * **LEXICON VR_ЛЫДДЬЫНЫ** 
 
-* **LEXICON V_ЛЫДДЬЫНЫ-ыны.** лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
-* **LEXICON V-0_ЛЫДДЬЫНЫ-ыны.** лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
+* **LEXICON V_ЛЫДДЬЫНЫ** лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
+* **LEXICON V-0_ЛЫДДЬЫНЫ** лыддьыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
 
 * **LEXICON VR_ВОЛЫНЫ** 
 
 
-* **LEXICON V_ВОЛЫНЫ-ыны.** волыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
-* **LEXICON V-0_ВОЛЫНЫ-ыны.** волыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
+* **LEXICON V_ВОЛЫНЫ** волыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
+* **LEXICON V-0_ВОЛЫНЫ** волыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
 
 
 
@@ -2519,22 +2519,22 @@ Consonant-onset
 
 * **LEXICON VerbConj-V**  суф б -- ы 
 
-* **LEXICON VerbConjа** суф а
+* **LEXICON VerbConj** суф а
 
-* **LEXICON VerbConj_КЫЙНЫа** суф а
+* **LEXICON VerbConj_КЫЙНЫ** суф а
 
-* **LEXICON VerbConj_АМНЫа** суф а
+* **LEXICON VerbConj_АМНЫ** суф а
 
-* **LEXICON VerbConj_КУТНЫа** суф а
+* **LEXICON VerbConj_КУТНЫ** суф а
 
 
-* **LEXICON Finiteformstenses** Gives linking vowels for 3 tenses
+* **LEXICON Finiteforms** Gives linking vowels for 3 tenses
 
-* **LEXICON Finiteforms_КЫЙНЫtenses** Gives linking vowels for 3 tenses
+* **LEXICON Finiteforms_КЫЙНЫ** Gives linking vowels for 3 tenses
 
-* **LEXICON Finiteforms_АМНЫtenses** Gives linking vowels for 3 tenses
+* **LEXICON Finiteforms_АМНЫ** Gives linking vowels for 3 tenses
 
-* **LEXICON Finiteforms_КУТНЫtenses** Gives linking vowels for 3 tenses
+* **LEXICON Finiteforms_КУТНЫ** Gives linking vowels for 3 tenses
 
 
 
@@ -2573,7 +2573,7 @@ Consonant-onset
 
 * **LEXICON Verb-nyDer** 
 
-* **LEXICON Verb-nyDer-ONSET-CONSconsonant** Derivation onset in consonant
+* **LEXICON Verb-nyDer-ONSET-CONS** Derivation onset in consonant
 verb-to-verb
 
 This is fed by LEXICON V_ШУНЫ, and therefore certain corrections
@@ -2583,14 +2583,14 @@ must be made 2012-01-18
 пусьыштлывлыны
 босьтчыштлывлыны
 
-* **LEXICON Verb-nyDer-ONSET-VOWvowel** Derivation onset	in vowel
+* **LEXICON Verb-nyDer-ONSET-VOW** Derivation onset	in vowel
 
-* **LEXICON Verb-nyDer-ONSET-Ыvowel** Derivation onset	in vowel
+* **LEXICON Verb-nyDer-ONSET-Ы** Derivation onset	in vowel
 
-* **LEXICON Verb-nyDer-ONSET-Аvowel** Derivation onset	in vowel
+* **LEXICON Verb-nyDer-ONSET-А** Derivation onset	in vowel
 босьтасьны
 
-* **LEXICON Verb-nyDer-ONSET-Яvowel** Derivation onset	in vowel
+* **LEXICON Verb-nyDer-ONSET-Я** Derivation onset	in vowel
 босьтасьны
 
 
@@ -2600,20 +2600,20 @@ verb-to-noun
 FIX THIS 2015-09-06
 * **VerbDer-ONSET_А/Я ;** 
 
-* **LEXICON VerbDer_КЫЙНЫ**@CODE@****
-* **: VerbDer-ONSET_Ӧ ;**@CODE@****
+* **LEXICON VerbDer_КЫЙНЫ**
+* **: VerbDer-ONSET_Ӧ ;**
 * **: VerbDer-ONSET_Я ;** 
-* **: VerbDer-ONSET_И ;**@CODE@****
+* **: VerbDer-ONSET_И ;**
 
-* **LEXICON VerbDer_КУТНЫ**@CODE@****
-* **VerbDer-ONSET_Ӧ ;**@CODE@****
+* **LEXICON VerbDer_КУТНЫ**
+* **VerbDer-ONSET_Ӧ ;**
 * **VerbDer-ONSET_А ;** 
-* **VerbDer-ONSET_І ;**@CODE@****
+* **VerbDer-ONSET_І ;**
 
-* **LEXICON VerbDer_АРТАСЬНЫ**@CODE@****
-* **: VerbDer-ONSET_Ӧ ;**@CODE@****
+* **LEXICON VerbDer_АРТАСЬНЫ**
+* **: VerbDer-ONSET_Ӧ ;**
 * **VerbDer-ONSET_Я ;** 
-* **VerbDer-ONSET_И ;**@CODE@****
+* **VerbDer-ONSET_И ;**
 
 * **LEXICON VerbDer-ONSET_Ӧ** 
 
@@ -2630,7 +2630,7 @@ FIX THIS 2015-09-06
 * **LEXICON VerbDer-ONSET_А** 
 * **LEXICON VerbDer-ONSET_А/Я** 
 
-* **LEXICON VerbDer-ONSET_Я**@CODE@****
+* **LEXICON VerbDer-ONSET_Я**
 
 
 
@@ -2654,7 +2654,7 @@ FIX THIS 2015-09-06
 
 
 
-* **LEXICON EM-ӧсь.** эм:эм. Ending in -ӧсь.
+* **LEXICON EM** эм:эм. Ending in -ӧсь.
 
 
 
@@ -2704,7 +2704,7 @@ LEXICON GER_
 
 
 
- * **LEXICON ADV-SPAT  **
+* **LEXICON ADV-SPAT  **
 these are adverbs in spatial cases
 and they probably are equivalent in morphology to postpositions
 
@@ -2757,7 +2757,7 @@ This contlex allows for relational word which, otherwise, are open
 to extensive declension
 
 
- * **LEXICON POSTP1  **
+* **LEXICON POSTP1  **
 these are: 
 
 аддза, бӧрті, бокиті, боксянь, дырйи, йитӧдын, 
@@ -2788,7 +2788,7 @@ these are:
 
 
 
- * **LEXICON PO-SPAT_  **
+* **LEXICON PO-SPAT_  **
 these are: 
 
 аддза, бӧрті, бокиті, боксянь, дырйи, йитӧдын, 
@@ -2848,11 +2848,11 @@ LEXICON CYRL-A_SUR
 LEXICON CYRL-K_SUR 
 
 LEXICON CYRL-L_SUR 
- * :2 PropSur-kal ;  These are foreign Л words
+* :2 PropSur-kal ;  These are foreign Л words
 
 LEXICON CYRL-T_SUR 
 
- * LEXICON PROP_KUDO_SURFEM  giella-shared
+* LEXICON PROP_KUDO_SURFEM  giella-shared
 
 LEXICON Deriv-RUS-AN_SURMAL 
 
@@ -2927,10 +2927,10 @@ FEMALE NAMES FROM TEMPLATE
 ## PLACE NAMES FROM TEMPLATES 
 
 
- * **@U.Cap.Opt@+Sg:@U.Cap.Opt@ DENOMINAL-LOCATIVE-ADJECTIVES ; ** This requires down-casing
+* **@U.Cap.Opt@+Sg:@U.Cap.Opt@ DENOMINAL-LOCATIVE-ADJECTIVES ; ** This requires down-casing
 
 
- * **@U.Cap.Opt@+Sem/Plc+EOLang/KPV+Sg:@U.Cap.Opt@ DENOMINAL-LOCATIVE-ADJECTIVES ; ** This requires down-casing
+* **@U.Cap.Opt@+Sem/Plc+EOLang/KPV+Sg:@U.Cap.Opt@ DENOMINAL-LOCATIVE-ADJECTIVES ; ** This requires down-casing
 
 
 
@@ -2969,27 +2969,27 @@ cf. [Rueter 2000](http://www.ling.helsinki.fi/~rueter/Publications/Rueter_in-Per
 
 ### Letters of the alphabet
 
- * а б в г д е ё ж з и і й к л м н о ӧ п р с т у ф х ц ч ш щ ъ ы ь э ю я 
- * А Б В Г Д Е Ё Ж З И І Й К Л М Н О Ӧ П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я 
- * %^к2:к %^л2:л %^м2:м %^т2:т %^ь2:ь 
- * %^И2:и 
- * %{иі%}:и	 for soft and hard
- * %{иі%}:і	 for soft and hard
- * %{ая%}:а	 for soft and hard
- * %^V1:ӧ        for reduplicated vowel
- * %^V1:а %^V1:э %^V1:о %^V1:у 
+* а б в г д е ё ж з и і й к л м н о ӧ п р с т у ф х ц ч ш щ ъ ы ь э ю я 
+* А Б В Г Д Е Ё Ж З И І Й К Л М Н О Ӧ П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я 
+* %^к2:к %^л2:л %^м2:м %^т2:т %^ь2:ь 
+* %^И2:и 
+* %{иі%}:и	 for soft and hard
+* %{иі%}:і	 for soft and hard
+* %{ая%}:а	 for soft and hard
+* %^V1:ӧ        for reduplicated vowel
+* %^V1:а %^V1:э %^V1:о %^V1:у 
 
 ### Triggers
- * %^Close:0	 Close syllable, this triggers final consonant drop, seen in word-final position and before consonant
- * %^C2V:0        Consonant v to vowel
+* %^Close:0	 Close syllable, this triggers final consonant drop, seen in word-final position and before consonant
+* %^C2V:0        Consonant v to vowel
 
 ### Boundary symbols
 
- *  %>  morpheme boundary мун%>ны
+*  %>  morpheme boundary мун%>ны
 * hash # word boundary
- *  %- 
- *  «   мед«ічӧт
- *  »    удж»ал»ышт
+*  %- 
+*  «   мед«ічӧт
+*  »    удж»ал»ышт
 
 
 Diacritics
@@ -3000,38 +3000,38 @@ Diacritics
 ### Sets
 
 Vowel
- * Vow =  а е ё и і о ӧ у ы э ю я 
- *        А Е Ё И У О Ӧ У Ы Э Ю Я ; 
+* Vow =  а е ё и і о ӧ у ы э ю я 
+*        А Е Ё И У О Ӧ У Ы Э Ю Я ; 
 
 Palatal Vowel
 Cns-initial vowels
- * PalVow = е ё ю я 
- *          Е Ё Ю Я ; 
+* PalVow = е ё ю я 
+*          Е Ё Ю Я ; 
 
 All non-vowels, consonants and hard and soft signs
- * Cns =  б в г д ж з й к л м н п р с т ф х ц ч ш щ ъ ь 
- *        Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ъ Ь 
- *        к2 л2 м2 т2 ь2 ; 
+* Cns =  б в г д ж з й к л м н п р с т ф х ц ч ш щ ъ ь 
+*        Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ъ Ь 
+*        к2 л2 м2 т2 ь2 ; 
 
 All non-vowels with exception of soft sign
- * CnsNotSoft =  б в г д ж з й к л м н п р с т ф х ц ч ш щ ъ 
- *               Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ъ 
- *        	      к2 л2 м2 т2 ь2 ; 
+* CnsNotSoft =  б в г д ж з й к л м н п р с т ф х ц ч ш щ ъ 
+*               Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ъ 
+*        	      к2 л2 м2 т2 ь2 ; 
 All consonants followed by Cyrillic и
- * CnsBeforeCyri = б в г ж й к м п р ф х ч ш щ 
- *               	Б В Г Ж Й К М П Р Ф Х Ч Ш Щ 
- *               	к2 м2 т2 ; 
+* CnsBeforeCyri = б в г ж й к м п р ф х ч ш щ 
+*               	Б В Г Ж Й К М П Р Ф Х Ч Ш Щ 
+*               	к2 м2 т2 ; 
 
 All but z consonants that can be followed by either і or и
- * PairedCnsNoZ =  д л н с т 
- *                 Д Л Н С Т 
- *        	        л2 т2 ; 
+* PairedCnsNoZ =  д л н с т 
+*                 Д Л Н С Т 
+*        	        л2 т2 ; 
 
 Letters
- *  Letter = Vow Cns ; 
+*  Letter = Vow Cns ; 
 
 Dummy
- * Dummy =  %^Inf %^PATR %^FEM ; 
+* Dummy =  %^Inf %^PATR %^FEM ; 
 
 
 ### Definitions
@@ -3339,12 +3339,12 @@ for text-to-speech systems.
 
 For example:
 
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
+* s.:syntynyt # ;  
+* os.:omaa% sukua # ;  
+* v.:vuosi # ;  
+* v.:vuonna # ;  
+* esim.:esimerkki # ; 
+* esim.:esimerkiksi # ; 
 
 
 * * *

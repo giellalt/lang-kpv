@@ -84,7 +84,7 @@ LEXICON NumMWN
 
 ## Arabic numerals
 
- * **LEXICON NUM-PREFIXES     **  
+* **LEXICON NUM-PREFIXES     **  
 
 
 
