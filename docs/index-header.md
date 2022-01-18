@@ -7,9 +7,36 @@
 
 This page documents the work on the [Komi-Zyrian language model](http://github.com/giellalt/lang-kpv). 
 
+The lexicon is full-sized (it contains approximately 60000 
+entries + 120 000 aspectual verbs), and the analyser 
+is in use in a morphologically enriched Komi dictionary and a
+spellchecker in beta version. 
+
+The analyser is built in cooperation between FU-lab in
+Syktyvkar, Giellatekno and Divvun at UiT in Norway, and
+AKU in Helsinki.
+
 # Project documentation
 
-* (Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.)
+* Generation of: [paradigms](http://giellatekno.uit.no/cgi/p-kpv.eng.html)
+  / [text](http://giellatekno.uit.no/cgi/d-kpv.eng.html)
+* [Grammatical tags](docu-grammartags.eng.html)  ~ [грамматические теги](docu-grammartags.rus.html)
+
+## Meetings ~ Митинг
+
+* 2017
+    - [21.3.](meetings/170321.html)
+    - [23.9.](meetings/170923.html)
+
+## Using the analyser ~ Использование анализатора
+
+##  Testing ~ Тестирование
+
+* [Test diary ~ Дневник испытаний](kom-testdiary.html)
+
+##  Old documentation - Старая документация
+
+* [Status quo 2016|docu-statusquo.eng.html]  ~ [Статус-кво 2016](docu-statusquo.rus.html)
 
 # In-source documentation
 
