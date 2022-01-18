@@ -1,15 +1,12 @@
-!!!Фон проекта коми
+# Фон проекта коми
 
 Анализатор Коми все еще находится в зачаточном состоянии. 
 
-
-* [грамматические исходные файлы здесь|https://gtsvn.uit.no/langtech/trunk/kt/kom/src/]
-* [лексики файлы здесь |https://gtsvn.uit.no/langtech/trunk/kt/kom/src/working_files/]
-* [анализатор можно проверить здесь|http://giellatekno.uit.no/cgi/index.kom.eng.html]
-
+* [грамматические исходные файлы здесь](https://gtsvn.uit.no/langtech/trunk/kt/kom/src/)
+* [лексики файлы здесь ](https://gtsvn.uit.no/langtech/trunk/kt/kom/src/working_files/)
+* [анализатор можно проверить здесь](http://giellatekno.uit.no/cgi/index.kom.eng.html)
 
 Лексикон Коми основана на коми-финско-английский словарь, написанный-Джек Рютер.
 
 Грамматический анализатор результате довольно медленно совместной работы между Джеком Рютером
 и Труном Тростерюдом в течение последних пяти лет.
-

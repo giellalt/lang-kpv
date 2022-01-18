@@ -1,14 +1,12 @@
-!!!Status quo
+# Status quo
 
 This document gives a short status report of the
-[Komi grammatical analyser|http://giellatekno.uit.no/cgi/index.kom.eng.html] 
- and [its source files|https://gtsvn.uit.no/langtech/trunk/kt/kom/src/].
+[Komi grammatical analyser](http://giellatekno.uit.no/cgi/index.kom.eng.html) 
+ and [its source files](https://gtsvn.uit.no/langtech/trunk/kt/kom/src/).
 
+# Juy 15th, 2016
 
-
-!!!Juy 15th, 2016
-
-Status for [the source files|https://gtsvn.uit.no/langtech/trunk/langs/kpv/src/]:
+Status for [the source files](https://gtsvn.uit.no/langtech/trunk/langs/kpv/src/):
 
 * Lexicon: The lexicon contains 35806 entries (19129 nouns, 12191 verbs, 
   4486 adjectives)
@@ -20,11 +18,10 @@ Status for [the source files|https://gtsvn.uit.no/langtech/trunk/langs/kpv/src/]
 
 Tasks ahead:
 
-# Test and correct the morphology and morphophonology
-# Integrate the Komi-Russian dictionary in the analyser (done)
-# Add more words:
-## Test the resulting analyser against text material, and add new words
-## Systematically add Russian loanwords: names and technical terms (partly done)
-# Work on the spellchecker
-## TODO: Collect error corpus
-
+1. Test and correct the morphology and morphophonology
+1. Integrate the Komi-Russian dictionary in the analyser (done)
+1. Add more words:
+    1. Test the resulting analyser against text material, and add new words
+    1. Systematically add Russian loanwords: names and technical terms (partly done)
+1. Work on the spellchecker
+    1. TODO: Collect error corpus
