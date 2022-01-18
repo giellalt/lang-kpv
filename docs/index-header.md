@@ -21,18 +21,27 @@ AKU in Helsinki.
 * Generation of: [paradigms](http://giellatekno.uit.no/cgi/p-kpv.eng.html)
   / [text](http://giellatekno.uit.no/cgi/d-kpv.eng.html)
 * [Grammatical tags](docu-grammartags.eng.md)  ~ [грамматические теги](docu-grammartags.rus.md)
+* [Lexicon](docu-lex.eng.md)  ~ [Lexicon (ru)](docu-lex.rus.md)
+- [Makefile](docu-makefile.eng.md) - [Makefile (ru)](docu-makefile.rus.md)
+- [Preprocessor](docu-preprocessor.eng.md) - [Preprocessor (ru)](docu-preprocessor.rus.md)
+- [Testplan](docu-testplan.eng.md) - [Testplan (ru)](docu-testplan.rus.md)
+- [Usage](docu-usage.eng.md) - [Usage (ru)](docu-usage.rus.md)
+- [Xfst](docu-xfst.eng.md) - [Xfst (ru)](docu-xfst.rus.md)
 
 ## Meetings ~ Митинг
 
-* 2017
+* 2017:
     - [21.3.](meetings/170321.md)
     - [23.9.](meetings/170923.md)
 
 ## Using the analyser ~ Использование анализатора
 
+TBW.
+
 ##  Testing ~ Тестирование
 
 * [Test diary ~ Дневник испытаний](kom-testdiary.md)
+* [Test plan](docu-kom-testplan.md)
 
 ##  Old documentation - Старая документация
 
