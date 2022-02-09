@@ -12,7 +12,6 @@ LEXICON ACRON
 LEXICON PROP-RUS_ 
 LEXICON PROP_ 
 
-
 ## Russian type Surnames 
 
 Preparing for the template urj-Cyrl
@@ -59,81 +58,29 @@ LEXICON PROP-PLC_KIT
 
 LEXICON PROP-PLC_KUDO 
 
-
 These are vowel-final stems
 They have previously received +Sem/Fem tags
-
-
-
-
-
-
-
 
 ## Male given name for deriving patronyms 
 Should this be limited to +Sg? 2015-09-06
 
 Вили:Вил
 
-
-
-
 Андрей:Андре
 
-
-
-
-
-
-
-
-
-
-
-
-
 Ending 2012-11-15
-
-
-
-
-
-
-
-
 
 FEMALE NAMES FROM TEMPLATE
 
 ## PLACE NAMES FROM TEMPLATES 
 
-
 * **@U.Cap.Opt@+Sg:@U.Cap.Opt@ DENOMINAL-LOCATIVE-ADJECTIVES ; ** This requires down-casing
-
 
 * **@U.Cap.Opt@+Sem/Plc+EOLang/KPV+Sg:@U.Cap.Opt@ DENOMINAL-LOCATIVE-ADJECTIVES ; ** This requires down-casing
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/propernouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/affixes/propernouns.lexc)</small>
+
+---
+

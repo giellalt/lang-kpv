@@ -1,21 +1,9 @@
 
 K O M I   G R A M M A R   C H E C K E R
 
-
-
-
-
-
-
-
-
 # DELIMITERS
 
-
 # TAGS AND SETS
-
-
-
 
 ### Beginning and end of sentence	
 BOS
@@ -51,7 +39,6 @@ Ex/V
 Ex/WORD
 DerTag
 
-
 ### Verbal categories
 Prs
 Fut
@@ -84,25 +71,10 @@ Com
 Cns
 ...
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 QMARK
 PPUNCT 
 PUNCT
 ¶
-
-
 
 ### Verb sets
 VNEG (all Neg verbs)
@@ -111,25 +83,11 @@ VFIN
 
 ASKI (tomorrow set)
 
-
-
-
-
-
-
-
-
-
-
 ### Grammarchecker sets
 
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../tools/grammarcheckers/grammarchecker.cg3](http://github.com/giellalt/lang-kpv/blob/main/../tools/grammarcheckers/grammarchecker.cg3)</small>
+
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-kpv/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+
+---
+

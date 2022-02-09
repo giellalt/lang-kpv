@@ -10,14 +10,6 @@ V_ temporary lexicon gives +V+WORK
 
 VERBNEGATIVE 
 
-
-
-
-
-
-
-
-
 ## Open class verbs
 
 Some Flag diacritic lines are with regexes, other with aligned zeros. We want to migrate to
@@ -26,7 +18,6 @@ regexes < … > , for readability reasons (sic!)
 IV_ЛОКНЫ 
 
 * **LEXICON V-0_ЛОКНЫ** One verb only, локны:лок
-
 
 * **LEXICON VR_ШУНЫ** 
 
@@ -45,7 +36,6 @@ BV_АМНЫ
 * **LEXICON V_АМНЫ** амны:ам Ending in -мны, -жны, -дзны,
 * **LEXICON V-0_АМНЫ** амны:ам Ending in -мны, -жны, -дзны,
 
-
 * **LEXICON V_КЫЙНЫ** кыйны:кы Ending in -йны, 
 
 * **LEXICON V-0_КЫЙНЫ** кыйны:кы Ending in -йны, 
@@ -55,9 +45,7 @@ BV_АМНЫ
 * **LEXICON V_КУТНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
 * **LEXICON V-0_КУТНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
 
-
 * **LEXICON V-0_БОСЬТНЫ** шуны:шу янӧдны, контролируйтны. Ending in -дны, -тны, -Cны, -Vны.
-
 
 * **LEXICON VR_НУАВНЫ** нуавны:нуа
 
@@ -66,7 +54,6 @@ BV_АМНЫ
 Consonant-onset
 
 * **LEXICON VR_АРТАСЬНЫ**
-
 
 * **LEXICON V_АРТАСЬНЫ** артасьны:артась 
 * **LEXICON V-0_АРТАСЬНЫ** артасьны:артась 
@@ -78,16 +65,8 @@ Consonant-onset
 
 * **LEXICON VR_ВОЛЫНЫ** 
 
-
 * **LEXICON V_ВОЛЫНЫ** волыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
 * **LEXICON V-0_ВОЛЫНЫ** волыны:лыддь ! ярмыны. Multiple-syllable verb ending in -ыны.
-
-
-
-
-
-
-
 
 ## Verb conjugation 
 
@@ -101,7 +80,6 @@ Consonant-onset
 
 * **LEXICON VerbConj_КУТНЫ** суф а
 
-
 * **LEXICON Finiteforms** Gives linking vowels for 3 tenses
 
 * **LEXICON Finiteforms_КЫЙНЫ** Gives linking vowels for 3 tenses
@@ -110,40 +88,7 @@ Consonant-onset
 
 * **LEXICON Finiteforms_КУТНЫ** Gives linking vowels for 3 tenses
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Derivation
-
 
 * **LEXICON Verb-nyDer** 
 
@@ -166,7 +111,6 @@ must be made 2012-01-18
 
 * **LEXICON Verb-nyDer-ONSET-Я** Derivation onset	in vowel
 босьтасьны
-
 
 verb-to-noun
 
@@ -191,46 +135,25 @@ FIX THIS 2015-09-06
 
 * **LEXICON VerbDer-ONSET_Ӧ** 
 
-
-
 * **LEXICON VerbDer-ONSET_І** 
 
 * **LEXICON VerbDer-ONSET_И** 
 * **LEXICON VerbDer-ONSET_И/І** 
-
-
-
 
 * **LEXICON VerbDer-ONSET_А** 
 * **LEXICON VerbDer-ONSET_А/Я** 
 
 * **LEXICON VerbDer-ONSET_Я**
 
-
-
-
-
-
-
-
 вевттьысьыны
 
 бертласьны
 
-
-
-
-
-
-
-
-
-
-
-
 * **LEXICON EM** эм:эм. Ending in -ӧсь.
 
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/verbs.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/affixes/verbs.lexc)</small>
+
+---
+

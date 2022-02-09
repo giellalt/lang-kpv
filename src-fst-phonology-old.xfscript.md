@@ -1,15 +1,7 @@
 
 
-
-
-
-
-
-
 Definition section !
 ================== !
-
-
 
 Defining Vowel
 
@@ -23,65 +15,16 @@ Defining consonants before Cyrillic і
 
 Defining letters
 
-
-
 Defining flags
 
 Defining boundaries
-
 
 Defining diacritics
 
 Defining dummy
 
-
 Rule section !
 ============ !
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 stopping ы -> 0 2011-01-26
 LET's remember that this should only affect verb forms
@@ -91,8 +34,9 @@ Wrong на should be ныа
 Absence of "ы" vowel
 "ы" vowel is present before
 
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology-old.xfscript](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/phonology-old.xfscript)</small>
+
+<small>This (part of) documentation was generated from [src/fst/phonology-old.xfscript](https://github.com/giellalt/lang-kpv/blob/main/src/fst/phonology-old.xfscript)</small>
+
+---
+

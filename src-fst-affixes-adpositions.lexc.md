@@ -5,18 +5,10 @@ Komi postpositions inflect for direction.
 
 Prep lexica
 
-
 Postp lexica 
-
-
-
-
-
-
 
 This contlex allows for relational word which, otherwise, are open 
 to extensive declension
-
 
 * **LEXICON POSTP1  **
 these are: 
@@ -26,29 +18,6 @@ these are:
 ради, уліті, выліті, вывті, вомас, вомӧн
 пӧвст
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * **LEXICON PO-SPAT_  **
 these are: 
 
@@ -57,26 +26,9 @@ these are:
 ради, уліті, выліті, вывті, вомас, вомӧн
 пӧвст
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adpositions.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/adpositions.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/adpositions.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/affixes/adpositions.lexc)</small>
+
+---
+

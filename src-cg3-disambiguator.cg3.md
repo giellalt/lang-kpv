@@ -5,10 +5,7 @@
 
 Sentence delimiters are: "<.>" "<!>" "<?>" "<...>" "<¶>" sent
 
-
 ## Tags and sets 
-
-
 
 ### Beginning and end of sentence	
 BOS
@@ -47,8 +44,6 @@ Ex/WORD
 DerTag
 AspDerTag
 
-
-
 ### Verbal categories
 Prs
 Fut
@@ -70,8 +65,6 @@ Sg1
 Sg2
 ...
 
-
-
 Nominal categories
 Sg
 Pl
@@ -83,180 +76,25 @@ Com
 Cns
 ...
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Verb sets
 VNEG (all Neg verbs)
 
 VFIN
 
-
 ASKI (tomorrow set)
-
 
 NOT-PRL (have no homograph Prolative pairs set)
 
-
-
-
-
-
-
-
 * **NoDerIfPossible** removes all derivations
 
-
 * **Dem** selects Dem if N Nom to the right
-
-
-
-
-
-
-
-
-
-
 
 * **NoFinalCC** removes CC if competing Pcle and sentence-final
 * **NoABBR** removes ABBR for competing CC
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-kpv/blob/main/../src/cg3/disambiguator.cg3)</small>
+
+<small>This (part of) documentation was generated from [src/cg3/disambiguator.cg3](https://github.com/giellalt/lang-kpv/blob/main/src/cg3/disambiguator.cg3)</small>
+
+---
+

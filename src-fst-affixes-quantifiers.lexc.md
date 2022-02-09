@@ -7,19 +7,15 @@ LEXICON NUM-CARD_
 
 LEXICON CARD 
 
-
-
 LEXICON ORD 
 
 LEXICON DET_ 
 
 LEXICON DET_END 
 
-
 LEXICON NUM-IS_DISTR 
 
 LEXICON QNT_ 
-
 
 LEXICON NUM-APPR ! 2011-11-03 This will need work
 
@@ -31,67 +27,17 @@ All nouns follow one contlex "Noun1"
 to begin with here is simply a list of all variant
 with no more variants beyond:
 
-
-
 LEXICON NumCASEPOSSLEX 
 
 LEXICON NumMWN 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Arabic numerals
 
 * **LEXICON NUM-PREFIXES     **  
 
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/quantifiers.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/quantifiers.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/quantifiers.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/affixes/quantifiers.lexc)</small>
+
+---
+

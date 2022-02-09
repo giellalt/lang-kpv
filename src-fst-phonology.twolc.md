@@ -8,7 +8,6 @@ cf. [Rueter 2000](http://www.ling.helsinki.fi/~rueter/Publications/Rueter_in-Per
 
 ## Alphabet, Sets and Definitions
 
-
 ### Letters of the alphabet
 
 * а б в г д е ё ж з и і й к л м н о ӧ п р с т у ф х ц ч ш щ ъ ы ь э ю я 
@@ -33,11 +32,7 @@ cf. [Rueter 2000](http://www.ling.helsinki.fi/~rueter/Publications/Rueter_in-Per
 *  «   мед«ічӧт
 *  »    удж»ал»ышт
 
-
 Diacritics
-
-
-
 
 ### Sets
 
@@ -75,24 +70,19 @@ Letters
 Dummy
 * Dummy =  %^Inf %^PATR %^FEM ; 
 
-
 ### Definitions
 
 No definitions
 
-
 ## Rules
-
 
 ### Rules connected to L/V alternations 
 
 **Rule: The famous L/V** changes л to в betweeen vowel and the ^Close symbol
 
-
 **Rule: The famous L/V goes Izhva** where л goes to its preceeding vowel (except a) before ^C2V.
 
 **Rule: Vowel lengthening а:о я:ё** for the ^C2V context
-
 
 **Rule: The ӧ/V as in унаан**
 * *уна%>%^V1н*
@@ -106,11 +96,9 @@ No definitions
 * *Блатт%>тӧг*
 * *Блат0%>тӧг*
 
-
 ### Other consonant deletion rules
 
 **Rule: Paragogic т deletion and tripple т**
-
 
 **Rule: Paragogic т deletion and tripple т**
 
@@ -125,7 +113,6 @@ No definitions
 **Rule: l deletion ALSO tripple letter**
 * *металл%>лӧн*
 * *метал0%>лӧн*
-
 
 **Rule: d deletion**
 
@@ -203,5 +190,10 @@ To do: Look at a more logical ordering
 * *клуб%>еx*
 
 **Rule: Disallow l to vowel after other than l**
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/phonology.twolc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/phonology.twolc)</small>
+
+---
+

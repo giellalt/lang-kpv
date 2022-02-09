@@ -1,9 +1,6 @@
 
 # Multichar\_Symbols and *Root* lexicon for Komi
 
-
-
-
 Check these:
 
 ## Analysis symbols
@@ -30,7 +27,6 @@ language are presented in this system in terms of the following symbols.
 * **+Qnt**:  Quantifier   ХХ   XX
 * **+V**:  verb      кадакыв   глагол
 
-
 ### Subtags
 
 #### Adverb subtags
@@ -53,7 +49,6 @@ language are presented in this system in terms of the following symbols.
 * **+CollN** used with paired nouns **collective nouns**
 * **+Relat** relational noun: выв, ув
 
-
 ####  Pronouns
 * **+Dem**:  demonstrative
 * **+Indef**:  indefinite
@@ -64,15 +59,12 @@ language are presented in this system in terms of the following symbols.
 * **+Rel**:  relative
 * **+Poss**:  possessive
 
-
 #### Nominals are inflected for Number and Case
 
 #### Number
 * **+Sg**  singular
 * **+Pl**  plural
 * **+Du** for pronoun.
-
-
 
 #### Case
 
@@ -109,10 +101,6 @@ A category of case in Komi can be identified as:
 *  **+Voc** Vocative ??
 *  **+Abs** Absolute = +Sg+Nom
 
-
-
-
-
 #### Possessive suff
 * **+PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3** 
 * **+Px1 +Px2 +Px3**
@@ -144,7 +132,6 @@ A category of case in Komi can be identified as:
 * **+Coord**:  Coordinates, i.e. 65˚36′8,30″ in numerals.lexc
 * **+Cop**:  this is for copula complement predicate position with pl in -ӧсь depricated Pred
 
-
 #### Verb tags
 * **+Ind +Prs +Prt1 +Prt2 +Fut +Imprt** tense
 * **+Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3** person
@@ -159,9 +146,6 @@ A category of case in Komi can be identified as:
 * **+TV** 
 * **+IV**
 * **+Aux** 
-
-
-
 
 #### Other tags
 * **+ABBR +ACR** 
@@ -187,8 +171,6 @@ Special symbols are classified with:
 * **+Hom1** 
 * **+Hom2** 
 * **+Intens** 
-
-
 
 ### Tags distinguishing different versions of the same lemma (before POS)
 * **+v1**
@@ -239,7 +221,6 @@ Special symbols are classified with:
 #### Dialect features
 * **+Dial/л** 
 * **+Dial/в** 
-
 
 #### Check these Where do these come from source
 * **+Src/F** foreign source apparently 2015-09-08
@@ -354,14 +335,12 @@ Borrowed from main/langs/sme/src/morphology/root.lexc
 * **+Sem/Patr-Fem**  Patronym female
 * **+Sem/Patr-Mal**  Patronym male
 
-
 #### Multiple Semantic tags:
 * **+Sem/Ant_Fem** 
 * **+Sem/Ant_Mal** 
 * **+Sem/Patr-Маl** 
 * **+Sem/Event_Plc**  сёянін
 * **+Sem/Hum_Prof**  profession, capacity doctor, tractor driver 
-
 
 ### Derivation
 
@@ -413,7 +392,6 @@ source and target part-of-speech.
 * **+Der/мӧн**  = +MON
 * **+Der/мӧнъя**  = Ӧнія коми кыв. 2000: 399-403
 * **+Der/ӧмӧн**  = +OMON !Ӧнія коми кыв. 2000: 425
-
 
 Declaring adjectival derivations
 Noun phrase modifiers are generally considered derivational 
@@ -480,7 +458,6 @@ Noun phrase modifiers are generally considered derivational
 * +Der/A Adjective derivated from Noun or Verb
 * +Der/Adv Adverb derivated from Adjective
 
-
 #### Tags for Ethymological Origin marking. This has initially used used with proper nouns
 * **+EOLang/BXR** 
 * **+EOLang/CHM** 
@@ -493,7 +470,6 @@ Noun phrase modifiers are generally considered derivational
 * **+EOLang/MYV** 
 * **+EOLang/RUS** 
 * **+EOLang/YRK** 
-
 
 ### Morphophonology
 
@@ -526,14 +502,12 @@ symbols in the lexicon files:
 * **+%<po_вылӧ%>** postposition вылӧ
 * **+%<sub_мый%>** subordinate clause in мый/that
 
-
 ### Symbols that need to be escaped on the lower side (towards twolc):
 
 * »
 * «
 * \> (written with square brackets, see the root.lexc file)
 * < (written with square brackets, see the root.lexc file)
-
 
 ## Flag diacritics
 
@@ -547,8 +521,6 @@ with verbs if the verb is further derived into a noun again:
 |  **@D.NeedNoun.ON@** | (Dis)allow compounds with verbs unless nominalised
 |  **@C.NeedNoun@** | (Dis)allow compounds with verbs unless nominalised
 
-
-
 Two flags copied from sme
 
 | Flags | Explanation 
@@ -556,14 +528,12 @@ Two flags copied from sme
 |  **@P.Pmatch.Loc@** | Used on multi-token analyses; tell hfst-tokenise/pmatch where in the form/analysis the token should be split.
 |  **@P.Pmatch.Backtrack@** | Used on single-token analyses; tell hfst-tokenise/pmatch to backtrack by reanalysing the substrings before and after this point in the form (to find combinations of shorter analyses that would otherwise be missed)
 
-
 ### Compunding
 
 #### Tags
 * **+Cmp**
 *  +Cmp/Serial used with serial verbs
 * **+Cmp/SplitR** 
-
 
 #### Flags 
 
@@ -593,7 +563,6 @@ given the proper use of these flags.
 | ----- | ----------- 
 | **@U.Cap.Obl@** | Always capital letter for names: Deatnu.
 | **@U.Cap.Opt@** | Allowing downcasing of derived names: deatnulasj.
-
 
 | Flags | Explanation 
 | ----- | ----------- 
@@ -680,7 +649,6 @@ given the proper use of these flags.
 | **@U.Cap.Obl@** | Allowing downcasing of derived names: deatnulasj
 | **@U.Cap.Opt@** | Allowing downcasing of derived names: deatnulasj
 
-
 ## Lexicon Root
 
 The word forms in Komi (Zyrian) language start from the lexeme roots of basic
@@ -730,7 +698,6 @@ word classes, or optionally from prefixes:
 * @U.Cap.Opt@ PROP_NEWWORDS ; 
 * V_NEWWORDS ; 
 
-
 ### Lexica without morphology !
 
 Absolute forms
@@ -738,23 +705,17 @@ ABS_
 пу керка
 выль керка
 
-
 ### Compounding
 
 R
 
 Serial-Verbs
 
-
-
 ### Lexica called End, whatever they are 
 
 ABBR-IS_ADV
 
 ABBR-IS_N
-
-
-
 
 ### Clitics 
 
@@ -764,13 +725,9 @@ WordEnd
 
 WordEnd-2
 
-
-
 SPAT-COMPARATIVE
 
 COMPARATIVE
-
-
 
 SUBSTANDARDS
 
@@ -784,6 +741,9 @@ The `@D.CmpOnly.FALSE@` flag diacritic is ued to disallow words tagged
 with +CmpNP/Only to end here.
 The `@D.NeedNoun.ON@` flag diacritic is used to block illegal compounds.
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/root.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/root.lexc)</small>
+
+---
+

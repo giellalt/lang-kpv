@@ -2,7 +2,6 @@
 ----
 Komi Particles
 
-
 LEXICON PCLE_ 
 
 LEXICON PCLE_NEG 
@@ -13,9 +12,9 @@ LEXICON ONOM_
 
 LEXICON DESCR_ 
 
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/particles.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/particles.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/particles.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/affixes/particles.lexc)</small>
+
+---
+

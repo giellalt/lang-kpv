@@ -2,18 +2,15 @@
 ----
 Komi Interjections
 
-
 LEXICON INTERJ_ 
 
 LEXICON INTERJ-CONATIVE_ 
 
 LEXICON INTERJ-FORMULAIC_ 
 
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/interjections.lexc](http://github.com/giellalt/lang-kpv/blob/main/../src/fst/affixes/interjections.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/interjections.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/affixes/interjections.lexc)</small>
+
+---
+
