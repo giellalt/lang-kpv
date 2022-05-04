@@ -8,7 +8,7 @@ compounding scheme or possibly many end applications.
 The pair verb овны-вывны conjugates in more forms than are attested for 
 the single verb вывны:
 
-*овны-вывны examples:*
+* овны-вывны examples:*
 * *олан-вылан:* `овны-вывны+V+Ind+Prs+Sg2`
 
 ### VERBS WITH FIRST PRETERITE THIRD PERSON WITHOUT с IN NORM 
