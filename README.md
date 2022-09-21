@@ -30,7 +30,7 @@ Documentation
 
 Documentation can be found at:
 
--   <https://giellalt.uit.no/lang/kom/index.html>
+- [Language specific documentation](https://giellalt.github.io/lang-kpv/)
 -   <https://giellalt.uit.no/index.html>
 
 See also:
