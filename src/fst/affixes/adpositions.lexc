@@ -15,13 +15,13 @@
 ! ============ !
 
 LEXICON PoATag
-+Po: A_ ;
+: A_ ;
 
 LEXICON PoNTag
-+Po: N_ ;
+: N_ ;
 
 LEXICON POSTP_
-+Po: WordEnd ;
+: WordEnd ;
 
 ! Jaska! mikä on näiden kahden +Po -ryhmien erot?
 ! Poistetaan se ero toistaiseksi
@@ -57,79 +57,79 @@ PO-TER ;
 !! пӧвст
 
 LEXICON PO-APR
-+Po+Sg+Apr:%>лань PX-FOR-PO/NO ;
++Sg+Apr:%>лань PX-FOR-PO/NO ;
 
 LEXICON PO-APR-EGR
-+Po+Sg+AprEgr:%>ланьсянь K ;
-+Po+Sg+AprEgr+PxSg1:%>ланьсяньым K ;
-+Po+Sg+AprEgr+PxPl1:%>ланьсяньным K ;
-+Po+Sg+AprEgr+PxSg2:%>ланьсяньыд K ;
-+Po+Sg+AprEgr+PxPl2:%>ланьсяньныд K ;
-+Po+Sg+AprEgr+PxSg3:%>ланьсяньыс K ;
-+Po+Sg+AprEgr+PxPl3:%>ланьсяньныс K ;
++Sg+AprEgr:%>ланьсянь K ;
++Sg+AprEgr+PxSg1:%>ланьсяньым K ;
++Sg+AprEgr+PxPl1:%>ланьсяньным K ;
++Sg+AprEgr+PxSg2:%>ланьсяньыд K ;
++Sg+AprEgr+PxPl2:%>ланьсяньныд K ;
++Sg+AprEgr+PxSg3:%>ланьсяньыс K ;
++Sg+AprEgr+PxPl3:%>ланьсяньныс K ;
 
 LEXICON PO-APR-ELA
-+Po+Sg+AprEla:%>ланьысь K ;
-+Po+Sg+AprEla+PxSg1:%>ланьсьым K ;
-+Po+Sg+AprEla+PxPl1:%>ланьсьыным K ;
-+Po+Sg+AprEla+PxSg2:%>ланьсьыд K ;
-+Po+Sg+AprEla+PxPl2:%>ланьсьыныд K ;
-+Po+Sg+AprEla+PxSg3:%>ланьсьыс K ;
-+Po+Sg+AprEla+PxPl3:%>ланьсьыныс K ;
++Sg+AprEla:%>ланьысь K ;
++Sg+AprEla+PxSg1:%>ланьсьым K ;
++Sg+AprEla+PxPl1:%>ланьсьыным K ;
++Sg+AprEla+PxSg2:%>ланьсьыд K ;
++Sg+AprEla+PxPl2:%>ланьсьыныд K ;
++Sg+AprEla+PxSg3:%>ланьсьыс K ;
++Sg+AprEla+PxPl3:%>ланьсьыныс K ;
 
 LEXICON PO-APR-ILL
-+Po+Sg+AprIll:%>ланьӧ K ;
-+Po+Sg+AprIll+PxSg1:%>ланям K ;
-+Po+Sg+AprIll+PxPl1:%>ланяным K ;
-+Po+Sg+AprIll+PxSg2:%>ланяд K ;
-+Po+Sg+AprIll+PxPl2:%>ланяныд K ;
-+Po+Sg+AprIll+PxSg3:%>ланяс K ;
-+Po+Sg+AprIll+PxPl3:%>ланяныс K ;
++Sg+AprIll:%>ланьӧ K ;
++Sg+AprIll+PxSg1:%>ланям K ;
++Sg+AprIll+PxPl1:%>ланяным K ;
++Sg+AprIll+PxSg2:%>ланяд K ;
++Sg+AprIll+PxPl2:%>ланяныд K ;
++Sg+AprIll+PxSg3:%>ланяс K ;
++Sg+AprIll+PxPl3:%>ланяныс K ;
 
 LEXICON PO-APR-INE
-+Po+Sg+AprIne:%>ланьын K ;
-+Po+Sg+AprIne+PxSg1:%>ланям K ;
-+Po+Sg+AprIne+PxPl1:%>ланяным K ;
-+Po+Sg+AprIne+PxSg2:%>ланяд K ;
-+Po+Sg+AprIne+PxPl2:%>ланяныд K ;
-+Po+Sg+AprIne+PxSg3:%>ланяс K ;
-+Po+Sg+AprIne+PxPl3:%>ланяныс K ;
++Sg+AprIne:%>ланьын K ;
++Sg+AprIne+PxSg1:%>ланям K ;
++Sg+AprIne+PxPl1:%>ланяным K ;
++Sg+AprIne+PxSg2:%>ланяд K ;
++Sg+AprIne+PxPl2:%>ланяныд K ;
++Sg+AprIne+PxSg3:%>ланяс K ;
++Sg+AprIne+PxPl3:%>ланяныс K ;
 
 LEXICON PO-APR-PRL
-+Po+Sg+AprPrl:%>ланьӧд K ;
-+Po+Sg+AprPrl+PxSg1:%>ланьӧдым K ;
-+Po+Sg+AprPrl+PxPl1:%>ланьӧдным K ;
-+Po+Sg+AprPrl+PxSg2:%>ланьӧдыд K ;
-+Po+Sg+AprPrl+PxPl2:%>ланьӧдныд K ;
-+Po+Sg+AprPrl+PxSg3:%>ланьӧдыс K ;
-+Po+Sg+AprPrl+PxPl3:%>ланьӧдныс K ;
++Sg+AprPrl:%>ланьӧд K ;
++Sg+AprPrl+PxSg1:%>ланьӧдым K ;
++Sg+AprPrl+PxPl1:%>ланьӧдным K ;
++Sg+AprPrl+PxSg2:%>ланьӧдыд K ;
++Sg+AprPrl+PxPl2:%>ланьӧдныд K ;
++Sg+AprPrl+PxSg3:%>ланьӧдыс K ;
++Sg+AprPrl+PxPl3:%>ланьӧдныс K ;
 
 LEXICON PO-APR-TER
-+Po+Sg+AprTer:%>ланьӧдз K ;
-+Po+Sg+AprTer+PxSg1:%>ланьӧдзым K ;
-+Po+Sg+AprTer+PxPl1:%>ланьӧдзным K ;
-+Po+Sg+AprTer+PxSg2:%>ланьӧдзыд K ;
-+Po+Sg+AprTer+PxPl2:%>ланьӧдзныд K ;
-+Po+Sg+AprTer+PxSg3:%>ланьӧдзыс K ; ! мунан вӧлӧсьт помланьӧдзысджык, 2018-10-19
-+Po+Sg+AprTer+PxPl3:%>ланьӧдзныс K ;
++Sg+AprTer:%>ланьӧдз K ;
++Sg+AprTer+PxSg1:%>ланьӧдзым K ;
++Sg+AprTer+PxPl1:%>ланьӧдзным K ;
++Sg+AprTer+PxSg2:%>ланьӧдзыд K ;
++Sg+AprTer+PxPl2:%>ланьӧдзныд K ;
++Sg+AprTer+PxSg3:%>ланьӧдзыс K ; ! мунан вӧлӧсьт помланьӧдзысджык, 2018-10-19
++Sg+AprTer+PxPl3:%>ланьӧдзныс K ;
 
 LEXICON PO-APR-TRA
-+Po+Sg+AprTra:%>ланьті K ;
-+Po+Sg+AprTra+PxSg1:%>ланьтіым K ;
-+Po+Sg+AprTra+PxPl1:%>ланьтіным K ;
-+Po+Sg+AprTra+PxSg2:%>ланьтіыд K ;
-+Po+Sg+AprTra+PxPl2:%>ланьтіныд K ;
-+Po+Sg+AprTra+PxSg3:%>ланьтіыс K ;
-+Po+Sg+AprTra+PxPl3:%>ланьтіныс K ;
++Sg+AprTra:%>ланьті K ;
++Sg+AprTra+PxSg1:%>ланьтіым K ;
++Sg+AprTra+PxPl1:%>ланьтіным K ;
++Sg+AprTra+PxSg2:%>ланьтіыд K ;
++Sg+AprTra+PxPl2:%>ланьтіныд K ;
++Sg+AprTra+PxSg3:%>ланьтіыс K ;
++Sg+AprTra+PxPl3:%>ланьтіныс K ;
 
 
 
 LEXICON PO-COMP
-+Po+Sg+Cmpr:%>ся PX-FOR-PO/NO ;
++Sg+Cmpr:%>ся PX-FOR-PO/NO ;
 ! бӧрся, гырся
 
 LEXICON PO-EGR
-+Po+Sg+Egr:%>сянь PX-FOR-PO/NO ;
++Sg+Egr:%>сянь PX-FOR-PO/NO ;
 
 LEXICON PO-ELA_V/L
 :л PO-ELA_L ;
@@ -144,69 +144,69 @@ LEXICON PO-ELA
  PO-ELA_V ;
 
 LEXICON PO-ELA_L
-+Po+Sg+Ela:%>ысь K ;
++Sg+Ela:%>ысь K ;
 LEXICON PO-ELA_V
-+Po+Sg+Ela+PxSg1:%>сьым K ;
-+Po+Sg+Ela+PxPl1:%>сьыным K ;
-+Po+Sg+Ela+PxSg2:%>сьыд K ;
-+Po+Sg+Ela+PxPl2:%>сьыныд K ;
-+Po+Sg+Ela+PxSg3:%>сьыс K ;
-+Po+Sg+Ela+PxPl3:%>сьыныс K ;
++Sg+Ela+PxSg1:%>сьым K ;
++Sg+Ela+PxPl1:%>сьыным K ;
++Sg+Ela+PxSg2:%>сьыд K ;
++Sg+Ela+PxPl2:%>сьыныд K ;
++Sg+Ela+PxSg3:%>сьыс K ;
++Sg+Ela+PxPl3:%>сьыныс K ;
 
 LEXICON PO-ILL
-+Po+Sg+Ill:%>ӧ PX-FOR-PO/NO ;
-+Po+Sg+Ill+PxSg1:%>ам K ;
-+Po+Sg+Ill+PxPl1:%>аным K ;
-+Po+Sg+Ill+PxSg2:%>ад K ;
-+Po+Sg+Ill+PxPl2:%>аныд K ;
-+Po+Sg+Ill+PxSg3:%>ас K ;
-+Po+Sg+Ill+PxPl3:%>аныс K ;
++Sg+Ill:%>ӧ PX-FOR-PO/NO ;
++Sg+Ill+PxSg1:%>ам K ;
++Sg+Ill+PxPl1:%>аным K ;
++Sg+Ill+PxSg2:%>ад K ;
++Sg+Ill+PxPl2:%>аныд K ;
++Sg+Ill+PxSg3:%>ас K ;
++Sg+Ill+PxPl3:%>аныс K ;
 ! кежлӧ, 
 
 LEXICON PO-INE
-+Po+Sg+Ine:%>ын K ;
-+Po+Sg+Ine+PxSg1:%>ам K ;
-+Po+Sg+Ine+PxPl1:%>аным K ;
-+Po+Sg+Ine+PxSg2:%>ад K ;
-+Po+Sg+Ine+PxPl2:%>аныд K ;
-+Po+Sg+Ine+PxSg3:%>ас K ;
-+Po+Sg+Ine+PxPl3:%>аныс K ;
++Sg+Ine:%>ын K ;
++Sg+Ine+PxSg1:%>ам K ;
++Sg+Ine+PxPl1:%>аным K ;
++Sg+Ine+PxSg2:%>ад K ;
++Sg+Ine+PxPl2:%>аныд K ;
++Sg+Ine+PxSg3:%>ас K ;
++Sg+Ine+PxPl3:%>аныс K ;
 
 LEXICON PO-INS
-+Po+Sg+Ins:%>ӧн K ;
-+Po+Sg+Ins+PxSg1:%>нам K ;
-+Po+Sg+Ins+PxPl1:%>наным K ;
-+Po+Sg+Ins+PxSg2:%>над K ;
-+Po+Sg+Ins+PxPl2:%>наныд K ;
-+Po+Sg+Ins+PxSg3:%>нас K ;
-+Po+Sg+Ins+PxPl3:%>наныс K ;
++Sg+Ins:%>ӧн K ;
++Sg+Ins+PxSg1:%>нам K ;
++Sg+Ins+PxPl1:%>наным K ;
++Sg+Ins+PxSg2:%>над K ;
++Sg+Ins+PxPl2:%>наныд K ;
++Sg+Ins+PxSg3:%>нас K ;
++Sg+Ins+PxPl3:%>наныс K ;
 
 LEXICON PO-NOM
-+Po+Sg+Nom: K ;
-+Po+Sg+Nom+PxSg1:%>ым K ;
-+Po+Sg+Nom+PxSg2:%>ыд K ;
-+Po+Sg+Nom+PxSg3:%>ыс K ;
++Sg+Nom: K ;
++Sg+Nom+PxSg1:%>ым K ;
++Sg+Nom+PxSg2:%>ыд K ;
++Sg+Nom+PxSg3:%>ыс K ;
 
 LEXICON PO-PRL
-+Po+Sg+Prl:%>ӧд K ;
-+Po+Sg+Prl+PxSg1:%>ӧдым K ;
-+Po+Sg+Prl+PxPl1:%>ӧдным K ;
-+Po+Sg+Prl+PxSg2:%>ӧдыд K ;
-+Po+Sg+Prl+PxPl2:%>ӧдныд K ;
-+Po+Sg+Prl+PxSg3:%>ӧдыс K ;
-+Po+Sg+Prl+PxPl3:%>ӧдныс K ;
++Sg+Prl:%>ӧд K ;
++Sg+Prl+PxSg1:%>ӧдым K ;
++Sg+Prl+PxPl1:%>ӧдным K ;
++Sg+Prl+PxSg2:%>ӧдыд K ;
++Sg+Prl+PxPl2:%>ӧдныд K ;
++Sg+Prl+PxSg3:%>ӧдыс K ;
++Sg+Prl+PxPl3:%>ӧдныс K ;
 
 LEXICON PO-TRA
-+Po+Sg+Tra:%>ті K ;
-+Po+Sg+Tra+PxSg1:%>тіым K ;
-+Po+Sg+Tra+PxPl1:%>тіным K ;
-+Po+Sg+Tra+PxSg2:%>тіыд K ;
-+Po+Sg+Tra+PxPl2:%>тіныд K ;
-+Po+Sg+Tra+PxSg3:%>тіыс K ;
-+Po+Sg+Tra+PxPl3:%>тіныс K ;
++Sg+Tra:%>ті K ;
++Sg+Tra+PxSg1:%>тіым K ;
++Sg+Tra+PxPl1:%>тіным K ;
++Sg+Tra+PxSg2:%>тіыд K ;
++Sg+Tra+PxPl2:%>тіныд K ;
++Sg+Tra+PxSg3:%>тіыс K ;
++Sg+Tra+PxPl3:%>тіныс K ;
 
 LEXICON PO-TER
-+Po+Sg+Ter:%>ӧдз PX-FOR-PO/NO ;
++Sg+Ter:%>ӧдз PX-FOR-PO/NO ;
 
 !!
 LEXICON PO-SPAT_  !!= * **@CODE@**
@@ -230,108 +230,108 @@ PO-SPAT-TER ;
 !! пӧвст
 
 LEXICON PO-SPAT-APR
-+Po+Spat+Sg+Apr:%>лань PX-FOR-PO/NO ;
++Spat+Sg+Apr:%>лань PX-FOR-PO/NO ;
 
 LEXICON PO-SPAT-APR-ILL
-+Po+Spat+Sg+Apr+Ill:%>ланьӧ K ;
-+Po+Spat+Sg+Apr+Ill+PxSg1:%>ланям K ;
-+Po+Spat+Sg+Apr+Ill+PxPl1:%>ланяным K ;
-+Po+Spat+Sg+Apr+Ill+PxSg2:%>ланяд K ;
-+Po+Spat+Sg+Apr+Ill+PxPl2:%>ланяныд K ;
-+Po+Spat+Sg+Apr+Ill+PxSg3:%>ланяс K ;
-+Po+Spat+Sg+Apr+Ill+PxPl3:%>ланяныс K ;
++Spat+Sg+Apr+Ill:%>ланьӧ K ;
++Spat+Sg+Apr+Ill+PxSg1:%>ланям K ;
++Spat+Sg+Apr+Ill+PxPl1:%>ланяным K ;
++Spat+Sg+Apr+Ill+PxSg2:%>ланяд K ;
++Spat+Sg+Apr+Ill+PxPl2:%>ланяныд K ;
++Spat+Sg+Apr+Ill+PxSg3:%>ланяс K ;
++Spat+Sg+Apr+Ill+PxPl3:%>ланяныс K ;
 
 LEXICON PO-SPAT-APR-INE
-+Po+Spat+Sg+Apr+Ine:%>ланьын K ;
-+Po+Spat+Sg+Apr+Ine+PxSg1:%>ланям K ;
-+Po+Spat+Sg+Apr+Ine+PxPl1:%>ланяным K ;
-+Po+Spat+Sg+Apr+Ine+PxSg2:%>ланяд K ;
-+Po+Spat+Sg+Apr+Ine+PxPl2:%>ланяныд K ;
-+Po+Spat+Sg+Apr+Ine+PxSg3:%>ланяс K ;
-+Po+Spat+Sg+Apr+Ine+PxPl3:%>ланяныс K ;
++Spat+Sg+Apr+Ine:%>ланьын K ;
++Spat+Sg+Apr+Ine+PxSg1:%>ланям K ;
++Spat+Sg+Apr+Ine+PxPl1:%>ланяным K ;
++Spat+Sg+Apr+Ine+PxSg2:%>ланяд K ;
++Spat+Sg+Apr+Ine+PxPl2:%>ланяныд K ;
++Spat+Sg+Apr+Ine+PxSg3:%>ланяс K ;
++Spat+Sg+Apr+Ine+PxPl3:%>ланяныс K ;
 
 
 LEXICON PO-SPAT-COMP
-+Po+Spat+Sg+Cmpr:%>ся PX-FOR-PO/NO ;
++Spat+Sg+Cmpr:%>ся PX-FOR-PO/NO ;
 ! бӧрся, гырся
 
 LEXICON PO-SPAT-EGR
-+Po+Spat+Sg+Egr:%>сянь PX-FOR-PO/NO ;
++Spat+Sg+Egr:%>сянь PX-FOR-PO/NO ;
 
 LEXICON PO-SPAT-ELA
-+Po+Spat+Sg+Ela:%>ысь K ;
-+Po+Spat+Sg+Ela+PxSg1:%>сьым K ;
-+Po+Spat+Sg+Ela+PxPl1:%>сьыным K ;
-+Po+Spat+Sg+Ela+PxSg2:%>сьыд K ;
-+Po+Spat+Sg+Ela+PxPl2:%>сьыныд K ;
-+Po+Spat+Sg+Ela+PxSg3:%>сьыс K ;
-+Po+Spat+Sg+Ela+PxPl3:%>сьыныс K ;
++Spat+Sg+Ela:%>ысь K ;
++Spat+Sg+Ela+PxSg1:%>сьым K ;
++Spat+Sg+Ela+PxPl1:%>сьыным K ;
++Spat+Sg+Ela+PxSg2:%>сьыд K ;
++Spat+Sg+Ela+PxPl2:%>сьыныд K ;
++Spat+Sg+Ela+PxSg3:%>сьыс K ;
++Spat+Sg+Ela+PxPl3:%>сьыныс K ;
 
 LEXICON PO-SPAT-ILL
-+Po+Spat+Sg+Ill:%>ӧ PX-FOR-PO/NO ;
-+Po+Spat+Sg+Ill+PxSg1:%>ам K ;
-+Po+Spat+Sg+Ill+PxPl1:%>аным K ;
-+Po+Spat+Sg+Ill+PxSg2:%>ад K ;
-+Po+Spat+Sg+Ill+PxPl2:%>аныд K ;
-+Po+Spat+Sg+Ill+PxSg3:%>ас K ;
-+Po+Spat+Sg+Ill+PxPl3:%>аныс K ;
++Spat+Sg+Ill:%>ӧ PX-FOR-PO/NO ;
++Spat+Sg+Ill+PxSg1:%>ам K ;
++Spat+Sg+Ill+PxPl1:%>аным K ;
++Spat+Sg+Ill+PxSg2:%>ад K ;
++Spat+Sg+Ill+PxPl2:%>аныд K ;
++Spat+Sg+Ill+PxSg3:%>ас K ;
++Spat+Sg+Ill+PxPl3:%>аныс K ;
 ! кежлӧ, 
 
 LEXICON PO-SPAT-INE
-+Po+Spat+Sg+Ine:%>ын K ;
-+Po+Spat+Sg+Ine+PxSg1:%>ам K ;
-+Po+Spat+Sg+Ine+PxPl1:%>аным K ;
-+Po+Spat+Sg+Ine+PxSg2:%>ад K ;
-+Po+Spat+Sg+Ine+PxPl2:%>аныд K ;
-+Po+Spat+Sg+Ine+PxSg3:%>ас K ;
-+Po+Spat+Sg+Ine+PxPl3:%>аныс K ;
++Spat+Sg+Ine:%>ын K ;
++Spat+Sg+Ine+PxSg1:%>ам K ;
++Spat+Sg+Ine+PxPl1:%>аным K ;
++Spat+Sg+Ine+PxSg2:%>ад K ;
++Spat+Sg+Ine+PxPl2:%>аныд K ;
++Spat+Sg+Ine+PxSg3:%>ас K ;
++Spat+Sg+Ine+PxPl3:%>аныс K ;
 
 LEXICON PO-SPAT-INSTR
-+Po+Spat+Sg+Ins:%>ӧн K ;
-+Po+Spat+Sg+Ins+PxSg1:%>нам K ;
-+Po+Spat+Sg+Ins+PxPl1:%>наным K ;
-+Po+Spat+Sg+Ins+PxSg2:%>над K ;
-+Po+Spat+Sg+Ins+PxPl2:%>наныд K ;
-+Po+Spat+Sg+Ins+PxSg3:%>нас K ;
-+Po+Spat+Sg+Ins+PxPl3:%>наныс K ;
++Spat+Sg+Ins:%>ӧн K ;
++Spat+Sg+Ins+PxSg1:%>нам K ;
++Spat+Sg+Ins+PxPl1:%>наным K ;
++Spat+Sg+Ins+PxSg2:%>над K ;
++Spat+Sg+Ins+PxPl2:%>наныд K ;
++Spat+Sg+Ins+PxSg3:%>нас K ;
++Spat+Sg+Ins+PxPl3:%>наныс K ;
 
 LEXICON PO-SPAT-PRL
-+Po+Spat+Sg+Prl:%>ӧд K ;
-+Po+Spat+Sg+Prl+PxSg1:%>ӧдым K ;
-+Po+Spat+Sg+Prl+PxPl1:%>ӧдным K ;
-+Po+Spat+Sg+Prl+PxSg2:%>ӧдыд K ;
-+Po+Spat+Sg+Prl+PxPl2:%>ӧдныд K ;
-+Po+Spat+Sg+Prl+PxSg3:%>ӧдыс K ;
-+Po+Spat+Sg+Prl+PxPl3:%>ӧдныс K ;
++Spat+Sg+Prl:%>ӧд K ;
++Spat+Sg+Prl+PxSg1:%>ӧдым K ;
++Spat+Sg+Prl+PxPl1:%>ӧдным K ;
++Spat+Sg+Prl+PxSg2:%>ӧдыд K ;
++Spat+Sg+Prl+PxPl2:%>ӧдныд K ;
++Spat+Sg+Prl+PxSg3:%>ӧдыс K ;
++Spat+Sg+Prl+PxPl3:%>ӧдныс K ;
 
 LEXICON PO-SPAT-TRA
-+Po+Spat+Sg+Tra:%>ті K ;
-+Po+Spat+Sg+Tra+PxSg1:%>тіым K ;
-+Po+Spat+Sg+Tra+PxPl1:%>тіным K ;
-+Po+Spat+Sg+Tra+PxSg2:%>тіыд K ;
-+Po+Spat+Sg+Tra+PxPl2:%>тіныд K ;
-+Po+Spat+Sg+Tra+PxSg3:%>тіыс K ;
-+Po+Spat+Sg+Tra+PxPl3:%>тіныс K ;
++Spat+Sg+Tra:%>ті K ;
++Spat+Sg+Tra+PxSg1:%>тіым K ;
++Spat+Sg+Tra+PxPl1:%>тіным K ;
++Spat+Sg+Tra+PxSg2:%>тіыд K ;
++Spat+Sg+Tra+PxPl2:%>тіныд K ;
++Spat+Sg+Tra+PxSg3:%>тіыс K ;
++Spat+Sg+Tra+PxPl3:%>тіныс K ;
 
 LEXICON PO-SPAT-TER
-+Po+Spat+Sg+Ter:%>ӧдз PX-FOR-PO/NO ;
++Spat+Sg+Ter:%>ӧдз PX-FOR-PO/NO ;
 
 !!
 
 LEXICON POSTP-NOUN
-+Po+Sg+Nom: WordEnd ;
-+Po+Sg+Nom+PxSg1:%>ӧй WordEnd ;
-+Po+Sg+Nom+PxSg2:%>ыд WordEnd ;
-+Po+Sg+Nom+PxSg3:%>ыс WordEnd ;
-+Po+Sg+Nom+PxPl1:%>ным WordEnd ;
-+Po+Sg+Nom+PxPl2:%>ныд WordEnd ;
-+Po+Sg+Nom+PxPl3:%>ныс WordEnd ;
++Sg+Nom: WordEnd ;
++Sg+Nom+PxSg1:%>ӧй WordEnd ;
++Sg+Nom+PxSg2:%>ыд WordEnd ;
++Sg+Nom+PxSg3:%>ыс WordEnd ;
++Sg+Nom+PxPl1:%>ным WordEnd ;
++Sg+Nom+PxPl2:%>ныд WordEnd ;
++Sg+Nom+PxPl3:%>ныс WordEnd ;
  POSTP1 ;
-+Po+Pl+Prl:%>ъясӧд WordEnd ; 
++Pl+Prl:%>ъясӧд WordEnd ; 
 ! гӧгӧр, 
 
 LEXICON PO-PX
-+Po: PX-FOR-PO/NO ;
+: PX-FOR-PO/NO ;
 
 LEXICON PX-FOR-PO/NO
 : WordEnd ;
@@ -344,10 +344,10 @@ LEXICON PX-FOR-PO/NO
 ! вӧсна, кындзи, моз,  мында, мысьт, серти,
 
 LEXICON PO-TEMP-IS_TRA-INSTR-SG3
-+Po+Temp+Tra+Ins+PxSg3: K ;
++Temp+Tra+Ins+PxSg3: K ;
 
 !2018-10-21!LEXICON PO-IS_ILL
-!2018-10-21!+Po+Ill: K ;
+!2018-10-21!+Ill: K ;
 
 
 ! vim: set ft=xfst-lexc:
