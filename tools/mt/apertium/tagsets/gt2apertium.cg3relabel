@@ -118,6 +118,7 @@ MAP (@-F<SUBJ) (@-F←SUBJ);
 MAP (@-FSUBJ>) (@-FSUBJ→);
 MAP (@<HAB) (@←HAB);
 MAP (@HAB>) (@HAB→);
+MAP (@HNOUN>) (@HNOUN→) ;
 MAP (@>Interj) (@→Interj);
 MAP (@>N) (@→N);
 MAP (@N<) (@N←);
