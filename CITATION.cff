@@ -1,61 +1,45 @@
 authors: # for whole infra, add / replace
-  - family-names: Wiechetek
-    given-names: Linda
-    orcid: "https://orcid.org/0000-0002-5171-0841"
-  - family-names: Hiovain-Asikainen
-    given-names: Katri
-    orcid: ""
-  - family-names: Mikkelsen
-    given-names: Inga Lill Sigga
-    orcid: ""
-  - family-names: Moshagen
-    given-names: Sjur N.
-    orcid: ""
-  - family-names: Pirinen
-    given-names: Flammie A
-    orcid: "https://orcid.org/0000-0003-1207-5395"
+  - family-names: Rueter
+    given-names: Jack
+    orcid: "https://orcid.org/0000-0002-3076-7929"
+  - family-names: Hämäläinen
+    given-names: Mika
+    orcid: "https://orcid.org/0000-0001-9315-1278"
+  - family-names: Partanen
+    given-names: Niko
+    orcid: "https://orcid.org/0000-0001-8584-3880"
   - family-names: Trosterud
     given-names: Trond
-    orcid: ""
-  - family-names: Gaup
-    given-names: Børre
-    orcid: ""
+    orcid: "https://orcid.org/0000-0002-2300-2995"
 cff-version: 1.2.0
 date-released: "2022-06-19"
 identifiers:
   - description: ACL anthology
     type: url
-    value: https://aclanthology.org/2022.lrec-1.125/
+    value: https://aclanthology.org/2021.iwclul-1.4/
 keywords:
   - Komi-Zyrian
-  - NLP
+  - finite-state description
   - morphology
-  - spell-checking
-  - grammar-checking
-  - stemming
-  - tokenisation
+  - NLP
+  - transducer design
+  - history of development
 message: If you use this software, please cite it using these metadata.
 repository-code: "https://github.com/giellalt/lang-kpv"
 title: GiellaLT repository (__LANG__ language)
 version: 0.0.0
 preferred-citation: # whole repo, replace with specific if one exists!
   authors:
-      - family-names: Wiechetek
-        given-names: Linda
-      - family-names: Hiovain-Asikainen
-        given-names: Katri
-      - family-names: Mikkelsen
-        given-names: Inga Lill Sigg
-      - family-names: Moshagen
-        given-names: Sjur N.
-      - family-names: Pirinen
-        given-names: Flammie A
+      - family-names: Rueter
+        given-names: Jack
+      - family-names: Partanen
+        given-names: Niko
+      - family-names: Hämäläinen
+        given-names: Mika
       - family-names: Trosterud
         given-names: Trond
-      - family-names: Gaup
-        given-names: Børre
-  title: "Unmasking the Myth of Effortless Big Data - Making an Open Source Multi-lingual Infrastructure and Building Language Resources from Scratch"
+  title: "Overview of Open-Source Morphology Development for the Komi-Zyrian Language: Past and future"
   type: article
-license: __LICENCE__
+license: __CC-BY-SA__
 url: https://github.com/giellalt/lang-kpv/
 
