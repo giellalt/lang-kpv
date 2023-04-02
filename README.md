@@ -101,12 +101,13 @@ describes the GNU build system in detail, but for most users it is the usual:
 make
 (as root) make install
 ```
-
+w
 Citing
 ------
 
 Jack Rueter, Niko Partanen, Mika Hämäläinen, and Trond Trosterud. 2021. Overview of Open-Source Morphology Development for the Komi-Zyrian Language: Past and future. In Proceedings of the Seventh International Workshop on Computational Linguistics of Uralic Languages, pages 29–39, Syktyvkar, Russia (Online). Association for Computational Linguistics.
 
+```
     @inproceedings{rueter-etal-2021-overview,
         title = "Overview of Open-Source Morphology Development for the {K}omi-{Z}yrian Language: Past and future",
         author = {Rueter, Jack  and
@@ -121,3 +122,4 @@ Jack Rueter, Niko Partanen, Mika Hämäläinen, and Trond Trosterud. 2021. Overv
         url = "https://aclanthology.org/2021.iwclul-1.4",
         pages = "29--39",
     }
+```
