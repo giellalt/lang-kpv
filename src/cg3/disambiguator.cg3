@@ -56,6 +56,7 @@ LIST Ex/N = Ex/N ; #!! Ex/N
 LIST Ex/Num = Ex/Num ; #!! Ex/Num
 LIST Ex/V = Ex/V ; #!! Ex/V
 LIST Ex/WORD = Ex/N Ex/V Ex/A Ex/Num ; #!! Ex/WORD
+LIST VCar = VCar ; #!! VCar
 LIST Der = Der ;
 LIST Der/ӧмӧн = Der/ӧмӧн ;
 LIST DerTag = Der Der/Ин Der/NomAct Der/MWN Der/Patr Der/И Der/а Der/ал Der/ась Der/выв Der/джык Der/дор Der/иг Der/кежлӧ Der/кодь Der/коста Der/кості Der/л Der/ла Der/ладор Der/лун Der/лы Der/лывлы Der/мед Der/моз Der/мысь Der/мысьт Der/мӧн Der/мӧнъя Der/овт Der/ӧмӧн Der/сор Der/сь Der/сьы Der/сюрӧ Der/тыр Der/тырйи Der/тыръя Der/тӧдз Der/тӧм Der/чы Der/чӧж Der/ывлы Der/ысь Der/ышт Der/ӧм Der/увса ; #!! DerTag
@@ -560,6 +561,7 @@ SELECT Acc IF (-1 Po) (1 CC);
 REMOVE N IF (-1 N) (0 N) (1 Pcle);
 SELECT Adv IF (-1 (N Ela)) (0 Adv);
 #SELECT Adv IF (-1 BOS) (0 Adv);
+REMOVE:NoSimpleAdvWhenVAdv Adv (0 (V VCar));
 SELECT Adv IF (-1 V) (1 EOS);
 
 #SELECT Acc IF (1 (V TV));
