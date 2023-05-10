@@ -45,6 +45,7 @@ Ex/N
 Ex/Num
 Ex/V
 Ex/WORD
+VCar
 DerTag
 AspDerTag
 
