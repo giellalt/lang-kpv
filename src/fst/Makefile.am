@@ -47,7 +47,6 @@ GT_LEXC_SRCS_L1_L2=\
 		stems/exceptions.lexc                         \
 		stems/gerunds.lexc                            \
 		stems/interjections.lexc                      \
-		stems/nouns-deverbal.lexc                     \
 		stems/nouns-russian-homographs.lexc           \
 		stems/nouns-regular.lexc                      \
 		stems/nouns_newwords.lexc                     \
@@ -79,6 +78,7 @@ GT_LEXC_SRCS_L1_L2=\
 		affixes/verbs.lexc
 
 
+#		stems/nouns-deverbal.lexc
 # If you are building an error-detecting L2 analyser, specify the lexc files
 # that differ between the regular L1 and the L2 analysers below, in L1 and
 # L2 respectively. L2 files must end in "*-L2.lexc". See SME for an example.

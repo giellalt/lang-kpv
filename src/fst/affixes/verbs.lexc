@@ -688,10 +688,10 @@ LEXICON VerbDer-ONSET_Ӧ !!≈ * **@CODE@**
 +Der+Der/ӧм+Der/Ин+N:%>ӧм%>%{иі%}н N_ ;
 +Der+Der/ӧм+Der/Ин+N:%>ӧм%>тор N_PARAGOGIC-J ;
 
-+Use/NG+Err/Dial+Der+Der/ӧм+Der/NomAct+N:%>эм N_ ;
++Use/NG+Err/Dial+Der+Der/NomAct+N:%>эм N_ ;! remove +Der/ӧм 2023-06-09
 +Use/NG+Err/Dial+Der+Der/ӧм+PastPtc:%>эм K ;
-+Use/NG+Err/Dial+Der+Der/ӧм+Der+Der/NomAct+Ger:%>эмпырысь K ;
-+Use/NG+Err/Dial+Der+Der/ӧм+Der/NomAct+N+Sg+Ins:%>эмен K ;
++Use/NG+Err/Dial+Der+Der+Der/NomAct+Ger:%>эмпырысь K ;! remove +Der/ӧм 2023-06-09
++Use/NG+Err/Dial+Der+Der/NomAct+N+Sg+Ins:%>эмен K ;! remove +Der/ӧм 2023-06-09
 +Use/NG+Err/Dial+Der+Der/ӧм+Der/Ин+N:%>эм%>%{иі%}н N_ ;
 
 +Der+Der/Ан+Der/Ин+N:%>%{ая%}н%>%{иі%}н N_ ;
@@ -700,7 +700,7 @@ LEXICON VerbDer-ONSET_Ӧ !!≈ * **@CODE@**
 !2017-10-27+Der+Der/Ан+ActPrsPtc:%>%{ая%}н K ;
 +Der+Der/Ан+PrsPtc:%>%{ая%}н K ;
 +Der+Der/ысь+ActPrsPtc:%>ысь K/COP-PL ; ! 2020-11-19 adjectival
-+Der+Der/ысь+Der/NomAg+N:%>ысь N_ ;
++Der+Der/NomAg+N:%>ысь N_ ;!remove +Der/ысь 2023-06-09
 
 LEXICON VerbDer-ONSET_І !!≈ * **@CODE@** 
   ! nonfinites
@@ -834,8 +834,8 @@ LEXICON VerbDer-V
 +Der+Der/мысьт+Ger:%>мысьт K ; ! gerund (after the action) !353
 +Der+Der/мысь+Ger:%>мысь K ; ! !353
 +VTer:%>тӧдз PossessiveSuffixes_NoSg1 ; !396
-+Der+Der/мӧн+Ger:%>мӧн PossessiveSuffixes_NoSg1 ; !399-403
-+Der+Der/мӧнъя+Ger:%>мӧнъя WordEnd ; !399-403
++Der+Der/мӧн:%>мӧн PossessiveSuffixes_NoSg1 ; !399-403 REmove +Ger 2023-06-09
++Der+Der/мӧнъя:%>мӧнъя WordEnd ; !399-403 REmove +Ger 2023-06-09
 +VAbess:%>тӧм PossessiveSuffixes ;
 +VAbess+Der+Der/лун+N:%>тӧм%>лун N_ ;
 +VCar:%>тӧг PossessiveSuffixes_NoSg1 ; ! 390
@@ -848,8 +848,8 @@ LEXICON VerbDer-V
 +Der+Der/Adv+Adv+Err/Dial+Ela+PxSg2:%>ӧм%>выл%^C2V%>сьыд ADV_ ; !2091-06-03
 
 +Use/NG+Err/Dial+VTer:%>тэдз PossessiveSuffixes_NoSg1 ; !396
-+Use/NG+Err/Dial+Der+Der/мӧн+Ger:%>мен PossessiveSuffixes_NoSg1 ; !399-403
-+Use/NG+Err/Dial+Der+Der/мӧнъя+Ger:%>менъя WordEnd ; !399-403
++Use/NG+Err/Dial+Der+Der/мӧн:%>мен PossessiveSuffixes_NoSg1 ; !399-403 REmove +Ger 2023-06-09
++Use/NG+Err/Dial+Der+Der/мӧнъя:%>менъя WordEnd ; !399-403 REmove +Ger 2023-06-09
 +Use/NG+Err/Dial+VAbess:%>тэм PossessiveSuffixes ;
 +Use/NG+Err/Dial+VCar:%>тэг PossessiveSuffixes_NoSg1 ; ! 390
 +Use/NG+Err/Dial+Der+Car+Err/Orth+Ger:%>тэгъя K ; !387
