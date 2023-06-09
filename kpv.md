@@ -1779,7 +1779,6 @@ word classes, or optionally from prefixes:
 * determiners ; 
 * gerunds ; 
 * interjections ; 
-* nouns-deverbal ; 
 * nouns ; 
 * nouns-russian-homographs ; 
 * numerals ; 
