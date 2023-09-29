@@ -3,7 +3,7 @@
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
 [![License](https://img.shields.io/github/license/giellalt/lang-kpv)](https://github.com/giellalt/lang-kpv/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-kpv)](https://github.com/giellalt/lang-kpv/issues)
-[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-kpv/main/badge.svg)](https://github.com/giellalt/lang-kpv/actions)
+[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-kpv/main/badge.svg)](https://github.com/giellalt/lang-kpv/actions)
 
 This page documents the work on the [Komi-Zyrian language model](http://github.com/giellalt/lang-kpv). 
 
