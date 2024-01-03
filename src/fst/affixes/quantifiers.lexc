@@ -10,7 +10,7 @@ LEXICON NUM-CARD_
  CARD ;
 +Card+Der+Der/La+N:%>ла N_ ;
 :%>ӧд ORD ;
-+Err/Dial:%>эд ORD ;
++Err/Dial:%>эд ORD ; 
 +Ord+Der+Der/La+N:%>ӧд%>ла N_ ;
 !:%>нан COLL ;
 +Coll+Der+Der/La+N:%>нан%>ла N_ ;
@@ -52,6 +52,11 @@ LEXICON DET_
 +Det+Ord+Iter+Ins+Err/Dial:%>ысен K ;
 +Det+Card+Distr:%>ӧн K ;
 +Det+Card+Distr+Err/Dial:%>эн K ;
+
+!LEXICON NUM_ASSOCCOLL
+!!! LEXICON @LEXNAME@ 
+!!кыкнан
+!+AssocColl: # ;
 
 LEXICON DET_END
 !! LEXICON @LEXNAME@ 
