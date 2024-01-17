@@ -1,176 +1,136 @@
 ## Process this file with automake to produce Makefile.in
+## Copyright: Sámediggi/Divvun/UiT
+## Licence: GPL v3+
 
-## Copyright (C) 2011 Samediggi
+# always build . last here, and tagsets have to be built after morphology
+SUBDIRS = morphology filters phonetics syllabification orthography transcriptions tagsets .
 
-## This program is free software: you can redistribute it and/or modify
-## it under the terms of the GNU General Public License as published by
-## the Free Software Foundation, either version 3 of the License, or
-## (at your option) any later version.
+####### Automake targets: ########
 
-## This program is distributed in the hope that it will be useful,
-## but WITHOUT ANY WARRANTY; without even the implied warranty of
-## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-## GNU General Public License for more details.
+# Define target variables first, before assigning to them:
+GT_ANALYSERS=
+GT_GENERATORS=
+CUSTOM_FSTS=
 
-## You should have received a copy of the GNU General Public License
-## along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#### Local modifications in *fst processing: ####
+####
+#### Copy the fallback targets, and rename them to the desired targets. Then:
+#### Replace the 'cp' command (Xerox) / Prepend the hfst-invert command (Hfst -
+#### remember to move the $<) with whatever you need to complete
+#### the processing to get the final target transducer.
+#### Remember to add the dependencies as well.
+#### Also make sure that HFST and Xerox processing are the same.
+####
+#### If you add new transducers to be built, you need to add them to the
+#### relevant variable, e.g.:
+####
+#### if CAN_HFST
+#### GT_GENERATORS+=generator-oahpa-gt-norm.hfst
+#### endif
+####
+#### NB!!!! The HFST targets should get a hyphen after 'analyser'/'generator'
+#### respectively, to make the local targets minimally different from and
+#### slightly more specific than the fallback targets. This is to avoid warnings
+#### about duplicate targets. That is, the local targets should looke like:
+####
+#### analyser-%.hfst: analyser-%.tmp.hfst
+#### generator-%.hfst: generator-%.tmp.hfst
 
-# Add language-specific flags for hfst-lexc compilation here:
-if HAVE_SHARED_COMMON
-HFST_LEXC_LOCAL_FLAGS=  # --Werror # uncomment if lexc is good enough
-else
-HFST_LEXC_LOCAL_FLAGS=  # No --Werror if deps are missing !
-endif
+##################################################################
+#### BEGIN: Add local processing instructions BELOW this line ####
+##################################################################
 
-####### Morphology source file defs: ########
-
-# Set this to name of lexc file containing Multichar_Symbols and LEXICON Root
-GT_LEXC_ROOT=$(srcdir)/root.lexc
-
-# Set this to the names of all regular lexc source files:
-GT_LEXC_SRCS_L1_L2=\
-		stems/abbreviations.lexc                      \
-		stems/acronyms.lexc                           \
-		stems/kpv-acronyms.lexc                       \
-		stems/kom-adjectives-russian-like.lexc        \
-		stems/adjectives-russian-like.lexc            \
-		stems/adjectives-russian-like_newwords.lexc   \
-		stems/adjectives-regular.lexc                 \
-		stems/adjectives_newwords.lexc                \
-		stems/adpositions.lexc                        \
-		stems/adverbs.lexc                            \
-		stems/adverbs_newwords.lexc                   \
-		stems/conjunctors.lexc                        \
-		stems/descriptives.lexc                       \
-		stems/determiners.lexc                        \
-		stems/dialect_lexicon.lexc                    \
-		stems/exceptions.lexc                         \
-		stems/gerunds.lexc                            \
-		stems/interjections.lexc                      \
-		stems/nouns-russian-homographs.lexc           \
-		stems/nouns-regular.lexc                      \
-		stems/nouns_newwords.lexc                     \
-		stems/numerals.lexc                           \
-		stems/particles.lexc                          \
-		stems/pronouns.lexc                           \
-		stems/propernouns-malenames-cyrillic.lexc     \
-		stems/propernouns-malesurnames-cyrillic.lexc  \
-		stems/propernouns-toponyms-Komi.lexc          \
-		stems/propernouns.lexc                        \
-		stems/propernouns-toponyms-Russian.lexc       \
-		stems/propernouns_newwords.lexc               \
-		stems/quantifiers.lexc                        \
-		stems/subjunctors.lexc                        \
-		stems/verbs-A2M.lexc                          \
-		stems/verbs-N2END.lexc                        \
-		stems/verbs_newwords.lexc                     \
-		affixes/adjectives.lexc                       \
-		affixes/adpositions.lexc                      \
-		affixes/adverbs.lexc                          \
-		affixes/conjunctors.lexc                      \
-		affixes/interjections.lexc                    \
-		affixes/nouns.lexc                            \
-		affixes/particles.lexc                        \
-		affixes/pronouns.lexc                         \
-		affixes/propernouns.lexc                      \
-		affixes/quantifiers.lexc                      \
-		affixes/symbols.lexc                          \
-		affixes/verbs.lexc
+########################################################
+#### Add language-specific transducer targets here: ####
 
 
-#		stems/nouns-deverbal.lexc
-# If you are building an error-detecting L2 analyser, specify the lexc files
-# that differ between the regular L1 and the L2 analysers below, in L1 and
-# L2 respectively. L2 files must end in "*-L2.lexc". See SME for an example.
-L1=
+#### Xerox transducers:
+if CAN_XFST
+GT_ANALYSERS+=
+GT_GENERATORS+=
 
-L2=
+if WANT_DICTIONARIES
+GT_ANALYSERS+=analyser-dict-gt-desc-molodtsov.xfst\
+			  analyser-dict-gt-desc-permyak.xfst
+endif # WANT_DICTIONARIES
 
-GT_LEXC_SRCS=\
-			$(GT_LEXC_SRCS_L1_L2) \
-			$(L1)
+if WANT_CUSTOM_FSTS
+CUSTOM_FSTS+=
+endif # WANT_CUSTOM_FSTS
 
-GT_LEXC_L2_SRCS=\
-			$(GT_LEXC_SRCS_L1_L2) \
-			$(L2)
+endif # CAN_XFST
 
-# Set this to the names of all generated lexc files, if any
-GENERATED_LEXC_SRCS=\
-		generated_files/urj-Cyrl-$(GLANG)-propernouns.lexc \
-		generated_files/mul-$(GLANG)-punctuation.lexc \
-		generated_files/mul-$(GLANG)-symbols.lexc
+#### HFST transducers
+if CAN_HFST
+GT_ANALYSERS+=
+GT_GENERATORS+=
 
-# change handling of shared lexical data here:
-if HAVE_SHARED_COMMON
-url.tmp.lexc: $(gt_SHARED_common)/src/fst/url.lexc
-	$(AM_V_CP)cp -f $< $@
+if WANT_DICTIONARIES
+GT_ANALYSERS+=analyser-dict-gt-desc-molodtsov.hfst\
+			  analyser-dict-gt-desc-permyak.hfst
+endif # WANT_DICTIONARIES
 
-generated_files/mul-$(GLANG)-%.lexc: $(gt_SHARED_common)/src/fst/stems/%.lexc
-	$(AM_V_at)$(MKDIR_P) generated_files
-	$(AM_V_CP)cp -f $< $@
-else
-# this is "safe" fallback (compiles but you miss everything)
-url.tmp.lexc:
-	echo "LEXICON Root" > $@
-	echo "< h t t p (s) %: %/ %/ ?*> # ;" >> $@
+if WANT_CUSTOM_FSTS
+CUSTOM_FSTS+=
+endif # WANT_CUSTOM_FSTS
 
-generated_files/mul-$(GLANG)-%.lexc:
-	$(AM_V_at)$(MKDIR_P) generated_files
-	echo "! Missing shared common data" > $@
-endif
-# add other lexical shared data handling here
+endif # CAN_HFST
+
+#### FOMA transducers
+if CAN_FOMA
+GT_ANALYSERS+=
+GT_GENERATORS+=
+
+if WANT_DICTIONARIES
+GT_ANALYSERS+=analyser-dict-gt-desc-molodtsov.foma\
+			  analyser-dict-gt-desc-permyak.foma
+endif # WANT_DICTIONARIES
+
+if WANT_CUSTOM_FSTS
+CUSTOM_FSTS+=
+endif # WANT_CUSTOM_FSTS
+
+endif # CAN_FOMA
+
+#################################################
+#### Add language-specific build rules here: ####
+
+.generated/analyser-dict-gt-desc-molodtsov.tmp.%: .generated/analyser-dict-gt-desc.tmp.% \
+					orthography/spellrelax-molodtsov-keyboard.compose.%
+	$(AM_V_XFST_TOOL)$(PRINTF) "read regex                              \
+			    @\"$<\" \
+			.o. @\"orthography/spellrelax-molodtsov-keyboard.compose.$*\" \
+			;\n\
+		 save stack $@\n\
+		 quit\n" | $(XFST_TOOL)
+
+.generated/analyser-dict-gt-desc-permyak.tmp.%: .generated/analyser-dict-gt-desc.tmp.% \
+					orthography/spellrelax-permyak-text.compose.%
+	$(AM_V_XFST_TOOL)$(PRINTF) "read regex                              \
+			    @\"$<\" \
+			.o. @\"orthography/spellrelax-permyak-text.compose.$*\" \
+			;\n\
+		 save stack $@\n\
+		 quit\n" | $(XFST_TOOL)
+
+# Change POS tags in front of derivations:
+.generated/analyser-disamb-gt-desc.%: .generated/analyser-disamb-gt-desc.tmp.% \
+					filters/remove-derivation-position-tags.% \
+					filters/remove-orig_lang-tags.%           \
+					filters/rename-POS_before_Der-tags.%
+	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
+				@\"filters/remove-derivation-position-tags.$*\" \
+			.o. @\"filters/remove-orig_lang-tags.$*\"           \
+			.o. @\"filters/rename-POS_before_Der-tags.$*\"  \
+			.o. @\"$<\"                                     \
+			;\n\
+		 $(INVERT_HFST)\
+		 save stack $@\n\
+		 quit\n" | $(XFST_TOOL)
 
 
-# $(srcdir)/stems/propernouns-malenames-russian-derivable.lexc
-# $(srcdir)/stems/propernouns-malesurnames-russian-derivable.lexc
-# $(srcdir)/stems/propernouns-toponyms-Russian.lexc
-# Set this to the names of all source xml files, if any
-GT_XML_SRCS=
+##################################################################
+#### END: Add local processing instructions ABOVE this line ######
+##################################################################
 
-# stems/propernouns-malenames-russian-derivable.xml
-# stems/propernouns-malesurnames-russian-derivable.xml
-# stems/propernouns-toponyms-Russian.xml
-
-# Define any additional lexc sources here (compiled on their own):
-GT_LOCAL_SRCS=
-
-# Define local xfscripts here:
-GT_LOCAL_XFSCRIPT_SRCS=
-
-# Define here any additional sources just included in the distro:
-GT_DISTRO_SRCS=
-
-### BEGIN: Local processing: ###
-
-### List additional targets in the following variable, for build targets not
-### covered by other means. This comes ***in addition to*** what you can do by
-### just targeting lexicon.*: lexicon.tmp.*, and is useful if you want to build
-### separate fst's that need further treatment in the src/ dir. See the language
-### gle/ for an example of how this is used.
-
-GIELLA_LOCAL_TARGETS=
-
-if HAVE_SHARED_URJ_CYRL
-generated_files/urj-Cyrl-$(GLANG)-propernouns.lexc: \
-	$(gt_SHARED_urj_Cyrl)/src/fst/stems/urj-Cyrl-propernouns.lexc
-	$(AM_V_at)$(MKDIR_P) generated_files
-	$(AM_V_CP)cp -f $< $@
-else
-generated_files/urj-Cyrl-$(GLANG)-%.lexc:
-	$(AM_V_at)$(MKDIR_P) generated_files
-	$(AM_C_GEN)echo "! Missing shared common data" > $@
-endif
-### END: Local processing: ###
-
-####### Other targets: ###########
-# Clean: add local clean targets on separate lines, so that the first line can
-# easily get updates from the template dir through svn merge.
-clean-local:
-	-rm -f *.all.* *fst *.foma *.script generated_files/*.lexc lexicon.*
-	-rm -f url.lexc *.tmp*
-	-rm -f *.relabel lexicon-tags.* lexicon-sigma.*
-
-include $(srcdir)/Makefile.modifications-phon.am
-include $(top_srcdir)/../giella-core/am-shared/src-morphology-dir-include.am
-
-# vim: set ft=automake:
+include $(top_srcdir)/../giella-core/am-shared/src-fst-dir-include.am
