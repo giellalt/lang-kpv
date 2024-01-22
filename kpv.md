@@ -294,7 +294,7 @@ Singular predicative
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/affixes/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
 
 ---
 
@@ -328,7 +328,7 @@ these are:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adpositions.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/affixes/adpositions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adpositions.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/affixes/adpositions.lexc)</small>
 
 ---
 
@@ -350,7 +350,7 @@ and they probably are equivalent in morphology to postpositions
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adverbs.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/affixes/adverbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adverbs.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/affixes/adverbs.lexc)</small>
 
 ---
 
@@ -368,7 +368,7 @@ LEXICON CONJ_
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/conjunctors.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/affixes/conjunctors.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/conjunctors.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/affixes/conjunctors.lexc)</small>
 
 ---
 
@@ -384,7 +384,7 @@ LEXICON INTERJ-FORMULAIC_
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/interjections.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/affixes/interjections.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/interjections.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/affixes/interjections.lexc)</small>
 
 ---
 
@@ -500,7 +500,7 @@ PL3
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/affixes/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/nouns.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/affixes/nouns.lexc)</small>
 
 ---
 
@@ -520,7 +520,7 @@ LEXICON DESCR_
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/particles.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/affixes/particles.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/particles.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/affixes/particles.lexc)</small>
 
 ---
 
@@ -561,7 +561,7 @@ Word-final cases
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/pronouns.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/affixes/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/pronouns.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/affixes/pronouns.lexc)</small>
 
 ---
 
@@ -647,7 +647,7 @@ FEMALE NAMES FROM TEMPLATE
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/affixes/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/propernouns.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/affixes/propernouns.lexc)</small>
 
 ---
 
@@ -690,7 +690,7 @@ LEXICON NumMWN
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/quantifiers.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/affixes/quantifiers.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/quantifiers.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/affixes/quantifiers.lexc)</small>
 
 ---
 
@@ -709,7 +709,7 @@ SYMBOL_suff (can abbreviations have suffixes? Probably, yes)
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/affixes/symbols.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
 
@@ -868,49 +868,7 @@ FIX THIS 2015-09-06
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/affixes/verbs.lexc)</small>
-
----
-
-
-
-Definition section !
-================== !
-
-Defining Vowel
-
-Defining Palatal Vowel
-
-Defining Consonants
-
-Defining non-soft consonants
-
-Defining consonants before Cyrillic і                  
-
-Defining letters
-
-Defining flags
-
-Defining boundaries
-
-Defining diacritics
-
-Defining dummy
-
-Rule section !
-============ !
-
-stopping ы -> 0 2011-01-26
-LET's remember that this should only affect verb forms
-That means the surface vowels я а и і ӧ
-Wrong results тӧд where тыӧд should be
-Wrong на should be ныа
-Absence of "ы" vowel
-"ы" vowel is present before
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/phonology-old.xfscript](https://github.com/giellalt/lang-kpv/blob/main/src/fst/phonology-old.xfscript)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
 
@@ -1109,7 +1067,7 @@ To do: Look at a more logical ordering
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/phonology.twolc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/phonology.twolc)</small>
 
 ---
 
@@ -1857,7 +1815,7 @@ The `@D.NeedNoun.ON@` flag diacritic is used to block illegal compounds.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/root.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/root.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/root.lexc)</small>
 
 ---
 
@@ -1867,7 +1825,7 @@ The `@D.NeedNoun.ON@` flag diacritic is used to block illegal compounds.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/acronyms.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/stems/acronyms.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/acronyms.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/stems/acronyms.lexc)</small>
 
 ---
 
@@ -1879,7 +1837,7 @@ ADD ADJECTIVES BELOW
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adjectives-russian-like_newwords.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/stems/adjectives-russian-like_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives-russian-like_newwords.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/stems/adjectives-russian-like_newwords.lexc)</small>
 
 ---
 
@@ -1895,7 +1853,7 @@ from Syktyvkar
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adjectives_newwords.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/stems/adjectives_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives_newwords.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/stems/adjectives_newwords.lexc)</small>
 
 ---
 
@@ -1907,7 +1865,7 @@ ADD ADVERBS BELOW
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adverbs_newwords.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/stems/adverbs_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adverbs_newwords.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/stems/adverbs_newwords.lexc)</small>
 
 ---
 
@@ -1917,7 +1875,7 @@ Hypothetical dialect forms with е/э 2021-03-15
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/dialect_lexicon.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/stems/dialect_lexicon.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/dialect_lexicon.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/stems/dialect_lexicon.lexc)</small>
 
 ---
 
@@ -1952,7 +1910,7 @@ the single verb вывны:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/exceptions.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/stems/exceptions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/exceptions.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/stems/exceptions.lexc)</small>
 
 ---
 
@@ -1964,7 +1922,7 @@ ADD NOUNS BELOW
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/nouns_newwords.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/stems/nouns_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns_newwords.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/stems/nouns_newwords.lexc)</small>
 
 ---
 
@@ -1976,7 +1934,7 @@ ADD NOUNS BELOW
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/propernouns_newwords.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/stems/propernouns_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/propernouns_newwords.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/stems/propernouns_newwords.lexc)</small>
 
 ---
 
@@ -1989,7 +1947,7 @@ ADD VERBS BELOW
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/verbs_newwords.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/stems/verbs_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs_newwords.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/stems/verbs_newwords.lexc)</small>
 
 ---
 
@@ -2156,7 +2114,49 @@ retracted tongue root			_q
 
 * * *
 
-<small>This (part of) documentation was generated from [src/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-kpv/blob/main/src/phonetics/txt2ipa.xfscript)</small>
+<small>This (part of) documentation was generated from [src/fst/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-kpv/blob/main/src/fst/phonetics/txt2ipa.xfscript)</small>
+
+---
+
+
+
+Definition section !
+================== !
+
+Defining Vowel
+
+Defining Palatal Vowel
+
+Defining Consonants
+
+Defining non-soft consonants
+
+Defining consonants before Cyrillic і                  
+
+Defining letters
+
+Defining flags
+
+Defining boundaries
+
+Defining diacritics
+
+Defining dummy
+
+Rule section !
+============ !
+
+stopping ы -> 0 2011-01-26
+LET's remember that this should only affect verb forms
+That means the surface vowels я а и і ӧ
+Wrong results тӧд where тыӧд should be
+Wrong на should be ныа
+Absence of "ы" vowel
+"ы" vowel is present before
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/phonology-old.xfscript](https://github.com/giellalt/lang-kpv/blob/main/src/fst/phonology-old.xfscript)</small>
 
 ---
 
@@ -2176,7 +2176,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 ---
 
