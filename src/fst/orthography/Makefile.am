@@ -10,10 +10,13 @@ GT_ORTHOGRAPHIC_REGEX_SRCS=\
 		inituppercase.regex \
 		spellrelax.regex    \
 		spellrelax-mobile-keyboard.regex \
+		spellrelax-permyak-text.regex \
+		spellrelax-molodtsov-keyboard.regex \
 		spellrelax-tags.regex
 
 GT_ORTHOGRAPHIC_XFSCRIPT_SRCS=\
 		allcaps.xfscript      \
+		evv2norm.xfscript \
 		downcase-derived_proper-strings.xfscript \
 		spellrelax-with-tags.xfscript
 
