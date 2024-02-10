@@ -1738,7 +1738,6 @@ word classes, or optionally from prefixes:
 * gerunds ; 
 * interjections ; 
 * nouns ; 
-* nouns-russian-homographs ; 
 * numerals ; 
 * particles ; 
 * pronouns ; 
