@@ -17,8 +17,8 @@ use open qw( :encoding(UTF-8) :std );
 while(<>) {
 	# Continuation lexicon substitutions:
     s/л\ +CYRL-CONS_SUR\ *\;/л2\ CYRL-CONS_SUR\ \"Z\"\ \;/g ;
-    s/\ +PROP-PLC_KEL1\ *\;/л2\ N_\ \;/g ;
-    s/\ +PROP-PLC_VELE\ *\;/л2\ N_\ \;/g ;
+    s/\ +PROP-PLC_KEL1\ *\;/\ N_\ \;/g ;
+    s/\ +PROP-PLC_VELE\ *\;/\ N_\ \;/g ;
 #	s/л\ +CYRL-CONS_SUR\ +\"Z\"\ *\;/л\ CYRL-Л_SUR\ \"Z\"\ \;/g ;
 #	s/ C-FI-NEN/nen LONDON/g ;
 #	s/SUND/BERN/g ;

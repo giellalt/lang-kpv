@@ -28,12 +28,19 @@ LEXICON N_LA
 LEXICON N-VYV ! тулысвыв The Russian is an adverbial phrase
 +Der+Der/выв: NMN_ ;
 
-LEXICON Noun1-F !
+LEXICON N_rus100 ! Homographs
++Src/F: NMN_ ;
+LEXICON N_ruskpv ! Komi-like Russian words
 +Src/F: NMN_ ;
 
-LEXICON Noun1-R-RY !
-+Use/NG+Err/Orth:ь NMN_ ;  ! This deals with январь
-           NMN_ ; ! This is the new proper spelling январ
+LEXICON N_rus100_hasnat ! Homographs
++Src/F: NMN_ ;
+LEXICON N_ruskpv_hasnat ! Komi-like Russian words
++Src/F: NMN_ ;
+
+
+LEXICON N_ruskpv_R_RY_hasnat !
++Use/NG+Err/Orth: NMN_ ;  ! This deals with январь
 
 LEXICON Noun1-SYT-STY !
 +Use/NG+Err/Orth:ть NMN_ ;  ! This deals with гӧсть

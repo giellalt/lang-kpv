@@ -857,7 +857,7 @@ LEXICON Root
               interjections                      ; !!≈ * @CODE@ 
 !              nouns-deverbal                     ; !!≈ * @CODE@ 
               nouns                              ; !!≈ * @CODE@ 
-              nouns-russian-homographs           ; !!≈ * @CODE@ 
+!              nouns-russian-homographs           ; !!≈ * @CODE@ 
               numerals                           ; !!≈ * @CODE@ 
               particles                          ; !!≈ * @CODE@ 
               pronouns                           ; !!≈ * @CODE@ 
@@ -907,7 +907,6 @@ LEXICON ABS_
 LEXICON R
 !! @LEXNAME@
 +Cmp#:%-# nouns ;
-+Cmp#:%-# nouns-russian-homographs ;
 !+Cmp#:%-# nouns-deverbal ;
 
 LEXICON Serial-Verbs
