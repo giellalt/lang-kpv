@@ -48,8 +48,7 @@ GT_LEXC_SRCS_L1_L2=\
 		stems/exceptions.lexc                         \
 		stems/gerunds.lexc                            \
 		stems/interjections.lexc                      \
-		stems/nouns-russian-homographs.lexc           \
-		stems/nouns-regular.lexc                      \
+		stems/nouns.lexc                      \
 		stems/nouns_newwords.lexc                     \
 		stems/numerals.lexc                           \
 		stems/particles.lexc                          \
