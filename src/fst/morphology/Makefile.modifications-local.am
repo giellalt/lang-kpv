@@ -18,10 +18,19 @@
 # Add local build rules and shared here...
 
 if HAVE_SHARED_URJ_CYRL
-generated_files/urj-Cyrl-$(GLANG)-propernouns.lexc: \
-	$(gt_SHARED_urj_Cyrl)/src/fst/stems/urj-Cyrl-propernouns.lexc
+generated_files/urj-Cyrl-propernouns.lexc: \
+		$(gt_SHARED_urj_Cyrl)/src/fst/stems/urj-Cyrl-propernouns.lexc
 	$(AM_V_at)$(MKDIR_P) generated_files
-	$(AM_V_CP)cp -f $< $@
+	$(AM_V_GEN)cp -f $< $@
+
+generated_files/urj-Cyrl-$(GTLANG)-propernouns.lexc: \
+		generated_files/urj-Cyrl-propernouns.lexc \
+		$(top_srcdir)/src/scripts/urj-Cyrl-$(GTLANG)-conversion.pl
+	$(AM_V_GEN)rm -f $@ && \
+	echo "" >> $@ && \
+	echo "! <--- Dump from URJ-CYRL -->" >> $@ && \
+	echo "" >> $@ && \
+	$(top_srcdir)/src/scripts/urj-Cyrl-$(GTLANG)-conversion.pl $< >> $@
 else
 generated_files/urj-Cyrl-$(GLANG)-%.lexc:
 	$(AM_V_at)$(MKDIR_P) generated_files
