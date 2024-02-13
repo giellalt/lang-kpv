@@ -25,12 +25,12 @@ generated_files/urj-Cyrl-propernouns.lexc: \
 
 generated_files/urj-Cyrl-$(GTLANG)-propernouns.lexc: \
 		generated_files/urj-Cyrl-propernouns.lexc \
-		$(top_srcdir)/src/scripts/urj-Cyrl-$(GTLANG)-conversion.pl
+		$(top_srcdir)/src/fst/scripts/urj-Cyrl-$(GTLANG)-conversion.pl
 	$(AM_V_GEN)rm -f $@ && \
 	echo "" >> $@ && \
 	echo "! <--- Dump from URJ-CYRL -->" >> $@ && \
 	echo "" >> $@ && \
-	$(top_srcdir)/src/scripts/urj-Cyrl-$(GTLANG)-conversion.pl $< >> $@
+	$(top_srcdir)/src/fst/scripts/urj-Cyrl-$(GTLANG)-conversion.pl $< >> $@
 else
 generated_files/urj-Cyrl-$(GLANG)-%.lexc:
 	$(AM_V_at)$(MKDIR_P) generated_files
