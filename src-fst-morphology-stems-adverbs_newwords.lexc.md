@@ -7,6 +7,3 @@ ADD ADVERBS BELOW
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/adverbs_newwords.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/stems/adverbs_newwords.lexc)</small>
-
----
-

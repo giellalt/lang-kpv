@@ -94,4 +94,5 @@ NOT-PRL (have no homograph Prolative pairs set)
 * **NoABBR** removes ABBR for competing CC
 
 * * *
+
 <small>This (part of) documentation was generated from [src/cg3/disambiguator.cg3](https://github.com/giellalt/lang-kpv/blob/main/src/cg3/disambiguator.cg3)</small>

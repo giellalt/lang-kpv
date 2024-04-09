@@ -194,6 +194,3 @@ To do: Look at a more logical ordering
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/phonology.twolc)</small>
-
----
-

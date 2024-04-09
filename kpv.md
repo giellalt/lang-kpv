@@ -1,6 +1,10 @@
-# Komi-Zyrian description 
+# Komi-Zyrian language model documentation
 
-All documents in one file
+All doc-comment documentation in one large file.
+
+---
+
+# src-cg3-disambiguator.cg3.md 
 
 
 # Komi disambiguator
@@ -98,7 +102,14 @@ NOT-PRL (have no homograph Prolative pairs set)
 * **NoABBR** removes ABBR for competing CC
 
 * * *
+
 <small>This (part of) documentation was generated from [src/cg3/disambiguator.cg3](https://github.com/giellalt/lang-kpv/blob/main/src/cg3/disambiguator.cg3)</small>
+
+---
+
+# src-cg3-functions-ikpd.cg3.md 
+
+
 
 * Sets for POS sub-categories
 
@@ -107,7 +118,14 @@ NOT-PRL (have no homograph Prolative pairs set)
 * Sets for Morphosyntactic properties
 
 * * *
+
 <small>This (part of) documentation was generated from [src/cg3/functions-ikpd.cg3](https://github.com/giellalt/lang-kpv/blob/main/src/cg3/functions-ikpd.cg3)</small>
+
+---
+
+# src-cg3-functions.cg3.md 
+
+
 
 * Sets for POS sub-categories
 
@@ -283,7 +301,14 @@ These were the set types.
 ###  **therestX** adds @X to all what is left, often errouneus disambiguated forms
 
 * * *
-<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-kpv/blob/main/src/cg3/functions.cg3)</small># Adjective inflection
+
+<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-kpv/blob/main/src/cg3/functions.cg3)</small>
+
+---
+
+# src-fst-morphology-affixes-adjectives.lexc.md 
+
+# Adjective inflection
 ----
 Komi (Zyrian) adjectives compare.
 
@@ -297,6 +322,8 @@ Singular predicative
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-adpositions.lexc.md 
 
 # Postposition inflection
 ----
@@ -332,6 +359,8 @@ these are:
 
 ---
 
+# src-fst-morphology-affixes-adverbs.lexc.md 
+
 # Adverb inflection
 ----
 Komi adverbs inflect for direction.
@@ -354,6 +383,8 @@ and they probably are equivalent in morphology to postpositions
 
 ---
 
+# src-fst-morphology-affixes-conjunctors.lexc.md 
+
 # Conjunctors
 ----
 Komi conjunctors
@@ -372,6 +403,8 @@ LEXICON CONJ_
 
 ---
 
+# src-fst-morphology-affixes-interjections.lexc.md 
+
 # Interjections
 ----
 Komi Interjections
@@ -387,6 +420,8 @@ LEXICON INTERJ-FORMULAIC_
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/interjections.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/affixes/interjections.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-nouns.lexc.md 
 
 
 # Noun morphological lexica 
@@ -504,6 +539,8 @@ PL3
 
 ---
 
+# src-fst-morphology-affixes-particles.lexc.md 
+
 # Particles
 ----
 Komi Particles
@@ -523,6 +560,8 @@ LEXICON DESCR_
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/particles.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/affixes/particles.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-pronouns.lexc.md 
 
 # Pronominal morphology                           
 
@@ -564,6 +603,8 @@ Word-final cases
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/pronouns.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/affixes/pronouns.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-propernouns.lexc.md 
 
 # Proper noun inflection
 
@@ -651,6 +692,8 @@ FEMALE NAMES FROM TEMPLATE
 
 ---
 
+# src-fst-morphology-affixes-quantifiers.lexc.md 
+
 
 
 # Numeral morphological lexica 
@@ -694,6 +737,8 @@ LEXICON NumMWN
 
 ---
 
+# src-fst-morphology-affixes-symbols.lexc.md 
+
 
 # Symbol affixes
 
@@ -712,6 +757,8 @@ SYMBOL_suff (can abbreviations have suffixes? Probably, yes)
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-verbs.lexc.md 
 
 
 
@@ -871,6 +918,8 @@ FIX THIS 2015-09-06
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
+
+# src-fst-morphology-phonology.twolc.md 
 
 # Komi Zyrian twol file
 
@@ -1070,6 +1119,8 @@ To do: Look at a more logical ordering
 <small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/phonology.twolc)</small>
 
 ---
+
+# src-fst-morphology-root.lexc.md 
 
 
 # Multichar\_Symbols and *Root* lexicon for Komi
@@ -1818,6 +1869,8 @@ The `@D.NeedNoun.ON@` flag diacritic is used to block illegal compounds.
 
 ---
 
+# src-fst-morphology-stems-acronyms.lexc.md 
+
 
 
 ## Acronym inflection
@@ -1827,6 +1880,8 @@ The `@D.NeedNoun.ON@` flag diacritic is used to block illegal compounds.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/acronyms.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/stems/acronyms.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-adjectives-russian-like_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
@@ -1839,6 +1894,8 @@ ADD ADJECTIVES BELOW
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives-russian-like_newwords.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/stems/adjectives-russian-like_newwords.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-adjectives_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
@@ -1856,6 +1913,8 @@ from Syktyvkar
 
 ---
 
+# src-fst-morphology-stems-adverbs_newwords.lexc.md 
+
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
 важын:важын ADV_ "(eng) /(fin)/(rus) " ;
@@ -1868,6 +1927,8 @@ ADD ADVERBS BELOW
 
 ---
 
+# src-fst-morphology-stems-dialect_lexicon.lexc.md 
+
 
 
 Hypothetical dialect forms with е/э 2021-03-15
@@ -1877,6 +1938,8 @@ Hypothetical dialect forms with е/э 2021-03-15
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/dialect_lexicon.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/stems/dialect_lexicon.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-exceptions.lexc.md 
 
 Exceptions are quite strange word-forms. the ones that do not fit anywhere 
 else. This file contains all enumerated word forms that cannot reasonably be
@@ -1913,6 +1976,8 @@ the single verb вывны:
 
 ---
 
+# src-fst-morphology-stems-nouns_newwords.lexc.md 
+
 This is where new words are added as lexc entries before they are
 added to the xml source files.
 чери+N:чери N_ "(eng) fish/(fin) kala|fisu/(rus) рыба" ;
@@ -1924,6 +1989,8 @@ ADD NOUNS BELOW
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns_newwords.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/stems/nouns_newwords.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-propernouns_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
@@ -1937,6 +2004,8 @@ ADD NOUNS BELOW
 
 ---
 
+# src-fst-morphology-stems-verbs_newwords.lexc.md 
+
 This is where new words are added as lexc entries before they are
 added to the xml source files.
 воны+V:во V_ "(eng) /(fin)/(rus) " ;
@@ -1949,6 +2018,8 @@ ADD VERBS BELOW
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs_newwords.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/stems/verbs_newwords.lexc)</small>
 
 ---
+
+# src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -2117,6 +2188,8 @@ retracted tongue root			_q
 
 ---
 
+# src-fst-phonology-old.xfscript.md 
+
 
 
 Definition section !
@@ -2159,6 +2232,8 @@ Absence of "ы" vowel
 
 ---
 
+# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+
 
 
 We describe here how abbreviations are in Komi-Zyrian are read out, e.g.
@@ -2178,6 +2253,8 @@ For example:
 <small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 ---
+
+# tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 K O M I   G R A M M A R   C H E C K E R
@@ -2266,7 +2343,14 @@ ASKI (tomorrow set)
 ### Grammarchecker sets
 
 * * *
-<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-kpv/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small># Tokeniser for kpv
+
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-kpv/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+
+---
+
+# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+
+# Tokeniser for kpv
 
 Usage:
 ```
@@ -2329,6 +2413,8 @@ Finally we mark as a token any sequence making up a:
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-kpv/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
 
 ---
+
+# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
 # Grammar checker tokenisation for kpv
 
@@ -2393,6 +2479,8 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
+# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+
 # TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
@@ -2454,6 +2542,3 @@ Needs hfst-tokenise to output things differently depending on the tag they get
 * * *
 
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-tts-cggt-desc.pmscript](https://github.com/giellalt/lang-kpv/blob/main/tools/tokenisers/tokeniser-tts-cggt-desc.pmscript)</small>
-
----
-

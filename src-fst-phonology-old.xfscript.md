@@ -37,6 +37,3 @@ Absence of "ы" vowel
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/phonology-old.xfscript](https://github.com/giellalt/lang-kpv/blob/main/src/fst/phonology-old.xfscript)</small>
-
----
-
