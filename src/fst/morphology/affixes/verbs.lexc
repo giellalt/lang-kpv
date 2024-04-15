@@ -520,17 +520,17 @@ LEXICON imperative
 @U.CONJ-MX.IMP@@U.CONJ-NX.PL@@U.CONJ-PX.2@+Use/NG+Err/Dial+Imprt+Pl2:@U.CONJ-MX.IMP@@U.CONJ-NX.PL@@U.CONJ-PX.2@%>эй VerbEnd ;
 
 LEXICON PossessiveSuffixes
-+PxSg1:%>ым K ;
+@U.PossPx.Sg1@+PxSg1:@U.PossPx.Sg1@%>ым VerbEnd ;
             PossessiveSuffixes_NoSg1 ;
 
 
 LEXICON PossessiveSuffixes_NoSg1
-:     K ; !The ZERO Tag is used for +PxSg1 2017-03-23
-+PxSg2:%>ыд  K ;
-+PxSg3:%>ыс  K ;
-+PxPl1:%>ным K ;
-+PxPl2:%>ныд K ;
-+PxPl3:%>ныс K ;
+@D.PossPx@     VerbEnd ; !The ZERO Tag is used for +PxSg1 2017-03-23
+@U.PossPx.Sg2@+PxSg2:@U.PossPx.Sg2@%>ыд  VerbEnd ;
+@U.PossPx.Sg3@+PxSg3:@U.PossPx.Sg3@%>ыс  VerbEnd ;
+@U.PossPx.Pl1@+PxPl1:@U.PossPx.Pl1@%>ным VerbEnd ;
+@U.PossPx.Pl2@+PxPl2:@U.PossPx.Pl2@%>ныд VerbEnd ;
+@U.PossPx.Pl3@+PxPl3:@U.PossPx.Pl3@%>ныс VerbEnd ;
 
 
 LEXICON PresPret1  ! First and second person
@@ -834,28 +834,28 @@ LEXICON VerbDer-V
 ! Page 346 in the Komi grammar
 +Der+Der/мысьт+Ger:%>мысьт K ; ! gerund (after the action) !353
 +Der+Der/мысь+Ger:%>мысь K ; ! !353
-+VTer:%>тӧдз PossessiveSuffixes_NoSg1 ; !396
-+Der+Der/мӧн:%>мӧн PossessiveSuffixes_NoSg1 ; !399-403 REmove +Ger 2023-06-09
+@U.CONJ-GER.VTER@+VTer:@U.CONJ-GER.VTER@%>тӧдз PossessiveSuffixes_NoSg1 ; !396
+@U.CONJ-GER.VMON@+Der+Der/мӧн:@U.CONJ-GER.VMON@%>мӧн PossessiveSuffixes_NoSg1 ; !399-403 REmove +Ger 2023-06-09
 +Der+Der/мӧнъя:%>мӧнъя WordEnd ; !399-403 REmove +Ger 2023-06-09
-+VAbess:%>тӧм PossessiveSuffixes ;
+@U.CONJ-GER.VABE@+VAbess:@U.CONJ-GER.VABE@%>тӧм PossessiveSuffixes ;
 +VAbess+Der+Der/лун+N:%>тӧм%>лун N_ ;
-+VCar:%>тӧг PossessiveSuffixes_NoSg1 ; ! 390
+@U.CONJ-GER.VCAR@+VCar:@U.CONJ-GER.VCAR@%>тӧг PossessiveSuffixes_NoSg1 ; ! 390
 +Der+Car+Use/NG+Err/Orth+Ger:%>тӧгъя K ; !387
 +Der+Car+Use/NG+Err/Orth+Ger:%>тӧга K ; !387
-+Der+Car+Der/моз+Ger:%>тӧгмоз PossessiveSuffixes_NoSg1 ; !
+@U.CONJ-GER.VCARMoz@+Der+Car+Der/моз+Ger:@U.CONJ-GER.VCARMoz@%>тӧгмоз PossessiveSuffixes_NoSg1 ; !
 +Der+Der/Adv+Adv:%>ӧм%>выв ADV_ ; !2091-06-03
 +Der+Der/Adv+Adv+Err/Dial:%>ӧм%>выл%^C2V ADV_ ; !2091-06-03
 +Der+Der/Adv+Adv+Ela+PxSg2:%>ӧм%>выв%>сьыд ADV_ ; !2091-06-03
 +Der+Der/Adv+Adv+Err/Dial+Ela+PxSg2:%>ӧм%>выл%^C2V%>сьыд ADV_ ; !2091-06-03
 
-+Use/NG+Err/Dial+VTer:%>тэдз PossessiveSuffixes_NoSg1 ; !396
-+Use/NG+Err/Dial+Der+Der/мӧн:%>мен PossessiveSuffixes_NoSg1 ; !399-403 REmove +Ger 2023-06-09
+@U.CONJ-GER.VTER@+Use/NG+Err/Dial+VTer:@U.CONJ-GER.VTER@%>тэдз PossessiveSuffixes_NoSg1 ; !396
+@U.CONJ-GER.VMON@+Use/NG+Err/Dial+Der+Der/мӧн:@U.CONJ-GER.VMON@%>мен PossessiveSuffixes_NoSg1 ; !399-403 REmove +Ger 2023-06-09
 +Use/NG+Err/Dial+Der+Der/мӧнъя:%>менъя WordEnd ; !399-403 REmove +Ger 2023-06-09
-+Use/NG+Err/Dial+VAbess:%>тэм PossessiveSuffixes ;
-+Use/NG+Err/Dial+VCar:%>тэг PossessiveSuffixes_NoSg1 ; ! 390
+@U.CONJ-GER.VABE@+Use/NG+Err/Dial+VAbess:@U.CONJ-GER.VABE@%>тэм PossessiveSuffixes ;
+@U.CONJ-GER.VCAR@+Use/NG+Err/Dial+VCar:@U.CONJ-GER.VCAR@%>тэг PossessiveSuffixes_NoSg1 ; ! 390
 +Use/NG+Err/Dial+Der+Car+Err/Orth+Ger:%>тэгъя K ; !387
 +Use/NG+Err/Dial+Der+Car+Err/Orth+Ger:%>тэга K ; !387
-+Use/NG+Err/Dial+Der+Car+Der/моз+Ger:%>тэгмоз PossessiveSuffixes_NoSg1 ; !
+@U.CONJ-GER.VCARMoz@+Use/NG+Err/Dial+Der+Car+Der/моз+Ger:@U.CONJ-GER.VCARMoz@%>тэгмоз PossessiveSuffixes_NoSg1 ; !
 
 
 
