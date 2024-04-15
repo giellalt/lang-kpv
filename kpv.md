@@ -1699,6 +1699,11 @@ given the proper use of these flags.
 | **@U.CONJ-TX.PRET1@** |  TX = tense
 | **@U.CONJ-TX.PRET2@** |  TX = tense
 | **@U.CONJ-GER.IG@** |  GER = gerund
+| **@U.CONJ-GER.VABE@** |  GER = VAbess тӧм
+| **@U.CONJ-GER.VCAR@** |  GER = VCar тӧг
+| **@U.CONJ-GER.VCARMoz@** |  GER = VCar тӧгмоз
+| **@U.CONJ-GER.VMON@** |  GER = VMon мӧн
+| **@U.CONJ-GER.VTER@** |  GER = VTer тӧдз
 | **@U.CONJ-MX.IND@** | MX = mood
 | **@U.CONJ-MX.IMP@** | MX = mood
 | **@U.CONJ-CONNEG.YES@** | CONNEG = negation
