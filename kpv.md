@@ -1263,7 +1263,7 @@ A category of case in Komi can be identified as:
 * **+Inf** 
 * **+Ger**  Gerund This is used with derivations
 * **+ConNeg +Neg** 
-* **+VAbess** тӧм Participle
+* **+VAbess** тӧм Participle verbal adjective, see also Der/Abe
 * **+VCar** тӧг Gerund
 * **+VTer** тӧдз Gerund
 * **+Final**  мог, мон, моз 'so that I won't'
@@ -1481,6 +1481,7 @@ source and target part-of-speech.
 * **+Der/Анаа**  adverb derived from participle (+ANA) +ANAA
 * **+Der/чӧж**  +CHOZH
 * **+Der/тӧг** 
+* **+Der/Abe** тӧм should take +A, see also +VAbess
 * **+Der/Patr** patronymics in Russian
 * **+Instr** 
 * **+NomAct**
@@ -1699,7 +1700,6 @@ given the proper use of these flags.
 | **@U.CONJ-TX.PRET1@** |  TX = tense
 | **@U.CONJ-TX.PRET2@** |  TX = tense
 | **@U.CONJ-GER.IG@** |  GER = gerund
-| **@U.CONJ-GER.VABE@** |  GER = VAbess тӧм
 | **@U.CONJ-GER.VCAR@** |  GER = VCar тӧг
 | **@U.CONJ-GER.VCARMoz@** |  GER = VCar тӧгмоз
 | **@U.CONJ-GER.VMON@** |  GER = VMon мӧн
