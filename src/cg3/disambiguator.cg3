@@ -263,24 +263,22 @@ SUBSTITUTE (Hom2) (*) TARGET (*) ;
 SUBSTITUTE (Hom3) (*) TARGET (*) ;
 SUBSTITUTE (Hom4) (*) TARGET (*) ;
 #
-SUBSTITUTE (Sem/Kin) (*) TARGET (*) ;
-SUBSTITUTE (Sem/Sur) (*) TARGET (*) ;
-SUBSTITUTE (Sem/Mal) (*) TARGET (*) ;
-SUBSTITUTE (Sem/Fem) (*) TARGET (*) ;
+SUBSTITUTE:RemoveKin (Sem/Kin) (*) TARGET (*) ;
+SUBSTITUTE:RemoveSur (Sem/Sur) (*) TARGET (*) ;
+SUBSTITUTE:RemoveMal (Sem/Mal) (*) TARGET (*) ;
+SUBSTITUTE:RemoveFem (Sem/Fem) (*) TARGET (*) ;
 #
-SUBSTITUTE (EOLang/KOM) (*) TARGET (*) ;
-SUBSTITUTE (EOLang/KPV) (*) TARGET (*) ;
+SUBSTITUTE:RemoveKOM (EOLang/KOM) (*) TARGET (*) ;
+SUBSTITUTE:RemoveKPV (EOLang/KPV) (*) TARGET (*) ;
 #
-SUBSTITUTE (IV) (*) TARGET (*) ;
-SUBSTITUTE (TV) (*) TARGET (*) ;
+SUBSTITUTE:RemoveIV (IV) (*) TARGET (*) ;
+SUBSTITUTE:RemoveTV (TV) (*) TARGET (*) ;
 
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET NOTACRO ;
-#SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET (SYV NONCORECASE);# does not work
-#SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("сыв" N Sg Ela <W:0.0>) ;# (0 ("сійӧ") LINK 0 ("сыв"));# does not work
-SUBSTITUTE:WeightSyvWhenSg1 (<W:0.0>) (<W:1.0>) TARGET ("сыв" N Sg Ela);
+
+SUBSTITUTE:WeightSyvWhenSgEla  (<W:0.0>) (<W:1.0>) TARGET ("сыв" N Sg Ela);
 # сылысь
 
-#
 SUBSTITUTE:negv_to_aux (V Neg) (Aux Neg) TARGET (V Neg) IF (1 (ConNeg)) ;
 #!! * **NoDerIfPossible** removes all derivations
 
@@ -690,7 +688,9 @@ SELECT:VylöVerb (V "вывны") IF (-1 (V "овны")) ;
 # олӧ вылӧ
 
 # Remove Po if there is Relat reading 2021-02-25 Jaska
-REMOVE:RelatNotPo Po IF (0 Relat) ;
+#REMOVE:RelatNotPo Po IF (0 Relat) ;
+# Reverse this 2024-05-02
+REMOVE:PoNoRelat Relat IF (0 Po) ;
 
 SELECT:KuzjaPo (Po "кузя") IF (-1 (N Nom)) ;
 
