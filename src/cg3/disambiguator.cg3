@@ -436,6 +436,10 @@ SELECT:AdvWhenPreviousPx Adv IF ((-1 PxSg2) OR (-1 PxSg3)) ;
 
 REMOVE:RelatWhenjylysjVerb Relat IF (0 Po)(*1 V-jylysj BARRIER CLB);
 
+#
+REMOVE Adv IF (-1 (Nom))(0 Po);
+    # ... Ме бӧрын локтӧ меысь вынаджык ...
+
 # Verbs
 # =====
 
@@ -448,6 +452,9 @@ REMOVE:KillOzN N IF (0 ("оз"));
 	# оз - зэв чӧскыд тусь.
 
 #SELECT V IF (-1 (N Nom));
+
+#A Sg Prp vs V Ind Prs Sg1 and Pron Pers Sg1 Nom
+REMOVE (A Sg Prp) IF (0 (Ind Prs Sg1) LINK 0* (Pron Pers Sg1 Nom) BARRIER CLB OR BOS OR EOS LINK NOT 1 Po OR (N Relat)) ;
 
 #"кол" N Sg Ill
 REMOVE N IF (NOT *-1 VFIN BARRIER CS OR CLB) (0 ("ковны")) (NOT *1 VFIN BARRIER CS OR CLB);
