@@ -134,7 +134,7 @@ A category of case in Komi can be identified as:
 
 #### Verb tags
 * **+Ind +Prs +Prt1 +Prt2 +Fut +Imprt** tense
-* **+Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3** person
+* **+Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3 +Du1** person тэа-меа
 * **+1 +2 +3**  Final мед ог _so that I/we won't_ 2019-04-06
 * **+Inf** 
 * **+Ger**  Gerund This is used with derivations
