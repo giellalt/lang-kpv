@@ -416,6 +416,9 @@ REMOVE:ANotAdv Adv IF (0 A)(1 N);
 # дивитӧмӧн сёрнитіс
 REMOVE:NomActNotAdv Der/ӧмӧн IF (0 Adv) ;
 
+#
+REMOVE:NoAdvWhenPhraseInit Adv IF (-1 BOS OR CLB)(0 ("и" CC)) ;
+
 SELECT Adv + Rel IF (-1 COMMA)(*1 VFIN);
 
 REMOVE:InitialAdv A IF (-1 BOS)(0 Adv)(NOT 1 N OR CC OR A) ;
