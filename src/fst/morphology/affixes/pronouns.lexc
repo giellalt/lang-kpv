@@ -20,6 +20,7 @@ LEXICON PERS                        !!≈ * **@CODE@**
 ме+Pron+Pers+Pl1: PERS-PL1 ;
 тэ+Pron+Pers+Pl2: PERS-PL2 ; 
 сійӧ+Pron+Pers+Pl3: PERS-PL3 ;
+ме+Pron+Pers+Du1+Nom:тэа-меа K ;
 
 
 LEXICON PERS-SG1   !!≈ * **@CODE@** 
@@ -593,6 +594,20 @@ LEXICON COLL-PRON
 ӧтнан+v1+Pron:ӧтнан COLL-PRON_CASE ;
 ӧтнан+v1+Pron:ӧтинан COLL-PRON_CASE ;
 ӧтнан+v2+Pron:ӧтикнан COLL-PRON_CASE ;
+!ӧтнаныд	ӧтнан+Pron+AssocColl+Sg+Nom+PxSg2
+ӧтнам+Pron+AssocColl+Sg1+Nom:ӧтнам K ;
+ӧтнад+Pron+AssocColl+Sg2+Nom:ӧтнад K ;
+ӧтнас+Pron+AssocColl+Sg3+Nom:ӧтнас K ;
+ӧтнам+Pron+AssocColl+Pl1+Nom:ӧтнаным K ;
+ӧтнад+Pron+AssocColl+Pl2+Nom:ӧтнаныд K ;
+ӧтнас+Pron+AssocColl+Pl3+Nom:ӧтнаныс K ;
+ӧтнам+Pron+AssocColl+Sg1+Acc:ӧтнамӧс K ;
+ӧтнад+Pron+AssocColl+Sg2+Acc:ӧтнатӧ K ;
+ӧтнас+Pron+AssocColl+Sg3+Acc:ӧтнасӧ K ;
+ӧтнам+Pron+AssocColl+Pl1+Acc:ӧтнанымӧс K ;
+ӧтнад+Pron+AssocColl+Pl2+Acc:ӧтнанытӧ K ;
+ӧтнас+Pron+AssocColl+Pl3+Acc:ӧтнанысӧ K ;
+
 
 LEXICON COLL-PRON_CASE
 +AssocColl: NumCASEPOSSLEX ; ! _нан_ is already part of the stem
