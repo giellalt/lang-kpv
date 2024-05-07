@@ -86,7 +86,7 @@ Multichar_Symbols
 !! #### Number
  +Sg !!≈ * **@CODE@**  singular
  +Pl !!≈ * **@CODE@**  plural
-+Du  !!≈ * **@CODE@** for pronoun.
+ +Du  !!≈ * **@CODE@** for pronoun.
 
 
 
@@ -173,7 +173,7 @@ Multichar_Symbols
 
 !! #### Verb tags
  +Ind +Prs +Prt1 +Prt2 +Fut +Imprt    !!≈ * **@CODE@** tense
- +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3    !!≈ * **@CODE@** person
+ +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3 +Du1    !!≈ * **@CODE@** person тэа-меа
 +1 +2 +3   !!≈ * **@CODE@**  Final мед ог _so that I/we won't_ 2019-04-06
  +Inf   !!≈ * **@CODE@** 
  +Ger   !!≈ * **@CODE@**  Gerund This is used with derivations
@@ -912,6 +912,7 @@ LEXICON ABS_
 LEXICON R
 !! @LEXNAME@
 +Cmp#:%-# nouns ;
++Cmp#:%-# N_NEWWORDS ;
 !+Cmp#:%-# nouns-deverbal ;
 
 LEXICON Serial-Verbs
