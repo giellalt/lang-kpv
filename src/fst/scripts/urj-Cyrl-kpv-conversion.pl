@@ -19,6 +19,11 @@ while(<>) {
     s/л\ +CYRL-CONS_SUR\ *\;/л2\ CYRL-CONS_SUR\ \"Z\"\ \;/g ;
     s/\ +PROP-PLC_KEL1\ *\;/\ N_\ \;/g ;
     s/\ +PROP-PLC_VELE\ *\;/\ N_\ \;/g ;
+    s/\ +PROP-PLC_OSH\ *\;/\ N_\ \;/g ;
+    s/\ PROP_KAL\ *\;/\ N_\ \;/g ;
+    s/\ PROP_KUDO\ *\;/\ N_\ \;/g ;
+    s/\ PROP_OSH\ *\;/\ N_\ \;/g ;
+    
 #	s/л\ +CYRL-CONS_SUR\ +\"Z\"\ *\;/л\ CYRL-Л_SUR\ \"Z\"\ \;/g ;
 #	s/ C-FI-NEN/nen LONDON/g ;
 #	s/SUND/BERN/g ;
