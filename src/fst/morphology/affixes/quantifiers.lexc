@@ -45,13 +45,13 @@ LEXICON ORD
 
 LEXICON DET_
 !! LEXICON @LEXNAME@ 
-!+Det+Ord: ABS_ ; 2018-10-21
-+Det+Ord: NumCASEPOSSLEX ; ! ӧд part of the stem
-+Det+Ord+Iter:%>ысь K ;
-+Det+Ord+Iter+Ins:%>ысьӧн K ;
-+Det+Ord+Iter+Ins+Err/Dial:%>ысен K ;
-+Det+Card+Distr:%>ӧн K ;
-+Det+Card+Distr+Err/Dial:%>эн K ;
+!+Ord: ABS_ ; 2018-10-21
++Ord: NumCASEPOSSLEX ; ! ӧд part of the stem
++Ord+Iter:%>ысь K ;
++Ord+Iter+Ins:%>ысьӧн K ;
++Ord+Iter+Ins+Err/Dial:%>ысен K ;
++Card+Distr:%>ӧн K ;
++Card+Distr+Err/Dial:%>эн K ;
 
 !LEXICON NUM_ASSOCCOLL
 !!! LEXICON @LEXNAME@ 
