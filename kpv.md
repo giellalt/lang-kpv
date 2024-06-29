@@ -1344,6 +1344,8 @@ Special symbols are classified with:
 * **+Use/-PMatch** Do not include in fst's made for hfst-pmatch
 * **+Use/NG** This is used for minimizing excess generation in apertium kpv-koi
 
+* +URL * For tagging URLs
+
 #### Dialect features
 * **+Dial/л** 
 * **+Dial/в** 
