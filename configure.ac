@@ -198,6 +198,7 @@ AM_CONDITIONAL([HAVE_SHARED_COMMON], [test x$gt_SHARED_common != xfalse])
 gt_USE_SHARED([urj_Cyrl], [shared-urj-Cyrl], [giella-shared-urj-Cyrl])
 AM_CONDITIONAL([HAVE_SHARED_URJ_CYRL], [test x$gt_SHARED_urj_Cyrl != xfalse])
 
+gt_NEED_SHARED([mul], [shared-mul], [giella-shared-mul], [0.0.3])
 
 # Locally used shares above this line
 
