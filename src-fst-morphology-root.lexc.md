@@ -662,7 +662,6 @@ The word forms in Komi (Zyrian) language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 * SUBSTANDARDS ;  temporary solution
 * adjectives ; 
-* adjectives-russian-like ; 
 * kom-adjectives-russian-like ; 
 * adpositions ; 
 * adverbs ; 
@@ -696,7 +695,6 @@ word classes, or optionally from prefixes:
 * dialect_lexicon ; 
 * urj-Cyrl-ProperNouns ; ! Testing 2015-09-06
 * A_NEWWORDS ; 
-* A-Russian-like_NEWWORDS ; 
 * ADV_NEWWORDS ; 
 * N_NEWWORDS ; 
 * @U.Cap.Obl@ PROP_NEWWORDS ; 

@@ -1788,7 +1788,6 @@ The word forms in Komi (Zyrian) language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 * SUBSTANDARDS ;  temporary solution
 * adjectives ; 
-* adjectives-russian-like ; 
 * kom-adjectives-russian-like ; 
 * adpositions ; 
 * adverbs ; 
@@ -1822,7 +1821,6 @@ word classes, or optionally from prefixes:
 * dialect_lexicon ; 
 * urj-Cyrl-ProperNouns ; ! Testing 2015-09-06
 * A_NEWWORDS ; 
-* A-Russian-like_NEWWORDS ; 
 * ADV_NEWWORDS ; 
 * N_NEWWORDS ; 
 * @U.Cap.Obl@ PROP_NEWWORDS ; 
@@ -1904,6 +1902,19 @@ ADD ADJECTIVES BELOW
 
 ---
 
+# src-fst-morphology-stems-adjectives.lexc.md 
+
+
+
+colors
+from Syktyvkar
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives.lexc](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/stems/adjectives.lexc)</small>
+
+---
+
 # src-fst-morphology-stems-adjectives_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are 
@@ -1911,10 +1922,6 @@ added to the xml source files.
 важ+A:важ A_ "(eng) /(fin)/(rus) " ;
 
 ADD ADJECTIVES BELOW
-
-colors
-
-from Syktyvkar
 
 * * *
 

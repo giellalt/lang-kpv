@@ -23,6 +23,7 @@
             * `stems/`
                 * [acronyms.lexc](src-fst-morphology-stems-acronyms.lexc.html) ([src](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/stems/acronyms.lexc))
                 * [adjectives-russian-like_newwords.lexc](src-fst-morphology-stems-adjectives-russian-like_newwords.lexc.html) ([src](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/stems/adjectives-russian-like_newwords.lexc))
+                * [adjectives.lexc](src-fst-morphology-stems-adjectives.lexc.html) ([src](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/stems/adjectives.lexc))
                 * [adjectives_newwords.lexc](src-fst-morphology-stems-adjectives_newwords.lexc.html) ([src](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/stems/adjectives_newwords.lexc))
                 * [adverbs_newwords.lexc](src-fst-morphology-stems-adverbs_newwords.lexc.html) ([src](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/stems/adverbs_newwords.lexc))
                 * [dialect_lexicon.lexc](src-fst-morphology-stems-dialect_lexicon.lexc.html) ([src](https://github.com/giellalt/lang-kpv/blob/main/src/fst/morphology/stems/dialect_lexicon.lexc))
