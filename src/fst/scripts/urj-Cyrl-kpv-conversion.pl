@@ -20,6 +20,15 @@ while(<>) {
     s/\ +PROP-PLC_KEL1\ *\;/\ N_\ \;/g ;
     s/\ +PROP-PLC_VELE\ *\;/\ N_\ \;/g ;
     s/\ +PROP-PLC_OSH\ *\;/\ N_\ \;/g ;
+    s/\ +PROP_KAL_SUR\ *\;/\ N_\ \;/g ;
+    s/\ +PROP_KEL1_MAL\ *\;/\ N_\ \;/g ;
+    s/\ +PROP_LAV_MAL\ *\;/\ N_\ \;/g ;
+    s/\ +PROP_TEV_MAL\ *\;/\ N_\ \;/g ;
+    s/\ +PROP_TYL_MAL\ *\;/\ N_\ \;/g ;
+    s/\ +PROP_KUDO_PLC\ *\;/\ N_\ \;/g ;
+    s/\ +PROP_OSH_PLC\ *\;/\ N_\ \;/g ;
+    s/\ +PROP_KAL_PLC\ *\;/\ N_\ \;/g ;
+    s/\ +PROP_RUS_JA\ *\;/\ N_\ \;/g ;
     s/\ PROP_KAL\ /\ N_\ /g ;
     s/\ PROP_KUDO\ /\ N_\ /g ;
     s/\ PROP_OSH\ /\ N_\ /g ;
