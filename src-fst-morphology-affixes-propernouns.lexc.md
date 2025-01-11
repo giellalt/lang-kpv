@@ -52,12 +52,6 @@ LEXICON Deriv-RUS-YJ_SURMAL
 
 ## PLACE NAMES FROM TEMPLATES 
 
-LEXICON PROP-PLC_KAL 
-
-LEXICON PROP-PLC_KIT 
-
-LEXICON PROP-PLC_KUDO 
-
 These are vowel-final stems
 They have previously received +Sem/Fem tags
 
