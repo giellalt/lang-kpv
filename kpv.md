@@ -1337,6 +1337,8 @@ Special symbols are classified with:
 * **+Use/PMatch** means that the following is only used in the analyser feeding the disambiguator
 * **+Use/-PMatch** Do not include in fst's made for hfst-pmatch
 * **+Use/NG** This is used for minimizing excess generation in apertium kpv-koi
+* **+Use/GC** – **only** retained in the HFST Grammar Checker disambiguation analyser
+* **+Use/-GC** – **never** retained in the HFST Grammar Checker disambiguation analyser
 
 * +URL * For tagging URLs
 
