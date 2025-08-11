@@ -152,7 +152,7 @@ A category of case in Komi can be identified as:
 * **+Acron** 
 * **+Symbol** = independent symbols in the text stream, like £, €, ©
 Special symbols are classified with:
-* **+CLB +PUNCT +LEFT +RIGHT** 
+* **+CLB +PUNCT +LEFT +RIGHT +MIDDLE** 
 * **+Multi** Special multiword units are analysed with:
 * **+Guess** 
 
