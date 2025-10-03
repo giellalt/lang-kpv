@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/toolbar/prism-toolbar.min.css">
-    <script src="{{ "/assets/js/sitemap-highlight.js?v=" | append: site.github.build_revision | relative_url }}"></script>
+    <script src="https://giellalt.github.io/assets/js/sitemap-highlight.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
     <script>
       // Initialiser Mermaid med rett tema
@@ -97,10 +97,16 @@
         {{ content }}
         <div id="left_toc_shadow"></div>
       </section>
+      <!-- Hamburgermeny for små skjermar -->
+      <div class="hamburger-menu" aria-label="Vis sitemap">
+        <span></span>
+      </div>
+      
       <div id="sitemap">
         <h1>Sitemap</h1>
         {% include_cached sitemap.html %}
       </div>
+      
     <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">GiellaLT</a>.
@@ -166,5 +172,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-yaml.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-mermaid.min.js"></script>
+    <script src="https://giellalt.github.io/assets/js/hamburger-menu.js"></script>
   </body>
 </html>
