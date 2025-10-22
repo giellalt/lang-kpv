@@ -4,7 +4,7 @@
 ![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-kpv%2Fgh-pages%2Flemmacount.json)
 [![License](https://img.shields.io/github/license/giellalt/lang-kpv)](https://github.com/giellalt/lang-kpv/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-kpv)](https://github.com/giellalt/lang-kpv/issues)
-[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-kpv/main/badge.svg)](https://github.com/giellalt/lang-kpv/actions)
+[![Build Status](https://builds.giellalt.org/api/badge/lang-kpv?label=CI)](https://builds.giellalt.org/pipelines/lang-kpv/builds/latest)
 
 This page documents the work on the [Komi-Zyrian language model](http://github.com/giellalt/lang-kpv). 
 
