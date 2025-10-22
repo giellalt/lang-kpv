@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-kpv)](https://github.com/giellalt/lang-kpv/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-kpv)](https://github.com/giellalt/lang-kpv/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-kpv?label=CI)](https://builds.giellalt.org/pipelines/lang-kpv/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/komi1268)
 
 This page documents the work on the [Komi-Zyrian language model](http://github.com/giellalt/lang-kpv). 
 
