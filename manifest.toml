@@ -1,6 +1,3 @@
-spellername = "Komi-Zyrian"
-spellerversion = "0.1.1"
-
 # Name of the speller package in various languages.
 # The default is English + autonym:
 [speller.name]
@@ -22,3 +19,15 @@ legacy_product_codes = [
     { value = "5081736D-0973-4825-958B-A41C9ECAFD3C", kind = "nsis" },
     { value = "57203AE7-3923-4958-A89D-906C82C81B9A", kind = "nsis" }
 ]
+
+[package.speller]
+name = "Komi-Zyrian"
+version = "0.1.1"
+
+[package.grammar]
+name = "Komi-Zyrian"
+version = "0.1.0"
+
+[package.tts-text-proc]
+name = "Komi-Zyrian"
+version = "0.1.0"
