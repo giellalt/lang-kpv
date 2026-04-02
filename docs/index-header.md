@@ -18,6 +18,7 @@ Center location data taken from [Glottolog](https://glottolog.org/). Area extent
 
 </div>
 
+
 This page documents the work on the [Komi-Zyrian language model](http://github.com/giellalt/lang-kpv). 
 
 The lexicon is full-sized (it contains approximately 60000 
