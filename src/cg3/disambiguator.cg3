@@ -271,8 +271,8 @@ SUBSTITUTE:RemoveFem (Sem/Fem) (*) TARGET (*) ;
 SUBSTITUTE:RemoveKOM (EOLang/KOM) (*) TARGET (*) ;
 SUBSTITUTE:RemoveKPV (EOLang/KPV) (*) TARGET (*) ;
 #
-SUBSTITUTE:RemoveIV (IV) (*) TARGET (*) ;
-SUBSTITUTE:RemoveTV (TV) (*) TARGET (*) ;
+#SUBSTITUTE:RemoveIV (IV) (*) TARGET (*) ;
+#SUBSTITUTE:RemoveTV (TV) (*) TARGET (*) ; 2026-04-20 transitivity might be a good alternative to the so-called reflexive, which is not a reflexive but merely a means of reducing the number of verbal arguments.
 
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET NOTACRO ;
 
@@ -463,6 +463,9 @@ REMOVE (A Sg Prp) IF (0 (Ind Prs Sg1) LINK 0* (Pron Pers Sg1 Nom) BARRIER CLB OR
 #"кол" N Sg Ill
 REMOVE N IF (NOT *-1 VFIN BARRIER CS OR CLB) (0 ("ковны")) (NOT *1 VFIN BARRIER CS OR CLB);
 
+REMOVE CS IF (0 Pron) (1 ("нӧ"));
+ # ... юасян: „Мый нӧ нин кӧсйӧ висьтавны меным авторыс? ...
+ 
 # Neg
 # Pl if ConNeg Pl3
 SELECT:NegPlIfConNegPl Neg + Pl3 IF (1 ConNeg + Pl3);
