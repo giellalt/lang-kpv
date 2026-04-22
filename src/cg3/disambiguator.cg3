@@ -28,7 +28,8 @@ LIST EOS = (<<<) (</s>); #!! EOS
 LIST CmpTest = CmpTest ; #!! CmpTest
 LIST Err = Err ;  #!! Err
 LIST Err/Dial = Err/Dial ; #!! вӧлі Sg3
-LIST Err/Orth = Err/Orht ;
+LIST Err/Orth-no-paragogic-j = Err/Orth-no-paragogic-j ;
+LIST Err/Orth = Err/Orth Err/Orth-no-paragogic-j ;
 
 #!! ### Parts of speech tags
 LIST N = N ; #!! N
@@ -279,6 +280,8 @@ SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET NOTACRO ;
 SUBSTITUTE:WeightSyvWhenSgEla  (<W:0.0>) (<W:1.0>) TARGET ("сыв" N Sg Ela);
 # сылысь
 
+SUBSTITUTE:WeightSyvWhenSgEla  (<W:0.0>) (<W:1.0>) TARGET (Err/Orth);
+
 #2024-06-11 not sure why this is here, Jaska
 SUBSTITUTE:negv_to_aux (V Neg) (Aux Neg) TARGET (V Neg) IF (1 (ConNeg)) ;
 #!! * **NoDerIfPossible** removes all derivations
@@ -393,11 +396,13 @@ SELECT:AAN A + Abs IF (0 A)(1 CC)(2 A + Abs) ;
 SELECT:ANnotNN	A IF (-1 Adv OR Qnt)(1 N) ;
 
 REMOVE:WasA2NLeaveN Ex/A + N IF (0C N) ;
-# паськыдінын
-# "паськыдін" N Sg Ine
-# "паськыд" Ex/A Der/Ин N Sg Ine
+ # паськыдінын
+ # "паськыдін" N Sg Ine
+ # "паськыд" Ex/A Der/Ин N Sg Ine
 
-
+REMOVE (ConNeg) OR (Imprt Sg2) IF (0 N) (-1 A);
+  # тайӧ абу медводдза гижӧд.
+  
 # Adverbs
 # =======
 
@@ -509,6 +514,14 @@ REMOVE:NoConNegAlone ConNeg IF (NOT *0 Neg);
 # IV no Acc
 REMOVE:NoAccWhenNextNumAgrees Acc IF (0 Pl + Nom)(1 Prs + Pl3 OR Prt1 + Pl3 OR Prt2 + Pl3);
 # ӧтияс артмӧдӧны выль кывъяссӧ, мӧдъяс...
+
+# TV if Acc
+REMOVE IV IF (0 TV) (0* Acc BARRIER EOS OR BOS OR CLB) ;
+    # Тэ босьтін сійӧс киад
+
+# coordination
+REMOVE:NoIllInePxSg3WhenPlParallelConjunction (Sg Ill PxSg3) OR (Sg Ine PxSg3) IF (0 (N Pl Nom)) (1 CC) (2* (N Pl Nom) BARRIER EOS OR Ind) ;
+  # Юяс да сьӧлӧмъяс
 
 # Imperative or noun
 
@@ -638,8 +651,10 @@ REMOVE Pcle IF (-1 BOS)(0 ("и")) ;
 SELECT A IF (1 N) (0 ("кӧдзыд")) ;
 REMOVE Nom IF (-1 Imprt) ;
 REMOVE N IF (-1 ("медся")) ;
-REMOVE Po IF (-1 BOS) ;
-REMOVE Po IF (-1 CLB) ;
+REMOVE:NoPoWhenNoComplementToLeft Po OR NotPxTagN + Relat IF (NOT -1 N OR Pron) ;
+#REMOVE Po IF (-1 BOS) ;
+#REMOVE Po IF (-1 CLB) ;
+
 
 # This rule is too aggressive: "Ӧні видзӧд татчӧ."
 # REMOVE Imprt IF (-1 Adv OR Qnt) ;
@@ -648,6 +663,8 @@ SELECT V IF (-1 Inf) (0 V);
 REMOVE:NomActProprietive Der + Der/ProprietiveMod (0 Ind + Prt2) ;
 REMOVE:PastPtc4Prt2 PastPtc + N + Sg + Nom (0 Ind + Prt2) ;
     # Улыс увъяссӧ козйыслысь ваыс чегъялӧма
+
+REMOVE:NoPrsSg3WhenPrecededBySg1Pers (Ind Prs Sg3) IF (0 ("вылӧ" Po Sg Ill)) (-1 ("ме" Pron Pers Sg1 Nom));
 
 SELECT Nom IF (*-1 Acc + PxTag BARRIER CLB);
 # This rule is too aggressive, if we actually want to analyze those as NOM
