@@ -122,6 +122,7 @@ LIST Apr = Apr apr ;
 LIST Ter = Ter ter ; 
 LIST Abe = Abe abe ; 
 LIST Prl = Prl prl ; 
+LIST Prp = Prp prp ; #син синмӧн 
 LIST Cmpl = Cmpl ;
 LIST Abs = Abs ;
 LIST Attr = Attr ;
@@ -665,6 +666,9 @@ REMOVE:PastPtc4Prt2 PastPtc + N + Sg + Nom (0 Ind + Prt2) ;
     # Улыс увъяссӧ козйыслысь ваыс чегъялӧма
 
 REMOVE:NoPrsSg3WhenPrecededBySg1Pers (Ind Prs Sg3) IF (0 ("вылӧ" Po Sg Ill)) (-1 ("ме" Pron Pers Sg1 Nom));
+
+REMOVE Prp IF (0 (Ind Prt2)) ;
+  # кыдзи вӧлі шуӧма найӧс
 
 SELECT Nom IF (*-1 Acc + PxTag BARRIER CLB);
 # This rule is too aggressive, if we actually want to analyze those as NOM
