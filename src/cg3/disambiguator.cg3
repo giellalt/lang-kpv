@@ -122,7 +122,7 @@ LIST Apr = Apr apr ;
 LIST Ter = Ter ter ; 
 LIST Abe = Abe abe ; 
 LIST Prl = Prl prl ; 
-LIST Prp = Prp prp ; #син синмӧн 
+LIST Prp = Prp prp ; #син синма 
 LIST Cmpl = Cmpl ;
 LIST Abs = Abs ;
 LIST Attr = Attr ;
@@ -282,6 +282,9 @@ SUBSTITUTE:WeightSyvWhenSgEla  (<W:0.0>) (<W:1.0>) TARGET ("сыв" N Sg Ela);
 # сылысь
 
 SUBSTITUTE:WeightSyvWhenSgEla  (<W:0.0>) (<W:1.0>) TARGET (Err/Orth);
+
+SUBSTITUTE:WeightPrt2Sg1  (<W:0.0>) (<W:1.0>) TARGET (Prt2 Sg1) OR (Prt2 Pl1) ;# This helps with the Alphabetical random
+# for preference of Sg3 reading
 
 #2024-06-11 not sure why this is here, Jaska
 SUBSTITUTE:negv_to_aux (V Neg) (Aux Neg) TARGET (V Neg) IF (1 (ConNeg)) ;
