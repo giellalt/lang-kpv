@@ -173,11 +173,11 @@ LEXICON V-0_АМНЫ !!≈ * **@CODE@** амны:ам Ending in -мны, -жны
 : VerbConj-V ; !б
 
 !2018-10-21!LEXICON VR_КЫЙНЫ !!≈ * __@CODE@__ 
-!2018-10-21!+Refl@U.CONJ-INF.YES@:й0@U.CONJ-INF.YES@ Verb-nyDer-ONSET-CONS ; !
-!2018-10-21!+Refl@U.CONJ-INF.YES@:й0@U.CONJ-INF.YES@ Verb-nyDer-ONSET-Ы ; !
-!2018-10-21!+Refl@U.CONJ-INF.YES@:й0@U.CONJ-INF.YES@ Verb-nyDer-ONSET-Я ; !
-!2018-10-21!+Refl@U.CONJ-INF.YES@:й0@U.CONJ-INF.YES@ VerbDer_КЫЙНЫ ; !
-!2018-10-21!+Refl@U.CONJ-INF.YES@:й0@U.CONJ-INF.YES@ VerbDer-V ; !
+!2018-10-21!@U.CONJ-INF.YES@+Refl:@U.CONJ-INF.YES@й Verb-nyDer-ONSET-CONS ; !
+!2018-10-21!@U.CONJ-INF.YES@+Refl:@U.CONJ-INF.YES@й Verb-nyDer-ONSET-Ы ; !
+!2018-10-21!@U.CONJ-INF.YES@+Refl:@U.CONJ-INF.YES@й Verb-nyDer-ONSET-Я ; !
+!2018-10-21!@U.CONJ-INF.YES@+Refl:@U.CONJ-INF.YES@й VerbDer_КЫЙНЫ ; !
+!2018-10-21!@U.CONJ-INF.YES@+Refl:@U.CONJ-INF.YES@й VerbDer-V ; !
 !2018-10-21!+Refl:й VerbConj_КЫЙНЫ ; !а
 !2018-10-21!+Refl:й VerbConj-V ; !б
 
@@ -455,18 +455,18 @@ LEXICON present
 
 LEXICON present_КЫЙНЫ
  present ;
-!2018-01-29!+Ind+Prs@U.CONJ-MX.IND@@U.CONJ-TX.PRES@:%>%{ая%}@U.CONJ-MX.IND@@U.CONJ-TX.PRES@ PresPret1 ; ! 1,2  Present
-!2018-01-29!+Ind+Prs@U.CONJ-MX.IND@@U.CONJ-TX.PRES@:%>ӧ@U.CONJ-MX.IND@@U.CONJ-TX.PRES@ PresPret1-SgPl3 ; ! 3
+!2018-01-29!@U.CONJ-MX.IND@@U.CONJ-TX.PRES@+Ind+Prs:@U.CONJ-MX.IND@@U.CONJ-TX.PRES@%>%{ая%} PresPret1 ; ! 1,2  Present
+!2018-01-29!@U.CONJ-MX.IND@@U.CONJ-TX.PRES@+Ind+Prs:@U.CONJ-MX.IND@@U.CONJ-TX.PRES@%>ӧ PresPret1-SgPl3 ; ! 3
 
 LEXICON present_АМНЫ
  present ;
-!2018-01-29!+Ind+Prs@U.CONJ-MX.IND@@U.CONJ-TX.PRES@:%>%{ая%}@U.CONJ-MX.IND@@U.CONJ-TX.PRES@ PresPret1 ; ! 1,2  Present
-!2018-01-29!+Ind+Prs@U.CONJ-MX.IND@@U.CONJ-TX.PRES@:%>ӧ@U.CONJ-MX.IND@@U.CONJ-TX.PRES@ PresPret1-SgPl3 ; ! 3
+!2018-01-29!@U.CONJ-MX.IND@@U.CONJ-TX.PRES@+Ind+Prs:@U.CONJ-MX.IND@@U.CONJ-TX.PRES@%>%{ая%} PresPret1 ; ! 1,2  Present
+!2018-01-29!@U.CONJ-MX.IND@@U.CONJ-TX.PRES@+Ind+Prs:@U.CONJ-MX.IND@@U.CONJ-TX.PRES@%>ӧ PresPret1-SgPl3 ; ! 3
 
 LEXICON present_КУТНЫ
  present ;
-!2018-01-29!+Ind+Prs@U.CONJ-MX.IND@@U.CONJ-TX.PRES@:%>%{ая%}@U.CONJ-MX.IND@@U.CONJ-TX.PRES@ PresPret1 ; ! 1,2  Present
-!2018-01-29!+Ind+Prs@U.CONJ-MX.IND@@U.CONJ-TX.PRES@:%>ӧ@U.CONJ-MX.IND@@U.CONJ-TX.PRES@ PresPret1-SgPl3 ; ! 3
+!2018-01-29!@U.CONJ-MX.IND@@U.CONJ-TX.PRES@+Ind+Prs:@U.CONJ-MX.IND@@U.CONJ-TX.PRES@%>%{ая%} PresPret1 ; ! 1,2  Present
+!2018-01-29!@U.CONJ-MX.IND@@U.CONJ-TX.PRES@+Ind+Prs:@U.CONJ-MX.IND@@U.CONJ-TX.PRES@%>ӧ PresPret1-SgPl3 ; ! 3
 
 LEXICON future
 @U.CONJ-MX.IND@@U.CONJ-TX.FUT@+Ind+Fut:@U.CONJ-MX.IND@@U.CONJ-TX.FUT@%>%{ая%} PresPret1 ; ! 1,2  Future
@@ -505,14 +505,14 @@ LEXICON preterite_КЫЙНЫ
 
 LEXICON preterite_АМНЫ
  preterite ;
-!2018-01-29!+Ind+Prt1@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@:%>%{иі%}@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@ PresPret1 ; 
-!2018-01-29!+Ind+Prt1@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@:%>%{иі%}@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@  P3 ; ! 3 
+!2018-01-29!@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@+Ind+Prt1:@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@%>%{иі%} PresPret1 ; 
+!2018-01-29!@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@+Ind+Prt1:@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@%>%{иі%}  P3 ; ! 3 
 !2018-01-29!	Pret2a-0 ;
 
 LEXICON preterite_КУТНЫ
  preterite ;
-!2018-01-29!+Ind+Prt1@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@:%>%{иі%}@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@ PresPret1 ; 
-!2018-01-29!+Ind+Prt1@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@:%>%{иі%}@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@  P3 ; ! 3 
+!2018-01-29!@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@+Ind+Prt1:@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@%>%{иі%} PresPret1 ; 
+!2018-01-29!@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@+Ind+Prt1:@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@%>%{иі%}  P3 ; ! 3 
 !2018-01-29!	Pret2a-0 ;
 
 LEXICON imperative
@@ -788,15 +788,15 @@ LEXICON Verb-ynyDer
 @C.CONJ-INF@@C.CONJ-POSS@+Der/ysht+Dimin:@C.CONJ-INF@@C.CONJ-POSS@ышт V_ШУНЫ ; !!кольмыштны
 !+Der/ysht+Dimin+V:%>ышт  VerbConj ;
 !+V+Der/ysht+Dimin+V+Inf:%>ыштны K ;
-!+V+Der/ysht+Dimin+V+ConNeg0@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ыштны@U.CONJ-CONNEG.YES@0@U.CONJ-NX.PL@@U.CONJ-PX.3@ WordEnd ;
-!+V+Der/ysht+Dimin+V+ConNeg@U.CONJ-CONNEG.YES@:%>ышт0@U.CONJ-CONNEG.YES@ WordEnd ;
+!@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@+V+Der/ysht+Dimin+V+ConNeg:@U.CONJ-CONNEG.YES@0@U.CONJ-NX.PL@@U.CONJ-PX.3@%>ыштны WordEnd ;
+!@U.CONJ-CONNEG.YES@+V+Der/ysht+Dimin+V+ConNeg:@U.CONJ-CONNEG.YES@%>ышт WordEnd ;
 !+V+Der/ysht+Dimin+V+Imprt+Sg2:%>ышт WordEnd ;
 
 @C.CONJ-INF@@C.CONJ-POSS@+Der/ysht+Dimin+Der/ly:@C.CONJ-INF@@C.CONJ-POSS@ыштл V_ВОЛЫНЫ ;   !!??кольмыштлыны
 !+V+Der/ysht+Dimin+V+Der/ly+V:%>ыштл  VerbConj ;
 !+V+Der/ysht+Dimin+V+Der/ly+V+Inf:%>ыштлыны K ;
-!+V+Der/ysht+Dimin+V+Der/ly+V+ConNeg0@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ыштлыны@U.CONJ-CONNEG.YES@0@U.CONJ-NX.PL@@U.CONJ-PX.3@ WordEnd ;
-!+V+Der/ysht+Dimin+V+Der/ly+V+ConNeg@U.CONJ-CONNEG.YES@:%>ыштл@U.CONJ-CONNEG.YES@ WordEnd ;
+!@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@+V+Der/ysht+Dimin+V+Der/ly+V+ConNeg:@U.CONJ-CONNEG.YES@0@U.CONJ-NX.PL@@U.CONJ-PX.3@%>ыштлыны WordEnd ;
+!@U.CONJ-CONNEG.YES@+V+Der/ysht+Dimin+V+Der/ly+V+ConNeg:@U.CONJ-CONNEG.YES@%>ыштл WordEnd ;
 !+V+Der/ysht+Dimin+V+Der/ly+V+Imprt+Sg2:%>ыштл WordEnd ;
 
 @C.CONJ-INF@@C.CONJ-POSS@+Der/ysht+Dimin+Der/lyvly:@C.CONJ-INF@@C.CONJ-POSS@ыштлывл V_ВОЛЫНЫ ;  !!??кольмыштлывлыны
@@ -806,8 +806,8 @@ LEXICON Verb-ynyDer
 @C.CONJ-INF@@C.CONJ-POSS@+Der/lyvly:@C.CONJ-INF@@C.CONJ-POSS@ывл V_ВОЛЫНЫ ; !!тшӧктывлыны
 !+V+Der/yvly+V:%>ывл VerbConj ; ! мынтывл - мынтывлан
 !+V+Der/yvly+V+Inf:%>ывлыны K ;
-!+V+Der/yvly+V+ConNeg@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ывлыны@U.CONJ-CONNEG.YES@0@U.CONJ-NX.PL@@U.CONJ-PX.3@ WordEnd ;
-!+V+Der/yvly+V+ConNeg0@U.CONJ-CONNEG.YES@:%>ывлы@U.CONJ-CONNEG.YES@ WordEnd ;
+!@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@+V+Der/yvly+V+ConNeg:@U.CONJ-CONNEG.YES@0@U.CONJ-NX.PL@@U.CONJ-PX.3@%>ывлыны WordEnd ;
+!@U.CONJ-CONNEG.YES@+V+Der/yvly+V+ConNeg:@U.CONJ-CONNEG.YES@%>ывлы WordEnd ;
 !+V+Der/yvly+V+Imprt+Sg2:%>ывлы WordEnd ;
 
 @C.CONJ-INF@@C.CONJ-POSS@+Der/sjy:@C.CONJ-INF@@C.CONJ-POSS@ысь V_ЛЫДДЬЫНЫ ; !! вевттьысьыны
@@ -824,7 +824,7 @@ LEXICON Verb-ynyDer
 
 !<!-- This far 2012-01-19 -->
 
-!+Der/ovt@C.CONJ-INF@@C.CONJ-POSS@:овт@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !!пановтны
+!@C.CONJ-INF@@C.CONJ-POSS@+Der/ovt:@C.CONJ-INF@@C.CONJ-POSS@овт V_ШУНЫ ; !!пановтны
 
 
 ! Stray verb forms :-о
@@ -862,8 +862,8 @@ LEXICON VerbDer-V
 ! 2012-02-11 This is a problem; олан-вӧлан, овны-вӧвны
 !2018-10-21!LEXICON VerbPRT ! one verb, вӧвны 
 !2018-10-21!+V: preterite ;
-!2018-10-21!+V+ConNeg+Pl3@U.CONJ-CONNEG.YES@@U.CONJ-NX.PL@@U.CONJ-PX.3@:%>ны@U.CONJ-CONNEG.YES@@U.CONJ-NX.PL@@U.CONJ-PX.3@ WordEnd ;
-!2018-10-21!+V+ConNeg@U.CONJ-CONNEG.YES@:@U.CONJ-CONNEG.YES@ WordEnd ;
+!2018-10-21!@U.CONJ-CONNEG.YES@@U.CONJ-NX.PL@@U.CONJ-PX.3@+V+ConNeg+Pl3:@U.CONJ-CONNEG.YES@@U.CONJ-NX.PL@@U.CONJ-PX.3@%>ны WordEnd ;
+!2018-10-21!@U.CONJ-CONNEG.YES@+V+ConNeg:@U.CONJ-CONNEG.YES@ WordEnd ;
 
 LEXICON EM !!≈ * **@CODE@** эм:эм. Ending in -ӧсь.
 @U.CONJ-MX.IND@+Ind+Prs+Sg3:@U.CONJ-MX.IND@ WordEnd ;
