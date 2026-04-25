@@ -34,20 +34,20 @@ LEXICON DERIVEDADJ-IN-CONS
 +Abe:%>тӧм K ;! Case 2021-04-04 adnominal modifiers
 +Use/NG+Err/Dial+Abe:%>тэм K ;! Case 2021-04-04 adnominal modifiers
 +Cmpr:%>ся K ;! Case 2021-04-04 adnominal modifiers
-+Der+Der/увса+A:%>увса A_ ;
-+Der+Der/сайса+A:%>сайса A_ ;
-+Der+Der/пӧвстса+A:%>пӧвстса A_ ;
-+Use/NG+Err/Dial+Der+Der/пӧвстса+A:%>певстса A_ ;
-+Der+Der/костса+A:%>костса A_ ;
-+Der+Der/бердса+A:%>бердса A_ ;
-+Der+Der/бӧрса+A:%>бӧрса A_ ;
-+Use/NG+Err/Dial+Der+Der/бӧрса+A:%>берса A_ ;
-+Der+Der/весьтса+A:%>весьтса A_ ;
-+Der+Der/водзса+A:%>водзса A_ ;
-+Der+Der/вывса+A:%>вывса A_ ;
-+Der+Der/гӧгӧрса+A:%>гӧгӧрса A_ ;
-+Use/NG+Err/Dial+Der+Der/гӧгӧрса+A:%>гегерса A_ ;
-+Der+Der/дорса+A:%>дорса A_ ;
++Der+Der/uvsa+A:%>увса A_ ;
++Der+Der/sajsa+A:%>сайса A_ ;
++Der+Der/pwvstsa+A:%>пӧвстса A_ ;
++Use/NG+Err/Dial+Der+Der/pwvstsa+Err/Orth-e-not-oe+A:%>певстса A_ ;
++Der+Der/kostsa+A:%>костса A_ ;
++Der+Der/berdsa+A:%>бердса A_ ;
++Der+Der/bwrsa+A:%>бӧрса A_ ;
++Use/NG+Err/Dial+Der+Der/bwrsa+Err/Orth-e-not-oe+A:%>берса A_ ;
++Der+Der/besjtsa+A:%>весьтса A_ ;
++Der+Der/vodzsa+A:%>водзса A_ ;
++Der+Der/vyvsa+A:%>вывса A_ ;
++Der+Der/gwgwrsa+A:%>гӧгӧрса A_ ;
++Use/NG+Err/Dial+Der+Der/gwgwrsa+Err/Orth-e-not-oe+A:%>гегерса A_ ;
++Der+Der/dorsa+A:%>дорса A_ ;
 
 
 
@@ -82,36 +82,36 @@ LEXICON Adj
 LEXICON A-IS_INE-MOD-СА
 +Loc: A_ ;
 LEXICON A-IS_COMP-MOD-КОДЬ
-+Der+Der/кодь+CompMod: A_ ;
++Der+Der/kodj+CompMod: A_ ;
 !2018-10-21!LEXICON A-IS_ABE-MOD-ТӦМ
-!2018-10-21!+Der+Der/тӧм+AbeMod: A_ ;
+!2018-10-21!+Der+Der/twm+AbeMod: A_ ;
 !2018-10-21!LEXICON A-IS_HAB-OBJ-MOD-А
-!2018-10-21!+Der+Der/а+HabObjMod: A_ ;
+!2018-10-21!+Der+Der/a+HabObjMod: A_ ;
 LEXICON A-IS_TEMP-MOD-СЯ
 +Der+Der/TempMod+A: A_ ;
 
 !LEXICON Adj-IS_PTC-TOM ! 2011-11-15 participle = derivation type; 2023-06-09 verbal derivation 
-!+V+Der+Der/тӧм: A_ ;
+!+V+Der+Der/twm: A_ ;
 
 LEXICON Adj-IS_PTC-YSJ
-+V+Der+Der/ысь: A_ ;
++V+Der+Der/ysj: A_ ;
 
 !2018-10-21!LEXICON Adj-IS_PTC-AN !
-!2018-10-21!+V+Der+Der/Ан: A_ ;
+!2018-10-21!+V+Der+Der/An: A_ ;
 
 LEXICON Adj-IS_PTC-ANA !
-+V+Der+Der/Ана: A_ ;
++V+Der+Der/Ana: A_ ;
 
 !LEXICON Adj-IS_PTC-ӦМ
-!+V+Der+Der/ӧм: A_ ;
+!+V+Der+Der/wm: A_ ;
 
 LEXICON A-IS_DIM-НИК
-+Der+Der/Иник: A_ ;
++Der+Der/Inik: A_ ;
 
 !2018-10-21!LEXICON Adj-IS_TOM
 !2018-10-21! A-IS_TOM ;
 LEXICON A-IS_TOM
-+N+Der+Der/тӧм: A_ ;
++N+Der+Der/twm: A_ ;
 
 !LEXICON Adj-IS_SUPERL !
 !+Superl: A_ ;
@@ -127,33 +127,33 @@ LEXICON A_
 !2017-09-19+Attr: # ;
 : PredMonAdj ;
 : AdjCompar ;
-+Der+Der/кодь+A:%>кодь PredMonAdj ;
-+Der+Der/кодь+A:%>кодь AdjCompar ;
-+Der+Der/Ин:%>%{иі%}н N_ ;
-+Der+Der/лун:%>лун N_ ; !Derivational suffix for A-N
-+Der+Der/а:%>%{ая%} ADV_ ; ! Derivation for adjective-to-adverb
++Der+Der/kodj+A:%>кодь PredMonAdj ;
++Der+Der/kodj+A:%>кодь AdjCompar ;
++Der+Der/In:%>%{иі%}н N_ ;
++Der+Der/lun:%>лун N_ ; !Derivational suffix for A-N
++Der+Der/a:%>%{ая%} ADV_ ; ! Derivation for adjective-to-adverb
 
 LEXICON SUPERL-A_
 : PredMonAdj ;
 +Sg: CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
 +Pl:%>ъяс CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
-+Der+Der/кодь+A:%>кодь PredMonAdj ;
-+Der+Der/кодь+A:%>кодь AdjCompar ;
-+Der+Der/Ин:%>%{иі%}н N_ ;
-+Der+Der/лун:%>лун N_ ; !Derivational suffix for A-N
-+Der+Der/а:%>а ADV_ ; ! Derivation for adjective-to-adverb
++Der+Der/kodj+A:%>кодь PredMonAdj ;
++Der+Der/kodj+A:%>кодь AdjCompar ;
++Der+Der/In:%>%{иі%}н N_ ;
++Der+Der/lun:%>лун N_ ; !Derivational suffix for A-N
++Der+Der/a:%>а ADV_ ; ! Derivation for adjective-to-adverb
 
 LEXICON A_PARAGOGIC-В/Л !!= * @CODE@ юмов:юмо юмолӧсь
 :в K ; !! Singular predicative 
 :л COP-PL ;
 :в AdjCompar ;
-+Der+Der/кодь+A:в%>кодь PredMonAdj ;
-+Der+Der/кодь+A:в%>кодь AdjCompar ;
-+Der+Der/Ин:л%>%{иі%}н N_ ;
-+Der+Der/лун:в%>лун N_ ; !Derivational suffix for A-N
++Der+Der/kodj+A:в%>кодь PredMonAdj ;
++Der+Der/kodj+A:в%>кодь AdjCompar ;
++Der+Der/In:л%>%{иі%}н N_ ;
++Der+Der/lun:в%>лун N_ ; !Derivational suffix for A-N
 
 LEXICON WordEnd-PredMonAdj
-+Der+Der/ладор+N:%>ладор Noun1 ;
++Der+Der/lador+N:%>ладор Noun1 ;
  WordEnd ;
  PredMonAdj ;
 

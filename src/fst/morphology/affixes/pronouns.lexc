@@ -57,7 +57,7 @@ LEXICON PERS-SG1   !!≈ * **@CODE@**
 
 LEXICON PERS-PL1    !!≈ * **@CODE@**
 +Nom:ми K ;
-+Nom:мийӧ K ; !Der/йӧ
++Nom:мийӧ K ; !Der/jw
 +Gen:миян K ;
 +Acc:миянӧс K ;
 +Use/NG+Err/Dial+Acc:миянэс K ;
@@ -116,7 +116,7 @@ LEXICON PERS-SG2     !!≈ * **@CODE@**
 LEXICON PERS-PL2 !!≈ * **@CODE@** 
 +Nom:ті K ;
 !+Cmpl:ті WordEnd ;  removed 2019-10-27 same as Nom
-+Nom:тійӧ K ; !We need a special tag for discerning +Nom forms  Der/йӧ
++Nom:тійӧ K ; !We need a special tag for discerning +Nom forms  Der/jw
 +Gen:тіян K ;
 +Gen:тіянлӧн K ;
 +Acc:тіянӧс K ;
@@ -139,38 +139,38 @@ LEXICON PERS-PL2 !!≈ * **@CODE@**
 +Ter:тіӧдз K ;
 
 LEXICON PERS-SG3  !!≈ * **@CODE@** 
-+Nom:сійӧ K ; !+Der/йӧ
-+Nom+Err/Dial:сіе K ; !+Der/йӧ
++Nom:сійӧ K ; !+Der/jw
++Nom+Err/Dial:сіе K ; !+Der/jw
 +Gen:сылӧн K ;
-+Gen+Err/Dial:сылэн K ;
++Gen+Err/Orth-e-not-oe+Err/Dial:сылэн K ;
 +Abl:сылысь K ;
 +Ela:сыысь K ;
 +Dat:сылы K ;
-+Acc:сійӧс K ; !Der/йӧ
-+Ins:сійӧн K ; !Der/йӧ
-+Acc+Err/Dial:сіес K ; !Der/йӧ
-+Ins+Err/Dial:сіен K ; !Der/йӧ
++Acc:сійӧс K ; !Der/jw
++Ins:сійӧн K ; !Der/jw
++Acc+Err/Dial:сіес K ; !Der/jw
++Ins+Err/Dial:сіен K ; !Der/jw
 :сы perssg ;  ! for the regular obl sg
 +Cmpl:сы WordEnd ; ! distinct from Nom
 !More form ӧния коми кыв 163
-+Gen:сійӧлӧн K ; !Der/йӧ
-+Abl:сійӧлысь K ; !Der/йӧ
-+Dat:сійӧлы K ; !Der/йӧ
-+Com:сійӧкӧд K ; !Der/йӧ
-+Car:сійӧтӧг K ; !Der/йӧ
-+Apr:сійӧлань K ; !Der/йӧ
-+Egr:сійӧсянь K ; !Der/йӧ
-+Egr:сійӧсяньыс K ; !Der/йӧ
-+Ter:сійӧӧдз K ; !Der/йӧ
-+Gen+Err/Dial:сіелӧн K ; !Der/йӧ
-+Abl+Err/Dial:сіелысь K ; !Der/йӧ
-+Dat+Err/Dial:сіелы K ; !Der/йӧ
-+Com+Err/Dial:сіекед K ; !Der/йӧ
-+Car+Err/Dial:сіетэг K ; !Der/йӧ
-+Apr+Err/Dial:сіелань K ; !Der/йӧ
-+Egr+Err/Dial:сіесянь K ; !Der/йӧ
-+Egr+Err/Dial:сіесяньыс K ; !Der/йӧ
-+Ter+Err/Dial:сіеедз K ; !Der/йӧ
++Gen:сійӧлӧн K ; !Der/jw
++Abl:сійӧлысь K ; !Der/jw
++Dat:сійӧлы K ; !Der/jw
++Com:сійӧкӧд K ; !Der/jw
++Car:сійӧтӧг K ; !Der/jw
++Apr:сійӧлань K ; !Der/jw
++Egr:сійӧсянь K ; !Der/jw
++Egr:сійӧсяньыс K ; !Der/jw
++Ter:сійӧӧдз K ; !Der/jw
++Gen+Err/Dial:сіелӧн K ; !Der/jw
++Abl+Err/Dial:сіелысь K ; !Der/jw
++Dat+Err/Dial:сіелы K ; !Der/jw
++Com+Err/Dial:сіекед K ; !Der/jw
++Car+Err/Dial:сіетэг K ; !Der/jw
++Apr+Err/Dial:сіелань K ; !Der/jw
++Egr+Err/Dial:сіесянь K ; !Der/jw
++Egr+Err/Dial:сіесяньыс K ; !Der/jw
++Ter+Err/Dial:сіеедз K ; !Der/jw
 ! Special expressions
 +Com+Ins:сыкӧдӧн K ; ! Ен сыкӧдӧн!
 +Com+Ins+Err/Dial:сыкедэн K ; ! Ен сыкӧдӧн!
@@ -181,33 +181,33 @@ LEXICON PERS-SG3  !!≈ * **@CODE@**
 !! сы сійӧ tosin joskus 
 
 LEXICON PERS-PL3 !!≈ * **@CODE@**
-+Nom:найӧ K ; !Der/йӧ
-+Acc:найӧс K ; !Der/йӧ
++Nom:найӧ K ; !Der/jw
++Acc:найӧс K ; !Der/jw
 +Acc:найӧӧс K ; !
 +Gen:налӧн K ;
-+Nom+Err/Dial:нае K ; !Der/йӧ
-+Acc+Err/Dial:наес K ; !Der/йӧ
++Nom+Err/Dial:нае K ; !Der/jw
++Acc+Err/Dial:наес K ; !Der/jw
 +Acc+Err/Dial:наеэс K ; !
 +Gen+Err/Dial:налэн K ;
 :на persplobl ; !This might be one solution for the different stem types
 +Cmpl:на WordEnd ; ! Distinct from Nom
 !
-+Gen:найӧлӧн K ; !Der/йӧ
-+Abl:найӧлысь K ; !Der/йӧ
-+Dat:найӧлы K ; !Der/йӧ
-+Ins:найӧӧн K ; !Der/йӧ
-+Com:найӧкӧд K ; !Der/йӧ
++Gen:найӧлӧн K ; !Der/jw
++Abl:найӧлысь K ; !Der/jw
++Dat:найӧлы K ; !Der/jw
++Ins:найӧӧн K ; !Der/jw
++Com:найӧкӧд K ; !Der/jw
 +Com:накӧдыс K ;
-+Car:найӧтӧг K ; !Der/йӧ
++Car:найӧтӧг K ; !Der/jw
 +Car:натӧгыс K ;
 
-+Gen+Err/Dial:наелэн K ; !Der/йӧ
-+Abl+Err/Dial:наелысь K ; !Der/йӧ
-+Dat+Err/Dial:наелы K ; !Der/йӧ
-+Ins+Err/Dial:наеэн K ; !Der/йӧ
-+Com+Err/Dial:наекед K ; !Der/йӧ
++Gen+Err/Dial:наелэн K ; !Der/jw
++Abl+Err/Dial:наелысь K ; !Der/jw
++Dat+Err/Dial:наелы K ; !Der/jw
++Ins+Err/Dial:наеэн K ; !Der/jw
++Com+Err/Dial:наекед K ; !Der/jw
 +Com+Err/Dial:накедыс K ;
-+Car+Err/Dial:наетэг K ; !Der/йӧ
++Car+Err/Dial:наетэг K ; !Der/jw
 +Car+Err/Dial:натэгыс K ;
 +Cns:наысла K ;
 +Ela:насьыс K ;
@@ -365,7 +365,7 @@ LEXICON INTERR
 кодар+Det:кодар INTERR-REL ;
 !2017-09-19кодар+Det+Der/MWN:кодар PRON-HUM-OBL ;
 !кодар+Det+Der/MWN:кодар PRON-HUM-OBL ;
-кодар+Det+Der/ладор:кодарладор PRON-HUM-OBL ;
+кодар+Det+Der/lador:кодарладор PRON-HUM-OBL ;
 
 коді+Pron+Interr:код PRON-HUM ;
 коді+Pron+Rel:код PRON-HUM ;
@@ -399,8 +399,8 @@ LEXICON INTERR
 кыті+Adv+Tra:кыті INTERR-REL ;
 кыткӧ+Adv+Indef+Tra:кыт INDEF-IN-KO ;
 кытсюрӧ+Adv+Indef+Tra:кыт INDEF-IN-SJURO ;
-кытсюрӧ+Adv+Indef+Tra+Der/сюрӧ:кытсюрӧті K ;
-кытсюрӧ+Adv+Indef+Tra+Der/сюрӧ:кытсюрӧясті K ;
+кытсюрӧ+Adv+Indef+Sg+Tra+Der/sjurw:кытсюрӧті K ;!the singular tag may be unexpected, but there is a plural
+кытсюрӧ+Adv+Indef+Pl+Tra+Der/sjurw:кытсюрӧясті K ;
 
 кӧні+v1+Adv+Ine:кӧні INTERR-REL ;
 кӧні+v2+Adv+Interr+Ine:кӧн ADV_  "missä" ;
@@ -633,7 +633,7 @@ LEXICON INDEFINITE-PRON
 кытысьсюрӧ+v1+Adv+Indef+Ela:кытысь INDEF-IN-SJURO ;
 кытысьсюрӧ+v2+Adv+Indef+Ela:кысь INDEF-IN-SJURO ;
 кытісюрӧ+v1+Adv+Indef+Tra:кыті INDEF-IN-SJURO ;
-кытісюрӧ+v2+Adv+Indef+Tra+Der/сюрӧ+Indef:кыт INDEF-IN-SJURO ; 
+кытісюрӧ+v2+Adv+Indef+Tra+Der/sjurw+Indef:кыт INDEF-IN-SJURO ; 
 кӧнісюрӧ+v1+Adv+Indef+Ine:кӧні INDEF-IN-SJURO ;
 кӧнісюрӧ+v2+Adv+Indef+Ine:кӧн INDEF-IN-SJURO ;
 кӧнісюрӧ+v3+Adv+Indef+Ine:кытӧн INDEF-IN-SJURO ;
@@ -789,10 +789,10 @@ LEXICON INTERR-REL
 +Rel: K ;
 
 LEXICON PRON-INDEFTAG !SHOULD THIS BE REMOVED 2020-10-13
-+Der/кӧ+Indef:%>кӧ K ;
-+Der/сюрӧ+Indef:%>сюрӧ K ;
-+Der/кӧ+Indef+Err/Dial:%>ке K ;
-+Der/сюрӧ+Indef+Err/Dial:%>сюре K ;
++Der/kw+Indef:%>кӧ K ;
++Der/sjurw+Indef:%>сюрӧ K ;
++Der/kw+IndefErr/Orth-e-not-oe+Err/Dial:%>ке K ;
++Der/sjurw+Indef+Err/Orth-e-not-oe+Err/Dial:%>сюре K ;
 
 
 ! Indefinite pronouns
@@ -839,10 +839,10 @@ LEXICON PRONINDEF-PERS-SJURO-CX
 
 
 LEXICON IS_PRON-INDEF-KO
-+Der/кӧ+Indef: K ;
++Der/kw+Indef: K ;
 
 LEXICON IS_PRON-INDEF-SJURO
-+Der/сюрӧ+Indef: K ;
++Der/sjurw+Indef: K ;
 
 LEXICON IS_PRON-INTERR
 +Interr: K ;
@@ -916,7 +916,7 @@ LEXICON PRON-REL
 +Rel: WordEnd ;
 
 LEXICON PRON-REFL-IN_LADOR
-+Refl+Der/ладор: Noun1 ; !2011-11-22
++Refl+Der/lador: Noun1 ; !2011-11-22
 
 LEXICON REFL_AS !! * = @CODE@ ас:а 
 +Det+Refl:с ABS_ ; !ас is an absolute-form modifer
@@ -1179,7 +1179,7 @@ LEXICON PRON-REFL-PL1-4-NOM
 !LEXICON PRON-REFL-PL1-4-GEN
 !+Gen: WordEnd ;  !! bare
 ! ABL/MORPH-THEN-WORDEND ;
-!+Der+Der/ладор:%>ладор Noun1 ;
+!+Der+Der/lador:%>ладор Noun1 ;
 
 LEXICON PRON-REFL-PL2-4-NOM
  ACC-PXSG2/MORPH-THEN-WORDEND ;
@@ -1190,7 +1190,7 @@ LEXICON PRON-REFL-PL2-4-NOM
 
 !LEXICON PRON-REFL-PL2-4-GEN
 !+Gen: WordEnd ; !! bare
-!+Der+Der/ладор:%>ладор Noun1 ;
+!+Der+Der/lador:%>ладор Noun1 ;
 
 
 LEXICON PRON-REFL-PL2-4-ACC
@@ -1401,7 +1401,7 @@ LEXICON PRON-DUAL
 ! +Ter:ӧдз PRON-INTER-REL-HUM-COLL-INDEF ;
 ! 
 ! LEXICON PRON-INTER-REL-HUM-COLL-INDEF
-! +Der/кӧ+Indef:кӧ K ;
+! +Der/kw+Indef:кӧ K ;
 !  K ;
 
 !Actually there might be reason to consider +Der/MWN
@@ -1430,10 +1430,10 @@ LEXICON PRONQ-STAV-CASES
 +Ins+PxSg1:нам K ;
 +Ins+PxSg2:над K ;
 +Ins+PxSg3:нас K ;
-+Ins+PxPl1:нымӧн K ; ! Should there be a Der/ӧн tag?
-+Ins+PxPl1+Err/Dial:нумен K ; ! Should there be a Der/ӧн tag?
-+Ins+PxPl2:ныдӧн K ; ! Should there be a Der/ӧн tag?
-+Ins+PxPl3:нысӧн K ; ! Should there be a Der/ӧн tag?
++Ins+PxPl1:нымӧн K ; ! Should there be a Der/wn tag?
++Ins+PxPl1+Err/Orth-e-not-oe+Err/Dial:нумен K ; ! Should there be a Der/wn tag?
++Ins+PxPl2:ныдӧн K ; ! Should there be a Der/wn tag?
++Ins+PxPl3:нысӧн K ; ! Should there be a Der/wn tag?
 
  ELA/MORPH-THEN-K ;
 +Ela+PxSg3:сьыс K ;
@@ -1635,10 +1635,10 @@ LEXICON PRON-NEG-ADV
 +Der+Neg+Adv: COMPARATIVE ;
 
 LEXICON PRON-NEG-IN_LA
-+Neg+Der/ла+Spat: PRON-NEG-SPAT ;
++Neg+Der/la+Spat: PRON-NEG-SPAT ;
 
 LEXICON PRON-NEG-ITER
-+Der+Neg+Der/ысь+Adv: K ; !+Iter
++Der+Neg+Der/ysj+Adv: K ; !+Iter
 
 LEXICON PRON-NEG
 +Neg+Sg: PRON-NEG_0 ;
@@ -1748,12 +1748,12 @@ LEXICON ACC-WORD-END
 +Use/NG+Err/Dial+Acc:%>эс WordEnd ;
 
 LEXICON INDEF-IN-SJURO
-+Der/сюрӧ:сюрӧ K ;
-+Der/сюрӧ+Err/Dial:сюре K ;
++Der/sjurw:сюрӧ K ;
++Der/sjurw+Err/Orth-e-not-oe+Err/Dial:сюре K ;
 
 LEXICON INDEF-IN-KO
-+Der/кӧ:кӧ K ;
-+Der/кӧ+Err/Dial:ке K ;
++Der/kw:кӧ K ;
++Der/kw+Err/Dial:ке K ;
 
 LEXICON ABL/MORPH-THEN-WORDEND
 +Abl:лысь WordEnd ; !

@@ -288,19 +288,19 @@ LEXICON PROP-PLC-KPV ! Inanimate proper nouns. Place names
 
 !2018-10-21!LEXICON PROP-PLC-RUS ! Inanimate proper nouns. Place names
 !2018-10-21!+Sem/Plc+Src/F: PROP_ ;
-!2018-10-21!+Sem/Plc+Src/F+Der+Der/са@U.Cap.Opt@:%>са@U.Cap.Opt@ A_ ; !!= * __@CODE@__ This requires down-casing
+!2018-10-21!+Sem/Plc+Src/F+Der+Der/sa@U.Cap.Opt@:%>са@U.Cap.Opt@ A_ ; !!= * __@CODE@__ This requires down-casing
 
 !2018-10-21!LEXICON PROP-KPV ! Inanimate proper nouns. Place names
 !2018-10-21!+EOLang/KPV: PROP_ ;
-!2018-10-21!+EOLang/KPV+Der+Der/са@U.Cap.Opt@:%>са@U.Cap.Opt@ A_ ; !!= * __@CODE@__ This requires down-casing
+!2018-10-21!+EOLang/KPV+Der+Der/sa@U.Cap.Opt@:%>са@U.Cap.Opt@ A_ ; !!= * __@CODE@__ This requires down-casing
 
 !2018-10-21!LEXICON PROP-RUS ! Inanimate proper nouns. Place names
 !2018-10-21!+EOLang/RUS: PROP_ ;
-!2018-10-21!+EOLang/RUS+Der+Der/са@U.Cap.Opt@:%>са@U.Cap.Opt@ A_ ; !!= * __@CODE@__ This requires down-casing
+!2018-10-21!+EOLang/RUS+Der+Der/sa@U.Cap.Opt@:%>са@U.Cap.Opt@ A_ ; !!= * __@CODE@__ This requires down-casing
 
 LEXICON PROP-PLC_SUB ! Inanimate proper nouns. Place names
 +Sem/Plc+Use/NG+Err/Orth: PROP_ ;
-!@U.Cap.Opt@+Sem/Plc+Use/NG+Err/Orth+Der+Der/са:@U.Cap.Opt@%>са A_ ; !!= * __@CODE@__ commented out since it cannot form adj.
+!@U.Cap.Opt@+Sem/Plc+Use/NG+Err/Orth+Der+Der/sa:@U.Cap.Opt@%>са A_ ; !!= * __@CODE@__ commented out since it cannot form adj.
 
 LEXICON PROP-ORG ! Inanimate proper nouns. Name of organization
 +Sem/Org: PROP_ ;

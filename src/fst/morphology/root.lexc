@@ -271,8 +271,8 @@ Multichar_Symbols
  +URL !!≈ * @CODE@ * For tagging URLs
  
 !! #### Dialect features
-+Dial/л                   !!≈ * **@CODE@** 
-+Dial/в                   !!≈ * **@CODE@** 
++Dial/l                   !!≈ * **@CODE@** maybe Err/Orth-l-not-v
++Dial/v                   !!≈ * **@CODE@** maybe Err/Orth-v-not-l
 
 
 !! #### Check these Where do these come from source
@@ -531,11 +531,11 @@ Multichar_Symbols
 +Der/xxx   !!≈ * **@CODE@** 
 +Der   !!≈ * **@CODE@**  In front of every derivation to make it   possible to target derivations as a class e.g. in regular expressions etc 
 +Der/La        !!≈ * **@CODE@** 
-+Der/Ан  !!≈ * **@CODE@**  Process Participle +AN
-+Der/Ана  !!≈ * **@CODE@** Process Participle +ANA, Gerund or participle according to context (with...)
-+Der/Анаа  !!≈ * **@CODE@**  adverb derived from participle (+ANA) +ANAA
-+Der/чӧж  !!≈ * **@CODE@**  +CHOZH
-+Der/тӧг   !!≈ * **@CODE@** 
++Der/An  !!≈ * **@CODE@**  Process Participle +AN
++Der/Ana  !!≈ * **@CODE@** Process Participle +ANA, Gerund or participle according to context (with...)
++Der/Anaa  !!≈ * **@CODE@**  adverb derived from participle (+ANA) +ANAA
++Der/chwzh  !!≈ * **@CODE@**  чӧж +CHOZH
++Der/twg   !!≈ * **@CODE@** тӧг
 +Der/Abe   !!≈ * **@CODE@** тӧм should take +A, see also +VAbess
 +Der/Patr   !!≈ * **@CODE@** patronymics in Russian
 +Instr  !!≈ * **@CODE@** 
@@ -543,8 +543,7 @@ Multichar_Symbols
 +Der/NomAct  !!≈ * **@CODE@**  +Event
 +Der/NomAg  !!≈ * **@CODE@** 
 +Duration  !!≈ * **@CODE@**
-+Der/иг  !!≈ * **@CODE@**
-+Der/Ig  !!≈ * **@CODE@**
++Der/Ig  !!≈ * **@CODE@** иг
 +Der/IgKezhlo  !!≈ * **@CODE@**
 +Der/IgKosta  !!≈ * **@CODE@**
 +Der/IgKosti  !!≈ * **@CODE@**
@@ -555,23 +554,23 @@ Multichar_Symbols
 +Der/IgTyrji  !!≈ * **@CODE@** %{иі%}гтырйи
 +Der/IgTyrja  !!≈ * **@CODE@** %{иі%}гтыръя
 +Der/IgChozh  !!≈ * **@CODE@**%{иі%}гчӧж
-+Der/ысь  !!≈ * **@CODE@**
++Der/ysj  !!≈ * **@CODE@**
 +ActPrsPtc  !!≈ * **@CODE@** 
 +PrsPrc  !!≈ * **@CODE@**
 +PrsPtc  !!≈ * **@CODE@** 
 +PastPtc  !!≈ * **@CODE@** 
-+Der/кості  !!≈ * **@CODE@**  +KOSTI
-+Der/коста  !!≈ * **@CODE@**  +KOSTA
-+Der/кежлӧ  !!≈ * **@CODE@**  +KEZHLO
-+Der/мысь  !!≈ * **@CODE@**  +MYS
-+Der/мысьт  !!≈ * **@CODE@**  +MYST
-+Der/сор       !!≈ * **@CODE@**  = +SOR
-+Der/тыр       !!≈ * **@CODE@**  = +TYR
-+Der/тырйи     !!≈ * **@CODE@**  = +TYRJI
-+Der/тыръя     !!≈ * **@CODE@**  = +TYRJA
-+Der/мӧн       !!≈ * **@CODE@**  = +MON
-+Der/мӧнъя     !!≈ * **@CODE@**  = Ӧнія коми кыв. 2000: 399-403
-+Der/ӧмӧн      !!≈ * **@CODE@**  = +OMON !Ӧнія коми кыв. 2000: 425
++Der/kosti  !!≈ * **@CODE@**  +KOSTI
++Der/kosta  !!≈ * **@CODE@**  +KOSTA
++Der/kezhlw  !!≈ * **@CODE@**  +KEZHLO
++Der/mysj  !!≈ * **@CODE@**  +MYS
++Der/mysjt  !!≈ * **@CODE@**  +MYST
++Der/sor       !!≈ * **@CODE@**  = +SOR
++Der/tyr       !!≈ * **@CODE@**  = +TYR
++Der/tyrji     !!≈ * **@CODE@**  = +TYRJI
++Der/tyrja     !!≈ * **@CODE@**  = +TYRJA
++Der/mwn       !!≈ * **@CODE@**  = +MON
++Der/mwnja     !!≈ * **@CODE@**  = Ӧнія коми кыв. 2000: 399-403 мӧнъя
++Der/wmwn      !!≈ * **@CODE@**  = +OMON !Ӧнія коми кыв. 2000: 425
 
 
 !! Declaring adjectival derivations
@@ -582,60 +581,60 @@ Multichar_Symbols
  +MLoc    !!≈ *  **@CODE@** locative modifier са -
  +MHab    !!≈ *  **@CODE@** habeo modifier а -
  +MTmp    !!≈ *  **@CODE@** temporal modifier ся -
-+Der/LocMod ! +Der/ALoc  Denominal locative adjective Der/са
-+Der/ProprietiveMod   !!≈ * **@CODE@** = +Der/APrior  Denominal prioritive adjective Der/а
++Der/LocMod ! +Der/ALoc  Denominal locative adjective Der/sa
++Der/ProprietiveMod   !!≈ * **@CODE@** = +Der/APrior  Denominal prioritive adjective Der/a
 +Der/PrivMod          !!≈ * **@CODE@** = тӧм
-+Der/а           !!≈ * **@CODE@** 
-+Der/са        !!≈ * **@CODE@** 
-+Der/ся        !!≈ * **@CODE@** 
-+Der/Иник       !!≈ * **@CODE@** 
-+Der/Ин          !!≈ * **@CODE@** 
-+Der/увса       !!≈ * **@CODE@** 
-+Der/сайса       !!≈ * **@CODE@** 
-+Der/пӧвстса    !!≈ * **@CODE@** 
-+Der/костса       !!≈ * **@CODE@** 
-+Der/бердса       !!≈ * **@CODE@** 
-+Der/бӧрса       !!≈ * **@CODE@** 
-+Der/весьтса    !!≈ * **@CODE@** 
-+Der/водзса       !!≈ * **@CODE@** 
-+Der/вывса       !!≈ * **@CODE@** 
-+Der/гӧгӧрса    !!≈ * **@CODE@** 
-+Der/дорса       !!≈ * **@CODE@** 
++Der/a           !!≈ * **@CODE@** а
++Der/sa        !!≈ * **@CODE@** са
++Der/sja        !!≈ * **@CODE@** ся
++Der/Inik       !!≈ * **@CODE@** Иник
++Der/In          !!≈ * **@CODE@** Ин
++Der/uvsa       !!≈ * **@CODE@** увса
++Der/sajsa       !!≈ * **@CODE@** сайса
++Der/pwvstsa    !!≈ * **@CODE@** пӧвстса
++Der/kostsa       !!≈ * **@CODE@** костса
++Der/berdsa       !!≈ * **@CODE@** бердса
++Der/bwrsa       !!≈ * **@CODE@** бӧрса
++Der/vesjtsa    !!≈ * **@CODE@** весьтса
++Der/vodzsa       !!≈ * **@CODE@** водзса
++Der/vyvsa       !!≈ * **@CODE@** вывса
++Der/gwgwrsa    !!≈ * **@CODE@** гӧгӧрса
++Der/dorsa       !!≈ * **@CODE@** дорса
 +Loc     !!≈ * **@CODE@** LocMod, IneMod Быд во шедӧдӧны бур успеваемость Воркута да Инта каръясса, Прилузскӧй да Княжпогостскӧй районъясса школаяс.
 +LocMod  !!≈ * **@CODE@** move to Loc
 +CompMod !!≈ * **@CODE@** 
-+Der/тӧм  !!≈ * **@CODE@**  used with nouns and followed by +AbeMod
++Der/twm  !!≈ * **@CODE@** тӧм used with nouns and followed by +AbeMod
 +Abe            !!≈ * **@CODE@** PrivMod, AbeMod джуджыд анализъястӧм да обобщениеястӧм статьяяс.
 +PrivMod        !!≈ * **@CODE@** move to Abe
 +Prp            !!≈ * **@CODE@** ProprietiveMod, HabObjMod Весиг киясыс тӧдсаӧсь, найӧ мугов рӧмаӧсь, кузь чорыд чуньясаӧсь.
 +ProprietiveMod !!≈ * **@CODE@** move to Prp
- +Der/TempMod   !!≈ * **@CODE@** TempMod Der/ся но и Ф. В. Плесовскийлысь квайтымынӧд вояссяяссӧ * позьӧ аддзыны сӧмын библиотекаясысь.  Declaring spatial adverb derivations; see also spatial postpositions
-+Der/ла         !!≈ * **@CODE@** 
-+Der/ладор    !!≈ * **@CODE@** 
-+Der/дор      !!≈ * **@CODE@** 
-+Der/выв      !!≈ * **@CODE@** 
-+Der/тор      !!≈ * **@CODE@** 
+ +Der/TempMod   !!≈ * **@CODE@** TempMod Der/sja но и Ф. В. Плесовскийлысь квайтымынӧд вояссяяссӧ * позьӧ аддзыны сӧмын библиотекаясысь.  Declaring spatial adverb derivations; see also spatial postpositions
++Der/la         !!≈ * **@CODE@** ла 
++Der/lador    !!≈ * **@CODE@** ладор
++Der/dor      !!≈ * **@CODE@** дор
++Der/vyv      !!≈ * **@CODE@** выв
++Der/tor      !!≈ * **@CODE@** тор
 +MWN           !!≈ * **@CODE@**  check! used once, should it be +Der/MWN?, Well, yes.
 +Der/MWN   !!≈ * **@CODE@** 
-+Der/мед   !!≈ * **@CODE@**  Superlative
-+Der/сюрӧ +Der/кӧ   !!≈ * **@CODE@**  !Declaring Indefinite Pronoun derivations
-+Der/моз    !!≈ * **@CODE@** +MOZ  diminishing, kind of, sort of
-+Der/кодь     !!≈ * **@CODE@** diminishing, kind of, sort of
-+Der/лун   !!≈ * **@CODE@**  adjective-to-noun
-+Der/ӧм   !!≈ * **@CODE@**  verb-to-noun   !Declaring Indefinite Pronoun derivations the combinatory +Event preceding the NP-final noun
++Der/med   !!≈ * **@CODE@**  мед- Superlative
++Der/sjurw +Der/kw   !!≈ * **@CODE@** -сюрӧ -кӧ !Declaring Indefinite Pronoun derivations
++Der/moz    !!≈ * **@CODE@** моз +MOZ  diminishing, kind of, sort of
++Der/kodj     !!≈ * **@CODE@** кодь diminishing, kind of, sort of
++Der/lun   !!≈ * **@CODE@**  лун adjective-to-noun
++Der/wm   !!≈ * **@CODE@**  ӧм verb-to-noun   !Declaring Indefinite Pronoun derivations the combinatory +Event preceding the NP-final noun
 
 !! #### Declaring Deverbal derivations of verbs
-+Der/л  !!≈ * **@CODE@** 
-+Der/лы  !!≈ * **@CODE@** 
-+Der/ывлы  !!≈ * **@CODE@** 
-+Der/ышт  !!≈ * **@CODE@** 
-+Der/лывлы  !!≈ * **@CODE@** 
-+Der/сь   !!≈ * **@CODE@**  This only occurs following a vowel in an yny-stem 2017-09-19+Der/сь
-+Der/сьы  !!≈ * **@CODE@**  2017-09-19+Der/ч ! This appears to be a variant of +Der/сьы; it follows plosives
-+Der/чы   !!≈ * **@CODE@**  This appears to be a variant of +Der/сьы; it follows plosives
-+Der/ал  !!≈ * **@CODE@** 
-+Der/овт  !!≈ * **@CODE@** 
-+Der/ась  !!≈ * **@CODE@** 
++Der/l  !!≈ * **@CODE@** л
++Der/ly  !!≈ * **@CODE@** лы
++Der/yvly  !!≈ * **@CODE@** ывлы 
++Der/ysht  !!≈ * **@CODE@** ышт
++Der/lyvly  !!≈ * **@CODE@** лывлы
++Der/sj   !!≈ * **@CODE@** сь This only occurs following a vowel in an yny-stem 2017-09-19+Der/sj
++Der/sjy  !!≈ * **@CODE@** сьы 2017-09-19+Der/ch ! This appears to be a variant of +Der/sjy; it follows plosives
++Der/chy   !!≈ * **@CODE@** чы This appears to be a variant of +Der/sjy; it follows plosives
++Der/al  !!≈ * **@CODE@** ал
++Der/ovt  !!≈ * **@CODE@** овт
++Der/asj  !!≈ * **@CODE@** ась
 +Der/N         !!≈ * @CODE@ Noun derived with conversion from noun, conversion but not ZERO
 +Der/A        !!≈ * @CODE@ Adjective derivated from Noun or Verb
 +Der/Adv      !!≈ * @CODE@ Adverb derivated from Adjective
@@ -991,8 +990,8 @@ LEXICON COMPARATIVE
 !! @LEXNAME@
                K ;
 +Comp:%>джык K ; !more
-+Der+Der/моз:%>моз K ; ! like -- in verbal constructions (Jaska thinks 2018-10-21)
-+Der+Der/кодь:%>кодь K ; ! like -- in copula constructions
++Der+Der/moz:%>моз K ; ! like -- in verbal constructions (Jaska thinks 2018-10-21)
++Der+Der/kodj:%>кодь K ; ! like -- in copula constructions
 
 ! TODO: Integrate this in xml-files in working…
 

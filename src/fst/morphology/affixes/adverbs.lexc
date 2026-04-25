@@ -19,32 +19,32 @@ LEXICON GER_
 !! LEXICON @LEXNAME@ 
 +V+Ger: ADV_ ;
 
-LEXICON ADV-IS_GER-IGON ! these are checked as gerunds in +Der/иг
-+V+Der+Der/иг+Ins: ADV_ ;
+LEXICON ADV-IS_GER-IGON ! these are checked as gerunds in +Der/Ig
++V+Der+Der/Ig+Ins: ADV_ ;
 
-!2018-10-21!LEXICON ADV-IS_GER-IGTYRJI ! these are checked as gerunds in +Der/иг
-!2018-10-21!+V+Der+Der/иг+Der+Der/тырйи: ADV_ ;
+!2018-10-21!LEXICON ADV-IS_GER-IGTYRJI ! these are checked as gerunds in +Der/Ig
+!2018-10-21!+V+Der+Der/Ig+Der+Der/tyrji: ADV_ ;
 
-!LEXICON ADV-IS_GER-MON ! these are checked as gerunds in +Der/мӧн
-!+V+Der+Der/мӧн: ADV_ ;
+!LEXICON ADV-IS_GER-MON ! these are checked as gerunds in +Der/mwn
+!+V+Der+Der/mwn: ADV_ ;
 
-!LEXICON ADV-IS_GER-OMON ! these are checked as gerunds in +Der/ӧмӧн
-!+V+Der+Der/ӧмӧн: ADV_ ;
+!LEXICON ADV-IS_GER-OMON ! these are checked as gerunds in +Der/wmwn
+!+V+Der+Der/wmwn: ADV_ ;
 
-LEXICON ADV-IS_GER-TOG ! these are checked as gerunds in +Der/тӧг
+LEXICON ADV-IS_GER-TOG ! these are checked as gerunds in +Der/twg
 +V+VCar: K ;
 
-LEXICON ADV-IS_GER-TODZ ! these are checked as gerunds in +Der/тӧдз
+LEXICON ADV-IS_GER-TODZ ! these are checked as gerunds in +Der/twdz
 +V+VTer: K ;
 
-LEXICON ADV-IS_N-TOG ! these are checked as state adverbials in +Der/тӧг
+LEXICON ADV-IS_N-TOG ! these are checked as state adverbials in +Der/twg
 +N+Sg+Car: K ;
 
-LEXICON ADV-IS_ADV-TOG ! polar adverbials in +Der/тӧг
-+Der+Der/тӧг: ADV_ ;
+LEXICON ADV-IS_ADV-TOG ! polar adverbials in +Der/twg
++Der+Der/twg: ADV_ ;
 
-LEXICON ADV-IS_Q-TOG ! polar adverbials in +Der/тӧг
-+Qnt+Der+Der/тӧг: ADV_ ;
+LEXICON ADV-IS_Q-TOG ! polar adverbials in +Der/twg
++Qnt+Der+Der/twg: ADV_ ;
 
 LEXICON ADV-SUPERL_
 +Superl:               K ;
@@ -54,7 +54,7 @@ LEXICON ADV-SUPERL_INE
 +Superl+Ine:    K/COP-PL ;
 
 !LEXICON ADV-IS_SUPERL !
-!+Der+Der/мед: ADV_ ;
+!+Der+Der/med: ADV_ ;
 
 LEXICON ADV-F !
 +Src/F: ADV_ ;
@@ -93,9 +93,9 @@ LEXICON ADV-INDEF_
 +Indef: WordEnd ;
 
 !2018-10-21!LEXICON ADV-INDEF_HAS-SJURO
-!2018-10-21!+Indef+Der/сюрӧ: WordEnd ;
+!2018-10-21!+Indef+Der/sjurw: WordEnd ;
 !2018-10-21!LEXICON ADV-INDEF_HAS-KO
-!2018-10-21!+Indef+Der/кӧ: WordEnd ;
+!2018-10-21!+Indef+Der/kw: WordEnd ;
 !2018-10-21!LEXICON ADV-4-INTERR-REL-INDEF
 !2018-10-21!+Interr: WordEnd ;
 !2018-10-21!+Rel: WordEnd ;
@@ -129,8 +129,8 @@ LEXICON ADV-INDEF_
 !2018-10-21!+Rel+Ter: WordEnd ;
 !2018-10-21!+Indef+Ter: 4-INDEF-TYPES_KO-SJURO ;
 !2018-10-21!LEXICON 4-INDEF-TYPES_KO-SJURO
-!2018-10-21!+Der/кӧ:кӧ WordEnd ;
-!2018-10-21!+Der/сюрӧ:сюрӧ WordEnd ;
+!2018-10-21!+Der/kw:кӧ WordEnd ;
+!2018-10-21!+Der/sjurw:сюрӧ WordEnd ;
 
 !2018-10-21!LEXICON ADV-INTERR_
 !2018-10-21!+Interr: WordEnd ;
@@ -176,7 +176,7 @@ LEXICON ADV-SPAT  !!= * **@CODE@**
  ADV-SPAT-TRA ;
 
 LEXICON ADV-SPAT-LA ! These adverbs have a formative in ла
-+Der/ла: ADV-SPAT ;
++Der/la: ADV-SPAT ;
 
 LEXICON ADV-SPAT-APR
 +Spat+Apr:%>лань SPAT-COMPARATIVE ;
@@ -247,7 +247,7 @@ LEXICON ADV-IS_PRL
 
 LEXICON ADV-IS_TER
 +Ter: K ;
-+Ter+Der/кодь:%>кодь K ; ! Is this an ordering issue 2019-06-03
++Ter+Der/kodj:%>кодь K ; ! Is this an ordering issue 2019-06-03
 +Ter+Comp:%>джык K ;
 
 LEXICON ADV-IS_TRA

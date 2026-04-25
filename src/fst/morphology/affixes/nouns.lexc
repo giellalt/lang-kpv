@@ -10,23 +10,23 @@
 LEXICON Vocative   !!≈ * **@CODE@**
 +Voc: # ;
 
-LEXICON Noun1-IS_PTC-OM !!≈ * **@CODE@** is to provide deverbal nouns with +Der/ӧм tags
-+V+Der+Der/ӧм: NMN_ ;
+LEXICON Noun1-IS_PTC-OM !!≈ * **@CODE@** is to provide deverbal nouns with +Der/wm tags
++V+Der+Der/wm: NMN_ ;
 
 LEXICON Noun1-IS_PTC-AN !!≈ * **@CODE@**
-+V+Der+Der/Ан: NMN_ ;
++V+Der+Der/An: NMN_ ;
 
 LEXICON Noun1-IS_PTC-YSJ !!≈ * **@CODE@**
-+V+Der+Der/ысь: NMN_ ;
++V+Der+Der/ysj: NMN_ ;
 
 LEXICON N_DOR ! мӧдладор The Russian is an adverbial phrase
-+Der+Der/дор: NMN_ ;
++Der+Der/dor: NMN_ ;
 
 LEXICON N_LA
 +Der/La: NMN_ ;
 
 LEXICON N-VYV ! тулысвыв The Russian is an adverbial phrase
-+Der+Der/выв: NMN_ ;
++Der+Der/vyv: NMN_ ;
 
 LEXICON N_rus100 ! Homographs
 +Src/F: NMN_ ;
@@ -55,7 +55,7 @@ LEXICON Noun1-SYT-STY !
 
 !2018-10-21!LEXICON N-PROFESSION_
 !2018-10-21! N_ ;
-!2018-10-21!+Der+Der/ал@C.CONJ-INF@@C.CONJ-POSS@:%>%{ая%}л@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !! таксисталӧ 
+!2018-10-21!+Der+Der/al@C.CONJ-INF@@C.CONJ-POSS@:%>%{ая%}л@C.CONJ-INF@@C.CONJ-POSS@ V_ШУНЫ ; !! таксисталӧ 
 !! Basic nouns.
 
 !! The lexicon for basic nouns is ` N_ `
@@ -116,7 +116,7 @@ LEXICON NMN_PARAGOGIC-V/L !!= * @CODE@ ныв:ны нылыс
 :л NMN_PARAGOGIC ;
 
 +Use/NG+Err/Orth-l-retenstion+Cmp:л R ;
-!+Err/Orth+Dial/л+Cmp:л ABS_ ; 2018-10-21
+!+Err/Orth+Dial/l+Cmp:л ABS_ ; 2018-10-21
 +Use/NG+Err/Orth-l-retenstion+Sg:л CASEPOSSLEX-AFTERDERIVATION_CNS/END ;
 +Use/NG+Err/Orth-l-in-v+Sg:л%^Close CASEPOSSLEX-AFTERDERIVATION_VOW ;
 +Use/NG+Err/Orth-l-retenstion+Pl:л%>ъяс CASEPOSSLEX ;
@@ -593,12 +593,12 @@ LEXICON CASEPOSSLEX-AFTERDERIVATION_Ӧ
 
 LEXICON AdjCompar
 +Comp:%>джык K/COP-PL ;
-+Comp+Der+Der/а:%>джыка ADV_ ;
++Comp+Der+Der/a:%>джыка ADV_ ;
 +Comp+Sg:%>джык CASEPOSSLEX-afterDerivation ;
 +Comp+Pl:%>джыкъяс CASEPOSSLEX-afterDerivation ;
 
 +Comp+Err/Dial:%>дзык K/COP-PL ;
-+Comp+Der+Der/а+Err/Dial:%>дзыка ADV_ ;
++Comp+Der+Der/a+Err/Dial:%>дзыка ADV_ ;
 +Comp+Sg+Err/Dial:%>дзык CASEPOSSLEX-afterDerivation ;
 +Comp+Pl+Err/Dial:%>дзыкъяс CASEPOSSLEX-afterDerivation ;
 !2017-09-19+Comp+Der/MWN+Sg:%>джык CASEPOSSLEX-afterDerivation ;
@@ -628,7 +628,7 @@ LEXICON PredMonLex-Spat-Add-Morphology ! This allows consistency
 LEXICON K/COP-PL
  K ;      ! Singular predicative
 COP-PL ;
-!! 2012-02-07 !!+Der/а+Adv:%>а K ;
+!! 2012-02-07 !!+Der/a+Adv:%>а K ;
 
 LEXICON COP-PL
 +Cop+Pl:%>ӧсь K ;
