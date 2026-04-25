@@ -202,12 +202,12 @@ Multichar_Symbols
 !! #### Question and Focus particles:
  +Qst  !!≈ * **@CODE@**
  +Foc  !!≈ * **@CODE@** 
-+Clt/И  !!≈ * **@CODE@**  This comes at the end of a word -и or after vowels (some authors use -й)
++Clt/I  !!≈ * **@CODE@**  This comes at the end of a word -и or after vowels (some authors use -й)
 +Clt  !!≈ * **@CODE@** 
-+Qst/A  !!≈ * **@CODE@** 
-+Qst/Oe  !!≈ * **@CODE@** 
-+Clt/тӧ  !!≈ * **@CODE@** 
-+Clt/сӧ  !!≈ * **@CODE@**
++Qst/A  !!≈ * **@CODE@** a
++Qst/Oe  !!≈ * **@CODE@** -ӧ 
++Clt/toe  !!≈ * **@CODE@** -тӧ
++Clt/soe  !!≈ * **@CODE@** -сӧ
 +Clt/Kodj  !!≈ * **@CODE@** adjectival phrase
 +Clt/Moz  !!≈ * **@CODE@** adverbial clause
 
@@ -255,6 +255,8 @@ Multichar_Symbols
  +Err/Orth-l-to-v-in-new !!≈ * **@CODE@** 
  +Err/Orth-l-to-vowel-lengthening !!≈ * **@CODE@** 
  +Err/Orth-l-retenstion !!≈ * **@CODE@** 
+ +Err/Orth-e-not-oe !!≈ * **@CODE@** this covers the dialect forms, i.e., there will be an adjustment to Dial/...
+ +Err/Orth-o-not-oe !!≈ * **@CODE@** 
 
  +Err/Dial                !!≈ * **@CODE@** e.g. тэг instead of тӧг
  +Err/Lex                 !!≈ * **@CODE@** substandard, not in normative fst, no  normative lemma помсьыны
@@ -951,11 +953,11 @@ LEXICON ABBR-IS_N
 LEXICON K
 !! @LEXNAME@
  WordEnd ;
-+Clt/тӧ:%>тӧ WordEnd ;
-+Clt/сӧ:%>сӧ WordEnd ;
-+Clt/тӧ+Err/Dial:%>тэ WordEnd ;
-+Clt/тӧ+Err/Dial:%>то WordEnd ;
-+Clt/сӧ+Err/Dial:%>сэ WordEnd ;
++Clt/toe:%>тӧ WordEnd ;
++Clt/soe:%>сӧ WordEnd ;
++Clt/toe+Err/Orth-e-not-oe+Err/Dial:%>тэ WordEnd ;
++Clt/toe+Err/Orth-o-not-oe+Err/Dial:%>то WordEnd ;
++Clt/soe+Err/Orth-e-not-oe+Err/Dial:%>сэ WordEnd ;
 
 ! For this all instances of _#_
 ! were converted to _WordEnd_
@@ -969,7 +971,7 @@ LEXICON WordEnd
 LEXICON WordEnd-2
 !! @LEXNAME@
             # ;
-+Clt/И:%-И2 # ;
++Clt/I:%-И2 # ;
 
 ! List of spurious lexica
 ! These should be fixed.
