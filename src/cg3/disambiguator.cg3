@@ -276,6 +276,9 @@ SUBSTITUTE:RemoveKPV (EOLang/KPV) (*) TARGET (*) ;
 #SUBSTITUTE:RemoveIV (IV) (*) TARGET (*) ;
 #SUBSTITUTE:RemoveTV (TV) (*) TARGET (*) ; 2026-04-20 transitivity might be a good alternative to the so-called reflexive, which is not a reflexive but merely a means of reducing the number of verbal arguments.
 
+#REMOVE:ErrDial Err/Dial IF (0 VOELI) ;
+SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET Err/Dial ;
+
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET NOTACRO ;
 
 SUBSTITUTE:WeightSyvWhenSgEla  (<W:0.0>) (<W:1.0>) TARGET ("сыв" N Sg Ela);
@@ -497,7 +500,6 @@ REMOVE:1not3inPast (Prt1 Sg3) IF (*-1 (Pers Sg1 Nom) BARRIER N + Nom OR Pers + S
 REMOVE:3not1inPast (Prt1 Sg1) IF (NOT *0 (Pers Sg1 Nom BARRIER CLB)) ;
 # This may be too strong, it precludes zero Sg1 subjects
 
-REMOVE:ErrDial Err/Dial IF (0 VOELI) ;
 
 REMOVE:CopWhenVFINprecede Cop IF (-1* VFIN BARRIER CLB)(0 A);
 # сӧвмигӧн кадысь пансьывлӧ выль кывъяс вӧсна вен.
