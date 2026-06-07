@@ -5,21 +5,21 @@
 !! Continuation lexicon has been assigned according to <pos/> content
 
 
-!2018-10-21!LEXICON A_INT-ӦЙ
+!2018-10-21!LEXICON A_INT_ӦЙ
 !2018-10-21!+Use/SpellNoSugg:ӧй A_ ;
 !2018-10-21!+Use/NG+Err/Dial:%>эй A_ ;
 !2018-10-21!+Use/SpellNoSugg:о%- adjectives-russian-like ;
 
-LEXICON A_RU-NO2J
+LEXICON A_RU_NO2J
 +Der+Der/Adv+Adv:ӧ ADV_ ;
 +Der+Der/Adv+Use/NG+Err/Dial+Adv:%>э ADV_ ;
-A_RU-O2J ;
-LEXICON A_RU-O2J
+A_RU_O2J ;
+LEXICON A_RU_O2J
 +Use/SpellNoSugg:ӧй A_ ;
 +Use/NG+Err/Dial:%>эй A_ ;
 +Use/SpellNoSugg:о%- adjectives ;!This needs flags for compound if there are no hybrids 2025-01-11, e.g., агитационно-синма
 
-LEXICON DENOMINAL-LOCATIVE-ADJECTIVES
+LEXICON DENOMINAL-LOCATIVE_ADJECTIVES
 @U.Cap.Opt@+Loc:@U.Cap.Opt@%>са A_ ;
 
 LEXICON DERIVEDADJ
@@ -54,7 +54,7 @@ LEXICON DERIVEDADJ-IN-CONS
 
 LEXICON A_а
  A_ ;
-LEXICON A-PL_а
+LEXICON A_PL_а !! CHECK THIS 2026-06-07
  A_ ;
 LEXICON A_я
  A_ ;
@@ -64,62 +64,62 @@ LEXICON A_тӧм
  A_ ;
 LEXICON A_са
  A_ ;
-LEXICON A-TOPO_са
+LEXICON A_TOPO_са
  A_ ;
 LEXICON A_ся
  A_ ;
-!LEXICON A-RUS-ADD_
+!LEXICON A-RUS_ADD_
 ! A_ ;
-LEXICON A-RUS-MAIN_
+LEXICON A_RUS_MAIN_
  A_ ;
-LEXICON A-RUS-PROP_
- A_RU-O2J ;
+LEXICON A_PROP_O2J
+ A_RU_O2J ;
 
 
-LEXICON Adj
- A_ ;
+!LEXICON Adj
+! A_ ;
 
-LEXICON A-IS_INE-MOD-СА
+LEXICON A_IS_INE_MOD_СА
 +Loc: A_ ;
-LEXICON A-IS_COMP-MOD-КОДЬ
+LEXICON A_IS_COMP_MOD_КОДЬ
 +Der+Der/kodj+CompMod: A_ ;
-!2018-10-21!LEXICON A-IS_ABE-MOD-ТӦМ
+!2018-10-21!LEXICON A_IS_ABE_MOD_ТӦМ
 !2018-10-21!+Der+Der/twm+AbeMod: A_ ;
-!2018-10-21!LEXICON A-IS_HAB-OBJ-MOD-А
+!2018-10-21!LEXICON A_IS_HAB_OBJ_MOD_А
 !2018-10-21!+Der+Der/a+HabObjMod: A_ ;
-LEXICON A-IS_TEMP-MOD-СЯ
+LEXICON A_IS_TEMP_MOD_СЯ
 +Der+Der/TempMod+A: A_ ;
 
-!LEXICON Adj-IS_PTC-TOM ! 2011-11-15 participle = derivation type; 2023-06-09 verbal derivation 
+!LEXICON A_IS_PTC_TOM ! 2011-11-15 participle = derivation type; 2023-06-09 verbal derivation 
 !+V+Der+Der/twm: A_ ;
 
-LEXICON Adj-IS_PTC-YSJ
+LEXICON A_IS_PTC_YSJ
 +V+Der+Der/ysj: A_ ;
 
-!2018-10-21!LEXICON Adj-IS_PTC-AN !
+!2018-10-21!LEXICON A_IS_PTC_AN !
 !2018-10-21!+V+Der+Der/An: A_ ;
 
-LEXICON Adj-IS_PTC-ANA !
+LEXICON A_IS_PTC_ANA !
 +V+Der+Der/Ana: A_ ;
 
-!LEXICON Adj-IS_PTC-ӦМ
+!LEXICON A_IS_PTC_ӦМ
 !+V+Der+Der/wm: A_ ;
 
-LEXICON A-IS_DIM-НИК
+LEXICON A_IS_DIM_НИК
 +Der+Der/Inik: A_ ;
 
-!2018-10-21!LEXICON Adj-IS_TOM
-!2018-10-21! A-IS_TOM ;
-LEXICON A-IS_TOM
+!2018-10-21!LEXICON A_IS_TOM
+!2018-10-21! A_IS_TOM ;
+LEXICON A_IS_TOM
 +N+Der+Der/twm: A_ ;
 
-!LEXICON Adj-IS_SUPERL !
+!LEXICON A_IS_SUPERL !
 !+Superl: A_ ;
 
-!2018-10-21!LEXICON Adj-SUPERL !
+!2018-10-21!LEXICON A_SUPERL !
 !2018-10-21!+Superl: A_ ;
 
-LEXICON A-PRED ! ӧбиднӧ
+LEXICON A_PRED ! ӧбиднӧ
 +Cop: WordEnd ; !
 
 
@@ -133,26 +133,26 @@ LEXICON A_
 +Der+Der/lun:%>лун N_ ; !Derivational suffix for A-N
 +Der+Der/a:%>%{ая%} ADV_ ; ! Derivation for adjective-to-adverb
 
-LEXICON SUPERL-A_
+LEXICON SUPERL_A_
 : PredMonAdj ;
-+Sg: CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
-+Pl:%>ъяс CASEPOSSLEX-afterDerivation ; !This is for adjectives without nouns
++Sg: CASEPOSSLEX_afterDerivation ; !This is for adjectives without nouns
++Pl:%>ъяс CASEPOSSLEX_afterDerivation ; !This is for adjectives without nouns
 +Der+Der/kodj+A:%>кодь PredMonAdj ;
 +Der+Der/kodj+A:%>кодь AdjCompar ;
 +Der+Der/In:%>%{иі%}н N_ ;
 +Der+Der/lun:%>лун N_ ; !Derivational suffix for A-N
 +Der+Der/a:%>а ADV_ ; ! Derivation for adjective-to-adverb
 
-LEXICON A_PARAGOGIC-В/Л !!= * @CODE@ юмов:юмо юмолӧсь
-:в K ; !! Singular predicative 
-:л COP-PL ;
-:в AdjCompar ;
-+Der+Der/kodj+A:в%>кодь PredMonAdj ;
-+Der+Der/kodj+A:в%>кодь AdjCompar ;
-+Der+Der/In:л%>%{иі%}н N_ ;
-+Der+Der/lun:в%>лун N_ ; !Derivational suffix for A-N
+LEXICON A_PARAGOGIC_V/L !!= * @CODE@ юмов:юмо юмолӧсь
+:^л2^Close K ; !! Singular predicative 
+:^л2 COP_PL ;
+:^л2^Close AdjCompar ;
++Der+Der/kodj+A:^л2^Close%>кодь PredMonAdj ;
++Der+Der/kodj+A:^л2^Close%>кодь AdjCompar ;
++Der+Der/In:^л2%>%{иі%}н N_ ;
++Der+Der/lun:^л2^Close%>лун N_ ; !Derivational suffix for A-N
 
-LEXICON WordEnd-PredMonAdj
+LEXICON WordEnd_PredMonAdj
 +Der+Der/lador+N:%>ладор Noun1 ;
  WordEnd ;
  PredMonAdj ;
@@ -161,7 +161,7 @@ LEXICON PredMonAdj
 ! ABS_ ; ! adjective modifiers etc. Instead of Attr. 2018-10-21
 !+Cop+Sg: K ;     2020-10-19
 !2017-09-21+Attr: K ;      ! Singular predicative
-COP-PL  ; ! Plural predicative.
+COP_PL  ; ! Plural predicative.
 
 
 ! vim: set ft=xfst-lexc:

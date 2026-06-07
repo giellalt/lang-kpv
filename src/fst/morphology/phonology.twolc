@@ -121,7 +121,7 @@ Rules
 
 "Vowel lengthening а:о я:ё"
 !! **Rule: @RULENAME@** for the ^C2V context
- Vx:Vy <=> [Cns: | # | %- ] _ л: %^C2V: ;
+ Vx:Vy <=> [Cns: | # | %- ] _ %^л2: %^C2V: ;
         where Vx in (а я)
               Vy in (о ё)
         matched ;

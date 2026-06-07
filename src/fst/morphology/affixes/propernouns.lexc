@@ -16,7 +16,7 @@ LEXICON ACRON
 @U.Cap.Obl@+Acron:@U.Cap.Obl@-яс CASEPOSSLEX ; !acronyms with plural
 @U.Cap.Obl@+Acron+A:@U.Cap.Obl@-са A_ ; !2021-06-01
 
-LEXICON PROP-RUS_ !
+LEXICON PROP_rus_ !
 !! LEXICON @LEXNAME@ 
 PROP_ ;
 !PROP_-DERIVABLE
@@ -26,7 +26,7 @@ LEXICON PROP_
 @U.Cap.Obl@+Sg:@U.Cap.Obl@ CASEPOSSLEX ;
 @U.Cap.Obl@+Pl:@U.Cap.Obl@%>ъяс CASEPOSSLEX ; !Reinstalling plural morphology 2019-06-03
 
-LEXICON Prop-R-RY
+LEXICON Prop_R_RY
 : N_ruskpv_R_RY_hasnat ; ! This will bring about problems with ordering 2012-02-07
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -37,7 +37,7 @@ LEXICON Prop-R-RY
 !! Beginning 2012-11-15
 LEXICON CYRL-CONS_SUR
 !! LEXICON @LEXNAME@ 
- PropSur-kal ;
+ PROP_KAL_sur ;
 
 LEXICON CYRL-SIBILANT_SUR
 !! LEXICON @LEXNAME@ 
@@ -106,19 +106,19 @@ LEXICON Deriv-RUS-YJ_SURMAL
 !! ## PLACE NAMES FROM TEMPLATES 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-!LEXICON PROP-PLC_KAL
+!LEXICON PROP_plc_KAL
 !!! LEXICON @LEXNAME@ 
 !+Sem/Plc+Sg: CASEPOSSLEX ;
 
-!LEXICON PROP-PLC_KIT
+!LEXICON PROP_plc_KIT
 !!! LEXICON @LEXNAME@ 
 !+Sem/Plc+Sg: CASEPOSSLEX ;
 
-!LEXICON PROP-PLC_KUDO
+!LEXICON PROP_plc_KUDO
 !!! LEXICON @LEXNAME@ 
 !+Sem/Plc+Sg: CASEPOSSLEX ;
 
-!2018-10-21!LEXICON PROP-PLC_OSH
+!2018-10-21!LEXICON PROP_plc_OSH
 !2018-10-21!+Sem/Plc+Sg: CASEPOSSLEX ;
 
 !! These are vowel-final stems
@@ -255,10 +255,10 @@ LEXICON PropSur-kudo
 
 
 !This might need some working on 2012-01-23
-LEXICON PROP-MAL-DERIVABLE !Patronyms
+LEXICON PROP_mal-DERIVABLE !Patronyms
 ович+Sem/Patr-Mal+Sg:%>ович CASEPOSSLEX ; ! Владимирович
 овна+Sem/Patr-Fem+Sg:%>овна CASEPOSSLEX ; ! Владимировна
- PROP-MAL ; ! Владимир
+ PROP_mal ; ! Владимир
 
 !! FEMALE NAMES FROM TEMPLATE
 !2018-10-21!LEXICON Prop-kal_fem
@@ -277,16 +277,16 @@ LEXICON PROP-MAL-DERIVABLE !Patronyms
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
-LEXICON PROP-PLC ! Inanimate proper nouns. Place names
+LEXICON PROP_plc ! Inanimate proper nouns. Place names
 @U.Cap.Obl@+Sg:@U.Cap.Obl@ CASEPOSSLEX-afterDerivation ;
 @U.Cap.Opt@+Sg:@U.Cap.Opt@ DENOMINAL-LOCATIVE-ADJECTIVES ; !!= * **@CODE@** This requires down-casing
 
 
-LEXICON PROP-PLC-KPV ! Inanimate proper nouns. Place names
+LEXICON PROP_plc_kpv ! Inanimate proper nouns. Place names
 @U.Cap.Obl@+Sem/Plc+EOLang/KPV+Sg:@U.Cap.Obl@ CASEPOSSLEX-afterDerivation ;
 @U.Cap.Opt@+Sem/Plc+EOLang/KPV+Sg:@U.Cap.Opt@ DENOMINAL-LOCATIVE-ADJECTIVES ; !!= * **@CODE@** This requires down-casing
 
-!2018-10-21!LEXICON PROP-PLC-RUS ! Inanimate proper nouns. Place names
+!2018-10-21!LEXICON PROP_plc-RUS ! Inanimate proper nouns. Place names
 !2018-10-21!+Sem/Plc+Src/F: PROP_ ;
 !2018-10-21!@U.Cap.Opt@+Sem/Plc+Src/F+Der+Der/sa:@U.Cap.Opt@%>са A_ ; !!= * __@CODE@__ This requires down-casing
 
@@ -298,24 +298,24 @@ LEXICON PROP-PLC-KPV ! Inanimate proper nouns. Place names
 !2018-10-21!+EOLang/RUS: PROP_ ;
 !2018-10-21!@U.Cap.Opt@+EOLang/RUS+Der+Der/sa:@U.Cap.Opt@%>са A_ ; !!= * __@CODE@__ This requires down-casing
 
-LEXICON PROP-PLC_SUB ! Inanimate proper nouns. Place names
+LEXICON PROP_plc_SUB ! Inanimate proper nouns. Place names
 +Sem/Plc+Use/NG+Err/Orth: PROP_ ;
 !@U.Cap.Opt@+Sem/Plc+Use/NG+Err/Orth+Der+Der/sa:@U.Cap.Opt@%>са A_ ; !!= * __@CODE@__ commented out since it cannot form adj.
 
 LEXICON PROP-ORG ! Inanimate proper nouns. Name of organization
 +Sem/Org: PROP_ ;
 
-LEXICON Prop-Sur
-Prop-Sur-Mal ;
-Prop-Sur-Fem ;
+LEXICON PROP_SUR
+PROP_SUR-Mal ;
+PROP_SUR-Fem ;
 
-LEXICON Prop-Sur-Mal ! Basic nouns.
+LEXICON PROP_SUR-Mal ! Basic nouns.
 +Sem/Sur-Mal: PROP_ ;
 
-LEXICON PROP-MAL ! Male given names
+LEXICON PROP_mal ! Male given names
 +Sem/Mal: PROP_ ;
 
-LEXICON Prop-Sur-Fem ! Basic nouns.
+LEXICON PROP_SUR-Fem ! Basic nouns.
 +Sem/Sur-Fem: PROP_ ;
 
 !2018-10-21!LEXICON PROP-FEM ! Female given names

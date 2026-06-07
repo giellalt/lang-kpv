@@ -55,7 +55,6 @@ GT_LEXC_SRCS_L1_L2=\
 		stems/particles.lexc                          \
 		stems/pronouns.lexc                           \
 		stems/propernouns-malenames-cyrillic.lexc     \
-		stems/propernouns-malesurnames-cyrillic.lexc  \
 		stems/propernouns-toponyms-Komi.lexc          \
 		stems/propernouns.lexc                        \
 		stems/propernouns-toponyms-Russian.lexc       \
@@ -78,7 +77,7 @@ GT_LEXC_SRCS_L1_L2=\
 		affixes/symbols.lexc                          \
 		affixes/verbs.lexc
 
-
+#		stems/propernouns-malesurnames-cyrillic.lexc
 # If you are building an error-detecting L2 analyser, specify the lexc files
 # that differ between the regular L1 and the L2 analysers below, in L1 and
 # L2 respectively. L2 files must end in "*-L2.lexc". See SME for an example.

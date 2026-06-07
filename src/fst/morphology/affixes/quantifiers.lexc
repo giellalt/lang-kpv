@@ -5,7 +5,7 @@
 ! ================================ !
 
 !! This has to be worked on 2012-01-19
-LEXICON NUM-CARD_
+LEXICON NUM_CARD_
 !! LEXICON @LEXNAME@ 
  CARD ;
 +Card+Der+Der/La+N:%>ла N_ ;
@@ -25,13 +25,13 @@ LEXICON CARD
 +Card+Iter:%>ысь K ; ! нёльысь
 +Card+Iter+Ins:%>ысьӧн K ; !нёльысьӧн
 +Card+Iter+Ins+Err/Dial:%>ысен K ; !нёльысьӧн
-PRON-DISTR_ON ;
+PRON_DISTR_ON ;
 
-LEXICON PRON-DISTR_ON
-+Distr:%>ӧн DISTR_ON-CASE ; !нёльӧн
-+Distr+Err/Dial:%>эн DISTR_ON-CASE ; !нёльӧн like быдӧн 2021-02-10
-!+Distr:%>ӧн K/COP-PL ; !нёльӧн
-!+Distr+Err/Dial:%>эн K/COP-PL ; !нёльӧн
+LEXICON PRON_DISTR_ON
++Distr:%>ӧн DISTR_ON_CASE ; !нёльӧн
++Distr+Err/Dial:%>эн DISTR_ON_CASE ; !нёльӧн like быдӧн 2021-02-10
+!+Distr:%>ӧн K/COP_PL ; !нёльӧн
+!+Distr+Err/Dial:%>эн K/COP_PL ; !нёльӧн
 
 
 LEXICON ORD
@@ -40,8 +40,8 @@ LEXICON ORD
 +Ord+Iter:%>ысь K ;
 +Ord+Iter+Ins:%>ысьӧн K ;
 +Ord+Iter+Ins+Err/Dial:%>ысен K ;
-+Ord+Distr:%>ӧн K/COP-PL ;
-+Ord+Distr+Err/Dial:%>эн K/COP-PL ;
++Ord+Distr:%>ӧн K/COP_PL ;
++Ord+Distr+Err/Dial:%>эн K/COP_PL ;
 
 LEXICON DET_
 !! LEXICON @LEXNAME@ 
@@ -64,9 +64,9 @@ LEXICON DET_END
 +AssocColl: # ;
 
 
-LEXICON NUM-IS_DISTR
+LEXICON NUM_IS_DISTR
 !! LEXICON @LEXNAME@ 
-+Distr: K/COP-PL ;
++Distr: K/COP_PL ;
 
 LEXICON QNT_
 !! LEXICON @LEXNAME@ 
@@ -74,14 +74,14 @@ LEXICON QNT_
 +Qnt+Card+Iter:%>ысь K ;
 +Qnt+Card+Iter+Ins:%>ысьӧн K ;
 +Qnt+Card+Iter+Ins+Err/Dial:%>ысен K ;
-+Qnt+Distr:%>ӧн K/COP-PL ;
-+Qnt+Distr+Err/Dial:%>эн K/COP-PL ;
++Qnt+Distr:%>ӧн K/COP_PL ;
++Qnt+Distr+Err/Dial:%>эн K/COP_PL ;
 +Qnt+Der+Der/La+N:%>ла N_ ;
 
 
-!! LEXICON NUM-APPR ! 2011-11-03 This will need work
+!! LEXICON NUM_APPR ! 2011-11-03 This will need work
 
-LEXICON CARD-APPR
+LEXICON CARD_APPR
 !! LEXICON @LEXNAME@ 
 +Card+Appr: K ;
 +Card+Appr+Der+Der/La+N:%>ла N_ ;
@@ -111,29 +111,29 @@ LEXICON NumMWN
           ! Introducing +ZeroAcc
 	  ! REMOVE +ACC if ZERO MORPH 2020-10-13
 
- ABL/MORPH-THEN-WORDEND ;
- ACC-PXSG1/MORPH-THEN-WORDEND ; !вошис эмакыв
- ACC-PXSG3/MORPH-THEN-WORDEND ;
- APR/MORPH-THEN-WORDEND ;
- CAR/MORPH-THEN-WORDEND ;
- CMPR/MORPH-THEN-WORDEND ;
- CNS/MORPH-THEN-WORDEND ;
- COM/MORPH-THEN-WORDEND ;
- DAT/MORPH-THEN-WORDEND ;
- EGR/MORPH-THEN-WORDEND ;
- ELA/MORPH-THEN-WORDEND ;
- GEN/MORPH-THEN-WORDEND ;
- ILL/MORPH-THEN-WORDEND ;
- INE/MORPH-THEN-WORDEND ;
- INS/MORPH-THEN-WORDEND ;
- PRL/MORPH-THEN-WORDEND ;
- TER/MORPH-THEN-WORDEND ; !149
+ ABL/MORPH_THEN_WORDEND ;
+ ACC_PXSG1/MORPH_THEN_WORDEND ; !вошис эмакыв
+ ACC_PXSG3/MORPH_THEN_WORDEND ;
+ APR/MORPH_THEN_WORDEND ;
+ CAR/MORPH_THEN_WORDEND ;
+ CMPR/MORPH_THEN_WORDEND ;
+ CNS/MORPH_THEN_WORDEND ;
+ COM/MORPH_THEN_WORDEND ;
+ DAT/MORPH_THEN_WORDEND ;
+ EGR/MORPH_THEN_WORDEND ;
+ ELA/MORPH_THEN_WORDEND ;
+ GEN/MORPH_THEN_WORDEND ;
+ ILL/MORPH_THEN_WORDEND ;
+ INE/MORPH_THEN_WORDEND ;
+ INS/MORPH_THEN_WORDEND ;
+ PRL/MORPH_THEN_WORDEND ;
+ TER/MORPH_THEN_WORDEND ; !149
 !+Prl+Tra:%>ӧдті K ;
 
 
 !1SG
 
-ACC-PXSG1/MORPH-THEN-WORDEND ; !Zero marking on the possessive suffix, as it were.
+ACC_PXSG1/MORPH_THEN_WORDEND ; !Zero marking on the possessive suffix, as it were.
 
 +Ins+PxSg1:%>нам K ;
 +Ins+PxSg1:%>намӧн K ; !Check me
@@ -143,15 +143,15 @@ ACC-PXSG1/MORPH-THEN-WORDEND ; !Zero marking on the possessive suffix, as it wer
 +Ela+PxSg1:%>сьым K ;
 +Ill+PxSg1:%>ам K ;
 
- ABL-PXSG1-SOPC/MORPH-THEN-K ;
- APR-PXSG1-SOPC/MORPH-THEN-K ;
- CAR-PXSG1-SOPC/MORPH-THEN-K ;
- DAT-PXSG1-SOPC/MORPH-THEN-K ;
- EGR-PXSG1-SOPC/MORPH-THEN-K ;
- GEN-PXSG1-SOPC/MORPH-THEN-K ;
- NOM-PXSG1/MORPH-THEN-K ;
- PRL-PXSG1-SOCP/MORPH-THEN-K ;
- TER-PXSG1-SOCP/MORPH-THEN-K ;
+ ABL_PXSG1_SOPC/MORPH_THEN_K ;
+ APR_PXSG1_SOPC/MORPH_THEN_K ;
+ CAR_PXSG1_SOPC/MORPH_THEN_K ;
+ DAT_PXSG1_SOPC/MORPH_THEN_K ;
+ EGR_PXSG1_SOPC/MORPH_THEN_K ;
+ GEN_PXSG1_SOPC/MORPH_THEN_K ;
+ NOM_PXSG1/MORPH_THEN_K ;
+ PRL_PXSG1_SOCP/MORPH_THEN_K ;
+ TER_PXSG1_SOCP/MORPH_THEN_K ;
 
 
 !2SG
@@ -159,14 +159,14 @@ ACC-PXSG1/MORPH-THEN-WORDEND ; !Zero marking on the possessive suffix, as it wer
 +Gen+PxSg2:%>ыдлӧн K ;
 +Abl+PxSg2:%>ыдлысь K ;
 +Dat+PxSg2:%>ыдлы K ;
- ACC-PXSG2/MORPH-THEN-WORDEND ;
+ ACC_PXSG2/MORPH_THEN_WORDEND ;
 
 +Ins+PxSg2:%>над K ;
 +Ins+PxSg2:%>надӧн K ; !Checkme
 
 +Com+PxSg2:%>ыдкӧд K ;
 
- CAR-PXSG2-SOPC/MORPH-THEN-K ;
+ CAR_PXSG2-SOPC/MORPH_THEN_K ;
 
 +Cns+PxSg2:%>ыдла K ;
 
@@ -184,7 +184,7 @@ ACC-PXSG1/MORPH-THEN-WORDEND ; !Zero marking on the possessive suffix, as it wer
 +Gen+PxSg3:%>ыслӧн K ;
 +Abl+PxSg3:%>ыслысь K ;
 +Dat+PxSg3:%>ыслы K ;
- ACC-PXSG3/MORPH-THEN-WORDEND ;
+ ACC_PXSG3/MORPH_THEN_WORDEND ;
 
 +Ins+PxSg3:%>нас K ;
 
@@ -209,7 +209,7 @@ ACC-PXSG1/MORPH-THEN-WORDEND ; !Zero marking on the possessive suffix, as it wer
 +Gen+PxPl1:%>нымлӧн K ;
 +Abl+PxPl1:%>нымлысь K ;
 +Dat+PxPl1:%>нымлы K ;
- ACC-PXPL1/MORPH-THEN-WORDEND ;
+ ACC_PXPL1/MORPH_THEN_WORDEND ;
 
 +Ins+PxPl1:%>наным K ;
 
@@ -232,7 +232,7 @@ ACC-PXSG1/MORPH-THEN-WORDEND ; !Zero marking on the possessive suffix, as it wer
 +Gen+PxPl2:%>ныдлӧн K ;
 +Abl+PxPl2:%>ныдлысь K ;
 +Dat+PxPl2:%>ныдлы K ;
- ACC-PXPL2/MORPH-THEN-WORDEND ;
+ ACC_PXPL2/MORPH_THEN_WORDEND ;
 
 +Ins+PxPl2:%>наныд K ;
 
@@ -256,7 +256,7 @@ ACC-PXSG1/MORPH-THEN-WORDEND ; !Zero marking on the possessive suffix, as it wer
 +Gen+PxPl3:%>ныслӧн K ;
 +Abl+PxPl3:%>ныслысь K ;
 +Dat+PxPl3:%>ныслы K ;
- ACC-PXPL3/MORPH-THEN-WORDEND ;
+ ACC_PXPL3/MORPH_THEN_WORDEND ;
 
 !+Ins+PxPl3:%>наныс K ; ! ста
 !+Nom+PxPl3:%>нанныс K ; ! 2012-02-16 this should be removed

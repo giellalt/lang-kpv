@@ -3,15 +3,15 @@
 !! Komi adverbs inflect for direction.
 
 
-LEXICON ADV-DEG_ 
-!! LEXICON @LEXNAME@  depricate ADV-ADA_ and Ad-ATAG
+LEXICON ADV_DEG_ 
+!! LEXICON @LEXNAME@  depricate ADV_ADA_ and Ad-ATAG
 +Deg: WordEnd ;
 
-LEXICON ADV-MANNER_
+LEXICON ADV_MANNER_
 !! LEXICON @LEXNAME@ 
 +Manner: K ;
 
-LEXICON ADV-NEG_
+LEXICON ADV_NEG_
 !! LEXICON @LEXNAME@ 
 +Neg: WordEnd ;
 
@@ -19,54 +19,54 @@ LEXICON GER_
 !! LEXICON @LEXNAME@ 
 +V+Ger: ADV_ ;
 
-LEXICON ADV-IS_GER-IGON ! these are checked as gerunds in +Der/Ig
+LEXICON ADV_IS_GER_IGON ! these are checked as gerunds in +Der/Ig
 +V+Der+Der/Ig+Ins: ADV_ ;
 
-!2018-10-21!LEXICON ADV-IS_GER-IGTYRJI ! these are checked as gerunds in +Der/Ig
+!2018-10-21!LEXICON ADV_IS_GER_IGTYRJI ! these are checked as gerunds in +Der/Ig
 !2018-10-21!+V+Der+Der/Ig+Der+Der/tyrji: ADV_ ;
 
-!LEXICON ADV-IS_GER-MON ! these are checked as gerunds in +Der/mwn
+!LEXICON ADV_IS_GER_MON ! these are checked as gerunds in +Der/mwn
 !+V+Der+Der/mwn: ADV_ ;
 
-!LEXICON ADV-IS_GER-OMON ! these are checked as gerunds in +Der/wmwn
+!LEXICON ADV_IS_GER_OMON ! these are checked as gerunds in +Der/wmwn
 !+V+Der+Der/wmwn: ADV_ ;
 
-LEXICON ADV-IS_GER-TOG ! these are checked as gerunds in +Der/twg
+LEXICON ADV_IS_GER_TOG ! these are checked as gerunds in +Der/twg
 +V+VCar: K ;
 
-LEXICON ADV-IS_GER-TODZ ! these are checked as gerunds in +Der/twdz
+LEXICON ADV_IS_GER_TODZ ! these are checked as gerunds in +Der/twdz
 +V+VTer: K ;
 
-LEXICON ADV-IS_N-TOG ! these are checked as state adverbials in +Der/twg
+LEXICON ADV_IS_N_TOG ! these are checked as state adverbials in +Der/twg
 +N+Sg+Car: K ;
 
-LEXICON ADV-IS_ADV-TOG ! polar adverbials in +Der/twg
+LEXICON ADV_IS_ADV_TOG ! polar adverbials in +Der/twg
 +Der+Der/twg: ADV_ ;
 
-LEXICON ADV-IS_Q-TOG ! polar adverbials in +Der/twg
+LEXICON ADV_IS_Q_TOG ! polar adverbials in +Der/twg
 +Qnt+Der+Der/twg: ADV_ ;
 
-LEXICON ADV-SUPERL_
+LEXICON ADV_SUPERL_
 +Superl:               K ;
-!LEXICON ADV-SUPERL_ELA
-!+Superl+Ela:    K/COP-PL ;
-LEXICON ADV-SUPERL_INE
-+Superl+Ine:    K/COP-PL ;
+!LEXICON ADV_SUPERL_ELA
+!+Superl+Ela:    K/COP_PL ;
+LEXICON ADV_SUPERL_INE
++Superl+Ine:    K/COP_PL ;
 
-!LEXICON ADV-IS_SUPERL !
+!LEXICON ADV_IS_SUPERL !
 !+Der+Der/med: ADV_ ;
 
-LEXICON ADV-F !
+LEXICON ADV_F !
 +Src/F: ADV_ ;
 
-LEXICON ADV-STATE !
+LEXICON ADV_STATE !
 +Sem/State: COMPARATIVE ; !
 
-LEXICON ADV-PARENTHETIC_O2
-:%>ӧ ADV-PARENTHETIC_ ;
-+Use/NG+Err/Orth:%>э ADV-PARENTHETIC_ ;
+LEXICON ADV_PARENTHETIC_O2
+:%>ӧ ADV_PARENTHETIC_ ;
++Use/NG+Err/Orth:%>э ADV_PARENTHETIC_ ;
 
-LEXICON ADV-PARENTHETIC_
+LEXICON ADV_PARENTHETIC_
 +Parenthetic: WordEnd ;
 
 LEXICON ADV_SUB
@@ -83,174 +83,174 @@ LEXICON ADV_L ! these are checked as advs.
 :%^Close COMPARATIVE ;
 +Err/Dial:%^C2V COMPARATIVE ;
 
-LEXICON ADV-IS-INE_
+LEXICON ADV_IS_INE_
 +Ine: K ;
-LEXICON ADV-IS-INE-AND-COP-PL_
+LEXICON ADV_IS_INE_AND_COP_PL_
 +Ine: K ;
-+Ine: COP-PL ;
++Ine: COP_PL ;
 
-LEXICON ADV-INDEF_
+LEXICON ADV_INDEF_
 +Indef: WordEnd ;
 
-!2018-10-21!LEXICON ADV-INDEF_HAS-SJURO
+!2018-10-21!LEXICON ADV_INDEF_HAS_SJURO
 !2018-10-21!+Indef+Der/sjurw: WordEnd ;
-!2018-10-21!LEXICON ADV-INDEF_HAS-KO
+!2018-10-21!LEXICON ADV_INDEF_HAS_KO
 !2018-10-21!+Indef+Der/kw: WordEnd ;
-!2018-10-21!LEXICON ADV-4-INTERR-REL-INDEF
+!2018-10-21!LEXICON ADV_4_INTERR_REL_INDEF
 !2018-10-21!+Interr: WordEnd ;
 !2018-10-21!+Rel: WordEnd ;
-!2018-10-21!+Indef: 4-INDEF-TYPES_KO-SJURO ;
-!2018-10-21!LEXICON ADV-EGR-4-INTERR-REL-INDEF !! кысянь
+!2018-10-21!+Indef: 4_INDEF_TYPES_KO_SJURO ;
+!2018-10-21!LEXICON ADV_EGR_4_INTERR_REL_INDEF !! кысянь
 !2018-10-21!+Interr+Egr: WordEnd ;
 !2018-10-21!+Rel+Egr: WordEnd ;
-!2018-10-21!+Indef+Egr: 4-INDEF-TYPES_KO-SJURO ;
-!2018-10-21!LEXICON ADV-EGR-ILL-4-INTERR-REL-INDEF !! кытчаньӧ
+!2018-10-21!+Indef+Egr: 4_INDEF_TYPES_KO_SJURO ;
+!2018-10-21!LEXICON ADV_EGR_ILL_4_INTERR_REL_INDEF !! кытчаньӧ
 !2018-10-21!+Interr+Egr+Ill: WordEnd ;
 !2018-10-21!+Rel+Egr+Ill: WordEnd ;
-!2018-10-21!+Indef+Egr+Ill: 4-INDEF-TYPES_KO-SJURO ;
-!2018-10-21!LEXICON ADV-ELA-4-INTERR-REL-INDEF !! кытысь
+!2018-10-21!+Indef+Egr+Ill: 4_INDEF_TYPES_KO_SJURO ;
+!2018-10-21!LEXICON ADV_ELA_4_INTERR_REL_INDEF !! кытысь
 !2018-10-21!+Interr+Ela: WordEnd ;
 !2018-10-21!!2018-10-21!+Rel+Ela: WordEnd ;
-!2018-10-21!+Indef+Ela: 4-INDEF-TYPES_KO-SJURO ;
-!2018-10-21!LEXICON ADV-ILL-4-INTERR-REL-INDEF !! кытчӧ
+!2018-10-21!+Indef+Ela: 4_INDEF_TYPES_KO_SJURO ;
+!2018-10-21!LEXICON ADV_ILL_4_INTERR_REL_INDEF !! кытчӧ
 !2018-10-21!+Interr+Ill: WordEnd ;
 !2018-10-21!+Rel+Ill: WordEnd ;
-!2018-10-21!+Indef+Ill: 4-INDEF-TYPES_KO-SJURO ;
-!2018-10-21!LEXICON ADV-TRA-4-INTERR-REL-INDEF !! кыті
+!2018-10-21!+Indef+Ill: 4_INDEF_TYPES_KO_SJURO ;
+!2018-10-21!LEXICON ADV_TRA_4_INTERR_REL_INDEF !! кыті
 !2018-10-21!+Interr+Tra: WordEnd ;
 !2018-10-21!+Rel+Tra: WordEnd ;
-!2018-10-21!+Indef+Tra: 4-INDEF-TYPES_KO-SJURO ;
-!2018-10-21!LEXICON ADV-TRA-EGR-4-INTERR-REL-INDEF ! This might require something for double case
+!2018-10-21!+Indef+Tra: 4_INDEF_TYPES_KO_SJURO ;
+!2018-10-21!LEXICON ADV_TRA_EGR_4_INTERR_REL_INDEF ! This might require something for double case
 !2018-10-21!+Interr+Tra+Egr: WordEnd ;
 !2018-10-21!+Rel+Tra+Egr: WordEnd ;
-!2018-10-21!+Indef+Tra+Egr: 4-INDEF-TYPES_KO-SJURO ;
-!2018-10-21!LEXICON ADV-TER-4-INTERR-REL-INDEF !! кытчӧдз
+!2018-10-21!+Indef+Tra+Egr: 4_INDEF_TYPES_KO_SJURO ;
+!2018-10-21!LEXICON ADV_TER_4_INTERR_REL_INDEF !! кытчӧдз
 !2018-10-21!+Interr+Ter: WordEnd ;
 !2018-10-21!+Rel+Ter: WordEnd ;
-!2018-10-21!+Indef+Ter: 4-INDEF-TYPES_KO-SJURO ;
-!2018-10-21!LEXICON 4-INDEF-TYPES_KO-SJURO
+!2018-10-21!+Indef+Ter: 4_INDEF_TYPES_KO_SJURO ;
+!2018-10-21!LEXICON 4_INDEF_TYPES_KO_SJURO
 !2018-10-21!+Der/kw:кӧ WordEnd ;
 !2018-10-21!+Der/sjurw:сюрӧ WordEnd ;
 
-!2018-10-21!LEXICON ADV-INTERR_
+!2018-10-21!LEXICON ADV_INTERR_
 !2018-10-21!+Interr: WordEnd ;
 
 
-LEXICON ADV-REL-TEMP_
+LEXICON ADV_REL_TEMP_
 +Rel+Sem/Time: COMPARATIVE ;
 
 LEXICON AdvTemp
- ADV-TEMP_ ;
+ ADV_TEMP_ ;
 
-LEXICON ADV-TEMP_
+LEXICON ADV_TEMP_
 +Sem/Time: COMPARATIVE ;
 
-LEXICON ADV-MULT_
+LEXICON ADV_MULT_
 +Mult: COMPARATIVE ;
 
-LEXICON ADV-ITER_
+LEXICON ADV_ITER_
 +Iter: COMPARATIVE ;
 
-LEXICON CARD-ITER-APPR
+LEXICON CARD_ITER_APPR
 !кыкысь-куимысь
 +Card+Iter+Appr: K ;
 
-LEXICON ORD-ITER-APPR
+LEXICON ORD_ITER_APPR
 !мӧдысь-коймӧдысь
 +Ord+Iter+Appr: K ;
 
 
-LEXICON ADV-SPAT  !!= * **@CODE@**
+LEXICON ADV_SPAT  !!= * **@CODE@**
       !! these are adverbs in spatial cases
       !! and they probably are equivalent in morphology to postpositions
- ADV-SPAT-APR ;
- ADV-SPAT-APRILL ;
- ADV-SPAT-APRINE ;
- ADV-SPAT-APRELA ;
- ADV-SPAT-EGR ;
- ADV-SPAT-ELA ;
- ADV-SPAT-ILL ;
- ADV-SPAT-INE ;
- ADV-SPAT-PRL ;
- ADV-SPAT-TER ;
- ADV-SPAT-TRA ;
+ ADV_SPAT_APR ;
+ ADV_SPAT_APRILL ;
+ ADV_SPAT_APRINE ;
+ ADV_SPAT_APRELA ;
+ ADV_SPAT_EGR ;
+ ADV_SPAT_ELA ;
+ ADV_SPAT_ILL ;
+ ADV_SPAT_INE ;
+ ADV_SPAT_PRL ;
+ ADV_SPAT_TER ;
+ ADV_SPAT_TRA ;
 
-LEXICON ADV-SPAT-LA ! These adverbs have a formative in ла
-+Der/la: ADV-SPAT ;
+LEXICON ADV_SPAT_LA ! These adverbs have a formative in ла
++Der/la: ADV_SPAT ;
 
-LEXICON ADV-SPAT-APR
-+Spat+Apr:%>лань SPAT-COMPARATIVE ;
+LEXICON ADV_SPAT_APR
++Spat+Apr:%>лань SPAT_COMPARATIVE ;
 
-LEXICON ADV-SPAT-APRELA
-+Spat+Apr:%>ланьысь SPAT-COMPARATIVE ;
+LEXICON ADV_SPAT_APRELA
++Spat+Apr:%>ланьысь SPAT_COMPARATIVE ;
 
-LEXICON ADV-SPAT-APRILL
-+Spat+Apr:%>ланьӧ SPAT-COMPARATIVE ;
+LEXICON ADV_SPAT_APRILL
++Spat+Apr:%>ланьӧ SPAT_COMPARATIVE ;
 
-LEXICON ADV-SPAT-APRINE
-+Spat+Apr:%>ланьын SPAT-COMPARATIVE ;
+LEXICON ADV_SPAT_APRINE
++Spat+Apr:%>ланьын SPAT_COMPARATIVE ;
 
-LEXICON ADV-SPAT-EGR
-+Spat+Egr:%>сянь SPAT-COMPARATIVE ;
+LEXICON ADV_SPAT_EGR
++Spat+Egr:%>сянь SPAT_COMPARATIVE ;
 
-LEXICON ADV-SPAT-ELA
-+Spat+Ela:%>ысь SPAT-COMPARATIVE ;
+LEXICON ADV_SPAT_ELA
++Spat+Ela:%>ысь SPAT_COMPARATIVE ;
 
-LEXICON ADV-SPAT-ILL
-+Spat+Ill:%>ӧ SPAT-COMPARATIVE ;
+LEXICON ADV_SPAT_ILL
++Spat+Ill:%>ӧ SPAT_COMPARATIVE ;
 
-LEXICON ADV-SPAT-INE
-+Spat+Ine:%>ын SPAT-COMPARATIVE ;
+LEXICON ADV_SPAT_INE
++Spat+Ine:%>ын SPAT_COMPARATIVE ;
 
-LEXICON ADV-SPAT-PRL
+LEXICON ADV_SPAT_PRL
 +Spat+Prl:%>ӧд K ;
 
-LEXICON ADV-SPAT-TRA
+LEXICON ADV_SPAT_TRA
 +Spat+Tra:%>ті COMPARATIVE ;
 
-LEXICON ADV-SPAT-TER
+LEXICON ADV_SPAT_TER
 +Spat+Ter:%>ӧдз COMPARATIVE ;
 
-LEXICON ADV-VTER
+LEXICON ADV_VTER
 +VTer:%>тӧдз K ;
 
 ! Adverbs with ready morphology
-LEXICON ADV-IS_APRELA
-+Apr+Ela: SPAT-COMPARATIVE ;
+LEXICON ADV_IS_APRELA
++Apr+Ela: SPAT_COMPARATIVE ;
 
-LEXICON ADV-IS_APRILL
-+Apr+Ill: SPAT-COMPARATIVE ;
+LEXICON ADV_IS_APRILL
++Apr+Ill: SPAT_COMPARATIVE ;
 
-LEXICON ADV-IS_APRINE
-+Apr+Ine: SPAT-COMPARATIVE ;
+LEXICON ADV_IS_APRINE
++Apr+Ine: SPAT_COMPARATIVE ;
 
-LEXICON ADV-IS_APR
-+Apr: SPAT-COMPARATIVE ;
+LEXICON ADV_IS_APR
++Apr: SPAT_COMPARATIVE ;
 
-LEXICON ADV-IS_EGR
-+Egr: SPAT-COMPARATIVE ;
+LEXICON ADV_IS_EGR
++Egr: SPAT_COMPARATIVE ;
 
-LEXICON ADV-IS_ELA
-+Ela: SPAT-COMPARATIVE ;
+LEXICON ADV_IS_ELA
++Ela: SPAT_COMPARATIVE ;
 
-LEXICON ADV-IS_ILL
+LEXICON ADV_IS_ILL
 +Ill: IllCompar ;
 
-LEXICON ADV-IS_INE
-+Ine: SPAT-COMPARATIVE ;
+LEXICON ADV_IS_INE
++Ine: SPAT_COMPARATIVE ;
 
-LEXICON ADV-IS_INS
+LEXICON ADV_IS_INS
 +Ins: COMPARATIVE ;
 
-LEXICON ADV-IS_PRL
+LEXICON ADV_IS_PRL
 +Prl: K ;
 
-LEXICON ADV-IS_TER
+LEXICON ADV_IS_TER
 +Ter: K ;
 +Ter+Der/kodj:%>кодь K ; ! Is this an ordering issue 2019-06-03
 +Ter+Comp:%>джык K ;
 
-LEXICON ADV-IS_TRA
+LEXICON ADV_IS_TRA
 +Tra: COMPARATIVE ;
 
 
