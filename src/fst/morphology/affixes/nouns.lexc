@@ -61,6 +61,9 @@ LEXICON Noun1_SYT_STY !
 !! The lexicon for basic nouns is ` N_ `
 
 
+
+LEXICON N_errorth
++Err/Orth: N_ ;
 LEXICON N_RELAT_
 +Relat: NMN_ ;
 LEXICON N_
@@ -631,10 +634,10 @@ LEXICON PredMonLex_Spat_Add_Morphology ! This allows consistency
 
 LEXICON K/COP_PL
  K ;      ! Singular predicative
-COP-PL ;
+COP_PL ;
 !! 2012-02-07 !!+Der/a+Adv:%>а K ;
 
-LEXICON COP-PL
+LEXICON COP_PL
 +Cop+Pl:%>ӧсь K ;
 +Use/NG+Err/Dial+Cop+Pl:%>эсь K ; ! Plural predicative.
 +Cop+Pl+Comp:%>ӧсьджык K ; ! Order 2020-11-19

@@ -20,6 +20,10 @@ LEXICON PROP_rus_ !
 !! LEXICON @LEXNAME@ 
 PROP_ ;
 !PROP_-DERIVABLE
+
+LEXICON PROP_PARAGOGIC_V/L
+ NMN_PARAGOGIC_V/L ;
+
 ! Basic proper nouns.
 LEXICON PROP_
 !! LEXICON @LEXNAME@ 
@@ -37,34 +41,43 @@ LEXICON Prop_R_RY
 !! Beginning 2012-11-15
 LEXICON CYRL-CONS_SUR
 !! LEXICON @LEXNAME@ 
- PROP_KAL_sur ;
++Sem/Sur: PROP_ ;
 
 LEXICON CYRL-SIBILANT_SUR
 !! LEXICON @LEXNAME@ 
- PropSur-osh ;
++Sem/Sur: PROP_ ;
 
 LEXICON CYRL-VOW_SUR
 !! LEXICON @LEXNAME@ 
- PropSur-kudo ;
++Sem/Sur: PROP_ ;
 
 LEXICON CYRL-A_SUR
 !! LEXICON @LEXNAME@ 
- PropSur-kudo ;
++Sem/Sur: PROP_ ;
 
-LEXICON CYRL-K_SUR 
-!! LEXICON @LEXNAME@ 
- PropSur-lak ;
+!LEXICON CYRL-K_SUR 
+!!! LEXICON @LEXNAME@ 
+!+Sem/Sur: PROP_ ;
 
 LEXICON CYRL-L_SUR 
 !! LEXICON @LEXNAME@ 
-:2 PropSur-kal ; !!= * @CODE@ These are foreign Л words
++Sem/Sur: PROP_ ; ! NO REASON FOR THIS 20260607 :2 PropSur-kal ; !!= * @CODE@ These are foreign Л words
 
-LEXICON CYRL-T_SUR
-!! LEXICON @LEXNAME@ 
- PropSur-kit ;
+!LEXICON CYRL-T_SUR
+!!! LEXICON @LEXNAME@ 
+!+Sem/Sur: PROP_ ;! PropSur-kit ;
+
+LEXICON PROP_event
++Sem/Event: PROP_ ;
+LEXICON PROP_txt
++Sem/Txt: PROP_ ;
+LEXICON PROP_surfem
++Sem/Sur-Fem: PROP_ ;
+LEXICON PROP_surmal
++Sem/Sur-Mal: PROP_ ;
 
 LEXICON PROP_KUDO_SURFEM !!= * @CODE@ giella-shared
- PropSurFem-kudo ;
+ PROP_surfem ;
 
 LEXICON Deriv-RUS-AN_SURMAL
 !! LEXICON @LEXNAME@ 
@@ -83,6 +96,8 @@ LEXICON Deriv-RUS-IJ_SURMAL
 :яя PropSurFem-kudo ;
 
 LEXICON Deriv-RUS-IN_SURMAL
+ Deriv_RUS_IN_SURMAL ;
+LEXICON Deriv_RUS_IN_SURMAL
 !! LEXICON @LEXNAME@ 
  Deriv-RUS-V_SURMAL ;
 
@@ -169,7 +184,7 @@ LEXICON PROP_OSH_PATRMAL
 !! ## Male given name for deriving patronyms 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON PROP-PATR-MAL_END-IN-CH/DZ
-+Sem/Patr-Mal: NMN_END-IN-Ч/ДЗ ; !! Should this be limited to +Sg? 2015-09-06
++Sem/Patr-Mal: NMN_END_IN_Ч/ДЗ ; !! Should this be limited to +Sg? 2015-09-06
 
 LEXICON PropNameMaleDer-I-YEvich
 !! Вили:Вил
@@ -223,21 +238,21 @@ LEXICON PropSurMal-kal
 LEXICON PropSurFem-kudo
 +Sem/Sur-Fem: PROP_ ;
 
-LEXICON PropSur-kal
-+Sem/Sur: PROP_ ;
+!LEXICON PropSur-kal
+!+Sem/Sur: PROP_ ;
 
-LEXICON PropSur-kit
- PropSur-kal ;
+!LEXICON PropSur-kit
+! PropSur-kal ;
 
-LEXICON PropSur-lak
- PropSur-kal ;
+!LEXICON PropSur-lak
+! PropSur-kal ;
 
-LEXICON PropSur-osh
-+Sem/Sur: PROP_ ;
+!LEXICON PropSur-osh
+!+Sem/Sur: PROP_ ;
 
 
-LEXICON PropSur-kudo
-+Sem/Sur: PROP_ ;
+!LEXICON PropSur-kudo
+!+Sem/Sur: PROP_ ;
 
 !! Ending 2012-11-15
 
@@ -255,7 +270,7 @@ LEXICON PropSur-kudo
 
 
 !This might need some working on 2012-01-23
-LEXICON PROP_mal-DERIVABLE !Patronyms
+LEXICON PROP_MAL_DERIVABLE !Patronyms
 ович+Sem/Patr-Mal+Sg:%>ович CASEPOSSLEX ; ! Владимирович
 овна+Sem/Patr-Fem+Sg:%>овна CASEPOSSLEX ; ! Владимировна
  PROP_mal ; ! Владимир
@@ -278,13 +293,13 @@ LEXICON PROP_mal-DERIVABLE !Patronyms
 
 
 LEXICON PROP_plc ! Inanimate proper nouns. Place names
-@U.Cap.Obl@+Sg:@U.Cap.Obl@ CASEPOSSLEX-afterDerivation ;
-@U.Cap.Opt@+Sg:@U.Cap.Opt@ DENOMINAL-LOCATIVE-ADJECTIVES ; !!= * **@CODE@** This requires down-casing
+@U.Cap.Obl@+Sg:@U.Cap.Obl@ CASEPOSSLEX_afterDerivation ;
+@U.Cap.Opt@+Sg:@U.Cap.Opt@ DENOMINAL_LOCATIVE_ADJECTIVES ; !!= * **@CODE@** This requires down-casing
 
 
 LEXICON PROP_plc_kpv ! Inanimate proper nouns. Place names
-@U.Cap.Obl@+Sem/Plc+EOLang/KPV+Sg:@U.Cap.Obl@ CASEPOSSLEX-afterDerivation ;
-@U.Cap.Opt@+Sem/Plc+EOLang/KPV+Sg:@U.Cap.Opt@ DENOMINAL-LOCATIVE-ADJECTIVES ; !!= * **@CODE@** This requires down-casing
+@U.Cap.Obl@+Sem/Plc+EOLang/KPV+Sg:@U.Cap.Obl@ CASEPOSSLEX_afterDerivation ;
+@U.Cap.Opt@+Sem/Plc+EOLang/KPV+Sg:@U.Cap.Opt@ DENOMINAL_LOCATIVE_ADJECTIVES ; !!= * **@CODE@** This requires down-casing
 
 !2018-10-21!LEXICON PROP_plc-RUS ! Inanimate proper nouns. Place names
 !2018-10-21!+Sem/Plc+Src/F: PROP_ ;
@@ -302,8 +317,8 @@ LEXICON PROP_plc_SUB ! Inanimate proper nouns. Place names
 +Sem/Plc+Use/NG+Err/Orth: PROP_ ;
 !@U.Cap.Opt@+Sem/Plc+Use/NG+Err/Orth+Der+Der/sa:@U.Cap.Opt@%>са A_ ; !!= * __@CODE@__ commented out since it cannot form adj.
 
-LEXICON PROP-ORG ! Inanimate proper nouns. Name of organization
-+Sem/Org: PROP_ ;
+!LEXICON PROP_org ! Inanimate proper nouns. Name of organization
+!+Sem/Org: PROP_ ;
 
 LEXICON PROP_SUR
 PROP_SUR-Mal ;

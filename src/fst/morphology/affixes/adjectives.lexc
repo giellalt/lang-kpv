@@ -19,17 +19,17 @@ LEXICON A_RU_O2J
 +Use/NG+Err/Dial:%>эй A_ ;
 +Use/SpellNoSugg:о%- adjectives ;!This needs flags for compound if there are no hybrids 2025-01-11, e.g., агитационно-синма
 
-LEXICON DENOMINAL-LOCATIVE_ADJECTIVES
+LEXICON DENOMINAL_LOCATIVE_ADJECTIVES
 @U.Cap.Opt@+Loc:@U.Cap.Opt@%>са A_ ;
 
 LEXICON DERIVEDADJ
- DERIVEDADJ-IN-VOW ;
- DERIVEDADJ-IN-CONS ;
+ DERIVEDADJ_IN_VOW ;
+ DERIVEDADJ_IN_CONS ;
 
-LEXICON DERIVEDADJ-IN-VOW
+LEXICON DERIVEDADJ_IN_VOW
 +Prp:%>%{ая%} K ;! Case 2021-04-04 adnominal modifiers
 
-LEXICON DERIVEDADJ-IN-CONS
+LEXICON DERIVEDADJ_IN_CONS
 +Loc:%>са K ;! Case 2021-04-04 adnominal modifiers
 +Abe:%>тӧм K ;! Case 2021-04-04 adnominal modifiers
 +Use/NG+Err/Dial+Abe:%>тэм K ;! Case 2021-04-04 adnominal modifiers
@@ -72,6 +72,10 @@ LEXICON A_ся
 ! A_ ;
 LEXICON A_RUS_MAIN_
  A_ ;
+LEXICON A_RUS_PROP_ !CHECKME
+ A_ ;
+LEXICON A_PROP_EJ_dial
++Err/Dial A_ ;
 LEXICON A_PROP_O2J
  A_RU_O2J ;
 

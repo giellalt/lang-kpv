@@ -875,6 +875,7 @@ LEXICON Root
               numerals                           ; !!≈ * @CODE@ 
               particles                          ; !!≈ * @CODE@ 
               pronouns                           ; !!≈ * @CODE@ 
+              kpv-propernouns			 ; !!≈ * @CODE@
               propernouns-malenames-cyrillic     ; !!≈ * @CODE@ 
               propernouns-toponyms-Russian       ; !!≈ * @CODE@ 2019-10-30 Cyrillic
   @U.Cap.Obl@ propernouns-toponyms-Komi          ; !!≈ * @CODE@  toponyms - always uppercase
@@ -934,11 +935,11 @@ LEXICON Serial-Verbs
 !! ### Lexica called End, whatever they are 
 !  ==================================== !
 
-LEXICON ABBR-IS_ADV
+LEXICON ABBR_IS_ADV
 !! @LEXNAME@
 +ABBR: ADV_ ;
 
-LEXICON ABBR-IS_N
+LEXICON ABBR_IS_N
 !! @LEXNAME@
 +ABBR+N: WordEnd ; ! This needs a Noun1 continuation but the hyphen must
              ! be dealt with for non-nominative-singular marking 2012-01-27
@@ -986,10 +987,10 @@ LEXICON WordEnd-2
 ! 2012-02-11
 ! This should have the following case forms pointing toward it:
 ! ine, ill, ela, apr, aprela, aprill, aprine
-LEXICON SPAT-COMPARATIVE
+LEXICON SPAT_COMPARATIVE
 !! @LEXNAME@
  COMPARATIVE ;
- PredMonLex-Spat-Add-Morphology ; !
+ PredMonLex_Spat_Add_Morphology ; !
 
 LEXICON COMPARATIVE
 !! @LEXNAME@
