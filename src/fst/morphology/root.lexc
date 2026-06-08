@@ -549,13 +549,13 @@ Multichar_Symbols
 +Der/IgKezhlo  !!≈ * **@CODE@**
 +Der/IgKosta  !!≈ * **@CODE@**
 +Der/IgKosti  !!≈ * **@CODE@**
-+Der/IgMoz  !!≈ * **@CODE@** %{иі%}гмоз
-+Der/IgonMoz  !!≈ * **@CODE@** %{иі%}гӧнмоз
-+Der/IgSor  !!≈ * **@CODE@** %{иі%}гсор
-+Der/IgTyr  !!≈ * **@CODE@** %{иі%}гтыр
-+Der/IgTyrji  !!≈ * **@CODE@** %{иі%}гтырйи
-+Der/IgTyrja  !!≈ * **@CODE@** %{иі%}гтыръя
-+Der/IgChozh  !!≈ * **@CODE@**%{иі%}гчӧж
++Der/IgMoz  !!≈ * **@CODE@** {иі}гмоз
++Der/IgonMoz  !!≈ * **@CODE@** {иі}гӧнмоз
++Der/IgSor  !!≈ * **@CODE@** {иі}гсор
++Der/IgTyr  !!≈ * **@CODE@** {иі}гтыр
++Der/IgTyrji  !!≈ * **@CODE@** {иі}гтырйи
++Der/IgTyrja  !!≈ * **@CODE@** {иі}гтыръя
++Der/IgChozh  !!≈ * **@CODE@**{иі}гчӧж
 +Der/ysj  !!≈ * **@CODE@**
 +ActPrsPtc  !!≈ * **@CODE@** 
 +PrsPrc  !!≈ * **@CODE@**
@@ -668,17 +668,17 @@ Multichar_Symbols
 {oö}  !!≈ * **@CODE@**:  Vowel alternating symbol 
 {uü}  !!≈ * **@CODE@**:  Vowel alternating symbol
 ! ^К2 
-^к2 ^л2 ^м2 ^т2 ^й2 %^ь2  %^Л2 %^М2 %^Т2 %^Ь2 %^И2  !!≈ * **@CODE@**
-%^V1       !!= * **@CODE@** for reduplicated vowel унаӧн > унаан
+^к2 ^л2 ^м2 ^т2 ^й2 ^ь2  %^Л2 %^М2 %^Т2 %^Ь2 %^И2  !!≈ * **@CODE@**
+^V1       !!= * **@CODE@** for reduplicated vowel унаӧн > унаан
 %>   !!≈ * **@CODE@**  suffix border
-%{иі%}   !!≈ * **@CODE@**:  for soft and hard
-%{ая%}   !!≈ * **@CODE@**:  for soft and hard
+{иі}   !!≈ * **@CODE@**:  for soft and hard
+{ая}   !!≈ * **@CODE@**:  for soft and hard
 
 !! #### Triggers to control variation
 {front} !!≈ * **@CODE@**:  Vowel change triggers
 {back}  !!≈ * **@CODE@**:  Vowel change triggers
-%^Close !!≈ * **@CODE@** Close syllable, this triggers final consonant drop, seen in word-final position and before consonant
-%^C2V   !!= * **@CODE@** Consonant v to vowel, Izhva ныы, ооны
+^Close !!≈ * **@CODE@** Close syllable, this triggers final consonant drop, seen in word-final position and before consonant
+^C2V   !!= * **@CODE@** Consonant v to vowel, Izhva ныы, ооны
 
 !! #### Valency tags, i.e. tags assigned to verbs for denoting their arbuments
 
@@ -919,15 +919,15 @@ LEXICON ABS_
 
 LEXICON R
 !! @LEXNAME@
-+Cmp#:%-# nouns ;
-+Cmp#:%-# N_NEWWORDS ;
-!+Cmp#:%-# nouns-deverbal ;
++Cmp#:-# nouns ;
++Cmp#:-# N_NEWWORDS ;
+!+Cmp#:-# nouns-deverbal ;
 
 LEXICON Serial-Verbs
 !! @LEXNAME@
-+Cmp/Serial+Cmp#:%-# verbs-A2M ;
-+Cmp/Serial+Cmp#:%-# verbs-N2END ;
-+Cmp/Serial+Cmp#:%-# V_NEWWORDS ;
++Cmp/Serial+Cmp#:-# verbs-A2M ;
++Cmp/Serial+Cmp#:-# verbs-N2END ;
++Cmp/Serial+Cmp#:-# V_NEWWORDS ;
 
 
 
@@ -969,14 +969,14 @@ LEXICON K
 LEXICON WordEnd
 !! @LEXNAME@
             # ;
-+Qst/A:%>%-а WordEnd-2 ;
-+Qst/Oe:%>%-ӧ WordEnd-2 ;
-+Qst/Oe:%>%-э WordEnd-2 ;
++Qst/A:%>-а WordEnd-2 ;
++Qst/Oe:%>-ӧ WordEnd-2 ;
++Qst/Oe:%>-э WordEnd-2 ;
 
 LEXICON WordEnd-2
 !! @LEXNAME@
             # ;
-+Clt/I:%-И2 # ;
++Clt/I:-И2 # ;
 
 ! List of spurious lexica
 ! These should be fixed.

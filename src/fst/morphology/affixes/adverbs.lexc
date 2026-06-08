@@ -80,8 +80,9 @@ LEXICON ADV_ ! these are checked as advs.
 : COMPARATIVE ;
 
 LEXICON ADV_L ! these are checked as advs.
-:%^Close COMPARATIVE ;
-+Err/Dial:%^C2V COMPARATIVE ;
+:^Close COMPARATIVE ;
++Err/Orth-l-to-vowel-lengthening:^C2V COMPARATIVE ;
++Err/Orth-l-retenstion: COMPARATIVE ;
 
 LEXICON ADV_IS_INE_
 +Ine: K ;
