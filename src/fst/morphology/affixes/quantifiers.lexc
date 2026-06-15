@@ -5,13 +5,13 @@
 ! ================================ !
 
 !! This has to be worked on 2012-01-19
-LEXICON NUM_CARD_
+LEXICON NUM_CARD
 !! LEXICON @LEXNAME@ 
  CARD ;
 +Card+Der+Der/La+N:%>ла N_ ;
-:%>ӧд ORD ;
-+Err/Dial:%>эд ORD ; 
-+Ord+Der+Der/La+N:%>ӧд%>ла N_ ;
++Der+Der/A+A:%>ӧд ORD ;
++Der+Der/A+A+Err/Dial:%>эд ORD ; 
++Der+Der/A+Ord+Der+Der/La+N:%>ӧд%>ла N_ ;
 !:%>нан COLL ;
 +Coll+Der+Der/La+N:%>нан%>ла N_ ;
 
@@ -33,6 +33,9 @@ LEXICON PRON_DISTR_ON
 !+Distr:%>ӧн K/COP_PL ; !нёльӧн
 !+Distr+Err/Dial:%>эн K/COP_PL ; !нёльӧн
 
+
+LEXICON NUM_IS_ORD
++Der+Der/A+A ORD ;
 
 LEXICON ORD
 !! LEXICON @LEXNAME@ 
