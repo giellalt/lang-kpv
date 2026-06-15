@@ -46,6 +46,12 @@ Multichar_Symbols
  +Qnt    !!≈ * **@CODE@**:  Quantifier   ХХ   XX
  +V      !!≈ * **@CODE@**:  verb      кадакыв   глагол
  
+!! Pre-derivational POS tags for CG processing 
++Ex/N     !!≈ * **@CODE@** = Noun stem before derivation 
++Ex/Num     !!≈ * **@CODE@** = Number stem before derivation 
++Ex/A     !!≈ * **@CODE@** = Adjective stem before derivation 
++Ex/V     !!≈ * **@CODE@** = Verb stem before derivation 
+
 
 !! ### Subtags
 
@@ -528,10 +534,12 @@ Multichar_Symbols
 ! +V→V  !!≈ * __@CODE@__
 ! +V→A  !!≈ * __@CODE@__
 
+
 !! #### Dertags
 
 +Der/xxx   !!≈ * **@CODE@** 
-+Der   !!≈ * **@CODE@**  In front of every derivation to make it   possible to target derivations as a class e.g. in regular expressions etc 
++Der   !!≈ * **@CODE@**  In front of every derivation to make it   possible to target derivations as a class e.g. in regular expressions etc
++Der/A     !!≈ * **@CODE@** used in derivation of ordinals from cardinals
 +Der/La        !!≈ * **@CODE@** 
 +Der/An  !!≈ * **@CODE@**  Process Participle +AN
 +Der/Ana  !!≈ * **@CODE@** Process Participle +ANA, Gerund or participle according to context (with...)
