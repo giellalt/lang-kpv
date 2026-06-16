@@ -883,12 +883,15 @@ LEXICON Root
               numerals                           ; !!≈ * @CODE@ 
               particles                          ; !!≈ * @CODE@ 
               pronouns                           ; !!≈ * @CODE@ 
-              kpv-propernouns			 ; !!≈ * @CODE@
-              propernouns-malenames-cyrillic     ; !!≈ * @CODE@ 
-              propernouns-toponyms-Russian       ; !!≈ * @CODE@ 2019-10-30 Cyrillic
+  @U.Cap.Obl@ kpv-propernouns			 ; !!≈ * @CODE@
+  @U.Cap.Opt@ kpv-propernouns			 ; !!≈ * @CODE@
+  @U.Cap.Obl@ propernouns-malenames-cyrillic     ; !!≈ * @CODE@ 
+  @U.Cap.Obl@ propernouns-toponyms-Russian       ; !!≈ * @CODE@ 2019-10-30 Cyrillic
+  @U.Cap.Opt@ propernouns-toponyms-Russian       ; !!≈ * @CODE@ 2019-10-30 Cyrillic
   @U.Cap.Obl@ propernouns-toponyms-Komi          ; !!≈ * @CODE@  toponyms - always uppercase
   @U.Cap.Opt@ propernouns-toponyms-Komi          ; !!≈ * @CODE@  toponyms - allow downcasing for adj derivation
-              propernouns                        ; !!≈ * @CODE@ 
+  @U.Cap.Obl@ propernouns                        ; !!≈ * @CODE@ 
+  @U.Cap.Opt@ propernouns                        ; !!≈ * @CODE@ 
               quantifiers                        ; !!≈ * @CODE@ 
               subjunctors                        ; !!≈ * @CODE@ 
               verbs-A2M                          ; !!≈ * @CODE@ 

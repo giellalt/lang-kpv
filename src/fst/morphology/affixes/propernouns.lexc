@@ -293,15 +293,18 @@ LEXICON PROP_MAL_DERIVABLE !Patronyms
 !! ## PLACE NAMES FROM TEMPLATES 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-
-LEXICON PROP_plc ! Inanimate proper nouns. Place names
+LEXICON PROP_PLC_01
 @U.Cap.Obl@+Sg:@U.Cap.Obl@ CASEPOSSLEX_afterDerivation ;
 @U.Cap.Opt@+Sg:@U.Cap.Opt@ DENOMINAL_LOCATIVE_ADJECTIVES ; !!= * **@CODE@** This requires down-casing
 
+LEXICON PROP_plc ! Inanimate proper nouns. Place names
++Sem/Plc: PROP_PLC_01 ;
 
 LEXICON PROP_plc_kpv ! Inanimate proper nouns. Place names
-@U.Cap.Obl@+Sem/Plc+EOLang/KPV+Sg:@U.Cap.Obl@ CASEPOSSLEX_afterDerivation ;
-@U.Cap.Opt@+Sem/Plc+EOLang/KPV+Sg:@U.Cap.Opt@ DENOMINAL_LOCATIVE_ADJECTIVES ; !!= * **@CODE@** This requires down-casing
++Sem/Plc: PROP_PLC_01 ;
+
+!@U.Cap.Obl@+Sem/Plc+EOLang/KPV+Sg:@U.Cap.Obl@ CASEPOSSLEX_afterDerivation ;
+!@U.Cap.Opt@+Sem/Plc+EOLang/KPV+Sg:@U.Cap.Opt@ DENOMINAL_LOCATIVE_ADJECTIVES ; !!= * **@CODE@** This requires down-casing
 
 !2018-10-21!LEXICON PROP_plc-RUS ! Inanimate proper nouns. Place names
 !2018-10-21!+Sem/Plc+Src/F: PROP_ ;
