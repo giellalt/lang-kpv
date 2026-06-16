@@ -105,7 +105,7 @@ LIST Sem/Time = Sem/Time ;
 LIST Sem/Year = Sem/Year ;
 SET FIRSTNAME = (Prop Sem/Fem) OR (Prop Sem/Mal) ;
 
-LIST TIME-MEASURE = вежон "во" "лун" "минут" "нэм" "секунда" "тӧлысь" "час" ;
+LIST TIME-MEASURE = вежон "во" "лун" "месеч" "минут" "нэм" "секунда" "тӧлысь" "час" ;
 SET TIME-MEASURE-SGNOM = TIME-MEASURE + (Sg Nom);#
 LIST TIME-N-SET = (N Sem/Time) ;
 LIST NOT-TIME = "dulvi" "vuorru" ;
@@ -113,7 +113,7 @@ SET TIME-N = TIME-N-SET - NOT-TIME ;
 
 LIST PREP-SETTLEMENT = "деревня" ;#preposed settlement type
 SET PREP-SETTLEMENT-SGNOM = PREP-SETTLEMENT + (Sg Nom) ;#
-LIST POSTP-SETTLEMENT = "район" ;#postposed settlement type
+LIST POSTP-SETTLEMENT = "кар" "обласьт" "район" ;#postposed settlement type
 
 LIST HUMAN = Sem/Hum Sem/Mal Sem/Fem Sem/Sur Pers NumAg Der/NumAg ;
 
@@ -606,7 +606,7 @@ SET MO = MO-MANge - ("man" Foc/ge) ;
 LIST PLACE-ADV =  "davá#bealde" "mátta#bealde" "nuortta#bealde" "oarje#bealde" "olggo#beale" ;
 # There will usually be a Gen in front. 
 
-LIST TIME-ADVL = "аски" ("аысыв" Ins) "аскомысь" ("вой" Ins) ("рыт" Ins) "сэсся" "талун" "тӧрыт" ;
+LIST TIME-ADVL = "аски" ("аысыв" Ins) "аскомысь" ("вой" Ins) ("рыт" Ins) "сэсся" "таво" "талун" "тӧрыт" ;
 
 LIST TIME-ADV = (Adv Sem/Time) ;
 
