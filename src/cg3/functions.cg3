@@ -691,6 +691,8 @@ LIST REAL-COPULAS = "dáidit" "leat" "soaitit" "veadjit" "liehket" "lea";
 LIST COPULAS = "dáidit" "gártat" "leat" "soaitit" "šaddat" "orrut" "veadjit" "liehket" "sjaddat" "lea" "sjïdtedh" ;
  #  "bissut" ? 
  # 'Dáidit' can appear without 'leat'.
+LIST COPULAS-NOM = "вӧвны" "лоны" ;
+ # the predicate is in the nominative
 
 SET NOT-COP-V = V - COPULAS ;
 
@@ -1000,7 +1002,9 @@ MAP:habGen (<hab> @<ADVL) TARGET HAB-ACTOR + Gen (*-1 LEAT + HAB-V-TAGS BARRIER 
 
 MAP:pcle (@PCLE) TARGET Pcle ;
 MAP:interj (@INTERJ) TARGET Interj ;
-MAP:>P (@>P) Gen (1 Po) ;
+#MAP:>P (@>P) Gen (1 Po) ;
+MAP:>Pkpv (@>P) Nom OR Cmpl (1 Po) ;#keep this ahead of subj and obj
+        #челядь: челядь дырни ӧддьӧн йӧй вӧлі.
 MAP:>Pcoor (@>P) Gen (1 CC LINK *1 @>P BARRIER NOT-NPMOD) ;
 MAP:>P (@>P) Gen - TIME-N (NEGATE -1 Pr)(1 Pr LINK 1 Gen) ;
 	#$ Sápmelaččat guđet orrot Norgga bealde Deanu, geavahit seammá gávtti go sápmelaččat Suoma bealde Deanu.
@@ -1336,12 +1340,19 @@ MAP:NumTime<spred (@<SPRED) TARGET (A Nom) (-1 TIME-N LINK -1 Num LINK *-1 COPUL
 	#$ Son lea 10 jagi boaris.
 	#$ Sápmelaččaid historjá álbmogin lea duháhiid jagiid boaris.
 
+MAP:<spredKpv (@<SPRED) TARGET (A Sg Nom) OR (N Sg Nom) (*-1 COPULAS-NOM + FMAINV + Sg3 OR Sg2 OR Sg1 BARRIER BOS OR CLB);  
+	# кизьӧр: ... Пуктыны микроволновкаӧ 3–4 минут кежлӧ, но медым гудрасыс оз ло кизьӧр.
+MAP:spred>Kpv (@SPRED>) TARGET (A Sg Nom) OR (N Sg Nom) (*1 COPULAS-NOM + FMAINV + Sg3 OR Sg2 OR Sg1 BARRIER EOS OR CLB);  
+	# йӧй: челядь дырни ӧддьӧн йӧй вӧлі.
+	
 #!! * **<spredSg** (@<SPRED) for Sg Nom	
 MAP:<spredSg (@<SPRED) TARGET (Sg Nom) (*-1 @CNP OR (Neg Foc/ge) BARRIER REAL-V - COPULAS OR S-BOUNDARY LINK *-1 @<SPRED BARRIER WORD) ;
 	#$ Son lea mu oabbá, ja 10 jagi boaris.
 	#$ Son oinnii buot dan mii lea ráhkistan ja gudnejahttin veara.
 	#$ Munnje lei dehálaš ahte áiggošin leat bahánihkkán.
 	#$ Mus ii leat biila iige mopeda.
+
+
 
 #!! * **<spredPg** (@<SPRED) for Pl Nom	
 MAP:<spredPl (@<SPRED) TARGET (Pl Nom) ((*-1 COPULAS BARRIER NOT-NPMODADV LINK *-1 (Pl Nom) OR PLPRON + Nom OR DUPRON + Nom BARRIER NOT-ADV-PCLE) OR (*-1 COPULAS BARRIER NOT-NPMODADV LINK -1 Nom LINK *-1 CC BARRIER NOT-NPMOD LINK -1 Nom) OR (*-1 COPULAS BARRIER NOT-NPMODADV LINK *-1 FAUXV BARRIER NOT-ADV-PCLE LINK *-1 (Pl Nom) OR PLPRON + Nom OR DUPRON + Nom BARRIER NOT-ADV-PCLE)) ;
@@ -1506,9 +1517,10 @@ SET MOD-ADV = DUSSE OR ("njuolga") OR ("njuolgga") OR EASKKA OR ("gitta") ;
 MAP:f<advl (@-F<ADVL) TARGET ADVL - MO - S-BOUNDARY OR TIME-N + Gen OR (Sem/Route Gen) (*-1 SYN-V - VGen - VAbess BARRIER SV-BOUNDARY OR CS)(NEGATE 0 DUSSE OR EASKKA) ;
 	#$ Min mielas goit lea veara jurddašit nissongova birra mii boahtá ovdan jearahallamiin.
 
-MAP:FMAINV1kpv (@+FMAINV) TARGET VFIN (NOT *0 VFIN BARRIER BOS OR EOS);
+MAP:FMAINV1kpv (@+FMAINV) TARGET VFIN-POS (NOT *0 VFIN BARRIER BOS OR EOS);
     	#чужи: ме чужи тысяча ӧкмыссё витӧд воын ӧтикӧд июльӧ деревня Пустуняын
-
+MAP:FAUX1kpv (@+FAUXV) TARGET (V Neg) ;
+MAP:-FMAINV1kpv (@-FMAINV) TARGET ConNeg;
 
 #!! * **f<advl** (@-F<ADVL) for infinite adverbials
 MAP:fadvl> (@-FADVL>) TARGET ADVL - MO - S-BOUNDARY OR TIME-N + Gen OR (Sem/Route Gen)(NEGATE *-1 FMAINV BARRIER S-BOUNDARY OR CS)(*1 SYN-V - VGen - VAbess BARRIER SV-BOUNDARY OR CS OR FMAINV) ;
@@ -1516,9 +1528,9 @@ MAP:fadvl> (@-FADVL>) TARGET ADVL - MO - S-BOUNDARY OR TIME-N + Gen OR (Sem/Rout
 
 
 
-MAP:<advlADVLCASEkpv (@<ADVL) TARGET N + ADVLCASE (-1* VFIN BARRIER BOS OR CLB) (NOT 1* VFIN BARRIER BOS OR CLB);
+MAP:<advlADVLCASEkpv (@<ADVL) TARGET N + ADVLCASE OR Pron + ADVLCASE (-1* VFIN BARRIER BOS OR CLB) (NOT 1* VFIN BARRIER BOS OR CLB);
    	# ме чужи тысяча ӧкмыссё витӧд воын ӧтикӧд июльӧ деревня Пустуняын
-MAP:advl>ADVLCASEkpv (@ADVL>) TARGET N + ADVLCASE (NOT -1* VFIN BARRIER BOS OR CLB) (1* VFIN BARRIER BOS OR CLB);
+MAP:advl>ADVLCASEkpv (@ADVL>) TARGET N + ADVLCASE OR Pron + ADVLCASE (NOT -1* VFIN BARRIER BOS OR CLB) (1* VFIN BARRIER BOS OR CLB);
 	#  
 
 #!! * **s-boundary=advl>** (@ADVL>) for ADVL that resemble s-booundaries. Mainverb to the right.
