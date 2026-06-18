@@ -1522,6 +1522,8 @@ MAP:FMAINV1kpv (@+FMAINV) TARGET VFIN-POS (NOT *0 VFIN BARRIER BOS OR EOS);
 MAP:FAUX1kpv (@+FAUXV) TARGET (V Neg) ;
 MAP:-FMAINV1kpv (@-FMAINV) TARGET ConNeg;
 
+MAP:cvpKpv (@CVP) TARGET CC IF (*-1 VFIN BARRIER CLB OR BOS) (*1 VFIN BARRIER CLB OR EOS);
+
 #!! * **f<advl** (@-F<ADVL) for infinite adverbials
 MAP:fadvl> (@-FADVL>) TARGET ADVL - MO - S-BOUNDARY OR TIME-N + Gen OR (Sem/Route Gen)(NEGATE *-1 FMAINV BARRIER S-BOUNDARY OR CS)(*1 SYN-V - VGen - VAbess BARRIER SV-BOUNDARY OR CS OR FMAINV) ;
 	#$ Anán buorebun odne vuolgit go ihttážii vuordit.
