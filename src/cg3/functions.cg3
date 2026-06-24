@@ -1506,7 +1506,7 @@ MAP:>cc (@>CC) TARGET ("sihke")(*1 ("ja") OR ("ahte")) ;
 MAP:advl>cs (@ADVL>CS) TARGET ("beare" Adv) (1 CS LINK *1 FMAINV) ;
 	#$ Muhto dus ii leat riekti dearpat su beare danin go sáhtát.
 
-LIST ADVL = Adv ADVLCASE Po Pr ;
+LIST ADVL = Adv ADVLCASE TIME-ADVL Po Pr ;
 
 #MAP:r39 (@ADVL<) TARGET (N Sg Loc) IF (-1 ("oktii") OR ("guktii") OR ("golbmii") OR ("njelljii") OR ("vihttii") OR ("geardde"))(0 TIME-N);
 	#$ Mun ferten málestit guktii vahkus.
@@ -1530,9 +1530,9 @@ MAP:fadvl> (@-FADVL>) TARGET ADVL - MO - S-BOUNDARY OR TIME-N + Gen OR (Sem/Rout
 
 
 
-MAP:<advlADVLCASEkpv (@<ADVL) TARGET N + ADVLCASE OR Pron + ADVLCASE (-1* VFIN BARRIER BOS OR CLB) (NOT 1* VFIN BARRIER BOS OR CLB);
+MAP:<advlADVLCASEkpv (@<ADVL) TARGET N + ADVLCASE OR Pron + ADVLCASE OR TIME-ADVL (-1* VFIN BARRIER BOS OR CLB) (NOT 1* VFIN BARRIER BOS OR CLB);
    	# ме чужи тысяча ӧкмыссё витӧд воын ӧтикӧд июльӧ деревня Пустуняын
-MAP:advl>ADVLCASEkpv (@ADVL>) TARGET N + ADVLCASE OR Pron + ADVLCASE (NOT -1* VFIN BARRIER BOS OR CLB) (1* VFIN BARRIER BOS OR CLB);
+MAP:advl>ADVLCASEkpv (@ADVL>) TARGET N + ADVLCASE OR Pron + ADVLCASE OR TIME-ADVL (NOT -1* VFIN BARRIER BOS OR CLB) (1* VFIN BARRIER BOS OR CLB);
 	#  
 
 #!! * **s-boundary=advl>** (@ADVL>) for ADVL that resemble s-booundaries. Mainverb to the right.
