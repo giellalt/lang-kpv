@@ -717,7 +717,7 @@ SET HEAD-N-NOM = (N Nom) - RCmpnd ;
 
 SET SUBJECTHEAD = N OR A OR Pron - Refl ; # These, can be subject heads
 
-SET NP = N OR A ;                      # anything that can take except numerals
+SET NP = N OR A ;                      # anything that can take except numerals (What does this mean? Jaska 2026-06-26)
 SET NP-HEAD        = Pron OR HEAD-N - ("buorre") ;
 SET NP-HEAD-SG     = SGPRON OR (N Sg) OR (A Sg) - RCmpnd  - Dem - ("buorre");
 SET NP-HEAD-PL     = PLPRON OR (N Pl) OR (A Pl) - RCmpnd  - Dem - ("buorre");
