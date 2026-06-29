@@ -1340,7 +1340,7 @@ MAP:NumTime<spred (@<SPRED) TARGET (A Nom) (-1 TIME-N LINK -1 Num LINK *-1 COPUL
 	#$ Son lea 10 jagi boaris.
 	#$ Sápmelaččaid historjá álbmogin lea duháhiid jagiid boaris.
 
-MAP:<spredKpv (@<SPRED) TARGET (A Sg Nom) OR (N Sg Nom) (*-1 COPULAS-NOM + Sg3 OR Sg2 OR Sg1 BARRIER BOS OR CLB);  
+MAP:<spredKpv (@<SPRED) TARGET (A Sg Nom) OR (N Sg Nom) (*-1 COPULAS-NOM + Sg3 OR COPULAS-NOM + Sg2 OR COPULAS-NOM + Sg1 BARRIER BOS OR CLB);  
 	# кизьӧр: ... Пуктыны микроволновкаӧ 3–4 минут кежлӧ, но медым гудрасыс оз ло кизьӧр.
 MAP:spred>Kpv (@SPRED>) TARGET (A Sg Nom) OR (N Sg Nom) (*1 COPULAS-NOM + Sg3 OR COPULAS-NOM + Sg2 OR COPULAS-NOM + Sg1 BARRIER EOS OR CLB);  
 	# йӧй: челядь дырни ӧддьӧн йӧй вӧлі.
