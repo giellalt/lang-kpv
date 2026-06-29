@@ -91,14 +91,14 @@ LEXICON A_IS_COMP_MOD_КОДЬ
 !2018-10-21!+Der+Der/twm+AbeMod: A_ ;
 !2018-10-21!LEXICON A_IS_HAB_OBJ_MOD_А
 !2018-10-21!+Der+Der/a+HabObjMod: A_ ;
-LEXICON A_IS_TEMP_MOD_СЯ
-+Der+Der/TempMod+A: A_ ;
+!LEXICON A_IS_TEMP_MOD_СЯ see A_ся
+!+Der+Der/TempMod+A: A_ ;
 
 !LEXICON A_IS_PTC_TOM ! 2011-11-15 participle = derivation type; 2023-06-09 verbal derivation 
 !+V+Der+Der/twm: A_ ;
 
 LEXICON A_IS_PTC_YSJ
-+V+Der+Der/ysj: A_ ;
++V+Der+Der/ysj+A: A_ ;
 
 !2018-10-21!LEXICON A_IS_PTC_AN !
 !2018-10-21!+V+Der+Der/An: A_ ;
@@ -115,7 +115,9 @@ LEXICON A_IS_DIM_НИК
 !2018-10-21!LEXICON A_IS_TOM
 !2018-10-21! A_IS_TOM ;
 LEXICON A_IS_TOM
-+N+Der+Der/twm: A_ ;
+!+N+Der+Der/twm: A_ ;2026-06-29
+A_ ;! The idea was to set up a +Dimin vs +Der/Dimin -type distinction
+! for now the existence of the contlexicon tags will serve to make the distinction
 
 !LEXICON A_IS_SUPERL !
 !+Superl: A_ ;
