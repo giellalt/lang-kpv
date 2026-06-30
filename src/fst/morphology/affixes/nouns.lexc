@@ -20,13 +20,15 @@ LEXICON Noun1_IS_PTC_YSJ !!≈ * **@CODE@**
 +V+Der+Der/ysj: NMN_ ;
 
 LEXICON N_DOR ! мӧдладор The Russian is an adverbial phrase
-+Der+Der/dor: NMN_ ;
+!+Der+Der/dor: NMN_ ; 2026-06-30
+ NMN_ ;
 
 LEXICON N_LA
 +Der/La: NMN_ ;
 
 LEXICON N_VYV ! тулысвыв The Russian is an adverbial phrase
-+Der+Der/vyv: NMN_ ;
+!+Der+Der/vyv: NMN_ ; 2026-06-30
+ NMN_ ;
 
 LEXICON N_rus100 ! Homographs
 +Src/F: NMN_ ;
@@ -227,6 +229,8 @@ LEXICON NounPi ! пи These have a unique  pl marker ян.
 +Pl:%>ян CASEPOSSLEX ;
 
 
+LEXICON NounPL_plc ! бедьторъяс
++Sem/Plc: NounPL ;
 LEXICON NounPL ! бедьторъяс
 +Pl: CASEPOSSLEX ; ! here, %>ъяс is put as part of the stem
 ! Very many plural nouns do not have this tag. We could change яс-final
