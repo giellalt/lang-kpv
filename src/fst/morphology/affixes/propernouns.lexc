@@ -10,11 +10,22 @@ LEXICON ACRON-F
 !! LEXICON @LEXNAME@ 
 +Src/F: ACRON ;
 
+LEXICON ACRON-F_plc
+!! LEXICON @LEXNAME@ 
++Src/F+Sem/Plc: ACRON ;
+
+LEXICON ACRON_plc
++Sem/Plc: ACRON ;
+
 LEXICON ACRON
 !! LEXICON @LEXNAME@ 
 @U.Cap.Obl@+Acron:@U.Cap.Obl@ PROP_ ;
 @U.Cap.Obl@+Acron:@U.Cap.Obl@-яс CASEPOSSLEX ; !acronyms with plural
 @U.Cap.Obl@+Acron+A:@U.Cap.Obl@-са A_ ; !2021-06-01
+
+LEXICON PROP_fem !
+!! LEXICON @LEXNAME@ 
++Sem/Fem: PROP_ ;
 
 LEXICON PROP_rus_ !
 !! LEXICON @LEXNAME@ 
@@ -320,7 +331,7 @@ LEXICON PROP_plc_kpv ! Inanimate proper nouns. Place names
 !2018-10-21!+EOLang/RUS: PROP_ ;
 !2018-10-21!@U.Cap.Opt@+EOLang/RUS+Der+Der/sa:@U.Cap.Opt@%>са A_ ; !!= * __@CODE@__ This requires down-casing
 
-LEXICON PROP_plc_SUB ! Inanimate proper nouns. Place names
+LEXICON PROP_SUB_plc ! Inanimate proper nouns. Place names
 +Sem/Plc+Use/NG+Err/Orth: PROP_ ;
 !@U.Cap.Opt@+Sem/Plc+Use/NG+Err/Orth+Der+Der/sa:@U.Cap.Opt@%>са A_ ; !!= * __@CODE@__ commented out since it cannot form adj.
 
