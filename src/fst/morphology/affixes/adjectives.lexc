@@ -78,9 +78,6 @@ LEXICON A_PROP_EJ_dial
 +Err/Dial A_ ;
 LEXICON A_PROP_O2J
  A_RU_O2J ;
-LEXICON A_IS_PTC_YSJ !!≈ * **@CODE@**
-!+V+Der+Der/ysj: NMN_ ; 2026-07-01
-A_ ;
 
 
 !LEXICON Adj
@@ -100,8 +97,9 @@ LEXICON A_IS_COMP_MOD_КОДЬ
 !LEXICON A_IS_PTC_TOM ! 2011-11-15 participle = derivation type; 2023-06-09 verbal derivation 
 !+V+Der+Der/twm: A_ ;
 
-LEXICON A_IS_PTC_YSJ
-+V+Der+Der/ysj+A: A_ ;
+LEXICON A_IS_PTC_YSJ !!≈ * **@CODE@**
+!+V+Der+Der/ysj: NMN_ ; 2026-07-01
+A_ ;
 
 !2018-10-21!LEXICON A_IS_PTC_AN !
 !2018-10-21!+V+Der+Der/An: A_ ;
