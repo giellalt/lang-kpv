@@ -201,6 +201,10 @@ Rules
  !!€ сёй%>%{иі%}#
  !!€ сёй%>и#
 
+"j disappears after soft s, z or j"
+!! **Rule: @RULENAME@**
+ %^й2:0 <=> [з ь | с ь | й] _ %> %{ая%}: ;
+ 
 "j to hard sign after consonant"
 !! **Rule: @RULENAME@**
  %^й2:ъ <=> [ б | в | г | д | ж | з | к | м | н | п | р | т | с | ш ] _ %> %{ая%}: ;
