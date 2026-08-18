@@ -27,7 +27,7 @@ LEXICON DERIVEDADJ
  DERIVEDADJ_IN_CONS ;
 
 LEXICON DERIVEDADJ_IN_VOW
-+Prp:%>%{ая%} K ;! Case 2021-04-04 adnominal modifiers
++Prp:%>{ая} K ;! Case 2021-04-04 adnominal modifiers
 
 LEXICON DERIVEDADJ_IN_CONS
 +Loc:%>са K ;! Case 2021-04-04 adnominal modifiers
@@ -136,9 +136,9 @@ LEXICON A_
 : AdjCompar ;
 +Der+Der/kodj+A:%>кодь PredMonAdj ;
 +Der+Der/kodj+A:%>кодь AdjCompar ;
-+Der+Der/In:%>%{иі%}н N_ ;
++Der+Der/In:%>{иі}н N_ ;
 +Der+Der/lun:%>лун N_ ; !Derivational suffix for A-N
-+Der+Der/a:%>%{ая%} ADV_ ; ! Derivation for adjective-to-adverb
++Der+Der/a:%>{ая} ADV_ ; ! Derivation for adjective-to-adverb
 
 LEXICON SUPERL_A_
 : PredMonAdj ;
@@ -146,7 +146,7 @@ LEXICON SUPERL_A_
 +Pl:%>ъяс CASEPOSSLEX_afterDerivation ; !This is for adjectives without nouns
 +Der+Der/kodj+A:%>кодь PredMonAdj ;
 +Der+Der/kodj+A:%>кодь AdjCompar ;
-+Der+Der/In:%>%{иі%}н N_ ;
++Der+Der/In:%>{иі}н N_ ;
 +Der+Der/lun:%>лун N_ ; !Derivational suffix for A-N
 +Der+Der/a:%>а ADV_ ; ! Derivation for adjective-to-adverb
 
@@ -156,7 +156,7 @@ LEXICON A_PARAGOGIC_V/L !!= * @CODE@ юмов:юмо юмолӧсь
 :^л2^Close AdjCompar ;
 +Der+Der/kodj+A:^л2^Close%>кодь PredMonAdj ;
 +Der+Der/kodj+A:^л2^Close%>кодь AdjCompar ;
-+Der+Der/In:^л2%>%{иі%}н N_ ;
++Der+Der/In:^л2%>{иі}н N_ ;
 +Der+Der/lun:^л2^Close%>лун N_ ; !Derivational suffix for A-N
 
 LEXICON WordEnd_PredMonAdj
