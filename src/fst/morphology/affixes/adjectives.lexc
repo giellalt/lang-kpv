@@ -159,6 +159,19 @@ LEXICON A_PARAGOGIC_V/L !!= * @CODE@ юмов:юмо юмолӧсь
 +Der+Der/In:^л2%>{иі}н N_ ;
 +Der+Der/lun:^л2^Close%>лун N_ ; !Derivational suffix for A-N
 
+LEXICON A_PARAGOGIC_J_missing_j
++Orth/Err-missing-j: COP_PL ;
++Orth/Err-missing-j+Der+Der/In:%>{иі}н N_ ;
+
+LEXICON A_PARAGOGIC_J !!= * @CODE@ тшыг:тшыг тшыгйӧсь
+:^й2^Close K ; !! Singular predicative 
+:^й2 COP_PL ;
+:^й2^Close AdjCompar ;
++Der+Der/kodj+A:^й2^Close%>кодь PredMonAdj ;
++Der+Der/kodj+A:^й2^Close%>кодь AdjCompar ;
++Der+Der/In:^й2%>{иі}н N_ ;
++Der+Der/lun:^й2^Close%>лун N_ ; !Derivational suffix for A-N
+
 LEXICON WordEnd_PredMonAdj
 +Der+Der/lador+N:%>ладор Noun1 ;
  WordEnd ;
