@@ -820,20 +820,21 @@ Multichar_Symbols
 @C.PossPx@               !!≈ | **@CODE@** | FLAGS USED WITH COLLECTIVE NOUNS
 @U.DECL-NX.SG@           !!≈ | **@CODE@** | number
 @U.DECL-NX.PL@           !!≈ | **@CODE@** | number
+@R.DECL-NX.SG@           !!≈ | **@CODE@** | number
 @R.DECL-NX.PL@           !!≈ | **@CODE@** | number
 @U.DECL-CX.ABE@          !!≈ | **@CODE@** | unify case
  @U.DECL-CX.ABL@         !!≈ | **@CODE@** | unify case
  @U.DECL-CX.ACC@         !!≈ | **@CODE@** | unify case
  @U.DECL-CX.APR@         !!≈ | **@CODE@** | unify case
  @U.DECL-CX.APRINE@      !!≈ | **@CODE@** | unify case
- @U.DECL-CX.APRILL@      !!≈ | **@CODE@** | unify case
  @U.DECL-CX.APRELA@      !!≈ | **@CODE@** | unify case
  @U.DECL-CX.APREGR@      !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.APRILL@      !!≈ | **@CODE@** | unify case
  @U.DECL-CX.APRPRL@      !!≈ | **@CODE@** | unify case
  @U.DECL-CX.APRTRA@      !!≈ | **@CODE@** | unify case
  @U.DECL-CX.APRTER@      !!≈ | **@CODE@** | unify case
  @U.DECL-CX.CAR@         !!≈ | **@CODE@** | unify case
- @U.DECL-CX.CMP@         !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.CMPR@         !!≈ | **@CODE@** | unify case
  @U.DECL-CX.CNS@         !!≈ | **@CODE@** | unify case
  @U.DECL-CX.COM@         !!≈ | **@CODE@** | unify case
  @U.DECL-CX.DAT@         !!≈ | **@CODE@** | unify case
@@ -843,15 +844,24 @@ Multichar_Symbols
  @U.DECL-CX.ILL@         !!≈ | **@CODE@** | unify case
  @U.DECL-CX.INE@         !!≈ | **@CODE@** | unify case
  @U.DECL-CX.INS@         !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.LOC@         !!≈ | **@CODE@** | unify case Locative
  @U.DECL-CX.NOM@         !!≈ | **@CODE@** | unify case
  @U.DECL-CX.PRL@         !!≈ | **@CODE@** | unify case
+ @U.DECL-CX.PRP@         !!≈ | **@CODE@** | unify case Proprietive
  @U.DECL-CX.TRA@         !!≈ | **@CODE@** | unify case
  @U.DECL-CX.TER@         !!≈ | **@CODE@** | unify case
+ @U.DECL-PX.SG1@         !!≈ | **@CODE@** | unify possessor
+ @U.DECL-PX.SG2@         !!≈ | **@CODE@** | unify possessor
+ @U.DECL-PX.SG3@         !!≈ | **@CODE@** | unify possessor
+ @U.DECL-PX.PL1@         !!≈ | **@CODE@** | unify possessor
+ @U.DECL-PX.PL2@         !!≈ | **@CODE@** | unify possessor
+ @U.DECL-PX.PL3@         !!≈ | **@CODE@** | unify possessor
 @U.DECL-DX.INDEF@        !!≈ | **@CODE@** | declension type
 @U.DECL-DX.PX@           !!≈ | **@CODE@** | declension type
 @C.DECL-NX@              !!≈ | **@CODE@** | Removal
 @C.DECL-DX@              !!≈ | **@CODE@** | Removal
 @C.DECL-CX@              !!≈ | **@CODE@** | Removal
+@C.DECL-PX@              !!≈ | **@CODE@** | Removal
  @U.Cap.Obl@             !!≈ | **@CODE@** | Allowing downcasing of derived names: deatnulasj
  @U.Cap.Opt@             !!≈ | **@CODE@** | Allowing downcasing of derived names: deatnulasj
 
@@ -974,6 +984,9 @@ LEXICON K
 +Clt/toe+Err/Orth-e-not-oe+Err/Dial:%>тэ WordEnd ;
 +Clt/toe+Err/Orth-o-not-oe+Err/Dial:%>то WordEnd ;
 +Clt/soe+Err/Orth-e-not-oe+Err/Dial:%>сэ WordEnd ;
+@R.DECL-NX.SG@ R ;
+@R.DECL-NX.PL@ R ;
+
 
 ! For this all instances of _#_
 ! were converted to _WordEnd_
