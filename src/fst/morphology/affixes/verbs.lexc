@@ -25,10 +25,10 @@ LEXICON VERBNEGATIVE
 оз+V+Neg+Ind+Prs+Pl2:онӧй MatrixVerb_Comparison ;
 оз+V+Neg+Ind+Prs+Pl3:оз MatrixVerb_Comparison ;
 
-оз+Use/NG+Err/Dial+V+Neg+Ind+Prs+Pl1:оге MatrixVerb_Comparison ;
-оз+Use/NG+Err/Dial+V+Neg+Ind+Prs+Pl2:онэ MatrixVerb_Comparison ;
-оз+Use/NG+Err/Dial+V+Neg+Ind+Prs+Pl1:огей MatrixVerb_Comparison ;
-оз+Use/NG+Err/Dial+V+Neg+Ind+Prs+Pl2:онэй MatrixVerb_Comparison ;
+оз+Use/NG+Err/Orth-e-not-oe+V+Neg+Ind+Prs+Pl1:оге MatrixVerb_Comparison ;
+оз+Use/NG+Err/Orth-e-not-oe+V+Neg+Ind+Prs+Pl2:онэ MatrixVerb_Comparison ;
+оз+Use/NG+Err/Orth-e-not-oe+V+Neg+Ind+Prs+Pl1:огей MatrixVerb_Comparison ;
+оз+Use/NG+Err/Orth-e-not-oe+V+Neg+Ind+Prs+Pl2:онэй MatrixVerb_Comparison ;
 
 !Past Neg
 оз+V+Neg+Ind+Prt1+Sg1:эг MatrixVerb_Comparison ;
@@ -39,8 +39,8 @@ LEXICON VERBNEGATIVE
 оз+V+Neg+Ind+Prt1+Pl1:эгӧ MatrixVerb_Comparison ;
 оз+V+Neg+Ind+Prt1+Pl2:энӧ MatrixVerb_Comparison ;
 оз+V+Neg+Ind+Prt1+Pl3:эз MatrixVerb_Comparison ;
-оз+Use/NG+Err/Dial+V+Neg+Ind+Prt1+Pl1:эге MatrixVerb_Comparison ;
-оз+Use/NG+Err/Dial+V+Neg+Ind+Prt1+Pl2:энэ MatrixVerb_Comparison ;
+оз+Use/NG+Err/Orth-e-not-oe+V+Neg+Ind+Prt1+Pl1:эге MatrixVerb_Comparison ;
+оз+Use/NG+Err/Orth-e-not-oe+V+Neg+Ind+Prt1+Pl2:энэ MatrixVerb_Comparison ;
 
 !Past Neg Err/Dial
 оз+V+Neg+Ind+Prt1+Sg1+Use/NG+Err/Dial:иг MatrixVerb_Comparison ;
@@ -59,7 +59,7 @@ LEXICON VERBNEGATIVE
 оз+V+Neg+Imprt+Pl2:эн K ;
 оз+V+Neg+Imprt+Pl2:энӧ K ;
 оз+V+Neg+Imprt+Pl2:энӧй K ;
-оз+Use/NG+Err/Dial+V+Neg+Imprt+Pl2:энэ K ;
+оз+Use/NG+Err/Orth-e-not-oe+V+Neg+Imprt+Pl2:энэ K ;
 !A tag is needed to indicate this clitic-like лы segment
 оз+V+Neg+Imprt+Sg2:энлы K ;
 оз+V+Neg+Imprt+Pl2:энлӧй K ;
@@ -100,8 +100,8 @@ LEXICON V_0_ЛОКНЫ !!≈ * **@CODE@** One verb only, локны:лок
 @U.CONJ-INF.YES@@U.CONJ-POSS.3@+Inf+Px3:@U.CONJ-INF.YES@@U.CONJ-POSS.3@%>ныс VerbEnd_Comparison ;
 @U.CONJ-INF.YES@@U.CONJ-POSS.2ACC@+Inf+Px2+Acc:@U.CONJ-INF.YES@@U.CONJ-POSS.2ACC@%>нытӧ VerbEnd_Comparison ;
 @U.CONJ-INF.YES@@U.CONJ-POSS.3ACC@+Inf+Px3+Acc:@U.CONJ-INF.YES@@U.CONJ-POSS.3ACC@%>нысӧ VerbEnd_Comparison ;
-@U.CONJ-INF.YES@@U.CONJ-POSS.2ACC@+Use/NG+Err/Dial+Inf+Px2+Acc:@U.CONJ-INF.YES@@U.CONJ-POSS.2ACC@%>нытэ VerbEnd_Comparison ;
-@U.CONJ-INF.YES@@U.CONJ-POSS.3ACC@+Use/NG+Err/Dial+Inf+Px3+Acc:@U.CONJ-INF.YES@@U.CONJ-POSS.3ACC@%>нысэ VerbEnd_Comparison ;
+@U.CONJ-INF.YES@@U.CONJ-POSS.2ACC@+Use/NG+Err/Orth-e-not-oe+Inf+Px2+Acc:@U.CONJ-INF.YES@@U.CONJ-POSS.2ACC@%>нытэ VerbEnd_Comparison ;
+@U.CONJ-INF.YES@@U.CONJ-POSS.3ACC@+Use/NG+Err/Orth-e-not-oe+Inf+Px3+Acc:@U.CONJ-INF.YES@@U.CONJ-POSS.3ACC@%>нысэ VerbEnd_Comparison ;
 @U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@@U.CONJ-NX.PL@@U.CONJ-PX.3@+ConNeg+Pl3:@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@@U.CONJ-NX.PL@@U.CONJ-PX.3@%>ны VerbEnd ;
 @U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@+ConNeg:@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@ VerbEnd ;
 @U.CONJ-INF.NO@@U.CONJ-MX.IMP@@U.CONJ-NX.SG@@U.CONJ-PX.2@+Imprt+Sg2:@U.CONJ-INF.NO@@U.CONJ-MX.IMP@@U.CONJ-NX.SG@@U.CONJ-PX.2@ VerbEnd ;
@@ -400,8 +400,8 @@ LEXICON VerbConj_V !!≈ * **@CODE@**  суф б -- ы
 @U.CONJ-INF.YES@@U.CONJ-POSS.3@+Inf+Px3:@U.CONJ-INF.YES@@U.CONJ-POSS.3@%>ныс VerbEnd_Comparison ;
 @U.CONJ-INF.YES@@U.CONJ-POSS.2ACC@+Inf+Px2+Acc:@U.CONJ-INF.YES@@U.CONJ-POSS.2ACC@%>нытӧ VerbEnd_Comparison ;
 @U.CONJ-INF.YES@@U.CONJ-POSS.3ACC@+Inf+Px3+Acc:@U.CONJ-INF.YES@@U.CONJ-POSS.3ACC@%>нысӧ VerbEnd_Comparison ;
-@U.CONJ-INF.YES@@U.CONJ-POSS.2ACC@+Use/NG+Err/Dial+Inf+Px2+Acc:@U.CONJ-INF.YES@@U.CONJ-POSS.2ACC@%>нытэ VerbEnd_Comparison ;
-@U.CONJ-INF.YES@@U.CONJ-POSS.3ACC@+Use/NG+Err/Dial+Inf+Px3+Acc:@U.CONJ-INF.YES@@U.CONJ-POSS.3ACC@%>нысэ VerbEnd_Comparison ;
+@U.CONJ-INF.YES@@U.CONJ-POSS.2ACC@+Use/NG+Err/Orth-e-not-oe+Inf+Px2+Acc:@U.CONJ-INF.YES@@U.CONJ-POSS.2ACC@%>нытэ VerbEnd_Comparison ;
+@U.CONJ-INF.YES@@U.CONJ-POSS.3ACC@+Use/NG+Err/Orth-e-not-oe+Inf+Px3+Acc:@U.CONJ-INF.YES@@U.CONJ-POSS.3ACC@%>нысэ VerbEnd_Comparison ;
 @U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@@U.CONJ-NX.PL@@U.CONJ-PX.3@+ConNeg+Pl3:@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@@U.CONJ-NX.PL@@U.CONJ-PX.3@%>ны VerbEnd ;
 @U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@+ConNeg:@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@ VerbEnd ;
 @U.CONJ-INF.NO@@U.CONJ-MX.IMP@@U.CONJ-NX.SG@@U.CONJ-PX.2@+Imprt+Sg2:@U.CONJ-INF.NO@@U.CONJ-MX.IMP@@U.CONJ-NX.SG@@U.CONJ-PX.2@ VerbEnd ;
@@ -450,11 +450,11 @@ LEXICON Finiteforms_КУТНЫ  !!≈ * **@CODE@** Gives linking vowels for 3 te
 LEXICON present
 @U.CONJ-MX.IND@@U.CONJ-TX.PRES@+Ind+Prs:@U.CONJ-MX.IND@@U.CONJ-TX.PRES@%>{ая} PresPret1 ; ! 1,2  Present
 @U.CONJ-MX.IND@@U.CONJ-TX.PRES@+Ind+Prs:@U.CONJ-MX.IND@@U.CONJ-TX.PRES@%>ӧ PresPret1_SgPl3 ; ! 3
-@U.CONJ-MX.IND@@U.CONJ-TX.PRES@+Ind+Prs+Use/NG+Err/Dial:@U.CONJ-MX.IND@@U.CONJ-TX.PRES@%>э PresPret1_SgPl3 ; ! 3
+@U.CONJ-MX.IND@@U.CONJ-TX.PRES@+Ind+Prs+Use/NG+Err/Orth-e-not-oe:@U.CONJ-MX.IND@@U.CONJ-TX.PRES@%>э PresPret1_SgPl3 ; ! 3
 
 !@U.CONJ-MX.IND@@U.CONJ-TX.PRES@+Ind+Prs:@U.CONJ-MX.IND@@U.CONJ-TX.PRES@%>ӧ PresPret1_SgPl3 ; ! 3
 @U.CONJ-MX.IND@@U.CONJ-TX.PRES@+Ind+Prs+Pl3+Use/NG+Err/Dial:@U.CONJ-MX.IND@@U.CONJ-TX.PRES@%>ӧныс K ; ! dialectal forms
-@U.CONJ-MX.IND@@U.CONJ-TX.PRES@+Ind+Prs+Pl3+Use/NG+Err/Dial:@U.CONJ-MX.IND@@U.CONJ-TX.PRES@%>эныс K ; ! dialectal forms
+@U.CONJ-MX.IND@@U.CONJ-TX.PRES@+Ind+Prs+Pl3+Use/NG+Err/Orth-e-not-oe:@U.CONJ-MX.IND@@U.CONJ-TX.PRES@%>эныс K ; ! dialectal forms
 
 LEXICON present_КЫЙНЫ
  present ;
@@ -496,9 +496,9 @@ LEXICON preterite
 
 LEXICON Pret2a_0
 @U.CONJ-MX.IND@@U.CONJ-TX.PRET2@+Ind+Prt2:@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@%>ӧм Pret2a ;
-@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@+Use/NG+Err/Dial+Ind+Prt2:@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@%>эм Pret2a ;
-@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@@U.CONJ-NX.PL@@U.CONJ-PX.1@+Use/NG+Err/Dial+Ind+Prt2+Pl1:@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@@U.CONJ-NX.PL@@U.CONJ-PX.1@%>эмаась VerbEnd_Comparison ;
-@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@@U.CONJ-NX.PL@@U.CONJ-PX.3@+Use/NG+Err/Dial+Ind+Prt2+Pl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@@U.CONJ-NX.PL@@U.CONJ-PX.3@%>эмаась VerbEnd_Comparison ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@+Use/NG+Err/Orth-e-not-oe+Ind+Prt2:@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@%>эм Pret2a ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@@U.CONJ-NX.PL@@U.CONJ-PX.1@+Use/NG+Err/Orth-e-not-oe+Ind+Prt2+Pl1:@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@@U.CONJ-NX.PL@@U.CONJ-PX.1@%>эмаась VerbEnd_Comparison ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@@U.CONJ-NX.PL@@U.CONJ-PX.3@+Use/NG+Err/Orth-e-not-oe+Ind+Prt2+Pl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@@U.CONJ-NX.PL@@U.CONJ-PX.3@%>эмаась VerbEnd_Comparison ;
 
 
 LEXICON preterite_КЫЙНЫ
@@ -520,7 +520,7 @@ LEXICON preterite_КУТНЫ
 
 LEXICON imperative
 @U.CONJ-MX.IMP@@U.CONJ-NX.PL@@U.CONJ-PX.2@+Imprt+Pl2:@U.CONJ-MX.IMP@@U.CONJ-NX.PL@@U.CONJ-PX.2@%>ӧй VerbEnd ;
-@U.CONJ-MX.IMP@@U.CONJ-NX.PL@@U.CONJ-PX.2@+Use/NG+Err/Dial+Imprt+Pl2:@U.CONJ-MX.IMP@@U.CONJ-NX.PL@@U.CONJ-PX.2@%>эй VerbEnd ;
+@U.CONJ-MX.IMP@@U.CONJ-NX.PL@@U.CONJ-PX.2@+Use/NG+Err/Orth-e-not-oe+Imprt+Pl2:@U.CONJ-MX.IMP@@U.CONJ-NX.PL@@U.CONJ-PX.2@%>эй VerbEnd ;
 
 !LEXICON PossessiveSuffixes
 !@U.PossPx.Sg1@+PxSg1:@U.PossPx.Sg1@%>ым VerbEnd ;
@@ -541,9 +541,9 @@ LEXICON PresPret1  ! First and second person
 @U.CONJ-NX.SG@@U.CONJ-PX.2@+Sg2:@U.CONJ-NX.SG@@U.CONJ-PX.2@%>н VerbEnd_Comparison ;
 @U.CONJ-NX.PL@@U.CONJ-PX.1@+Pl1:@U.CONJ-NX.PL@@U.CONJ-PX.1@%>м VerbEnd_Comparison ; 
 @U.CONJ-NX.PL@@U.CONJ-PX.1@+Pl1+Use/NG+Err/Orth:@U.CONJ-NX.PL@@U.CONJ-PX.1@%>мӧ VerbEnd_Comparison ; 
-@U.CONJ-NX.PL@@U.CONJ-PX.1@+Pl1+Use/NG+Err/Orth+Err/Dial:@U.CONJ-NX.PL@@U.CONJ-PX.1@%>ме VerbEnd_Comparison ; 
+@U.CONJ-NX.PL@@U.CONJ-PX.1@+Pl1+Use/NG+Err/Orth+Err/Orth-e-not-oe:@U.CONJ-NX.PL@@U.CONJ-PX.1@%>ме VerbEnd_Comparison ; 
 @U.CONJ-NX.PL@@U.CONJ-PX.1@+Pl1:@U.CONJ-NX.PL@@U.CONJ-PX.1@%>мӧй VerbEnd_Comparison ;  ! imperatiivi / optatiivi ??
-@U.CONJ-NX.PL@@U.CONJ-PX.1@+Pl1+Use/NG+Err/Dial:@U.CONJ-NX.PL@@U.CONJ-PX.1@%>мей VerbEnd_Comparison ;  ! imperatiivi / optatiivi ??
+@U.CONJ-NX.PL@@U.CONJ-PX.1@+Pl1+Use/NG+Err/Orth-e-not-oe:@U.CONJ-NX.PL@@U.CONJ-PX.1@%>мей VerbEnd_Comparison ;  ! imperatiivi / optatiivi ??
 @U.CONJ-NX.PL@@U.CONJ-PX.2@+Pl2:@U.CONJ-NX.PL@@U.CONJ-PX.2@%>нныд VerbEnd_Comparison ;
 @U.CONJ-NX.PL@@U.CONJ-PX.2@+Pl2+Use/NG+Err/Orth:@U.CONJ-NX.PL@@U.CONJ-PX.2@%>д VerbEnd_Comparison ; 
 
@@ -575,7 +575,7 @@ LEXICON PRET2PL2
 @U.CONJ-NX.SG@@U.CONJ-PX.2@+Sg2:@U.CONJ-NX.SG@@U.CONJ-PX.2@%>ыд VerbEnd_Comparison ;
 @U.CONJ-NX.PL@@U.CONJ-PX.2@+Pl2:@U.CONJ-NX.PL@@U.CONJ-PX.2@%>ныд VerbEnd_Comparison ;
 @U.CONJ-NX.PL@@U.CONJ-PX.2@+Pl2:@U.CONJ-NX.PL@@U.CONJ-PX.2@%>ныдӧсь VerbEnd_Comparison ; !224
-@U.CONJ-NX.PL@@U.CONJ-PX.2@+Pl2+Use/NG+Err/Dial:@U.CONJ-NX.PL@@U.CONJ-PX.2@%>ныдэсь VerbEnd_Comparison ; !224
+@U.CONJ-NX.PL@@U.CONJ-PX.2@+Pl2+Use/NG+Err/Orth-e-not-oe:@U.CONJ-NX.PL@@U.CONJ-PX.2@%>ныдэсь VerbEnd_Comparison ; !224
 @U.CONJ-NX.PL@@U.CONJ-PX.3@+Pl3:@U.CONJ-NX.PL@@U.CONJ-PX.3@%>ны VerbEnd_Comparison ; !227
 
 LEXICON PRET2-linkki-a
@@ -583,11 +583,11 @@ LEXICON PRET2-linkki-a
 @U.CONJ-NX.SG@@U.CONJ-PX.1@+Sg1:@U.CONJ-NX.SG@@U.CONJ-PX.1@ VerbEnd_Comparison ;  
 @U.CONJ-NX.SG@@U.CONJ-PX.3@+Sg3:@U.CONJ-NX.SG@@U.CONJ-PX.3@ VerbEnd_Comparison ;
 !+Pl1+Use/NG+Err/Orth:%>ӧсь VerbEnd_Comparison ; ! no Pl1 for Prt2 in the standard
-!+Pl1+Use/NG+Err/Orth+Err/Dial:%>эсь VerbEnd_Comparison ; ! no Pl1 for Prt2 in the standard
+!+Pl1+Use/NG+Err/Orth+Err/Orth-e-not-oe:%>эсь VerbEnd_Comparison ; ! no Pl1 for Prt2 in the standard
 @U.CONJ-NX.PL@@U.CONJ-PX.1@+Pl1:@U.CONJ-NX.PL@@U.CONJ-PX.1@%>ӧсь VerbEnd_Comparison ; 
 @U.CONJ-NX.PL@@U.CONJ-PX.3@+Pl3:@U.CONJ-NX.PL@@U.CONJ-PX.3@%>ӧсь VerbEnd_Comparison ;
-@U.CONJ-NX.PL@@U.CONJ-PX.1@+Pl1+Use/NG+Err/Dial:@U.CONJ-NX.PL@@U.CONJ-PX.1@%>эсь VerbEnd_Comparison ; 
-@U.CONJ-NX.PL@@U.CONJ-PX.3@+Pl3+Use/NG+Err/Dial:@U.CONJ-NX.PL@@U.CONJ-PX.3@%>эсь VerbEnd_Comparison ;
+@U.CONJ-NX.PL@@U.CONJ-PX.1@+Pl1+Use/NG+Err/Orth-e-not-oe:@U.CONJ-NX.PL@@U.CONJ-PX.1@%>эсь VerbEnd_Comparison ; 
+@U.CONJ-NX.PL@@U.CONJ-PX.3@+Pl3+Use/NG+Err/Orth-e-not-oe:@U.CONJ-NX.PL@@U.CONJ-PX.3@%>эсь VerbEnd_Comparison ;
 
 LEXICON MatrixVerb_Comparison
                K ;
@@ -691,11 +691,11 @@ LEXICON VerbDer_ONSET_Ӧ !!≈ * **@CODE@**
 +Der+Der/wm+Der/In+N:%>ӧм%>{иі}н N_ ;
 +Der+Der/wm+Der/In+N:%>ӧм%>тор N_PARAGOGIC_J ;
 
-+Use/NG+Err/Dial+Der+Der/NomAct+N:%>эм N_ ;! remove +Der/wm 2023-06-09
-+Use/NG+Err/Dial+Der+Der/wm+PastPtc:%>эм K ;
-+Use/NG+Err/Dial+Der+Der+Der/NomAct+Ger:%>эмпырысь K ;! remove +Der/wm 2023-06-09
-+Use/NG+Err/Dial+Der+Der/NomAct+N+Sg+Ins:%>эмен K ;! remove +Der/wm 2023-06-09
-+Use/NG+Err/Dial+Der+Der/wm+Der/In+N:%>эм%>{иі}н N_ ;
++Use/NG+Err/Orth-e-not-oe+Der+Der/NomAct+N:%>эм N_ ;! remove +Der/wm 2023-06-09
++Use/NG+Err/Orth-e-not-oe+Der+Der/wm+PastPtc:%>эм K ;
++Use/NG+Err/Orth-e-not-oe+Der+Der+Der/NomAct+Ger:%>эмпырысь K ;! remove +Der/wm 2023-06-09
++Use/NG+Err/Orth-e-not-oe+Der+Der/NomAct+N+Sg+Ins:%>эмен K ;! remove +Der/wm 2023-06-09
++Use/NG+Err/Orth-e-not-oe+Der+Der/wm+Der/In+N:%>эм%>{иі}н N_ ;
 
 +Der+Der/An+Der/In+N:%>{ая}н%>{иі}н N_ ;
 +Der+Der/An+Der/In+N:%>{ая}н%>тор N_PARAGOGIC_J ;
@@ -717,7 +717,7 @@ LEXICON VerbDer_ONSET_И/І !!≈ * **@CODE@**
 @U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl:@U.CONJ-GER.IG@%>{иі}гъяс K ;
 @U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ill:@U.CONJ-GER.IG@%>{иі}гъясӧ K ; !345
 @U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ine:@U.CONJ-GER.IG@%>{иі}гъясын K ; !OKK:50
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ill+Use/NG+Err/Dial:@U.CONJ-GER.IG@%>{иі}гъясэ K ; !345
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ill+Use/NG+Err/Orth-e-not-oe:@U.CONJ-GER.IG@%>{иі}гъясэ K ; !345
 @U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ill+PxSg1:@U.CONJ-GER.IG@%>{иі}гъясам K ;
 @U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ill+PxSg2:@U.CONJ-GER.IG@%>{иі}гъясад K ;
 @U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ill+PxSg3:@U.CONJ-GER.IG@%>{иі}гъясас K ;
@@ -725,17 +725,17 @@ LEXICON VerbDer_ONSET_И/І !!≈ * **@CODE@**
 @U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ill+PxPl2:@U.CONJ-GER.IG@%>{иі}гъясаныд K ;
 @U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ill+PxPl3:@U.CONJ-GER.IG@%>{иі}гъясаныс K ;
 @U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ins:@U.CONJ-GER.IG@%>{иі}гъясӧн K ;! 2000:359 
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ins+Use/NG+Err/Dial:@U.CONJ-GER.IG@%>{иі}гъясэн K ;! 2000:359 
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ins+Use/NG+Err/Orth-e-not-oe:@U.CONJ-GER.IG@%>{иі}гъясэн K ;! 2000:359 
                                            !And Marina 2011-10-05 no Px
 @U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill:@U.CONJ-GER.IG@%>{иі}гӧ K ;
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+Use/NG+Err/Dial:@U.CONJ-GER.IG@%>{иі}ге K ;
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+Use/NG+Err/Orth-e-not-oe:@U.CONJ-GER.IG@%>{иі}ге K ;
 @U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxSg1:@U.CONJ-GER.IG@%>{иі}гам K ;
 @U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxSg2:@U.CONJ-GER.IG@%>{иі}гад K ;
 @U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxSg3:@U.CONJ-GER.IG@%>{иі}гас K ;
 @U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxPl1:@U.CONJ-GER.IG@%>{иі}ганым K ;
 @U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxPl2:@U.CONJ-GER.IG@%>{иі}ганыд K ;
 @U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxPl3:@U.CONJ-GER.IG@%>{иі}ганыс K ;
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+Use/NG+Err/Dial:@U.CONJ-GER.IG@%>ыге K ;
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+Use/NG+Err/Orth-e-not-oe:@U.CONJ-GER.IG@%>ыге K ;
 @U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxSg1+Use/NG+Err/Dial:@U.CONJ-GER.IG@%>ыгам K ;
 @U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxSg2+Use/NG+Err/Dial:@U.CONJ-GER.IG@%>ыгад K ;
 @U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxSg3+Use/NG+Err/Dial:@U.CONJ-GER.IG@%>ыгас K ;
@@ -744,21 +744,21 @@ LEXICON VerbDer_ONSET_И/І !!≈ * **@CODE@**
 @U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxPl3+Use/NG+Err/Dial:@U.CONJ-GER.IG@%>ыганыс K ;
 @U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ins:@U.CONJ-GER.IG@%>{иі}гӧн PossessiveSuffixes_NoSg1 ; !Ӧнія коми кыв, 2000: 360
 !351 Pl
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ins+Use/NG+Err/Dial:@U.CONJ-GER.IG@%>{иі}ген PossessiveSuffixes_NoSg1 ; !2018-0129
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ins+Use/NG+Err/Orth-e-not-oe:@U.CONJ-GER.IG@%>{иі}ген PossessiveSuffixes_NoSg1 ; !2018-0129
 @U.CONJ-GER.IG@+Der+Der/IgonMoz+Ger:@U.CONJ-GER.IG@%>{иі}гӧн%>моз K ; !
-@U.CONJ-GER.IG@+Der+Der/IgonMoz+Ger+Use/NG+Err/Dial:@U.CONJ-GER.IG@%>{иі}ген%>моз K ; !
+@U.CONJ-GER.IG@+Der+Der/IgonMoz+Ger+Use/NG+Err/Orth-e-not-oe:@U.CONJ-GER.IG@%>{иі}ген%>моз K ; !
 @U.CONJ-GER.IG@+Der+Der/IgMoz+Ger:@U.CONJ-GER.IG@%>{иі}гмоз PossessiveSuffixes_NoSg1 ; !371
 @U.CONJ-GER.IG@+Der+Der/IgSor+Ger:@U.CONJ-GER.IG@%>{иі}гсор K ;
 @U.CONJ-GER.IG@+Der+Der/IgSor+Ger+Ins:@U.CONJ-GER.IG@%>{иі}гсорӧн K ;
-@U.CONJ-GER.IG@+Der+Der/IgSor+Ger+Ins+Use/NG+Err/Dial:@U.CONJ-GER.IG@%>{иі}гсорен K ;
+@U.CONJ-GER.IG@+Der+Der/IgSor+Ger+Ins+Use/NG+Err/Orth-e-not-oe:@U.CONJ-GER.IG@%>{иі}гсорен K ;
 @U.CONJ-GER.IG@+Der+Der/IgTyr+Ger:@U.CONJ-GER.IG@%>{иі}гтыр K ;
 @U.CONJ-GER.IG@+Der+Der/IgTyrji+Ger:@U.CONJ-GER.IG@%>{иі}гтырйи PossessiveSuffixes_NoSg1 ; !374
 @U.CONJ-GER.IG@+Der+Der/IgTyrja+Ger:@U.CONJ-GER.IG@%>{иі}гтыръя K ;
 @U.CONJ-GER.IG@+Der+Der/IgChozh+Ger:@U.CONJ-GER.IG@%>{иі}гчӧж PossessiveSuffixes_NoSg1 ; !377
 @U.CONJ-GER.IG@+Der+Der/IgChozh+Ger+Ins:@U.CONJ-GER.IG@%>{иі}гчӧжӧн K ; !
 
-@U.CONJ-GER.IG@+Der+Der/IgChozh+Ger+Use/NG+Err/Dial:@U.CONJ-GER.IG@%>{иі}гчеж PossessiveSuffixes_NoSg1 ; !377
-@U.CONJ-GER.IG@+Der+Der/IgChozh+Ger+Ins+Use/NG+Err/Dial:@U.CONJ-GER.IG@%>{иі}гчежен K ; !
+@U.CONJ-GER.IG@+Der+Der/IgChozh+Ger+Use/NG+Err/Orth-e-not-oe:@U.CONJ-GER.IG@%>{иі}гчеж PossessiveSuffixes_NoSg1 ; !377
+@U.CONJ-GER.IG@+Der+Der/IgChozh+Ger+Ins+Use/NG+Err/Orth-e-not-oe:@U.CONJ-GER.IG@%>{иі}гчежен K ; !
 @U.CONJ-GER.IG@+Der+Der/IgKosti+Ger:@U.CONJ-GER.IG@%>{иі}гкості PossessiveSuffixes_NoSg1 ; !352, 379
 @U.CONJ-GER.IG@+Der+Der/IgKosta+Ger:@U.CONJ-GER.IG@%>{иі}гкоста PossessiveSuffixes_NoSg1 ;
 @U.CONJ-GER.IG@+Der+Der/IgKezhlo+Ger:@U.CONJ-GER.IG@%>{иі}гкежлӧ K ; !393
@@ -851,14 +851,14 @@ LEXICON VerbDer_V
 +Der+Der/Adv+Adv+Ela+PxSg2:%>ӧм%>выв%>сьыд ADV_ ; !2091-06-03
 +Der+Der/Adv+Adv+Err/Dial+Ela+PxSg2:%>ӧм%>выл^C2V%>сьыд ADV_ ; !2091-06-03
 
-@U.CONJ-GER.VTER@+Use/NG+Err/Dial+VTer:@U.CONJ-GER.VTER@%>тэдз PossessiveSuffixes_NoSg1 ; !396
-@U.CONJ-GER.VMON@+Use/NG+Err/Dial+Der+Der/mwn:@U.CONJ-GER.VMON@%>мен PossessiveSuffixes_NoSg1 ; !399-403 REmove +Ger 2023-06-09
-+Use/NG+Err/Dial+Der+Der/mwnja:%>менъя WordEnd ; !399-403 REmove +Ger 2023-06-09
-+Use/NG+Err/Dial+Der+Der/Abe+A:%>тэм A_ ;
-@U.CONJ-GER.VCAR@+Use/NG+Err/Dial+VCar:@U.CONJ-GER.VCAR@%>тэг PossessiveSuffixes_NoSg1 ; ! 390
-+Use/NG+Err/Dial+Der+Car+Err/Orth+Ger:%>тэгъя K ; !387
-+Use/NG+Err/Dial+Der+Car+Err/Orth+Ger:%>тэга K ; !387
-@U.CONJ-GER.VCARMoz@+Use/NG+Err/Dial+Der+Car+Der/moz+Ger:@U.CONJ-GER.VCARMoz@%>тэгмоз PossessiveSuffixes_NoSg1 ; !
+@U.CONJ-GER.VTER@+Use/NG+Err/Orth-e-not-oe+VTer:@U.CONJ-GER.VTER@%>тэдз PossessiveSuffixes_NoSg1 ; !396
+@U.CONJ-GER.VMON@+Use/NG+Err/Orth-e-not-oe+Der+Der/mwn:@U.CONJ-GER.VMON@%>мен PossessiveSuffixes_NoSg1 ; !399-403 REmove +Ger 2023-06-09
++Use/NG+Err/Orth-e-not-oe+Der+Der/mwnja:%>менъя WordEnd ; !399-403 REmove +Ger 2023-06-09
++Use/NG+Err/Orth-e-not-oe+Der+Der/Abe+A:%>тэм A_ ;
+@U.CONJ-GER.VCAR@+Use/NG+Err/Orth-e-not-oe+VCar:@U.CONJ-GER.VCAR@%>тэг PossessiveSuffixes_NoSg1 ; ! 390
++Use/NG+Err/Orth-e-not-oe+Der+Car+Err/Orth+Ger:%>тэгъя K ; !387
++Use/NG+Err/Orth-e-not-oe+Der+Car+Err/Orth+Ger:%>тэга K ; !387
+@U.CONJ-GER.VCARMoz@+Use/NG+Err/Orth-e-not-oe+Der+Car+Der/moz+Ger:@U.CONJ-GER.VCARMoz@%>тэгмоз PossessiveSuffixes_NoSg1 ; !
 
 
 
@@ -871,7 +871,7 @@ LEXICON VerbDer_V
 LEXICON EM !!≈ * **@CODE@** эм:эм. Ending in -ӧсь.
 @U.CONJ-MX.IND@+Ind+Prs+Sg3:@U.CONJ-MX.IND@ WordEnd ;
 +Ind+Prs+Pl3:%>ӧсь K ; ! Plural predicative ;
-+Use/NG+Err/Dial+Ind+Prs+Pl3:%>эсь K ; ! Plural predicative ;
++Use/NG+Err/Orth-e-not-oe+Ind+Prs+Pl3:%>эсь K ; ! Plural predicative ;
 
 LEXICON EMYSHT ! эмышт "is a little / are a few"
 @U.CONJ-MX.IND@+Ind+Prs+Sg3:@U.CONJ-MX.IND@ WordEnd ;

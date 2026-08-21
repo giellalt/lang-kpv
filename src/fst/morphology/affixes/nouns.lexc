@@ -268,19 +268,20 @@ LEXICON CASEPOSSLEX_afterDerivation
 
 LEXICON CASEPOSSLEX_AFTERDERIVATION_CNS/END
 @U.DECL-CX.NOM@@U.DECL-PX.SG1@+Nom+PxSg1:@U.DECL-CX.NOM@@U.DECL-PX.SG1@%>ӧ WordEnd ;!2026-06-10
- NOM/MORPH_THEN_WORDEND ;
+! NOM/MORPH_THEN_WORDEND ;
+@U.DECL-CX.NOM@@D.DECL-PX@+Nom:@U.DECL-CX.NOM@@D.DECL-PX@ K ;
 !2020-10-23 remove ZERO +Acc: K ; !ZERO marker
 @U.DECL-CX.GEN@+Gen+MWN:@U.DECL-CX.GEN@%>лӧн CASEPOSSLEX_AFTERDERIVATION_CNS/END_MINUS_ZERO_END ; !Ellipsis OKK:2000:94
 	CASEPOSSLEX_AFTERDERIVATION_CNS/END_MINUS_ZERO_END ;
 LEXICON CASEPOSSLEX_AFTERDERIVATION_CNS/END_MINUS_ZERO_END
 @U.DECL-CX.GEN@+Gen:@U.DECL-CX.GEN@%>лӧн PredMonLex_Spat_Add_Morphology ;
-@U.DECL-CX.GEN@+Use/NG+Err/Dial+Gen:@U.DECL-CX.GEN@%>лэн K/COP_PL ;
-+Abl:%>лысь COMPARATIVE ;
+@U.DECL-CX.GEN@+Use/NG+Err/Orth-e-not-oe+Gen:@U.DECL-CX.GEN@%>лэн K/COP_PL ;
+@U.DECL-CX.ABL@+Abl:@U.DECL-CX.ABL@%>лысь COMPARATIVE ;
 @U.DECL-CX.DAT@+Dat:@U.DECL-CX.DAT@%>лы COMPARATIVE ;
 @U.DECL-CX.COM@+Com:@U.DECL-CX.COM@%>кӧд COMPARATIVE ;
-@U.DECL-CX.COM@+Use/NG+Err/Dial+Com:@U.DECL-CX.COM@%>кед COMPARATIVE ;
+@U.DECL-CX.COM@+Use/NG+Err/Orth-e-not-oe+Com:@U.DECL-CX.COM@%>кед COMPARATIVE ;
 @U.DECL-CX.CAR@+Car:@U.DECL-CX.CAR@%>тӧг K ;
-@U.DECL-CX.CAR@+Use/NG+Err/Dial+Car:@U.DECL-CX.CAR@%>тэг K ;
+@U.DECL-CX.CAR@+Use/NG+Err/Orth-e-not-oe+Car:@U.DECL-CX.CAR@%>тэг K ;
 @U.DECL-CX.CNS@+Cns:@U.DECL-CX.CNS@%>ла COMPARATIVE ;
 @U.DECL-CX.ABE@+Abe:@U.DECL-CX.ABE@%>тӧм SPAT_COMPARATIVE ;! Case 2021-04-04 adnominal modifiers
 @U.DECL-CX.LOC@+Loc:@U.DECL-CX.LOC@%>са SPAT_COMPARATIVE ;! Case 2021-04-04 adnominal modifiers
@@ -292,13 +293,13 @@ LEXICON CASEPOSSLEX_AFTERDERIVATION_CNS/END_MINUS_ZERO_END
 @U.DECL-CX.APRINE@+AprIne:@U.DECL-CX.APRINE@%>ланьын SPAT_COMPARATIVE ;  ! New cases in last grammar
 @U.DECL-CX.APRELA@+AprEla:@U.DECL-CX.APRELA@%>ланьысь SPAT_COMPARATIVE ;  !
 @U.DECL-CX.APRILL@+AprIll:@U.DECL-CX.APRILL@%>ланьӧ IllCompar ; !
-@U.DECL-CX.APRILL@+Use/NG+Err/Dial+AprIll:@U.DECL-CX.APRILL@%>лане IllCompar ; !
+@U.DECL-CX.APRILL@+Use/NG+Err/Orth-e-not-oe+AprIll:@U.DECL-CX.APRILL@%>лане IllCompar ; !
 @U.DECL-CX.APREGR@+AprEgr:@U.DECL-CX.APREGR@%>ланьсянь SPAT_COMPARATIVE ; !
 @U.DECL-CX.APRPRL@+AprPrl:@U.DECL-CX.APRPRL@%>ланьӧд SPAT_COMPARATIVE ; !
-@U.DECL-CX.APRPRL@+Use/NG+Err/Dial+AprPrl:@U.DECL-CX.APRPRL@%>ланед K ; !
+@U.DECL-CX.APRPRL@+Use/NG+Err/Orth-e-not-oe+AprPrl:@U.DECL-CX.APRPRL@%>ланед K ; !
 @U.DECL-CX.APRTRA@+AprTra:@U.DECL-CX.APRTRA@%>ланьті SPAT_COMPARATIVE ; !
 @U.DECL-CX.APRTER@+AprTer:@U.DECL-CX.APRTER@%>ланьӧдз K ; ! Tähän asti
-@U.DECL-CX.APRTER@+Use/NG+Err/Dial+AprTer:@U.DECL-CX.APRTER@%>ланедз K ; ! Tähän asti
+@U.DECL-CX.APRTER@+Use/NG+Err/Orth-e-not-oe+AprTer:@U.DECL-CX.APRTER@%>ланедз K ; ! Tähän asti
 !! SG1
  ACC_PXSG1/MORPH_THEN_WORDEND ;
 @U.DECL-CX.COM@@U.DECL-PX.SG1@+Com+PxSg1+So/PC:@U.DECL-CX.COM@@U.DECL-PX.SG1@%>ӧкӧд COMPARATIVE ;
@@ -311,17 +312,17 @@ LEXICON CASEPOSSLEX_AFTERDERIVATION_CNS/END_MINUS_ZERO_END
 @U.DECL-CX.APRELA@@U.DECL-PX.SG1@+AprEla+PxSg1+So/CP:@U.DECL-CX.APRELA@@U.DECL-PX.SG1@%>ланьсьым SPAT_COMPARATIVE ;
 @U.DECL-CX.APRILL@@U.DECL-PX.SG1@+AprIll+PxSg1+So/CP:@U.DECL-CX.APRILL@@U.DECL-PX.SG1@%>ланям IllCompar ; !
 @U.DECL-CX.APRPRL@@U.DECL-PX.SG1@+AprPrl+PxSg1+So/CP:@U.DECL-CX.APRPRL@@U.DECL-PX.SG1@%>ланьӧдым COMPARATIVE ;
-@U.DECL-CX.APRPRL@@U.DECL-PX.SG1@+Use/NG+Err/Dial+AprPrl+PxSg1+So/CP:@U.DECL-CX.APRPRL@@U.DECL-PX.SG1@%>ланедым K ;
+@U.DECL-CX.APRPRL@@U.DECL-PX.SG1@+Use/NG+Err/Orth-e-not-oe+AprPrl+PxSg1+So/CP:@U.DECL-CX.APRPRL@@U.DECL-PX.SG1@%>ланедым K ;
 @U.DECL-CX.APRTRA@@U.DECL-PX.SG1@+AprTra+PxSg1+So/CP:@U.DECL-CX.APRTRA@@U.DECL-PX.SG1@%>ланьтіым COMPARATIVE ;
 @U.DECL-CX.APRTER@@U.DECL-PX.SG1@+AprTer+PxSg1+So/CP:@U.DECL-CX.APRTER@@U.DECL-PX.SG1@%>ланьӧдзым K ;
-@U.DECL-CX.APRTER@@U.DECL-PX.SG1@+Use/NG+Err/Dial+AprTer+PxSg1+So/CP:@U.DECL-CX.APRTER@@U.DECL-PX.SG1@%>ланедзым K ;
+@U.DECL-CX.APRTER@@U.DECL-PX.SG1@+Use/NG+Err/Orth-e-not-oe+AprTer+PxSg1+So/CP:@U.DECL-CX.APRTER@@U.DECL-PX.SG1@%>ланедзым K ;
 
 !! SG2
 @U.DECL-CX.INS@@U.DECL-PX.SG2@+Ins+PxSg2+So/CP:@U.DECL-CX.INS@@U.DECL-PX.SG2@%>над COMPARATIVE ;
 @U.DECL-CX.CAR@@U.DECL-PX.SG2@+Car+PxSg2+So/CP:@U.DECL-CX.CAR@@U.DECL-PX.SG2@%>тӧгыд K ;
-@U.DECL-CX.CAR@@U.DECL-PX.SG2@+Use/NG+Err/Dial+Car+PxSg2+So/CP:@U.DECL-CX.CAR@@U.DECL-PX.SG2@%>тэгыд K ;
+@U.DECL-CX.CAR@@U.DECL-PX.SG2@+Use/NG+Err/Orth-e-not-oe+Car+PxSg2+So/CP:@U.DECL-CX.CAR@@U.DECL-PX.SG2@%>тэгыд K ;
 @U.DECL-CX.COM@@U.DECL-PX.SG2@+Com+PxSg2+So/CP:@U.DECL-CX.COM@@U.DECL-PX.SG2@%>кӧдыд COMPARATIVE ;
-@U.DECL-CX.COM@@U.DECL-PX.SG2@+Use/NG+Err/Dial+Com+PxSg2+So/CP:@U.DECL-CX.COM@@U.DECL-PX.SG2@%>кедыд K ;
+@U.DECL-CX.COM@@U.DECL-PX.SG2@+Use/NG+Err/Orth-e-not-oe+Com+PxSg2+So/CP:@U.DECL-CX.COM@@U.DECL-PX.SG2@%>кедыд K ;
 @U.DECL-CX.CMPR@@U.DECL-PX.SG2@+Cmpr+PxSg2+So/CP:@U.DECL-CX.CMPR@@U.DECL-PX.SG2@%>сяыд COMPARATIVE ;
 @U.DECL-CX.ELA@@U.DECL-PX.SG2@+Ela+PxSg2+So/CP:@U.DECL-CX.ELA@@U.DECL-PX.SG2@%>сьыд SPAT_COMPARATIVE ;
 @U.DECL-CX.APR@@U.DECL-PX.SG2@+Apr+PxSg2+So/CP:@U.DECL-CX.APR@@U.DECL-PX.SG2@%>ланьыд SPAT_COMPARATIVE ;
@@ -333,18 +334,18 @@ LEXICON CASEPOSSLEX_AFTERDERIVATION_CNS/END_MINUS_ZERO_END
 @U.DECL-CX.APRILL@@U.DECL-PX.SG2@+AprIll+PxSg2+So/CP:@U.DECL-CX.APRILL@@U.DECL-PX.SG2@%>ланяд IllCompar ; !
 @U.DECL-CX.APREGR@@U.DECL-PX.SG2@+AprEgr+PxSg2+So/CP:@U.DECL-CX.APREGR@@U.DECL-PX.SG2@%>ланьсяньыд SPAT_COMPARATIVE ;
 @U.DECL-CX.APRPRL@@U.DECL-PX.SG2@+AprPrl+PxSg2+So/CP:@U.DECL-CX.APRPRL@@U.DECL-PX.SG2@%>ланьӧдыд K ;
-@U.DECL-CX.APRPRL@@U.DECL-PX.SG2@+Use/NG+Err/Dial+AprPrl+PxSg2+So/CP:@U.DECL-CX.APRPRL@@U.DECL-PX.SG2@%>ланедыд K ;
+@U.DECL-CX.APRPRL@@U.DECL-PX.SG2@+Use/NG+Err/Orth-e-not-oe+AprPrl+PxSg2+So/CP:@U.DECL-CX.APRPRL@@U.DECL-PX.SG2@%>ланедыд K ;
 @U.DECL-CX.APRTRA@@U.DECL-PX.SG2@+AprTra+PxSg2+So/CP:@U.DECL-CX.APRTRA@@U.DECL-PX.SG2@%>ланьтіыд COMPARATIVE ;
 @U.DECL-CX.APRTER@@U.DECL-PX.SG2@+AprTer+PxSg2+So/CP:@U.DECL-CX.APRTER@@U.DECL-PX.SG2@%>ланьӧдзыд K ;
-@U.DECL-CX.APRTER@@U.DECL-PX.SG2@+Use/NG+Err/Dial+AprTer+PxSg2+So/CP:@U.DECL-CX.APRTER@@U.DECL-PX.SG2@%>ланедзыд K ;
+@U.DECL-CX.APRTER@@U.DECL-PX.SG2@+Use/NG+Err/Orth-e-not-oe+AprTer+PxSg2+So/CP:@U.DECL-CX.APRTER@@U.DECL-PX.SG2@%>ланедзыд K ;
 
 !! SG3
  ACC_PXSG3/MORPH_THEN_WORDEND ;
 @U.DECL-CX.INS@@U.DECL-PX.SG3@+Ins+PxSg3+So/CP:@U.DECL-CX.INS@@U.DECL-PX.SG3@%>нас COMPARATIVE ;
 @U.DECL-CX.CAR@@U.DECL-PX.SG3@+Car+PxSg3+So/CP:@U.DECL-CX.CAR@@U.DECL-PX.SG3@%>тӧгыс K ;
-@U.DECL-CX.CAR@@U.DECL-PX.SG3@+Use/NG+Err/Dial+Car+PxSg3+So/CP:@U.DECL-CX.CAR@@U.DECL-PX.SG3@%>тэгыс K ;
+@U.DECL-CX.CAR@@U.DECL-PX.SG3@+Use/NG+Err/Orth-e-not-oe+Car+PxSg3+So/CP:@U.DECL-CX.CAR@@U.DECL-PX.SG3@%>тэгыс K ;
 @U.DECL-CX.COM@@U.DECL-PX.SG3@+Com+PxSg3+So/CP:@U.DECL-CX.COM@@U.DECL-PX.SG3@%>кӧдыс COMPARATIVE ;
-@U.DECL-CX.COM@@U.DECL-PX.SG3@+Use/NG+Err/Dial+Com+PxSg3+So/CP:@U.DECL-CX.COM@@U.DECL-PX.SG3@%>кедыс K ;
+@U.DECL-CX.COM@@U.DECL-PX.SG3@+Use/NG+Err/Orth-e-not-oe+Com+PxSg3+So/CP:@U.DECL-CX.COM@@U.DECL-PX.SG3@%>кедыс K ;
 @U.DECL-CX.CMPR@@U.DECL-PX.SG3@+Cmpr+PxSg3+So/CP:@U.DECL-CX.CMPR@@U.DECL-PX.SG3@%>сяыс COMPARATIVE ;
 @U.DECL-CX.ELA@@U.DECL-PX.SG3@+Ela+PxSg3+So/CP:@U.DECL-CX.ELA@@U.DECL-PX.SG3@%>сьыс SPAT_COMPARATIVE ;
 @U.DECL-CX.APR@@U.DECL-PX.SG3@+Apr+PxSg3+So/CP:@U.DECL-CX.APR@@U.DECL-PX.SG3@%>ланьыс SPAT_COMPARATIVE ;
@@ -355,29 +356,29 @@ LEXICON CASEPOSSLEX_AFTERDERIVATION_CNS/END_MINUS_ZERO_END
 @U.DECL-CX.APRILL@@U.DECL-PX.SG3@+AprIll+PxSg3+So/CP:@U.DECL-CX.APRILL@@U.DECL-PX.SG3@%>ланяс IllCompar ; !
 @U.DECL-CX.APREGR@@U.DECL-PX.SG3@+AprEgr+PxSg3+So/CP:@U.DECL-CX.APREGR@@U.DECL-PX.SG3@%>ланьсяньыс SPAT_COMPARATIVE ;
 @U.DECL-CX.APRPRL@@U.DECL-PX.SG3@+AprPrl+PxSg3+So/CP:@U.DECL-CX.APRPRL@@U.DECL-PX.SG3@%>ланьӧдыс COMPARATIVE ;
-@U.DECL-CX.APRPRL@@U.DECL-PX.SG3@+Use/NG+Err/Dial+AprPrl+PxSg3+So/CP:@U.DECL-CX.APRPRL@@U.DECL-PX.SG3@%>ланедыс K ;
+@U.DECL-CX.APRPRL@@U.DECL-PX.SG3@+Use/NG+Err/Orth-e-not-oe+AprPrl+PxSg3+So/CP:@U.DECL-CX.APRPRL@@U.DECL-PX.SG3@%>ланедыс K ;
 @U.DECL-CX.APRTRA@@U.DECL-PX.SG3@+AprTra+PxSg3+So/CP:@U.DECL-CX.APRTRA@@U.DECL-PX.SG3@%>ланьтіыс COMPARATIVE ;
 @U.DECL-CX.APRTER@@U.DECL-PX.SG3@+AprTer+PxSg3+So/CP:@U.DECL-CX.APRTER@@U.DECL-PX.SG3@%>ланьӧдзыc K ;
-@U.DECL-CX.APRTER@@U.DECL-PX.SG3@+Use/NG+Err/Dial+AprTer+PxSg3+So/CP:@U.DECL-CX.APRTER@@U.DECL-PX.SG3@%>ланедзыc K ;
+@U.DECL-CX.APRTER@@U.DECL-PX.SG3@+Use/NG+Err/Orth-e-not-oe+AprTer+PxSg3+So/CP:@U.DECL-CX.APRTER@@U.DECL-PX.SG3@%>ланедзыc K ;
 @U.DECL-CX.CNS@@U.DECL-PX.SG3@+Cns+PxSg3+So/CP:@U.DECL-CX.CNS@@U.DECL-PX.SG3@%>лаыс COMPARATIVE ;
 
 !! PL1
 @U.DECL-CX.NOM@@U.DECL-PX.PL1@+Nom+PxPl1:@U.DECL-CX.NOM@@U.DECL-PX.PL1@%>ным COMPARATIVE ;
 @U.DECL-CX.NOM@@U.DECL-PX.PL1@+Nom+PxPl1+Use/NG+Err/Dial:@U.DECL-CX.NOM@@U.DECL-PX.PL1@%>нум COMPARATIVE ;
 @U.DECL-CX.GEN@@U.DECL-PX.PL1@+Gen+PxPl1+So/PC+So/PC:@U.DECL-CX.GEN@@U.DECL-PX.PL1@%>нымлӧн COMPARATIVE ;
-@U.DECL-CX.GEN@@U.DECL-PX.PL1@+Use/NG+Err/Dial+Gen+PxPl1+So/PC:@U.DECL-CX.GEN@@U.DECL-PX.PL1@%>нымлэн COMPARATIVE ;
+@U.DECL-CX.GEN@@U.DECL-PX.PL1@+Use/NG+Err/Orth-e-not-oe+Gen+PxPl1+So/PC:@U.DECL-CX.GEN@@U.DECL-PX.PL1@%>нымлэн COMPARATIVE ;
 @U.DECL-CX.ABL@@U.DECL-PX.PL1@+Abl+PxPl1+So/PC:@U.DECL-CX.ABL@@U.DECL-PX.PL1@%>нымлысь COMPARATIVE ;
 @U.DECL-CX.DAT@@U.DECL-PX.PL1@+Dat+PxPl1+So/PC:@U.DECL-CX.DAT@@U.DECL-PX.PL1@%>нымлы COMPARATIVE ;
  ACC_PXPL1/MORPH_THEN_WORDEND ;
 @U.DECL-CX.INS@@U.DECL-PX.PL1@+Ins+PxPl1+So/CP:@U.DECL-CX.INS@@U.DECL-PX.PL1@%>наным COMPARATIVE ;
 @U.DECL-CX.COM@@U.DECL-PX.PL1@+Com+PxPl1+So/PC:@U.DECL-CX.COM@@U.DECL-PX.PL1@%>нымкӧд COMPARATIVE ;
-@U.DECL-CX.COM@@U.DECL-PX.PL1@+Use/NG+Err/Dial+Com+PxPl1+So/PC:@U.DECL-CX.COM@@U.DECL-PX.PL1@%>нымкед COMPARATIVE ;
+@U.DECL-CX.COM@@U.DECL-PX.PL1@+Use/NG+Err/Orth-e-not-oe+Com+PxPl1+So/PC:@U.DECL-CX.COM@@U.DECL-PX.PL1@%>нымкед COMPARATIVE ;
 @U.DECL-CX.COM@@U.DECL-PX.PL1@+Com+PxPl1+So/CP:@U.DECL-CX.COM@@U.DECL-PX.PL1@%>кӧдным COMPARATIVE ;
-@U.DECL-CX.COM@@U.DECL-PX.PL1@+Use/NG+Err/Dial+Com+PxPl1+So/CP:@U.DECL-CX.COM@@U.DECL-PX.PL1@%>кедным COMPARATIVE ;
+@U.DECL-CX.COM@@U.DECL-PX.PL1@+Use/NG+Err/Orth-e-not-oe+Com+PxPl1+So/CP:@U.DECL-CX.COM@@U.DECL-PX.PL1@%>кедным COMPARATIVE ;
 @U.DECL-CX.CAR@@U.DECL-PX.PL1@+Car+PxPl1+So/CP:@U.DECL-CX.CAR@@U.DECL-PX.PL1@%>тӧгным K ; ! Case+Px
-@U.DECL-CX.CAR@@U.DECL-PX.PL1@+Use/NG+Err/Dial+Car+PxPl1+So/CP:@U.DECL-CX.CAR@@U.DECL-PX.PL1@%>тэгным K ; ! Case+Px
+@U.DECL-CX.CAR@@U.DECL-PX.PL1@+Use/NG+Err/Orth-e-not-oe+Car+PxPl1+So/CP:@U.DECL-CX.CAR@@U.DECL-PX.PL1@%>тэгным K ; ! Case+Px
 @U.DECL-CX.CAR@@U.DECL-PX.PL1@+Car+PxPl1+So/PC:@U.DECL-CX.CAR@@U.DECL-PX.PL1@%>нымтӧг K ; ! Px+Case
-@U.DECL-CX.CAR@@U.DECL-PX.PL1@+Use/NG+Err/Dial+Car+PxPl1+So/PC:@U.DECL-CX.CAR@@U.DECL-PX.PL1@%>нымтэг K ; ! Px+Case
+@U.DECL-CX.CAR@@U.DECL-PX.PL1@+Use/NG+Err/Orth-e-not-oe+Car+PxPl1+So/PC:@U.DECL-CX.CAR@@U.DECL-PX.PL1@%>нымтэг K ; ! Px+Case
 @U.DECL-CX.CNS@@U.DECL-PX.PL1@+Cns+PxPl1+So/PC:@U.DECL-CX.CNS@@U.DECL-PX.PL1@%>нымла COMPARATIVE ;
 @U.DECL-CX.CMPR@@U.DECL-PX.PL1@+Cmpr+PxPl1+So/CP:@U.DECL-CX.CMPR@@U.DECL-PX.PL1@%>сяным COMPARATIVE ;
 @U.DECL-CX.ELA@@U.DECL-PX.PL1@+Ela+PxPl1+So/CP:@U.DECL-CX.ELA@@U.DECL-PX.PL1@%>сьыным SPAT_COMPARATIVE ;
@@ -388,32 +389,32 @@ LEXICON CASEPOSSLEX_AFTERDERIVATION_CNS/END_MINUS_ZERO_END
 @U.DECL-CX.EGR@@U.DECL-PX.PL1@+Egr+PxPl1+So/PC:@U.DECL-CX.EGR@@U.DECL-PX.PL1@%>нымсянь SPAT_COMPARATIVE ; ! _ставнымсянь_  Px+Case
 @U.DECL-CX.TRA@@U.DECL-PX.PL1@+Tra+PxPl1+So/CP:@U.DECL-CX.TRA@@U.DECL-PX.PL1@%>тіным COMPARATIVE ;
 @U.DECL-CX.PRL@@U.DECL-PX.PL1@+Prl+PxPl1+So/PC:@U.DECL-CX.PRL@@U.DECL-PX.PL1@%>нымӧд K ; ! Px + Case туйнымӧд
-@U.DECL-CX.PRL@@U.DECL-PX.PL1@+Use/NG+Err/Dial+Prl+PxPl1+So/PC:@U.DECL-CX.PRL@@U.DECL-PX.PL1@%>нымед K ; ! Px + Case туйнымӧд
+@U.DECL-CX.PRL@@U.DECL-PX.PL1@+Use/NG+Err/Orth-e-not-oe+Prl+PxPl1+So/PC:@U.DECL-CX.PRL@@U.DECL-PX.PL1@%>нымед K ; ! Px + Case туйнымӧд
 
 @U.DECL-CX.APRINE@@U.DECL-PX.PL1@+AprIne+PxPl1+So/CP:@U.DECL-CX.APRINE@@U.DECL-PX.PL1@%>ланяным SPAT_COMPARATIVE ;
 @U.DECL-CX.APRELA@@U.DECL-PX.PL1@+AprEla+PxPl1+So/CP:@U.DECL-CX.APRELA@@U.DECL-PX.PL1@%>ланьсьыным SPAT_COMPARATIVE ;
 @U.DECL-CX.APRILL@@U.DECL-PX.PL1@+AprIll+PxPl1+So/CP:@U.DECL-CX.APRILL@@U.DECL-PX.PL1@%>ланяным IllCompar ; !
 @U.DECL-CX.APREGR@@U.DECL-PX.PL1@+AprEgr+PxPl1+So/CP:@U.DECL-CX.APREGR@@U.DECL-PX.PL1@%>ланьсяньным SPAT_COMPARATIVE ;
 @U.DECL-CX.APRPRL@@U.DECL-PX.PL1@+AprPrl+PxPl1+So/CP:@U.DECL-CX.APRPRL@@U.DECL-PX.PL1@%>ланьӧдным K ;
-@U.DECL-CX.APRPRL@@U.DECL-PX.PL1@+Use/NG+Err/Dial+AprPrl+PxPl1+So/CP:@U.DECL-CX.APRPRL@@U.DECL-PX.PL1@%>ланедным K ;
+@U.DECL-CX.APRPRL@@U.DECL-PX.PL1@+Use/NG+Err/Orth-e-not-oe+AprPrl+PxPl1+So/CP:@U.DECL-CX.APRPRL@@U.DECL-PX.PL1@%>ланедным K ;
 @U.DECL-CX.APRTRA@@U.DECL-PX.PL1@+AprTra+PxPl1+So/CP:@U.DECL-CX.APRTRA@@U.DECL-PX.PL1@%>ланьтіным COMPARATIVE ;
 @U.DECL-CX.APRTER@@U.DECL-PX.PL1@+AprTer+PxPl1+So/CP:@U.DECL-CX.APRTER@@U.DECL-PX.PL1@%>ланьӧдзным K ;
-@U.DECL-CX.APRTER@@U.DECL-PX.PL1@+Use/NG+Err/Dial+AprTer+PxPl1+So/CP:@U.DECL-CX.APRTER@@U.DECL-PX.PL1@%>ланедзным K ;
+@U.DECL-CX.APRTER@@U.DECL-PX.PL1@+Use/NG+Err/Orth-e-not-oe+AprTer+PxPl1+So/CP:@U.DECL-CX.APRTER@@U.DECL-PX.PL1@%>ланедзным K ;
 
 !! PL2
 @U.DECL-CX.NOM@@U.DECL-PX.PL2@+Nom+PxPl2:@U.DECL-CX.NOM@@U.DECL-PX.PL2@%>ныд COMPARATIVE ;
 @U.DECL-CX.GEN@@U.DECL-PX.PL2@+Gen+PxPl2+So/PC:@U.DECL-CX.GEN@@U.DECL-PX.PL2@%>ныдлӧн COMPARATIVE ;
-@U.DECL-CX.GEN@@U.DECL-PX.PL2@+Use/NG+Err/Dial+Gen+PxPl2+So/PC:@U.DECL-CX.GEN@@U.DECL-PX.PL2@%>ныдлэн COMPARATIVE ;
+@U.DECL-CX.GEN@@U.DECL-PX.PL2@+Use/NG+Err/Orth-e-not-oe+Gen+PxPl2+So/PC:@U.DECL-CX.GEN@@U.DECL-PX.PL2@%>ныдлэн COMPARATIVE ;
 @U.DECL-CX.ABL@@U.DECL-PX.PL2@+Abl+PxPl2+So/PC:@U.DECL-CX.ABL@@U.DECL-PX.PL2@%>ныдлысь COMPARATIVE ;
 @U.DECL-CX.DAT@@U.DECL-PX.PL2@+Dat+PxPl2+So/PC:@U.DECL-CX.DAT@@U.DECL-PX.PL2@%>ныдлы COMPARATIVE ;
  ACC_PXPL2/MORPH_THEN_WORDEND ;
 @U.DECL-CX.INS@@U.DECL-PX.PL2@+Ins+PxPl2+So/CP:@U.DECL-CX.INS@@U.DECL-PX.PL2@%>наныд COMPARATIVE ;
 @U.DECL-CX.COM@@U.DECL-PX.PL2@+Com+PxPl2+So/PC:@U.DECL-CX.COM@@U.DECL-PX.PL2@%>ныдкӧд COMPARATIVE ;
-@U.DECL-CX.COM@@U.DECL-PX.PL2@+Use/NG+Err/Dial+Com+PxPl2+So/PC:@U.DECL-CX.COM@@U.DECL-PX.PL2@%>ныдкед COMPARATIVE ;
+@U.DECL-CX.COM@@U.DECL-PX.PL2@+Use/NG+Err/Orth-e-not-oe+Com+PxPl2+So/PC:@U.DECL-CX.COM@@U.DECL-PX.PL2@%>ныдкед COMPARATIVE ;
 @U.DECL-CX.COM@@U.DECL-PX.PL2@+Com+PxPl2+So/CP:@U.DECL-CX.COM@@U.DECL-PX.PL2@%>кӧдныд COMPARATIVE ;
-@U.DECL-CX.COM@@U.DECL-PX.PL2@+Use/NG+Err/Dial+Com+PxPl2+So/CP:@U.DECL-CX.COM@@U.DECL-PX.PL2@%>кедныд COMPARATIVE ;
+@U.DECL-CX.COM@@U.DECL-PX.PL2@+Use/NG+Err/Orth-e-not-oe+Com+PxPl2+So/CP:@U.DECL-CX.COM@@U.DECL-PX.PL2@%>кедныд COMPARATIVE ;
 @U.DECL-CX.CAR@@U.DECL-PX.PL2@+Car+PxPl2+So/CP:@U.DECL-CX.CAR@@U.DECL-PX.PL2@%>тӧгныд K ;
-@U.DECL-CX.CAR@@U.DECL-PX.PL2@+Use/NG+Err/Dial+Car+PxPl2+So/CP:@U.DECL-CX.CAR@@U.DECL-PX.PL2@%>тэгныд K ;
+@U.DECL-CX.CAR@@U.DECL-PX.PL2@+Use/NG+Err/Orth-e-not-oe+Car+PxPl2+So/CP:@U.DECL-CX.CAR@@U.DECL-PX.PL2@%>тэгныд K ;
 @U.DECL-CX.CNS@@U.DECL-PX.PL2@+Cns+PxPl2+So/PC:@U.DECL-CX.CNS@@U.DECL-PX.PL2@%>ныдла COMPARATIVE ;
 @U.DECL-CX.CMPR@@U.DECL-PX.PL2@+Cmpr+PxPl2+So/CP:@U.DECL-CX.CMPR@@U.DECL-PX.PL2@%>сяныд COMPARATIVE ;
 @U.DECL-CX.ELA@@U.DECL-PX.PL2@+Ela+PxPl2+So/CP:@U.DECL-CX.ELA@@U.DECL-PX.PL2@%>сьыныд SPAT_COMPARATIVE ;
@@ -427,25 +428,25 @@ LEXICON CASEPOSSLEX_AFTERDERIVATION_CNS/END_MINUS_ZERO_END
 @U.DECL-CX.APRILL@@U.DECL-PX.PL2@+AprIll+PxPl2+So/CP:@U.DECL-CX.APRILL@@U.DECL-PX.PL2@%>ланяныд IllCompar ; !
 @U.DECL-CX.APREGR@@U.DECL-PX.PL2@+AprEgr+PxPl2+So/CP:@U.DECL-CX.APREGR@@U.DECL-PX.PL2@%>ланьсяньныд SPAT_COMPARATIVE ;
 @U.DECL-CX.APRPRL@@U.DECL-PX.PL2@+AprPrl+PxPl2+So/CP:@U.DECL-CX.APRPRL@@U.DECL-PX.PL2@%>ланьӧдныд K ;
-@U.DECL-CX.APRPRL@@U.DECL-PX.PL2@+Use/NG+Err/Dial+AprPrl+PxPl2+So/CP:@U.DECL-CX.APRPRL@@U.DECL-PX.PL2@%>ланедныд K ;
+@U.DECL-CX.APRPRL@@U.DECL-PX.PL2@+Use/NG+Err/Orth-e-not-oe+AprPrl+PxPl2+So/CP:@U.DECL-CX.APRPRL@@U.DECL-PX.PL2@%>ланедныд K ;
 @U.DECL-CX.APRTRA@@U.DECL-PX.PL2@+AprTra+PxPl2+So/CP:@U.DECL-CX.APRTRA@@U.DECL-PX.PL2@%>ланьтіныд COMPARATIVE ;
 @U.DECL-CX.APRTER@@U.DECL-PX.PL2@+AprTer+PxPl2+So/CP:@U.DECL-CX.APRTER@@U.DECL-PX.PL2@%>ланьӧдзныд K ;
-@U.DECL-CX.APRTER@@U.DECL-PX.PL2@+Use/NG+Err/Dial+AprTer+PxPl2+So/CP:@U.DECL-CX.APRTER@@U.DECL-PX.PL2@%>ланедзныд K ;
+@U.DECL-CX.APRTER@@U.DECL-PX.PL2@+Use/NG+Err/Orth-e-not-oe+AprTer+PxPl2+So/CP:@U.DECL-CX.APRTER@@U.DECL-PX.PL2@%>ланедзныд K ;
 
 !! PL3
 @U.DECL-CX.NOM@@U.DECL-PX.PL3@+Nom+PxPl3:@U.DECL-CX.NOM@@U.DECL-PX.PL3@%>ныс COMPARATIVE ;
 @U.DECL-CX.GEN@@U.DECL-PX.PL3@+Gen+PxPl3+So/PC:@U.DECL-CX.GEN@@U.DECL-PX.PL3@%>ныслӧн COMPARATIVE ; ! Px + Case
-@U.DECL-CX.GEN@@U.DECL-PX.PL3@+Use/NG+Err/Dial+Gen+PxPl3+So/PC:@U.DECL-CX.GEN@@U.DECL-PX.PL3@%>ныслэн COMPARATIVE ; ! Px + Case
+@U.DECL-CX.GEN@@U.DECL-PX.PL3@+Use/NG+Err/Orth-e-not-oe+Gen+PxPl3+So/PC:@U.DECL-CX.GEN@@U.DECL-PX.PL3@%>ныслэн COMPARATIVE ; ! Px + Case
 @U.DECL-CX.ABL@@U.DECL-PX.PL3@+Abl+PxPl3+So/PC:@U.DECL-CX.ABL@@U.DECL-PX.PL3@%>ныслысь COMPARATIVE ; ! Px + Case
 @U.DECL-CX.DAT@@U.DECL-PX.PL3@+Dat+PxPl3+So/PC:@U.DECL-CX.DAT@@U.DECL-PX.PL3@%>ныслы COMPARATIVE ; ! Px + Case
  ACC_PXPL3/MORPH_THEN_WORDEND ;
 @U.DECL-CX.INS@@U.DECL-PX.PL3@+Ins+PxPl3+So/CP:@U.DECL-CX.INS@@U.DECL-PX.PL3@%>наныс COMPARATIVE ;
 @U.DECL-CX.COM@@U.DECL-PX.PL3@+Com+PxPl3+So/PC:@U.DECL-CX.COM@@U.DECL-PX.PL3@%>ныскӧд COMPARATIVE ; ! Px + Case
-@U.DECL-CX.COM@@U.DECL-PX.PL3@+Use/NG+Err/Dial+Com+PxPl3+So/PC:@U.DECL-CX.COM@@U.DECL-PX.PL3@%>ныскед COMPARATIVE ; ! Px + Case
+@U.DECL-CX.COM@@U.DECL-PX.PL3@+Use/NG+Err/Orth-e-not-oe+Com+PxPl3+So/PC:@U.DECL-CX.COM@@U.DECL-PX.PL3@%>ныскед COMPARATIVE ; ! Px + Case
 @U.DECL-CX.COM@@U.DECL-PX.PL3@+Com+PxPl3+So/CP:@U.DECL-CX.COM@@U.DECL-PX.PL3@%>кӧдныс COMPARATIVE ; ! Px + Case
-@U.DECL-CX.COM@@U.DECL-PX.PL3@+Use/NG+Err/Dial+Com+PxPl3+So/CP:@U.DECL-CX.COM@@U.DECL-PX.PL3@%>кедныс COMPARATIVE ; ! Px + Case
+@U.DECL-CX.COM@@U.DECL-PX.PL3@+Use/NG+Err/Orth-e-not-oe+Com+PxPl3+So/CP:@U.DECL-CX.COM@@U.DECL-PX.PL3@%>кедныс COMPARATIVE ; ! Px + Case
 @U.DECL-CX.CAR@@U.DECL-PX.PL3@+Car+PxPl3+So/CP:@U.DECL-CX.CAR@@U.DECL-PX.PL3@%>тӧгныс K ;
-@U.DECL-CX.CAR@@U.DECL-PX.PL3@+Use/NG+Err/Dial+Car+PxPl3+So/CP:@U.DECL-CX.CAR@@U.DECL-PX.PL3@%>тэгныс K ;
+@U.DECL-CX.CAR@@U.DECL-PX.PL3@+Use/NG+Err/Orth-e-not-oe+Car+PxPl3+So/CP:@U.DECL-CX.CAR@@U.DECL-PX.PL3@%>тэгныс K ;
 @U.DECL-CX.CNS@@U.DECL-PX.PL3@+Cns+PxPl3+So/PC:@U.DECL-CX.CNS@@U.DECL-PX.PL3@%>нысла COMPARATIVE ; ! Px + Case
 @U.DECL-CX.CMPR@@U.DECL-PX.PL3@+Cmpr+PxPl3+So/CP:@U.DECL-CX.CMPR@@U.DECL-PX.PL3@%>сяныс COMPARATIVE ;
 @U.DECL-CX.ELA@@U.DECL-PX.PL3@+Ela+PxPl3+So/CP:@U.DECL-CX.ELA@@U.DECL-PX.PL3@%>сьыныс SPAT_COMPARATIVE ;
@@ -459,10 +460,10 @@ LEXICON CASEPOSSLEX_AFTERDERIVATION_CNS/END_MINUS_ZERO_END
 @U.DECL-CX.APRILL@@U.DECL-PX.PL3@+AprIll+PxPl3+So/CP:@U.DECL-CX.APRILL@@U.DECL-PX.PL3@%>ланяныс IllCompar ; !
 @U.DECL-CX.APREGR@@U.DECL-PX.PL3@+AprEgr+PxPl3+So/CP:@U.DECL-CX.APREGR@@U.DECL-PX.PL3@%>ланьсяньныс SPAT_COMPARATIVE ;
 @U.DECL-CX.APRPRL@@U.DECL-PX.PL3@+AprPrl+PxPl3+So/CP:@U.DECL-CX.APRPRL@@U.DECL-PX.PL3@%>ланьӧдныс K ;
-@U.DECL-CX.APRPRL@@U.DECL-PX.PL3@+Use/NG+Err/Dial+AprPrl+PxPl3+So/CP:@U.DECL-CX.APRPRL@@U.DECL-PX.PL3@%>ланедныс K ;
+@U.DECL-CX.APRPRL@@U.DECL-PX.PL3@+Use/NG+Err/Orth-e-not-oe+AprPrl+PxPl3+So/CP:@U.DECL-CX.APRPRL@@U.DECL-PX.PL3@%>ланедныс K ;
 @U.DECL-CX.APRTRA@@U.DECL-PX.PL3@+AprTra+PxPl3+So/CP:@U.DECL-CX.APRTRA@@U.DECL-PX.PL3@%>ланьтіныс COMPARATIVE ;
 @U.DECL-CX.APRTER@@U.DECL-PX.PL3@+AprTer+PxPl3+So/CP:@U.DECL-CX.APRTER@@U.DECL-PX.PL3@%>ланьӧдзныс K ;
-@U.DECL-CX.APRTER@@U.DECL-PX.PL3@+Use/NG+Err/Dial+AprTer+PxPl3+So/CP:@U.DECL-CX.APRTER@@U.DECL-PX.PL3@%>ланедзныс K ;
+@U.DECL-CX.APRTER@@U.DECL-PX.PL3@+Use/NG+Err/Orth-e-not-oe+AprTer+PxPl3+So/CP:@U.DECL-CX.APRTER@@U.DECL-PX.PL3@%>ланедзныс K ;
 
 LEXICON CASEPOSSLEX_AFTERDERIVATION_VOW
  CASEPOSSLEX_AFTERDERIVATION_А ;
@@ -511,20 +512,20 @@ LEXICON CASEPOSSLEX_AFTERDERIVATION_Я
 ! THIS FAR 2017-06-29 +Err/Dial
 LEXICON CASEPOSSLEX_AFTERDERIVATION_Ӧ
 @U.DECL-CX.ACC@+Acc:@U.DECL-CX.ACC@%>ӧс COMPARATIVE ;
-@U.DECL-CX.ACC@+Use/NG+Err/Dial+Acc:@U.DECL-CX.ACC@%>эс COMPARATIVE ;
+@U.DECL-CX.ACC@+Use/NG+Err/Orth-e-not-oe+Acc:@U.DECL-CX.ACC@%>эс COMPARATIVE ;
 @U.DECL-CX.INS@+Ins:@U.DECL-CX.INS@%>ӧн PredMonLex_Spat_Add_Morphology ;
-@U.DECL-CX.INS@+Use/NG+Err/Dial+Ins:@U.DECL-CX.INS@%>эн PredMonLex_Spat_Add_Morphology ;
+@U.DECL-CX.INS@+Use/NG+Err/Orth-e-not-oe+Ins:@U.DECL-CX.INS@%>эн PredMonLex_Spat_Add_Morphology ;
 @U.DECL-CX.INS@+Use/NG+Err/Dial+Ins:@U.DECL-CX.INS@%>^V1н PredMonLex_Spat_Add_Morphology ;
 @U.DECL-CX.INE@+Ine:@U.DECL-CX.INE@%>ын SPAT_COMPARATIVE ;
 @U.DECL-CX.ELA@+Ela:@U.DECL-CX.ELA@%>ысь SPAT_COMPARATIVE ;
 @U.DECL-CX.ILL@+Ill:@U.DECL-CX.ILL@%>ӧ IllCompar ;
-@U.DECL-CX.ILL@+Use/NG+Err/Dial+Ill:@U.DECL-CX.ILL@%>э IllCompar ;
+@U.DECL-CX.ILL@+Use/NG+Err/Orth-e-not-oe+Ill:@U.DECL-CX.ILL@%>э IllCompar ;
 @U.DECL-CX.ILL@+Use/NG+Err/Dial+Ill:@U.DECL-CX.ILL@%>^V1 IllCompar ; !этаа
 @U.DECL-CX.PRL@+Prl:@U.DECL-CX.PRL@%>ӧд COMPARATIVE ;
 @U.DECL-CX.TER@+Ter:@U.DECL-CX.TER@%>ӧдз K ;
-@U.DECL-CX.PRL@+Use/NG+Err/Dial+Prl:@U.DECL-CX.PRL@%>эд COMPARATIVE ;
-@U.DECL-CX.TER@+Use/NG+Err/Dial+Ter:@U.DECL-CX.TER@%>эдз K ;
-@U.DECL-CX.TER@+Use/NG+Err/Dial+Ter:@U.DECL-CX.TER@%>эдь K ;! ~ Izhma
+@U.DECL-CX.PRL@+Use/NG+Err/Orth-e-not-oe+Prl:@U.DECL-CX.PRL@%>эд COMPARATIVE ;
+@U.DECL-CX.TER@+Use/NG+Err/Orth-e-not-oe+Ter:@U.DECL-CX.TER@%>эдз K ;
+@U.DECL-CX.TER@+Use/NG+Err/Orth-e-not-oe+Ter:@U.DECL-CX.TER@%>эдь K ;! ~ Izhma
 
 !! SG1
  ABL_PXSG1_SOPC/MORPH_THEN_K ;
@@ -543,62 +544,190 @@ LEXICON CASEPOSSLEX_AFTERDERIVATION_Ӧ
 @U.DECL-CX.EGR@@U.DECL-PX.SG1@+Egr+PxSg1+So/PC:@U.DECL-CX.EGR@@U.DECL-PX.SG1@%>ӧйсянь SPAT_COMPARATIVE ;
 @U.DECL-CX.APREGR@@U.DECL-PX.SG1@+AprEgr+PxSg1+So/PC:@U.DECL-CX.APREGR@@U.DECL-PX.SG1@%>ӧйланьсянь SPAT_COMPARATIVE ;
 
-@U.DECL-CX.ACC@@U.DECL-PX.SG1@+Use/NG+Err/Dial+Acc+PxSg1:@U.DECL-CX.ACC@@U.DECL-PX.SG1@%>эс COMPARATIVE ;
-@U.DECL-CX.APR@@U.DECL-PX.SG1@+Use/NG+Err/Dial+Apr+PxSg1+So/PC:@U.DECL-CX.APR@@U.DECL-PX.SG1@%>эйлань SPAT_COMPARATIVE ;
-@U.DECL-CX.EGR@@U.DECL-PX.SG1@+Use/NG+Err/Dial+Egr+PxSg1+So/PC:@U.DECL-CX.EGR@@U.DECL-PX.SG1@%>эйсянь SPAT_COMPARATIVE ;
-@U.DECL-CX.APREGR@@U.DECL-PX.SG1@+Use/NG+Err/Dial+AprEgr+PxSg1+So/PC:@U.DECL-CX.APREGR@@U.DECL-PX.SG1@%>эйланьсянь SPAT_COMPARATIVE ;
+@U.DECL-CX.ACC@@U.DECL-PX.SG1@+Use/NG+Err/Orth-e-not-oe+Acc+PxSg1:@U.DECL-CX.ACC@@U.DECL-PX.SG1@%>эс COMPARATIVE ;
+@U.DECL-CX.APR@@U.DECL-PX.SG1@+Use/NG+Err/Orth-e-not-oe+Apr+PxSg1+So/PC:@U.DECL-CX.APR@@U.DECL-PX.SG1@%>эйлань SPAT_COMPARATIVE ;
+@U.DECL-CX.EGR@@U.DECL-PX.SG1@+Use/NG+Err/Orth-e-not-oe+Egr+PxSg1+So/PC:@U.DECL-CX.EGR@@U.DECL-PX.SG1@%>эйсянь SPAT_COMPARATIVE ;
+@U.DECL-CX.APREGR@@U.DECL-PX.SG1@+Use/NG+Err/Orth-e-not-oe+AprEgr+PxSg1+So/PC:@U.DECL-CX.APREGR@@U.DECL-PX.SG1@%>эйланьсянь SPAT_COMPARATIVE ;
 
 !! SG2
 @U.DECL-CX.NOM@@U.DECL-PX.SG2@+Nom+PxSg2:@U.DECL-CX.NOM@@U.DECL-PX.SG2@%>ыд K ;
 @U.DECL-CX.GEN@@U.DECL-PX.SG2@+Gen+PxSg2+So/PC:@U.DECL-CX.GEN@@U.DECL-PX.SG2@%>ыдлӧн K ;
-@U.DECL-CX.GEN@@U.DECL-PX.SG2@+Use/NG+Err/Dial+Gen+PxSg2+So/PC:@U.DECL-CX.GEN@@U.DECL-PX.SG2@%>ыдлэн K ;
+@U.DECL-CX.GEN@@U.DECL-PX.SG2@+Use/NG+Err/Orth-e-not-oe+Gen+PxSg2+So/PC:@U.DECL-CX.GEN@@U.DECL-PX.SG2@%>ыдлэн K ;
 @U.DECL-CX.ABL@@U.DECL-PX.SG2@+Abl+PxSg2+So/PC:@U.DECL-CX.ABL@@U.DECL-PX.SG2@%>ыдлысь K ;
 @U.DECL-CX.DAT@@U.DECL-PX.SG2@+Dat+PxSg2+So/PC:@U.DECL-CX.DAT@@U.DECL-PX.SG2@%>ыдлы K ;
 @U.DECL-CX.CAR@@U.DECL-PX.SG2@+Car+PxSg2+So/PC:@U.DECL-CX.CAR@@U.DECL-PX.SG2@%>ыдтӧг K ; ! Px + Case
-@U.DECL-CX.CAR@@U.DECL-PX.SG2@+Use/NG+Err/Dial+Car+PxSg2+So/PC:@U.DECL-CX.CAR@@U.DECL-PX.SG2@%>ыдтэг K ; ! Px + Case
+@U.DECL-CX.CAR@@U.DECL-PX.SG2@+Use/NG+Err/Orth-e-not-oe+Car+PxSg2+So/PC:@U.DECL-CX.CAR@@U.DECL-PX.SG2@%>ыдтэг K ; ! Px + Case
 @U.DECL-CX.EGR@@U.DECL-PX.SG2@+Egr+PxSg2+So/PC:@U.DECL-CX.EGR@@U.DECL-PX.SG2@%>ыдсянь K ; ! Px + Case Ильяыдсянь
 @U.DECL-CX.COM@@U.DECL-PX.SG2@+Com+PxSg2+So/PC:@U.DECL-CX.COM@@U.DECL-PX.SG2@%>ыдкӧд K ;
-@U.DECL-CX.COM@@U.DECL-PX.SG2@+Use/NG+Err/Dial+Com+PxSg2+So/PC:@U.DECL-CX.COM@@U.DECL-PX.SG2@%>ыдкед K ;
+@U.DECL-CX.COM@@U.DECL-PX.SG2@+Use/NG+Err/Orth-e-not-oe+Com+PxSg2+So/PC:@U.DECL-CX.COM@@U.DECL-PX.SG2@%>ыдкед K ;
 @U.DECL-CX.CNS@@U.DECL-PX.SG2@+Cns+PxSg2+So/PC:@U.DECL-CX.CNS@@U.DECL-PX.SG2@%>ыдла K ;
 @U.DECL-CX.PRL@@U.DECL-PX.SG2@+Prl+PxSg2+So/CP:@U.DECL-CX.PRL@@U.DECL-PX.SG2@%>ӧдыд K ;
 @U.DECL-CX.TER@@U.DECL-PX.SG2@+Ter+PxSg2+So/CP:@U.DECL-CX.TER@@U.DECL-PX.SG2@%>ӧдзыд K ;
-@U.DECL-CX.PRL@@U.DECL-PX.SG2@+Use/NG+Err/Dial+Prl+PxSg2+So/CP:@U.DECL-CX.PRL@@U.DECL-PX.SG2@%>эдыд K ;
-@U.DECL-CX.TER@@U.DECL-PX.SG2@+Use/NG+Err/Dial+Ter+PxSg2+So/CP:@U.DECL-CX.TER@@U.DECL-PX.SG2@%>эдзыд K ;
+@U.DECL-CX.PRL@@U.DECL-PX.SG2@+Use/NG+Err/Orth-e-not-oe+Prl+PxSg2+So/CP:@U.DECL-CX.PRL@@U.DECL-PX.SG2@%>эдыд K ;
+@U.DECL-CX.TER@@U.DECL-PX.SG2@+Use/NG+Err/Orth-e-not-oe+Ter+PxSg2+So/CP:@U.DECL-CX.TER@@U.DECL-PX.SG2@%>эдзыд K ;
 
 !! SG3
 @U.DECL-CX.NOM@@U.DECL-PX.SG3@+Nom+PxSg3:@U.DECL-CX.NOM@@U.DECL-PX.SG3@%>ыс K ;
 @U.DECL-CX.GEN@@U.DECL-PX.SG3@+Gen+PxSg3+So/PC:@U.DECL-CX.GEN@@U.DECL-PX.SG3@%>ыслӧн K ;
-@U.DECL-CX.GEN@@U.DECL-PX.SG3@+Use/NG+Err/Dial+Gen+PxSg3+So/PC:@U.DECL-CX.GEN@@U.DECL-PX.SG3@%>ыслэн K ;
+@U.DECL-CX.GEN@@U.DECL-PX.SG3@+Use/NG+Err/Orth-e-not-oe+Gen+PxSg3+So/PC:@U.DECL-CX.GEN@@U.DECL-PX.SG3@%>ыслэн K ;
 @U.DECL-CX.ABL@@U.DECL-PX.SG3@+Abl+PxSg3+So/PC:@U.DECL-CX.ABL@@U.DECL-PX.SG3@%>ыслысь K ;
 @U.DECL-CX.DAT@@U.DECL-PX.SG3@+Dat+PxSg3+So/PC:@U.DECL-CX.DAT@@U.DECL-PX.SG3@%>ыслы K ;
 @U.DECL-CX.COM@@U.DECL-PX.SG3@+Com+PxSg3+So/PC:@U.DECL-CX.COM@@U.DECL-PX.SG3@%>ыскӧд K ;
-@U.DECL-CX.COM@@U.DECL-PX.SG3@+Use/NG+Err/Dial+Com+PxSg3+So/PC:@U.DECL-CX.COM@@U.DECL-PX.SG3@%>ыскед K ;
+@U.DECL-CX.COM@@U.DECL-PX.SG3@+Use/NG+Err/Orth-e-not-oe+Com+PxSg3+So/PC:@U.DECL-CX.COM@@U.DECL-PX.SG3@%>ыскед K ;
 @U.DECL-CX.CNS@@U.DECL-PX.SG3@+Cns+PxSg3+So/PC:@U.DECL-CX.CNS@@U.DECL-PX.SG3@%>ысла K ;
 @U.DECL-CX.PRL@@U.DECL-PX.SG3@+Prl+PxSg3+So/CP:@U.DECL-CX.PRL@@U.DECL-PX.SG3@%>ӧдыс K ;
 @U.DECL-CX.TER@@U.DECL-PX.SG3@+Ter+PxSg3+So/CP:@U.DECL-CX.TER@@U.DECL-PX.SG3@%>ӧдзыс K ;
-@U.DECL-CX.PRL@@U.DECL-PX.SG3@+Use/NG+Err/Dial+Prl+PxSg3+So/CP:@U.DECL-CX.PRL@@U.DECL-PX.SG3@%>эдыс K ;
-@U.DECL-CX.TER@@U.DECL-PX.SG3@+Use/NG+Err/Dial+Ter+PxSg3+So/CP:@U.DECL-CX.TER@@U.DECL-PX.SG3@%>эдзыс K ;
+@U.DECL-CX.PRL@@U.DECL-PX.SG3@+Use/NG+Err/Orth-e-not-oe+Prl+PxSg3+So/CP:@U.DECL-CX.PRL@@U.DECL-PX.SG3@%>эдыс K ;
+@U.DECL-CX.TER@@U.DECL-PX.SG3@+Use/NG+Err/Orth-e-not-oe+Ter+PxSg3+So/CP:@U.DECL-CX.TER@@U.DECL-PX.SG3@%>эдзыс K ;
 
 !! PL1
 @U.DECL-CX.PRL@@U.DECL-PX.PL1@+Prl+PxPl1+So/CP:@U.DECL-CX.PRL@@U.DECL-PX.PL1@%>ӧдным K ;
 @U.DECL-CX.TER@@U.DECL-PX.PL1@+Ter+PxPl1+So/CP:@U.DECL-CX.TER@@U.DECL-PX.PL1@%>ӧдзным K ;
-@U.DECL-CX.PRL@@U.DECL-PX.PL1@+Use/NG+Err/Dial+Prl+PxPl1+So/CP:@U.DECL-CX.PRL@@U.DECL-PX.PL1@%>эдным K ;
-@U.DECL-CX.TER@@U.DECL-PX.PL1@+Use/NG+Err/Dial+Ter+PxPl1+So/CP:@U.DECL-CX.TER@@U.DECL-PX.PL1@%>эдзным K ;
+@U.DECL-CX.PRL@@U.DECL-PX.PL1@+Use/NG+Err/Orth-e-not-oe+Prl+PxPl1+So/CP:@U.DECL-CX.PRL@@U.DECL-PX.PL1@%>эдным K ;
+@U.DECL-CX.TER@@U.DECL-PX.PL1@+Use/NG+Err/Orth-e-not-oe+Ter+PxPl1+So/CP:@U.DECL-CX.TER@@U.DECL-PX.PL1@%>эдзным K ;
 
 !! PL2
 @U.DECL-CX.PRL@@U.DECL-PX.PL2@+Prl+PxPl2+So/CP:@U.DECL-CX.PRL@@U.DECL-PX.PL2@%>ӧдныд K ;
 @U.DECL-CX.TER@@U.DECL-PX.PL2@+Ter+PxPl2+So/CP:@U.DECL-CX.TER@@U.DECL-PX.PL2@%>ӧдзныд K ;
-@U.DECL-CX.PRL@@U.DECL-PX.PL2@+Use/NG+Err/Dial+Prl+PxPl2+So/CP:@U.DECL-CX.PRL@@U.DECL-PX.PL2@%>эдныд K ;
-@U.DECL-CX.TER@@U.DECL-PX.PL2@+Use/NG+Err/Dial+Ter+PxPl2+So/CP:@U.DECL-CX.TER@@U.DECL-PX.PL2@%>эдзныд K ;
+@U.DECL-CX.PRL@@U.DECL-PX.PL2@+Use/NG+Err/Orth-e-not-oe+Prl+PxPl2+So/CP:@U.DECL-CX.PRL@@U.DECL-PX.PL2@%>эдныд K ;
+@U.DECL-CX.TER@@U.DECL-PX.PL2@+Use/NG+Err/Orth-e-not-oe+Ter+PxPl2+So/CP:@U.DECL-CX.TER@@U.DECL-PX.PL2@%>эдзныд K ;
 
 !! PL3
 @U.DECL-CX.PRL@@U.DECL-PX.PL3@+Prl+PxPl3+So/CP:@U.DECL-CX.PRL@@U.DECL-PX.PL3@%>ӧдныс K ;
 @U.DECL-CX.TER@@U.DECL-PX.PL3@+Ter+PxPl3+So/CP:@U.DECL-CX.TER@@U.DECL-PX.PL3@%>ӧдзныс K ;
-@U.DECL-CX.PRL@@U.DECL-PX.PL3@+Use/NG+Err/Dial+Prl+PxPl3+So/CP:@U.DECL-CX.PRL@@U.DECL-PX.PL3@%>эдныс K ;
-@U.DECL-CX.TER@@U.DECL-PX.PL3@+Use/NG+Err/Dial+Ter+PxPl3+So/CP:@U.DECL-CX.TER@@U.DECL-PX.PL3@%>эдзныс K ;
+@U.DECL-CX.PRL@@U.DECL-PX.PL3@+Use/NG+Err/Orth-e-not-oe+Prl+PxPl3+So/CP:@U.DECL-CX.PRL@@U.DECL-PX.PL3@%>эдныс K ;
+@U.DECL-CX.TER@@U.DECL-PX.PL3@+Use/NG+Err/Orth-e-not-oe+Ter+PxPl3+So/CP:@U.DECL-CX.TER@@U.DECL-PX.PL3@%>эдзныс K ;
 
 
 !! ## Case
+
+LEXICON ABL_K
++Abl:лысь K ;
+
+LEXICON ABL_PX_SO/CP_K
++Abl+PxSg2:ыдлысь K ;
++Abl+PxSg3:ыслысь K ;
++Abl+PxPl1:нымлысь K ;
++Abl+PxPl2:ныдлысь K ;
++Abl+PxPl3:ныслысь K ;
+
+LEXICON ACC_K
++Acc:%>ӧс K ;
++Acc+Err/Orth-e-not-oe:%>эс K ;
+!+Acc+Err/Orth-e-not-oe:%>эс COMPARATIVE ;
+
+LEXICON ACC_PX_SO/CP_K
+!Only K No COMPARATIVE = dzhyk/kodj/moz
+!+Acc+PxSg2:тӧ COMPARATIVE ;
++Acc+PxSg2:тӧ K ;
++Acc+PxSg2+Err/Orth-e-not-oe:тэ K ;
++Acc+PxSg3:сӧ K ;
++Acc+PxSg3+Err/Orth-e-not-oe:сэ K ;
++Acc+PxPl1:нымӧс K ;
++Acc+PxPl1+Err/Orth-e-not-oe:нумес K ;
++Acc+PxPl2:нытӧ K ;
++Acc+PxPl2+Err/Orth-e-not-oe:нытэ K ;
++Acc+PxPl3:ныссӧ K ;
++Acc+PxPl3+Err/Orth-e-not-oe:ныссэ K ;
++Acc+PxPl3:нысӧ K ;
++Acc+PxPl3+Err/Orth-e-not-oe:нысэ K ;
+
+LEXICON CAR_K
++Car:тӧг K ;
++Car+Err/Orth-e-not-oe:тэг K ;
+LEXICON CAR_PX_SO/CP_K
++Car+PxSg2+So/CP:тӧг»ыд K ;
++Car+PxSg2+So/CP+Err/Orth-e-not-oe:тэг»ыд K ;
++Car+PxSg3+So/CP:тӧг»ыс K ;
++Car+PxSg3+So/CP+Err/Orth-e-not-oe:тэг»ыс K ;
++Car+PxPl3+So/CP:тӧг»ыс K ;
++Car+PxPl3+So/CP+Err/Orth-e-not-oe:тэг»ыс K ;
+
+LEXICON COM_K
++Com:кӧд K ;
++Com+Err/Orth-e-not-oe:кед K ;
+
+LEXICON COM_PX_SO/CP_K
++Com+PxSg2+So/PC:ыд»кӧд K ;
++Com+PxSg2+So/PC+Err/Orth-e-not-oe:ыд»кед K ;
++Com+PxSg3+So/PC:ыс»кӧд K ;
++Com+PxSg3+So/PC+Err/Orth-e-not-oe:ыс»кед K ;
++Com+PxPl2+So/PC:ныд»кӧд K ;
++Com+PxPl2+So/PC+Err/Orth-e-not-oe:ныд»кед K ;
++Com+PxPl3+So/PC:ныс»кӧд K ;
++Com+PxPl3+So/PC+Err/Orth-e-not-oe:ныс»кед K ;
+
+LEXICON DAT_K
++Dat:лы K ;
+
+LEXICON DAT_PX_SO/CP_K
+! ONLY K No COMPARATIVE
++Dat+PxSg2+So/PC:ыд»лы K ;
++Dat+PxSg3+So/PC:ыс»лы K ;
++Dat+PxPl1+So/PC:ным»лы K ;
++Dat+PxPl2+So/PC:ныд»лы K ;
++Dat+PxPl3+So/PC:ныс»лы K ;
+
+LEXICON EGR_K
++Egr:сянь K ;
+LEXICON EGR_PX_SO/CP_K
++Egr+PxSg2+So/CP:сянь»ыд K ;
++Egr+PxSg3+So/CP:сянь»ыс K ;
++Egr+PxPl1+So/CP:сянь»ным K ;
++Egr+PxPl2+So/CP:сянь»ныд K ;
++Egr+PxPl3+So/CP:сянь»ныс K ;
+
+LEXICON ELA_K
++Ela:ысь K ;
+LEXICON ELA_PX_SO/CP_K
++Ela+PxSg2+So/CP:сь»ыд K ;
++Ela+PxSg3+So/CP:сь»ыс K ;
++Ela+PxPl1+So/CP:сь»ыным K ;
++Ela+PxPl2+So/CP:сь»ыныд K ;
++Ela+PxPl3+So/CP:сь»ыныс K ;
+
+LEXICON GEN_K
++Gen:лӧн K ;
++Gen+Err/Orth-e-not-oe:лэн K ;
+LEXICON GEN_PX_SO/CP_K
++Gen+PxSg2+So/PC:ыд»лӧн K ;
++Gen+PxSg2+So/PC+Err/Orth-e-not-oe:ыд»лэн K ;
++Gen+PxSg3+So/PC:ыс»лӧн K ;
++Gen+PxSg3+So/PC+Err/Orth-e-not-oe:ыс»лэн K ;
++Gen+PxPl1+So/PC:ным»лӧн K ;
++Gen+PxPl1+So/PC+Err/Orth-e-not-oe:ным»лэн K ;
++Gen+PxPl2+So/PC:ныд»лӧн K ;
++Gen+PxPl2+So/PC+Err/Orth-e-not-oe:ныд»лэн K ;
++Gen+PxPl3+So/PC:ныс»лӧн K ;
++Gen+PxPl3+So/PC+Err/Orth-e-not-oe:ныс»лэн K ;
+
+LEXICON ILL_K
++Ill:ӧ K ;
+LEXICON ILL_PX_SO/CP_K
++Ill+PxSg3:ас K ; ! Here is a good problem: Should there be a special tag
+                ! for the illative-inessive forms
++Ill+PxPl1+So/CP:а»ным K ;
++Ill+PxPl2+So/CP:а»ныд K ;
++Ill+PxPl3+So/CP:а»ныс K ;
+
+LEXICON INE_K
++Ine:ын K ;
+LEXICON INE_PX_SO/CP_K
++Ine+PxPl1+So/CP:а»ным K ;
++Ine+PxPl2+So/CP:а»ныд K ;
++Ine+PxPl3+So/CP:а»ныс K ;
+
+LEXICON INS_K
++Ins:%>ӧн K ;
++Ins+Err/Orth-e-not-oe:%>эн K ;
+
+LEXICON INS_PX_SO/CP_K
++Ins+PxSg2+So/CP:на»д K ;!not documented 2026-08-20
++Ins+PxSg3+So/CP:на»с K ;
++Ins+PxPl1+So/CP:на»ным K ;
++Ins+PxPl2+So/CP:на»ныд K ;
++Ins+PxPl3+So/CP:на»ныс K ;
+
 
 !LEXICON Noun1_IS_INE
 !+Ine: SPAT_COMPARATIVE ;
@@ -637,7 +766,7 @@ LEXICON PredMonLex_Spat_Add_Morphology ! This allows consistency
 +Comp:%>джык K/COP_PL ; !ывлаынджык OR ывлаынджыкӧсь
 +Comp+Err/Dial:%>дзык K/COP_PL ; !ывлаынджык OR ывлаынджыкӧсь
 +Comp+Use/NG+Err/Orth:%>ӧсь%>джык%>ӧсь K ; !ывлаынӧсьджыкӧсь
-+Comp+Use/NG+Err/Dial:%>эсь%>джык%>эсь K ; !ывлаынэсьджыкесь
++Comp+Use/NG+Err/Orth-e-not-oe:%>эсь%>джык%>эсь K ; !ывлаынэсьджыкесь
 
 
 LEXICON K/COP_PL
@@ -647,11 +776,11 @@ COP_PL ;
 
 LEXICON COP_PL
 +Cop+Pl:%>ӧсь K ;
-+Use/NG+Err/Dial+Cop+Pl:%>эсь K ; ! Plural predicative.
++Use/NG+Err/Orth-e-not-oe+Cop+Pl:%>эсь K ; ! Plural predicative.
 +Cop+Pl+Comp:%>ӧсьджык K ; ! Order 2020-11-19
 +Cop+Pl+Comp+Ins:%>ӧсьджыкӧн K ; !Order 2020-11-19
-+Cop+Pl+Comp+Err/Dial:%>эсьджык K ; ! Order 2020-11-19
-+Cop+Pl+Comp+Ins+Err/Dial:%>эсьджыкен K ; !Order 2020-11-19
++Cop+Pl+Comp+Err/Orth-e-not-oe:%>эсьджык K ; ! Order 2020-11-19
++Cop+Pl+Comp+Ins+Err/Orth-e-not-oe:%>эсьджыкен K ; !Order 2020-11-19
 +Cop+Pl+Clt/Kodj:%>ӧськодь K ;!
 +Cop+Pl+Ins:%>ӧсьӧн K ;
 

@@ -7,16 +7,16 @@
 
 !2018-10-21!LEXICON A_INT_ӦЙ
 !2018-10-21!+Use/SpellNoSugg:ӧй A_ ;
-!2018-10-21!+Use/NG+Err/Dial:%>эй A_ ;
+!2018-10-21!+Use/NG+Err/Orth-e-not-oe:%>эй A_ ;
 !2018-10-21!+Use/SpellNoSugg:о%- adjectives-russian-like ;
 
 LEXICON A_RU_NO2J
 +Der+Der/Adv+Adv:ӧ ADV_ ;
-+Der+Der/Adv+Use/NG+Err/Dial+Adv:%>э ADV_ ;
++Der+Der/Adv+Use/NG+Err/Orth-e-not-oe+Adv:%>э ADV_ ;
 A_RU_O2J ;
 LEXICON A_RU_O2J
 +Use/SpellNoSugg:ӧй A_ ;
-+Use/NG+Err/Dial:%>эй A_ ;
++Use/NG+Err/Orth-e-not-oe:%>эй A_ ;
 +Use/SpellNoSugg:о%- adjectives ;!This needs flags for compound if there are no hybrids 2025-01-11, e.g., агитационно-синма
 
 LEXICON DENOMINAL_LOCATIVE_ADJECTIVES
@@ -32,7 +32,7 @@ LEXICON DERIVEDADJ_IN_VOW
 LEXICON DERIVEDADJ_IN_CONS
 +Loc:%>са K ;! Case 2021-04-04 adnominal modifiers
 +Abe:%>тӧм K ;! Case 2021-04-04 adnominal modifiers
-+Use/NG+Err/Dial+Abe:%>тэм K ;! Case 2021-04-04 adnominal modifiers
++Use/NG+Err/Orth-e-not-oe+Abe:%>тэм K ;! Case 2021-04-04 adnominal modifiers
 +Cmpr:%>ся K ;! Case 2021-04-04 adnominal modifiers
 +Der+Der/uvsa+A:%>увса A_ ;
 +Der+Der/sajsa+A:%>сайса A_ ;

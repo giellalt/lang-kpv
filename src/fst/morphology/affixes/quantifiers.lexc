@@ -10,7 +10,7 @@ LEXICON NUM_CARD
  CARD ;
 +Card+Der+Der/La+N:%>ла N_ ;
 +Der+Der/A+A:%>ӧд ORD ;
-+Der+Der/A+A+Err/Dial:%>эд ORD ; 
++Der+Der/A+A+Err/Orth-e-not-oe:%>эд ORD ; 
 +Der+Der/A+Ord+Der+Der/La+N:%>ӧд%>ла N_ ;
 !:%>нан COLL ;
 +Coll+Der+Der/La+N:%>нан%>ла N_ ;
@@ -20,18 +20,18 @@ LEXICON CARD
 !+Card: ABS_ ; 2018-10-21
 +Card: NumCASEPOSSLEX ;
 +Card+Der/kw+Presentational:%>-кӧ WordEnd ;
-+Card+Der/kw+Presentational+Err/Dial:%>-ке WordEnd ;
++Card+Der/kw+Presentational+Err/Orth-e-not-oe:%>-ке WordEnd ;
 !+Ord:%>ӧд NumCASEPOSSLEX ;
 +Card+Iter:%>ысь K ; ! нёльысь
 +Card+Iter+Ins:%>ысьӧн K ; !нёльысьӧн
-+Card+Iter+Ins+Err/Dial:%>ысен K ; !нёльысьӧн
++Card+Iter+Ins+Err/Orth-e-not-oe:%>ысен K ; !нёльысьӧн
 PRON_DISTR_ON ;
 
 LEXICON PRON_DISTR_ON
 +Distr:%>ӧн DISTR_ON_CASE ; !нёльӧн
-+Distr+Err/Dial:%>эн DISTR_ON_CASE ; !нёльӧн like быдӧн 2021-02-10
++Distr+Err/Orth-e-not-oe:%>эн DISTR_ON_CASE ; !нёльӧн like быдӧн 2021-02-10
 !+Distr:%>ӧн K/COP_PL ; !нёльӧн
-!+Distr+Err/Dial:%>эн K/COP_PL ; !нёльӧн
+!+Distr+Err/Orth-e-not-oe:%>эн K/COP_PL ; !нёльӧн
 
 
 LEXICON NUM_IS_ORD
@@ -43,9 +43,9 @@ LEXICON ORD
 +Ord: NumCASEPOSSLEX ; ! ӧд part of the stem
 +Ord+Iter:%>ысь K ;
 +Ord+Iter+Ins:%>ысьӧн K ;
-+Ord+Iter+Ins+Err/Dial:%>ысен K ;
++Ord+Iter+Ins+Err/Orth-e-not-oe:%>ысен K ;
 +Ord+Distr:%>ӧн K/COP_PL ;
-+Ord+Distr+Err/Dial:%>эн K/COP_PL ;
++Ord+Distr+Err/Orth-e-not-oe:%>эн K/COP_PL ;
 
 LEXICON DET_
 !! LEXICON @LEXNAME@ 
@@ -53,9 +53,9 @@ LEXICON DET_
 +Ord: NumCASEPOSSLEX ; ! ӧд part of the stem
 +Ord+Iter:%>ысь K ;
 +Ord+Iter+Ins:%>ысьӧн K ;
-+Ord+Iter+Ins+Err/Dial:%>ысен K ;
++Ord+Iter+Ins+Err/Orth-e-not-oe:%>ысен K ;
 +Card+Distr:%>ӧн K ;
-+Card+Distr+Err/Dial:%>эн K ;
++Card+Distr+Err/Orth-e-not-oe:%>эн K ;
 
 !LEXICON NUM_ASSOCCOLL
 !!! LEXICON @LEXNAME@ 
@@ -77,9 +77,9 @@ LEXICON QNT_
 +Qnt: NumCASEPOSSLEX ;
 +Qnt+Card+Iter:%>ысь K ;
 +Qnt+Card+Iter+Ins:%>ысьӧн K ;
-+Qnt+Card+Iter+Ins+Err/Dial:%>ысен K ;
++Qnt+Card+Iter+Ins+Err/Orth-e-not-oe:%>ысен K ;
 +Qnt+Distr:%>ӧн K/COP_PL ;
-+Qnt+Distr+Err/Dial:%>эн K/COP_PL ;
++Qnt+Distr+Err/Orth-e-not-oe:%>эн K/COP_PL ;
 +Qnt+Der+Der/La+N:%>ла N_ ;
 
 

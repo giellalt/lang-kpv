@@ -42,8 +42,8 @@ LEXICON PERS_SG1   !!≈ * **@CODE@**
 +Dat:мен K ;
 +Dat:менлы K ;
 +Acc:менӧ K ;
-+Use/NG+Err/Dial+Acc:менэ K ;
-+Use/NG+Err/Dial+Acc:менэс K ;
++Use/NG+Err/Orth-e-not-oe+Acc:менэ K ;
++Use/NG+Err/Orth-e-not-oe+Acc:менэс K ;
 +Ins:менамӧн K ;
 +Com:менамкӧд K ;
 +Car:менамтӧг K ;
@@ -60,20 +60,20 @@ LEXICON PERS_PL1    !!≈ * **@CODE@**
 +Nom:мийӧ K ; !Der/jw
 +Gen:миян K ;
 +Acc:миянӧс K ;
-+Use/NG+Err/Dial+Acc:миянэс K ;
++Use/NG+Err/Orth-e-not-oe+Acc:миянэс K ;
 :миян persplobl ;
 !!Extras from 2000 Grammar: 163
 +Gen:миянлӧн K ; !Synomymous with: миян
 +Acc:мияннымӧс K ; !Synomymous with: миянӧс
-+Acc+Err/Dial:мияннымес K ; !Synomymous with: миянӧс
++Acc+Err/Orth-e-not-oe:мияннымес K ; !Synomymous with: миянӧс
 +Ela:миянсьыным K ; !Synomymous with:миянлысь
 +Ela+Err/Dial:миянсьынум K ; !Synomymous with:миянлысь
 +Com:микӧд K ; !Synomymous with: миянкӧд
 +Com:мияннымкӧд K ; !Synomymous with: миянкӧд
-+Com+Err/Dial:мияннумкед K ; !Synomymous with: миянкӧд
++Com+Err/Orth-e-not-oe:мияннумкед K ; !Synomymous with: миянкӧд
 +Car:митӧг K ; !Synomymous with: миянтӧг
 +Car:миянтӧгным K ; !Synomymous with: миянтӧг
-+Car+Err/Dial:миянтегнум K ; !Synomymous with: миянтӧг
++Car+Err/Orth-e-not-oe:миянтегнум K ; !Synomymous with: миянтӧг
 +Cns:мияннымла K ; !Synomymous with: миянла
 +Cns+Err/Dial:мияннумла K ; !Synomymous with: миянла
 +Ela:миысь K ; !Synomymous with: миянысь
@@ -102,7 +102,7 @@ LEXICON PERS_SG2     !!≈ * **@CODE@**
 +Dat:тэнлы K ;
 +Dat:тэныдлы K ;
 +Acc:тэнӧ K ;
-+Use/NG+Err/Dial+Acc:тэнэ K ;
++Use/NG+Err/Orth-e-not-oe+Acc:тэнэ K ;
 +Ins:тэнадӧн K ;
 +Com:тэнадкӧд K ;
 +Car:тэнадтӧг K ;
@@ -120,13 +120,13 @@ LEXICON PERS_PL2 !!≈ * **@CODE@**
 +Gen:тіян K ;
 +Gen:тіянлӧн K ;
 +Acc:тіянӧс K ;
-+Use/NG+Err/Dial+Acc:тіянэс K ;
++Use/NG+Err/Orth-e-not-oe+Acc:тіянэс K ;
 :тіян persplobl ;
 !More forms from Ӧнія коми кыв 2000: 163
 +Abl:тіянлысьныд K ;
 +Dat:тіянлы K ;
 +Acc:тіянныдтӧ K ;
-+Use/NG+Err/Dial+Acc:тіянныдтэ K ;
++Use/NG+Err/Orth-e-not-oe+Acc:тіянныдтэ K ;
 +Ins:тіӧн K ;
 +Car:тіянныдтӧг K ;
 +Car:тітӧг K ;
@@ -140,16 +140,16 @@ LEXICON PERS_PL2 !!≈ * **@CODE@**
 
 LEXICON PERS_SG3  !!≈ * **@CODE@** 
 +Nom:сійӧ K ; !+Der/jw
-+Nom+Err/Dial:сіе K ; !+Der/jw
++Nom+Err/Orth-e-not-oe:сіе K ; !+Der/jw
 +Gen:сылӧн K ;
-+Gen+Err/Orth-e-not-oe+Err/Dial:сылэн K ;
++Gen+Err/Orth-e-not-oe+Err/Orth-e-not-oe:сылэн K ;
 +Abl:сылысь K ;
 +Ela:сыысь K ;
 +Dat:сылы K ;
 +Acc:сійӧс K ; !Der/jw
 +Ins:сійӧн K ; !Der/jw
-+Acc+Err/Dial:сіес K ; !Der/jw
-+Ins+Err/Dial:сіен K ; !Der/jw
++Acc+Err/Orth-e-not-oe:сіес K ; !Der/jw
++Ins+Err/Orth-e-not-oe:сіен K ; !Der/jw
 :сы perssg ;  ! for the regular obl sg
 +Cmpl:сы WordEnd ; ! distinct from Nom
 !More form ӧния коми кыв 163
@@ -162,18 +162,18 @@ LEXICON PERS_SG3  !!≈ * **@CODE@**
 +Egr:сійӧсянь K ; !Der/jw
 +Egr:сійӧсяньыс K ; !Der/jw
 +Ter:сійӧӧдз K ; !Der/jw
-+Gen+Err/Dial:сіелӧн K ; !Der/jw
-+Abl+Err/Dial:сіелысь K ; !Der/jw
-+Dat+Err/Dial:сіелы K ; !Der/jw
-+Com+Err/Dial:сіекед K ; !Der/jw
-+Car+Err/Dial:сіетэг K ; !Der/jw
-+Apr+Err/Dial:сіелань K ; !Der/jw
-+Egr+Err/Dial:сіесянь K ; !Der/jw
-+Egr+Err/Dial:сіесяньыс K ; !Der/jw
-+Ter+Err/Dial:сіеедз K ; !Der/jw
++Gen+Err/Orth-e-not-oe:сіелэн K ; !Der/jw
++Abl+Err/Orth-e-not-oe:сіелысь K ; !Der/jw
++Dat+Err/Orth-e-not-oe:сіелы K ; !Der/jw
++Com+Err/Orth-e-not-oe:сіекед K ; !Der/jw
++Car+Err/Orth-e-not-oe:сіетэг K ; !Der/jw
++Apr+Err/Orth-e-not-oe:сіелань K ; !Der/jw
++Egr+Err/Orth-e-not-oe:сіесянь K ; !Der/jw
++Egr+Err/Orth-e-not-oe:сіесяньыс K ; !Der/jw
++Ter+Err/Orth-e-not-oe:сіеедз K ; !Der/jw
 ! Special expressions
 +Com+Ins:сыкӧдӧн K ; ! Ен сыкӧдӧн!
-+Com+Ins+Err/Dial:сыкедэн K ; ! Ен сыкӧдӧн!
++Com+Ins+Err/Orth-e-not-oe:сыкедэн K ; ! Ен сыкӧдӧн!
 
 !! ми мийӧ The 1st and 2nd persons have Oblique case stem strategies
 !! that differ from the 3rd person: 
@@ -185,10 +185,10 @@ LEXICON PERS_PL3 !!≈ * **@CODE@**
 +Acc:найӧс K ; !Der/jw
 +Acc:найӧӧс K ; !
 +Gen:налӧн K ;
-+Nom+Err/Dial:нае K ; !Der/jw
-+Acc+Err/Dial:наес K ; !Der/jw
-+Acc+Err/Dial:наеэс K ; !
-+Gen+Err/Dial:налэн K ;
++Nom+Err/Orth-e-not-oe:нае K ; !Der/jw
++Acc+Err/Orth-e-not-oe:наес K ; !Der/jw
++Acc+Err/Orth-e-not-oe:наеэс K ; !
++Gen+Err/Orth-e-not-oe:налэн K ;
 :на persplobl ; !This might be one solution for the different stem types
 +Cmpl:на WordEnd ; ! Distinct from Nom
 !
@@ -201,14 +201,14 @@ LEXICON PERS_PL3 !!≈ * **@CODE@**
 +Car:найӧтӧг K ; !Der/jw
 +Car:натӧгыс K ;
 
-+Gen+Err/Dial:наелэн K ; !Der/jw
-+Abl+Err/Dial:наелысь K ; !Der/jw
-+Dat+Err/Dial:наелы K ; !Der/jw
-+Ins+Err/Dial:наеэн K ; !Der/jw
-+Com+Err/Dial:наекед K ; !Der/jw
-+Com+Err/Dial:накедыс K ;
-+Car+Err/Dial:наетэг K ; !Der/jw
-+Car+Err/Dial:натэгыс K ;
++Gen+Err/Orth-e-not-oe:наелэн K ; !Der/jw
++Abl+Err/Orth-e-not-oe:наелысь K ; !Der/jw
++Dat+Err/Orth-e-not-oe:наелы K ; !Der/jw
++Ins+Err/Orth-e-not-oe:наеэн K ; !Der/jw
++Com+Err/Orth-e-not-oe:наекед K ; !Der/jw
++Com+Err/Orth-e-not-oe:накедыс K ;
++Car+Err/Orth-e-not-oe:наетэг K ; !Der/jw
++Car+Err/Orth-e-not-oe:натэгыс K ;
 +Cns:наысла K ;
 +Ela:насьыс K ;
 +Apr:наыслань K ;
@@ -217,23 +217,23 @@ LEXICON PERS_PL3 !!≈ * **@CODE@**
 +Egr:насяньыс K ;
 +Tra:натіыс K ;
 +Ter:наӧдзыс K ;
-+Ter+Err/Dial:наэдзыс K ;
++Ter+Err/Orth-e-not-oe:наэдзыс K ;
 
 +Nom+Err/Dial:ныа K ; ! Izhman monografia:65
-+Gen+Err/Dial:нылэн K ;
++Gen+Err/Orth-e-not-oe:нылэн K ;
 +Abl+Err/Dial:нылысь K ;
 +Dat+Err/Dial:нылы K ;
 +Ins+Err/Dial:ные K ;
 +Ins+Err/Dial:ніе K ;
-+Com+Err/Dial:ныкед K ;
-+Car+Err/Dial:нытэг K ;
-+Car+Err/Dial:нытэгъя K ;
++Com+Err/Orth-e-not-oe:ныкед K ;
++Car+Err/Orth-e-not-oe:нытэг K ;
++Car+Err/Orth-e-not-oe:нытэгъя K ;
 +Cns+Err/Dial:ныла K ;
 +Ela+Err/Dial:ныысь K ;
 +Apr+Err/Dial:нылань K ;
 +Egr+Err/Dial:нысянь K ;
 +Tra+Err/Dial:ныти K ;
-+Ter+Err/Dial:ныэдз K ;
++Ter+Err/Orth-e-not-oe:ныэдз K ;
 
 !2020-10-12 THIS FAR
 LEXICON perssg !!≈ * **@CODE@**
@@ -254,9 +254,7 @@ LEXICON perssg !!≈ * **@CODE@**
 
 
 LEXICON persplobl !!≈ * **@CODE@**
-+Acc:%>ӧс K ;
-+Use/NG+Err/Dial+Acc:%>эс K ;
-
+ACC_K ;
  ABL/MORPH_THEN_WORDEND ;
  APR/MORPH_THEN_WORDEND ;
  CAR/MORPH_THEN_WORDEND ;
@@ -862,54 +860,38 @@ LEXICON PRON_RECIPR_CASE
 +Cmpl+PxPl1+Err/Dial:нум K ;
 +Cmpl+PxPl2:ныд K ;
 +Cmpl+PxPl3:ныс K ;
-+Gen:лӧн K ;
-+Gen+Err/Dial:лэн K ;
-+Abl+PxSg3:ыслысь K ;
-+Abl+PxPl3:ныслысь K ;
-+Dat:лы COMPARATIVE ;
-+Dat+PxSg3:ыслы COMPARATIVE ;
-+Dat+PxPl3:ныслы COMPARATIVE ;
-+Acc:%>ӧс COMPARATIVE ;
-+Acc+PxSg2:тӧ COMPARATIVE ;
-+Acc+Err/Dial:%>эс COMPARATIVE ;
-+Acc+PxSg2+Err/Dial:тэ COMPARATIVE ;
-+Acc+PxPl1:нымӧс COMPARATIVE ;
-+Acc+PxPl1+Err/Dial:нумес COMPARATIVE ;
-+Acc+PxPl2:нытӧ COMPARATIVE ;
-+Acc+PxPl3:ныссӧ COMPARATIVE ;
-+Acc+PxSg3:сӧ COMPARATIVE ;
-+Acc+PxPl2+Err/Dial:нытэ COMPARATIVE ;
-+Acc+PxPl3+Err/Dial:ныссэ COMPARATIVE ;
-+Acc+PxSg3+Err/Dial:сэ COMPARATIVE ;
 
-!+Acc2+PxPl2:нытӧ K ;
-!+Acc3+PxPl3:ныссӧ K ;
-!+Acc3:сӧ K ;
-+Com+PxSg3:ыскӧд K ;
-+Com+PxPl2:ныдкӧд K ;
-+Com+PxPl3:ныскӧд K ;
-+Com+PxSg3+Err/Dial:ыскед K ;
-+Com+PxPl2+Err/Dial:ныдкед K ;
-+Com+PxPl3+Err/Dial:ныскед K ;
-+Car+PxSg3:тӧгыс K ;
-+Car+PxSg3+Err/Dial:тэгыс K ;
-+Ela:ысь K ;
-+Ela+PxSg3:сьыс K ;
-+Ela+PxPl2:сьыныд K ;
-+Ela+PxPl3:сьыныс K ;
-+Ill+PxSg3:ас K ; ! Here is a good problem: Should there be a special tag
-                ! for the illative-inessive forms
-+Ill+PxPl3:нысӧ K ;
-+Ill+PxPl3+Err/Dial:нысэ K ;
+ABL_K ;
+ABL_PX_SO/CP_K ;
+ACC_K ;
+ACC_PX_SO/CP_K ;
 
-+Abl+PxPl2:ныдлысь K ;
-+Dat+PxPl2:ныдлы K ;
+CAR_K ;
+CAR_PX_SO/CP_K ;
+COM_K ;
+COM_PX_SO/CP_K ;
 
-+Com:кӧд K ;
-+Com+Err/Dial:кед K ;
-+Ins:%>ӧн K ;
-+Ins+Err/Dial:%>эн K ;
-+Egr+PxPl2:сяньныд K ;
+DAT_K ;
+DAT_PX_SO/CP_K ;
+
+EGR_K ;
+EGR_PX_SO/CP_K ;
+
+ELA_K ;
+ELA_PX_SO/CP_K ;
+
+GEN_K ;
+GEN_PX_SO/CP_K ;
+
+ILL_K ;
+ILL_PX_SO/CP_K ;
+
+INE_K ;
+INE_PX_SO/CP_K ;
+
+INS_K ;
+INS_PX_SO/CP_K ;
+
 
 
 LEXICON PRON_REL
@@ -980,6 +962,7 @@ LEXICON PRON_REFL_SG1_4_OBL_CASES
 +Ela:сьым K ;
 +Ela+Err/Dial:сьум K ;
 !+Ins:ӧн K ; !There is no indication of person. = Sg1, Sg3, Pl3
++Ins:нам K ; !Bible
 +Ins:намӧн K ; !CHECKME
 
 LEXICON PRON_REFL_SG2_4_OBL_CASES
@@ -1003,6 +986,7 @@ LEXICON PRON_REFL_SG3_4_OBL_CASES
 +Ela:сьыс K ;
 +Ine:ас K ;
 +Ins:нас K ;
++Ins:ласӧн K ;
 !+Ins:ӧн K ; !There is no indication of person. = Sg1, Sg3, Pl3
 LEXICON PRON_REFL_PL1_4_OBL_CASES
 +Car:тӧгным K ; !
