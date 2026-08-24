@@ -20,7 +20,7 @@ LEXICON PERS                        !!≈ * **@CODE@**
 ме+Pron+Pers+Pl1: PERS_PL1 ;
 тэ+Pron+Pers+Pl2: PERS_PL2 ; 
 сійӧ+Pron+Pers+Pl3: PERS_PL3 ;
-ме+Pron+Pers+Du1+Nom:тэа-меа K ;
+ме+Pron+Pers+Du1:тэа-меа PERS_DU1 ;
 
 
 LEXICON PERS_SG1   !!≈ * **@CODE@** 
@@ -54,6 +54,22 @@ LEXICON PERS_SG1   !!≈ * **@CODE@**
 +Egr:менамсянь K ;
 +Ter:менамӧдз K ;
 :ме perssg ; ! for the regular obl sg
+
+LEXICON PERS_DU1
++Acc:ӧс K ;
++Apr:лань K ;
++Com:кӧд K ;
++Car:тӧг K ;
++Dat:лы K ; 
++Egr:сянь K ;
++Ela:ысь K ;
++Gen:лӧн K ;
++Ill:ӧ K ;
++Ins:ӧн K ;
++Ine:ын K ;
++Nom: K ;
++Ter:ӧдз K ;
+
 
 LEXICON PERS_PL1    !!≈ * **@CODE@**
 +Nom:ми K ;
