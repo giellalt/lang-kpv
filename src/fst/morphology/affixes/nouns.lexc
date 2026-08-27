@@ -132,6 +132,11 @@ LEXICON NMN_PARAGOGIC_V/L !!= * @CODE@ ныв:ны нылыс
 @U.DECL-NX.PL@+Use/NG+Err/Orth-l-to-vowel-lengthening+Pl:@U.DECL-NX.PL@^л2^C2V%>ъяс CASEPOSSLEX ; !ныыяс
 
 
+LEXICON N_ERRORTH_PARAGOGIC_J !!= * @CODE@ пыж:пыж
+ N_ ;
+@U.DECL-NX.SG@+Sg+Err/Orth-paragogic-j:@U.DECL-NX.SG@^й2 CASEPOSSLEX_AFTERDERIVATION_VOW ;
+@U.DECL-NX.SG@+Sg+Err/Orth-paragogic-j:@U.DECL-NX.SG@^й2 DERIVEDADJ_IN_VOW ;
+
 LEXICON N_PARAGOGIC_J !!= * @CODE@ ав:ав авйыс
 : NMN_PARAGOGIC_J ;
 LEXICON NMN_PARAGOGIC_J !!= * @CODE@ ав:ав^й2 авйыс
