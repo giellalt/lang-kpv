@@ -23,6 +23,9 @@ LEXICON ACRON
 @U.Cap.Obl@+Acron:@U.Cap.Obl@-яс CASEPOSSLEX ; !acronyms with plural
 @U.Cap.Obl@+Acron+A:@U.Cap.Obl@-са A_ ; !2021-06-01
 
+LEXICON PROP_ant !
++Sem/Ant: PROP_ ;
+
 LEXICON PROP_fem !
 !! LEXICON @LEXNAME@ 
 +Sem/Fem: PROP_ ;
@@ -31,6 +34,11 @@ LEXICON PROP_rus_ !
 !! LEXICON @LEXNAME@ 
 PROP_ ;
 !PROP_-DERIVABLE
+
+LEXICON PROP_END_IN_DDZ_plc_kpv
++Sem/Plc: PROP_END_IN_DDZ ;
+LEXICON PROP_END_IN_DDZ
+NMN_END_IN_DDZ ;
 
 LEXICON PROP_PARAGOGIC_V/L_plc
 +Sem/Plc: PROP_PARAGOGIC_V/L ;
@@ -44,6 +52,8 @@ LEXICON PROP_
 !! LEXICON @LEXNAME@ 
 @U.Cap.Obl@+Sg:@U.Cap.Obl@ CASEPOSSLEX ;
 @U.Cap.Obl@+Pl:@U.Cap.Obl@%>ъяс CASEPOSSLEX ; !Reinstalling plural morphology 2019-06-03
+@U.Cap.Opt@+Sg+Err/Orth-downcased-prop:@U.Cap.Opt@ CASEPOSSLEX ;
+@U.Cap.Opt@+Pl+Err/Orth-downcased-prop:@U.Cap.Opt@%>ъяс CASEPOSSLEX ; !Reinstalling plural morphology 2019-06-03
 
 LEXICON Prop_R_RY
 : N_ruskpv_R_RY_hasnat ; ! This will bring about problems with ordering 2012-02-07
@@ -308,6 +318,8 @@ LEXICON PROP_MAL_DERIVABLE !Patronyms
 
 LEXICON PROP_PLC_01
 @U.Cap.Obl@+Sg:@U.Cap.Obl@ CASEPOSSLEX_afterDerivation ;
+@U.Cap.Obl@+Pl:@U.Cap.Obl@ъяс CASEPOSSLEX_afterDerivation ;
+@U.Cap.Opt@+Sg+Err/Orth-downcased-prop:@U.Cap.Opt@ CASEPOSSLEX_afterDerivation ;
 @U.Cap.Opt@+Sg:@U.Cap.Opt@ DENOMINAL_LOCATIVE_ADJECTIVES ; !!= * **@CODE@** This requires down-casing
 
 LEXICON PROP_plc ! Inanimate proper nouns. Place names
