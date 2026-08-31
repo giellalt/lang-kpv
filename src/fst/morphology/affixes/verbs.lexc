@@ -245,8 +245,7 @@ LEXICON V_0_БОСЬТНЫ !!≈ * **@CODE@** шуны:шу янӧдны, кон
 :т VerbConj_V ; !б
 !2021-04-07
 @U.CONJ-INF.YES@+Use/NG+Err/Dial:@U.CONJ-INF.YES@ Verb_nyDer_ONSET_CONS ; !no -т
-@U.CONJ-INF.YES@+Use/NG+Err/Dial:@U.CONJ-INF.YES@ VerbDer_V ; !no -т
-+Use/NG+Err/Dial: VerbConj_V ; !б No -т
++Use/NG+Err/Dial: VerbDer_V ; !no -т
 
 
 LEXICON VR_НУАВНЫ !!≈ * **@CODE@** нуавны:нуа
@@ -453,8 +452,8 @@ LEXICON present
 @U.CONJ-MX.IND@@U.CONJ-TX.PRES@+Ind+Prs+Use/NG+Err/Orth-e-not-oe:@U.CONJ-MX.IND@@U.CONJ-TX.PRES@%>э PresPret1_SgPl3 ; ! 3
 
 !@U.CONJ-MX.IND@@U.CONJ-TX.PRES@+Ind+Prs:@U.CONJ-MX.IND@@U.CONJ-TX.PRES@%>ӧ PresPret1_SgPl3 ; ! 3
-@U.CONJ-MX.IND@@U.CONJ-TX.PRES@+Ind+Prs+Pl3+Use/NG+Err/Dial:@U.CONJ-MX.IND@@U.CONJ-TX.PRES@%>ӧныс K ; ! dialectal forms
-@U.CONJ-MX.IND@@U.CONJ-TX.PRES@+Ind+Prs+Pl3+Use/NG+Err/Orth-e-not-oe:@U.CONJ-MX.IND@@U.CONJ-TX.PRES@%>эныс K ; ! dialectal forms
+@U.CONJ-MX.IND@@U.CONJ-TX.PRES@+Ind+Prs+Pl3+Use/NG+Err/Dial:@U.CONJ-MX.IND@@U.CONJ-TX.PRES@%>ӧныс VERB_K ; ! dialectal forms
+@U.CONJ-MX.IND@@U.CONJ-TX.PRES@+Ind+Prs+Pl3+Use/NG+Err/Orth-e-not-oe:@U.CONJ-MX.IND@@U.CONJ-TX.PRES@%>эныс VERB_K ; ! dialectal forms
 
 LEXICON present_КЫЙНЫ
  present ;
@@ -491,8 +490,8 @@ LEXICON preterite
 @U.CONJ-MX.IND@@U.CONJ-TX.PRET1@+Ind+Prt1:@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@%>{иі} PresPret1 ; 
 @U.CONJ-MX.IND@@U.CONJ-TX.PRET1@+Ind+Prt1:@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@%>{иі}  P3 ; ! 3 
 	Pret2a_0 ;
-@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.3@@U.CONJ-NX.PL@@U.CONJ-PX.3@+Use/NG+Err/Dial+Ind+Prt1+Pl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.3@@U.CONJ-NX.PL@@U.CONJ-PX.3@%>{иі}%>с%>ныс K ; !with s
-@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.3@@U.CONJ-NX.PL@@U.CONJ-PX.3@+Use/NG+Err/Dial+Ind+Prt1+Pl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.3@@U.CONJ-NX.PL@@U.CONJ-PX.3@%>{иі}%>ныс K ; !without s
+@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.3@@U.CONJ-NX.PL@@U.CONJ-PX.3@+Use/NG+Err/Dial+Ind+Prt1+Pl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.3@@U.CONJ-NX.PL@@U.CONJ-PX.3@%>{иі}%>с%>ныс VERB_K ; !with s
+@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.3@@U.CONJ-NX.PL@@U.CONJ-PX.3@+Use/NG+Err/Dial+Ind+Prt1+Pl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.3@@U.CONJ-NX.PL@@U.CONJ-PX.3@%>{иі}%>ныс VERB_K ; !without s
 
 LEXICON Pret2a_0
 @U.CONJ-MX.IND@@U.CONJ-TX.PRET2@+Ind+Prt2:@U.CONJ-MX.IND@@U.CONJ-TX.PRET2@%>ӧм Pret2a ;
@@ -590,10 +589,10 @@ LEXICON PRET2-linkki-a
 @U.CONJ-NX.PL@@U.CONJ-PX.3@+Pl3+Use/NG+Err/Orth-e-not-oe:@U.CONJ-NX.PL@@U.CONJ-PX.3@%>эсь VerbEnd_Comparison ;
 
 LEXICON MatrixVerb_Comparison
-               K ;
-+Der+Der/moz+Ger:%>моз K ;
-+Comp:%>джык K ;
-+Der/kodj:%>кодь K ;
+               VERB_K ;
++Der+Der/moz+Ger:%>моз VERB_K ;
++Comp:%>джык VERB_K ;
++Der/kodj:%>кодь VERB_K ;
 
 !This is where Serial verbs are made possible
 LEXICON VerbEnd_Comparison
@@ -602,7 +601,7 @@ LEXICON VerbEnd_Comparison
 
 LEXICON VerbEnd
  Serial-Verbs ;
- K ;
+ VERB_K ;
 
 !! ## Derivation
 ! ==========
@@ -683,27 +682,28 @@ LEXICON VerbDer_АРТАСЬНЫ !!≈ * **@CODE@**
  VerbDer_ONSET_И ; !!≈ * **@CODE@**
 
 LEXICON VerbDer_ONSET_Ӧ !!≈ * **@CODE@** 
-+Der+Der/wm+Der/NomAct+N:%>ӧм N_ ;
-+Der+Der/wm+PastPtc:%>ӧм K ;
-+Der+Der/wm+PastPtc+N:%>ӧма N_ ; !OKK:50
-+Der+Der/wm+Der+Der/NomAct+Ger:%>ӧмпырысь K ;
-+Der+Der/wm+Der/NomAct+N+Sg+Ins:%>ӧмӧн K ;
-+Der+Der/wm+Der/In+N:%>ӧм%>{иі}н N_ ;
-+Der+Der/wm+Der/In+N:%>ӧм%>тор N_PARAGOGIC_J ;
+@C.CONJ-INF@+Der+Der/wm+Der/NomAct+N:@C.CONJ-INF@%>ӧм N_ ;
++Der+Der/wm+PastPtc:%>ӧм VERB_K ;
+@C.CONJ-INF@+Der+Der/wm+PastPtc+N:@C.CONJ-INF@%>ӧма N_ ; !OKK:50
++Der+Der/wm+Der+Der/NomAct+Ger:%>ӧмпырысь VERB_K ;
+@C.CONJ-INF@+Der+Der/wm+Der/NomAct+N+Sg+Ins:@C.CONJ-INF@%>ӧмӧн VERB_K ;
+@C.CONJ-INF@+Der+Der/wm+Der/In+N:@C.CONJ-INF@%>ӧм%>{иі}н N_ ;
+@C.CONJ-INF@+Der+Der/wm+Der/In+N:@C.CONJ-INF@%>ӧм%>тор N_PARAGOGIC_J ;
 
-+Use/NG+Err/Orth-e-not-oe+Der+Der/NomAct+N:%>эм N_ ;! remove +Der/wm 2023-06-09
-+Use/NG+Err/Orth-e-not-oe+Der+Der/wm+PastPtc:%>эм K ;
-+Use/NG+Err/Orth-e-not-oe+Der+Der+Der/NomAct+Ger:%>эмпырысь K ;! remove +Der/wm 2023-06-09
-+Use/NG+Err/Orth-e-not-oe+Der+Der/NomAct+N+Sg+Ins:%>эмен K ;! remove +Der/wm 2023-06-09
-+Use/NG+Err/Orth-e-not-oe+Der+Der/wm+Der/In+N:%>эм%>{иі}н N_ ;
+@C.CONJ-INF@+Use/NG+Err/Orth-e-not-oe+Der+Der/NomAct+N:@C.CONJ-INF@%>эм N_ ;! remove +Der/wm 2023-06-09
++Use/NG+Err/Orth-e-not-oe+Der+Der/wm+PastPtc:%>эм VERB_K ;
++Use/NG+Err/Orth-e-not-oe+Der+Der+Der/NomAct+Ger:%>эмпырысь VERB_K ;! remove +Der/wm 2023-06-09
+@C.CONJ-INF@+Use/NG+Err/Orth-e-not-oe+Der+Der/NomAct+N+Sg+Ins:@C.CONJ-INF@%>эмен VERB_K ;! remove +Der/wm 2023-06-09
+@C.CONJ-INF@+Use/NG+Err/Orth-e-not-oe+Der+Der/wm+Der/In+N:@C.CONJ-INF@%>эм%>{иі}н N_ ;
 
-+Der+Der/An+Der/In+N:%>{ая}н%>{иі}н N_ ;
-+Der+Der/An+Der/In+N:%>{ая}н%>тор N_PARAGOGIC_J ;
-+Der+Der/An+PrsPrc+N:%>{ая}н N_ ;
-!2017-10-27+Der+Der/An+ActPrsPtc:%>{ая}н K ;
-+Der+Der/An+PrsPtc:%>{ая}н K ;
-+Der+Der/ysj+ActPrsPtc:%>ысь K/COP_PL ; ! 2020-11-19 adjectival
-+Der+Der/NomAg+N:%>ысь N_ ;!remove +Der/ysj 2023-06-09
+@C.CONJ-INF@+Der+Der/An+Der/In+N:@C.CONJ-INF@%>{ая}н%>{иі}н N_ ;
+@C.CONJ-INF@+Der+Der/An+Der/In+N:@C.CONJ-INF@%>{ая}н%>тор N_PARAGOGIC_J ;
+@C.CONJ-INF@+Der+Der/An+PrsPrc+N:@C.CONJ-INF@%>{ая}н N_ ;
+!2017-10-27+Der+Der/An+ActPrsPtc:%>{ая}н VERB_K ;
++Der+Der/An+PrsPtc:%>{ая}н VERB_K ;
++Der+Der/ysj+ActPrsPtc:%>ысь VERB_K ; ! 2020-11-19 adjectival
++Der+Der/ysj+ActPrsPtc:%>ысь COP_PL ; ! 2020-11-19 adjectival
+@C.CONJ-INF@+Der+Der/NomAg+N:@C.CONJ-INF@%>ысь N_ ;!remove +Der/ysj 2023-06-09
 
 LEXICON VerbDer_ONSET_І !!≈ * **@CODE@** 
   ! nonfinites
@@ -714,69 +714,69 @@ LEXICON VerbDer_ONSET_И !!≈ * **@CODE@**
 LEXICON VerbDer_ONSET_И/І !!≈ * **@CODE@** 
 @U.CONJ-GER.IG@+Der+Der/Ig+Ger:@U.CONJ-GER.IG@%>{иі}г VerbEnd ; ! gerund (at the same time as the action)
 !352 Pl
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl:@U.CONJ-GER.IG@%>{иі}гъяс K ;
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ill:@U.CONJ-GER.IG@%>{иі}гъясӧ K ; !345
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ine:@U.CONJ-GER.IG@%>{иі}гъясын K ; !OKK:50
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ill+Use/NG+Err/Orth-e-not-oe:@U.CONJ-GER.IG@%>{иі}гъясэ K ; !345
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ill+PxSg1:@U.CONJ-GER.IG@%>{иі}гъясам K ;
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ill+PxSg2:@U.CONJ-GER.IG@%>{иі}гъясад K ;
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ill+PxSg3:@U.CONJ-GER.IG@%>{иі}гъясас K ;
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ill+PxPl1:@U.CONJ-GER.IG@%>{иі}гъясаным K ;
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ill+PxPl2:@U.CONJ-GER.IG@%>{иі}гъясаныд K ;
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ill+PxPl3:@U.CONJ-GER.IG@%>{иі}гъясаныс K ;
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ins:@U.CONJ-GER.IG@%>{иі}гъясӧн K ;! 2000:359 
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ins+Use/NG+Err/Orth-e-not-oe:@U.CONJ-GER.IG@%>{иі}гъясэн K ;! 2000:359 
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl:@U.CONJ-GER.IG@%>{иі}гъяс VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ill:@U.CONJ-GER.IG@%>{иі}гъясӧ VERB_K ; !345
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ine:@U.CONJ-GER.IG@%>{иі}гъясын VERB_K ; !OKK:50
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ill+Use/NG+Err/Orth-e-not-oe:@U.CONJ-GER.IG@%>{иі}гъясэ VERB_K ; !345
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ill+PxSg1:@U.CONJ-GER.IG@%>{иі}гъясам VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ill+PxSg2:@U.CONJ-GER.IG@%>{иі}гъясад VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ill+PxSg3:@U.CONJ-GER.IG@%>{иі}гъясас VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ill+PxPl1:@U.CONJ-GER.IG@%>{иі}гъясаным VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ill+PxPl2:@U.CONJ-GER.IG@%>{иі}гъясаныд VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ill+PxPl3:@U.CONJ-GER.IG@%>{иі}гъясаныс VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ins:@U.CONJ-GER.IG@%>{иі}гъясӧн VERB_K ;! 2000:359 
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Pl+Ins+Use/NG+Err/Orth-e-not-oe:@U.CONJ-GER.IG@%>{иі}гъясэн VERB_K ;! 2000:359 
                                            !And Marina 2011-10-05 no Px
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill:@U.CONJ-GER.IG@%>{иі}гӧ K ;
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+Use/NG+Err/Orth-e-not-oe:@U.CONJ-GER.IG@%>{иі}ге K ;
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxSg1:@U.CONJ-GER.IG@%>{иі}гам K ;
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxSg2:@U.CONJ-GER.IG@%>{иі}гад K ;
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxSg3:@U.CONJ-GER.IG@%>{иі}гас K ;
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxPl1:@U.CONJ-GER.IG@%>{иі}ганым K ;
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxPl2:@U.CONJ-GER.IG@%>{иі}ганыд K ;
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxPl3:@U.CONJ-GER.IG@%>{иі}ганыс K ;
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+Use/NG+Err/Orth-e-not-oe:@U.CONJ-GER.IG@%>ыге K ;
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxSg1+Use/NG+Err/Dial:@U.CONJ-GER.IG@%>ыгам K ;
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxSg2+Use/NG+Err/Dial:@U.CONJ-GER.IG@%>ыгад K ;
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxSg3+Use/NG+Err/Dial:@U.CONJ-GER.IG@%>ыгас K ;
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxPl1+Use/NG+Err/Dial:@U.CONJ-GER.IG@%>ыганым K ;
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxPl2+Use/NG+Err/Dial:@U.CONJ-GER.IG@%>ыганыд K ;
-@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxPl3+Use/NG+Err/Dial:@U.CONJ-GER.IG@%>ыганыс K ;
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill:@U.CONJ-GER.IG@%>{иі}гӧ VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+Use/NG+Err/Orth-e-not-oe:@U.CONJ-GER.IG@%>{иі}ге VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxSg1:@U.CONJ-GER.IG@%>{иі}гам VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxSg2:@U.CONJ-GER.IG@%>{иі}гад VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxSg3:@U.CONJ-GER.IG@%>{иі}гас VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxPl1:@U.CONJ-GER.IG@%>{иі}ганым VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxPl2:@U.CONJ-GER.IG@%>{иі}ганыд VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxPl3:@U.CONJ-GER.IG@%>{иі}ганыс VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+Use/NG+Err/Orth-e-not-oe:@U.CONJ-GER.IG@%>ыге VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxSg1+Use/NG+Err/Dial:@U.CONJ-GER.IG@%>ыгам VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxSg2+Use/NG+Err/Dial:@U.CONJ-GER.IG@%>ыгад VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxSg3+Use/NG+Err/Dial:@U.CONJ-GER.IG@%>ыгас VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxPl1+Use/NG+Err/Dial:@U.CONJ-GER.IG@%>ыганым VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxPl2+Use/NG+Err/Dial:@U.CONJ-GER.IG@%>ыганыд VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ill+PxPl3+Use/NG+Err/Dial:@U.CONJ-GER.IG@%>ыганыс VERB_K ;
 @U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ins:@U.CONJ-GER.IG@%>{иі}гӧн PossessiveSuffixes_NoSg1 ; !Ӧнія коми кыв, 2000: 360
 !351 Pl
 @U.CONJ-GER.IG@+Der+Der/Ig+Ger+Sg+Ins+Use/NG+Err/Orth-e-not-oe:@U.CONJ-GER.IG@%>{иі}ген PossessiveSuffixes_NoSg1 ; !2018-0129
-@U.CONJ-GER.IG@+Der+Der/IgonMoz+Ger:@U.CONJ-GER.IG@%>{иі}гӧн%>моз K ; !
-@U.CONJ-GER.IG@+Der+Der/IgonMoz+Ger+Use/NG+Err/Orth-e-not-oe:@U.CONJ-GER.IG@%>{иі}ген%>моз K ; !
+@U.CONJ-GER.IG@+Der+Der/IgonMoz+Ger:@U.CONJ-GER.IG@%>{иі}гӧн%>моз VERB_K ; !
+@U.CONJ-GER.IG@+Der+Der/IgonMoz+Ger+Use/NG+Err/Orth-e-not-oe:@U.CONJ-GER.IG@%>{иі}ген%>моз VERB_K ; !
 @U.CONJ-GER.IG@+Der+Der/IgMoz+Ger:@U.CONJ-GER.IG@%>{иі}гмоз PossessiveSuffixes_NoSg1 ; !371
-@U.CONJ-GER.IG@+Der+Der/IgSor+Ger:@U.CONJ-GER.IG@%>{иі}гсор K ;
-@U.CONJ-GER.IG@+Der+Der/IgSor+Ger+Ins:@U.CONJ-GER.IG@%>{иі}гсорӧн K ;
-@U.CONJ-GER.IG@+Der+Der/IgSor+Ger+Ins+Use/NG+Err/Orth-e-not-oe:@U.CONJ-GER.IG@%>{иі}гсорен K ;
-@U.CONJ-GER.IG@+Der+Der/IgTyr+Ger:@U.CONJ-GER.IG@%>{иі}гтыр K ;
+@U.CONJ-GER.IG@+Der+Der/IgSor+Ger:@U.CONJ-GER.IG@%>{иі}гсор VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/IgSor+Ger+Ins:@U.CONJ-GER.IG@%>{иі}гсорӧн VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/IgSor+Ger+Ins+Use/NG+Err/Orth-e-not-oe:@U.CONJ-GER.IG@%>{иі}гсорен VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/IgTyr+Ger:@U.CONJ-GER.IG@%>{иі}гтыр VERB_K ;
 @U.CONJ-GER.IG@+Der+Der/IgTyrji+Ger:@U.CONJ-GER.IG@%>{иі}гтырйи PossessiveSuffixes_NoSg1 ; !374
-@U.CONJ-GER.IG@+Der+Der/IgTyrja+Ger:@U.CONJ-GER.IG@%>{иі}гтыръя K ;
+@U.CONJ-GER.IG@+Der+Der/IgTyrja+Ger:@U.CONJ-GER.IG@%>{иі}гтыръя VERB_K ;
 @U.CONJ-GER.IG@+Der+Der/IgChozh+Ger:@U.CONJ-GER.IG@%>{иі}гчӧж PossessiveSuffixes_NoSg1 ; !377
-@U.CONJ-GER.IG@+Der+Der/IgChozh+Ger+Ins:@U.CONJ-GER.IG@%>{иі}гчӧжӧн K ; !
+@U.CONJ-GER.IG@+Der+Der/IgChozh+Ger+Ins:@U.CONJ-GER.IG@%>{иі}гчӧжӧн VERB_K ; !
 
 @U.CONJ-GER.IG@+Der+Der/IgChozh+Ger+Use/NG+Err/Orth-e-not-oe:@U.CONJ-GER.IG@%>{иі}гчеж PossessiveSuffixes_NoSg1 ; !377
-@U.CONJ-GER.IG@+Der+Der/IgChozh+Ger+Ins+Use/NG+Err/Orth-e-not-oe:@U.CONJ-GER.IG@%>{иі}гчежен K ; !
+@U.CONJ-GER.IG@+Der+Der/IgChozh+Ger+Ins+Use/NG+Err/Orth-e-not-oe:@U.CONJ-GER.IG@%>{иі}гчежен VERB_K ; !
 @U.CONJ-GER.IG@+Der+Der/IgKosti+Ger:@U.CONJ-GER.IG@%>{иі}гкості PossessiveSuffixes_NoSg1 ; !352, 379
 @U.CONJ-GER.IG@+Der+Der/IgKosta+Ger:@U.CONJ-GER.IG@%>{иі}гкоста PossessiveSuffixes_NoSg1 ;
-@U.CONJ-GER.IG@+Der+Der/IgKezhlo+Ger:@U.CONJ-GER.IG@%>{иі}гкежлӧ K ; !393
-@U.CONJ-GER.IG@+Der+Der/IgKezhlo+Ger+Use/NG+Err/Dial:@U.CONJ-GER.IG@%>{иі}гкежлэ K ; !393
+@U.CONJ-GER.IG@+Der+Der/IgKezhlo+Ger:@U.CONJ-GER.IG@%>{иі}гкежлӧ VERB_K ; !393
+@U.CONJ-GER.IG@+Der+Der/IgKezhlo+Ger+Use/NG+Err/Dial:@U.CONJ-GER.IG@%>{иі}гкежлэ VERB_K ; !393
 
-@U.CONJ-GER.IG@+Der+Der/IgKezhlo+Ger+PxSg1:@U.CONJ-GER.IG@%>{иі}гкежлам K ;
-@U.CONJ-GER.IG@+Der+Der/IgKezhlo+Ger+PxSg2:@U.CONJ-GER.IG@%>{иі}гкежлад K ;
-@U.CONJ-GER.IG@+Der+Der/IgKezhlo+Ger+PxSg3:@U.CONJ-GER.IG@%>{иі}гкежлас K ;
-@U.CONJ-GER.IG@+Der+Der/IgKezhlo+Ger+PxPl1:@U.CONJ-GER.IG@%>{иі}гкежланым K ;
-@U.CONJ-GER.IG@+Der+Der/IgKezhlo+Ger+PxPl2:@U.CONJ-GER.IG@%>{иі}гкежланыд K ;
-@U.CONJ-GER.IG@+Der+Der/IgKezhlo+Ger+PxPl3:@U.CONJ-GER.IG@%>{иі}гкежланыс K ;
+@U.CONJ-GER.IG@+Der+Der/IgKezhlo+Ger+PxSg1:@U.CONJ-GER.IG@%>{иі}гкежлам VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/IgKezhlo+Ger+PxSg2:@U.CONJ-GER.IG@%>{иі}гкежлад VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/IgKezhlo+Ger+PxSg3:@U.CONJ-GER.IG@%>{иі}гкежлас VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/IgKezhlo+Ger+PxPl1:@U.CONJ-GER.IG@%>{иі}гкежланым VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/IgKezhlo+Ger+PxPl2:@U.CONJ-GER.IG@%>{иі}гкежланыд VERB_K ;
+@U.CONJ-GER.IG@+Der+Der/IgKezhlo+Ger+PxPl3:@U.CONJ-GER.IG@%>{иі}гкежланыс VERB_K ;
 
 
 LEXICON VerbDer_ONSET_А !!≈ * **@CODE@** 
  VerbDer_ONSET_А/Я ;
 LEXICON VerbDer_ONSET_А/Я !!≈ * **@CODE@** 
-+Der+Der/Ana+Adv:%>{ая}на K ;
-+Der+Der/Anaa+Adv:%>{ая}наа K ; !Adding after attestation in Komi Grammar 2000: 381
++Der+Der/Ana+Adv:%>{ая}на VERB_K ;
++Der+Der/Anaa+Adv:%>{ая}наа VERB_K ; !Adding after attestation in Komi Grammar 2000: 381
 +Der+Der/An+Der/moz+Ger:%>{ая}нмоз PossessiveSuffixes_NoSg1 ; !383
 
 LEXICON VerbDer_ONSET_Я !!≈ * **@CODE@**
@@ -790,14 +790,14 @@ LEXICON Verb_ynyDer
 
 @C.CONJ-INF@@C.CONJ-POSS@+Der/ysht+Dimin:@C.CONJ-INF@@C.CONJ-POSS@ышт V_ШУНЫ ; !!кольмыштны
 !+Der/ysht+Dimin+V:%>ышт  VerbConj ;
-!+V+Der/ysht+Dimin+V+Inf:%>ыштны K ;
+!+V+Der/ysht+Dimin+V+Inf:%>ыштны VERB_K ;
 !@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@+V+Der/ysht+Dimin+V+ConNeg:@U.CONJ-CONNEG.YES@0@U.CONJ-NX.PL@@U.CONJ-PX.3@%>ыштны WordEnd ;
 !@U.CONJ-CONNEG.YES@+V+Der/ysht+Dimin+V+ConNeg:@U.CONJ-CONNEG.YES@%>ышт WordEnd ;
 !+V+Der/ysht+Dimin+V+Imprt+Sg2:%>ышт WordEnd ;
 
 @C.CONJ-INF@@C.CONJ-POSS@+Der/ysht+Dimin+Der/ly:@C.CONJ-INF@@C.CONJ-POSS@ыштл V_ВОЛЫНЫ ;   !!??кольмыштлыны
 !+V+Der/ysht+Dimin+V+Der/ly+V:%>ыштл  VerbConj ;
-!+V+Der/ysht+Dimin+V+Der/ly+V+Inf:%>ыштлыны K ;
+!+V+Der/ysht+Dimin+V+Der/ly+V+Inf:%>ыштлыны VERB_K ;
 !@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@+V+Der/ysht+Dimin+V+Der/ly+V+ConNeg:@U.CONJ-CONNEG.YES@0@U.CONJ-NX.PL@@U.CONJ-PX.3@%>ыштлыны WordEnd ;
 !@U.CONJ-CONNEG.YES@+V+Der/ysht+Dimin+V+Der/ly+V+ConNeg:@U.CONJ-CONNEG.YES@%>ыштл WordEnd ;
 !+V+Der/ysht+Dimin+V+Der/ly+V+Imprt+Sg2:%>ыштл WordEnd ;
@@ -808,7 +808,7 @@ LEXICON Verb_ynyDer
 
 @C.CONJ-INF@@C.CONJ-POSS@+Der/lyvly:@C.CONJ-INF@@C.CONJ-POSS@ывл V_ВОЛЫНЫ ; !!тшӧктывлыны
 !+V+Der/yvly+V:%>ывл VerbConj ; ! мынтывл - мынтывлан
-!+V+Der/yvly+V+Inf:%>ывлыны K ;
+!+V+Der/yvly+V+Inf:%>ывлыны VERB_K ;
 !@U.CONJ-CONNEG.YES@+Pl3@U.CONJ-NX.PL@@U.CONJ-PX.3@+V+Der/yvly+V+ConNeg:@U.CONJ-CONNEG.YES@0@U.CONJ-NX.PL@@U.CONJ-PX.3@%>ывлыны WordEnd ;
 !@U.CONJ-CONNEG.YES@+V+Der/yvly+V+ConNeg:@U.CONJ-CONNEG.YES@%>ывлы WordEnd ;
 !+V+Der/yvly+V+Imprt+Sg2:%>ывлы WordEnd ;
@@ -835,16 +835,16 @@ LEXICON Verb_ynyDer
 
 LEXICON VerbDer_V
 ! Page 346 in the Komi grammar
-+Der+Der/mysjt+Ger:%>мысьт K ; ! gerund (after the action) !353
-+Der+Der/mysj+Ger:%>мысь K ; ! !353
++Der+Der/mysjt+Ger:%>мысьт VERB_K ; ! gerund (after the action) !353
++Der+Der/mysj+Ger:%>мысь VERB_K ; ! !353
 @U.CONJ-GER.VTER@+VTer:@U.CONJ-GER.VTER@%>тӧдз PossessiveSuffixes_NoSg1 ; !396
 @U.CONJ-GER.VMON@+Der+Der/mwn:@U.CONJ-GER.VMON@%>мӧн PossessiveSuffixes_NoSg1 ; !399-403 REmove +Ger 2023-06-09
 +Der+Der/mwnja:%>мӧнъя WordEnd ; !399-403 REmove +Ger 2023-06-09
-+Der+Der/Abe+A:%>тӧм A_ ;
-+VAbess+Der+Der/lun+N:%>тӧм%>лун N_ ;
+@C.CONJ-INF@+Der+Der/Abe+A:@C.CONJ-INF@%>тӧм A_ ;
+@C.CONJ-INF@+VAbess+Der+Der/lun+N:@C.CONJ-INF@%>тӧм%>лун N_ ;
 @U.CONJ-GER.VCAR@+VCar:@U.CONJ-GER.VCAR@%>тӧг PossessiveSuffixes_NoSg1 ; ! 390
-+Der+Car+Use/NG+Err/Orth+Ger:%>тӧгъя K ; !387
-+Der+Car+Use/NG+Err/Orth+Ger:%>тӧга K ; !387
++Der+Car+Use/NG+Err/Orth+Ger:%>тӧгъя VERB_K ; !387
++Der+Car+Use/NG+Err/Orth+Ger:%>тӧга VERB_K ; !387
 @U.CONJ-GER.VCARMoz@+Der+Car+Der/moz+Ger:@U.CONJ-GER.VCARMoz@%>тӧгмоз PossessiveSuffixes_NoSg1 ; !
 +Der+Der/Adv+Adv:%>ӧм%>выв ADV_ ; !2091-06-03
 +Der+Der/Adv+Adv+Err/Dial:%>ӧм%>выл^C2V ADV_ ; !2091-06-03
@@ -854,10 +854,10 @@ LEXICON VerbDer_V
 @U.CONJ-GER.VTER@+Use/NG+Err/Orth-e-not-oe+VTer:@U.CONJ-GER.VTER@%>тэдз PossessiveSuffixes_NoSg1 ; !396
 @U.CONJ-GER.VMON@+Use/NG+Err/Orth-e-not-oe+Der+Der/mwn:@U.CONJ-GER.VMON@%>мен PossessiveSuffixes_NoSg1 ; !399-403 REmove +Ger 2023-06-09
 +Use/NG+Err/Orth-e-not-oe+Der+Der/mwnja:%>менъя WordEnd ; !399-403 REmove +Ger 2023-06-09
-+Use/NG+Err/Orth-e-not-oe+Der+Der/Abe+A:%>тэм A_ ;
+@C.CONJ-INF@+Use/NG+Err/Orth-e-not-oe+Der+Der/Abe+A:@C.CONJ-INF@%>тэм A_ ;
 @U.CONJ-GER.VCAR@+Use/NG+Err/Orth-e-not-oe+VCar:@U.CONJ-GER.VCAR@%>тэг PossessiveSuffixes_NoSg1 ; ! 390
-+Use/NG+Err/Orth-e-not-oe+Der+Car+Err/Orth+Ger:%>тэгъя K ; !387
-+Use/NG+Err/Orth-e-not-oe+Der+Car+Err/Orth+Ger:%>тэга K ; !387
++Use/NG+Err/Orth-e-not-oe+Der+Car+Err/Orth+Ger:%>тэгъя VERB_K ; !387
++Use/NG+Err/Orth-e-not-oe+Der+Car+Err/Orth+Ger:%>тэга VERB_K ; !387
 @U.CONJ-GER.VCARMoz@+Use/NG+Err/Orth-e-not-oe+Der+Car+Der/moz+Ger:@U.CONJ-GER.VCARMoz@%>тэгмоз PossessiveSuffixes_NoSg1 ; !
 
 
@@ -870,8 +870,8 @@ LEXICON VerbDer_V
 
 LEXICON EM !!≈ * **@CODE@** эм:эм. Ending in -ӧсь.
 @U.CONJ-MX.IND@+Ind+Prs+Sg3:@U.CONJ-MX.IND@ WordEnd ;
-+Ind+Prs+Pl3:%>ӧсь K ; ! Plural predicative ;
-+Use/NG+Err/Orth-e-not-oe+Ind+Prs+Pl3:%>эсь K ; ! Plural predicative ;
++Ind+Prs+Pl3:%>ӧсь VERB_K ; ! Plural predicative ;
++Use/NG+Err/Orth-e-not-oe+Ind+Prs+Pl3:%>эсь VERB_K ; ! Plural predicative ;
 
 LEXICON EMYSHT ! эмышт "is a little / are a few"
 @U.CONJ-MX.IND@+Ind+Prs+Sg3:@U.CONJ-MX.IND@ WordEnd ;
@@ -879,5 +879,8 @@ LEXICON EMYSHT ! эмышт "is a little / are a few"
  
 LEXICON GER ! 3 lexicalised +Ger forms.
 +V+Ger: WordEnd ;
+
+LEXICON VERB_K
+@D.DECL-NX@ K ;
 
 ! vim: set ft=xfst-lexc:
