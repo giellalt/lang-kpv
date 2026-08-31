@@ -776,7 +776,7 @@ Multichar_Symbols
 @U.CONJ-VAL.TV@          !!≈ | **@CODE@** | Flags used with serial verbs: VAL = Valence
 @U.CONJ-VAL.IV@          !!≈ | **@CODE@** | Flags used with serial verbs: VAL = Valence
 @U.CONJ-INF.YES@         !!≈ | **@CODE@** |  INF = Infinitive
-@U.CONJ-INF.NO@          !!≈ | **@CODE@** |  INF = Infinitive
+@U.CONJ-INF.NO@          !!≈ | **@CODE@** |  INF = Finite
 @U.CONJ-TX.FUT@          !!≈ | **@CODE@** |  TX = tense
 @U.CONJ-TX.PRES@         !!≈ | **@CODE@** |  TX = tense
 @U.CONJ-TX.PRET1@        !!≈ | **@CODE@** |  TX = tense
@@ -802,6 +802,7 @@ Multichar_Symbols
 @U.CONJ-PX.3@            !!≈ | **@CODE@** | PX = person
 @C.CONJ-VAL@             !!≈ | **@CODE@** | Removal
 @C.CONJ-INF@             !!≈ | **@CODE@** | Removal
+@D.CONJ-INF@             !!≈ | **@CODE@** | Disallow
 @C.CONJ-TX@              !!≈ | **@CODE@** | Removal
 @C.CONJ-MX@              !!≈ | **@CODE@** | Removal
 @C.CONJ-GER@             !!≈ | **@CODE@** | Removal
@@ -945,10 +946,17 @@ LEXICON ABS_
 !! ### Compounding
 
 LEXICON R
+!@U.DECL-CX@
+@D.CONJ-INF@@R.DECL-NX.SG@:@D.CONJ-INF@@R.DECL-NX.SG@ R_1 ;
+@D.CONJ-INF@@R.DECL-NX.PL@:@D.CONJ-INF@@R.DECL-NX.PL@ R_1 ;
+LEXICON R_1
 !! @LEXNAME@
 +Cmp#:-# nouns ;
 +Cmp#:-# N_NEWWORDS ;
 !+Cmp#:-# nouns-deverbal ;
++Cmp#:-# verbs-A2M ;
++Cmp#:-# verbs-N2END ;
++Cmp#:-# V_NEWWORDS ;
 
 LEXICON Serial-Verbs
 !! @LEXNAME@
