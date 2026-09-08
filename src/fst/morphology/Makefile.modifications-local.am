@@ -35,4 +35,6 @@ else
 generated_files/urj-Cyrl-$(GLANG)-%.lexc:
 	$(AM_V_at)$(MKDIR_P) generated_files
 	$(AM_C_GEN)echo "! Missing shared common data" > $@
+	$(AM_V_at)echo "LEXICON urj-Cyrl-$(GLANG)-$*-error" >> $@
+	$(AM_V_at)echo "0 # ;" >> $@
 endif
