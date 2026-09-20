@@ -262,7 +262,8 @@ Multichar_Symbols
  +Err/Orth-paragogic-j !!≈ * **@CODE@** 
  +Err/Orth-paragogic-k !!≈ * **@CODE@** 
  +Err/Orth-paragogic-m !!≈ * **@CODE@** 
- +Err/Orth-paragogic-t !!≈ * **@CODE@** 
+ +Err/Orth-paragogic-t !!≈ * **@CODE@**
+ +Err/Orth-pxsg1       !!≈ * **@CODE@** some spatio-temporal relations use ZERO where a paradigmatic pxsg1 might be expected
  +Err/Orth-l-in-v !!≈ * **@CODE@** followed by vowel, yet v
  +Err/Orth-l-to-v-in-new !!≈ * **@CODE@** 
  +Err/Orth-l-to-vowel-lengthening !!≈ * **@CODE@** 
@@ -270,7 +271,7 @@ Multichar_Symbols
  +Err/Orth-e-not-oe !!≈ * **@CODE@** this covers the dialect forms, i.e., there will be an adjustment to Dial/...
  +Err/Orth-o-not-oe !!≈ * **@CODE@** 
  +Err/Orth-downcased-prop !!≈ * **@CODE@**
-
+ +Err/Orth-i-not-y !!≈ * **@CODE@** for example, infinitive ending ны (->) ні
  +Err/Dial                !!≈ * **@CODE@** e.g. тэг instead of тӧг
  +Err/Lex                 !!≈ * **@CODE@** substandard, not in normative fst, no  normative lemma помсьыны
  +Use/-Spell              !!≈ * **@CODE@** 
@@ -559,6 +560,7 @@ Multichar_Symbols
 +Der/NomAg  !!≈ * **@CODE@** 
 +Duration  !!≈ * **@CODE@**
 +Der/Ig  !!≈ * **@CODE@** иг
++Der/IgDyrji  !!≈ * **@CODE@** {иі}гдырйи
 +Der/IgKezhlo  !!≈ * **@CODE@**
 +Der/IgKosta  !!≈ * **@CODE@**
 +Der/IgKosti  !!≈ * **@CODE@**
@@ -863,6 +865,7 @@ Multichar_Symbols
  @U.DECL-PX.PL2@         !!≈ | **@CODE@** | unify possessor
  @U.DECL-PX.PL3@         !!≈ | **@CODE@** | unify possessor
  @D.DECL-PX@         !!≈ | **@CODE@** | disallow possessor
+ @D.DECL-NX@         !!≈ | **@CODE@** | disallow NP number
 @U.DECL-DX.INDEF@        !!≈ | **@CODE@** | declension type
 @U.DECL-DX.PX@           !!≈ | **@CODE@** | declension type
 @C.DECL-NX@              !!≈ | **@CODE@** | Removal
