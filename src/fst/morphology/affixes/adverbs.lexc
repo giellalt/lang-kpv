@@ -22,6 +22,17 @@ LEXICON GER_
 LEXICON ADV_IS_GER_IGON ! these are checked as gerunds in +Der/Ig
 +V+Der+Der/Ig+Ins: ADV_ ;
 
+LEXICON ADV_DYRJI
+: K ;
++PxSg1:%>ӧ K ;
++PxSg1:%>ӧй K ;
++PxSg1:%>ым K ;
++PxSg2:%>ыд K ;
++PxSg3:%>ыс K ;
++PxPl1:%>ным K ;
++PxPl2:%>ныд K ;
++PxPl3:%>ныс K ;
+
 !2018-10-21!LEXICON ADV_IS_GER_IGTYRJI ! these are checked as gerunds in +Der/Ig
 !2018-10-21!+V+Der+Der/Ig+Der+Der/tyrji: ADV_ ;
 
@@ -241,7 +252,20 @@ LEXICON ADV_IS_INE
 +Ine: SPAT_COMPARATIVE ;
 
 LEXICON ADV_IS_INS
-+Ins: COMPARATIVE ;
++Sg+Ins:%>ӧн COMPARATIVE ;
++Sg+Ins+PxSg1:%>нам COMPARATIVE ;
++Sg+Ins+PxSg2:%>над COMPARATIVE ;
++Sg+Ins+PxSg3:%>нас COMPARATIVE ;
++Sg+Ins+PxPl1:%>наным COMPARATIVE ;
++Sg+Ins+PxPl2:%>наныд COMPARATIVE ;
++Sg+Ins+PxPl3:%>наныс COMPARATIVE ;
++Pl+Ins:%>ъяс%>ӧн COMPARATIVE ;
++Pl+Ins+PxSg1:%>ъяс%>нам COMPARATIVE ;
++Pl+Ins+PxSg2:%>ъяс%>над COMPARATIVE ;
++Pl+Ins+PxSg3:%>ъяс%>нас COMPARATIVE ;
++Pl+Ins+PxPl1:%>ъяс%>наным COMPARATIVE ;
++Pl+Ins+PxPl2:%>ъяс%>наныд COMPARATIVE ;
++Pl+Ins+PxPl3:%>ъяс%>наныс COMPARATIVE ;
 
 LEXICON ADV_IS_PRL
 +Prl: K ;
