@@ -1,6 +1,9 @@
 
 LEXICON adverbs
 
+лунбыдӧн+Adv:лун#быд ADV_IS_INS ;
+рытбыдӧн+Adv:рыт#быд ADV_IS_INS ;
+
 абуджык+Adv:абуджык ADV_DEG_  "vähemmän (määrittelee adjektiiveja)" ;
 абутӧма+Adv:абутӧма ADV_  "" ;
 авъяа+Adv:авъяа ADV_  "" ;
@@ -12,6 +15,7 @@ LEXICON adverbs
 азыма+Adv:азыма ADV_  "ahnaasti (liekeistä)" ;
 аминь+Adv:аминь ADV_DEG_  "" ;
 арбыд+Adv:арбыд ADV_  "koko syksyn" ;
+арбыдӧн+Adv:ар#быд ADV_IS_INS  "koko syksyn" ;
 арладор+Adv:арладор ADV_  "" ;
 арлыдвыв+Adv:арлыдвы^л2 ADV_L  "tulla täysi-ikäiseksi" ;
 арнас+Adv:арнас ADV_  "syksyllä" ;
@@ -36,6 +40,7 @@ LEXICON adverbs
 асъядор+Adv:асъядор ADV_  "aamunkoitteessa" ;
 асъяпом+Adv:асъяпом ADV_  "" ;
 асывбыд+Adv:асывбыд ADV_  "koko aamun" ;
+асывбыдӧн+Adv:асыв#быд ADV_IS_INS  "" ;
 асывводзладор+Adv:асывводзладор ADV_  "" ;
 асыввывладор+Adv:асыввывладор ADV_  "" ;
 асывдор+Adv:асывдор ADV_  "" ;
@@ -298,6 +303,7 @@ LEXICON adverbs
 виш+Adv:виш ADV_  "" ;
 !20230609_во% вуджмӧн+Adv:во% вуджмӧн ADV_IS_GER_MON  "" ;
 вобыд+Adv:вобыд ADV_  "" ;
+вобыдӧн+Adv:во#быд ADV_IS_INS  "" ;
 воддзаысь+Adv:воддзаысь ADV_ITER_  "" ;
 воддзаӧн+Adv:воддзаӧн ADV_IS_INS  "" ;
 водз+Adv:водз ADV_  "aikaisin" ;
@@ -344,7 +350,7 @@ LEXICON adverbs
 вожка+Adv:вожка ADV_  "" ;
 вой-вой+Adv:вой-вой ADV_  "" ;
 войбыд+Adv:войбыд ADV_  "koko yön" ;
-войбыдӧн+Adv:войбыдӧн ADV_IS_INS  "" ;
+войбыдӧн+Adv:вой#быд ADV_IS_INS  "" ;
 войвывланьынджык+Adv:войвывланьынджык ADV_  "pohjoisemmas" ;
 войдӧр+Adv:войдӧр ADV_  "aikaisemmin; ensin" ;
 войдӧрлун+Adv:войдӧрлун ADV_  "toissapäivänä" ;
@@ -432,6 +438,7 @@ LEXICON adverbs
 гирйӧн-гарйӧн+Adv:гирйӧн-гарйӧн ADV_IS_INS  "" ;
 гласӧн+Adv:гласӧн ADV_IS_INS  "" ;
 гожӧмбыд+Adv:гожӧмбыд ADV_  "koko kesän" ;
+гожӧмбыдӧн+Adv:гожӧм#быд ADV_IS_INS  "koko kesän" ;
 гожӧмнас+Adv:гожӧмнас ADV_  "kesällä" ;
 гоз-мӧд+Adv:гоз-мӧд ADV_  "" ;
 гоз-мӧдысь+Adv:гоз-мӧдысь ADV_ITER_  "" ;
@@ -786,7 +793,7 @@ LEXICON adverbs
 инӧ-честьӧ+Adv:инӧ-честьӧ ADV_  "" ;
 инӧн-ладӧн+Adv:инӧн-ладӧн ADV_IS_INS  "" ;
 исправнӧ+Adv:исправнӧ ADV_  "" ;
-ичӧт% дырйи+Adv:ичӧт% дырйи ADV_  "lapsuudessa" ;
+ичӧт% дырйи+Adv:ичӧт% дырйи ADV_DYRJI  "lapsuudessa" ;
 ичӧтвывсянь+Adv:ичӧтвывсянь ADV_IS_EGR  "" ;
 ичӧтдырсянь+Adv:ичӧтдырсянь ADV_IS_EGR  "" ;
 ичӧтикаӧн+Adv:ичӧтикаӧн ADV_IS_INS  "" ;
@@ -1270,9 +1277,7 @@ LEXICON adverbs
 мудзӧма+Adv:мудзӧма ADV_  "" ;
 мудзӧмвылысь+Adv:мудзӧмвылысь ADV_  "" ;
 мудзӧмпырысь+Adv:мудзӧмпырысь ADV_  "" ;
-мукӧддырйи+Adv:мукӧддырйи ADV_  "toisinaan" ;
-мукӧддырйи+Adv:мукӧддырйи ADV_  "" ;
-мукӧддырйыс+Adv:мукӧддырйыс ADV_  "" ;
+мукӧддырйи+Adv:мукӧддырйи ADV_DYRJI  "toisinaan" ;
 мукӧдлаӧ+Adv:мукӧдлаӧ ADV_IS_ILL  "" ;
 мукӧдлаысь+Adv:мукӧдлаысь ADV_IS_ELA  "" ;
 мукӧдлаын+Adv:мукӧдлаын ADV_IS_INE  "toisissa paikoissa" ;
@@ -1508,6 +1513,7 @@ LEXICON adverbs
 окотапырысь+Adv:окотапырысь ADV_  "mielellään" ;
 окотапырысь+Adv:окотапырысь ADV_  "" ;
 олӧмбыд+Adv:олӧмбыд ADV_  "" ;
+олӧмбыдӧн+Adv:олӧм#быд ADV_IS_INS  "" ;
 омӧлика+Adv:омӧлика ADV_  "" ;
 омӧля+Adv:омӧля ADV_  "pahasti" ;
 омӧля+Adv:омӧля ADV_  "" ;
@@ -1722,6 +1728,7 @@ LEXICON adverbs
 рытсёрӧдз+Adv:рытсёрӧдз ADV_IS_TER  "" ;
 рытъянас+Adv:рытъянас ADV_  "iltaisin" ;
 рытывбыд+Adv:рытывбыд ADV_  "koko illan" ;
+рытывбыдӧн+Adv:рытыв#быд ADV_IS_INS  "koko illan" ;
 рӧд+Adv:рӧд ADV_  "" ;
 рӧдйӧн+Adv:рӧдйӧн ADV_IS_INS  "" ;
 !20230609_рӧдтӧмӧн+Adv:рӧдтӧмӧн ADV_IS_GER_OMON  "" ;
@@ -1964,7 +1971,7 @@ LEXICON adverbs
 тожӧ+Adv:тожӧ ADV_  "" ;
 !20230609_тойтмымӧн+Adv:тойтмымӧн ADV_IS_GER_MON  "" ;
 !20230609_тойтмытӧдз+Adv:тойтмытӧдз ADV_VTER  "" ;
-том% дырйи+Adv:том% дырйи ADV_  "nuorena" ;
+том% дырйи+Adv:том% дырйи ADV_DYRJI  "nuorena" ;
 томвывсянь+Adv:томвывсянь ADV_IS_EGR  "" ;
 томвылысь+Adv:томвылысь ADV_  "" ;
 !20230609_томлалӧмӧн+Adv:томлалӧмӧн ADV_IS_GER_OMON  "" ;
@@ -2002,6 +2009,7 @@ LEXICON adverbs
 туйтӧма+Adv:туйтӧма ADV_  "" ;
 тулыс-ар+Adv:тулыс-ар ADV_  "" ;
 тулысбыд+Adv:тулысбыд ADV_  "" ;
+тулысбыдӧн+Adv:тулыс#быд ADV_IS_INS  "" ;
 тулысъяпом+Adv:тулысъяпом ADV_  "" ;
 тунагай+Adv:тунагай ADV_  "" ;
 турбина+Adv:турбина ADV_  "" ;
@@ -2065,8 +2073,7 @@ LEXICON adverbs
 !20230609_тіравмӧн+Adv:тіравмӧн ADV_IS_GER_MON  "" ;
 тіралігтырйи+Adv:тіралігтырйи ADV_  "" ;
 тӧвбыд+Adv:тӧвбыд ADV_  "" ;
-тӧвбыдӧн+Adv:тӧвбыдӧн ADV_  "koko talven" ;
-тӧвбыдӧн+Adv:тӧвбыдӧн ADV_  "" ;
+тӧвбыдӧн+Adv:тӧв#быд ADV_IS_INS  "koko talven" ;
 тӧвйигкежлӧ+Adv:тӧвйигкежлӧ ADV_IS_ILL  "" ;
 !20230609_тӧвйымӧн+Adv:тӧвйымӧн ADV_IS_GER_MON  "" ;
 тӧвнас+Adv:тӧвнас ADV_  "talvella" ;
@@ -2087,7 +2094,6 @@ LEXICON adverbs
 тӧдчытӧма+Adv:тӧдчытӧма ADV_  "" ;
 тӧдӧмысь+Adv:тӧдӧмысь ADV_  "tietysti" ;
 тӧдӧмысь+Adv:тӧдӧмысь ADV_IS_ELA  "" ;
-тӧдӧмысь+Adv:тӧдӧмысь ADV_  "" ;
 !20230609_тӧдӧмӧн+Adv:тӧдӧмӧн ADV_IS_GER_OMON  "" ;
 !20230609_тӧждысьтӧг+Adv:тӧждысьтӧг ADV_IS_GER_TOG  "" ;
 тӧждысьтӧмпырысь+Adv:тӧждысьтӧмпырысь ADV_  "" ;
@@ -2097,14 +2103,13 @@ LEXICON adverbs
 тӧлктӧг-ладтӧг+Adv:тӧлктӧг-ладтӧг ADV_IS_N_TOG  "" ;
 тӧлктӧма+Adv:тӧлктӧма ADV_  "" ;
 тӧлкӧн+Adv:тӧлкӧн ADV_  "viisaasti" ;
-тӧлкӧн+Adv:тӧлкӧн ADV_  "" ;
 тӧлкӧн-бурӧн+Adv:тӧлкӧн-бурӧн ADV_  "" ;
 тӧлкӧн-ладӧн+Adv:тӧлкӧн-ладӧн ADV_  "" ;
 !20230609_тӧлкӧн-сямӧн+Adv:тӧлкӧн-сямӧн ADV_IS_GER_MON  "" ;
 тӧлысьбыд+Adv:тӧлысьбыд ADV_  "" ;
-тӧлысьнас+Adv:тӧлысьнас ADV_  "kuukausittain" ;
+тӧлысьбыдӧн+Adv:тӧлысь#быд ADV_IS_INS  "" ;
+тӧлысьӧн+Adv:тӧлысь ADV_IS_INS  "kuukausittain" ;
 тӧндзи+Adv:тӧндзи ADV_  "äsken" ;
-тӧндзи+Adv:тӧндзи ADV_  "" ;
 тӧнлун+Adv:тӧнлун ADV_  "eilen" ;
 !20230609_тӧрмӧн+Adv:тӧрмӧн ADV_IS_GER_MON  "" ;
 тӧрыт+Adv:тӧрыт ADV_TEMP_  "eilen illalla" ;
