@@ -643,7 +643,7 @@ LEXICON Verb_nyDer_ONSET_CONS !!≈ * **@CODE@** Derivation onset in consonant
 @C.CONJ-INF@@C.CONJ-POSS@+Der/chy+Der/ysht+Der/lyvly:@C.CONJ-INF@@C.CONJ-POSS@чыштлывл V_ВОЛЫНЫ ; !! босьтчыштлывлыны
 @C.CONJ-INF@@C.CONJ-POSS@+Der/chy+Der/ysht:@C.CONJ-INF@@C.CONJ-POSS@чышт V_ШУНЫ ; !!босьтчыштны
 
-@U.CONJ-GER.MYSTI@+Der+Der/Mysti+Ger:@U.CONJ-GER.MYSTI@%>мысти VerbEnd ; ! gerund (after the action)
+!@U.CONJ-GER.MYSTI@+Der+Der/Mysti+Ger:@U.CONJ-GER.MYSTI@%>мысти VerbEnd ; ! gerund (after the action)
 
 
 LEXICON Verb_nyDer_ONSET_VOW !!≈ * **@CODE@** Derivation onset	in vowel
@@ -849,6 +849,7 @@ LEXICON VerbDer_V
 ! Page 346 in the Komi grammar
 +Der+Der/mysjt+Ger:%>мысьт VERB_K ; ! gerund (after the action) !353
 +Der+Der/mysj+Ger:%>мысь VERB_K ; ! !353
+@U.CONJ-GER.MYSTI@+Der+Der/Mysti+Ger:@U.CONJ-GER.MYSTI@%>мысти VerbEnd ; ! gerund (after the action)
 @U.CONJ-GER.VTER@+VTer:@U.CONJ-GER.VTER@%>тӧдз PossessiveSuffixes_NoSg1 ; !396
 @U.CONJ-GER.VMON@+Der+Der/mwn:@U.CONJ-GER.VMON@%>мӧн PossessiveSuffixes_NoSg1 ; !399-403 REmove +Ger 2023-06-09
 +Der+Der/mwnja:%>мӧнъя WordEnd ; !399-403 REmove +Ger 2023-06-09
