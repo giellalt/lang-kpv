@@ -208,13 +208,15 @@ Rules
 
 "j to hard sign after consonant"
 !! **Rule: @RULENAME@**
- %^й2:ъ <=> [ б | в | г | д | ж | з | к | м | н | п | р | т | с | ш ] _ %> [ %{ая%}: ] ;
+ %^й2:ъ <=> [ б | в | г | д | ж | з | к | м | н | п | р | т | с | ш ] _ %> [ %{ая%}: | э:] ;
 !!€ кыв^й2%>%{ая%}#
 !!€ кывъ%>я#
 !!€ кӧс^й2%>%{ая%}#
 !!€ кӧсъ%>я#
 !!€ пыш^й2>{ая}с>ны
 !!€ пышъ>яс>ны
+!!€ кӧс^й2>э
+!!€ кӧсъ>е
 
 "l deletion ALSO tripple letter"
 !! **Rule: @RULENAME@**
@@ -353,11 +355,13 @@ Rules
  И2:й <=> Vow %- _ #  ;
 
 "Dialect э for ӧ in э:е"
- э:е <=> [CnsBeforeCyri | й: | ь:] %> (%-) _ ;
+ э:е <=> [CnsBeforeCyri | %^й2: | ь:] %> (%-) _ ;
 !! клуб+N+Sg+Err/Dial+Ill **club/kerho**
 !!€ клуб%>э
 !!€ клуб%>еx
      д з %> _ ;
+     
+!к ӧ с ^й2:ъ > э:е    
 
 "Disallow l to vowel after other than l"
 !! **Rule: @RULENAME@**
