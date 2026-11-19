@@ -21,6 +21,7 @@ Alphabet
 %^й2:й
 !%^К2 %^Л2 %^М2 %^Т2 %^Ь2 
 %^И2:и !!= * @CODE@
+%^И3:и !!= * @CODE@
 %{иі%}:и	!!= * @CODE@ for soft and hard
 %{иі%}:і	!!= * @CODE@ for soft and hard
 %{ая%}:а	!!= * @CODE@ for soft and hard
@@ -367,3 +368,8 @@ Rules
 !! **Rule: @RULENAME@**
 %^C2V:0 /<=
      [Cns - %^л2:|Vows ] _ %>  ;
+
+"Disallow И3 after Cns"
+!! **Rule: @RULENAME@**
+%^И3:и /<=
+     Cns %- _ #  ;
